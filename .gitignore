@@ -1,0 +1,52 @@
+# Repository hygiene: version proof evidence; ignore disposable workspace.
+# Preserve certificates regardless of size, format or reproducibility.
+# External pre-rewrite recovery bundle and maps stay local.
+/.history-backups/
+
+# Workstation and editor state
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Credentials and local environments; keep deliberately public examples
+.env
+.env.*
+!.env.example
+!.env.template
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Dependencies and historical Lean build caches, not toolchain/lock manifests
+node_modules/
+.lake/
+/scripts/lean/lake-packages/
+
+# Supervisor state and raw CLI logs, including former provider launchers
+/scripts/loop-codex/
+/scripts/loop-claude/
+/scripts/loop-gemini/
+/scripts/loop-grok/
+/scripts/loop/*.lock
+
+# Explicitly disposable work areas only. Programs should write temporary run
+# data here, then deliberately promote reviewed evidence into tracked folders.
+.generated/
+.scratch/
+.run-logs/
+.cache/
+
+# Proof evidence is tracked regardless of extension, size or reproducibility.
+# Recommended tracked folders: certificates/, inputs/, fixtures/ and reports/.
+# No blanket *.json, *.txt, output-*, step-* or certificate-name exclusions.
+# Existing legacy certificate paths stay tracked without being moved first.
