@@ -19,6 +19,10 @@ def require(condition, message):
 
 
 def main():
+    require((ROOT / 'PROMPT.md').is_file(), 'Missing sole research prompt: PROMPT.md')
+    for vendor in ('codex', 'claude', 'gemini', 'grok'):
+        require((ROOT / f'loop-{vendor}.sh').is_file(), f'Missing root launcher: loop-{vendor}.sh')
+    require(not re.search(r'^## (?:Initial|Recurrent) prompt', (ROOT / 'README.md').read_text(), re.M), 'README must link to PROMPT.md instead of maintaining runnable prompts.')
     dag = (ROOT / 'DAG.md').read_text()
     blocks = re.findall(r'```mermaid\n(.*?)```', dag, re.S)
     require(len(blocks) == 1, 'DAG.md must contain exactly one Mermaid graph.')
