@@ -2,7 +2,7 @@
 
 This is the sole canonical graph: node declarations, file targets, and direct dependency edges are maintained only in the Mermaid block below. `A --> B` means that B uses A as a mathematical input (including a definition or a reused proof argument). Plain-text citations inside proofs are not a second graph. Shared standard inputs are documented in [foundations](foundations/notation-and-inputs.md), outside this graph of proved results.
 
-All 57 lemmas and Corollary 32a are represented. Corollary 32a proves an equivalence only; all-degree positivity and RH remain unproved and are not established input nodes. Where diagram links are unavailable, the `click` lines provide the relative file paths.
+All 62 lemmas and Corollary 32a are represented. Corollary 32a proves an equivalence only; all-degree positivity and RH remain unproved and are not established input nodes. Where diagram links are unavailable, the `click` lines provide the relative file paths.
 
 ```mermaid
 flowchart TD
@@ -122,6 +122,16 @@ flowchart TD
   click L056 "lemmas/L056-every-finite-comparison-base-hankel-matrix-is-positive-definite.md"
   L057["L057: any fixed number of Hankel tests can coexist with nonreal zeros"]
   click L057 "lemmas/L057-any-fixed-number-of-hankel-tests-can-coexist-with-nonreal-zeros.md"
+  L058["L058: heat deformation and local zero motion"]
+  click L058 "lemmas/L058-heat-deformation-and-local-zero-motion.md"
+  L059["L059: local splitting at a real double zero"]
+  click L059 "lemmas/L059-local-splitting-at-a-real-double-zero.md"
+  L060["L060: local splitting at a real multiple zero"]
+  click L060 "lemmas/L060-local-splitting-at-a-real-multiple-zero.md"
+  L061["L061: bounded-domain forward continuation"]
+  click L061 "lemmas/L061-bounded-domain-forward-continuation.md"
+  L062["L062: conditional whole-plane forward continuation"]
+  click L062 "lemmas/L062-conditional-whole-plane-forward-continuation.md"
   L002 --> L003
   L001 & L005 --> L006
   L001 & L006 --> L007
@@ -168,4 +178,9 @@ flowchart TD
   L021 & L050 & L051 & L052 & L054 --> L055
   L024 & L030 & L051 & L054 --> L056
   L024 & L025 & L040 & L051 & L055 & L056 --> L057
+  L019 & L020 --> L058
+  L058 --> L059
+  L058 & L059 --> L060
+  L058 & L059 & L060 --> L061
+  L058 & L061 --> L062
 ```

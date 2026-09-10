@@ -2,12 +2,8 @@
 
 STATUS: IN_PROGRESS
 
-Last research result: Lemma 57 (2026-09-09). Documentation reorganized: 2026-09-10.
+Current result: Lemma 62 (2026-09-10) extends forward reality and interior-parameter simplicity to the whole plane, conditional on initial global reality and a covering by bounded domains whose boundaries stay zero-free over the same compact parameter interval. A parameter-mesh test makes a sufficient boundary estimate explicit.
 
-Current task: investigate heat deformation of the exact theta kernel.
+Limitation: compact derivative upper bounds are proved, but the required boundary lower bounds and initial global reality are not. No uniform positive margin across domains is needed. This forward criterion gives no unconditional reality at λ=0.
 
-Blocker: no uniform mechanism establishes all-degree positivity or excludes every nonreal zero of the actual Ξ. Finite certificates do not close this gap.
-
-Next action: Define the heat-deformed transform Ξ_λ(z)=∫_0^∞e^{λu²}K(u)cos(zu)du for real λ. Prove entire z-dependence, smooth/analytic λ-dependence on compact parameter sets, and ∂_λΞ_λ=-∂_z²Ξ_λ with explicit domination. Then derive the local motion law for a simple real zero under λ variation and determine exactly what it can and cannot say about λ=0 without assuming a global real-zero theorem.
-
-Read [GOAL.md](GOAL.md) for the working rules, [PROOF.md](PROOF.md) for the argument, and [DAG.md](DAG.md) to locate needed lemmas. Earlier decisions are in [history/](history/); failed strategies are in [ATTEMPTS/](ATTEMPTS/). This file is replaced with the current state after each attempt, not appended to as a log.
+Next action: Prove a growth bound for the heat-deformed theta transform, uniform on compact real parameter intervals and strong enough to justify a paired Hadamard product for each slice.
