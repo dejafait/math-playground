@@ -1,24 +1,3 @@
-# Lemma 3: reflection orbits in the open critical strip
-
-**Hypotheses.** ζ(ρ)=0 and 0<Re(ρ)<1.
-
-**Conclusion.** The points ρ, conj(ρ), 1-ρ, and 1-conj(ρ) are zeros with equal multiplicities. Some points may coincide.
-
-**Proof.** On this strip the prefactor in the functional equation is holomorphic and nonzero. Indeed, the exponential never vanishes, Γ(1-s) is holomorphic and nonzero since Re(1-s)>0, and sin(πs/2) vanishes only at even integers, none of which lie in the strip. Thus the functional equation preserves zero order under s↦1-s. Apply Lemma 2 for the other images. ∎
-
-**Mathlib.** It's not found on Mathlib.
-
-**Lean proof status.** Validated. Lean 4.33.1, mathlib `v4.33.1`, `lake build Rh.L003` from `scripts/lean`. Kernel axioms: `propext`, `Classical.choice`, `Quot.sound`.
-
-**Lean proof command.**
-
-```
-(cd scripts/lean && lake exe cache get && lake build Rh.L003)
-```
-
-**Lean proof code.**
-
-```lean
 /-
 Lemma 3: reflection orbits in the open critical strip.
 
@@ -262,5 +241,3 @@ end
 
 -- Kernel-axiom audit. Expected: propext, Quot.sound, Classical.choice.
 #print axioms L003
-```
-
