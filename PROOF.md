@@ -597,7 +597,7 @@ For implementation, normalized derivative coefficients of a product obey (fg)_n=
 
 **Hypotheses.** Real interval arithmetic uses downward rounding for lower endpoints, upward rounding for upper endpoints, and exact integer inputs. Decimal exp is correctly rounded to nearest, and each output is widened to its adjacent representable neighbors. Overflows, underflows, subnormals, invalid operations, and division by an interval containing zero are rejected. π is bounded by the rational alternating-series calculation described below.
 
-**Conclusion.** The interval operations and Taylor recurrences in `certify_hankel.py` enclose the corresponding exact real quantities, subject to the stated arithmetic contracts. Summing the Lemma 36 panels and adding [0,E] from Lemma 35 encloses each actual moment.
+**Conclusion.** The interval operations and Taylor recurrences in `scripts/hankel/certify_hankel.py` enclose the corresponding exact real quantities, subject to the stated arithmetic contracts. Summing the Lemma 36 panels and adding [0,E] from Lemma 35 encloses each actual moment.
 
 **Proof.** Addition uses sums of the two lower and the two upper endpoints. Multiplication takes the minimum and maximum of the four endpoint products. Division multiplies by [1/upper,1/lower] for a divisor not containing zero. Directed rounding enlarges these exact interval operations. The exponential is increasing; correctly rounded endpoint exponentials lie between their adjacent representable neighbors, so widening encloses the exact endpoint values. Induction over expression evaluation and the finite derivative recurrences in Lemma 36 proves inclusion throughout. The implementation uses `copy_negate` and `copy_abs` for exact endpoint sign changes and rejects binary floating-point inputs.
 
@@ -615,11 +615,11 @@ The arithmetic contract is Python's documented `decimal` contract: basic operati
 
 In particular H_1 is positive definite. This is a computer-assisted finite partial result, not RH.
 
-**Proof/certificate.** `certify_hankel.py` implements the explicit four-term theta integrands on [0,2], the eighth-order panel enclosure of Lemma 36, and the common tail of Lemma 35. It uses 70-digit outward arithmetic and the rational π enclosure of Lemma 37. The reproducible command is:
+**Proof/certificate.** `scripts/hankel/certify_hankel.py` implements the explicit four-term theta integrands on [0,2], the eighth-order panel enclosure of Lemma 36, and the common tail of Lemma 35. It uses 70-digit outward arithmetic and the rational π enclosure of Lemma 37. The reproducible command is:
 
-`python3 certify_hankel.py --panels 32 > hankel-certificate.json`
+`python3 scripts/hankel/certify_hankel.py --panels 32 > scripts/hankel/hankel-certificate.json`
 
-The saved output encloses S_2 in [0.0000371688839777867…, 0.0000371763145938135…] and D in [3.389399530870064…·10^{-15}, 4.331547435010644…·10^{-15}]. These ellipses abbreviate the exact rational decimal endpoints stored in `hankel-certificate.json`; the asserted looser bounds 3.38·10^{-15} and 4.34·10^{-15} contain those full endpoints strictly. The complete quadrature remainders and common tail enclosure are also saved there. The code propagates the full moment intervals through S_2,S_3,S_4 and then S_2S_4-S_3². By Lemmas 35–37, this interval contains the exact determinant. Its lower endpoint is positive, and S_2>0 is both analytically proved in Lemma 27 and enclosed positively here. Completing the square as in Lemma 33 proves positive definiteness.
+The saved output encloses S_2 in [0.0000371688839777867…, 0.0000371763145938135…] and D in [3.389399530870064…·10^{-15}, 4.331547435010644…·10^{-15}]. These ellipses abbreviate the exact rational decimal endpoints stored in `scripts/hankel/hankel-certificate.json`; the asserted looser bounds 3.38·10^{-15} and 4.34·10^{-15} contain those full endpoints strictly. The complete quadrature remainders and common tail enclosure are also saved there. The code propagates the full moment intervals through S_2,S_3,S_4 and then S_2S_4-S_3². By Lemmas 35–37, this interval contains the exact determinant. Its lower endpoint is positive, and S_2>0 is both analytically proved in Lemma 27 and enclosed positively here. Completing the square as in Lemma 33 proves positive definiteness.
 
 Validation included exact rational containment checks for signed interval arithmetic, an exact exponential-derivative recurrence check at zero, and overlap with a separately evaluated expanded determinant expression. That second expression has a wider interval containing zero; the sign certificate uses the first, rigorously enclosing expression. No unvalidated decimal quadrature or zero computation enters the conclusion. ∎
 
@@ -661,9 +661,9 @@ If all three are positive, H_2 is positive definite.
 
 This is another finite computer-assisted partial result, not an all-degree positivity theorem.
 
-**Proof/certificate.** The separate script `certify_hankel_next.py` imports the already inspected interval and Taylor operations from `certify_hankel.py`, integrates moments through M_12, uses E_6 from Lemma 39, and computes S_1,…,S_6 with the recurrence of Lemma 40. Run:
+**Proof/certificate.** The separate script `scripts/hankel/certify_hankel_next.py` imports the already inspected interval and Taylor operations from `scripts/hankel/certify_hankel.py`, integrates moments through M_12, uses E_6 from Lemma 39, and computes S_1,…,S_6 with the recurrence of Lemma 40. Run:
 
-`python3 -B certify_hankel_next.py --panels 128 > hankel-h2-128.json`
+`python3 -B scripts/hankel/certify_hankel_next.py --panels 128 > scripts/hankel/hankel-h2-128.json`
 
 The saved exact decimal interval endpoints give the following looser rational enclosures for the three leading principal minors:
 

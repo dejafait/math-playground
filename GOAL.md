@@ -28,6 +28,8 @@ If the argument only proves a weakening, STATUS stays IN_PROGRESS and the weaken
 
 ## Working rules
 
+- Never create new files at the repository root unless explicitly requested by the user. Place new scripts and their outputs under `scripts/<topic>/`, creating a clearly named topic folder as needed (for example, `scripts/hankel/`). Place other new files in an appropriate subfolder.
+
 - After every attempt, append a dated entry to PROGRESS.md and keep PROOF.md as the current best write-up.
 - Prefer a lemma DAG: small claims, then a short assembly.
 - If an attempt dies, write WHY IT FAILS in one paragraph. Do not delete failed attempts; move them to ATTEMPTS/.
