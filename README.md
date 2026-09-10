@@ -1,11 +1,29 @@
 # Riemann hypothesis research notebook
 
-Read [GOAL.md](GOAL.md) for the goal and canonical working rules, [PROGRESS.md](PROGRESS.md) to resume, and [PROOF.md](PROOF.md) for the mathematical overview. Root [DAG.md](DAG.md) contains the sole graph definition and links to all lemma files. Research decisions live in [history/](history/) and failed strategies in [ATTEMPTS/](ATTEMPTS/).
+An informal, checkable research notebook; RH remains unproved. [GOAL.md](GOAL.md) defines the rules, [PROOF.md](PROOF.md) summarizes the argument, [DAG.md](DAG.md) links the lemmas, and [PROGRESS.md](PROGRESS.md) records where to resume. Every provider reads the same [PROMPT.md](PROMPT.md).
 
-## Initial prompt
+Install Python 3.9+ and your chosen CLI, then sign in with your subscription account:
 
-Read GOAL.md and PROGRESS.md. Run the informal research loop under the working rules in GOAL.md. Continue from the current Next action in PROGRESS.md. Store full results in individual lemma files and update the sole graph in root DAG.md. Keep the proof overview and current progress short. Record decisions in history/ and failed strategies in ATTEMPTS/, linking to proofs. Do not use Lean or an API key. Work only in this directory. Never claim PROVED unless all success criteria are met.
+| CLI | Installation guide | Sign in once |
+| --- | --- | --- |
+| OpenAI Codex | [Codex CLI](https://developers.openai.com/codex/cli) | `codex login` (ChatGPT) |
+| Anthropic Claude Code | [Claude Code](https://code.claude.com/docs/en/setup) | `claude auth login` (Claude subscription) |
+| Google Gemini CLI | [Gemini CLI](https://geminicli.com/docs/get-started/installation/) | `gemini`, then choose **Sign in with Google** |
+| xAI Grok Build | [Grok Build](https://docs.x.ai/build/overview) | `grok login` (subscribed account) |
 
-## Recurrent prompt
+Keep paid extra usage and automatic credit top-ups disabled in your account. Do not configure API keys or custom paid providers. The scripts check local authentication settings; they cannot inspect or disable account-side billing options. Existing extra-credit balances may be consumed by the service after included usage runs out.
 
-Read GOAL.md and PROGRESS.md and follow GOAL.md's current storage and validation rules. Execute the current Next action into the appropriate individual lemma file(s); maintain root DAG.md, replace the current state in PROGRESS.md, and append a brief decision to history/. Update PROOF.md only if the overall argument changes. Run the documentation structure check. Then take the new next action and repeat until rate-limited or STATUS is PROVED. Do not stop after one lemma or wait for me.
+Start any one of these commands; the loop continues until you stop it or the notebook reaches `STATUS: PROVED`:
+
+```bash
+bash loop-codex.sh
+bash loop-claude.sh
+bash loop-gemini.sh
+bash loop-grok.sh
+```
+
+Each command is an alternative. Ctrl+C stops the active process and loop. Logs and persistent retry state live in the matching `scripts/loop-<vendor>/` folder and are ignored by Git; research decisions remain in `history/`. A shared lock prevents simultaneous notebook edits, while a provider waiting for quota releases the notebook for another provider.
+
+Quotas trigger a wait until an unambiguous reported reset time plus a buffer, or increasing retries capped at hourly when no reset time is available. Restarting preserves the wait. Authentication/configuration failures stop with an explanation. Repeated unclassified failures or runs without recorded progress also stop for inspection. The computer and terminal session must remain running for automatic retries.
+
+Use `bash loop-codex.sh --check` for a local setup check, `--dry-run` to inspect the command, `--once` for one step, or `--verbose` to stream CLI events; the same options work for all four launchers. [Runner details and tests](scripts/loop/README.md).
