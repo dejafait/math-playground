@@ -287,7 +287,7 @@ If the argument only proves a weakening, STATUS stays IN_PROGRESS and the weaken
 ## 2026-09-09 — Lemma 38: first mixed determinant certified positive
 
 - Tried and proved with a computer-assisted interval certificate: 3.38·10^{-15}<D=S_2S_4-S_3²<4.34·10^{-15}; hence H_1 is positive definite.
-- Validation: ran `python3 certify_hankel.py --panels 32 > hankel-certificate.json` under Python 3.14.7. Outward arithmetic, exact rational π bounds, every panel remainder, and both infinite-tail bounds are included. Exact rational self-checks pass. An alternative expanded expression encloses the result more loosely and is not used for the sign.
+- Validation: ran `python3 scripts/hankel/certify_hankel.py --panels 32 > scripts/hankel/hankel-certificate.json` under Python 3.14.7. Outward arithmetic, exact rational π bounds, every panel remainder, and both infinite-tail bounds are included. Exact rational self-checks pass. An alternative expanded expression encloses the result more loosely and is not used for the sign.
 - Where it broke: no failure for H_1. This says nothing by itself about all H_d and does not satisfy the RH goal. STATUS remains IN_PROGRESS.
 - Next lemma: extend the truncation bound to moments through M_12, derive a recurrence for S_k through S_6, and attempt a certified H_2 test.
 
@@ -308,7 +308,7 @@ If the argument only proves a weakening, STATUS stays IN_PROGRESS and the weaken
 ## 2026-09-09 — Lemma 41: H_2 certified positive definite
 
 - Tried and proved with an interval certificate: the three leading principal minors of H_2 are positive and 3.10·10^{-31}<det H_2<3.14·10^{-31}.
-- Validation: ran `python3 -B certify_hankel_next.py --panels 128 > hankel-h2-128.json`. The code retains every moment enclosure, quadrature remainder, higher tail, Newton sum, and principal-minor interval. The H_1 script/output were preserved. The 128-panel enclosure succeeded without refinement.
+- Validation: ran `python3 -B scripts/hankel/certify_hankel_next.py --panels 128 > scripts/hankel/hankel-h2-128.json`. The code retains every moment enclosure, quadrature remainder, higher tail, Newton sum, and principal-minor interval. The H_1 script/output were preserved. The 128-panel enclosure succeeded without refinement.
 - Where it broke: no failure for H_2. Checking this matrix does not establish the infinite family in Corollary 32a; STATUS stays IN_PROGRESS.
 - Next lemma: expose the structure of arbitrary finite determinants using a rigorously convergent Cauchy–Binet expansion, then use that structure to assess whether further finite tests can be connected analytically.
 
