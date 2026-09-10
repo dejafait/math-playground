@@ -1,6 +1,6 @@
 """Finite interval certificate for det H_1, not a proof of RH.
 
-Uses only Python's standard library. See PROOF.md, Lemmas 33, 35–36.
+Uses only Python's standard library. See root DAG.md for the files of Lemmas 33, 35–36.
 Every endpoint operation is outward rounded; exp is widened by one
 representable neighbor on either side of its correctly rounded result.
 """
