@@ -8,7 +8,7 @@ F(λ,z)≠0 for all λ∈[a,b] and z∈∂D_n, for every n.             (1)
 
 A sufficient quantitative condition for (1) is the boundary test proved below. Neither (1) nor initial global reality is established here for the theta family on any specified interval.
 
-## Proof of the exhaustion criterion
+**Proof.**
 
 For each n the hypotheses of Lemma 61 hold: the domain is bounded and open, its boundary is zero-free throughout the interval, and every initial zero in it is real by the global initial assumption. That lemma gives reality, the finite constant multiplicity count, and simplicity strictly after a within D_n.
 
@@ -57,3 +57,17 @@ Even if the boundary condition were established, global reality at a is a separa
 This analytic result needs no numerical certificate. Check the quantifiers: each domain must work for the same entire interval; each zero is covered at its own fixed parameter; simplicity excludes only the initial endpoint. The derivative test uses a real parameter segment contained in [a,b] and a bound valid on the full spatial boundary. Compactness yields a positive minimum only after nonvanishing is assumed or proved.
 
 Formalization would require applying Lemma 61 to each member of a covering family, the covering argument for arbitrary zeros, the integral derivative bound from Lemma 58, the fundamental theorem of calculus and reverse triangle inequality, and the extreme-value theorem on the parameter-boundary product. No infinite zero count is declared finite, and no theta boundary certificate or initial real configuration is a proved input.
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

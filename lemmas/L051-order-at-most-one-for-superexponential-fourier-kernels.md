@@ -9,3 +9,17 @@
 max_{|z|≤R}|F(z)|≤2C∫_0^∞exp(Ru-c e^{2u})du=C∫_1^∞X^{R/2-1}e^{-cX}dX.
 
 With m=ceil(R/2), bound X^{R/2-1}≤X^m and extend the integral to (0,∞), obtaining C m! c^{-(m+1)}. Taking logarithms and using m!≤m^m gives the asserted upper bound. A finite shift changes only C,c: e^{2|u-t|}≥e^{-2|t|}e^{2|u|}. No zero-location theorem is used. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

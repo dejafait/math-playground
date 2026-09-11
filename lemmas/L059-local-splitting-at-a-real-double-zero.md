@@ -15,7 +15,7 @@ w₋(s)=-sqrt(2)s+cs²+R₋(s),
 
 For 0<t<ε² the two zeros at λ=λ₀+t are distinct, simple, and real, with expansions x₀±sqrt(2t)+ct+O(t^(3/2)). For -ε²<t<0 they are distinct, simple, nonreal conjugates, with expansions x₀±i sqrt(2|t|)+ct+O(|t|^(3/2)). The constants and neighborhoods are local to the hypothetical double zero. This is a conditional statement; no such double zero of the exact family is asserted to exist.
 
-## Proof
+**Proof.**
 
 Lemma 58 supplies joint holomorphy, conjugation for real parameters, and F_λ=-F_zz. Differentiate the latter in z to get F_λz=-F_zzz. Taylor expansion at (λ₀,x₀), writing t=λ-λ₀ and w=z-x₀, therefore has the terms
 
@@ -52,3 +52,17 @@ In increasing λ, this local double collision resolves into real zeros. In decre
 ## Verification and formalization obligations
 
 The proof uses only Lemma 58 and the standard holomorphic implicit function, isolated-zero, and Rouché theorems. The heat sign forces the leading polynomial A(v²/2-1), and substituting v₀²=2 in its first derivative gives c=2B/(3A); these algebraic checks fix both the direction and the drift coefficient. The analytic quotient bound proves a uniform O(|t|^(3/2)) remainder, with no numerical approximation required. Formalization would need the convergent two-variable Taylor rescaling and divisibility, the two implicit branches and their derivative, the bounded removable quotients, the uniform boundary perturbation and multiplicity count, and the conjugation and imaginary-part estimates.
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

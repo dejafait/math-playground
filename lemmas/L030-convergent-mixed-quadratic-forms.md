@@ -9,3 +9,17 @@ Q(q)=Σ_{m,n=0}^d c_mc_n S_{m+n+2}.
 If RH holds, Q(q)≥0 for every real polynomial q. Thus RH implies positive semidefiniteness of every real Hankel matrix H_d=(S_{m+n+2})_{0≤m,n≤d}.
 
 **Proof.** Lemma 24 gives Σ_j|β_j|<∞, hence the β_j are bounded and Σ_j|β_j|²<∞. Any fixed polynomial is bounded on a closed disk containing them, so Σ_j|β_j²q(β_j)²|<∞. Expand the finite polynomial square and interchange only a finite sum with this absolutely convergent series to obtain the identity. The S_k are real by Lemma 25, so Q(q) is real. Under RH all α_j are real and nonzero, hence β_j>0 and every β_j²q(β_j)² is nonnegative. The matrix assertion is precisely the definition of positive semidefiniteness, since cᵀH_dc=Q(q). Without RH, replacing q(β_j)² by |q(β_j)|² would change the expression and would not prove the stated sign. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

@@ -19,3 +19,17 @@ e_1=b+2Re(c)>0, e_2=2b Re(c)+|c|²>0, e_3=b|c|²>0.
 Also P(iy)=(1+y²/25)|1+y²/a²|²>0 for real y: the second factor cannot vanish because a² is nonreal. The additional zeros of cos(z/100) are exactly z=100π(n+1/2), n∈Z, all real with absolute value ≥50π>4. Their paired reciprocal-power sums converge and are positive for every k≥1 by comparison with Σ_{n≥0}(n+1/2)^{-2k}. Thus adding them preserves strict positivity of all T_k. Multiplicities, if any roots coincided, would simply add; here the listed sets are disjoint.
 
 Multiplying P's alternating coefficients by the alternating cosine series shows that every even coefficient of F has sign (-1)^n and nonzero magnitude: its coefficient after removing this sign is a sum of positive terms, including the constant-coefficient contribution from P. Moreover F(iy)=P(iy)cosh(y/100)>0. Finally |F(z)|≤C(1+|z|)^6e^{|z|/100}, proving order at most 1. This example does not assert a positive Fourier-kernel representation for F. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

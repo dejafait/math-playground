@@ -8,7 +8,7 @@
 
 This is another finite computer-assisted partial result, not an all-degree positivity theorem.
 
-**Proof/certificate.** The separate script `scripts/hankel/certify_hankel_next.py` imports the already inspected interval and Taylor operations from `scripts/hankel/certify_hankel.py`, integrates moments through M_12, uses E_6 from Lemma 39, and computes S_1,…,S_6 with the recurrence of Lemma 40. Run:
+**Proof.** The separate script `scripts/hankel/certify_hankel_next.py` imports the already inspected interval and Taylor operations from `scripts/hankel/certify_hankel.py`, integrates moments through M_12, uses E_6 from Lemma 39, and computes S_1,…,S_6 with the recurrence of Lemma 40. Run:
 
 `python3 -B scripts/hankel/certify_hankel_next.py --panels 128 > scripts/hankel/hankel-h2-128.json`
 
@@ -19,3 +19,17 @@ The saved exact decimal interval endpoints give the following looser rational en
 - 3.10·10^{-31} < D_2 < 3.14·10^{-31}.
 
 Every lower endpoint is positive. The finite Taylor enclosure, the higher-moment tails, and the interval recurrence are justified by Lemmas 36–40. Thus the true three leading minors are positive and Lemma 40 proves positive definiteness. No extra panel refinement was needed at this degree. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

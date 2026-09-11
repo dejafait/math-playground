@@ -11,3 +11,17 @@ F_a(z)/G(z)=[cosh(a/10)+cos(az)]/[cosh(a/10)+1]
 tends to 1 locally uniformly as a tends to zero. In particular each fixed Taylor coefficient of F_a tends to that of G. This also follows directly without differentiating a limit: integrate the finite binomial expansion for each shifted moment of g, whose coefficients are continuous functions of a and cosh(a/10).
 
 For each fixed k, the normalized coefficients e_j and the finite Newton recurrence in Lemma 40 show that the reciprocal power sum T_k(F_a) tends to T_k(G). Hence every fixed finite determinant det H_d(F_a) is continuous at a=0. Lemma 56 makes det H_d(G)>0 for each d. For the finitely many d=0,…,N, choose a common sufficiently small positive a_N≤1/100 so that all those determinants stay positive. Sylvester's criterion, or successive completion of squares, then makes each H_d(F_{a_N}) positive definite. Yet Lemma 55 supplies its nonreal zeros (2k+1)π/a_N±i/10 and all the other stated properties. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

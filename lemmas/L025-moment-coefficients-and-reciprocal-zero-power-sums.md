@@ -17,3 +17,17 @@ log(Ξ(z)/M_0)=-Σ_{k≥1}S_k z^{2k}/k,
 using the local analytic logarithm that is zero at 0. Conjugation symmetry makes the left side's Taylor coefficients real, proving S_k real. The moment expansion gives Ξ(z)/M_0=1-a z²+b z⁴+O(z⁶), where a=M_2/(2M_0) and b=M_4/(24M_0). Its logarithm is -a z²+(b-a²/2)z⁴+O(z⁶). Comparing coefficients proves the formulas. Under RH every α_j is real and nonzero by Lemma 18, so every term of each S_k is positive. The asserted nonnegative sign and the necessary moment inequality follow conditionally.
 
 The unconditional Cauchy–Schwarz inequality in Lemma 21 gives M_2²≤M_0M_4, which is a lower bound and does not give the needed upper bound M_0M_4≤3M_2². ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.
