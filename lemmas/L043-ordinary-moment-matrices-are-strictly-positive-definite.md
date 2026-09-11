@@ -9,3 +9,17 @@
 Σ_{m,n=0}^d c_mc_nM_{2m+2n}=∫_0^∞K(u)q(u²)²du.
 
 It converges by the fixed moment bounds and is nonnegative. If the vector is nonzero, q is a nonzero polynomial and has only finitely many real roots. Thus q(u²)² is strictly positive on some open interval in (0,∞), where K is strictly positive, and the integral is strictly positive. This is a genuine modulus-free square of a real-valued function; unlike the reciprocal-node expressions, its arguments are real. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

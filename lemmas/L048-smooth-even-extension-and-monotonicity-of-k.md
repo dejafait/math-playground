@@ -9,3 +9,17 @@
 A(-u)=A(u)+sinh(u/2).
 
 Differentiate this identity twice. Since (sinh(u/2))''=sinh(u/2)/4, applying 2D²-1/2 cancels the extra term and gives K(-u)=K(u). Positivity on u≥0 is Lemma 19 and extends by evenness; differentiating evenness at zero gives K'(0)=0. Lemma 47 gives the strict curvature estimate for u≥0. Evenness extends it to u≤0 with |u|. For u>0, integrate (log K)''<0 from 0 to u, using (log K)'(0)=0, to get (log K)'(u)<0 and hence K'(u)<0. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

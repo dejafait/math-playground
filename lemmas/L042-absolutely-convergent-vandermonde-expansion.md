@@ -13,3 +13,17 @@ and the sum converges absolutely. These are algebraic squares, not modulus squar
 Let R be a positive upper bound for all |β_j|, which exists by Σ|β_j|<∞. The absolute value of a summand is at most (2R)^{d(d+1)}Π_r|β_{j_r}|². The sum over increasing (d+1)-tuples of the latter products is at most (Σ_j|β_j|²)^{d+1}/(d+1)!, finite. Thus the infinite determinant expansion is absolutely convergent. Each entry of the truncated matrix converges absolutely to the corresponding S_{m+n+2}, and the determinant is a polynomial in finitely many entries, hence continuous. Passing N to infinity proves the identity. Repeated equal nodes contribute zero when both are selected, exactly as the Vandermonde factor prescribes; their other multiplicity contributions are counted by the indices.
 
 Under RH all β_j are positive real. Lemma 27 gives infinitely many zeros, each of finite multiplicity, hence infinitely many distinct nodes. Every summand is nonnegative and at least one tuple of d+1 distinct nodes has strictly positive contribution. This proves strict positivity conditionally. For nonreal nodes, even one conjugate pair can make a square negative, as Lemma 34 demonstrates. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

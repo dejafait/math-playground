@@ -13,3 +13,17 @@ F(z)=[2+(e^{4iz}+e^{-4iz})/2]G(z)=(2+cos(4z))G(z).
 Let b=log(2+√3)>0. Since (2+√3)^{-1}=2-√3, cosh b=2. Also cosh 2>1+2=3>2 by its power series, so b<2 by strict monotonicity of cosh on (0,∞). Put z_0=(π+ib)/4. Then cos(4z_0)=cos(π+ib)=-cosh b=-2, so F(z_0)=0, and 0<Im(z_0)=b/4<1/2.
 
 Evenness of h gives F(z)=2∫_0^∞h(u)cos(zu)du. The same dominated-series and cosh arguments as in Lemma 21 give the stated moment signs and positive imaginary-axis values. F is not identically zero because F(0)>0. This is a counterexample to the listed sufficient-condition guesses, not to RH or to a theorem using further arithmetic properties of K. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

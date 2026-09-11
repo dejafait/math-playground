@@ -19,3 +19,17 @@ At u=0 the first boundary term is -A'(0), while the second is zero because sin 0
 ∫_0^∞K(u)cos(zu)du=-2A'(0)-2(z²+1/4)J(z)=Ξ(z),
 
 using A'(0)=-1/4. All steps hold directly for complex z; no unsupported contour movement or extension of a real inequality occurs. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

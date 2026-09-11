@@ -11,3 +11,17 @@ Let F_a be the Fourier transform of h_a.
 **Proof.** The proof of Lemma 50 is uniform when 0<a≤1/100: the bounds e^{2a}<2 and sinh(2a)<1/40 only improve as a decreases. The three normalized weights here have maximum ratio 2c_a<4<18, so the identical curvature proof applies. Lemma 51 supplies the entire order. Positivity and evenness of the kernel give imaginary-axis positivity and nonzero alternating even coefficients by the same dominated cosine expansion as Lemma 21, applied to 2h_a on [0,∞).
 
 The shift formula gives F_a(z)=[c_a+cos(az)]G(z)/(c_a+1). As in Lemma 52, every prefactor zero is exactly (2k+1)π/a±i/10. Its real part has absolute value ≥100π>4 and its imaginary part has absolute value 1/10. Lemma 54 places every zero of G on the real axis with absolute value >4. Products of entire functions have precisely the union of their zero sets, with added multiplicities, so these two lists locate all F_a zeros. All the stated properties hold simultaneously, but the displayed prefactor zeros are nonreal. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

@@ -13,3 +13,17 @@ By integrating the derivative of x^{-s} on [n,n+1], the absolute value is at mos
 M^{-δ}+R∫_N^M x^{-δ-1}dx ≤ (1+R/δ)N^{-δ}.
 
 This uniform Cauchy bound proves local uniform convergence; the Weierstrass theorem on locally uniform limits of holomorphic functions gives holomorphicity. On Re(s)>1, absolute convergence permits separating the even terms and gives η(s)=ζ(s)-2·2^{-s}ζ(s). The multiplier q(s)=1-2^{1-s} vanishes at 1, with q'(1)=log 2. Lemma 8 shows that q(s)ζ(s) has removable value log 2 at 1 and is holomorphic throughout Re(s)>0 after filling it in. The identity theorem on that connected half-plane proves the identity everywhere there. No division at a zero of q is used. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

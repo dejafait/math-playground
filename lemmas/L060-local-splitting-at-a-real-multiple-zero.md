@@ -12,7 +12,7 @@ Its m roots α₁<⋯<α_m are real and simple, symmetric about zero; zero is a 
 
 For real 0<t<ε² all m nearby zeros are simple and real, with locations x₀+α_k sqrt(t)+O(t). For -ε²<t<0 they are simple with locations x₀+iα_k sqrt(|t|)+O(|t|). If m is even, all m are nonreal, in m/2 conjugate pairs. If m is odd, exactly one is real and the remaining m-1 form (m-1)/2 nonreal conjugate pairs. The real central zero for odd m is analytic in t through zero. Every neighborhood and bound is local to the assumed multiple zero.
 
-## Proof
+**Proof.**
 
 ### The leading polynomial and its roots
 
@@ -69,3 +69,17 @@ Let v_c denote the branch with v_c(0)=0. The function -v_c(-s) is another root b
 This conditional local theorem does not assert that a multiple zero exists for the exact theta family. It resolves every assumed finite real multiplicity into simple real zeros just above its parameter, and into nonreal pairs (with one real survivor for odd multiplicity) just below. It gives no exclusion of such parameters above zero, no uniform control over infinitely many zeros, and no global reality assertion at λ=0. The all-degree gap in the main argument remains open.
 
 Formalization would require the polynomial coefficient recurrence and interlacing induction with endpoint signs, iteration of the heat equation for mixed derivatives, normally convergent weighted rescaling, the finitely many holomorphic implicit branches with uniform remainder, the Rouché multiplicity count, and the parity/uniqueness proof for the central branch. These are analytic and exact algebraic arguments; no numerical certificate is needed. Lemma 58 supplies the analytic family, and the rescaling and counting method of Lemma 59 is extended with the full general-multiplicity justification above.
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

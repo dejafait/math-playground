@@ -10,3 +10,17 @@ B(R)≤C_1∫_0^∞exp((R+9/2)u-πe^{2u})du
 =(C_1/2)∫_1^∞x^{a-1}e^{-πx}dx,
 
 where a=(R+9/2)/2. Put m=ceil(a). For x≥1, x^{a-1}≤x^m and e^{-πx}≤e^{-x}, so the last expression is at most (C_1/2)Γ(m+1)=(C_1/2)m!. The gamma recurrence, obtained by integration by parts in Euler's integral, gives Γ(m+1)=m!. Since m!≤m^m and m≤R/2+13/4<R/2+4, the asserted logarithmic bound follows after enlarging the constant. The displayed order bound follows by taking two logarithms and dividing by log R. No zero-location information was used. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

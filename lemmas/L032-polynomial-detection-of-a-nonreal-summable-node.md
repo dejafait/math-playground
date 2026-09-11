@@ -15,3 +15,17 @@ q_N(X)=(i/w)(X/w)^N L_w(X) -(i/conj(w))(X/conj(w))^N L_conj(w)(X).
 Its coefficients are real. It equals i/w at w, -i/conj(w) at conj(w), and 0 at every other node in E. Thus the contribution to the form from nodes in E, with multiplicity, is -2μ.
 
 On |X|≤r, the fixed polynomials L_w and L_conj(w) are bounded. Therefore there is C independent of N such that |q_N(X)|≤C(r/|w|)^N=C2^{-N}. The remaining nodes have modulus <r and satisfy Σ|β_j|²<∞ (boundedness plus the original summability). The absolute value of their total contribution is at most C²4^{-N}Σ_{|β_j|<r}|β_j|², tending to zero. The whole form is real by conjugation and absolute convergence. For sufficiently large N it is negative. Conversely, if all β_j are real, each β_j²q(β_j)² is nonnegative, proving the final equivalence. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

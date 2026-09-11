@@ -21,3 +21,17 @@ For x≥0, x²e^{-x}≤4/e²<1. Each pair therefore contributes <72+288/1600=360
 (log h_a)''<[-2+10827/6400]C=-(1973/6400)C<-C/4.
 
 This and the first region prove the uniform conclusion. Smoothness, evenness, positivity, and superexponential decay follow from the explicit positive shifts, as in Lemma 22. Real substitution in the entire Fourier integral gives F_a(z)=[9+cos(az)]G(z)/10; taking z=(π+i log(9+√80))/a makes the prefactor zero. This supplies a global small-shift proof rather than assuming log-concavity is stable under shifts. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

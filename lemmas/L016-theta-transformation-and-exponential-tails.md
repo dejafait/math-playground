@@ -11,3 +11,17 @@ For the tail estimate, termwise j-fold differentiation gives ψ^{(j)}(x)=Σ_{n�
 e^{-πx} Σ_{n≥1}(πn²)^j e^{-π(n²-1)} = C_j e^{-πx}.
 
 The constant is finite since exponential decay dominates every fixed polynomial. These bounds and the Weierstrass uniform convergence test also justify each termwise derivative (or apply the same bounds successively on compact x-intervals in (0,∞)). ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

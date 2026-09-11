@@ -1,6 +1,6 @@
 # What a Lean check would need
 
-This is a future statement inventory only; no Lean is used or written.
+This is a mathematical obligation inventory, not a validation ledger. Lean proofs are developed in catch-up turns under GOAL.md; actual coverage and validation evidence live in each lemma Markdown file. PROGRESS.md is the sole current checkpoint. Unfinished or conditional formalizations remain backlog.
 
 1. The defining Dirichlet series, meromorphic continuation theorem, and functional equation for ζ with their precise domains.
 2. For real σ>1, convergence of Σ n^{-σ}; |μ(n)|≤1; and Σ_{d|n}μ(d)=1 for n=1 and 0 otherwise.

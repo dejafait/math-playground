@@ -11,3 +11,17 @@ The Gaussian Fourier transform and real shifts give
 F(z)=√πe^{-z²/4}[9+cos(z/2)]/10.
 
 For b=log(9+√80)>0, cosh b=9, so z=2π+2ib is a nonreal zero. All transforms and their derivatives are entire by Gaussian exponential-moment domination on compact z-sets. Finally the normalized Gaussian has second moment 1/2 and fourth moment 3/4, so its fourth cumulant is zero. The shift calculation in Lemma 44, now with shift 1/2 and total shifted weight 1/10, gives fourth cumulant (7/100)(1/2)^4=7/1600. Hence T_2=-(7/1600)/12=-7/19200. This demonstrates that strict log-concavity is insufficient on its own; the example does not refute a theorem using the additional theta-scale decay or other specific theta identities. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

@@ -13,3 +13,17 @@ Consider Q(z)=1+z²+z³. Its derivative is z(2+3z). Q(-2)=-3 and Q(-1)=1. Its st
 0<Re(s)=-log|z|=(log(-r))/2<(log 2)/2<1.
 
 This s is nonreal and nonzero because z is nonreal. The displayed factorization gives H(s)=0. The elementary bound log 2<1 follows from ∫_1^2 dx/x<1. No numerical root estimates are used. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

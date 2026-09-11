@@ -13,3 +13,17 @@ Both integrals converge absolutely and locally uniformly on Re(s)>0.
 (2n-1)^{-s}-(2n)^{-s}=s∫_{2n-1}^{2n}x^{-s-1}dx.
 
 Summing through n=N gives η_{2N}(s) on the left. On the right, absolute integrability follows from 0≤w≤1 and ∫_1^∞x^{-σ-1}dx=1/σ; the omitted integral is bounded by (2N+1)^{-σ}/σ. Pass to the limit using Lemma 12 and divide by s≠0. The substitution x=e^u proves the second identity. For Re(s)≥δ>0 the absolute tails are bounded by the corresponding tails of x^{-δ-1} or e^{-δu}; these bounds also give local uniform convergence. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

@@ -35,3 +35,17 @@ again using e³>20. Combining the mean and variance bounds yields
 (log K)''<-4v+9216v²e^{-3v}<-4v(1-108/125)=-(68/125)v.
 
 All sums and derivatives are justified by Lemma 46. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

@@ -18,3 +18,17 @@ Use the elementary bounds π>3 and e³>1+3+9/2+27/6=13, so 2π(e^π-1)>72, provi
 |Ξ(z)-1/2|=2|z²+1/4||J(z)|<33/72=11/24<1/2.
 
 Thus Ξ(z) cannot vanish in that rectangle. Lemma 18 and strip localization put every Ξ zero in |Im(α)|<1/2; applying the rectangle result proves the final assertion. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.
