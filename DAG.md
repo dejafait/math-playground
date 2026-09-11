@@ -2,7 +2,7 @@
 
 This is the sole canonical graph: node declarations, file targets, and direct dependency edges are maintained only in the Mermaid block below. `A --> B` means that B uses A as a mathematical input (including a definition or a reused proof argument). Plain-text citations inside proofs are not a second graph. Shared standard inputs are documented in [foundations](foundations/notation-and-inputs.md), outside this graph of proved results.
 
-All 62 lemmas and Corollary 32a are represented. Corollary 32a proves an equivalence only; all-degree positivity and RH remain unproved and are not established input nodes. Where diagram links are unavailable, the `click` lines provide the relative file paths.
+All 132 lemmas and Corollary 32a are represented. Corollary 32a proves an equivalence only; all-degree positivity and RH remain unproved and are not established input nodes. Where diagram links are unavailable, the `click` lines provide the relative file paths.
 
 ```mermaid
 flowchart TD
@@ -132,6 +132,148 @@ flowchart TD
   click L061 "lemmas/L061-bounded-domain-forward-continuation.md"
   L062["L062: conditional whole-plane forward continuation"]
   click L062 "lemmas/L062-conditional-whole-plane-forward-continuation.md"
+  L063["L063: uniform growth and paired products for heat slices"]
+  click L063 "lemmas/L063-uniform-growth-and-paired-products-for-heat-slices.md"
+  L064["L064: paired-zero interaction and local motion"]
+  click L064 "lemmas/L064-paired-zero-interaction-and-local-motion.md"
+  L065["L065: sign of a nonreal quartet contribution"]
+  click L065 "lemmas/L065-sign-of-a-nonreal-quartet-contribution.md"
+  L066["L066: imaginary motion at a highest simple zero"]
+  click L066 "lemmas/L066-imaginary-motion-at-a-highest-simple-zero.md"
+  L067["L067: conditional motion near a strip supremum"]
+  click L067 "lemmas/L067-conditional-motion-near-a-strip-supremum.md"
+  L068["L068: sparse product with large upward contribution"]
+  click L068 "lemmas/L068-sparse-product-with-large-upward-contribution.md"
+  L069["L069: positive divergence of the full sparse interaction"]
+  click L069 "lemmas/L069-positive-divergence-of-the-full-sparse-interaction.md"
+  L070["L070: vanishing upward contribution at upper sparse zeros"]
+  click L070 "lemmas/L070-vanishing-upward-contribution-at-upper-sparse-zeros.md"
+  L071["L071: quadratically penalized height maxima"]
+  click L071 "lemmas/L071-quadratically-penalized-height-maxima.md"
+  L072["L072: fixed-product obstruction to penalized upward vanishing"]
+  click L072 "lemmas/L072-fixed-product-obstruction-to-penalized-upward-vanishing.md"
+  L073["L073: favorable penalties for upper satellites"]
+  click L073 "lemmas/L073-favorable-penalties-for-upper-satellites.md"
+  L074["L074: finite successor windows cannot sustain upward motion"]
+  click L074 "lemmas/L074-finite-successor-windows-cannot-sustain-upward-motion.md"
+  L075["L075: hidden satellites obstruct all penalty subsequences"]
+  click L075 "lemmas/L075-hidden-satellites-obstruct-all-penalty-subsequences.md"
+  L076["L076: full upward subsequence under bounded local count"]
+  click L076 "lemmas/L076-full-upward-subsequence-under-bounded-local-count.md"
+  L077["L077: full upward subsequence with growing local counts"]
+  click L077 "lemmas/L077-full-upward-subsequence-with-growing-local-counts.md"
+  L078["L078: rate-free upward subsequence at power coordinates"]
+  click L078 "lemmas/L078-rate-free-upward-subsequence-at-power-coordinates.md"
+  L079["L079: rate-free upward averaging for all summable powers"]
+  click L079 "lemmas/L079-rate-free-upward-averaging-for-all-summable-powers.md"
+  L080["L080: upward averaging at logarithmic square-root coordinates"]
+  click L080 "lemmas/L080-upward-averaging-at-logarithmic-square-root-coordinates.md"
+  L081["L081: upward averaging at iterated-log coordinates"]
+  click L081 "lemmas/L081-upward-averaging-at-iterated-log-coordinates.md"
+  L082["L082: upward averaging for monotone square-root multipliers"]
+  click L082 "lemmas/L082-upward-averaging-for-monotone-square-root-multipliers.md"
+  L083["L083: close pairs obstruct unrestricted upward averaging"]
+  click L083 "lemmas/L083-close-pairs-obstruct-unrestricted-upward-averaging.md"
+  L084["L084: upward subsequence from suffix-minimum coordinates"]
+  click L084 "lemmas/L084-upward-subsequence-from-suffix-minimum-coordinates.md"
+  L085["L085: obstruction to height-normalized suffix minima"]
+  click L085 "lemmas/L085-obstruction-to-height-normalized-suffix-minima.md"
+  L086["L086: increment-sensitive upward bound at suffix minima"]
+  click L086 "lemmas/L086-increment-sensitive-upward-bound-at-suffix-minima.md"
+  L087["L087: sparse suffix minima obstruct increment-bound selection"]
+  click L087 "lemmas/L087-sparse-suffix-minima-obstruct-increment-bound-selection.md"
+  L088["L088: actual upward subsequence at sparse suffix minima"]
+  click L088 "lemmas/L088-actual-upward-subsequence-at-sparse-suffix-minima.md"
+  L089["L089: upward averaging at dense suffix minima"]
+  click L089 "lemmas/L089-upward-averaging-at-dense-suffix-minima.md"
+  L090["L090: upward averaging on selected irregular blocks"]
+  click L090 "lemmas/L090-upward-averaging-on-selected-irregular-blocks.md"
+  L091["L091: height-budget selection on irregular blocks"]
+  click L091 "lemmas/L091-height-budget-selection-on-irregular-blocks.md"
+  L092["L092: spacing-sensitive height-budget selection"]
+  click L092 "lemmas/L092-spacing-sensitive-height-budget-selection.md"
+  L093["L093: separated suffix blocks realize the spacing criterion"]
+  click L093 "lemmas/L093-separated-suffix-blocks-realize-the-spacing-criterion.md"
+  L094["L094: exact crowding height-budget selection"]
+  click L094 "lemmas/L094-exact-crowding-height-budget-selection.md"
+  L095["L095: paired suffix blocks realize exact crowding"]
+  click L095 "lemmas/L095-paired-suffix-blocks-realize-exact-crowding.md"
+  L096["L096: selected-subset crowding selection"]
+  click L096 "lemmas/L096-selected-subset-crowding-selection.md"
+  L097["L097: endpoint packets realize subset selection"]
+  click L097 "lemmas/L097-endpoint-packets-realize-subset-selection.md"
+  L098["L098: consecutive packets obstruct optimized subset criteria"]
+  click L098 "lemmas/L098-consecutive-packets-obstruct-optimized-subset-criteria.md"
+  L099["L099: common upward subsequence at consecutive packet endpoints"]
+  click L099 "lemmas/L099-common-upward-subsequence-at-consecutive-packet-endpoints.md"
+  L100["L100: upward averaging for arbitrary prescribed interpolation"]
+  click L100 "lemmas/L100-upward-averaging-for-arbitrary-prescribed-interpolation.md"
+  L101["L101: upward selection inside arbitrary prescribed sets"]
+  click L101 "lemmas/L101-upward-selection-inside-arbitrary-prescribed-sets.md"
+  L102["L102: no common upward subsequence at power coordinates"]
+  click L102 "lemmas/L102-no-common-upward-subsequence-at-power-coordinates.md"
+  L103["L103: unbounded successor gaps do not give common selection"]
+  click L103 "lemmas/L103-unbounded-successor-gaps-do-not-give-common-selection.md"
+  L104["L104: inverse-square criterion for common upward selection"]
+  click L104 "lemmas/L104-inverse-square-criterion-for-common-upward-selection.md"
+  L105["L105: integer-gap criterion for common prescribed selection"]
+  click L105 "lemmas/L105-integer-gap-criterion-for-common-prescribed-selection.md"
+  L106["L106: common selection for general summable coordinates"]
+  click L106 "lemmas/L106-common-selection-for-general-summable-coordinates.md"
+  L107["L107: forward-jump obstruction to upward selection"]
+  click L107 "lemmas/L107-forward-jump-obstruction-to-upward-selection.md"
+  L108["L108: nonexplosion under power gap lower bounds"]
+  click L108 "lemmas/L108-nonexplosion-under-power-gap-lower-bounds.md"
+  L109["L109: nonexplosion for sublinear polynomial cluster counts"]
+  click L109 "lemmas/L109-nonexplosion-for-sublinear-polynomial-cluster-counts.md"
+  L110["L110: nonexplosion for logarithmic cluster counts"]
+  click L110 "lemmas/L110-nonexplosion-for-logarithmic-cluster-counts.md"
+  L111["L111: adaptive payoff for summable linearly bounded clusters"]
+  click L111 "lemmas/L111-adaptive-payoff-for-summable-linearly-bounded-clusters.md"
+  L112["L112: bounded-generator payoff for dyadic spikes"]
+  L113["L113: bounded-generator payoff for arbitrary lacunary masses"]
+  click L112 "lemmas/L112-bounded-generator-payoff-for-dyadic-spikes.md"
+  click L113 "lemmas/L113-bounded-generator-payoff-for-arbitrary-lacunary-masses.md"
+  L114["L114: bounded-generator payoff for separated mass pairs"]
+  click L114 "lemmas/L114-bounded-generator-payoff-for-separated-mass-pairs.md"
+  L115["L115: bounded-generator payoff for separated finite blocks"]
+  click L115 "lemmas/L115-bounded-generator-payoff-for-separated-finite-blocks.md"
+  L116["L116: weak blocks obstruct endpoint-only payoffs"]
+  click L116 "lemmas/L116-weak-blocks-obstruct-endpoint-only-payoffs.md"
+  L117["L117: dyadic block payoffs are equivalent to unrestricted payoffs"]
+  click L117 "lemmas/L117-dyadic-block-payoffs-are-equivalent-to-unrestricted-payoffs.md"
+  L118["L118: finite capacity and summable cover alternative"]
+  click L118 "lemmas/L118-finite-capacity-and-summable-cover-alternative.md"
+  L119["L119: vanishing dual cuts and unrestricted payoffs"]
+  click L119 "lemmas/L119-vanishing-dual-cuts-and-unrestricted-payoffs.md"
+  L120["L120: nonexplosion for unrestricted separated cluster counts"]
+  click L120 "lemmas/L120-nonexplosion-for-unrestricted-separated-cluster-counts.md"
+  L121["L121: exact-distance capacity alternative"]
+  click L121 "lemmas/L121-exact-distance-capacity-alternative.md"
+  L122["L122: vanishing exact-distance cuts for arbitrary coordinates"]
+  click L122 "lemmas/L122-vanishing-exact-distance-cuts-for-arbitrary-coordinates.md"
+  L123["L123: nonexplosion for arbitrary summable coordinates"]
+  click L123 "lemmas/L123-nonexplosion-for-arbitrary-summable-coordinates.md"
+  L124["L124: upward selection for arbitrary bounded heights"]
+  click L124 "lemmas/L124-upward-selection-for-arbitrary-bounded-heights.md"
+  L125["L125: upward selection for strip zero multisets"]
+  click L125 "lemmas/L125-upward-selection-for-strip-zero-multisets.md"
+  L126["L126: fixed-slice motion selection and supremum obstruction"]
+  click L126 "lemmas/L126-fixed-slice-motion-selection-and-supremum-obstruction.md"
+  L127["L127: forward splitting and height at a nonreal multiple zero"]
+  click L127 "lemmas/L127-forward-splitting-and-height-at-a-nonreal-multiple-zero.md"
+  L128["L128: bounded-domain upper-height derivative"]
+  click L128 "lemmas/L128-bounded-domain-upper-height-derivative.md"
+  L129["L129: exterior upward interaction in a horizontal window"]
+  click L129 "lemmas/L129-exterior-upward-interaction-in-a-horizontal-window.md"
+  L130["L130: parameter-uniform reciprocal-square zero tails"]
+  click L130 "lemmas/L130-parameter-uniform-reciprocal-square-zero-tails.md"
+  L131["L131: growing buffers for uniform exterior interaction"]
+  click L131 "lemmas/L131-growing-buffers-for-uniform-exterior-interaction.md"
+  L132["L132: critical buffer sharpness for strip multisets"]
+  click L132 "lemmas/L132-critical-buffer-sharpness-for-strip-multisets.md"
+  L133["L133: local-count exterior interaction and logarithmic buffers"]
+  click L133 "lemmas/L133-local-count-exterior-interaction-and-logarithmic-buffers.md"
   L002 --> L003
   L001 & L005 --> L006
   L001 & L006 --> L007
@@ -183,4 +325,72 @@ flowchart TD
   L058 & L059 --> L060
   L058 & L059 & L060 --> L061
   L058 & L061 --> L062
+  L024 & L058 --> L063
+  L058 & L063 --> L064
+  L064 --> L065
+  L064 --> L066
+  L064 & L066 --> L067
+  L067 --> L068
+  L064 & L068 --> L069
+  L068 --> L070
+  L067 --> L071
+  L067 --> L072
+  L072 --> L073
+  L072 --> L074
+  L072 --> L075
+  L074 --> L076
+  L074 --> L077
+  L074 --> L078
+  L074 & L078 --> L079
+  L074 & L078 --> L080
+  L074 & L078 --> L081
+  L074 & L078 --> L082
+  L074 --> L083
+  L074 --> L084
+  L084 & L085 --> L086
+  L084 --> L087
+  L084 --> L088
+  L084 --> L089
+  L084 --> L090
+  L084 & L090 --> L091
+  L084 & L090 & L091 --> L092
+  L091 & L092 --> L093
+  L084 & L091 & L092 --> L094
+  L092 & L093 & L094 --> L095
+  L084 & L091 & L092 & L094 --> L096
+  L094 & L095 & L096 --> L097
+  L094 & L096 --> L098
+  L084 & L098 --> L099
+  L074 & L078 --> L100
+  L100 --> L101
+  L100 --> L102
+  L100 --> L103
+  L100 --> L104
+  L100 & L104 --> L105
+  L074 & L104 --> L106
+  L106 --> L107
+  L107 --> L108
+  L107 & L108 --> L109
+  L107 & L108 --> L110
+  L107 & L108 --> L111
+  L107 & L111 --> L112
+  L107 & L111 --> L113
+  L107 & L111 --> L114
+  L107 & L111 --> L115
+  L113 --> L116
+  L117 --> L118
+  L118 --> L119
+  L107 & L108 & L111 & L119 --> L120
+  L118 --> L121
+  L121 --> L122
+  L107 & L108 & L122 --> L123
+  L108 & L122 & L123 --> L124
+  L108 & L122 & L124 --> L125
+  L058 & L063 & L067 & L125 --> L126
+  L058 & L060 & L063 & L064 --> L127
+  L058 & L064 & L066 & L127 --> L128
+  L063 & L064 & L067 & L127 --> L129
+  L019 & L058 & L063 --> L130
+  L129 & L130 --> L131
+  L129 --> L133
 ```
