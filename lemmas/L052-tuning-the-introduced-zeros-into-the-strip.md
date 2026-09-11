@@ -15,3 +15,17 @@ All zeros of the prefactor are exactly z=(2k+1)100π±i/10, k∈Z. Thus the intr
 **Proof.** Since 1<c<2, the ratio between any two of the three positive weights is at most 2c<4<18. The proof of Lemma 50 used the weights only through their positivity, normalization, and the ratio bound 18. The same curvature estimates therefore apply without change. The remaining kernel properties are immediate from the positive shifts, and Lemma 51 gives order at most 1.
 
 The Fourier factorization follows by real substitution in absolutely convergent integrals. To solve cos(az)=-c, put w=e^{iaz}≠0. Then w²+2cw+1=0, whose roots are -e^b and -e^{-b} since c=cosh b. Taking all logarithms gives az=(2k+1)π±ib, exactly the listed zeros. There are no other prefactor zeros. Their real parts have absolute value at least 100π>4 and imaginary parts have absolute value 1/10<1/2. The product's other zeros are precisely zeros of G, which require a separate argument. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

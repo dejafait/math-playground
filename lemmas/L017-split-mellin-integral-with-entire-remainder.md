@@ -17,3 +17,17 @@ where all powers use the real logarithm of x.
 Thus Fubini's theorem permits termwise integration. The substitution u=πn²x and Euler's gamma integral give the left side in the conclusion. Split the x-integral at 1. Lemma 16 gives ψ(x)=(x^{-1/2}-1)/2+x^{-1/2}ψ(1/x) for 0<x<1. The elementary part integrates, for σ>1, to 1/(s-1)-1/s. Substituting y=1/x in the remaining part yields ∫_1^∞ψ(y)y^{(1-s)/2}dy/y, completing the identity.
 
 On a compact set of s, both Re(s)/2 and (1-Re(s))/2 are bounded above by some finite A. Lemma 16 bounds the integrand in absolute value by 2C_0e^{-πx}x^{A-1}. Its k-th complex s derivative has the same bound times (log x/2)^k, also integrable for each fixed k. Dominated differentiation proves that I is entire. Reflection just interchanges its two summands, proving I(s)=I(1-s). ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

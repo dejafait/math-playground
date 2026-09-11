@@ -11,3 +11,17 @@ These hypotheses hold for f_n=K_n on u≥0. Even if every ℓ_n'' is negative, (
 **Proof.** The convergence hypotheses justify f'=Σf_n' and f''=Σf_n''. Since f_n''=f_n(ℓ_n''+(ℓ_n')²), substitution into (log f)''=f''/f-(f'/f)² gives the mean-curvature plus variance identity. The squared sum is well-defined by the assumed convergence and Cauchy–Schwarz for the nonnegative weights. For K_n, Lemma 45 and the explicit K_n formula bound every relevant summand, on each compact u-interval, by a fixed polynomial in n times e^{-πn²}; the rational denominators are bounded away from zero. These bounds give all required local uniform convergence, including termwise derivatives.
 
 For the failure example, f_1(u)=e^{-(u-2)²} and f_2(u)=e^{-(u+2)²} each have log second derivative -2. Their sum is 2e^{-u²-4}cosh(4u), whose log second derivative at u=0 is -2+16=14>0. Thus termwise log-concavity alone cannot remove the variance term. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

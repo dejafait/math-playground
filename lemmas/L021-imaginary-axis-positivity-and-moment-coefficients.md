@@ -9,3 +9,17 @@
 with convergence on C, and Ξ(iy)>0 for every real y. Also M_{2n+2}²≤M_{2n}M_{2n+4} for every integer n≥0.
 
 **Proof.** Finiteness follows from Lemma 19, and positivity follows because K(u)>0 on u>0. On |z|≤R, the sum of the absolute values of the cosine-series terms is at most cosh(Ru)≤e^{Ru}. The integrable majorant K(u)e^{Ru} permits exchanging the series and integral in Lemma 20 by dominated convergence (or absolute Fubini). Substitution z=iy gives Ξ(iy)=∫_0^∞K(u)cosh(yu)du>0. Finally apply Cauchy–Schwarz in the measure K(u)du to u^n and u^{n+2}. Their scalar product is M_{2n+2} and their squared norms are M_{2n} and M_{2n+4}. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

@@ -11,3 +11,17 @@ Interval enclosures of the coefficients and B give an enclosure of the integral 
 **Proof.** Taylor's theorem with integral remainder (or the Lagrange bound applied pointwise) gives |f(c+t)-Σ_{j=0}^7a_jt^j|≤B|t|⁸ for |t|≤h. Integrate this bound. Odd monomials integrate to zero, even monomials integrate to 2h^{j+1}/(j+1), and ∫_{-h}^h|t|⁸dt=2h⁹/9.
 
 For implementation, normalized derivative coefficients of a product obey (fg)_n=Σ_{j=0}^n f_jg_{n-j}. If b=exp(a), its coefficients obey b_0=exp(a_0) and b_n=(1/n)Σ_{j=1}^n j a_jb_{n-j}, by differentiating b'=a'b and comparing coefficients. These identities hold at every point of a panel. Evaluating them by enclosing interval operations with the variable's constant coefficient equal to the full panel and its first coefficient equal to 1 therefore encloses f^{(8)}(u)/8! uniformly. Evaluating at the midpoint encloses the lower coefficients. The finite theta integrands are smooth by their explicit exponential formulas, so these operations apply. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.

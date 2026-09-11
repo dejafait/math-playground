@@ -19,3 +19,17 @@ To bound ν_2, use cosh(2u)≥1+2u², so ∫_R u²g(u)du≤e^{-1}√π/(4√2) b
 μ_4-3μ_2² > -27/4+(7/100)4096=27997/100>0.
 
 Expanding the local logarithm of 1-(μ_2/2)z²+(μ_4/24)z⁴+O(z⁶) gives T_2=(3μ_2²-μ_4)/12<0. This proves the failed preservation directly. Also the real shift formula gives F(z)=[9+cos(8z)]G(z)/10 for the entire transform G of g, so it has explicit nonreal zeros at (π+i log(9+√80))/8 and its symmetric images. No positivity of reciprocal-zero forms can be inferred merely from the ordinary moment Gram property. ∎
+
+**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+
+https://leanprover-community.github.io/mathlib4_docs/
+
+**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
+
+**Lean proof command.**
+
+Not available until a complete Lean proof has been validated.
+
+**Lean proof code.**
+
+Not yet available.
