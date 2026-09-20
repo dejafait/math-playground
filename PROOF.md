@@ -30,4 +30,4 @@ No novelty or proof of RH is claimed. The all-degree positivity assertion remain
 
 ## What a Lean check would need
 
-The [formalization inventory](foundations/formalization.md) records exact obligations and the limits of its coverage. Lemma statements and their analytic bounds are the authoritative mathematical text. Lean coverage is recorded beside each lemma; missing and conditional proofs are caught up before further research, as prescribed in GOAL.md. Validating these partial results still leaves the all-degree positivity requirement unproved.
+The [formalization inventory](foundations/formalization.md) records exact obligations and the limits of its coverage. Lemma statements and their analytic bounds are the authoritative mathematical text. Lean coverage is recorded beside each lemma; all further formalization is paused under GOAL.md, and missing or conditional proofs do not block informal research. Validating these partial results still leaves the all-degree positivity requirement unproved.

@@ -2,7 +2,7 @@
 
 This is the sole canonical graph: node declarations, file targets, and direct dependency edges are maintained only in the Mermaid block below. `A --> B` means that B uses A as a mathematical input (including a definition or a reused proof argument). Plain-text citations inside proofs are not a second graph. Shared standard inputs are documented in [foundations](foundations/notation-and-inputs.md), outside this graph of proved results.
 
-Graph membership records the informal mathematical argument, not completion of Lean validation. Formalization status lives in each lemma file; the loop must clear the full Lean backlog before new research. All lemma nodes and Corollary 32a are represented. Corollary 32a proves an equivalence only; all-degree positivity and RH remain unproved and are not established input nodes. Where diagram links are unavailable, the `click` lines provide the relative file paths.
+Graph membership records the informal mathematical argument, not completion of Lean validation. Formalization status lives in each lemma file; Lean formalization is paused and its backlog does not block informal research. All lemma nodes and Corollary 32a are represented. Corollary 32a proves an equivalence only; all-degree positivity and RH remain unproved and are not established input nodes. Where diagram links are unavailable, the `click` lines provide the relative file paths.
 
 ```mermaid
 flowchart TD

@@ -1,6 +1,6 @@
 # Goal
 
-Produce a complete, checkable proof of the Riemann hypothesis, with faithful, locally validated Lean proofs of the notebook lemmas:
+Develop a complete, checkable informal argument proving or disproving the Riemann hypothesis:
 
 Every non-trivial zero of the Riemann zeta function ζ(s) has real part 1/2.
 
@@ -12,7 +12,7 @@ STATUS in PROGRESS.md may become PROVED only if ALL of the following hold:
 2. Every lemma is stated with hypotheses, conclusion, and a proof or a precise citation (book + theorem number, or a standard named theorem).
 3. The argument does not assume the conclusion, does not hide an equivalent form of RH as a lemma, and does not rely on numerical evidence, “it is plausible”, or an unstated interchange of limits.
 4. A dedicated section named “Known traps checked” lists the usual collapse points and explains why this write-up is not one of them.
-5. Every current lemma and corollary has a complete Lean proof of its full stated claim, validated using the local Lake project. The “What a Lean check would need” section and formalization inventory describe coverage accurately; no unresolved formalization obligations, partial proofs, or assumed replacements for required results remain.
+5. The claimed resolution has been critically reviewed against its exact hypotheses, every essential dependency, and the known traps. A complete-looking but unverified argument is a candidate, not a verified resolution. Lean formalization is not a current requirement or an automatic next step.
 
 If the argument only proves a weakening, STATUS stays IN_PROGRESS and the weakening is recorded under “Partial results”.
 
@@ -30,21 +30,21 @@ Compare achieved bounds with the required threshold explicitly. After two consec
 
 Before ending each turn, explain what changed in the global argument and what remains missing. Keep a short bottleneck and route decision in PROGRESS.md and the detailed rationale in history. Periodically audit whether apparently central branches are actually used by a plausible final argument. Novelty, difficulty, formalizability, and lemma count are not substitutes for relevance.
 
-## Catch up first; then research
+## Informal research; formalization paused
 
-The external loop repeats focused invocations indefinitely while work remains, with its existing quota waits and failure safeguards. Each invocation chooses exactly one mode at entry and never switches modes within that turn.
+All ordinary loop turns now focus on informal mathematics or strategic review under the relevance rules above. This supersedes the former Lean catch-up-first policy everywhere, including stale checkpoints, archived history, and lemma-specific formalization obligations. Missing, partial, conditional, or failed Lean proofs do not block research.
 
-1. Inspect all existing lemma/corollary files and their Lean sources. If any full statement lacks a valid local Lake proof, choose LEAN CATCH-UP. Work on one or more existing proofs, normally in mathematical order, and their formalization documentation only. Resume unfinished sources before duplicating work. Do not create or change mathematical lemma statements or pursue new research in this mode. Lean helper theorems needed for the existing statement are allowed.
-2. Only if the backlog is empty at entry, choose RESEARCH. Develop new informal lemmas or make a coherent mathematical advance, without attempting Lean proofs. New or mathematically changed statements are explicitly unvalidated and must be handled by a later catch-up turn.
-3. Finishing the backlog ends a catch-up turn; research starts no earlier than the next invocation. Research ends after one coherent step, and the next invocation inspects the backlog again.
-4. Missing, failed, partial, conditional, stale, or statement-mismatched proofs all remain backlog. Never clear it by weakening a conclusion, adding the desired result as a hypothesis, assuming unproved mathematical prerequisites, or marking an entry skipped. Record precise correctness doubts; another existing proof can be attempted, but unresolved doubts block research until addressed in a separately authorized mathematical revision.
-5. Completing formalization of partial results does not prove RH. STATUS stays IN_PROGRESS until every success criterion is met. Preserve the deferred research checkpoint while catching up.
+Do not write, repair, compile, or extend Lean proofs; do not run Lake, fetch Lean caches, upgrade toolchains, or spend a turn inventorying the formalization backlog. Preserve existing Lean sources, embedded proofs, validation evidence, and unfinished work for possible later use. Existing formalization notes are archival obligations, not current tasks. Resume formalization only on explicit user instruction, not automatically when an informal candidate appears.
 
-## Lean validation and lemma format
+The near-term milestone is a complete informal candidate argument with every essential mathematical step written out. Record it as an UNVERIFIED CANDIDATE in PROGRESS.md, keep STATUS: IN_PROGRESS while its correctness is unresolved, and state its weakest steps and a concrete critical-review action. An anticipated possibility of hallucination is a reason to label and review the candidate honestly, never permission to invent steps or conceal gaps. Do not require a Lean proof before recording this milestone. The user can later choose to formalize the essential dependency chain; peripheral lemmas need not all be formalized.
 
-Use the existing pinned `scripts/lean` Lake project and local executable. Check accessibility first; if unavailable, checkpoint the blocker and end the step. Build the changed target from that directory, inspect `#print axioms`, and audit correspondence with the Markdown statement. A successful build alone does not show that the intended statement was formalized. No `sorry`, custom axioms, circular reasoning, or unjustified premises are allowed. Keep partial/conditional results explicitly labeled and in the backlog. Use the existing cache when available; fetch pinned artifacts only if required. Do not change toolchain or dependencies as a shortcut.
+For a proposed disproof, require an actual nontrivial off-line zero with a rigorous certificate; a counterexample to a proposed RH proof strategy is not a disproof of RH. Do not change STATUS to PROVED for an unreviewed candidate or merely because no gap was noticed. If a disproof is rigorously established, record that outcome explicitly rather than calling RH proved.
 
-Every lemma/corollary Markdown file uses these sections, in this order, matching L001/L002: **Hypotheses.**, **Conclusion.**, **Proof.**, **Mathlib.**, **Lean proof status.**, **Lean proof command.**, **Lean proof code.** Preserve qualifications within the mathematical discussion. Mathlib commentary states what is available and supplies relevant documentation links; do not invent a named theorem or claim a full library proof without checking. Validated entries include the version, exact reproduction command, axiom audit, and the exact checked Lean source. Unvalidated entries say so plainly. Formatting synchronization is not proof validation.
+## Lemma documentation
+
+Keep the common section order: Hypotheses, Conclusion, Proof, Mathlib, Lean proof status, Lean proof command, Lean proof code. The mathematical proof is informal and must be rigorous. Retain existing formalization sections as evidence, without redoing their work. For new lemmas, mark formalization “Paused; not required in the current research phase”, and commands/code “Not available”. Mathlib lookup is optional and should be done only when it materially helps the informal argument; otherwise say it has not been checked. Do not spend turns filling placeholder sections or searching for library coverage merely for consistency.
+
+If an informal statement with existing Lean evidence changes, note that the evidence applies to the former statement and is not validation of the revision. Preserve the source without repairing it during this phase. No broad rewrite of existing lemma files is required merely to announce this pause.
 
 ## Known traps (do not treat these as a proof of RH)
 
@@ -68,6 +68,6 @@ Every lemma/corollary Markdown file uses these sections, in this order, matching
 - After editing documentation, run `python3 scripts/docs/check_structure.py`. Review new or changed dependencies mathematically: structural validation cannot prove that the graph captures every mathematical input or that a proof is correct.
 - Never create additional root files unless explicitly requested by the user. `DAG.md`, `PROMPT.md`, and the four `loop-<vendor>.sh` launchers are user-authorized root files. Place scripts and outputs under `scripts/<topic>/`; other material belongs in an appropriate subfolder.
 - Never set STATUS: PROVED unless every success criterion above is met. A wrong RH proof is worse than no proof.
-- Do not use an API key. Write Lean only in LEAN CATCH-UP mode and do new mathematics only in RESEARCH mode. Work only in this directory. If rate-limited, stop cleanly with PROGRESS.md ready for resumption.
+- Do not use an API key. Lean formalization is paused; pursue informal research or strategic review only unless the user explicitly resumes formalization. Work only in this directory. If rate-limited, stop cleanly with PROGRESS.md ready for resumption.
 
 - `PROMPT.md` is the sole runnable research prompt for every provider. README contains launch instructions only. Each CLI invocation completes one coherent step; the external launcher owns repetition, quota waiting, and retries. Checkpoint before lengthy work because a quota interruption may prevent final updates.
