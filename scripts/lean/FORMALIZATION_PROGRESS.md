@@ -1,5 +1,7 @@
 # Archived formalization handoff
 
+Formalization is paused by user instruction. Do not run Lake, repair proofs, or process this handoff unless the user explicitly resumes that phase.
+
 This file is an archived handoff, not a second live status or next-action record. Use root PROGRESS.md for the current checkpoint, GOAL.md and PROMPT.md for the active workflow, and each lemma Markdown file for validation evidence.
 
 Before the workflow change, full local proofs were added for L031 and L034, and a conditional quadratic-root proof was added for L028. L028 still requires formalized moment inputs. Subsequent interrupted work created Rh/L012.lean; its full statement has not passed validation. No claim in this handoff clears the current backlog.

@@ -2,12 +2,14 @@
 
 STATUS: IN_PROGRESS
 
-Workflow: choose exactly one mode at turn entry using GOAL.md and PROMPT.md. Existing incomplete Lean proofs take priority over research; never do both in one turn.
+Phase: informal research and strategic review. All Lean work is paused by user instruction; missing or partial formalizations do not block research. Preserve existing sources and evidence. No automatic resumption of formalization, even after a candidate appears.
 
-Current checkpoint: the Lean backlog is nonempty. L001–L011, L031, and L034 are labeled fully validated; L028 is conditional on unformalized moment inequalities and remains backlog. Other pending entries remain explicitly unvalidated. Reinspect current files rather than relying on these counts or labels alone.
+Main bottleneck: the notebook has not supplied the all-degree positivity or an alternative exclusion of off-line zeros. The later heat/Fourier route still lacks its required signed cancellation and a justified connection from that estimate to a complete RH argument.
 
-Interrupted Lean work: scripts/lean/Rh/L012.lean contains paired-series estimates, holomorphicity, and unfinished unpaired uniform convergence. Its last build failed; it is NOT a validated full proof. Resume from the actual source and fresh diagnostics. The zeta identity and removable value are still unfinished. No further proof work was performed during the workflow-instruction update.
+Current informal checkpoint: L231’s second-derivative and sawtooth estimates do not reach o(B_0); L230’s P=F_H+o(B_0) is the recorded reduction. A low-frequency third-derivative estimate was proposed, but the higher-frequency remainder and the route’s final downstream implication are unresolved.
 
-Deferred research checkpoint (not an action while Lean backlog exists): L231 gives second-derivative and sawtooth estimates, neither reaching o(B_0). L230's P=F_H+o(B_0) remains the current informal result. Once all existing full statements are Lean-validated at turn entry, investigate the third-derivative test for L230's paired b sums for 1<=k<=floor(N^(1/4)), summed over e<=N^(1/4), leaving higher frequencies explicitly unproved. Cancellation, the signed comparison, and RH remain unproved.
+Route decision: audit the relevance of that proposed estimate before another technical extension. Neither another reduction nor a bound that misses the required scale is sufficient progress by itself. No complete candidate proof or disproof is currently recorded.
 
-Next action: In a LEAN CATCH-UP turn, resume L012 using the local Lake project, complete and validate as much of its existing full statement as possible, then record the exact remaining checkpoint without doing new research.
+Paused Lean checkpoint: the preceding L017 work and its unfinished obligations are preserved in history/2026-09-20-formalization-pause.md and the existing sources. Do not resume them under the current policy.
+
+Next action: Audit PROOF.md and the global DAG to identify the shortest plausible argument from the current heat/Fourier estimates to RH, specify its decisive missing implication and required quantitative threshold, and decide whether the proposed L230 low-frequency calculation would close that gap or the route should be parked. Record the decision before adding a new lemma.
