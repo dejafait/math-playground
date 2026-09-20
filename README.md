@@ -1,6 +1,6 @@
 # Riemann hypothesis research notebook
 
-An informal RH research notebook; Lean formalization is paused and RH remains unproved. [GOAL.md](GOAL.md) defines the rules, [PROOF.md](PROOF.md) summarizes the argument, [DAG.md](DAG.md) links the lemmas, and [PROGRESS.md](PROGRESS.md) records where to resume. Every provider reads the same [PROMPT.md](PROMPT.md). Each turn must justify its connection to the main RH gap, check for redundant work, and reassess stalled routes; producing more lemmas is not the objective.
+An informal RH research notebook; Lean formalization is paused and RH remains unproved. [GOAL.md](GOAL.md) defines the rules, [PROOF.md](PROOF.md) summarizes the argument, [DAG.md](DAG.md) lists dependencies by lemma ID, and [PROGRESS.md](PROGRESS.md) records where to resume. Every provider reads the same [PROMPT.md](PROMPT.md). Each turn must justify its connection to the main RH gap, check for redundant work, and reassess stalled routes; producing more lemmas is not the objective.
 
 Install Python 3.9+ and your chosen CLI, then sign in with your subscription account:
 
