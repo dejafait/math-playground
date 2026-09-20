@@ -16,6 +16,20 @@ STATUS in PROGRESS.md may become PROVED only if ALL of the following hold:
 
 If the argument only proves a weakening, STATUS stays IN_PROGRESS and the weakening is recorded under “Partial results”.
 
+## Relevance and stopping rules
+
+Optimize for closing the main RH gap, not for growing the lemma count. At the start of every turn, read the whole PROOF.md overview and inspect the global DAG before loading detailed proofs. Identify the precise unresolved claim separating the current argument from proving RH or producing a rigorously established off-line nontrivial zero.
+
+Before undertaking a calculation or adding a lemma, state in PROGRESS.md: the bottleneck it addresses, the result or quantitative threshold needed, and how that result would be used in the main argument. A chain of dependencies alone is not evidence of relevance. If that connection is missing, audit or consolidate the route instead of extending it.
+
+Check for an existing theorem, stronger lemma, duplicate argument, or already-disproved strategy first. Prefer reusing a result or improving an existing exposition over assigning a new identifier to a routine consequence or another special case. Preserve identifiers and evidence; do not delete historical lemmas just because they are inactive. Keep route classifications in prose, not a second graph or node index.
+
+Each turn must either reduce a specific gap, establish a necessary input with a stated downstream use, repair a real error, or rule out an approach in a way that changes the research decision. Extra equivalent criteria, counterexamples to already-refuted shortcuts, cosmetic improvements, and estimates that still miss the needed scale are not by themselves progress toward RH.
+
+Compare achieved bounds with the required threshold explicitly. After two consecutive turns on a route fail to reduce its bottleneck or produce evidence that changes the route decision, make the next turn a strategic audit, not another technical extension. Continue that route only with a concrete new mechanism; otherwise park it and choose a better justified route. Record negative results honestly rather than manufacturing lemmas to keep the loop busy.
+
+Before ending each turn, explain what changed in the global argument and what remains missing. Keep a short bottleneck and route decision in PROGRESS.md and the detailed rationale in history. Periodically audit whether apparently central branches are actually used by a plausible final argument. Novelty, difficulty, formalizability, and lemma count are not substitutes for relevance.
+
 ## Catch up first; then research
 
 The external loop repeats focused invocations indefinitely while work remains, with its existing quota waits and failure safeguards. Each invocation chooses exactly one mode at entry and never switches modes within that turn.
