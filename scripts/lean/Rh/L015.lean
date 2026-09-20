@@ -1,58 +1,3 @@
-# Lemma 15: a nonnegative indicator kernel can have zeros inside the strip
-
-**Hypotheses.** v(u) is the indicator of [0,1]∪[2,4], and H(s)=∫_0^∞v(u)e^{-su}du.
-
-**Conclusion.** H is entire, is positive for every real s, and has a nonreal zero s with 0<Re(s)<(log 2)/2<1.
-
-**Proof.** The compact support makes the integral entire (differentiate under the integral, bounded on every compact set), and its integrand is positive for real s on a set of positive measure. For s≠0, direct integration gives
-
-H(s)=(1-e^{-s})(1+e^{-2s}+e^{-3s})/s.
-
-Consider Q(z)=1+z²+z³. Its derivative is z(2+3z). Q(-2)=-3 and Q(-1)=1. Its stationary values are Q(-2/3)=31/27 and Q(0)=1. The derivative signs show that Q has exactly one real root r, lying in (-2,-1). By the fundamental theorem of algebra and real coefficients, the remaining roots z and conj(z) are nonreal. Vieta's formula gives r|z|²=-1, so 1/2<|z|²<1. Choose any complex logarithm of this individual nonzero number z and set s=-Log z. Then e^{-s}=z and
-
-0<Re(s)=-log|z|=(log(-r))/2<(log 2)/2<1.
-
-This s is nonreal and nonzero because z is nonreal. The displayed factorization gives H(s)=0. The elementary bound log 2<1 follows from ∫_1^2 dx/x<1. No numerical root estimates are used. ∎
-
-**Mathlib.** Mathlib's `setIntegral_indicator` restricts the stated kernel integral to [0,1]∪[2,4]. Continuity supplies integrability on each compact interval; `setIntegral_union` splits their disjoint union. The endpoint and interval-integral conversion theorems identify this with `finiteTransform`. Mathlib's `integral_exp_mul_complex`, `Complex.exp_add`, and field algebra then give the displayed factorization for H. For entirety, `IsCompact.exists_bound_of_continuousOn` bounds the continuous parameter derivative on a closed complex ball times the compact integration interval. `intervalIntegral.hasDerivAt_integral_of_dominated_loc_of_deriv_le` then differentiates each interval integral at every complex parameter, including zero. `H_entire` transfers this result to the stated H. `Complex.ofReal_exp` and `intervalIntegral.integral_ofReal` identify the real-input transform with two real exponential integrals. `intervalIntegral.integral_pos` proves both integrals strictly positive; `H_real_pos` establishes zero imaginary part and positive real part for every real input. The internal helper `cubic_real_root` uses `intermediate_value_Icc` to locate r in (-2,-1). `cubic_nonreal_root` explicitly constructs the quadratic-factor root with real part -(1+r)/2 and positive imaginary part sqrt(r²+r-(-(1+r)/2)²); `Real.sq_sqrt`, complex coordinate algebra, and `Complex.sq_norm` verify its cubic equation and the strict modulus-square bounds. This checks the cubic-root prerequisite of the existing proof, without needing a separate formal uniqueness or fundamental-theorem-of-algebra argument. `H_nonreal_zero` sets s = -Complex.log z. `Complex.exp_log` gives exp(-s)=z, and `Complex.exp_im` shows s cannot be real. `Complex.log_re`, `Real.log_pow`, and strict monotonicity of the real logarithm convert the modulus-square bounds to the stated real-part bounds. `Real.log_lt_sub_one_of_pos` supplies log 2 < 1. The theorem `L015` assembles all three assertions for the original indicator-kernel integral.
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/Bochner/Set.html#MeasureTheory.setIntegral_indicator
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/Bochner/Set.html#MeasureTheory.setIntegral_union
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/IntervalIntegral/Basic.html#intervalIntegral.integral_of_le
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Integrals/Basic.html#integral_exp_mul_complex
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Calculus/ParametricIntervalIntegral.html#intervalIntegral.hasDerivAt_integral_of_dominated_loc_of_deriv_le
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/IntervalIntegral/Basic.html#intervalIntegral.integral_pos
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/IntervalIntegral/Basic.html#intervalIntegral.integral_ofReal
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Order/IntermediateValue.html#intermediate_value_Icc
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Real/Sqrt.html#Real.sq_sqrt
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Complex/Log.html#Complex.exp_log
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Complex/Log.html#Complex.log_re
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Log/Basic.html#Real.log_pow
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Log/Basic.html#Real.log_lt_sub_one_of_pos
-
-**Lean proof status.** Validated on 2026-09-20 with Lean 4.33.1 and mathlib `v4.33.1`. `Rh.L015.L015` proves the full conclusion for H defined by the stated indicator kernel: entirety, positivity at every real input, and existence of a nonreal zero with 0 < Re(s) < (log 2)/2 < 1. All twelve theorem axiom audits contain only `propext`, `Classical.choice`, and `Quot.sound`. No additional mathematical hypotheses are assumed. The mathematical hypotheses, conclusion, and informal proof are unchanged.
-
-**Lean proof command.**
-
-```sh
-(cd scripts/lean && lake build Rh.L015)
-```
-
-**Lean proof code.**
-
-```lean
 import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
 import Mathlib.Analysis.Calculus.ParametricIntervalIntegral
 import Mathlib.Analysis.SpecialFunctions.Complex.Log
@@ -302,4 +247,3 @@ end Rh.L015
 
 #print axioms Rh.L015.H_nonreal_zero
 #print axioms Rh.L015.L015
-```
