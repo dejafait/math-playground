@@ -1,72 +1,3 @@
-# Lemma 17: split Mellin integral with entire remainder
-
-**Hypotheses.** ψ is as in Lemma 16. For s∈C put
-
-I(s)=∫_1^∞ψ(x)(x^{s/2}+x^{(1-s)/2})dx/x,
-
-where all powers use the real logarithm of x.
-
-**Conclusion.** I is entire, I(s)=I(1-s), and for Re(s)>1,
-
-π^{-s/2}Γ(s/2)ζ(s)=1/(s-1)-1/s+I(s).
-
-**Proof.** For σ=Re(s)>1, the integral of the absolute values of the summands in ∫_0^∞Σ_{n≥1}e^{-πn²x}x^{s/2-1}dx is
-
-Σ_{n≥1}∫_0^∞e^{-πn²x}x^{σ/2-1}dx=π^{-σ/2}Γ(σ/2)Σ_{n≥1}n^{-σ}<∞.
-
-Thus Fubini's theorem permits termwise integration. The substitution u=πn²x and Euler's gamma integral give the left side in the conclusion. Split the x-integral at 1. Lemma 16 gives ψ(x)=(x^{-1/2}-1)/2+x^{-1/2}ψ(1/x) for 0<x<1. The elementary part integrates, for σ>1, to 1/(s-1)-1/s. Substituting y=1/x in the remaining part yields ∫_1^∞ψ(y)y^{(1-s)/2}dy/y, completing the identity.
-
-On a compact set of s, both Re(s)/2 and (1-Re(s))/2 are bounded above by some finite A. Lemma 16 bounds the integrand in absolute value by 2C_0e^{-πx}x^{A-1}. Its k-th complex s derivative has the same bound times (log x/2)^k, also integrable for each fixed k. Dominated differentiation proves that I is entire. Reflection just interchanges its two summands, proving I(s)=I(1-s). ∎
-
-**Mathlib.** The source uses Mathlib's complex exponential and Bochner set integral to define the literal integral with powers expressed through the real logarithm. Reflection is proved by pointwise equality of its two integrands, using `sub_sub_cancel` and commutativity of addition. Relevant documentation:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Complex/Log.html
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/Bochner/Basic.html
-
-L016 supplies the literal ψ series and exponential tails. `norm_log_power` identifies the norm of each real-logarithm power, and `splitIntegrand_norm_le` applies the order-zero tail bound. `splitIntegrand_uniform_bound` proves the stated majorant 2C₀ exp(-πx)x^(A-1) whenever A bounds both real exponents and x≥1. These are internal helpers for the existing informal proof. Mathlib's real-power identities and exponent monotonicity are documented at:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Pow/Real.html
-
-`splitIntegrand_continuousOn` obtains continuity on [1,∞) from L016's order-zero differentiable series and continuity of the logarithm. `splitIntegrand_integrable` proves absolute convergence for every s: choose A=max(1,max(Re(s/2),Re((1-s)/2))), restrict `integrableOn_rpow_mul_exp_neg_mul_rpow` (p=1, b=π) to [1,∞), and apply the checked majorant. This Mathlib theorem is in the root namespace, not `Real`:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Gaussian/GaussianIntegral.html#integrableOn_rpow_mul_exp_neg_mul_rpow
-
-`hasDerivAt_splitIntegrand` now proves the complex parameter derivative, represented by `splitIntegrandDeriv`, using the exponential chain rule and constant multiplication/division rules. Its formula has the difference of the two exponentials and the additional log(x)/2 factor. Relevant documentation:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/ExpDeriv.html
-
-`splitIntegrandDeriv_uniform_bound` bounds the derivative by C₀ exp(-πx)x^A whenever x≥1 and A bounds both real exponents. The proof uses the triangle inequality and `Real.log_le_self` to absorb log(x)/2. `splitIntegrandDeriv_majorant_integrable` proves integrability of this bound for A≥0 using the same Gaussian-integral theorem above. `splitIntegrandDeriv_locally_dominated` chooses A=max(0,max(Re(s₀/2),Re((1-s₀)/2)))+1 and uses continuity of both real exponents to obtain one integrable bound throughout a neighborhood of every s₀. The logarithm estimate is documented at:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Log/Basic.html#Real.log_le_self
-
-`splitIntegrandDeriv_continuousOn` proves continuity on [1,∞), supplying derivative measurability. `hasDerivAt_splitMellin` applies the parametric integral theorem to the restricted Lebesgue measure, using the checked local bound and integrability. `splitMellin_differentiable` therefore proves entireness of the literal integral. The complete gamma–zeta Mellin identity remains open. The differentiation theorem is documented at:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Calculus/ParametricIntegral.html#hasDerivAt_integral_of_dominated_loc_of_deriv_le
-
-`thetaTerm_mellin_integral` evaluates each positive-index theta term against x^(s/2-1), expressed with the real logarithm, for Re(s)>1. It uses `Complex.integral_cpow_mul_exp_neg_mul_Ioi` and explicitly identifies the positive-real complex power with the logarithmic exponential. This is an individual integral identity; the sum–integral interchange remains open. Relevant documentation:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Gamma/Basic.html#Complex.integral_cpow_mul_exp_neg_mul_Ioi
-
-`thetaTerm_norm_integral` evaluates the integral of the literal summand norm using `norm_log_power` and the real gamma integral. `thetaTerm_summable_integral_norm` factors the resulting sequence into a constant times (n+1)^(-Re(s)) and applies the real p-series theorem. These establish summability of the absolute integrals for Re(s)>1. Individual summand integrability and the sum–integral interchange are not yet separately assembled in this source. Relevant documentation:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Gamma/Basic.html#Real.integral_rpow_mul_exp_neg_mul_Ioi
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/PSeries.html#Real.summable_nat_rpow
-
-**Lean proof status.** Partial, not a validated proof of the full statement. On 2026-09-20, Lean 4.33.1 with mathlib `v4.33.1` checked the literal definitions and `splitMellin_reflection`, establishing I(s)=I(1-s). The source additionally checks the real-logarithm power norm and the pointwise and common-exponent majorants. It now also checks continuity of the integrand on [1,∞) and its integrability for every complex parameter. The complex parameter derivative, its common-exponent bound, integrability of that bound for A≥0, and local domination near every parameter are now also checked. Derivative continuity, differentiation under the integral, and `Differentiable ℂ splitMellin` are also checked. The individual theta-term gamma integral is also checked. The real absolute-integral evaluation and summability of those integrals are also checked. All seventeen audited theorems use only `propext`, `Classical.choice`, and `Quot.sound`. The gamma–zeta identity remains unproved. Convergence now has a separate integrability proof, independent of reflection of totalized Bochner integrals. L017 remains backlog; no hypotheses, conclusion, or informal proof were changed.
-
-**Lean proof command.**
-
-This command succeeded for the partial source and its axiom audits only; it does not validate the full lemma:
-
-```
-(cd scripts/lean && lake build Rh.L017)
-```
-
-**Lean proof code.**
-
-```lean
 import Rh.L016
 import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
 import Mathlib.Analysis.Calculus.ParametricIntegral
@@ -413,4 +344,3 @@ end Rh.L017
 
 #print axioms Rh.L017.thetaTerm_norm_integral
 #print axioms Rh.L017.thetaTerm_summable_integral_norm
-```

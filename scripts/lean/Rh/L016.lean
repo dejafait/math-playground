@@ -1,50 +1,3 @@
-# Lemma 16: theta transformation and exponential tails
-
-**Hypotheses.** x>0 is real. Define θ(x)=Σ_{n∈Z}e^{-πn²x} and ψ(x)=Σ_{n≥1}e^{-πn²x}, so θ=1+2ψ.
-
-**Conclusion.** θ(x)=x^{-1/2}θ(1/x). For x≥1 and each integer j≥0 there is a finite constant C_j such that |ψ^{(j)}(x)|≤C_j e^{-πx}.
-
-**Proof.** Use the standard named Poisson summation theorem for Schwartz functions with Fourier transform f̂(y)=∫_R f(u)e^{-2πiuy}du. The Gaussian f_x(u)=e^{-πxu²} is Schwartz. Its Fourier transform is x^{-1/2}e^{-πy²/x}: the Gaussian integral gives f̂_x(0)=x^{-1/2}, while differentiation under the integral and integration by parts give f̂_x'(y)=-(2πy/x)f̂_x(y), which determines the transform. Both operations are justified by Gaussian integrability of polynomials times f_x. Poisson summation Σ_n f_x(n)=Σ_n f̂_x(n) proves the transformation; both sums converge absolutely.
-
-For the tail estimate, termwise j-fold differentiation gives ψ^{(j)}(x)=Σ_{n≥1}(-πn²)^j e^{-πn²x}. On x≥1 its absolute sum is at most
-
-e^{-πx} Σ_{n≥1}(πn²)^j e^{-π(n²-1)} = C_j e^{-πx}.
-
-The constant is finite since exponential decay dominates every fixed polynomial. These bounds and the Weierstrass uniform convergence test also justify each termwise derivative (or apply the same bounds successively on compact x-intervals in (0,∞)). ∎
-
-**Mathlib.** The pinned library supplies `Real.tsum_exp_neg_mul_int_sq`, proved by Poisson summation for the Gaussian. It gives the literal theta transformation after rearranging the exponent and rewriting the reciprocal real power:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Gaussian/PoissonSummation.html#Real.tsum_exp_neg_mul_int_sq
-
-The source proves summability of both defining series and uses `tsum_of_nat_of_neg_add_one` to establish θ=1+2ψ:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Algebra/InfiniteSum/NatInt.html#tsum_of_nat_of_neg_add_one
-
-For each derivative order, polynomial-Gaussian summability follows by comparison with `summable_pow_mul_geometric_of_norm_lt_one`. A uniform summable derivative majorant on x≥a>0 permits `hasDerivAt_tsum_of_isPreconnected` to differentiate each series on a neighborhood of every positive point. Induction using `iteratedDeriv_succ` identifies it with the actual iterated derivative:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecificLimits/Normed.html#summable_pow_mul_geometric_of_norm_lt_one
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Calculus/SmoothSeries.html#hasDerivAt_tsum_of_isPreconnected
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Calculus/IteratedDeriv/Defs.html#iteratedDeriv_succ
-
-Finally, `exists_derivative_tail_constant` bounds the norm of the derivative series by its absolute sum and factors out exp(-πx) for x≥1. Its constant is exp(π) times the summable order-j positive majorant at x=1, independent of x. This establishes all derivative orders, not just order zero. The norm inequality used is:
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Normed/Group/InfiniteSum.html#norm_tsum_le_tsum_norm
-
-**Lean proof status.** Validated on 2026-09-20 with Lean 4.33.1 and mathlib `v4.33.1`. The exact source proves the theta transformation, convergence of both defining series, θ=1+2ψ, the derivative-series identity at every positive x, and a finite nonnegative constant for each natural derivative order uniformly for x≥1. `Rh.L016.L016` assembles the full stated conclusion. All seventeen audited declarations use only `propext`, `Classical.choice`, and `Quot.sound`; no unproved premises or proof placeholders are used.
-
-**Lean proof command.**
-
-The following succeeded locally, including the axiom audits:
-
-```
-(cd scripts/lean && lake build Rh.L016)
-```
-
-**Lean proof code.**
-
-```lean
 import Mathlib.Analysis.SpecialFunctions.Gaussian.PoissonSummation
 import Mathlib.Analysis.Calculus.SmoothSeries
 import Mathlib.Analysis.Calculus.IteratedDeriv.Defs
@@ -312,4 +265,3 @@ end Rh.L016
 
 #print axioms Rh.L016.exists_derivative_tail_constant
 #print axioms Rh.L016.L016
-```

@@ -1,50 +1,3 @@
-# Lemma 14: a positive-kernel Laplace representation
-
-**Hypotheses.** Re(s)=σ>0. Let w(x) be 1 on the union of [2n-1,2n), n≥1, and 0 elsewhere on [1,∞).
-
-**Conclusion.**
-
-η(s)/s=∫_1^∞ w(x)x^{-s-1}dx=∫_0^∞w(e^u)e^{-su}du.
-
-Both integrals converge absolutely and locally uniformly on Re(s)>0.
-
-**Proof.** On each interval [2n-1,2n], integrating the derivative of x^{-s} gives
-
-(2n-1)^{-s}-(2n)^{-s}=s∫_{2n-1}^{2n}x^{-s-1}dx.
-
-Summing through n=N gives η_{2N}(s) on the left. On the right, absolute integrability follows from 0≤w≤1 and ∫_1^∞x^{-σ-1}dx=1/σ; the omitted integral is bounded by (2N+1)^{-σ}/σ. Pass to the limit using Lemma 12 and divide by s≠0. The substitution x=e^u proves the second identity. For Re(s)≥δ>0 the absolute tails are bounded by the corresponding tails of x^{-δ-1} or e^{-δu}; these bounds also give local uniform convergence. ∎
-
-**Mathlib.** `integral_cpow` evaluates each finite cell integral; L012's paired-series summability identifies their sum. `integrableOn_Ioi_cpow_of_lt` and measurable indicators prove absolute integrability of the weighted integrand on [1,∞). `integral_iUnion` sums the disjoint half-open cells, with `integral_Ico_eq_integral_Ioc` handling endpoints. Thus the first integral equals η(s)/s. `integral_comp_exp_Ioi` and `integrableOn_comp_exp_Ioi` justify the exponential substitution and transfer absolute integrability to [0,∞), after simplifying the Jacobian and ignoring the measure-zero endpoints. `norm_integral_le_of_norm_le` and `integral_exp_mul_Ioi` now give the uniform Laplace tail bound exp(-δT)/δ for T≥0 and Re(s)≥δ>0; the same substitution transfers this to the power integral with cutoff exp(T). `intervalIntegral.integral_Ici_sub_Ici'` identifies each finite-truncation error with its tail. Exponential decay and `Real.tendsto_log_atTop` give uniform convergence for arbitrary real cutoffs on Re(s)≥δ>0. `tendstoLocallyUniformlyOn_of_forall_exists_nhds`, with δ=Re(s)/2, then proves local uniform convergence throughout Re(s)>0.
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Integrals/Basic.html#integral_cpow
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/ImproperIntegrals.html#integrableOn_Ioi_cpow_of_lt
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/Bochner/Set.html#MeasureTheory.integral_iUnion
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/IntegralEqImproper.html#MeasureTheory.integral_comp_exp_Ioi
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/IntegralEqImproper.html#MeasureTheory.integrableOn_comp_exp_Ioi
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/Bochner/Basic.html#MeasureTheory.norm_integral_le_of_norm_le
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/ImproperIntegrals.html#integral_exp_mul_Ioi
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/MeasureTheory/Integral/IntervalIntegral/Basic.html#intervalIntegral.integral_Ici_sub_Ici'
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/UniformSpace/UniformConvergence.html#tendstoLocallyUniformlyOn_of_forall_exists_nhds
-
-**Lean proof status.** Validated on 2026-09-20 with Lean 4.33.1 and mathlib `v4.33.1`. `L014_first_identity` and `L014_second_identity` establish both integral identities; `L014_weighted_integrable` and `L014_laplace_integrable` establish absolute convergence. `L014_power_locally_uniform` and `L014_laplace_locally_uniform` establish local uniform convergence of finite integrals with arbitrary real upper cutoffs to η(s)/s throughout Re(s)>0. The zero-based half-open cells [2n+1,2n+2) match the stated weight. All printed axiom audits report only `propext`, `Classical.choice`, and `Quot.sound`; no admitted proofs or custom axioms occur. The hypotheses, conclusion, and informal proof are unchanged.
-
-**Lean proof command.**
-
-```sh
-(cd scripts/lean && lake build Rh.L014)
-```
-
-**Lean proof code.**
-
-```lean
 import Rh.L012
 import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
 import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
@@ -369,4 +322,3 @@ theorem L014_power_locally_uniform :
 #print axioms L014_power_uniform
 #print axioms L014_laplace_locally_uniform
 #print axioms L014_power_locally_uniform
-```

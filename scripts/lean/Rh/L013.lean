@@ -1,34 +1,3 @@
-# Lemma 13: no real zeros in the open strip
-
-**Hypotheses.** σ is real and 0<σ<1.
-
-**Conclusion.** η(σ)>0 and ζ(σ)<0. In particular every nontrivial zero of ζ has nonzero imaginary part.
-
-**Proof.** The even partial sums are
-
-η_{2N}(σ)=Σ_{n=1}^N[(2n-1)^{-σ}-(2n)^{-σ}].
-
-Every summand is positive, and the first is 1-2^{-σ}>0. Lemma 12 gives convergence, hence η(σ)≥1-2^{-σ}>0. Since 2^{1-σ}>1, the multiplier 1-2^{1-σ} is negative, so the identity in Lemma 12 gives ζ(σ)<0. Lemma 9 excludes all remaining nontrivial zeros outside the open strip. ∎
-
-**Mathlib.** The proof uses Mathlib's real exponential/logarithm monotonicity, real powers, and ordered infinite sums, together with the notebook's L012 convergence/identity and L009 zero classification. No standalone Mathlib theorem for the full statement is claimed. `Complex.hasSum_re`, `Complex.re_tsum`, and `Complex.im_tsum` transfer the convergent paired series to real coordinates; `Summable.le_tsum` bounds its sum below by its positive first term. `Complex.ofReal_cpow` and `Real.one_lt_rpow` establish the negative multiplier.
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Basic.html#Complex.re_tsum
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Topology/Algebra/InfiniteSum/Order.html
-
-https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/SpecialFunctions/Pow/Real.html#Complex.ofReal_cpow
-
-**Lean proof status.** Validated on 2026-09-20 with Lean 4.33.1 and mathlib `v4.33.1`. `L013` proves positivity of η and negativity of ζ for 0<σ<1, including zero imaginary parts for both values. `L013_nontrivial_zero` proves that any zeta zero other than a negative even integer has nonzero imaginary part, using L009. The pole is excluded within the proof. The hypotheses, conclusion, and informal proof are unchanged. The local build succeeded; `#print axioms` for `L013_eta`, `L013`, and `L013_nontrivial_zero` reports only `propext`, `Classical.choice`, and `Quot.sound`.
-
-**Lean proof command.**
-
-```sh
-(cd scripts/lean && lake build Rh.L013)
-```
-
-**Lean proof code.**
-
-```lean
 import Rh.L012
 import Rh.L009
 
@@ -105,4 +74,3 @@ theorem L013_nontrivial_zero {s : ℂ} (hz : riemannZeta s = 0)
 #print axioms L013_eta
 #print axioms L013
 #print axioms L013_nontrivial_zero
-```
