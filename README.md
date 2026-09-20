@@ -1,6 +1,6 @@
 # Riemann hypothesis research notebook
 
-A research notebook with informal mathematics and ongoing Lean formalization; RH remains unproved. [GOAL.md](GOAL.md) defines the rules, [PROOF.md](PROOF.md) summarizes the argument, [DAG.md](DAG.md) links the lemmas, and [PROGRESS.md](PROGRESS.md) records where to resume. Every provider reads the same [PROMPT.md](PROMPT.md). Each turn must justify its connection to the main RH gap, check for redundant work, and reassess stalled routes; producing more lemmas is not the objective.
+An informal RH research notebook; Lean formalization is paused and RH remains unproved. [GOAL.md](GOAL.md) defines the rules, [PROOF.md](PROOF.md) summarizes the argument, [DAG.md](DAG.md) links the lemmas, and [PROGRESS.md](PROGRESS.md) records where to resume. Every provider reads the same [PROMPT.md](PROMPT.md). Each turn must justify its connection to the main RH gap, check for redundant work, and reassess stalled routes; producing more lemmas is not the objective.
 
 Install Python 3.9+ and your chosen CLI, then sign in with your subscription account:
 
@@ -13,7 +13,7 @@ Install Python 3.9+ and your chosen CLI, then sign in with your subscription acc
 
 Keep paid extra usage and automatic credit top-ups disabled in your account. Do not configure API keys or custom paid providers. The scripts check local authentication settings; they cannot inspect or disable account-side billing options. Existing extra-credit balances may be consumed by the service after included usage runs out.
 
-Start any one of these commands. Each invocation first checks for missing full Lean proofs: catch-up turns formalize existing lemmas only; research turns happen only when all existing lemmas are validated, and leave new lemmas for a later proof turn. The loop repeats this strategy until stopped, a failure safeguard triggers, or the full RH goal reaches `STATUS: PROVED`:
+Start any one of these commands. Each invocation makes one focused informal research or strategic-review step, with an explicit connection to the main RH gap. Missing Lean proofs do not block progress; existing formalization work is preserved but not extended. A complete informal argument is first recorded as an unverified candidate for critical review. Formalization resumes only if you explicitly request it later. The loop repeats until stopped, a failure safeguard triggers, or the notebook reaches its reviewed success criteria:
 
 ```bash
 bash loop-codex.sh
