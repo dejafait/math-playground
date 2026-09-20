@@ -18,43 +18,49 @@ def require(condition, message):
         errors.append(message)
 
 
+def parse_dag(text):
+    """Parse ID-only adjacency rows; reject redundant titles, paths, and Mermaid."""
+    problems = []
+    blocks = re.findall(r'```text\n(.*?)```', text, re.S)
+    expected_intro = ('# Lemma dependencies\n\n'
+                      '`ID: inputs` lists direct mathematical dependencies; empty means none. '
+                      'Find statements in `lemmas/ID-*.md`.\n\n')
+    if len(blocks) != 1 or text != expected_intro + '```text\n' + blocks[0] + '```\n':
+        return set(), set(), ['DAG.md must use the minimal header and one text block of ID-only rows.']
+    nodes, edges = set(), set()
+    for line in blocks[0].splitlines():
+        match = re.fullmatch(rf'({ID}):((?: {ID})*)', line)
+        if not match:
+            problems.append(f'Invalid dependency row: {line}')
+            continue
+        child, parents = match.groups()
+        if child in nodes:
+            problems.append(f'Duplicate node: {child}')
+        nodes.add(child)
+        for parent in parents.split():
+            if (parent, child) in edges:
+                problems.append(f'Duplicate edge: {parent} -> {child}')
+            edges.add((parent, child))
+    return nodes, edges, problems
+
+
 def main():
     require((ROOT / 'PROMPT.md').is_file(), 'Missing sole research prompt: PROMPT.md')
     for vendor in ('codex', 'claude', 'gemini', 'grok'):
         require((ROOT / f'loop-{vendor}.sh').is_file(), f'Missing root launcher: loop-{vendor}.sh')
     require(not re.search(r'^## (?:Initial|Recurrent) prompt', (ROOT / 'README.md').read_text(), re.M), 'README must link to PROMPT.md instead of maintaining runnable prompts.')
     dag = (ROOT / 'DAG.md').read_text()
-    blocks = re.findall(r'```mermaid\n(.*?)```', dag, re.S)
-    require(len(blocks) == 1, 'DAG.md must contain exactly one Mermaid graph.')
-    if len(blocks) != 1:
-        return finish()
-    nodes, targets, edges = {}, {}, set()
-    for line in blocks[0].splitlines():
-        line = line.strip()
-        if line == 'flowchart TD' or not line:
-            continue
-        node = re.fullmatch(rf'({ID})\["([^"\n]+)"\]', line)
-        target = re.fullmatch(rf'click ({ID}) "(lemmas/[^"\n]+\.md)"', line)
-        edge = re.fullmatch(rf'({ID}(?: & {ID})*) --> ({ID})', line)
-        if node:
-            ident, title = node.groups()
-            require(ident not in nodes, f'Duplicate node: {ident}')
-            nodes[ident] = title
-        elif target:
-            ident, path = target.groups()
-            require(ident not in targets, f'Duplicate file target: {ident}')
-            targets[ident] = path
-        elif edge:
-            parents, child = edge.groups()
-            for parent in parents.split(' & '):
-                require((parent, child) not in edges, f'Duplicate edge: {parent} -> {child}')
-                edges.add((parent, child))
-        else:
-            errors.append(f'Unsupported graph syntax: {line}')
-    require(set(nodes) == set(targets), 'Every graph node needs exactly one file target.')
-    files = {str(p.relative_to(ROOT)) for p in (ROOT / 'lemmas').glob('*.md')}
-    require(set(targets.values()) == files, 'Graph targets must cover exactly the lemma files.')
-    require(len(set(targets.values())) == len(targets), 'Multiple nodes target the same file.')
+    nodes, edges, parse_errors = parse_dag(dag)
+    errors.extend(parse_errors)
+    files = {}
+    for path in (ROOT / 'lemmas').glob('*.md'):
+        match = re.fullmatch(rf'({ID})-.+\.md', path.name)
+        require(match is not None, f'Invalid lemma filename: {path.name}')
+        if match:
+            ident = match[1]
+            require(ident not in files, f'Multiple lemma files for ID: {ident}')
+            files[ident] = path
+    require(nodes == set(files), 'DAG IDs must cover exactly the lemma files.')
     adjacency = {ident: [] for ident in nodes}
     for parent, child in edges:
         require(parent in nodes and child in nodes, f'Unknown endpoint: {parent} -> {child}')
@@ -76,8 +82,6 @@ def main():
 
     for ident in nodes:
         visit(ident)
-    for ident, target in targets.items():
-        require(Path(target).name.startswith(ident + '-'), f'File ID mismatch: {target}')
     for path in ROOT.rglob('*.md'):
         if '.git' in path.parts:
             continue
@@ -86,6 +90,7 @@ def main():
         if path.name != 'DAG.md':
             require('```mermaid' not in text, f'Graph outside DAG.md: {rel}')
             require(not re.search(rf'\b{ID}\s*(?:-->|->)', text), f'Edge record outside DAG.md: {rel}')
+            require(not re.search(rf'^({ID}):(?: {ID})*$', text, re.M), f'Dependency row outside DAG.md: {rel}')
         if path.parent == ROOT / 'lemmas':
             require(not re.search(r'(?im)^(?:#+\s*|\*\*)?(?:depends on|dependencies|used by|dependents)\b', text), f'Dependency section in {rel}')
             require(not text.startswith('---\n'), f'Metadata header in {rel}; graph metadata belongs in DAG.md.')
