@@ -17,6 +17,7 @@ import sys
 import time
 
 from events import Events
+from research import assess, resume
 from codex import check, command
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -72,7 +73,7 @@ def read_state(path):
         state = json.loads(path.read_text())
         if not isinstance(state, dict):
             raise ValueError('not an object')
-        for key in ('retry_at', 'failures', 'unknowns', 'no_progress'):
+        for key in ('retry_at', 'failures', 'unknowns', 'no_progress', 'exploration_turns', 'stalled_turns'):
             value = state.get(key, 0)
             if not isinstance(value, (int, float)) or not 0 <= value < 1e12:
                 raise ValueError('invalid numeric field')
@@ -214,6 +215,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true', help='Check local CLI/login configuration without a model request.')
     parser.add_argument('--dry-run', action='store_true', help='Show the Codex command without creating files or calling the CLI.')
+    parser.add_argument('--resume-research', action='store_true', help='Explicitly renew a stopped research budget; retain quota cooldowns.')
     parser.add_argument('--once', action='store_true', help='Attempt one step (still honors a saved cooldown), then exit.')
     parser.add_argument('--verbose', action='store_true', help='Also stream raw CLI output to the terminal.')
     parser.add_argument('--timeout', type=int, default=7200, help='Maximum seconds per invocation (default: 7200).')
@@ -244,6 +246,12 @@ def main():
     state_path = directory / 'state.json'
     with lock(directory / 'process.lock'):
         state = read_state(state_path)
+        if args.resume_research:
+            resume(state)
+            save_state(state_path, state)
+        if state.get('research_halt'):
+            announce('Research stopped: ' + state['research_halt'] + ' Review the checkpoint; use --resume-research to authorize another budget.')
+            return 2
         while not STOP:
             if proved():
                 validate()
@@ -267,6 +275,7 @@ def main():
                 if not prompt.strip() or len(prompt.encode()) > 16000:
                     raise RuntimeError('PROMPT.md must be nonempty and at most 16 KB.')
                 before = checkpoint_digest()
+                before_progress = (ROOT / 'PROGRESS.md').read_text()
                 argv, stdin = command(executable, prompt)
                 state.update(outcome='running', retry_at=0, started_at=time.time())
                 save_state(state_path, state)
@@ -275,10 +284,13 @@ def main():
                 if kind == 'success':
                     validate()
                     changed = checkpoint_digest() != before
-                    state['no_progress'] = 0 if changed else state.get('no_progress', 0) + 1
-                    if state['no_progress'] >= 3:
-                        kind = 'fatal'
-                        announce('Three successful CLI exits without changed progress/history; stopping to avoid a no-progress loop.')
+                    reason = assess(state, before_progress, (ROOT / 'PROGRESS.md').read_text(), changed)
+                    if reason and not proved():
+                        state.update(outcome='research_stalled', research_halt=reason,
+                                     exit_code=code, finished_at=time.time())
+                        save_state(state_path, state)
+                        announce('Research stopped: ' + reason + ' Review the checkpoint; use --resume-research to authorize another budget.')
+                        return 2
                 if kind == 'interrupted':
                     state.update(outcome=kind, exit_code=code)
                     save_state(state_path, state)
