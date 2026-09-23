@@ -28,16 +28,6 @@ The moment expansion from Lemma 21 gives Ξ(z)/M_0=1-a z²+b z⁴+O(z⁶), where
 
 The unconditional Cauchy–Schwarz inequality in Lemma 21 gives M_2²≤M_0M_4, which is a lower bound and does not give the needed upper bound M_0M_4≤3M_2². ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -83,7 +83,7 @@ Removing the inner strip only decreases this nonnegative sum.
 This proves (1). For B>=L, B+N<=2B eventually, Rh=O(N³),
 and Nh is comparable to N^(5/2), proving (2) and its consequences.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 E_out^+ takes positive parts before collecting ordered factors; it
 need not equal max(Y_out,0). For example (2) with B=N^(7/4)
@@ -98,19 +98,8 @@ the defined masses. Verification is analytic: the nonempty-cell
 inequality, exact rational identity (5), uniform aggregate pair
 counts, nonnegative finite majorants, hyperbolic positive-part bound,
 and scale exponents. No computational or distribution hypothesis is
-used. Formalization would require (4)–(8) with uniform constants
-and the stated finite positive-part decompositions. RH is unresolved.
+used. RH is unresolved.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

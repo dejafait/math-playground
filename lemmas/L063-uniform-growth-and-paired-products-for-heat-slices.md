@@ -52,18 +52,7 @@ On any fixed compact z-disc only finitely many zeros fall outside this tail esti
 
 The uniform estimate concerns function growth; the product assertion is for each fixed real λ. It supplies neither a parameter-uniform zero enumeration nor the boundary lower bounds in the conditional continuation criterion. It does not prove initial global reality or reality at λ=0. The original main RH gap is unchanged.
 
-The proof requires no numerical certificate. Direct checks are the completed-square inequality, the substitution x=e^{2u}, the factorial majorant, and the vanishing linear exponential factor. Formalization would require those inequalities uniformly in L,R, the order bound, the stated Hadamard theorem, multiplicity pairing by evenness, and absolute locally uniform logarithmic-tail convergence.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof requires no numerical certificate. Direct checks are the completed-square inequality, the substitution x=e^{2u}, the factorial majorant, and the vanishing linear exponential factor.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -69,20 +69,10 @@ x_k/N=τ/(2πkN)=(τ/t)(N/k).
 
 Thus indices k comparable to N have stationary points at x comparable to N. This locates a relevant range; it is not a uniform stationary-phase expansion or an estimate of the sum over that range. The negative modes, remote positive modes, and combined positive-mode cancellation must still be controlled for any sharper conclusion. Neither absolute convergence nor the small truncation error bounds the retained sum away from zero.
 
-## Verification and formalization obligations
+## Verification
 
-Analytic validation covers smooth extension at zero, Schwartz decay, uniform periodization, Fourier uniqueness, boundary terms in both integrations by parts, the explicit second derivative and Gaussian moments, and the t-dependent cutoff bound. No numerical evidence or computational certificate is used. Formalization would require precisely these analytic facts, the complex Gaussian identity, and the elementary phase derivative calculation. The comparison to the theta center uses only L138's additive expansion; no RH-equivalent assertion is used as a premise.
+Analytic validation covers smooth extension at zero, Schwartz decay, uniform periodization, Fourier uniqueness, boundary terms in both integrations by parts, the explicit second derivative and Gaussian moments, and the t-dependent cutoff bound. No numerical evidence or computational certificate is used. The comparison to the theta center uses only L138's additive expansion; no RH-equivalent assertion is used as a premise.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

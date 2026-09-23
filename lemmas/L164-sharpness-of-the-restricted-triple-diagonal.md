@@ -117,20 +117,7 @@ Verification is analytic for the uniform sieve estimate and asymptotic
 count. The exact finite regression
 `python3 scripts/heat/check_triple_sharpness.py` checks the displacement
 identities and injectivity on small pairwise coprime matrices; it is not
-numerical evidence for the asymptotic bound. Formalization would require
-finite interval residue counts, the Chinese remainder theorem, finite
-union bounds, the two elementary harmonic bounds, and recovery (6).
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+numerical evidence for the asymptotic bound.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

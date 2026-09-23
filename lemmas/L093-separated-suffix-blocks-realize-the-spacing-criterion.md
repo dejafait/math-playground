@@ -112,7 +112,7 @@ obstruction to vanishing. The generic near-sum problem remains open
 when neither spacing criterion applies. Nothing here identifies these
 coordinates with theta zeros or changes the unresolved RH argument.
 
-## Verification and formalization obligations
+## Verification
 
 Audit the partition by consecutive prescribed indices, the derivative
 and both boundaries, the exact suffix set, the p-series comparisons,
@@ -123,16 +123,6 @@ monotonicity of f. Check the half-open endpoints, the singleton block
 no numerical certificate. Lemmas 91 and 92 supply the ratio definitions;
 Lemma 92 alone supplies the final upward-subsequence theorem.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

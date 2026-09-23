@@ -114,19 +114,7 @@ counts and the exact safe-m and selected full-core inequalities on
 finite rational endpoint examples within the proof's scale bounds.
 It is an algebra and boundary check, not an asymptotic distribution
 test. The proof of (1) is the integer interval estimate above.
-Formalization requires integer interval counts, square-root monotonicity,
-uniform endpoint margins, and L201's sufficient phase implication.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -64,19 +64,8 @@ separation. No optimality is asserted. Neither criterion is proved to
 hold for all permitted coordinates. This is not a theta-specific or RH
 result. Check the finite increment range, integer tail cutoff, positivity
 of V_N, dyadic height budget, subsequence ordering, and full tails.
-Formalization would require these same statements and the finite maximum
-defining C_N. The proof is analytic and needs no numerical certificate.
+The proof is analytic and needs no numerical certificate.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

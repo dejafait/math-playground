@@ -58,21 +58,7 @@ Taking F_N=B_N recovers the criterion of Lemma 94. Subsets may depend
 on the coordinates; the proof does not require a rule for finding them.
 No claim that suitable subsets always exist is made. This is a generic
 product result and supplies no theta-specific or RH conclusion.
-The proof is analytic and needs no numerical certificate. Formalization
-should check restricted separation, finite increment endpoints, the
-harmonic tail estimate, positive finite maxima, the dyadic budget and
-ordered minimizers, and convergence of both full-product tails.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof is analytic and needs no numerical certificate.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

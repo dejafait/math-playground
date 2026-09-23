@@ -90,20 +90,8 @@ L220 to estimate before drawing a conclusion about E_box.
 The exact rational test `python3 scripts/heat/check_unit_progression.py`
 checks (1) and (2) against independent piecewise-affine integration
 and integer sampling, including endpoint crossings. It tests finite
-algebra only. Formalization would require the overlap integral,
-measure-zero endpoint exceptions, the absolutely continuous periodic
-primitive, and L221's uniform interior estimates. RH remains open.
+algebra only. RH remains open.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

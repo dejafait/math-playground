@@ -60,20 +60,10 @@ These bounds hold for finite partial sums and pass to their increasing limits. C
 
 The result answers the specified logarithmic-coordinate question for every fixed α>1/2. Constants need not remain bounded as α decreases to 1/2. No assertion for arbitrary increasing coordinates, pointwise convergence, penalty maximizers, theta zeros, signed zero velocities, or RH follows. Lemma 79 is a comparison, not a mathematical input to this proof.
 
-## Verification and formalization obligations
+## Verification
 
-This analytic proof requires no numerical certificate. Verify the derivative lower bound on the whole finite block, the log ratio and horizontal separation, the decreasing-integrand tail and its evaluation, the at-most-k crossing count, finite rearrangement, telescoping, and passage to monotone limits. Formalization also needs Lemma 74's product and zero identification, higher-zero enumeration, and finite dyadic minimum selection. Both infinite remainders are explicitly bounded uniformly over each averaging block.
+This analytic proof requires no numerical certificate. Verify the derivative lower bound on the whole finite block, the log ratio and horizontal separation, the decreasing-integrand tail and its evaluation, the at-most-k crossing count, finite rearrangement, telescoping, and passage to monotone limits. Both infinite remainders are explicitly bounded uniformly over each averaging block.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

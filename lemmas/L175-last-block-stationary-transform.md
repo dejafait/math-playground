@@ -72,7 +72,7 @@ This is an equivalence of the remaining first-moment problems and an
 audit of these bounds, not an impossibility theorem for other uses of
 the dual phases. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This completes the requested full-endpoint transform with uniform
 little-o error. It does not address every truncated endpoint in L173,
@@ -82,20 +82,9 @@ argument is unchanged.
 Analytic verification checked all four derivatives, the sign under
 conjugation, the exact stationary point and common phase, the closed
 endpoint convention, uniform error constants and the transfer of square
-means. Formalization would require the cited C^4 transform with its
-uniform endpoint convention and these finite-sum identities. No numerical
+means. No numerical
 claim or computational certificate is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

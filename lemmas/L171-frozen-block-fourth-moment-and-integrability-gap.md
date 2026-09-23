@@ -97,7 +97,7 @@ Finally R_j is signed and its proved error exceeds the diagonal scale;
 the diagonal lower bound cannot be subtracted to give a useful lower
 bound for the full fourth moment. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This is a uniform bound in block location, not a bound independent of T.
 Variance normalization does not remove the multiplicative diagonal's
@@ -109,20 +109,7 @@ unproved.
 Analytic verification checks the four amplitude factors, unique coprime
 parametrization, both integer interval endpoint errors, disjoint dyadic
 squares, product-frequency support, both Hilbert endpoints, and division
-by h. No numerical certificate is needed. Formalization would require
-these finite counting estimates, the stated finite Hilbert inequality,
-compact bounds for V, and the elementary tail counterexample.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+by h. No numerical certificate is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -64,18 +64,8 @@ Finally, the error envelope divided by d t^(−δ) tends to B/d at δ=3/2 and to
 
 ## Scope and verification
 
-The correction mass is on the same scale as L139's leading absolute mass; division by t supplies the extra power. Its finite positive integral constant was not numerically approximated. Analytic verification consists of the exact modulus identity, differentiated complex profile, integrable Gaussian majorants, quadrature error, conversion between N and t, and reverse triangle inequality. Formalization would require these identities and integrability and convergence arguments, together with the conditional asymptotic comparisons. The center lower bound, common heat-interval strip, and RH remain unresolved.
+The correction mass is on the same scale as L139's leading absolute mass; division by t supplies the extra power. Its finite positive integral constant was not numerically approximated. Analytic verification consists of the exact modulus identity, differentiated complex profile, integrable Gaussian majorants, quadrature error, conversion between N and t, and reverse triangle inequality. The center lower bound, common heat-interval strip, and RH remain unresolved.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

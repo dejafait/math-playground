@@ -65,7 +65,7 @@ Substituting H_* yields exactly the two vanishing terms asserted.
 For any subset of the tubes, its positive mass is bounded termwise
 by T(H); this proves the restricted assertion.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 Combining this with the earlier localizations leaves positive mass on
 
@@ -81,20 +81,7 @@ Neither a signed-total assertion nor an RH assertion follows.
 Verification is analytic: differentiation on the compact factor interval,
 the mean value theorem, integer interval counts including H=0,
 the uniform fixed-pair estimate, nonnegative restriction, and scale
-normalization. No numerical or distribution claim is used. Formalization
-would require these finite inequalities with constants uniform in H,
-and the elementary logarithmic limits.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+normalization. No numerical or distribution claim is used.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -97,20 +97,7 @@ bound, the exact common-prime partition, and the vanishing errors
 were checked. A rational arithmetic check of the constants uses
 `python3 scripts/heat/check_coprime_population_constants.py`.
 This script tests only the arithmetic inequalities, not asymptotic
-distribution. Formalization requires finite totient products,
-positive square roots, the integral comparison, the finite union
-bound, and the fixed-parameter eventual estimates above.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+distribution.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

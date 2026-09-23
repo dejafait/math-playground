@@ -8,18 +8,8 @@
 
 For π, put A=arctan(1/5), B=arctan(1/239). The double-angle tangent identity gives tan(2A)=5/12 and tan(4A)=120/119, hence tan(4A-B)=1. The bounds A≥5/26 (integrate 1/(1+x²)≥25/26 on [0,1/5]), B<1/239, and A<1/5 place 4A-B strictly in (0,π/2). Thus 4A-B=π/4, giving π=16A-4B. For 0<x<1, integrating the finite geometric identity for 1/(1+x²) gives the alternating arctangent series and its next-term remainder bound. Ninety-six rational terms for each arctangent therefore provide exact rational lower and upper bounds for π, converted with directed rounding.
 
-The arithmetic contract is Python's documented `decimal` contract: basic operations support directed rounding, `exp` is correctly rounded using ROUND_HALF_EVEN, and `next_minus`/`next_plus` return adjacent representable values. See the [official Decimal documentation](https://docs.python.org/3/library/decimal.html). This is a computer-assisted finite certificate, not an independently formalized verification of the Decimal implementation. ∎
+The arithmetic contract is Python's documented `decimal` contract: basic operations support directed rounding, `exp` is correctly rounded using ROUND_HALF_EVEN, and `next_minus`/`next_plus` return adjacent representable values. See the [official Decimal documentation](https://docs.python.org/3/library/decimal.html). This computer-assisted finite certificate relies on the documented Decimal implementation without independently verifying it. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -88,26 +88,14 @@ restriction of Q_N, (2) would rule out Q_N=O(N³). This remains
 conditional. Neither the signed exterior comparison nor RH is
 resolved by the budget audit.
 
-## Verification and formalization
+## Verification
 
 Verification is analytic: finite restriction of L220's identity,
 absolute coefficients, divisor pairing including perfect squares,
 interval counts with endpoint error one, and the coprime-pair and
 totient inequalities proved in L221. All sums are finite; h grows
-faster than N, and log N/N tends to zero. Formalization would
-require these finite sums and uniform asymptotic comparisons.
-There is no numerical distribution claim or new external theorem.
+faster than N, and log N/N tends to zero. There is no numerical distribution claim or new external theorem.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

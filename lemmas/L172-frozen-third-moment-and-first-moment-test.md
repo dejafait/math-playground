@@ -56,7 +56,7 @@ Hence E_j[Y_j² 1_(Y_j²>K)] tends to one for every fixed K. The supremum
 of those tails cannot tend to zero as K→∞. This proves the conditional
 obstruction without an interchange of limits. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This completes the interpolation test, a scoped part of the proposed
 fractional-moment route. It neither proves nor disproves a uniform third
@@ -67,20 +67,9 @@ Uniform integrability, cutoff covariance and RH remain unproved.
 Verification is analytic: both Cauchy–Schwarz factorizations, positivity
 of the denominator, all three moments of the probability model, the
 square-root cutoff factors, and the order of the two tail limits are
-explicit above. Formalization would require these elementary probability
-inequalities together with L171's uniform estimates. No numerical
+explicit above. No numerical
 certificate or external theorem is needed.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

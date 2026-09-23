@@ -82,7 +82,7 @@ Dividing by the two-sided estimate G_N comparable to N² proves
 the weighted-mean versions. No mean value for actual cells or
 coprimality has been assumed.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 This identifies a limitation of summing the uniform fixed-pair bound
 and using only the remaining factor geometry. It does not show that
@@ -97,20 +97,8 @@ exclusion, the real-N integer count and ratio lower bound are uniform,
 and (2) is an exact finite identity. The two-sided cutoff scale is
 explicit and is needed for the stated equivalent exponents. Direct
 inputs are L195's ratio formula and L213's fixed-pair estimate; other
-localizations and L212 are comparisons only. Formalization requires
-the eventual box inclusions, integer counts, monotonicity, and finite
-normalization with uniform constants. No numerical evidence is used.
+localizations and L212 are comparisons only. No numerical evidence is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

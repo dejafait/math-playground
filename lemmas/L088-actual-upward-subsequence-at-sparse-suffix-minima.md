@@ -97,7 +97,7 @@ new sufficient condition; it is not a counterexample to near-sum
 liminf zero. The unrestricted assertion for arbitrary suffix sets and
 the RH gap remain unresolved. No claim about theta-specific zeros is made.
 
-## Verification and formalization obligations
+## Verification
 
 This is an analytic proof, requiring no numerical certificate. Verify
 the earliest-tail-minimizer argument including ties, (2), the decreasing
@@ -107,16 +107,6 @@ blocks. Lemma 84 supplies the tail-minimum existence, growth, product
 properties and full-tail estimates. The limitation example uses only
 convergence of Σn^{-2} and divergence of the harmonic series.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -2,7 +2,7 @@
 
 STATUS: IN_PROGRESS
 
-Phase: informal research and strategic review. Lean remains paused; preserve existing sources and evidence.
+Phase: informal research and strategic review.
 
 Main bottleneck: prove cᵀH_dc≥0 for every d and every real c for the actual theta reciprocal-zero nodes, or independently exclude every off-line zero. C032a supplies the implication to RH, not its positivity premise.
 

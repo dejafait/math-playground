@@ -85,20 +85,7 @@ new about the exterior signed mass or RH.
 
 Verification is analytic: the strict integer-cell inequalities, the
 exact rational difference (3), uniform divisor bounds with separately
-chosen exponents, and finite nonnegative summation. Formalization
-requires these inequalities, the interval integer count, the two-cell
-count, and the grouped ordered-weight identity (4).
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+chosen exponents, and finite nonnegative summation.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

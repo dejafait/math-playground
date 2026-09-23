@@ -24,16 +24,6 @@ e^{2x}≥1+2x+2x²+(4/3)x³>1+4x²,
 
 because the difference after the constant and 4x² is 2x(1-x+(2/3)x²)>0; its quadratic factor has negative discriminant and positive leading coefficient. Therefore the first energy integral is strictly greater than 7∫|Y|². Strictness holds because Y is nonzero on some interval with x>0. Thus z²/4>7, proving the stated bound. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

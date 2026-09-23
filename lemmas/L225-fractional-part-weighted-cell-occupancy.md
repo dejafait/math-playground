@@ -86,26 +86,13 @@ independent weight is unjustified, and need not reproduce T_a.
 The exact benchmark in (3) remains the real mass T_a. The other
 progression terms, signed comparison, and RH remain unresolved.
 
-## Verification and formalization
+## Verification
 
 `python3 scripts/heat/check_fractional_cell_occupancy.py` checks the
 candidate, strict endpoint conventions and weighted reindexing by
 integer arithmetic on finite fixtures. It does not verify asymptotic
 cancellation. Analytic verification above establishes the uniform
-cell estimate on the whole candidate set. Formalization would require
-floor and fractional-part identities for square roots, strict open
-interval counting, exact overlap algebra and finite reindexing.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+cell estimate on the whole candidate set.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

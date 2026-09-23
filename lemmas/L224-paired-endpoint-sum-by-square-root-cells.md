@@ -93,26 +93,14 @@ parts is not justified here. The paired estimate needs no separate
 bounds on the four Bernoulli terms. Other divisor terms, the signed
 comparison, and RH remain unresolved.
 
-## Verification and formalization
+## Verification
 
 Verification is analytic: derive (4) from strict positive overlap,
 rationalize (5), use ab<=12N²/5, subtract the endpoints in (6),
 and apply the length-plus-one count. The existing exact rational test
 `python3 scripts/heat/check_unit_progression.py` verifies the paired
 identity used in (3); it does not test asymptotic distribution.
-Formalization would require uniform eventual square-root estimates,
-finite interval counting, and the exact overlap/area identities.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

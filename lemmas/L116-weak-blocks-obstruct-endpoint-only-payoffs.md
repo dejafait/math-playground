@@ -82,26 +82,14 @@ provides it. Arbitrary masses throughout weakly separated blocks,
 unrestricted summable counts, general coordinate selection and RH remain
 unproved. Lemma 115 is a comparison, not an input.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic and needs no numerical certificate. Check the
 floor lower bound, summability of reciprocal masses, the distance-two
 single-term bound, finite telescoping, the singleton first block, the
-intervening integers and bounded-correction variation. Formalization
-would require these elementary sequence arguments and the payoff
-existence statement of Lemma 113. No claim about arbitrary adapted
+intervening integers and bounded-correction variation. No claim about arbitrary adapted
 ramps is used as an input.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

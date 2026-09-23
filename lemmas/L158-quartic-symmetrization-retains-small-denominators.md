@@ -92,20 +92,7 @@ Verification consists of the finite chain rule, the two pair orders in
 frequency check in scripts/heat/check_quartic_symmetrization.py also
 checks the polynomial identity and collected coefficient exactly; it is
 a regression check, not a numerical proof about the zeta function.
-Formalization would require finite polynomial multiplication and
-reindexing, coefficient collection, Cauchy–Schwarz, the finite-sum
-mean-square estimate of L156, and the elementary logarithm limit.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

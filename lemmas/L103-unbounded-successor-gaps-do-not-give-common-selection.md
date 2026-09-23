@@ -102,20 +102,7 @@ Verification is analytic; no numerical certificate is needed. Checks
 cover the disjoint removed intervals, interpolation endpoints, the
 parameter derivative in (1), both cases in (2), the ceiling and small
 n bounds in (3), the total height budget, and the direction and factor
-2 in (4). Formalization would require those estimates, sparse
-extraction from an infinite subset, convergence of the positive
-increment series, and Lemma 100's product and full-sum conclusions.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+2 in (4).
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

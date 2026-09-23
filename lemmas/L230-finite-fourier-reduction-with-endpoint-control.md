@@ -119,7 +119,7 @@ which proves (1). L227 gives B_0>=c N²h/log N. Choose any fixed
 L229 supplies the negligible tail above D; L228 supplies the final
 comparison with C-B_0. All sums defining F_H are finite.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 The high cutoff H is deliberate; no useful cancellation estimate for
 this many frequencies is supplied. No equidistribution, independence,
@@ -132,20 +132,7 @@ identity, the two distinct product counts and the aggregate exponents.
 `python3 scripts/heat/check_fourier_endpoint_control.py` checks the
 endpoint convention and both product-count identities in exact finite
 examples, and samples the Fourier tail bound; it is not an asymptotic
-proof. Formalization would require the geometric-series Fourier proof,
-finite factorization counts, the near-square implication (6), and the
-benchmark limit.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+proof.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

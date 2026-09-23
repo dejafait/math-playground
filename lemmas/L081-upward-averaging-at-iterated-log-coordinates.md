@@ -69,20 +69,9 @@ The first term in (1) is O_β(H(log(log N))^{-2β}), since (1+log(4N))/log(N+1) 
 
 This answers the stated iterated-log-coordinate question for every fixed β>1/2. Constants are not uniform as β decreases to 1/2. The assertion concerns this explicit geometry, not arbitrary summable coordinates, pointwise convergence, selected penalty maximizers, theta zeros, signed velocities, or RH. Lemma 80 motivates the question but is not a mathematical input.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic and needs no numerical certificate. Check positivity and monotonicity of L and g, the integral substitution and lower endpoint, the exact higher-zero enumeration, the finite horizontal gap bound, the at-most-k increment crossing count, telescoping, the uniform infinite-tail bounds, and the fixed-β limits. Formalization also requires Lemma 74's product and zero set, finite rearrangement, passage to nonnegative series limits, and dyadic minimum selection.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof is analytic and needs no numerical certificate. Check positivity and monotonicity of L and g, the integral substitution and lower endpoint, the exact higher-zero enumeration, the finite horizontal gap bound, the at-most-k increment crossing count, telescoping, the uniform infinite-tail bounds, and the fixed-β limits.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

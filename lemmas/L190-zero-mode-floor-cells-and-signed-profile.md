@@ -91,19 +91,7 @@ other gcd sectors unresolved; this is not a proof of RH.
 partition and signed ordered-pair identity with exact rational arithmetic,
 including empty intervals and integral floor boundaries. Artificial rational
 H values test finite grouping only; asymptotic estimates have the proof
-above. Formalization requires the integer floor equivalence, half-open
-partition, finite pair convolution, and the inherited uniform bounds.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+above.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

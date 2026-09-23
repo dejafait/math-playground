@@ -55,7 +55,7 @@ by O_K(N^(3/2)+N)=O_K(N^(3/2)). Multiplication proves the
 O_K(N^(5/2)) bound. This is an upper bound on excluded tuples;
 it makes no assertion that the other tuples have occupied windows.
 
-## Qualifications, verification and formalization
+## Qualifications, verification
 
 Only the two floor-cell inequalities were used for the exclusion;
 adding L199's safe-m cutoffs cannot restore occupancy. The opposite-side
@@ -67,21 +67,7 @@ remain separate questions. This result changes no part of the RH argument.
 `python3 scripts/heat/check_near_diagonal_exclusion.py` exhaustively
 checks the necessary condition and the exact midpoint identity on finite
 integer cases. The analytic proof supplies the uniform counting bound;
-finite checks do not establish an asymptotic lower bound. Formalization
-would require integer midpoint rounding, the two displayed polynomial
-identities, monotonicity of squaring positive numbers, and the elementary
-factor-pair interval count.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+finite checks do not establish an asymptotic lower bound.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

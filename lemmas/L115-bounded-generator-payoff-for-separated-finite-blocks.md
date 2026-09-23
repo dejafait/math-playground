@@ -117,7 +117,7 @@ Lemma 114 motivates the construction but is not a mathematical input.
 Only the bounded-generator cutoff argument of Lemma 111 is used, not
 its linear count envelope.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic and needs no numerical certificate. Audit the
 recursive thresholds, endpoint growth and local finiteness, unboundedness,
@@ -125,19 +125,7 @@ nonnegative interchange, constancy of P including both block endpoints,
 near cancellation for all interior masses, singleton and arbitrarily
 wide blocks, a_1=1, k=b_j, l=b_j, and the l=2k boundary. Check the
 zero internal increments, retained exit rates, payoff-cap direction and
-lifetime coupling. Formalization would require these elementary bounds
-and the cutoff and process statements invoked above.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+lifetime coupling.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

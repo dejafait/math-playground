@@ -75,20 +75,10 @@ The unit counts are unbounded: the number in [m,m+1) is at least (m+1)^{3/2}−m
 
 This is a sufficient condition, not a resolution of unrestricted monotone quartets. Neither polynomial local counts nor the height-tail rate is implied by reciprocal-square summability. For instance the same coordinates with b_n=2−n^{-1/2} still meet Lemma 74's hypotheses but violate the displayed rate condition. That is a limitation of this estimate, not a counterexample to vanishing lower limit. No penalty-maximizer selection, theta-specific hypothesis, signed-motion estimate, or RH conclusion is established.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic and needs no computational certificate. Required checks are the integer-bin count (1), mean value bound with its explicit constant, finite-bin bounds followed by monotone limits, convergence of the power tail in (3), and the rate implication in (4). The example uses elementary integer counting, the mean value theorem, and the convergent p-series test. Formalization would also require Lemma 74's product zero set and reflected tail bound and an enumeration of S. There is no exchange of a varying-index limit with an uncontrolled infinite sum.
+The proof is analytic and needs no computational certificate. Required checks are the integer-bin count (1), mean value bound with its explicit constant, finite-bin bounds followed by monotone limits, convergence of the power tail in (3), and the rate implication in (4). The example uses elementary integer counting, the mean value theorem, and the convergent p-series test. There is no exchange of a varying-index limit with an uncontrolled infinite sum.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -124,20 +124,7 @@ Analytic verification checks row finiteness, the sign of backward
 payoff increments, complete exit rates, absence of repeated states,
 pathwise exit-time convergence, bounded height telescoping, and the
 finite-prefix exclusion used for selection. No numerical certificate
-is needed. Formalization would require convergent product zero sets,
-countable transition sampling, finite-state expectation identities,
-nonnegative monotone convergence, and the stated subsequence extraction.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

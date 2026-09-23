@@ -52,22 +52,12 @@ Lemma 58 supplies the finite upper bounds on derivatives on compact sets. Those 
 
 Even if the boundary condition were established, global reality at a is a separate assumption. Applying this forward theorem to conclude reality at zero requires a≤0; taking a=0 already assumes the desired reality, and taking a>0 cannot reach zero. The theorem does not remove the downward collision obstruction of Lemma 61. No theta-specific attempt has been disproved here; the result identifies the precise hypotheses for this exhaustion route.
 
-## Verification and formalization obligations
+## Verification
 
 This analytic result needs no numerical certificate. Check the quantifiers: each domain must work for the same entire interval; each zero is covered at its own fixed parameter; simplicity excludes only the initial endpoint. The derivative test uses a real parameter segment contained in [a,b] and a bound valid on the full spatial boundary. Compactness yields a positive minimum only after nonvanishing is assumed or proved.
 
-Formalization would require applying Lemma 61 to each member of a covering family, the covering argument for arbitrary zeros, the integral derivative bound from Lemma 58, the fundamental theorem of calculus and reverse triangle inequality, and the extreme-value theorem on the parameter-boundary product. No infinite zero count is declared finite, and no theta boundary certificate or initial real configuration is a proved input.
+No infinite zero count is declared finite, and no theta boundary certificate or initial real configuration is a proved input.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -89,7 +89,7 @@ O(N)N^(−3/2)/(N²h). Applying (5) to L184 (3) and grouping the
 remaining finite sums proves (1); L184's O_epsilon(N^(−1/2+epsilon))
 error dominates. Choose epsilon<1/2 to make the remainder o(1). ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The two short sums have lengths O(N^(3/2)). The inherited divisor bound
 alone gives |S0(m)|≤C_epsilon N^(3/2+epsilon) and
@@ -102,20 +102,7 @@ the full mixed moment nor RH is settled by this reduction.
 Verification is analytic: the exact displacement identity, smooth
 coordinate differentiation at zero, Lipschitz bounds for moving integration
 endpoints, preservation of integer cutoffs, and absolute accumulation of
-all remainders. No numerical or external theorem is needed. Formalization
-would require these Taylor and mean-value estimates and finite sum grouping,
-in addition to the uniform kernel and counting statements already used.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+all remainders. No numerical or external theorem is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

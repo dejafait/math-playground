@@ -38,20 +38,10 @@ A zero of maximal positive imaginary part need not exist merely because the imag
 
 The exclusion a=0 is part of the distinct-quartet hypothesis. The proof does not need an additional imaginary-axis nonvanishing theorem. No claim that a hypothetical quartet occurs in a theta slice is made. The strict decrease at a highest simple zero does not imply that every nonreal zero disappears before λ=0, and supplies neither initial global reality nor RH.
 
-## Verification and formalization obligations
+## Verification
 
-The proof uses Lemma 64 directly; Lemma 65 is motivation only. Check the three reciprocal differences, the heat-parameter sign inherited from Lemma 64, and both inequalities -b≤v≤b. Run `python3 scripts/heat/check_highest_zero_motion.py` for exact rational checks of (1) and (3), including equal-height zeros and multiplicities. These algebraic checks are not theta-zero evidence. Formalization would require extraction of a finite quartet from an absolutely convergent paired series, the imaginary reciprocal identity, and summation of the nonpositive real terms. No parameter differentiation of an infinite series is used.
+The proof uses Lemma 64 directly; Lemma 65 is motivation only. Check the three reciprocal differences, the heat-parameter sign inherited from Lemma 64, and both inequalities -b≤v≤b. Run `python3 scripts/heat/check_highest_zero_motion.py` for exact rational checks of (1) and (3), including equal-height zeros and multiplicities. These algebraic checks are not theta-zero evidence. No parameter differentiation of an infinite series is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -100,7 +100,7 @@ apart. The estimate need not capture that finer geometry. The problem
 remains open when T_N→∞ over nonempty blocks and the dyadic inverse
 T_N sum converges. No theta-specific statement or RH conclusion follows.
 
-## Verification and formalization obligations
+## Verification
 
 Check the separation estimate, the equivalence r<n+k to k≥r−n+1,
 the finite increment range, the numerical tail integral, backwards
@@ -111,16 +111,6 @@ subsequences and both reciprocal-square tails. This analytic result
 requires no numerical certificate. Lemma 90 supplies the separation
 argument, Lemma 91 the dyadic budget, and Lemma 84 the product and tails.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

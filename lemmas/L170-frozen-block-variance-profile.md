@@ -104,7 +104,7 @@ mean limits must equal its first moment, contradicting their distinct
 values V(u_a) and V(u_b). Uniform integrability is not established
 by the present mean-square calculation. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This is the second moment of the complex frozen sum, equivalently the
 first moment of its nonnegative square. The fixed window [N,2N] is
@@ -118,20 +118,7 @@ the tail target, and RH remain unproved.
 Verification is analytic: finite square expansion, both endpoint terms,
 ordered frequency sum, compact mesh error including integer endpoints,
 the power of 2π, differentiation sign, and the two selected midpoint
-limits. No numerical certificate is needed. Formalization would require
-these uniform estimates, the derivative formula, and the elementary
-truncation argument for weak convergence with uniform integrability.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+limits. No numerical certificate is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

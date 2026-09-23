@@ -46,22 +46,12 @@ The polynomial example in Lemma 58 makes this directional obstruction exact even
 
 For the exact family, no boundary-free exhaustion of the plane over a parameter interval has been established here. Boundedness prevents loss of zeros to infinity within this theorem; it provides no uniform control as D grows. Even an independently known real configuration at a positive parameter would therefore not give downward continuation to λ=0 by this result. Positive-parameter collision exclusion remains unproved.
 
-## Verification and formalization obligations
+## Verification
 
 This proof is analytic and requires no numerical certificate. The compact remainder controls all zeros, including the case of no zeros, and replaces any unjustified use of an argument principle on an irregular boundary. The direct mathematical inputs are the analytic and simple-zero assertions of Lemma 58 and the splitting assertions of Lemmas 59 and 60. Standard named inputs are the isolated-zero theorem, Rouché's theorem, compactness and uniform continuity, and the connectedness/completeness of real intervals.
 
-Formalization would require finite isolation of zeros in a compact set, uniform parameter perturbation on its zero-free remainder, local constancy of the multiplicity count, closedness and right persistence of the real-zero configurations, the initial-interval supremum argument, and the use of negative-side splitting to exclude multiple zeros after a. No assertion about all zeros in the plane or reality at λ=0 is proved.
+No assertion about all zeros in the plane or reality at λ=0 is proved.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -49,20 +49,10 @@ Absolute convergence means Σ_j |1/(x²-α_j²)|<∞. It does not assert absolut
 
 Nonreal pairs and multiple zeros elsewhere are allowed. For real x the total in (1) is real, also directly because f is real entire, but individual pair contributions need not be real or have a prescribed sign. Even assuming other zeros real would give terms of both signs depending on their positions. Thus the identity alone supplies neither initial global reality, a global continuation bound, nor RH. It makes no assertion at a multiple distinguished zero.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic and needs no numerical certificate. The checks are the uniform logarithm and derivative bounds, removal of exactly one simple pair, the product-rule factor two, and the heat-equation sign. As a finite algebraic check, f(z)=(1-z²/x²)(1-z²/a²) gives f''(x)/f'(x)=1/x+4x/(x²-a²) whenever x,a≠0 and a²≠x². Formalization would require normal convergence of the residual product and its logarithmic derivative, the nonvanishing neighborhood, the displayed product-rule calculation, and the complex holomorphic implicit function theorem. No uniform-in-parameter convergence of the zero series is claimed or required.
+The proof is analytic and needs no numerical certificate. The checks are the uniform logarithm and derivative bounds, removal of exactly one simple pair, the product-rule factor two, and the heat-equation sign. As a finite algebraic check, f(z)=(1-z²/x²)(1-z²/a²) gives f''(x)/f'(x)=1/x+4x/(x²-a²) whenever x,a≠0 and a²≠x². No uniform-in-parameter convergence of the zero series is claimed or required.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

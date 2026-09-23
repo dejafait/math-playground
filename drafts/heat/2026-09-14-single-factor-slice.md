@@ -8,7 +8,7 @@ Distinct m intervals are disjoint eventually by L218's width argument.
 For interior m of size N² the interval width is comparable to 1/N.
 There are O(h) such m, while the full b support has length O(h/N).
 Thus summing interval lengths gives O(h/N), already sqrt(N), not O(1).
-Need formalize a conditional interior-slice lower bound for the relaxed
+Need to state and prove a conditional interior-slice lower bound for the relaxed
 real measure, distinguishing it from the integer weighted population.
 No population lower bound or desired O(N³) estimate is proved.
 

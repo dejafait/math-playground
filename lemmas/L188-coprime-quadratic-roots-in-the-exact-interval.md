@@ -92,20 +92,7 @@ No conclusion about signed cancellation or RH follows.
 `python3 scripts/heat/check_coprime_quadratic_roots.py` checks the unit
 root bound and exact interval regrouping on rational finite cases,
 including empty intervals and closed boundaries. The asymptotic bound
-is proved above. Formalization would require the finite reindexing,
-positive square-root inequalities, prime-power root count, Chinese
-remainder theorem, interval spacing and divisor estimates.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+is proved above.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

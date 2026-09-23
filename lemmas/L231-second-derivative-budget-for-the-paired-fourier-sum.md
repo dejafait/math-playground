@@ -97,7 +97,7 @@ majorant is itself o(B_0). This does not assert these majorants are
 attained by F_H. Möbius signs and cancellation between triples or
 frequencies have not been estimated by this procedure.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 Only the bound and the failure of this method to reach the desired
 scale are proved. L230's reduction remains valid; cancellation in
@@ -107,19 +107,7 @@ unproved. No new assertion about the distribution of phases is used.
 Verification is analytic: exact second derivatives, uniform curvature
 comparisons, partial summation with the paired amplitude, both elementary
 frequency sums, divisor multiplicities, and benchmark exponents.
-Formalization would require the named finite second-derivative test,
-the bounded-variation summation identity and these finite sum bounds.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

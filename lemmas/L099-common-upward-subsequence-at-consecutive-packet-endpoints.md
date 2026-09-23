@@ -71,19 +71,7 @@ The proof is analytic and requires no numerical certificate. The
 mathematical checks are the exhaustive normalized-coordinate cases,
 positivity and size of the gap, the exact count n of near terms, the
 factor 2 in the full contribution, and convergent tail passage.
-Formalization would need those inequalities, the fixed subsequence
-limit, and the product and tail conclusions of Lemma 84.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

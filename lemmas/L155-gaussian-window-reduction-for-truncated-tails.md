@@ -107,20 +107,8 @@ No positive-proportion improvement, nonvanishing, or RH result is claimed.
 
 Verification is analytic: the mesh variation estimate with its two boundary
 jumps, normalization, Gaussian integral, event split, and fixed-index limit.
-Formalization would require these bounds, dominated convergence,
-Cauchy–Schwarz, and the restricted-index version of L149's absolute
-integrated off-diagonal estimate. No numerical certificate is needed.
+No numerical certificate is needed.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

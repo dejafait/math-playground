@@ -93,20 +93,8 @@ as well as the other frequency and gcd sectors and RH.
 
 Verification is analytic: profile-ratio algebra, hyperbolic identities,
 Taylor's bound, exact finite expansion, and the inherited two-cell
-absolute estimate. Formalization requires these identities and bounds,
-nonnegativity of W, finite positive-part decomposition, and the stated
-normalization. No numerical evidence is used for an asymptotic claim.
+absolute estimate. No numerical evidence is used for an asymptotic claim.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -72,18 +72,8 @@ The constants η, ε, δ when needed, and the expansion remainders depend on the
 
 Verification is analytic: compact zero finiteness, the zero-free remainder, the Rouché counts, exclusion of lower clusters, the factor two for simple zeros, and the finite-maximum estimate were checked explicitly above. No numerical certificate is needed. The coefficient identities reused from L127 can be checked with `python3 scripts/heat/check_multiple_zero_coefficient.py`; they are not a substitute for its all-m proof.
 
-Formalization would require compact nonvanishing persistence, disjoint isolating discs and local zero counts, the finite lower-height gap, uniformization of finitely many asymptotic bounds, and the finite maximum right-derivative rule. No global uniformity statement is an obligation claimed proved here.
+No global uniformity statement is an obligation claimed proved here.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

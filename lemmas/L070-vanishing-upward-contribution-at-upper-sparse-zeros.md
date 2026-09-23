@@ -31,20 +31,10 @@ Both asserted limits follow from geometric decay, and c_n→1. ∎
 
 This is a statement about the explicit product only. It neither proves a favorable-sequence theorem for general strip products nor supplies a theta heat evolution or time-uniform height-envelope estimate. The universal sequential assertion refuted by Lemma 68 remains false. RH remains unproved.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic and needs no numerical certificate. The finite exact checks in `python3 scripts/heat/check_sparse_upper_contribution.py` verify height eligibility, separation, and the stated bounds; they do not replace the infinite geometric majorant. Formalization would require the listed zero set, splitting a nonnegative sum by cluster, the geometric series, and the limiting bounds. The only direct mathematical input is Lemma 68; Lemma 67 is cited for interpretation only.
+The proof is analytic and needs no numerical certificate. The finite exact checks in `python3 scripts/heat/check_sparse_upper_contribution.py` verify height eligibility, separation, and the stated bounds; they do not replace the infinite geometric majorant. The only direct mathematical input is Lemma 68; Lemma 67 is cited for interpretation only.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

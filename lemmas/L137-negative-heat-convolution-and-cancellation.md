@@ -57,20 +57,10 @@ Its absolute-mass integral is strictly positive by continuity and nontriviality,
 
 This measure is not the theta kernel and is not asserted to satisfy the other theta estimates or a common strip hypothesis. Thus it refutes only the proposed positivity inference, not a theta-specific estimate, a strip-preservation theorem, or RH. ∎
 
-## Verification and formalization obligations
+## Verification
 
-Analytic checks cover Gaussian normalization, the integration-by-parts sign, uniform Fubini domination, measurability and finiteness of disk maxima, positivity of A, the exact ratio inequality, the strip-uniform absolute error and its distinction from relative error, and the explicit nonreal cancellation. No numerical certificate is required. Formalization would require these integral identities and estimates, the identity theorem, and the finite-measure comparison. A common zero strip and the nonzero-parameter logarithmic Jensen ratio remain unproved.
+Analytic checks cover Gaussian normalization, the integration-by-parts sign, uniform Fubini domination, measurability and finiteness of disk maxima, positivity of A, the exact ratio inequality, the strip-uniform absolute error and its distinction from relative error, and the explicit nonreal cancellation. No numerical certificate is required. A common zero strip and the nonzero-parameter logarithmic Jensen ratio remain unproved.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

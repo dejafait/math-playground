@@ -141,21 +141,6 @@ only the final capacity and payoff consequence. General stochastic
 nonexplosion, uniform heat-parameter bounds, whole-plane continuation,
 and RH are not conclusions here.
 
-Formalization would require the finite atomic maximal estimate with
-Lebesgue inner regularity, the good-cut measure bound, dyadic shell
-estimates, nonnegative tail bounds, Cauchy–Schwarz and subsequence
-extraction, and application of the exact-distance capacity alternative.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

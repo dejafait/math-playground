@@ -99,20 +99,7 @@ Verification is analytic: inactive stationary cutoffs, Lipschitz
 minimum bounds at ties, the exact area expansion, finite Möbius
 inversion with closed endpoints, and the displayed error totals.
 Existing exact cell and overlap tests check the retained definitions;
-no numerical test establishes the missing asymptotic. Formalization
-would require uniform eventual bounds in (2)–(3), finite divisor
-inversion and interval counting, and the relative-error limit.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+no numerical test establishes the missing asymptotic.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -90,7 +90,7 @@ K=1+O(T^(−1/4)log T)=O(1). Substitution yields the displayed
 remainder, which tends to zero for every fixed M>0. Subtracting
 this remainder proves the equivalence. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 Freezing preserves the time-dependent phases, their arithmetic
 relations, and the block location. It supplies no common value for the
@@ -103,20 +103,7 @@ Verification is analytic: midpoint derivative bounds, the two product
 rule terms, both integration endpoints, the ordered frequency sum,
 division by h, normalized Cauchy–Schwarz, the cutoff Lipschitz bound,
 and equal-block normalization are all exhibited above. No numerical
-certificate is required. Formalization would require these finite-sum
-estimates and L168's exact decomposition, leaving the frozen signed
-correlation as an unproved condition.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+certificate is required.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

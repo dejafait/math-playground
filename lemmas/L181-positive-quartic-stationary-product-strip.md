@@ -83,7 +83,7 @@ This proves (2). Finally the weights are real and the negative-sign
 kernel is the conjugate of the positive-sign kernel. Both have s3*s4=1
 in L180's expansion, so their combined coefficient is −1/8. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The stationary product strip has width O(N²h) in product coordinates;
 it cannot be replaced by exact equal-product resonances. This lemma
@@ -95,20 +95,8 @@ cancellation is asserted. First-moment decay and RH remain unproved.
 Verification is analytic: phase derivatives, endpoint stationary criterion,
 integration-by-parts boundary terms, derivative transition length, integer
 spacing, shell endpoints, normalization and conjugate coefficient were
-checked explicitly above. Formalization would require finite sums,
-compact oscillatory integration, the monotone spacing count and a harmonic
-sum bound. No numerical certificate is used.
+checked explicitly above. No numerical certificate is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

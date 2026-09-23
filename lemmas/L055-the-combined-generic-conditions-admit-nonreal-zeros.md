@@ -65,16 +65,6 @@ Strictness holds because the density is positive on (0,∞), and all expectation
 
 Finally u=t² gives B_j=I_{j+1/2}/2, so this is exactly the claimed inequality. This argument treats the infinite product directly and does not infer a strict limiting inequality from strict finite inequalities. The same a works for all weights because its only restriction is the already established ψ''<0. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Paused; not required in the current research phase. The added square-root concavity and weighted-moment assertions are unformalized. The previous version also had no validated Lean proof; any archival evidence for it applies only to that previous statement.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

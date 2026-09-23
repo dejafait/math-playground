@@ -83,20 +83,7 @@ Analytic verification consists of the two endpoint implications, positive
 integer factorization counting and the comparison to L223's lower bound.
 `python3 scripts/heat/check_transition_weight_loss.py` checks the endpoint
 implications and nonnegative replacement loss on exact finite fixtures;
-it is not evidence for a distributional estimate. Formalization would
-require those inequalities, the elementary divisor bound, finite counting
-and the eventual power-versus-logarithm limit.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+it is not evidence for a distributional estimate.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

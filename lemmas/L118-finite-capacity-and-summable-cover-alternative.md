@@ -113,21 +113,9 @@ The audit checks full-tail finiteness, the last diagonal coefficient
 A_NN (which would be lost by destination truncation), zero extension,
 coordinate bounds for the mixture, finite-column passage to the limit,
 Tonelli in both directions, and the first-row integrability estimate.
-Formalization would require nonnegative series interchange, compact finite
-optimization, finite linear-programming strong duality, diagonal subsequence
-extraction, and the correction estimate. The finite duality theorem is a
+The finite duality theorem is a
 standard named input; no infinite-dimensional duality is assumed.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

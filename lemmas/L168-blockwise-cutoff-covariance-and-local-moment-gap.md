@@ -75,7 +75,7 @@ moment exactly, not just to the error in (2), does not specify the
 nonlinear cutoff mean. No incompatibility with possible additional
 arithmetic information about the actual Q is asserted. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 An adequate additional estimate would be, for some scalar c_T,
 J^(−1)Σ_j |f_j−c_T|=o(L^(−4)); centering Σ(W_j−bar W)=0 would
@@ -88,19 +88,7 @@ Verification is analytic: block endpoint normalization, centered-product
 expansion, Gaussian derivative bound, both integration-by-parts boundary
 terms, harmonic difference sum, Markov support restriction, and the
 probability masses and expectations above. No numerical certificate is
-needed. Formalization would require these finite-sum estimates and the
-explicit two-law construction; it would leave the signed estimate open.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

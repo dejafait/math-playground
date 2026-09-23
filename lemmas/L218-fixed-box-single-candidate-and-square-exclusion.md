@@ -85,7 +85,7 @@ would save a factor N^(1/2) in this length- and totient-weighted
 coprime population. Square-product exclusion alone supplies no such
 saving; no estimate for the remaining population is asserted.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 This is a scoped reduction of the fixed-box question, not a proof or
 refutation of its proposed bound. The candidate uses sqrt(uv-R),
@@ -101,19 +101,7 @@ aggregate support count. `python3 scripts/heat/check_fixed_box_candidate.py`
 checks the unique-candidate and square-exclusion assertions and compares
 the exact length sum against a direct integer-m enumeration on finite
 samples with rational endpoints. These tests are not asymptotic evidence.
-Formalization requires exact ceiling and floor inequalities, compact
-profile bounds, the finite weighted identity, and uniform constants.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

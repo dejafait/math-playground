@@ -85,7 +85,7 @@ establishes only (3); a sharper estimate must exploit additional signed
 arithmetic information, possibly including these θ-dependent terms.
 It does not prove that such an improvement is impossible. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The exact mixed moment is now reduced to finite arithmetic kernels.
 L179's approximate phase relations are not exact moment identities.
@@ -97,20 +97,7 @@ Verification: expansion signs, normalization N^(−2), conjugate pairing,
 product count, signed Hilbert applicability, and θ' are checked above.
 An independent finite complex-number check is reproduced by
 `python3 scripts/heat/check_mixed_fourth_algebra.py`; it checks algebra,
-not asymptotics. Formalization would require finite expansion and
-integration, the product count and finite Hilbert inequality, and the
-real/imaginary projection inequalities.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+not asymptotics.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

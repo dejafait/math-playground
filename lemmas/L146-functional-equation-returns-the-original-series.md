@@ -92,18 +92,8 @@ L144 already gives the stronger comparison S=CBD+O(t^(−3/2)). Thus (3) is a co
 
 No assertion is made that sharper analysis of (1) is impossible. The conclusion concerns this justified leading approximation. The center lower bound, a common heat-interval strip, and RH remain unproved.
 
-Analytic verification checks the absolute Fubini majorant, gamma and sine phase signs, uniform local expansion, both Gaussian tails, Fourier normalization, exact equality BX=1, and the scaled error. No numerical certificate is needed. Formalization would require these explicit identities, Stirling remainder bounds, Taylor estimates, and dominated interchanges. No lower bound is an input.
+Analytic verification checks the absolute Fubini majorant, gamma and sine phase signs, uniform local expansion, both Gaussian tails, Fourier normalization, exact equality BX=1, and the scaled error. No numerical certificate is needed. No lower bound is an input.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -124,27 +124,14 @@ these distinct formal monomials. This proves an algebraic obstruction
 to bounded coefficients, not a lower bound for U or R_der after the
 actual amplitudes, phases, and cutoff are inserted.
 
-## Verification and formalization obligations
+## Verification
 
 Verification is analytic: finite conjugate pairing, (4), the two excluded
 diagonals in (5), both integration-by-parts signs, the C² cutoff,
 product-frequency spacing, the relative coefficient derivative bound,
-and normalized Cauchy–Schwarz. Formalization would require finite
-regrouping, the generalized Hilbert inequality, L159's pointwise F bound,
-and the displayed chain rule and elementary logarithm limits.
-The overall RH argument is unchanged. Neither uniform control of R_der
+and normalized Cauchy–Schwarz. The overall RH argument is unchanged. Neither uniform control of R_der
 nor the fixed-cutoff tail target is a proved input.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

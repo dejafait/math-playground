@@ -101,7 +101,7 @@ by earlier averaging arguments; the new result is a lifetime theorem
 and its extension to the gap-dominated class (1). Neither RH nor a
 theta-specific zero assertion follows.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic and requires no numerical certificate. Check
 both derivative constants for exponents below and above one, the
@@ -110,22 +110,9 @@ exponent bounding the harmonic factor. The probabilistic audit uses
 only finite-state chains, with the complete exit tail retained in the
 rate matrix; suppressing that tail would describe a different process.
 The capped payoff decreases the positive generator increments, which
-is the direction needed in (5). Formalization would require the mean
-value theorem, the power-tail integral estimate, the finite-state
-expectation identity, the coupling at first exit, and increasing limits
-of nonnegative holding-time sums. Lemma 107 supplies the process and
+is the direction needed in (5). Lemma 107 supplies the process and
 the final upward-selection implication.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -79,7 +79,7 @@ For b>t, l_d>j_d for every d, and both sides vanish. This proves (3).
 No integral approximation, distribution assertion or infinite interchange
 has been used. ∎
 
-## Qualification, verification and formalization
+## Qualification, verification
 
 The zero exclusion is explicit even though u>1 eventually makes its
 Möbius-weighted count cancel. In particular the formula is also correct
@@ -93,19 +93,7 @@ original inequalities with the integer interval and the Möbius evaluation
 using rational parameters and signed affine test weights. It exercises
 empty intervals, negative displacements, strict floor endpoints, closed
 support endpoints and zero removal. These finite tests check algebra only.
-Formalization requires the endpoint equivalences, finite divisor identity,
-change r=dk and signed arithmetic-progression count and sum.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -102,7 +102,7 @@ convergence nor a conclusion about theta-specific zeros or RH. Whether
 the near-sum liminf is zero when no sequence of blocks satisfies (2)
 remains unproved in the divergent-weight, zero-lower-density case.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic and needs no numerical certificate. Check the
 finite crossing multiplicity min(k,M), both integral comparisons,
@@ -112,16 +112,6 @@ suffix set, disjoint harmonic lower bounds, and the half-open empty
 blocks. The only direct lemma input is Lemma 84 for the paired product
 and its full-contribution tail estimates.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

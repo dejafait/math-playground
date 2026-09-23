@@ -18,16 +18,6 @@ Fix M=max_{|X|≤r} max(|L_w(X)|,|L_conj(w)(X)|), finite by continuity on the cl
 
 The degree of this witness is at most N+|E|-1. This is a bound for a fixed hypothesized nonreal node and the entire fixed multiset, not a uniform cutoff for unknown nodes: E, C, T and the necessary N depend on them. The proof therefore gives no finite-test stopping rule for the actual Ξ matrices and no unconditional positivity assertion.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

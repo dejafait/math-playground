@@ -98,27 +98,15 @@ Möbius error cannot be treated as o(N³). Neither geometric window
 occupancy nor coprimality of its possible unique integer follows
 from a real-length density. Both remain arithmetic questions.
 
-## Verification and formalization
+## Verification
 
 `python3 scripts/heat/check_full_core_window.py` checks original
 endpoint inequalities against (1), the exact divisor count, and (3)
 on finite rational-parameter cases including empty and singleton
 windows. It is an algebra check, not asymptotic evidence. The proof
 above supplies the uniform length bound and error comparison.
-Formalization would require the closed-endpoint equivalences, finite
-Möbius identities, interval integer counts, difference of square roots,
-and the aggregate localization argument. No RH conclusion follows.
+No RH conclusion follows.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

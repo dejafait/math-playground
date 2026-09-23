@@ -86,7 +86,7 @@ and Σ_{n∈S}n/x_n²=∞. The proof also permits a_n to oscillate away from
 S; it never assumes global monotonicity of a_n. No assertion about
 pointwise convergence, signed motion, theta-specific zeros, or RH follows.
 
-## Verification and formalization obligations
+## Verification
 
 This is an analytic proof; no numerical certificate is required. Check
 the density application at each integer j, ordering r<t_N, direction
@@ -95,16 +95,6 @@ finite crossing count, the normalization by M_N, and the disjoint dyadic
 selection. Lemma 84 is the sole direct lemma input, supplying the product
 and full-tail estimates. The finite crossing argument is proved here.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

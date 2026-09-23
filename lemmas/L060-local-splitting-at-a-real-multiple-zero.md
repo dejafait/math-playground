@@ -64,22 +64,12 @@ G(-s,-v)=(-1)^m G(s,v).
 
 Let v_c denote the branch with v_c(0)=0. The function -v_c(-s) is another root branch of G(s,·) through zero. Implicit-function uniqueness forces v_c(s)=-v_c(-s). Therefore w_c(s)=s v_c(s) is even and has real Taylor coefficients. Its convergent series contains only even powers, so w_c(s)=h(s²) for a holomorphic h near zero with real coefficients and h(0)=0. In particular w_c(iρ)=h(-ρ²) is real. This proves exactly one real zero on the negative side for odd m and none for even m. Conjugation preserves the original function at real λ and the r disc; the remaining nonreal simple zeros are consequently paired by conjugation. ∎
 
-## Scope and formalization obligations
+## Scope
 
 This conditional local theorem does not assert that a multiple zero exists for the exact theta family. It resolves every assumed finite real multiplicity into simple real zeros just above its parameter, and into nonreal pairs (with one real survivor for odd multiplicity) just below. It gives no exclusion of such parameters above zero, no uniform control over infinitely many zeros, and no global reality assertion at λ=0. The all-degree gap in the main argument remains open.
 
-Formalization would require the polynomial coefficient recurrence and interlacing induction with endpoint signs, iteration of the heat equation for mixed derivatives, normally convergent weighted rescaling, the finitely many holomorphic implicit branches with uniform remainder, the Rouché multiplicity count, and the parity/uniqueness proof for the central branch. These are analytic and exact algebraic arguments; no numerical certificate is needed. Lemma 58 supplies the analytic family, and the rescaling and counting method of Lemma 59 is extended with the full general-multiplicity justification above.
+These are analytic and exact algebraic arguments; no numerical certificate is needed. Lemma 58 supplies the analytic family, and the rescaling and counting method of Lemma 59 is extended with the full general-multiplicity justification above.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

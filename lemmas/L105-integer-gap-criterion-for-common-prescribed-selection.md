@@ -118,20 +118,7 @@ The proof is analytic and requires no numerical certificate. Checks
 cover the adjacent prescribed case d=1, the boundary d=s, the common
 interpolant for d>s, both parameter derivatives, the two integral
 series bounds, and the distinction between a fixed A and existence of
-A. Formalization would require successor enumeration in P, these
-estimates, the limsup selection equivalence, and Lemma 104's common
-selection equivalence.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+A.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

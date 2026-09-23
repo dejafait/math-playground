@@ -88,7 +88,7 @@ the additional nonnegative-product hypothesis every remaining factor
 in D_N is nonnegative, so termwise use of (1) proves the comparison.
 For signed profiles this comparison is not asserted. ∎
 
-## Qualifications, verification and formalization
+## Qualifications, verification
 
 The coefficient G supplies no sign oscillation on the interior m interval.
 For signed profiles cancellation may still come from P,Q and their
@@ -100,19 +100,7 @@ frequencies, other gcd sectors and RH remain unresolved.
 Verification is analytic: decreasing half-period masses, integration by
 parts, smooth coordinate comparability, endpoint separation, and the
 finite absolute exterior bound. No numerical Fresnel sign test is used
-as evidence. Formalization requires these integral inequalities, the
-uniform coordinate comparison, and the finite weighted inequalities.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+as evidence.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

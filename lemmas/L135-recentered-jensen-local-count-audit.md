@@ -54,20 +54,10 @@ L130's positive normalization at zero cannot be used at c_x. The integrand conta
 
 Accordingly the established growth and normalization estimates yield this conditional reduction, not a uniform logarithmic local count. A common strip is itself an additional assumption in this statement. No claim is made that the full theta structure cannot prove (2) by further analysis. No zero-reality or RH conclusion follows.
 
-## Verification and formalization obligations
+## Verification
 
-Analytic verification checked translated rectangle containment, nonvanishing centers, Jensen multiplicities and boundary-radius limits, the imaginary-part version of the existing integral majorant, and compact-parameter minima. No numerical certificate is needed. Formalization would require precisely these facts and the logarithmic ratio implication. Conditions (2) and (3) must remain hypotheses, not established theta inputs.
+Analytic verification checked translated rectangle containment, nonvanishing centers, Jensen multiplicities and boundary-radius limits, the imaginary-part version of the existing integral majorant, and compact-parameter minima. No numerical certificate is needed. Conditions (2) and (3) must remain hypotheses, not established theta inputs.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

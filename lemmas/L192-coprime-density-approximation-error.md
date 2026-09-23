@@ -84,7 +84,7 @@ This proves (2). The finite identities in L190 and L191 give the formula
 for Z_N. Divide by Nh and fix 0<epsilon<1 to obtain a vanishing error
 and the asserted equivalence. ∎
 
-## Qualifications, verification and formalization
+## Qualifications, verification
 
 This result approximates the displacement sum only. It retains the
 coprimality of m and u, the exact floor-dependent integer endpoints,
@@ -98,20 +98,7 @@ correction, which is outside the inherited large-N setting.
 finite summation identity on exact rational signed affine examples,
 including negative, empty, singleton and zero-crossing intervals, and
 checks the two-cell count for short displacement windows. The asymptotic
-bound is proved above, not inferred from computation. Formalization
-requires lattice discrepancy, finite partial summation, the cell count,
-and absolute pair-weight and divisor estimates.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+bound is proved above, not inferred from computation.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

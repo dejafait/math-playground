@@ -46,18 +46,7 @@ The last estimate follows directly by writing j=n+k and summing the convergent g
 
 This establishes critical-scale failure for actual positive exterior sums in the abstract multiset class, strengthening the scope comparison with the majorant in L131. It does not assert that such a multiset is a theta heat slice. Large multiplicities are allowed by the question's multiset hypothesis. The target zero is not a highest zero in the larger window: earlier clusters have height 1. No bounded-domain maximum principle is contradicted, and the signed exterior interaction, which includes downward contributions, is not asserted positive. No necessity theorem for theta zeros, strip theorem, or RH conclusion follows.
 
-The proof is elementary and uses no earlier mathematical lemma. Verification checked full multiplicities, the disk counting convention, the strict exterior cutoff, target simplicity, convergence, and the exact limit by explicit geometric bounds. No numerical verification is needed. Formalization would require this locally finite multiset construction, the geometric summation bounds, and the displayed positive-series limit.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof is elementary and uses no earlier mathematical lemma. Verification checked full multiplicities, the disk counting convention, the strict exterior cutoff, target simplicity, convergence, and the exact limit by explicit geometric bounds. No numerical verification is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

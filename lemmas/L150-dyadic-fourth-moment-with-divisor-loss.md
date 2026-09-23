@@ -83,22 +83,12 @@ Let K>0 be the constant in L149. For sufficiently large T its second moment is a
 
 Squaring and using (1) proves (2). ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The logarithmic loss prevents this argument from giving a fixed positive fraction of the interval. It does not prove that such a fraction is impossible: both the fourth-moment bound and the measure deduction may be nonsharp. No lower bound valid at every point follows from either moment.
 
-Verification is analytic: the product envelope inequality, prime-power divisor inequality, summatory factorization bounds, convergent dyadic tails, variation of each individual product, harmonic sums with both indices fixed in turn, and Cauchy–Schwarz establish every estimate. No numerical evidence is required. Formalization would need these statements and the justified absolutely convergent fourth-power expansion. The only previously proved mathematical input is L149, including its representation, envelope, and second moment.
+Verification is analytic: the product envelope inequality, prime-power divisor inequality, summatory factorization bounds, convergent dyadic tails, variation of each individual product, harmonic sums with both indices fixed in turn, and Cauchy–Schwarz establish every estimate. No numerical evidence is required. The only previously proved mathematical input is L149, including its representation, envelope, and second moment.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

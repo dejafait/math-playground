@@ -135,20 +135,7 @@ specified T_z threshold, totient selection, and RH remain unproved.
 Analytic verification checks the integer interval errors, weighted
 residue count, derivative (3), uniformity before summing slices,
 and the order of the three fixed-parameter limits. No numerical
-population evidence is used. Formalization requires these counts,
-the named derivative test, continuous interval approximations and
-the exact rounded-root congruence.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+population evidence is used.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

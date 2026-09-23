@@ -104,20 +104,7 @@ restriction, not a deduction here from all original cutoffs.
 candidate equivalence with rational cutoffs and integer square roots,
 and (5) by rational squared inequalities. These are finite algebra
 checks, not evidence for an asymptotic population estimate.
-Formalization requires floor and fractional-part identities, positive
-square-root monotonicity, Taylor's theorem on [0,1/2], and the
-uniform fixed-epsilon inequalities used above.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

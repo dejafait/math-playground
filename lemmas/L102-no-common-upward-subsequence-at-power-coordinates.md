@@ -66,19 +66,7 @@ The proof is analytic and requires no numerical certificate. Checks
 are the recursive sparse extraction, positive summable increments,
 the common height bound, the derivative estimate, both directions of
 the successor-term bound, and the order of the quantifiers.
-Formalization would require these elementary estimates and extraction,
-series convergence, and Lemma 100's product and full-sum conclusions.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

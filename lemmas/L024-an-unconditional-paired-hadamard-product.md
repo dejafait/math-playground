@@ -18,16 +18,6 @@ For Ξ, Lemma 23 gives log B(R)=O(R log R), hence for every ε>0 an upper bound 
 
 This supplies Σ_j|β_j|<∞ for β_j=α_j⁻², the exact summability required by the polynomial detector. It supplies no sign for the mixed forms: the factors and nodes may still be nonreal. The statement and mathematical inputs are unchanged by this review.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

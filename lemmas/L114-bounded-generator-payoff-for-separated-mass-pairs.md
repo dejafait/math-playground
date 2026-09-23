@@ -113,25 +113,13 @@ Only the bounded-generator cutoff portion of Lemma 111 is used, not
 its linear count envelope. Arbitrary summable counts, general coordinate
 selection, and RH remain unproved. The subsequence may depend on heights.
 
-## Verification and formalization obligations
+## Verification
 
 This proof is analytic and needs no numerical certificate. Audit tail
 threshold existence, local finiteness and unboundedness, strict jumps
 after second locations, nonnegative interchange, endpoint separation,
 near cancellation at both locations, n_1=1, k=n_j and l=n_j+1,
-and the l=2k far boundary. Formalization would require those elementary
-estimates and the cutoff and process results invoked above.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+and the l=2k far boundary.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

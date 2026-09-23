@@ -105,21 +105,8 @@ mass might cancel it, so it supplies no lower bound for |Y_N| or RH.
 
 Verification is analytic: the exact scaling in (2), uniform compact
 profile bounds, finite small-factor deletion, the derivative estimate,
-and both conversions between Nh and N^(5/2). Formalization would
-require these finite weighted inequalities, integer tuple counts, the
-mean value theorem and positive minima on the indicated compact sets.
-No numerical inference or additional external theorem is used.
+and both conversions between Nh and N^(5/2). No numerical inference or additional external theorem is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

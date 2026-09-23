@@ -52,20 +52,9 @@ These conclusions concern finite right-hand windows, not the full upward contrib
 
 The monotone quartet hypothesis is an additional restriction. Moreover, these zeros need not all occur as quadratic-penalty maximizers. The lemma neither proves existence of favorable penalties for general products nor rules out an obstruction supported on a sparse subset of indices or on an unbounded number of higher zeros. It isolates why a simple endless chain of uniformly strong immediate-successor interactions cannot satisfy the required reciprocal-square summability. No theta-specific result or RH conclusion follows.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic and requires no computational certificate. Verify the finite-window bound, the at-most-K counting of each height increment, the Cauchy–Schwarz consequence of finite squared increments, and divergence of the harmonic series. Formalization would also require compact logarithmic-tail convergence and the simple zero identification, nonnegative infinite sums, and the reciprocal-square tail limit in (3).
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof is analytic and requires no computational certificate. Verify the finite-window bound, the at-most-K counting of each height increment, the Cauchy–Schwarz consequence of finite squared increments, and divergence of the harmonic series.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

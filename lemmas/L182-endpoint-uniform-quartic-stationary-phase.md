@@ -99,7 +99,7 @@ C #S/(N²h) ≤ C(1+N/h)=O(1).
 This proves (2) with absolute error control, without any assumption on
 the signs or cancellation of W(k). ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The saddle phase contains the exact additive π/2. The square-root phase
 and finite endpoint factors must both remain when estimating the signed
@@ -112,20 +112,7 @@ cutoff covariance and RH remain unproved; the overall argument is unchanged.
 Verification is analytic: exact phase subtraction, the smooth inverse
 at zero, the Jacobian, both integration-by-parts endpoint terms, and the
 absolute accumulated error are proved above. No numerical assertion is
-needed. Formalization would require the local smooth inverse theorem,
-compact substitution and integration by parts, and finite grouping by
-integer products with L181's counting bound.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

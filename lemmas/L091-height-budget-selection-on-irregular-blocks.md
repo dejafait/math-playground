@@ -89,7 +89,7 @@ is not a counterexample to the actual near-sum assertion. Divergent
 suffix weights and zero lower dyadic density are neither required nor
 excluded by this lemma. No RH or theta-specific conclusion follows.
 
-## Verification and formalization obligations
+## Verification
 
 This is an analytic proof and needs no numerical certificate. Audit the
 finite increment range inherited from Lemma 90, its telescoping sum,
@@ -98,16 +98,6 @@ nonnegative infinite sums, divergence after deletion of a finite prefix,
 and the ordered subsequence selection. Lemma 90 is used for its finite
 crossing estimate; Lemma 84 supplies the product and full-tail bounds.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

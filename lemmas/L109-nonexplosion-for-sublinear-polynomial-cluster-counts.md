@@ -86,7 +86,7 @@ alpha<1. Summability follows by comparison with 1/[k(log k)²] for k≥2; the po
 k^(1−alpha)/log(k+1)²→∞. No explosion is claimed for that example.
 No universal coordinate theorem or RH conclusion follows.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic and requires no numerical certificate. Verify the
 3/4 intercluster distance constant, vanishing internal increments,
@@ -94,21 +94,7 @@ concavity bound, harmonic sum, convergent far-tail integral and strict
 exponent margin. The stopped process retains every exit rate and every
 internal rate. Its transient set is finite because each cluster is
 finite. The payoff is capped downward on exit, and the holding-time
-coupling does not assume nonexplosion. Formalization would require the
-cluster enumeration, these estimates, the finite-state expectation
-identity and exit coupling of Lemma 108, and the selection implication
-of Lemma 107.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+coupling does not assume nonexplosion.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

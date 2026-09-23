@@ -81,18 +81,8 @@ Finally L138 gives c≤D(t)=A_1(t+3i/2)/|H(t)|≤C. Equation (1) gives the exact
 
 The correction changes the quantity whose cancellation must be controlled: a lower bound for S alone needs an additional comparison with S_1/t. The remainder is additive, so division by W is not justified without a lower bound. The result concerns only the fixed heat slice and large positive t.
 
-Analytic validation checks the analytic Stirling branch and Cauchy disks, all derivative coefficients, the uniform exponential remainder, both original tail regions, the polynomial replacement tail, absolute Fubini, and the two Gaussian moments. No numerical certificate is required. Formalization obligations are these uniform estimates and identities together with the conditional reverse-triangle argument; no cancellation hypothesis has been promoted to an established input.
+Analytic validation checks the analytic Stirling branch and Cauchy disks, all derivative coefficients, the uniform exponential remainder, both original tail regions, the polynomial replacement tail, absolute Fubini, and the two Gaussian moments. No numerical certificate is required. No cancellation hypothesis has been promoted to an established input.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

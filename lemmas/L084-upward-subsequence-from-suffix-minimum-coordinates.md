@@ -107,27 +107,16 @@ make the multiplier globally monotone or justify block averaging.
 The unrestricted liminf assertion remains unresolved. This is a generic
 paired-product result, with no theta-specific or RH implication.
 
-## Verification and formalization obligations
+## Verification
 
 This proof is analytic and requires no numerical certificate. Check the
 finite-block proof of (2), attainment and unboundedness of suffix minima,
 the product hypotheses and enumeration of higher zeros, fixed-index
 series convergence, both separation estimates, and the nonnegative tail
-passages. Formalization also needs enumeration of an unbounded subset of
-the natural numbers and the resulting subsequence limit. Lemma 74 is used
+passages. Lemma 74 is used
 for product properties and the reflected-sum estimate; all other bounds
 are proved here.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

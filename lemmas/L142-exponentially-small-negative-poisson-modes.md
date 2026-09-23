@@ -45,22 +45,12 @@ where the last inequality follows from exp(a)≥1+a. Applying this with a=2πN e
 
 The final integral follows by completing the square, −y²−2y=1−(y+1)². This finite bound also proves the asserted absolute summability directly. Substituting θ=π/2, N²=t/(2π), and τ=t−π/2 gives (1). Finally |C(t)|=exp(π²/16) is constant by L140, so it does not change the little-o conclusion. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The estimate is uniform over all negative integers, with no mode cutoff. Together with L140's zero-mode formula it removes nonpositive modes at the t^(−1) error scale. Positive modes outside the central range and cancellation among positive modes remain unresolved. No conclusion about a theta center lower bound, a common heat-interval strip, or RH follows.
 
-Analytic validation checks the exact logarithmic substitution, the sign of the negative Fourier mode, the complex-shift modulus, both vanishing vertical sides, absolute horizontal domination, Tonelli's theorem, the geometric-series majorant, and the Gaussian constant. No numerical certificate is needed. Formalization would require these identities and bounds, Cauchy's theorem for the entire function in (2), and the nonnegative sum/integral interchange. Only L140 supplies mathematical inputs specific to this project.
+Analytic validation checks the exact logarithmic substitution, the sign of the negative Fourier mode, the complex-shift modulus, both vanishing vertical sides, absolute horizontal domination, Tonelli's theorem, the geometric-series majorant, and the Gaussian constant. No numerical certificate is needed. Only L140 supplies mathematical inputs specific to this project.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

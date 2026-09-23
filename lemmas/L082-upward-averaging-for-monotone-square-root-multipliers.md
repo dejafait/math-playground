@@ -67,20 +67,9 @@ because the bracket tends to 2 and the convergent-series tail S(m) tends to zero
 
 The result covers every multiplier specified in the question, including multipliers with jumps; no interpolation, differentiability, slow variation, or explicit formula is used. The monotonicity of x_n/sqrt(n) is an additional geometric hypothesis beyond increasing x_n and summable reciprocal squares. The proof supplies no common numerical decay rate for all multipliers. It does not prove pointwise vanishing, the unrestricted monotone quartet assertion, a statement about penalty maximizers or signed velocities, any theta-specific conclusion, or RH. Lemma 81 motivates the generalization but is not an input to this proof.
 
-## Verification and formalization obligations
+## Verification
 
-This is an analytic proof and requires no numerical certificate. Check strict coordinate increase, the product hypotheses, enumeration of higher zeros, the horizontal gap constant, finite crossing count and endpoints, telescoping, and bounds for both infinite tails. The new limiting step requires the discrete harmonic lower bound (2), monotonicity in its correct direction, floor-square-root asymptotics, and convergence of a summable nonnegative tail. Formalization also requires compact product convergence from Lemma 74, finite rearrangement, increasing limits of nonnegative partial sums, and dyadic minimum selection.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+This is an analytic proof and requires no numerical certificate. Check strict coordinate increase, the product hypotheses, enumeration of higher zeros, the horizontal gap constant, finite crossing count and endpoints, telescoping, and bounds for both infinite tails. The new limiting step requires the discrete harmonic lower bound (2), monotonicity in its correct direction, floor-square-root asymptotics, and convergence of a summable nonnegative tail.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -72,7 +72,7 @@ the reverse triangle inequality proves the comparison of absolute
 moments. Finally apply L175's O(log(2N)) first-moment comparison.
 Both errors are o(sqrt(N)), proving the equivalence. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The proof controls both boundary strips, including all endpoint crossings,
 without a pointwise small-error claim. It applies to the full endpoint;
@@ -83,20 +83,7 @@ or RH follows from this replacement alone.
 Verification is analytic: the exact δ formula, interval subtraction,
 strict endpoints, pairwise threshold intersections, amplitude variation,
 frequency separation and normalized harmonic sum have all been checked.
-No numerical certificate is used. Formalization would require the finite
-square expansion with threshold indicators, interval integration by parts,
-the integer pair count and Cauchy–Schwarz, in addition to L175's statements.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+No numerical certificate is used.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

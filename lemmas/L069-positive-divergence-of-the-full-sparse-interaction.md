@@ -38,20 +38,9 @@ Adding these bounds proves the claimed estimate for R_n. Its upper bound tends t
 
 This rules out a universal nonpositive limiting full interaction along every sequence approaching the height supremum under these generic product and strip assumptions. It does not exclude a favorable sequence of other zeros. The expression is an instantaneous velocity only if a suitable heat evolution through f is separately established; no such evolution or positive Fourier kernel is asserted here. No conclusion about the theta heat slices, a time-dependent height envelope, or RH follows.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic; finite computation is not its justification for convergence or divergence. `python3 scripts/heat/check_sparse_net_interaction.py` checks the three exact local contributions and the stated bounds for finite cluster sums using rational arithmetic. Formalization would require the explicit-product logarithmic derivative, absolute rearrangement, the horizontal-distance bounds, the geometric tail sum, and the elementary asymptotic limit.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof is analytic; finite computation is not its justification for convergence or divergence. `python3 scripts/heat/check_sparse_net_interaction.py` checks the three exact local contributions and the stated bounds for finite cluster sums using rational arithmetic.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

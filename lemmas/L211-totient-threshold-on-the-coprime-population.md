@@ -89,20 +89,7 @@ Verification is analytic: both factor orientations, closed-interval
 rounding for real N, finite prime-sum interchange, the integral and
 harmonic comparisons, Markov deletion and the strict surviving margin.
 The exact constant equality is 768/2^25=3/131072. No computational
-distribution evidence is required. Formalization would require the
-finite totient product, integer interval counts, logarithm inequalities,
-finite nonnegative-sum bounds and Cartesian-product counting.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+distribution evidence is required.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

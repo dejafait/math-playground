@@ -67,7 +67,7 @@ For B_*, (4) is O((log N)^(-4)), and B_*/N^(7/4)
 annulus is eventually nonempty as a real band and is bounded by
 E_out^+(B_*), proving its asserted negligibility.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 This is one scoped part of the far-exterior comparison. It does not
 bound the full positive mass by o(Nh), prove actual cancellation,
@@ -79,19 +79,7 @@ cell lengths or coprimality by density.
 Verification is analytic: both sign cases, integer interval counts,
 the uniform fixed-pair estimate, nonnegative restriction, and exponent
 arithmetic in (4). No numerical or distribution claim is required.
-Formalization would require these finite inequalities, uniformity in
-the moving band B, and the elementary logarithmic limit for B_*.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

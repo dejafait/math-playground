@@ -75,18 +75,8 @@ proving (2). L140 gives |C(t)|=exp(π²/16), a fixed constant. ∎
 
 Each leading term is O(t^(-1)); summing its modulus gives only O(t^(-1/2)). This does not bound the complex sum away from zero. Modes outside the specified central range are not included in (2), even though L140 represents the full series. No inference about a theta center lower bound, heat-interval strip, or RH follows from (2) alone.
 
-Analytic verification checks the rescaling, phase sign, Morse-coordinate Jacobian, uniform fourth-derivative Fourier moment, Gaussian regularization, two endpoint integrations by parts, and absolute summation of errors. No numerical certificate is required. Formalization would require these uniform estimates, the smooth cutoff and coordinate inverse, Fourier inversion for compactly supported smooth functions, and the dominated Gaussian identity. No unproved cancellation statement is used.
+Analytic verification checks the rescaling, phase sign, Morse-coordinate Jacobian, uniform fourth-derivative Fourier moment, Gaussian regularization, two endpoint integrations by parts, and absolute summation of errors. No numerical certificate is required. No unproved cancellation statement is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

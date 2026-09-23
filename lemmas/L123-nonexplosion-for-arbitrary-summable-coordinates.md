@@ -100,20 +100,8 @@ cutoff coupling, the direction of payoff capping, and pathwise stopped
 sum convergence before taking probabilities. The only earlier proof
 inputs are the payoff from Lemma 122, the finite-state expectation
 identity from Lemma 108, and the process and selection implication from
-Lemma 107. Formalization would require those statements, finite-state
-absorption coupling, nonnegative series limits, and countable unions of
-null events. No stopping identity at an unknown explosion time is used.
+Lemma 107. No stopping identity at an unknown explosion time is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -63,20 +63,9 @@ For fixed ε this tends to infinity as d↓0. Thus neither maximality nor unifor
 
 Penalization excludes a higher zero at the same absolute real coordinate, but imposes no positive lower bound on its horizontal distance. Formula (2) retains an inverse horizontal distance; (3) shows this is a real obstruction to a uniform local estimate, not just an artifact of the tail split. The finite examples do not decide whether every fixed infinite product admits a favorable sequence, nor whether all its penalized maximizers are favorable. No time-dependent supremum derivative, heat evolution, or conclusion about RH follows.
 
-## Verification and formalization obligations
+## Verification
 
-The proof uses elementary compactness of the zero set, inequalities, and summation of nonnegative terms. The exact arithmetic checks in `python3 scripts/heat/check_quadratic_penalty.py` verify the example's score ordering, bounds on H, and (3), plus the pointwise inequality (2). They are supplementary, not an infinite-product certificate. Formalization would require finite zeros in a compact rectangle, the supremum approximation and squeeze limits for arbitrary maximizer choices, splitting the upward sum, and the explicit polynomial's distinct roots and scores.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof uses elementary compactness of the zero set, inequalities, and summation of nonnegative terms. The exact arithmetic checks in `python3 scripts/heat/check_quadratic_penalty.py` verify the example's score ordering, bounds on H, and (3), plus the pointwise inequality (2). They are supplementary, not an infinite-product certificate.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

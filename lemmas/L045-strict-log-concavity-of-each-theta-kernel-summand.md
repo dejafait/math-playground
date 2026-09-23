@@ -12,16 +12,6 @@ Thus every individual K_n is strictly log-concave on [0,∞).
 
 **Proof.** Factor K_n=4v_n(2v_n-3)e^{u/2}e^{-v_n}, with v_n≥π>3 and v_n'=2v_n. Its logarithm is log 4+log v_n+log(2v_n-3)+u/2-v_n. Differentiation gives 5/2+4v_n/(2v_n-3)-2v_n=9/2-2v_n+6/(2v_n-3). Differentiating once more gives the displayed negative expression. Every denominator is strictly positive on the stated domain, so both differentiations are valid. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

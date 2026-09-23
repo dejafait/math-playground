@@ -72,7 +72,7 @@ phi(ab)/(ab)<=1, and each b belongs to at most one I_m, (1)
 gives the stated bound. There are O(N³) triples a,c,d, proving
 the aggregate bound.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 The exact sum retains all stationary cutoffs, normalized lengths,
 and gcd(m,ab)=1. The intervals are only a necessary-support
@@ -86,20 +86,8 @@ triples; a uniform O(1) slice estimate is not claimed necessary.
 
 Verification is analytic: inversion of two linear inequalities,
 the exact subtraction (3), real-variable uniqueness, and the integer
-count in an enclosing interval. Formalization requires these finite
-identities, uniform scale bounds, and the conditional disjoint-length
-sum. Q_N=O(N³), the signed comparison, and RH remain unproved.
+count in an enclosing interval. Q_N=O(N³), the signed comparison, and RH remain unproved.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

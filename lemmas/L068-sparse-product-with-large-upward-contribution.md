@@ -46,20 +46,9 @@ This is a counterexample to a generic sufficient estimate, not a theta zero conf
 
 The statement disproves a universal sequential vanishing assertion. It does not exclude the existence of another sequence approaching H along which E_f tends to zero. It also does not establish the sign of the full imaginary interaction: negative contributions were omitted, and their effect has not been estimated here. A height-envelope derivative still requires additional arguments even if individual branch velocities are controlled.
 
-## Verification and formalization obligations
+## Verification
 
-The proof needs no numerical certificate. Check normal convergence and nonvanishing of the logarithmic tail, distinctness of all eight zeros per n, the four-factor growth estimate, and the single-term lower bound. The exact height and contribution arithmetic can be reproduced with `python3 scripts/heat/check_sparse_product.py`; this finite check supplements, and does not replace, the infinite-product proof. Formalization would require the normal-product theorem via logarithmic series, the order definition and growth estimate, and convergence and monotonicity of the nonnegative upward sum.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof needs no numerical certificate. Check normal convergence and nonvanishing of the logarithmic tail, distinctness of all eight zeros per n, the four-factor growth estimate, and the single-term lower bound. The exact height and contribution arithmetic can be reproduced with `python3 scripts/heat/check_sparse_product.py`; this finite check supplements, and does not replace, the infinite-product proof.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.
