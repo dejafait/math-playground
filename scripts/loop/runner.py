@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shared subscription-loop supervisor (Python standard library, macOS/Linux)."""
+"""Codex subscription-loop supervisor (Python standard library, macOS/Linux)."""
 import argparse
 from contextlib import contextmanager
 from datetime import datetime, timezone
@@ -17,7 +17,7 @@ import sys
 import time
 
 from events import Events
-from providers import VENDORS, check, command
+from codex import check, command
 
 ROOT = Path(__file__).resolve().parents[2]
 STOP = False
@@ -56,7 +56,7 @@ def lock(path, wait=False):
                     yield False
                     return
                 if not waiting:
-                    announce('Another provider is editing the repository; waiting for its checkpoint.')
+                    announce('Another loop is editing the repository; waiting for its checkpoint.')
                     waiting = True
                 time.sleep(1)
         try:
@@ -212,9 +212,8 @@ def validate():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('vendor', choices=VENDORS)
     parser.add_argument('--check', action='store_true', help='Check local CLI/login configuration without a model request.')
-    parser.add_argument('--dry-run', action='store_true', help='Show the adapter command without creating files or calling the CLI.')
+    parser.add_argument('--dry-run', action='store_true', help='Show the Codex command without creating files or calling the CLI.')
     parser.add_argument('--once', action='store_true', help='Attempt one step (still honors a saved cooldown), then exit.')
     parser.add_argument('--verbose', action='store_true', help='Also stream raw CLI output to the terminal.')
     parser.add_argument('--timeout', type=int, default=7200, help='Maximum seconds per invocation (default: 7200).')
@@ -228,21 +227,19 @@ def main():
     if not prompt.strip() or len(prompt.encode()) > 16000:
         raise RuntimeError('PROMPT.md must be nonempty and at most 16 KB.')
     if args.dry_run:
-        argv, stdin = command(args.vendor, args.vendor, '<contents of PROMPT.md>')
+        argv, stdin = command('codex', '<contents of PROMPT.md>')
         print('Repository:', ROOT)
         print('Command:', ' '.join(argv))
-        print('Prompt source: root PROMPT.md' + (' via stdin' if stdin else ' via --prompt-file'))
-        print('Output:', ROOT / f'scripts/loop-{args.vendor}')
+        print('Prompt source: root PROMPT.md via stdin')
+        print('Output:', ROOT / 'scripts/loop-codex')
         return 0
-    executable = check(args.vendor, ROOT)
+    executable = check(ROOT)
     if args.check:
-        announce(f'{args.vendor}: installed; local subscription-auth checks passed. No model request made.')
-        if args.vendor == 'grok':
-            announce('Grok has no documented auth-status command: cached login and account allowance still need a first-run check.')
+        announce('codex: installed; local subscription-auth checks passed. No model request made.')
         return 0
     signal.signal(signal.SIGINT, on_signal)
     signal.signal(signal.SIGTERM, on_signal)
-    directory = ROOT / f'scripts/loop-{args.vendor}'
+    directory = ROOT / 'scripts/loop-codex'
     directory.mkdir(mode=0o700, exist_ok=True)
     state_path = directory / 'state.json'
     with lock(directory / 'process.lock'):
@@ -255,7 +252,7 @@ def main():
             retry_at = state.get('retry_at', 0)
             if retry_at > time.time():
                 when = datetime.fromtimestamp(retry_at, timezone.utc).isoformat(timespec='seconds')
-                announce(f'{args.vendor}: paused until {when} ({state.get("outcome", "cooldown")}). Ctrl+C stops.')
+                announce(f'codex: paused until {when} ({state.get("outcome", "cooldown")}). Ctrl+C stops.')
                 wait_until(retry_at)
             if STOP:
                 break
@@ -265,15 +262,15 @@ def main():
                 if proved():
                     validate()
                     return 0
-                executable = check(args.vendor, ROOT)
+                executable = check(ROOT)
                 prompt = (ROOT / 'PROMPT.md').read_text()
                 if not prompt.strip() or len(prompt.encode()) > 16000:
                     raise RuntimeError('PROMPT.md must be nonempty and at most 16 KB.')
                 before = checkpoint_digest()
-                argv, stdin = command(args.vendor, executable, prompt)
+                argv, stdin = command(executable, prompt)
                 state.update(outcome='running', retry_at=0, started_at=time.time())
                 save_state(state_path, state)
-                announce(f'{args.vendor}: starting a research step; logs in {directory.relative_to(ROOT)}.')
+                announce(f'codex: starting a research step; logs in {directory.relative_to(ROOT)}.')
                 kind, reset, code = run_process(argv, stdin, directory, args.timeout, args.verbose)
                 if kind == 'success':
                     validate()
@@ -300,8 +297,8 @@ def main():
                 state.update(outcome=kind, exit_code=code, failures=failures, unknowns=unknowns,
                              retry_at=retry_at, finished_at=time.time())
                 save_state(state_path, state)
-            # Release the repository during provider-specific cooldowns.
-            announce(f'{args.vendor}: {kind} (exit {code}).')
+            # Release the repository during cooldowns.
+            announce(f'codex: {kind} (exit {code}).')
             if kind == 'fatal':
                 raise RuntimeError(f'Action needed; inspect {directory.relative_to(ROOT)}/stderr.log and stdout.log, fix the reported login/configuration/validation issue, then restart.')
             if args.once:

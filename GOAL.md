@@ -60,7 +60,7 @@ Keep the common section order: Hypotheses, Conclusion, Proof, Mathlib. The mathe
 - After each attempt, append a brief dated decision entry under `history/`: what changed, where the approach failed if applicable, and the reason for the next direction. Link to the mathematical result instead of restating its proof. Start a new numbered session/part file before a history file exceeds about 100 lines, even on the same day.
 - If an attempt dies, preserve its outcome and a one-paragraph WHY IT FAILS under `ATTEMPTS/`. Link to the canonical counterexample proof instead of copying its derivation. Historical files are not active task instructions.
 - After editing documentation, run `python3 scripts/docs/check_structure.py`. Review new or changed dependencies mathematically: structural validation cannot prove that the graph captures every mathematical input or that a proof is correct.
-- Never create additional root files unless explicitly requested by the user. `DAG.md`, `PROMPT.md`, and the four `loop-<vendor>.sh` launchers are user-authorized root files. Place scripts and outputs under `scripts/<topic>/`; other material belongs in an appropriate subfolder.
+- Never create additional root files unless explicitly requested by the user. `DAG.md`, `PROMPT.md`, and `loop-codex.sh` are user-authorized root files. Place scripts and outputs under `scripts/<topic>/`; other material belongs in an appropriate subfolder.
 - Never set STATUS: PROVED unless every success criterion above is met. A wrong RH proof is worse than no proof.
 - Do not use an API key. Work only in this directory. If rate-limited, stop cleanly with PROGRESS.md ready for resumption.
 

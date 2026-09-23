@@ -74,14 +74,12 @@ class Events:
         if not isinstance(event, dict):
             return
         kind = event.get('type', '')
-        failed = (kind in ('error', 'turn.failed') or
-                  kind == 'end' and event.get('stopReason') not in ('end_turn', 'stop') or
-                  kind == 'result' and (event.get('is_error') or event.get('status') in ('error', 'failed') or event.get('error')))
-        success = kind == 'turn.completed' or kind in ('result', 'end') and not failed
+        failed = kind in ('error', 'turn.failed')
+        success = kind == 'turn.completed'
         if failed:
             self.failures.append(event)
             self.failures = self.failures[-16:]
-            self.terminal_failure = kind in ('turn.failed', 'result', 'end')
+            self.terminal_failure = kind == 'turn.failed'
             self.succeeded = False
         elif success:
             self.succeeded = True
