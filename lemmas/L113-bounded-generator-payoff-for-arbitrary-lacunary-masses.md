@@ -104,27 +104,14 @@ This extends the explicit example in Lemma 112, which is a comparison,
 not an input to this proof. General coordinate selection and RH remain
 unproved. The selected upward subsequence may depend on the heights.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic and requires no numerical certificate. Audit
 recursive tail thresholds, local finiteness, divergence of P, the strict
 jump convention, nonnegative interchange, the location count bound,
 the empty near range at k=1, and the far boundary l=2k. The cluster
 application uses only the bounded-generator cutoff portion of Lemma
-111, not its count envelope. Formalization would require these elementary
-estimates, that cutoff argument, and the process and selection statement
-of Lemma 107.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+111, not its count envelope.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

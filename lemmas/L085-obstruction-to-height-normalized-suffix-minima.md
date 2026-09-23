@@ -84,7 +84,7 @@ arguments remain open here. In particular this lemma does not assert
 that every height-dependent normalization fails. No product property,
 theta assertion, or RH conclusion is used or proved.
 
-## Verification and formalization obligations
+## Verification
 
 This is an analytic counterexample requiring no numerical certificate.
 Verify the integral comparison, the exponential lower bound, positivity
@@ -93,16 +93,6 @@ The mention of Lemma 84 explains the obstructed method; its result is
 not an input to this proof. All assertions above follow from the explicit
 sequences and elementary calculus.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

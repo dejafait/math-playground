@@ -116,7 +116,7 @@ little-o assertion and the equivalence. Finally alpha_m=O(1),
 ell=O(R+1), and full pair mass per m give the stated absolute bound
 for Z_G. That estimate does not prove its required decay. ∎
 
-## Qualifications, verification and formalization
+## Qualifications, verification
 
 The estimate gains from the signed first moment inside each density
 integral; it does not bound the integral of |x| on a typical cell by
@@ -128,19 +128,7 @@ frequencies, other gcd sectors and RH are unresolved.
 integer-interval classification and the first-moment bound with rational
 cutoffs, including negative displacements, singleton and empty intervals,
 floor boundaries and support boundaries. Asymptotic bounds (5)–(6) are
-proved analytically. Formalization requires the endpoint partition,
-rounding estimate, weighted divisor count and finite absolute summation.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+proved analytically.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

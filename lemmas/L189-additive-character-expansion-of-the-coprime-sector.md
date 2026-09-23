@@ -79,27 +79,14 @@ weighted, sharply truncated sums S in (1).
 This result concerns only g=1; even proving (3) would leave other gcd
 sectors and the broader analytic problem unresolved. RH is not proved.
 
-## Verification and formalization obligations
+## Verification
 
 `python3 scripts/heat/check_additive_character_expansion.py` checks the
 identity with signed pair weights and exact rational cutoffs, conjugate
 pairing, and the compensating change under a second extension. Character
 values use floating-point arithmetic with a stated tolerance; these are
 regression checks, while finite orthogonality above is the proof.
-Formalization requires finite character orthogonality, floor agreement
-on integers, exact interval restrictions, conjugation, and the divisor
-and interval counts supplying (2).
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

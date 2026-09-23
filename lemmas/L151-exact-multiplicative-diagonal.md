@@ -76,22 +76,12 @@ D(N)≥c N^(−6)log N.                                    (6)
 
 Finally, uniformly on t∈[T,2T], N_t^(−6) is comparable to T^(−3) and log N_t to log T. Integrating (5) and (6) over this interval proves the conclusion. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The bound sharpens only the exact diagonal in the fourth-moment expansion. It neither determines the full fourth moment nor rules out a positive-proportion large-value set. No pointwise lower bound or RH conclusion follows.
 
-Verification is analytic: unique coprime parametrization, the Gaussian midpoint identity, sum/integral variation, the small-X power bound, convergent dyadic tails, the elementary common-divisor union bound, and uniform conversion from N_t to T. No numerical certificate is needed. Formalization would require these statements and nonnegative-series regrouping. L149 supplies the weights; no fourth-moment estimate or unproved cancellation claim is used.
+Verification is analytic: unique coprime parametrization, the Gaussian midpoint identity, sum/integral variation, the small-X power bound, convergent dyadic tails, the elementary common-divisor union bound, and uniform conversion from N_t to T. No numerical certificate is needed. L149 supplies the weights; no fourth-moment estimate or unproved cancellation claim is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

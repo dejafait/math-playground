@@ -75,7 +75,7 @@ claim of either sign for the integrated expression at a prescribed M.
 Neither unweighted frequency orthogonality nor positivity of W removes
 the cutoff correlation. ∎
 
-## Verification and formalization obligations
+## Verification
 
 The proof uses only L160's finite expressions and hypotheses. Verify the
 i cancellation, resonance exclusions, the three permutation bijections,
@@ -84,20 +84,9 @@ and the chain-rule decomposition of Q'. The regression
 and exact rational coefficients to check the collected identity for
 several finite sets and positive amplitudes. It checks the universal
 finite algebra, not a Gaussian asymptotic or a zeta-zero statement.
-Formalization would require these finite-sum bijections, the displayed
-rational identity, and the mean value theorem for χ'. The fixed-cutoff
+The fixed-cutoff
 tail target and RH remain unproved.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -102,7 +102,7 @@ why the phase relations and second moments alone cannot decide decay.
 Cauchy–Schwarz supplies the common upper bound 1+o(1), attained by the
 first model. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The symmetric component is approximately real after rotation and the
 antisymmetric component approximately imaginary. Their contributions to
@@ -114,20 +114,7 @@ and RH remain unproved; the overall argument is unchanged.
 Verification is analytic: the uniform L² Abel error, scalar replacement,
 profile involution, cross-moment estimate, rotation signs and both exact
 probability models are checked above. No numerical certificate is used.
-Formalization would require Minkowski for the compact Abel integral,
-the finite mixed-frequency calculation, the real/imaginary projections,
-and the two elementary finite probability constructions.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

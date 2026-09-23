@@ -83,27 +83,14 @@ The unrestricted favorable-subsequence question remains open in this
 write-up. No theta-specific geometry, heat-flow statement, signed
 velocity conclusion, or RH conclusion is asserted.
 
-## Verification and formalization obligations
+## Verification
 
 The proof uses exact inequalities and geometric sums; no numerical
 certificate is required. Check coordinate ordering, the summability
 bound, Lemma 74's product hypotheses, higher-zero enumeration, fixed-n
 tail convergence, equality of the two successor gaps, block parity,
 the even-index separation bound, and the geometric tail endpoints.
-Formalization also requires passage from nonnegative finite partial sums
-to full sums, divergence of the lower bound in (1), and the subsequence
-argument for the lower limit.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

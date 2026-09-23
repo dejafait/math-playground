@@ -14,16 +14,6 @@ Let R be a positive upper bound for all |β_j|, which exists by Σ|β_j|<∞. Th
 
 Under RH all β_j are positive real. Lemma 27 gives infinitely many zeros, each of finite multiplicity, hence infinitely many distinct nodes. Every summand is nonnegative and at least one tuple of d+1 distinct nodes has strictly positive contribution. This proves strict positivity conditionally. For nonreal nodes, even one conjugate pair can make a square negative, as Lemma 34 demonstrates. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

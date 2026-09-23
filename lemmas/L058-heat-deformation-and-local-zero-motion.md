@@ -67,20 +67,10 @@ Positivity of K gives no sign to the oscillatory integrals in the velocity formu
 
 For an exact illustration of the logical limitation of the PDE and local motion law alone, the real even polynomial P(λ,z)=z²+2(c-λ), with real c, satisfies P_λ=-P_zz. At λ>c its two zeros are simple and real with x'=1/x=P_zz/P_z; at λ=c they collide, and at λ<c they are nonreal. Choosing c>0 shows that reality at a positive parameter plus this local law does not imply reality at zero. This polynomial is not claimed to have the theta integral representation or its positivity at z=0; it tests only the proposed inference from the PDE and local law. No counterexample to RH or to a theorem using additional theta structure is asserted. ∎
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic; no numerical certificate is needed. The mixed derivative sign, explicit tail cutoff, conjugation argument, and polynomial collision can each be checked directly from the displayed formulas. Formalization would require the geometric-series derivative identity, the two-piece majorant (1) for every a,b,L,R, holomorphic parameter integration and its derivatives, and the holomorphic implicit function theorem with local uniqueness. No global real-zero theorem or assertion that the zeros of Ξ are simple is an input or an output.
+The proof is analytic; no numerical certificate is needed. The mixed derivative sign, explicit tail cutoff, conjugation argument, and polynomial collision can each be checked directly from the displayed formulas. No global real-zero theorem or assertion that the zeros of Ξ are simple is an input or an output.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

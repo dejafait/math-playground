@@ -92,27 +92,15 @@ ansatz. It is not a counterexample to either assertion and does not
 prove nonexplosion, a new upward-selection theorem, or RH. The earlier
 endpoint obstruction is motivation only, not a mathematical input.
 
-## Verification and formalization obligations
+## Verification
 
 This elementary analytic proof requires no numerical certificate.
 Audit the singleton first block, missing sites 1 and 3, fibers of size
 two, equal-image cancellation, the factor-two distance inequality,
 nonnegative grouping, weighted factor four, and the correction bound
-including l=k+1 and k=1. Formalization would require the explicit map
-T, these integer inequalities, nonnegative-series grouping, and the two
-quantified implications. Neither (D) nor (U) may be used as an
+including l=k+1 and k=1. Neither (D) nor (U) may be used as an
 unconditional proved existence input.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

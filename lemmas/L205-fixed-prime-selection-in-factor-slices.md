@@ -111,20 +111,7 @@ Fourier normalization, absolute tail, fixed-frequency derivative bound,
 uniform integer-boundary margin, and exact prime-divisor partition.
 The existing command `python3 scripts/heat/check_factor_slice_phase.py`
 rechecks the rational approximation inequalities used in the transfer;
-it is not evidence for a prime-distribution assertion. Formalization
-requires the period-D Fourier change of variables, finite averaging,
-uniform approximation and rounding, and the prime-divisor partition.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+it is not evidence for a prime-distribution assertion.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

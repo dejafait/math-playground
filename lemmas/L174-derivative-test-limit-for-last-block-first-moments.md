@@ -70,20 +70,8 @@ power over the trivial O(N) sum is not enough for L173.
 Verification is analytic: exact derivatives, uniform constants over the
 moving block and all truncations, both oscillatory endpoints, integer
 counts, harmonic summation, and the direction of the first-moment lower
-bound have been checked. Formalization would need the two named finite
-sum derivative tests, the explicit finite square integration and these
-inequalities. No numerical certificate is used.
+bound have been checked. No numerical certificate is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

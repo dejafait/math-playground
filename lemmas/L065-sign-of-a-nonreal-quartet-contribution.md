@@ -40,20 +40,9 @@ P(z)=(z²-x²)[z⁴-2(a²-b²)z²+(a²+b²)²]^m.
 
 Its zero at x is simple, and direct differentiation gives P''(x)/P'(x)-1/x=V_Q(x). This polynomial is only an algebraic check of the isolated contribution. It is not claimed to be a theta heat slice.
 
-## Verification and formalization obligations
+## Verification
 
-The proof consists of exact conjugate-denominator algebra and a positive-denominator sign analysis. Run `python3 scripts/heat/check_quartet_contribution.py` for exact rational checks of the polynomial identity, both signs of x, multiple multiplicities, and the equality case. These finite checks supplement the proof and are not numerical evidence about zeta zeros. Formalization would require extraction of the finite sub-sum in Lemma 64, the conjugate reciprocal identity, strict denominator positivity, and the displayed real inequalities.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof consists of exact conjugate-denominator algebra and a positive-denominator sign analysis. Run `python3 scripts/heat/check_quartet_contribution.py` for exact rational checks of the polynomial identity, both signs of x, multiple multiplicities, and the equality case. These finite checks supplement the proof and are not numerical evidence about zeta zeros.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

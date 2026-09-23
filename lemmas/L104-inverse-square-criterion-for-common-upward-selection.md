@@ -99,20 +99,7 @@ strict threshold implication, removal of finite prefixes, positivity
 and summability of the background increments, the geometric tail, and
 the factor 2 and denominator direction in the lower bound. All infinite
 inequalities follow first for finite sums and then by nonnegative limits.
-Formalization would require these estimates, recursive selection and the
-intermediate value theorem, and the product and full-sum statements of
-Lemma 100.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

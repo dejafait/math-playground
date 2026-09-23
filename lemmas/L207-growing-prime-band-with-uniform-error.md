@@ -138,20 +138,8 @@ Verification is analytic: rectangle-sum errors uniform in the mesh,
 progression lengths including rounding, the exact third derivative,
 the exponents in (4), Fourier bounds independent of interval length,
 half-open endpoints, and uniformity before prime summation. No
-numerical distribution assumption is used. Formalization requires
-these estimates, the named derivative and Fejér theorems, and the
-exact rounded-root congruence. The overall argument is unchanged.
+numerical distribution assumption is used. The overall argument is unchanged.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

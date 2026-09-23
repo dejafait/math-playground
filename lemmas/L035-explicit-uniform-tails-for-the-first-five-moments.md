@@ -19,16 +19,6 @@ For the omitted n≥5 terms, integrate over all u≥0, an upper bound for their 
 
 The last inequality uses e^{-3n²X}≤e^{-(3n²-1)}e^{-X} for X≥1 and ∫_0^∞X⁶e^{-X}dX=720. Write n=5+j. Then n⁴≤625·16^j and n²≥25+11j for integers j≥0. Hence the last sum is at most 625e^{-74}/(1-16e^{-33})≤1250e^{-74}, giving the second term of E. The two upper bounds may overlap, which only enlarges their sum and is harmless. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

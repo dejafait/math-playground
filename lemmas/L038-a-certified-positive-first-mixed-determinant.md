@@ -16,16 +16,6 @@ The saved output encloses S_2 in [0.0000371688839777867…, 0.000037176314593813
 
 Validation included exact rational containment checks for signed interval arithmetic, an exact exponential-derivative recurrence check at zero, and overlap with a separately evaluated expanded determinant expression. That second expression has a wider interval containing zero; the sign certificate uses the first, rigorously enclosing expression. No unvalidated decimal quadrature or zero computation enters the conclusion. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

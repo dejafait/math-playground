@@ -67,20 +67,10 @@ Its right side tends to zero. In each dyadic block N=2^m choose an index attaini
 
 This resolves the concrete height-rate question left after Lemma 77. Monotonicity is used in the nonnegative increment expansion, and the explicit coordinate geometry is used both in (1) and (3). The result does not assert convergence along every index or for arbitrary coordinates satisfying reciprocal-square summability. It makes no assertion about quadratic-penalty maximizers, theta zeros, signed zero velocities, or RH.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic; no numerical certificate is required. Check the decreasing derivative bound, the at-most-k pairs crossing a fixed increment, the finite rearrangement, the telescoping height sum, both integral tails, and log(N)/N^{1/3}→0. Formalization also needs Lemma 74's product and zero set, the exact higher-zero enumeration, and finite-block minimum selection. No varying-index limit is interchanged with an uncontrolled infinite sum.
+The proof is analytic; no numerical certificate is required. Check the decreasing derivative bound, the at-most-k pairs crossing a fixed increment, the finite rearrangement, the telescoping height sum, both integral tails, and log(N)/N^{1/3}→0. No varying-index limit is interchanged with an uncontrolled infinite sum.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

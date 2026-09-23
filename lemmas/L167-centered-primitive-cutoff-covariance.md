@@ -53,7 +53,7 @@ E_T[(P/(T L⁴))χ'''(Q/M)Q']=o(1/(T L⁴)),                (3)
 
 by substitution into (1). This signed estimate remains unproved. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The primitive lower bound does not force overlap with the transition set
 or exclude signed cancellation. A growing upper bound is not a growing
@@ -63,19 +63,7 @@ Verification is analytic: endpoint centering, the chain-rule sign, C³
 regularity, the change t=Tu, the energy identity, Gaussian derivative
 control, and normalized Cauchy–Schwarz are checked above. All sums are
 finite; no limiting interchange or numerical verification is required.
-Formalization would require these identities, L166's deviation and
-profile bounds, and L156's two mean-square estimates.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -79,22 +79,12 @@ Since τ≥t/2 and A/N≤1 for t≥π, (1) follows. Finally (3) with z=A shows
 
 proving absolute convergence of the leading-term series. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This extends the expansion to every positive mode, with absolute summation of remainders justified by explicit nonnegative bounds. The absolute leading mass is only bounded above by O(t^(−1/2)); the complex leading sum has no lower bound here. Positive-mode cancellation, the theta center lower bound, a common heat-interval strip, and RH remain unresolved.
 
-Analytic verification checks the lattice estimate for z<1 and z≥1, derivative scaling, compact coordinate derivative norms, the operator identity (6), both endpoint orders, individual integration-by-parts boundary terms, and Tonelli before summing remainders. No numerical certificate is needed. Formalization would require these estimates plus the compact Gaussian estimate proved in L141. L140 supplies the mode definitions; L141 supplies the fixed cutoff, coordinate, and Fourier error argument. No unproved cancellation premise is used.
+Analytic verification checks the lattice estimate for z<1 and z≥1, derivative scaling, compact coordinate derivative norms, the operator identity (6), both endpoint orders, individual integration-by-parts boundary terms, and Tonelli before summing remainders. No numerical certificate is needed. L140 supplies the mode definitions; L141 supplies the fixed cutoff, coordinate, and Fourier error argument. No unproved cancellation premise is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

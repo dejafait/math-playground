@@ -107,20 +107,7 @@ theta-specific or RH implication.
 The proof is analytic and needs no numerical certificate. Verification
 checks include every adjacent-pair boundary case, integration and the
 factor 1/3, the finite coefficient count and cutoff, both integral
-tails, and the factor 2 in the full sum. Formalization would require
-these estimates, the product conclusions of Lemma 74, enumeration of
-P and its consecutive gaps, and finite-block minimum selection.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+tails, and the factor 2 in the full sum.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

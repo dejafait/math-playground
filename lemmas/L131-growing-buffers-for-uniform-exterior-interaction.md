@@ -53,18 +53,7 @@ The threshold is exact for the displayed L129–L130 majorant only. The inequali
 
 The strip assumption remains conditional. Even with a sublinear buffer, this result does not ensure that an inner zero maximizes height in the larger window, control positive interactions in the buffer annulus, or bound the time remainder uniformly over growing windows. Thus (4) is only a conditional local rate estimate and does not close the whole-plane continuation or RH gap.
 
-Verification is analytic: substitution of the full-multiset tail, the exact simplification of V, its asymptotic comparison, both directions of (3) including nonmonotone d, and the critical-scale limit were checked. No numerical certificate is needed. Formalization would require these uniform inequalities, a two-case limit argument for arbitrary positive buffer functions, and the qualifications on the conditional local height rate.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+Verification is analytic: substitution of the full-multiset tail, the exact simplification of V, its asymptotic comparison, both directions of (3) including nonmonotone d, and the critical-scale limit were checked. No numerical certificate is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

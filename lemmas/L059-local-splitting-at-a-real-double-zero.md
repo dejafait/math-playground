@@ -49,20 +49,9 @@ For t<0 choose s=i sqrt(|t|). The displayed remainder bound gives imaginary part
 
 In increasing λ, this local double collision resolves into real zeros. In decreasing λ, two real zeros collide and become nonreal. Consequently a downward continuation from a parameter with real zeros would require an additional argument to exclude collisions at positive λ before reaching zero. This lemma gives the direction of an assumed collision, not a restriction on where it occurs. It neither proves such collisions occur nor excludes them for the exact theta family. Higher multiplicities, continuation of infinitely many branches, and possible escape to infinity are also outside its statement. No global real-zero theorem or simplicity assertion about Ξ is used.
 
-## Verification and formalization obligations
+## Verification
 
-The proof uses only Lemma 58 and the standard holomorphic implicit function, isolated-zero, and Rouché theorems. The heat sign forces the leading polynomial A(v²/2-1), and substituting v₀²=2 in its first derivative gives c=2B/(3A); these algebraic checks fix both the direction and the drift coefficient. The analytic quotient bound proves a uniform O(|t|^(3/2)) remainder, with no numerical approximation required. Formalization would need the convergent two-variable Taylor rescaling and divisibility, the two implicit branches and their derivative, the bounded removable quotients, the uniform boundary perturbation and multiplicity count, and the conjugation and imaginary-part estimates.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof uses only Lemma 58 and the standard holomorphic implicit function, isolated-zero, and Rouché theorems. The heat sign forces the leading polynomial A(v²/2-1), and substituting v₀²=2 in its first derivative gives c=2B/(3A); these algebraic checks fix both the direction and the drift coefficient. The analytic quotient bound proves a uniform O(|t|^(3/2)) remainder, with no numerical approximation required.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

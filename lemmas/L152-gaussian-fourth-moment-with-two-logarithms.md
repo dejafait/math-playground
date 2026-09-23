@@ -78,22 +78,12 @@ For the measure conclusion let K>0 be the constant in L149 and choose a²=K/4. F
 
 Squaring proves the assertion. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This is a scoped improvement of L150. The extra logarithm in this upper bound comes from taking absolute values and summing reciprocal frequency gaps. Nothing here proves that the signed off diagonal requires that logarithm, or that the full fourth moment has a matching lower bound. The diagonal lower bound in L151 cannot be substituted for a lower bound on the full moment. No pointwise nonvanishing or RH assertion follows.
 
-Analytic verification comprises the Gaussian midpoint identity at general width, all-scale H_β bound, dyadic tail summability, Gaussian absorption of k log(2k), moving-envelope inequality, product variation and endpoint terms, and the measure deduction. No numerical certificate is required. Formalization would require those estimates, Tonelli, absolute uniform convergence on the integration interval, and integration by parts. L149 supplies the representation and second moment; L150 supplies the integrated expansion and harmonic-sum argument; L151 supplies the coprime parametrization and energy proof method.
+Analytic verification comprises the Gaussian midpoint identity at general width, all-scale H_β bound, dyadic tail summability, Gaussian absorption of k log(2k), moving-envelope inequality, product variation and endpoint terms, and the measure deduction. No numerical certificate is required. L149 supplies the representation and second moment; L150 supplies the integrated expansion and harmonic-sum argument; L151 supplies the coprime parametrization and energy proof method.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

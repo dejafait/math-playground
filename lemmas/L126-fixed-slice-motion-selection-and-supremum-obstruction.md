@@ -118,27 +118,15 @@ requires separate treatment, and finite strip height on a parameter
 interval also remains a hypothesis here. These missing assertions are
 not established premises of this lemma or of an RH proof.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic; no numerical certificate is required. Checks
 are imaginary-axis positivity, summability of the exact destination
 multiset, the direction of the E versus S estimate, simplicity at each
 selected point, attained versus nonattained supremum, and the explicit
-exponential limit above. Formalization would require the selection
-application, the sequential velocity inequality, and the elementary
-analytic-family supremum and Dini-derivative computation. RH remains
+exponential limit above. RH remains
 unproved.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

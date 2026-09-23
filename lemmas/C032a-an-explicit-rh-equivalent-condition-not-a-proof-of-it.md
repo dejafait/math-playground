@@ -9,16 +9,6 @@
 ### Unresolved requirement
  No argument in this write-up proves H_d positive semidefinite for every d. Corollary 32a is openly RH-equivalent and cannot be used as an unconditional positivity input. Lemma 27 proves only the scalar cases S_2,S_4,S_6>0 among its diagonal entries, not the mixed forms.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

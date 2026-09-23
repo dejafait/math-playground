@@ -20,16 +20,6 @@ Also P(iy)=(1+y²/25)|1+y²/a²|²>0 for real y: the second factor cannot vanish
 
 Multiplying P's alternating coefficients by the alternating cosine series shows that every even coefficient of F has sign (-1)^n and nonzero magnitude: its coefficient after removing this sign is a sum of positive terms, including the constant-coefficient contribution from P. Moreover F(iy)=P(iy)cosh(y/100)>0. Finally |F(z)|≤C(1+|z|)^6e^{|z|/100}, proving order at most 1. This example does not assert a positive Fourier-kernel representation for F. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

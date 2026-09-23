@@ -59,7 +59,7 @@ from 2N² is at least N²-D_*; in the upper cap it is at least
 2N²-D_*. Since D_*/N² tends to zero and B_*/N² tends
 to zero, both distances exceed B_* eventually.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 This is an upper bound on a subset of the requested far exterior.
 Combining it with L214 leaves the explicit region
@@ -74,20 +74,7 @@ conclusion follows, and no assertion of sharpness is made.
 Verification is analytic: both endpoint inequalities, integer counts
 for real intervals, the uniform full-support estimate (3), finite
 nonnegative restrictions, exponent arithmetic, and eventual cap
-inclusion. No numerical inference is required. Formalization would
-require these finite inequalities and the elementary logarithmic
-limits, with constants uniform in D.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+inclusion. No numerical inference is required.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

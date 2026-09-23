@@ -80,7 +80,7 @@ Multiplication by the total absolute weight just established gives (2).
 Choose, for example, epsilon=1/2 to obtain o(1). Conjugate pairing
 has the coefficient −1/8 specified in L182, proving the final assertion. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The phase i does not make the real contribution zero: the finite Fresnel
 factor is complex, and its real projection is exactly G_m. Nor is the
@@ -94,21 +94,7 @@ moment. First-moment decay, uniform integrability and RH remain unproved.
 Verification is analytic: prime-exponent counting, the elementary divisor
 bound with eta=epsilon/4, integer endpoint counting, the exact real
 projection, and the two normalized error scales are checked above.
-No computational or numerical assertion is needed. Formalization would
-require unique prime factorization, finite ordered factorization counting,
-exponential domination of a fixed polynomial, compact oscillatory
-integration and finite-sum estimates.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+No computational or numerical assertion is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

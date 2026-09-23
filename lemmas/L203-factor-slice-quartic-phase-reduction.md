@@ -89,20 +89,7 @@ in L202. The overall RH argument is unchanged.
 
 `python3 scripts/heat/check_factor_slice_phase.py` checks the Taylor
 remainder and cubic lower bound by exact rational squared inequalities.
-These finite algebra checks are not population evidence. Formalization
-requires Taylor's theorem with its signed remainder, uniform integer
-rounding bounds, and the fractional-part interval inclusions above.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+These finite algebra checks are not population evidence.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

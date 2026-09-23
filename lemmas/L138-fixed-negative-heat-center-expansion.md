@@ -78,18 +78,8 @@ To prove (2), use the same middle and far tail estimates on the absolute integra
 
 The remaining cancellation is contained in an explicit t-dependent complex Dirichlet series. Absolute convergence and its termwise upper bounds supply no lower bound for its modulus. The additive error must not be divided by S without a proved lower estimate. Even this fixed-slice large-t expansion does not settle nonvanishing on the bounded portion of the center line, a heat-interval estimate, or RH.
 
-Analytic validation covers the complex Stirling phase and logarithm branches, the uniform local error, all three Gaussian integration regions, absolute Fubini, the complex Gaussian identity, and the lower bound for the absolute mass. No numerical certificate is used or needed. Formalization would require these uniform remainder estimates and integral comparisons. The lower bound for S remains explicitly unproved.
+Analytic validation covers the complex Stirling phase and logarithm branches, the uniform local error, all three Gaussian integration regions, absolute Fubini, the complex Gaussian identity, and the lower bound for the absolute mass. No numerical certificate is used or needed. The lower bound for S remains explicitly unproved.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

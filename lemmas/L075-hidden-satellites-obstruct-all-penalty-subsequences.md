@@ -63,20 +63,9 @@ The example resolves the full-upward-contribution question along penalty-maximiz
 
 This is a generic paired product, not an identified theta transform or heat slice. It does not refute RH or a favorable-selection assertion using additional theta-specific information. It also leaves open favorable sequences of zeros without the quadratic-maximizer requirement and any useful estimate for the full signed zero interaction.
 
-## Verification and formalization obligations
+## Verification
 
-The all-index proof is analytic. Supplementary exact rational checks are reproducible with `python3 scripts/heat/check_hidden_satellites.py`; finite tests do not certify the infinite assertion. Formalization would require compact logarithmic-tail convergence, exact simple-root identification, reciprocal-square summability, interleaving, the strict chord inequality and affine-score comparison, compact score maximization, reflection invariance, and passage from a single nonnegative summand to the convergent full sum.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The all-index proof is analytic. Supplementary exact rational checks are reproducible with `python3 scripts/heat/check_hidden_satellites.py`; finite tests do not certify the infinite assertion.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

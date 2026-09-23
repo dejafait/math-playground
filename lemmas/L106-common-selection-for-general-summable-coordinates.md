@@ -111,22 +111,9 @@ The proof is analytic and requires no computational certificate. The
 audit checks the fixed-index summable majorant, the complete higher-zero
 enumeration, the reflected tail, the threshold at ε=1/2, finite-prefix
 removal, strict and summable height increments, the geometric budget,
-and both nonlinear lower-bound inequalities. Formalization would need
-the product statement of Lemma 74, uniform convergence of F_n on compact
-parameter intervals, the intermediate value theorem, recursive choices,
-nonnegative sum limits, and the displayed estimates. Lemma 104 supplies
+and both nonlinear lower-bound inequalities. Lemma 104 supplies
 the reused proof construction, whose hypotheses are verified above.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

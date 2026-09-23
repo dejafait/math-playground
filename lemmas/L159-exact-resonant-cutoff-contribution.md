@@ -83,20 +83,8 @@ of the two excluded equalities on rm=sn, both minus signs, T³N_t^(−6),
 and the transition support. A finite integer enumeration regression is
 provided in scripts/heat/check_resonant_quartic.py. It checks the algebra,
 not asymptotic estimates or any assertion about zeta zeros.
-Formalization would require finite product regrouping, positivity of the
-Gaussian weights, L151's pointwise diagonal estimate, the cutoff support,
-and Markov's inequality. No RH conclusion follows.
+No RH conclusion follows.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

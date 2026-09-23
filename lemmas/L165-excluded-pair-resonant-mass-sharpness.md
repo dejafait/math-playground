@@ -61,7 +61,7 @@ between c₀(2π)^(3/4)exp(−(log 2)²)/4 and c₀(2π)^(3/4).
 These constants are positive and independent of T,t,n. Apply (1)–(3)
 and use log N=(log T−log(2π))/2 to obtain the uniform assertions. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This is an unweighted arithmetic mass estimate. It does not establish
 that W is large on the event M<Q<2M, or determine the sign or size of
@@ -72,20 +72,7 @@ Verification is analytic: unique gcd parametrization, the finite harmonic
 bound, four- and six-amplitude normalizations, the inclusion–exclusion
 sign, and the compact uniform bounds in (6). The existing exact regression
 `python3 scripts/heat/check_triple_diagonal.py` checks the identity used
-in (5). No finite computation certifies asymptotic growth. Formalization
-would require these finite counts, L164's asymptotic comparison, and
-uniform substitution in the explicit Gaussian amplitudes.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+in (5). No finite computation certifies asymptotic growth.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

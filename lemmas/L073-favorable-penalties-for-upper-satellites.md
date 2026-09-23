@@ -52,20 +52,9 @@ Reflection gives identical sums at the other maximizer. Geometric decay proves t
 
 This resolves the favorable-subsequence question for the single explicit product in Lemma 72. It does not prove that every strip paired product admits such a sequence, or identify this product with a theta heat slice. Neither a time-uniform heat-envelope estimate nor RH follows. The unfavorable subsequence in Lemma 72 remains valid.
 
-## Verification and formalization obligations
+## Verification
 
-The proof uses all-index score inequalities and an infinite geometric majorant, not numerical extrapolation. Supplementary exact rational checks are reproducible with `python3 scripts/heat/check_satellite_penalties.py`. Formalization would require the exact zero set from Lemma 72, the exhaustive score comparisons, the reflection bijection, nonnegative summation by clusters, and geometric decay.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The proof uses all-index score inequalities and an infinite geometric majorant, not numerical extrapolation. Supplementary exact rational checks are reproducible with `python3 scripts/heat/check_satellite_penalties.py`.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

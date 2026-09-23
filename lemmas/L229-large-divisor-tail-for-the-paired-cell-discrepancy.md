@@ -95,7 +95,7 @@ Finally L227 gives B_0>=cN²h/log N. With D=N^delta choose
 which tends to zero. The finite identity P=P_{<=D}+P_{>D} proves
 the equivalence claimed. A cutoff above 6N/5 has empty tail trivially.
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 This proves a growing divisor cutoff is permitted; it does not estimate
 the remaining small-divisor phases. It gives no fixed-cutoff limiting
@@ -108,19 +108,7 @@ the elementary divisor estimate and the two tail sums. The exact finite
 checks in `scripts/heat/check_large_divisor_cell_tail.py` verify the
 product-interval enlargement and counting multiplicities, including
 strict endpoint exclusions. They do not prove an asymptotic estimate.
-Formalization would require (2), (3), the ordered-factorization formula,
-the uniform divisor bound, interval multiple counts and the final limits.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

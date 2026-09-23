@@ -99,27 +99,14 @@ nonexplosion for arbitrary counts with Σ_k m_k/k²<∞. The selected
 subsequence may depend on the heights; no common subsequence, general
 coordinate theorem, theta-specific zero assertion, or RH proof follows.
 
-## Verification and formalization obligations
+## Verification
 
 This is an analytic proof; no numerical certificate is required. The
 checks are the exact zero internal increments, intercluster distance,
 concavity, harmonic bound including k=1, convergent logarithmic tail,
 and the direction of payoff capping. All internal and exit rates remain
 in the finite matrix. The lifetime coupling precedes any nonexplosion
-claim. Formalization would require these elementary estimates, cluster
-enumeration, the finite-state identity and coupling from Lemma 108,
-and the selection implication from Lemma 107.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+claim.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

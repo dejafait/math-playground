@@ -61,18 +61,7 @@ Since M_n/d_n→1/c, P_n→1/(6c). Together with the two remainder bounds this p
 
 This elementary construction has no earlier lemma as a mathematical input. L133 is a comparison: its sufficient superlogarithmic buffer cannot be replaced by c log A for all multisets satisfying its hypotheses. No necessity assertion for each individual multiset follows. No realization as zeros of a theta heat slice is established, and no statement about signed net interaction or a highest point in the larger window is made. Earlier clusters have greater height than the target. The RH gap is unchanged.
 
-Analytic verification checked arbitrary half-open unit intervals, both signs of real coordinates, full multiplicities, strict cutoffs, target simplicity, reciprocal-square summability, and the exact Riemann-sum normalization with geometric remainder bounds. No numerical certificate is required. Formalization would require the separated-coordinate multiset count, the nonnegative sum decomposition, the geometric tail bound, and the uniform Riemann-sum limit.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+Analytic verification checked arbitrary half-open unit intervals, both signs of real coordinates, full multiplicities, strict cutoffs, target simplicity, reciprocal-square summability, and the exact Riemann-sum normalization with geometric remainder bounds. No numerical certificate is required.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

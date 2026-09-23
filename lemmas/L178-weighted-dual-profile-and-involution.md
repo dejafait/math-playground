@@ -81,7 +81,7 @@ contracting norm and no first-moment bound tending to zero. This last
 observation concerns what the displayed identities establish, not an
 impossibility theorem for other cancellation arguments. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The weighted dual representation completes the specified Abel step.
 The remaining cancellation estimate, uniform integrability, cutoff
@@ -89,19 +89,7 @@ covariance and RH are unproved. No overall argument changes.
 Analytic verification checks the fixed-y error integration, both integer
 endpoints, exact scalar factor, harmonic square bound, Gaussian reflection,
 derivative sign and Jacobian of the isometry. No numerical certificate is
-needed. Formalization would require the finite Abel substitution, Tonelli
-bound, finite frequency integral and change of variables above.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

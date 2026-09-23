@@ -14,16 +14,6 @@ These are unconditional finite tests, not RH.
 
 using arctan v≤v for v≥0, which follows by integrating 1/(1+v²)≤1. For 1≤k≤6, |2kθ_j|<k/4≤3/2<π/2. Hence Re(α_j^{-2k})=|α_j|^{-2k}cos(2kθ_j)>0. Absolute convergence and reality from Lemma 25 permit taking real parts term by term, proving S_k>0. The formula for S_2 gives M_0M_4<3M_2². The lower inequality is strict Cauchy–Schwarz for 1 and u² in K(u)du: equality would require u² to be constant almost everywhere for this measure, impossible since K is strictly positive on every interval in (0,∞). ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

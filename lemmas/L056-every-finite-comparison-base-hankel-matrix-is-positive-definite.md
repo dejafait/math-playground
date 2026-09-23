@@ -8,16 +8,6 @@
 
 All β_j are now strictly positive. For any nonzero real polynomial q, the convergent sum Σ_jβ_j²q(β_j)² is strictly positive: every term is nonnegative and q can vanish at only finitely many distinct nodes. Its convergence follows from Σβ_j<∞ and boundedness of q on the node set, as in Lemma 30. This sum is the quadratic form of H_d(G) when deg q≤d, proving positive definiteness for every fixed d. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

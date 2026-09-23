@@ -85,7 +85,7 @@ then prove the second estimate. Finally
 uniformly in y. Taking suprema outside the integrals and dividing by
 sqrt(N) proves the equivalence. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The result extends both operations to all fixed primal truncations,
 including arbitrarily short intervals. It supplies the uniform error
@@ -97,19 +97,7 @@ Analytic verification checks the transform's interval-length hypothesis,
 uniform derivatives, degenerate interval, endpoint amplitudes, the signed
 indicator identity in overlapping and disjoint cases, threshold pair
 supports, coefficient variation and harmonic summation. No numerical
-certificate is needed. Formalization would require this uniform version
-of the C^4 input, (3), finite square integration and the supremum inequality.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+certificate is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

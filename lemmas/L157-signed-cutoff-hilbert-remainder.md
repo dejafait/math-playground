@@ -89,26 +89,14 @@ The conclusions concern this application of the Hilbert inequality,
 not all possible uses of it. A uniform bound for R and the required
 small tail remain unproved. No positive-proportion or RH result follows.
 
-## Verification and formalization obligations
+## Verification
 
 Analytic verification checks conjugate pairing, the positive sign of Q−D
 in (1), both amplitude derivatives, both endpoint signs, the frequency
 gap, the two coefficient energies, and division by T in (2) and (4).
-Formalization would require the finite generalized Hilbert inequality,
-finite-sum differentiation, integration by parts and the chain rule,
-and L156's coefficient and variation estimates. No computation is
+No computation is
 required to certify these finite algebraic identities and inequalities.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

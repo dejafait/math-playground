@@ -129,21 +129,8 @@ subsequence consequence of summability. All infinite rearrangements use
 nonnegative terms. The only earlier mathematical input is the final
 application of Lemma 118; the cut estimate is proved independently.
 
-Formalization would require the finite greedy interval selection,
-nonnegative-series estimates, Cauchy–Schwarz for summable sequences,
-subsequence extraction from a zero liminf, and the stated finite-capacity
-alternative. No RH-equivalent positivity is used.
+No RH-equivalent positivity is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

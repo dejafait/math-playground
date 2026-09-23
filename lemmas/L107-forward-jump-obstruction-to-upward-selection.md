@@ -99,7 +99,7 @@ heights with an eventual positive *nonlinear* upward contribution:
 unrestricted height-dependent question is settled here. There is no
 RH or theta-specific conclusion.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic; no numerical certificate is required. Audit
 positivity and finiteness of the rates, normalization of every transition
@@ -107,21 +107,8 @@ row, strict index increase, the reflected-tail choice of N, the factor
 c=ε/4, and the direction of the discarded-denominator inequality.
 All infinite expectation operations use nonnegative increasing limits;
 telescoping is performed only for finitely many bounded height increments.
-Formalization would require countable transition sampling on a product
-probability space, independent mean-one exponentials, the conditional
-expectation identity, monotone convergence, and the subsequence criterion.
 Lemma 106 is the sole earlier mathematical input.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

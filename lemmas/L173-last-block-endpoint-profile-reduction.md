@@ -93,7 +93,7 @@ Cauchy–Schwarz gives only E_B|P_y|=O(sqrt(N)). Substitution in
 (4) is O(1). This calculation provides no decaying upper bound and no
 positive lower bound for the actual first moment. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This completes the endpoint-profile reduction part of the last-block
 analytic question. The finite probe's decline has neither been proved
@@ -105,20 +105,9 @@ model or infinite-time averaging is substituted for this block.
 Verification is analytic: the N normalization, positive lower bound for
 V, coefficient derivative, both oscillatory endpoints, ordered harmonic
 sum, Riemann mesh endpoints, exact integral normalization, derivative
-sign and finite Abel identity are explicit. Formalization would require
-these finite-sum and compact integral bounds. No numerical certificate
+sign and finite Abel identity are explicit. No numerical certificate
 is needed.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

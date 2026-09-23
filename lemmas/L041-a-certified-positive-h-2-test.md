@@ -20,16 +20,6 @@ The saved exact decimal interval endpoints give the following looser rational en
 
 Every lower endpoint is positive. The finite Taylor enclosure, the higher-moment tails, and the interval recurrence are justified by Lemmas 36–40. Thus the true three leading minors are positive and Lemma 40 proves positive definiteness. No extra panel refinement was needed at this degree. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

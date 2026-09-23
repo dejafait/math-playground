@@ -86,7 +86,7 @@ to make T large at every selected index. In this very construction the
 actual full contribution vanishes along those same indices. No conclusion
 about theta zeros or RH follows.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is exact and analytic; no numerical certificate is needed.
 Check the block partition including its first four indices, cross-boundary
@@ -96,16 +96,6 @@ tail estimate. Lemma 84 supplies only the product, zero enumeration and
 reflected-sum estimate. The mention of Lemma 86 identifies the tested
 bound and is not an input to the proof of the counterexample.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -16,16 +16,6 @@ A''(u)=e^{u/2}[ψ(x)/4+6xψ'(x)+4x²ψ''(x)],
 
 so K(u)=e^{u/2}[12xψ'(x)+8x²ψ''(x)]. The differentiated series in Lemma 16 gives the displayed formula. Each summand equals 4v(2v-3)e^{u/2}e^{-v} with v=πn²e^{2u}≥π>3/2, so every summand is positive. The elementary bound π>3/2 is sufficient. Lemma 16 bounds |A|, |A'|, |A''|, and |K| by C e^{9u/2}e^{-πe^{2u}} on u≥0, with a suitable finite C. For any fixed B this bound times e^{Bu} tends to zero and is integrable: e^{2u} eventually dominates any linear multiple of u. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -56,18 +56,7 @@ The local count (1) is an extra hypothesis. No proof here establishes it for the
 
 This result neither proves optimality of the logarithmic buffer for actual interactions nor controls the annulus A<|Re ρ|≤A+d. It does not ensure inner attainment of a larger-window height maximum or a uniform time remainder. The overall argument and RH gap remain unchanged.
 
-Verification is analytic: half-open covers, endpoint inclusion, full multiplicities, the two geometric-series constants, nonnegative summation, and the two-case buffer limit were checked. No numerical certificate is needed. Formalization would require the shell-cover counting inequality, summability of the geometric majorant, the arbitrary-function limit equivalence, and substitution into the conditional local height rate.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+Verification is analytic: half-open covers, endpoint inclusion, full multiplicities, the two geometric-series constants, nonnegative summation, and the two-case buffer limit were checked. No numerical certificate is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.
