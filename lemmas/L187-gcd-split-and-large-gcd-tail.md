@@ -82,20 +82,7 @@ profile-weighted sum is asserted. RH remains unresolved.
 `python3 scripts/heat/check_gcd_residue_split.py` tests the exact bijection,
 necessary gcd equality, signed sums and closed and empty endpoint cases.
 The asymptotic tail bound is proved above, not inferred from these tests.
-Formalization would require finite reindexing by gcd, divisibility and
-congruence identities, the nonzero-multiple count and fixed-order divisor
-bounds with their uniform constants.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -89,20 +89,7 @@ parameter quantifiers. The existing scripts
 `python3 scripts/heat/check_full_core_window.py` and
 `python3 scripts/heat/check_safe_factor_box.py` check the endpoint
 algebra used here on finite cases; they do not verify asymptotic
-population claims. Formalization would require the fixed-parameter
-eventual choices, floor inequality, tuple injection, and application
-of the proved counting criterion to the exact length.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+population claims.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

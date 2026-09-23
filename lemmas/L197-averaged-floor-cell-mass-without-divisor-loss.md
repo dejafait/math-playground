@@ -100,20 +100,7 @@ Negative central-strip decay, exterior signed mass, and RH remain open.
 
 Verification is analytic: exact strict-cell inequality (4), the difference
 of squares for m multiplicity, rational identity (6), integer interval
-count (7), and finite weighted rearrangement. Formalization requires
-those statements with uniform constants and the last normalization;
-no numerical inference or external theorem is used.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+count (7), and finite weighted rearrangement.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

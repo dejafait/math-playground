@@ -103,7 +103,7 @@ Finally, setting rho=N^(−1−kappa) in (1) gives
 O_epsilon(N^(−1+epsilon)+N^(−kappa+epsilon)). Taking
 0<epsilon<min(1,kappa) proves the narrow-window assertion. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This resolves a narrower portion of the requested window and reduces
 the full near-square real contribution to the signed sum in (3) with
@@ -118,21 +118,7 @@ Verification is analytic: the enlarged root interval prevents endpoint
 omissions; the product interval has exact length 4m rho; the divisor
 bound applies to nonsquares; the phase multiplication fixes the minus
 sign on C_k; and (6) and (7) check both independent error scales.
-No numerical or external input is required. Formalization would require
-integer interval counting, the divisor estimate proved in L183, finite
-sum grouping, elementary Taylor inequalities and L182's uniform kernel
-and finite Fresnel estimates.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+No numerical or external input is required.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

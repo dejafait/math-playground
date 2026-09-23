@@ -86,7 +86,7 @@ For comparison, differentiation of (4) gives
 integrates over an interval of length T and therefore supplies only
 O(W(T)) total variation. It does not contradict the lower bound (1). ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 This resolves the amplitude-flattening route negatively, not the actual
 cutoff replacement. The supremum in (3) permits T-dependent arbitrary
@@ -98,19 +98,7 @@ Verification is analytic: the six Gaussian exponent differences, the
 probability normalization, the bounded moment subsequence, uniform
 entire-series tails, the identity theorem, and the change of variables
 t=Tu. No numerical computation is needed or claimed to prove (5).
-Formalization would require these statements, elementary sequential
-compactness of bounded real sequences, and the exact covariance identity.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

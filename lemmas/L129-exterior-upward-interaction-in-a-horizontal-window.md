@@ -57,18 +57,8 @@ The estimates are static and conditional on the strip bound. They require no zer
 
 No computation is needed: the verification consists of the monotone ratio comparison (4), the full-multiset factor, absolute imaginary summation, and the multiplicity-m quartet extraction. The result does not change the RH gap.
 
-Formalization would require the uniform geometric comparison, the vanishing tail of a summable nonnegative multiset, splitting the absolutely convergent imaginary sum, and the local rate interpretation with multiplicities. Uniformity in the heat parameter is not claimed.
+Uniformity in the heat parameter is not claimed.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

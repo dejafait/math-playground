@@ -48,22 +48,12 @@ Consequently any subset of m terms has absolute mass at most m e^(1/4)A, and hen
 
 The positive weights multiply phases exp(−iτ log k). Positivity of the weights and absolute convergence yield only |D|≤W(A). To overcome an unspecified O(sqrt(t)) error in (4) by the reverse triangle inequality one would need a quantitative bound |D|≥(K+ε)sqrt(t), with K a valid error constant and ε>0, or a stronger bound such as |D|≥d t^(1/2+η) for some d,η>0. The latter would give |F/H| bounded below by a constant times t^(−1+η). Neither bound has been proved. A mere Ω(sqrt(t)) assertion with an unspecified small constant does not suffice. ∎
 
-## Scope and formalization obligations
+## Scope
 
 This is a re-expression and cancellation audit, not a proof that a lower bound is impossible. The entire smoothed series evaluated at Re(s)=−1 is not the ordinary absolutely convergent zeta Dirichlet series. No Euler product or reciprocal-zeta lower bound has been transferred to it. The center lower bound, heat-interval strip, and RH remain unresolved.
 
-Analytic verification checks the phase sign, the Q and τ prefactors, compact convergence, the nonpositive-mode errors, the integer count in [A,2A], the Gaussian maximum, and the error scale after division. No numerical certificate is required. Formalization would require these identities and elementary estimates, locally uniform holomorphic convergence, and the cited additive expansions. No unproved lower bound is a mathematical input.
+Analytic verification checks the phase sign, the Q and τ prefactors, compact convergence, the nonpositive-mode errors, the integer count in [A,2A], the Gaussian maximum, and the error scale after division. No numerical certificate is required. No unproved lower bound is a mathematical input.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

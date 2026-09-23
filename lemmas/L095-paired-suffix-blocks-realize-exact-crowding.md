@@ -100,21 +100,7 @@ residual conditions. Failure of the earlier sufficient criteria is not
 failure of the near-sum assertion. Nothing identifies these coordinates
 with theta zeros or proves RH. No claim is made about general coordinates
 for which V_N tends to infinity and its dyadic inverses are summable.
-The analytic proof needs no numerical certificate. Formalization should
-check gap boundaries including adjacent prescribed points, exact suffix
-membership, half-open dyadic endpoints, the consecutive-portion argument,
-the three uniform lower bounds, and the separate-grid harmonic estimate.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The analytic proof needs no numerical certificate.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

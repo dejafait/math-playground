@@ -53,20 +53,9 @@ Every other upward term is nonnegative. Reflection ρ↦−conjugate(ρ) is a bi
 
 This disproves the generic fixed-product assertion that every quadratic-penalty selection has E_f(w_ε)→0 as ε↓0. It does not disprove existence of some favorable sequence of penalties or of unpenalized zeros approaching the height supremum. No estimate of the full signed interaction, heat evolution, or theta-specific assertion is proved here. The product is not identified with a theta heat slice and has no implication for RH.
 
-## Verification and formalization obligations
+## Verification
 
-The infinite statements follow from the analytic and all-index inequalities above. Supplementary exact rational checks are reproducible with `python3 scripts/heat/check_fixed_product_penalty.py`; finite checks are not used as evidence for an infinite limit. Formalization would require uniform logarithmic-tail convergence, exact simple zero identification, the geometric reciprocal-square sum, the three all-index score comparisons, and the absolutely convergent nonnegative upward sum and reflection bijection.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The infinite statements follow from the analytic and all-index inequalities above. Supplementary exact rational checks are reproducible with `python3 scripts/heat/check_fixed_product_penalty.py`; finite checks are not used as evidence for an infinite limit.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

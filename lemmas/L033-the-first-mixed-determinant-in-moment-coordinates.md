@@ -24,16 +24,6 @@ S_2x²+2S_3xy+S_4y²=S_2(x+S_3y/S_2)²+(D/S_2)y².
 
 Lemma 27 gives S_2>0, so this form is nonnegative for all x,y exactly when D≥0. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

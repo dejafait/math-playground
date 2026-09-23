@@ -113,7 +113,7 @@ about such sequences, nor does their failure of the envelope disprove
 existence of an alternative payoff. General coordinate selection and RH
 remain unproved. The subsequence here can depend on the heights.
 
-## Verification and formalization obligations
+## Verification
 
 This is an analytic proof; no numerical certificate is required.
 The audit covers recursive thresholds, locally finite disjoint ramps,
@@ -121,20 +121,7 @@ strict increase, nonnegative series interchange, the near harmonic
 estimate including k=1, and the weighted infinite tail. It also checks
 zero internal increments, intercluster separation, retention of all
 exit rates, the payoff-cap direction, and lifetime coupling before any
-nonexplosion conclusion. Formalization would require those elementary
-facts, the finite-state expectation identity from Lemma 108, and the
-process and selection implication from Lemma 107.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+nonexplosion conclusion.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

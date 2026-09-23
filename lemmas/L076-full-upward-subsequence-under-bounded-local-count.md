@@ -55,20 +55,10 @@ The uniform local count is an additional hypothesis, not a consequence of recipr
 
 Arbitrarily small gaps are compatible with the additional hypothesis: the coordinates 3k and 3k+2^{-k}, k≥1, have at most two points in every unit interval. The result supplies a subsequence, not full convergence at every index, and does not impose a quadratic-penalty selection rule. No theta-specific local count bound, signed-motion estimate, or RH assertion is proved.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic; no numerical certificate is required. Formalization would require the half-open interval counting bound, the contradiction between the two linear growth rates, enumeration of the unbounded set S, the nonnegative binwise infinite-sum estimate, and the subsequence limit. The only reused mathematical input is Lemma 74's zero-set identification and reflected-sum bound. The full right-hand tail is bounded directly here.
+The proof is analytic; no numerical certificate is required. The only reused mathematical input is Lemma 74's zero-set identification and reflected-sum bound. The full right-hand tail is bounded directly here.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

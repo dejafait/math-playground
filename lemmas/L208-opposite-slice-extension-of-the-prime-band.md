@@ -129,20 +129,9 @@ length, the exact third derivative, the two powers in (5), uniform
 shrinking-interval approximation, and summation of all three error
 terms. Direct mathematical inputs are L202 for the box and counts,
 L205 for the selected-set definition, and L207 for its proved Fourier
-interval construction. Formalization requires those estimates, the
-named third-derivative test, and the finite union bound. No numerical
+interval construction. No numerical
 distribution assumption or new standard theorem is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

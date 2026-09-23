@@ -115,19 +115,7 @@ No numerical distribution assertion is used or required. The direct
 mathematical inputs are L202 for the box and its cardinality and
 L205 for the selected set and candidate integer. L208 only identifies
 the notation for the requested tail; its estimates are not used.
-Formalization would require unique prime factorization, the divisor
-bound proved above, integer interval counts, and finite union bounds.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

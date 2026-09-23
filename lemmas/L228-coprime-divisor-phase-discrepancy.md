@@ -119,19 +119,7 @@ finite Möbius inversion, bounded-region Fubini and the benchmark error.
 `python3 scripts/heat/check_coprime_cell_inversion.py` verifies strict
 open-cell divisor inversion with exact integer radicands, including
 square endpoints. It does not establish asymptotic distribution.
-Formalization would require (2), finite inversion, the uniform interior
-bounds, the sum/integral inequality and the real-region area identity.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

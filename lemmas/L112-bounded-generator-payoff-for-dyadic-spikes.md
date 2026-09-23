@@ -99,26 +99,12 @@ its jumps immediately after them. This proves existence for this specific
 sequence; it does not establish a payoff for all summable counts.
 General coordinate selection and RH remain unproved.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic; no numerical certificate is required. Audit the
 strict inequality in the definition of P, the assignment of l=2k to
 the far range, the empty near range at k=1, and the exact correction
-increment. Formalization would require harmonic divergence, integral
-bounds for logarithmically weighted reciprocal squares, dyadic spacing,
-the nonnegative series decomposition, and the finite-cluster cutoff
-argument of Lemma 111 and selection implication of Lemma 107.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+increment.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

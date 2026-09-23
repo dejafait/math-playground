@@ -100,21 +100,7 @@ This construction proves that selected-subset averaging covers coordinates
 where both full-block exact-crowding criteria fail. It does not settle the
 unrestricted upward-subsequence assertion or identify these coordinates
 with theta zeros. The argument is analytic; no numerical certificate is
-needed. Formalization should check interpolation at adjacent indices,
-exact suffix membership, cluster ordering, the two endpoint-containment
-cases, clipped-packet harmonic averages, dyadic endpoints and summability,
-and the restricted-grid crowding estimate.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

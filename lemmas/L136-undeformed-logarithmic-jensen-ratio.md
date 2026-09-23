@@ -54,20 +54,9 @@ The identity with a gamma factor times ζ, the reciprocal-series lower bound on 
 
 In fact (1) proves that L135's stronger lower bound using its constant U fails at λ=0 for every fixed finite exponent: |F(0,c_x)|(2+|x|)^b tends to zero for every real b. This does not contradict the relative ratio just proved; both numerator and denominator decay exponentially. It rules out that stronger shortcut even for the undeformed function.
 
-## Verification and formalization obligations
+## Verification
 
-Analytic verification checks the center reflection, full classical strip localization, absolute summation and holomorphic continuation in (2), uniformity in σ of Stirling, the disk shifts, all polynomial exponents, and the compact-center minimum. No numerical experiment or computational certificate is required. Formalization would need these exact analytic estimates and L135's Jensen application with multiplicities; no nonzero-parameter estimate is an established input.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+Analytic verification checks the center reflection, full classical strip localization, absolute summation and holomorphic continuation in (2), uniformity in σ of Stirling, the disk shifts, all polynomial exponents, and the compact-center minimum. No numerical experiment or computational certificate is required.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

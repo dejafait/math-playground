@@ -144,23 +144,10 @@ limits, and the exact height-generator identity. No numerical
 certificate is required. L122 supplies the payoff; L124 supplies the
 adapted cutoff argument; L108 supplies its finite-state identity.
 
-Formalization would require countable multiset enumeration, discrete
-location distances, recursive avoidance of finitely many coordinates,
-the payoff application, and the finite-chain and monotone-convergence
-steps displayed above. Uniformity in a heat parameter, control of
+Uniformity in a heat parameter, control of
 multiple-zero splitting, differentiation of a moving supremum, and
 RH remain unproved.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

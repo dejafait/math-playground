@@ -53,22 +53,12 @@ For an arbitrary finite A(t), (2) bounds its mass by c₀e k(t)/N². Divide by (
 
 Its right side is at most 2B(t)-M(t), which is strictly negative for all sufficiently large t when k(t)=o(N). This proves the stated obstruction even for a t-dependent, optimally selected collection of terms. It does not estimate the actual modulus of the complementary complex sum. ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The absolute mass is of order t^(-1/2), while the largest term is at most of order t^(-1), the same order as L138's available additive remainder. These facts do not imply that |S| is of either order: cancellation remains unestimated. No zero or small-value sequence for S has been proved here, and no lower bound for the theta center or RH follows.
 
-Analytic verification consists of the exact modulus identity, completing the square in the integral and maximum, the integrable-variation quadrature estimate, and the subset triangle bound. No numerical certificate is needed. Formalization would require these identities and integrability statements, the infinite-sum comparison, and the elementary asymptotic deductions. No interchange of oscillatory limits is used.
+Analytic verification consists of the exact modulus identity, completing the square in the integral and maximum, the integrable-variation quadrature estimate, and the subset triangle bound. No numerical certificate is needed. No interchange of oscillatory limits is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

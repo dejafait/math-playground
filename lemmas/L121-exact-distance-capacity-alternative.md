@@ -107,21 +107,9 @@ audit checks full destination tails in finite programs, individual diagonal
 positivity, dual feasibility without a uniform diagonal bound, zero
 extension, finite-column limits, and both directions of the payoff
 criterion. All infinite rearrangements involve nonnegative terms.
-Formalization would require finite linear-programming strong duality,
-compactness and diagonal extraction, Tonelli, the exact increment identity,
-and the bounded strict-correction construction. Lemma 118 supplies the
+Lemma 118 supplies the
 reused proof argument; its specialized hypotheses are not assumed here.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

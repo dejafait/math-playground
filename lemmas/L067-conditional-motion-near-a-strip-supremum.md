@@ -47,20 +47,10 @@ The elementary local obstruction to a termwise limit is explicit. For H=1, w=2+i
 
 Finally the limsup here is over velocities of separate local branches at one fixed parameter. It is not an upper Dini derivative bound for the parameter-dependent supremum of all zero heights. Such a passage would additionally require time-uniform control, treatment of multiple zeros, and exclusion of uncontrolled branches arriving from infinity. Those assertions and RH remain unproved.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic and requires no numerical certificate. Check the full-zero reciprocal-square tail bound, the 4H majorant, the extraction of the quartet, and the limsup inequality. Formalization would require absolute summation of imaginary contributions, splitting a countable multiset by height, the conditional sequential limit, and the elementary separation estimate. The small-denominator example is verified directly from |w-ρ|²=ε²/4 and 2(Im ρ-Im w)=ε.
+The proof is analytic and requires no numerical certificate. Check the full-zero reciprocal-square tail bound, the 4H majorant, the extraction of the quartet, and the limsup inequality. The small-denominator example is verified directly from |w-ρ|²=ε²/4 and 2(Im ρ-Im w)=ε.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

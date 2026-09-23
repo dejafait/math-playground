@@ -73,7 +73,7 @@ The cutoff is constant outside [1,2] and C², hence χ'' vanishes
 outside (1,2), including its endpoints. Taking absolute values and
 using (2) on this transition event proves (3). ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The divisor estimate deliberately drops the restrictions on individual
 factors after (4); no sharp logarithmic exponent is claimed. The
@@ -85,21 +85,9 @@ checks (1) by independently enumerating resonant sextuples, including
 empty and small sets, repeated indices, zero weights and nontrivial
 multiplicative coincidences. It also checks the local binomial inequality
 for a finite range; its proof for all exponents is the surjection above.
-Formalization would require weighted finite inclusion–exclusion, the
-integer matrix construction, prime factorization and the harmonic-sum
-bound. L156 supplies the Gaussian window bound; L161 supplies W and
+L156 supplies the Gaussian window bound; L161 supplies W and
 the retained cutoff expression. No numerical asymptotic is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

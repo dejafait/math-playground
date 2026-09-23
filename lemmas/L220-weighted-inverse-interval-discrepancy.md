@@ -99,7 +99,7 @@ its actual error and not a disproof of the desired saving. Cancellation
 between progression errors, or a separate main-term analysis, remains
 necessary for this route to advance.
 
-## Verification and formalization
+## Verification
 
 The verification is finite algebra and analytic interval counting:
 redundant cutoffs, concavity and bounded height, layer-cake counting,
@@ -107,20 +107,9 @@ prime-factor identities, and finite summation. The script
 `scripts/heat/check_weighted_inverse_discrepancy.py` additionally checks
 the weighted divisor identity with rational piecewise-affine lengths.
 It is an algebra test, not asymptotic distribution evidence.
-Formalization would require these identities, interval sampling with
-endpoint conventions, and the integral definition. No signed-total
+No signed-total
 estimate or RH conclusion follows.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

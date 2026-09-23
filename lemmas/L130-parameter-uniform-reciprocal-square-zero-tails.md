@@ -62,18 +62,7 @@ This is an explicit unconditional uniform tail bound for compact real heat-param
 
 The bound does not supply a uniform strip height, a uniform local motion remainder, or control of interactions across a vanishing horizontal buffer. In particular it does not resolve the annulus limitation of L129 or a whole-plane supremum derivative, and it proves no new zero reality assertion.
 
-Verification is analytic: the four positive factors in the normalization lower bound, Jensen's radius limit, the full-multiset count, nonnegative Tonelli interchange, and the two elementary integrals were checked explicitly. No computational or numerical certificate is needed. Formalization would require Jensen's formula with multiplicities, local finiteness of zeros of a nonzero entire function, the explicit lower bound, Tonelli for the zero counting measure, and the displayed integral evaluations.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+Verification is analytic: the four positive factors in the normalization lower bound, Jensen's radius limit, the full-multiset count, nonnegative Tonelli interchange, and the two elementary integrals were checked explicitly. No computational or numerical certificate is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

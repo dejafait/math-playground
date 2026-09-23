@@ -104,20 +104,7 @@ normalization and tail, uniformity before summing slices, and L203's
 interval inclusion. `python3 scripts/heat/check_factor_slice_phase.py`
 rechecks the exact rational approximation inequalities used for that
 inclusion. These finite checks do not substitute for the asymptotic
-proof (2)-(6). Formalization would require the named derivative test,
-periodic convolution and Fejér theorem, uniform finite-mode estimates,
-and the unique indexing of integer tuples.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+proof (2)-(6).
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

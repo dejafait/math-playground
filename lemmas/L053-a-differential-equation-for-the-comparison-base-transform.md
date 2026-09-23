@@ -28,16 +28,6 @@ sqrt(r)e^rY_z(x)=∫_0^∞exp[-r(cosh(v/sqrt(r))-1)]cos(νv/sqrt(r))dv.
 
 The integrand tends pointwise to e^{-v²/2} and has absolute value at most e^{-v²/2+Bv}, integrable and independent of r≥1. Dominated convergence gives the asserted nonzero limit, using the Gaussian integral. ∎
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

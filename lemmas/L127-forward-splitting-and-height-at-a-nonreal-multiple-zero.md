@@ -79,18 +79,6 @@ All radii, parameter intervals, and remainder constants depend on the fixed zero
 
 The analytic proof checks normal rescaling, the implicit derivative, local zero counting, and convergence before taking signs. `python3 scripts/heat/check_multiple_zero_coefficient.py` independently checks the polynomial identities with exact rational coefficients for m=2,...,30; the all-m proof is the coefficient identity above, not extrapolation from these checks.
 
-Formalization would require the normally convergent weighted expansion through weight m+1 at a complex center, implicit branches with a uniform cubic remainder, the local Rouché count, the residual-product logarithmic derivative with multiplicity, and taking the maximum of finitely many expansions with equal linear coefficient.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

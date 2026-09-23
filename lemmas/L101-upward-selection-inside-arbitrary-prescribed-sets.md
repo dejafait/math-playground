@@ -122,20 +122,7 @@ The proof is analytic and needs no numerical certificate. Checks are
 the clipped interval partition, both successor cases in (3), constants
 in (4)–(5), the decreasing-integrand estimate, the single interval
 crossing r, the finite height budget, and both infinite tails.
-Formalization would require those inequalities and partitions,
-Lemma 100's product and separation results, nonnegative sum limits,
-and finite weighted minimum selection.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

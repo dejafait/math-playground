@@ -87,19 +87,7 @@ The exact regression `python3 scripts/heat/check_restricted_triple.py`
 checks the primewise construction for every equal-product pair of
 triples in several small windows and checks all six output margins.
 The proof of the bound for arbitrary N is the finite box count above.
-Formalization would require prime factorization, integer transportation,
-the dyadic partition, and this five-stage count of constrained exponents.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

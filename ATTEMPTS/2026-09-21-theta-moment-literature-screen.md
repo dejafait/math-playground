@@ -119,9 +119,3 @@ Our endpoint check: taking n=0 and k=d would require d>10dÂ³, impossible for dâ‰
 **WHY IT FAILS.** The strongest all-order statement screened is conditional on the very positivity it would need to establish. The unconditional statements or claims concern large coefficient indices or a fixed level of kernel curvature. The achieved bound for the actual target is unchanged: the recorded finite tests, versus all d and all c. Stop this source-screening cycle as a technical reopening strategy; another keyword search, equivalent criterion, or fixed-order estimate has no demonstrated downstream use. A subsequent strategic stop/go review should require a specific new mechanism before further technical work. No universal impossibility claim is intended.
 
 **Mathlib.** Not checked; this is a source and quantifier review, not a new library theorem.
-
-**Lean proof status.** Paused; not required in the current research phase.
-
-**Lean proof command.** Not available.
-
-**Lean proof code.** Not available.

@@ -93,22 +93,11 @@ Together (12), its endpoint bounds, and (13) prove (1), since N²=T/(2π).
 
 For (2), use the same second-moment argument as in L152. If K_0>0 is L149's leading constant, choose a²=K_0/4. The complement of the set in (2) contributes at most (K_0/4)T^(−1/2) to the second moment, while L149 makes the full second moment at least (K_0/2)T^(−1/2) for large T. Cauchy--Schwarz on the indicated set, followed by (1), gives its measure at least cT/log(2T). ∎
 
-## Scope, verification, and formalization obligations
+## Scope, verification
 
 The cancellation is in the integrated signed off diagonal; no cancellation or lower bound is asserted pointwise. The remaining logarithm is already present in the exact multiplicative diagonal from L151, although that fact is not needed for the upper bound. Consequently this method does not yield a positive proportion from the fourth moment.
 
-Analytic verification checks the exact coefficient derivative, polynomial Gaussian absorption, all infinite Gaussian tails through L152's energy bound, the log-frequency separation, both integration-by-parts endpoints, the bilinear derivative terms, and convergence in weighted ℓ². No numerical certificate is needed. Formalization would require the stated generalized Hilbert inequality, the differentiable series bounds, Tonelli for the nonnegative energy expansion, weighted-ℓ² limiting, and the moment-to-measure deduction.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+Analytic verification checks the exact coefficient derivative, polynomial Gaussian absorption, all infinite Gaussian tails through L152's energy bound, the log-frequency separation, both integration-by-parts endpoints, the bilinear derivative terms, and convergence in weighted ℓ². No numerical certificate is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

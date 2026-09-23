@@ -67,18 +67,7 @@ because R is smaller than this error. This is an additive identity, not a nonvan
 
 The zeta pole is not a main term with a proved relatively small remainder here. No estimate of the oscillatory integral from below, no center lower bound, no common heat-interval strip, and no RH conclusion is proved. The size of the upper bound in (3) does not assert that J actually has that size.
 
-Analytic verification consists of Gaussian normalization, the absolute Fubini majorant, the sole crossed pole and its sign, polynomial strip control of horizontal edges, the fixed-parameter contour limit, the uniform bound on the new line, and the comparison with the L144 error. No numerical certificate is needed. Formalization would require these integral identities, summation by parts and continuation, the residue theorem with the specified limits, and the uniform Stirling estimates; no unproved lower bound is an input.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+Analytic verification consists of Gaussian normalization, the absolute Fubini majorant, the sole crossed pole and its sign, polynomial strip control of horizontal edges, the fixed-parameter contour limit, the uniform bound on the new line, and the comparison with the L144 error. No numerical certificate is needed.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

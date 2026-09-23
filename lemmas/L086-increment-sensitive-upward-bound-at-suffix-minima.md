@@ -115,7 +115,7 @@ heights, nor assert that failure of its upper bound forces positive
 upward motion. The general condition on T_n remains unproved without
 extra assumptions. No theta-specific or RH conclusion follows.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic; no computational certificate is required. Verify
 the inherited suffix-gap and tail bounds, finite rearrangement endpoints,
@@ -125,16 +125,6 @@ slow-height example and summability of the sparse increments. Infinite
 limits use only the already convergent tails from Lemma 84; there is no
 interchange of an unbounded near sum with a subsequence limit.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -71,18 +71,7 @@ The fixed integral is strictly positive. Comparison with (1) is impossible for �
 
 ## Scope and verification
 
-The result controls an average, not the minimum. It leaves δ≥3/4 undecided and does not establish center nonvanishing or RH. Analytic verification checks the exact phase, Gaussian diagonal constant, integrable derivative error, product unimodality despite the moving weights, endpoint terms, and the infinite off-diagonal lattice sums. No numerical certificate or external theorem is required. Formalization would require these elementary convergence, variation, integration-by-parts, and Gaussian integral arguments.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+The result controls an average, not the minimum. It leaves δ≥3/4 undecided and does not establish center nonvanishing or RH. Analytic verification checks the exact phase, Gaussian diagonal constant, integrable derivative error, product unimodality despite the moving weights, endpoint terms, and the infinite off-diagonal lattice sums. No numerical certificate or external theorem is required.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

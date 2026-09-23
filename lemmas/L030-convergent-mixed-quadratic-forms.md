@@ -20,16 +20,6 @@ The index shift is two because of the weight β_j². The S_k are real by Lemma 2
 
 The convergence bound depends on the fixed polynomial and provides no sign, even in one degree. The required downstream statement is Q(q)≥0 for every real polynomial for the actual nodes; the bound above is not an estimate toward that inequality. This review changes neither the statement nor its mathematical inputs.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

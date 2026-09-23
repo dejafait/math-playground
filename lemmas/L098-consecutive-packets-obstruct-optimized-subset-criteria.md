@@ -104,20 +104,7 @@ heights. It neither produces a positive lower bound for actual near
 sums nor excludes a vanishing full-upward subsequence. In particular,
 there is no theta-specific or RH conclusion. The proof is analytic;
 finite enumeration is only a sanity check, not a certificate for the
-infinite construction. Formalization would require the finite minimum,
-the rank-gap counting and Cauchy estimate, interpolation endpoints,
-exact suffix membership, clipped-block bounds and dyadic summability.
-
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+infinite construction.
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

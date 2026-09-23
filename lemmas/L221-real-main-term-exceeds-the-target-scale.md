@@ -117,7 +117,7 @@ O((log N)²/sqrt(N)), proving (2). Conversely either small-error
 condition in the conclusion gives Q_N/M_tot tending to one,
 which, by (1), is incompatible with Q_N=O(N³).
 
-## Qualifications, verification, and formalization
+## Qualifications, verification
 
 This is a real-main-term lower bound, not an integer sampling
 asymptotic. The signed progression errors could cancel that main
@@ -129,21 +129,9 @@ constant or positive integer-population proportion is claimed.
 Verification is analytic: strict rational box margins, the exact
 plateau endpoint subtraction including the minus one, eventual
 rounding inequalities, finite prime union counting, the telescoping
-totient bound, and the exact signed identity. Formalization would
-require these inequalities uniformly in real N and the elementary
-limits log(N)/N and (log N)²/sqrt(N). No numerical distribution
+totient bound, and the exact signed identity. No numerical distribution
 evidence or additional nonstandard arithmetic input is used.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -95,29 +95,16 @@ is made here that a different partition or payoff cannot work.
 No common subsequence for all heights, heat-parameter uniformity,
 zero continuation, or RH conclusion follows from this result.
 
-## Verification and formalization obligations
+## Verification
 
 The proof is analytic and requires no numerical certificate. The audit
 checks the hypotheses of Lemma 119, reciprocal-square summability,
 zero internal increments, the 16/9 distance factor, finiteness of every
 cutoff, retention of all exit rates, the direction of the payoff cap,
-and convergence on the original holding-time space. Formalization
-requires the payoff existence theorem, finite-state expectation identity,
-finite exit coupling, monotone limits of nonnegative sums, and the
-height-selection implication. All such earlier inputs are used only
+and convergence on the original holding-time space. All such earlier inputs are used only
 with their stated hypotheses; no unrestricted-coordinate claim is
 assumed in proving the cluster case.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.

@@ -31,7 +31,3 @@ No novelty or proof of RH is claimed. The all-degree positivity assertion remain
 - A positive kernel does not make its Fourier transform real-rooted. Reflection invariance of a set does not make every point fixed. Concrete counterexamples are retained.
 - Algebraic squares in mixed forms are not replaced by modulus squares; that replacement would erase the very obstruction being tested.
 - Finite positive scalar sums, a degree-two Jensen polynomial, and two finite positive Hankel matrices are not an all-degree theorem. No Li, Robin, Lagarias, or Nyman–Beurling criterion is claimed proved.
-
-## What a Lean check would need
-
-The [formalization inventory](foundations/formalization.md) records exact obligations and the limits of its coverage. Lemma statements and their analytic bounds are the authoritative mathematical text. Lean coverage is recorded beside each lemma; all further formalization is paused under GOAL.md, and missing or conditional proofs do not block informal research. Validating these partial results still leaves the all-degree positivity requirement unproved.

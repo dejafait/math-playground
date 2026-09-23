@@ -56,20 +56,10 @@ These infinite-sum estimates hold first for finite partial sums and then for the
 
 This extends the explicit exponent in Lemma 78 to all powers satisfying reciprocal-square summability. The constants and convergence are not asserted uniform as p decreases to 1/2. At p=1/2 the summability hypothesis fails (indeed |w_n|²=n+b_n²≤n+H²), so this product argument does not cover that endpoint. Neither pointwise convergence of E_f(w_n) nor the unrestricted monotone-coordinate assertion is established. No conclusion about penalty maximizers, theta zeros, signed velocities, or RH follows.
 
-## Verification and formalization obligations
+## Verification
 
-The proof is analytic and needs no numerical certificate. Check the derivative minimum separately for p<1, p=1, and p>1; the exact higher-zero enumeration; the finite increment expansion and at-most-k crossing count; the telescoping height bound; the decreasing p-series integral estimates and their monotone limits; and log(N)/N^{2p−1}→0. Formalization also requires the product and simple zero statement from Lemma 74 and minimum selection in each finite dyadic block. All infinite remainders have explicit bounds uniform over the averaging block.
+The proof is analytic and needs no numerical certificate. Check the derivative minimum separately for p<1, p=1, and p>1; the exact higher-zero enumeration; the finite increment expansion and at-most-k crossing count; the telescoping height bound; the decreasing p-series integral estimates and their monotone limits; and log(N)/N^{2p−1}→0. All infinite remainders have explicit bounds uniform over the averaging block.
 
-**Mathlib.** The availability of a Mathlib theorem for this full statement has not yet been established. Mathlib documentation:
+**Mathlib.** Not checked: availability of a Mathlib theorem for the full statement is unknown. Mathlib documentation:
 
 https://leanprover-community.github.io/mathlib4_docs/
-
-**Lean proof status.** Not yet formalized or validated. This status does not assert that the mathematical statement is incorrect.
-
-**Lean proof command.**
-
-Not available until a complete Lean proof has been validated.
-
-**Lean proof code.**
-
-Not yet available.
