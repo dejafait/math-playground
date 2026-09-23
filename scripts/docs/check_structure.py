@@ -46,8 +46,7 @@ def parse_dag(text):
 
 def main():
     require((ROOT / 'PROMPT.md').is_file(), 'Missing sole research prompt: PROMPT.md')
-    for vendor in ('codex', 'claude', 'gemini', 'grok'):
-        require((ROOT / f'loop-{vendor}.sh').is_file(), f'Missing root launcher: loop-{vendor}.sh')
+    require((ROOT / 'loop-codex.sh').is_file(), 'Missing root launcher: loop-codex.sh')
     require(not re.search(r'^## (?:Initial|Recurrent) prompt', (ROOT / 'README.md').read_text(), re.M), 'README must link to PROMPT.md instead of maintaining runnable prompts.')
     dag = (ROOT / 'DAG.md').read_text()
     nodes, edges, parse_errors = parse_dag(dag)
