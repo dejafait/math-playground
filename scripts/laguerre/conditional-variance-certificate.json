@@ -1,0 +1,68 @@
+{
+  "scope": "compact W'''' certificate and V_1 bound; not RH",
+  "arithmetic_contract": "L037",
+  "precision": 70,
+  "v_interval": [
+    3,
+    4
+  ],
+  "panels": 1024,
+  "explicit_theta_terms": 2,
+  "derivative_polynomials": [
+    [
+      0,
+      -3,
+      2
+    ],
+    [
+      0,
+      -6,
+      14,
+      -4
+    ],
+    [
+      0,
+      -12,
+      68,
+      -52,
+      8
+    ],
+    [
+      0,
+      -24,
+      296,
+      -448,
+      168,
+      -16
+    ],
+    [
+      0,
+      -48,
+      1232,
+      -3280,
+      2240,
+      -496,
+      32
+    ]
+  ],
+  "normalized_derivative_tail_bounds": [
+    "1539/12800000000",
+    "891/128000000",
+    "266247/640000000",
+    "40987377/1600000000",
+    "81134379/50000000"
+  ],
+  "fourth_logarithmic_derivative": {
+    "lower": "114.9790530305976679734168336280751114812866901415020647061554116819187",
+    "upper": "154.8251451174386187901142789494809644390382875589140958586336096326891"
+  },
+  "moment_source": "scripts/hankel/hankel-certificate.json",
+  "V_1": {
+    "lower": "0.02069150187712839056049760284106539801204302915882984386761807838267530",
+    "upper": "0.02069191733031206998870408632522473337287770254993958308231807425248213"
+  },
+  "target_height": "49/10",
+  "required_variance_upper_bound": "50/2401",
+  "compact_curvature_certified": true,
+  "variance_threshold_certified": true
+}
