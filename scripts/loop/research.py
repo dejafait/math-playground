@@ -41,5 +41,5 @@ def assess(state, before, after, changed):
 def resume(state):
     """Explicitly renew research budget without altering quota/retry fields."""
     state.pop('research_halt', None)
-    for key in ('no_progress', 'exploration_turns', 'stalled_turns'):
+    for key in ('no_progress', 'exploration_turns', 'stalled_turns', 'unknowns'):
         state[key] = 0

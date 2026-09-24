@@ -17,6 +17,23 @@ import codex
 import runner
 
 
+def portfolio_fixture(root):
+    notebook = root / 'riemann'
+    notebook.mkdir()
+    for name in ('GOAL.md', 'PROGRESS.md', 'history'):
+        source = root / name
+        if source.exists():
+            if source.is_dir():
+                shutil.copytree(source, notebook / name)
+            else:
+                shutil.copy2(source, notebook / name)
+    for name in ('PROOF.md', 'DAG.md'):
+        (notebook / name).write_text('fixture\n')
+    (root / 'scripts/loop/problems.json').write_text(json.dumps([
+        {'id': 'riemann', 'enabled': True, 'title': 'RH'}]))
+    return notebook
+
+
 class EventTests(unittest.TestCase):
     def test_success_after_recovered_error(self):
         events = Events()
@@ -88,6 +105,7 @@ class ProcessTests(unittest.TestCase):
         (self.root / 'PROMPT.md').write_text('test prompt\n')
         (self.root / 'GOAL.md').write_text('test rules\n')
         (self.root / 'scripts/loop').mkdir(parents=True)
+        self.notebook = portfolio_fixture(self.root)
         self.root_patch = patch.object(runner, 'ROOT', self.root)
         self.root_patch.start()
         runner.STOP = False
@@ -140,11 +158,11 @@ class ProcessTests(unittest.TestCase):
 
     def test_success_checkpoint_and_proved_stop(self):
         def fake_run(*args):
-            (self.root / 'PROGRESS.md').write_text('STATUS: IN_PROGRESS\nNext action: next test\n')
+            (self.notebook / 'PROGRESS.md').write_text('STATUS: IN_PROGRESS\nNext action: next test\n')
             return 'success', None, 0
         with patch.object(sys, 'argv', ['runner.py', '--once']), patch.object(runner, 'check', return_value='fake'), patch.object(runner, 'run_process', side_effect=fake_run), patch.object(runner, 'validate'):
             self.assertEqual(runner.main(), 0)
-        (self.root / 'PROGRESS.md').write_text('STATUS: PROVED\n')
+        (self.notebook / 'PROGRESS.md').write_text('STATUS: PROVED\n')
         with patch.object(sys, 'argv', ['runner.py']), patch.object(runner, 'check', return_value='fake'), patch.object(runner, 'run_process') as run, patch.object(runner, 'validate'):
             self.assertEqual(runner.main(), 0)
             run.assert_not_called()
@@ -182,6 +200,7 @@ class LauncherTests(unittest.TestCase):
         (self.root / 'GOAL.md').write_text('Test rules')
         (self.root / 'PROGRESS.md').write_text('STATUS: IN_PROGRESS\nNext action: fixture\n')
         (self.root / 'PROMPT.md').write_text('Literal $(touch NEVER) `touch ALSO_NEVER` α\n')
+        self.notebook = portfolio_fixture(self.root)
         bindir = self.root / 'bin'
         bindir.mkdir()
         fake = r"""import sys, json, pathlib, time, subprocess
@@ -190,9 +209,10 @@ name = pathlib.Path(sys.argv[0]).name
 if args == ['login', 'status']:
     print('Logged in using ChatGPT')
     sys.exit(0)
-expected = pathlib.Path('PROMPT.md').read_text()
+expected = pathlib.Path('../PROMPT.md').read_text()
 actual = sys.stdin.read()
-assert actual == expected
+assert actual.endswith(expected)
+assert "Active problem: riemann" in actual
 pathlib.Path('invoked-'+name).write_text(json.dumps(args))
 if pathlib.Path('hold').exists():
     child = subprocess.Popen([sys.executable, '-c', 'import time; time.sleep(60)'])
@@ -214,26 +234,26 @@ print('{"type":"turn.completed"}')
     def test_launcher_from_other_directory(self):
         result = subprocess.run(['bash', str(self.root / 'loop-codex.sh'), '--once'], cwd='/tmp', env=self.env, text=True, capture_output=True, timeout=15)
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-        self.assertTrue((self.root / 'invoked-codex').exists())
-        self.assertFalse((self.root / 'NEVER').exists())
-        self.assertFalse((self.root / 'ALSO_NEVER').exists())
+        self.assertTrue((self.notebook / 'invoked-codex').exists())
+        self.assertFalse((self.notebook / 'NEVER').exists())
+        self.assertFalse((self.notebook / 'ALSO_NEVER').exists())
         state = json.loads((self.root / 'scripts/loop-codex/state.json').read_text())
         self.assertEqual(state['outcome'], 'success')
 
     def test_sigint_stops_loop_and_child(self):
-        (self.root / 'hold').touch()
+        (self.notebook / 'hold').touch()
         process = subprocess.Popen(['bash', str(self.root / 'loop-codex.sh')], cwd='/tmp', env=self.env, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         try:
             deadline = time.monotonic() + 10
-            while not (self.root / 'child.pid').exists() and time.monotonic() < deadline:
+            while not (self.notebook / 'child.pid').exists() and time.monotonic() < deadline:
                 time.sleep(0.05)
-            self.assertTrue((self.root / 'child.pid').exists())
+            self.assertTrue((self.notebook / 'child.pid').exists())
             process.send_signal(signal.SIGINT)
             output, errors = process.communicate(timeout=15)
             self.assertEqual(process.returncode, 130, output + errors)
             state = json.loads((self.root / 'scripts/loop-codex/state.json').read_text())
             self.assertEqual(state['outcome'], 'interrupted')
-            child = (self.root / 'child.pid').read_text()
+            child = (self.notebook / 'child.pid').read_text()
             status = subprocess.run(['ps', '-o', 'stat=', '-p', child], capture_output=True, text=True)
             self.assertTrue(not status.stdout.strip() or status.stdout.strip().startswith('Z'), status.stdout)
         finally:

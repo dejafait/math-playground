@@ -19,6 +19,7 @@ import time
 from events import Events
 from research import assess, resume
 from codex import check, command
+from portfolio import registry, migrate, choose
 
 ROOT = Path(__file__).resolve().parents[2]
 STOP = False
@@ -88,13 +89,14 @@ def save_state(path, state):
     temporary.replace(path)
 
 
-def proved():
-    return any(line.strip() == 'STATUS: PROVED' for line in (ROOT / 'PROGRESS.md').read_text().splitlines())
+def proved(problem=None):
+    return any(line.strip() in {'STATUS: PROVED', 'STATUS: DISPROVED'} for line in ((ROOT / problem if problem else ROOT) / 'PROGRESS.md').read_text().splitlines())
 
 
-def checkpoint_digest():
+def checkpoint_digest(problem=None):
+    notebook = ROOT / problem if problem else ROOT
     digest = hashlib.sha256()
-    files = [ROOT / 'PROGRESS.md', *sorted((ROOT / 'history').glob('*.md'))]
+    files = [notebook / 'PROGRESS.md', *sorted((notebook / 'history').glob('*.md'))]
     for path in files:
         digest.update(str(path.relative_to(ROOT)).encode())
         digest.update(path.read_bytes())
@@ -137,7 +139,7 @@ def terminate_group(process):
     process.wait()
 
 
-def run_process(argv, stdin, directory, timeout, verbose=False):
+def run_process(argv, stdin, directory, timeout, verbose=False, notebook=None):
     events = Events()
     handlers = logs(directory)
     started = time.monotonic()
@@ -145,7 +147,7 @@ def run_process(argv, stdin, directory, timeout, verbose=False):
     process = None
     timed_out = False
     try:
-        process = subprocess.Popen(argv, cwd=ROOT, env=env, stdin=subprocess.PIPE,
+        process = subprocess.Popen(argv, cwd=notebook or ROOT, env=env, stdin=subprocess.PIPE,
                                    stdout=subprocess.PIPE, stderr=subprocess.PIPE, start_new_session=True)
         # PROMPT.md is deliberately small, below pipe capacity on supported hosts.
         try:
@@ -204,8 +206,8 @@ def run_process(argv, stdin, directory, timeout, verbose=False):
             handler.close()
 
 
-def validate():
-    result = subprocess.run([sys.executable, 'scripts/docs/check_structure.py'], cwd=ROOT,
+def validate(problem=None):
+    result = subprocess.run([sys.executable, 'scripts/docs/check_structure.py'] + (['--problem', problem] if problem else []), cwd=ROOT,
                             capture_output=True, text=True, timeout=60)
     if result.returncode:
         raise RuntimeError('Documentation validation failed after the step:\n' + result.stdout + result.stderr)
@@ -215,14 +217,19 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true', help='Check local CLI/login configuration without a model request.')
     parser.add_argument('--dry-run', action='store_true', help='Show the Codex command without creating files or calling the CLI.')
-    parser.add_argument('--resume-research', action='store_true', help='Explicitly renew a stopped research budget; retain quota cooldowns.')
+    parser.add_argument('--resume-research', metavar='PROBLEM', help='Renew only this problem’s research budget; retain quota cooldowns.')
+    parser.add_argument('--problem', help='Run only this registered problem instead of the full rotation.')
     parser.add_argument('--once', action='store_true', help='Attempt one step (still honors a saved cooldown), then exit.')
     parser.add_argument('--verbose', action='store_true', help='Also stream raw CLI output to the terminal.')
     parser.add_argument('--timeout', type=int, default=7200, help='Maximum seconds per invocation (default: 7200).')
     args = parser.parse_args()
     if args.timeout < 1:
         parser.error('--timeout must be positive')
-    for name in ('PROMPT.md', 'GOAL.md', 'PROGRESS.md'):
+    rows = registry(ROOT)
+    ids = {row['id'] for row in rows}
+    if (args.problem and args.problem not in ids) or (args.resume_research and args.resume_research not in ids):
+        parser.error('Unknown problem ID')
+    for name in ('PROMPT.md', 'GOAL.md'):
         if not (ROOT / name).is_file():
             raise RuntimeError(f'Missing {name}.')
     prompt = (ROOT / 'PROMPT.md').read_text()
@@ -233,6 +240,8 @@ def main():
         print('Repository:', ROOT)
         print('Command:', ' '.join(argv))
         print('Prompt source: root PROMPT.md via stdin')
+        print('Rotation:', ', '.join(row['id'] for row in rows if row['enabled']))
+        print('Selected problem:', args.problem or 'round-robin')
         print('Output:', ROOT / 'scripts/loop-codex')
         return 0
     executable = check(ROOT)
@@ -245,18 +254,18 @@ def main():
     directory.mkdir(mode=0o700, exist_ok=True)
     state_path = directory / 'state.json'
     with lock(directory / 'process.lock'):
-        state = read_state(state_path)
+        state = migrate(read_state(state_path))
         if args.resume_research:
-            resume(state)
-            save_state(state_path, state)
-        if state.get('research_halt'):
-            announce('Research stopped: ' + state['research_halt'] + ' Review the checkpoint; use --resume-research to authorize another budget.')
-            return 2
+            resume(state['problems'].setdefault(args.resume_research, {}))
+        save_state(state_path, state)
         while not STOP:
-            if proved():
+            problem, next_problem = choose(rows, state, proved, args.problem)
+            if problem is None:
                 validate()
-                announce('STATUS: PROVED; stopping. Structural validation does not verify the mathematics.')
-                return 0
+                announce('No eligible problems remain: disabled, resolved, or research-halted.')
+                return 2 if any(p.get('research_halt') for p in state['problems'].values()) else 0
+            notebook = ROOT / problem
+            local = state['problems'].setdefault(problem, {})
             retry_at = state.get('retry_at', 0)
             if retry_at > time.time():
                 when = datetime.fromtimestamp(retry_at, timezone.utc).isoformat(timespec='seconds')
@@ -267,38 +276,54 @@ def main():
             with lock(ROOT / 'scripts/loop/workspace.lock', wait=True) as acquired:
                 if not acquired or STOP:
                     break
-                if proved():
-                    validate()
-                    return 0
+                if proved(problem):
+                    validate(problem)
+                    state['next_problem'] = next_problem
+                    save_state(state_path, state)
+                    continue
                 executable = check(ROOT)
                 prompt = (ROOT / 'PROMPT.md').read_text()
                 if not prompt.strip() or len(prompt.encode()) > 16000:
                     raise RuntimeError('PROMPT.md must be nonempty and at most 16 KB.')
-                before = checkpoint_digest()
-                before_progress = (ROOT / 'PROGRESS.md').read_text()
+                before = checkpoint_digest(problem)
+                before_progress = (notebook / 'PROGRESS.md').read_text()
+                prompt = (f'Active problem: {problem}. Working directory: {notebook}. '
+                          'Shared instructions are ../GOAL.md and ../PROMPT.md. '
+                          'All notebook paths are relative to this working directory. '
+                          f'Use --problem {problem} with the shared documentation checker.\n\n' + prompt)
                 argv, stdin = command(executable, prompt)
                 state.update(outcome='running', retry_at=0, started_at=time.time())
                 save_state(state_path, state)
-                announce(f'codex: starting a research step; logs in {directory.relative_to(ROOT)}.')
-                kind, reset, code = run_process(argv, stdin, directory, args.timeout, args.verbose)
+                output = directory / problem
+                output.mkdir(exist_ok=True)
+                announce(f'codex: starting {problem}; logs in {output.relative_to(ROOT)}.')
+                started = time.monotonic()
+                kind, reset, code = run_process(argv, stdin, output, args.timeout, args.verbose, notebook)
+                local['elapsed_seconds'] = local.get('elapsed_seconds', 0) + time.monotonic() - started
                 if kind == 'success':
-                    validate()
-                    changed = checkpoint_digest() != before
-                    reason = assess(state, before_progress, (ROOT / 'PROGRESS.md').read_text(), changed)
-                    if reason and not proved():
-                        state.update(outcome='research_stalled', research_halt=reason,
-                                     exit_code=code, finished_at=time.time())
-                        save_state(state_path, state)
-                        announce('Research stopped: ' + reason + ' Review the checkpoint; use --resume-research to authorize another budget.')
-                        return 2
+                    try:
+                        validate(problem)
+                    except RuntimeError as exc:
+                        local['research_halt'] = str(exc)
+                    changed = checkpoint_digest(problem) != before
+                    reason = assess(local, before_progress, (notebook / 'PROGRESS.md').read_text(), changed)
+                    if reason and not proved(problem):
+                        local['research_halt'] = reason
+                    if local.get('research_halt'):
+                        announce(f"Research halted for {problem}: {local['research_halt']}")
+                local['last_outcome'] = kind
+                if kind not in ('quota', 'transient', 'interrupted', 'fatal'):
+                    local['turns'] = local.get('turns', 0) + 1
+                    state['next_problem'] = next_problem
                 if kind == 'interrupted':
                     state.update(outcome=kind, exit_code=code)
                     save_state(state_path, state)
                     break
                 failures = 0 if kind == 'success' else state.get('failures', 0) + 1
-                unknowns = state.get('unknowns', 0) + 1 if kind == 'unknown' else 0
+                unknowns = local.get('unknowns', 0) + 1 if kind == 'unknown' else (0 if kind == 'success' else local.get('unknowns', 0))
+                local['unknowns'] = unknowns
                 if unknowns >= 3:
-                    kind = 'fatal'
+                    local['research_halt'] = 'Three unclassified failures for this notebook; inspect its logs.'
                 if kind == 'success':
                     delay = 5 if changed else 60
                 elif kind == 'quota':
@@ -312,7 +337,7 @@ def main():
             # Release the repository during cooldowns.
             announce(f'codex: {kind} (exit {code}).')
             if kind == 'fatal':
-                raise RuntimeError(f'Action needed; inspect {directory.relative_to(ROOT)}/stderr.log and stdout.log, fix the reported login/configuration/validation issue, then restart.')
+                raise RuntimeError(f'Action needed; inspect {output.relative_to(ROOT)}/stderr.log and stdout.log, fix the reported login/configuration/validation issue, then restart.')
             if args.once:
                 return 0 if kind == 'success' else 1
     announce('Stopped; saved work is retained. The next run will inspect any unfinished step.')
