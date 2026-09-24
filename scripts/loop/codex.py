@@ -33,5 +33,6 @@ def check(root):
 def command(executable, prompt):
     """Return Codex argv and literal prompt text for stdin."""
     return [executable, '-a', 'never', 'exec', '--sandbox', 'workspace-write',
+            '-c', 'model_reasoning_effort="max"',
             '-c', 'model_provider="openai"', '-c', 'forced_login_method="chatgpt"',
             '--json', '-'], prompt
