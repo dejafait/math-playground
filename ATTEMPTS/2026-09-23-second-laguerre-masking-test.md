@@ -1,0 +1,9 @@
+# Second Laguerre masking diagnostic — 2026-09-23
+
+The gap remains all-degree mixed positivity for actual theta reciprocal-zero nodes. The proposed intermediate target was an exact sign of the second generalized Laguerre expression for L251's H at 10. Its plausible downstream use is distinguishing information in higher associated-kernel conditions from the inadequate first-level condition before pursuing theta positivity. A negative sign justifies investigating the higher-level expression; a nonnegative sign would abandon this point as a detector, without proving sufficiency. The actual-theta sign and the passage to all degrees remain unresolved later steps.
+
+The whole overview, DAG, checkpoint, existing diff, L029, L233 and L251 were inspected. Searches for second generalized Laguerre and second associated-kernel results found no existing proof of this diagnostic. L233 concerns the first associated spectrum, whereas L251 only states a next-level test. Existing unfinished work was preserved.
+
+[L252](../lemmas/L252-second-laguerre-detects-masked-pair.md) factors off the local real root and its conjugate pair and proves D₂(H;10)<−31H′(10)²<0. This is an exact analytic sign, with rational bounds and a Taylor-coefficient normalization check. The required nonnegative sign fails despite strict first-level positivity. The diagnostic therefore distinguishes the levels, but makes no actual-theta positivity claim and gives no all-degree theorem.
+
+Assessment: ADVANCE as a proved intermediate separation, not progress in the number of theta degrees certified. One bounded test resolved; zero consecutive unresolved exploration turns. Further root insertion experiments would not by themselves address theta structure. The reason for the next direction is to translate this discriminating second level into an actual-theta integral and test whether the modular identity controls its signed contribution. No RH candidate is recorded.

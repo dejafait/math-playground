@@ -1,0 +1,11 @@
+# Left-boundary resolution test — 2026-09-23
+
+The gap is actual-theta all-degree mixed positivity, equivalently an exclusion of off-line zeros. The intermediate target was the signed formula for −π⁻¹ Im G(−t+iε) and a uniform resolution range justified by existing localization. Its plausible downstream use was to extend L248 toward the full Stieltjes domain. Continue a localization-only mechanism if it reaches every positive ε; abandon that inference if its best pairwise range stays coarse and admissible examples violate finer-resolution signs.
+
+The redundancy screen checked L246–L248, L024/L026, and the recorded Stieltjes attempts. L248 already has the pair algebra but only applies it in the right quadrant; it does not optimize the left-side threshold. L247 already rules out complete monotonicity alone. This step therefore tests the missing domain, without retesting either shortcut.
+
+[L249](../lemmas/L249-left-boundary-resolution-threshold.md) gives the signed sum and proves positivity for ε²≥t+1/2. The constant is sharp for pairwise positivity under the recorded strip localization when t≥16. Admissible polynomial pairs violate every finer threshold, and no fixed ε works uniformly in t under localization alone. The achieved √t resolution is far from the required arbitrary ε>0. Conditional on a nonreal zero, its pole forces an actual sign violation just below it regardless of the other zeros.
+
+WHY IT FAILS: localization controls B² only by A+1/4. The resulting numerator bound loses sign in the interior parabolic region, exactly where unresolved nonreal poles can occur. Coarse sign and holomorphy cannot be continued across that region without a new input. The counterexample is to this inference, not to RH or to a cancellation theorem using actual theta arithmetic.
+
+Decision: NEGATIVE. Stop geometry-only extension after the right-quadrant and boundary tests. One bounded test resolved; zero consecutive unresolved exploration turns. The next direction tests whether theta's exact modular identity supplies an integrated boundary-flux identity with a controlled sign, a materially different mechanism from node localization. Full Stieltjes holomorphy and sign remain unproved; no RH candidate is recorded.

@@ -1,0 +1,11 @@
+# Fixed-h stationary sum test — 2026-09-24
+
+Gap: exterior Laguerre signs at n=O(log a), still needed for L266's full witness cutoff. Intermediate target: evaluate the positive-positive sector for h in any fixed compact subinterval of (5,∞), retaining every theta-index stationary contribution. Plausible downstream use: supply a positive main term against which the remaining sectors can be compared. Those sector estimates and bounded exterior heights remain unresolved.
+
+Test: establish a summed remainder o(exp(Φ_*)/a) and a leading coefficient bounded below independently of a. Continue if both hold; abandon treating higher-index contributions as a negligible error at fixed h. L280's weight tends to (jk)^(4−h), suggesting |ζ(h−4+ia)|², rather than the single-index coefficient 1.
+
+Redundancy/failure check: L280 handles fixed indices at logarithmic h; L282–L283 provide summable variation bounds but suppress higher indices only as h diverges. L287 explicitly leaves fixed h open. No recorded stationary-sum zeta factor was found. The old absolute strip loss remains an independent obstruction; this test does not assume it disappears.
+
+Working checkpoint: extend L282's envelope and rectangle bounds to 5<h₀≤h≤h₁. The majorant (jk)^(4−h₀) is summable. For each fixed pair, use the real phase substitution with bounded smooth amplitude and retain the exact prefactor; the limiting weight differs from (jk)^(4−h) by O_jk(1/r). A finite-head/summable-tail argument should justify summation uniformly despite the a-dependent phases. Prove the lower bound by an absolutely convergent Euler product, entirely in Re s>1.
+
+Result: [L288](../lemmas/L288-fixed-h-stationary-sum-and-zeta-factor.md) proves the sector asymptotic uniformly on compact h-intervals in (5,∞). A finite-head/summable-tail argument controls the a-dependent phases and clipped patches; the leading sum is exactly |ζ(h−4+ia)|²≥ζ(h₀−4)^(−2). The summed error is o(exp(Φ_*)/a), meeting the sector threshold. This is ADVANCE, with zero unresolved exploration turns. It does not extend global signs: the existing whole-complement ratio O(a^6 h^(−5)(r+1)²exp(−chr)) need not vanish at fixed h. Continue by testing an adjustable sector boundary and an explicit fixed-h threshold, rather than assuming the complement is negligible. No RH candidate.

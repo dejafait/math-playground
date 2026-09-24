@@ -1,0 +1,11 @@
+# Complete-monotonicity bridge test — 2026-09-23
+
+The gap is actual-theta all-degree mixed reciprocal-node positivity. The intermediate target was a discriminating counterexample test: determine whether L029's nonreal-zero example already has a completely monotone squared-axis logarithmic derivative. The plausible downstream use is deciding whether proving all translated scalar signs is a sufficient bridge toward the positive Stieltjes representation. Continue that bridge only if a valid additional implication survives the test; abandon scalar complete monotonicity alone if the example satisfies it.
+
+The redundancy screen read L029, L242, L246, the global DAG and current overview, and searched the lemma collection for complete monotonicity and inverse-Laplace results. L029 proves only the unshifted scalar signs; L246 proves six translated signs for theta. L232 concerns a different normalized kernel and variable. None supplied this all-order translated counterexample. Existing unfinished changes were inspected and preserved.
+
+[L247](../lemmas/L247-complete-monotonicity-does-not-force-real-zeros.md) proves a strictly positive inverse-Laplace density for both the polynomial and infinite-zero examples, and excludes a Stieltjes measure using their nonreal poles. The exact two-region exponential bound avoids numerical evidence. All differentiation and infinite-sum exchanges are justified by integrable polynomial moments.
+
+WHY IT FAILS: A positive Laplace density can contain a damped oscillatory term hidden by a slower positive exponential. This ensures every scalar derivative sign while retaining nonreal logarithmic-derivative poles. The attained all-order, whole-axis positivity therefore still misses the required Stieltjes/mixed-positivity threshold. The example does not have an asserted positive Fourier kernel and is not a counterexample to RH or to a theta-specific implication.
+
+Decision: NEGATIVE; stop complete monotonicity alone as a sufficient bridge. One bounded test resolved; zero consecutive unresolved exploration turns. The main gap is unchanged. A different target is the off-axis Stieltjes sign Im G(z)≤0 for Im z>0: testing its exact theta integral may reveal whether theta structure supplies information absent from scalar signs. This remains unproved and is not an imported premise. No RH candidate is obtained.

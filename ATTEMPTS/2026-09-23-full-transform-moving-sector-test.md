@@ -1,0 +1,9 @@
+# Full-transform comparison on a moving sector — 2026-09-23
+
+The main gap is actual-theta all-degree mixed positivity. This step targets the intermediate comparison B^j F^(j)(Bt)=o(ε_N), j≤2, uniformly on 3≤t≤4. Its downstream use is transferring L238's omitted-tail profile to the finite-transform smoothing ratio. Continue if the relative C² comparison holds; abandon a tail-only inference if the full transform cannot be controlled on the exponentially small mass scale. Global threshold control and higher-order positivity remain independent unresolved steps.
+
+The previous fixed-N asymptotics in L234, compact-frequency estimates in L237, and tail-only profile in L238 do not give this comparison. The existing lemma/attempt search found no matching sector transfer. Modular averaging's L235 integrability failure does not apply to shifting the exact infinite kernel. Prior uncommitted work was preserved.
+
+[L239](../lemmas/L239-full-transform-decay-and-moving-sector-smoothing.md) proves the comparison by an absolutely justified contour shift inside the actual theta kernel's analytic strip. The derivative bounds beat ε_N exponentially. It transfers the profile and gives the sector supremum B_N^(−2)(1/32+O(B_N^(−1))). This is an ADVANCE in the intermediate diagnostic, not the required global upper bound a_N^*→0. The sector's positive contribution vanishes and does not close or obstruct that limit.
+
+The sector test is complete; extending constants within this already-controlled sector would not address the missing supremum. The next direction examines positive local maxima whose height approaches the omitted-tail level: subtracting the tail can remove pairs of real zeros and potentially create large positive logarithmic curvature. A local normal-form test can discriminate that mechanism before any claim about actual-theta extrema. One exploration test resolved as ADVANCE; zero consecutive unresolved exploration turns. No RH candidate is obtained.

@@ -1,0 +1,9 @@
+# Fixed higher-index stationary-point test — 2026-09-24
+
+The main gap remains exterior Laguerre positivity through L266's witness cutoff. The intermediate target was to test whether higher theta-index stationary points obstruct the logarithmic-h local saddle route. Plausible downstream use: remove their contributions before a signed nonstationary estimate and global assembly. The discriminating threshold is o(exp(Φ_*)/a), not decay relative only to exp(Φ_*). A main-scale fixed-index contribution would defeat principal-saddle dominance; suppression supports testing uniform summability.
+
+Redundancy and failures: L278 treats only the principal square and proves that the full exterior cannot be discarded absolutely. L279 removes small real kernel arguments but leaves these shifted stationary points. L275's principal-term annulus does not control the higher summands. Existing unfinished work and historical stop evidence are preserved.
+
+[L280](../lemmas/L280-fixed-higher-index-stationary-suppression.md) locates the positive-argument stationary point of each fixed (j,k) at (r−log(jk)/2, log(k/j)/2), and proves its exact-summand signed contribution has weight W_jk≤(jk)^4 a^(−log(jk)) times the principal 1/a scale. Thus each fixed nonprincipal pair, and any fixed finite collection, meets the actual little-o threshold. The proof includes the lower-degree prefactors, the small displacement of the real amplitude maximum, and the possible complex phase.
+
+Assessment: ADVANCE for a local input, not completion of the original uniform all-index target. Neither constants for growing indices, summation over translated patches, reflected sectors, nor the nonstationary complement are controlled. No global sign range changes. Continue by testing a uniform summable bound for the positive-argument higher-index patches; fixed-pair limits alone cannot justify the needed infinite sum. Zero consecutive unresolved exploration turns; no RH candidate.

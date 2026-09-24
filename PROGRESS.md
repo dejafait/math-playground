@@ -2,12 +2,14 @@
 
 STATUS: IN_PROGRESS
 
-Phase: informal research and strategic review.
+STEP_ID: 2026-09-24-endpoint-mixed-variation-review-01
+STEP_OUTCOME: ADVANCE
+STEP_EVIDENCE: C294a extends whole mixed-sector control to h=5 with error O(exp(Φ_*)exp(−(log 2−1/2)r)/a), correcting the presumed endpoint summability loss. See lemmas/C294a-endpoint-mixed-sector-variation.md.
 
-Main bottleneck: prove cᵀH_dc≥0 for every d and every real c for the actual theta reciprocal-zero nodes, or independently exclude every off-line zero. C032a supplies the implication to RH, not its positivity premise.
+Main bottleneck: prove all mixed theta reciprocal-zero forms nonnegative or independently exclude every off-line zero. L266 still lacks low logarithmic and sublogarithmic index signs and bounded exterior heights; L296 covers fixed h-bands strictly above 5.
 
-Current checkpoint (2026-09-23): workflow repair authorizes bounded discovery. The weighted-family obstruction, shifted-Jensen endpoint gap, and unproved associated-kernel positivity remain evidence to consult. Finite-degree certificates do not prove the all-degree claim. No candidate or certified off-line zero is recorded.
+Route decision: the listed endpoint sector estimates are now available on r=2n. Retain the exact endpoint phase sum; whole-plane normalization and an arithmetic lower bound exceeding the total additive error remain unproved. No endpoint positivity or RH candidate is recorded.
 
-Route decision: explore a specific new use of actual theta structure in the mixed-positivity gap; a plausible intermediate target suffices for investigation. The historical portfolio stop no longer prohibits discovery. Exploration turns used: 0 of 3.
+Exploration turns used: 0 of 3 consecutive unresolved exploration turns; this step supplies the endpoint mixed-sector input.
 
-Next action: Identify up to three distinct approaches to the actual-theta mixed-positivity gap, compare them with recorded failures, and choose one concrete intermediate mathematical test with explicit success and abandonment criteria.
+Next action: Assemble L300, L301 and C294a at h=5, checking reflection and normalization to state the exact arithmetic lower-bound threshold needed for endpoint positivity.

@@ -1,0 +1,9 @@
+# Uniform stationary-patch summation test — 2026-09-24
+
+The gap is exterior Laguerre positivity through L266's height-dependent witness cutoff. The proposed intermediate target is a summable o(exp(Φ_*)/a) bound for higher-index positive-argument stationary patches at logarithmic h. Its downstream use is to remove these patches before a signed estimate on their complementary regions. Continuing is justified if a uniform amplitude loss can be absorbed by the index weights; a loss overwhelming those weights would require a different partition or mechanism.
+
+Redundancy check: L280 only treats fixed pairs, with pair-dependent constants. L278's absolute exterior obstruction remains applicable; L279 controls small arguments only. This step does not repeat those bounds or assume fixed-pair asymptotics can be summed. Existing unfinished work is preserved.
+
+[L281](../lemmas/L281-uniform-higher-index-stationary-sum.md) retains the exact lower-degree factors and uses a coarse uniform mixed-variation bound Ch²exp(h/5), followed by the signed rectangle estimate. Summing the weights costs at most Cexp(−h log 2). The resulting relative error Ch²exp(−(log 2−1/5)h) tends to zero at the actual required scale. Patches may overlap spatially because the decomposition is by summand, not by a union of regions. The statement includes all centers whose two real arguments are at least r/4 and bounds their full squares.
+
+Assessment: ADVANCE for a uniform local input, with zero consecutive unresolved exploration turns. No new global sign range and no RH candidate. The remaining complements include pairs with stationary centers outside this sector, and reflected sectors. The next direction tests the signed nonstationary complement in the positive-positive sector: that is now the missing part of this sector rather than a fixed-versus-growing-index issue.
