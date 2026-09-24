@@ -2,14 +2,14 @@
 
 STATUS: IN_PROGRESS
 
-STEP_ID: 2026-09-24-endpoint-mixed-variation-review-01
-STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: C294a extends whole mixed-sector control to h=5 with error O(exp(Φ_*)exp(−(log 2−1/2)r)/a), correcting the presumed endpoint summability loss. See lemmas/C294a-endpoint-mixed-sector-variation.md.
+STEP_ID: 2026-09-24-endpoint-first-order-subtraction-01
+STEP_OUTCOME: NEGATIVE
+STEP_EVIDENCE: L348 derives the exact correction and improves its remainder's long-height mean square to O(r^(-4)), but leaves nonconstant mass at least 3r/4−O(1), or 3r/16−O(1) for every scalar multiple. The weighted certificate still diverges. See lemmas/L348-endpoint-first-order-subtraction-obstruction.md.
 
-Main bottleneck: prove all mixed theta reciprocal-zero forms nonnegative or independently exclude every off-line zero. L266 still lacks low logarithmic and sublogarithmic index signs and bounded exterior heights; L296 covers fixed h-bands strictly above 5.
+Main bottleneck: global mixed reciprocal-zero positivity remains unproved. L320 needs a logarithmic initial segment of Laguerre signs, but L296's bands strictly above coefficient 1/4 leave low logarithmic and sublogarithmic indices open. Heights above forty and the endpoint arithmetic margin remain unresolved.
 
-Route decision: the listed endpoint sector estimates are now available on r=2n. Retain the exact endpoint phase sum; whole-plane normalization and an arithmetic lower bound exceeding the total additive error remain unproved. No endpoint positivity or RH candidate is recorded.
+Route decision: stop first-order subtraction at σ=1+1/r as a repair for absolute sampling norms. Test changing the denominator to the Mellin width σ=1+1/sqrt(r); uniform grouped coefficient mass and control at a_n are unproved. All established sign/exclusion ranges are unchanged.
 
-Exploration turns used: 0 of 3 consecutive unresolved exploration turns; this step supplies the endpoint mixed-sector input.
+Exploration turns used: 0 of 3 consecutive unresolved exploration turns; the pole and Liouville tests give a new obstruction, including optimal scalar damping. No RH candidate.
 
-Next action: Assemble L300, L301 and C294a at h=5, checking reflection and normalization to state the exact arithmetic lower-bound threshold needed for endpoint positivity.
+Next action: Prove or refute an O(1) bound on the sum of absolute grouped coefficients of S_r(a)/|ζ(1+1/sqrt(r)+ia)|²−1, using normalized Euler-factor ratios on the Mellin contour.
