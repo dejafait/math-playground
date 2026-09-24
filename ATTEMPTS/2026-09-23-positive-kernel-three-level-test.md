@@ -1,0 +1,11 @@
+# Positive Fourier kernel with three masked levels — 2026-09-23
+
+The gap is actual-theta all-degree positivity. The intermediate target was the checkpoint's exact inverse-transform sign test for −exp(−a z²)E(z), using L261 with b=1/4 and ε=1/40. Its downstream use was to assess whether adding kernel positivity could repair the generic three-level inference. Continue that sufficiency repair only if kernel compatibility fails for a structural reason; abandon it if an exact positive kernel exists. Theta growth and theta-specific identities remain separate unresolved hypotheses.
+
+The whole GOAL, PROGRESS, PROOF overview and global DAG were read before detailed proofs. Existing changes were inspected and preserved. L055–L057 concern finite Hankel tests, L233 shows failure of an automatic first sign for positive kernels, and L261 supplies three signs without a kernel. None already supplies this combined example.
+
+[L262](../lemmas/L262-positive-fourier-kernel-with-three-masked-levels.md) supplies the exact positive kernel at a=1, with all eight inverse-transform polynomial coefficients positive by rational arithmetic. The initial optional symbolic check could not run because SymPy is unavailable; the completed certificate uses only Python's standard-library integer/rational arithmetic.
+
+WHY IT FAILS: Positive Fourier-kernel compatibility does not repair the generic sufficiency claim for three strict global Laguerre levels, even with simple localized zeros. The Gaussian multiplier preserves the nonreal zeros and the three signs, and its inverse transform is strictly positive. This construction has order two, however, so it does not refute an order-one or actual-theta theorem. The main RH gap is unchanged.
+
+Decision: NEGATIVE, one bounded test resolved, zero consecutive unresolved exploration turns. Stop this generic three-level-plus-kernel repair. The remaining growth distinction motivates testing a compactly supported positive kernel using a high even power of a sinc multiplier in place of the Gaussian, with derivative boundary terms and positivity explicitly checked. This is a proposed new mechanism, not an established continuation theorem. Mathlib coverage was not checked; no RH candidate was obtained.

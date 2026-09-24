@@ -1,0 +1,11 @@
+# Positive-sector summand complement test — 2026-09-24
+
+The main gap is exterior Laguerre positivity through L266's witness cutoff. The intermediate target is a summable o(exp(Φ_*)/a) signed bound outside each summand's fixed stationary square, restricted to s+x>r/4 and s−x>r/4 at log a≤h≤2 log a. This would complement L281; reflected sectors, clipped boundary patches, and lower indices remain separate unresolved tasks.
+
+The discriminating test is whether log(s/r)≤(s−r)/r gives a global separable amplitude envelope with summable index weight (jk)^(4−h), whose mixed variation costs only a polynomial in h. One nonstationary primitive should then save an extra a^(−1/2). Continue if the resulting summed relative error tends to zero; abandon this implementation if boundary or variation terms defeat that saving.
+
+Redundancy: L275 controls a shrinking local annulus, L280 fixed-index patches, L281 uniformly summed patches, and L279 the small-argument region. None bounds this unbounded summand-wise complement. L278's absolute exterior obstruction is retained; this test uses signed primitives. Existing unfinished changes are preserved.
+
+The completed proof is [L282](../lemmas/L282-positive-sector-nonstationary-complement.md). The logarithmic tangent inequality supplies the global weight (jk)^(4−h). Its separable envelope has uniformly bounded integrals even after multiplying by the exponential factors produced by differentiation. The mixed variation costs Ch² times that weight, and the product of a nonstationary primitive and a stationary primitive costs a^(−3/2). Summing all pairs gives relative error O(h²/√a)=o(1), meeting the actual target. Absolute summability also justifies the theta-series integral interchange on this sector.
+
+Assessment: ADVANCE for the positive-sector complementary input; zero consecutive unresolved exploration turns. The global sign range and RH gap remain unchanged. Boundary-clipped squares must still be reconciled with L281's full-square estimate, including centers just outside its index restriction. That is the next direction because it is the remaining local partition issue before this sector can be assembled. Other sign sectors, smaller indices, and bounded exterior heights remain open; no RH candidate is claimed.

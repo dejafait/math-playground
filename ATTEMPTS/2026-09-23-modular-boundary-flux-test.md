@@ -1,0 +1,11 @@
+# Modular boundary-flux test — 2026-09-23
+
+Gap: the actual-theta Stieltjes sign and holomorphy at every −t+iε, including arbitrary fine resolution, remain unproved. The proposed intermediate target was an integrated flux identity whose modular boundary terms have the required nonpositive sign. Such an identity plus control of its bulk term could exclude the nonreal poles identified in L249; bulk control and global zero exclusion were explicit later gaps. Continue the direct mechanism if it supplies sign-controlled terms, abandon termwise boundary signing if an actual-theta wrong-sign term is proved.
+
+Redundancy screen: L019–L020 already give the boundary derivative and single-transform integration by parts. L248 tests the original double-integral kernel; L249 tests zero localization. The new test expands the integrated modular flux, rather than repeating either pointwise kernel or pairwise geometry. The September 20 boundary audit is retained as evidence, not an admission ban.
+
+[L250](../lemmas/L250-modular-boundary-flux-and-sign-obstruction.md) proves the exact flux decomposition and a strictly positive boundary contribution on an actual-theta rectangle within ε²<t+1/2. The achieved formula leaves a residual signed H flux; the required bound is the total nonpositive flux for every t,ε>0. No estimate of that residual at the required strength has been obtained.
+
+WHY IT FAILS: The constant furnished by the modular boundary condition contributes +(1/2)Im F′, which is strictly positive in the proved rectangle. It cannot simply be dropped or assigned the desired sign. A successful use of this formula needs a quantitative cancellation estimate against its two bulk terms. This refutes only direct termwise boundary signing, not every use of modularity, and does not assert a positive total flux.
+
+Decision: NEGATIVE for this direct mechanism. One bounded test resolved; zero unresolved exploration turns. Before attempting another difficult first-level sign estimate, test whether adding the first Laguerre inequality to the recorded geometry would itself exclude nonreal zeros. This checks the downstream strength of that intermediate target instead of repeating a modular sign rearrangement. No RH candidate is recorded.

@@ -1,0 +1,9 @@
+# Mixed-sector stationary cores — 2026-09-24
+
+Gap: fixed-h mixed-sector errors must be o(exp(Φ_*)/a) before L288 can extend global signs toward h=5. Target: sum the absolute masses of the exact summands on their own clipped stationary squares of radius r/sqrt(a), including centers approaching or just outside the sector boundary. These expanding Fresnel-scale cores could form the inner part of a signed stationary partition. Continue if the index sum has a strictly decaying normalized bound throughout compact h-bands above 5; abandon this absolute-core estimate if index multiplicity defeats the polynomial penalty.
+
+Redundancy: L292 locates the stationary points but supplies no mass estimate. L281 and L283 concern opposite-sign phases in the positive-positive sector. L291 obstructs an absolute estimate on the entire mixed sector, not on these shrinking summand-dependent cores. Existing work and inactive branches are preserved.
+
+Saved reasoning: at each mixed stationary center the normalized polynomial is (log(k/j)/(2r))^(2n), while the other leading amplitude is (jk)^(-1/2). Bounding this polynomial by its maximum before summing wastes the correlation with index imbalance. Instead for j≤k use log t≤t−1 to bound it by 2^(-2n) exp(2(h−9/2)(log(k/j)−r+2ε)). This makes the j-sum convergent and yields an exponentially decreasing r-bound after the k-sum.
+
+Result: L293 proves a total bound C exp(Φ_*) r²/a · exp(−γr), with γ=2(h₀−9/2)log 2−1/2>0. This meets the required little-o scale for the specified cores. ADVANCE is limited to a summand-wise partition: the integral of the full summed kernel over the union of cores is not estimated by this result. Outer annuli, nonstationary complements, and boundary terms remain missing; there is no new global sign range or RH candidate. Zero consecutive unresolved exploration turns.

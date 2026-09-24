@@ -1,0 +1,11 @@
+# Second associated theta remainder test — 2026-09-23
+
+The main gap is actual-theta all-degree mixed positivity. The intermediate target was the exact Fourier spectrum of the second associated kernel and a test of nonnegative signing of its non-autocorrelation remainder. Its plausible downstream use was a proof of second-level positivity followed by a search for a uniform higher-level mechanism. The continuation test was a nonnegative remainder spectrum; a proved negative value would stop this separate-sign mechanism, while leaving quantitative compensation open.
+
+The whole overview, global DAG, checkpoint and existing changes were inspected and preserved. Searches for second associated kernels and second Laguerre expressions found L252's comparison diagnostic but no existing actual-theta second-spectrum calculation. L233's first-spectrum obstruction and L250's modular boundary-sign failure were checked: neither proves the present actual-theta remainder obstruction. No historical route stop was treated as a global research ban.
+
+[L253](../lemmas/L253-second-associated-spectrum-and-remainder-obstruction.md) computes Â₂(2x)=3D₂(Ξ;x) and splits off the nonnegative spectrum F″²/2. The remainder has zero value at the spatial origin and is nonzero near it. Gaussian regularization then proves its Fourier transform has both signs. This applies to actual theta with its modular identity, not merely a comparison kernel. It does not sign the total spectrum.
+
+WHY IT FAILS: The proposed separate-sign proof would need R̂≥0; L253 disproves that exact requirement. The weaker bound actually sufficient for this level is R̂(2x)≥−F″(x)²/2, which remains unproved. Modular smoothness cannot change the zero-diagonal obstruction for this splitting. The result is NEGATIVE: it stops this particular decomposition as a termwise positivity mechanism, without rejecting cancellations in the full expression. No RH candidate is recorded.
+
+One bounded test was used and resolved; zero consecutive unresolved exploration turns. The reason for testing the unsplit expression next is that cancellation between its terms is now demonstrably necessary. A double theta-series pairing would use arithmetic structure absent from generic autocorrelation algebra; failure to produce a signed pairing will stop this continuation rather than justify further formal decompositions.
