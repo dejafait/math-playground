@@ -1,0 +1,7 @@
+# Endpoint reduced-ratio mixture test — 2026-09-24
+
+The gap is L302's missing positive arithmetic margin at a_n. The intermediate target was a positive mixture of zeta modulus squares after summing all gcd multiples in each reduced ratio. Such a representation could supply a lower bound using arithmetic information. The discriminating test was the necessary three-coefficient moment inequality, followed by comparison of its defect with the required error scale.
+
+WHY IT FAILS: [L306](../lemmas/L306-endpoint-ratio-mixture-obstruction.md) proves a strictly negative moment determinant of order 1/r after the complete gcd summation. This rules out exact positive mixtures in the stated integrable class and uniform approximation with error o(1/r), including approximation at L302's exponentially small error scale. Positive Fourier coefficients do give positive definiteness, but not pointwise positivity. This is distinct from L297's arbitrary-vector matrix obstruction and from L304–L305's absolute estimates. It does not rule out all nonnegative representations, a coarser approximation with a still larger positive margin, or estimates specifically at a_n; no negative endpoint sign is asserted.
+
+Decision: stop this exact or exponentially accurate uniform mixture mechanism. A functional-equation transformation is a different concrete test: L303's product cutoff exp(2r) is asymptotic to a_n/(2π), suggesting a dual arithmetic sum whose residues and remainder can be compared with the endpoint threshold. No successful dual estimate is assumed.
