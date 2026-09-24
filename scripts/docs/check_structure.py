@@ -7,8 +7,12 @@ or completeness of dependencies. Run from any working directory.
 from pathlib import Path
 import re
 import sys
+import argparse
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "loop"))
+from portfolio import registry
 
-ROOT = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[2]
+ROOT = REPO
 ID = r'(?:L\d{3}|C\d{3}[a-z]?)'
 errors = []
 
@@ -44,10 +48,9 @@ def parse_dag(text):
     return nodes, edges, problems
 
 
-def main():
-    require((ROOT / 'PROMPT.md').is_file(), 'Missing sole research prompt: PROMPT.md')
-    require((ROOT / 'loop-codex.sh').is_file(), 'Missing root launcher: loop-codex.sh')
-    require(not re.search(r'^## (?:Initial|Recurrent) prompt', (ROOT / 'README.md').read_text(), re.M), 'README must link to PROMPT.md instead of maintaining runnable prompts.')
+def check_notebook():
+    for name in ('ATTEMPTS', 'drafts', 'foundations', 'history', 'lemmas', 'scripts'):
+        require((ROOT / name).is_dir(), 'Missing notebook directory: ' + name)
     dag = (ROOT / 'DAG.md').read_text()
     nodes, edges, parse_errors = parse_dag(dag)
     errors.extend(parse_errors)
@@ -115,6 +118,32 @@ def finish():
     for error in errors:
         print('ERROR:', error, file=sys.stderr)
     return 1 if errors else 0
+
+
+def main():
+    global ROOT
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--problem', help='Validate one registered notebook; default: all.')
+    args = parser.parse_args()
+    rows = registry(REPO)
+    if args.problem and args.problem not in {row['id'] for row in rows}:
+        parser.error('Unknown problem ID')
+    result = 0
+    for row in rows:
+        if args.problem and row['id'] != args.problem:
+            continue
+        ROOT = REPO / row['id']
+        errors.clear()
+        print(row['id'] + ':')
+        result = max(result, check_notebook())
+    errors.clear()
+    for name in ('GOAL.md', 'PROMPT.md', 'README.md', 'loop-codex.sh'):
+        require((REPO / name).is_file(), 'Missing shared file: ' + name)
+    for name in ('README.md', 'GOAL.md', 'PROMPT.md'):
+        for url in re.findall(r'\[[^\]\n]*\]\(([^)\n]+)\)', (REPO / name).read_text()):
+            if not re.match(r'\w+://', url) and not url.startswith('#'):
+                require((REPO / url.split('#', 1)[0]).exists(), f'Broken shared link in {name}: {url}')
+    return max(result, finish())
 
 
 if __name__ == '__main__':

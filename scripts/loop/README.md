@@ -1,32 +1,30 @@
-# Codex loop implementation
+# Codex portfolio loop
 
-The root `loop-codex.sh` launcher locates the repository regardless of the caller's directory and invokes `runner.py`. `codex.py` supplies the Codex command and authentication checks; `events.py` classifies structured failures and explicit retry times. Prompt text is read afresh from root PROMPT.md every iteration and passed literally on stdin.
+The root launcher locates the repository from any calling directory. `runner.py` reads the ordered `problems.json` registry; `portfolio.py` validates it, migrates legacy RH counters and selects the next eligible notebook. `codex.py` retains the subscription authentication checks and command construction. `events.py` classifies failures without interpreting tool output as quota errors.
 
-## Operation
+Each invocation starts a fresh session in the selected notebook directory. The literal root PROMPT.md is reread on every turn, prefixed with the active problem and shared instruction paths. Research artifacts and reproduction paths are local to that notebook; the shared documentation checker accepts `--problem ID`. The configured default model is retained. No API key or paid fallback is selected. Existing sandbox policies remain effective; instructions also restrict edits to the active notebook.
 
-Each run is a fresh CLI session which resumes from the notebook files. PROMPT.md now directs informal research or strategic review, with relevance checks against the main RH gap. A candidate argument is recorded honestly and reviewed informally. Existing quota waits and stop safeguards remain in force. The selected model follows the Codex configured default; no model or paid fallback is selected by the wrapper. Codex must support the flags shown by `--dry-run`. The loop uses ChatGPT subscription authentication.
+## Scheduling and persistence
 
-Codex uses workspace-write with approvals set to never. Existing Codex policies may further restrict execution; the loop does not disable those policies.
+One completed attempt advances the round-robin cursor. Successful, stalled and timed-out/unclassified attempts count as turns; quota, transient transport and interrupted invocations retain the current slot for retry. Each notebook records elapsed invocation seconds and turn count. Equal turns do not imply equal token consumption; token accounting is not inferred from wall time.
 
-Local checks reject known Codex API credentials and custom-provider settings. The loop checks ChatGPT login and forces the OpenAI provider and ChatGPT authentication. These checks do not verify remaining subscription quota, additional credit balance, or auto-top-up settings. Disable extra usage in the account to keep spending capped.
+One ignored `scripts/loop-codex/state.json` atomically stores the next problem, global retry/authentication outcome, and a `problems` map of independent research counters. Legacy root research fields move into the `riemann` entry on first launch; global cooldowns and existing logs remain intact. No notebook's research halt is reset by switching to another. `--resume-research ID` explicitly renews only that problem's research budget.
 
-Runtime data is stored in `scripts/loop-codex/`: `state.json` (outcome and next retry), `process.lock`, and stdout/stderr logs. Each stream rotates at 2 MiB with two backups (roughly 12 MiB total). Codex session files remain governed by its retention settings. Logs can contain notebook text; they are not research records and are ignored by Git. Never edit retry state to bypass a quota limit.
+After two STALLED reports, three invalid/stale reports, or three EXPLORATION turns without ADVANCE or NEGATIVE, that notebook is halted. Validation failure also halts the affected notebook. Other eligible notebooks continue. Resolved notebooks (`PROVED` or `DISPROVED`) are skipped; these labels require critical review under GOAL.md and are not mathematical verification by the runner. If no eligible notebook remains, the loop exits. Disabled entries remain on disk but are not scheduled.
 
-The `process.lock` prevents duplicate loop runs; `workspace.lock` protects notebook edits. Both are kernel file locks, released automatically on process exit; their files remain intentionally. Stop the loop before manually editing the notebook or runner.
+Quota cooldowns apply to the entire account. Fallback waits are 5, 15, 30, then 60 minutes; explicit resets plus a 60-second buffer take precedence when later. Transport failures back off from 30 seconds to 15 minutes. Authentication/configuration failures stop the launcher. Three unclassified failures in one notebook halt that notebook, even when other notebooks make progress. Restarting, selecting a problem, or resuming research never bypasses a quota wait.
 
-Quota fallback waits are 5, 15, 30, then 60 minutes. Temporary transport failures back off from 30 seconds to 15 minutes. Explicit reset timestamps or retry-after durations take precedence when later, with a 60-second buffer. Ambiguous human-readable dates use fallback waits. Structured error events are inspected separately from tool results, so a proof discussing rate limits does not cause a spurious pause. Unknown failures retry three times, then stop. Checkpoint changes only establish that work was saved. Fresh STEP_ID, STEP_OUTCOME, and STEP_EVIDENCE fields in PROGRESS.md report research outcomes. The loop stops after two consecutive STALLED reports, three missing/invalid/stale reports, or three EXPLORATION turns without an ADVANCE or informative NEGATIVE result. History-only edits cannot reset these safeguards. Research stops persist across restarts; after reviewing the checkpoint, explicitly use `./loop-codex.sh --resume-research` to renew the budget without bypassing quota waits. Outcome labels are self-reported and must be supported by recorded evidence. Completed steps must pass the documentation checker. These checks establish neither mathematical validity nor that changed text is useful progress.
+`process.lock` prevents duplicate launcher runs and `workspace.lock` protects notebook edits. Both are kernel locks released on process exit. Stop the loop before manual edits. Ctrl+C/SIGTERM stops the process group, retaining partial files and the current slot. A two-hour default timeout bounds each invocation; `--timeout` overrides it.
 
-`--timeout SECONDS` bounds one CLI invocation (default two hours), then retains partial work for a fresh invocation. Ctrl+C/SIGTERM interrupts the process group and escalates termination if necessary. A saved checkpoint can survive an interruption; the current in-memory thought cannot be guaranteed. `--once` still honors persisted quota waiting. `--check` performs local CLI status/configuration reads but no model inference; `--dry-run` does not call Codex and creates no runtime files.
+Each notebook has rotating stdout/stderr logs under `scripts/loop-codex/ID/` (2 MiB per stream, two backups). Codex session retention is separate. Logs are operational diagnostics, not research history. They can contain notebook text. `--dry-run` makes no model call and creates no runtime state; `--check` checks local login/configuration without inference. `--once` still honors saved cooldowns.
 
 ## Verification
 
 ```bash
-python3 -B -m unittest discover -s scripts/loop -p 'test_*.py' -v
-python3 scripts/docs/check_structure.py
+python3 -B -m unittest discover -s scripts/loop -p 'test_*.py' -q
+python3 -B -m unittest discover -s scripts/docs -p 'test_*.py' -q
+python3 -B scripts/docs/check_structure.py
+bash loop-codex.sh --dry-run
 ```
 
-Tests use temporary notebooks and a fake Codex executable. They do not spend subscription allowance. Live inference is not part of these checks.
-
-## Reference
-
-- [Codex non-interactive execution](https://learn.chatgpt.com/docs/non-interactive-mode)
+Tests use temporary notebooks and fake Codex processes; they spend no model allowance. The process-termination regression uses `ps`, which may require running outside a restrictive sandbox.

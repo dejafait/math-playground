@@ -1,23 +1,49 @@
-# Riemann hypothesis research notebook
+# Mathematical research portfolio
 
-An informal RH research notebook; RH remains unproved. [GOAL.md](GOAL.md) defines the rules, [PROOF.md](PROOF.md) summarizes the argument, [DAG.md](DAG.md) lists dependencies by lemma ID, and [PROGRESS.md](PROGRESS.md) records where to resume. The Codex loop reads [PROMPT.md](PROMPT.md). Each turn must justify its connection to the main RH gap, check for redundant work, and reassess stalled routes; producing more lemmas is not the objective.
+Ten independent mathematical notebooks share one Codex research loop. [GOAL.md](GOAL.md) defines common standards and [PROMPT.md](PROMPT.md) defines one research step. Each notebook has its own goal, progress checkpoint, proof overview, canonical DAG, lemmas, foundations, drafts, attempts, history and mathematical scripts.
 
-Install Python 3.9+ and the Codex CLI, then sign in with your subscription account:
+| Notebook | Target |
+| --- | --- |
+| [riemann](riemann/GOAL.md) | Riemann hypothesis; existing research preserved |
+| [p-vs-np](p-vs-np/GOAL.md) | P versus NP |
+| [hodge](hodge/GOAL.md) | Rational Hodge conjecture |
+| [birch-swinnerton-dyer](birch-swinnerton-dyer/GOAL.md) | Birch and Swinnerton-Dyer conjecture |
+| [yang-mills](yang-mills/GOAL.md) | Yang–Mills existence and mass gap |
+| [beal](beal/GOAL.md) | Beal conjecture |
+| [collatz](collatz/GOAL.md) | Collatz conjecture |
+| [iut-challenge](iut-challenge/GOAL.md) | Demonstrate an inherent flaw in IUT theory |
+| [reed-solomon-mca](reed-solomon-mca/GOAL.md) | Grand mutual-correlated-agreement challenge |
+| [reed-solomon-list-decoding](reed-solomon-list-decoding/GOAL.md) | Grand list-decoding challenge |
 
-| CLI | Installation guide | Sign in once |
-| --- | --- | --- |
-| OpenAI Codex | [Codex CLI](https://developers.openai.com/codex/cli) | `codex login` (ChatGPT) |
+The two Reed–Solomon problems share a prize pool, not a fixed individual reward. IUT is a theory-verification challenge. Prize eligibility and mathematical correctness are separate; no notebook claims a resolution merely by entering this portfolio.
 
-Keep paid extra usage and automatic credit top-ups disabled in your account. Do not configure API keys or custom paid providers. The scripts check local authentication settings; they cannot inspect or disable account-side billing options. Existing extra-credit balances may be consumed by the service after included usage runs out.
-
-Start the Codex loop. Each invocation makes one focused informal research or strategic-review step, with an explicit connection to the main RH gap. A complete informal argument is first recorded as an unverified candidate for critical review. The loop repeats until stopped, a failure safeguard triggers, or the notebook reaches its reviewed success criteria:
+Install Python 3.9+ and the [Codex CLI](https://developers.openai.com/codex/cli), then run `codex login` using ChatGPT. Do not configure API keys or custom paid providers. Keep paid extra usage and automatic top-ups disabled in your account; the wrapper cannot inspect account-side billing settings.
 
 ```bash
 bash loop-codex.sh
 ```
 
-Ctrl+C stops the active process and loop. Logs and persistent retry state live in the `scripts/loop-codex/` folder and are ignored by Git; research decisions remain in `history/`. File locks prevent simultaneous loop runs from editing the notebook.
+The loop visits enabled notebooks in the order in [the registry](scripts/loop/problems.json), one fresh session and coherent step each. Ten active notebooks receive equal turns, not guaranteed equal tokens or time. Each session runs from its problem directory; mathematical reproduction commands are relative to that directory. Shared loop and validation scripts stay at the root.
 
-Quotas trigger a wait until an unambiguous reported reset time plus a buffer, or increasing retries capped at hourly when no reset time is available. Restarting preserves the wait. Authentication/configuration failures stop with an explanation. Repeated unclassified failures or runs without recorded progress also stop for inspection. The computer and terminal session must remain running for automatic retries.
+The scheduler persists its position. Research halts apply to one notebook; quota cooldowns apply globally and survive restart. Resolved, disabled and halted notebooks are skipped. If none remain eligible, the loop exits. Ctrl+C stops the active process and preserves files. The computer and terminal session must remain running for automatic retries.
 
-Use `bash loop-codex.sh --check` for a local setup check, `--dry-run` to inspect the command, `--once` for one step, or `--verbose` to stream CLI events. [Runner details and tests](scripts/loop/README.md).
+```bash
+bash loop-codex.sh --dry-run
+bash loop-codex.sh --check
+bash loop-codex.sh --once
+bash loop-codex.sh --problem beal --once
+bash loop-codex.sh --resume-research riemann
+```
+
+`--resume-research ID` renews only that notebook's research budget, then runs the normal rotation; add `--problem ID` to focus exclusively on it. `--timeout SECONDS` applies the same maximum duration to each invocation (default: two hours). `--verbose` streams CLI output.
+
+Runtime state and per-problem logs live under `scripts/loop-codex/` and are ignored by Git. Legacy RH counters are migrated automatically on first launch without resetting a research halt or quota wait. Research decisions stay inside each notebook's `history/`. Stop the loop before manually editing notebooks or infrastructure.
+
+```bash
+python3 -B scripts/docs/check_structure.py
+python3 -B scripts/docs/check_structure.py --problem riemann
+python3 -B -m unittest discover -s scripts/loop -p 'test_*.py' -q
+python3 -B -m unittest discover -s scripts/docs -p 'test_*.py' -q
+```
+
+[Runner implementation details](scripts/loop/README.md). Structural checks do not establish mathematical correctness.
