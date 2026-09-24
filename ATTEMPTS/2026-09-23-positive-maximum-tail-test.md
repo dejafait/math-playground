@@ -1,0 +1,9 @@
+# Positive-maximum tail-subtraction test — 2026-09-23
+
+The gap tested is the global bound a_N^*→0 needed to pass L236's first associated-spectrum inequality to theta. The intermediate target was a local quantitative condition forcing a large positive ratio when a positive maximum falls just below the omitted tail. Its downstream use is to identify a transition obstruction or the peak separation estimate a successful upper bound must address. Higher-order positivity remains independently missing.
+
+The redundancy check read L236–L239 and searched earlier maximum/quadratic discussions. L237 concerns a fixed negative-leading multiple zero; L239 concerns a sector where F is negligible. Neither treats positive moving peaks near the tail level. The heat-branch maximum arguments concern zero heights rather than extrema of the real Fourier transform.
+
+The discriminating test was whether the quadratic model yields a stable, explicit obstruction with tail slope retained. [L240](../lemmas/L240-tail-subtraction-at-positive-maxima.md) gives an exact center identity and a sufficient curvature/deficit window, using L238 for derivative control. The completed-square model has effective deficit d−s²/(2c), not d+s²/(2c); the shift can increase the obstruction. The exact center test avoids any unsupported uniform Taylor expansion at moving theta peaks.
+
+This is a conditional intermediate ADVANCE, not evidence that actual theta has these peaks. The achieved lower bound κ/(8d) diverges only under the stated sequence assumptions, whereas the proposed route requires a global upper bound tending to zero. The local diagnostic is complete. Further algebraic refinements are not justified until an actual-theta encounter mechanism is tested. One exploration test resolved; zero consecutive unresolved exploration turns. No RH candidate is obtained.

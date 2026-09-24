@@ -1,0 +1,11 @@
+# Third-level simple-root masking test — 2026-09-23
+
+The main gap is all-degree mixed positivity for actual theta data or another exclusion of off-line zeros. The proposed intermediate target was strict global D₁,D₂,D₃ positivity for the five-root split P(z)=z(z²−ε²)(z²−4ε²)(z²+b²). Its downstream use is to assess whether simplicity and strictness distinguish a useful finite-level criterion. An exact global sign interval would refute this repair at three levels; a forced negative sign for every small split would stop this construction. Actual-theta exterior signs and an all-degree passage remain unresolved.
+
+The full overview and DAG were read before the detailed proofs, and existing changes were inspected and preserved. L257 covers arbitrary finite levels with multiplicity; L260 covers only two strict levels with simple roots. Neither settles this test. L055–L057 concern positive Fourier kernels and finite Hankel tests, not these three global Laguerre inequalities.
+
+[L261](../lemmas/L261-simple-root-strict-third-level-masking.md) proves the desired strict signs for 0<ε/b≤1/√20 by exact coefficient extraction and a completed square for the first level. It also gives an even localized simple-root example. The local sixth level is negative at zero. Coefficients were checked with standard-library exact integer arithmetic; no sampled inequality or symbolic-package assumption enters the proof.
+
+WHY IT FAILS: Simplicity and strictness cannot make three global Laguerre levels sufficient for real zeros. The achieved threshold remains finite, and neither actual theta nor a positive Fourier kernel is supplied. This is a new negative result for the proposed generic sufficiency repair, not a disproof of RH or an arbitrary-finite-level simple-root theorem.
+
+Decision: NEGATIVE. One bounded test resolved; zero consecutive unresolved exploration turns. Stop increasing the fixed level one at a time: the next substantive distinction is positive Fourier-kernel compatibility. A concrete test is whether the inverse Fourier transform of −exp(−a z²)E(z), for the fixed b=1/4, ε=b/10 example, is nonnegative for some a>0, using its exact Gaussian-times-Hermite polynomial. This would still have order two, so even a successful test would not reproduce theta's order-one growth. No claim about that test is made here. Mathlib coverage was not checked.

@@ -1,0 +1,11 @@
+# Reflected mixed-sector phase test — 2026-09-24
+
+Gap: fixed-h complement control at o(exp(Φ_*)/a), needed to combine with L288 before smaller logarithmic-index signs can follow. Target: reflect the negative kernel argument and test a uniform nonstationary derivative for exact theta summands, for h in a fixed compact subinterval of (5,∞). Continue with nonstationary integration only on regions with a derivative bounded away from zero; abandon a whole-sector derivative certificate if interior stationary points occur. Smaller indices and bounded exterior heights remain separate gaps.
+
+Redundancy: L284 treats logarithmically growing h by absolute bounds; L290 stops above approximately 9.91; L291 excludes the refined absolute certificate through approximately 6.303. L288's opposite-sign phases describe the same-sign argument sector, not this reflected geometry. No previous mixed-sector stationary classification was found in the checked lemma and attempt texts.
+
+Saved calculation: on x>|s|, put u=x+s>0, v=x−s>0. Evenness makes both kernel arguments u+iτ and v+iτ. Their exponential phases now have the same sign. The derivatives are a−2π sin(2τ)j²exp(2u) and a−2π sin(2τ)k²exp(2v). Check stationary locations before trying integration by parts.
+
+Result: L292 gives the exact factorization and stationary points u=r−log j, v=r−log k. Unequal indices below exp(r) give nonzero polynomial amplitude at interior stationary points, so the whole-sector nonstationarity test fails. The particular box in L291 is nevertheless uniformly nonstationary in u. This distinguishes the failure of a global derivative claim from a failure of cancellation on the obstructing box.
+
+WHY IT FAILS: reflection changes the phase geometry to two same-sign stationary factors, not to a globally monotone phase. A proof must partition around index-dependent stationary points and control the summed errors. No integral error bound at the required scale is established here. NEGATIVE is the assessment for the proposed whole-sector certificate, not a negative Laguerre sign. The next test is a summable bound for mixed-sector stationary neighborhoods; fixed-index estimates alone cannot control indices approaching exp(r). Zero consecutive unresolved exploration turns; no RH candidate.
