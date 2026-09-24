@@ -9,6 +9,7 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import research
 import runner
+from test_loop import portfolio_fixture
 
 
 def report(step, outcome):
@@ -52,7 +53,7 @@ class ResearchTests(unittest.TestCase):
                      retry_at=12345, failures=2, unknowns=1, no_progress=3)
         research.resume(state)
         self.assertNotIn('research_halt', state)
-        self.assertEqual((state['retry_at'], state['failures'], state['unknowns']), (12345, 2, 1))
+        self.assertEqual((state['retry_at'], state['failures'], state['unknowns']), (12345, 2, 0))
         self.assertEqual(state['exploration_turns'], 0)
 
     def test_runner_persists_stop_and_requires_explicit_resume(self):
@@ -62,18 +63,19 @@ class ResearchTests(unittest.TestCase):
             (root / 'history').mkdir()
             for name in ('PROMPT.md', 'GOAL.md', 'PROGRESS.md'):
                 (root / name).write_text('fixture\n')
+            notebook = portfolio_fixture(root)
             calls = []
             def run(*args):
                 calls.append(1)
-                (root / 'PROGRESS.md').write_text(report(str(len(calls)), 'STALLED'))
-                (root / 'history/test.md').write_text('No new mechanism supplied.\n' * len(calls))
+                (notebook / 'PROGRESS.md').write_text(report(str(len(calls)), 'STALLED'))
+                (notebook / 'history/test.md').write_text('No new mechanism supplied.\n' * len(calls))
                 return 'success', None, 0
             with patch.object(runner, 'ROOT', root), patch.object(runner, 'STOP', False), patch.object(runner, 'check', return_value='fake'), patch.object(runner, 'validate'), patch.object(runner, 'run_process', side_effect=run), patch.object(runner, 'wait_until'), patch.object(sys, 'argv', ['runner.py']):
                 self.assertEqual(runner.main(), 2)
                 self.assertEqual(len(calls), 2)
                 state_path = root / 'scripts/loop-codex/state.json'
                 state = json.loads(state_path.read_text())
-                self.assertEqual(state['outcome'], 'research_stalled')
+                self.assertIn('research_halt', state['problems']['riemann'])
                 self.assertEqual(runner.main(), 2)
                 self.assertEqual(len(calls), 2)
                 state['retry_at'] = 9999999999
@@ -81,7 +83,7 @@ class ResearchTests(unittest.TestCase):
                 def interrupt_wait(stamp):
                     self.assertEqual(stamp, 9999999999)
                     runner.STOP = True
-                with patch.object(sys, 'argv', ['runner.py', '--resume-research']), patch.object(runner, 'wait_until', side_effect=interrupt_wait):
+                with patch.object(sys, 'argv', ['runner.py', '--resume-research', 'riemann']), patch.object(runner, 'wait_until', side_effect=interrupt_wait):
                     self.assertEqual(runner.main(), 130)
                 self.assertEqual(len(calls), 2)
 
