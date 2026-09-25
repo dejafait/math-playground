@@ -1,0 +1,201 @@
+{
+  "scope": "Exact finite multiplicity and center-pattern checks; no full-code boundary claim.",
+  "polynomials_enumerated": 7290,
+  "tuple_pairs_checked": 321,
+  "nonexceptional_pair_roots_checked": 1,
+  "center_agreement_patterns_checked": 20977,
+  "positive_denominator_list_checks": 45815,
+  "ordinary_bound_specializations_checked": 41160,
+  "cases": [
+    {
+      "case": "one_exception_scalar",
+      "q": 9,
+      "n": 5,
+      "k": 3,
+      "m": 1,
+      "e": 1,
+      "all_scalar_solutions": 5,
+      "all_solution_tuples": 5,
+      "center_agreement_patterns": 3888,
+      "maximum_list_by_agreement": {
+        "3": 2,
+        "4": 1,
+        "5": 1
+      },
+      "weighted_bound_by_agreement": {
+        "3": 3,
+        "4": 2,
+        "5": 1
+      }
+    },
+    {
+      "case": "two_exceptions_interleaved",
+      "q": 9,
+      "n": 4,
+      "k": 3,
+      "m": 2,
+      "e": 2,
+      "all_scalar_solutions": 5,
+      "all_solution_tuples": 25,
+      "center_agreement_patterns": 16900,
+      "maximum_list_by_agreement": {
+        "3": 2,
+        "4": 1
+      },
+      "weighted_bound_by_agreement": {
+        "3": 3,
+        "4": 1
+      }
+    },
+    {
+      "case": "regular_triple_root",
+      "q": 9,
+      "n": 5,
+      "k": 4,
+      "m": 1,
+      "e": 0,
+      "all_scalar_solutions": 2,
+      "all_solution_tuples": 2,
+      "center_agreement_patterns": 162,
+      "maximum_list_by_agreement": {
+        "4": 1,
+        "5": 1
+      },
+      "weighted_bound_by_agreement": {
+        "4": 1,
+        "5": 1
+      }
+    },
+    {
+      "case": "all_exceptional",
+      "q": 9,
+      "n": 3,
+      "k": 3,
+      "m": 1,
+      "e": 3,
+      "all_scalar_solutions": 5,
+      "all_solution_tuples": 5,
+      "center_agreement_patterns": 27,
+      "maximum_list_by_agreement": {
+        "3": 1
+      },
+      "weighted_bound_by_agreement": {
+        "3": 1
+      }
+    }
+  ],
+  "zero_slack_thresholds": [
+    {
+      "rate": "1/2",
+      "p": 3,
+      "sufficient_exception_fraction": "1/4"
+    },
+    {
+      "rate": "1/4",
+      "p": 5,
+      "sufficient_exception_fraction": "1/16"
+    },
+    {
+      "rate": "1/8",
+      "p": 11,
+      "sufficient_exception_fraction": "3/80"
+    },
+    {
+      "rate": "1/16",
+      "p": 17,
+      "sufficient_exception_fraction": "1/256"
+    }
+  ],
+  "smooth_subspace_parameter_checks": [
+    {
+      "s": 3,
+      "Q": 27,
+      "k": 32,
+      "n": 64,
+      "e": 2,
+      "raw_solution_lower_bound": 9,
+      "filtered_upper_bound": 4
+    },
+    {
+      "s": 5,
+      "Q": 243,
+      "k": 256,
+      "n": 512,
+      "e": 2,
+      "raw_solution_lower_bound": 729,
+      "filtered_upper_bound": 4
+    },
+    {
+      "s": 7,
+      "Q": 2187,
+      "k": 4096,
+      "n": 8192,
+      "e": 2,
+      "raw_solution_lower_bound": 531441,
+      "filtered_upper_bound": 4
+    },
+    {
+      "s": 9,
+      "Q": 19683,
+      "k": 32768,
+      "n": 65536,
+      "e": 2,
+      "raw_solution_lower_bound": 3486784401,
+      "filtered_upper_bound": 4
+    },
+    {
+      "s": 11,
+      "Q": 177147,
+      "k": 262144,
+      "n": 524288,
+      "e": 2,
+      "raw_solution_lower_bound": 205891132094649,
+      "filtered_upper_bound": 4
+    },
+    {
+      "s": 13,
+      "Q": 1594323,
+      "k": 2097152,
+      "n": 4194304,
+      "e": 2,
+      "raw_solution_lower_bound": 109418989131512359209,
+      "filtered_upper_bound": 4
+    },
+    {
+      "s": 15,
+      "Q": 14348907,
+      "k": 16777216,
+      "n": 33554432,
+      "e": 2,
+      "raw_solution_lower_bound": 523347633027360537213511521,
+      "filtered_upper_bound": 4
+    },
+    {
+      "s": 17,
+      "Q": 129140163,
+      "k": 134217728,
+      "n": 268435456,
+      "e": 2,
+      "raw_solution_lower_bound": 22528399544939174411840147874772641,
+      "filtered_upper_bound": 4
+    },
+    {
+      "s": 19,
+      "Q": 1162261467,
+      "k": 2147483648,
+      "n": 4294967296,
+      "e": 2,
+      "raw_solution_lower_bound": 8727963568087712425891397479476727340041449,
+      "filtered_upper_bound": 4
+    },
+    {
+      "s": 21,
+      "Q": 10460353203,
+      "k": 17179869184,
+      "n": 34359738368,
+      "e": 2,
+      "raw_solution_lower_bound": 30432527221704537086371993251530170531786747066637049,
+      "filtered_upper_bound": 4
+    }
+  ]
+}

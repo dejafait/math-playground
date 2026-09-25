@@ -1,0 +1,11 @@
+# 2026-09-24 — Initial source and finite-window descent audit
+
+Step `collatz-2026-09-24-001-finite-window-obstruction` concluded NEGATIVE. The primary source agrees with the universal positive-integer target; [scope and conventions](../foundations/01-target-and-scope.md) and [Tao's density result](../foundations/02-known-results.md) now distinguish the exact claim from known weakenings. The initial notebook had no local mathematical work to duplicate or preserve; unrelated existing changes were left alone.
+
+The [saved audit](../drafts/2026-09-24-finite-window-descent-audit.md) compared three mechanisms and tested only the fixed-window residue-correction certificate. [L001](../lemmas/L001-finite-residue-bounded-window-obstruction.md) refutes it for every q,K,h and every finite cutoff, with a positive potential change at every candidate time instead of the required negative change. The [failed attempt](../ATTEMPTS/001-finite-residue-bounded-window-descent.md) records the precise scope of the stop.
+
+This supplies a useful route exclusion, not progress to a universal convergence bound. A variable-length block comparison is the reason for changing direction: it can wait through an entire long growing run, so L001 does not already decide it. The missing issue remains whether later divisions force enough contraction for every orbit, including exceptional starts. No complete candidate exists. The initial search used one turn and ended with an informative negative; the count of consecutive exploration turns without an advance or negative is zero.
+
+Validation: `python3 scripts/finite-window/check_obstruction.py` passed 3,072 starts and 38,400 transitions, with [exact output](../scripts/finite-window/result.json). The unrestricted result is proved by induction, not inferred from this sample. L001 has no local lemma inputs, and its single DAG row correctly has an empty right side. Mathlib coverage is explicitly not checked.
+
+Documentation validation: `python3 ../scripts/docs/check_structure.py --problem collatz` passed with one node, no edges, complete lemma coverage, valid links, and compact overviews. This checks storage invariants, not the correctness of the mathematical proof.

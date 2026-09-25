@@ -1,0 +1,5 @@
+# Morphism compatibility as an object degree bound
+
+Assessed on 2026-09-26 in the [compatible marked category test](../drafts/2026-09-26-compatible-marked-category-test.md). The tested strengthening of local-marking sufficiency was to impose global localization compatibility on every morphism of the marked category and infer a degree bound for its objects.
+
+WHY IT FAILS: [L005](../lemmas/L005-compatible-marked-categories-and-defect-components.md) imposes precisely that axiom in an ordinary arithmetic line category, yet its object degrees range over all ℝ. The axiom preserves a total marking defect along arrows; it does not force every object into the component of the identity-marked determinant. Only after controlling the component does one obtain its sharp degree bound. This rejects the compatibility axiom by itself as a substitute for the actual marked transport. It is not a counterexample to IUT's realified categories or formal quotient, and neither a global arrow nor this particular component model is required as the only possible numerical comparison mechanism.

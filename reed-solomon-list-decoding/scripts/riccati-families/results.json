@@ -1,0 +1,167 @@
+{
+  "scope": "Finite polynomial identities and exhaustive small solution sets; no list boundary claim.",
+  "exhaustive_cases": 17,
+  "polynomials_enumerated": 35531,
+  "monic_divisors_tested": 4309,
+  "rational_parameters_recovered": 56,
+  "cases": [
+    {
+      "case": "singleton",
+      "q": 3,
+      "k": 3,
+      "solutions": 1
+    },
+    {
+      "case": "two_without_homogeneous",
+      "q": 3,
+      "k": 3,
+      "solutions": 2,
+      "homogeneous_kernel": "zero"
+    },
+    {
+      "case": "two_with_homogeneous",
+      "q": 3,
+      "k": 3,
+      "solutions": 2,
+      "g_degree": 0,
+      "W_degree": 2,
+      "monic_divisors": 3
+    },
+    {
+      "case": "split_additive",
+      "q": 3,
+      "k": 3,
+      "solutions": 5,
+      "g_degree": 6,
+      "W_degree": 6,
+      "monic_divisors": 27
+    },
+    {
+      "case": "singleton",
+      "q": 5,
+      "k": 5,
+      "solutions": 1
+    },
+    {
+      "case": "two_without_homogeneous",
+      "q": 5,
+      "k": 5,
+      "solutions": 2,
+      "homogeneous_kernel": "zero"
+    },
+    {
+      "case": "two_with_homogeneous",
+      "q": 5,
+      "k": 5,
+      "solutions": 2,
+      "g_degree": 0,
+      "W_degree": 2,
+      "monic_divisors": 3
+    },
+    {
+      "case": "split_additive",
+      "q": 5,
+      "k": 5,
+      "solutions": 7,
+      "g_degree": 20,
+      "W_degree": 20,
+      "monic_divisors": 3125
+    },
+    {
+      "case": "empty",
+      "q": 3,
+      "k": 4,
+      "solutions": 0
+    },
+    {
+      "case": "translated",
+      "q": 3,
+      "k": 5,
+      "solutions": 5,
+      "g_degree": 3,
+      "W_degree": 3,
+      "monic_divisors": 8
+    },
+    {
+      "case": "translated",
+      "q": 3,
+      "k": 5,
+      "solutions": 5,
+      "g_degree": 3,
+      "W_degree": 7,
+      "monic_divisors": 24
+    },
+    {
+      "case": "translated",
+      "q": 3,
+      "k": 5,
+      "solutions": 5,
+      "g_degree": 6,
+      "W_degree": 10,
+      "monic_divisors": 75
+    },
+    {
+      "case": "rescaled_unknown",
+      "q": 3,
+      "k": 6,
+      "solutions": 5,
+      "g_degree": 5,
+      "W_degree": 7,
+      "monic_divisors": 36
+    },
+    {
+      "case": "rescaled_unknown",
+      "q": 3,
+      "k": 6,
+      "solutions": 7,
+      "g_degree": 10,
+      "W_degree": 14,
+      "monic_divisors": 225
+    },
+    {
+      "case": "common_factor",
+      "q": 3,
+      "k": 5,
+      "solutions": 5,
+      "g_degree": 6,
+      "W_degree": 6,
+      "monic_divisors": 27
+    },
+    {
+      "case": "degree_nine",
+      "q": 3,
+      "k": 9,
+      "solutions": 15,
+      "g_degree": 18,
+      "W_degree": 18,
+      "monic_divisors": 729
+    },
+    {
+      "case": "extension_field",
+      "q": 9,
+      "k": 3,
+      "solutions": 5,
+      "g_degree": 6,
+      "W_degree": 6,
+      "monic_divisors": 27
+    }
+  ],
+  "subspace_examples": [
+    {
+      "p": 3,
+      "s": 2,
+      "N": 9,
+      "dimension": 1,
+      "distinct_graph_subspace_solutions": 3,
+      "solution_degree": 6
+    },
+    {
+      "p": 3,
+      "s": 4,
+      "N": 81,
+      "dimension": 2,
+      "distinct_graph_subspace_solutions": 81,
+      "solution_degree": 72
+    }
+  ]
+}

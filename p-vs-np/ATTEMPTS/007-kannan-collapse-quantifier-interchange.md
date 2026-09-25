@@ -1,0 +1,5 @@
+# Kannan plus P=NP does not supply a common lower-bound language
+
+Tested 2026-09-25. The proposal was to collapse Kannan's fixed-exponent circuit witnesses into P under P=NP and infer a single NP language outside every polynomial circuit bound.
+
+**WHY IT FAILS.** The theorem chooses the language after the exponent. Under P=NP each witness has its own polynomial-time decider and polynomial circuit upper bound, whose exponent can exceed the lower-bound exponent. [L008](../lemmas/L008-kannan-quantifiers-and-tagged-join.md) gives actual decidable languages in P/poly exhibiting this quantifier pattern. A short tagged join does combine all the lower bounds, but individual memberships do not provide one verifier and one polynomial bound when the tag varies as part of the input. Assuming such a join is in NP would insert the missing mathematical step. This stops the direct inference, not every use of fixed-exponent lower bounds. In particular, quantitative constructions or padding must be judged by their proved full-input resource bounds and retained lower-bound exponents.

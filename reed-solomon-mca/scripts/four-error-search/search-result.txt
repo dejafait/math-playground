@@ -1,0 +1,20 @@
+Command: clang++ -std=c++17 -O3 scripts/four-error-search/search.cpp -o scripts/four-error-search/search && scripts/four-error-search/search
+Seed: 2026092509; bound: 500000 sampled lines; stopped at the first seven-parameter candidate.
+
+trial 1: 2 decodable parameters
+trial 2: 3 decodable parameters
+trial 11: 4 decodable parameters
+trial 869: 6 decodable parameters
+trial 47125: 7 decodable parameters
+a = [0, 0, 0, 0, 15, 13, 0, 0, 0, 13, 0, 0, 0, 0, 3, 0]
+b = [0, 0, 0, 0, 2, 4, 0, 15, 3, 4, 0, 6, 0, 0, 14, 14]
+0: 5 6 10 15
+1: 8 9 12 16
+3: 8 9 12 14
+8: 9 12 14 16
+9: 8 9 14 16
+10: 1 2 4 6
+11: 8 12 14 16
+
+This discovery output does not prove the original MCA event. check.py checks
+all claimed supports independently, without using the syndrome decoder.

@@ -1,0 +1,15 @@
+# 2026-09-25 — Totally real multiplication and the isometry span
+
+STEP_ID: 2026-09-25-hodge-003-real-isometry-span. Outcome: NEGATIVE.
+
+Read the shared rules, local target and checkpoint, entire overview and DAG, and relevant existing proofs and failed-generator attempts. Existing modifications and unfinished artifacts were preserved. The Clay/Deligne rational statement was rechecked. The [saved assessment](../drafts/2026-09-25-real-isometry-span-test.md) records the gap, discriminating dimension test, source scope, and completed reasoning.
+
+[L004](../lemmas/L004-totally-real-isometry-span.md) gives the conditional calculation for a quartic whose full transcendental endomorphism field E is totally real: rational Hodge isometries span only Q id, and closed chains through other projective K3 surfaces do not enlarge that span. The known scalar-isometry fact was found in Huybrechts and proved locally by the faithful action on H^(2,0); no mathematical novelty is claimed. [Buskin's theorem and its precise hypothesis](../foundations/03-buskin-isometry-theorem.md) are now recorded as standard inputs.
+
+The achieved transcendental dimension is 1 versus the required [E:Q]; including divisor products gives rho^2 + 3 versus rho^2 + 2 + [E:Q]. Thus this proposed supply of cycles misses all [E:Q]-1 residual directions when [E:Q] > 1. [Attempt 003](../ATTEMPTS/003-totally-real-isometry-generation.md) preserves the route stop. This is new evidence for the notebook's research decision, not a disproof of the Hodge conjecture or a claim that those directions are nonalgebraic. No particular quartic with a prescribed field was constructed.
+
+The reason for the next direction is a specific source of nonisometric correspondences: van Geemen–Schütt, Proposition 6.2 and Remark 6.3, exhibit an RM family with degree-two rational self-maps. Its action on T and possible generation of Q(sqrt(2)) have not been audited locally. Testing that construction can address the precise missing scalar limitation. The source and qualifications are saved in the assessment; no second mathematical step was performed. Exploration turns used: 0 after this informative negative result.
+
+The mathematical review checked injectivity of the field action on the holomorphic line, the nonzero pairing with its conjugate, the distinction between the full endomorphism field and a real subfield, restriction and extension of rational isometries, and functoriality of closed correspondence chains. L004 uses L003's splitting, exact kernel, and dimensions; the DAG gains only that genuine input. Neither the motivational fourfold reduction nor the Fermat example is a mathematical premise of L004. Mathlib coverage remains not checked.
+
+Validation: `PYTHONDONTWRITEBYTECODE=1 python3 ../scripts/docs/check_structure.py --problem hodge` passed with 5 nodes and 3 edges, valid local links, and compact overviews; `git diff --check -- .` also passed. Bytecode writing was disabled to keep shared infrastructure read-only. The argument is exact and requires no numerical experiment. Structural validation does not verify the mathematics or completeness of its premises.

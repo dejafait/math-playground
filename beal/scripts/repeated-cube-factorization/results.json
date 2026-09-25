@@ -1,0 +1,76 @@
+{
+  "purpose": "Check L003 identities, exceptional valuations, and exact controls; no global exclusion is inferred.",
+  "coprime_pair_range": "1 <= a <= b <= 256",
+  "coprime_pairs": 19948,
+  "factor_gcd_one_pairs": 14969,
+  "factor_gcd_three_pairs": 4979,
+  "largest_sum_3_adic_valuation": 5,
+  "square_exponent_controls_outside_beal": [
+    {
+      "a": 56,
+      "b": 65,
+      "c": 671,
+      "n": 2,
+      "branch_gcd": 1,
+      "u": 11,
+      "v": 61,
+      "discriminant": 81
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "c": 3,
+      "n": 2,
+      "branch_gcd": 3,
+      "u": 1,
+      "v": 1,
+      "discriminant": 1
+    },
+    {
+      "a": 11,
+      "b": 37,
+      "c": 228,
+      "n": 2,
+      "branch_gcd": 3,
+      "u": 4,
+      "v": 19,
+      "discriminant": 676
+    }
+  ],
+  "formal_ramified_allocation_checks": 12,
+  "single_quadratic_factor_controls_not_beal_solutions": [
+    {
+      "a": 62,
+      "b": 149,
+      "sum": 211,
+      "quadratic_factor": 16807,
+      "branch_gcd": 1
+    },
+    {
+      "a": 211,
+      "b": 236,
+      "sum": 447,
+      "quadratic_factor": 50421,
+      "branch_gcd": 3
+    }
+  ],
+  "factor_data_rejected_by_square_condition": [
+    {
+      "branch_gcd": 1,
+      "n": 5,
+      "u": 4,
+      "v": 13,
+      "discriminant": 145532,
+      "floor_square_root": 381
+    },
+    {
+      "branch_gcd": 3,
+      "n": 5,
+      "u": 3,
+      "v": 37,
+      "discriminant": 148235665,
+      "floor_square_root": 12175
+    }
+  ],
+  "status": "passed"
+}

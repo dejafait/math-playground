@@ -1,0 +1,13 @@
+# 2026-09-24 — Residual space after adjoining the diagonal
+
+STEP_ID: 2026-09-24-hodge-002-diagonal-residual. Outcome: NEGATIVE.
+
+Existing local changes, the whole overview and DAG, and the preceding divisor-product failure were inspected and preserved. The Clay/Deligne rational statement was rechecked. The [saved assessment](../drafts/2026-09-24-diagonal-residual-test.md) fixes the gap, exact target, continuation test, and literature scope for this single step.
+
+[L003](../lemmas/L003-diagonal-residual-hodge-endomorphisms.md) computes the requested quotient as End_Hdg(T(S))/Q id and gives primitive representatives. [C003a](../lemmas/C003a-fermat-graph-outside-diagonal-span.md) constructs a nonzero algebraic residual class using the Fermat quartic coordinate automorphism. Thus the enlarged divisor-plus-diagonal span also fails; [Attempt 002](../ATTEMPTS/002-divisors-and-diagonal.md) preserves the reason. The span reaches rho^2 + 3 dimensions, while the required dimension is rho^2 + 2 + dim_Q End_Hdg(T(S)), at least one larger in this example. No exact Fermat endomorphism dimension is asserted.
+
+The main gap remains cycle construction for every primitive Hodge class, not detection of further algebraic examples. On this restricted family the calculation identifies exactly which correspondence actions must be supplied. Buskin's Theorem 1.1 and its CM corollary provide a relevant established mechanism; the reason for the next direction is to test whether its isometry hypothesis reaches the residual endomorphisms under totally real multiplication. The source statement and limitation are preserved in the assessment. No further isometry-span calculation was undertaken in this step. Exploration turns used: 0 after this informative negative result.
+
+The mathematical review checked the nondegenerate rational orthogonal splitting, rational mixed-tensor vanishing, both directions of the tensor/Hodge-endomorphism identification, the exact kernel, the primitive representative, and the inverse graph's pullback convention. L003 genuinely uses L002's quartic cohomology and diagonal action; C003a uses L003's quotient and primitive representative. No dependency arises merely from the motivational comparison with L001. Mathlib coverage remains not checked.
+
+Validation: `PYTHONDONTWRITEBYTECODE=1 python3 ../scripts/docs/check_structure.py --problem hodge` passed with 4 nodes and 2 edges, valid local links, and compact overviews. `git diff --check -- .` also passed. Bytecode writing was disabled to keep shared infrastructure read-only. The exact cohomological and residue calculations require no numerical test; structural validation does not certify their mathematical correctness.

@@ -1,0 +1,123 @@
+{
+  "purpose": "Exact exponent-residue audit; no search for Beal solutions.",
+  "modulus": 372060,
+  "allowed_residues": {
+    "108": [
+      1,
+      7,
+      13,
+      19,
+      25,
+      31,
+      37,
+      55,
+      67,
+      73,
+      85,
+      91,
+      103
+    ],
+    "5": [
+      1,
+      4
+    ],
+    "13": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "53": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "reduced_classes": 89856,
+  "classes_before_theorem_1_with_p_1_mod_3": 44928,
+  "newly_excluded_classes": 30914,
+  "remaining_classes": 14014,
+  "theorem_1_excluded_classes_before_freitas": 56438,
+  "original_modulus": 4464720,
+  "original_theorem_1_class_count": 677256,
+  "controls": [
+    {
+      "prime_exponent": 1000000009,
+      "residues_mod_108_5_13_53": [
+        37,
+        4,
+        8,
+        37
+      ],
+      "theorem_1_clauses": [],
+      "survives_exponent_tests": true
+    },
+    {
+      "prime_exponent": 1000000021,
+      "residues_mod_108_5_13_53": [
+        49,
+        1,
+        7,
+        49
+      ],
+      "theorem_1_clauses": [
+        "IV"
+      ],
+      "survives_exponent_tests": false
+    }
+  ],
+  "qualification": "Theorem 1's proof and number-field computations were not rerun."
+}

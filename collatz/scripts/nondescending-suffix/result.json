@@ -1,0 +1,117 @@
+{
+  "result": "PASS",
+  "scope": "Exact-arithmetic screening of all word classes through depth six; no endpoint cutoff, no all-depth rigidity or convergence claim.",
+  "alphabet": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "depths": [
+    {
+      "depth": 1,
+      "words_considered": 4,
+      "nonempty_nondescending_word_classes": 2,
+      "nonempty_classes_with_finite_upper_bound": 0,
+      "rejections": {
+        "empty_interval_on_endpoint_class": 2
+      },
+      "compatible_pairs": 1,
+      "compatible_pairs_with_distinct_suffixes": 0
+    },
+    {
+      "depth": 2,
+      "words_considered": 16,
+      "nonempty_nondescending_word_classes": 5,
+      "nonempty_classes_with_finite_upper_bound": 0,
+      "rejections": {
+        "empty_interval_on_endpoint_class": 11
+      },
+      "compatible_pairs": 2,
+      "compatible_pairs_with_distinct_suffixes": 0
+    },
+    {
+      "depth": 3,
+      "words_considered": 64,
+      "nonempty_nondescending_word_classes": 14,
+      "nonempty_classes_with_finite_upper_bound": 0,
+      "rejections": {
+        "empty_interval_on_endpoint_class": 50
+      },
+      "compatible_pairs": 5,
+      "compatible_pairs_with_distinct_suffixes": 0
+    },
+    {
+      "depth": 4,
+      "words_considered": 256,
+      "nonempty_nondescending_word_classes": 45,
+      "nonempty_classes_with_finite_upper_bound": 0,
+      "rejections": {
+        "empty_interval_on_endpoint_class": 211
+      },
+      "compatible_pairs": 16,
+      "compatible_pairs_with_distinct_suffixes": 0
+    },
+    {
+      "depth": 5,
+      "words_considered": 1024,
+      "nonempty_nondescending_word_classes": 141,
+      "nonempty_classes_with_finite_upper_bound": 0,
+      "rejections": {
+        "empty_interval_on_endpoint_class": 883
+      },
+      "compatible_pairs": 49,
+      "compatible_pairs_with_distinct_suffixes": 0
+    },
+    {
+      "depth": 6,
+      "words_considered": 4096,
+      "nonempty_nondescending_word_classes": 488,
+      "nonempty_classes_with_finite_upper_bound": 0,
+      "rejections": {
+        "empty_interval_on_endpoint_class": 3608
+      },
+      "compatible_pairs": 167,
+      "compatible_pairs_with_distinct_suffixes": 0
+    }
+  ],
+  "words_considered_total": 5460,
+  "first_merge_tail_family_realizations_checked": 10,
+  "depth_three_comparison_histories": [
+    [
+      973,
+      365,
+      137,
+      103
+    ],
+    [
+      71,
+      121,
+      91,
+      103
+    ]
+  ],
+  "class_realizations_checked_by_shortcut_iteration": 2780,
+  "excluded_class_boundary_points_checked": 0,
+  "compatible_pair_realizations_checked": 480,
+  "admitted_first_block_type_counts": {
+    "(2, 1)": 240,
+    "(3, 1)": 455
+  },
+  "independent_forward_scan_max_start": 100001,
+  "independent_forward_scan_odd_starts": 50001,
+  "independent_forward_prefixes_checked": 62299,
+  "distinct_suffix_violations": []
+}
