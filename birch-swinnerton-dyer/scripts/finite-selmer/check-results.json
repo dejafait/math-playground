@@ -1,0 +1,72 @@
+{
+  "scope": "Abstract finite groups only; no elliptic-curve realization asserted",
+  "result": "PASS",
+  "cases": [
+    {
+      "p": 2,
+      "observation_depth": 1,
+      "sha_model_exponent": 2,
+      "sha_model_order": 16,
+      "common_observed_orders": [
+        4
+      ],
+      "rank_parameters": [
+        2,
+        0
+      ],
+      "restricted_pairing_and_addition_checks": 16,
+      "downward_transition_checks": 0,
+      "upward_transition_checks": 0
+    },
+    {
+      "p": 2,
+      "observation_depth": 2,
+      "sha_model_exponent": 4,
+      "sha_model_order": 256,
+      "common_observed_orders": [
+        4,
+        16
+      ],
+      "rank_parameters": [
+        2,
+        0
+      ],
+      "restricted_pairing_and_addition_checks": 272,
+      "downward_transition_checks": 16,
+      "upward_transition_checks": 4
+    },
+    {
+      "p": 3,
+      "observation_depth": 1,
+      "sha_model_exponent": 2,
+      "sha_model_order": 81,
+      "common_observed_orders": [
+        9
+      ],
+      "rank_parameters": [
+        2,
+        0
+      ],
+      "restricted_pairing_and_addition_checks": 81,
+      "downward_transition_checks": 0,
+      "upward_transition_checks": 0
+    },
+    {
+      "p": 3,
+      "observation_depth": 2,
+      "sha_model_exponent": 4,
+      "sha_model_order": 6561,
+      "common_observed_orders": [
+        9,
+        81
+      ],
+      "rank_parameters": [
+        2,
+        0
+      ],
+      "restricted_pairing_and_addition_checks": 6642,
+      "downward_transition_checks": 81,
+      "upward_transition_checks": 9
+    }
+  ]
+}

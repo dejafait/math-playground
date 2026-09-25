@@ -1,0 +1,92 @@
+{
+  "result": "PASS",
+  "scope": "Finite sanity checks only; L002 contains the unrestricted proof.",
+  "grid": {
+    "a_range": [
+      1,
+      64
+    ],
+    "odd_u_range": [
+      1,
+      511
+    ],
+    "starts_checked": 16384,
+    "endpoint_counts": {
+      "below_start": 732,
+      "equal_to_start": 1,
+      "above_start": 15651
+    }
+  },
+  "prescribed_run_lengths": {
+    "a_range": [
+      1,
+      32
+    ],
+    "b_range": [
+      1,
+      32
+    ],
+    "t_values": [
+      0,
+      1,
+      2,
+      17
+    ],
+    "starts_checked": 4096
+  },
+  "explicit_growth_family": {
+    "starts_checked": 1002
+  },
+  "shortcut_transitions_checked": 703428,
+  "examples": [
+    {
+      "start": 1,
+      "a": 1,
+      "b": 1,
+      "endpoint": 1,
+      "minimum_after_start_in_block": 1
+    },
+    {
+      "start": 3,
+      "a": 2,
+      "b": 3,
+      "endpoint": 1,
+      "minimum_after_start_in_block": 1
+    },
+    {
+      "start": 7,
+      "a": 3,
+      "b": 1,
+      "endpoint": 13,
+      "minimum_after_start_in_block": 11
+    },
+    {
+      "start": 11,
+      "a": 2,
+      "b": 1,
+      "endpoint": 13,
+      "minimum_after_start_in_block": 13
+    },
+    {
+      "start": 15,
+      "a": 4,
+      "b": 4,
+      "endpoint": 5,
+      "minimum_after_start_in_block": 5
+    },
+    {
+      "start": 27,
+      "a": 2,
+      "b": 1,
+      "endpoint": 31,
+      "minimum_after_start_in_block": 31
+    },
+    {
+      "start": 31,
+      "a": 5,
+      "b": 1,
+      "endpoint": 121,
+      "minimum_after_start_in_block": 47
+    }
+  ]
+}

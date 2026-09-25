@@ -1,0 +1,36 @@
+{
+  "algebra_checks": {
+    "primes": [5, 7, 11, 13, 19, 31],
+    "r_values": [-25, -23, -21, -19, -17, -15, -13, -11, -9, -7, -5, -3, -1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25],
+    "absolute_t_rule": "odd 1..39, p, p^2, 3p, 3^(p-2), 3^(2p-2), 3^(p-2)*p^(p-1)",
+    "coprime_cases": 4708,
+    "cases_with_p_dividing_t": 816,
+    "negative_t_cases": 2354,
+    "norm_congruent_to_1_modulo_12": 2332,
+    "cases_with_3_valuation_at_least_p_minus_2": 624
+  },
+  "controls": {
+    "isolated_factor": {
+      "p": 5,
+      "r": 5,
+      "t": 1,
+      "v": 7,
+      "U_p": 149,
+      "T_p": -25,
+      "a": 211,
+      "b": 236,
+      "coefficient_condition_satisfied": false
+    },
+    "exceptional_common_factor": {
+      "p": 5,
+      "r": 1,
+      "t": 5,
+      "v": 19,
+      "U_p": 305,
+      "T_p": 1711
+    }
+  },
+  "unit_power_maps_checked": [5, 7, 11, 13, 19, 31],
+  "result": "PASS",
+  "scope": "Exact bounded checks of identities and valuations; no full-system solution or exclusion."
+}

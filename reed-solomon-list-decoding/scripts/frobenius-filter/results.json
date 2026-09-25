@@ -1,0 +1,133 @@
+{
+  "scope": "Exact arithmetic only; the symbolic proof is in L007.",
+  "n_values": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "tested_primes": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "rate_table": [
+    {
+      "rate": "1/2",
+      "least_prime_for_constant_zero_slack_bound": 3,
+      "uniform_list_upper_bound": 3,
+      "remaining_primes": [],
+      "remaining_prime_slack_cutoff": "1/sqrt(2*p) - 1/2"
+    },
+    {
+      "rate": "1/4",
+      "least_prime_for_constant_zero_slack_bound": 5,
+      "uniform_list_upper_bound": 15,
+      "remaining_primes": [
+        3
+      ],
+      "remaining_prime_slack_cutoff": "1/sqrt(4*p) - 1/4"
+    },
+    {
+      "rate": "1/8",
+      "least_prime_for_constant_zero_slack_bound": 11,
+      "uniform_list_upper_bound": 26,
+      "remaining_primes": [
+        3,
+        5,
+        7
+      ],
+      "remaining_prime_slack_cutoff": "1/sqrt(8*p) - 1/8"
+    },
+    {
+      "rate": "1/16",
+      "least_prime_for_constant_zero_slack_bound": 17,
+      "uniform_list_upper_bound": 255,
+      "remaining_primes": [
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "remaining_prime_slack_cutoff": "1/sqrt(16*p) - 1/16"
+    }
+  ],
+  "cutoff_checks": 252,
+  "zero_slack_strict_bound_checks": 171,
+  "critical_slack_rounding_checks": 81,
+  "negative_denominator_examples": [
+    {
+      "n": 4096,
+      "rate": "1/4",
+      "p": 3,
+      "zero_slack_denominator": -348160
+    },
+    {
+      "n": 4096,
+      "rate": "1/8",
+      "p": 3,
+      "zero_slack_denominator": -434176
+    },
+    {
+      "n": 4096,
+      "rate": "1/8",
+      "p": 5,
+      "zero_slack_denominator": -155648
+    },
+    {
+      "n": 4096,
+      "rate": "1/8",
+      "p": 7,
+      "zero_slack_denominator": -36864
+    },
+    {
+      "n": 4096,
+      "rate": "1/16",
+      "p": 3,
+      "zero_slack_denominator": -282624
+    },
+    {
+      "n": 4096,
+      "rate": "1/16",
+      "p": 5,
+      "zero_slack_denominator": -143360
+    },
+    {
+      "n": 4096,
+      "rate": "1/16",
+      "p": 7,
+      "zero_slack_denominator": -81920
+    },
+    {
+      "n": 4096,
+      "rate": "1/16",
+      "p": 11,
+      "zero_slack_denominator": -28672
+    },
+    {
+      "n": 4096,
+      "rate": "1/16",
+      "p": 13,
+      "zero_slack_denominator": -12288
+    }
+  ],
+  "smooth_finite_example": {
+    "p": 3,
+    "q": 81,
+    "n": 16,
+    "k": 4,
+    "h": 1,
+    "denominator_at_A_4": 0,
+    "list_upper_bound_at_A_5": 7
+  }
+}

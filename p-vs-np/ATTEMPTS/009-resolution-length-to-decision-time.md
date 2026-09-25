@@ -1,0 +1,5 @@
+# Resolution length as an unrestricted SAT time lower bound
+
+Tested 2026-09-25. The proposed inference would use a superpolynomial resolution refutation bound to rule out polynomial-time decision on the same formulas, by converting rejecting computations to resolution proofs with polynomial overhead.
+
+**WHY IT FAILS.** [L010](../lemmas/L010-tseitin-resolution-versus-decision.md) gives Tseitin CNFs of binary length N requiring 2^(Ω(N/log N)) lines in general resolution, yet one total SAT decider recognizes their parity blocks and solves them by Gaussian elimination in polynomial time, for both charge parities. It falls back to exhaustive search elsewhere. Thus the proposed instancewise simulation fails even when its polynomial may depend on the decider. The obstruction concerns ordinary resolution without extension axioms; it neither excludes all possible global consequences of SAT∈P nor supplies lower bounds for stronger proof systems. Any such system needs its own justified connection to unrestricted decision before its proof-length bounds can address the main target.
