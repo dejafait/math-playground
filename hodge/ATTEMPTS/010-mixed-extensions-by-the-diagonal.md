@@ -1,0 +1,7 @@
+# Attempt 010 — Mixed extensions by the diagonal
+
+Date: 2026-09-26. Outcome: stopped for the transverse NS-fixed RM direction.
+
+The tested representatives are all middle sheaves of 0 -> O_Delta -> F -> O_C -> 0, including nonsplit extensions and with no requirement to preserve the filtration when deforming. Their ch_2 equals [C]+[Delta] and acts as U+id. The proposed mechanism was cancellation through mixed Ext classes, beyond the embedded-union calculation. The full proof is [L013](../lemmas/L013-mixed-diagonal-extensions-retain-cubic-obstruction.md).
+
+**WHY IT FAILS.** The extension space is C^2, with one constant coordinate on each elliptic double curve and no contribution at the isolated points. A nonzero local class makes F cyclic, while a zero class is split. A flat lift in either case yields a diagonal displacement with at most simple base-direction poles: in the split case this follows from the self-extension blocks without splitting the lifted sheaf. The 21 nodal fibres force the displacement to vanish. Cyclic residuals and split self-extension blocks recover compatible flat lifts of C away from its three double points; the existing normal-sheaf Hartogs property fills them. Conversely every extension lifts along the Dickson family. Thus every such sheaf has exactly the three-dimensional kernel V_D, against four required. This does not obstruct arbitrary sheaves carrying the same action or a union of two different non-scalar correspondence supports.

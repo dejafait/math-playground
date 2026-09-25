@@ -1,0 +1,23 @@
+# 2026-09-25 — Local translation normalization test
+
+## Preflight and saved reasoning
+
+Read the shared GOAL.md and PROMPT.md, local GOAL.md and PROGRESS.md, the complete PROOF.md overview and DAG, and the relevant bulk-mixing proof, source record, and three failed attempts. Inspected the existing changes and retained them. The Jaffe–Witten primary statement was reopened; the recorded existence and finite-positive-mass target is unchanged.
+
+Gap: L006 leaves the SU(2) site-centered diagonal-traceless triplet's matching coefficient undetermined. A positive Gaussian coefficient does not normalize the interacting insertion. The proposed intermediate target is an explicit local translation Ward normalization condition in the fixed box, with its boundary contribution and other stress-tensor channels retained.
+
+Plausible downstream use: if the condition isolates a nonzero response multiplying only the triplet coefficient, it could normalize the observable needed for the reflected comparison. If it necessarily introduces another unknown response, that identifies additional matching data to seek. Even a successful condition would leave its cutoff-uniform solvability, contact renormalization, the coupling trajectory, the interacting reflection error, construction axioms, and the infrared mass estimate unresolved. The actual reflection threshold is still an error at most c_box/2; deriving a Ward identity is not that estimate.
+
+Discriminating test: compare an affine diagonal traceless deformation with its compactly supported localization. Derive the strain contraction against the full symmetric stress tensor, including surface and localization terms. Test whether a nonzero smooth compactly supported deformation can have purely diagonal strain, and whether removing the trace contribution suffices to close a one-coefficient condition. Account separately for the exact finite-lattice change-of-variables identity and the unproved identification of its breaking term with a renormalized stress tensor.
+
+This is distinct from the stopped beta=0 construction, unsupported positivity import, and scalar-only renormalization. L006 classifies mixing of a chosen triplet insertion; it does not classify every component appearing in a translation Ward identity. No earlier lemma proves a local normalization condition. Zero inconclusive exploration turns are carried into this test.
+
+Working observations saved before the detailed calculation: an affine traceless diagonal displacement has the desired strain but moves the fixed boundary. Multiplying it by a bump produces off-diagonal strain in the transition region and generally a nonzero divergence. A divergence-free localization may remove the singlet, but whether it can remove the shear as well requires proof. No interacting Ward identity or finiteness assertion is assumed as an established result.
+
+## Completed assessment
+
+[L007](../lemmas/L007-local-translation-normalization-obstruction.md) proves the exact obstruction: zero off-diagonal strain forces every compactly supported displacement to vanish in four dimensions. An antisymmetric-potential construction localizes the desired affine strain with zero divergence, but its nonzero shear survives in the transition region. The proof also retains the affine surface flux and shows by a classical boundary field that the fixed tangential boundary condition does not annihilate it.
+
+The finite-lattice Haar identity is exact, with the divergence of a field-dependent link variation retained. Decomposing its insertion into triplet and shear terms leaves a residual; defining that residual does not prove it small. Consequently the proposed normalization condition is not closed by L006's multiplicity-one result. A special probe might cancel shear, or several probes might determine both coefficients; the geometric argument does not exclude these possibilities. The [source qualification](../foundations/05-lattice-stress-tensor-matching.md#local-translation-identities) also distinguishes a normalized translation generator and the additional assumption of continuum symmetry restoration.
+
+Decision: NEGATIVE. The newly proved obstruction stops the operator-level triplet-only projection and motivates a response-rank test for joint normalization. No second unproductive turn or renewed exploration budget is being claimed: this turn produced informative negative evidence. The achieved results are identities and an obstruction, with no quantitative bound on the interacting reflection error; the required threshold remains c_box/2. Full existence and finite positive mass remain unresolved, and there is no complete candidate.

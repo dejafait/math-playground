@@ -1,0 +1,17 @@
+# 2026-09-25 — Exact repeated-cube factorization and its remaining constraint
+
+STEP_ID: beal-2026-09-25-003-repeated-cube-factorization
+
+All prior changes were preserved. The selected step addressed the checkpoint's residual (3,3,p) family, using integer factorization rather than repeating the stopped unrestricted-congruence test. The gap, relevance test, saved unfinished reasoning, and bounded source check are in [the draft](../drafts/2026-09-25-repeated-cube-factorization.md).
+
+[L003](../lemmas/L003-repeated-cube-factorization.md) establishes the exact gcd-one and gcd-three perfect-power splits, including v_3(a^2-ab+b^2)=1 in the second case and the permitted divisibility of u by 3. Its discriminant formulation has a full converse with positivity, parity, and primitivity proved. The proof works for n>=2; the n=2 examples are boundary controls, not Beal solutions. Prime support and size restrictions are also proved, without claiming a height bound.
+
+The proposed quadratic-factor-only exclusion fails on two explicit coprime pairs at p=5, as recorded in [Attempt 002](../ATTEMPTS/002-repeated-cube-single-factor-exclusion.md). Both fail the other factor condition. Two further formal factor pairs satisfy the size and prime-support constraints but fail the discriminant-square condition. The achieved intervals have width proportional to u^2 for fixed p. Thus the required zero-solution threshold is not reached, and neither complete branch is excluded.
+
+The effect on the main gap is a rigorous intermediate reduction for one residual family; no new whole-signature exclusion or complete candidate is claimed. Outcome: ADVANCE, with 0/3 exploration turns outstanding. The elementary normalization is complete and the single-factor shortcut is stopped. The reason for the subsequent source direction is that [Freitas's primary abstract](https://arxiv.org/abs/1601.06361) announces a global exclusion when -3 is nonsquare modulo p, which could close cases that the factorization alone leaves unresolved. Its precise theorem hypotheses and exponent range have not yet been audited or used as premises.
+
+Mauldin's primary target page was reread and agreed with the existing formulation; the nominated AMS endpoint again failed retrieval. The gcd observation was also located in Bennett–Mihailescu–Siksek's exposition, so no literature novelty is claimed. Full Mathlib coverage remains not checked.
+
+`python3 scripts/repeated-cube-factorization/check_factorization.py` passed 19,948 coprime-pair checks, three genuine square-exponent controls, twelve formal ramified allocation cases, and the four discriminating controls. Exact output is in [results.json](../scripts/repeated-cube-factorization/results.json). These checks exercise the proof and do not establish global nonexistence. L003 has no earlier local lemma as a mathematical input: its elementary proof includes the primitivity argument. The earlier branches remain in the DAG unchanged.
+
+The informal review checked every prime allocation, the exact exceptional valuation, both reconstruction directions, the base-one and square-exponent boundaries, the prime-order argument, and the direction of every size inequality. `python3 ../scripts/docs/check_structure.py --problem beal` passed with four nodes and one edge; links, file coverage, acyclicity, and overview lengths passed. `git diff --check -- .` also passed. These storage checks are distinct from the mathematical review and exact-arithmetic controls.

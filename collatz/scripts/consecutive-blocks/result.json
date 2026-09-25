@@ -1,0 +1,100 @@
+{
+  "result": "PASS",
+  "scope": "Finite arithmetic checks only; L003 contains the unrestricted proof.",
+  "residue_periods": [
+    {
+      "K": 1,
+      "modulus": 16,
+      "matching_start_in_period": 11
+    },
+    {
+      "K": 2,
+      "modulus": 128,
+      "matching_start_in_period": 123
+    },
+    {
+      "K": 3,
+      "modulus": 1024,
+      "matching_start_in_period": 1019
+    },
+    {
+      "K": 4,
+      "modulus": 8192,
+      "matching_start_in_period": 8187
+    },
+    {
+      "K": 5,
+      "modulus": 65536,
+      "matching_start_in_period": 65531
+    }
+  ],
+  "odd_starts_in_residue_periods_checked": 37448,
+  "parameterized_witnesses": {
+    "K_range": [
+      1,
+      32
+    ],
+    "q_range": [
+      1,
+      16
+    ],
+    "t_values": [
+      1,
+      2,
+      3,
+      17
+    ],
+    "starts_checked": 2048
+  },
+  "shortcut_transitions_checked": 384036,
+  "examples": [
+    {
+      "K": 1,
+      "endpoints": [
+        11,
+        13
+      ]
+    },
+    {
+      "K": 2,
+      "endpoints": [
+        123,
+        139,
+        157
+      ]
+    },
+    {
+      "K": 3,
+      "endpoints": [
+        1019,
+        1147,
+        1291,
+        1453
+      ]
+    },
+    {
+      "K": 4,
+      "endpoints": [
+        8187,
+        9211,
+        10363,
+        11659,
+        13117
+      ]
+    },
+    {
+      "K": 8,
+      "endpoints": [
+        33554427,
+        37748731,
+        42467323,
+        47775739,
+        53747707,
+        60466171,
+        68024443,
+        76527499,
+        86093437
+      ]
+    }
+  ]
+}
