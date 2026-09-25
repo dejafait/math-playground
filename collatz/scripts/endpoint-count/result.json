@@ -1,0 +1,65 @@
+{
+  "result": "PASS",
+  "scope": "Finite exact classes and counts only; no eventual-vanishing claim.",
+  "maximum_class_depth": 10,
+  "class_representatives_checked": 2046,
+  "disjoint_class_pairs_checked": 174251,
+  "direct_forward_starts_checked": 183960,
+  "complete_periods": [
+    {
+      "K": 1,
+      "common_period": 18,
+      "class_count": 1,
+      "endpoint_residues": 1,
+      "minimum_endpoint": 13,
+      "density": "1/18",
+      "integer_cutoff_error_minimum": "-2/3",
+      "integer_cutoff_error_maximum": "5/18"
+    },
+    {
+      "K": 2,
+      "common_period": 486,
+      "class_count": 2,
+      "endpoint_residues": 4,
+      "minimum_endpoint": 157,
+      "density": "2/243",
+      "integer_cutoff_error_minimum": "-104/81",
+      "integer_cutoff_error_maximum": "136/243"
+    },
+    {
+      "K": 3,
+      "common_period": 13122,
+      "class_count": 4,
+      "endpoint_residues": 16,
+      "minimum_endpoint": 1291,
+      "density": "8/6561",
+      "integer_cutoff_error_minimum": "-3440/2187",
+      "integer_cutoff_error_maximum": "10993/6561"
+    },
+    {
+      "K": 4,
+      "common_period": 354294,
+      "class_count": 8,
+      "endpoint_residues": 64,
+      "minimum_endpoint": 1453,
+      "density": "32/177147",
+      "integer_cutoff_error_minimum": "-111446/59049",
+      "integer_cutoff_error_maximum": "386530/177147"
+    }
+  ],
+  "boundary_witness": {
+    "N": 175,
+    "K": 4,
+    "path": [
+      603,
+      679,
+      1147,
+      1291,
+      1453
+    ],
+    "cutoff": "23914845/16384",
+    "density_contribution": "135/512",
+    "actual_endpoint_count": 1,
+    "boundary_error": "377/512"
+  }
+}

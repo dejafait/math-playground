@@ -1,0 +1,115 @@
+{
+  "result": "PASS",
+  "scope": "Finite arithmetic checks only; L006 proves the unrestricted obstruction.",
+  "domain_check": {
+    "odd_starts_checked": 1024,
+    "matching_allowed_blocks": 192,
+    "range": "1 <= n < 2048"
+  },
+  "witness_check": {
+    "s_values": "0..255 and 2^k for k=16,32,64,128,256",
+    "parameters_checked": 261,
+    "block_paths_checked": 261,
+    "valuation_return": "(5,2), (2,6), (5,2)"
+  },
+  "shortcut_transitions_checked": 5924,
+  "potential_sign_check": "Exact cancellation for every F; ratio >= 93/49 > 1.",
+  "examples": [
+    {
+      "s": 0,
+      "block_endpoints": [
+        4699,
+        5287,
+        8923
+      ],
+      "shortcut_states_after_start": [
+        7049,
+        10574,
+        5287,
+        7931,
+        11897,
+        17846,
+        8923
+      ],
+      "valuation_pairs": [
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "shifted_size_ratio": "93/49"
+    },
+    {
+      "s": 1,
+      "block_endpoints": [
+        12891,
+        14503,
+        24475
+      ],
+      "shortcut_states_after_start": [
+        19337,
+        29006,
+        14503,
+        21755,
+        32633,
+        48950,
+        24475
+      ],
+      "valuation_pairs": [
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "shifted_size_ratio": "765/403"
+    },
+    {
+      "s": 2,
+      "block_endpoints": [
+        21083,
+        23719,
+        40027
+      ],
+      "shortcut_states_after_start": [
+        31625,
+        47438,
+        23719,
+        35579,
+        53369,
+        80054,
+        40027
+      ],
+      "valuation_pairs": [
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "shifted_size_ratio": "1251/659"
+    }
+  ]
+}

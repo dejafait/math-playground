@@ -1,0 +1,9 @@
+# 2026-09-25 — Comparison degree audit
+
+The [audit](../drafts/2026-09-25-comparison-degree-audit.md) traced the actual cited comparison path and isolated the determinant normalization test. [L002](../lemmas/L002-comparison-composite-and-normalized-determinant.md) proves a categorical cancellation and a conditional finite-packet reference-volume formula. A common determinant tensor power cancels; a transported reference can still contribute a volume defect. The [restricted determinant-power objection](../ATTEMPTS/002-uncompensated-determinant-power.md) was stopped.
+
+This supplies no bound for the actual B and no contradiction under the complete IUT hypotheses. The finite linear realization, full permitted image family, and input-degree membership remain unchecked. Since the source already accounts for the common normalization, the step is conservatively EXPLORATION, not an original IUT-specific negative result or an advance. Exploration usage is 2/3 without resetting the prior turn.
+
+The scalar audit has used two turns without closing its transfer gap. The quotient-lifting mechanism was selected over attempting a full indeterminacy-orbit construction because it has a bounded test at the exact membership inference. The next exploration assessment must finish within the third turn. No full candidate was found, and STATUS remains IN_PROGRESS.
+
+Existing unfinished work was preserved. The only new DAG node is L002, with no lemma inputs: L001 motivates the audit but is not used in its proof. The mathematical checks were typed composition, lattice indices, determinant multiplicativity, and the exact common-scalar normalization. Review made both lattice-index directions explicit to check the sign. `python3 ../scripts/docs/check_structure.py --problem iut-challenge` passed: 2 nodes, 0 edges, valid links and compact overviews. `git diff --check -- .` also passed. These checks do not verify IUT or its application hypotheses.

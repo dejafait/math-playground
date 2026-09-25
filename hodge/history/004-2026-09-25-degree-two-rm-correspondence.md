@@ -1,0 +1,15 @@
+# 2026-09-25 — A degree-two graph fills the quadratic RM direction
+
+STEP_ID: 2026-09-25-hodge-004-degree-two-rm-correspondence. Outcome: ADVANCE.
+
+Preserved the existing changes and inactive branches. Read the required rules, full overview, DAG, and relevant proofs and failed approaches before testing the recorded degree-two construction. The [saved assessment](../drafts/2026-09-25-degree-two-rm-correspondence.md) records the gap, dimension test, initial unfinished reasoning, and completed decision. The Clay/Deligne rational target was rechecked.
+
+[L005](../lemmas/L005-degree-two-rm-correspondence.md) realizes the full field Q(sqrt(2)) by the identity and a nonisometric graph for a very general member of the [published elliptic K3 family](../foundations/04-degree-two-rm-family.md). The entire cycle span reaches the required dimension 104, improving the divisor-plus-diagonal value 103. This settles that restricted codimension-two case; arbitrary K3 self-products, arbitrary fourfolds, and higher dimensions remain unresolved. The family construction is known, and no novelty or universal resolution is claimed.
+
+The source audit found that the displayed coordinate scaling in section 6.4 works in the reverse direction for section 6.1's equations. L005 uses its inverse and proves the corrected map, degree, graph convention, and cohomological action. The [exact coefficient checker](../scripts/rm-degree-two/check_normalization.py) confirms both the failed stated direction and the corrected normalization. This repairs a concrete mathematical issue rather than silently relying on the display.
+
+Critical review checked that the surfaces need not be quartics, rational-map exceptions vanish from the pullback of T, graph and transpose both induce U, and the full-field hypothesis is retained. The equation U^2 = 2 id comes from the faithful field action on H^(2,0); the pairing scales by two on T. Algebraic graph classes have rational cycle coefficients despite the coordinate sqrt(2). The DAG gains only L005's genuine use of L003; L004 is motivational, not an input. Mathlib coverage remains not checked.
+
+The test passes for this family, so the quadratic graph construction is complete at the chosen scope. The isometry-only stop remains valid. The reason for the next direction is to test a concrete algebraic generator for a field of degree greater than two, using the dihedral-cover construction indicated in the same paper. No second construction was investigated here. Exploration turns used: 0 after this relevant mathematical advance. STATUS remains IN_PROGRESS; there is no complete candidate for the exact local target.
+
+Validation: `python3 scripts/rm-degree-two/check_normalization.py` passed its exact rational coefficient and multiplier checks. `PYTHONDONTWRITEBYTECODE=1 python3 ../scripts/docs/check_structure.py --problem hodge` passed with 6 nodes and 4 edges, and `git diff --check -- .` passed. Bytecode writing was disabled for the shared checker to keep shared infrastructure read-only. These computational and structural checks support the written review; they do not certify the Hodge-theoretic argument.
