@@ -8,6 +8,7 @@ from unittest.mock import patch
 import runner
 from portfolio import registry, migrate, choose
 from test_research import report
+from test_loop import review_fixture
 
 
 class PortfolioTests(unittest.TestCase):
@@ -19,6 +20,7 @@ class PortfolioTests(unittest.TestCase):
         for slug in self.ids:
             d = self.root / slug
             d.mkdir()
+            review_fixture(d)
             (d / 'history').mkdir()
             for name in ('GOAL.md', 'PROOF.md', 'DAG.md'):
                 (d / name).write_text('fixture')

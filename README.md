@@ -23,7 +23,7 @@ Install Python 3.9+ and the [Codex CLI](https://developers.openai.com/codex/cli)
 bash loop-codex.sh
 ```
 
-The loop visits enabled notebooks in the order in [the registry](scripts/loop/problems.json), one fresh session and coherent step each. Ten active notebooks receive equal turns, not guaranteed equal tokens or time. Each session runs from its problem directory; mathematical reproduction commands are relative to that directory. Shared loop and validation scripts stay at the root.
+The loop visits enabled notebooks in the order in [the registry](scripts/loop/problems.json), one fresh session and coherent step each. Ten active notebooks receive equal turns, not guaranteed equal tokens or time. New research targets first require a saved literature assessment; missing or blocked evidence restricts the next turn to source review. Recaps distinguish known imports, reproductions and potentially new results. Each session runs from its problem directory; mathematical reproduction commands are relative to that directory. Shared loop and validation scripts stay at the root.
 
 The scheduler persists its position. Research halts apply to one notebook; quota cooldowns apply globally and survive restart. Resolved, disabled and halted notebooks are skipped. If none remain eligible, the loop exits. Ctrl+C stops the active process and preserves files. The computer and terminal session must remain running for automatic retries.
 

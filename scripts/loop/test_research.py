@@ -13,7 +13,7 @@ from test_loop import portfolio_fixture
 
 
 def report(step, outcome):
-    return f'STATUS: IN_PROGRESS\nSTEP_ID: {step}\nSTEP_OUTCOME: {outcome}\nSTEP_EVIDENCE: Tested mechanism; history/test.md\nNext action: test\n'
+    return f'STATUS: IN_PROGRESS\nSTEP_ID: {step}\nSTEP_OUTCOME: {outcome}\nSTEP_EVIDENCE: Tested mechanism; history/test.md\nSTEP_KIND: LITERATURE\nSTEP_CLASSIFICATION: NOVELTY_UNCHECKED\nSTEP_REVIEW: drafts/literature/test.md\nNEXT_REVIEW: drafts/literature/test.md\nNext action: test\n'
 
 
 class ResearchTests(unittest.TestCase):
@@ -62,7 +62,7 @@ class ResearchTests(unittest.TestCase):
             (root / 'scripts/loop').mkdir(parents=True)
             (root / 'history').mkdir()
             for name in ('PROMPT.md', 'GOAL.md', 'PROGRESS.md'):
-                (root / name).write_text('fixture\n')
+                (root / name).write_text(report('initial', 'EXPLORATION') if name == 'PROGRESS.md' else 'fixture\n')
             notebook = portfolio_fixture(root)
             calls = []
             def run(*args):

@@ -17,9 +17,21 @@ import codex
 import runner
 
 
+def review_fixture(notebook, decision='REVIEW_REQUIRED'):
+    directory = notebook / 'drafts/literature'
+    directory.mkdir(parents=True, exist_ok=True)
+    (directory / 'test.md').write_text(
+        'TARGET: test\nCHECKED: 2026-09-26\nDECISION: ' + decision + '\n'
+        'SEARCH_EVIDENCE: searched test terminology\n'
+        'SOURCE_EVIDENCE: https://example.org/paper Theorem 1; fixture\n'
+        'COMPARISON: source has different hypotheses\nGAP: missing uniformity\n'
+        'REASON: compare hypotheses before deriving\n')
+
+
 def portfolio_fixture(root):
     notebook = root / 'riemann'
     notebook.mkdir()
+    review_fixture(notebook)
     for name in ('GOAL.md', 'PROGRESS.md', 'history'):
         source = root / name
         if source.exists():
@@ -80,6 +92,7 @@ class AdapterTests(unittest.TestCase):
         argv, stdin = codex.command('codex', prompt)
         self.assertEqual(stdin, prompt)
         self.assertNotIn('--dangerously-bypass-approvals-and-sandbox', argv)
+        self.assertIn('web_search="live"', argv)
 
     def test_api_env_fails_without_exposing_secret(self):
         with patch.dict(os.environ, {'OPENAI_API_KEY': 'private-test-value'}, clear=True), patch('codex.shutil.which', return_value='/fake/codex'):
@@ -158,7 +171,8 @@ class ProcessTests(unittest.TestCase):
 
     def test_success_checkpoint_and_proved_stop(self):
         def fake_run(*args):
-            (self.notebook / 'PROGRESS.md').write_text('STATUS: IN_PROGRESS\nNext action: next test\n')
+            from test_research import report
+            (self.notebook / 'PROGRESS.md').write_text(report('completed', 'EXPLORATION'))
             return 'success', None, 0
         with patch.object(sys, 'argv', ['runner.py', '--once']), patch.object(runner, 'check', return_value='fake'), patch.object(runner, 'run_process', side_effect=fake_run), patch.object(runner, 'validate'):
             self.assertEqual(runner.main(), 0)
