@@ -28,3 +28,13 @@ bash loop-codex.sh --dry-run
 ```
 
 Tests use temporary notebooks and fake Codex processes; they spend no model allowance. The process-termination regression uses `ps`, which may require running outside a restrictive sandbox.
+
+## Literature gate
+
+Before invocation, `literature.py` binds `NEXT_REVIEW` to the exact saved `Next action`. Missing, incomplete, stale-target or source-blocked assessments select a literature-only turn. Ready IMPORT/SPECIALIZE/EXPLORE assessments permit the matching research target. New directions require a prior review turn; completed work uses STEP_KIND, STEP_CLASSIFICATION and STEP_REVIEW. The full schema and decisions are in ../../GOAL.md.
+
+The launcher explicitly requests `web_search="live"` rather than depending on a user's search default. Managed restrictions and source access failures can still prevent retrieval; record those failures, never infer that a theorem is absent. This does not change shell sandbox or approval settings.
+
+After invocation, the gate validates the completed and next assessments before outcome counters can reset. Literature-only turns cannot change mathematical lemma or script files. Invalid reports halt only the affected notebook, including reports claiming resolution. Source truth and novelty remain matters for mathematical review; the checks cannot detect fabricated evidence. Existing notebooks migrate through a literature turn, without resetting quota or research-halt state.
+
+Use `python3 -B -m unittest discover -s scripts/loop -p 'test_*.py' -q` for an offline scheduling round and gate regressions. These use fake processes, not ten paid research calls. Actual research resumes through the usual launcher, with one review or research step per notebook.

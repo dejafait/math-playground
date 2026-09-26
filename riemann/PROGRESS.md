@@ -12,4 +12,5 @@ Route decision: retain the Mellin-width weighted sampling route, with collision 
 
 Exploration turns used: 0 of 3 consecutive unresolved exploration turns; a relevant uniform local Gram average is established. No RH candidate.
 
+NEXT_REVIEW: drafts/literature/2026-09-26-current-target.md
 Next action: Test M_N(N^(-1/8))=o(1) from L351 at the exact dilation 1, using a fourth-moment bound for C_N under the weight w_N(ν)w_N(μ)/W_N²; the sufficient fourth-moment threshold is o(N^(-1/2)).

@@ -34,6 +34,28 @@ At the end of every completed turn, replace these fields in PROGRESS.md:
 
 Keep the bottleneck, route decision, exploration turns used, and exactly one concrete Next action in the compact checkpoint. Record the detailed evidence in history. The runner halts only the affected problem after two consecutive STALLED turns, three invalid/unchanged step reports, or three exploration turns without an ADVANCE or NEGATIVE. A third exploration turn must finish its assessment before returning. A research stop persists across launches until an explicit `--resume-research <problem>`; ordinary research turns must not reset it. This does not relax quota waits. These outcome labels are self-reports, not mathematical verification.
 
+## Literature reuse before research
+
+Before substantial work on a new intermediate target, search for the exact statement, standard terminology, stronger results and known obstructions. Read primary theorem statements and follow relevant references; a prize page, search snippet, model memory or Mathlib homepage is not a literature assessment. Reuse an adequate assessment while its target and assumptions remain unchanged. Refresh it when the target changes, a relevant source changes, or new evidence undermines its comparison; no fixed search quota or repeated browsing every turn is required.
+
+Store each assessment in `drafts/literature/<target>.md`. Use exactly one single-line value for each field: `TARGET` (the exact Next action text), `CHECKED` (YYYY-MM-DD), `DECISION`, `SEARCH_EVIDENCE`, `SOURCE_EVIDENCE`, `COMPARISON`, `GAP`, and `REASON`. Expand details below those fields. Record queries and what was actually read, source version and theorem/page numbers, applicability, strongest relevant known conclusion, remaining difference, and why a citation does not suffice. Explicitly distinguish unread leads from inspected theorems. Never infer novelty from a failed search.
+
+`DECISION` is one of:
+
+- `IMPORT`: the needed result is covered; cite it and give only the necessary applicability argument.
+- `SPECIALIZE`: known results cover part of the target; derive only the identified difference. Explain any need for changed hypotheses, effective constants, verification of a suspect claim or an essential implementation.
+- `EXPLORE`: a documented bounded search found no adequate match; investigate the stated gap without claiming novelty.
+- `SOURCE_BLOCKED`: an essential source or exact target remains inaccessible; resolve access or source scope before dependent research.
+- `REVIEW_REQUIRED`: discovery or theorem-level comparison remains incomplete; the next turn is literature-only.
+
+`PROGRESS.md` must include `NEXT_REVIEW`, a notebook-relative assessment path matching its exact `Next action`. Preserve proposed calculations as targets while assessing them. At completion add `STEP_KIND: LITERATURE|RESEARCH`, `STEP_REVIEW` (the assessment for the target at turn start), and `STEP_CLASSIFICATION: KNOWN_IMPORTED|REPRODUCTION|POTENTIALLY_NEW|NOVELTY_UNCHECKED`. These describe the completed step, while NEXT_REVIEW describes future work. Existing historical reports need not be retroactively relabeled.
+
+A research turn requires an IMPORT, SPECIALIZE or EXPLORE assessment saved before invocation. A new target or changed assessment requires a separate literature turn. IMPORT permits only KNOWN_IMPORTED; SPECIALIZE/EXPLORE permit REPRODUCTION or POTENTIALLY_NEW. POTENTIALLY_NEW means only that the recorded search did not establish coverage, not certified originality. NOVELTY_UNCHECKED is restricted to literature turns. Literature turns may update source notes, assessments, histories and overviews, but may not derive new results or modify lemmas/ or mathematical scripts/. Missing evidence restricts work to literature review rather than waiting for the user.
+
+Keep the existing outcome labels, but do not report importing or reproducing known mathematics as a new mathematical discovery. Every recap must distinguish local progress from progress beyond the sources checked. An assessment that merely repeats an old decision is STALLED; unanswered searches remain EXPLORATION, not an automatic budget reset. Source import or a documented overlap that changes a route can be useful progress. Existing stopping and quota rules still apply.
+
+The runner checks field completeness, paths, exact target matching, prior assessment availability and classification before accepting an outcome. It rejects lemma/program writes in literature-only turns and halts the affected notebook on violations without resetting exploration counters. These are process checks, not semantic validation of sources, proofs or novelty. Preserve all prior work; do not delete superseded derivations.
+
 ## Research and candidate review
 
 The near-term milestone is a complete informal candidate argument with every essential mathematical step written out. Record it as an UNVERIFIED CANDIDATE in PROGRESS.md, keep STATUS: IN_PROGRESS while its correctness is unresolved, and state its weakest steps and a concrete critical-review action. An anticipated possibility of hallucination is a reason to label and review the candidate honestly, never permission to invent steps or conceal gaps.

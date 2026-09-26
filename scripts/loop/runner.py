@@ -18,6 +18,7 @@ import time
 
 from events import Events
 from research import assess, resume
+from literature import prepare, instruction, validate_turn
 from codex import check, command
 from portfolio import registry, migrate, choose
 
@@ -287,10 +288,12 @@ def main():
                     raise RuntimeError('PROMPT.md must be nonempty and at most 16 KB.')
                 before = checkpoint_digest(problem)
                 before_progress = (notebook / 'PROGRESS.md').read_text()
+                literature_context = prepare(notebook, before_progress)
                 prompt = (f'Active problem: {problem}. Working directory: {notebook}. '
                           'Shared instructions are ../GOAL.md and ../PROMPT.md. '
                           'All notebook paths are relative to this working directory. '
-                          f'Use --problem {problem} with the shared documentation checker.\n\n' + prompt)
+                          f'Use --problem {problem} with the shared documentation checker.\n\n'
+                          + instruction(literature_context) + '\n' + prompt)
                 argv, stdin = command(executable, prompt)
                 state.update(outcome='running', retry_at=0, started_at=time.time())
                 save_state(state_path, state)
@@ -306,8 +309,11 @@ def main():
                     except RuntimeError as exc:
                         local['research_halt'] = str(exc)
                     changed = checkpoint_digest(problem) != before
-                    reason = assess(local, before_progress, (notebook / 'PROGRESS.md').read_text(), changed)
-                    if reason and not proved(problem):
+                    after_progress = (notebook / 'PROGRESS.md').read_text()
+                    reason = local.get('research_halt') or validate_turn(notebook, literature_context, after_progress)
+                    if not reason:
+                        reason = assess(local, before_progress, after_progress, changed)
+                    if reason:
                         local['research_halt'] = reason
                     if local.get('research_halt'):
                         announce(f"Research halted for {problem}: {local['research_halt']}")
