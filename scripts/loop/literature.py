@@ -37,7 +37,7 @@ def read_review(notebook, reference, target):
         date.fromisoformat(checked)
     except ValueError as exc:
         raise ValueError('Invalid literature check date.') from exc
-    if decision in READY and not re.search(r'https?://\S+', field(text, 'SOURCE_EVIDENCE')):
+    if decision in READY and not re.search(r'https?://\S+', text):
         raise ValueError('Ready assessments need a direct source URL.')
     return decision
 

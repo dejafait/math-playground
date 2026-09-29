@@ -58,6 +58,13 @@ class LiteratureTests(unittest.TestCase):
         review_fixture(self.root)
         self.assertIsNotNone(literature.validate_turn(self.root, ctx, self.result().replace('NEXT_REVIEW:', 'Next review:')))
 
+    def test_source_links_in_detailed_body_are_accepted(self):
+        review_fixture(self.root, 'SPECIALIZE')
+        self.path.write_text(self.path.read_text().replace(
+            'https://example.org/paper', 'Theorem 1; direct link below.')
+            + '\nSource: https://example.org/paper\n')
+        self.assertEqual(literature.prepare(self.root, self.progress)['decision'], 'SPECIALIZE')
+
     def test_import_requires_import_classification(self):
         review_fixture(self.root, 'IMPORT')
         ctx = literature.prepare(self.root, self.progress)
@@ -147,7 +154,7 @@ class LiteratureRunnerTests(unittest.TestCase):
         self.assertEqual(self.calls, self.ids * 2)
         self.assertFalse(any(s.get('research_halt') for s in self.state()['problems'].values()))
 
-    def test_violation_halts_only_one_notebook_without_resetting_budget(self):
+    def test_violation_queues_recovery_without_resetting_budget(self):
         directory = self.root / 'scripts/loop-codex'
         directory.mkdir()
         (directory / 'state.json').write_text(json.dumps({'problems': {
@@ -163,7 +170,7 @@ class LiteratureRunnerTests(unittest.TestCase):
         with patch.object(runner, 'run_process', side_effect=bypass):
             runner.main()
         state = self.state()['problems']['riemann']
-        self.assertIn('research_halt', state)
+        self.assertIn('research_recovery', state)
         self.assertEqual(state['exploration_turns'], 2)
         runner.main()
         self.assertEqual(self.calls, ['problem-1'])

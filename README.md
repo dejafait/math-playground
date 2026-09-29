@@ -25,19 +25,21 @@ bash loop-codex.sh
 
 The loop visits enabled notebooks in the order in [the registry](scripts/loop/problems.json), one fresh session and coherent step each. Ten active notebooks receive equal turns, not guaranteed equal tokens or time. New research targets first require a saved literature assessment; missing or blocked evidence restricts the next turn to source review. Recaps distinguish known imports, reproductions and potentially new results. Each session runs from its problem directory; mathematical reproduction commands are relative to that directory. Shared loop and validation scripts stay at the root.
 
-The scheduler persists its position. Research halts apply to one notebook; quota cooldowns apply globally and survive restart. Resolved, disabled and halted notebooks are skipped. If none remain eligible, the loop exits. Ctrl+C stops the active process and preserves files. The computer and terminal session must remain running for automatic retries.
+The scheduler persists its position and keeps trying enabled, unresolved problems without a research retry limit. Exhausted approaches and process failures queue recovery; repeated failures require a different next target instead of permanently halting the problem. Quota cooldowns apply globally and survive restart. Resolved and disabled notebooks are skipped. If none remain eligible, the loop prints their individual reasons and exits. Ctrl+C stops the active process and preserves files. The computer and terminal session must remain running for automatic retries.
 
 ```bash
 bash loop-codex.sh --dry-run
 bash loop-codex.sh --check
 bash loop-codex.sh --once
 bash loop-codex.sh --problem beal --once
+bash loop-codex.sh --status
+bash loop-codex.sh --recover-research
 bash loop-codex.sh --resume-research riemann
 ```
 
 `--resume-research ID` renews only that notebook's research budget, then runs the normal rotation; add `--problem ID` to focus exclusively on it. `--timeout SECONDS` applies the same maximum duration to each invocation (default: two hours). `--verbose` streams CLI output.
 
-Runtime state and per-problem logs live under `scripts/loop-codex/` and are ignored by Git. Legacy RH counters are migrated automatically on first launch without resetting a research halt or quota wait. Research decisions stay inside each notebook's `history/`. Stop the loop before manually editing notebooks or infrastructure.
+Runtime state and per-problem logs live under `scripts/loop-codex/` and are ignored by Git. Legacy research halts automatically become queued recovery turns while preserving their reasons, counters and quota waits. `--status` shows scheduling reasons without running research; `--recover-research` migrates saved stops and exits without a model call. Research decisions stay inside each notebook's `history/`. Stop the loop before manually editing notebooks or infrastructure.
 
 ```bash
 python3 -B scripts/docs/check_structure.py

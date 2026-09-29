@@ -43,3 +43,21 @@ def resume(state):
     state.pop('research_halt', None)
     for key in ('no_progress', 'exploration_turns', 'stalled_turns', 'unknowns'):
         state[key] = 0
+
+
+def recover(state):
+    """Turn a persistent stop into a queued review, preserving its evidence."""
+    reason = state.pop('research_halt', None)
+    if reason:
+        state['recovery_attempts'] = state.get('recovery_attempts', 0) + 1
+        state['require_new_target'] = bool(state.get('require_new_target')
+            or state['recovery_attempts'] >= 2
+            or reason.startswith(('Three exploration turns', 'Two consecutive stalled')))
+        state['research_recovery'] = reason
+        state['last_research_stop'] = dict(
+            reason=reason, step=state.get('research_step_id'),
+            counters={key: state.get(key, 0) for key in
+                      ('no_progress', 'exploration_turns', 'stalled_turns', 'unknowns')})
+        state.setdefault('first_research_stop', state['last_research_stop'])
+        state['recovery_count'] = state.get('recovery_count', 0) + 1
+    return reason
