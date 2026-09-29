@@ -1,0 +1,13 @@
+# 2026-09-26 — Literature review of the conditional soundness specialization
+
+Step identifier: 2026-09-26-13-reflection-specialization-review. Outcome: EXPLORATION. Kind: LITERATURE. Classification: KNOWN_IMPORTED.
+
+Read the shared rules and prompt, local goal and checkpoint, whole overview, DAG, L011, relevant foundations and failure history. The initial working tree was clean. The REVIEW_REQUIRED gate confined this turn to sources and documentation; no lemmas or mathematical scripts were changed. Reconfirmed the ordinary uniform target against the [Clay page](https://www.claymath.org/millennium/p-vs-np/) and [official statement, §1, pp. 1–2](https://www.claymath.org/wp-content/uploads/2022/06/pvsnp.pdf).
+
+**Gap and test.** The intermediate target is the saved conditional transformation from a supplied ER refutation of H_(A,N) to one of a rejected length-N F. The test requires one polynomial in the full input/proof lengths for fixed A, retaining short soundness proofs as a separate premise. This would isolate a necessary obligation in the proof-complexity route; it supplies neither that premise nor the still-missing ER lower bound or unconditional P-versus-NP conclusion.
+
+**Evidence and decision.** Completed the [assessment](../drafts/literature/2026-09-26-current-target.md) and recorded [named standard inputs](../foundations/06-reflection-specialization.md). The general reflection method is covered, but the local evaluator and representation need a specific applicability argument. Decision: SPECIALIZE; preserve the exact saved action and limit its mathematical continuation to that remaining correspondence and overhead. Reuse the published machinery instead of constructing a general proof compiler. Existing automatic-transfer and parity-family obstructions remain intact.
+
+This is a source comparison with imported inputs, not a new mathematical result, negative theorem, or candidate resolution. Exploration turns used increase from 0 to 1. PROGRESS.md remains the sole current checkpoint; its exact target and NEXT_REVIEW still match. PROOF.md now distinguishes the cited method from the unfinished local application. DAG.md is unchanged because no lemma or mathematical dependency was added.
+
+**Validation.** `PYTHONDONTWRITEBYTECODE=1 python3 ../scripts/docs/check_structure.py --problem p-vs-np` passed: 12 nodes, five edges, acyclic graph, valid links, and compact overviews. The shared assessment reader accepted both STEP_REVIEW and NEXT_REVIEW as SPECIALIZE with the exact preserved target; `git diff --check -- .` passed. No mathematical computation was needed for this source-only step. Structural checks do not verify mathematics.

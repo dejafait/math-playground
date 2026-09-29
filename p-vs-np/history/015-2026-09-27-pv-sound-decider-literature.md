@@ -1,0 +1,17 @@
+# 2026-09-27 — PV sound-decider existence review
+
+Step identifier: 2026-09-27-15-pv-sound-decider-literature. Outcome: EXPLORATION. Kind: LITERATURE. Classification: NOVELTY_UNCHECKED.
+
+Read the shared rules and prompt, local goal/checkpoint, whole overview, DAG, pending assessment, relevant source notes, L013, and the automatic-transfer failure. Preserved the existing modified and untracked work. All writes stayed in the active notebook; no lemma, mathematical script, or dependency row was changed.
+
+**Gap and test.** The [exact saved target](../drafts/literature/2026-09-26-pv-sound-decider-existence.md) asks whether SAT∈P supplies some externally correct polynomial-time B with a PV proof of rejection soundness. A matching theorem could supply the soundness premise for L013; an ER lower bound would still be missing. The discriminator was an inspected theorem with that existence conclusion and no added correctness-proof hypothesis.
+
+**Result.** Completed the assessment as EXPLORE. Read additional Cook statements and primary Pich–Santhanam theorems, preserving their hypotheses and version-specific identifiers in the [source note](../foundations/07-formal-soundness-and-transfer-limits.md). No exact unconditional existence theorem or counterexample was found. The conditional witnessing mechanism gives a concrete further source test. Its input-length and formal-provability requirements prevent an immediate import. The nonuniform circuit-transfer barrier does not prohibit the uniform P≠NP transfer. The [interim reading notes](../drafts/2026-09-27-pv-sound-decider-review-notes.md) are retained.
+
+**Effect and decision.** No new mathematical result or bound was derived. This is a new source comparison with an actionable test, not an advance or a disproof of the proposed implication. Exploration turns used increases from 0 to 1. STATUS remains IN_PROGRESS. PROOF.md records the qualification; L013 and all inactive branches remain intact.
+
+**Reason for the next direction.** The [new REVIEW_REQUIRED assessment](../drafts/literature/2026-09-27-uniform-sat-error-witness.md) targets the original uniform counterexample-finding theorem and the zero-advice conditional transfer. The original paper must be read before dependent work. This tests an explicit mechanism instead of repeating the assertion that a formal soundness proof is missing. Neither the stronger full SAT-search formalization nor another input length may replace the intended conditions silently.
+
+All reported theorems are imported literature. NOVELTY_UNCHECKED records that the exact existence implication has no established match in this assessment, without claiming originality. Mathlib coverage was not checked. The unavailable journal version is not an input; accessible primary versions suffice for the recorded conditional statements.
+
+**Validation.** `PYTHONDONTWRITEBYTECODE=1 python3 ../scripts/docs/check_structure.py --problem p-vs-np` passed: 13 nodes, six edges, acyclicity, complete lemma coverage, valid links, and compact overviews. The shared literature validator accepted the completed EXPLORE assessment, exact new REVIEW_REQUIRED target, and LITERATURE classification. Checked the fresh single outcome and exploration count; lemma/script content hashes are unchanged. `git diff --check -- .` passed. No mathematical or computational experiment was needed; these checks do not verify the cited mathematics.

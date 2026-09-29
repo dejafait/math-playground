@@ -2,15 +2,18 @@
 
 STATUS: IN_PROGRESS
 
-STEP_ID: 2026-09-26-endpoint-mellin-width-gram-01
-STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: L351 proves Σw_N²=C_w/(2N)+O(N^(-3/2)) and a uniform O(1/N) dilation average of H_N on intervals of length at least N^8 exp(−4N); H_N(1) remains unproved. See lemmas/L351-endpoint-mellin-width-local-gram-average.md.
+STEP_ID: 2026-09-27-first-associated-theta-lattice-literature-01
+STEP_OUTCOME: EXPLORATION
+STEP_EVIDENCE: The source review distinguishes common-parameter addition from the actual unequal theta scales and locates the full polynomial-Gaussian transform with its correction terms; no inspected theorem supplies the required sign. A complete parity-block specialization is screened in drafts/literature/2026-09-27-first-associated-theta-lattice.md.
+STEP_KIND: LITERATURE
+STEP_CLASSIFICATION: NOVELTY_UNCHECKED
+STEP_REVIEW: drafts/literature/2026-09-27-first-associated-theta-lattice.md
 
 Main bottleneck: global mixed reciprocal-zero positivity remains unproved. L320 needs a logarithmic initial segment of Laguerre signs, but L296's bands strictly above coefficient 1/4 leave low logarithmic and sublogarithmic indices open. Heights above forty and the endpoint arithmetic margin remain unresolved.
 
-Route decision: retain the Mellin-width weighted sampling route, with collision mass and a local dilation average now controlled. The next issue is arithmetic concentration at the exact dilation 1; a small exceptional measure cannot establish its value. The deterministic sampling bound, exceptional sampled indices and pointwise margin remain open. All established sign/exclusion ranges are unchanged.
+Route decision: retain L355's generic-route stop and test the two complete parity blocks of the actual first-associated theta sum. Import the known weighted transformation formulas; the block spectra and all modular boundary terms need a bounded specialization. No sign theorem or new mathematical result is imported or reproduced by this review, and no novelty is claimed. Actual-zeta sign and exclusion ranges are unchanged.
 
-Exploration turns used: 0 of 3 consecutive unresolved exploration turns; a relevant uniform local Gram average is established. No RH candidate.
+Exploration turns used: 1 of 3 consecutive unresolved exploration turns after L355's informative negative result. The narrowed parity test uses the same budget. No RH candidate.
 
-NEXT_REVIEW: drafts/literature/2026-09-26-current-target.md
-Next action: Test M_N(N^(-1/8))=o(1) from L351 at the exact dilation 1, using a fourth-moment bound for C_N under the weight w_N(ν)w_N(μ)/W_N²; the sufficient fourth-moment threshold is o(N^(-1/2)).
+NEXT_REVIEW: drafts/literature/2026-09-27-first-associated-parity-blocks.md
+Next action: Test whether the complete parity blocks n+m even and n+m odd of the first-associated theta lattice sum are separately positive definite after exact modular resummation, retaining all polynomial weights and boundary terms.

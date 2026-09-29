@@ -1,0 +1,15 @@
+# 2026-09-27 — Realified marking defect
+
+Completed one research step using the ready SPECIALIZE [assessment](../drafts/literature/2026-09-26-current-target.md). [L006](../lemmas/L006-marking-defect-in-realified-localization.md) maps the ordinary marked category into the cited realified arithmetic construction and expresses its defect using the global degree and the effective local marking divisors. The full [step record](../drafts/2026-09-27-realified-marking-defect.md) explains the relevance test and limits.
+
+The new input is compatibility of this expression with the realified localization diagrams, including the noncanonical identifications. The invariant pulls back to L005's Δ. It can remain nonzero even when all local markings are identities. This resolves the saved survival test in the fixed arithmetic fiber, without interpreting its finite zigzags as the formal quotient. The exact bound is still d(G) ≤ d(D) − δ; no required sign condition or improvement to the actual IUT bound was obtained.
+
+Outcome: ADVANCE as local mathematical progress; classification: REPRODUCTION. The global degree theorem and local Frobenioid models are imported by precise citations, and their marked-data specialization is proved. No mathematical novelty beyond the checked literature, full IUT instance, or candidate flaw is claimed. STATUS remains IN_PROGRESS. Exploration usage is 0 since this local advance; the preceding sequence used 1, and the historical 3/3 sequence remains assessed.
+
+The main gap is the defect's behavior under the formal quotient and the actual marked q-pilot comparison, followed by its relation to the hull and normalized volumes. This is the reason for the subsequent direction. The new [assessment](../drafts/literature/2026-09-27-formal-quotient-defect.md) is REVIEW_REQUIRED, so its first turn must be literature-only. No quotient calculation was attempted here.
+
+The overview and compact checkpoint were updated. The DAG adds only L006's genuine use of L005; cited foundations and historical contrasts are not extra edges. The pre-existing source notes, assessment, unfinished changes, and inactive branches were preserved. Only the active problem directory was edited.
+
+The mathematical review checked the source's sign convention, the real principal-divisor spaces, uniqueness of identity-base local isomorphisms, all localization and marking equations, agreement with L005, and attainment of the stated bound. No computational experiment or mathematical script was needed. Mathlib coverage is not checked.
+
+`python3 ../scripts/docs/check_structure.py --problem iut-challenge` passed: 6 nodes, 2 edges, an acyclic graph, complete lemma coverage, valid local links, and compact overviews. `git diff --check -- .` passed. A separate field check confirmed unique checkpoint fields, the exact match between the new action and its REVIEW_REQUIRED target, and preservation of the prior SPECIALIZE assessment. These checks concern documentation consistency, not verification of the disputed IUT inference.
