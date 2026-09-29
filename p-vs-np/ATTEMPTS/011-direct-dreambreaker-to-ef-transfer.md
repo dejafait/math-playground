@@ -1,0 +1,5 @@
+# Direct import of a uniform dreambreaker into the EF transfer
+
+Reviewed 2026-09-27. The proposal was to discharge Pich–Santhanam's zero-advice Corollary 2 witnessing hypothesis using the known Bogdanov–Talwar–Wan SAT-search counterexample finder.
+
+**WHY IT FAILS.** The [primary-source comparison](../foundations/08-uniform-sat-error-witnesses.md) records that Theorem 1 really does return length-n errors on its successful inputs, but promises success only infinitely often for each fixed algorithm, assuming P≠NP. The corollary requires the conditional witness at every sufficiently large erroneous length for all descriptions within its bound, and an S^1_2 proof to use ordinary EF. The original result supplies neither that full guarantee nor that proof. This stops a direct citation-based import, not all uniform witnessing methods; it does not prove that the stronger finder is impossible or unprovable. No padding repair is supplied, and a superpolynomial EF/ER lower bound remains independently missing.

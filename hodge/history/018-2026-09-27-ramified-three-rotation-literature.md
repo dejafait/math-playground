@@ -1,0 +1,13 @@
+# 2026-09-27 — Ramified three-rotation lift: literature assessment
+
+STEP_ID: 2026-09-27-hodge-018-ramified-three-rotation-literature. Outcome: EXPLORATION. Kind: LITERATURE. Classification: NOVELTY_UNCHECKED.
+
+Completed the [pending assessment](../drafts/literature/2026-09-27-ramified-three-rotation-lift.md) for the exact saved second-order lifting target. Read the shared and local instructions, checkpoint, whole overview and DAG, prior source comparisons and relevant first-order failure evidence. Preserved the existing tracked and untracked work. No new target calculation was performed.
+
+The source review located applicable cubic-algebra parametrizations over arbitrary bases and checked the relative embedded obstruction criterion. It resolved the domain restriction in the older triple-cover comparison by following references to Wood and Poonen, including the latter's corrected author version and relevant errata. These known inputs can be cited; they do not decide compatibility with this global embedding. Reused sufficient family, semiregularity and smoothing assessments rather than repeating their searches. The assessment records theorem numbers, versions, direct links and unread leads.
+
+Decision: SPECIALIZE, retaining the exact proposed computation for a later research turn. The discriminating issue is whether an allowed first-order subscheme motion cancels the prescribed later ambient obstruction while satisfying crossings, gluing, flatness and the full ideal at infinity. The first-order failure is not silently promoted to an all-orders obstruction. An abstract local algebra or a larger parameter space is insufficient evidence of a global lift.
+
+The first-order kernel remains three-dimensional against four RM directions, and the known 21-dimensional cycle span has not been extended to transverse surfaces. Higher orders, algebraization and the universal Hodge target remain unresolved; no complete candidate exists. This is source-screening progress, not a new mathematical result or a novelty claim. Exploration turns used is one after L015's informative negative result. Lemmas, mathematical scripts, PROOF.md and DAG.md were left unchanged because no mathematical input or overall argument changed.
+
+Validation: `python3 ../scripts/docs/check_structure.py --problem hodge` passed with 16 nodes and 31 edges. The literature validator accepted the original REVIEW_REQUIRED gate, LITERATURE / NOVELTY_UNCHECKED classification, completed SPECIALIZE assessment and unchanged exact target. Protected-artifact hashes matched the pre-review values, and the scoped whitespace check passed. No mathematical or computational test was run, and these documentation checks do not establish correctness of a future lift.

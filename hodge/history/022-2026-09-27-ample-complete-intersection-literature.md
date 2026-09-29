@@ -1,0 +1,17 @@
+# 2026-09-27 — Review of the ample complete-intersection union
+
+STEP_ID: 2026-09-27-hodge-022-ample-complete-intersection-literature. Outcome: EXPLORATION. Kind: LITERATURE. Classification: NOVELTY_UNCHECKED.
+
+Completed the saved [assessment](../drafts/literature/2026-09-27-ample-complete-intersection-union.md), changing REVIEW_REQUIRED to SPECIALIZE while preserving its exact TARGET and the checkpoint's Next action. Read the shared and local instructions, whole overview, DAG, existing changes and relevant source notes. Unfinished mathematical work was preserved; interim source findings were saved before completing the comparison.
+
+New readings covered Bertini with a prescribed base, the standard basic-double-link union construction, Hartshorne's general-ambient biliaison theorem, and the semiregularity statements of Iacono--Manetti and Dan--Kaur. Reused the adequate Buchweitz--Flenner singular obstruction criterion and prior normal-crossing comparisons. The assessment records theorem numbers, hypotheses, versions, direct links and access limits. Diaz--Harbater's original text was read through a reproduced journal copy after publisher access failed. Altman--Kleiman's original remains unread and is not an essential source dependency of the selected test.
+
+The comparison supplies an actionable specialization without deciding the lift. Bertini must account for the actual base scheme and the retained singular points; liaison in a fixed ambient scheme does not control the prescribed ambient RM deformation; semiregularity still needs its hypotheses and an injectivity or obstruction calculation. These known tools should be cited. No new construction, degree bound, lemma, smoothing map or obstruction value was derived. Coverage of the exact union calculation was not established, and no originality is claimed. Mathlib coverage is not checked.
+
+The main gap is unchanged: the earlier representatives admit three RM directions against four required, and the 21-dimensional Hodge span covers no additional surfaces. The proposed ample intersection changes the geometry responsible for the previous fibre restrictions, while the added cycle is a divisor product. That makes one bounded test useful even though higher-order lifting, algebraization and the universal target remain open. No complete candidate exists.
+
+Continue with the same target in a separate research turn, verifying an admissible smooth B and D before the full embedded compatibility calculation. A positive answer needs one admissible pair with a transverse lift. A negative result confined to large degrees, general divisors or one pair must retain that scope; it would not settle every pair allowed by the existential target. This source-review step uses the first of at most three exploration turns since L017; it does not reset the budget.
+
+Only the assessment, compact checkpoint and this history entry were edited. PROOF.md and the ID-only DAG remain unchanged because no mathematical argument or input changed. Lemmas and mathematical scripts were left unchanged.
+
+Validation: `python3 ../scripts/docs/check_structure.py --problem hodge` passed with 18 nodes and 40 edges. The shared literature validator accepted this LITERATURE turn and the exact unchanged SPECIALIZE target. SHA-256 comparisons against the turn-start contents confirmed that every file under lemmas/ and scripts/ was unchanged. The scoped whitespace check passed. No mathematical or computational test was needed for this source review; these checks do not verify a new geometric conclusion.

@@ -1,0 +1,11 @@
+# 2026-09-27 — Formal quotient literature review
+
+Completed one literature-only step for the saved quotient-descent target. The [assessment](../drafts/literature/2026-09-27-formal-quotient-defect.md) records the primary passages read, source versions, exact comparisons, redundancy check, and continuation test. It distinguishes the marked-category invariant from the formal quotient and subsequent numerical comparison. A newly located conditional-bridge preprint does not supply the missing source-specific descent statement.
+
+The February 2023 *Essential Logical Structure* exposition directly discusses descent and fixed gluing, but the relevant pages of its current version, listed as 2024-03-24, could not be retrieved. The assessment is SOURCE_BLOCKED. The original mathematical target is retained; the [new assessment](../drafts/literature/2026-09-27-formal-quotient-source-recovery.md) is REVIEW_REQUIRED for recovery of that source. This continuation is justified by a specific version gap, not by a new mathematical mechanism.
+
+Outcome: EXPLORATION; kind: LITERATURE; classification: NOVELTY_UNCHECKED. Exploration usage is 1/3 since step 007's local advance, without resetting historical counts or runner state. No mathematical input was newly imported or reproduced, no result beyond the checked literature is claimed, and no candidate flaw was obtained. The arithmetic estimate still lacks sign control and a connection to the actual finite B ≥ A bound.
+
+Only the two literature assessments, checkpoint, and this history entry were edited. Existing unfinished work was preserved. No lemma, mathematical script, overview argument, or DAG input changed.
+
+`python3 ../scripts/docs/check_structure.py --problem iut-challenge` passed: 6 nodes, 2 edges, acyclic graph, complete lemma coverage, valid local links, and compact overviews. `git diff --check -- .` passed. A separate check confirmed unique checkpoint and assessment fields, preservation of the original target, an exact match between the new action and its REVIEW_REQUIRED target, and unchanged mathematical files. No mathematical computation was needed. These are documentation and preservation checks, not verification of the IUT claims.

@@ -1,6 +1,6 @@
 # Target and source audit
 
-Initial audit: 2026-09-24; follow-ups: 2026-09-25 and 2026-09-26. **ABF26 source freeze
+Initial audit: 2026-09-24; follow-ups through 2026-09-27. **ABF26 source freeze
 incomplete:** the current challenge page and paper metadata were read, but
 the July paper's definitions remain inaccessible. A separate
 [pinned upstream ArkLib model](02-pinned-affine-line-model.md) is now readable;
@@ -111,6 +111,26 @@ it does not claim equality with pure MCA or with winning-set soundness. Its
 protocol certificates therefore cannot certify this notebook's target without
 additional theorems. Third-party claimed reductions found during retrieval were
 not adopted as mathematical premises.
+
+## September 26 literature gate
+
+The [four-block target assessment](../drafts/literature/2026-09-26-current-target.md)
+adds readable geometric and coding comparisons, but does not recover the
+July ABF26 text. A later author manuscript identifies Definition 4.3,
+Lemma 4.6, and Remark 4.10 as retrieval leads; these have not been read
+in ABF26 itself. The assessment records the access attempts and separates
+inspected results from unread attributions. No source equivalence, new
+error bound, or endpoint interpretation is certified by this review.
+
+## September 27 access reassessment
+
+The same [assessment](../drafts/literature/2026-09-26-current-target.md)
+records an unsuccessful primary-link, author/institutional and repository
+search for the July text. The primary record still lists July 6 and its
+lower-bound addition; PDF and archive requests returned Internal Error.
+The author entries still point to ePrint. No new primary mathematical
+statement was recovered, so the source freeze and comparison remain
+incomplete. This repeats the source stop, not a mathematical advance.
 
 ## Mathlib
 

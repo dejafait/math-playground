@@ -60,13 +60,15 @@ class PortfolioTests(unittest.TestCase):
         self.assertEqual(self.state()['problems']['riemann']['turns'], 2)
         self.assertEqual(self.state()['next_problem'], 'problem-1')
 
-    def test_halted_and_resolved_notebooks_are_skipped(self):
+    def test_legacy_halt_recovers_while_resolved_notebooks_are_skipped(self):
         directory = self.root / 'scripts/loop-codex'; directory.mkdir()
         (directory / 'state.json').write_text(json.dumps({'research_halt': 'legacy stop', 'retry_at': 0}))
         (self.root / 'problem-1/PROGRESS.md').write_text('STATUS: DISPROVED\n')
         runner.main()
-        self.assertEqual(self.calls, ['problem-2'])
-        self.assertEqual(self.state()['problems']['riemann']['research_halt'], 'legacy stop')
+        self.assertEqual(self.calls, ['riemann'])
+        self.assertEqual(self.state()['problems']['riemann']['last_research_stop']['reason'], 'legacy stop')
+        runner.main()
+        self.assertEqual(self.calls, ['riemann', 'problem-2'])
 
     def test_stall_counters_are_independent(self):
         def stall(*args):
@@ -78,8 +80,8 @@ class PortfolioTests(unittest.TestCase):
             for _ in range(11):
                 runner.main()
         state = self.state()['problems']
-        self.assertIn('research_halt', state['riemann'])
-        self.assertNotIn('research_halt', state['problem-1'])
+        self.assertIn('research_recovery', state['riemann'])
+        self.assertNotIn('research_recovery', state['problem-1'])
         runner.main()
         self.assertEqual(self.calls[-1], 'problem-1')
 
@@ -98,7 +100,7 @@ class PortfolioTests(unittest.TestCase):
         (directory / 'state.json').write_text(json.dumps(original))
         def stop_wait(stamp):
             self.assertEqual(stamp, original['retry_at']); runner.STOP = True
-        with patch.object(sys, 'argv', ['runner.py', '--resume-research', 'riemann']), patch.object(runner, 'wait_until', side_effect=stop_wait):
+        with patch.object(sys, 'argv', ['runner.py', '--resume-research', 'riemann', '--problem', 'riemann']), patch.object(runner, 'wait_until', side_effect=stop_wait):
             self.assertEqual(runner.main(), 130)
         self.assertNotIn('research_halt', self.state()['problems']['riemann'])
         self.assertEqual(self.state()['problems']['problem-1']['research_halt'], 'two')
@@ -114,13 +116,13 @@ class PortfolioTests(unittest.TestCase):
         with patch.object(runner, 'run_process', side_effect=selective_failure):
             for _ in range(21):
                 runner.main()
-        self.assertIn('research_halt', self.state()['problems']['riemann'])
-        self.assertNotIn('research_halt', self.state()['problems']['problem-1'])
+        self.assertIn('research_recovery', self.state()['problems']['riemann'])
+        self.assertNotIn('research_recovery', self.state()['problems']['problem-1'])
 
-    def test_validation_failure_halts_only_active_notebook(self):
+    def test_validation_failure_queues_recovery_only_for_active_notebook(self):
         with patch.object(runner, 'validate', side_effect=RuntimeError('broken DAG')):
             runner.main()
-        self.assertIn('research_halt', self.state()['problems']['riemann'])
+        self.assertIn('research_recovery', self.state()['problems']['riemann'])
         runner.main()
         self.assertEqual(self.calls, ['riemann', 'problem-1'])
 

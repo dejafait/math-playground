@@ -17,7 +17,7 @@ import sys
 import time
 
 from events import Events
-from research import assess, resume
+from research import assess, resume, recover, field
 from literature import prepare, instruction, validate_turn
 from codex import check, command
 from portfolio import registry, migrate, choose
@@ -214,8 +214,30 @@ def validate(problem=None):
         raise RuntimeError('Documentation validation failed after the step:\n' + result.stdout + result.stderr)
 
 
+def show_status(rows, state, only=None):
+    for row in rows:
+        slug = row['id']
+        if only and slug != only:
+            continue
+        local = state['problems'].get(slug, {})
+        status = field((ROOT / slug / 'PROGRESS.md').read_text(), 'STATUS') or 'UNKNOWN'
+        if not row['enabled']:
+            scheduling = 'disabled'
+        elif local.get('research_halt'):
+            scheduling = 'halted: ' + local['research_halt']
+        elif local.get('research_recovery'):
+            scheduling = 'recovery queued: ' + local['research_recovery']
+        elif proved(slug):
+            scheduling = 'resolved'
+        else:
+            scheduling = 'eligible'
+        print(f"{slug}: enabled={row['enabled']}; {status}; {scheduling}")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--status', action='store_true', help='Show every problem’s scheduling state and reason; no model call or state changes.')
+    parser.add_argument('--recover-research', action='store_true', help='Queue recovery for saved stops and exit without calling the model.')
     parser.add_argument('--check', action='store_true', help='Check local CLI/login configuration without a model request.')
     parser.add_argument('--dry-run', action='store_true', help='Show the Codex command without creating files or calling the CLI.')
     parser.add_argument('--resume-research', metavar='PROBLEM', help='Renew only this problem’s research budget; retain quota cooldowns.')
@@ -224,6 +246,8 @@ def main():
     parser.add_argument('--verbose', action='store_true', help='Also stream raw CLI output to the terminal.')
     parser.add_argument('--timeout', type=int, default=7200, help='Maximum seconds per invocation (default: 7200).')
     args = parser.parse_args()
+    if sum((args.status, args.recover_research, args.check, args.dry_run)) > 1:
+        parser.error('Choose only one of --status, --recover-research, --check, --dry-run')
     if args.timeout < 1:
         parser.error('--timeout must be positive')
     rows = registry(ROOT)
@@ -245,8 +269,11 @@ def main():
         print('Selected problem:', args.problem or 'round-robin')
         print('Output:', ROOT / 'scripts/loop-codex')
         return 0
-    executable = check(ROOT)
+    if args.status:
+        show_status(rows, migrate(read_state(ROOT / 'scripts/loop-codex/state.json')), args.problem)
+        return 0
     if args.check:
+        check(ROOT)
         announce('codex: installed; local subscription-auth checks passed. No model request made.')
         return 0
     signal.signal(signal.SIGINT, on_signal)
@@ -258,12 +285,21 @@ def main():
         state = migrate(read_state(state_path))
         if args.resume_research:
             resume(state['problems'].setdefault(args.resume_research, {}))
+        for row in rows:
+            if row['enabled'] and (not args.problem or row['id'] == args.problem):
+                reason = recover(state['problems'].setdefault(row['id'], {}))
+                if reason:
+                    announce(f"Recovery queued for {row['id']}: {reason}")
         save_state(state_path, state)
+        if args.recover_research:
+            show_status(rows, state, args.problem)
+            return 0
         while not STOP:
             problem, next_problem = choose(rows, state, proved, args.problem)
             if problem is None:
                 validate()
-                announce('No eligible problems remain: disabled, resolved, or research-halted.')
+                announce('No eligible problems remain. Per-problem reasons:')
+                show_status(rows, state, args.problem)
                 return 2 if any(p.get('research_halt') for p in state['problems'].values()) else 0
             notebook = ROOT / problem
             local = state['problems'].setdefault(problem, {})
@@ -277,23 +313,50 @@ def main():
             with lock(ROOT / 'scripts/loop/workspace.lock', wait=True) as acquired:
                 if not acquired or STOP:
                     break
-                if proved(problem):
+                if proved(problem) and not local.get('research_recovery'):
                     validate(problem)
                     state['next_problem'] = next_problem
                     save_state(state_path, state)
                     continue
-                executable = check(ROOT)
+                try:
+                    executable = check(ROOT)
+                except (RuntimeError, OSError, subprocess.TimeoutExpired) as exc:
+                    state.update(outcome='configuration', retry_at=time.time() + 300)
+                    save_state(state_path, state)
+                    announce(f'Configuration needs attention: {exc} Retrying in 5 minutes; Ctrl+C stops.')
+                    if args.once:
+                        return 1
+                    continue
                 prompt = (ROOT / 'PROMPT.md').read_text()
                 if not prompt.strip() or len(prompt.encode()) > 16000:
                     raise RuntimeError('PROMPT.md must be nonempty and at most 16 KB.')
                 before = checkpoint_digest(problem)
                 before_progress = (notebook / 'PROGRESS.md').read_text()
                 literature_context = prepare(notebook, before_progress)
+                recovery = local.get('research_recovery')
+                if recovery:
+                    literature_context['decision'] = 'REVIEW_REQUIRED'
+                    literature_context['reason'] = 'Recovery required: ' + recovery
                 prompt = (f'Active problem: {problem}. Working directory: {notebook}. '
                           'Shared instructions are ../GOAL.md and ../PROMPT.md. '
                           'All notebook paths are relative to this working directory. '
                           f'Use --problem {problem} with the shared documentation checker.\n\n'
                           + instruction(literature_context) + '\n' + prompt)
+                if recovery:
+                    prompt += ('\nSupervisor recovery turn: ' + recovery
+                               + '. Repair the reported process issue or reassess the exhausted approach. '
+                               'For a stalled or exhausted route, document a materially different mechanism or gap '
+                               'and a concrete next test; do not repeat the same retrieval or rename a failed route. '
+                               'This turn is literature-only. Preserve existing mathematical artifacts. '
+                               'Do not claim progress merely to reset counters. Any rejected resolution remains '
+                               'unverified: use STATUS: IN_PROGRESS until a later valid critical review.\n')
+                    if local.get('require_new_target'):
+                        prompt += ('A different Next action is required. The current route is exhausted or '
+                                   'has repeatedly failed recovery. Preserve its obstruction in ATTEMPTS; '
+                                   'compare up to three distinct mechanisms and select a different one. '
+                                   'If a source cannot be accessed, park dependent work and choose an '
+                                   'independent target. Do not repeat the same access attempts. Save a '
+                                   'REVIEW_REQUIRED assessment for the new target.\n')
                 argv, stdin = command(executable, prompt)
                 state.update(outcome='running', retry_at=0, started_at=time.time())
                 save_state(state_path, state)
@@ -301,7 +364,11 @@ def main():
                 output.mkdir(exist_ok=True)
                 announce(f'codex: starting {problem}; logs in {output.relative_to(ROOT)}.')
                 started = time.monotonic()
-                kind, reset, code = run_process(argv, stdin, output, args.timeout, args.verbose, notebook)
+                try:
+                    kind, reset, code = run_process(argv, stdin, output, args.timeout, args.verbose, notebook)
+                except (OSError, subprocess.TimeoutExpired) as exc:
+                    announce(f'Invocation failed: {exc}; will retry.')
+                    kind, reset, code = 'unknown', None, -1
                 local['elapsed_seconds'] = local.get('elapsed_seconds', 0) + time.monotonic() - started
                 if kind == 'success':
                     try:
@@ -311,12 +378,30 @@ def main():
                     changed = checkpoint_digest(problem) != before
                     after_progress = (notebook / 'PROGRESS.md').read_text()
                     reason = local.get('research_halt') or validate_turn(notebook, literature_context, after_progress)
+                    if not reason and recovery and proved(problem):
+                        reason = 'Recovery must leave a rejected resolution IN_PROGRESS for later critical review.'
+                    if not reason and recovery and field(after_progress, 'STEP_OUTCOME') == 'STALLED':
+                        reason = 'Recovery remains stalled; reassess the route instead of renewing its budget.'
+                    if (not reason and recovery and local.get('require_new_target')
+                            and field(after_progress, 'Next action') == literature_context['target']):
+                        reason = 'Recovery must select a different target after repeated failure or an exhausted approach.'
+                    if not reason and recovery:
+                        # Require a fresh valid report before renewing the approach budget.
+                        probe = dict(local)
+                        assess(probe, before_progress, after_progress, changed)
+                        if probe.get('no_progress'):
+                            reason = 'Recovery needs a fresh valid research step report.'
+                        else:
+                            resume(local)
+                            local.pop('research_recovery', None)
+                            local.pop('require_new_target', None)
+                            local['recovery_attempts'] = 0
                     if not reason:
                         reason = assess(local, before_progress, after_progress, changed)
                     if reason:
                         local['research_halt'] = reason
                     if local.get('research_halt'):
-                        announce(f"Research halted for {problem}: {local['research_halt']}")
+                        announce(f"Research stop for {problem}: {local['research_halt']}")
                 local['last_outcome'] = kind
                 if kind not in ('quota', 'transient', 'interrupted', 'fatal'):
                     local['turns'] = local.get('turns', 0) + 1
@@ -330,8 +415,13 @@ def main():
                 local['unknowns'] = unknowns
                 if unknowns >= 3:
                     local['research_halt'] = 'Three unclassified failures for this notebook; inspect its logs.'
+                if local.get('research_halt'):
+                    reason = recover(local)
+                    announce(f'Recovery queued for {problem}: {reason}')
                 if kind == 'success':
                     delay = 5 if changed else 60
+                elif kind == 'fatal':
+                    delay = 300
                 elif kind == 'quota':
                     delay = QUOTA_DELAYS[min(int(failures) - 1, len(QUOTA_DELAYS) - 1)]
                 else:
@@ -343,7 +433,7 @@ def main():
             # Release the repository during cooldowns.
             announce(f'codex: {kind} (exit {code}).')
             if kind == 'fatal':
-                raise RuntimeError(f'Action needed; inspect {output.relative_to(ROOT)}/stderr.log and stdout.log, fix the reported login/configuration/validation issue, then restart.')
+                announce(f'Configuration/service error; retrying in 5 minutes. Details: {output.relative_to(ROOT)}/stderr.log and stdout.log. Ctrl+C stops.')
             if args.once:
                 return 0 if kind == 'success' else 1
     announce('Stopped; saved work is retained. The next run will inspect any unfinished step.')

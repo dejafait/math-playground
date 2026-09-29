@@ -1,0 +1,15 @@
+# 2026-09-26 — Source review for the two-rotation union
+
+STEP_ID: 2026-09-26-hodge-013-two-rotation-literature-review. Outcome: EXPLORATION. Kind: LITERATURE. Classification: NOVELTY_UNCHECKED.
+
+Completed exactly the literature review requested by the saved gate. Read the shared instructions, local goal and checkpoint, whole overview and DAG before inspecting the relevant correspondence and failed-representative arguments. The initial working-tree changes were in another notebook and were preserved. The exact saved calculation remains the target in the [completed assessment](../drafts/literature/2026-09-26-current-target.md); its decision is SPECIALIZE.
+
+The review selects Buchweitz--Flenner's singular embedded obstruction framework and compares it with Tziolas's double-crossing formula, Felten--Filip--Ruddat's abstract smoothing theorem, and stronger semiregularity results. It also checks the exact family source and nearby K3 algebraicity theorems. These are supporting or conditional inputs, not a source for the requested map. The important applicability obligations are global embedded compatibility, the points over infinity, and the distinction between a reduced image and a composition cycle. The assessment records versions, theorem/page numbers, direct links, actual queries and unread leads. Friedman's original article was not inspected and is not an essential dependency of the selected tools.
+
+No new local model, smoothing map or obstruction kernel was derived. There is no evidence yet that the union reaches the fourth RM tangent direction; the previous three-direction threshold and known 21-dimensional family span remain unchanged. Higher-order lifting, algebraization and the universal target remain open. This turn imports literature guidance, not a mathematical discovery or reproduction. Exploration turns used increase from 0 to 1; completing the review does not reset the budget.
+
+The reason to continue is the untested coupling of two rotation supports, which does not contain the distinguished diagonal used in the previous failure. The bounded test is whether the full embedded compatibility map permits a transverse lift; local smoothing parameters or Hodge persistence alone do not meet that threshold. The exact Next action is preserved for a separate research turn using this assessment. The previous stopped representatives remain stopped; no complete candidate exists and STATUS stays IN_PROGRESS.
+
+Lemmas, mathematical scripts, PROOF.md and DAG.md are unchanged because this step adds no mathematical conclusion or dependency. Mathlib coverage is not checked. Only documentation validation is needed for this source review.
+
+Validation: `PYTHONDONTWRITEBYTECODE=1 python3 ../scripts/docs/check_structure.py --problem hodge` passed with 14 nodes and 24 edges. The scoped whitespace check and a check of unique metadata fields, exact TARGET/Next action equality, and literature-step classification also passed. These are documentation checks, not verification of the existing informal mathematics.

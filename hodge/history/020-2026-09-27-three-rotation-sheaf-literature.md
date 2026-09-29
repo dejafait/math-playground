@@ -1,0 +1,13 @@
+# 2026-09-27 — Literature assessment for unfiltered rotation extensions
+
+STEP_ID: 2026-09-27-hodge-020-three-rotation-sheaf-literature. Outcome: EXPLORATION. Kind: LITERATURE. Classification: NOVELTY_UNCHECKED.
+
+Completed the exact saved [extension assessment](../drafts/literature/2026-09-27-three-rotation-sheaf-extensions.md), changing REVIEW_REQUIRED to SPECIALIZE while retaining its target. Read the shared and local instructions, whole overview, DAG, existing changes, L013's proof and the recent failed-route record. Preserved earlier work. No mathematical derivation or lemma/program edit was made.
+
+The corrected Huybrechts--Thomas criterion covers deformation of the middle sheaf without preserving its filtration. Its erratum was read and the applicable absolute formulation over C retained. Stacks and Belmans--Lowen--Okawa--Ricolfi describe the additional problem of lifting quotient or inclusion maps. Pridham controls the semiregularity image, while the inspected Markman and Toda lifting results require extra kernel or equivalence hypotheses. The source review found no theorem computing these extensions' mixed Ext groups or transverse obstruction. These are imported supporting results; the review neither reproduces a target result nor establishes progress beyond the checked literature.
+
+The remaining useful test is an actual global middle-sheaf obstruction vanishing in a direction outside V_D, together with a non-scalar correspondence action. Prior representatives attained three directions against four required. No kernel or action for the new sheaves was calculated, and the known 21-dimensional span is unchanged. A first-order success would still leave higher orders, algebraization, actual transverse surfaces and the universal Hodge gap unresolved.
+
+Keep the exact target for a separate research turn using the now-ready assessment. The bounded test must include all extension classes, global compatibility and infinity; failure to lift the filtration alone is insufficient. One exploration turn is used after L016; no reset or complete candidate is claimed. PROOF.md and DAG.md retain the same mathematical argument and inputs.
+
+Validation: `python3 ../scripts/docs/check_structure.py --problem hodge` passed with 17 nodes and 35 edges. The shared assessment parser accepted SPECIALIZE with the exact unchanged Next action; checkpoint fields and the scoped whitespace check passed. Content hashes confirmed that all 29 existing files under lemmas/ and scripts/, together with PROOF.md and DAG.md, were unchanged. No mathematical or computational experiment was appropriate for this literature-only step. These checks validate documentation and scope, not a new proof.

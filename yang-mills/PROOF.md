@@ -18,6 +18,8 @@ L009 constructs a smooth gauge-covariant link variation from endpoint-averaged, 
 
 L010 computes that generator's exact nonlinear Haar divergence as a planar-strain weighted plaquette-trace sum and specifies Wilson-flow versions of both probes. The divergence begins at order g^2 despite its zero linearized trace. Its isolated contribution to the Ward response is (3/32) times the triplet response column, up to an O(a^2) error in the small-coupling coefficient. This supplies one finite nonzero correction, while the rest of the interacting residual is uncomputed.
 
+L011 expresses the remaining order-g^2 coefficient at each fixed mesh as Gaussian cumulants in the exact forest gauge, with action, coordinate Haar density, insertion, and nonlinear flow terms retained. It distinguishes that coordinate-density correction from L010's divergence insertion. The lattice contractions and their leading cutoff logarithm are unevaluated; this is a perturbative reduction, not an additional ultraviolet bound.
+
 ## Unresolved gap
 
 A construction must remove the ultraviolet cutoff while preserving a nonzero physical observable sector, establish the required gauge-invariant field content and axioms, and control the infinite-volume spectrum with a finite positive mass. None of these Yang–Mills construction steps has been completed here. In particular, a positive ordinary variance does not supply a lower bound on a centered reflection norm.
@@ -44,6 +46,8 @@ For fixed flow time tau = 1/16, L008 proves C_a -> C_tau with det C_tau > 0 for 
 
 For L010's specified nonlinear probes, take the small-coupling limit at each fixed mesh in the response to minus the Haar divergence. Its g^2 coefficient gamma^H_a obeys gamma^H_a = (3/32) C_a(1,0) + O(a^2), so C_a^(-1) gamma^H_a = (3/32,0) + O(a^2). Uniform coefficient comparison and a heat-trace bound control all Gaussian modes. This isolated contribution has no ultraviolet logarithmic growth; it does not determine the full one-loop response, a joint cutoff/coupling limit, or the interacting reflected error.
 
+L011 proves existence of the remaining fixed-mesh coefficient and gives its connected expansion and flow-derivative recursions. External heat suppression does not bound every internal cubic/quartic contraction in that expression. No value, including zero, is established for its cutoff logarithm, and no improvement of the required reflected-error threshold c_box/2 follows.
+
 ## Known traps checked
 
 - Beta = 0 is the infinite bare-coupling endpoint, not the weak-coupling continuum regime. No continuation between these regimes is assumed.
@@ -68,3 +72,4 @@ For L010's specified nonlinear probes, take the small-coupling limit at each fix
 - The positive Gram matrix of L008 uses ordinary mixed Gaussian responses with flowed probes. It neither constructs unflowed continuum quadratic random variables nor gives reflection positivity. Heat flow is nonlocal in Euclidean time; these normalization probes are not identified with the original positive-time local observable algebra. Free invertibility does not determine the Ward right-hand side or control its interacting residual.
 - L009 retains the divergence when linearizing the link identity and checks the extra Hodge gauge-fixing term by conditioning on the transverse Gaussian field. Its clover stencil has zero linearized trace; this is not a claim that the nonlinear Haar divergence vanishes. Smooth-field consistency is supplemented by a summable bound on all heat-weighted modes. Neither that bound nor the limiting free coefficients imply an interacting residual estimate.
 - L010 differentiates the endpoint transport as well as the clovers and retains the resulting nonzero nonlinear divergence. Wilson flow linearizes to the action Laplacian, agreeing with Hodge heat flow on curvatures. Its fixed-mesh Laplace limit is taken before mesh refinement. The O(a^2) comparison is for Gaussian mixed responses only, and other one-loop contributions can alter or cancel its finite coefficient.
+- L011 uses the exact product Haar measure after forest gauge fixing. Higher coordinate polynomials are not transferred to the Hodge Gaussian by the tree-level quotient argument. The Haar coordinate-density correction and the Ward-divergence insertion are distinct. Its nonlinear flow expansion includes flow times approaching zero, so damping at the final probe time is not asserted for every internal loop.

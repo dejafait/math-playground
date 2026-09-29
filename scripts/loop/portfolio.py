@@ -55,6 +55,6 @@ def choose(rows, state, resolved, only=None):
         if only and slug != only:
             continue
         if (rows[i]['enabled'] and not state['problems'].get(slug, {}).get('research_halt')
-                and not resolved(slug)):
+                and (state['problems'].get(slug, {}).get('research_recovery') or not resolved(slug))):
             return slug, ids[(i + 1) % len(ids)]
     return None, None

@@ -1,0 +1,17 @@
+# 2026-09-26 — Repair the assessment's direct-source field
+
+STEP_ID: 2026-09-26-hodge-014-source-evidence-repair. Outcome: STALLED. Kind: LITERATURE. Classification: NOVELTY_UNCHECKED.
+
+Completed one focused source review for the unchanged saved target. Read the shared instructions, local goal and checkpoint, complete overview and DAG, and inspected the existing changes. The prior local review and history 013 were already present and are preserved; work in other notebooks was left untouched.
+
+The gate rejected the assessment because its single-line SOURCE_EVIDENCE field contained no URL, although the body already linked the papers. Reused the existing theorem comparisons and made one focused search for Buchweitz--Flenner's principal embedded-deformation input. Reread the published statements of Lemma 4.13, Lemmas 7.6--7.7, Theorem 7.8 and Remark 7.11(1), pp. 173 and 190--192. The [assessment](../drafts/literature/2026-09-26-current-target.md) now places the direct publisher PDF URL in the required field and records this recheck separately from the reused review. The decision remains SPECIALIZE.
+
+The named gap remains a representative extending the cubic RM action in the transverse direction. The proposed intermediate target is still the global embedded smoothing map for the reduced two-rotation union. A transverse lift could extend the known cycle construction after its action is checked. The assessment retains the discriminating test: continue for an actual transverse lift or a concrete cancellation channel with a bounded remaining check; stop this representative if global compatibility forces its obstruction to persist. Its geometry at infinity and the distinction between image support and composition cycle remain obligations. Prior stopped representatives have not been reopened.
+
+No map, intersection stratum, kernel dimension, or new mathematical input was computed. Four lifting directions are needed, while earlier representatives attained three; no extension of the known 21-dimensional cycle span is established. Higher-order lifting, algebraization, and the universal target remain unresolved. The general tools are known and reused by citation; this review establishes no result beyond the checked literature. No complete candidate exists, and STATUS remains IN_PROGRESS.
+
+This is STALLED because the source check confirms the existing assessment without new mathematical evidence or a changed research decision. A metadata repair is not a mathematical advance, informative negative result, or fresh exploration. Exploration turns used remain 1, without a reset. The exact Next action and NEXT_REVIEW are preserved for a separate research turn; further repetition of this source review is unnecessary while its target and assumptions remain unchanged.
+
+Lemmas, mathematical scripts, PROOF.md and DAG.md are unchanged. Mathlib coverage remains not checked. This turn requires documentation and gate validation only.
+
+Validation: `PYTHONDONTWRITEBYTECODE=1 python3 ../scripts/docs/check_structure.py --problem hodge` passed with 14 nodes and 24 edges. The shared literature validator accepted the completed turn and the unchanged next target as SPECIALIZE. Exact target equality, fresh report fields, unchanged mathematical artifacts and prior history 013, and scoped whitespace checks passed. These checks validate the documentation and gate contract, not the informal mathematics.

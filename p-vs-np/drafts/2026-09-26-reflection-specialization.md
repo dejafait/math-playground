@@ -1,0 +1,13 @@
+# Working record: specializing the supplied soundness refutation
+
+Saved 2026-09-26 before completing the argument; completed in [L013](../lemmas/L013-soundness-refutation-specialization.md). The initial outline below is preserved as a working record, not a candidate resolution or the current checkpoint.
+
+**Authorized target.** Reuse the prior SPECIALIZE assessment in [the source review](literature/2026-09-26-current-target.md). For fixed polynomial-time A, transform a supplied ER refutation of L011's H_(A,N) and a rejected length-N CNF F into an ER refutation of F, with one polynomial bound in the complete input and proof lengths. The missing main ingredients remain short soundness refutations and a relevant ER lower bound.
+
+**Implementation issue.** L011 specifies the evaluator by parsing, sorting identifiers, densely indexing assignment bits, and evaluating clauses, without fixing its circuit-level implementation. Fix that construction explicitly: a frontend depending only on the formula bits produces validity, padded clause/literal activity flags, signs, and dense ranks; fixed bounded loops select assignment bits and evaluate clauses. This refines the stated construction. It gives no conversion from an independently chosen, merely equivalent evaluator.
+
+**Proposed applicability argument.** After substituting the code of F, derive every frontend gate's constant value. Prove that each selected assignment wire is the appropriate original variable, each active literal is its signed literal, and each padded clause is either the corresponding clause or true. This should give a polynomial circuit-Frege proof identifying Eval_N(F,a) with F. The rejection circuit on the fixed code has a polynomial constant-evaluation proof as well. Import ER/CF polynomial conversions and circuit substitution from the assessed sources, substitute circuit values for the gate variables in the supplied proof, and discharge the resulting gate identities and two output assertions from F.
+
+**Checks identified in the outline.** Keep the polarity of refutation correct; distinguish gate clauses used as hypotheses from fresh extension definitions; handle empty clauses, repeated literals, unused assignment bits, and large original variable identifiers; account for sharing and all proof references. The specialization must not assume a short proof of an arbitrary circuit equivalence or construct the supplied soundness proof. L013 addresses these points and bounds the overhead by a composition of the imported polynomial simulations and explicit polynomial evaluator-identification costs.
+
+Mathlib coverage: **not checked**. The assessed named inputs are recorded in [the reflection source note](../foundations/06-reflection-specialization.md).

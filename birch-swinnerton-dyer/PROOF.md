@@ -7,8 +7,7 @@ The [standard inputs](foundations/02-standard-inputs.md) include finite generati
 ## Unresolved gap
 
 For arbitrary E/Q with analytic order m(E) >= 2, the missing claim is rank E(Q) = m(E).
-Finite Selmer sizes have a Tate–Shafarevich defect;
-cyclotomic characteristic order has an additional augmentation defect.
+Finite Selmer sizes have a Tate–Shafarevich defect; cyclotomic characteristic order has an additional augmentation defect.
 The certificates remove defects conditionally; their uniform production and comparison with m(E) remain missing.
 No checked generalised Kato construction supplies a nonzero rational Kummer class from m(E) = 2 alone; a cycle-valued specialization is missing.
 
@@ -76,13 +75,14 @@ L011 pairs Delta_d with the one-dimensional minus **relaxed** Selmer space, whic
 On the strict vector from rational P,Q its coefficient is log_p(Q)t_d(P)-log_p(P)t_d(Q), independent of the local lift choice.
 Dual complexes and an injective rational logarithm permit a nonzero determinant in a formal full-Kummer model.
 Automatic vanishing is not a consequence of those data; its truth for actual rational points remains unresolved.
+L012 specializes [rank-zero Kato reciprocity](foundations/11-rank-zero-kato-reciprocity.md): w = res_K(z_tw) generates the relaxed minus line, and its mixed pairing is 2 lambda t_d with lambda != 0.
+The lift asks whether -tilde_d cup z_tw vanishes in H^2(Q,V), for an explicit extension of V tensor chi_K by V. This remains uncomputed and supplies no new rank bound.
 
 ## Known traps checked
 
 - The rank assertion differs from central vanishing and the refined formula.
 - The zero/one theorem retains its analytic hypothesis; Selmer rank need not equal rational rank.
-- A nondegenerate pairing on finite Sha does not make its p^n-torsion
-  restrictions nondegenerate or give a stopping depth. The models vary
+- A nondegenerate pairing on finite Sha does not make its p^n-torsion restrictions nondegenerate or give a stopping depth. The models vary
   with depth and respect eventual descent and independent-point certificates.
 - Abstract models do not prove arithmetic realizability or BSD.
 - Control's finite errors disappear over Q_p; characteristic length can still exceed dimension.
@@ -97,4 +97,4 @@ Automatic vanishing is not a consequence of those data; its truth for actual rat
   complex vanishing orders are distinguished throughout.
 - A fiber trace need not lift; its obstruction is not non-Kummer membership of an individual class.
 - Ordinary lifting need not preserve strictness; neither lifting condition is identified with Kummer membership. The dual of zero local conditions is relaxed, so ordinary height vanishing does not settle the mixed pairing.
-- Scalar Coleman data alone do not force full-localization divisibility; local freedom is not a global realization.
+- Scalar Coleman data alone do not force full-localization divisibility; local freedom is not a global realization. A nonzero Kato reciprocity value normalizes the relaxed class without deciding its anticyclotomic obstruction.

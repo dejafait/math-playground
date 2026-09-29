@@ -36,6 +36,10 @@ A 2026-09-26 recheck confirms the same 199-page May 2020 IUT III. In (cQ3), prin
 
 The exact claim above is an object of investigation, not an accepted theorem used to prove itself. The full initial-data definition and all prerequisite constructions have not been checked. No full IUT instance is constructed here. There is consequently no inference from a reduced example to falsity of Corollary 3.12.
 
+## Realification source comparison, 2026-09-26
+
+The [completed literature assessment](../drafts/literature/2026-09-26-current-target.md) reads Frobenioids II, Example 5.6(iii)–(iv), its local constructions and the relevant realification definitions, including the correction sheets. The [cited global degree input](03-realification-and-arithmetic-degree.md) is available independently of any proposed interpretation of L005. The remaining specialization concerns the markings and localization identifications; no preservation or disappearance of Δ for the actual (cQ3) data is asserted.
+
 ## Mathlib
 
 Full IUT comparison statement: **not checked**. Supporting library results: **not checked**. No claim of absence is made, and no formal verification is claimed.
