@@ -1,0 +1,5 @@
+# A failing beta choice as an objection to the packet bound
+
+Assessed mathematically on 2026-10-03 within the screened fixed Q_2(sqrt(2)) tensor packet. [L007](../lemmas/L007-tensor-log-shell-rounding-depends-on-beta.md) proves that the two stated beta constraints alone do not suffice for the auxiliary saturated rounding step: one conductor-generating beta gives hull radii 128 instead of 16. The canonical last-factor beta gives exact rounding in the same packet.
+
+WHY IT FAILS: failure for an admissible beta refutes a beta-independent implication, but does not refute an existential estimate that can choose the favorable beta. Moreover the native proposition encloses a O_L, whereas the failing intermediate region is the larger a beta^(-1) I. The nonunit at residue characteristic 2 is a local §6.2 test, not an actual bad-place theta-pilot instance. This restricted objection is stopped without deleting its informative failure. Testing a changed scalar with the canonical beta, after source screening, is a different question; neither question supplies the missing original pilot comparison or normalized finite B >= A.

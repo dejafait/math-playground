@@ -1,13 +1,18 @@
 # Paired states and suffix minima: literature assessment
 
 TARGET: Test whether a linear invariant in the two paired states and their suffix minima can exclude simultaneous non-descent for the four-block alphabet while preserving the one-block depth offset.
-CHECKED: 2026-09-27
+CHECKED: 2026-10-03
 DECISION: SPECIALIZE
-SEARCH_EVIDENCE: Searches on 2026-09-27 covered Collatz paired and linear invariants, suffix minima, inverse-tree stopping conditions, polyhedral invariants, and integer invariant synthesis; exact queries and inspected sources appear below.
-SOURCE_EVIDENCE: Read Colón–Sankaranarayanan–Sipma (CAV 2003), Theorems 1–2, https://theory.stanford.edu/~sipma/papers/cav03.pdf; Bradley–Manna–Sipma (CONCUR 2005), Definitions 2–6 and Theorem 2, https://theory.stanford.edu/~arbrad/papers/z.pdf; Shoham, arXiv:1812.01069v2, Definition 1, section 3.1 and Theorem 1, https://arxiv.org/pdf/1812.01069v2; additional Collatz comparisons and reused citations are identified below.
+SEARCH_EVIDENCE: Reused the adequate 2026-09-27 exact-target screen; recovery searches on 2026-10-03 compared modular sufficient sets and Diophantine cycle exclusions with the exhausted paired route; exact queries and inspected sources appear below.
+SOURCE_EVIDENCE: Reused the inspected Colón–Sankaranarayanan–Sipma Theorems 1–2, https://theory.stanford.edu/~sipma/papers/cav03.pdf; Bradley–Manna–Sipma Theorem 2, https://theory.stanford.edu/~arbrad/papers/z.pdf; Shoham Theorem 1, https://arxiv.org/pdf/1812.01069v2; additionally read Monks et al., arXiv:1204.3904v2, section 6, Theorem 6.4 and Proposition 6.5, https://arxiv.org/pdf/1204.3904v2; Hercher, arXiv:2201.00406v3, Definitions 4–5 and Theorem 23, https://arxiv.org/pdf/2201.00406v3.
 COMPARISON: Known methods cover checking and searching specified linear inductive certificates; no inspected theorem supplies the requested certificate for the paired histories, and real-variable completeness does not establish completeness for their exact integer guards.
 GAP: Find or obstruct a linear certificate preserving both suffix minima and the one-block offset and excluding every terminal pair whose starts each meet their own non-descent threshold.
-REASON: Reuse established invariant verification and synthesis methods; the remaining specialization is the exact paired integer system and its safety separator, whose existence is unresolved. The third exploration turn completes this assessment without resetting the budget.
+REASON: The exact certificate remains a justified specialization but has not been found or refuted; the exhausted three-turn batch is parked, and recovery selects a distinct forward modular-graph target with its own REVIEW_REQUIRED assessment.
+
+The body below records the September 27 assessment and its bounded test.
+The October 3 recovery comparison is appended at the end. SPECIALIZE is
+a literature-coverage decision, not permission to repeat the exhausted
+exploration batch; the current route and sole action are in PROGRESS.md.
 
 ## Hypotheses
 
@@ -257,3 +262,85 @@ negative result. It is therefore EXPLORATION, not ADVANCE or NEGATIVE.
 The third-turn assessment and continuation/stop decision are complete:
 retain the screened invariant test for possible resumption, and stop
 this exploration batch. No candidate proof or disproof appeared.
+
+## 2026-10-03 supervisor recovery
+
+The saved target above is unchanged for this completed review. Its prior
+assessment is sufficient and is reused without mechanically repeating
+the paired-invariant searches or source retrievals. No essential input
+to that method is inaccessible. The unread leads remain unassumed.
+The recovery request requires a different future target, so retaining
+this action as the current continuation would not repair the exhaustion.
+
+The gap is still earlier growth compensating the forced contractions.
+The proposed paired invariant would address restricted all-depth suffix
+rigidity, with fixed-start depth control and other block types left open.
+The achieved analytical depth is three; the saved screen reaches eleven.
+Neither meets the all-depth requirement. The prior initialization,
+preservation, and terminal-separation test remains the correct test of
+this certificate class; no coefficients have been searched this turn.
+
+### Three mechanisms compared
+
+| Mechanism | Inspected evidence and relation to previous work | Recovery decision |
+| --- | --- | --- |
+| Paired linear invariant with suffix minima | Reuse the complete screen above. General certificate synthesis supplies no local certificate, and the finite paired screen leaves compensation unresolved. | Park the exhausted batch; preserve L011/L012 and their tests. |
+| Diophantine exclusion of periodic orbits | Hercher, arXiv:2201.00406v3 (2023-04-04), Definitions 4–5, pp. 2–3, and Theorem 23 with its proof, pp. 15–16, exclude nontrivial cycles with at most 91 local minima, using the paper's stated verification input. | Covered finite-cycle exclusions should be cited, not reproved. No argument for all cycle sizes or divergent orbits was supplied by this comparison; do not activate this route. |
+| Forward modular graph and parity imbalance | Monks et al., arXiv:1204.3904v2, section 6 definitions, pp. 16–17, Theorem 6.4, pp. 22–23, and Proposition 6.5, pp. 23–25, give qualitative visitation and graph criteria. | Select effective hitting-time control as a different intermediate gap; its exact quantitative statement still needs review. |
+
+The graph mechanism controls one forward path across unrestricted
+shortcut steps. It uses no paired merge, suffix minima, decoder
+uniqueness, or endpoint-density count. The proposed time bound depends
+on the starting size; Attempts 001 and 003 refute common bounded
+windows, not this specification. This distinction does not establish
+the proposed bound.
+
+The modular theorem requires neither reproof nor a new local lemma in
+this recovery. It does not give the paired separator. A quantitative
+avoidance bound could support a later induced-return analysis on a
+residue class and a finite base set; descent after visitation remains
+an independent unresolved step. There is no claim of progress beyond
+the inspected literature.
+
+### Search and reading record
+
+Queries executed on October 3:
+
+- `Collatz strongly sufficient sets arithmetic sequences Monks 1204.3904 theorem`
+- `Collatz nontrivial cycles m cycles Simons de Weger 2005 pdf`
+- `Collatz sufficient set residue classes minimal counterexample descent Andaloro 2000`
+
+The Monks manuscript's graph definitions, Proposition 6.2 and its proof,
+Proposition 6.3, the complete proof of Theorem 6.4, and the statement
+and forward-path argument of Proposition 6.5 were inspected. The PDF
+margin identifies v2, 2012-04-20, while its retrieved title page reads
+November 27, 2024; retain the exact versioned URL rather than infer a
+different revision. The newly inspected section 6 extends the previous
+assessment's section 4–5 reading.
+
+Hercher's version is identified by its PDF margin as v3, 2023-04-04.
+Read its cycle definitions, numerical input convention, and Theorem 23
+with its proof. Its computational verification and all cited inputs
+were not independently audited, and it is not an essential premise of
+the selected graph direction. The author-hosted Simons–de Weger
+[2005 PDF](https://math.deweger.net/papers/%5B35%5DSidW-3n%2B1-ActaArith%5B2005%5D.pdf)
+opened but produced no extracted text. Its theorem statements were not
+read, no result is imported from that file, and dependent work is parked
+without repeating access attempts. New search hits claiming stronger
+cycle bounds were not read or relied on; no latest-bound claim is made.
+
+The [MathPrize statement](https://mathprize.net/posts/collatz-conjecture/),
+page dated July 7, 2021, was read again: every positive integer must reach
+1 under the unshortened map. The target and local conventions are
+unchanged. Prize rules are outside this mathematical review.
+
+The different target has a
+[REVIEW_REQUIRED assessment](2026-10-03-mod27-effective-hitting.md).
+Its quantitative source search and comparison have not been performed.
+The present recovery is EXPLORATION, not a mathematical advance or
+informative negative result. It adds primary-source comparisons and a
+concrete different test; it does not merely repeat the previous stop.
+The exhausted batch's three turns are preserved, with this recovery
+recorded separately. No scheduler state or counter is edited. Full
+Mathlib coverage for either the paired certificate or the graph-bound
+target remains **not checked**. No complete candidate appeared.

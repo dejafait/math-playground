@@ -1,13 +1,15 @@
 # Distinguished pilot admissibility — source assessment
 
 TARGET: Review IUT III, Remark 3.12.2(ii), and its cited q-pilot constructions to determine which L006 marked collections can represent the distinguished pilot before quotienting.
-CHECKED: 2026-09-27
+CHECKED: 2026-10-03
 DECISION: SOURCE_BLOCKED
-SEARCH_EVIDENCE: Searched the exact Remark 3.12.2/q-pilot/intertwining labels, q-pilot with splitting/degree, marking, arbitrary degree and admissibility; followed Definition 3.8 to IUT II, Definition 4.9(viii) and Corollary 4.10(i), and their IUT I references; searched current IUT I copies and the Dupuy–Hilado statement paper. Queries and access limits are recorded below.
-SOURCE_EVIDENCE: Read May 2020 IUT III, Definition 3.8(i)–(iii), Remark 3.8.1 and Remark 3.12.2(ii); December 2020 IUT II, Definition 4.9(i)–(viii) and Corollary 4.10(i); June 2017 IUT I, Example 3.5(i)–(ii) and Definition 5.2(i)–(iv); Dupuy–Hilado arXiv:2004.13228v1, §§2.5.4–2.5.5 and 3.1–3.4, plus the v2 statement and example passages specified below. The May 2020 IUT I construction passages remain unread.
+SEARCH_EVIDENCE: The 2026-09-27 exact-label, construction and alternative-copy searches below are reused; the 2026-10-03 recovery reread the Dupuy–Hilado v2 introduction and searched independent hull estimates, as recorded in the linked recovery screening. No failed IUT I or March 2024 exposition retrieval was repeated.
+SOURCE_EVIDENCE: The primary passages read on 2026-09-27 are retained below, including the version-qualified IUT I and Dupuy–Hilado readings. On 2026-10-03 reread arXiv:2004.13228v2, §1, statements 1.0.1–1.0.2 and its explicit exclusion of the output-hull construction; independently read the numerical sources specified in the recovery screening. The May 2020 IUT I construction passages remain unread.
 COMPARISON: IUT II, Definition 4.9(viii), specifies the pilot up to isomorphism from the complete prime-strip data; L006 instead allows an independently chosen global object and object-level markings. These are not an established correspondence, and no inspected statement characterizes the admissible L006 collections.
 GAP: Authenticate and read the current IUT I definitions of the underlying prime-strip, its localization data and q-splitting before completing the applicability comparison; then identify the pilot, output target and markings in a common normalized realization. The separate formal-quotient source blocker remains in force.
-REASON: The review identifies concrete source constraints but does not finish the exact comparison. Complete the bounded assessment as blocked and stop the exploration sequence at 3/3; retain the target without authorizing another free-degree example or dependent calculation. An older text or an access failure is not evidence of an IUT flaw.
+REASON: The original assessment is sufficient to park this exact target as SOURCE_BLOCKED; it is not a ready mathematical assessment. The 2026-10-03 recovery preserves its obstruction and selects a materially different local-hull source audit. Neither older text, failed access nor the computable initial-data theorem supplies the missing L006 correspondence.
+
+The original review record below was completed on 2026-09-27. Its mathematical comparison and access qualifications are preserved. The recovery decision at the end supersedes its recommendation to retain the same active action.
 
 ## Scope, required bound and continuation test
 
@@ -74,3 +76,13 @@ Outcome: **EXPLORATION**; kind: **LITERATURE**; classification: **NOVELTY_UNCHEC
 ## Mathlib
 
 Full pilot-admissibility statement: **not checked**. Supporting Frobenioid, pilot and normalization coverage: **not checked**. The cited papers are source evidence, not a claim of a Mathlib match or formal verification.
+
+## Recovery assessment, 2026-10-03
+
+Reused this assessment for its exact TARGET instead of repeating the blocked access sequence. Reread [Dupuy–Hilado v2, §1](https://arxiv.org/html/2004.13228v2#S1): the computable-initial-data theorem does not address the output construction. It therefore cannot complete the missing marked-pilot comparison. No current IUT I passage was newly obtained, and no admissibility or inadmissibility conclusion follows.
+
+Reread the [original official announcement](https://zen.ac.jp/news/0ul6zqed9-0) and [current prize page](https://zen.ac.jp/en/lp/icp) on this date. Their inherent/essential-flaw scope and separation of adjudication from mathematical correctness still agree with the existing challenge record. No source-scope change justifies reopening the stopped shortcuts.
+
+The source-supported recovery comparison is saved in the [new hull-transport screening](2026-10-03-hull-transport-screening.md). It compares three numerical mechanisms, identifies readable native lattice estimates, and retains a separate REVIEW_REQUIRED target. The exhausted defect/pilot/quotient route is preserved in [ATTEMPTS/006](../../ATTEMPTS/006-realified-pilot-and-quotient-source-blockers.md). The saved target remains SOURCE_BLOCKED and is parked; the separate March 2024 blocker is unchanged. Neither essential unread source was retried or silently replaced.
+
+The required finite B ≥ A and the existing bound d(G) ≤ d(D) − δ are unchanged. No new sign control, numerical identification, mathematical input or candidate flaw was obtained. This recovery supplies a new bounded source comparison and an independent test, classified EXPLORATION / LITERATURE / NOVELTY_UNCHECKED; it is not an advance or informative mathematical negative, and it does not self-reset the exhausted 3/3 sequence.

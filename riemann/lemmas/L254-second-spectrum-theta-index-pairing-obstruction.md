@@ -37,7 +37,7 @@ The leading coefficients for j=0,1,2,3,4 are respectively −2d_n, 4d_n, −12d_
 
 Each remaining product is O_nm(x^(−10)). L234 proves the exact modular cancellation Σ_n d_n=0, absolute convergence of this sum, and
 
-d_n=−2πn²(2πn²−1)(4πn²−15)e^(−πn²).
+d_n=−2πn²(8π²n⁴−30πn²+15)e^(−πn²).
 
 It also proves d_1>0 and d_m<0 for m≥2. Thus the leading coefficient of 2B_1m is strictly negative, proving the assertion for each fixed m.
 

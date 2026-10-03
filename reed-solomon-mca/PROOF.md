@@ -20,8 +20,7 @@ if an attained maximum is assumed, the witness is excluded by that hypothesis.
 ## Unresolved gap
 
 The ABF26 event, allowed parameters, and field-size and endpoint qualifications remain uncertified.
-For the frozen event, small and some distance-boundary cells are exact, but the sharp radius at a given field size is unknown in general.
-One smooth code has a proved crossing in this model; wider sharp errors and terminal field-size qualifications remain.
+For the frozen event, small and some distance-boundary cells are exact and one smooth code has a proved crossing; wider sharp radii and terminal field-size qualifications remain.
 Changing the field changes the code; a grid maximum, supremum, and attained maximum differ.
 
 ## Partial results
@@ -73,8 +72,10 @@ Its count 130 at n=256,k=128,r=64 is insufficient for q=257^32. Wider sharp erro
 L009 limits a full two-dimensional syndrome orbit to weighted order-four cosets and four projective directions; general lines remain open.
 L010 bounds a general affine pencil by sixteen bad parameters when its Hankel determinant and all coordinate locators are nonzero polynomials.
 Singular parameter values are included through root multiplicity. Equality requires split squarefree quartics whose roots each occur at exactly four coordinates, with nonzero Hankel determinant there.
-Thus sixteen would require sixteen distinct four-error supports, each coordinate used four times. Existence and the excluded identically vanishing polynomials remain unresolved.
-For H of order 16 in F_97^* and q=97^20, the budget permits fifteen; this restricted bound is one too large, and the global bounds remain 10/q and 69/q.
+Thus sixteen would require sixteen distinct four-error supports, each coordinate used four times; its existence remains unresolved.
+L011 covers nonzero-D pencils with a persistent coordinate locator: puncturing leaves at most three errors, including at singular parameters.
+Loss of original input failure forces a common four-coordinate residual family with at most four bad parameters; otherwise the cited punctured MCA bound gives twelve.
+For H of order 16 in F_97^* and q=97^20, this class meets the allowable fifteen. Nonpersistent sixteen-count equality and D identically zero remain unresolved; global bounds stay 10/q and 69/q.
 
 ## Known traps checked
 
@@ -88,7 +89,7 @@ exact converse is restricted to terminal radii. L004 does not infer global
 sharpness from a sharp local factor. L005 handles zero quotient directions
 and lines through the origin. L006 uses its strict distance condition and
 same-support failure even when its entire affine family is r-sparse.
-L007 treats equality separately. L008 proves same-support failure and degree bounds over every extension and makes no global-sharpness claim.
+L007 treats equality separately. L008 proves same-support failure and degree bounds over every extension and makes no global-sharpness claim. L011 treats lost original-support failure and allows nonsmooth punctured domains; closeness alone is not counted as badness.
 No common codeword is assumed; L009's orbit obstruction and L010's restricted bound are not global bounds. L010 proves same-support failure and the converse locator test, including lower-weight multiplicities.
 The terminal-radius hypothesis \(q>\binom N2\) is not dropped when claiming
 necessity of the field threshold. The threshold examples have smooth
@@ -96,5 +97,4 @@ domains, listed rates, and exact comparisons with \(2^{-128}\). A nonempty
 safe set does not establish an unspecified field-size hypothesis, and one
 field does not settle an eventual assertion or a different code. Algebra proves
 the results; finite searches, punctured-code checks, and arithmetic are auxiliary.
-No experiment, library claim, endpoint observation, or prize-adjudication rule
-is presented as a verified resolution.
+No experiment, library claim, endpoint observation, or prize-adjudication rule is presented as a verified resolution.

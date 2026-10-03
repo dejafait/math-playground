@@ -1,14 +1,14 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: 2026-09-27-20-kpt-output-cover-literature
-STEP_OUTCOME: EXPLORATION
-STEP_EVIDENCE: drafts/literature/2026-09-27-kpt-polynomial-output-cover.md completes the source comparison: parallel witnessing retains earlier replies and supplies no complete-output cover or EF coverage proof; the conditional sufficiency test is now precisely screened.
-STEP_KIND: LITERATURE
-STEP_CLASSIFICATION: NOVELTY_UNCHECKED
-STEP_REVIEW: drafts/literature/2026-09-27-kpt-polynomial-output-cover.md
-Bottleneck: No polynomial-time SAT algorithm or unconditional separation is established. Complete-output covers with short EF coverage proofs, their conditional transfer, the existential arithmetic premise and a superpolynomial EF/ER lower bound remain missing.
-Route decision: Keep direct canonical recovery stopped. Test only the sufficiency of supplied complete-output covers and proofs; importing parallel witnessing does not establish those premises. No new mathematical result or novelty is claimed.
-Exploration turns used: 1
-NEXT_REVIEW: drafts/literature/2026-09-27-kpt-output-cover-transfer.md
-Next action: Test whether supplied polynomial lists of complete second-round outputs and polynomial EF proofs of their coverage on first-round solver counterexamples yield EF polynomial boundedness from a supplied two-round KPT strategy and SAT∈P, without canonical-selector soundness proofs.
+STEP_ID: 2026-10-03-24-log-degree-ips-binary-bound
+STEP_OUTCOME: ADVANCE
+STEP_EVIDENCE: lemmas/L016-log-degree-formula-ips-er-binary-bound.md specializes the known logarithmic-degree F₂/3CNF formula simulation: substitutions preserve logarithmic degree/depth, the binomial factor is polynomial, and full binary ER length is polynomial in supplied data.
+STEP_KIND: RESEARCH
+STEP_CLASSIFICATION: REPRODUCTION
+STEP_REVIEW: drafts/literature/2026-10-03-noncommutative-ips-er-simulation.md
+Bottleneck: No polynomial-time SAT algorithm or unconditional separation is established. General-degree polynomial formula-IPS-to-EF/ER simulation, hard CNF families, an unrestricted EF/ER lower bound and a decision-to-ER transfer remain missing; KPT cover/proof and arithmetic premises stay unprovided.
+Route decision: The screened binary specialization succeeds as known-mathematics reproduction; covered polynomial certificate families have polynomial ER proofs. Consider EF sharing only after a separate review of the changed degree/representation hypotheses. Preserve the KPT stops and do not infer unrestricted simulation.
+Exploration turns used: 0
+NEXT_REVIEW: drafts/literature/2026-10-03-shared-homogeneous-ips-ef.md
+Next action: Test whether shared homogeneous-component circuits yield a polynomial EF/ER simulation of arbitrary-degree balanced F₂ noncommutative formula-IPS certificates for 3CNFs.

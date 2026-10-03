@@ -1,15 +1,16 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: 2026-09-27-mca-014-source-retrieval-stop
-STEP_OUTCOME: STALLED
-STEP_EVIDENCE: Author, institutional-deposit and official-companion retrieval paths still supplied no readable July ABF26 theorem text; the comparison remains SOURCE_BLOCKED and this repeated retrieval sequence is stopped — drafts/literature/2026-09-26-current-target.md.
+STEP_ID: 2026-10-03-mca-018-singular-distance-source-comparison
+STEP_OUTCOME: EXPLORATION
+STEP_EVIDENCE: The source comparison covers finite-field PGZ rank, agreement-support enlargement and a general MDS packing estimate overlapping L007; it approves the unchanged singular-pencil target as SPECIALIZE, with the determinant-to-original-event application still unproved — drafts/literature/2026-10-03-identically-singular-distance-transfer.md; history/018-2026-10-03-singular-distance-source-comparison.md.
 STEP_KIND: LITERATURE
 STEP_CLASSIFICATION: NOVELTY_UNCHECKED
-STEP_REVIEW: drafts/literature/2026-09-26-current-target.md
+STEP_REVIEW: drafts/literature/2026-10-03-identically-singular-distance-transfer.md
+LITERATURE_REASON: The saved target changed D nonzero to D identically zero and had REVIEW_REQUIRED; its rank and original-support comparison needed screening.
 
-Bottleneck: At four omissions for RS[F_(97^20),H,8], the budget permits fifteen challenges; L010's restricted bound is sixteen and the global bounds remain 10/q and 69/q. Equality, excluded locator degeneracies, and the current ABF26 definition and qualifications remain unresolved.
-Route decision: SOURCE_BLOCKED; stop this exhausted source-retrieval sequence and preserve the exact four-block target with its existing geometric comparison. A readable authoritative July source is needed before dependent calculations; unchanged metadata does not justify another review. This source stop does not refute the construction or prohibit other research routes. The full-orbit construction stays stopped; the F_(17^32) crossing is preserved. No complete challenge candidate is present.
-Exploration turns used: 3 of 3 since L010, conservatively including both STALLED source reviews; assessment ends with a stop decision, without a reset or new bound.
-NEXT_REVIEW: drafts/literature/2026-09-26-current-target.md
-Next action: For the four blocks A_i={8^(4i+j):0<=j<4}, 0<=i<4, in F_97, reduce syndrome lines meeting all four associated error spaces to a 4-by-4 eigenvector problem and test the resulting lines against L010's sixteen-challenge criterion over F_(97^20).
+Bottleneck: At four omissions for the pinned RS[F_(97^20),H,8], fifteen challenges are allowed. Persistent-root pencils with nonzero D now have at most twelve; L010 still allows sixteen without persistent roots. D identically zero and July ABF26 correspondence remain untreated; global bounds stay 10/q and 69/q.
+Route decision: Use the ready SPECIALIZE assessment for one mathematical application on the unchanged singular target. Import covered rank/support/packing ingredients and reuse L007 and L010's pointwise identity; check only applicability and the original-event passage. The proposed five count is not established and its originality is uncertified. Four-block/July work stays parked under ATTEMPTS/005; no complete candidate is present.
+Exploration turns used: 0 consecutive uninformative mathematical turns since L011; singular-target mathematical attempts: 0. This literature EXPLORATION does not spend or reset that budget. The parked 3-of-3 exhaustion and two STALLED reviews remain recorded; no runner state was changed.
+NEXT_REVIEW: drafts/literature/2026-10-03-identically-singular-distance-transfer.md
+Next action: For the pinned RS[F_(97^20),H,8] event on [1/4,5/16), test whether D(T)=0 identically excludes weight-four representatives and lets L007 control the full original bad set by five parameters.

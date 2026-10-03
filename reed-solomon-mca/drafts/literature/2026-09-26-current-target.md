@@ -1,13 +1,13 @@
 # Four-block syndrome-line literature assessment
 
 TARGET: For the four blocks A_i={8^(4i+j):0<=j<4}, 0<=i<4, in F_97, reduce syndrome lines meeting all four associated error spaces to a 4-by-4 eigenvector problem and test the resulting lines against L010's sixteen-challenge criterion over F_(97^20).
-CHECKED: 2026-09-27
+CHECKED: 2026-10-03
 DECISION: SOURCE_BLOCKED
-SEARCH_EVIDENCE: Reused the September 26 geometric and coding searches and September 27 review 013; review 014 additionally checked official-companion source availability and Zenodo, EPFL, Bocconi and Stanford deposit leads, alongside the primary links and author entries. Dated queries and access results are below; no authoritative readable July copy was found.
-SOURCE_EVIDENCE: Reused September 26 readings of Martin del Campo Sanchez (2012), §III.D.1, pp. 29–30; Sottile, arXiv:alg-geom/9510017v1, §7.1, pp. 14–15; Yuan–Zhu, arXiv:2605.07595v2, Definition 4.1 and Theorem 6.6; Gao–Yang–Xu–Kan, arXiv:2607.10572v1, Definitions 7–8 and Corollary 2; and Chojecki's named statements below. September 27 reviews read ABF26 metadata, author entries and the official companion README; the PDF and archive remained inaccessible. No additional primary mathematical statement was recovered.
-COMPARISON: Classical geometry covers the generic eigenvector mechanism; the inspected coding results do not supply this fixed-block sixteen-challenge witness or a uniform fifteen-challenge bound. Comparison with ABF26's updated attack bounds remains incomplete.
+SEARCH_EVIDENCE: Reused the September 26–27 exact-target searches and their recorded access failures; no July PDF, archive, author-copy or deposit retrieval was repeated. October 3 recovery screened three different mechanisms using matrix-pencil, secant-line, puncturing and recurrence searches recorded in drafts/literature/2026-10-03-persistent-root-puncturing.md.
+SOURCE_EVIDENCE: Reused the geometric and nearby coding statements cited below. October 3 additionally read Sergeichuk 0801.0823v1, Theorems 2(d) and 4; Gesmundo–Han–Lovitz 2407.16767v2, §2 and Lemma 7.1; Hall §§5.2 and 6.2; Massey Theorems 3 and 5; and the author-hosted November 11, 2025 BCHKS manuscript, Theorems 1.3 and 4.6. The official grand MCA section was reread; the July ABF26 text remains unread, with access failure reused rather than retried.
+COMPARISON: The known generic eigenvector mechanism is still supporting geometry, not a fixed-block sixteen-challenge witness. The newly read sources support independent model-specific mechanisms but do not supply the saved finite-field construction or certify the July ABF26 comparison.
 GAP: Read the authoritative July ABF26 event, smooth-domain and field qualifications, endpoint convention, and added MCA lower bound; then assess the prescribed finite-field specialization and locator equality test against them.
-REASON: Preserve the exact proposed calculation and cited geometric ingredients, but stop the exhausted retrieval sequence after three reviews without a new bound or informative negative result. The essential July source gap still prevents a complete comparison; no dependent research is authorized by this assessment.
+REASON: Park the exact four-block calculation and exhausted July retrieval sequence, preserving both their target and obstruction. Recovery selects a different gap, persistent coordinate locators in the independently pinned model, with a separate REVIEW_REQUIRED assessment; this SOURCE_BLOCKED assessment does not authorize the parked calculation.
 
 ## Gap, relevance, and discriminating test
 
@@ -290,3 +290,51 @@ text or concrete new source evidence would justify reopening the comparison;
 the current record does not authorize the dependent calculation. This is a
 stop for the retrieval approach, not a mathematical rejection of the target
 or a global research ban. No launcher or retry state was changed.
+
+## October 3 supervisor recovery: park retrieval and select another gap
+
+The completed target remains the exact four-block TARGET at the top of
+this assessment. Its geometric screening and all recorded access failures
+were reused. No primary PDF, archive, author-copy or deposit attempt was
+repeated. **Decision for that target: SOURCE_BLOCKED; park dependent work.**
+This completes the recovery disposition of the saved target without
+renaming it or suggesting that failure to read a source refutes it.
+The access obstruction is preserved in
+[ATTEMPTS/005](../../ATTEMPTS/005-july-source-retrieval-exhausted.md).
+
+The [official grand MCA section](https://proximityprize.org/) was reread
+on October 3 solely to check the current public scope. The same four
+rates, example threshold, largest-real-radius wording, sufficient-field-size
+qualification and preliminary notice are displayed. No new challenge
+definition was recovered and the July comparison remains incomplete.
+
+Recovery compared three materially different mechanisms: singular-pencil
+canonical forms, secant-line geometry and puncturing at persistent coordinate
+locators. The [new pending assessment](2026-10-03-persistent-root-puncturing.md)
+records queries, versions, primary theorem statements, scope limitations,
+local overlaps and the concrete transfer/count test. The selected mechanism
+addresses L010's excluded persistent-root class in the already frozen model;
+it neither depends on the inaccessible July definition nor claims that the
+model equals the grand challenge. No normal form, eigenvector, deflated
+syndrome or locator was calculated.
+
+The new evidence includes readable primary decoding and proximity-gap
+statements, particularly the punctured-dual convention and the original
+BCHKS statements behind the previously inspected author manuscript. These
+are supporting inputs, not a match for the saved four-block witness or
+an established bound for the selected excluded class. Reproof of those
+standard ingredients would need a specific justification; none is made here.
+The new target remains REVIEW_REQUIRED because the full affine-pencil and
+same-support transfer has not been screened. Essential later issues include
+singular parameters and multiple persistent coordinate roots.
+
+Outcome for this recovery: **EXPLORATION**, STEP_KIND **LITERATURE**,
+STEP_CLASSIFICATION **NOVELTY_UNCHECKED**. This describes a new bounded
+mechanism comparison with an actionable independent target, not an advance
+or a repeated metadata-only stop. The old three-turn exhaustion and two
+STALLED outcomes are preserved; no counter or scheduler state was reset.
+The runner owns any recovery renewal. The model bounds 10/q and 69/q,
+L010's restricted sixteen bound and the allowable fifteen are unchanged.
+No result beyond the checked literature or complete candidate is claimed.
+Mathlib coverage remains **not checked**. All mathematical artifacts,
+PROOF.md and DAG.md are unchanged.

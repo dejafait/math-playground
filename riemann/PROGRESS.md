@@ -2,18 +2,18 @@
 
 STATUS: IN_PROGRESS
 
-STEP_ID: 2026-09-27-first-associated-theta-lattice-literature-01
-STEP_OUTCOME: EXPLORATION
-STEP_EVIDENCE: The source review distinguishes common-parameter addition from the actual unequal theta scales and locates the full polynomial-Gaussian transform with its correction terms; no inspected theorem supplies the required sign. A complete parity-block specialization is screened in drafts/literature/2026-09-27-first-associated-theta-lattice.md.
-STEP_KIND: LITERATURE
-STEP_CLASSIFICATION: NOVELTY_UNCHECKED
-STEP_REVIEW: drafts/literature/2026-09-27-first-associated-theta-lattice.md
+STEP_ID: 2026-10-03-gaussian-zero-mode-weighted-limit-01
+STEP_OUTCOME: ADVANCE
+STEP_EVIDENCE: L357 proves |k_ε−k|≤Cε exp(−5|u|/2), hence O(ε) convergence in L¹(R,(1+u²)du) and uniform convergence of two Fourier derivatives; lemmas/L357-gaussian-zero-mode-subtraction-repairs-weighted-convergence.md.
+STEP_KIND: RESEARCH
+STEP_CLASSIFICATION: REPRODUCTION
+STEP_REVIEW: drafts/literature/2026-10-03-gaussian-regulated-modular-zero-mode.md
 
 Main bottleneck: global mixed reciprocal-zero positivity remains unproved. L320 needs a logarithmic initial segment of Laguerre signs, but L296's bands strictly above coefficient 1/4 leave low logarithmic and sublogarithmic indices open. Heights above forty and the endpoint arithmetic margin remain unresolved.
 
-Route decision: retain L355's generic-route stop and test the two complete parity blocks of the actual first-associated theta sum. Import the known weighted transformation formulas; the block spectra and all modular boundary terms need a bounded specialization. No sign theorem or new mathematical result is imported or reproduced by this review, and no novelty is claimed. Actual-zeta sign and exclusion ranges are unchanged.
+Route decision: exact zero-mode subtraction repairs the Gaussian family's weighted approximation, including its escaping tails. Retain the finite-average and separate-parity failures. The next useful test is the regulated family's first Laguerre sign; a common absolute O(ε) error alone supplies no sign margin at unbounded frequency. Its changed spectral target requires its own source assessment.
 
-Exploration turns used: 1 of 3 consecutive unresolved exploration turns after L355's informative negative result. The narrowed parity test uses the same budget. No RH candidate.
+Exploration turns used: 0 of 3 after L357's local approximation advance. The result specializes covered Poisson and derivative-tail tools; no originality is claimed. No RH candidate. Actual-zeta sign and exclusion ranges remain unchanged; the full first sign and higher low-index signs are missing.
 
-NEXT_REVIEW: drafts/literature/2026-09-27-first-associated-parity-blocks.md
-Next action: Test whether the complete parity blocks n+m even and n+m odd of the first-associated theta lattice sum are separately positive definite after exact modular resummation, retaining all polynomial weights and boundary terms.
+NEXT_REVIEW: drafts/literature/2026-10-03-gaussian-regulated-first-spectrum.md
+Next action: Test whether L357's Gaussian-regulated approximants satisfy F_ε′²−F_εF_ε″≥0 at every real frequency for all sufficiently small ε, using an exact Mellin representation and a large-frequency sign test.

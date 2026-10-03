@@ -43,7 +43,9 @@ In the additional regime
 \]
 
 one has t_star=n-k. Thus the largest safe grid radius is 1-k/n, and its next
-grid point 1-k/n+1/n is unsafe. Condition (4) is sufficient, not necessary.
+grid point 1-k/n+1/n is unsafe. The argument here establishes sufficiency
+of (4). The earlier non-necessity qualification is superseded by the
+separate endpoint result L011.
 This is a restricted result, not a determination of t_star for every instance
 satisfying only epsilon q >= 1, and not a disproof of the ABF challenge.
 
@@ -113,9 +115,12 @@ field size in (4) grows exponentially with n. Indeed
 
 since (n-i)/(k-i)>=n/k for each i when n>=k. Mere existence asks only for
 q>=epsilon^{-1}. The added binomial factor cannot be inferred from that
-condition. Failure of (4) also does not imply the code is unsafe at t=n-k;
-the upper estimate may be loose. This proof supplies no polynomial-in-n
-list estimate near capacity and does not review the September preprints.
+condition. The upper estimate alone cannot turn failure of (4) into an
+unsafe-list witness. L011 supplies that witness and proves this endpoint
+upper bound is attained, correcting the earlier statement here that (4)
+was not necessary. The support-counting proof itself supplies no
+polynomial-in-n list estimate near capacity and does not review the
+September preprints.
 
 **Verification.** The proof is symbolic. The independent small-field check
 in `scripts/finite-support/verify.py` enumerates all polynomial tuples and
