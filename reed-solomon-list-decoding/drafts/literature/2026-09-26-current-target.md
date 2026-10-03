@@ -1,13 +1,13 @@
 # Center-dependent Riccati multiplicity: literature assessment
 
 TARGET: Derive and test a center-dependent multiplicity weight at simple zeros of a from a'(x)t+2b(x)y(x)+c(x)=0, to see whether L010 can improve the e=n regime.
-CHECKED: 2026-09-27
+CHECKED: 2026-10-03
 DECISION: SOURCE_BLOCKED
-SEARCH_EVIDENCE: Reuse the earlier exact-title, repository, institutional, Riccati, weighted-decoding and indicial-equation searches below. The second 2026-09-27 review tried author-owned website repositories and raw source files, with targeted author/repository searches; no readable ABF26 text was recovered. Queries, inspected files and failed asset-enumeration paths are recorded in the author-repository assessment below.
-SOURCE_EVIDENCE: Reuse the theorem-level readings of Kopparty (2015), Theorems 4.3-4.4 and Corollary 4.5; Guruswami-Sudan (2001), Theorem 5; Fürnsinn-Hauser, arXiv:2307.01712v2, Section 2.1, Lemma 3.7, Theorem 3.17 and Remark 3.18; Peikert-Veliche Hostetler (ITCS 2026), Theorem 3.3, and the earlier primary metadata/challenge-page readings. Newly inspected Arnon and Fenzi website source entries link only to ePrint/ia.cr; no ABF26 definition or theorem was read. Direct links, retrieved branch versions and access limits are recorded below.
-COMPARISON: Weighted list counting and positive-characteristic indicial equations are established mechanisms. Kopparty covers nonlinear differential polynomials, but its local lifting hypothesis fails at the targeted zeros of a. None of the inspected statements directly supplies the proposed center-dependent interleaved Riccati bound.
+SEARCH_EVIDENCE: Reuse the adequate simple-zero theorem assessment and the two failed retrieval reviews below; no ABF26 endpoint was retried. The 2026-10-03 supervisor recovery searched distinct actual-list lower-bound and higher-order MDS mechanisms; exact queries and exclusions are recorded below.
+SOURCE_EVIDENCE: Reuse Kopparty (2015), Theorems 4.3-4.4 and Corollary 4.5; Guruswami-Sudan (2001), Theorem 5; Fürnsinn-Hauser, arXiv:2307.01712v2, Section 2.1, Lemma 3.7, Theorem 3.17 and Remark 3.18; and Peikert-Veliche Hostetler (ITCS 2026), Theorem 3.3. Newly read Ben-Sasson-Kopparty-Radhakrishnan's eight-page author manuscript, Sections 1.2-1.3 and Theorem 2.1, and Brakensiek-Gopi-Makam, arXiv:2206.05256v4, Theorem 1.13 and Proposition 4.5. None recovers ABF26; direct citations and source qualifications appear below.
+COMPARISON: The saved simple-zero bound remains uncovered by the inspected theorems. Higher-order MDS supplies a different criterion but its generic/random RS guarantee does not certify the fixed smooth domains. Monic root-product coefficient collisions instead construct actual received-word lists and motivate an independent endpoint-attainment test against L001; that specialization is not yet assessed or proved.
 GAP: The July ABF26 definitions and known-bound comparison remain unread; the positive integer column weights and an improvement over L010 at e=n have not been established. No full-statement literature match is certified.
-REASON: Keep SOURCE_BLOCKED because the distinct author-repository access test also failed to recover the essential challenge text. This is a second consecutive STALLED source review, with no import, reproduction or mathematical advance. Stop repeated retrieval through the checked paths, preserve the exact target and its test, and leave dependent specialization gated; the external runner owns the stop state.
+REASON: Complete the saved target's review as SOURCE_BLOCKED and park its dependent work after two stalled retrieval turns. Preserve its exact statement and obstruction. Select the independent root-product endpoint gap with a concrete test and its own REVIEW_REQUIRED assessment; this recovery is EXPLORATION, not a new bound or a claimed negative theorem. The external supervisor owns counters.
 
 ## Scope, relevance, and discriminating test
 
@@ -283,9 +283,105 @@ missing. No calculation, new multiplicity claim or candidate proof was
 produced. Resolving source access still requires its own literature
 comparison before a later research turn.
 
+## 2026-10-03 supervisor recovery: a different gap
+
+The two stalled source reviews are retained above and in
+[the retrieval-route stop record](../../ATTEMPTS/003-simple-zero-source-recovery-exhausted.md).
+The saved TARGET has not been weakened, renamed or calculated. Its existing
+supporting-theorem assessment is reused; it still ends in SOURCE_BLOCKED.
+No failed PDF, archive, author-site, repository, API, CDN or local HTTP access
+attempt was repeated. No essential source was recovered, and the earlier
+failure is an access observation, not proof of absence.
+
+The recovery compares three mechanisms for the main list-threshold gap:
+
+| Mechanism | Evidence and plausible use | Decision and discriminating test |
+| --- | --- | --- |
+| Center-dependent Riccati multiplicity | Existing indicial and weighted-decoding readings leave the simple-zero certificate open. A family refinement could reduce L010's exceptional-column cost, but not cover a general interpolant. | Park dependent work. Reopening needs an attributable source/scope resolution and the already saved admissible e=n test; another checked-path retry does not pass. |
+| Higher-order MDS intersections | The new primary reading gives a list-decoding criterion via the dual code and a generic/random RS guarantee. | Do not select this as a smooth-domain guarantee: the fixed subgroup would still need its own intersection certificate. A random-field probability does not certify that prescribed subgroup. |
+| Monic root-product coefficient collisions | The new primary reading constructs lists around one received word. This addresses lower witnesses and attainment rather than differential coverage. | Select the A=k endpoint-attainment gap. The next assessment must compare the source's domain and degree convention with the pinned model and check simultaneous interleaving before a later derivation. |
+
+**New primary readings.** Brakensiek, Gopi and Makam,
+[Generic Reed-Solomon Codes Achieve List-decoding Capacity, arXiv:2206.05256v4,
+August 28, 2024](https://arxiv.org/html/2206.05256v4): read Theorem 1.13
+(higher-order MDS/list-decoding equivalence with duality), Corollary 1.15,
+Theorem 1.16 and Proposition 4.5. The latter gives random RS list guarantees
+with success probability at least 1-c(n,k,L)/|F|. This is a supporting
+criterion, not a match for every fixed multiplicative smooth domain.
+The initial reading of v3 was superseded by this checked v4 comparison.
+
+Ben-Sasson, Kopparty and Radhakrishnan,
+[Subspace Polynomials and List Decoding of Reed-Solomon Codes, author-hosted
+eight-page manuscript](https://www.math.utoronto.ca/swastik/rsld.pdf#page=3):
+read Sections 1.2-1.3, printed pp. 2-3, and Theorem 2.1, pp. 3-4. Section 1.3
+reviews the Justesen-Høholdt monic-polynomial coefficient-collision argument;
+its stated list lower bound is binomial(N,T) N^{-(T-K-1)}, with degree at most
+K and evaluation on the entire N-element field. Theorem 2.1 uses additive
+subspaces for stronger full-field lower bounds. That theorem's domain is not
+silently substituted for a multiplicative subgroup. The manuscript is
+undated in the inspected text; no revision identity or hash was recovered.
+The 2010 journal version was located only as metadata and was not read.
+
+The new construction has an identifiable downstream use: decide whether
+L001's sufficient binomial field condition at its outer safe grid point is
+also forced by an attained worst-case list. L001 explicitly leaves necessity
+unestablished; its support upper bound and the linear lower witness in L008
+do not answer that attainment question. The existing finite-support data
+include coincident binomial maxima in small cases, but neither those data
+nor this literature review is a proof. No equality, necessary condition or
+counterexample to L001 is asserted here.
+
+The selected test is a single center supporting enough distinct degree-less-
+than-k polynomial tuples at k simultaneous columns to attain L001's upper
+bound, with the actual count compared to epsilon* q for the given field.
+Continue if the source comparison justifies that test without changing the
+code or agreement metric; abandon a proposed specialization if its domain,
+distinctness or common-center requirement fails. Other grid points, the
+all-field sharp boundary and ABF26's source freeze would remain unresolved
+even after a successful endpoint result. No specialization was performed.
+
+Discovery queries included `Reed Solomon list decoding additive subspaces
+evaluation sets lower bounds Ben Sasson Kopparty Radhakrishnan`, `Reed Solomon
+list decoding multiplicative subgroup evaluation domain worst case lower
+bounds list size`, `higher order MDS Reed Solomon list decoding capacity
+arbitrary evaluation points determinant obstruction`, the exact subspace-
+polynomial title with `pdf`, `Reed-Solomon binomial list size lower`, and
+`Justesen Hoholdt list decoding bounds pdf`. Follow-up queries used
+`Reed-Solomon binomial monic list` and `Reed-Solomon list size coefficient root
+arbitrary lower bounds`. These located the primary readings above; snippets
+and third-party copies were used for discovery only. Justesen-Høholdt's
+original paper remains an unread reference, not an independently inspected
+theorem. PDF screenshot requests returned references without readable images;
+the text extraction at pp. 3-4 was used, including its explicit negative-power
+form of the coefficient-collision count.
+
+Other inspected leads were excluded from the mechanism selection:
+[Guruswami-Rudra, STOC 2005, Section 1.2](https://www.cs.cmu.edu/~venkatg/pubs/papers/rs-limits.pdf#page=2)
+discusses low-rate bad-center constructions, and
+[Puchinger-Rosenkilde, arXiv:2102.03079, Theorem 8 and Corollary 9](https://arxiv.org/pdf/2102.03079#page=4)
+uses linearized RS codes in the sum-rank metric with additional evaluation
+structure. Neither passage supplies the required pinned interleaved endpoint
+statement. A guessed arXiv identifier 1306.1942 returned an unrelated PDE
+paper and was discarded; no claim relies on it.
+
+**Completed assessment and continuation decision.** This is one bounded
+literature recovery, outcome EXPLORATION, classification NOVELTY_UNCHECKED.
+It adds distinct primary comparisons and an actionable independent test;
+it does not merely repeat the previous stop review. Known mechanisms are
+identified by citation, but no mathematical result is imported into the
+assembled argument, reproduced or claimed beyond the inspected sources.
+Exploration is 2/3 through this review, retaining the previous 1/3 and both
+STALLED reports; no scheduler state is edited. The selected target has its
+own [REVIEW_REQUIRED assessment](2026-10-03-root-product-endpoint.md), so its
+next turn remains literature-only. Lemmas, scripts, PROOF.md and DAG.md are
+unchanged.
+
 ## Mathlib
 
 Full center-dependent Riccati statement: **not checked**. Formal versions
 of the cited indicial, lifting, and weighted-decoding results: **not
 checked**. The primary theorems above are supporting results, not claimed
 Mathlib matches. No library search or formal verification was performed.
+
+Full root-product endpoint/interleaved specialization and formal versions of
+the newly cited higher-order MDS and lower-bound statements: **not checked**.

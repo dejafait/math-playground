@@ -239,22 +239,140 @@ the incidence class of a degree-two target class restricts
 to zero there. There is no extra transcendental term
 from the punctual Hilbert-cube fibre.
 
-Use the functorial first-order Hodge filtration of smooth
-proper complex deformations. Under the markings, maps
-and relative incidence correspondences induce the constant
-central cohomology maps; they preserve the varying Hodge
-filtrations. Concretely, the infinitesimal variation of
-a closed holomorphic two-form omega is the class
-kappa contracted with omega in H^1(Omega^1): in local
-trivializations the overlap discrepancy is
-Lie_D omega=d(D contracted with omega). Changes of the
-map contribute coboundaries. This gives the functorial
-variation formula and explains why a first-order motion
-of f does not change the rational operator in (7).
-For the induced Hilbert cube the universal incidence
-correspondence exists relatively, so mu takes its
-surface F^2 line to the target F^2 filtration in exactly
-this functorial sense.
+**Retain the map-motion homotopy explicitly.** Import the
+full tangent cocycle from [Iacono, 0705.4532v2, Theorem 5.5
+and Remark 5.6, PDF pp. 9--10](https://arxiv.org/pdf/0705.4532v2#page=9).
+For any central holomorphic map r:D -> M with simultaneous
+first-order deformation, choose Dolbeault representatives
+eta_D, chi_M and a smooth section z of r^*T_M such that
+
+\[
+\bar\partial z=dr(\eta_D)-r^*(\chi_M).
+\tag{7a}
+\]
+
+There is no assumption that the right side is zero as a
+vector-valued form. If alpha is a holomorphic two-form on M,
+define the smooth (1,0)-form on D
+
+\[
+c_\alpha(z)(v)=\alpha(z,dr(v)).
+\]
+
+The holomorphic bundle map c_alpha commutes with bar-partial.
+Contraction of (7a), with the same slot convention on both
+sides, therefore gives the exact correction
+
+\[
+\eta_D\mathbin{\lrcorner}r^*\alpha
+ -r^*(\chi_M\mathbin{\lrcorner}\alpha)
+ =\bar\partial c_\alpha(z).
+\tag{7b}
+\]
+
+For example, in holomorphic coordinates its one-form is
+alpha_ab(r) z^a (partial_i r^b) dx^i. Its bar-partial is
+alpha_ab(r) (bar-partial_j z^a) (partial_i r^b)
+dbar-x^j tensor dx^i, exactly the difference in (7b).
+Holomorphicity of r and alpha eliminates the other terms.
+Thus the homotopy is retained and is bar-partial-exact in
+H^1(D,Omega_D^1). This is the needed extension of the
+strict-representative contraction identity of
+[Iacono, 0707.2454v2, Lemma 4.7, PDF p. 9](https://arxiv.org/pdf/0707.2454v2#page=9).
+It applies separately to f_A and p_A, with their own z.
+
+Use [Fiorenza--Manetti, published Proposition 4.5 and
+Theorem 5.1, pp. 593,595--596](https://ems.press/content/serial-article-files/30459?nt=1#page=15)
+for the formal Hodge filtration and its contraction derivative
+over A. Its Artin-base naturality is not the incidence
+comparison: that comparison is checked next.
+
+**Check the relative incidence in the same markings.** Put
+M_A=S_A^[3]. The actual relative universal subscheme
+Z_A in M_A x_A S_A is finite flat of length three over M_A.
+Its structure sheaf is a relative perfect complex on that
+smooth relative product. Locally this follows by lifting a
+finite free resolution of its central sheaf, using A-flatness
+and Nakayama for each kernel. Equivalently, in surface
+coordinate charts a length-three finite free algebra has
+the length-two Koszul resolution for the two commuting
+coordinate multiplication operators. This does not require
+the support to be reduced or the punctual algebra to be
+Gorenstein.
+
+Use its relative degree-four Chern character
+
+\[
+\gamma_A=\operatorname{ch}_2(O_{Z_A})
+ \in F^2H^4_{\rm dR}(M_A\times_A S_A/A).
+\]
+
+On the central smooth product, the leading-character formula
+identifies gamma_0 with the full fundamental class [Z],
+including generic lengths. This is the known input of
+[Fulton, Intersection Theory, second edition, Theorem
+18.3(3),(5) and Example 18.3.11, pp. 353--354,363](https://djvu.online/file/87GFN2nbfbdF7),
+already inspected in the notebook's global-support assessment.
+The relative holomorphic Chern character belongs to F^2:
+it is the degree-two trace of the Atiyah class, or the
+Chern--Weil character of compatible connections whose
+curvature has no (0,2) part. This statement applies to
+perfect complexes by locally free resolutions and descent;
+no global holomorphic resolution on the analytic deformation
+is assumed.
+
+Here is the marking check, also over the nonreduced base.
+Choose differentiable nilpotent trivializations of M_A and
+S_A. A smooth vector-bundle lift has the same underlying
+bundle over A as its reduction: the changes of local
+trivializations are an additive cocycle of smooth
+endomorphisms, killed by a partition of unity. This gives
+the same topological K-class for the relative perfect
+complex, using local resolutions and their descent. For
+a connection deformation nabla_epsilon=nabla_0+epsilon a
+with curvature R_0, the Chern--Weil transgression is
+
+\[
+\operatorname{ch}_2(\nabla_\epsilon)
+ -\operatorname{ch}_2(\nabla_0)
+ =\epsilon\,d\!\left((2\pi i)^{-2}
+                       \operatorname{Tr}(a\wedge R_0)\right).
+\tag{7c}
+\]
+
+It follows by differentiating Tr(R^2)/(2(2 pi i)^2),
+using the Bianchi identity and the trace of a commutator
+being zero. Signed sums, or the corresponding descended
+perfect-complex character, obey the same transgression.
+Consequently gamma_A is [Z] tensor 1 in marked de Rham
+cohomology. This uses the universal sheaf on the entire
+relative product, including collisions; an identity only
+on the distinct-support open is not used to determine it.
+
+Define mu_A by cup product with gamma_A and fibre
+integration along the surface factor. These operations
+are the central operations under the product marking.
+Moreover mu_A takes F^2 in degree two to F^2 in degree
+two: gamma_A contributes filtration degree two, and
+integration over S_A lowers it by two. Thus
+
+\[
+\mu_A=\mu\otimes 1
+\quad\text{as marked maps,}\qquad
+\mu_A(F^2H^2(S_A))\subset F^2H^2(M_A).
+\tag{7d}
+\]
+
+An arbitrary motion of f does not change its marked
+pullback either. In differentiable trivializations its
+first-order variation on a closed form beta is
+d c_beta(z)+c_{d beta}(z)=d c_beta(z), the Cartan homotopy
+formula along r. Changes of trivialization are themselves
+infinitesimal diffeomorphisms and induce the identity on
+de Rham cohomology by the same formula. The marked maps
+of f_A and p_A are therefore their central pullbacks.
+Unlike (7b), this last assertion is in de Rham cohomology;
+both are needed to compare the varying filtrations.
 
 Write omega_A for the marked target period. Since kappa
 preserves both NS and U, omega_A lies in T tensor A and
@@ -284,8 +402,18 @@ sheaf isomorphism T_S -> Omega_S^1, and the derivative
 of the period line is the induced map on H^1. It is
 injective. The same comparison can be checked directly
 without choosing normalized generators for the period lines.
-If eta is the class of B_A, functorial first-order variation
-for p_A, f_A and the relative incidence correspondence gives
+If eta is the class of B_A, let chi denote the induced
+class of M_A and alpha the holomorphic representative of
+mu(omega). Equations (7d) and the formal period derivative
+give chi contracted with alpha = mu(kappa contracted with
+omega) in H^1(M,Omega_M^1). A change of the chosen period
+generator contributes only its F^2 component, so it does
+not alter this (1,1) equality. Central identity (7) also
+gives f^*alpha=(1+theta)p^*omega as holomorphic forms:
+their cohomology classes agree, and the holomorphic-form
+map to de Rham cohomology is injective on projective B.
+Applying (7b) to the two maps, rather than assuming strict
+compatibility of representatives, now gives
 
 \[
 \begin{aligned}
@@ -297,8 +425,11 @@ for p_A, f_A and the relative incidence correspondence gives
 \end{aligned}
 \]
 
-The last equality uses that NS-fixed RM motion puts
-kappa contracted with omega in the same T-eigenspace.
+Both map-motion corrections in this displayed chain are
+bar-partial-exact by (7b). The last equality uses that
+NS-fixed RM motion puts kappa contracted with omega in
+the same T-eigenspace. This condition is imposed only
+on kappa; xi is arbitrary until equality is proved.
 Injectivity of p^* and contraction with omega gives
 xi=kappa again. Equality of marked first-order deformation
 classes permits an isomorphism S'_A -> S_A reducing to
@@ -389,9 +520,19 @@ framework portions. Ekedahl--Skjelnes' [Corollary 7.28,
 Annals 179 (2014), pp. 836--837](https://annals.math.princeton.edu/wp-content/uploads/annals-v179-n3-p01-p.pdf#page=32)
 supports the relative Hilbert-cube/blowup identification.
 None is a Mathlib theorem or a match for (1).
-Excision for point-blowup cohomology, cohomological
-functoriality, first-order Hodge variation, the local
-flatness criterion and Nakayama are named supporting
-inputs; their needed geometry-specific uses are given
-above. No library absence or general Hodge resolution
-is asserted.
+Iacono's Theorem 5.5/Remark 5.6 supplies the general
+map-motion cocycle; Lemma 4.7 supplies its strict-contraction
+counterpart, not a complete match for (7b). The linked
+Fiorenza--Manetti statements supply the Artinian Hodge
+filtration and derivative, not the marked incidence (7d).
+The linked Fulton statement supplies the central leading
+character. Cartan homotopy, the Atiyah-class definition of
+the holomorphic Chern character and Chern--Weil transgression
+are supporting standard inputs; (7b)--(7d) give their
+specific application including collisions and dual numbers.
+This critical calculation reproduces the known framework
+with its previously implicit correction made explicit;
+it is no certified new discovery. Excision for point-blowup
+cohomology, the local flatness criterion and Nakayama remain
+supporting inputs. No library absence or general Hodge
+resolution is asserted.

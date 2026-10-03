@@ -1,0 +1,126 @@
+{
+  "all_checks_passed": true,
+  "smooth_domain": {
+    "p": 97,
+    "n": 16,
+    "subgroup_generator": 8,
+    "coset_multiplier": 2,
+    "domain": [
+      2,
+      3,
+      16,
+      24,
+      31,
+      36,
+      43,
+      44,
+      53,
+      54,
+      61,
+      66,
+      73,
+      81,
+      94,
+      95
+    ],
+    "cases": [
+      {
+        "k": 8,
+        "rate": "1/2",
+        "expected_endpoint": 12870,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 12870,
+            "agreement_columns": 8
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 12870,
+            "agreement_columns": 8
+          }
+        ]
+      },
+      {
+        "k": 4,
+        "rate": "1/4",
+        "expected_endpoint": 1820,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 1820,
+            "agreement_columns": 4
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 1820,
+            "agreement_columns": 4
+          }
+        ]
+      },
+      {
+        "k": 2,
+        "rate": "1/8",
+        "expected_endpoint": 120,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 120,
+            "agreement_columns": 2
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 120,
+            "agreement_columns": 2
+          }
+        ]
+      },
+      {
+        "k": 1,
+        "rate": "1/16",
+        "expected_endpoint": 16,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 16,
+            "agreement_columns": 1
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 16,
+            "agreement_columns": 1
+          }
+        ]
+      }
+    ]
+  },
+  "exhaustive_toy_cases": [
+    {
+      "p": 3,
+      "n": 2,
+      "k": 1,
+      "m": 2,
+      "threshold": "2",
+      "exact_endpoint": 2,
+      "endpoint_safe": true
+    },
+    {
+      "p": 5,
+      "n": 4,
+      "k": 2,
+      "m": 2,
+      "threshold": "4",
+      "exact_endpoint": 6,
+      "endpoint_safe": false
+    },
+    {
+      "p": 13,
+      "n": 4,
+      "k": 2,
+      "m": 1,
+      "threshold": "13/2",
+      "exact_endpoint": 6,
+      "endpoint_safe": true
+    }
+  ]
+}

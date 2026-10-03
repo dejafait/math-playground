@@ -24,10 +24,10 @@ The series is smooth on every compact real u interval by the differentiated Gaus
 
 For v=πn², direct differentiation of K_n(u)=4v_n(2v_n−3)e^(u/2−v_n), v_n=πn²e^(2u), gives
 
-K_n'(0)=(−16v³+68v²−30v)e^(−v)
-        =−2v(2v−1)(4v−15)e^(−v).
+K_n'(0)=(−16v³+60v²−30v)e^(−v)
+        =−2v(8v²−30v+15)e^(−v).
 
-Every term with n≥2 is strictly negative, since π>3 implies v>12. The differentiated sum converges absolutely. Consequently
+Every term with n≥2 is strictly negative, since π>3 implies v>12 and 8v²−30v+15=v(8v−30)+15>0. The differentiated sum converges absolutely. Consequently
 
 d_N=−Σ_{n>N}K_n'(0)>0
 

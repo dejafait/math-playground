@@ -32,8 +32,7 @@ The last term vanishes exactly when T X_(T) = 0. Control gives rank <= Selmer co
 Abstract modules with ideal (T^4) have specialized dimensions two and four, both even; no arithmetic realization is asserted.
 
 L003 applies [Schneider--Perrin-Riou](foundations/04-cyclotomic-height-criterion.md):
-finite p-primary Sha and a nonzero canonical cyclotomic regulator give
-ord_T f_X = rank E(Q), hence T X_(T) = 0. Equality with rank is equivalent
+finite p-primary Sha and a nonzero canonical cyclotomic regulator give ord_T f_X = rank E(Q), hence T X_(T) = 0. Equality with rank is equivalent
 to finite p-primary Sha and the natural isomorphism X_(T)[T] -> X_(T)/T X_(T).
 The converse retains finite Sha and non-CM E; no uniform hypotheses are supplied.
 
@@ -49,8 +48,7 @@ Neither n = m(E) nor uniform availability of this certificate is established.
 The [2016 audit](foundations/06-generalised-kato-scope.md) separates Selmer theorems from conjectural point membership;
 the adjoint rank-(2,0) formulas predict at most one line from four stabilisations.
 L005 proves that one nonzero strict rational Kummer class forces r >= 2:
-the local logarithm has rank one on E(Q) tensor Q_p when r > 0.
-A nonzero a_2 then reaches L004's r = 2 threshold.
+the local logarithm has rank one on E(Q) tensor Q_p when r > 0. A nonzero a_2 then reaches L004's r = 2 threshold.
 
 [Castella--Hsieh's Theorem A](foundations/07-castella-hsieh-nonvanishing.md), under its auxiliary and residual
 hypotheses, gives Selmer dimension two from nonzero kappa. L006 combines
@@ -77,6 +75,8 @@ Dual complexes and an injective rational logarithm permit a nonzero determinant 
 Automatic vanishing is not a consequence of those data; its truth for actual rational points remains unresolved.
 L012 specializes [rank-zero Kato reciprocity](foundations/11-rank-zero-kato-reciprocity.md): w = res_K(z_tw) generates the relaxed minus line, and its mixed pairing is 2 lambda t_d with lambda != 0.
 The lift asks whether -tilde_d cup z_tw vanishes in H^2(Q,V), for an explicit extension of V tensor chi_K by V. This remains uncomputed and supplies no new rank bound.
+L013 reproduces Sano's degree-one cyclotomic determinant descent in a formal model with compatible local-condition triangles and inverse-parameter duality.
+Its Selmer dimension and characteristic/scalar order are two, but its marked rational/Sha dimensions are (1,1). The leading vector is rational; its determinant preimage uses a Sha direction. No arithmetic realization or rank improvement is asserted.
 
 ## Known traps checked
 
@@ -86,10 +86,8 @@ The lift asks whether -tilde_d cup z_tw vanishes in H^2(Q,V), for an explicit ex
   with depth and respect eventual descent and independent-point certificates.
 - Abstract models do not prove arithmetic realizability or BSD.
 - Control's finite errors disappear over Q_p; characteristic length can still exceed dimension.
-- Semisimplicity at (T), zero divisible Sha defect, and the complex/p-adic
-  comparison are separate inputs, not consequences of control or cotorsion.
-- Heights keep finite Sha and nonzero regulator explicit; the checked
-  converse retains its non-CM restriction and gives no complex-order comparison.
+- Semisimplicity at (T), zero divisible Sha defect, and the complex/p-adic comparison are separate inputs, not consequences of control or cotorsion.
+- Heights keep finite Sha and nonzero regulator explicit; the checked converse retains its non-CM restriction and gives no complex-order comparison.
 - Kato gives an upper bound after inverting p; no reverse divisibility or
   p-adic BSD formula is assumed. Approximate zero is not certified nonvanishing.
 - Strict Selmer need not mean Kummer; the 2016 Conjectures 3.2/3.12 remain conjectures.
@@ -98,3 +96,4 @@ The lift asks whether -tilde_d cup z_tw vanishes in H^2(Q,V), for an explicit ex
 - A fiber trace need not lift; its obstruction is not non-Kummer membership of an individual class.
 - Ordinary lifting need not preserve strictness; neither lifting condition is identified with Kummer membership. The dual of zero local conditions is relaxed, so ordinary height vanishing does not settle the mixed pairing.
 - Scalar Coleman data alone do not force full-localization divisibility; local freedom is not a global realization. A nonzero Kato reciprocity value normalizes the relaxed class without deciding its anticyclotomic obstruction.
+- Cohomological determinant descent, including its H^2-dual factor, does not identify the preimage with wedge^2 of rational points. Rationality of the contracted leading vector is a weaker condition.

@@ -10,6 +10,8 @@ The unestablished bridge is compatibility between the actual comparison maps and
 
 The [known global realification theorem](foundations/03-realification-and-arithmetic-degree.md) retains an arithmetic degree line. L006 specializes the constructions screened in the [source comparison](drafts/literature/2026-09-26-current-target.md): in the arithmetic fiber over ℚ, the complete marked collection retains L005's defect as d(D) − d(G) − Σ_v Div(m_v). The localization diagrams preserve this quantity. Its descent through the (fQ1)/(fQ2) formal quotient and its value on the distinguished q-pilot remain unresolved. No comparison with the actual normalized A and B follows yet.
 
+The [local numerical source review](drafts/literature/2026-10-03-hull-transport-screening.md) and the [cited native enclosures](foundations/04-native-local-enclosures.md) retain the preserved-lattice bounds. L007 tests the distinct auxiliary rounded-lattice transition and shows that its two stated beta constraints alone do not suffice after automorphism saturation. The canonical last-factor beta passes in the same packet, so this choice-dependent failure does not refute the existential estimate or the native enclosure. No input-pilot membership or normalized B ≥ A follows.
+
 ## Partial results
 
 L001 establishes an elementary diagnostic: abstract generator-preserving cyclic-monoid isomorphisms and constructions in one fixed field do not force an inequality between lattice log-volumes. The apparent counterexample has volumes −log p and −2 log p, but its map doubles the fixed valuation. This diagnoses a weakened implication; it is not a counterexample to IUT. The underlying power-map issue is already present in the primary discussion, so no new IUT-specific advance is claimed.
@@ -24,12 +26,15 @@ L005 imposes global compatibility on every arrow of the ordinary marked category
 
 L006 gives an explicit functor from L005 to marked collections in the cited realified arithmetic models, over fixed base objects and with finitely supported marking divisors. Its invariant pulls back to Δ. All defect values still occur, including with identity local markings and variable global objects. The resulting sharp bound is d(G) ≤ d(D) − δ; realification supplies no sign condition on δ. This is a reproduction/specialization of known constructions, with no claimed result beyond the checked literature or full IUT instance.
 
+L007 computes the actual log-shell for K = ℚ₂(√2) and its tensor packet. Two different-based beta choices meet both source constraints; the canonical choice gives the rounded orbit hull with radii 16, while the other gives radii 128, with an explicit lattice-automorphism witness. Equal hulls before saturation do not preserve this comparison after saturation. The calculation tests an auxiliary local implication; it does not produce a counterexample to the source's favorable choice or original IUT data.
+
 ## Known traps checked
 
 - Original hypotheses are retained by precise source reference; a p-adic toy example does not instantiate them.
 - Abstract degree renormalization is distinguished from fixed Haar-volume normalization.
 - A common determinant tensor power is applied to both compared degrees; its cancellation neither identifies different ring structures nor supplies input membership in a hull.
 - The Θ-pilot output involves all permitted images and a hull. A single chosen representative cannot stand in for that output without justification.
+- Coordinate hull comparison before saturation is distinguished from comparison after lattice automorphisms. Both beta constraints are checked in L007, and its failing beta is distinguished from a favorable existential choice. The native enclosure has a different input region; the nonunit at residue characteristic 2 is not asserted to be an actual bad-place theta-pilot factor.
 - Formal categorical quotients are distinguished from set quotients. Failure to preserve ordinary intersections does not, by itself, refute a formal construction, and loop closure is distinguished from membership of a particular input class.
 - Localized global objects are distinguished from local arrows that come from a compatible global morphism. Frobenioid linearity means Frobenius degree one, and does not identify a map with a fixed-coordinate inclusion. An ordinary global morphism is a sufficient comparison mechanism in the model, not asserted to be necessary for IUT's numerical inequality.
 - Compatibility of all morphisms in a category is distinguished from a global marking on each object. Ordinary connected components are not identified with a formal categorical quotient, and a negative marking defect is not by itself a violation of the numerical inequality for every object in that component.

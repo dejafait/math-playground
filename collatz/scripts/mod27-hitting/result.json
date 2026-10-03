@@ -1,0 +1,151 @@
+{
+  "scope": "finite exact coefficient checks and regressions, not the universal proof",
+  "constants": {
+    "A": 24,
+    "B": 14,
+    "M": 2,
+    "logarithm": "natural"
+  },
+  "table_columns": [
+    "residue",
+    "h",
+    "even_image",
+    "odd_image"
+  ],
+  "modular_table": [
+    [
+      1,
+      2,
+      14,
+      2
+    ],
+    [
+      2,
+      1,
+      1,
+      17
+    ],
+    [
+      4,
+      0,
+      2,
+      20
+    ],
+    [
+      5,
+      1,
+      16,
+      8
+    ],
+    [
+      7,
+      2,
+      17,
+      11
+    ],
+    [
+      8,
+      0,
+      4,
+      26
+    ],
+    [
+      10,
+      2,
+      5,
+      2
+    ],
+    [
+      11,
+      1,
+      19,
+      17
+    ],
+    [
+      14,
+      1,
+      7,
+      8
+    ],
+    [
+      16,
+      2,
+      8,
+      11
+    ],
+    [
+      17,
+      0,
+      22,
+      26
+    ],
+    [
+      19,
+      2,
+      23,
+      2
+    ],
+    [
+      22,
+      0,
+      11,
+      20
+    ],
+    [
+      23,
+      1,
+      25,
+      8
+    ],
+    [
+      25,
+      2,
+      26,
+      11
+    ]
+  ],
+  "internal_core_edges": 25,
+  "core_exit_edges": [
+    [
+      4,
+      20,
+      1
+    ],
+    [
+      8,
+      26,
+      1
+    ],
+    [
+      17,
+      26,
+      1
+    ],
+    [
+      22,
+      20,
+      1
+    ],
+    [
+      25,
+      26,
+      0
+    ]
+  ],
+  "all_integer_inequalities": "PASS: every internal edge, with the positive additive term",
+  "phase_regressions": {
+    "starts_checked": 20000,
+    "largest_hitting_time": 32,
+    "a_start_attaining_it": 17305,
+    "largest_observed_internal_core_ratio": "32/35"
+  },
+  "residue_26_loop_exponents": [
+    0,
+    1,
+    2,
+    3,
+    20,
+    100,
+    1024
+  ]
+}

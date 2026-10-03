@@ -20,6 +20,8 @@ L010 computes that generator's exact nonlinear Haar divergence as a planar-strai
 
 L011 expresses the remaining order-g^2 coefficient at each fixed mesh as Gaussian cumulants in the exact forest gauge, with action, coordinate Haar density, insertion, and nonlinear flow terms retained. It distinguishes that coordinate-density correction from L010's divergence insertion. The lattice contractions and their leading cutoff logarithm are unevaluated; this is a perturbative reduction, not an additional ultraviolet bound.
 
+L012 rejects a proposed off-shell BRST boundary-domain shortcut. At the zero connection, an explicit smooth Dirichlet ghost on the cube violates the normal Neumann condition after BRST variation. An auxiliary-field boundary formulation or a qualified spectral argument needs separate justification before it can support boundary subtraction; the existing Gaussian representation is unaffected.
+
 ## Unresolved gap
 
 A construction must remove the ultraviolet cutoff while preserving a nonzero physical observable sector, establish the required gauge-invariant field content and axioms, and control the infinite-volume spectrum with a finite positive mass. None of these Yang–Mills construction steps has been completed here. In particular, a positive ordinary variance does not supply a lower bound on a centered reflection norm.
@@ -48,6 +50,8 @@ For L010's specified nonlinear probes, take the small-coupling limit at each fix
 
 L011 proves existence of the remaining fixed-mesh coefficient and gives its connected expansion and flow-derivative recursions. External heat suppression does not bound every internal cubic/quartic contraction in that expression. No value, including zero, is established for its cutoff logarithm, and no improvement of the required reflected-error threshold c_box/2 follows.
 
+For the proposed smooth domain A_t = 0, partial_n A_n = 0 and c = bar c = b = 0, L012 computes the uncanceled normal trace s(partial_n A_n) = partial_n^2 c + [A_n,partial_n c]. Its cube counterexample disproves closure with unrestricted off-shell ghosts. This determines a failed Ward-domain premise without establishing any boundary counterterm, logarithm or interacting error estimate.
+
 ## Known traps checked
 
 - Beta = 0 is the infinite bare-coupling endpoint, not the weak-coupling continuum regime. No continuation between these regimes is assumed.
@@ -73,3 +77,4 @@ L011 proves existence of the remaining fixed-mesh coefficient and gives its conn
 - L009 retains the divergence when linearizing the link identity and checks the extra Hodge gauge-fixing term by conditioning on the transverse Gaussian field. Its clover stencil has zero linearized trace; this is not a claim that the nonlinear Haar divergence vanishes. Smooth-field consistency is supplemented by a summable bound on all heat-weighted modes. Neither that bound nor the limiting free coefficients imply an interacting residual estimate.
 - L010 differentiates the endpoint transport as well as the clovers and retains the resulting nonzero nonlinear divergence. Wilson flow linearizes to the action Laplacian, agreeing with Hodge heat flow on curvatures. Its fixed-mesh Laplace limit is taken before mesh refinement. The O(a^2) comparison is for Gaussian mixed responses only, and other one-loop contributions can alter or cancel its finite coefficient.
 - L011 uses the exact product Haar measure after forest gauge fixing. Higher coordinate polynomials are not transferred to the Hodge Gaussian by the tree-level quotient argument. The Haar coordinate-density correction and the Ward-divergence insertion are distinct. Its nonlinear flow expansion includes flow times approaching zero, so damping at the final probe time is not asserted for every internal loop.
+- L012 tests an unrestricted smooth off-shell domain. Ghost eigenfunction equations can impose extra normal boundary jets, and eliminating an auxiliary field can change the closure claim. Its counterexample does not invalidate relative spectral kernels or imply a nonzero boundary divergence.

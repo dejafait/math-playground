@@ -1,10 +1,10 @@
 # Eisenstein specialization into the required Kato extension
 
 TARGET: Test whether an Eisenstein specialization of a Beilinson--Flach family gives a class in H^1(Q,W_d) mapping to z_tw for L012's extension 0 -> V -> W_d -> V tensor chi_K -> 0.
-CHECKED: 2026-09-27
+CHECKED: 2026-10-03
 DECISION: SPECIALIZE
-SEARCH_EVIDENCE: Searched Eisenstein degeneration, weight-one Beilinson--Flach/Kato comparison, anticyclotomic extensions, stable lattices, and later degeneration papers; queries and primary statements actually read are recorded below.
-SOURCE_EVIDENCE: Loeffler--Rivero, arXiv:2201.02078v2, A1--A2, A4.5, A6.3, C1.4--C1.13; Bertolini--Darmon--Venerucci, author final PDF, Section 1.1, Proposition 4.1 and Theorem 4.2; Burungale--Skinner--Tian--Wan, arXiv:2409.01350v2, Theorems 1.21, 5.19--5.20, 5.26 and Lemmas 4.14--4.16; Alonso--Omil-Pazos--Rivero, arXiv:2509.07564v1, Theorem 1.1, Corollary 5.19 and Conjecture 6.8; Polo--Rivero with appendix by Wu, arXiv:2501.01514v3, Theorem 1.3 and Section 7.
+SEARCH_EVIDENCE: Reused the 2026-09-27 bounded search and performed the three source-recovery queries recorded below on 2026-10-03; inspected primary PDFs rather than treating search snippets as theorem evidence.
+SOURCE_EVIDENCE: Rechecked Loeffler--Rivero, https://arxiv.org/pdf/2201.02078v2, A2.1, Corollary A6.3, C1.6--C1.7 and Theorem C1.13; Burungale--Skinner--Tian--Wan, https://arxiv.org/pdf/2409.01350v2, Theorems 1.21, 5.19--5.20, 5.26 and Lemmas 4.14--4.16; Alonso--Omil-Pazos--Rivero, https://arxiv.org/pdf/2509.07564v1, Corollary 5.19 and Conjecture 6.8/Assumption 6.10. Reused the prior inspected Bertolini--Darmon--Venerucci statements, https://www.esaga.uni-due.de/f/massimo.bertolini/publications/BDV-Final.pdf, Section 1.1, Proposition 4.1 and Theorem 4.2, and Polo--Rivero, https://arxiv.org/pdf/2501.01514v3, Theorem 1.3 and Section 7.
 COMPARISON: Known families and lattice comparisons cover useful inputs, but no inspected statement supplies the specified extension with a nonzero z_tw quotient; the direct critical-slope and natural weight-one specializations fail the applicability tests below.
 GAP: Identify the inverse anticyclotomic extension, retain a regular global class after changing the coefficient lattice, and prove that its quotient is a nonzero scalar multiple of z_tw under the retained arithmetic hypotheses.
 REASON: Stop direct import of the inspected specializations. The known classification of stable CM lattices supports one bounded comparison of a modified lattice and its cohomology class; no construction or division is performed in this literature turn.
@@ -134,7 +134,7 @@ Beilinson--Flach elements*,
 [arXiv:2509.07564v1](https://arxiv.org/abs/2509.07564v1), submitted
 2025-09-09; PDF dated 2025-09-10. Read the setup and Theorem 1.1,
 Proposition 2.4, Assumptions 4.1/4.10, Section 5.2,
-[Corollary 5.19, page 22](https://arxiv.org/pdf/2509.07564v1#page=22),
+[Corollary 5.19, page 21](https://arxiv.org/pdf/2509.07564v1#page=21),
 and [Conjecture 6.8/Assumption 6.10, page 26](https://arxiv.org/pdf/2509.07564v1#page=26).
 
 The remaining cuspidal families have coprime tame levels, the stated
@@ -206,13 +206,98 @@ representation alone leaves the arithmetic problem open and is
 not an advance on the rank bound. These are prospective tests;
 no modified representation or class is constructed in this turn.
 
-The step outcome is NEGATIVE for direct theorem import, with known
+The 2026-09-27 step outcome was NEGATIVE for direct theorem import, with known
 source results used for the comparison and no new mathematics.
 The review started after two exploration turns and completes the
 assessment and route decision on the third bounded turn. Its new
 source-scope evidence ends that unproductive run; merely restating
 it later would be STALLED. No launcher or research-stop state is
 changed. The sole current action and counter are in PROGRESS.md.
+
+## 2026-10-03 source-URL recovery
+
+The supervisor reported "Ready assessments need a direct source URL."
+At entry this file already contained direct primary URLs, and the
+current read_review check accepted SPECIALIZE for the exact saved
+target. The reported failure is therefore not reproduced against
+the current files. The SOURCE_EVIDENCE field now also contains the
+direct PDFs explicitly; this is a process clarification, not new
+mathematical evidence. No runner or shared infrastructure was edited.
+
+The three recovery queries were:
+
+- `"Beilinson-Flach" "Eisenstein" "lattice" "weight one"`
+- `"Zeta elements for elliptic curves and applications" "lattice"`
+- `"Anticyclotomic diagonal classes and Beilinson"`
+
+Read the fixed primary PDFs linked in SOURCE_EVIDENCE. For
+[Burungale--Skinner--Tian--Wan, Section 4.2.8](https://arxiv.org/pdf/2409.01350v2#page=41),
+the lattice lemmas concern free rank-two stable submodules of the
+specific induced representation (4.9). Lemma 4.16 also requires
+equal intersections with the inducing-character line. Its quotient
+control is a representation result.
+[Theorems 5.19--5.20](https://arxiv.org/pdf/2409.01350v2#page=52)
+place the actual BF class in the specified induced lattice. These
+statements do not supply regularity in an arbitrary modified lattice
+or the requested nonzero quotient in W_d. This makes the known
+inputs' scope explicit without changing the prior comparison.
+
+Rechecked [Loeffler--Rivero, Corollary A6.3](https://arxiv.org/pdf/2201.02078v2#page=8),
+[C1.6--C1.7](https://arxiv.org/pdf/2201.02078v2#page=20),
+and [Theorem C1.13](https://arxiv.org/pdf/2201.02078v2#page=22):
+the lattice and projected Kato-class statements retain the source's
+critical-slope character pair and scalar factors. The earlier
+weight-one applicability exclusion stands.
+Rechecked [Alonso--Omil-Pazos--Rivero, Corollary 5.19](https://arxiv.org/pdf/2509.07564v1#page=21)
+and [Conjecture 6.8/Assumption 6.10](https://arxiv.org/pdf/2509.07564v1#page=26):
+the weighted comparison retains its rank-one hypothesis, and the
+improved global class is assumed rather than proved. Corrected the
+Corollary 5.19 page locator from 22 to 21. Its hypotheses and the
+prior route decision are unchanged.
+
+The BDV and Polo--Rivero comparisons above are reused from the
+2026-09-27 assessment, not presented as freshly read. The attempted
+BSTW mathematical-HTML retrieval failed; its PDF was accessible and
+provided the needed statements. Secondary summaries and unrelated
+search leads are not inputs. No essential source statement remains
+unread for this bounded comparison, and no exhaustive coverage or
+novelty claim is made.
+
+Page anchors in this recovery note use PDF page numbers; the named
+theorem numbers identify the statements independently of printed
+pagination.
+
+Decision: retain SPECIALIZE and the exact saved target. The bounded
+test remains comparison with the inverse anticyclotomic extension,
+then regularity and a nonzero z_tw quotient for the actual global
+class. None was constructed here. Repeating the known weighted
+formula or assuming division in global cohomology fails the existing
+test. The main gap and rank threshold are unchanged.
+
+This recovery is STALLED: explicit source links and a page locator
+are repaired, but no new mathematical input or route-changing
+negative is established. No exploration counter is reset on that
+basis. The statements used are known source results; the requested
+lift remains unproved and has no originality claim. No lemma or
+mathematical script is changed.
+
+## 2026-10-03 exhausted-route reassessment
+
+The supervisor now requires a different mechanism after stalled
+recovery. The exact TARGET and its source assessment remain preserved;
+the sufficient prior coverage is reused without repeating retrievals.
+No new BF lift or nonliftability evidence is asserted. Park the wider
+lattice/class recovery as recorded in
+[ATTEMPTS/012](../../ATTEMPTS/012-eisenstein-lattice-recovery-exhausted.md).
+The earlier SPECIALIZE scope is historical coverage, not authorization
+to restart this exhausted route or renew its budget.
+
+[The new screening dossier](2026-10-03-cyclotomic-kato-derivative.md)
+compares three mechanisms using newly read primary statements and
+selects a cyclotomic Kato derivative/rational exterior-square test.
+Its assessment remains REVIEW_REQUIRED. This is a bounded source
+exploration with no new mathematics; neither the existing obstruction
+nor the mathematical rank threshold is changed.
 
 ## Mathlib
 
