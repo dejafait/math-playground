@@ -38,7 +38,7 @@ class RecoveryTests(unittest.TestCase):
         self.assertEqual(state['retry_at'], original['retry_at'])
         for local in state['problems'].values():
             self.assertNotIn('research_halt', local)
-            self.assertEqual(local['stalled_turns'], 2)
+            self.assertEqual(local.get('literature_stalled', local.get('stalled_turns', 0)), 2)
             self.assertTrue(local['require_new_target'])
         self.assertEqual(runner.choose(self.rows, state, lambda _: False)[0], 'riemann')
 
@@ -65,7 +65,7 @@ class RecoveryTests(unittest.TestCase):
         for local in self.state()['problems'].values():
             self.assertNotIn('research_halt', local)
             self.assertIn('research_recovery', local)
-            self.assertEqual(local['stalled_turns'], 2)
+            self.assertEqual(local.get('literature_stalled', local.get('stalled_turns', 0)), 2)
 
     def test_single_notebook_keeps_running_until_interrupted(self):
         def stall(*args):
@@ -100,7 +100,7 @@ class RecoveryTests(unittest.TestCase):
             runner.main()
         local = self.state()['problems']['riemann']
         self.assertNotIn('research_recovery', local)
-        self.assertEqual(local['exploration_turns'], 1)
+        self.assertEqual(local['exploration_turns'], 0)
         self.assertIn('last_research_stop', local)
 
     def test_invalid_recovery_cannot_derive_or_accept_resolution(self):
@@ -116,6 +116,25 @@ class RecoveryTests(unittest.TestCase):
         self.assertIn('research_recovery', local)
         self.assertEqual(local['exploration_turns'], 2)
         self.assertEqual(runner.choose(self.rows, self.state(), lambda _: True)[0], 'riemann')
+
+    def test_ready_metadata_repair_clears_stalled_recovery(self):
+        self.seed({'research_halt': 'Ready assessments need a direct source URL.', 'exploration_turns': 2})
+        def repair(*args):
+            from test_loop import review_fixture
+            review_fixture(args[-1], 'SPECIALIZE')
+            (args[-1] / 'PROGRESS.md').write_text(report('repair', 'STALLED'))
+            return 'success', None, 0
+        with patch.object(runner, 'run_process', side_effect=repair):
+            runner.main()
+        self.assertNotIn('research_recovery', self.state()['problems']['riemann'])
+        def calculate(*args):
+            self.assertNotIn('LITERATURE-ONLY', args[1])
+            (args[-1] / 'PROGRESS.md').write_text(report('calculation', 'EXPLORATION').replace(
+                'STEP_KIND: LITERATURE', 'STEP_KIND: RESEARCH').replace('NOVELTY_UNCHECKED', 'REPRODUCTION'))
+            return 'success', None, 0
+        with patch.object(sys, 'argv', ['runner.py', '--once', '--problem', 'riemann']), patch.object(runner, 'run_process', side_effect=calculate):
+            runner.main()
+        self.assertEqual(self.state()['problems']['riemann']['turn_mix'], ['LITERATURE', 'RESEARCH'])
 
     def test_configuration_failure_waits_until_user_interrupt(self):
         def stop_wait(stamp):

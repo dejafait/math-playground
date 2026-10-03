@@ -23,6 +23,13 @@ def assess(state, before, after, changed):
     state['research_step_id'] = step
     state['research_outcome'] = outcome
     state['no_progress'] = 0
+    kind = field(after, 'STEP_KIND')
+    state['turn_mix'] = (state.get('turn_mix', []) + [kind])[-10:]
+    if kind == 'LITERATURE':
+        state['literature_stalled'] = state.get('literature_stalled', 0) + 1 if outcome == 'STALLED' else 0
+        if state['literature_stalled'] >= 2:
+            return 'Two consecutive stalled literature turns; park the source blocker and select an independent target.'
+        return None
     if outcome in {'ADVANCE', 'NEGATIVE'}:
         state['exploration_turns'] = 0
         state['stalled_turns'] = 0
@@ -41,7 +48,7 @@ def assess(state, before, after, changed):
 def resume(state):
     """Explicitly renew research budget without altering quota/retry fields."""
     state.pop('research_halt', None)
-    for key in ('no_progress', 'exploration_turns', 'stalled_turns', 'unknowns'):
+    for key in ('no_progress', 'exploration_turns', 'stalled_turns', 'literature_stalled', 'unknowns'):
         state[key] = 0
 
 
@@ -61,3 +68,17 @@ def recover(state):
         state.setdefault('first_research_stop', state['last_research_stop'])
         state['recovery_count'] = state.get('recovery_count', 0) + 1
     return reason
+
+
+def balance_instruction(state, ready):
+    """Guide attempted work, never require successful proofs or bypass source gates."""
+    mix = state.get('turn_mix', [])
+    mature = mix.count('RESEARCH') >= 4
+    limit = 0.2 if mature else 1 / 3
+    share = mix.count('LITERATURE') / len(mix) if mix else 0
+    return (f'Turn balance: recent {mix.count("RESEARCH")} mathematical / '
+            f'{mix.count("LITERATURE")} literature turns; aim for at most '
+            f'{round(limit * 100)}% literature. Mathematical attempts need not succeed or create a lemma. '
+            + ('A ready target must receive a mathematical attempt now; further review needs a specific LITERATURE_REASON. '
+               if ready and (not mix or mix[-1] == 'LITERATURE' or share >= limit) else '')
+            + 'Reuse adequate coverage. If sources remain blocked, park dependent work and choose an independently testable target.\n')

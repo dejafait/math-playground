@@ -25,7 +25,8 @@ def read_review(notebook, reference, target):
         raise ValueError('Cannot read literature assessment: ' + reference) from exc
     if any(not field(text, key) for key in REQUIRED):
         raise ValueError('Incomplete or duplicate literature evidence fields: ' + reference)
-    if not target or field(text, 'TARGET') != target:
+    covered = re.findall(r'^COVERED_TARGET:[ \t]*([^\n]+)$', text, re.M)
+    if not target or (field(text, 'TARGET') != target and target not in covered):
         raise ValueError('Literature assessment does not match the exact target.')
     decision = field(text, 'DECISION')
     if decision not in DECISIONS:
@@ -63,6 +64,7 @@ def prepare(notebook, progress):
         decision, reason = 'REVIEW_REQUIRED', str(exc)
     return dict(target=target, reference=reference, decision=decision,
                 reason=reason, artifacts=artifacts(notebook),
+                coverage=(notebook / reference).read_text() if decision in READY else '',
                 review=(notebook / reference).read_bytes() if decision in READY else None)
 
 
@@ -70,7 +72,8 @@ def instruction(context):
     if context['decision'] in READY:
         return ('Literature gate: the saved next target has a prior assessment ('
                 + context['decision'] + '). Read it before work. Work only on that '
-                'target or perform a literature-only review; a new target needs a prior review turn.\n')
+                'target: default to a concrete mathematical attempt. Further literature work requires '
+                'LITERATURE_REASON naming a changed hypothesis, essential unread source, or new relevant lead.\n')
     return ('Literature gate: LITERATURE-ONLY TURN. ' + context['reason']
             + '. Search/read sources and complete the assessment for the saved Next action. '
             'Do not derive new results or modify lemmas/ or scripts/. Preserve the '
@@ -88,7 +91,9 @@ def validate_turn(notebook, context, after):
         next_decision = read_review(notebook, field(after, 'NEXT_REVIEW'), field(after, 'Next action'))
     except ValueError as exc:
         return str(exc)
-    if field(after, 'Next action') != context['target'] and next_decision in READY:
+    if (kind == 'RESEARCH' and field(after, 'Next action') != context['target']
+            and next_decision in READY and not (field(after, 'NEXT_REVIEW') == context['reference']
+            and field(after, 'Next action') in re.findall(r'^COVERED_TARGET:[ \t]*([^\n]+)$', context['coverage'], re.M))):
         return 'A new next target needs its own literature review turn.'
     if kind == 'RESEARCH':
         if context['decision'] not in READY:

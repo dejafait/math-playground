@@ -17,8 +17,8 @@ import sys
 import time
 
 from events import Events
-from research import assess, resume, recover, field
-from literature import prepare, instruction, validate_turn
+from research import assess, resume, recover, field, balance_instruction
+from literature import prepare, instruction, validate_turn, READY
 from codex import check, command
 from portfolio import registry, migrate, choose
 
@@ -231,7 +231,8 @@ def show_status(rows, state, only=None):
             scheduling = 'resolved'
         else:
             scheduling = 'eligible'
-        print(f"{slug}: enabled={row['enabled']}; {status}; {scheduling}")
+        mix = local.get('turn_mix', [])
+        print(f"{slug}: enabled={row['enabled']}; {status}; {scheduling}; recent mathematical={mix.count('RESEARCH')}, literature={mix.count('LITERATURE')}")
 
 
 def main():
@@ -334,20 +335,31 @@ def main():
                 before_progress = (notebook / 'PROGRESS.md').read_text()
                 literature_context = prepare(notebook, before_progress)
                 recovery = local.get('research_recovery')
+                first_stop = local.get('first_research_stop', {}).get('reason', '')
+                metadata_ready = (bool(recovery) and (recovery.startswith(('Ready assessments', 'Incomplete or duplicate',
+                                                                         'Missing literature', 'Literature assessment',
+                                                                         'Recovery remains stalled')) )
+                                  and literature_context['decision'] in READY
+                                  and first_stop.startswith(('Ready assessments', 'Incomplete or duplicate',
+                                                             'Missing literature', 'Literature assessment')))
+                if metadata_ready:
+                    local.pop('require_new_target', None)
                 if recovery:
-                    literature_context['decision'] = 'REVIEW_REQUIRED'
+                    if literature_context['decision'] not in READY:
+                        literature_context['decision'] = 'REVIEW_REQUIRED'
                     literature_context['reason'] = 'Recovery required: ' + recovery
                 prompt = (f'Active problem: {problem}. Working directory: {notebook}. '
                           'Shared instructions are ../GOAL.md and ../PROMPT.md. '
                           'All notebook paths are relative to this working directory. '
                           f'Use --problem {problem} with the shared documentation checker.\n\n'
-                          + instruction(literature_context) + '\n' + prompt)
+                          + instruction(literature_context) + balance_instruction(local, literature_context['decision'] in READY) + '\n' + prompt)
                 if recovery:
                     prompt += ('\nSupervisor recovery turn: ' + recovery
                                + '. Repair the reported process issue or reassess the exhausted approach. '
                                'For a stalled or exhausted route, document a materially different mechanism or gap '
                                'and a concrete next test; do not repeat the same retrieval or rename a failed route. '
-                               'This turn is literature-only. Preserve existing mathematical artifacts. '
+                               'If the saved assessment is ready, perform a concrete mathematical attempt; '
+                               'otherwise repair or complete the source assessment. '
                                'Do not claim progress merely to reset counters. Any rejected resolution remains '
                                'unverified: use STATUS: IN_PROGRESS until a later valid critical review.\n')
                     if local.get('require_new_target'):
@@ -356,7 +368,7 @@ def main():
                                    'compare up to three distinct mechanisms and select a different one. '
                                    'If a source cannot be accessed, park dependent work and choose an '
                                    'independent target. Do not repeat the same access attempts. Save a '
-                                   'REVIEW_REQUIRED assessment for the new target.\n')
+                                   'assessment for the new target; a literature turn may finish approving it.\n')
                 argv, stdin = command(executable, prompt)
                 state.update(outcome='running', retry_at=0, started_at=time.time())
                 save_state(state_path, state)
@@ -380,7 +392,8 @@ def main():
                     reason = local.get('research_halt') or validate_turn(notebook, literature_context, after_progress)
                     if not reason and recovery and proved(problem):
                         reason = 'Recovery must leave a rejected resolution IN_PROGRESS for later critical review.'
-                    if not reason and recovery and field(after_progress, 'STEP_OUTCOME') == 'STALLED':
+                    if (not reason and recovery and field(after_progress, 'STEP_OUTCOME') == 'STALLED'
+                            and prepare(notebook, after_progress)['decision'] not in READY):
                         reason = 'Recovery remains stalled; reassess the route instead of renewing its budget.'
                     if (not reason and recovery and local.get('require_new_target')
                             and field(after_progress, 'Next action') == literature_context['target']):
@@ -396,6 +409,10 @@ def main():
                             local.pop('research_recovery', None)
                             local.pop('require_new_target', None)
                             local['recovery_attempts'] = 0
+                    if (not reason and not recovery and literature_context['decision'] in READY
+                            and field(after_progress, 'STEP_KIND') == 'LITERATURE'
+                            and not field(after_progress, 'LITERATURE_REASON')):
+                        reason = 'Ready target needs a mathematical attempt or a specific LITERATURE_REASON.'
                     if not reason:
                         reason = assess(local, before_progress, after_progress, changed)
                     if reason:
