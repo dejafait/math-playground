@@ -32,12 +32,20 @@ class ResearchTests(unittest.TestCase):
     def test_exploration_budget_and_useful_negative(self):
         state = {}
         for i in range(2):
-            self.assertIsNone(research.assess(state, '', report(str(i), 'EXPLORATION'), True))
-        research.assess(state, '', report('negative', 'NEGATIVE'), True)
+            self.assertIsNone(research.assess(state, '', report(str(i), 'EXPLORATION').replace('STEP_KIND: LITERATURE', 'STEP_KIND: RESEARCH'), True))
+        research.assess(state, '', report('negative', 'NEGATIVE').replace('STEP_KIND: LITERATURE', 'STEP_KIND: RESEARCH'), True)
         self.assertEqual(state['exploration_turns'], 0)
         for i in range(2):
-            self.assertIsNone(research.assess(state, '', report('new'+str(i), 'EXPLORATION'), True))
-        self.assertIsNotNone(research.assess(state, '', report('third', 'EXPLORATION'), True))
+            self.assertIsNone(research.assess(state, '', report('new'+str(i), 'EXPLORATION').replace('STEP_KIND: LITERATURE', 'STEP_KIND: RESEARCH'), True))
+        self.assertIsNotNone(research.assess(state, '', report('third', 'EXPLORATION').replace('STEP_KIND: LITERATURE', 'STEP_KIND: RESEARCH'), True))
+
+    def test_literature_does_not_spend_calculation_budget(self):
+        state = {'exploration_turns': 2}
+        for i in range(5):
+            self.assertIsNone(research.assess(state, '', report(str(i), 'EXPLORATION'), True))
+        self.assertEqual(state['exploration_turns'], 2)
+        self.assertIn('20%', research.balance_instruction({'turn_mix': ['RESEARCH'] * 4}, True))
+        self.assertIn('mathematical attempt now', research.balance_instruction(state, True))
 
     def test_invalid_reports_do_not_reset_budget(self):
         for text in ['', report('1', 'UNKNOWN'), report('1', 'ADVANCE')+'STEP_OUTCOME: STALLED\n', report('1', 'ADVANCE').replace('STEP_EVIDENCE:', 'Evidence:'), report('1', 'ADVANCE').replace('Tested mechanism; history/test.md', '')]:

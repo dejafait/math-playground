@@ -76,14 +76,23 @@ class LiteratureTests(unittest.TestCase):
         changed = self.progress.replace('Next action: test', 'Next action: different')
         self.assertEqual(literature.prepare(self.root, changed)['decision'], 'REVIEW_REQUIRED')
 
-    def test_new_next_target_cannot_be_self_approved(self):
+    def test_literature_can_approve_new_next_target(self):
         ctx = literature.prepare(self.root, self.progress)
         other = self.path.with_name('next.md')
         other.write_text(self.path.read_text().replace('TARGET: test', 'TARGET: next').replace('REVIEW_REQUIRED', 'EXPLORE'))
         after = self.result().replace('Next action: test', 'Next action: next').replace(
             'NEXT_REVIEW: drafts/literature/test.md', 'NEXT_REVIEW: drafts/literature/next.md')
-        self.assertIsNotNone(literature.validate_turn(self.root, ctx, after))
+        self.assertIsNone(literature.validate_turn(self.root, ctx, after))
         other.write_text(other.read_text().replace('EXPLORE', 'REVIEW_REQUIRED'))
+        self.assertIsNone(literature.validate_turn(self.root, ctx, after))
+
+    def test_preapproved_subtarget_reuses_scope(self):
+        review_fixture(self.root, 'EXPLORE')
+        self.path.write_text(self.path.read_text() + '\nSCOPE: test and its bounded subcases\nCOVERED_TARGET: subcase\n')
+        progress = self.progress.replace('Next action: test', 'Next action: subcase')
+        self.assertEqual(literature.prepare(self.root, progress)['decision'], 'EXPLORE')
+        ctx = literature.prepare(self.root, self.progress)
+        after = self.result('RESEARCH', 'POTENTIALLY_NEW').replace('Next action: test', 'Next action: subcase')
         self.assertIsNone(literature.validate_turn(self.root, ctx, after))
 
     def test_evidence_cannot_be_rewritten_during_research(self):
