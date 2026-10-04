@@ -56,6 +56,24 @@ class AccountingTests(unittest.TestCase):
             self.assertGreaterEqual(result['collection_seconds'], 0)
             self.assertEqual(collect(None, Path(tmp))['collection_status'], 'unavailable')
 
+    def test_input_scope_audit_uses_registry_without_source_copy(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'scripts/loop').mkdir(parents=True)
+            (root / 'scripts/loop/problems.json').write_text(json.dumps([{'id': 'riemann'}, {'id': 'collatz'}]))
+            path = root / 'session.jsonl'
+            events = [
+                {'type': 'session_meta', 'payload': {'cwd': str(root / 'riemann')}},
+                {'type': 'response_item', 'payload': {'type': 'custom_tool_call', 'name': 'exec',
+                                                     'input': 'cat ../collatz/PROOF.md'}},
+                {'type': 'response_item', 'payload': {'type': 'custom_tool_call', 'name': 'exec',
+                                                     'input': 'rg claim ..'}}]
+            path.write_text(''.join(json.dumps(e)+'\n' for e in events))
+            summary, _ = summarize(path)
+            self.assertEqual(summary['input_scope_audit']['sibling_read_commands'], {'collatz': 1})
+            self.assertEqual(summary['input_scope_audit']['broad_read_commands'], 1)
+            self.assertNotIn('cat ../collatz', json.dumps(summary))
+
     def test_reasoning_unavailable_is_null(self):
         u=usage();del u['reasoning_output_tokens']
         summary,_=self.parse([{'type': 'token_usage_record', 'payload': {'response_id': 'r', 'usage': u}}])

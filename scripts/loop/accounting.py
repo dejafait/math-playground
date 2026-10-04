@@ -5,6 +5,7 @@ import sqlite3
 import time
 
 from routing import profile_home
+from input_scope import notebooks, audit
 
 SCHEMA_VERSION = 1
 TOKEN_KEYS = ('input_tokens', 'cached_input_tokens', 'output_tokens', 'reasoning_output_tokens', 'total_tokens')
@@ -25,6 +26,8 @@ def summarize(path):
     tools, outputs, pending = {}, [], {}
     compactions, malformed, resets = 0, 0, 0
     previous = {}
+    active, slugs = None, []
+    broad_reads, sibling_reads = 0, {}
     actual_model = actual_effort = allowance = None
     with Path(path).open() as handle:
         for line in handle:
@@ -35,6 +38,9 @@ def summarize(path):
             except (ValueError, AttributeError):
                 malformed += 1
                 continue
+            if category == 'session_meta' and payload.get('cwd'):
+                active = Path(payload['cwd']).name
+                slugs = notebooks(payload['cwd'])
             if category == 'turn_context':
                 actual_model, actual_effort = payload.get('model'), payload.get('effort')
             if category == 'compacted' or kind == 'context_compacted':
@@ -43,6 +49,10 @@ def summarize(path):
                 name = payload.get('name', 'unknown')
                 tools[name] = tools.get(name, 0) + 1
                 pending[payload.get('call_id')] = name
+                scope = audit(payload.get('arguments', payload.get('input', '')), active, slugs)
+                broad_reads += int(scope['broad_read'])
+                for slug in scope['sibling_notebooks']:
+                    sibling_reads[slug] = sibling_reads.get(slug, 0) + 1
             if category == 'response_item' and kind in ('function_call_output', 'custom_tool_call_output'):
                 output = payload.get('output', '')
                 size = len((output if isinstance(output, str) else json.dumps(output)).encode())
@@ -76,6 +86,8 @@ def summarize(path):
                    usage_source=source if requests else 'unavailable', tokens=totals,
                    request_count=len(requests) if requests else None, compactions=compactions,
                    counter_resets=resets, malformed_events=malformed, tool_calls=tools,
+                   input_scope_audit={'broad_read_commands': broad_reads, 'sibling_read_commands': sibling_reads,
+                                      'coverage': 'heuristic_command_patterns_not_read_enforcement'},
                    tool_output_bytes=sum(r['bytes'] for r in outputs),
                    largest_tool_outputs=sorted(outputs, key=lambda r: r['bytes'], reverse=True)[:10],
                    actual_model=actual_model, actual_effort=actual_effort,
