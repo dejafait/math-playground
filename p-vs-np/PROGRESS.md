@@ -1,14 +1,15 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: 2026-10-03-24-log-degree-ips-binary-bound
-STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: lemmas/L016-log-degree-formula-ips-er-binary-bound.md specializes the known logarithmic-degree F₂/3CNF formula simulation: substitutions preserve logarithmic degree/depth, the binomial factor is polynomial, and full binary ER length is polynomial in supplied data.
-STEP_KIND: RESEARCH
-STEP_CLASSIFICATION: REPRODUCTION
-STEP_REVIEW: drafts/literature/2026-10-03-noncommutative-ips-er-simulation.md
-Bottleneck: No polynomial-time SAT algorithm or unconditional separation is established. General-degree polynomial formula-IPS-to-EF/ER simulation, hard CNF families, an unrestricted EF/ER lower bound and a decision-to-ER transfer remain missing; KPT cover/proof and arithmetic premises stay unprovided.
-Route decision: The screened binary specialization succeeds as known-mathematics reproduction; covered polynomial certificate families have polynomial ER proofs. Consider EF sharing only after a separate review of the changed degree/representation hypotheses. Preserve the KPT stops and do not infer unrestricted simulation.
+STEP_ID: 2026-10-04-31-shared-er-circuit-ips-literature
+STEP_OUTCOME: EXPLORATION
+STEP_EVIDENCE: drafts/literature/2026-10-04-shared-noncommutative-er-circuit-ips.md completes SPECIALIZE coverage: formula commutation witnesses and commutative circuit Booleanity/elimination support a shared-witness test, but no inspected theorem establishes the full original-axiom noncommutative circuit translation.
+STEP_KIND: LITERATURE
+STEP_CLASSIFICATION: NOVELTY_UNCHECKED
+STEP_REVIEW: drafts/literature/2026-10-04-shared-noncommutative-er-circuit-ips.md
+LITERATURE_REASON: The saved REVIEW_REQUIRED target changed from literal tree unfolding to shared noncommutative circuit extension elimination; the required DAG/Booleanity/commutation source comparison was missing.
+Bottleneck: No SAT algorithm, unconditional separation or main-problem candidate is established. Formal noncommutative elimination of ER extensions at polynomial binary cost remains unproved. Circuit-to-tree conversion, certificate hardness, unrestricted proof lower bounds and decision transfer also remain missing.
+Route decision: The shared-circuit mechanism is ready for a bounded mathematical test under SPECIALIZE. Investigate shared gate-pair commutation and extension Booleanity witnesses over original axioms, then certificate propagation; require one fixed polynomial in the original proof length. Preserve L019's literal stop, L018 and earlier stops. This turn supplies source coverage only, with no claimed originality or new result.
 Exploration turns used: 0
-NEXT_REVIEW: drafts/literature/2026-10-03-shared-homogeneous-ips-ef.md
-Next action: Test whether shared homogeneous-component circuits yield a polynomial EF/ER simulation of arbitrary-degree balanced F₂ noncommutative formula-IPS certificates for 3CNFs.
+NEXT_REVIEW: drafts/literature/2026-10-04-shared-noncommutative-er-circuit-ips.md
+Next action: Test whether a sharing-preserving F₂ noncommutative circuit-IPS translation eliminates ER extension placeholders with polynomial binary cost over the original axiom list.

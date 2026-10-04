@@ -1,0 +1,15 @@
+# 2026-10-04 — Reverse ER-to-formula-IPS source comparison
+
+Step identifier: 2026-10-04-29-er-to-formula-ips-literature. Outcome: EXPLORATION. Kind: LITERATURE. Classification: NOVELTY_UNCHECKED.
+
+Read the shared/local instructions, whole overview, DAG, checkpoint, pending assessment and existing changes. The saved target reverses L018's implication and was not covered by the forward assessment. Completed exactly one source review; preserved existing work and all lemma and script contents.
+
+**Gap and relevance.** To use hardness of every noncommutative tree certificate as ER hardness, short ER refutations would need short certificates over the original axiom list. Even that implication would leave the certificate lower bound and decision-time transfer unproved. The threshold is a fixed polynomial in the original CNF plus ER binary length, not in an uncontrolled expanded proof.
+
+**Source result.** [The completed assessment](../drafts/literature/2026-10-04-er-to-formula-ips.md) records the actual queries, versions, theorem passages and limits. Li–Tzameret–Wang supplies the Frege/tree and balancing stages. Forbes–Shpilka–Tzameret–Wigderson Theorem 1.4 states the clause-form version with Boolean and base-variable commutator axioms; their Theorem 1.2 and Remark 1.3 distinguish the EF circuit result and its possibly exponential degree. The inspected Grochow–Pitassi revision preserves that distinction. The recent partially commutative manuscript supplies no matching reverse ER statement. The optional inaccessible Buss chapter is unused, and no essential source blocker remains.
+
+**Decision and effect.** SPECIALIZE approves one audit of extension elimination with total unfolding size explicit, importing the known later stages. Its discriminating test must use extension occurrences involved in a valid refutation and compare all binary costs with the original proof length. A failed literal substitution would stop that mechanism only; it would not be a lower bound on every certificate or a resolution of P versus NP. No new result, reverse simulation or impossibility is established by this review. The overview now states the assessed representation gap; the mathematical DAG is unchanged.
+
+This is useful source coverage and a ready continuation test, honestly labeled EXPLORATION. Mathematical exploration turns used remains 0 because this literature turn spends no calculation budget. STATUS remains IN_PROGRESS; there is no main-problem candidate. The exact covered audit can run under this assessment on the following invocation without another review.
+
+**Verification.** `python3 ../scripts/docs/check_structure.py --problem p-vs-np` passed with 18 nodes and 10 unique edges. `git diff --check -- .` reported no whitespace errors. A read-only field check confirmed unique required fields, the preserved original TARGET and an exact COVERED_TARGET match for the new checkpoint action. SHA-256 comparison of all 36 existing lemma/script files found no additions, removals or content changes. No mathematical calculations or script executions were performed.

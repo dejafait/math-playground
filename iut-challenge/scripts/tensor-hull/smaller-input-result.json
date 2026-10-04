@@ -1,0 +1,64 @@
+{
+  "arithmetic": "exact fractions; no logarithm truncation",
+  "input": "beta^(-1) T union J, a = 1",
+  "beta": "1 tensor 2sqrt(2)",
+  "beta_inverse_T_in_I_basis": [
+    [
+      "0",
+      "0",
+      "1/2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "2"
+    ],
+    [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "4",
+      "0",
+      "0"
+    ]
+  ],
+  "beta_inverse_T_contained_in_I_over_2": true,
+  "J_contained_in_I_over_2": true,
+  "J_contained_in_beta_inverse_T": true,
+  "rounded_exponent": -2,
+  "orbit_exponent_from_L009_proof": -1,
+  "unsaturated_branch_component_minima": {
+    "beta_inverse_T": [
+      "-3/2",
+      "-3/2"
+    ],
+    "J": [
+      "1",
+      "1"
+    ]
+  },
+  "sharp_full_orbit_hull_radii": [
+    16,
+    16
+  ],
+  "required_rounded_hull_radii": [
+    32,
+    32
+  ],
+  "sharp_witness_source": "1 tensor sqrt(2) in T",
+  "sharp_basis_swap_witness": [
+    "1/16",
+    "0",
+    "-1/16",
+    "0"
+  ],
+  "full_orbit_hull_contained_in_rounded_hull": true,
+  "infinite_assertions": "log-shell in L007; whole-group orbit in L009",
+  "scope": "fixed smaller input; no full IUT instance or normalized A/B"
+}

@@ -1,0 +1,81 @@
+{
+  "scope": "Syntax/finite evaluation and shared description charges; not a propositional proof verifier",
+  "cases": 6,
+  "flat_substitution_all_definitions_reflexive": true,
+  "flat_and_factored_outputs_equal_on_checked_assignments": true,
+  "factored_substitution_requires_explicit_equality_proofs": true,
+  "case_details": [
+    {
+      "name": "empty alphabet",
+      "evaluation_definitions": 2,
+      "dag_nodes": 2,
+      "full_rooted_substitution_nodes": 2,
+      "full_rooted_substitution_bits_upper_charge": 72,
+      "largest_unfolded_root_nodes": 1,
+      "factored_substitution_nonreflexive_definitions": 0,
+      "assignment_checks": 1,
+      "mutated_definition_rejected": null,
+      "remaining_input_labels": 0
+    },
+    {
+      "name": "scalar-one first layer",
+      "evaluation_definitions": 3,
+      "dag_nodes": 5,
+      "full_rooted_substitution_nodes": 5,
+      "full_rooted_substitution_bits_upper_charge": 4288,
+      "largest_unfolded_root_nodes": 3,
+      "factored_substitution_nonreflexive_definitions": 1,
+      "assignment_checks": 2,
+      "mutated_definition_rejected": true,
+      "remaining_input_labels": 1
+    },
+    {
+      "name": "duplicate paths with zero terminal",
+      "evaluation_definitions": 7,
+      "dag_nodes": 11,
+      "full_rooted_substitution_nodes": 24,
+      "full_rooted_substitution_bits_upper_charge": 806,
+      "largest_unfolded_root_nodes": 11,
+      "factored_substitution_nonreflexive_definitions": 5,
+      "assignment_checks": 4,
+      "mutated_definition_rejected": true,
+      "remaining_input_labels": 2
+    },
+    {
+      "name": "Boolean-zero formal commutator",
+      "evaluation_definitions": 7,
+      "dag_nodes": 13,
+      "full_rooted_substitution_nodes": 26,
+      "full_rooted_substitution_bits_upper_charge": 858,
+      "largest_unfolded_root_nodes": 11,
+      "factored_substitution_nonreflexive_definitions": 5,
+      "assignment_checks": 4,
+      "mutated_definition_rejected": true,
+      "remaining_input_labels": 2
+    },
+    {
+      "name": "grouped nonzero row",
+      "evaluation_definitions": 23,
+      "dag_nodes": 31,
+      "full_rooted_substitution_nodes": 142,
+      "full_rooted_substitution_bits_upper_charge": 4950,
+      "largest_unfolded_root_nodes": 39,
+      "factored_substitution_nonreflexive_definitions": 13,
+      "assignment_checks": 4,
+      "mutated_definition_rejected": true,
+      "remaining_input_labels": 2
+    },
+    {
+      "name": "dense sharing stress with sparse labels",
+      "evaluation_definitions": 2537,
+      "dag_nodes": 328,
+      "full_rooted_substitution_nodes": 223033,
+      "full_rooted_substitution_bits_upper_charge": 126319200,
+      "largest_unfolded_root_nodes": 178267485250079,
+      "factored_substitution_nonreflexive_definitions": 1385,
+      "assignment_checks": 4,
+      "mutated_definition_rejected": true,
+      "remaining_input_labels": 2
+    }
+  ]
+}

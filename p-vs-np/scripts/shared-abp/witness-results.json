@@ -1,0 +1,96 @@
+{
+  "scope": "Finite recurrence/indexing checks; not a CF/EF proof verifier",
+  "seed": 170104,
+  "cases": 143,
+  "formal_zero_cases": 64,
+  "formal_nonzero_cases": 79,
+  "word_checks": 1991,
+  "assignment_checks": 677,
+  "corrupted_transition_rejected": true,
+  "boolean_zero_formally_nonzero_rejected": true,
+  "named_cases": [
+    {
+      "name": "xy+xy cancellation",
+      "widths": [
+        1,
+        2,
+        1
+      ],
+      "variables": 2,
+      "ranks": [
+        1,
+        1,
+        0
+      ],
+      "formal_zero": true,
+      "word_checks": 4,
+      "assignment_checks": 4
+    },
+    {
+      "name": "empty coefficient spaces",
+      "widths": [
+        1,
+        2,
+        1
+      ],
+      "variables": 2,
+      "ranks": [
+        1,
+        0,
+        0
+      ],
+      "formal_zero": true,
+      "word_checks": 4,
+      "assignment_checks": 4
+    },
+    {
+      "name": "xy+yx formally nonzero",
+      "widths": [
+        1,
+        2,
+        1
+      ],
+      "variables": 2,
+      "ranks": [
+        1,
+        2,
+        1
+      ],
+      "formal_zero": false,
+      "word_checks": 4,
+      "assignment_checks": 4
+    },
+    {
+      "name": "unused variable and isolated sink",
+      "widths": [
+        1,
+        2
+      ],
+      "variables": 3,
+      "ranks": [
+        1,
+        1
+      ],
+      "formal_zero": true,
+      "word_checks": 3,
+      "assignment_checks": 8
+    },
+    {
+      "name": "empty alphabet",
+      "widths": [
+        1,
+        2,
+        1
+      ],
+      "variables": 0,
+      "ranks": [
+        1,
+        0,
+        0
+      ],
+      "formal_zero": true,
+      "word_checks": 0,
+      "assignment_checks": 1
+    }
+  ]
+}

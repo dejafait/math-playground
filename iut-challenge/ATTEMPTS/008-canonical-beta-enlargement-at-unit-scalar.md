@@ -1,0 +1,5 @@
+# Canonical-beta enlargement at the unit scalar
+
+The screened mathematical attempt on 2026-10-03 is decided in [L008](../lemmas/L008-canonical-beta-rounding-fails-at-unit-scalar.md). For a = 1 and the source's canonical beta, the enlarged lattice's full orbit hull has radii 64 instead of the rounded radii 32. This supplies a failure beyond L007's choice-dependent example and settles the fixed extension test.
+
+WHY IT FAILS: using that failure as an essential IUT objection would transfer noncontainment for beta^(-1) I to the smaller starting region beta^(-1) T union J, which is invalid without further evidence. The unit scalar also lies outside the strict §6.2 toy hypothesis; its local §6.3 extension has not been instantiated in original initial theta data. The native theorem bounds its own input a O_L. Consequently the fixed enlarged-lattice comparison is ruled out, while no counterexample to the final auxiliary enclosure or original IUT comparison follows. Preserve the result and examine the smaller source region after its separate screen; do not repeat the decided enlarged-lattice calculation or retry the parked source blockers.
