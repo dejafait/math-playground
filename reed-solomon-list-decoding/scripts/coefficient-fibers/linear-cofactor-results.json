@@ -1,0 +1,128 @@
+{
+  "all_checks_passed": true,
+  "fixed_instance": {
+    "source_field_cardinality": 65537,
+    "ambient_extension_degree": 28,
+    "domain_order": 1024,
+    "message_degree_bound_strict": 64,
+    "center_degree": 67,
+    "agreement_count": 66,
+    "tested_error_index": 958,
+    "incidence_to_list_correction": "I_66 - 66 Z_67",
+    "exact_mean": "66732924591749825379547854919346008407130299316684451520999205927473581338612377147653436925805130135688496640/281487861809153",
+    "averaging_lower_certificate": "237072121557391801719718231055195813911582641578585239026567557786832456880701985814097976318668",
+    "lower_power_of_two_bracket": [
+      316,
+      317
+    ],
+    "threshold_power_of_two_bracket": [
+      320,
+      321
+    ],
+    "mean_threshold_ratio_bracket": [
+      "11094/100000",
+      "11095/100000"
+    ],
+    "deduplication_mean_factor": "4327751/4390979",
+    "averaging_certifies_unsafety": false,
+    "maximum_fixed_instance_fiber": "not computed",
+    "uniform_family_upper_below_threshold": "not established",
+    "interleaving_scope": "every m>=1 by the factor/root argument",
+    "full_code_safety": "not established"
+  },
+  "independent_small_domain_dictionary": {
+    "base_field_cardinality": 17,
+    "domain_order": 8,
+    "message_degree_bound_strict": 2,
+    "agreement_count": 4,
+    "center_degree": 5,
+    "centers_exhausted": 4913,
+    "scalar_messages_exhausted_per_center": 289,
+    "total_root_subset_cofactor_incidences": 1190,
+    "total_fully_split_root_subsets": 56,
+    "sum_of_distinct_center_list_sizes": 966,
+    "nonempty_center_lists": 933,
+    "largest_small_domain_list": 2,
+    "residual_case_incidence_counts": {
+      "residual_outside_domain": 630,
+      "repeated_agreement_root": 280,
+      "extra_agreement_root": 280
+    },
+    "all_center_lists_and_multiplicities_agree": true,
+    "three_moment_signs_agree": true,
+    "representative_extension_and_normalization_checks": [
+      {
+        "residual_case": "extra_agreement_root",
+        "coefficient_triple": [
+          7,
+          1,
+          2
+        ],
+        "chosen_subset": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "residual_root": 9,
+        "exact_scalar_and_extension_list_size": 1,
+        "extension_messages_exhausted": 83521,
+        "width_two_messages_exhausted_via_components": 83521,
+        "all_extension_candidates_in_prime_field": true,
+        "nonmonic_translated_center_check_passed": true,
+        "additional_constructed_widths": [
+          1,
+          3
+        ]
+      },
+      {
+        "residual_case": "repeated_agreement_root",
+        "coefficient_triple": [
+          2,
+          11,
+          9
+        ],
+        "chosen_subset": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "residual_root": 4,
+        "exact_scalar_and_extension_list_size": 1,
+        "extension_messages_exhausted": 83521,
+        "width_two_messages_exhausted_via_components": 83521,
+        "all_extension_candidates_in_prime_field": true,
+        "nonmonic_translated_center_check_passed": true,
+        "additional_constructed_widths": [
+          1,
+          3
+        ]
+      },
+      {
+        "residual_case": "residual_outside_domain",
+        "coefficient_triple": [
+          15,
+          2,
+          1
+        ],
+        "chosen_subset": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "residual_root": 0,
+        "exact_scalar_and_extension_list_size": 1,
+        "extension_messages_exhausted": 83521,
+        "width_two_messages_exhausted_via_components": 83521,
+        "all_extension_candidates_in_prime_field": true,
+        "nonmonic_translated_center_check_passed": true,
+        "additional_constructed_widths": [
+          1,
+          3
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "all_checks_passed": true,
+  "fixed_instance": {
+    "source_field_cardinality": 65537,
+    "ambient_extension_degree": 28,
+    "domain_order": 1024,
+    "domain_index": 64,
+    "message_degree_bound_strict": 64,
+    "center_degree": 67,
+    "agreement_count": 66,
+    "tested_error_index": 958,
+    "cycle_weights_by_phase_degree": {
+      "quadratic": 514,
+      "cubic": 770
+    },
+    "complete_cofactor_caps": {
+      "linear": 0,
+      "quadratic": 513,
+      "cubic": 769
+    },
+    "total_subsets": "1033124583102687354339403140244478613320805668860768156926529922156041313302689842574764646586401047354880",
+    "quadratic_sieve_binomial": "8465305938258319483377548069142511894430704660788795080347702134232144415298207046605195",
+    "cubic_sieve_binomial": "890057520900053845284332582774796922231363807890119211828419680197561584654399196025613460647280975",
+    "certified_uniform_upper": "2939754438318327371003928787072926940164713921952625639146338277808013833009151115712676544086989793431615741440/4295098369",
+    "certified_integer_upper": "684444030324448983767600594172311712231407085138316104337478627327804941598335513165676821798301819855",
+    "upper_power_of_two_bracket": [
+      338,
+      339
+    ],
+    "upper_threshold_ratio_integer_bracket": [
+      320297,
+      320298
+    ],
+    "rationally_refined_upper_threshold_ratio_integer_bracket": [
+      294741,
+      294742
+    ],
+    "existing_support_upper_threshold_ratio_integer_bracket": [
+      1050,
+      1051
+    ],
+    "new_sieve_cap_improves_existing_support_upper": false,
+    "threshold": "727149327278872667124154633597634608229793109521328156074096216441918942119565463799581649034139761104741679654857901181901003359518721/340282366920938463463374607431768211456",
+    "threshold_power_of_two_bracket": [
+      320,
+      321
+    ],
+    "cubic_cofactor_squared_norm_sum": "18447588511524651008",
+    "constant_weight_absolute_error_allowance_lower": "58330809689705928804554020144729091095354658513886852666387312161427396011910705710734603756980205977600/769",
+    "allowance_lower_threshold_ratio_integer_bracket": [
+      35496,
+      35497
+    ],
+    "rationally_refined_allowance_lower_ratio_integer_bracket": [
+      32749,
+      32750
+    ],
+    "uniform_cap_below_threshold": false,
+    "absolute_sum_method_can_certify_threshold_with_this_cycle_cap": false,
+    "allowance_lower_is_an_actual_list_or_error_lower_bound": false,
+    "actual_fixed_instance_fibers": "not enumerated",
+    "family_safety_or_unsafety": "not established",
+    "interleaving_scope": "every m>=1 via L015; no exponent m",
+    "full_code_grid_bound_changed": false
+  },
+  "independent_small_domain_normalization": {
+    "source_field_cardinality": 17,
+    "domain_order": 8,
+    "subset_size": 4,
+    "subsets_enumerated": 70,
+    "distinct_ordered_tuples_enumerated": 1680,
+    "signed_three_moment_sieve_agrees": true,
+    "factorial_and_cofactor_convolution_agree": true,
+    "incidences_enumerated": 1190,
+    "corrected_list_sum": 966,
+    "cubic_cofactor_phases_audited_exactly": 4624,
+    "exact_cubic_cofactor_squared_norm_sum": 78608,
+    "cyclotomic_norm_identity_passed": true,
+    "linear_cofactor_cancellation_passed": true
+  }
+}

@@ -1,15 +1,14 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: rsld-2026-10-04-025-degree-sixty-seven-literature
-STEP_OUTCOME: EXPLORATION
-STEP_EVIDENCE: Completed the unchanged degree-67/66-agreement source comparison: arbitrary-domain cofactor and incidence/exact-root identities are known, while sharper full-field error theorems do not directly cover H. The dictionary and a three-moment/sieve threshold test are SPECIALIZE-ready; no local result was derived. Evidence: drafts/literature/2026-10-04-degree-sixty-seven-linear-cofactor.md; history/025-2026-10-04-degree-sixty-seven-literature.md.
-STEP_KIND: LITERATURE
-STEP_CLASSIFICATION: NOVELTY_UNCHECKED
+STEP_ID: rsld-2026-10-04-027-cubic-cofactor-sieve-negative
+STEP_OUTCOME: NEGATIVE
+STEP_EVIDENCE: L016's cubic/cofactor cap exceeds 320297 times threshold; rational refinement exceeds 294741. The exact cofactor norm shows the constant-weight absolute-sum allowance alone exceeds 35496 times threshold even with exact cofactor magnitudes. This stops that estimate, not the family. Evidence: lemmas/L016-cubic-cofactor-sieve-cap-and-limitation.md; scripts/coefficient-fibers/cubic-cofactor-upper-results.json.
+STEP_KIND: RESEARCH
+STEP_CLASSIFICATION: REPRODUCTION
 STEP_REVIEW: drafts/literature/2026-10-04-degree-sixty-seven-linear-cofactor.md
-LITERATURE_REASON: The saved target changes the center degree to 67 while retaining 66 agreements, requiring source coverage for a residual linear factor and incidence multiplicities outside the ready two-moment scope.
-Bottleneck: The assessed degree-66 rate-1/16 A=66 family is below threshold, but degree-67 and arbitrary centers at that grid radius remain uncontrolled; t_star<=958 is unchanged. Other rate bounds remain 509,765,893. The general sharp boundary, ABF26 comparison and general-interpolant cover remain missing.
-Route decision: Preserve the degree-66 stop and all earlier evidence; apply known coefficient/cofactor tools to the unchanged degree-67 target under its completed SPECIALIZE assessment. Both the dictionary and effective threshold test have reusable coverage. No complete candidate or novelty claim; nonessential source blockers stay parked.
-Exploration turns used: 0/3, unchanged by this literature-only review; no calculation turn or scheduler-state change.
-NEXT_REVIEW: drafts/literature/2026-10-04-degree-sixty-seven-linear-cofactor.md
-Next action: Determine whether a degree-67 scalar polynomial center over F_65537, with all other interleaved rows zero, gives an unsafe list at 66 agreements on the order-1024 subgroup inside F_{65537^28} at rate 1/16, for every m>=1.
+Bottleneck: The degree-67 dictionary is exact, but neither averaging nor the screened upper cap decides its maximum at 66 agreements. The arbitrary-center maximum and sharp boundary remain open. Rate-1/16 t_star<=958 and other rate bounds 509,765,893 are unchanged; ABF26 comparison and general-interpolant cover remain missing.
+Route decision: Stop the constant-weight cubic sieve followed by absolute cofactor summation. Assess a correlated-error mechanism before further calculations; its source coverage is REVIEW_REQUIRED. Preserve the dictionary, degree-66 stop and averaging failures. This is a negative reproduction of known tools, with no candidate or novelty claim. Persistent source blockers stay parked.
+Exploration turns used: 0/3; this upper test supplied an informative NEGATIVE result, not an exploratory or stalled repeat.
+NEXT_REVIEW: drafts/literature/2026-10-04-correlated-cubic-cofactor-error.md
+Next action: Test whether averaged correlations between the cubic subgroup cycle sums and the complete residual-factor sum give a uniform degree-67/66-agreement list bound below 65537^28/2^128 on the fixed order-1024 subgroup.

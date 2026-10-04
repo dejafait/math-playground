@@ -1,0 +1,79 @@
+{
+  "scope": "L020 witness recurrences and normalization; not assembled IPS identities or proof strings",
+  "formal_cases": 67,
+  "checks": {
+    "gate_pairs": 11181,
+    "boolean_witnesses": 853,
+    "defining_clauses": 537,
+    "swaps": 802,
+    "duplicate_deletions": 25
+  },
+  "mutations_detected": [
+    "product Booleanity without commutator correction",
+    "commutator product with reversed coefficient order",
+    "sorted projection without swap correction",
+    "duplicate defining literal without Booleanity correction"
+  ],
+  "structural_cases": [
+    {
+      "extensions": 4,
+      "base_gates": 12,
+      "gate_pair_states": 144,
+      "shared_nodes": 202,
+      "shared_binary_bits": 5894,
+      "root_syntactic_degree": "16",
+      "root_unfolded_nodes": "31",
+      "word_expansion": false
+    },
+    {
+      "extensions": 8,
+      "base_gates": 20,
+      "gate_pair_states": 400,
+      "shared_nodes": 654,
+      "shared_binary_bits": 22352,
+      "root_syntactic_degree": "256",
+      "root_unfolded_nodes": "511",
+      "word_expansion": false
+    },
+    {
+      "extensions": 16,
+      "base_gates": 36,
+      "gate_pair_states": 1296,
+      "shared_nodes": 2326,
+      "shared_binary_bits": 95182,
+      "root_syntactic_degree": "65536",
+      "root_unfolded_nodes": "131071",
+      "word_expansion": false
+    },
+    {
+      "extensions": 32,
+      "base_gates": 68,
+      "gate_pair_states": 4624,
+      "shared_nodes": 8742,
+      "shared_binary_bits": 423138,
+      "root_syntactic_degree": "4294967296",
+      "root_unfolded_nodes": "8589934591",
+      "word_expansion": false
+    },
+    {
+      "extensions": 64,
+      "base_gates": 132,
+      "gate_pair_states": 17424,
+      "shared_nodes": 33862,
+      "shared_binary_bits": 1902446,
+      "root_syntactic_degree": "18446744073709551616",
+      "root_unfolded_nodes": "36893488147419103231",
+      "word_expansion": false
+    },
+    {
+      "extensions": 128,
+      "base_gates": 260,
+      "gate_pair_states": 67600,
+      "shared_nodes": 133254,
+      "shared_binary_bits": 8539510,
+      "root_syntactic_degree": "340282366920938463463374607431768211456",
+      "root_unfolded_nodes": "680564733841876926926749214863536422911",
+      "word_expansion": false
+    }
+  ]
+}
