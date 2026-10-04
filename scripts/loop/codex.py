@@ -30,10 +30,12 @@ def check(root):
     return executable
 
 
-def command(executable, prompt):
+def command(executable, prompt, route=None):
     """Return Codex argv and literal prompt text for stdin."""
+    route = route or {'model': 'gpt-6.1-sol', 'effort': 'high'}
     return [executable, '-a', 'never', 'exec', '--sandbox', 'workspace-write',
-            '-c', 'model_reasoning_effort="max"',
+            '--model', route['model'],
+            '-c', 'model_reasoning_effort=' + '"' + route['effort'] + '"',
             '-c', 'web_search="live"',
             '-c', 'model_provider="openai"', '-c', 'forced_login_method="chatgpt"',
             '--json', '-'], prompt
