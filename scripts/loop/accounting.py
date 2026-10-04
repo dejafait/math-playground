@@ -27,7 +27,7 @@ def summarize(path):
     compactions, malformed, resets = 0, 0, 0
     previous = {}
     active, slugs = None, []
-    broad_reads, sibling_reads = 0, {}
+    broad_reads, sibling_reads, orientation_reads = 0, {}, {}
     actual_model = actual_effort = allowance = None
     with Path(path).open() as handle:
         for line in handle:
@@ -51,6 +51,8 @@ def summarize(path):
                 pending[payload.get('call_id')] = name
                 scope = audit(payload.get('arguments', payload.get('input', '')), active, slugs)
                 broad_reads += int(scope['broad_read'])
+                for name, count in scope['orientation_read_mentions'].items():
+                    orientation_reads[name] = orientation_reads.get(name, 0) + count
                 for slug in scope['sibling_notebooks']:
                     sibling_reads[slug] = sibling_reads.get(slug, 0) + 1
             if category == 'response_item' and kind in ('function_call_output', 'custom_tool_call_output'):
@@ -81,12 +83,13 @@ def summarize(path):
     requests = requests or fallback
     totals = {k: sum(r[k] for r in requests) if requests and all(isinstance(r.get(k), int) for r in requests) else None
               for k in (*TOKEN_KEYS, 'fresh_input_tokens')}
-    summary = dict(schema_version=SCHEMA_VERSION, collector_version=1,
+    summary = dict(schema_version=SCHEMA_VERSION, collector_version=2,
                    collection_status='complete' if requests and not malformed else 'partial',
                    usage_source=source if requests else 'unavailable', tokens=totals,
                    request_count=len(requests) if requests else None, compactions=compactions,
                    counter_resets=resets, malformed_events=malformed, tool_calls=tools,
                    input_scope_audit={'broad_read_commands': broad_reads, 'sibling_read_commands': sibling_reads,
+                                      'orientation_read_mentions': orientation_reads,
                                       'coverage': 'heuristic_command_patterns_not_read_enforcement'},
                    tool_output_bytes=sum(r['bytes'] for r in outputs),
                    largest_tool_outputs=sorted(outputs, key=lambda r: r['bytes'], reverse=True)[:10],
@@ -97,7 +100,7 @@ def summarize(path):
 
 def collect(thread_id, directory, home=None):
     started = time.monotonic()
-    summary = dict(schema_version=SCHEMA_VERSION, collector_version=1, collection_status='unavailable')
+    summary = dict(schema_version=SCHEMA_VERSION, collector_version=2, collection_status='unavailable')
     try:
         if thread_id:
             home = home or profile_home()
