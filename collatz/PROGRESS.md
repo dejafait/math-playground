@@ -1,15 +1,14 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: collatz-2026-10-04-026-residue47-bounded-cover-source-obstruction
-STEP_OUTCOME: NEGATIVE
-STEP_EVIDENCE: The inspected source refutes the length-12 ancestor cover despite finite base exceptions; drafts/literature/2026-10-04-residue47-bounded-ancestor-cover.md. This is imported route evidence, not a new mathematical discovery.
-STEP_KIND: LITERATURE
+STEP_ID: collatz-2026-10-04-027-guarded-postspell-application
+STEP_OUTCOME: ADVANCE
+STEP_EVIDENCE: L019 imports v_2(z)<e(J,H) at a least bad residue-20 root with the specified actual prefix; lemmas/L019-guarded-postspell-least-root-halving-bound.md. This is a local citation application, not progress beyond the inspected source.
+STEP_KIND: RESEARCH
 STEP_CLASSIFICATION: KNOWN_IMPORTED
 STEP_REVIEW: drafts/literature/2026-10-04-residue47-bounded-ancestor-cover.md
-LITERATURE_REASON: The saved target was REVIEW_REQUIRED; its essential bounded-depth obstruction and relevant variable-duration continuation had not been read. The comparison is now complete.
-Bottleneck: Universal convergence remains unproved on the infinite least-root domain surviving L014–L018. Arrival at residue 20 gives no termination; the reviewed forward theorem leaves insufficient final halvings and later recharge unresolved.
-Route decision: Stop the bounded ancestor cover in Attempt 011, including replacement by another fixed bound. Apply the covered variable-duration forward theorem to isolate its final-halving restriction against the original least root. Attempts 009 and 010 remain parked/stopped; no complete candidate exists.
-Exploration turns used: Bounded-cover and postspell targets: 0 mathematical EXPLORATION turns; this literature review spends none. Complementary target: 0 mathematical, 1 literature EXPLORATION; fixed-cylinder, ancestor, lower-row, predecessor and effective-hitting applications: 0. Paired batch: 3 exhausted and parked; historical graph recovery: 1 literature EXPLORATION. No counter reset.
-NEXT_REVIEW: drafts/literature/2026-10-04-residue47-bounded-ancestor-cover.md
-Next action: Apply by citation the guarded postspell descent theorem to a least nonconvergent residue-20 root with actual prefix (OOEO)^J O^H, J>=2 and H>=3, recording the necessary bound v_2(z)<e(J,H), where z is the prefix endpoint and e(J,H) is the least integer >=J+H congruent to 2 modulo 18, while retaining the final-even guard and original-root comparison.
+Bottleneck: Universal convergence remains unproved on the infinite least-root domain surviving L014–L019. The conditional forward restriction does not give entry into its prefix class, rule out insufficient final halvings, or control later compensation.
+Route decision: The guarded whole-excursion import is complete; compare a sharp root-relative margin with its sufficient threshold under the pending changed-hypothesis review. Attempt 011's bounded ancestor cover stays stopped at every fixed bound; Attempts 009 and 010 remain parked/stopped. No complete candidate exists.
+Exploration turns used: Bounded-cover and postspell targets: 0 mathematical EXPLORATION turns; this imported application spends none. Complementary target: 0 mathematical, 1 literature EXPLORATION; fixed-cylinder, ancestor, lower-row, predecessor and effective-hitting applications: 0. Paired batch: 3 exhausted and parked; historical graph recovery: 1 literature EXPLORATION. No counter reset.
+NEXT_REVIEW: drafts/literature/2026-10-04-sharp-postspell-final-halving.md
+Next action: Derive a sharp affine criterion for original-root descent after an actual residue-20 prefix (OOEO)^J O^H E^a with J>=2, H>=3, a congruent to 2 modulo 18 and a<e(J,H), and test whether such guarded excursions exist, retaining every integer and parity guard.

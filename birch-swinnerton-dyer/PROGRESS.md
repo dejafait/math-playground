@@ -1,14 +1,15 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: BSD-2026-10-04-026-central-vanishing-p2-lifting
+STEP_ID: BSD-2026-10-04-027-all-depth-classical-lifting-literature
 STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: lemmas/C016a-central-vanishing-removes-p2-lifting-obstruction.md matches the modular-symbol witness to Kim's Corollary 1.11 and excludes L016's nonzero-tau branch when L(E,1)=0. Thus tau=0 and the prescribed p^2 classes form a classical Selmer basis; p-primary Selmer is infinite. The rational-rank bound remains r <= 2.
-STEP_KIND: RESEARCH
-STEP_CLASSIFICATION: REPRODUCTION
-STEP_REVIEW: drafts/literature/2026-10-04-prime-deletion-p3-initial-fitting.md
-Bottleneck: The first classical lifting obstruction is removed on this conditional branch, but compatible lifting at every depth, rational Kummer membership and the required r >= 2 are not established. Production of the two-prime premise from m(E)=2, the determinant comparison and higher ranks remain open.
-Route decision: Continue with higher classical coefficient lifting after screening that stronger target against the known structure theorem; no depth-three reproof of the already sufficient converse is needed. Preserve ATTEMPTS/014--018 and the parked Eisenstein route. No candidate exists.
-Exploration turns used: 0 of 3; the advance is a local applicability specialization of known results, with no progress beyond the checked literature claimed.
+STEP_EVIDENCE: drafts/literature/2026-10-04-central-vanishing-all-depth-classical-lifting.md now imports Kim's paired Selmer structure and explicit finite-coefficient identification, compares Milne's descent maps and Cassels's divisible kernel, and approves the chosen-basis lifting application as SPECIALIZE. No all-depth lifting or new rank bound is derived.
+STEP_KIND: LITERATURE
+STEP_CLASSIFICATION: KNOWN_IMPORTED
+STEP_REVIEW: drafts/literature/2026-10-04-central-vanishing-all-depth-classical-lifting.md
+LITERATURE_REASON: The saved all-depth target was REVIEW_REQUIRED; the full paired decomposition and its natural finite/infinite-coefficient identification required theorem-level comparison.
+Bottleneck: C016a settles the p^2 obstruction, but compatible lifting at every depth remains unproved. Even successful lifting must address divisible Sha before rational Kummer membership and the required r >= 2; production of the two-prime premise from m(E)=2, the determinant comparison and higher ranks remain open.
+Route decision: Apply the ready known structure and classical coefficient inputs to C016a's prescribed basis; no reproof of the structure theorem or pairing is needed. General-ring source variants are parked; the classical test has accessible coverage. Preserve ATTEMPTS/014--018 and the Eisenstein stop evidence. No candidate exists.
+Exploration turns used: 0 of 3; unchanged by this literature step. The advance is usable known source coverage, with no progress beyond the checked literature claimed; the rational bound remains r <= 2.
 NEXT_REVIEW: drafts/literature/2026-10-04-central-vanishing-all-depth-classical-lifting.md
-Next action: Test whether Kim's Selmer structure theorem and Cassels pairing upgrade C016a's p^2 lifting to compatible classical Selmer lifting at every coefficient depth, without assuming finite p-primary Sha.
+Next action: Apply Kim's Theorem 1.8 and the natural coefficient maps to test whether C016a's prescribed p^2 Selmer basis has compatible classical lifts at every depth, keeping Cassels's divisible Sha radical explicit.

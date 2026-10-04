@@ -1,14 +1,15 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: 2026-10-04-hodge-089-corrected-rank-two-untwisted-region
-STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: Rank-two truncation forces ch_3=0 and ch_4=((a+4)(b+4)+78)P/6; untwisted HRR is integral exactly when 6|(a+4)(b+4). The integer Bogomolov region has survivors, while (-7,-7) fails. Full proof: lemmas/L048-corrected-rank-two-untwisted-euler-region.md.
-STEP_KIND: RESEARCH
-STEP_CLASSIFICATION: REPRODUCTION
-STEP_REVIEW: drafts/literature/2026-10-04-corrected-point-rank-two-integrality.md
-Bottleneck: An actual compatible representative reaching the fourth NS-fixed RM direction is missing. Corrected rank-two data have cohomological truncation and untwisted-index survivors, but product-line indices, integral K-class realization, local freeness, stability and transverse transport remain unresolved. Arbitrary primitive fourfold classes and the universal rational Hodge gap stay open.
-Route decision: Continue only the surviving data with the preapproved product-line HRR test under the same assessment. Preserve fixed-class, unchanged-data and presentation stops and park original source-access leads. This is a numerical specialization of known tools; no new class or direction is supplied. Span 21 and three attained RM directions against four required are unchanged.
-Exploration turns used: 0 consecutive mathematical EXPLORATION turns after this relevant arithmetic input. No complete informal Hodge candidate is present; no originality is claimed.
-NEXT_REVIEW: drafts/literature/2026-10-04-corrected-point-rank-two-integrality.md
-Next action: Test Hirzebruch--Riemann--Roch integrality after arbitrary integral product-line twists for corrected rank-two data with c_1=0 and L044's mixed action fixed that pass the untwisted test.
+STEP_ID: 2026-10-04-hodge-091-corrected-rank-two-topological-literature
+STEP_OUTCOME: EXPLORATION
+STEP_EVIDENCE: Read Čadek--Crabb--Vanžura Corollary 8.4: an actual quaternionic-line existence criterion with a Steenrod condition and mod-12 characteristic number. Completed SPECIALIZE coverage without evaluating L049's character: drafts/literature/2026-10-04-corrected-rank-two-topological-realization.md.
+STEP_KIND: LITERATURE
+STEP_CLASSIFICATION: NOVELTY_UNCHECKED
+STEP_REVIEW: drafts/literature/2026-10-04-corrected-rank-two-topological-realization.md
+LITERATURE_REASON: The saved finite-rank SU(2) target had REVIEW_REQUIRED coverage; the essential primary existence theorem was unread at turn start.
+Bottleneck: An actual compatible representative reaching the fourth NS-fixed RM direction is missing. L049's corrected characters pass every product-line index, but the now-covered finite-rank topological criterion has not been evaluated. Holomorphic local freeness, stability and transverse transport remain unresolved, along with arbitrary primitive fourfold classes and the universal Hodge gap.
+Route decision: Resume mathematics under ready SPECIALIZE coverage for the unchanged target; import the general theorem and reproduce only its application. Stable complex realization alone does not answer finite-rank SU(2) existence. Preserve previous stops and parked source leads. No new class, bundle or direction is supplied; span 21 and three attained RM directions against four required are unchanged.
+Exploration turns used: 0 consecutive mathematical EXPLORATION turns; this literature turn does not spend the calculation budget. No complete informal Hodge candidate or originality claim is present.
+NEXT_REVIEW: drafts/literature/2026-10-04-corrected-rank-two-topological-realization.md
+Next action: Test topological SU(2)-bundle realization obstructions for L049's corrected rank-two character on S x S, beginning with the symmetric survivor a=b=-10, beyond the product-line HRR tests.

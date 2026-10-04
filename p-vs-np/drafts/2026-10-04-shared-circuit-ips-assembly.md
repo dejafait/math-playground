@@ -1,0 +1,21 @@
+# Shared ER-to-circuit-IPS assembly: calculation record
+
+The saved target is the exact assembly COVERED_TARGET in `drafts/literature/2026-10-04-shared-noncommutative-er-circuit-ips.md`, with prior SPECIALIZE coverage. This is one mathematical assembly test, with no additional source search. Existing L020 and all stopped branches are retained.
+
+The main gap is an unconditional SAT decision result. The intermediate target is a certificate over only the original clause, Boolean and pair-once commutator axioms, of full binary length polynomial in T=2+|F|+|pi|. Its plausible use is a valid implication from short ER refutations to small noncommutative circuit certificates, against which future certificate lower bounds could be assessed. Tree conversion, hardness of every admissible certificate and decision-to-proof transfer remain separate gaps.
+
+Proposed invariant: for each encoded proof clause D retain one shared circuit Q_D(x,t), with Q_D(x,0)=0 and Q_D(x,A(x)) equal to its ordered falsity product after L020's extension substitution. Initial original clauses use their original placeholders. Defining clauses use L020's original-axiom witnesses. No auxiliary variable or placeholder becomes an input.
+
+For resolution, write the selected premises as v OR E and NOT v OR G, move the selected pivot factor to the front with explicit adjacent-swap corrections, and put p=P_v, U=f(E), V=f(G). The resulting certificates R,S represent (1+p)U and pV. For the product commutator construct H(p,U) with H(x,0)=0 and H(x,A)=pU+Up, by L020's literal-pair witnesses and the product recurrence. Then use
+
+Q_raw = R V + U S + H(p,U) V.
+
+Formal expansion gives UV: the pUV and UpV terms each occur twice. This computation must not presume that p commutes with U. Normalize the multiset E followed by G to the actual encoded resolvent using L020's adjacent-swap and duplicate-removal witnesses. Retain opposite literals. For weakening multiply the source certificate by the falsity product of the added literals, then sort with explicit corrections. Clause reuse references earlier roots instead of copying their occurrence trees.
+
+Proposed conservative count: L020's value/witness network has O(T²) nodes. A transient clause list has O(T) factors; at most O(T²) sorting swaps each require O(T) prefix/suffix nodes if written afresh. There are O(T) proof lines, hence O(T⁴) total shared nodes. Charging at most O(T) bits to each node and writing the original axiom list gives O(T⁵) bits. These are proposed bounds pending a full formal invariant and implementation audit; no degree bound or general-circuit PIT algorithm is assumed.
+
+Continue if both formal IPS identities follow inductively, all actual clause normalizations are accounted for, and the output has a fixed polynomial bound in T. Stop or narrow this construction if it needs occurrence unfolding, uncharged witness copies, extension inputs, or a Boolean-only identity argument. L019's failure to control literal trees is the comparator, not a premise of this construction.
+
+Mathlib coverage: **not checked**. The previously inspected Li–Tzameret–Wang formula-commutation lemmas and commutative ER/EF-to-IPS comparisons support the mechanisms in their stated scope; they do not import this whole shared noncommutative statement. A positive outcome would be local progress potentially beyond the checked full-statement comparison, without certified originality.
+
+Completion, 2026-10-04: [L021](../lemmas/L021-shared-er-original-axiom-circuit-ips.md) proves the invariant and both final identities using L020 directly, so there is no unchecked augmented-placeholder composition. The conservative O(T⁴)-node/O(T⁵)-bit bound includes the complete axiom list, identifiers, root and framing. The [assembly checks](../scripts/shared-extension/assembly-results.json) cover 280 exact formal cases and 1,080 lines, detect five deliberate errors, and retain the existing used-extension family through m=128 without word expansion for large cases. This completes the approved circuit assembly as an informal local advance. Tree conversion and the unrestricted decision/lower-bound gaps remain unresolved. Syntactic degree or unfolding alone cannot show that the actual output polynomial needs a large tree, because formal cancellation and alternative certificates must be distinguished.
