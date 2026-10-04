@@ -1,6 +1,6 @@
 # Target and conventions
 
-Source checked on 2026-09-24 and rechecked on 2026-09-25 and 2026-09-26: [MathPrize, Collatz conjecture](https://mathprize.net/posts/collatz-conjecture/), the page dated 2021-07-07. Its mathematical statement agrees with local GOAL.md. Prize adjudication is separate and is not part of this notebook's correctness criterion.
+Source checked on 2026-09-24 and rechecked on 2026-09-25, 2026-09-26 and 2026-10-04: [MathPrize, Collatz conjecture](https://mathprize.net/posts/collatz-conjecture/), the page dated 2021-07-07. Its mathematical statement agrees with local GOAL.md. Prize adjudication is separate and is not part of this notebook's correctness criterion.
 
 For positive integers define
 

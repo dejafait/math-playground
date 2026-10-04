@@ -1,0 +1,164 @@
+{
+  "actual_controls": [
+    {
+      "coefficient_power_audit": {
+        "cleared_denominator_equations_checked": true,
+        "degree": 64,
+        "degree_gate": true,
+        "failed_residuals": [
+          17,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64
+        ],
+        "power_identity": false,
+        "residual_equations": 48,
+        "triangular_coefficients": 16
+      },
+      "compatibility_rank": 15,
+      "coordinate_squarefree": true,
+      "kernel_basis_vectors_with_proportional_nonzero_minors": 1,
+      "kernel_dimension": 1,
+      "name": "existing_two_block",
+      "nonzero_hankel_determinant": true,
+      "persistent_coordinate": false,
+      "primitive_coefficients": true
+    },
+    {
+      "coefficient_power_audit": {
+        "degree": 63,
+        "degree_gate": false
+      },
+      "compatibility_rank": 15,
+      "coordinate_squarefree": true,
+      "kernel_basis_vectors_with_proportional_nonzero_minors": 1,
+      "kernel_dimension": 1,
+      "name": "specified_dense_moments",
+      "nonzero_hankel_determinant": true,
+      "persistent_coordinate": false,
+      "primitive_coefficients": true
+    },
+    {
+      "coefficient_power_audit": {
+        "degree": 63,
+        "degree_gate": false
+      },
+      "compatibility_rank": 15,
+      "coordinate_squarefree": true,
+      "kernel_basis_vectors_with_proportional_nonzero_minors": 1,
+      "kernel_dimension": 1,
+      "name": "two_disjoint_four_error_points",
+      "nonzero_hankel_determinant": true,
+      "persistent_coordinate": false,
+      "primitive_coefficients": true
+    },
+    {
+      "coefficient_power_audit": {
+        "degree": -1,
+        "degree_gate": false
+      },
+      "compatibility_rank": 8,
+      "coordinate_squarefree": false,
+      "kernel_dimension": 8,
+      "name": "persistent_four_support",
+      "nonzero_hankel_determinant": true,
+      "persistent_coordinate": true,
+      "primitive_coefficients": false
+    }
+  ],
+  "coefficient_field": 97,
+  "fabricated_balanced_control": {
+    "coefficient_power_audit": {
+      "cleared_denominator_equations_checked": true,
+      "degree": 64,
+      "degree_gate": true,
+      "failed_residuals": [],
+      "power_identity": true,
+      "residual_equations": 48,
+      "triangular_coefficients": 16
+    },
+    "compatibility_rank": 16,
+    "distinct_four_coordinate_supports": 16,
+    "full_algebraic_equality_conditions": true,
+    "interpretation": "Fabricated locator only; no affine moment pencil exists.",
+    "kernel_dimension": 0,
+    "locator_coefficients": [
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        94
+      ],
+      [
+        0,
+        0,
+        33
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        50
+      ]
+    ],
+    "multipliers": [
+      1,
+      8,
+      64,
+      27
+    ]
+  },
+  "non_fourth_power_scalar_control": 2,
+  "nonsplit_fourth_power_root_count_in_target_field": 0,
+  "scope": "Four actual controls and one fabricated bivariate locator; no feasibility search.",
+  "target_extension_degree": 20
+}

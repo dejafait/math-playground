@@ -1,0 +1,360 @@
+{
+  "source_version": "arXiv:2609.26996v1, Section 6.2, equations (38)-(40)",
+  "source_url": "https://arxiv.org/html/2609.26996v1",
+  "q": 29,
+  "extension_relation": "w^2=2",
+  "coefficient_order": "constant first",
+  "infinity_points_each_field": 2,
+  "comparison_polynomials_constant_first": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      5,
+      1
+    ],
+    [
+      4,
+      3,
+      1
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -5,
+      1
+    ]
+  ],
+  "curves": [
+    {
+      "eta_label": 10,
+      "t": 14,
+      "smoothness_gcd_constant_first": [
+        1
+      ],
+      "character_bins_F29": {
+        "-1": 15,
+        "0": 1,
+        "1": 13
+      },
+      "character_bins_F841": {
+        "-1": 364,
+        "0": 1,
+        "1": 476
+      },
+      "N1_affine": 27,
+      "N2_affine": 953,
+      "N1_projective": 29,
+      "N2_projective": 955,
+      "A": 1,
+      "B": 57,
+      "frobenius_polynomial_constant_first": [
+        841,
+        -29,
+        57,
+        -1,
+        1
+      ],
+      "two_trace_polynomial_constant_first": [
+        -1,
+        -1,
+        1
+      ],
+      "two_trace_polynomial_mod7_constant_first": [
+        6,
+        6,
+        1
+      ],
+      "expected_two_trace_polynomial_mod7_constant_first": [
+        6,
+        6,
+        1
+      ],
+      "trace_matches": true,
+      "exact_resultants": [
+        -1,
+        1,
+        -9,
+        29,
+        1,
+        19
+      ],
+      "resultants_mod7": [
+        6,
+        1,
+        5,
+        1,
+        1,
+        5
+      ],
+      "expected_resultants_mod7": [
+        6,
+        1,
+        5,
+        1,
+        1,
+        5
+      ],
+      "resultants_match": true
+    },
+    {
+      "eta_label": 14,
+      "t": 10,
+      "smoothness_gcd_constant_first": [
+        1
+      ],
+      "character_bins_F29": {
+        "-1": 19,
+        "0": 0,
+        "1": 10
+      },
+      "character_bins_F841": {
+        "-1": 384,
+        "0": 0,
+        "1": 457
+      },
+      "N1_affine": 20,
+      "N2_affine": 914,
+      "N1_projective": 22,
+      "N2_projective": 916,
+      "A": 8,
+      "B": 69,
+      "frobenius_polynomial_constant_first": [
+        841,
+        -232,
+        69,
+        -8,
+        1
+      ],
+      "two_trace_polynomial_constant_first": [
+        11,
+        -8,
+        1
+      ],
+      "two_trace_polynomial_mod7_constant_first": [
+        4,
+        6,
+        1
+      ],
+      "expected_two_trace_polynomial_mod7_constant_first": [
+        4,
+        6,
+        1
+      ],
+      "trace_matches": true,
+      "exact_resultants": [
+        11,
+        121,
+        1004,
+        764,
+        -1,
+        -4
+      ],
+      "resultants_mod7": [
+        4,
+        2,
+        3,
+        1,
+        6,
+        3
+      ],
+      "expected_resultants_mod7": [
+        4,
+        2,
+        3,
+        1,
+        6,
+        3
+      ],
+      "resultants_match": true
+    },
+    {
+      "eta_label": 24,
+      "t": 25,
+      "smoothness_gcd_constant_first": [
+        1
+      ],
+      "character_bins_F29": {
+        "-1": 11,
+        "0": 1,
+        "1": 17
+      },
+      "character_bins_F841": {
+        "-1": 376,
+        "0": 1,
+        "1": 464
+      },
+      "N1_affine": 35,
+      "N2_affine": 929,
+      "N1_projective": 37,
+      "N2_projective": 931,
+      "A": -7,
+      "B": 69,
+      "frobenius_polynomial_constant_first": [
+        841,
+        203,
+        69,
+        7,
+        1
+      ],
+      "two_trace_polynomial_constant_first": [
+        11,
+        7,
+        1
+      ],
+      "two_trace_polynomial_mod7_constant_first": [
+        4,
+        0,
+        1
+      ],
+      "expected_two_trace_polynomial_mod7_constant_first": [
+        4,
+        0,
+        1
+      ],
+      "trace_matches": true,
+      "exact_resultants": [
+        11,
+        121,
+        -1,
+        29,
+        29,
+        71
+      ],
+      "resultants_mod7": [
+        4,
+        2,
+        6,
+        1,
+        1,
+        1
+      ],
+      "expected_resultants_mod7": [
+        4,
+        2,
+        6,
+        1,
+        1,
+        1
+      ],
+      "resultants_match": true
+    },
+    {
+      "eta_label": 28,
+      "t": 15,
+      "smoothness_gcd_constant_first": [
+        1
+      ],
+      "character_bins_F29": {
+        "-1": 17,
+        "0": 1,
+        "1": 11
+      },
+      "character_bins_F841": {
+        "-1": 400,
+        "0": 1,
+        "1": 440
+      },
+      "N1_affine": 23,
+      "N2_affine": 881,
+      "N1_projective": 25,
+      "N2_projective": 883,
+      "A": 5,
+      "B": 33,
+      "frobenius_polynomial_constant_first": [
+        841,
+        -145,
+        33,
+        -5,
+        1
+      ],
+      "two_trace_polynomial_constant_first": [
+        -25,
+        -5,
+        1
+      ],
+      "two_trace_polynomial_mod7_constant_first": [
+        3,
+        2,
+        1
+      ],
+      "expected_two_trace_polynomial_mod7_constant_first": [
+        3,
+        2,
+        1
+      ],
+      "trace_matches": true,
+      "exact_resultants": [
+        -25,
+        625,
+        -421,
+        401,
+        -31,
+        -25
+      ],
+      "resultants_mod7": [
+        3,
+        2,
+        6,
+        2,
+        4,
+        3
+      ],
+      "expected_resultants_mod7": [
+        3,
+        2,
+        6,
+        2,
+        4,
+        3
+      ],
+      "resultants_match": true
+    }
+  ],
+  "resultant_matrix_mod7": [
+    [
+      6,
+      1,
+      5,
+      1,
+      1,
+      5
+    ],
+    [
+      4,
+      2,
+      3,
+      1,
+      6,
+      3
+    ],
+    [
+      4,
+      2,
+      6,
+      1,
+      1,
+      1
+    ],
+    [
+      3,
+      2,
+      6,
+      2,
+      4,
+      3
+    ]
+  ],
+  "all_displayed_entries_match": true,
+  "all_resultants_nonzero": true,
+  "global_coverage_verified": false
+}

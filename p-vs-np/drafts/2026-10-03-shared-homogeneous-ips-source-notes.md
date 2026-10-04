@@ -1,0 +1,41 @@
+# Shared homogeneous IPS components: inspected source scope
+
+Source review dated 2026-10-03. This note records published inputs and the remaining applicability questions. It supplies no new circuit identity proof, simulation or combined binary-length bound.
+
+## Hypotheses
+
+The screened input remains a supplied balanced, division-free, fan-in-two noncommutative **tree formula** C(x,y) over F₂ for a 3CNF F. Its axiom list A contains clause, Boolean and base-variable commutator polynomials. Its two requirements are formal identities C(x,0)=0 and C(x,A(x))=1. The proposed internal representations may share gates; the input certificate is still a formula. There is no logarithmic syntactic-degree restriction in this target.
+
+The [Clay problem page](https://www.claymath.org/millennium/p-vs-np/) was rechecked on 2026-10-03 and still labels the problem unsolved. Reuse the exact uniform P=NP target and Cook-description version recorded in the [model foundation](../foundations/01-model-and-target.md); this algebraic screen does not change it.
+
+The required output is an EF proof of the negated original CNF, and then an ER refutation, bounded by one fixed polynomial in the total explicit binary CNF, axiom and certificate length. An arithmetic homogeneous decomposition or an externally correct PIT computation alone does not supply that proof. Arbitrary arithmetic circuit certificates, divisions, other fields, and identities true only on Boolean assignments are outside the assessment.
+
+## Conclusion
+
+Known supporting results, imported only with their stated hypotheses:
+
+- **Raz–Shpilka, Lemma 2 (Nisan), Theorems 4–5:** a formula with zero constant term has polynomial-size ABPs for its homogeneous components, constructed in polynomial time; homogeneous noncommutative ABP zero testing is deterministic polynomial time. These are representation and algorithm results, not EF correctness proofs.
+- **Hrubeš–Tzameret, §3 and Lemmas 3.1–3.2:** circuit homogeneous components have size O(s(k+1)²), and a size-s circuit of syntactic degree at most d has a P_c proof of its decomposition of size s·poly(d). Their GF(2) interpretation into circuit Frege supports propositional sharing. Their arithmetic system is commutative; it is not a noncommutative circuit identity-witness theorem.
+- **Li–Tzameret–Wang, Lemma 4.15:** homogeneous zero ABPs have polynomial-dimension coefficient-matrix identity witnesses. Their **Theorems 4.11–4.12** are formula statements. Their **Lemma 4.4** supplies the propositional IPS reflection step once the two Booleanized identity proofs are supplied. Their general **Theorem 1.7 / 4.1** remains quasipolynomial Frege simulation.
+
+No inspected statement is a full match for the requested polynomial arbitrary-degree EF/ER simulation in binary length. The decision to investigate a circuit realization of these supporting operations is an inference from their scope, not an imported simulation theorem or an originality claim.
+
+## Proof
+
+Precise citations and actual reading scope:
+
+1. Ran Raz and Amir Shpilka, [*Deterministic Polynomial Identity Testing in Non Commutative Models*, author-hosted 16-page manuscript](https://www.cs.tau.ac.il/~shpilka/publications/RazShpilka_PIT.pdf), retrieved 2026-10-03; no revision date is printed on its title page. Read §2.1–2.2, printed pp. 4–10: Definition 1, Lemma 2 and its five construction steps, Claim 3 and the linear-basis reduction, Theorems 4–5 and their proofs. Lemma 2 states O(s²) vertices per homogeneous ABP and O(s³) construction time, retaining the zero-constant-term condition. The proof handles constant edges separately before producing layered ABPs. The free-term check is described in §2.2. This exact source's numbering is used; other manuscript versions are not substituted.
+2. Pavel Hrubeš and Iddo Tzameret, [*Short Proofs for the Determinant Identities*, author-hosted DetSIAM.pdf, 50-page manuscript](https://users.math.cas.cz/~hrubes/PDFs/DetSIAM.pdf), retrieved 2026-10-03; no revision date is printed on its title page. Read the GF(2) circuit-Frege interpretation, printed p. 14, and §3, pp. 15–17: the gate-component construction, Lemmas 3.1–3.2 and Proposition 3.3 with their proofs. The decomposition theorem does not prove that a zero circuit's components have short zero proofs. That separate obligation remains. The later determinant and division arguments were not reviewed for this target and are not inputs.
+3. Fu Li, Iddo Tzameret and Zhengyu Wang, [*Characterizing Propositional Proofs as Non-Commutative Formulas*, arXiv:1412.8746v4, 11 September 2015](https://arxiv.org/pdf/1412.8746v4). Rechecked Lemma 4.4 and its reflection proof, pp. 21–23; Lemma 4.8 and the homogenization size explanation, pp. 25–28; Theorems 4.11–4.12, pp. 30–32; Definition 4.13, Theorem 4.14, and Lemma 4.15 with its basis/matrix construction, pp. 32–35; and the formula-representation restriction preceding Lemma 4.17, p. 35. Lemma 4.15 distinguishes semantic vanishing from the transition equalities' specified ABP representation. It does not itself supply EF proofs for arbitrary encodings of those ABPs. The previously inspected introduction and logarithmic-degree note are reused from the [prior source note](2026-10-03-noncommutative-ips-source-notes.md).
+4. Yuval Filmus, Edward A. Hirsch, Artur Riazanov, Alexander Smal and Marc Vinyals, [*Proving Unsatisfiability with Hitting Formulas*, arXiv:2302.06241, 45-page PDF](https://arxiv.org/pdf/2302.06241), retrieved 2026-10-03 through the unversioned PDF endpoint; a particular revision identifier was not established and is not asserted. Read §3.1–3.2, printed pp. 14–18, Proposition 3.3, Theorem 3.4, Corollary 3.5, Lemma 3.7 and the basis-merging proof. This gives a genuine EF simulation using extensions for basis polynomials, but its input is a hitting refutation and its translated products have a common variable order and multilinear structure. The theorem is a comparison, not a simulation of arbitrary noncommutative formula-IPS certificates. No essential dependency uses the unpinned endpoint.
+5. Reused the [prior assessment](literature/2026-10-03-noncommutative-ips-er-simulation.md) for Joshua Grochow and Toniann Pitassi, [arXiv:1404.3820v1](https://arxiv.org/pdf/1404.3820v1), Definition 1.7 and Theorem 4.1; rechecked the explicit EF proofs-of-PIT-axioms premise. Rechecked the GF(2) setting and quasipolynomial statement in Abhranil Chatterjee et al., [ECCC TR26-166, manuscript dated 4 September 2026](https://eccc.weizmann.ac.il/report/2026/166/download), Appendix B.1, p. 47, Lemma B.1 / Theorem B.2, and its homogenization discussion. Its partially commutative extension is not a polynomial EF match. Its full proof remains unreviewed and is not an essential input.
+
+The [existing reflection foundation](../foundations/06-reflection-specialization.md) supplies adequate coverage of circuit substitution and CF-to-EF conversion with a **formula conclusion**, and the standard EF/ER comparison. Reuse it without another source search. The conclusion must still concern F's original clauses and all proof descriptions must be charged.
+
+**Remaining proof questions.** Can the known homogeneous ABP components be represented by shared Boolean gate definitions that have short identification proofs with the chosen formula components? Can the imported coefficient-matrix transitions be proved with the assignment variables free, including a justified base case? Can both IPS identities then be assembled with polynomial proof length and converted to the original-CNF ER convention? These are questions for a later mathematical attempt; neither semantic ABP vanishing nor a ground PIT check answers them here.
+
+There is no essential inaccessible source for this bounded test. The theorem passages were read through the web tool. A failed shell-network PDF download is not treated as a mathematical obstruction or as missing theorem coverage.
+
+## Mathlib
+
+Coverage: **not checked** for homogeneous ABPs, their identity witnesses, arithmetic circuit proofs or the full EF/ER simulation. The direct named citations above cover supporting results with different scopes. No full source or Mathlib match, absence claim, new proof or certified novelty is asserted.

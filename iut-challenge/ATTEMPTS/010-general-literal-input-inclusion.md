@@ -1,0 +1,5 @@
+# General genuine inclusion of the literal input
+
+The universal inclusion of a(beta^(-1) T union J) in p^floor(v_p(a)-v_p(beta)) I is false under the screened local hypotheses. [L010](../lemmas/L010-literal-input-inclusion-fails-in-degree-eight.md) supplies the exact single-factor packet K = Q_2(pi), pi^8 = 2, beta = 1, a = pi, and the literal point pi log(1+pi) outside the required I. The tensor-order branch is contained in I. This is an actual log-branch witness, not a failure transferred from a larger set.
+
+WHY IT FAILS: division of the logarithm lattice by 4 does not provide enough room for arbitrary integral scalar multiplication in this wild degree-eight field. A separating Q_2-linear functional is integral on I but takes a value in 1/2 + 4Z_2 on the literal input. The uniform stronger sufficient mechanism must therefore stop. This does not by itself decide the full-orbit component hull or invalidate the differently scaled native enclosure. The preapproved same-packet hull test can investigate that remaining distinction; original initial theta data, full indeterminacies, pilot transport and normalized B >= A remain separate gaps.

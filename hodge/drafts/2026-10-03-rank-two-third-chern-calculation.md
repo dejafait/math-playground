@@ -32,3 +32,12 @@ components; whether an actual ample chamber can retain W_0;
 whether third moments can change without changing the first two
 characters. Even formal consistency will leave exact maps,
 local freeness, stability and transverse transport unresolved.
+
+Completed in the same step: the signs and both equations are proved in
+[L044](../lemmas/L044-rank-two-doubled-third-chern-constraint.md).
+Two integral root reflections produce a final ample chamber retaining
+W_0, and third finite differences cancel both third-character components
+without changing the first two. The proposed uniform c_3 exclusion
+therefore fails at the virtual-class level. This checkpoint preserves
+the initial reasoning; L044 is the canonical full proof. No bundle or
+degree-eight result was obtained.

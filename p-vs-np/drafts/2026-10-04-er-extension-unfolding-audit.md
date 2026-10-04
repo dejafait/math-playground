@@ -1,0 +1,13 @@
+# Direct ER extension substitution: calculation checkpoint
+
+The ready SPECIALIZE assessment is `drafts/literature/2026-10-04-er-to-formula-ips.md`; its exact COVERED_TARGET is the current audit. No new source review is needed. This checkpoint preserves the argument before checking its concrete proof family.
+
+The unresolved reverse bound would have to be polynomial in T=2+|F|+|pi|. Define U as the total occurrence-tree node count of the written clauses after literal substitution of all extension definitions, including repeated occurrences. Eliminated extension clauses are instances of fixed tautologies, while substituted resolution/weakening steps admit local Frege derivations. This should give a Frege refutation of the original F with cost polynomial in T+U. Import the screened clause-form Frege-to-noncommutative-formula-IPS theorem and tree balancing, retaining formal identities and only original-variable axioms. The remaining issue is whether T controls U.
+
+Candidate family: F=(x) AND (y) AND (NOT x OR NOT y). Put z_0=x, z_1=y and introduce fresh z_i iff (z_(i-1) AND z_(i-2)), 2<=i<=m. Derive each positive unit z_i in two resolutions from the third defining clause and the previous units. Resolve the two projection clauses for z_2 against the negative original clause to obtain NOT z_2. Propagate NOT z_i using the projection NOT z_(i+1) OR z_i, and finish with z_m. All introduced definitions occur in the ancestry of the final contradiction; the expanded final positive unit alone should force the lower bound.
+
+Literal substitution gives B_0=x, B_1=y, B_i=(B_(i-1) AND B_(i-2)), hence s_0=s_1=1 and s_i=1+s_(i-1)+s_(i-2). The proposed exact count is s_i=2 Fib_(i+1)-1, while the proof has 6m-1 clauses and binary size Theta(m log(m+2)). Need to check every inference, count full and active unfolding, and verify the claimed conditional applicability/binary accounting before finalizing.
+
+The intended decision is to stop unrestricted *literal substitution* if this family verifies. Its original F has a constant refutation, so it cannot supply a certificate lower bound. The broader reverse theorem and the decision-to-ER transfer remain open. Mathlib coverage: **not checked**.
+
+Completion, 2026-10-04: the proposed inference family and recurrence passed the local checks. [L019](../lemmas/L019-er-literal-substitution-cost.md) is the complete proof, including the conditional binary bound, ancestry restriction and explicit seven-node certificate of the same CNF. The negative result concerns materializing the substituted proof, not the final certificate after arbitrary simplification. The original checkpoint above is preserved as the saved pre-check reasoning.

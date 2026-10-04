@@ -1,0 +1,314 @@
+{
+  "all_checks_passed": true,
+  "full_nonzero_subfield_domain": {
+    "p": 17,
+    "n": 16,
+    "coset_multiplier": 1,
+    "domain": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "cases": [
+      {
+        "k": 8,
+        "rate": "1/2",
+        "s": 9,
+        "center_parameter": 1,
+        "largest_fiber": 673,
+        "zero_sum_fiber": 672,
+        "fiber_histogram": {
+          "672": 1,
+          "673": 16
+        },
+        "support_upper": 1430,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 673,
+            "agreement_columns": 9
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 673,
+            "agreement_columns": 9
+          }
+        ],
+        "exhaustive_scalar_count": null
+      },
+      {
+        "k": 4,
+        "rate": "1/4",
+        "s": 5,
+        "center_parameter": 1,
+        "largest_fiber": 257,
+        "zero_sum_fiber": 256,
+        "fiber_histogram": {
+          "256": 1,
+          "257": 16
+        },
+        "support_upper": 364,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 257,
+            "agreement_columns": 5
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 257,
+            "agreement_columns": 5
+          }
+        ],
+        "exhaustive_scalar_count": null
+      },
+      {
+        "k": 2,
+        "rate": "1/8",
+        "s": 3,
+        "center_parameter": 1,
+        "largest_fiber": 33,
+        "zero_sum_fiber": 32,
+        "fiber_histogram": {
+          "32": 1,
+          "33": 16
+        },
+        "support_upper": 40,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 33,
+            "agreement_columns": 3
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 33,
+            "agreement_columns": 3
+          }
+        ],
+        "exhaustive_scalar_count": 33
+      },
+      {
+        "k": 1,
+        "rate": "1/16",
+        "s": 2,
+        "center_parameter": 0,
+        "largest_fiber": 8,
+        "zero_sum_fiber": 8,
+        "fiber_histogram": {
+          "7": 16,
+          "8": 1
+        },
+        "support_upper": 8,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 8,
+            "agreement_columns": 2
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 8,
+            "agreement_columns": 2
+          }
+        ],
+        "exhaustive_scalar_count": 8
+      }
+    ]
+  },
+  "nontrivial_smooth_coset": {
+    "p": 97,
+    "n": 16,
+    "coset_multiplier": 2,
+    "domain": [
+      2,
+      3,
+      16,
+      24,
+      31,
+      36,
+      43,
+      44,
+      53,
+      54,
+      61,
+      66,
+      73,
+      81,
+      94,
+      95
+    ],
+    "cases": [
+      {
+        "k": 8,
+        "rate": "1/2",
+        "s": 9,
+        "center_parameter": 2,
+        "largest_fiber": 144,
+        "zero_sum_fiber": 64,
+        "fiber_histogram": {
+          "64": 1,
+          "104": 16,
+          "108": 16,
+          "109": 16,
+          "123": 32,
+          "144": 16
+        },
+        "support_upper": 1430,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 144,
+            "agreement_columns": 9
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 144,
+            "agreement_columns": 9
+          }
+        ],
+        "exhaustive_scalar_count": null
+      },
+      {
+        "k": 4,
+        "rate": "1/4",
+        "s": 5,
+        "center_parameter": 2,
+        "largest_fiber": 61,
+        "zero_sum_fiber": 16,
+        "fiber_histogram": {
+          "16": 1,
+          "37": 16,
+          "39": 16,
+          "40": 16,
+          "47": 16,
+          "48": 16,
+          "61": 16
+        },
+        "support_upper": 364,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 61,
+            "agreement_columns": 5
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 61,
+            "agreement_columns": 5
+          }
+        ],
+        "exhaustive_scalar_count": null
+      },
+      {
+        "k": 2,
+        "rate": "1/8",
+        "s": 3,
+        "center_parameter": 2,
+        "largest_fiber": 11,
+        "zero_sum_fiber": 0,
+        "fiber_histogram": {
+          "0": 1,
+          "3": 16,
+          "4": 32,
+          "6": 16,
+          "7": 16,
+          "11": 16
+        },
+        "support_upper": 40,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 11,
+            "agreement_columns": 3
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 11,
+            "agreement_columns": 3
+          }
+        ],
+        "exhaustive_scalar_count": 11
+      },
+      {
+        "k": 1,
+        "rate": "1/16",
+        "s": 2,
+        "center_parameter": 0,
+        "largest_fiber": 8,
+        "zero_sum_fiber": 8,
+        "fiber_histogram": {
+          "0": 32,
+          "1": 16,
+          "2": 48,
+          "8": 1
+        },
+        "support_upper": 8,
+        "interleaved": [
+          {
+            "m": 1,
+            "distinct_candidates": 8,
+            "agreement_columns": 2
+          },
+          {
+            "m": 3,
+            "distinct_candidates": 8,
+            "agreement_columns": 2
+          }
+        ],
+        "exhaustive_scalar_count": 8
+      }
+    ]
+  },
+  "cryptographic_threshold": {
+    "domain_subfield_cardinality": 17,
+    "ambient_extension_degree": 32,
+    "ambient_field_cardinality": 2367911594760467245844106297320951247361,
+    "epsilon": "1/340282366920938463463374607431768211456",
+    "threshold": "2367911594760467245844106297320951247361/340282366920938463463374607431768211456",
+    "threshold_is_between_1_and_8": true,
+    "cases": [
+      {
+        "k": 8,
+        "attained_list": 673,
+        "unsafe_error_index": 7,
+        "largest_safe_index_upper": 6,
+        "unsafe": true
+      },
+      {
+        "k": 4,
+        "attained_list": 257,
+        "unsafe_error_index": 11,
+        "largest_safe_index_upper": 10,
+        "unsafe": true
+      },
+      {
+        "k": 2,
+        "attained_list": 33,
+        "unsafe_error_index": 13,
+        "largest_safe_index_upper": 12,
+        "unsafe": true
+      },
+      {
+        "k": 1,
+        "attained_list": 8,
+        "unsafe_error_index": 14,
+        "largest_safe_index_upper": 13,
+        "unsafe": true
+      }
+    ]
+  }
+}

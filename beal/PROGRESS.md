@@ -1,14 +1,15 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: beal-2026-10-03-016-fifth-seventh-application
+STEP_ID: beal-2026-10-04-024-mixed-seventh-character-audit
 STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: Imported Dahmen–Siksek's Theorem 1 at ell=7 to exclude all three placements of (5,5,7) and their L002 exponent-divisor extensions; full applicability proof in lemmas/L013-dahmen-siksek-fifth-seventh-exclusions.md and precise source scope in foundations/10-dahmen-siksek-fifth-seventh-theorem.md.
+STEP_EVIDENCE: Reproduced the conditional reducible-sector trace restriction ±2 at the specified prime over 29, covering all four finite-flat scalar inertia types and both real-place signs; full proof in lemmas/L017-mixed-seventh-reducible-character-traces.md and exact arithmetic in scripts/mixed-seventh-certificate/character-results.json. This verifies a known conditional component, not a new signature exclusion.
 STEP_KIND: RESEARCH
-STEP_CLASSIFICATION: KNOWN_IMPORTED
-STEP_REVIEW: drafts/literature/2026-10-03-fifth-cyclotomic-descent.md
-Bottleneck: Uniform emptiness of the residual signatures. All placements of (5,5,7) are now excluded; unrelated mixed signatures and repeated-cube primes p > 10^9 in L011's remaining classes constrained to system II still require global exclusions. No complete candidate.
-Route decision: The screened ell=7 import closes its limited gap through known mathematics, with no progress beyond the checked literature. The recorded ell=19 clause is the next concrete lead; its new target needs separate scope review because the prior approval covered only ell=7. Historical failures and the untested descent map are preserved.
-Exploration turns used: 0/3; this step applies a known theorem and spends no exploration turn on an independent descent.
-NEXT_REVIEW: drafts/literature/2026-10-03-fifth-nineteenth-import.md
-Next action: Import Dahmen–Siksek's Theorem 1 to exclude all three placements of (5,5,19), including their exponent-divisor extensions through L002.
+STEP_CLASSIFICATION: REPRODUCTION
+STEP_REVIEW: drafts/literature/2026-10-04-mixed-seventh-reducible-character-audit.md
+Bottleneck: Uniform residual-signature emptiness remains missing, including (3,5,7) and L011's constrained repeated-cube complement. L016's finite arithmetic and L017's conditional character coverage pass; corrected irreducible-packet exhaustion, original representation applicability, the four-parameter bridge and pure-field/global descent remain unverified.
+UNVERIFIED CANDIDATE: Chocian's Theorem 1.1 remains an external fixed-signature candidate; its essential argument, weakest interfaces and review questions stay in drafts/literature/2026-10-04-mixed-cube-fifth-seventh.md. There is no complete Beal candidate.
+Route decision: The character audit passes under the screened hypotheses, with no result beyond the checked literature. Keep the modular archive and original-descent source blockers parked; isolate the independent q=29 parameter bridge under explicit solution/field hypotheses. This changed target needs its own scope assessment; prior arithmetic and character results remain intact.
+Exploration turns used: 0/3; this step establishes a relevant conditional input by reproduction and leaves no inconclusive mathematical exploration.
+NEXT_REVIEW: drafts/literature/2026-10-04-mixed-seventh-parameter-bridge.md
+Next action: Critically audit Chocian's Section 6.2 claim that an exceptional descent field forces eta modulo 29 into {10,14,24,28}, conditional on a primitive signed solution of X^5+Y^3=Z^7 and A_eta being that field.

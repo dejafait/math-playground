@@ -1,0 +1,87 @@
+{
+  "scope": "Exact finite encoding and identity checks; not a propositional proof verifier",
+  "seed": 180104,
+  "cases": 64,
+  "formal_zero_cases": 28,
+  "components_checked": 1192,
+  "coefficient_row_checks": 205,
+  "assignment_checks": 237,
+  "ips_identity_assignment_checks": 6,
+  "omitted_trailing_closure_detected": true,
+  "corrupted_constant_closure_detected": true,
+  "boolean_only_zero_not_accepted_as_formal_zero": true,
+  "named_cases": [
+    {
+      "name": "constant zero",
+      "vertices": 2,
+      "positive_degree_components": 1,
+      "formal_zero": true,
+      "boolean_zero": true,
+      "coefficient_row_checks": 1,
+      "assignment_checks": 1
+    },
+    {
+      "name": "constant one",
+      "vertices": 2,
+      "positive_degree_components": 1,
+      "formal_zero": false,
+      "boolean_zero": false,
+      "coefficient_row_checks": 1,
+      "assignment_checks": 1
+    },
+    {
+      "name": "constant cancellation",
+      "vertices": 6,
+      "positive_degree_components": 5,
+      "formal_zero": true,
+      "boolean_zero": true,
+      "coefficient_row_checks": 1,
+      "assignment_checks": 1
+    },
+    {
+      "name": "constant paths before and after a variable",
+      "vertices": 10,
+      "positive_degree_components": 9,
+      "formal_zero": false,
+      "boolean_zero": false,
+      "coefficient_row_checks": 2,
+      "assignment_checks": 2
+    },
+    {
+      "name": "mixed degrees",
+      "vertices": 14,
+      "positive_degree_components": 13,
+      "formal_zero": false,
+      "boolean_zero": false,
+      "coefficient_row_checks": 3,
+      "assignment_checks": 4
+    },
+    {
+      "name": "Boolean-zero commutator is formally nonzero",
+      "vertices": 14,
+      "positive_degree_components": 13,
+      "formal_zero": false,
+      "boolean_zero": true,
+      "coefficient_row_checks": 5,
+      "assignment_checks": 4
+    },
+    {
+      "name": "Boolean-zero Boolean axiom is formally nonzero",
+      "vertices": 10,
+      "positive_degree_components": 9,
+      "formal_zero": false,
+      "boolean_zero": true,
+      "coefficient_row_checks": 3,
+      "assignment_checks": 2
+    },
+    {
+      "name": "balanced degree-32 formal cancellation",
+      "vertices": 254,
+      "positive_degree_components": 253,
+      "formal_zero": true,
+      "boolean_zero": true,
+      "coefficient_row_checks": 33,
+      "assignment_checks": 2
+    }
+  ]
+}

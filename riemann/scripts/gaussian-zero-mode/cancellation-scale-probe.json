@@ -1,0 +1,101 @@
+{
+  "scope": "Floating-point discovery only; no epsilon-to-zero conclusion",
+  "cases": [
+    {
+      "epsilon_probe": 0.0001,
+      "seed": 10401,
+      "samples": 20000,
+      "xi_range": "[50000,1000000), rational tenths",
+      "last_series_index": 357,
+      "negative_samples_probe": 437,
+      "best_sign_probe": {
+        "xi_tenths": 2018091,
+        "value": -24.324562554708212,
+        "normalized_laguerre_probe": -24.324562554708212,
+        "cancellation_upper_probe": -21.38733244154468,
+        "omega_probe": 5.188600206813597,
+        "series_abs_probe": 1.0212067504837212,
+        "derivative_abs_probe": 7.7047802464373625,
+        "second_derivative_abs_probe": 29.928620290579268,
+        "velocity_abs_probe": 2.593467695751274,
+        "rotated_derivative_imag_probe": -7.660072943242234
+      },
+      "best_bound_probe": {
+        "xi_tenths": 2018091,
+        "value": -21.38733244154468,
+        "normalized_laguerre_probe": -24.324562554708212,
+        "cancellation_upper_probe": -21.38733244154468,
+        "omega_probe": 5.188600206813597,
+        "series_abs_probe": 1.0212067504837212,
+        "derivative_abs_probe": 7.7047802464373625,
+        "second_derivative_abs_probe": 29.928620290579268,
+        "velocity_abs_probe": 2.593467695751274,
+        "rotated_derivative_imag_probe": -7.660072943242234
+      }
+    },
+    {
+      "epsilon_probe": 1e-05,
+      "seed": 10402,
+      "samples": 20000,
+      "xi_range": "[50000,1000000), rational tenths",
+      "last_series_index": 1129,
+      "negative_samples_probe": 443,
+      "best_sign_probe": {
+        "xi_tenths": 8267401,
+        "value": -47.60824754315098,
+        "normalized_laguerre_probe": -47.60824754315098,
+        "cancellation_upper_probe": 68.7902205948064,
+        "omega_probe": 5.893684294881801,
+        "series_abs_probe": 2.6332529734967736,
+        "derivative_abs_probe": 15.29650285005909,
+        "second_derivative_abs_probe": 73.99461431565906,
+        "velocity_abs_probe": 1.3397636939082191,
+        "rotated_derivative_imag_probe": -11.307134315421308
+      },
+      "best_bound_probe": {
+        "xi_tenths": 8129949,
+        "value": -14.64591478564372,
+        "normalized_laguerre_probe": -21.64898083537801,
+        "cancellation_upper_probe": -14.64591478564372,
+        "omega_probe": 5.885301524519066,
+        "series_abs_probe": 0.9398832971520329,
+        "derivative_abs_probe": 7.3408481263261995,
+        "second_derivative_abs_probe": 36.027397918830694,
+        "velocity_abs_probe": 1.8093836204699654,
+        "rotated_derivative_imag_probe": 7.195924797208063
+      }
+    },
+    {
+      "epsilon_probe": 1e-06,
+      "seed": 10403,
+      "samples": 20000,
+      "xi_range": "[50000,1000000), rational tenths",
+      "last_series_index": 3569,
+      "negative_samples_probe": 639,
+      "best_sign_probe": {
+        "xi_tenths": 1561864,
+        "value": -96.06195328612151,
+        "normalized_laguerre_probe": -96.06195328612151,
+        "cancellation_upper_probe": 142.09845827502016,
+        "omega_probe": 5.060464189162163,
+        "series_abs_probe": 3.864117964256209,
+        "derivative_abs_probe": 28.07692772739147,
+        "second_derivative_abs_probe": 152.11379906590895,
+        "velocity_abs_probe": 14.766992147498128,
+        "rotated_derivative_imag_probe": 25.76337101957236
+      },
+      "best_bound_probe": {
+        "xi_tenths": 769857,
+        "value": -59.796005188976736,
+        "normalized_laguerre_probe": -64.98037846266419,
+        "cancellation_upper_probe": -59.796005188976736,
+        "omega_probe": 4.706748951443348,
+        "series_abs_probe": 1.8602281305804742,
+        "derivative_abs_probe": 19.80991815451426,
+        "second_derivative_abs_probe": 111.70051950094043,
+        "velocity_abs_probe": 11.082420724798315,
+        "rotated_derivative_imag_probe": 19.758656688268307
+      }
+    }
+  ]
+}
