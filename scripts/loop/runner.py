@@ -15,9 +15,11 @@ import signal
 import subprocess
 import sys
 import time
+import tempfile
 
 from events import Events
 from accounting import collect
+from context import shared as shared_context, notebook_context
 from research import assess, resume, recover, field, balance_instruction
 from literature import prepare, instruction, validate_turn, continuation_requires_review, READY
 from codex import check, command
@@ -149,16 +151,13 @@ def run_process(argv, stdin, directory, timeout, verbose=False, notebook=None):
     env = dict(os.environ, NO_COLOR='1', TERM='dumb')
     process = None
     timed_out = False
+    input_file = tempfile.TemporaryFile()
+    if stdin is not None:
+        input_file.write(stdin.encode())
+    input_file.seek(0)
     try:
-        process = subprocess.Popen(argv, cwd=notebook or ROOT, env=env, stdin=subprocess.PIPE,
+        process = subprocess.Popen(argv, cwd=notebook or ROOT, env=env, stdin=input_file,
                                    stdout=subprocess.PIPE, stderr=subprocess.PIPE, start_new_session=True)
-        # PROMPT.md is deliberately small, below pipe capacity on supported hosts.
-        try:
-            if stdin is not None:
-                process.stdin.write(stdin.encode())
-            process.stdin.close()
-        except BrokenPipeError:
-            pass
         with selectors.DefaultSelector() as selector:
             buffers = {0: b'', 1: b''}
             selector.register(process.stdout, selectors.EVENT_READ, 0)
@@ -208,7 +207,9 @@ def run_process(argv, stdin, directory, timeout, verbose=False, notebook=None):
         if process is not None:
             terminate_group(process)
             for stream in (process.stdin, process.stdout, process.stderr):
-                stream.close()
+                if stream is not None:
+                    stream.close()
+        input_file.close()
         for handler in handlers:
             handler.close()
 
@@ -359,7 +360,7 @@ def main():
                     if literature_context['decision'] not in READY:
                         literature_context['decision'] = 'REVIEW_REQUIRED'
                     literature_context['reason'] = 'Recovery required: ' + recovery
-                prompt = (prompt + '\n\n' + f'Active problem: {problem}. Working directory: {notebook}. '
+                prompt = (shared_context(ROOT, prompt) + '\n\n' + f'Active problem: {problem}. Working directory: {notebook}. '
                           'Shared instructions are ../GOAL.md and ../PROMPT.md. '
                           'All notebook paths are relative to this working directory. '
                           f'Use --problem {problem} with the shared documentation checker.\n\n'
@@ -380,6 +381,7 @@ def main():
                                    'If a source cannot be accessed, park dependent work and choose an '
                                    'independent target. Do not repeat the same access attempts. Save a '
                                    'assessment for the new target; a literature turn may finish approving it.\n')
+                prompt += notebook_context(notebook, before_progress, literature_context['reference'])
                 route = select_route(before_progress, local, literature_context['decision'] in READY)
                 prompt += ROUTING_INSTRUCTION + f'\nCurrent settings: {route["model"]}, {route["effort"]}. One bounded step, then checkpoint.\n'
                 argv, stdin = command(executable, prompt, route)
@@ -399,7 +401,8 @@ def main():
                 observation_path = output / 'telemetry.json'
                 observed = json.loads(observation_path.read_text()) if observation_path.exists() else telemetry(None)
                 record = dict(route, **observed, elapsed_seconds=time.monotonic() - started, outcome=kind, validation='not_accepted', problem=problem, actual_task_type=None,
-                              step_id=None, research_outcome=None, evidence=None)
+                              step_id=None, research_outcome=None, evidence=None, initial_prompt_bytes=len(prompt.encode()),
+                              startup_context='verbatim_once')
                 local['routing_history'] = (local.get('routing_history', []) + [record])[-10:]
                 local['elapsed_seconds'] = local.get('elapsed_seconds', 0) + time.monotonic() - started
                 if kind == 'success':
