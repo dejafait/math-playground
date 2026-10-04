@@ -17,6 +17,7 @@ import sys
 import time
 
 from events import Events
+from accounting import collect
 from research import assess, resume, recover, field, balance_instruction
 from literature import prepare, instruction, validate_turn, READY
 from codex import check, command
@@ -193,13 +194,14 @@ def run_process(argv, stdin, directory, timeout, verbose=False, notebook=None):
             if STOP or timed_out:
                 terminate_group(process)
         returncode = process.wait()
+        observed = telemetry(events.thread_id)
+        observed['accounting'] = collect(events.thread_id, directory)
+        observed.update(thread_id=events.thread_id, usage=events.usage)
+        (directory / 'telemetry.json').write_text(json.dumps(observed))
         if STOP:
             return 'interrupted', None, returncode
         if timed_out:
             return 'unknown', None, returncode
-        observed = telemetry(events.thread_id)
-        observed.update(thread_id=events.thread_id, usage=events.usage)
-        (directory / 'telemetry.json').write_text(json.dumps(observed))
         kind, reset = events.outcome(returncode)
         return kind, reset, returncode
     finally:
@@ -392,7 +394,8 @@ def main():
                     kind, reset, code = 'unknown', None, -1
                 observation_path = output / 'telemetry.json'
                 observed = json.loads(observation_path.read_text()) if observation_path.exists() else telemetry(None)
-                record = dict(route, **observed, elapsed_seconds=time.monotonic() - started, outcome=kind, validation='not_accepted')
+                record = dict(route, **observed, elapsed_seconds=time.monotonic() - started, outcome=kind, validation='not_accepted', problem=problem, actual_task_type=None,
+                              step_id=None, research_outcome=None, evidence=None)
                 local['routing_history'] = (local.get('routing_history', []) + [record])[-10:]
                 local['elapsed_seconds'] = local.get('elapsed_seconds', 0) + time.monotonic() - started
                 if kind == 'success':
@@ -402,6 +405,9 @@ def main():
                         local['research_halt'] = str(exc)
                     changed = checkpoint_digest(problem) != before
                     after_progress = (notebook / 'PROGRESS.md').read_text()
+                    record.update(step_id=field(after_progress, 'STEP_ID'), research_outcome=field(after_progress, 'STEP_OUTCOME'),
+                                  evidence=field(after_progress, 'STEP_EVIDENCE'),
+                                  actual_task_type=field(after_progress, 'ACTUAL_TASK_TYPE'))
                     reason = local.get('research_halt') or validate_turn(notebook, literature_context, after_progress)
                     if not reason and recovery and proved(problem):
                         reason = 'Recovery must leave a rejected resolution IN_PROGRESS for later critical review.'
