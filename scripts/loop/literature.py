@@ -65,6 +65,8 @@ def prepare(notebook, progress):
     return dict(target=target, reference=reference, decision=decision,
                 reason=reason, artifacts=artifacts(notebook),
                 coverage=(notebook / reference).read_text() if decision in READY else '',
+                assessments={str(p.relative_to(notebook)): hashlib.sha256(p.read_bytes()).hexdigest()
+                             for p in (notebook / 'drafts/literature').glob('*.md')},
                 review=(notebook / reference).read_bytes() if decision in READY else None)
 
 
@@ -91,10 +93,6 @@ def validate_turn(notebook, context, after):
         next_decision = read_review(notebook, field(after, 'NEXT_REVIEW'), field(after, 'Next action'))
     except ValueError as exc:
         return str(exc)
-    if (kind == 'RESEARCH' and field(after, 'Next action') != context['target']
-            and next_decision in READY and not (field(after, 'NEXT_REVIEW') == context['reference']
-            and field(after, 'Next action') in re.findall(r'^COVERED_TARGET:[ \t]*([^\n]+)$', context['coverage'], re.M))):
-        return 'A new next target needs its own literature review turn.'
     if kind == 'RESEARCH':
         if context['decision'] not in READY:
             return 'Research attempted without an assessment approved before this turn.'
@@ -111,3 +109,15 @@ def validate_turn(notebook, context, after):
     elif artifacts(notebook) != context['artifacts']:
         return 'Literature-only turn modified mathematical lemmas or scripts.'
     return None
+
+
+def continuation_requires_review(notebook, context, after):
+    """Defer approval of a new research continuation without rejecting completed work."""
+    if field(after, 'STEP_KIND') != 'RESEARCH' or field(after, 'Next action') == context['target']:
+        return False
+    reference = field(after, 'NEXT_REVIEW')
+    decision = read_review(notebook, reference, field(after, 'Next action'))
+    if decision not in READY:
+        return False
+    digest = hashlib.sha256((notebook / reference).read_bytes()).hexdigest()
+    return context.get('assessments', {}).get(reference) != digest

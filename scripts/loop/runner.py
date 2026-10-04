@@ -19,7 +19,7 @@ import time
 from events import Events
 from accounting import collect
 from research import assess, resume, recover, field, balance_instruction
-from literature import prepare, instruction, validate_turn, READY
+from literature import prepare, instruction, validate_turn, continuation_requires_review, READY
 from codex import check, command
 from routing import select as select_route, recommendation, telemetry, INSTRUCTION as ROUTING_INSTRUCTION
 from portfolio import registry, migrate, choose
@@ -341,25 +341,29 @@ def main():
                 before = checkpoint_digest(problem)
                 before_progress = (notebook / 'PROGRESS.md').read_text()
                 literature_context = prepare(notebook, before_progress)
+                if local.get('pending_review_target') == literature_context['target']:
+                    literature_context['decision'] = 'REVIEW_REQUIRED'
+                    literature_context['reason'] = 'New continuation assessment needs a separate approval turn; retain completed mathematics.'
                 recovery = local.get('research_recovery')
                 first_stop = local.get('first_research_stop', {}).get('reason', '')
                 metadata_ready = (bool(recovery) and (recovery.startswith(('Ready assessments', 'Incomplete or duplicate',
                                                                          'Missing literature', 'Literature assessment',
-                                                                         'Recovery remains stalled')) )
+                                                                         'Recovery remains stalled', 'A new next target')) )
                                   and literature_context['decision'] in READY
-                                  and first_stop.startswith(('Ready assessments', 'Incomplete or duplicate',
-                                                             'Missing literature', 'Literature assessment')))
+                                  and (recovery.startswith('A new next target')
+                                       or first_stop.startswith(('Ready assessments', 'Incomplete or duplicate',
+                                                                'Missing literature', 'Literature assessment', 'A new next target'))))
                 if metadata_ready:
                     local.pop('require_new_target', None)
                 if recovery:
                     if literature_context['decision'] not in READY:
                         literature_context['decision'] = 'REVIEW_REQUIRED'
                     literature_context['reason'] = 'Recovery required: ' + recovery
-                prompt = (f'Active problem: {problem}. Working directory: {notebook}. '
+                prompt = (prompt + '\n\n' + f'Active problem: {problem}. Working directory: {notebook}. '
                           'Shared instructions are ../GOAL.md and ../PROMPT.md. '
                           'All notebook paths are relative to this working directory. '
                           f'Use --problem {problem} with the shared documentation checker.\n\n'
-                          + instruction(literature_context) + balance_instruction(local, literature_context['decision'] in READY) + '\n' + prompt)
+                          + instruction(literature_context) + balance_instruction(local, literature_context['decision'] in READY))
                 if recovery:
                     prompt += ('\nSupervisor recovery turn: ' + recovery
                                + '. Repair the reported process issue or reassess the exhausted approach. '
@@ -407,12 +411,15 @@ def main():
                     after_progress = (notebook / 'PROGRESS.md').read_text()
                     record.update(step_id=field(after_progress, 'STEP_ID'), research_outcome=field(after_progress, 'STEP_OUTCOME'),
                                   evidence=field(after_progress, 'STEP_EVIDENCE'),
-                                  actual_task_type=field(after_progress, 'ACTUAL_TASK_TYPE'))
+                                  actual_task_type=field(after_progress, 'ACTUAL_TASK_TYPE'),
+                                  cross_notebook_reason=field(after_progress, 'CROSS_NOTEBOOK_REASON'))
                     reason = local.get('research_halt') or validate_turn(notebook, literature_context, after_progress)
                     if not reason and recovery and proved(problem):
                         reason = 'Recovery must leave a rejected resolution IN_PROGRESS for later critical review.'
                     if (not reason and recovery and field(after_progress, 'STEP_OUTCOME') == 'STALLED'
-                            and prepare(notebook, after_progress)['decision'] not in READY):
+                            and prepare(notebook, after_progress)['decision'] not in READY
+                            and not metadata_ready
+                            and field(after_progress, 'Next action') == literature_context['target']):
                         reason = 'Recovery remains stalled; reassess the route instead of renewing its budget.'
                     if (not reason and recovery and local.get('require_new_target')
                             and field(after_progress, 'Next action') == literature_context['target']):
@@ -433,6 +440,11 @@ def main():
                             and not field(after_progress, 'LITERATURE_REASON')):
                         reason = 'Ready target needs a mathematical attempt or a specific LITERATURE_REASON.'
                     if not reason:
+                        if continuation_requires_review(notebook, literature_context, after_progress):
+                            local['pending_review_target'] = field(after_progress, 'Next action')
+                            record['continuation'] = 'review_required'
+                        elif field(after_progress, 'STEP_KIND') == 'LITERATURE':
+                            local.pop('pending_review_target', None)
                         reason = assess(local, before_progress, after_progress, changed)
                         if not local.get('no_progress'):
                             local['next_route'] = recommendation(after_progress) or {}
