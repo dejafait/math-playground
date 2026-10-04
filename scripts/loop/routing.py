@@ -88,7 +88,8 @@ def recommendation(progress):
                 effort=effort, reason=reason, escalation=field(progress, 'NEXT_ESCALATION'))
 
 
-INSTRUCTION = '''\nRecommend settings for the exact Next action using single-line checkpoint fields:
+INSTRUCTION = '''\nRecord ACTUAL_TASK_TYPE using one task-type value below for the work just completed; this is a self-report.
+Recommend settings for the exact Next action using single-line checkpoint fields:
 NEXT_TASK_TYPE: metadata|source_extraction|literature_comparison|calculation|implementation|proof_attempt|proof_audit
 NEXT_MODEL_ROLE: routine|standard|deep_research
 NEXT_EFFORT: low|medium|high|xhigh|max
