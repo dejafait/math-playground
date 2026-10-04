@@ -20,6 +20,7 @@ from events import Events
 from research import assess, resume, recover, field, balance_instruction
 from literature import prepare, instruction, validate_turn, READY
 from codex import check, command
+from routing import select as select_route, recommendation, telemetry, INSTRUCTION as ROUTING_INSTRUCTION
 from portfolio import registry, migrate, choose
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -196,6 +197,9 @@ def run_process(argv, stdin, directory, timeout, verbose=False, notebook=None):
             return 'interrupted', None, returncode
         if timed_out:
             return 'unknown', None, returncode
+        observed = telemetry(events.thread_id)
+        observed.update(thread_id=events.thread_id, usage=events.usage)
+        (directory / 'telemetry.json').write_text(json.dumps(observed))
         kind, reset = events.outcome(returncode)
         return kind, reset, returncode
     finally:
@@ -231,8 +235,9 @@ def show_status(rows, state, only=None):
             scheduling = 'resolved'
         else:
             scheduling = 'eligible'
+        route = local.get('last_route', {})
         mix = local.get('turn_mix', [])
-        print(f"{slug}: enabled={row['enabled']}; {status}; {scheduling}; recent mathematical={mix.count('RESEARCH')}, literature={mix.count('LITERATURE')}")
+        print(f"{slug}: enabled={row['enabled']}; {status}; {scheduling}; recent mathematical={mix.count('RESEARCH')}, literature={mix.count('LITERATURE')}; requested={route.get('model', 'unknown')}/{route.get('effort', 'unknown')}")
 
 
 def main():
@@ -369,18 +374,26 @@ def main():
                                    'If a source cannot be accessed, park dependent work and choose an '
                                    'independent target. Do not repeat the same access attempts. Save a '
                                    'assessment for the new target; a literature turn may finish approving it.\n')
-                argv, stdin = command(executable, prompt)
+                route = select_route(before_progress, local, literature_context['decision'] in READY)
+                prompt += ROUTING_INSTRUCTION + f'\nCurrent settings: {route["model"]}, {route["effort"]}. One bounded step, then checkpoint.\n'
+                argv, stdin = command(executable, prompt, route)
+                local['last_route'] = route
                 state.update(outcome='running', retry_at=0, started_at=time.time())
                 save_state(state_path, state)
                 output = directory / problem
                 output.mkdir(exist_ok=True)
-                announce(f'codex: starting {problem}; logs in {output.relative_to(ROOT)}.')
+                announce(f'codex: starting {problem} with {route["model"]}/{route["effort"]} ({route["reason"]}); logs in {output.relative_to(ROOT)}.')
+                (output / 'telemetry.json').unlink(missing_ok=True)
                 started = time.monotonic()
                 try:
                     kind, reset, code = run_process(argv, stdin, output, args.timeout, args.verbose, notebook)
                 except (OSError, subprocess.TimeoutExpired) as exc:
                     announce(f'Invocation failed: {exc}; will retry.')
                     kind, reset, code = 'unknown', None, -1
+                observation_path = output / 'telemetry.json'
+                observed = json.loads(observation_path.read_text()) if observation_path.exists() else telemetry(None)
+                record = dict(route, **observed, elapsed_seconds=time.monotonic() - started, outcome=kind, validation='not_accepted')
+                local['routing_history'] = (local.get('routing_history', []) + [record])[-10:]
                 local['elapsed_seconds'] = local.get('elapsed_seconds', 0) + time.monotonic() - started
                 if kind == 'success':
                     try:
@@ -415,10 +428,15 @@ def main():
                         reason = 'Ready target needs a mathematical attempt or a specific LITERATURE_REASON.'
                     if not reason:
                         reason = assess(local, before_progress, after_progress, changed)
+                        if not local.get('no_progress'):
+                            local['next_route'] = recommendation(after_progress) or {}
+                    record['validation'] = reason or ('invalid_step_report' if local.get('no_progress') else 'accepted')
                     if reason:
                         local['research_halt'] = reason
                     if local.get('research_halt'):
                         announce(f"Research stop for {problem}: {local['research_halt']}")
+                with (output / 'routing.jsonl').open('a') as handle:
+                    handle.write(json.dumps(dict(record, started_at=state['started_at'])) + '\n')
                 local['last_outcome'] = kind
                 if kind not in ('quota', 'transient', 'interrupted', 'fatal'):
                     local['turns'] = local.get('turns', 0) + 1

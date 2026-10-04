@@ -59,6 +59,8 @@ Ambiguous human calendar dates/time zones use backoff instead of a guessed reset
 
 class Events:
     def __init__(self):
+        self.thread_id = None
+        self.usage = None
         self.failures = []
         self.stderr = ''
         self.succeeded = False
@@ -74,6 +76,10 @@ class Events:
         if not isinstance(event, dict):
             return
         kind = event.get('type', '')
+        if kind == 'thread.started':
+            self.thread_id = event.get('thread_id')
+        if kind == 'turn.completed':
+            self.usage = event.get('usage')
         failed = kind in ('error', 'turn.failed')
         success = kind == 'turn.completed'
         if failed:

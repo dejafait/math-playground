@@ -225,7 +225,8 @@ if args == ['login', 'status']:
     sys.exit(0)
 expected = pathlib.Path('../PROMPT.md').read_text()
 actual = sys.stdin.read()
-assert actual.endswith(expected)
+assert expected in actual
+assert "Recommend settings for the exact Next action" in actual
 assert "Active problem: riemann" in actual
 pathlib.Path('invoked-'+name).write_text(json.dumps(args))
 if pathlib.Path('hold').exists():
