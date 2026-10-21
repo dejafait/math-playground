@@ -1,6 +1,6 @@
 # Current best argument — incomplete
 
-The write-up establishes partial results, not RH. Current research status and the next task live in [PROGRESS.md](PROGRESS.md). The sole node-and-edge definition and lemma navigation live in [DAG.md](DAG.md); full statements and proofs live in individual lemma files. Standard definitions and named starting theorems are in [foundations](foundations/notation-and-inputs.md).
+The write-up establishes partial results, not RH. Current research status and the next task live in [PROGRESS.md](PROGRESS.md). The sole node-and-edge definition and lemma navigation live in [DAG.md](DAG.md); full statements and proofs live in individual lemma files. Standard definitions and named starting theorems are in [foundations](foundations/notation-and-inputs.md). The [October 2026 external-input register](foundations/2026-10-quasi-riemann-input.md) records OpenAI family 003's cited zero-free half-plane Re(s)>7/8, its alternate 11/12 argument, Liu's subsequent boundary 0.874957019420098946..., and the exact verification limits. These cover fixed-half-plane rediscovery, not full RH or the positivity gap below. The [overlap review](drafts/literature/2026-10-21-openai-quasi-rh-overlap.md) screens all 457 local lemma/corollary files; L330/L331's old analytic-envelope stops require reassessment with the new input, while their conditional proofs and countermodels remain valid.
 
 ## Assembly and unresolved gap
 

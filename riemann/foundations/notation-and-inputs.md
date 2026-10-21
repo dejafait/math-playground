@@ -1,5 +1,7 @@
 # Starting theorems and definitions
 
+For the October 2026 fixed zero-free half-plane results, precise source versions, strict boundary and pole qualifications, and local verification limits, use [the external-input register](2026-10-quasi-riemann-input.md). These are cited external results; existing lemma proofs below are not silently strengthened or given new dependencies.
+
 For Re(s)>1, define ζ(s)=Σ_{n≥1} n^{-s}, where n^{-s}=exp(-s log n) with the real logarithm. Use the standard meromorphic continuation theorem for the Riemann zeta function: this extends to C with its only pole a simple pole at 1. Use Riemann's functional equation
 
 ζ(s)=2(2π)^{s-1} sin(πs/2) Γ(1-s) ζ(1-s).
