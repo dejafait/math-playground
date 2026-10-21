@@ -1,0 +1,44 @@
+# Used ER extensions and width in every OBDD order — source assessment
+
+TARGET: Test whether polynomial-length ER refutations can have a used extension value requiring exponential OBDD width in every common variable order.
+CHECKED: 2026-10-05
+DECISION: SPECIALIZE
+SEARCH_EVIDENCE: Checked the local OBDD construction/audit records, L019's used-definition proof and Attempts 016–018; searched hidden-weighted-bit every-order bounds, binary circuit size, used extensions and ER refutations. Located and read Bollig–Löbbing–Sauerhoff–Wegener's primary paper; no inspected source supplies the full ER-use statement.
+SOURCE_EVIDENCE: Bollig–Löbbing–Sauerhoff–Wegener, RAIRO Theoretical Informatics and Applications 33(2) (1999), 103–115, DOI 10.1051/ita:1999108, Definitions 1.1–1.2, Theorem 2.1(i) and proof, Lemma 4.1 and both residual-function proof cases, Theorem 4.2 and its two-window proof, pp. 104–105 and 107–108.
+COMPARISON: The paper provides an explicit n-input HWB family with O(n)-size binary circuits and exponential deterministic OBDD node count in every order. Applying that result to dense width and a genuinely used fresh-AND ER extension still requires a local specialization; the source does not establish proof or certificate hardness.
+GAP: Give an explicit polynomial-size AND/signed-literal implementation and polynomial-bit ER refutation retaining all hard-function inputs as original variables, verify defining-clause ancestry and output use, and transfer the cited node-count lower bound to maximum dense-layer width. These specialization obligations are approved for the saved target but unproved this turn.
+REASON: Essential function-level source coverage is now sufficient for one bounded ER-use attempt. Import the known circuit/OBDD separation rather than reprove it; its uninspected original Bryant proof and sharper constants are unnecessary.
+LITERATURE_REASON: The changed target tests every-order width for arbitrary supplied extensions; prior ready assessments assume supplied diagrams. This completes that missing essential comparison on the unchanged target.
+SCOPE: Exactly L025/L026's fresh acyclic AND-extension ER convention, width-at-most-three original CNFs, n original variables, polynomial binary T=2+|F|+|pi| in n, dense common orders and outside-F nonextension variables mapped to zero. Used means actual defining-clause and value participation in final inference ancestry; no every-refutation claim is included. Seek width 2^(c n) for one fixed c>0 and all sufficiently large members of an explicitly indexed family; using n divisible by 10 is permitted.
+
+The main gap remains unconditional uniform SAT complexity. This target tests the scope of L026's representation promise: a successful example would require a restriction or different representation before using L026 on every supplied short ER proof. Tree conversion, hardness of every certificate, unrestricted ER lower bounds and decision transfer remain independent gaps. No P-versus-NP candidate is proposed.
+
+## Primary coverage and reading limits
+
+The canonical bibliographic source is [the Numdam journal record](https://www.numdam.org/item/ITA_1999__33_2_103_0/). The inspected primary text is [the 14-page Numdam scan](https://www.numdam.org/article/ITA_1999__33_2_103_0.pdf), including its archive cover; printed page numbers exclude that cover. This is the 1999 journal version.
+
+HWB_n(x)=x_(sum_i x_i), with x_0=0 and integer weight. Definition 1.1 permits skipped tests in a single fixed order. Theorem 2.1(i) supplies O(n) binary circuit size; its proof invokes simultaneous exact-weight predicates and the selector equation. The underlying symmetric-circuit construction is referenced to Wegener, Chapter 3.4, not independently extracted here. The theorem suffices as an imported size input; specify an explicit implementation later.
+
+Theorem 4.2 gives exponential node count in every order. Lemma 4.1 compares equal-weight prefixes: agreement on tested window bits gives identical residuals; a differing bit admits a distinguishing common suffix. Its two-window argument uses k=0.6n and s=0.1n or 0.5n for n divisible by 10. These cases were read.
+
+**Extraction qualification.** Numdam's prose is readable, but OCR damages Lemma 4.1's binomial formula and omits Theorem 4.2's final displayed inequality. The theorem's exponential conclusion and both proof cases are available; later discussion on printed p. 110 also explicitly identifies its lower-bound exponent as 0.2n. Import only the qualitative bound 2^(Omega(n)); do not reconstruct the missing display, claim a new proof, or assert a precise finite threshold. A sharper cut-level constant is unnecessary: the later attempt can use the cited node-count theorem, charging all n dense levels and two terminals. This is an applicability obligation, not a completed width theorem here.
+
+The binary-basis circuit still needs explicit conversion to local signed-AND definitions with fresh topological gate names. Fixed-arity Boolean gate conversion is an implementation specialization. Keep hard input count distinct from gate count and full ER bit length.
+
+The [original Bryant author PDF](https://www.cs.cmu.edu/~bryant/pubdir/ieeetc91.pdf), *On the Complexity of VLSI Implementations and Graph Representations of Boolean Functions with Application to Integer Multiplication*, IEEE Transactions on Computers 40(2) (1991), 205–213, was located but its extracted text is unusable. Its proof is unread and nonessential: the 1999 primary paper proves its own every-order lower bound. ScienceEngine's typeset mirror yielded search previews but full opens failed; those previews are not proof evidence. Screenshot calls returned no usable image and a shell download failed DNS. These failures do not block the qualitative journal theorem. Do not retry optional mirrors merely to approve the same scope.
+
+## Search, duplicates and exclusions
+
+Discovery queries included `hidden weighted bit function OBDD exponential all variable order Bryant 1991 pdf`, `hidden weighted bit OBDD lower bound Bryant theorem polynomial circuit`, `site.cs.cmu.edu bryant hidden weighted bit 1991 pdf`, `On the complexity of the hidden weighted bit numdam`, and targeted queries for the two-window proof and primary mirrors. Full-target searches included `"hidden weighted bit" "used extension"`, `"hidden weighted bit" "ER refutation"`, `"hidden weighted bit" "extended resolution" OBDD`, `"OBDD" "extension variables" exponential refutation`, and `"OBDD" "short extended resolution"`. No full-statement match was identified; this is not evidence of novelty or an exhaustive search.
+
+Local comparison read L025/L026's full receiving hypotheses, L019's used-extension/optimal-certificate contrast, foundations/05's ER convention and the relevant failure/history passages. Scoped searches covered the OBDD assessments, construction working note and histories 043–046. L019's literal unfolding is a different invariant and does not imply OBDD hardness. L026's construction/audit coverage is already ready. The exact-lift and same-output stops are preserved; they do not ban this independent applicability test.
+
+Nearby generalized-BDD, HWB equivalence-checking and OBDD proof-system leads are not inputs to this specialization. No lower bound for another proof system is imported as an ER lower bound. This assessment covers deterministic single-order OBDDs only. No cross-notebook input was used. Mathlib coverage of the full HWB circuit/OBDD theorem is **not checked**; no absence assertion is made.
+
+## Approved continuation and discriminating test
+
+Continue on exactly TARGET, with L025 and L026 as receiving conventions and L019 only as ancestry/optimal-certificate contrast. Put any eventual full citation and specialization proof in its canonical lemma. Literature-only work has changed no lemma or mathematical script.
+
+The attempt must jointly check a concrete hard extension under the zero convention; every hard input in the original CNF; valid width-at-most-three defining clauses and explicit ER references; actual hard-output and defining-clause ancestry; full binary T polynomial in n; and exponential maximum width in every dense order. Unused circuit definitions fail the test. Agreement only on satisfying assignments of the unsatisfiable original CNF is vacuous and fails L026's all-assignment promise.
+
+Continue only if these checks establish the family. Abandon this embedding if inputs disappear under the zero convention, definition use is padding, or circuit/proof length is superpolynomial. One bad order or a bound exponential only in log T is insufficient. Success concerns one supplied proof: alternative short proofs, different certificates, unrestricted reduced data and SAT algorithms remain possible. No lower-bound reproof, all-certificate conclusion or new target is approved.

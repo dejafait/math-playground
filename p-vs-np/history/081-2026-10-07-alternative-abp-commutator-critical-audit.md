@@ -1,0 +1,9 @@
+# 2026-10-07 — L035 critical mathematical audit
+
+STEP_ID: 2026-10-07-81-alternative-abp-commutator-critical-audit
+
+Completed exactly the ready critical-audit target as RESEARCH / proof_audit / REPRODUCTION. [L035](../lemmas/L035-alternative-affine-abp-commutator-witness.md) survives independent checks of ordered telescoping, marked-edge factorization, all endpoint/graph conventions, exact counts, full label/identifier/axiom accounting and polynomial bit construction time. Canonical audit paragraphs retain the formal proof and qualifications. No substantive defect, new bound, new dependency or P-versus-NP candidate was found. Outcome EXPLORATION: new verification evidence, one mathematical exploration turn since L035's ADVANCE.
+
+The [work record](../drafts/2026-10-07-alternative-abp-commutator-critical-audit.md) identifies the gap and continuation test. `scripts/alternative-abp-commutator/marked-edge-audit-results.json` records independent backward evaluation of all 83 saved graph/word certificates and 16 additional boundary cases, exact actual/required counts, graph-path placeholder checks and 18 detected suffix-order mutations. Original evidence is unchanged. Finite diagnostics supplement the all-input proof. Existing source coverage sufficed; no browsing or new source claim was needed. PROOF.md and DAG.md are unchanged because the argument and dependencies are unchanged.
+
+Queue [Booleanity-witness coverage](../drafts/literature/2026-10-07-affine-abp-boolean-witnesses.md) as REVIEW_REQUIRED before attempting that separate correction obligation. This is a proposed target, with no derivation or approval in this turn. Attempts 020/021 remain fixed-output stops. General data, later assembly, every-certificate hardness and unrestricted SAT decision remain unresolved; STATUS stays IN_PROGRESS.

@@ -1,0 +1,7 @@
+# 2026-10-07 — Unconditional square-coordinate reduction
+
+STEP_ID: beal-2026-10-07-078-three-four-eleven-unconditional-reduction
+
+RESEARCH / REPRODUCTION / ADVANCE: [L032](../lemmas/L032-fns-ordered-three-four-eleven-reduction.md) applies the approved FNS unconditional inputs and retains the square coordinate, units and positivity. All Table 1–2 residue subrows, Table 3 intersections and symplectic types give eight necessary branches on five non-CM twists. Two j-domain lists narrow to one domain each, and the even-B near-1728 parameters have even valuation. The finite certificate passes and its complete source-row, branch and summary values were inspected. This is progress in the local use of known results, not a new classification or signature exclusion.
+
+All five labels survive versus the zero needed for label-based emptiness. No rational or integer solutions are produced; GRH-dependent Selmer elimination remains parked. Do not repeat these filters without a new discriminating global condition. Preserve the unrestricted-congruence and unrelated mixed-seventh stop evidence. Next is the [separate critical application audit](../drafts/literature/2026-10-07-three-four-eleven-reduction-audit.md), newly ready for next-turn approval. Mathematical exploration usage remains 0/3; no uniform Beal argument exists. Scoped structural validation passed with 33 nodes, 39 edges, valid links and an acyclic DAG; it does not verify the mathematics.

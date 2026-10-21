@@ -1,0 +1,11 @@
+# Graph-predicate ER embedding — saved attempt
+
+Approved target: Test a polynomial-bit signed-AND ER embedding of L030's independent-set predicate with every extension in final inference ancestry.
+
+The preexisting SPECIALIZE assessment is `drafts/literature/2026-10-06-expander-predicate-er-ancestry.md`; the task is REPRODUCTION. Inputs are L027's signed-unit/accumulator template, L030's graph predicate and common-order sum bound, and foundations/05's ER convention. Attempts 017/019 remain stopped on their stated mechanisms. No supplied work is discarded.
+
+Construction plan saved before assembly: enumerate the m graph edges, define p_i=x_u AND x_v, conjoin their negations with m-1 fresh AND gates, and copy the final signed conjunction into a positive root h. There are 2m circuit gates. Expansion with n>=2 implies m>=1. For each sigma in {0,1}, use original units specifying x_i=sigma plus the opposite unit on x_1. The root retains f_G on every assignment; its derived signed unit is h for sigma=0 and NOT h for sigma=1. Process the gate units by L027's two value cases. With a_0 the chosen true original literal on x_1, add an accumulator for each circuit signed unit, derive every positive accumulator, propagate the opposite anchor along the negative chain, and resolve the last two units. This should place every gate's signed unit and at least one defining clause in the final ancestry.
+
+Required checks: freshness and acyclicity, the m=1 boundary, signed anchor for sigma=0, repeated final operands, retention of all n original inputs, every definition/signed-unit ancestry, and full binary length. Proposed record bound is R<=22m+n+2, with width at most three and O((n+m) log(n+m+2)) total bits. L030 can then be applied unchanged to the positive root; no new lower-bound derivation is planned. General reduced data, different orders, tree conversion, every-certificate hardness and decision transfer stay unresolved. Continue only if all semantic/ancestry/length requirements hold; otherwise preserve the precise failure.
+
+Completed: the all-size construction and all required checks are written in canonical L031. Both signed-output cases pass; no finite script was necessary. A separate critical audit is pending its own coverage decision. This saved reasoning is a work record, not a second proof or current next-action checkpoint.

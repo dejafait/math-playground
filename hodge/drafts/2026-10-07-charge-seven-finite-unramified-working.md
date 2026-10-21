@@ -1,0 +1,13 @@
+# Conditional finite/unramified map — bounded application
+
+2026-10-07. Approved target: Assess whether L062 and L063 force the conditional classifying map to be unramified and finite onto its scheme-theoretic image.
+
+Prior gate: drafts/literature/2026-10-06-charge-seven-finite-unramified-map.md, SPECIALIZE, unchanged at invocation. No additional literature step is needed. Targeted checks of L062/L063, L060's actual charge-seven fibres, histories 125--126 and ATTEMPTS/044--045 found no existing combined implication; the stopped index/lifting tests do not decide this map property. Existing notebook changes are preserved.
+
+Main gap: universal primitive rational Hodge algebraicity; conditional F existence, inverse/reconstruction and transverse transport remain independent. Intermediate target: the actual coarse classifying map is unramified and finite onto its scheme-theoretic image. Downstream use: restrict the global image geometry of a prospective F. Continue if natural deformation compatibility and all scheme hypotheses hold; otherwise retain the justified weaker map property and identify the failed implication. No global injectivity, flatness or embedding follows automatically.
+
+Working proof obligations: use the dual-number pullback of the actual family for the natural coarse-moduli tangent identification; use the numerical-class open-and-closed locus without changing to a fixed-determinant tangent; check finite type and equal complex residue fields at closed points. The open unramified locus then contains all points because its closed complement in finite-type B would have a closed point. Projectivity of B and separatedness of the stable target give properness; unramifiedness gives local quasi-finiteness and hence finiteness. Define the image by the kernel ideal, justify finiteness of its factor map, and use the relative-differential sequence for that factor's unramifiedness. These are pending applicability checks, not a complete argument at this checkpoint.
+
+Essential input IDs: L062 and L063, carrying L044's projective S and L060's conditional actual F. No F, global injectivity, reconstruction, metric equality or transport is assumed established. No mathematical script is needed for the cited scheme criteria.
+
+Completed: L064 contains the full conditional application and precise primary citations. The approved threshold is met; local progress is classified REPRODUCTION, with no claim beyond the checked known theorems. The new critical-audit continuation is recorded as REVIEW_REQUIRED for separate approval. No assumption of F existence or stronger image geometry has been introduced.

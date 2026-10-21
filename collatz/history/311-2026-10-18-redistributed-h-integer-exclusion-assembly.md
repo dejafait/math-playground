@@ -1,0 +1,7 @@
+# Step 311 — 2026-10-18 — Changed-table integer-exclusion assembly
+
+Under the prior SPECIALIZE [assembly assessment](../drafts/literature/2026-10-18-redistributed-h-integer-exclusion-assembly.md), established [C080a](../lemmas/C080a-redistributed-h-allocation-integer-exclusion.md) by applying audited L078 with all L079 independent table tests and both L080 nondivisibility certificates. Every cyclic order and nonnegative integer allocation of budget 9250245 is covered. The contradicted integer is the unshifted input of indexed row 0 after normalization, retaining both cuts. No arithmetic certificate rerun or source reproof was necessary.
+
+RESEARCH / ADVANCE / REPRODUCTION: a new local table-level conjunction, not progress beyond the checked general affine/divisibility machinery. Direct inputs in DAG.md are L055 (pair data), L078, L079 and L080; C077a is used through these inputs. PROOF.md now records the assembled restricted conclusion and its traps. Both original witnesses, all unfinished work and Attempts 026–031 persist. No survivor feasibility, actual-word transfer or universal result is claimed. No mathematical EXPLORATION turn was spent.
+
+The sole continuation is the [proposed independent critical audit](../drafts/literature/2026-10-18-redistributed-h-integer-exclusion-critical-audit.md), marked REVIEW_REQUIRED for separate next-turn scope comparison. Any premise, candidate or coordinate mismatch stops or narrows dependent work. Universal eventual descent remains the main gap.

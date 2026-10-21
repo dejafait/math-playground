@@ -1,0 +1,9 @@
+# 2026-10-08 — Exact five-isogeny construction on the 54a1 branch
+
+STEP_ID: beal-2026-10-08-083-five-isogeny-finite-class-construction
+
+RESEARCH / REPRODUCTION / ADVANCE: the approved bounded construction establishes [L033](../lemmas/L033-five-isogeny-finite-class-constraint.md). Exact torsion, quotient, divisor and exceptional-evaluation arithmetic pass all nine certificate checks. The dual direction identifies the connecting map with Kummer classes in K itself, and the unconditional finite necessary class condition retains L032's full fourth-power identity. The [certificate](../scripts/five-isogeny-construction/construction-certificate.json) is complete arithmetic evidence for the displayed calculations, not a class/unit or Selmer computation. This is local assembly of known descent theory, not progress beyond the assessed sources or a signature exclusion.
+
+The continuation test succeeds at construction/applicability: a concrete intersection with all local images above 5 and 11 and simultaneous original local power identities is specified canonically. Certification of global arithmetic data, usefulness of that intersection, every other twist and the full Beal gap remain unresolved. No GRH-dependent two-descent data or unread Fisher formula is used. PROOF incorporates the necessary input and DAG records its direct local mathematical input L032. All unfinished work is preserved.
+
+Next is separate approval of the [new critical-audit assessment](../drafts/literature/2026-10-08-five-isogeny-critical-audit.md), followed only when approved by its mathematical audit. This newly written REVIEW_REQUIRED continuation does not undo the completed construction. A relevant input is established, so mathematical exploration usage is 0/3. STATUS remains IN_PROGRESS; no complete candidate exists.

@@ -1,0 +1,12 @@
+First verification invocation, 2026-10-18:
+python3 scripts/known-point-seven-307/verify_certificate.py
+exit 1, AssertionError in short_sum at assert good(r), first tangent.
+
+The initial verifier formed its third-intersection ordinate as
+y+m*(x-rx), then negated it. The line ordinate is y+m*(rx-x).
+This is a verifier sign error, not a failed valuation test or a
+producer-certificate correction. The initial source is preserved in
+initial-failed-verifier.py.txt. certificate.json is unchanged by repair.
+The corrected verifier must complete all binary/sequential checks before
+any local conclusion is recorded. This initial failure is not a passing
+rejection test or a critical audit.

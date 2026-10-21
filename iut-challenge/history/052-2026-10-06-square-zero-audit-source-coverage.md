@@ -1,0 +1,5 @@
+# 2026-10-06 — Reference-action audit coverage
+
+Completed a literature-only comparison for the exact saved L023 audit. The [assessment](../drafts/literature/2026-10-06-square-zero-reference-critical-audit.md) now records SPECIALIZE coverage, including the additional published Proposition 3.11(iv) and Proposition 4.2(iii) diagrams that document the fixed-field/full-object logarithm interface. This is a known source input and local coverage advance, not a completed proof audit or progress beyond the checked literature.
+
+The targeted duplicate/failure check preserves L018–L019's excluded involution and L022's auxiliary qualification. The next step is the same bounded critical audit, with consistent reciprocity choices, torsion descent, L016's lattice spanning and exponent twists checked explicitly. Failure should identify the exact mismatch; success would leave coordinates, bounds and original finite B>=A unresolved. No lemmas, mathematical scripts, overview argument, DAG or supervisor state were changed. Mathematical exploration remains 1/3.

@@ -1,0 +1,9 @@
+# Formula-origin suffix source comparison — step 162
+
+2026-10-11. Literature-only work on the saved formula-origin receiving question. No mathematical construction or extension theorem has been proved.
+
+The source comparison distinguishes LTW v4 Theorem 4.1's general quasipolynomial receiver from Theorem 4.11's syntactically homogeneous zero-identity result and Lemma 4.17's constant-free homogeneous suffix correspondence. Read Lemma 4.17's complete addition/product construction, induced-part definition and final transition argument, printed pp.36–39; the paper leaves the individual structural Frege derivations to the reader. The proposed graph uses L018's distinct terminals and constant connectors instead of those merged terminals. That difference, constants and mixed degrees require a separate proof interface, not a verbatim import.
+
+The canonical assessment will preserve the saved target and record supporting coverage for a later bounded attempt. Its first test is the full written size/depth and ordinary-Frege local recurrences of every suffix for both substituted identities; success may be an interface result with later assembly unresolved. Failure must identify an actual recurrence or cost obstruction. Known coefficient semantics and the checked local closure machinery are reused. General ER representation, formula-length certificate existence and SAT transfer remain independent.
+
+Searches found LTW and the already assessed September 2026 ECCC extension; neither inspected receiver supplies the requested arbitrary-degree polynomial conclusion. The February author-hosted draft is a distinct discovery lead, not an additional imported version. Full citations, exact queries, applicability and the final review decision belong in `drafts/literature/2026-10-11-formula-origin-suffix-receiver-scope.md`.

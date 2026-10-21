@@ -1,15 +1,24 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: 2026-10-04-mca-027-first-disjoint-singular-family
-STEP_OUTCOME: NEGATIVE
-STEP_EVIDENCE: A primitive symbolic kernel and 455 exact coordinate-resultant triple gcds exclude every full-weight specialization of K={1,12,22,64} for the saved disjoint triple: equality forces S=16, whose actual pencil has the forbidden singular root T=7 and exactly four bad parameters over the algebraic closure; full power/equality and exact target-field gates agree — lemmas/L018-first-disjoint-singular-family-exclusion.md; scripts/coefficient-feasibility/singular-family-result.json.
-STEP_KIND: RESEARCH
-STEP_CLASSIFICATION: POTENTIALLY_NEW
-STEP_REVIEW: drafts/literature/2026-10-03-nonpersistent-resultant-equality.md
+CANDIDATE: No complete challenge candidate; the frozen-model interval remains 11/q–16/q.
+STEP_ID: 2026-10-21-mca-399-l135-literal-reuse-source-review
+STEP_OUTCOME: EXPLORATION
+STEP_EVIDENCE: Completed new-reference/domain/row-two scope comparison using ready primary coverage; assessment now SPECIALIZE. No kernel test or new exclusion: drafts/literature/2026-10-21-l135-literal-reuse-review.md.
+STEP_KIND: LITERATURE
+STEP_CLASSIFICATION: NOVELTY_UNCHECKED
+STEP_REVIEW: drafts/literature/2026-10-21-l135-literal-reuse-review.md
+ACTUAL_TASK_TYPE: literature_comparison
+LITERATURE_REASON: Gate-required first comparison of the changed L135 reference and rejecting row; ready primary coverage reused without fresh browsing.
 
-Bottleneck: The pinned four-omission interval remains 11/q–16/q against an allowable fifteen. For the saved disjoint triple, the isolated nonprime branch and the first singular fourth-support family are excluded; the other three singular supports, all-prime configurations on other supports and arbitrary triples remain unresolved. July ABF26 correspondence remains parked.
-Route decision: Stop K={1,12,22,64}: its complete extension-field family has count at most fifteen and supplies no global bound. Within the same ready actual-pencil target, take the second singular support K={8,27,50,75} for the saved disjoint triple, derive its generic kernel and rank/full-weight exceptional locus, and apply the actual coordinate-resultant, equality and exact F_(97^20) gates. Common-coordinate, isolated-root, prime-field enumeration, orbit, two-block, five-coordinate and four-block/July stops remain preserved; no complete candidate is present.
-Exploration turns used: 0 consecutive uninformative mathematical turns after this informative negative; disjoint singular-family tests: 1; disjoint extension-root tests: 1; common-coordinate quotient tests: 1; three-support constrained tests: 2; five-coordinate tests: 1; coefficient-system attempts: 1; resultant-target mathematical attempts: 7, literature reviews: 1. The parked 3-of-3 source exhaustion and two STALLED reviews remain preserved; no runner state was changed.
-NEXT_REVIEW: drafts/literature/2026-10-03-nonpersistent-resultant-equality.md
-Next action: For the pinned RS[F_(97^20),H,8] model, test actual nonpersistent moment pencils using the cited resultant and perfect-power checks, with full L010 equality validation and exact F_(97^20) splitting.
+Bottleneck: Sixteen-event equality versus fifteen, universal representation/extraction and certified challenge definitions remain unresolved; literal reuse alone supplies no third/pair assembly.
+Route decision: Approve the exact later literal-import test under SPECIALIZE; no new locus, changed-row algebra, basis conversion or old rank/factor/activity filter reopening.
+Exploration turns used: 0 mathematical EXPLORATION turns added; this literature comparison establishes scope readiness only.
+Continuation inputs and assumptions: L109 necessary actual-wedge/full-weight/chart direction; L125 original ordered domain and complete kernels; L134 audited historical 100-mismatch list in scripts/seven-coordinate/l133-literal-reuse.json, with L132 provenance; L135 unconditional kernel/locus and row-two subresults with step-398 audit. Remove only (94,539) and first verify exactly 99 distinct ordered records. Retain F_(97^20), fixed H, k=8, S={1,8,12,18,22,27,33}, cell [1/4,5/16), sixteen original finite events, represented t=0, syndromes in U_S, nonzero actual D/locators, arbitrary weights/chart and inherited L010/L103/L104/L040/L069/L086/L056 finite-certificate qualifications. Universal extraction and challenge definitions remain unresolved.
+Continuation test: Import only literal complete ordered kernels and both exhaustive points with identical row-two inputs, weights, moments, pivots and prescribed-chart rejection. Save every mismatch and preserve historical 154/118/100 lists and exchange multiplicities. Zero bindings stops this reference comparison; nonliteral equivalence or changed-row work requires separate review. No four-row converse or assembly.
+NEXT_REVIEW: drafts/literature/2026-10-21-l135-literal-reuse-review.md
+Next action: Test literal reuse of audited L135's complete kernel and unchanged row-two rejection on the other 99 historical L134 mismatches.
+NEXT_TASK_TYPE: implementation
+NEXT_MODEL_ROLE: standard
+NEXT_EFFORT: high
+NEXT_ROUTING_REASON: Adapt the audited literal-binding method to the new reference and row-two data, with complete original-record and independent replay coverage; mathematical tools are ready.

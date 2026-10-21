@@ -1,0 +1,15 @@
+# Full-fiber image comparison — bounded attempt
+
+2026-10-08. Start assessment: drafts/literature/2026-10-08-primitive-five-full-fiber-image-comparison.md (SPECIALIZE), with its exact TARGET unchanged. Main gap: unconditional global emptiness of the five surviving (3,4,11) twists, then the other residual Beal signatures. Intermediate target: decide whether primitive scalar witnesses shrink I_fiber. A missing class could support a certified global descent intersection; equality would stop this filter.
+
+Checkpoint before detailed work: use all twelve coordinates of A and certify generation by a rank condition. Encode the removable x=16 chart with an idempotent, and the exceptional descent value at T with a separate idempotent. Then compare classes by an invertible fifth-power witness, quantified over every admitted scalar and every isomorphism. L033–L036 and foundations 15–16 are the inputs; ATTEMPTS/008–010 remain intact. No global basis, rank, Sha, GRH, image nonemptiness or precision cutoff is assumed.
+
+Threshold: a proved strictness/equality decision, not a scalar exclusion or a closed formula alone. The approved intermediate fallback is a faithful finite formula with both directions proved. If no practical decision follows, save the encoding and select a concrete independently checkable local test; do not report the formula as a decided comparison. No local ramification classification has yet been computed, and none is used below.
+
+## Completed attempt
+
+The canonical proof is [L037](../lemmas/L037-full-fiber-image-comparison-formula.md). It completes both directions of the finite-algebra generation test, the mixed removable chart, the exceptional descent representative, and the strictness sentence with every cross-scalar class collision. The old unfinished encoding is preserved. The underlying general descent and decision theorems are reused by citation; this is REPRODUCTION, not a claim of new general theory.
+
+The image comparison itself is unfinished. No truth value, local image list, class witness or finite cutoff was computed. The explicit right-inverse encoding already introduces 1728 field variables, which is a size observation rather than a proof of infeasibility. This step establishes a relevant exact encoding input (ADVANCE) but does not meet the comparison's strictness/equality threshold. No mathematical script or sampling certificate was produced, because there was no elimination or numerical assertion to verify.
+
+The next independently checkable test is a complete local-algebra comparison B_1 versus A. L034 already supplies an audited full regular-fiber presentation at 1, and L036 places 1 in the primitive domain. A certified isomorphism would establish nonemptiness of both images and provide a concrete starting realization; failure would reject that scalar only. Its local factorization/Hensel coverage requires separate review. This is not an approval or a computed factorization, and it does not infer anything about other scalars. The final checkpoint gives the single exact target and its pending assessment.

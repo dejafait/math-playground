@@ -31,7 +31,8 @@ For sufficiently large H, define
 
 The positivity of Δ_H follows from unique prime factorization.
 There is no imported quantitative logarithmic-form theorem in these
-hypotheses. The premise (LF) below is explicitly conditional and unproved.
+hypotheses. The premise (LF) below is conditional within this lemma;
+L365 subsequently discharges it by a cited Matveev specialization.
 
 **Conclusion.** There is H_R<∞ such that for H≥H_R the two inequalities
 
@@ -304,6 +305,16 @@ on linear forms in logarithms is an **unread source lead**, not an
 imported result; the next separate assessment must test (LF), including
 its dependence on the number and sizes of primes. The actual negative
 regulator quantifier and all actual-zeta ranges remain unresolved.
+
+**Subsequent application (2026-10-04).** The source assessment and
+L365 now supply the quantitative arithmetic input by Matveev's
+Corollary 2.3. L365 applies this conditional theorem to obtain actual
+negative signs at every sufficiently small fixed regulator, with an
+onset depending on that regulator. The proof and elementary failure
+above are preserved as the analytic reduction and failed weaker
+implementation. Historical descriptions of the then-unproved (LF)
+and unread source lead refer to the state before L365; the limiting
+actual-theta sign remains unproved.
 
 **Mathlib.** Full joint-window discrepancy, conditional sign-transfer
 and arithmetic-threshold statements: **not checked**. Supporting

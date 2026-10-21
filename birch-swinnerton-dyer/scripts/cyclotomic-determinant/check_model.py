@@ -171,6 +171,25 @@ assert multiply(sha_quotient, strict_line) == [[ONE]]
 assert multiply(beta, kummer_line) == [[ZERO]]
 assert rank_at_zero(kummer_line) == rank_at_zero(sha_quotient) == 1
 
+# L019: the ordinary first Bockstein and its height are not the relaxed
+# first Bockstein beta above. Divide the ordinary differential by t.
+ordinary_beta = [[poly(x[1] if len(x) > 1 else 0) for x in row]
+                 for row in d_ordinary]
+assert ordinary_beta == identity
+assert multiply(projection_2, ordinary_beta) == beta
+ordinary_height = ordinary_beta  # The model's evaluation self-duality.
+assert ordinary_height == transpose(ordinary_height)
+ordinary_height_rank = rank_at_zero(ordinary_height)
+assert ordinary_height_rank == 2
+ordinary_radical_dimension = 2 - ordinary_height_rank
+assert ordinary_radical_dimension == 0
+assert rank_at_zero(sha_quotient) == 1
+assert multiply(transpose(kummer_line),
+                multiply(ordinary_height, kummer_line)) == [[ONE]]
+# All coefficient specializations have zero differential at t = 0;
+# the all-depth maps and limit identifications are proved in L019.
+assert all(x[0] == 0 for row in d_ordinary for x in row)
+
 print(json.dumps({
     "formal_model_checks": "PASS",
     "global_base_H1_dimension": 2,
@@ -184,5 +203,9 @@ print(json.dumps({
     "marked_V_p_Sha_dimension": 1,
     "leading_vector_is_rational": True,
     "rational_exterior_square_dimension": 0,
+    "ordinary_first_Bockstein_rank": ordinary_height_rank,
+    "ordinary_first_height_radical_dimension": ordinary_radical_dimension,
+    "ordinary_radical_image_in_marked_Sha_dimension": 0,
+    "ordinary_radical_surjects_onto_marked_Sha": False,
     "arithmetic_realization_asserted": False,
 }, indent=2))

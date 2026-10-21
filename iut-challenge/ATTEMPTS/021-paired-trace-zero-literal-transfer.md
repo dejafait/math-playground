@@ -1,0 +1,5 @@
+# Paired envelope escape transferred to the trace-zero literal union — stopped
+
+The tested target was the exact paired-reference orbit radius on the unchanged two-factor literal union intersected with ker(Tr), with no prescribed presentation coordinates or enlarged group.
+
+WHY IT FAILS: [L027](../lemmas/L027-paired-literal-trace-zero-orbit-meets-coarse-bound.md) proves that the ideal branch has span M/3 and sharp radius 3^(7/3), while the literal logarithm branch is 18 times L026's envelope and has span M/9 and sharp radius 3^(10/3). Both radii are attained by actual finite-word images, and their union is strictly inside the radius-81 disc. Thus L026's envelope escape cannot be transferred to this trace-zero literal input under the same paired subgroup. Preserve the envelope escape and all earlier stops; this does not address behavior outside the trace kernel, actual-ind3/native applicability, other powers, original data or the original finite B>=A gap. A different independent target needs its own coverage.

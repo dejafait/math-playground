@@ -1,0 +1,7 @@
+# Local-five comparison: inherited properness
+
+2026-10-08. STEP_ID: beal-2026-10-08-091-local-five-inherited-properness
+
+RESEARCH / NEGATIVE / REPRODUCTION. Under the unchanged approved [assessment](../drafts/literature/2026-10-08-five-isogeny-local-five-image.md), [L035](../lemmas/L035-local-five-inherited-norm-properness.md) supplies an unrestricted identity class excluded by every allowed restricted tuple, including exceptional fibers and all full-algebra isomorphisms. Its reason is entirely L034's fixed norm: the same exclusion holds before primitive powers. This answers literal properness while changing the route decision; it is not new primitive-power evidence or novelty beyond the checked sources. The full comparison and its precise limits are canonical in L035.
+
+The preliminary decision-encoding reasoning is preserved in [the attempt draft](../drafts/2026-10-08-local-five-comparison-attempt.md); no Cohen sentence was completed or decided, and no mathematical script was needed. [ATTEMPTS/010](../ATTEMPTS/010-local-five-unrestricted-baseline.md) records why the unrestricted baseline cannot detect the additional power contribution. ATTEMPTS/008–009 remain intact. The changed scalar common-j characterization is queued for separate review in [its assessment](../drafts/literature/2026-10-08-primitive-five-adic-j-domain.md), with no new mathematics or approval for that target. STATUS remains IN_PROGRESS.

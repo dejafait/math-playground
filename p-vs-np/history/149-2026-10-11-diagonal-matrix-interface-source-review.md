@@ -1,0 +1,7 @@
+# Step 149 — Diagonal-augmented matrix source comparison
+
+2026-10-11. LITERATURE / NOVELTY_UNCHECKED / EXPLORATION / literature_comparison. The [completed assessment](../drafts/literature/2026-10-11-diagonal-matrix-ips-interface.md) compares the changed matrix hypotheses with primary sources, reusing step 145 and L048's unconditional input convention. The all-field polynomial-width obstruction supplies a concrete diagonal-entry test; no valid-certificate realization, satisfiability equivalence or receiving-identity theorem was derived. This is source coverage, not progress beyond the checked literature or a new mathematical obstruction.
+
+Narrow to the representation requirement using the [new specialization assessment](../drafts/literature/2026-10-11-diagonal-entry-roabp-obstruction.md), which receives separate approval next turn. The test must realize the known hard scalar factor in a valid, fully paid certificate package and justify extraction in every order. It concerns the universal bound for supplied outputs, not every-certificate hardness or L048's existential premise. No essential source blocker remains for that test.
+
+Mathematical exploration usage remains 0 since step 146. Preserve all unfinished work and Attempts 018/020/021/022/023. PROOF.md, DAG.md, lemmas/ and scripts/ are unchanged by this step; unrestricted SAT, ER representation and hardness-transfer gaps remain open. No cross-notebook input, shared infrastructure or supervisor state was edited.

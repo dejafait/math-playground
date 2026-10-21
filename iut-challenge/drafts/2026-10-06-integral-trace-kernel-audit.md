@@ -1,0 +1,13 @@
+# Integral trace-kernel critical audit
+
+The approved scope is the proof of L024, with the unchanged SPECIALIZE assessment. The original finite B>=A gap is not tested by this audit.
+
+Checkpoint during review: Kondo RIMS1991 Theorem 1.1(1–4), printed p. 8, was checked against the December 2025 PDF and arXiv:2512.09231v2. It asserts a presentation, not merely two relations satisfied in an unspecified quotient. Its odd-degree relator and the support of the closed word x'_0 agree with L024. The following reciprocal-coordinate setup and Theorem 1.3 agree with the y_i used there. No source-coordinate choice has been inferred.
+
+The local torsion and topology arguments have been checked: degree 27 excludes primitive third roots; the principal units are pro-3 and their logarithm is injective, compact and onto J; the finite integral generating map has closed image. L019 and audited L023 give the same reciprocity/logarithm diagram, with J rather than J/6. The Hoshi–Nishio PDF extraction failed again; its unchanged prior coverage is reused, and no new reading of it is claimed.
+
+The remaining write-up task is to make the universal quotient argument explicit in L024: freeze the admitted closed words before abelianizing, retain the nonsaturated relation submodule, and justify that the actual principal units inject into the maximal abelian pro-3 quotient. These are audit details of the existing proof, not new radius or action claims.
+
+Completed audit: [L024](../lemmas/L024-integral-presentation-trace-kernel-basis.md) now contains those details, the converse universal-property check against every finite abelian 3-group, and the explicit reciprocal/logarithm normalization. Its full integral intersection conclusion survives without a changed hypothesis or conclusion. The rank argument and final trace coefficient test were also checked. No mathematical script, finite approximation, radius computation or new lemma was needed. Direct mathematical inputs remain L016, L019 and L023; the imported source theorems and Mathlib qualifications are retained in the canonical proof.
+
+Outcome EXPLORATION: verification of an existing specialization, with no new bound or repaired mathematical error. This reaches 3/3 retained mathematical exploration turns on the numerical-radius route and triggers mechanism reassessment, not another audit. A subsequent invariant-lattice test would ask about the actual valuation container under source-defined paired actions, avoiding the unsupported prescribed-coordinate assignment. Its coverage is not approved by this audit; the separate REVIEW_REQUIRED assessment records that limit. Original finite B>=A remains open.

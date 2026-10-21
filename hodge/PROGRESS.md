@@ -1,15 +1,22 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: 2026-10-04-hodge-091-corrected-rank-two-topological-literature
-STEP_OUTCOME: EXPLORATION
-STEP_EVIDENCE: Read Čadek--Crabb--Vanžura Corollary 8.4: an actual quaternionic-line existence criterion with a Steenrod condition and mod-12 characteristic number. Completed SPECIALIZE coverage without evaluating L049's character: drafts/literature/2026-10-04-corrected-rank-two-topological-realization.md.
-STEP_KIND: LITERATURE
-STEP_CLASSIFICATION: NOVELTY_UNCHECKED
-STEP_REVIEW: drafts/literature/2026-10-04-corrected-rank-two-topological-realization.md
-LITERATURE_REASON: The saved finite-rank SU(2) target had REVIEW_REQUIRED coverage; the essential primary existence theorem was unread at turn start.
-Bottleneck: An actual compatible representative reaching the fourth NS-fixed RM direction is missing. L049's corrected characters pass every product-line index, but the now-covered finite-rank topological criterion has not been evaluated. Holomorphic local freeness, stability and transverse transport remain unresolved, along with arbitrary primitive fourfold classes and the universal Hodge gap.
-Route decision: Resume mathematics under ready SPECIALIZE coverage for the unchanged target; import the general theorem and reproduce only its application. Stable complex realization alone does not answer finite-rank SU(2) existence. Preserve previous stops and parked source leads. No new class, bundle or direction is supplied; span 21 and three attained RM directions against four required are unchanged.
-Exploration turns used: 0 consecutive mathematical EXPLORATION turns; this literature turn does not spend the calculation budget. No complete informal Hodge candidate or originality claim is present.
-NEXT_REVIEW: drafts/literature/2026-10-04-corrected-rank-two-topological-realization.md
-Next action: Test topological SU(2)-bundle realization obstructions for L049's corrected rank-two character on S x S, beginning with the symmetric survivor a=b=-10, beyond the product-line HRR tests.
+STEP_ID: 2026-10-21-hodge-461-twisted-split-top-stalk-length
+STEP_OUTCOME: ADVANCE
+STEP_EVIDENCE: L145 identifies the actual defining-coefficient connecting map and correct dual; actual/required cotangent rank is 2/2, and Nakayama gives the whole ordinary top stalk R/m of length one. Conditional known-tool specialization, pending separate critical audit. lemmas/L145-twisted-split-fibre-top-stalk-length-one.md.
+STEP_KIND: RESEARCH
+STEP_CLASSIFICATION: REPRODUCTION
+STEP_REVIEW: drafts/literature/2026-10-21-twisted-split-top-stalk-length.md
+ACTUAL_TASK_TYPE: proof_attempt
+Bottleneck: Universal primitive Hodge realization and equality-kernel F existence remain open; local length one supplies no global twisted defect inequality or effectivity.
+Route decision: The approved local length mechanism succeeds conditionally; retain L145 pending separate critical audit. Preserve the necessary two-jet, IT and index-effectivity stops.
+Exploration turns used: Zero mathematical EXPLORATION turns since this conditional ADVANCE; this step used a proof specialization and no mathematical script.
+Continuation inputs: L145 actual coefficient/minimal-complex calculation; L071 exact line/kernel data; L094/L095 actual split KS; L134 both weight ranks; prior BW/Stacks/Huybrechts coverage in STEP_REVIEW. L096 permits an empty split set; L110 is comparison only.
+Continuation assumptions: Hypothetical locally free Omega-polystable rank-two F on identical marked K3 factors/common metric, integral c_1=0 and ch_2=-14e_1-21e_2-tau_D; fixed c_1(L)=k=(-4,-2,1,2) and selected actual split p_2 fibre L plus L^{-1}. F, split-locus nonemptiness, global IT/effectivity, reconstruction and transport remain unproved.
+Continuation test: Verify actual sequence/minimal-row naturality, one-sided action and dual row sign, full Serre test space and cotangent rank 2 before Nakayama; repair any substantive failure without inferring kernel nonexistence.
+NEXT_REVIEW: drafts/literature/2026-10-21-twisted-split-top-stalk-critical-audit.md
+Next action: Critically audit L145's actual twisted coefficient sequence, dual-coefficient Serre transpose and whole top-stalk length-one conclusion at a selected actual split equality fibre.
+NEXT_TASK_TYPE: literature_comparison
+NEXT_MODEL_ROLE: standard
+NEXT_EFFORT: medium
+NEXT_ROUTING_REASON: The newly proposed audit assessment is REVIEW_REQUIRED; separately confirm reusable source scope and naturality coverage before routing the mathematical critical audit.

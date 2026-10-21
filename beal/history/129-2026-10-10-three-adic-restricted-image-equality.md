@@ -1,0 +1,7 @@
+# Session 129 — 2026-10-10: restricted three-adic image equality
+
+One RESEARCH / REPRODUCTION proof attempt under the saved SPECIALIZE [assessment](../drafts/literature/2026-10-10-three-adic-restricted-image-comparison.md) establishes [L049](../lemmas/L049-three-adic-restricted-image-equality.md). The universal fiber inclusion and contravariant algebra-isomorphism transport give the same-delta containments; audited L047 supplies restricted nonemptiness and audited L048 the unrestricted singleton. All three sets equal {1}.
+
+Outcome NEGATIVE: this new exact comparison shows the additional primitive power filter removes no class at three. It is local assembly of covered source methods, not progress beyond the sources checked or global emptiness. [ATTEMPTS/016](../ATTEMPTS/016-three-adic-primitive-image-equality.md) records the mechanism stop. No script or repeated field audit was needed. The new DAG row lists only direct inputs L033, L034, L047 and L048; L032's residue conditions are supplied through L047. All prior unfinished work is preserved.
+
+The proposed independent assembly audit is [REVIEW_REQUIRED](../drafts/literature/2026-10-10-three-adic-restricted-image-critical-audit.md) for separate scope approval next turn. Its inputs and unresolved global assumptions are explicit. The global quotient classes, other twists and residual signatures remain open. This informative negative result resets mathematical exploration usage to 0/3.

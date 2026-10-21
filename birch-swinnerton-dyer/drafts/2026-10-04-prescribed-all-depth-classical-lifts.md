@@ -41,3 +41,12 @@ central-value consequence and the known infinite paired structure.
 Proof details and the final continuation decision are being recorded in
 L018. This checkpoint makes no claim of a complete BSD argument or of
 progress beyond the checked literature.
+
+Completion note (2026-10-04): the calculation is now written out in
+[L018](../lemmas/L018-prescribed-compatible-classical-selmer-lifts.md).
+The natural identification uses global coefficient cohomology and
+local Kummer kernels without assuming local H^0 vanishes. The paired
+decomposition forces S_infinity = (Q_p/Z_p)^2, and one integral matrix
+lift fixes the prescribed basis in the whole tower. The inverse-limit
+quotient is Z_p^(2-r): the finite defect is removed, but divisible Sha
+remains. The working calculation above is preserved.

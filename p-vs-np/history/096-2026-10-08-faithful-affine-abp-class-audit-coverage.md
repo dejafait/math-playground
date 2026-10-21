@@ -1,0 +1,9 @@
+# 2026-10-08 — L039 critical-audit coverage
+
+STEP_ID: 2026-10-08-96-faithful-affine-abp-class-audit-coverage
+
+Completed the required literature-only comparison for the exact saved audit target. The [assessment](../drafts/literature/2026-10-08-faithful-affine-abp-class-critical-audit.md) now approves SPECIALIZE for a later REPRODUCTION critical audit. Reused the construction assessment and inspected the invoked primary passages: Gal STOC 1998 p.429, Applebaum TR26-131 initial PDF p.1 and complete §2.4 configuration-expansion paragraph p.5, and AIK 2006 pp.116/124. The class statement, explicit path model and advice-convention warning cover the external inputs. Original characterization proofs remain unread as qualified; no new matching theorem or novelty claim was found or needed.
+
+Read [L039](../lemmas/L039-faithful-affine-abp-nonuniform-class-condition.md) to identify its audit obligations and L027's signed-unit/accumulator and full-bit ledger ranges to check local source scope. Mathematical verification is deferred. Attempts 020/021 retain their formal-output/nonfaithful-data stops; they do not settle the all-assignment-faithful promise. No cross-notebook read, lemma/script write, numerical experiment, DAG change or argument change occurred. Existing unfinished work is preserved.
+
+Outcome STALLED / LITERATURE / NOVELTY_UNCHECKED, actual task literature_comparison: separate approval makes the next audit actionable but reuses known source conclusions and supplies no new mathematical evidence. No exploration-budget reset is claimed. Next perform the exact L039 critical audit using this ready coverage, checking used ancestry, affine labels/endpoints, complete binary framing and a single polynomial with arbitrary nonuniform advice. U and formal relations remain hypothetical; unrestricted SAT decision/separation remains the main gap.

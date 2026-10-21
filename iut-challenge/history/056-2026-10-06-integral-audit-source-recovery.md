@@ -1,0 +1,5 @@
+# 2026-10-06 — Integral audit direct-source recovery
+
+Literature-only process repair: added direct primary URLs to SOURCE_EVIDENCE in the [audit assessment](../drafts/literature/2026-10-06-integral-trace-kernel-critical-audit.md). Kondo RIMS1991 Theorem 1.1(1–4) and Theorem 1.3 locators were retrieved; Hoshi–Nishio's previously read generation passage is reused after current text-extraction and DNS failures. The scope and SPECIALIZE decision are unchanged. Outcome STALLED honestly records no new mathematical evidence, rather than claiming an advance from metadata repair.
+
+[L024](../lemmas/L024-integral-presentation-trace-kernel-basis.md) is preserved without a new audit verdict. Its full-presentation quotient remains the discriminating next test: validate all torsion/topology/reciprocal passages, or preserve the exact objection and qualify the result. The integral normalization could support later source-defined lattice tests, but field coordinates, radius, original admissibility and finite B>=A remain open. Prior coordinate-realization stops are preserved. Next routing is the same critical proof audit after supervisor validation of repaired source coverage.

@@ -1,0 +1,5 @@
+# The unrestricted local-five baseline already detects the fixed norm
+
+2026-10-08. The approved proper-subset comparison is answered in [L035](../lemmas/L035-local-five-inherited-norm-properness.md): the unrestricted identity is excluded from every complete compatible fiber, even without primitive power conditions. The exceptional fiber is covered using good divisors and complete-fiber deformation. This is an inherited-norm reproduction, not new power filtering.
+
+WHY IT FAILS: Properness relative to the unrestricted elliptic image cannot by itself show that simultaneous primitive powers add information: L034's constant norm already forces that properness. No image equality or emptiness follows. The meaningful remaining comparison uses L035's full-fiber-compatible image as baseline. An exact scalar description of power-admissible common j-values would be an independently checkable intermediate input; it remains uncovered and unproved here. Preserve ATTEMPTS/008–009's global arithmetic and nonconstant-norm stops. This finding does not prohibit direct local comparison or future global intersection with certified data.

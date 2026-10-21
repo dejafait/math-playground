@@ -1,0 +1,5 @@
+# Step 316 — 2026-10-18: C080b critical-audit scope
+
+Completed the separate [assessment](../drafts/literature/2026-10-18-redistributed-h-actual-word-critical-audit.md), now SPECIALIZE for the unchanged saved audit target. Reused the primary affine inspection and actual-word application coverage; compared C080b's scope with audited C078a, the C080a conjunction audit and L079/L080 statements. Focused duplicate records show construction but no completed C080b audit. Attempts 026–031 retain their original scopes.
+
+LITERATURE / EXPLORATION / NOVELTY_UNCHECKED: source and scope readiness only, with no mathematical audit verdict, new exclusion or claim beyond inspected sources. No lemma, mathematical script, certificate, DAG or PROOF.md change. Both original witnesses and unfinished work persist; mathematical exploration usage stays zero. The sole next action is the same independent C080b audit, checking every premise, both survivors and the actual normalized integer; a mismatch blocks a no-defect verdict and requires repair. Survivor feasibility and universal eventual descent remain unresolved.

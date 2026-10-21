@@ -1,0 +1,7 @@
+# 2026-10-06 — Integral presentation trace-kernel test
+
+Completed one approved mathematical specialization, classified REPRODUCTION. [L024](../lemmas/L024-integral-presentation-trace-kernel-basis.md) establishes that the admitted reciprocal y_1,...,y_27 form a Z_3-basis of the genuine J, and y_2,...,y_27 form the full integral trace-kernel intersection basis, with index one. This is local progress from Kondo's known presentation/rational trace theorem and Hoshi–Nishio's integral-generation argument; no discovery beyond the checked sources is claimed.
+
+The new justification uses the field's absence of 3-primary unit torsion and the *full* abelianized defining presentation to eliminate y_0 integrally. It neither sets y_0 to zero nor imports the parameters of a differently written relator. No mathematical script or finite approximation is needed. The saved [attempt notes](../drafts/2026-10-06-integral-presentation-trace-kernel-attempt.md) retain the preliminary reasoning; L024 is canonical.
+
+Continue with the [proposed critical-audit assessment](../drafts/literature/2026-10-06-integral-trace-kernel-critical-audit.md), subject to separate supervisor approval. The full-presentation/cokernel passage is the weakest step to inspect before any numerical use. ATTEMPTS/015–020, L020's smaller-input enclosure and all original-data restrictions remain in force. No radius, native action, actual-ind3 point or original B>=A conclusion was obtained.

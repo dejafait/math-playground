@@ -1,0 +1,5 @@
+# Step 156 — 2026-10-11 — audit source traceability recovery
+
+Repaired the missing direct primary URLs in the [L052 audit assessment](../drafts/literature/2026-10-11-affine-abp-quasipolynomial-frege-critical-audit.md), reopening Nisan §2 conversion proof and LTW v4 definition, receiving theorem and balancing proof. Reused step-140/154 coverage and checked Attempts 020/022/024 for distinct stopped scopes. The unchanged SPECIALIZE target is ready for the separate critical audit of [L052](../lemmas/L052-supplied-affine-abp-quasipolynomial-frege.md). No lemma, mathematical script, proof overview or DAG was changed; all unfinished work is preserved.
+
+LITERATURE / NOVELTY_UNCHECKED / STALLED: this is a valid source-traceability repair, not mathematical progress, a repeated retrieval blocker or an audit verdict. The exact next test remains the path bijection, receiving hypotheses and full binary ledger. The unrestricted SAT gap and independent certificate-existence/ER-representation assumptions remain unresolved; no exploration budget is spent or reset.

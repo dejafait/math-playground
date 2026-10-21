@@ -1,0 +1,9 @@
+# Expander F₂-sum total-width attempt — working checkpoint
+
+Approved target: test an exponential every-order lower bound on the total width of F₂ sums of OBDDs for bounded-degree expander independent-set predicates. The preexisting SPECIALIZE assessment is `drafts/literature/2026-10-06-expander-parity-obdd-total-width.md`.
+
+Main gap: general reduced ER data remain unconstructed, with independent tree-conversion, every-certificate and decision-transfer gaps. This step tests only the common-order atomic representation suggested by L029; it neither embeds an extension in ER nor excludes arbitrary reduced circuits.
+
+Proof plan saved before final assembly: import Bova–Slivovsky Lemma 18's half-prefix witness with q >= epsilon*n/(16*Delta), independent prefix endpoints and diagonal cross edges. Greedily select independent suffix endpoints; each choice deletes at most Delta+1 of them. Retained pairs form a fully induced crossing matching of size r >= q/(Delta+1). Fix all other vertices to zero. The independent-set cut matrix restricts exactly to Jukna's D_(r,r), of F₂ rank 2^r. For each dense deterministic diagram, prefix assignments select a single state at level floor(n/2)+1; its cut matrix factors through that level's state set. Concatenating these factorizations bounds the rank of the F₂ sum by sum_j w_j. Proposed constant c=epsilon/(16*Delta*(Delta+1)). No numerical tests are needed for these exact finite identities.
+
+Continuation test: continue if all graph, restriction and field/width obligations give this positive constant at the same cut. Abandon if any fails irreparably; distinct residuals alone do not suffice. The completed canonical proof is L030, including terminal and empty-sum cases, graph sign convention and precise citations. Its separate critical audit remains pending. No novelty claim or complete target candidate.

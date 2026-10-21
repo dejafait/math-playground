@@ -1,0 +1,13 @@
+# Eleven-adic connecting valuation attempt
+
+Approved target: Determine the complete set of connecting-class valuation vectors modulo five at places above 11 arising from primitive whole-fiber-compatible points in L033's 54a1 branch.
+
+Startup coverage is the unchanged SPECIALIZE assessment in drafts/literature/2026-10-08-primitive-eleven-connecting-valuations.md. This is one REPRODUCTION attempt, using L033's field, curve and normalized dual connecting map and L034's whole modular map. ATTEMPTS/008–012 are retained. No additional literature work is planned.
+
+Main gap: unconditional global emptiness of the five twists for ordered (3,4,11), with infinitely many other signatures independent. Intermediate target: the complete valuation-vector image at eleven. Downstream use: constrain valuations of global K(S,5) classes if the image improves the norm/unrestricted baselines. Continue on a proved additional restriction; retire a redundant test; preserve a precise blocker if complete coverage is unavailable.
+
+Initial plan: certify the entire local algebra before using component or Tate arguments. Then retain all whole-fiber isomorphisms and common primitive a,b,c. In particular, no eleventh-power simple-root argument and no sampled vector list will be treated as complete. Existing normalization gives delta(T)=[11^-1] and delta(nT)=[11^-n]; the base-change ramification indices must be determined before taking their normalized valuations.
+
+Completed portion: L041 proves the entire algebra is Q11 × Q11 × Q11[r]/(r^10+55), gives the exact primitive scalar domain by cube/fourth lifting with a freely chosen common c, and proves that the unrestricted valuation image has 125 vectors while the inherited whole-fiber norm leaves 25 candidates. The full proofs and qualifications are canonical in L041; the exact arithmetic certificate is scripts/primitive-eleven-vectors/vector-prerequisites-certificate.json. This is a relevant REPRODUCTION advance, not a new restriction beyond the inherited norm or a complete-vector answer.
+
+Unfinished: which of those 25 vectors occur at whole-fiber isomorphisms with scalars in the proved domain. Unrestricted coordinate realizations do not give common scalars or generation of the entire fiber algebra. There is no nonemptiness certificate, uniform coverage argument, or justified finite-precision enumeration. Continue the exact same assessed target using L033, L034 and L041, retaining both rational-factor permutations, every embedding of the ramified factor and the exceptional good-divisor charts. The decomposition and common-power construction no longer require assumptions; the simultaneous modular realization problem does. No new literature assessment is written or approved here.

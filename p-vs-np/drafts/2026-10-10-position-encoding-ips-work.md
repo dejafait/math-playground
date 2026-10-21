@@ -1,0 +1,13 @@
+# Scalar positional IPS interface — step 146 work checkpoint
+
+Approved target: Test whether the Forbes–Shpilka noncommutative-to-roABP encoding is compatible with L048's two original-axiom IPS substitutions.
+
+Reuse the supplied EXPLORE assessment `literature/2026-10-10-position-encoding-ips-substitution.md`. Main gap: unrestricted SAT decision/separation; relevant intermediate gap is a fixed scalar axiom-substitution interface. A preserved interface could support a later proof-system comparison, while failure on valid certificates stops only that interface. Independent F₂ hardness, all-certificate, CNF encoding, ER representation and decision-transfer gaps remain.
+
+Existing work is preserved. L048's complete Hypotheses have been read: occurring-only alphabet, full ordered A, independent placeholders, affine graphs and both formal identities. Attempts 018/020/021/022 and histories 144/145 concern approval repetition, prescribed-output conversion and source mismatch, rather than the proposed scalar-substitution obstruction. No cross-notebook input.
+
+Candidate discriminating test, still to be verified: F=(x) AND (NOT x), A=(1+x,x,x²+x), independent t₁,t₂,t₃. Let u=t₁+t₂. Test the three certificates u, u², and u+ux+xu. At original substitution u=1, these should all become 1 and vanish at placeholder zero. Under scalar positional encoding, write B₁=b₁,₁+b₂,₁ and B₂=b₁,₂+b₂,₂. Their proposed receiving values are B₁, B₁B₂, and B₁+B₁x₂+x₁B₂. If the first two equal 1, the third becomes 1+x₁+x₂. The intended claim quantifies over arbitrary fixed polynomial images for every positional placeholder shared across certificates, with positional originals retained independently. It does not quantify over certificate-dependent maps, identification of x₁ and x₂, matrix images or other component assembly rules.
+
+Pending: verify full original packages and explicit affine graphs, both free-ring identities, the universal receiving-image argument and its exact scope. Save any established proof canonically; no mathematical script is necessary for a finite symbolic proof. Continue only if fixed maps preserve both identities; abandon the universal scalar interface if this valid-certificate family yields the claimed contradiction. A separate critical audit will require its own assessment/approval.
+
+Completed: the full finite argument, certificate packages, graphs, arbitrary-image case split and qualifications are in canonical L050. The proposed contradiction survives the original formal-identity and positional-word checks. Outcome NEGATIVE parks precisely the universal fixed scalar interface; no script or broader impossibility theorem was produced. A new REVIEW_REQUIRED audit assessment records the sole continuation for separate approval.

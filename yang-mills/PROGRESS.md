@@ -1,14 +1,21 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: YM-20261004-027-coordinate-haar-forest-test
+STEP_ID: YM-20261021-398-residual-action-rate-coverage
 STEP_OUTCOME: NEGATIVE
-STEP_KIND: RESEARCH
-STEP_CLASSIFICATION: REPRODUCTION
-STEP_REVIEW: drafts/literature/2026-09-26-current-target.md
-STEP_EVIDENCE: L018 gives the exact M2 Wick trace and change-of-forest formula; an integer unit-field test changes its density by 11/2 at N=24. Dense full/slice contractions agree. Original-probe 64-sample paired trace differences are (4776.32,16814.47), with sample standard errors (315.38,256.75); these are qualified numerical evidence, not exact nonvanishing or a full cutoff coefficient. See lemmas/L018-coordinate-haar-contraction-and-forest-change.md and scripts/combined-ward-response/haar-original-results.json. This negative test stops forest-independent interpretation of the isolated density term; it is reproduction, not a discovery beyond checked sources.
-Bottleneck: L011's complete interacting coefficient and cutoff logarithm remain unevaluated. The isolated M2 insertion is forest dependent as a function; all other terms must compensate any change of its contraction. Physical-boundary subtraction, finite matching and reflected error <= c_box/2 on a specified coupling trajectory remain open, as do continuum fields, full reflection positivity, infrared control and finite positive mass. No candidate solution exists.
-Route decision: End isolated-density cutoff extrapolation. Continue only with a grouping retaining the coordinate density, S4 and two-S3 action terms, then all insertion and nonlinear-flow terms; test the summed fixed-mesh coefficient under the same forest change before interpreting its logarithm. L018 does not identify which individual term cancels a density contribution. Preserve L015's BRST stop, L012's domain failure and the exhausted bulk-only import; no higher vertex is transferred to the Hodge law.
-Exploration turns used: 0 inconclusive mathematical attempts after this informative local negative test. The stopped bulk-locality branch retains 3 of 3; the earlier direct expansion's two inconclusive attempts remain recorded. No external state is edited.
-NEXT_REVIEW: drafts/literature/2026-09-26-current-target.md
-Next action: Compute the g^2 log(sqrt(tau)/a) coefficient of the remaining response Cov(O_i, V_a S_g - J_3 - J_6) for L010's two Wilson-flow probes, including action, measure, and flow corrections.
+STEP_KIND: LITERATURE
+STEP_CLASSIFICATION: NOVELTY_UNCHECKED
+STEP_REVIEW: drafts/literature/2026-10-21-complete-residual-action-rate-assembly.md
+ACTUAL_TASK_TYPE: literature_comparison
+STEP_EVIDENCE: Exact partition review isolates three unquantified E,E remainders in L168--L170; mixed branches and other three E,E traces have recorded budget-compatible bounds. See drafts/literature/2026-10-21-complete-residual-action-rate-assembly.md; no new mathematics or rate disproof.
+Bottleneck: Second, third and fourth E,E trace rates block complete residual/action assembly; other L011 rates and interacting/continuum/infrared construction remain unresolved.
+Route decision: Park immediate complete assembly; review the independently testable fourth-trace remainder first. Reuse L255/L259 without duplicate proofs.
+Exploration turns used: Zero of three mathematical EXPLORATION turns; this literature-only inventory spends no calculation attempt.
+Continuation assumptions: Essential IDs L145 L156 L161 L164 L166 L167 L168; possible exterior inputs L222 L248 need exact scope comparison. Same relative SU(2) cube, admitted even N, a=8/N, tau=1/16, lower-rooted forest, stored coordinates, bare-first order, probes 3,6; both Q forms, actual half-line, full heat sums, constant modes and source/end rows retained. Upstream mode/residual, energy and coefficient premises remain imports.
+Continuation test: Require a uniform complete fourth-trace rate against exactly L168(2); fixed-offset qualitative convergence alone fails. Second/third trace rates and independent construction gaps remain unresolved.
+NEXT_REVIEW: drafts/literature/2026-10-21-fourth-ee-trace-quantitative-remainder.md
+Next action: Prove the complete fourth ordered E,E trace remainder |X_i-a^(-3)(3/2)K_(i,R)|<=C_i N^(5/2)log(eN)^2 against exactly L168(2), for both actual probes.
+NEXT_TASK_TYPE: literature_comparison
+NEXT_MODEL_ROLE: standard
+NEXT_EFFORT: medium
+NEXT_ROUTING_REASON: Compare the fourth trace's specific half-line and Green-product hypotheses with ready scalar/exterior coverage before authorizing its new quantitative specialization; REVIEW_REQUIRED requires literature-only work.

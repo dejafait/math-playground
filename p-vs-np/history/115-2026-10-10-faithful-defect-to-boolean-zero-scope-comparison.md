@@ -1,0 +1,9 @@
+# 2026-10-10 — arbitrary-input reverse scope compared
+
+STEP_ID: 2026-10-10-115-faithful-defect-to-boolean-zero-scope-comparison
+
+Completed one LITERATURE / NOVELTY_UNCHECKED / literature_comparison under the supplied REVIEW_REQUIRED gate. The [completed assessment](../drafts/literature/2026-10-09-faithful-defect-to-boolean-zero-scope.md) records four targeted searches, the primary Raz–Shpilka composition passage and reused source comparisons. Canonical [L042](../lemmas/L042-faithful-and-defect-witness-bound-consequence.md) already supplies a used one-gate host and anchor extraction for its 3-CNF challenges; [L041](../lemmas/L041-boolean-zero-affine-abp-witness-bound-consequence.md) and [L043](../lemmas/L043-boolean-zero-to-faithful-defect-bound.md) supply the arbitrary-endpoint interface. None states the universal reverse implication. The remaining arbitrary-input specialization and noncircular full-bit bound justify a concrete later test, not a theorem import or a new derivation.
+
+Outcome EXPLORATION records new scope evidence without mathematical progress beyond the inspected sources; mathematical exploration usage remains one since step 112. No lemma, mathematical script, DAG or PROOF change was made. Existing edits and unfinished work are preserved. Attempts 020/021 and the NP=coNP-only converse parking remain intact. No cross-notebook input was read.
+
+The [new ready continuation](../drafts/literature/2026-10-10-faithful-defect-to-boolean-zero-proof.md) requires separate supervisor approval next turn. It tests V⇒W on every explicit Boolean-zero graph with full dictionaries, endpoint/boundary cases and input measured before H/h. Stop or narrow the embedding if it needs forbidden placeholders, witness-dependent input, stronger fidelity or uncharged expansion. W/V, representatives, constructors and the main SAT gap remain unresolved; no candidate or novelty claim is made.

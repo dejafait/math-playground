@@ -1,0 +1,39 @@
+# Conditional BD local lines — critical-audit coverage
+
+TARGET: Critically audit L023's ordinary-line descent and monodromy-line reduction under its explicit exceptional-algebra hypothesis through both coefficient embeddings, leaving type-to-level normalization parked.
+CHECKED: 2026-10-05
+DECISION: SPECIALIZE
+SEARCH_EVIDENCE: Reused the full-audit source comparison and histories 039/033; on 2026-10-05 opened the four primary endpoints below and checked targeted BD(iv), ordinary-filtration, monodromy and admissible-subobject/base-change passages; no new theorem search or mathematical deduction.
+SOURCE_EVIDENCE: BD (2014) Theorem 3.2.2(iv), author PDF pp. 36–38 https://www.imo.universite-paris-saclay.fr/~breuil/PUBLICATIONS/extensions.pdf#page=36; BLGGT (2014) Section 1.4 pp. 528–529 https://annals.math.princeton.edu/wp-content/uploads/annals-v179-n2-p03-p.pdf#page=28; Saito arXiv:math/0612077v2 Section 1 pp. 9–10 https://arxiv.org/pdf/math/0612077v2#page=9; Brinon–Conrad (2009-06-24) Theorem 5.2.1(2), Propositions 6.3.3/6.3.8 https://math.stanford.edu/~conrad/papers/notes.pdf#page=68; coefficient-linear FL/CHT locators below and saved local-lift assessment.
+COMPARISON: The general local results cover the line test, but do not certify L023's descent, coefficient specialization or lattice argument. PVT's stronger location theorem does not replace these checks; the continuation is reproduction/audit within known mathematics.
+GAP: Verify the weight-one line's uniqueness and descent, coefficient-linear crystalline weight-zero inertia claim, preservation of actual local extensions, full-decomposition-group stability of the monodromy kernel, and saturated reduction to a nonzero residual subcharacter.
+REASON: This independently testable local target avoids the blocked conductor/newvector sources; securing the actual BD line premise is relevant even if the separate level-translation interface fails.
+SCOPE: Only L023's local lifts and required lines at 7, 3 and 5 for the same signed primitive nonzero solution and explicit algebra assumption, separately through both coefficient embeddings; no global BD reapplication, level conclusion, packet computation or new mechanism.
+
+## Essential inputs and source record
+
+Full references, actually inspected ranges, version qualifications and failed retrievals are preserved in [the completed source comparison](2026-10-05-mixed-seventh-bd-specialization-audit.md). Reuse its accessible local sources; do not retry its blocked level sources. The existing local-lift coverage is [the saved Fontaine–Laffaille/CHT assessment](2026-10-05-mixed-seventh-local-barsotti-tate-lift.md); L022 records the coefficient and weight-zero determinant argument to audit, rather than supplying permission to assume all its steps correct.
+
+The audit input is canonical L023, with L019 for the geometric representation and conductor/finite-flat interface, L020/L021 for global and restricted absolute irreducibility, and L022 for the crystalline local lift. The inherited algebra assumption is the isomorphism of Q[T]/(15T^7-35T^6+21T^5-X^5/Z^7) with Q[T]/(T^7-483T^2+3955T-3945). It is unresolved for arbitrary original solutions. Keep the same covariant Tate normalization, the distinction between base and coefficient primes, and both coefficient embeddings. Global irreducibility is relevant to L023's passage from a semisimplified global residual representation to the actual geometric lattice reduction; it must not be replaced by local semisimplicity.
+
+## Direct primary locators and repair record
+
+- [Breuil–Diamond, author PDF, Theorem 3.2.2 and proof, pp. 36–38](https://www.imo.universite-paris-saclay.fr/~breuil/PUBLICATIONS/extensions.pdf#page=36): checked the local hypotheses and prescribed actual subrepresentation in (iv), including the nonzero-monodromy proof case. The line, its residual character and its finite inertial quotient must be checked on the chosen lift, not supplied by a semisimplified local representation.
+- [BLGGT, published Section 1.4, pp. 528–529](https://annals.math.princeton.edu/wp-content/uploads/annals-v179-n2-p03-p.pdf#page=28): checked its ordinary filtration and Hodge–Tate sign convention. Descent of a potentially ordinary line remains an audit obligation.
+- [Saito, arXiv:math/0612077v2, Section 1, pp. 9–10](https://arxiv.org/pdf/math/0612077v2#page=9): checked the WD relation and exponential construction from the actual prime-to-coefficient-characteristic representation. Only that local construction is used here; Theorem 0's even-degree discrete-series hypothesis and dual Hecke normalization remain parked with the level audit.
+- [Brinon–Conrad, preliminary notes dated 24 June 2009, Theorem 5.2.1(2), pp. 68–70](https://math.stanford.edu/~conrad/papers/notes.pdf#page=68), [Proposition 6.3.3, pp. 77–78](https://math.stanford.edu/~conrad/papers/notes.pdf#page=77), and [Proposition 6.3.8, pp. 80–81](https://math.stanford.edu/~conrad/papers/notes.pdf#page=80): checked subobject admissibility, filtered exactness and filtered base change. These statements do not assert crystalline descent across ramified base extension. The Q_p-valued character clause in Corollary 9.3.2 is not imported for arbitrary coefficient fields.
+- Reused, without another retrieval, [Fontaine–Laffaille (1982), Section 9, 9.10–9.12, pp. 600–606](https://www.numdam.org/article/ASENS_1982_4_15_4_547_0.pdf#page=54) and [CHT (2008), Section 2.4.1 and Lemma 2.4.1, pp. 33–35](https://www.numdam.org/item/10.1007/s10240-008-0016-1.pdf#page=33). The saved local-lift assessment records the full inspected proof and coefficient-linear hypotheses; L022 is the application to audit, not a new source theorem.
+
+This recovery repairs missing direct URLs in the saved ready assessment. The exact TARGET, SPECIALIZE decision and scope are unchanged. No line descent, lattice reduction, coefficient specialization or new lemma has been proved in this literature step. Prior blocked conductor/newvector retrievals are preserved and not retried. The local target is distinct from the parked level target, and is already selected in history 039; history 033 provides only a process-repair precedent, not mathematical coverage. Next turn should perform the bounded mathematical audit after separate approval of this repaired assessment.
+
+## Bounded test for the next mathematical turn
+
+The main gap remains uniform residual-signature emptiness. The intermediate threshold is correctness of the actual local subcharacters required by BD(iv), through each embedding. These could secure one interface of a later conditional modular-location audit, leaving all independent gaps intact.
+
+Test L023's reasoning, without assuming that potential ordinarity automatically supplies a line over the original base. Check the decreasing-filtration convention and all base embeddings; distinguish uniqueness by a fixed weight profile from uniqueness of every line. Check the crystalline subobject and coefficient-valued rank-one argument without applying a Q_p-valued character theorem outside its scope. Away from 7 keep the original nonzero logarithmic monodromy, rather than the local semisimplification. Check the full local group action and the saturated lattice intersection before reducing characters. Record success or the precise failed interface; do not infer the level bound from a successful local audit.
+
+Continue only if these local assertions follow from the inspected general inputs and complete written elementary checks. If an essential further theorem or changed hypothesis is needed, preserve the obstruction and gate that changed target separately. No new local assertion is proved by this assessment. This newly ready continuation awaits separate supervisor approval next turn.
+
+## Mathlib
+
+Full local audit and supporting p-adic Hodge, ordinary-filtration and monodromy coverage: **not checked**. No formal verification or novelty is claimed.

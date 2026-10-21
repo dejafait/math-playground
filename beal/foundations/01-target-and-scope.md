@@ -12,6 +12,15 @@ Rechecked on 2026-09-25: Mauldin's accessible primary page still gives the same 
 
 Rechecked on 2026-09-26: the accessible primary formulation remains the same; the nominated AMS page returned HTTP 403 again.
 
+Rechecked on 2026-10-11: Mauldin's live author page, opening assertion
+“BEAL'S CONJECTURE”, again specifies positive integer bases and exponents,
+all exponents greater than two, and a prime common to all three bases.
+This matches GOAL.md exactly, including unit bases and no height bound.
+No page revision date was identified. The nominated AMS page again
+failed web retrieval; its current contents and prize rules are not
+asserted to have been inspected. This source check adds no mathematical
+assumption to the existing argument.
+
 ## Primitivity and local terminology
 
 A positive integer solution is **primitive** when gcd(A,B,C) = 1. For this coefficient-one equation, this is equivalent to pairwise coprimality: a prime dividing any two bases divides their corresponding powers and hence the remaining power by the equation, so it divides the third base. Thus a shared divisor of any pair in an actual solution contradicts primitivity. This equivalence would not hold for arbitrary triples without the equation.

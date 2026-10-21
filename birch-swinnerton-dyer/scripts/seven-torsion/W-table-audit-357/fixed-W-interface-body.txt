@@ -1,0 +1,42 @@
+audit353=S/'V-two-audit-353'
+fixed353=sum([divisions('division-',sb,st,folder=audit353),
+    divisions('u-division-',ub,ut,folder=audit353),divisions('v-division-',vb,vt,folder=audit353),
+    divisions('action-division-',vb,vt,J,folder=audit353,action_prefix='')])
+need(fixed353==9216,'all_step353_persisted_actual_dividends')
+# Copy the complete fixed successor interface, without overwriting the
+# separate earlier V/U and old-U data.
+for dest,src in [('decision-351.json',OLD/'decision.json'),
+    ('decision-353.json',audit353/'decision.json'),
+    ('W-numerator-351.json',OLD/'numerator-lattice.json'),
+    ('W-numerator-353.json',audit353/'numerator-lattice.json'),
+    ('W-independent-multiplier.json',audit353/'independent-multiplier.json'),
+    ('W-independent-preimage.json',audit353/'numerator-independent-preimage.json')]: copy(dest,src)
+# Reuse all entries of the inspected full global-preimage comparison;
+# specialize only its instance, exact index and five terminal columns.
+whole=(table_source/'stage.py').read_text()
+lattice=between(whole,"    report['phase']='full_audited_V_lattice_interfaces'\n",
+    "    report['phase']='one_V_table_production'")
+lattice=lattice.split('    evidence=',1)[0]
+lattice=lattice.replace('V-', 'W-').replace('audited_V','audited_W').replace('V_multiplier','W_multiplier')
+lattice=lattice.replace('decision-343.json','decision-351.json').replace('decision-345.json','decision-353.json')
+lattice=lattice.replace('numerator-343.json','numerator-351.json').replace('numerator-345.json','numerator-353.json')
+lattice=lattice.replace('>=44','>=43').replace('I[44:]','I[43:]').replace('52','53')
+lattice=lattice.replace('==16','==32').replace('==4\n','==5\n')
+lattice=lattice.replace('[V:U] = absolute determinant of U basis in V',
+    '[(I:I):V] = absolute determinant of V basis in (I:I)')
+lattice=lattice.replace("ub['identity']","vb['identity']")
+with (D/'successor-interface-body.txt').open('x') as f: f.write(textwrap.dedent(lattice))
+exec(compile(textwrap.dedent(lattice),str(D/'successor-interface-body.txt'),'exec'),globals())
+# Also bind the full independently certified radical preimage used for
+# all V action dividends; both integer generation directions are checked.
+rp=read(audit353/'radical-independent-preimage.json'); rc=read(D/'radical-lattice.json')
+RJ=rc['basis']; RG=rp['generators']; RI=rat(rp['inverse'])
+for a,h,w in [(RG,48,95),(rp['G_to_basis'],95,48),(rp['basis_to_G'],48,95), (RJ,48,48)]:shape(a,h,w)
+need(RJ==rp['basis'] and RG==rc['S'] and mm(RG,rp['G_to_basis'])==RJ
+    and mm(RJ,rp['basis_to_G'])==RG and mm(RJ,RI)==I and mm(RI,RJ)==I,
+    'whole_actual_V_radical_two_sided_preimage')
+save('successor-input-validation.json',{'status':'PASS','failures':[],
+    'original349_divisions':27648,'original351_divisions':fixed351,'original353_divisions':fixed353,
+    'fresh_input_divisions':fresh_s+fresh_u+fresh_v,'six_original349_351_353_solves_replayed':True,
+    'complete_five_column_multiplier_and_both_global_preimages':True,
+    'all_before_successor_products':True})

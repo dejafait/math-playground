@@ -1,0 +1,7 @@
+# Step 245 — Completed L068 critical audit
+
+Approved target: Critically audit L068's six scalar pullbacks, full denominator witnesses and complete replay on L067's 48-dimensional algebra.
+
+The preexisting SPECIALIZE assessment is drafts/literature/2026-10-15-conductor389-seven-scalar-critical-audit.md. Main gap: arbitrary analytic-order-at-least-two rank equality. Intermediate target: validate the fixed scalar input for later necessary power-class constraints, with no cohomology or Selmer conclusion. Require every geometric domain, symbolic division, full basis/composition check and independent univariate check; isolate any failure. Independent incidence, functions, complete classes, local arithmetic and L026 premises remain absent.
+
+Read L068, the relevant full L067 proof, the action producer/verifier and upstream verifier; reused primary coverage and checked ATTEMPTS/021/032/033/034 and history/243. Original files are hashed in scripts/seven-torsion/scalar-audit-245/original-manifest.json. Completed result: PASS. Canonical proof, source applicability, full-domain justification and qualifications are in lemmas/L068-conductor389-seven-scalar-pullbacks.md. Fresh complete replays and the distinct univariate implementation pass; the complete report is scripts/seven-torsion/scalar-audit-245/audit-report.json. All original artifacts are preserved. This is local verification of known algorithms, with no Selmer or rank conclusion. The sole continuation is recorded in PROGRESS.md and requires separate source review.

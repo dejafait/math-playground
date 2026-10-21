@@ -1,0 +1,5 @@
+# Step 312 — 2026-10-18 — Changed-table integer audit scope
+
+Completed the separate [audit-scope comparison](../drafts/literature/2026-10-18-redistributed-h-integer-exclusion-critical-audit.md), now SPECIALIZE. Reused the ready primary affine/divisibility coverage and component audit assessments; compared C080a with canonical L078, C077a, L079/L080 statements and relevant audit passages. No essential new source or changed theorem hypothesis is needed. The next independent audit must match every table premise, both candidate allocations and the normalized unshifted row-0 coordinate across both cuts.
+
+LITERATURE / EXPLORATION / NOVELTY_UNCHECKED: exact scope-readiness evidence, not a mathematical audit verdict or advance beyond sources. No lemma, mathematical script, certificate, DAG or PROOF.md change. Attempts 026–031, both original witnesses and unfinished work are preserved. Mathematical exploration usage remains zero. The sole continuation is the same critical audit after separate next-turn approval; stop or repair on any premise/candidate/coordinate mismatch. Survivor feasibility, actual-word transfer and universal eventual descent remain unresolved.

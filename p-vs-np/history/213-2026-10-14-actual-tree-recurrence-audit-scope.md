@@ -1,0 +1,7 @@
+# Step 213 — actual-tree recurrence audit scope
+
+2026-10-14. One LITERATURE / literature_comparison / NOVELTY_UNCHECKED step, outcome EXPLORATION. The [assessment](../drafts/literature/2026-10-14-actual-tree-recurrence-critical-audit.md) changes the new audit gate from REVIEW_REQUIRED to SPECIALIZE after comparing complete L066 and relevant local interfaces with ready step-211 primary coverage. No fresh external search, mathematical derivation, stream replay or audit verdict occurred; this is process/source-scope progress, not progress beyond the checked mathematics.
+
+LTW's homogeneous constant-free suffix result and fixed classical laws support the ingredients, but do not certify the new exact primitive strings or aggregate ledger. L054's prior informal audit and L058's import/combination scope are supporting inputs. The next independent audit must inspect L066's actual occurrences, all constants/connectors, repeated-name incidence, padding/opaque suffixes, final record, complete retention and original-input inequalities. Preserve both step-212 repaired failures and all unfinished closure exports. Attempt 018 counsels proceeding to mathematics after this first approval, not repeating it.
+
+PROOF.md and DAG.md remain unchanged because no mathematical argument or direct input changes. No lemmas, scripts, supervisor state or shared infrastructure were edited. Mathematical exploration usage remains zero. PROGRESS.md contains the sole current action and routing; receiver reception and all independent main-problem obligations remain open.

@@ -1,0 +1,13 @@
+# Charge-seven L2/Yoneda sign — source checkpoint
+
+2026-10-07. Literature-only step on the exact saved target: Test whether the metric-normalized comparison of L062's family form with L067's L2 symplectic form forces a sign contradiction for F.
+
+Main gap: universal primitive rational Hodge algebraicity. Conditional intermediate target: the exact metric-normalized signed comparison for the unchanged actual F, ch_2=-6e_1-7e_2+tau_D, D(sigma)=2lambda sigma, identical fixed metrics and sigma=omega_J+i omega_K. A violated positive-scale condition could exclude this F; a positive compatible scale ends the sign route without establishing existence. Separation, reconstruction and transport remain independent gaps.
+
+Inspected L062's full normalization argument through equation (6), L067's hypotheses, imported inputs, harmonic tangent and constant-scale passages, both ready audits, and ATTEMPTS/047. No duplicate metric coefficient was found there. The tangent-index stop and independent flat-index blocker remain intact.
+
+Primary lead now accessible: Verbitsky alg-geom/9307008v1 Proposition 9.1, PDF pp. 36–37, states a canonical quaternionic metric-form identity as an integral Tr Lambda_c(alpha wedge beta) over harmonic (1,0) classes. Section 7 uses the conjugate complex structure on its (1,0) parameter coordinates. Essential next source extraction: Definition 6.5's canonical form, the definition of Lambda_c, quaternion action and unitary conjugation conventions. No coefficient has been derived or approved in this literature turn.
+
+Completed source review: Li arXiv:1908.05017v1 Section 2.2/Theorem 2.10 proof fixes positive real L2 normalization, negative su(r) trace, complex structures by negative precomposition and the Coulomb/ASD harmonic quotient. Verbitsky Section 3/Corollary 4.3/Section 7 and complete Proposition 9.1 proof provide the coefficient-real conjugation and (1,0)-coordinate qualification. Li's complete Proposition 3.1 proof and Remark 9 were inspected as comparison evidence, but its printed period statement has an apparent internal sign mismatch and its global K3/isotropic scope is not this family. These warnings are recorded without repairing or applying that statement.
+
+Decision SPECIALIZE for the unchanged target: derive only the real-to-Dolbeault convention comparison in a later research turn, using the explicit local gauge formulas and L062's already fixed pairing. No scalar or sign verdict computed here. Coverage progress is source-level, not mathematical exclusion or certified originality. Full citations, hypotheses, qualifications, access limits and a continuation/stop test are in drafts/literature/2026-10-07-charge-seven-l2-family-form-sign.md. No mathematical scripts or lemma files changed.

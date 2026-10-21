@@ -1,0 +1,48 @@
+# Completed independent (3,4,7) source review
+
+TARGET: Assess whether Poonen–Schaefer–Stoll's primitive classification of X^2+Y^3=Z^7 covers the ordered positive signature A^3+B^4=C^7, retaining every classified triple and source qualification.
+CHECKED: 2026-10-07
+DECISION: IMPORT
+SEARCH_EVIDENCE: Local scoped searches found no duplicate; external exact-title, equation, signature, stronger-result and correction queries located the primary Poonen–Schaefer–Stoll article but no inspected stronger direct (3,4,7) theorem.
+SOURCE_EVIDENCE: Poonen–Schaefer–Stoll, Duke Math. J. 137 (2007), no. 1, 103–158, Theorem 1.1; inspected July 16, 2006 MIT author PDF, p. 1, Sections 3.4, 5.3–5.5, 6, 7.4–7.6, 8–10, 11.2, 12.3 and 13, including the complete signed list and C5 completeness qualification.
+COMPARISON: The needed complete unconditional signed primitive (2,3,7) classification is covered and can be imported by citation; a separate SPECIALIZE assessment delimits the proposed X=B^2,Y=A,Z=C applicability and square-filter difference, which remains unperformed.
+GAP: The finite applicability proof and square-coordinate test remain unperformed; no (3,4,7) exclusion has been added, and infinitely many independent Beal signatures remain.
+REASON: Essential theorem/list and completeness coverage is now available; continue toward a bounded citation-based specialization rather than repeat literature or parked source access.
+SCOPE: Ordered positive primitive A^3+B^4=C^7 only; source computations are imported by citation, not independently certified or rerun; no other placement is approved.
+
+Main gap: zero positive primitive solutions with all bases greater than one at every residual signature. The intermediate target is source coverage for the presently unassembled signature (3,4,7). Its plausible downstream use is a finite classification filter, followed only in a separately approved research turn by checking the appropriate perfect-square coordinate, positivity and primitivity. This is a proposed test, not a derived application or a claim that the source excludes the signature.
+
+Search the exact title and statement, stronger direct results for (3,4,7), and known obstructions. Retrieve the primary theorem hypotheses and complete classified list first, then the essential proof cases establishing completeness and conditional/computational scope. A snippet, partial list or mere fixed-signature finiteness is insufficient. Continue if an inspected complete theorem supplies a finite, fully specified applicability test; otherwise record the precise missing input or park dependent work rather than repeat inaccessible-source requests. Any surviving-triple test belongs to a later approved mathematical turn. No such check or new lemma is undertaken here.
+
+Essential local context: foundations/01-target-and-scope.md fixes positivity and primitivity; L029 supplies the proved nonunit boundary reduction, while L002 is context for residual-signature relevance only. Neither L002 nor any conjectural exceptional algebra is a premise of the proposed source theorem. Source scope and the prospective square-filter outcome remain unresolved. No cross-notebook input is used. Mathlib coverage is not checked.
+
+Recovery comparison: a complete fixed-signature classification is selected; unrestricted congruence exclusion is already obstructed by L001 and ATTEMPTS/001; the mixed-seventh modular-packet route lacks the spectral and algebra inputs recorded in ATTEMPTS/005. The Cao-dependent extension remains parked under ATTEMPTS/006. These stops are not global bans; this proposal neither retries their access paths nor relabels their missing inputs. This new assessment requires a separate literature turn and authorizes no same-turn mathematics.
+
+## Inspected primary statement and retained list
+
+Precise input: Bjorn Poonen, Edward F. Schaefer and Michael Stoll, *Twists of X(7) and primitive solutions to x^2+y^3=z^7*, **Duke Mathematical Journal 137** (2007), no. 1, 103–158, Theorem 1.1, [DOI](https://doi.org/10.1215/S0012-7094-07-13714-1). The [MIT author PDF](https://math.mit.edu/~poonen/papers/pss.pdf) has 48 pages, is dated July 16, 2006 on p. 1, and identifies that publication. Page numbers below refer to this author PDF, not journal pagination. The [arXiv landing page](https://arxiv.org/abs/math/0508174) records only v1, submitted August 10, 2005, with 47 pages; it is not silently treated as the inspected 2006 version.
+
+Hypotheses: X,Y,Z are integers, X^2+Y^3=Z^7, and gcd(X,Y,Z)=1. There is no positivity, nonzero-coordinate, base-size or conjectural hypothesis in Theorem 1.1. Its complete conclusion is these 16 triples, with every sign retained:
+
+```text
+(±1,-1,0), (±1,0,1), ±(0,1,1), (±3,-2,1), (±71,-17,2),
+(±2213459,1414,65), (±15312283,9262,113), (±21063928,-76271,17).
+```
+
+Here ± on the first coordinate denotes its two signs only; ±(0,1,1) denotes the two whole triples (0,1,1) and (0,-1,-1). No row has been filtered for the proposed application this turn. The later research step must provide exact integer square/non-square evidence and discard zero or negative coordinates only under its proved applicability conditions.
+
+## Completeness and computational qualifications
+
+Section 3.4, pp. 6–7, provides the descent coverage and distinguishes S(Z) from the larger localized integral set. Sections 5.3–5.5 cover both zero and nonzero cubic character cases of the reducible sector, with ramification confined to 2,3,7. Lemma 6.1 and Corollary 6.2, pp. 15–16, cover the irreducible sector through full elliptic-curve modularity, level lowering and a finite newform computation; both symplectic choices appear. Section 7.5, p. 21, retains ten twists after the local test. Table 3, p. 23, recovers the signed primitive solutions from relevant rational points.
+
+The full set C5(Q) is not determined. This does not leave an unproved integral-solution branch: Section 7.6 and Lemma 7.8, pp. 21–22, require the relevant C5 point to reduce to (1:0:0) or (1:1:1) modulo 2, and to (0:1:0) modulo 3. Section 13, pp. 41–45, proves the intersection subset empty. Both bad primes are used; neither alone suffices. The sieve uses the bad-prime component groups together with good primes 23,97,13, and Section 13.7 proves the known subgroup has index prime to 14. Its final sentence explicitly completes Theorem 1.1. The height-10^7 search in the footnote on p. 22 is corroboration for the *full* C5 rational-point conjecture, not its integral completeness proof.
+
+Sections 9–11 separate rank-one (1−zeta)-descents on C1–C3 from 2-descents on C4–C10. Section 11.2 compares Selmer upper bounds with independent known classes; Table 5 supplies data for C5–C10. Rank J5(Q)=3 requires the separate subset sieve. Section 12.3, pp. 36–41, supplies all nine remaining curve cases, including the sixth mod-5 class on C2 and the additional sieve/Chabauty work where an initial differential vanishes. The extracted text of Section 12.3.2 repeats a C1 coordinate in its displayed set and has inconsistent differential wording; Table 3 and its four-point argument are distinct from that transcription. This assessment does not repair or use that auxiliary displayed set, nor claim a line-by-line proof audit. The imported conclusion is Theorem 1.1's unambiguous list. No BSD or GRH condition is attached to that theorem: the inspected rank argument uses descent bounds, not an analytic-rank assumption. Magma and PARI/GP computations are acknowledged on p. 45. This assessment accepts the published classification by precise citation; it does not reproduce the algebra, modular-form tables, descent computations or rational-point certificates.
+
+## Discovery evidence and specialization boundary
+
+Queries included the exact article title; `Poonen Schaefer Stoll Twists X(7) primitive solutions x2 y3 z7 theorem 1.1 pdf`; `"x^3+y^4=z^7" primitive`; `"signature (3,4,7)" Fermat`; spaced equation variants `"x^3 + y^4 = z^7"` and `"x^4 + y^3 = z^7"`; `"(3, 4, 7)" "Fermat"`; and author/title correction or erratum terms. These searches found the primary classification and unrelated or nonprimitive leads, not an inspected stronger direct theorem. No novelty conclusion follows from that search. [Stoll's publication list](https://mathe2.uni-bayreuth.de/stoll/schrift.html), entry AG17, confirms the author PDF and publication; no correction is attached to that entry. The nearby errata link belongs to AG16, a different paper. This is a scoped correction check, not a guarantee that no erratum exists elsewhere. A newly surfaced generalized-Fermat survey is an unread, nonessential lead, not coverage used here.
+
+The proposed application is only X=B^2,Y=A,Z=C. The next turn must justify preservation of gcd=1 by prime support, match the ordered equation, retain every signed row, test the first coordinate for a positive integer square, and state the actual surviving count against the zero-solution threshold. No rearrangement involving another placement or exponent-divisor corollary is included in this approved scope. Primitivity is essential: unrestricted nonprimitive integer families cannot refute this theorem.
+
+Coverage decision: the original source-review continuation test passes because a complete finite list with inspected essential qualifications is available. The mathematical square-filter outcome remains unresolved locally. The [separate specialization assessment](2026-10-07-three-four-seven-finite-specialization.md) records the precise future target; as a newly written continuation it receives separate supervisor approval next turn. Mathlib matching theorem and supporting declarations: **not checked**.

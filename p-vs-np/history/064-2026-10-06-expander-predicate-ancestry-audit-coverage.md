@@ -1,0 +1,5 @@
+# 2026-10-06 — L031 audit source-scope comparison
+
+Completed one literature-only scope comparison for the saved L031 audit. The [assessment](../drafts/literature/2026-10-06-expander-predicate-er-ancestry-audit.md) changes REVIEW_REQUIRED to SPECIALIZE by comparing full L031 with the ready embedding assessment, L027's template, foundations/05 and L030's inspected-source coverage. No new external discovery was needed; precise primary citations and their limits are reused explicitly. This is EXPLORATION toward source readiness, not a mathematical advance or a completed proof audit.
+
+The negative anchor, either output-unit sign, repeated operands, actual-reference ancestry and complete encoding are local checks within the existing source scope, not missing imported theorems. The next action remains exactly the separate critical audit, now approved for a REPRODUCTION research turn. No lemma, mathematical script, PROOF.md or DAG.md was changed. Attempts 017/019, the immediate alternative refutation and all unfinished work are preserved; general reduced data and decision transfer remain open. No certified novelty or P versus NP candidate is claimed.

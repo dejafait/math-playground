@@ -1,0 +1,17 @@
+# Boolean-zero ABP witness bound — conditional obstruction work
+
+STEP_ID: 2026-10-08-103-boolean-zero-affine-abp-conditional-obstruction
+
+The pre-invocation EXPLORE assessment is `drafts/literature/2026-10-08-boolean-zero-affine-abp-ideal-witness.md`; the target is unchanged. Preserve all existing work and Attempts 020/021. The main gap is unrestricted SAT decision/separation. This attempt tests only whether the universal polynomial full-bit Boolean/commutator witness bound implies NP=coNP; it neither constructs those witnesses nor refutes their existence.
+
+Checkpoint before completing the proof: for each ordered width-three clause let c_j be its falsity product and let s_j=1+c_j. The ordered product f_F=s_1...s_m is an explicit serial affine ABP of polynomial full size, since each factor has at most nine words of length at most three. Its Boolean value is the satisfying-assignment indicator. Guess the promised H and check H(x,0)=0 and H(x,B)=f_F by formal noncommutative ABP PIT. Soundness follows by scalar evaluation, since every Boolean/commutator axiom evaluates to zero. No promise test or witness constructor is needed.
+
+Remaining checks at this checkpoint: complete syntax/dictionary and invalid-input bounds; endpoints and constant-only/n=0/m=0 cases; bounded substitution of all nonlinear placeholder occurrences; complete degree-zero and homogeneous PIT applicability with full-bit accounting. Reuse Raz–Shpilka Theorem 4 and L038's finite closure, not a formula-generated normalization bound. Essential inputs are L038 and foundations/05; L035–L037's special witnesses and L039/L040's fidelity premise do not establish the proposed universal bound. Continue if one fixed verifier polynomial and one certificate polynomial cover all well-formed UNSAT 3CNFs. Abandon this mechanism if it requires expansion, Boolean-promise recognition, an efficient constructor or an additional structural promise.
+
+This is unfinished reasoning, not a completed lemma or a P-versus-NP candidate. Canonical full proof and qualifications will be saved separately if these checks pass.
+
+## Completed bounded attempt
+
+The checkpoint above is retained as the pre-completion state. The full argument is now canonical in [L041](../lemmas/L041-boolean-zero-affine-abp-witness-bound-consequence.md). Ordered clause gadgets, complete syntax/dictionary checks, nonlinear substitutions, arbitrary endpoints and empty paths, finite constant closure and all homogeneous components give a deterministic polynomial-bit verifier. Scalar evaluation proves soundness without W or a promise test; W supplies a single certificate polynomial on UNSAT 3CNFs. Hence W implies NP=coNP. Constants, n=0, empty clauses, the empty conjunction and invalid descriptions are covered in that proof. No mathematical script or finite calculation was needed: the evidence is the all-input proof, not a preview or experiment.
+
+The continuation test succeeds for this conditional mechanism only. W itself remains undecided; NP≠coNP is not assumed established. This is a local specialization of Hrubeš's known conditional mechanism using imported Raz–Shpilka PIT and existing L038 normalization, not certified new mathematics. Independent critical verification of L041 remains pending. U/class equality, faithful data, efficient construction, every-certificate hardness and unrestricted SAT transfer are untouched. Next is separate coverage approval for a critical audit of L041, recorded in the new REVIEW_REQUIRED assessment.

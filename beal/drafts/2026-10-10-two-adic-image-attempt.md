@@ -1,0 +1,11 @@
+# Two-adic whole-fiber comparison — working record
+
+Approved target: Determine whether the primitive fourth-power condition at two strictly shrinks the complete whole-fiber connecting-class image for L033's 54a1 branch.
+
+The unchanged SPECIALIZE assessment is drafts/literature/2026-10-10-two-adic-fourth-power-image.md. Relevant inputs are L032's even-C/odd-B branch, L033's polynomial and dual kernel, L034's complete modular map, and the assessed Schaefer–Stoll Lemmas 4.2–4.5 and Clark Hensel/Eisenstein inputs. ATTEMPTS/008,010,012,013 were checked; none computes this image. No cross-notebook input.
+
+Working plan, not yet a conclusion: rescale the defining polynomial H(2u)/4 to lift an odd unit root; divide out its rational factor and check Eisenstein of degree eleven. Both residue fields would then be F2, making the prime-to-two dual connecting image trivial. Nonemptiness would still be essential. Test b=1,c=2,a^3=2047 with s=27*2047/32. In z=x-16, the complete modular polynomial should have coefficient valuations -5 at degree zero, -10 at degree eleven and zero at degree twelve, with degrees one through ten at least -5. A reciprocal Hensel equation would supply a rational root and a second equation over Q2(2^(1/11)) a degree-eleven root. The latter must reconstruct y and exhaust the whole fiber, rather than produce a selected point.
+
+Continue only with rigorous complete-factor and common-witness verification. Equality retires this extra local filter; strictness supports later coupling. The five twists' global emptiness, global class data and infinitely many signatures remain independent gaps. Preserve all unfinished work if any verification fails.
+
+Completed result: L046 proves A2=Q2 x Q2(2^(1/11)) and I_pow=I_fiber=I_all={1}. All eight exact coefficient checks pass in scripts/two-adic-image/image-certificate.json; the complete load-bearing fields were inspected. The Hensel lifts, integer rings, local image theorem applicability, field identification, common witnesses and whole-fiber exhaustion are proved canonically in L046. This is a REPRODUCTION and an informative NEGATIVE for the filter, not a new theorem beyond the checked sources or an integer exclusion. No source refresh or cross-notebook read was needed. Retire this filter and request separate critical-review coverage; no further mathematical attempt was undertaken.

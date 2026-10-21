@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/yang-mills/scripts/combined-ward-response/enclose_g_heat_form.py", line 243, in <module>
+    main(parser.parse_args().audit)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/yang-mills/scripts/combined-ward-response/enclose_g_heat_form.py", line 167, in main
+    rel, te, omission = errors(source, tail, i)
+                        ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/yang-mills/scripts/combined-ward-response/enclose_g_heat_form.py", line 98, in errors
+    assert omission == fraction(tail['bounds'][str(i)]['B_bound'])
+                                ~~~~^^^^^^^^^^
+KeyError: 'bounds'

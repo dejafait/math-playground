@@ -1,0 +1,15 @@
+# Step 176 — supplied-coordinate aggregation work
+
+Approved target: compile a balanced XOR combination of supplied coordinate-equivalence proofs with fully charged native/literal-image strings and a polynomial all-size copying ledger. Start assessment: `drafts/literature/2026-10-11-balanced-coordinate-combination.md`, SPECIALIZE, unchanged before invocation. Task: RESEARCH / implementation / REPRODUCTION.
+
+Main gap remains unrestricted SAT decision/separation. Intermediate use is L055's coordinate aggregation only; no coordinate-proof existence or full receiver conclusion is supplied. Reused logical coverage and failures are L056, L057 step-174 fresh-state/substitution qualification, histories 174/175 and Attempt 018. No new source search or cross-notebook input is needed.
+
+Pending construction: independently check every complete native package against exact E(U_i,V_i); then copy every record into an empty append-only state, relocate MP references, combine child equalities by congL, congR and trans, and emit every record in native and literal-image syntax. Each internal tree node pays three full template copies and four MPs. No previous equality/proof becomes a term argument. Keep all unused supplied records and measure their maximum depth. No external cache.
+
+Pending all-size ledger: N supplied lines, G=(M-1)(3L+4) new lines, J=N+G. Actual term size/depth t_j,d_j and supplied record node sum K_j/maximum depth delta_j are separately charged. Template arguments have balanced skeleton height at most h; p_i<=8+4p_(i-1), hence P_j=8*4^(h+1)(t_j+1). Generated depth <=D_j+c_j h+d_j, imported depth <=delta_j. Bytes charge imported nodes, G template-sized records, endpoint header and relocated references up to J. These are proposed accounting targets pending implementation/checking, not completed evidence.
+
+Discriminating test: M=2/4/8, constants, repeated/coincident names, unequal proof lengths and deep unused supplied lines; independently reconstruct exact endpoints and check entire output streams. Reject changed coordinate endpoint, declared substitution, MP antecedent/reference, missing proof and nonprimitive premise rules. Continue only if explicit all-size ledger and complete bounded evidence pass; otherwise preserve failure and narrow the importer.
+
+Completed: L058 supplies the canonical proof and ledger. The final-code suite checks every full input/output stream for M=2/4/8, exact unpruned retention/offsets, actual arguments and all thresholds; eight rejection tests pass. `scripts/balanced-coordinate/output/certificate-176.json` is complete with no failures. This is local ADVANCE / REPRODUCTION, awaiting independent critical audit, not a whole-receiver verdict. Input records are reconstructed as actual primitive inferences; hashes record integrity, not proof membership.
+
+Unresolved: coordinate-proof existence, zero/guard strings, ordinary-input normalization/completeness, complete L055 receiver audit, certificate existence, arbitrary ER representation, W/V/U and SAT transfer. The new critical-audit continuation is REVIEW_REQUIRED for separate approval; no uncovered mathematics is derived/approved here.

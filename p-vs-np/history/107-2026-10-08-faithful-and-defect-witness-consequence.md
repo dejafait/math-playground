@@ -1,0 +1,11 @@
+# Step 107 — 2026-10-08: faithful local defects retain the short-proof burden
+
+STEP_ID: 2026-10-08-107-faithful-and-defect-witness-consequence
+
+Completed one RESEARCH / POTENTIALLY_NEW / proof_attempt step under the pre-existing EXPLORE assessment, outcome ADVANCE. [L042](../lemmas/L042-faithful-and-defect-witness-bound-consequence.md) gives the conditional NP=coNP consequence for the approved universal supplied-collection premise. It uses one genuinely used repeated-operand extension, complete faithful representatives for UNSAT challenges, a polynomial witness-excluding input bound, and anchor elimination into L041's repaired verifier. The local advance is the restricted embedding; source overlap/novelty is not certified. The new argument awaits a separate critical audit.
+
+The duplicate/failure comparison found that L037 assumes relations, L039's generic circuit embedding leaves their witnesses open, and L035/L036 cover different defects. Attempts 020/021 remain fixed-output stops. The single-gate construction avoids any need for U or faithful ABPs for an arbitrary challenge circuit. Its universal supplied-collection quantifier is essential; a convenient existential choice can avoid the perturbation. No original-clause witness, fidelity test, constructor, converse, NP≠coNP assumption or main-problem candidate is claimed.
+
+Full proof, citations, qualifications and Mathlib status are canonical in L042; the preliminary [work checkpoint](../drafts/2026-10-08-faithful-and-defect-work.md) is preserved. DAG adds only L041 as the direct mathematical input: L037 supplies scope definitions, while the one-gate ancestry is proved locally and no L039 class/ancestry theorem is invoked. PROOF records the changed conditional argument. No mathematical script or finite experiment is needed for this explicit symbolic reduction.
+
+Mathematical exploration usage remains 0 unresolved EXPLORATION turns after this ADVANCE. The [new audit proposal](../drafts/literature/2026-10-08-faithful-and-defect-critical-audit.md) is REVIEW_REQUIRED and needs separate coverage approval; it does not retroactively change the completed target's ready status. The universal premise and unrestricted SAT decision/separation remain unresolved. All earlier unfinished work and supervisor state are preserved.

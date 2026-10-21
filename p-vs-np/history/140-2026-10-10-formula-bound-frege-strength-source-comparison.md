@@ -1,0 +1,9 @@
+# Step 140 — Formula-bound Frege-strength source comparison
+
+STEP_ID: 2026-10-10-140-formula-bound-frege-strength-source-comparison
+
+Completed LITERATURE / NOVELTY_UNCHECKED / literature_comparison under the supplied REVIEW_REQUIRED gate. The [completed assessment](../drafts/literature/2026-10-10-formula-bound-frege-strength-comparison.md) records primary LTW/FSTW/Raz–Shpilka statements and relevant proof cases, reuses the ready reverse/tree and local L038 assessments, and distinguishes the optional failed ECCC download from essential coverage.
+
+NEGATIVE source-scope evidence changes the route: LTW's ABP suffix lemma requires a formula-generated graph, and its general receiving formula theorem has quasipolynomial overhead. The inspected simulations therefore do not identify [L048's P_A](../lemmas/L048-formula-length-abp-clause-product-bound-equivalence.md) with polynomial boundedness of ordinary Frege. This is neither an impossibility theorem nor progress beyond the checked source mathematics. [L019](../lemmas/L019-er-literal-substitution-cost.md) remains a construction-specific stop; [L038](../lemmas/L038-affine-abp-ips-polynomial-er-simulation.md) supplies EF/ER, not ordinary Frege.
+
+The [prepared one-way application assessment](../drafts/literature/2026-10-10-frege-abp-er-one-way-bound-application.md) covers the restricted B_Frege,3 => P_A => B_ER,3 target for a later mathematical turn, subject to separate supervisor approval. No implication was derived, and no lemma, mathematical script, DAG or PROOF.md was changed. Existing unfinished work and Attempts 018/020/021 are preserved. Mathematical exploration usage remains one since step 137; no counter reset or scheduling claim is made. STATUS remains IN_PROGRESS, with neither a SAT decision/separation nor a candidate resolution.

@@ -1,0 +1,15 @@
+# Reduced global propagation — working audit
+
+Approved target and coverage: `drafts/literature/2026-10-05-reduced-global-propagation.md`. Essential inputs: L020's original axiom convention, L024's ordered local identities, L021's clause assembly. This file preserves working reasoning saved before verification. The completed argument is canonical in `lemmas/L025-reduced-global-circuit-ips-propagation.md`; preliminary estimates below are retained as reasoning history, not additional premises.
+
+Use an abstract topological node list, not the internal gates of arbitrary supplied representatives. Each reduced AND node z has operands a,b and H_z(A)=r_z+r_a r_b; exact signed nodes have value 1+r_a. All values have degree <=d, all H_z degree <=h. Supplied total encoding E is independent of abstract count S.
+
+Candidate pair recurrence, in the first orientation: K(z,w)=a K(b,w)+K(a,w)b+H_z w+w H_z. In the second: K(g,z)=K(g,a)b+a K(g,b)+g H_z+H_z g. Signed nodes inherit the corresponding earlier pair. Every referenced pair has smaller sum of node indices. Candidate bound deg K(i,j)<=h+(i+j)d, hence <=h+2Sd. Booleanity follows L024, with candidate bound deg B_i<=h+(2S+2i)d, hence <=h+4Sd. Defining clauses add <=2d to the largest input witness degree.
+
+Clause normalization adds witnesses multiplied by prefixes/suffixes with at most 2T factors. It does not multiply the current certificate at each swap. Resolution or weakening multiplies a parent root by at most T reduced factors. At most T source records therefore suggest a complete bound h+(4S+2+2T+T^2)d. Check the exact inequalities before recording a canonical lemma. Proposed conservative allowance h+(4S+4T^2+8)d.
+
+Shared new overhead should be O(S^2+T^4), retaining all supplied roots without unfolding. Full common binary encoding should be E+O((S^2+T^4)(T+log(E+S+T+2))+T^3); separate rooted witness outputs require an additional polynomial multiplicity. Both IPS identities follow a direct reduced per-clause invariant, not a correction from the unreduced certificate.
+
+Pending: verify the second pair orientation independently, diagonal/constant/signed cases and all degree recurrences, then complete clause-assembly accounting. No supplied-data construction, tree conversion, generic PIT, certificate lower bound or decision transfer is assumed. Continue only on a polynomial complete recurrence; abandon this version on an invalid ordered identity, circular dependence or compulsory superpolynomial growth.
+
+Completed: both pair orientations and the complete clause invariant check out. L025 proves degree <=h+(4S+T²+2T+2)d and O(S²+T⁴) new gates. Its full common binary bound uses M=E+S²+T⁴+2 and O(M(T+log(M+2))+T³). This replaces the preliminary unqualified E-plus-overhead bit estimate: dense renumbering may enlarge supplied reference fields. The finite diagnostic is `scripts/coefficient-reduction/reduced-global-results.json`; it includes nonlinear supplied relations, all pair ranks and a verified nine-line ER refutation. No blocked identity or compulsory superpolynomial recurrence was found. The original independent gaps remain.

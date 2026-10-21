@@ -1,0 +1,5 @@
+# Trace compatibility alone as an envelope repair
+
+The approved subgroup test has a strict violating point in [L022](../lemmas/L022-trace-preserving-shear-violates-shell-envelope-bound.md). It uses the unchanged field, two-factor packet and first-power envelope, with a new trace-preserving shear rather than the excluded involution.
+
+WHY IT FAILS: L019's necessary character condition leaves enough freedom to shear in a trace-zero shell direction. L022 verifies the map, inverse and trace identity on the whole space and puts its exact envelope witness outside the prescribed disc. Thus trace compatibility alone cannot prove the universal envelope enclosure. This does not show the shear has a full-pair/native lift or that the point belongs to actual ind3 images. L020's literal-union enclosure and L019's earlier exclusion remain valid. The separate 2026-10-06 critical audit in L022 found no mathematical error; reopening the failed repair would require a materially stronger, source-assessed restriction.

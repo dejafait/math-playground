@@ -1,0 +1,13 @@
+# Conditional reducible exceptional-algebra assembly audit
+
+Target at turn start: the exact SPECIALIZE target in drafts/literature/2026-10-04-mixed-seventh-reducible-exceptional-assembly.md. Existing changes, including L018 and L019, are retained.
+
+The gap is the common-root passage from L019's geometric representation to L016's two-trace polynomial. The proposed intermediate target excludes the reducible sector under L018's explicit algebra-isomorphism hypothesis; downstream it isolates the irreducible sector, without claiming the exceptional branch exhausts original solutions. Continue only if good reduction at the fixed prime and both coefficient embeddings supply the same covariant Tate Frobenius relation. Abandon an unsupported twist, lost embedding or bad-reduction identification. No point recount, character reproof or archive retry is needed.
+
+Working argument saved before completion: L018 makes t=-X^5/Y^3=eta/(eta-1) integral at 29 with one of L016's four residues. Its squarefree sextic and the infinity chart give smooth proper reduction. The four-dimensional Tate characteristic polynomial therefore equals L016's quartic. Real multiplication splits it into (U^2-aU+29)(U^2-bU+29); comparing coefficients gives a+b=A and ab=B-58, hence P_t(a)=P_t(b)=0. Stable-lattice integrality permits reduction through both embeddings of F_49. L019 and L017 force a reducible component's trace to be 2 or -2, both ruled out by L016. These interfaces must be stated in the canonical proof before reporting success.
+
+Prior failures remain independent: unrestricted congruences cannot exclude a signature (L001); the global descent and V4 packet-exhaustion sources remain parked. This target uses neither blocker and is not a duplicate of a component statement.
+
+Completed result: the interfaces pass and the full proof is stored only in lemmas/L020-mixed-seventh-reducible-exceptional-branch-exclusion.md. The residue arithmetic was checked with exact integer evaluation: the four pairs (P(2),P(5)) modulo 7 are (1,5), (6,3), (1,1), (4,3), and the product coefficients from the two rank-two factors equal all four L016 quartics. Actual/required branch threshold: 8/8 nonzero evaluations. These checks reuse L016's point-count certificate rather than recounting curves. No full-signature or uniform solution bound results.
+
+Classification: REPRODUCTION; outcome: ADVANCE in the local conditional assembly. The matching source claim and general imported geometric inputs are identified in L020. No novelty claim is made. A separate pending assessment screens the next irreducible modular-location interface.

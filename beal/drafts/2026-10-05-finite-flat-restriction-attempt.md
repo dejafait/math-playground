@@ -1,0 +1,13 @@
+# Conditional restriction attempt — working checkpoint
+
+Approved target: Prove cyclotomic-restriction absolute irreducibility for L019's representation under L020's algebra-isomorphism hypothesis, retaining both coefficient embeddings and using finite flatness at 7 without assuming semistable reduction of J.
+
+The main gap is uniform residual-signature emptiness. This step tests only the restriction hypothesis needed by a later modular-location audit. Inputs are L019 and L020 and the ready SPECIALIZE assessment `literature/2026-10-05-mixed-seventh-finite-flat-restriction-proof.md`; the parent assessment records the inspected Raynaud, Imai and restriction sources. Preserve the algebra hypothesis, packet-exhaustion gap and global-descent gap.
+
+Working route, not yet the canonical proof: scalar extension is a direct sum on underlying F_7 modules, and Raynaud full faithfulness at e=1 permits coefficient maps and their finite-flat kernels/quotients. At the unramified degree-two local field, reducible local characters have level-two exponents a,b in {0,1,7,8}. The determinant requires a+b=8, giving ratio orders 6 or 8. The locally absolutely irreducible shape has level-four exponents s,49s; determinant compatibility gives s=8 modulo 48. The 0/1 digits then suggest s in {8,56,344,392}, all with projective ratio order 25. These cases still need full justification in the canonical proof.
+
+Global interface to check: a reducible restriction to a normal subgroup with cyclic quotient must either have a unique invariant line (contradicting global irreducibility), act scalarly (also contradicting cyclic-quotient irreducibility), or have exactly two invariant lines, interchanged by the full group. The last case defines the unique quadratic subfield of F(zeta_7). Its ramification at 7 forces an inertia element to interchange the lines. A prime-to-7 monomial image has cyclic projective tame inertia; a line-interchanging element has projective order two, conflicting with the proposed local orders.
+
+Continue only if coefficient passage, both local cases and all normal-subgroup cases are justified. Abandon this implication on an unsupported finite-flat constituent or permitted projective inertia order at most two. No semistability or modular-location conclusion is assumed.
+
+Completed: the provisional checks above are resolved in [L021](../lemmas/L021-mixed-seventh-cyclotomic-restriction.md), the canonical full proof. Its exhaustive local orders are 6, 8 and 25, all exceeding the required threshold two. The conditional restriction follows for both embeddings. This working checkpoint is retained as attempt history; the canonical result does not establish the remaining modular-location, packet or descent claims.

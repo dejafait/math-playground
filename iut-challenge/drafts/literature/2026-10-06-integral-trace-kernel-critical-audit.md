@@ -1,0 +1,25 @@
+# Integral trace-kernel proof — proposed critical audit
+
+TARGET: Critically audit L024's integral trace-kernel basis proof, checking the full abelian pro-3 presentation, unit torsion, continuous integral generation and the reciprocal logarithm identification.
+CHECKED: 2026-10-06
+DECISION: SPECIALIZE
+SEARCH_EVIDENCE: Reuse the approved integral-presentation assessment and its scoped duplicate/failure screening; the target and field hypotheses are unchanged, and this continuation checks the completed specialization rather than seeking new coordinates or a radius mechanism.
+SOURCE_EVIDENCE: Kondo December 2025 RIMS1991 https://www.kurims.kyoto-u.ac.jp/preprint/file/RIMS1991.pdf Theorem 1.1(1–4), printed p. 8, reciprocal setup pp. 8–9 and Theorem 1.3/proof pp. 9–11, cross-check https://arxiv.org/html/2512.09231v2#S1; Hoshi–Nishio June 2022 revised RIMS1931 https://www.kurims.kyoto-u.ac.jp/~yuichiro/rims1931revised.pdf §1 diagram and Lemma 1.3/proof, PDF pp. 3–5; L016, L019 and audited L023 for genuine-image and reciprocal identifications. Reuse the previously read integral-generation passage; the full-presentation statement was rechecked during recovery.
+COMPARISON: The sources provide the full existential presentation, rational trace kernel and integral generation including x_0; L024 adds only the approved torsion-free-cokernel specialization and integral intersection. The audit must verify that no extra presentation or coordinate assumption entered that passage.
+GAP: Verify or repair the single-relator pro-3 cokernel argument and its agreement with the actual principal-unit logarithm; no numerical-radius or presentation-realization converse is covered.
+REASON: A critical check of the load-bearing integral normalization should precede using it in a later source-defined numerical test.
+SCOPE: Only audit of L024 in K=Q_3(pi), pi^27=3, with a fixed admitted Kondo presentation. No new source-defined action, arbitrary basis realization, field-coordinate matrix or radius calculation is approved.
+
+Reuse [the approved assessment](2026-10-06-integral-presentation-trace-kernel.md) while its hypotheses remain unchanged. Source locators and direct primary links are recorded there and in L024; no additional literature search was performed to prepare this audit. Kondo's exact relations were checked in the primary HTML and his December 2025 RIMS1991 PDF was retrieved to confirm its version. Hoshi–Nishio's complete integral-generation proof was read in the primary revised PDF. Their rational theorem is not an integral equality citation; the explicit specialization is what requires review.
+
+The audit's discriminating test is whether the admitted closed-word presentation has maximal abelian pro-3 quotient equal to the free Z_3-module on sigma,x_0,...,x_27 modulo exactly cX_0-3^sX_1. If this full-presentation passage fails, preserve the evidence and qualify L024 rather than replacing it with rational spanning. If it holds, check the absence of third roots of unity, all torsion/topology passages, integral elimination of y_0 and the final coefficient comparison. Success leaves field coordinates, source-action realization, native/actual-ind3 membership, initial data, higher powers, pilot transport, essentiality and original finite B>=A unresolved. No matching or supporting Mathlib coverage has been checked.
+
+## 2026-10-06 direct-source recovery
+
+Direct primary URLs are now present in SOURCE_EVIDENCE, rather than only in the linked prior assessment. The Kondo PDF and versioned arXiv HTML were retrieved successfully. The PDF's Theorem 1.1(1) explicitly presents the group subject to (3) and (4); (2) specifies normal topological wild generation. Theorem 1.3 states its odd-prime, degree-at-least-two hypotheses and separate odd-degree rational kernel conclusion. These are source premises for the audit, not verification of L024's specialized cokernel argument.
+
+The Hoshi–Nishio URL opened as a twelve-page PDF, but subsequent web text extraction returned an internal error; local curl failed at DNS resolution. No fresh reading of that PDF's relevant passage is claimed. Reuse its complete prior reading documented in the approved integral-presentation assessment and history/055, while the target and hypotheses are unchanged. This transient retrieval failure does not replace that coverage or establish a mathematical source blocker. No new discovery search was needed: history/054–055 and ATTEMPTS/019–020 preserve the coordinate and realization failures.
+
+LITERATURE_REASON: Supervisor recovery requires direct source URLs in the ready audit assessment; this bounded repair reuses adequate coverage and checks the full-presentation source locator.
+
+The same audit is ready for next-turn mathematical invocation, subject to supervisor validation of this repaired assessment. Continue only if the full quotient, unit torsion, topology and reciprocal identification survive critical review; otherwise preserve the objection and qualify L024 in that research turn. This recovery supplies no new lemma, mathematical audit verdict, radius estimate or IUT conclusion. Mathlib coverage remains not checked.

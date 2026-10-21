@@ -1,0 +1,7 @@
+# 2026-10-07 — Critical audit of the unconditional reduction
+
+STEP_ID: beal-2026-10-07-080-three-four-eleven-critical-audit
+
+RESEARCH / REPRODUCTION / EXPLORATION: the independent audit of [L032](../lemmas/L032-fns-ordered-three-four-eleven-reduction.md) passes. Primary source comparison covers all 18/20 residue subrows, Table 3, twist conventions, symplectic cases and the unconditional/GRH boundary. The [independent certificate](../scripts/three-four-eleven-reduction/audit-certificate.json) verifies every one of 60 retained and 148 rejected records and all eight full conclusion branches. The written j-domain, fourth-power and valuation arguments survive review. Printed-page citations were corrected and two applicability explanations made explicit; no new mathematical condition or signature exclusion results. Source computations are still cited, not rerun; no originality claim is made.
+
+The audit is complete; five labels remain versus the zero required for label-based emptiness. Do not repeat the finite filters alone. The [proposed even-C global descent comparison](../drafts/literature/2026-10-07-three-four-eleven-even-c-global-descent.md) is REVIEW_REQUIRED: its source coverage and feasibility are unresolved, and no new mechanism was derived or approved this turn. GRH classification stays parked; earlier stop evidence is preserved. Exploration usage is 1/3 mathematical. Full audit notes are in [the audit record](../drafts/2026-10-07-three-four-eleven-critical-audit.md).

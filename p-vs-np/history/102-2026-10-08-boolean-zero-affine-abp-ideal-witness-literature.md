@@ -1,0 +1,9 @@
+# 2026-10-08 — Boolean-zero affine-ABP ideal-witness comparison
+
+STEP_ID: 2026-10-08-102-boolean-zero-affine-abp-ideal-witness-source-comparison
+
+Completed the gate-required LITERATURE/NOVELTY_UNCHECKED comparison for the unchanged target. The [assessment](../drafts/literature/2026-10-08-boolean-zero-affine-abp-ideal-witness.md) records primary theorem hypotheses, essential proof cases, exact searches and reference-following. Common-order commutative roABP corrections and restricted finite-field IPS lower bounds do not settle arbitrary free-algebra affine witnesses. Hrubeš's explicit Boolean-ideal/input-size comparison and 3-CNF translation, together with deterministic noncommutative ABP PIT, support a bounded conditional test. No universal witness bound or new mathematical consequence was proved.
+
+Outcome EXPLORATION: useful source coverage, without a theorem import, mathematical advance, informative all-witness negative or novelty certification. L035/L036's special witnesses, L037's formal relation interface, L038's receiving/normalization scope and L039/L040's fidelity limitation were checked against the sources. [Attempt 020](../ATTEMPTS/020-polynomial-degree-same-output-circuit-abp-conversion.md) and [Attempt 021](../ATTEMPTS/021-supplied-abp-fixed-pair-table-conversion.md) remain fixed-output stops, not obstructions to alternative H. All unfinished work is preserved; lemmas, scripts, DAG and PROOF are unchanged.
+
+The same target now has EXPLORE coverage. Next is one mathematical test of whether the hypothetical universal bound implies NP=coNP, with ordered translation and complete identity-verifier accounting; this implication remains unproved and is not an unconditional rejection of the bound. U/class equality, efficient data construction, every-certificate hardness and the main SAT decision gap remain unresolved. Mathematical exploration usage stays one since step 99; no scheduler state or token accounting was edited.

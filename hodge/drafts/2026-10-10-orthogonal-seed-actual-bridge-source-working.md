@@ -1,0 +1,11 @@
+# Orthogonal seed actual bridges — source review in progress
+
+2026-10-10; literature-only. Target: Assess analytic realization, acyclicity and exact-h vector stability for L081's formal orthogonal seed deformation.
+
+Main gap: universal primitive Hodge algebraicity; immediate intermediate target is source coverage for actual realization, actual cohomology and underlying-vector stability of the L080/L081 seed. Downstream use is a candidate J_5 building block, with the other image, common F and transport still independent. Continue only with precise hypotheses and a test on the full vector automorphism action; park this recipe if an essential bridge remains persistently blocked. No new lemma or derivation is authorized this turn.
+
+Inputs read: complete L080/L081, prior ready rank-five existence assessment, ATTEMPTS/053, history/187. Existing unfinished work is preserved. No cross-notebook input. The older index stops remain intact.
+
+New lead: Buchdahl--Schumacher, published Complex Manifolds 9 (2022), 78--113, DOI 10.1515/coma-2021-0131; preprint arXiv:2002.03548v1. Theorems 1--3 in introduction describe an equivariant analytic Kuranishi slice and vector (poly)stability at a fixed compact Kähler metric. Primary detailed theorem/proof cases, central-scalar convention, orthogonal inclusion and tangent-realization coverage remain to inspect. A full vector automorphism group test is needed, not only the orthogonal torus. No applicability conclusion or J_5 existence is claimed yet.
+
+Completed source review: the canonical assessment now records SPECIALIZE coverage for the unchanged target. The published analytic slice/local vector-stability theorems, analytic Artin approximation, actual cohomology qualifications and projective GAGA statements were compared. No new mathematical result was derived; skew-slice restriction, full vector-group orbit test and actual fibre cohomology remain the next proof obligations. Direct shell download failed DNS; primary web text remained accessible. Original Artin PDF extraction was empty, with its full first-page statement retrieved in indexed primary text and the exact formulation directly checked in Rond. No original Artin proof read is claimed.

@@ -1,0 +1,5 @@
+# Arbitrary-Galois full-pair lift of the compact involution
+
+The approved nonidentity lift test is negative in [L019](../lemmas/L019-full-pair-trace-obstruction-to-compact-involution.md), supplementing the identity-kernel stop in ATTEMPTS/015. It tests exactly the existing L017 involution without changing the field or coordinates.
+
+WHY IT FAILS: The reciprocity reconstruction lift preserves absolute norm, and every other full-pair lift over the same Galois automorphism differs by profinite-unit exponentiation. The induced logarithm action must therefore scale trace by a Z_3-unit. The exact genuine logarithm q_1 has trace 48 but its image under the fixed involution has trace zero. Thus allowing a nonidentity G_K component cannot realize this g on the full model pair. This is not a universal prohibition on lattice automorphisms or on forgotten-structure actions, and it does not overturn L017's auxiliary orbit result. Original ind2 identification, tensor/initial-data, ind3, pilot, essentiality and normalization remain unresolved. A future tensor test must use its prescribed lattice and constants rather than reinterpret this excluded full-pair lift.

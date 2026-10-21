@@ -1,0 +1,11 @@
+# Step 168 — bounded balanced-slot implementation, work checkpoint
+
+Approved target: Construct and independently check ordinary-basis Frege proof strings for L055 §5's balanced adjacent exchange and cancellation procedures, including logarithmic-depth and full-bit bounds.
+
+Prior SPECIALIZE assessment: `drafts/literature/2026-10-11-balanced-slot-frege-proof-string-test.md`. Main gap: unrestricted SAT decision/separation. Intermediate use: validate just the slot-rewrite component of the supplied-certificate receiver, not the receiver or missing certificate existence/ER representation/SAT transfer.
+
+One implementation attempt will emit primitive ax-1/ax-2/ax-3/MP proofs and translated NOT/OR proofs, independently reparse/check them, expose/restore root-cut pairs, and measure complete on-disk bytes/depth/nodes. No semantic truth-table rule will be allowed by the checker. Fixed tautology synthesis is restricted to constant-size schemas before growing-term substitution. Continue only on checked proofs and the logarithmic-depth/full-bit thresholds; preserve any failing fixed schema or slot instance. Finite success is not an all-size theorem.
+
+Input scope: L054 §5, L055 §5/§8, L053 §9 and L048 unconditional conventions. Existing history 166/167 and Attempt 018 checked; no local slot implementation was found in the scoped filename search. Prior unfinished edits are preserved. No cross-notebook mathematical input.
+
+Implementation completed as a local component advance. Canonical full proof/qualifications: L056. Eleven fixed schemas and seven two-format slot cases checked; eight corruptions rejected. Complete primitive strings retained losslessly, with uncompressed costs charged; certificate `scripts/balanced-slot/output/certificate.json`. Largest root-cut exchange: 47198 lines per format, native/image depth 29/53 and 40/94, bytes 393788203/589277437. Nontrivial root-cut cancellation passed at M=4; M=8 Z,Z prunes to reflexivity. Primary retrieval snapshots and hashes saved; direct shell DNS failure is recorded and creates no source dependency. Whole-receiver output and main gaps remain unresolved. Fixed a and supplied formal IPS identities remain eventual-receiver assumptions. Full matching Mathlib coverage is not checked. Next audit target is separately REVIEW_REQUIRED, not approved here.

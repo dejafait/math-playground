@@ -1,0 +1,9 @@
+# L066 changed-tail prime-five critical audit
+
+Approved target: Critically audit L066's changed-tail prime-five nonintegrality proof, unshifted coordinate match and complete modulo-25 certificate.
+
+Prior coverage: `drafts/literature/2026-10-13-survivor-prime-five-critical-audit.md`, SPECIALIZE. This is a RESEARCH/REPRODUCTION proof audit. The main gap is universal eventual descent. The intermediate target can validate only this allocation's integer obstruction; other allocations, arbitrary cycles and divergent trajectories remain unresolved. Stop after the literal tuple and modulus 25; a failed coordinate, input digest, arithmetic comparison or nonzero premise requires correction or an unresolved verdict, not a wider search.
+
+Inspected L066 and its complete generator; L055's complete J,H table; L056's formal offsets and unshifted coordinate passage; L064's exact changed-tail root, totals and positive Lambda; L065's literal tails/root; L058's valuation support and existing independent audit; histories 195–196 and Attempts 027–028. Reused ready primary composition and valuation assessments, without further browsing or a general coding reproof. No completed L066 audit was found in these targeted records.
+
+Completed verdict: no defect found. The canonical audit proof is in L066. The independent matrix/lifted-division calculation passes 125 comparisons, reconciles all original fields and source hashes, and confirms Phi=21, Delta=5 modulo 25. Full evidence is `scripts/postspell-word-count/survivor-prime-five-audit-certificate.json`; all 25 trace rows, lifted offsets, matrices, reconstructed original comparison operands, written table and empty failures were inspected. The written review checks the unshifted root identity, nonzero premises and both powering invariants. No stronger exclusion or new general theorem is claimed. Stop this audit here; changed-tail intact-order rigidity is proposed separately with REVIEW_REQUIRED coverage.

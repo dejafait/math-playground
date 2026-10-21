@@ -1,0 +1,9 @@
+# 2026-10-08 — Local-five completeness source comparison
+
+STEP_ID: beal-2026-10-08-090-local-five-source-comparison
+
+LITERATURE / EXPLORATION / NOVELTY_UNCHECKED: the [saved target assessment](../drafts/literature/2026-10-08-five-isogeny-local-five-image.md) is now SPECIALIZE. Newly inspected Schaefer–Stoll Section 5 local quotient-size/spanning criteria cover an unrestricted subgroup, while Cohen's Theorem 3.1 supplies a terminating general decision procedure, qualified in [foundation 16](../foundations/16-cohen-p-adic-decision-procedure.md). The restricted set need not be a subgroup, so spanning alone cannot certify it. This is theorem-coverage progress, not a local image, proper-subset proof, new lemma or advance beyond the sources. Mathematical exploration remains 1/3.
+
+The next mathematical attempt retains the exact target and must justify a faithful whole-algebra encoding or a complete certified local covering. Common power witnesses, every fiber isomorphism, projective charts and exceptional descent values remain essential. Equality would stop the filter; a universally excluded certified unrestricted class could show properness. A formulation alone leaves the comparison unfinished. Any restriction inherited solely from [L034](../lemmas/L034-modular-norm-constant-fifth-power-class.md) must be labeled reproduction rather than new primitive-power evidence. [ATTEMPTS/008](../ATTEMPTS/008-five-isogeny-audit-saturation.md) and [ATTEMPTS/009](../ATTEMPTS/009-five-isogeny-modular-norm-constant-class.md) retain their original scope. No global arithmetic, other-twist emptiness or Beal conclusion is established.
+
+No lemmas or mathematical scripts were edited or run; PROOF and DAG did not change. All existing unfinished work was preserved. Direct shell downloads failed DNS, but web access supplied the primary theorem hypotheses and relevant elimination cases, so no persistent source blocker remains for this bounded specialization.

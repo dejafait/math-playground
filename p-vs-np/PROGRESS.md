@@ -1,14 +1,20 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: 2026-10-04-33-shared-er-circuit-ips-assembly
+STEP_ID: 2026-10-21-404-full-map-obstruction-critical-audit
 STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: lemmas/L021-shared-er-original-axiom-circuit-ips.md assembles both formal original-axiom IPS identities with O(T⁴) shared gates and O(T⁵) total bits; scripts/shared-extension/assembly-results.json records 280 formal cases and fully framed used-extension output counts.
+STEP_EVIDENCE: Independent all-size informal audit finds no substantive defect in L103's source legality, realized distinct maps/formulas, materialized records or original-Q ledger; lemmas/L103-pathwise-full-map-normalization-obstruction.md. Validates an existing local input, with no stronger bound or verified implementation.
 STEP_KIND: RESEARCH
-STEP_CLASSIFICATION: POTENTIALLY_NEW
-STEP_REVIEW: drafts/literature/2026-10-04-shared-noncommutative-er-circuit-ips.md
-Bottleneck: No SAT algorithm, unconditional separation or main-problem candidate is established. ER now supplies polynomial-size original-axiom noncommutative circuit certificates, but the existing forward route takes trees. Circuit-to-tree conversion, all-certificate hardness, unrestricted proof lower bounds and decision transfer remain missing; arbitrary circuit identity checking is not supplied.
-Route decision: The screened circuit assembly succeeds. Assess the actual output polynomial on the preserved used-extension family before trying to convert it to a tree; large syntactic degree alone is insufficient. This is local progress potentially beyond the checked full-statement comparison, without certified originality. Preserve L019's literal stop, L018 and all earlier stops.
-Exploration turns used: 0
-NEXT_REVIEW: drafts/literature/2026-10-04-assembled-certificate-formal-degree.md
-Next action: Test the formal degree of L021's output certificate on L019's used-extension family as an obstruction to polynomial-size trees computing that same certificate.
+STEP_CLASSIFICATION: REPRODUCTION
+STEP_REVIEW: drafts/literature/2026-10-21-full-map-obstruction-critical-audit.md
+ACTUAL_TASK_TYPE: proof_audit
+Bottleneck: The specified full-map cache fails its universal polynomial ledger; unrestricted normalization, general short-proof availability, M-only bounds and SAT decision/separation remain unresolved.
+Route decision: Retain audited L103/Attempt 035 and preserve L101/Attempts 032–034. Move to a separately reviewed source-incidence-width supplier through L097, independent of the stopped normalization procedure.
+Exploration turns used: 0 mathematical EXPLORATION turns since this checked local input; no mathematics for the new continuation was attempted.
+NEXT_REVIEW: drafts/literature/2026-10-21-source-incidence-width-occurrence-witness.md
+Next action: Assess whether a supplied width-k incidence-tree decomposition of an unsatisfiable width-three source CNF yields L087's exact-fg witness in size and time 2^{O(k)}Q^{O(1)}, where Q=2+M+|F|+|decomposition| is fixed before construction.
+Continuation inputs: L087 exact occurrence construction/provenance/B/M and L097 ordinary-resolution receiver/full ledger; compare L071's distinct signed-value-graph promise and L096's small-core promise. REVIEW_REQUIRED for constructive incidence-width proof-size coverage and any graph conversion. Retain full decomposition records, original Q, actual fg and both formal identities. Small decompositions for arbitrary sources, general short proofs, M-only bounds and SAT transfer remain unproved.
+NEXT_TASK_TYPE: literature_comparison
+NEXT_MODEL_ROLE: standard
+NEXT_EFFORT: high
+NEXT_ROUTING_REASON: A materially different structural supplier needs exact primary theorem and constructive proof-record comparison before any derivation; reuse local receiver coverage and downgrade from the completed difficult audit.

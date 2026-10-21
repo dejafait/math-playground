@@ -1,0 +1,9 @@
+# Step 110 — 2026-10-08: faithful-defect converse source scope
+
+STEP_ID: 2026-10-08-110-faithful-defect-converse-source-comparison
+
+Completed one LITERATURE / NOVELTY_UNCHECKED / literature_comparison on the saved target in the [converse assessment](../drafts/literature/2026-10-08-faithful-defect-converse-scope.md). Six searches and primary hypothesis/proof-case checks across three theorem families found no inspected exact NP=coNP⇒V theorem. Cook–Reckhow retains a specified-system simulation premise; LTW retains supplied tree-like formula derivations; the newly inspected commutative IPS consequence definitions retain their ring and circuit format. This is bounded source evidence, not a proof that a converse is impossible or a certified novelty result.
+
+The reviewed [L042](../lemmas/L042-faithful-and-defect-witness-bound-consequence.md) forward implication remains unchanged. [L041](../lemmas/L041-boolean-zero-affine-abp-witness-bound-consequence.md)'s W names the precise fixed-format extra bound to examine. No W⇒V derivation was performed. Its [proposed applicability assessment](../drafts/literature/2026-10-08-boolean-zero-to-faithful-defect-bound.md) is REVIEW_REQUIRED for separate approval; this changes direction from an unsupported class-only converse to a concrete conditional aggregate-bound test. No source blocker remains for this comparison.
+
+Outcome EXPLORATION; mathematical exploration usage stays one after step 107. The main SAT gap, W/V and all constructors remain open. Existing unfinished changes and Attempts 020/021 are preserved; lemmas, mathematical scripts, DAG and PROOF are untouched. The proposed next turn is standard/medium literature comparison using recorded evidence, after which a ready scope should route to mathematics. Supervisor state and quotas are untouched.

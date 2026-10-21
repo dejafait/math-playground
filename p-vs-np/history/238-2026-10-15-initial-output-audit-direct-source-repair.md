@@ -1,0 +1,5 @@
+# Step 238 — direct-source assessment repair
+
+2026-10-15. STALLED / LITERATURE / metadata / NOVELTY_UNCHECKED. Repaired the supervisor-reported missing direct source URL in the [existing assessment](../drafts/literature/2026-10-15-initial-output-bridge-critical-audit.md), adding the versioned LTW PDF and exact Metamath basis pages to SOURCE_EVIDENCE. Reopened the cited theorem statements and basis assertions; retained homogeneous/constant-free and graph-convention qualifications, local applicability and unknown matching Mathlib coverage. Complete proof-case coverage is reused from step 211; no new mathematical evidence or archive/ledger verdict is claimed.
+
+The target and SPECIALIZE decision are unchanged. This is a process repair, not another scope approval; history 237 and Attempt 018 remain the duplicate/failure checks. Next perform the exact saved critical audit with inputs and exclusions in PROGRESS.md. No lemmas, scripts, PROOF or DAG changed; all unfinished work is preserved and mathematical exploration usage remains zero after step 236.

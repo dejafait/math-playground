@@ -2,19 +2,21 @@
 
 STATUS: IN_PROGRESS
 
-STEP_ID: 2026-10-04-gaussian-logarithmic-form-literature-01
-STEP_OUTCOME: EXPLORATION
-STEP_EVIDENCE: Read Matveev's Corollary 2.3 and cross-check its direct additive bound in Sha (2.19); its exponential dimension factor, prime heights and logarithmic coefficient norm fit L364's (LF) allowance. Essential source coverage is ready; no specialization or actual sign is derived. drafts/literature/2026-10-04-gaussian-logarithmic-form-return-assessment.md.
-STEP_KIND: LITERATURE
+STEP_ID: 2026-10-21-complete-first-mean-critical-audit-306
+STEP_OUTCOME: ADVANCE
+STEP_EVIDENCE: Independently validated L451's complete residual zeta(3)*kappa+O(1/log H), kappa>=111/272, including smooth distribution tests and every sufficiently large real H; local verification, not a new theorem beyond the checked sources. lemmas/L451-complete-first-mean-temporal-defect.md
+STEP_KIND: RESEARCH
 STEP_CLASSIFICATION: REPRODUCTION
-STEP_REVIEW: drafts/literature/2026-10-04-gaussian-logarithmic-form-return-assessment.md
+STEP_REVIEW: drafts/literature/2026-10-21-complete-first-mean-defect-critical-audit.md
+ACTUAL_TASK_TYPE: proof_audit
 
-Main bottleneck: global mixed reciprocal-zero positivity remains unproved. L320 needs a logarithmic initial segment of Laguerre signs, but L296's bands strictly above coefficient 1/4 leave low logarithmic and sublogarithmic indices open. Heights above forty and the endpoint arithmetic margin remain unresolved.
-
-Route decision: apply the now-screened Matveev input to L364 after writing its prime specialization; the source gap is resolved, while (LF) and actual sign transfer remain unassembled. Preserve the elementary worst-frequency, restricted-background and threshold-scan stops. The six bad regulators still only force ε_0<1/1000000; no new actual visit or sign is established.
-
-Exploration turns used: 0 of 3, unchanged by this literature turn. The reviewed arithmetic input is known; the later application is a reproduction, with no originality beyond the checked sources or RH candidate claimed. Actual-zeta ranges, L357's absolute-error limit, and the ε→0 negative-sign quantifier remain unchanged.
-
-LITERATURE_REASON: The saved REVIEW_REQUIRED target needed the exact primary logarithmic-form statement and dimension growth before applying L364; Matveev's Corollary 2.3 and readable author-PDF cross-checks now resolve that need. Blocked Baker–Wüstholz access is an unused lead and is parked.
-NEXT_REVIEW: drafts/literature/2026-10-04-gaussian-logarithmic-form-return-assessment.md
-Next action: Specialize Matveev's Corollary 2.3 to L364's (LF) and apply its joint-window criterion to settle the Gaussian family's common global-first-sign threshold.
+Main bottleneck: Global mixed positivity remains unproved; the verified L451 defect excludes realization with L449's complete means fixed independently of covariance feasibility.
+Route decision: Retain the fixed-mean stop and all selected-law constraints. Propose a changed bounded translation as a distinct first-moment feasibility test; source coverage is pending, with no new mathematics approved or attempted.
+Exploration turns used: 0 of 3 after step 304's informative NEGATIVE; this critical audit spends no mathematical exploration turn.
+Continuation inputs and unresolved assumptions: Use L419's exact b,b0, L438's V=pY+k_+Z_++k_-Z_- and w (retaining L421/L437 branches), L443's ordinary jet dynamics, L449's fixed rare components and original L429 cutoff, and audited L451. Seek a uniformly bounded replacement m_tilde with U=V+w*m_tilde satisfying both distributional jet identities and E_H b^T U=-b0 for every sufficiently large real H. Existence, branch regularity and uniform bounds are unproved; covariance/support and all selected moment preservation after a change remain separate. Actual/global realization, clipping, capped nondegeneracy, L413 margin and mixed positivity remain open.
+NEXT_REVIEW: drafts/literature/2026-10-21-bounded-translation-first-jet-compatibility.md
+Next action: Test whether a uniformly bounded replacement bulk translation can satisfy both complete first-moment jet transport identities and the exact negative first-B calibration, keeping L449's rare components and cutoff fixed.
+NEXT_TASK_TYPE: literature_comparison
+NEXT_MODEL_ROLE: standard
+NEXT_EFFORT: high
+NEXT_ROUTING_REASON: The changed-translation target is REVIEW_REQUIRED; compare the precise bounded weak-ODE/calibration problem and branch hypotheses with known results before a mathematical attempt, reusing the occupation sources.

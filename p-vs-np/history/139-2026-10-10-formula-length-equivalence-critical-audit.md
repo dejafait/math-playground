@@ -1,0 +1,9 @@
+# 2026-10-10 — Independent L048 formula-length audit
+
+STEP_ID: 2026-10-10-139-formula-length-equivalence-critical-audit
+
+Completed RESEARCH / REPRODUCTION / proof_audit under the prior SPECIALIZE [audit assessment](../drafts/literature/2026-10-10-formula-length-equivalence-critical-audit.md). The independent checks in [canonical L048](../lemmas/L048-formula-length-abp-clause-product-bound-equivalence.md) found no substantive error in the complete cubic dictionary ledger, common A-position names, C046a/L047 receiving hypotheses, single-polynomial all-UNSAT quantifiers or boundary cases. The [work note](../drafts/2026-10-10-formula-length-equivalence-audit-work.md) preserves the preliminary checkpoint. No new source retrieval, component reproof, mathematical script or implementation certificate was needed.
+
+Outcome EXPLORATION records a new verification test of the existing equivalence, not a new theorem or error repair. Mathematical exploration usage is one since step 137. Neither size premise or main-problem conclusion follows; no originality or progress beyond the checked sources is claimed. The argument and direct inputs are unchanged, so PROOF.md and DAG.md remain intact. The canonical audit supersedes the overview's historical pending-audit wording. Existing changes, unfinished work and Attempts 018/020/021 remain preserved.
+
+The [new Frege-strength comparison](../drafts/literature/2026-10-10-formula-bound-frege-strength-comparison.md) is REVIEW_REQUIRED. Its purpose is to locate the missing proof-system-strength direction behind the audited size obligation, distinguishing Frege from EF/ER and polynomial from quasipolynomial simulations. No implication or source approval for that target was performed. General ER-to-affine-ABP representation, either size premise, W/V/U, fidelity, ER boundedness and unrestricted SAT transfer remain open; STATUS stays IN_PROGRESS.

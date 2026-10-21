@@ -1,0 +1,13 @@
+# Charge-seven finite/unramified map — source-review working record
+
+2026-10-06. Literature-only target: Assess whether L062 and L063 force the conditional classifying map to be unramified and finite onto its scheme-theoretic image.
+
+Main gap: universal primitive Hodge algebraicity. Intermediate threshold: primary stable coarse-moduli deformation compatibility and scheme-morphism criteria cover this actual conditional family. Downstream use: constrain global image geometry of a prospective F. Continue only if all theorem hypotheses are covered; otherwise isolate the missing implication. No new result is derived here.
+
+Preserved inputs: L044 projective S; L060 conditional actual F and stable charge-seven restrictions; L062 pointwise Kodaira--Spencer injectivity; L063 one-H global algebraic placement. Read their relevant hypotheses/conclusions, L062 local-moduli passage and L063 actual-flat-family/coarse-map passage. Local exact-claim searches found no existing finite/unramified consequence. ATTEMPTS/044--045 stop different character and projective-lift mechanisms, not this one. Earlier placement and family-form assessments remain applicable to their antecedents.
+
+Inspected primary evidence so far: Huybrechts--Lehn (1997), Theorem 4.5.1 and its full etale-slice proof, Corollary 4.5.2, printed p. 101 (PDF index 112). The natural map from the sheaf deformation functor to the completed stable coarse-moduli functor is an isomorphism; tangent space is canonically Ext^1. Stacks Tags 0B2G (equal-residue-field tangent criterion), 01W6 (proper source/separated target), 02OG (proper finite-fibre morphism over locally Noetherian base), and 01R5 (scheme-theoretic image statements/proofs) inspected. Still inspect scalar-automorphism quotient context, the unramified open locus/all-points passage, quasi-finiteness, and factorization property. No application is claimed while these checks are pending.
+
+Independent unresolved assumptions: F existence, global injectivity, embedding, inverse/reconstruction, metric equality and transverse transport. No fine-moduli or v-genericity assumption; no projectivity of the stable open is supplied. No lemma or mathematical script is written.
+
+Completed: the canonical literature assessment now records full essential coverage and SPECIALIZE. Scalar quotient and natural deformation passages, unramified openness/quasi-finiteness, properness, finite morphism and image factorization criteria were inspected. General finiteness Tag 02LS avoids needing the weaker Noetherian variant. No map consequence was derived. PROGRESS.md preserves the original exact target for a separately approved mathematical application. No lemma or mathematical script changed.

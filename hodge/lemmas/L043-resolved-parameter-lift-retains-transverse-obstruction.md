@@ -437,44 +437,204 @@ id_S. Compose (6) with it. This identifies the two
 factors; it was not assumed at the start.
 
 **Recover only the punctured embedded family, then C.**
-Let Q contain q_1,q_2,q_3 and the finite images of any
-extra blowup centres. Over S_A minus Q, p_A is now an
-isomorphism. The pullback of the universal subscheme
-by f_A is finite flat of degree three over B_A and a
-closed subscheme of B_A x_A S_A. On this open it gives
-an A-flat embedded lift of Y in the same S_A x_A S_A.
-No assertion is made about an embedded flat pushforward
-at Q, about the image scheme of f_A, or about a
-simultaneous normalization of the universal family.
+The separate critical audit of this passage on 2026-10-15 uses the
+unchanged hypotheses above and the supporting sources below. It finds
+no substantive error or stronger conclusion. The following details
+make explicit the application at arbitrary extra blowup centres;
+they do not assert an extension theorem for arbitrary subschemes.
 
-The necessity argument in L009 works on this puncture.
-The diagonal sheet selected by its lifted idempotent
-defines a vector field on the complement of F_+, F_-
-and Q. Its local node equations give at most simple
-base-direction poles along F_+ and F_-. Hartogs extends
-it as a section of T_S(F_++F_-) across Q, including
-points of Q lying on either fibre. Its projection to
-the elliptic base is a section of O_{P^1}(4) vanishing
-at the 21 nodal values, so is zero. The polar residues
-then vanish, and H^0(S,T_S)=0 forces the sheet to be
-the actual relative diagonal on the puncture.
+Let Q contain q_1,q_2,q_3 and the finite images in S of all extra
+blowup centres, including infinitely near centres. Write U=S\Q.
+The open U_A of S_A is defined by its underlying topological open U;
+no choice of moving sections through Q is needed. The preceding
+blowdown and period arguments identify p_A^{-1}(U_A) with U_A.
 
-L009's local colon calculation extracts an A-flat C
-there, without a colon-flatness claim at an omitted
-point. By L008, N_C=nu_*N_j with W smooth and N_j a
-vector bundle. Removing finitely many first-factor
-points removes only finitely many points of W, since
-W -> S is finite. Hartogs for N_j extends the local
-ideal-deformation sections uniquely. L007's
-ideal-parametrization, as used in L009, then glues a
-flat embedded lift of C in all of S_A x_A S_A.
-L008 forces kappa in V_D. This proves (1).
+First check the actual central subscheme. The opening local models
+make Y_U a closed finite flat family of degree three, including the
+nonreduced length-two fibres of C's branched projection and the
+length-two diagonal crossings. Its Hilbert map h:U -> S^[3] agrees
+with f p^{-1} on the dense distinct-support open: there a cycle of
+three distinct points has a unique length-three subscheme. Both maps
+are defined on reduced U and the Hilbert scheme is separated, so
+they agree on all of U. More explicitly, the ideal of their equalizer
+vanishes on a dense open and hence vanishes on the reduced source.
+Thus central agreement is agreement of universal families, not merely
+agreement of support cycles at collision points.
 
-This is the additional implication missing when merely
-citing L009: all source motions have been accounted
-for, their blowdown period has been compared with the
-target period, and only a punctured embedded family
-has been used before the justified Hartogs passage.
+Pull back the actual relative universal family by f_A and restrict
+to this open. By the defining points functor, [Stacks Section 44.2,
+Tag 0B94](https://stacks.math.columbia.edu/tag/0B94), it is a closed
+subscheme Z_U of U_A x_A S_A finite locally free of degree three over
+U_A. Pullback preserves flatness ([Stacks Lemma 10.39.7, Tag
+00HI](https://stacks.math.columbia.edu/tag/00HI)); since U_A is A-flat,
+transitivity ([Lemma 10.39.4, Tag
+00HC](https://stacks.math.columbia.edu/tag/00HC)) makes Z_U A-flat.
+Its reduction is the actual Y_U just checked. The analytic statement
+uses the proper flat universal family in the Hilbert/Douady functor,
+as stated in Buchweitz--Flenner, *A Semiregularity Map for Modules and
+Applications to Deformations*, arXiv:math/9912245v1 (31 December 1999),
+[printed p. 49](https://arxiv.org/pdf/math/9912245v1#page=49), together
+with the relative Hilbert framework above. There is no flat-image
+claim over Q or on the image of f_A.
+
+**The diagonal component and all extra punctures.** On
+U\(F_+ union F_-), the central diagonal is an open-and-closed
+component of the finite family. Idempotents lift uniquely through
+the square-zero reduction ideal ([Stacks Lemma 10.32.6, Tag
+00J9](https://stacks.math.columbia.edu/tag/00J9)). Its lifted summand
+is a direct summand of the finite locally free algebra, hence locally
+free; its central rank is one. Its unit map from O_{U_A} is an
+isomorphism, since locally it is a map of free rank-one modules whose
+reduction is an isomorphism. This proves that the component is the
+graph of a map reducing to id. Because both factors are the same
+S_A, subtracting id and dividing by epsilon gives an intrinsic
+section v of T_S on this open. No sheet separation at an intersection
+is inferred from idempotents.
+
+At each point of (F_+ union F_-)\Q, use L009's same-factor coordinates
+r=u_2-u_1, s=u_2+u_1, z=w_2-w_1. The two meeting sheets have central
+ideal (z,rs); the third sheet is disjoint locally. A flat embedded
+first-order lift has generators
+
+\[
+ z-\epsilon\alpha,\qquad rs-\epsilon\beta,
+ \qquad \alpha,\beta\in O/(z,rs).
+\]
+
+This is L007's ideal parametrization, equivalently the non-lci-valid
+Hom description of [Buchweitz--Flenner, Lemma 7.6, printed
+p. 50](https://arxiv.org/pdf/math/9912245v1#page=50); no properness
+assumption is needed for that description. On the diagonal away
+from u=0 it gives
+
+\[
+ v={\beta_\Delta\over 2u}\partial_u
+          +\alpha_\Delta\partial_w.
+\]
+
+Consequently v is a section of the *existing* bundle
+T_S(F_++F_-) over S\Q, with possible simple poles only in the
+base direction. Extend this section through each point of Q by
+coefficientwise Hartogs in a local bundle frame. Algebraically use
+[Stacks Lemma 15.24.18, Tag
+0AVB](https://stacks.math.columbia.edu/tag/0AVB); analytically use
+Lebl, *Tasty Bits of Several Complex Variables*, version 4.4
+(31 May 2026), [Theorem 2.1.4 and Corollary 2.1.5, printed
+pp. 49--50](https://www.jirka.org/scv/scv.pdf#page=49).
+The smooth surface has complex dimension two and Q is finite, so
+these are precisely isolated-point coefficient extensions. In
+particular a point of Q on F_+ or F_- creates no additional pole:
+the extension is first made in the twisted bundle, not in T_S.
+
+Connected fibres and the projection formula make dpi(v) a section
+xi of T_{P^1}(t_++t_-)=O_{P^1}(4). At all 21 finite nodal values,
+including when the node belongs to Q, the extended v is regular:
+these fibres are disjoint from the twisting fibres. In smooth surface
+coordinates pi-t_0=xy at the node, dpi is zero there. Hence xi
+vanishes at each of those distinct values and is zero. On each
+intersection chart outside Q the displayed formula now gives
+beta_Delta=0 and no polar part. Thus v is regular on S\Q and a
+second Hartogs application, this time to T_S, makes it a global
+holomorphic vector field. Contraction with the K3 two-form and
+H^0(S,Omega_S^1)=0 imply v=0. This also treats extra centres at
+ordinary smooth points and at the nodal fibres without losing any
+of the zero-count constraints.
+
+The actual relative diagonal is therefore contained in Z_U
+scheme-theoretically, not just on its reduction. Indeed the image
+of any local section of I_{Z_U} in O_{Delta_{U_A}} has zero reduction,
+so belongs to epsilon O_{Delta_{U_A}}, naturally identified with
+O_{Delta_U} by A-flatness. Its coefficient vanishes on the dense
+open where the graph was selected. The smooth reduced surface U
+has no nonzero regular (or holomorphic) function with that property.
+Thus the image is zero everywhere on Delta_{U_A}. This argument
+uses no family or containment over the omitted Q.
+
+**Residual equations and flatness only where defined.** At the two
+intersection curves outside Q, this containment forces the central
+classes alpha and beta to be multiples of r in O/(z,rs). Changing
+generators puts the actual ideal into L009's form
+
+\[
+ J_A=(z-\epsilon r a,\ r(s-\epsilon b)).
+\]
+
+Its colon by the actual diagonal ideal (z,r) is
+
+\[
+ J_A:(z,r)=(z-\epsilon r a,\ s-\epsilon b).
+\]
+
+To check the colon, first quotient by z-epsilon r a. The resulting
+ring is A\{r,s,w\} (or its formal completion), the image of (z,r)
+is (r), and that of J_A is (r(s-epsilon b)). Multiplication by r
+is injective in this power-series ring over A. Cancelling r proves
+the displayed equality. The residual equations have independent
+central differentials dz and ds, so the relative coordinate change
+(z,s) -> (z-epsilon r a,s-epsilon b) identifies the quotient locally
+with A\{r,w\}; it is A-flat. This verifies the actual quotient,
+not an assertion of flatness for arbitrary colons.
+
+Away from the diagonal, its ideal is the unit ideal and the residual
+is Z_U. Near points of the diagonal away from C the lifted component
+is exactly the diagonal, so its colon is the unit ideal and the
+residual is empty. These cases cover the whole punctured support:
+C is smooth away from its three singular points over q_i. Colon is
+intrinsic, so these local residuals glue to an A-flat embedded lift
+C_{U,A} of C restricted to U x S. All q_i are omitted; no colon is
+taken at a three-branch point for the flatness argument.
+
+**Extend ideal parameters, then check their transitions.** Put
+P=C intersect (Q x S). It is finite because g_0:W -> S is finite
+and nu:W -> C is surjective; its preimage in W is finite as well.
+The open restriction of C is C\P, even though the removed ambient
+set Q x S has positive dimension. L008 identifies
+
+\[
+ N_C=\mathcal Hom(I_C,O_C)=\nu_*N_j,
+\]
+
+where W is smooth and N_j is already a rank-two vector bundle.
+Consequently restriction of sections of N_C across P is an
+isomorphism locally: pull to nu^{-1} of the neighbourhood, extend
+bundle coefficients through its finitely many omitted points, and
+push forward. Use the same Hartogs citations as above on W, not
+normality or smoothness of C. This covers both ordinary points of
+C over extra centres and its three non-lci double points.
+
+Choose small smooth ambient charts V_i trivializing X_A=S_A x_A S_A
+and reducing to the given charts of X=S x S. In each chart the
+constant ideal I_C provides a reference flat lift. L007's formula
+then identifies C_{U,A} on the puncture with a section phi_i of
+N_C there. Extend it uniquely to phi_i on all of C intersect V_i.
+For completeness, the reconstructed ideal consists locally of
+f+epsilon g with f in I_C and g modulo I_C equal to phi_i(f).
+Linearity makes it an ideal; its intersection with epsilon O_X is
+epsilon I_C. Thus its quotient satisfies ker(epsilon)=epsilon M
+and is A-flat by the square-zero case of [Stacks Lemma 10.101.6,
+Tag 051K](https://stacks.math.columbia.edu/tag/051K). This uses the
+full Hom module and imposes no lci condition.
+
+On an overlap two ambient trivializations differ by
+1+epsilon D_ij, with D_ij a regular ambient derivation. The
+corresponding parameter difference is delta(D_ij), the everywhere
+defined normal section obtained by restriction to I_C modulo I_C,
+with the same sign convention as L007. This equality holds on the
+puncture because the original ideals glue. Uniqueness of extension
+in nu_*N_j forces the equality also at P. Hence the reconstructed
+ideals glue in the actual X_A, independently of trivializations.
+This is the transition check needed to extend a torsor of local
+lift parameters; no global ambient trivialization is assumed.
+The analytic construction is a coherent ideal on the compact
+ambient deformation, and suffices directly for the allowed analytic
+scope (with proper GAGA in the algebraic case).
+
+We have recovered a flat embedded lift of C in the same
+S_A x_A S_A. L008 therefore forces kappa in V_D, proving (1).
+The central lift, all-source blowdown and marked period comparison
+remain the earlier inputs; this audit verifies only the subsequent
+punctured recovery. It finds no new exclusion or independent
+construction and does not reopen the stopped resolved-lift recipe.
 
 **The three permitted directions occur.** In the actual
 Dickson family, the finite normalization maps and g
@@ -536,3 +696,9 @@ it is no certified new discovery. Excision for point-blowup
 cohomology, the local flatness criterion and Nakayama remain
 supporting inputs. No library absence or general Hodge
 resolution is asserted.
+
+The 2026-10-15 residual audit specializes the cited Hilbert/Douady,
+idempotent, embedded-Hom, flatness and Hartogs inputs. Full matching
+Mathlib coverage remains **not checked**. The explicit application above
+is classified REPRODUCTION; no stronger result or certified originality
+is claimed.

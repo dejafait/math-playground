@@ -1,14 +1,20 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: rsld-2026-10-04-027-cubic-cofactor-sieve-negative
+STEP_ID: rsld-2026-10-21-400-weighted-triangle-critical-audit
 STEP_OUTCOME: NEGATIVE
-STEP_EVIDENCE: L016's cubic/cofactor cap exceeds 320297 times threshold; rational refinement exceeds 294741. The exact cofactor norm shows the constant-weight absolute-sum allowance alone exceeds 35496 times threshold even with exact cofactor magnitudes. This stops that estimate, not the family. Evidence: lemmas/L016-cubic-cofactor-sieve-cap-and-limitation.md; scripts/coefficient-fibers/cubic-cofactor-upper-results.json.
+STEP_EVIDENCE: Independent symbolic audit and 580 exact checks retain L107's limited theorem-application stop, including all 69 coordinates and unique c_5 maximum; no new infeasibility theorem. Evidence: lemmas/L107-global-weighted-triangle-deficit-obstruction.md and scripts/finite-support/weighted-triangle-deficit-critical-audit.json.
 STEP_KIND: RESEARCH
 STEP_CLASSIFICATION: REPRODUCTION
-STEP_REVIEW: drafts/literature/2026-10-04-degree-sixty-seven-linear-cofactor.md
-Bottleneck: The degree-67 dictionary is exact, but neither averaging nor the screened upper cap decides its maximum at 66 agreements. The arbitrary-center maximum and sharp boundary remain open. Rate-1/16 t_star<=958 and other rate bounds 509,765,893 are unchanged; ABF26 comparison and general-interpolant cover remain missing.
-Route decision: Stop the constant-weight cubic sieve followed by absolute cofactor summation. Assess a correlated-error mechanism before further calculations; its source coverage is REVIEW_REQUIRED. Preserve the dictionary, degree-66 stop and averaging failures. This is a negative reproduction of known tools, with no candidate or novelty claim. Persistent source blockers stay parked.
-Exploration turns used: 0/3; this upper test supplied an informative NEGATIVE result, not an exploratory or stalled repeat.
-NEXT_REVIEW: drafts/literature/2026-10-04-correlated-cubic-cofactor-error.md
-Next action: Test whether averaged correlations between the cubic subgroup cycle sums and the complete residual-factor sum give a uniform degree-67/66-agreement list bound below 65537^28/2^128 on the fixed order-1024 subgroup.
+STEP_REVIEW: drafts/literature/2026-10-21-weighted-triangle-deficit-audit.md
+ACTUAL_TASK_TYPE: proof_audit
+Bottleneck: Arbitrary-center 68/67 safety and unrestricted fixed-pair shared-triple scalar feasibility remain open; L107 now has an independently audited theorem-application stop only.
+Route decision: Park common normalization; propose a distinct triangle-cone dual test for separate source approval. Preserve ATTEMPTS/081–082,088–090 and all numerical-run stops; do not repeat the already completed L100 audit.
+Exploration turns used: 0 mathematical EXPLORATION turns added; exhausted translated-pole closure remains 3/3. This audit supplies independent negative verification, not a new mechanism result.
+NEXT_REVIEW: drafts/literature/2026-10-21-distance-dependent-triangle-dual.md
+Next action: Test whether a distance-dependent triangle-cone dual separates L098's fixed distinct-pair demands while retaining every realizable distance triple.
+Continuation inputs and qualifications: REVIEW_REQUIRED; next turn is literature-only. Inputs L021,L098,L105–L107, foundations/04,12,13 and the completed unrestricted-scalar comparison; inspect weighted Farkas applicability, full actual triangle coverage and null edges before deriving any dual. Retain exact N,c_i,H, both repetitions and unordered multiplicities. No distance-only triple lift is assumed. Capacities, t-s consistency, PSD, other pairs, support/RS realization and 955–957 remain unresolved.
+NEXT_TASK_TYPE: literature_comparison
+NEXT_MODEL_ROLE: standard
+NEXT_EFFORT: high
+NEXT_ROUTING_REASON: Reuse the inspected finite Farkas source to assess one new weighted invariant-dual scope; theorem comparison is needed before a bounded exact test, with no new calculation this turn.

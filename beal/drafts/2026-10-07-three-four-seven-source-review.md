@@ -1,0 +1,11 @@
+# Poonen–Schaefer–Stoll source review
+
+Target: the exact source-scope action in drafts/literature/2026-10-07-three-four-seven-classification-scope.md. This is a literature-only step; no finite square test or new exclusion is being proved.
+
+The MIT author PDF, https://math.mit.edu/~poonen/papers/pss.pdf, is accessible. Its first page identifies the July 16, 2006 author version of the article published in Duke Mathematical Journal 137 (2007), no. 1, 103–158. Theorem 1.1 defines primitivity by gcd(x,y,z)=1 and gives the complete 16 signed integer triples. Section 3.4 explicitly warns that one auxiliary curve's full rational-point set is not determined: only the subset relevant to primitive integral solutions is needed. Essential pending reads are the complete reduction, its C5 subset restriction, the unconditional rank/computational scope, and the final subset sieve. The prospective perfect-square filter remains unperformed. No source blocker has occurred.
+
+Local searches found no earlier import for this signature. ATTEMPTS/005–007 concern independent parked mechanisms; they do not obstruct this classification review. Existing notebook edits are preserved.
+
+Completed 2026-10-07 as step 069. The [completed scope assessment](literature/2026-10-07-three-four-seven-classification-scope.md) retains all 16 triples, precise source/version details and the inspected completeness qualifications. Section 13.7 closes the C5 relevant subset after proving the subgroup index prime to 14; the source does not need a conjectural determination of the entire C5 rational-point set. The finite application is specified in [the next assessment](literature/2026-10-07-three-four-seven-finite-specialization.md), pending separate approval. The source result is known; this is local coverage progress only. No new lemma, mathematical script, finite filter or exclusion was produced.
+
+Access note: a shell curl attempt failed DNS resolution; the browser tool successfully retrieved the author PDF and essential ranges, so no essential source remains blocked. The arXiv landing page is version metadata only. The scope assessment records the extraction inconsistency in the C1 auxiliary prose and does not silently repair or rely on that displayed list.

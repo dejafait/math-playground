@@ -1,0 +1,7 @@
+# 2026-10-07 — Paired-container critical audit
+
+One gate-approved mathematical audit retains [L025](../lemmas/L025-source-paired-actions-do-not-preserve-trace-zero-container.md) with unchanged hypotheses and conclusion. Its canonical audit subsection records source-word transport, complete integral action, residual irreducibility, same-space homothety, full logarithm-image evidence and the forward determinant-one witness. The dedicated finite checker passed all 351 printed-table congruences and selected exact coefficient checks; its certificate is `scripts/coarse-ideal/l025-log-table-audit.json`. Analytic completeness and the group/lattice proof were checked separately.
+
+Outcome EXPLORATION, classification REPRODUCTION: verification of the existing specialization, with no new theorem, stronger bound or repaired mathematical error. This uses one mathematical exploration turn since L025's advance. All prior work and stops remain preserved; PROOF.md and DAG.md need no change. Original finite B>=A and the input/native/essentiality bridges remain unresolved.
+
+Next direction: separately review coverage for the exact paired-subgroup orbit of (pi I) intersect ker(Tr), recorded as REVIEW_REQUIRED in `drafts/literature/2026-10-07-paired-envelope-orbit.md`. That target directly addresses the missing envelope membership without prescribing reciprocal coordinates. No mathematical extension or approval of that target occurred here.

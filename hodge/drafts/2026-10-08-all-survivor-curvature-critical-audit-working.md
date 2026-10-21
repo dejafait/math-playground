@@ -1,0 +1,13 @@
+# All-survivor curvature critical audit — working checkpoint
+
+2026-10-08. Approved exact target: Test whether a direct mixed-curvature identity excludes every L052 survivor with the fixed tensor tau_D, allowing reducible factor restrictions.
+
+Prior coverage: drafts/literature/2026-10-08-all-survivor-mixed-curvature-sign.md (SPECIALIZE). This is one RESEARCH / proof_audit, classification REPRODUCTION. Supplied overview/DAG/assessment read; active-notebook uncommitted work preserved.
+
+Main gap: universal primitive rational Hodge-class realization. Intermediate target: critically audit L070's all-survivor necessity test, whose downstream use is deciding whether pure factor-point corrections rescue the fixed-tensor bundle recipe. Continue the exclusion only if every curvature block, full unitary centre, quaternionic scale, ordered exterior sign and actual-form/cohomology bridge is controlled. A surviving uncontrolled contribution or a compatible sign abandons this exclusion. Other representatives and transverse transport remain independent gaps.
+
+Inputs read: full L070; L052 hypotheses and coefficient-independent connection passage; L069 complete oriented-frame table and frame identity; L062 ordered square/factorial and actual-form passage. Historical narrower stop: history/147 and ATTEMPTS/048; new first-write-up stop: history/149 and ATTEMPTS/049. The ready literature assessment is reused without extra source discovery.
+
+Audit in progress: independently enumerate all nine curvature-block products by fibre degree. Only R_B R_Y, R_Y R_B and R_m^2 can contribute; coefficientwise R_Y wedge omega_L=0 kills the first two even with y-dependent noncommuting coefficients. Ordered mixed evaluation is -2 Tr(r_u wedge r_w). Division by 2(2pi i)^2 therefore gives +(4pi^2)^(-1) times the traced wedge, hence -G(L_c r_u,r_w). Negative unitary trace is positive on the full centre too. Remaining checks: the quaternionic matrix, real/complex projection and actual-form equality. No mathematical scripts are needed for this symbolic audit.
+
+Completed audit: L070 now contains the canonical independent block enumeration and sign test, the full central check, quaternionic matrix argument, projection/factorial check and actual-form/transpose verification. All survive. No substantive error or stronger result was found. Outcome EXPLORATION / REPRODUCTION; no mathematical script or new lemma was created. The fixed-tensor pure-correction stop is retained. A distinct sign-reversed mixed-tensor necessity test is proposed only for separate literature assessment, with no numerical conclusions or bundle-existence inference made in this turn.

@@ -1,0 +1,7 @@
+# 2026-10-06 — Fixed HWB roots with Boolean/commutator-only witnesses
+
+STEP_ID: 2026-10-06-54-hwb-boolean-only-source-comparison
+
+Completed the saved source comparison as LITERATURE / literature_comparison / NOVELTY_UNCHECKED, outcome EXPLORATION. [The assessment](../drafts/literature/2026-10-05-hwb-boolean-only-relations.md) now records exact primary correction hypotheses/proof cases, newer symmetry leads and their limits, and local duplicates/Attempts 017/019. FSTW's commutative roABP corrections and LTW's formula commutation witnesses are supporting results; no inspected theorem supplies the full fixed-root shared free-ring witness statement. Newer symmetric refutation/symmetrization statements do not close that difference, and their reading limits are explicit.
+
+The unchanged target is ready under EXPLORE for one bounded correction-table construction on the fixed counter/selector/prefix roots of [L028](../lemmas/L028-hwb-reduced-original-axiom-data.md), retaining L027's gate order, L020's axiom convention and L025's full E,d,h requirements. All polynomial witness bounds remain unproved. Clause placeholders, exponential unfolding or uncontrolled state/degree growth stop that mechanism. This is fresh actionable source coverage, not a new lemma or progress beyond the checked mathematics. Mathematical exploration usage stays one; no lemma, mathematical script, DAG edge or proof assembly changed, and unfinished work is preserved.

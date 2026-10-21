@@ -1,0 +1,5 @@
+# Primitive whole-fiber nonexistence at three — stopped
+
+2026-10-10. [L047](../lemmas/L047-three-adic-canonical-whole-fiber-realization.md) supplies exact common primitive three-adic witnesses and identifies their entire fiber with K tensor Q3 by canonical-fiber base change. The proof specializes the assessed FNS local pair. The separate critical application audit confirms the strict Hensel inequalities, common witnesses, invariant cancellation and entire-fiber base change without a correction.
+
+WHY IT FAILS: Nonexistence of primitive three-adic whole-fiber realizations is contradicted by this single exact witness. The square-coordinate, common-c and canonical-scalar checks now meet the existence threshold. This retires only that nonexistence mechanism. No three-adic class-image equality, global intersection, branch emptiness or integer solution follows. Reopening this mechanism requires a specific defect in the realization; testing a different class condition or twist would be an independently assessed target. Preserve ATTEMPTS/008–014 and the unfinished global arithmetic.

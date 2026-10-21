@@ -1,0 +1,9 @@
+# 2026-10-10 — Arbitrary-ABP replacement source comparison
+
+STEP_ID: 2026-10-10-124-arbitrary-abp-pathwise-linear-source-comparison
+
+Completed one LITERATURE / NOVELTY_UNCHECKED / literature_comparison for the saved target. The [assessment](../drafts/literature/2026-10-10-arbitrary-abp-pathwise-linear-replacement.md) records ten actual queries, primary statements and essential proof cases, versions/pages and reused coverage. The comparisons identify commutative formula/circuit linearization and common-order matrix telescoping; neither was imported as the requested free-algebra affine-graph replacement. No exact match, impossibility or novelty claim was established, and no essential source remains blocked.
+
+Outcome EXPLORATION records this new scope evidence and approval of one bounded test, not a new mathematical result. The unchanged target now has EXPLORE coverage, subject to separate next-turn supervisor approval. Mathematical exploration usage remains one since step 121. No lemma or mathematical script was written; DAG and PROOF.md remain unchanged because the argument did not change. Audited L045, L041's bounded original-axiom interface and Attempts 018/020/021 are preserved, along with all pre-existing unfinished changes.
+
+The next proof attempt must establish the ordered replacement equality, both IPS identities, the exact pathwise promise and one fixed polynomial complete bit bound for arbitrary nonlinear/mixed labels and endpoint cases. Continue only when all obligations hold; a specific order/endpoint failure or compulsory superpolynomial copying stops this mechanism rather than all alternative certificates. A successful replacement could extend L045's receiving scope, while general ER-to-ABP representation, ER polynomial boundedness, W/V/U, faithful data and unrestricted SAT decision/separation remain unresolved. Recommended routing is proof_attempt / deep_research / high for this single bounded attempt.

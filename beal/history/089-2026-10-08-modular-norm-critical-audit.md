@@ -1,0 +1,7 @@
+# 2026-10-08 — Independent modular-norm audit
+
+STEP_ID: beal-2026-10-08-089-modular-norm-critical-audit
+
+RESEARCH / EXPLORATION / REPRODUCTION: [L034](../lemmas/L034-modular-norm-constant-fifth-power-class.md), critical-audit subsection, verifies the original norm, scalar, exceptional fibers and whole-field specialization without a mathematical correction. The independent [audit](../scripts/five-isogeny-modular-norm/audit_norm.py) uses quotient multiplication matrices and rational Gaussian elimination; all 20 checks pass in its full certificate. Source coefficients and existing theorem hypotheses were rechecked within approved scope. This is verification of an existing specialization, not a new restriction or progress beyond checked sources. Mathematical exploration usage is 1/3.
+
+[ATTEMPTS/009](../ATTEMPTS/009-five-isogeny-modular-norm-constant-class.md) remains in force: a constant class fails the nonconstant-class threshold. No branch is excluded. The next target compares the simultaneous power-condition image at 5 with the unrestricted local connecting image, avoiding the missing global unit/class basis; the [new assessment](../drafts/literature/2026-10-08-five-isogeny-local-five-image.md) is REVIEW_REQUIRED. Only that separate source comparison is queued, with no local calculation or approval this turn. All prior work and the global arithmetic blockers remain preserved; STATUS stays IN_PROGRESS.
