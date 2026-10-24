@@ -1,0 +1,40 @@
+--- step-433/worker.py
++++ step-437/worker.py
+@@ -12,12 +12,12 @@
+     return result
+ 
+ def identity_for(index, output):
+-    fixed = (Path('scripts/four-rational-kernels/step-431') / ('n-' + str(index))).resolve()
+-    return (index, str(fixed), str(Path(output).resolve()), 'fixed_replay_433_' + str(index), hashlib.sha256((fixed / 'replay.py').read_bytes()).hexdigest())
++    fixed = (Path('scripts/four-rational-kernels/step-435') / ('n-' + str(index))).resolve()
++    return (index, str(fixed), str(Path(output).resolve()), 'fixed_replay_437_' + str(index), hashlib.sha256((fixed / 'replay.py').read_bytes()).hexdigest())
+ 
+ def check_identity(identity, fixed, output, module, original_module):
+     assert isinstance(identity, tuple) and len(identity) == 5
+-    assert type(identity[0]) is int and identity[0] in (11, 12, 13, 14)
++    assert type(identity[0]) is int and identity[0] in (15, 16, 17, 18)
+     assert all((type(x) is str for x in identity[1:]))
+     assert str(fixed.resolve()) == identity[1] and str(output.resolve()) == identity[2]
+     assert fixed.name == output.name == 'n-' + str(identity[0])
+@@ -99,9 +99,9 @@
+     assert json.loads((OUT / 'returned-report.json').read_text()) == report
+     assert json.loads((OUT / 'returned-ledger-and-signed.json').read_text()) == {'counts': counts, 'signed': signed}
+     assert report == read('returned-report.json')
+-    expected_counts = {'add':21787232,'clip':24386,'coefficient_pairs':21264880,'convert':5083,'divide':716408,'enlarge':2034,'multiply':21801456,'negate':356616,'scale':2033}
+-    assert report == {'status':'PASS','parameter':'complete exact reconstruction','panels':1016,'coefficient_pairs':21264880,'counts':expected_counts,'radius':final['radius'],'all_stage_comparisons':'PASS','signed_rounding_checks':'every conversion, multiplication and division','originals_preserved':'checked by aggregate runner'}
+-    assert set(final) == {'grid_denominator','polynomial_sum','final_grid','midpoint','radius','required_radius','stronger_radius','counts','complete_panels','n'}
++    expected_counts = {'add': 21787232, 'clip': 24386, 'coefficient_pairs': 21264880, 'convert': 5083, 'divide': 716408, 'enlarge': 2034, 'multiply': 21801456, 'negate': 356616, 'scale': 2033}
++    assert report == {'status': 'PASS', 'parameter': 'complete exact reconstruction', 'panels': 1016, 'coefficient_pairs': 21264880, 'counts': expected_counts, 'radius': final['radius'], 'all_stage_comparisons': 'PASS', 'signed_rounding_checks': 'every conversion, multiplication and division', 'originals_preserved': 'checked by aggregate runner'}
++    assert set(final) == {'grid_denominator', 'polynomial_sum', 'final_grid', 'midpoint', 'radius', 'required_radius', 'stronger_radius', 'counts', 'complete_panels', 'n'}
+     assert 'n' not in report
+     assert {**report, 'n': IDENTITY[0]} == read('replay.json')
+     counts = dict(replay.LEDGER)
+@@ -127,7 +127,7 @@
+     status = read('status.json')
+     for key, value in {'status': 'PASS', 'n': IDENTITY[0], 'panels': 1016, 'pairs_per_pass': 21264880, 'parameter_complete_equal': True, 'ledger_equal': True, 'strict_radius_tests': [183, 50], 'radius': final['radius']}.items():
+         assert status[key] == value
+-    assert status == {'status':'PASS','n':IDENTITY[0],'panels':1016,'pairs_per_pass':21264880,'parameter_complete_equal':True,'ledger_equal':True,'identity_unchanged':True,'full_returned_report_persisted':True,'strict_radius_tests':[183,50],'radius':final['radius'],'elapsed_seconds':status['elapsed_seconds']}
++    assert status == {'status': 'PASS', 'n': IDENTITY[0], 'panels': 1016, 'pairs_per_pass': 21264880, 'parameter_complete_equal': True, 'ledger_equal': True, 'identity_unchanged': True, 'full_returned_report_persisted': True, 'strict_radius_tests': [183, 50], 'radius': final['radius'], 'elapsed_seconds': status['elapsed_seconds']}
+     save('complete-replay.json', {'status': 'PASS', 'n': IDENTITY[0], 'replay': report, 'immutable_ledger': counts, 'distinct_signed_checks': signed, 'parameter': parameter, 'kernel': final, 'sole_metadata_addition': 'n', 'producer_executed': False, 'strict_radius_powers': [183, 50]})
+     state.update(stage='complete', panels=1016)
+     save('status.json', {'status': 'PASS', 'state': state, 'elapsed_seconds': time.monotonic() - START})

@@ -327,6 +327,104 @@ errors, finite AGM bracketing and exact isolation make the finite
 evidence load-bearing. This proves one independent input for a fixed
 curve; all higher-rank uniformity and rational-membership gaps remain.
 
+**Derivative-facing coefficient replay, 2026-10-23.** Under only the
+exact minimal-model, conductor and modularity inputs of L030, the fixed
+coefficient evidence above has a fresh bounded replay and explicit
+restriction to indices 1 through 128. Import the normalized Euler rules
+from Cremona, corrected second edition (1997), Chapter 2, Section 2.6,
+equations (2.6.1)--(2.6.2), printed p.25, and Section 2.8, equation
+(2.8.3), printed p.29; the prime traces use Chapter 3, Section 3.9,
+printed p.102 as above. Since 256<389, every prime in the coefficient
+table is good, so no bad-prime recurrence is required. Coprime
+multiplicativity and the good-prime recurrence identify each recovered
+integer with the full normalized newform coefficient, including zeros.
+These are neither twist coefficients nor a_n/n. No period or optimality
+premise enters this subset of the certificate.
+
+The one execution of `scripts/finite-derivative-coefficients/replay.py`
+fixes attempt zero, T=256 and the original certificate SHA256
+`7547b371d675441190256195270c9282213e888cdb666451ae21a062896e4415`.
+It exhausts all 1147098 pairs (x,y) across the 54 good-prime rows and the
+separate nodal row at 389, retaining infinity, all characters and the
+pairs at two. All 255 complete factorizations, every prime-power term
+with its p multiplier, and all 256 coefficient slots agree exactly.
+The nodal row is replayed as fixed evidence and is not used to recover
+these coefficients. The export has exactly one indexed row for each
+1<=n<=128 and the same untwisted a_1=1 normalization used in L101.
+
+Full fresh records are `scripts/finite-derivative-coefficients/certificate.json`;
+its SHA256 is `9ad5f8b621dab84edeb97b891f5d4ed9cfe6d11c43b1b7b7f8e2b7147780363f`.
+The complete report and input inventory are `report.json` and
+`preservation.json` in that directory. All 48 inventoried original
+coefficient/first-kernel files and canonical inputs are byte-preserved
+through execution; this later supplement intentionally changes L031.
+There are zero failures. Execution setup, replay, preservation and final
+report writes take 0.076641 seconds, below 180; all new directory files,
+including source, total 163638 bytes, below 134217728. The saved report
+records 0.076473 seconds before its final write and a conservative byte
+upper bound 167628; the post-write duration is the execution's printed
+measurement, rather than an independently persisted timer certificate.
+No original producer/report entrypoint, period, kernel or derivative is
+run. This is reproduction/extraction of an already certified table,
+not a new arithmetic result. Separate critical review of this fresh
+extraction remains pending; the 127 remaining kernels, complete signed
+assembly/error propagation and strict zero exclusion remain unresolved.
+
+**Separate derivative-facing extraction audit, 2026-10-23 (step 410).**
+The pending-review statement above records the production-stage status;
+this separate audit now accepts that fixed extraction. Under precisely
+the L030 arithmetic/modularity hypotheses and the Cremona Euler rules
+already cited in the preceding supplement, every finite input is replayed
+without a period, optimality, rank or twist-value premise.
+
+The independent audit exhausts all 1147098 pairs with the y-loop outermost
+and saves every fiber's complete y-solutions, including the four pairs at
+two and the separate nodal row. The projective equation has exactly one
+point at infinity: at Z=0 its equation forces X=0. Thus the replayed affine
+totals give all 54 good traces and the nodal trace with the correct
+projective contribution. It compares every stored character, fiber,
+total and trace, then all 255 complete factorizations, every prime-power
+term and all 256 slots against both fixed certificates.
+
+For the distinct traversal set A_1=1 and, in increasing n, take the least
+prime p dividing n and m=n/p. If p does not divide m, set A_n=a_p A_m;
+otherwise set A_n=a_p A_m-p A_(m/p). The first case is coprime
+multiplicativity. In the second write n=p^e u with e>=2 and p not dividing
+u: multiplying the cited prime-power recurrence by a_u proves this
+formula, including e=2. Induction therefore identifies A_n with a_n.
+This traversal reads neither the replayed factorization records nor
+their prime-power arrays. Every slot agrees, including all nineteen zero
+slots and powers of two. Exact equality of the entire extracted object
+checks all source/model/hash bindings and exactly the 128 indexed export
+rows, with no gaps, duplicates or extras.
+
+Full records and the zero-failure report are under
+scripts/finite-derivative-coefficients/step-410/. Its audit.py uses only
+the standard library and no original producer or report-writing entrypoint.
+All 57 current coefficient/first-kernel and canonical input files retain
+their bytes throughout execution. The old 48-entry inventory is checked
+in full: its L031 digest matches the retained pre-supplement copy, and
+the complete current document is exactly that old document with the
+reviewed 2790-byte insertion before Mathlib. The insertion's SHA256 is
+d8a11d35c1e71ce05beb162a34f4f19591beac33b94733aa042d25b09c468ecd.
+There is no pathname exemption. The complete insertion, both hashes and
+all historical/current preservation records are persisted.
+
+One watchdog covers setup, source writing, both comparisons, preservation
+and final report writing. Conservative inclusive bounds are 3 seconds and
+496003 new bytes, below 180 and 134217728. The measured post-report time
+is 0.174122 seconds and the actual output is 431950 bytes; the deadline
+remains armed through termination. Step 408's four original files still
+total 163638 bytes, but its post-write timing remains historical printed
+evidence only. Fresh success does not retroactively certify that timing.
+This later audit annotation is a separately recorded exact transition in
+drafts/2026-10-23-coefficient-audit-document-transition.json.
+
+This is acceptance of known finite coefficient evidence for L101, not a
+new coefficient theorem. No kernel is evaluated. The 127 remaining
+kernels, complete signed assembly and strict derivative zero exclusion
+are still missing, as is the arbitrary-curve rank comparison.
+
 ## Mathlib
 
 Full matching independent elliptic twist-value certificate: not checked.

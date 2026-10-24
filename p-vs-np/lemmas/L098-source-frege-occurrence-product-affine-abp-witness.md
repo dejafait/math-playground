@@ -27,6 +27,25 @@ or unwritten proof tree contributes to Q.
 
 ## Conclusion
 
+**Current qualification — steps 438/440.** Section 6 replaces the unsupported
+template reception and extraction in the preserved proof below. It
+translates the supplied proof in its original three-scheme/MP presentation
+into L108's four-rule system, without assuming source completeness or
+strengthening the supplied-proof hypothesis. The independent step-440
+audit in §7 finds no substantive defect in the whole-CNF assembly or
+original-Q ledger under these hypotheses. No fixed library archive or
+implementation is verified.
+
+**Preserved old-interface qualification — step 422.** L107 establishes incompleteness
+of the exact source presentation specified above. Even when an exact
+source proof π is supplied, §3's separate invocation of completeness
+for guarded literal-OR templates is unsupported in that presentation.
+The conditional witness assembly below therefore has an unresolved
+template-interface gap; the historical step-384 audit did not detect it.
+The whole-proof variable substitution remains a syntactically valid
+operation, but does not by itself supply those additional templates.
+This is not a counterexample to witness existence by other methods.
+
 There is a deterministic construction of an explicit acyclic affine-F₂
 ABP H using only y,σ,τ with the formal free-algebra identities
 
@@ -40,11 +59,18 @@ in terms of M or |F|, or proof finder from F, is asserted.
 This specializes known extraction and local corrected components. It
 does not claim certified originality, an executable verified translator,
 universal W₂, arbitrary ER data or a SAT decision/separation result.
-The separate step-384 all-size informal critical audit below finds no
-substantive defect in the interface or composed ledger. It does not
-certify an implementation or strengthen the supplied-proof hypothesis.
+The step-384 audit is preserved as historical reasoning, subject to the
+step-422 qualification. It does not validate the old completeness appeal
+or the new section 6, certify an implementation, or strengthen the
+supplied-proof hypothesis.
 
 ## Proof
+
+Sections 1–5 and their step-384 audit are preserved superseded work where
+qualified above. Section 6 is the current proof, receiving only their
+actual-tree definitions and simultaneous-substitution operation, and
+the specified audited components of L097. In particular its receiving
+extractor is L108, not the historical three-scheme recurrence.
 
 **Coverage and precise imports.** The pre-invocation SPECIALIZE
 assessment is
@@ -465,11 +491,437 @@ Attempts 018/030/031 and L097's constant repair remain intact.
 There is still no short-proof availability theorem, polynomial bound
 in M alone, arbitrary ER supplier, universal W₂ or SAT conclusion.
 
+**6. Four-rule source-Frege replacement — step 438, 2026-10-23.**
+
+This proof keeps the original hypotheses, Q and ordered output fg/B.
+It replaces the old guarded-template completeness invocation, growing
+proof assembly and extraction ledger. The pre-invocation SPECIALIZE
+assessment is
+`drafts/literature/2026-10-23-four-rule-source-frege-repair.md`.
+Use L087's exact occurrence provenance and L097 §§1–2/6.2–6.3/6.5–7
+for the separately audited tester identification, ordered correction,
+primitive premise reception and fixed-library tree operations. L097's
+resolution-input conclusion is not applied to this Frege input.
+Use L108 for extraction and L109 for fixed-library preparation/replay.
+
+The precise completeness input, only through L109, is Joseph R.
+Shoenfield, *Mathematical Logic* (Addison-Wesley, 1967), §2.6 pp.21–22,
+§3.1 Tautology Theorem (Post) p.27, Detachment Rule/corollary p.28,
+propositional proof pp.28–30, in the
+[primary scan](https://w2.cs.uni-saarland.de/op/fullpaper/logics/SHOENFIELD_Mathematical_logic.pdf).
+It applies to the receiving system, not the old source presentation.
+L109 supplies the truth-constant and full-bit specialization absent from
+that source statement. The LTW citation above remains a translation/
+extraction comparison; no tree-size or source-completeness theorem is
+imported for this construction. No completeness reproof is needed.
+
+**6.1 Fix the library before receiving any input.** Use primitive ∨,¬
+and constants, and expand A→B as ¬A∨B, A∧B as ¬(¬A∨¬B), and
+A↔B as (A→B)∧(B→A). Expand recursively, preserving both ordered
+arguments. Chains of → associate to the right. Set
+E_G(A,B)=G→(A↔B), with the same literal expansion. These are formula
+notations, not new rule tags. Start with the fixed library of L097
+§6.1 and adjoin exactly these four ordered templates:
+
+    S₁ = A→(B→A),
+    S₂ = (¬A→¬B)→((¬A→B)→A),
+    S₃ = (A→(B→C))→((A→B)→(A→C)),
+    D  = ¬A→((G→A)→¬G).
+
+These are fixed finite trees after expansion. S₁ is true when A=0 by
+its outer implication and when A=1 by its final consequent. In S₂,
+A=1 makes the inner consequent true; when A=0 its first antecedent
+has value ¬B and its second antecedent value B, so they cannot both
+be true. For S₃, if A=0 its last implication A→C is true. If A=1
+and both outer antecedents are true, B→C and B are true, forcing C.
+For D, true ¬A makes A=0; true G→A then forces G=0 and hence ¬G.
+Thus all four are tautologies for every assignment to their slots.
+The other library members have the exhaustive Boolean checks and
+independent audit recorded in L097 §§6.1/7. Constants and coincident
+slot images do not restrict these truth-function arguments.
+
+Apply L109 to this single finite union library, choosing one entire
+primitive proof for each member once and for all. This preparation
+has no polynomial bound in library size; the fixed finite strings and
+their slot multiplicities are compiler constants. No input tautology
+is searched for a proof. A library call writes its full instantiated
+primitive proof with relocated internal references. Its endpoint is
+exactly the expanded template instance, with only names in its argument
+trees. Use L097 §6.2's five expansion/axiom/cut/cut/contraction records
+for each actual antecedent of any curried theorem. No MP tag is added
+to the receiving system, and no antecedent proof is copied or opened
+as an assumption. This receives arbitrary-depth argument trees.
+
+**6.2 Translate every source record without a new input premise.**
+Keep the empty-source-clause branch of §1: f=0 formally, so return a
+distinct-endpoint no-path graph with the unchanged full dictionaries.
+Otherwise form exactly C_F,C=C_F∧C_gad,U,G=C∧U from §1. Their
+literal and clause orders are the prescribed ones; C_F retains F's
+actual conjunction/disjunction bracketing, while the final ∧ with the
+gadget changes only product parentheses. L097's separate D-order
+identification still gives v(C)=f. All gadget occurrences remain.
+
+Choose r_x as the first occurrence for each variable in F, and map
+every foreign source-proof variable to one existing gadget name y₁.
+The gadget ensures that this name exists. Apply this simultaneous θ
+to every supplied source formula and axiom-instantiation argument,
+with constants fixed. A source axiom instance η(S_j) becomes
+(θη)(S_j), so append the full L109 proof of that S_j instance.
+Append each source true or ¬false record as the corresponding permitted
+ground axiom. Store for every source line i the actual receiving record
+index ρ(i) with endpoint θ(π_i). This association is metadata, not a
+receiving inference or an assumption.
+
+If line i is MP with earlier lines j:A and h:¬A∨B and conclusion B,
+the endpoints at ρ(j),ρ(h) are exactly θA and ¬θA∨θB. Append
+L097 §6.2's five primitive records with these actual premise indices,
+and set ρ(i) to the last, whose tree is exactly θB. This checks both
+literal matching and reference order. Induction over all supplied lines
+therefore produces an assumption-free primitive archive ending at
+¬θF. Every source line, including unused records, is processed once.
+Repeated premises, repeated source formulas, constants, noninjective θ
+and foreign variables cause no change to this syntactic induction.
+Intermediate depth is unrestricted. In particular the old source is
+not assumed complete: only its legal supplied records are translated.
+
+**6.3 Traverse the entire original CNF under the guard.** Append to
+that archive an instance of G→G. Using the actual conjunction paths,
+L097's projections and guarded composition give G→C, G→C_F and
+G→U_s for every relevant original-variable group s. All are proved
+implications; no guard is opened as an assumption.
+
+For each occurrence z_i of x in group s, receive L097 §6.3's branch
+construction with representative r_x. More explicitly, write
+U_s=A₀∨A₁ for its actual all-zero and all-one conjunctions. Start
+separately with A_b→A_b and project along their actual trees to obtain
+A₀→¬z_i, A₀→¬r_x, A₁→z_i and A₁→r_x. The fixed same-negative/
+same-positive branch implications give A_b→(z_i↔r_x), and Cases
+with G→U_s gives E_G(z_i,r_x). For singleton groups these paths
+have length zero and the same construction applies with equal selected
+leaves; guarded reflexivity is also available. Gadget groups require
+no source replacement but remain in U and B.
+
+Now literally expand the entire pair C_F,θF into ∨/¬/constant trees.
+They have the same connective skeleton. Traverse it from leaves to
+root, storing an actual endpoint E_G(A,A') for each pair of subtrees.
+At a variable leaf use the occurrence equivalence just proved; a
+constant leaf uses guarded reflexivity. At a unary node use guarded
+negation on the child endpoint. At a binary OR node use guarded OR
+congruence on both earlier child endpoints, with their actual ordered
+subtrees as arguments. Each use is a library proof followed by the
+five primitive detachment records per antecedent. The expansion of
+every source conjunction is handled by these same NOT/OR steps; no
+new AND inference or depth assumption is introduced. Negative literals,
+repetitions, complementary literals, tautological clauses and arbitrary
+original conjunction bracketing are consequently retained exactly.
+
+This induction ends at E_G(C_F,θF). Guarded transport from the earlier
+G→C_F yields G→θF. Instantiate D with A=θF and this exact G, and
+receive first the earlier source endpoint ¬θF and then G→θF. The
+result is exactly R=¬G. Every endpoint use is an earlier index; neither
+the source proof nor a child's derivation has been unfolded. All
+slot names have disappeared on instantiation and all source names have
+been replaced by θ, so only occurrence names remain throughout.
+
+**6.4 Complement the complete archive and extract the exact product.**
+Apply y_i↦¬y_i simultaneously to every written primitive record, fixing
+the constants. Literal axiom/rule replay is L109's substitution argument:
+each of expansion, contraction, association and cut has exactly its
+substituted argument trees and the same backward references. Ground
+axioms remain ground axioms. This produces a nonempty assumption-free
+L108 archive Π with exact endpoint T=(¬G)[¬y/y]. It is not a new
+substitution inference and is not a substitution in the target fg or B.
+
+For completeness of the endpoint calculation, L097 §6.5's induction
+tr(P[¬y/y])=1+v(P) applies on these literal expanded trees. At an atom
+it says tr(¬y)=1+y; at false/true it says 1=1+0 and 0=1+1.
+Negation adds 1 to the previous value; OR gives
+(1+v(A))(1+v(B))=1+v(A∨B), with that order. Conjunction follows
+from its literal expansion. Thus tr(T)=v(G)=f g̃, where g̃=v(U).
+
+Supply this entire Π, the original occurrence alphabet and unchanged
+B/placeholder dictionary to L108. All its syntax, alphabet, constant,
+assumption and reference hypotheses were checked above. It gives K
+with K(y,0)=0 and K(y,B(y))=f g̃. Receive L097 §§1–2's exact J,
+including singleton groups, J(y,0)=0 and J(y,B(y))=g+g̃. Its original-
+only inputs and ordered prefix-t/suffix-e telescope are unchanged;
+it does not identify g̃ with g. Independently copy the graphs and use
+fresh exterior endpoints to form H=K+fJ. Then, in the free algebra,
+
+    H(y,0)=0,
+    H(y,B(y))=f g̃+f(g+g̃)=fg.
+
+Only identical ordered products cancel. No single-order injectivity
+is applied to fg, no occurrence is deleted, and B is never changed.
+L108 and L097's elementary ordered series/parallel formula graphs
+ensure that all edge labels are affine, including constant/zero cases.
+
+**6.5 Fresh original-Q full-size/time ledger.** All constants below are
+fixed by the encodings, prepared finite library and received algorithms,
+before the input is chosen. Every source record/formula node count,
+occurrence/group count and individual name length is O(Q). Literal
+expansion multiplies source tree size by a fixed factor. θ replaces
+one name leaf by one name leaf, so even a deep source formula, each
+source axiom argument, and every subtree of C_F or θF has O(Q) nodes.
+C,U,G also have O(Q) nodes. Each has O(Q²) full bits when names are
+pessimistically charged Q bits per occurrence.
+
+Source translation has O(Q) library calls/MP operations and ground
+records. Each fixed proof has a bounded number of records, all of
+whose slot occurrences are fixed constants; source arguments and
+intermediate library formulas therefore have O(Q²) full bits. The
+whole source translated part has O(Q³) formula bits. Its root-index
+map has O(Q) entries. It stores actual earlier indices, not copies
+of the subproofs they reference, and pays every unused source record.
+
+Group/branch projections need at most O(Q²) requested actual paths,
+each of length O(Q), a conservative O(Q³) library-use bound. The
+whole expanded CNF traversal has O(Q) nodes and a bounded number of
+library uses per node, including reflexivity/negation/OR and transport.
+Each use copies G and a bounded collection of actual subtrees of
+O(Q) nodes; it never inserts a previously proved equivalence or its
+derivation as a new growing argument. Final discharge adds boundedly
+many uses. Thus O(Q³) calls/primitive records and O(Q⁵) full formula
+bits cover the entire archive. Global references cost
+O(Q³ log(Q+2)); fixed library constants are absorbed. Retaining the
+complete occurrence dictionary even at each library call still fits
+this bound. Complementation adds a constant node factor, not new names.
+In particular the complete input length for L108 satisfies the fresh,
+deliberately loose bound
+
+    R₁=2+|Π|+|occurrence alphabet|+|B/dictionary| ≤ c Q¹².
+
+This is derived for this assembly, not inherited from the superseded
+ledger or from a resolution proof. L109 takes O(Q⁴) bit time per call
+on O(Q²)-bit argument data, so all O(Q³) calls cost O(Q⁷). Even a
+full O(Q⁵)-bit archive scan at every such call costs O(Q⁸). Syntactic
+input/provenance checking, θ-name comparisons, explicit reference-map
+lookups and relocation, writing complemented copies and retaining all
+supplied records fit the conservative preprocessing allowance O(Q²⁰).
+These are syntactic operations; no semantic validity or UNSAT test is
+used. Fixed-library preparation remains an unbounded compiler constant.
+
+L108 now gives |K|≤C R₁¹⁴≤C'Q¹⁶⁸ and time at most C R₁^b for
+one fixed b. For J, receive L097's pair-only ledger: at most O(Q)
+original-only L035 calls have full inputs O(Q²), including B, and
+the safe O(E⁴) block-size bound gives O(Q⁹) aggregate bits before
+numbering. Independently copied prefix/suffix/formula contexts cost
+O(Q³) bits; global numbering and all dictionaries fit O(Q¹⁰) bits.
+If d bounds L035's bit algorithm, O(Q^max(22,2d+3)) suffices for J.
+This uses Q only as an upper bound for the pair data, not as a witness
+size. No recursively generated witness is an L035 input.
+
+Final disjoint copying, connectors, full dictionaries and reindexing
+add at most a logarithmic factor to the graph size. A quadratic scan
+of the fully numbered result suffices for straightforward bit copying.
+Therefore one valid common pair of bounds is
+
+    |H| ≤ C Q¹⁷⁰,
+    time(H) ≤ C Q^max(340,12b,2d+3).
+
+Actual path degree is at most the explicit edge count. These bounds
+meet the required fixed-polynomial threshold in the original Q with
+arbitrary intermediate depth, foreign variables and unused records.
+This repairs a conditional receiver, classified as reproduction of the
+assessed machinery, without certified originality. The independent
+step-440 audit in §7 checks this all-size assembly; no serialized library,
+mathematical program test or implementation is claimed. L107 and Attempt 036 remain
+valid old-interface failures. In particular this construction supplies
+no proof for their forbidden old-source endpoint and does not repair
+L106's stopped source compiler. Short proofs, M-only bounds, universal
+W₂, arbitrary ER data and unrestricted SAT remain independent gaps.
+
+**7. Independent critical audit — step 440, 2026-10-23.**
+
+This audit concerns the original Hypotheses, §§1–2's actual-tree
+definitions and the step-438 replacement §6. Its pre-invocation
+SPECIALIZE assessment is
+`drafts/literature/2026-10-23-source-frege-four-rule-repair-critical-audit.md`.
+It does not validate the superseded source-completeness appeal or its
+historical audit. Receive L087's exact construction, L097's audited
+tester/correction and primitive tree operations, L108's audited supplied
+archive extractor, and L109's audited fixed-library specialization.
+The precise Shoenfield citation in §6 supports the receiving library
+only; no completeness or short-proof theorem for the old source is used.
+
+**Library and source reception.** After literal expansion the four new
+members are fixed Boolean tautologies. For S₁, A=0 makes the outer
+implication true and A=1 makes its final consequent true. S₂ is true
+if A=1; if A=0 its two successive antecedents have values ¬B and B,
+so cannot both hold. For S₃, A=0 makes both A→B and A→C true;
+if A=1, truth of A→(B→C) and A→B forces B and then C.
+D has its only nonvacuous case A=0 and G→A true, which forces
+G=0. These arguments exhaust all Boolean slot assignments. Literal
+expansion retains these truth functions; constant or coincident formula
+images are allowed. L097's other library members retain their audited
+truth checks. The union library and its selected entire proofs are fixed
+independently of F, π and Q. L109 therefore applies without requiring
+bounded image depth, fresh image names or a uniformly efficient search
+over input tautologies. Every auxiliary atom of its prepared proofs has
+already been eliminated as in L109, so only instantiated occurrence
+names and constants can enter this archive.
+
+For each legal source axiom η(S_j), θ commutes with every connective
+and gives exactly (θη)(S_j), which is the endpoint of the corresponding
+whole library instance. Source true and ¬false remain permitted ground
+axioms. For source MP endpoints A and ¬A∨B, their stored images are
+θA and ¬θA∨θB. With X=θA and Y=θB, the actual receiving records
+are Y∨X by expansion of X, ¬Y∨Y by axiom, X∨Y by cut with pivot Y,
+Y∨Y by cut with pivot X and the stored ¬X∨Y, and Y by contraction.
+Each cut has precisely its ordered residuals; each premise is earlier.
+The final record thus has the exact required tree, without a new MP
+tag. The same five-record check applies successively to the curried
+antecedents of every later library theorem.
+
+Induction over all source lines gives an actual index ρ(i) for θπ_i;
+the last source endpoint is exactly ¬θF. Noninjective θ preserves
+syntactic equality and every rule instance. No rule imposes distinctness
+of formula images or premise indices. Every source record, including an
+unused one, is translated once; referring to ρ(i) copies no derivation.
+An arbitrary-depth intermediate formula is copied as a written tree,
+not balanced or semantically normalized. Foreign variables are replaced
+everywhere, including axiom argument records, by an existing gadget
+occurrence. This verifies the exact old supplied-proof hypothesis rather
+than silently replacing it by a proof in a stronger source system.
+
+**Whole expanded-CNF induction.** Projection/composition from G→G
+follows the actual conjunction edges to give G→C_F and G→U_s.
+For each group, projection from A_b→A_b gives the two selected
+leaves in each branch. The negative branch has A₀→¬z_i and
+A₀→¬r_x; the positive branch has A₁→z_i and A₁→r_x. The two
+same-branch templates give A_b→(z_i↔r_x). Cases receives exactly
+G→(A₀∨A₁), followed by these two implications, and yields
+E_G(z_i,r_x). For a singleton, both selected leaves coincide and
+both projection paths have length zero; the same literal reception
+is legal. Gadget groups stay in G and B even though no replacement
+of their leaves is needed.
+
+The entire expanded C_F and θF have identical connective skeletons:
+their only differences are corresponding variable leaves. Maintain at
+each paired node the proved endpoint E_G(A,A') for its two actual
+subtrees. An occurrence leaf has the comparison just established;
+an equal constant leaf has guarded reflexivity. At a negation node the
+guarded-negation template consumes the earlier child comparison and
+gives exactly E_G(¬A,¬A'). At an OR node, the congruence template
+consumes the earlier left and right comparisons, in that order, and
+gives E_G(A∨B,A'∨B'). This induction includes the negation of a
+negative literal and every node of every expanded conjunction. In
+particular a conjunction A∧B expands to ¬(¬A∨¬B); its two inner
+negations, OR and outer negation are all paid induction steps. It is
+not treated as a new primitive rule or left to a clause-width argument.
+Repeated literals, opposite signs and arbitrarily deep original
+conjunctions leave this correspondence unchanged.
+
+At the root, guarded transport consumes exactly G→C_F and
+E_G(C_F,θF), giving G→θF. The final D instance has successive
+antecedents ¬θF and G→θF, both already present. Two applications
+of the checked primitive reception end at precisely ¬G. No guard was
+opened as an assumption and no deduction transformation is unpaid.
+If the source has an empty clause, the separate D-tester failure
+recurrence gives f=0 formally and the no-path output with distinct
+endpoints is valid. Without an empty clause, an empty conjunction
+cannot admit the assumed proof of its negation: every source axiom is
+a classical tautology and MP preserves truth. No new exceptional-input
+premise is required.
+
+**Complemented endpoint and original product.** Simultaneous y↦¬y
+on every receiving record preserves the exact axiom and all four
+directed rule patterns, their bracketing and backward references. It
+fixes the ground axioms, introduces no names and doubles no argument
+tree; it adds one negation at each variable leaf. Thus the entire
+result is a legal nonempty L108 archive, with T=(¬G)[¬y/y] as its
+exact last tree and the original alphabet/B supplied separately.
+
+The formal identity tr(P[¬y/y])=1+v(P) has atom value 1+y;
+false and true give respectively 1 and 0. Its negation step adds 1,
+and its OR step multiplies the child values in their displayed order:
+(1+v(A))(1+v(B))=1+v(A∨B). The expanded conjunction therefore
+gives ordered multiplication v(A)v(B). It follows that
+tr(T)=v(G)=v(C)v(U)=f g̃, using L097's separate-order identifications.
+The C identification is valid because each occurrence appears in one
+clause, so its truth polynomial is increasing multilinear in D's order.
+The E identification applies to ∏e_s in E's order. It is not applied
+to g̃, which may repeat variables, or to the different-order product fg.
+
+For clarity, the received correction has R_s=(1+z)W(A,z)B'+σ_zAB'
+with z=z₁, A=∏_{i>1}(1+z_i) and B'=∏_{i>1}z_i. Its only
+L035 arguments are original-only graphs. Substituting B gives
+(1+z)(Az+zA)B'+(z²+z)AB'=(1+z)AzB'=a_sb_s;
+the cancellation is between the adjacent (1+z)z and z²+z terms.
+For a singleton A=B'=1, this is z²+z. Every R_s vanishes at zero
+placeholders. The ordered prefix-t/suffix-e telescope for J hence gives
+J(0)=0 and J(B)=g+g̃ without commuting a factor. L108 gives
+K(0)=0 and K(B)=f g̃. Independent ordered graph composition yields
+H=K+fJ, whose zero substitution vanishes and whose B substitution is
+f g̃+fg+f g̃=fg. The exact occurrence names, signs, gadget and complete
+dictionary are retained. Fresh exterior graph endpoints preclude extra
+accepting paths; no quotient-ring equivalence is used.
+
+**Independent original-Q accounting.** Fix Q before any transformation.
+All source syntax occurrences, record counts, group counts and name
+lengths are O(Q). Each source argument, actual subtree, branch guard
+and G has O(Q) nodes after the nonduplicating abbreviation expansion.
+Replacing names by θ can increase the full bits of such a tree to
+O(Q²), but not its node count. The fixed intermediate library proofs
+contain only a constant number of copies of their slot images, so this
+bound applies to every record, not just a library endpoint. Curried
+consequents and the five detachment records likewise contain boundedly
+many copies. Congruence at a parent uses the actual child subtrees as
+slots, never a recursively growing prior equivalence as a slot image.
+
+The O(Q) source lines require O(Q) library/MP uses and O(Q³) formula
+bits, retaining unused records and an O(Q)-entry endpoint map. There
+are at most O(Q²) requested group/branch/projection paths, each of
+length O(Q); thus O(Q³) uses safely cover them. The whole expanded
+CNF traversal adds O(Q) nodes and boundedly many uses per node.
+Since each use has a fixed number of records, each with O(Q²) bits,
+the archive has O(Q³) records and O(Q⁵) formula bits. Its global
+references add O(Q³ log(Q+2)) bits. The dictionary costs at most Q;
+even retaining a copy at every call fits this archive bound. Whole
+complementation changes only a constant node factor. This independently
+establishes R₁≤cQ¹², with substantial slack.
+
+L109's copying time is O(Q⁴) per O(Q²)-bit argument collection, hence
+O(Q⁷) over all calls. An archive scan at each call costs at most
+O(Q⁸); even less economical syntactic matching, provenance rebuilding,
+name lookup and reference relocation fit the stated O(Q²⁰) allowance.
+These check supplied explicit objects, not semantic validity of arbitrary
+tautologies. Unbounded one-time fixed-library preparation is a compiler
+constant, with no efficiency claim in a varying library size.
+
+The received L108 bound gives |K|≤C R₁¹⁴≤C'Q¹⁶⁸ and time
+O(Q^{12b}) for its fixed bit-time exponent b. The O(Q) correction
+calls for J each receive O(Q²)-bit original-only graphs and the full
+dictionary. L035's safe O(E⁴) output bound gives O(Q⁹) aggregate
+block bits. Independent prefix/suffix/formula copies cost O(Q³);
+global renumbering fits O(Q¹⁰) for J. Its received polynomial-time
+algorithm and ordinary scans fit O(Q^{max(22,2d+3)}) for fixed d.
+Final copying and reindexing of K, f and J add at most a logarithmic
+factor. Thus |H|≤CQ¹⁷⁰ remains valid; quadratic processing of this
+output and all preceding terms fit CQ^{max(340,12b,2d+3)}. Every
+exponent and constant is fixed independently of the input. No bound
+is measured in a transformed Q or in the sought witness itself.
+
+**Verdict.** No substantive defect, changed hypothesis or changed bound
+was found. This verifies a relevant conditional input informally; it is
+reproduction of assessed machinery, not a new source theorem or certified
+originality. Direct mathematical inputs remain L087/L097/L108/L109;
+the superseded extractor, L049 and the old source-completeness appeal
+are not premises. No DAG edge or main argument changes. No serialized
+library, executable translator, finite program certificate or Mathlib
+match is verified. L107/Attempt 036 remain valid for the old interface.
+This supplies neither L106's blocked source proof nor short-proof
+availability, an M-only bound, universal W₂, arbitrary ER data or an
+unrestricted SAT decision/separation result.
+
 ## Mathlib
 
 Full matching coverage for this occurrence transfer, corrected extraction,
 explicit affine-ABP construction and complete binary/time bounds: **not
 checked**. No theorem-absence or machine-verification claim follows.
-The precise primary results and local component qualifications above are
+The new section 6 four-rule compiler/composed bound is also **not
+checked** against Mathlib. Supporting Boolean logic does not by itself
+give a matching explicit compiler theorem. The precise primary results
+and local component qualifications above are
 the mathematical inputs; this is an informal specialization, with no
 implementation or finite certificate experiment claimed.

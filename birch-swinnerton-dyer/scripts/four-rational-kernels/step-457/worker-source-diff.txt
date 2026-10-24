@@ -1,0 +1,14 @@
+--- step-453/worker.py
++++ step-457/worker.py
+@@ -5,9 +5,9 @@
+ sys.dont_write_bytecode=True
+ INDEX=int(sys.argv[1]); OUT=Path(sys.argv[2]).resolve(); START=float(sys.argv[3])
+ assert sys.flags.optimize==0
+-assert INDEX in (27,28,29,30) and OUT.name=='n-'+str(INDEX)
++assert INDEX in (31,32,33,34) and OUT.name=='n-'+str(INDEX)
+ def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+-IDENTITY=(INDEX,str(OUT),'kernel_453_'+str(INDEX),sha(OUT/'producer.py'),sha(OUT/'replay.py'))
++IDENTITY=(INDEX,str(OUT),'kernel_457_'+str(INDEX),sha(OUT/'producer.py'),sha(OUT/'replay.py'))
+ state={'n':IDENTITY[0],'stage':'setup','panels':0}
+ def save(name,obj):
+     (OUT/name).write_text(json.dumps(obj,sort_keys=True,separators=(',',':'))+'\n')

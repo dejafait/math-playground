@@ -42,7 +42,8 @@ checked. It isolates an arithmetic prerequisite for a possible
 normal-closure repair. It establishes neither condition in (2) for
 the actual height-selected ell, nor its j-integrality, full native
 initial data, a complete repair or an essential IUT flaw. Original
-finite B>=A remains open. Separate critical audit is pending.
+finite B>=A remains open. The separate step397 critical audit below
+validates this conditional specialization without changing its hypotheses.
 
 ## Proof
 
@@ -187,6 +188,85 @@ degree excess, exact generation/field repairs, full selected/theta
 data, April IV authentication and def= boundary, native input/action,
 all-image factorization, pilot transport and essentiality remain
 unresolved. No complete-solution candidate is proposed.
+
+### Separate critical audit — 2026-10-22, step397
+
+**Scope and direct inputs.** The invocation-start SPECIALIZE assessment
+is `drafts/literature/2026-10-21-normal-closure-all-support-q-order-critical-audit.md`.
+The proof passes without correction. Audited L092 and L098 refer to
+the same arbitrary L089/L090 survivor, fixed closure and six literal
+full-coordinate models used here. L098 supplies multiplicative reduction
+at every actual place above S and the equality of rational j-invariants;
+L092 supplies the degree of C_o itself. No conclusion from the older
+fields in L061 or L084 is transferred. Their source methods are already
+covered by the approved assessment. The imported primary statements
+and precise citations above suffice; no new general theorem is reproved.
+
+**Complete local argument.** Fix any ordering and any actual w|p with
+p in S. The completion K_w is a finite extension of Q_p, so it meets
+the completeness, discrete valuation and residue-field hypotheses of
+the cited Tate theorem. The multiplicative alternative in L098 is
+essential to using the unramified quadratic splitting clause; merely
+having nonintegral j would not justify that clause for an arbitrary
+twist. Use K_w itself in the split case and the cited splitting field
+L otherwise. The pointed L-isomorphism identifies the invariant of
+the actual E_o with j(q), with ord_L(q)>0.
+
+For every m>=1, the imported integral coefficient c_m satisfies
+ord_L(c_m q^m)>=m ord_L(q), interpreting the order of a zero term
+as infinity. These lower bounds tend to infinity. Every partial
+remainder 744+sum_(1<=m<=r)c_m q^m belongs to O_L; completeness
+and closedness of O_L put its full limit there. Meanwhile q^(-1)
+has strictly negative order. Thus there can be no cancellation of
+its lowest-order term, even if some coefficients vanish or are
+divisible by the residue characteristic. This checks (4) for the
+whole series, without a finite precision assumption.
+
+GenEll's height is computed with the surjective integer valuation
+and divided by e(L/K_w), not by [L:K_w]. Since j(E_o) belongs
+to K_w, its order over L is exactly e(L/K_w) times its order
+over K_w. This cancels the denominator in (5). Restriction from
+K_w to Q_p then gives h_w=e_w n_p. In the nonsplit case e(L/K_w)=1
+although [L:K_w]=2; using the latter would incorrectly halve the
+answer. Rationality and nonvanishing of j(E) make n_p a positive
+integer. This verifies positivity and integrality downstairs, as
+well as independence from a choice of splitting field. No claim
+about the subsequent ell-division-field height enters this check.
+
+**Actual Galois degree and quantifiers.** The normal closure of the
+finite characteristic-zero number field G_o is finite and separable,
+hence C_o/Q is Galois. L092's audited factorization gives
+1105920=8192*27*5=2^13*3^3*5. Milne's Galois degree formula applies
+to this extension, at every rational p and every actual w above it;
+e_w f_w g_p=[C_o:Q] implies divisibility of e_w, including at wild
+places. For prime ell>=7 none of the displayed prime factors is ell.
+This is divisibility by the exact Galois degree, not an inequality
+or a claim about the degree of nonnormal G_o.
+
+At each such place, primality of ell and ell not dividing e_w
+give ell dividing h_w if and only if ell divides n_p. If every
+n_p avoids ell, this applies to every member of every place fiber.
+For the reverse direction each rational p has a nonempty fiber in
+the number field C_o; choosing one w suffices to contradict the
+all-place condition if ell divides n_p. Thus neither direction
+replaces a universal place quantifier by an unproved selected-place
+condition. The argument holds separately for all six orderings,
+with no assumed identification of their completions.
+
+**Verdict and boundaries.** The conditional equivalence is verified.
+The explicit ell-integrality premise still serves the L098 support
+exclusion; this audit does not establish that premise or avoidance
+for a prime chosen by the height argument. The native convention
+remains the qualified IUT I reproduction predicate described above,
+not certification of full initial data. The factor-four relative
+degree excess, exact generation/repairs, selected/theta data, April
+IV authentication and def= boundary, actual input/action/factorization,
+pilot transport, essentiality and original finite B>=A remain open.
+This is verification of a known-method specialization, not a result
+beyond the sources checked or a complete-solution candidate. The
+argument and its direct inputs are unchanged, so PROOF.md and DAG.md
+remain unchanged; this canonical audit supersedes their pending-audit
+wording for L099 only.
 
 ## Mathlib
 

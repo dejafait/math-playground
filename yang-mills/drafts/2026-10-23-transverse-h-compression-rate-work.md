@@ -1,0 +1,16 @@
+# L116 compression-rate working record
+
+Approved exact target: Determine whether L116's complete finite-compression difference satisfies |R_prod-R_inf| <= C_i N^(5/2)log(eN)^2 for both actual probes.
+Ready EXPLORE coverage: `drafts/literature/2026-10-23-transverse-h-compression-quantitative-rate.md` (unchanged before invocation).
+
+Main gap: interacting continuum construction with the required axioms and finite positive infinite-volume mass. Intermediate use: quantify only L124's Delta_C; four transverse-H placement coefficient remainders and complete quantitative L011 assembly remain independent.
+
+Starting inputs L110 and L116 specify the full 3-by-3 kernel and both exact compression defects. L111/L113/L114/L115 specify imported coefficient/heat envelopes and order; L118 supplies the separate zero full-grid trace. Duplicate/failure coverage reuses history/142, the original compression draft and the approved parent source review; L109's failed absolute-moment route is not reused.
+
+Working mechanism, not yet a result: identify e_j as transverse second differences of the four-dimensional unnormalized scalar Green kernel H=G_walk/8. The full D D* matrix in plane order 23,24,34 has off-diagonals t_3 conjugate(t_4), -t_2 conjugate(t_4), t_2 conjugate(t_3), with adjoint reverse entries. Lawler--Limic Theorem 4.3.1 has remainder O(|X|^-4) in d=4, already sufficient to bound every four-point mixed difference by O(|X|^-4); no differentiation of that remainder is needed. The smooth leading |X|^-2 term has a Hessian of this order. If uniform through small X and all j, this gives ||e_j(z)|| <= C(1+sqrt(j^2+|z|^2))^-4.
+
+Discriminating test: derive q_j(N)^2 <= C(cN+|j|)^-3 by complete three-dimensional shell counts, then sum square roots over all integer j. This would give eta_N=O(N^-1/2), and L116's full count would give O(N^(5/2)), stronger than required. Abandon this specific comparison if a matrix entry is not a second difference of H, the normalization fails, or the all-offset shell sum diverges/misses the budget. Retain both selectors, all sources/end rows, levels/orientations and the complete heat sum. No mathematical script is required.
+
+Completed result: L267 establishes the log-free O(N^(5/2)) complete compression bound; the canonical proof contains the scalar normalization, every matrix entry, all-offset tail and full trace count. The actual pointwise scalar theorem and its simple-walk/bipartite specialization were checked at the direct primary URL; no fresh discovery search or mathematical script was required. This is a local REPRODUCTION advance relative to the imported scalar theorem, not progress beyond established random-walk methods.
+
+Continuation: a separate critical audit of L267, after its new REVIEW_REQUIRED assessment receives source/failure approval. Essential inputs L110 L116 L118 and new L267; retain imported L111/L113/L114/L115 premises through L116, L124's telescope and L109's contrast. Test the exact normalization and mixed shifts, all small arguments and axial offsets, both selectors and the a N^4 count before accepting the new rate as audited. All four coefficient remainders, quantitative full assembly, upstream audit qualifications and interacting/continuum/infrared construction remain unresolved. See the compact checkpoint for the sole current Next action.

@@ -157,8 +157,117 @@ maximal-ring unit/class data for every simple factor, complete required
 local tests and point control on surviving covers. Degree-nine root
 recovery, compatible remaining factors, both L095 integer systems and
 the minus-eleven alternative remain unresolved. Preserve ATTEMPTS/050–051,
-unfinished L108 and L113's two initial check failures. An independent
-critical audit of this specialization and certificate has not yet occurred.
+unfinished L108 and L113's two initial check failures. The independent
+critical audit below confirms this specialization without changing the claim.
+
+### Independent critical audit, 2026-10-22
+
+The approved audit passes. This establishes reliability of the instance
+input by reproduction; it supplies neither a new support theorem nor
+rational-point completeness. The exact polynomial, support and two
+infinity images require no correction. The direct mathematical input
+remains L113; the argument assembly and DAG are unchanged.
+
+The independent script is
+`scripts/pair-genus-two/audit_marked_octic_support.py`; run it with
+`python3 scripts/pair-genus-two/audit_marked_octic_support.py`.
+It imports no producer code and reconstructs G directly as eleven times
+the nine coefficients of (1) in L113. It constructs both Sylvester
+matrices by multiplying the ascending polynomials by the required
+monomials and reversing their complete coefficient vectors. All 225
+octic and 49 quartic matrix entries agree with the saved matrices.
+
+Ordinary Gaussian elimination over exact rational numbers gives each
+determinant as the product of its pivots times the row-swap sign:
+row addition leaves the determinant unchanged, row swapping changes
+its sign, and the final triangular matrix has determinant the product
+of its diagonal entries. This algorithm is independent of the producer's
+fraction-free updates. The octic uses four swaps, at steps 7,9,11,13
+(zero-based); the quartic uses none. Both determinants agree with the
+full integers displayed above. The discriminant signs are positive
+because 8*7/2=28 and 4*3/2=6 are even. Exact division by 3025 gives
+both displayed discriminants, without identifying either with a field
+discriminant.
+
+As a separate full replay, every producer pivot, chosen row and previous
+divisor agrees. At each step the fraction-free pivot equals the product
+of the rational Gaussian pivots so far, before the accumulated swap
+sign. All 1,106 trailing-entry divisions in the two fraction-free
+computations are exact; the signed final entries agree with the
+independent determinants. Thus the audit does not merely compare
+producer check flags or rely on the quartic composition identity.
+Successively dividing the octic discriminant by 2,3,5,11 yields exactly
+72,27,8,21 divisions and remainder one. The quartic yields 32,11,3,9
+and remainder one. Trial division through the integer square root
+certifies all four primes; multiplying the powers recovers each whole
+positive discriminant. The composition identity is also checked, only
+as redundant arithmetic evidence.
+
+For the theorem application, use precisely the containment part of
+Bruin–Stoll Lemma 4.3, Definitions 4.1–4.2, and Section 6 cited above.
+The primary statements and the integral/nonintegral proof cases were
+rechecked against this application. For every rational prime outside
+S_fin, the coefficients lie in Z_p, 3025 is a unit, p is odd and the
+polynomial discriminant has valuation zero. Characteristic zero and
+squarefreeness give the entire degree-eight etale algebra; the source
+does not require it to be a field. Its definition tests every local
+field factor. The integral-coordinate case, exceptional evaluations
+and the nonintegral-coordinate case are included in the cited point
+map and containment theorem. In particular the nonintegral case uses
+the common scalar x before testing square classes, so no denominator
+prime of a point is silently added to S. Section 6 supplies the global
+supported representatives in the even-degree scalar quotient. No
+choice of independent local scalars is asserted to give a global
+representative without that cited input. The norm condition is
+well-defined because a scalar has norm its eighth power. All maximal
+places over S_fin in every simple factor are retained, as is the real
+place. The stronger residue-size assertion, minimal support, polynomial
+order maximality, S-unit exhaustion and complete local-image tests are
+not premises of this containment.
+
+For the infinity evaluation, substitute q=0 separately in the regular
+formulas (6) of L113. At each sign Z0=±55, the coefficient 2Z0 is
+nonzero, so q is a genuine uniformizer. One obtains T=2, h=W=0 and
+R=3Z0. The original functions have F=11, K=1, L=5, u=0, M=2 and
+rho=1/12, with all displayed denominators nonzero. Therefore v=z=0
+and s=H0(0,0)=phi(0)=1. The normalized residues, computed from the
+same regular formulas, are
+
+    h/q = -12, W/q = -12Z0, v/q = -1,
+    z/q² = 1, v/W = 1/(12Z0).
+
+The two v/W residues are -1/660 and +1/660 respectively. They retain
+the two distinct marked boundary lifts. Section 2 p.3 assigns each
+infinity point the class of 3025=55²; LocalImage's infinity treatment
+pp.10–11 confirms that no affine reciprocal evaluation at zero replaces
+this rule. The representative is invertible in every factor. Its norm
+divided by the required leading coefficient is
+3025^8/3025=55^14=(55^7)^2, so it lies in the stipulated norm fiber.
+Both images are identity although their R coordinates, smooth points
+and normalized marked lifts differ. Known rational boundary points
+force nonemptiness of the fake Selmer set; they do not classify it.
+
+Full evidence, including both matrices, rational elimination traces,
+all producer trace comparisons, complete prime-division chains and
+both independently reconstructed transport rows, is saved in
+`scripts/pair-genus-two/marked-octic-support-audit-certificate.json`.
+All 80 checks pass; actual/required discriminant exponents are
+(72,27,8,21)/(72,27,8,21), final factorization remainders 1/1 for
+each polynomial, and distinct smooth infinity rows 2/2. The complete
+producer evidence was consumed and compared, not inferred from a
+bounded preview. The proof above justifies the source application;
+arithmetic flags alone do not verify a theorem's hypotheses.
+
+The first auditor run passed 78 of 80 checks: only the two norm-fiber
+comparisons failed, because Python integer division introduced a
+floating-point value into comparison with the exact integer 55^14.
+Replacing that division with an exact rational constructor gives the
+identity displayed above. The initial evidence is preserved in
+`scripts/pair-genus-two/marked-octic-support-audit-initial-check-failure.json`.
+This repairs an auditor check, not L114's mathematics. L113's earlier
+initial check failures remain untouched. Unit/class arithmetic, complete
+local tests, surviving-cover points and all downstream integer gaps
+remain unresolved.
 
 ## Mathlib
 

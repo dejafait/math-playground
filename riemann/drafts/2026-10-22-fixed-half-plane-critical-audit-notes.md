@@ -1,0 +1,9 @@
+# Fixed-half-plane critical audit — working record
+
+The approved target is the independent audit of L452 and its complete L330/L331 applications. The main gap remains global mixed positivity. This intermediate test can validate the analytic interfaces needed for a later endpoint assembly; it cannot supply the remaining low-index or every-height arguments.
+
+Saved provisional reasoning: the Euler-normalized logarithm is analytic on a neighborhood of the largest disk, whose left edge is 113/128>7/8. The radius inequality is strict and the Cauchy circles fit even at the left strip endpoint. The entire moving L331 disk fits the wider proved strip. The inherited L330 proof compares its superpolynomial tail with the square first, and its central integrated variation uses M_r/sqrt(r), without an additional log r loss. These checks presently reveal no error; the final verdict and complete audit reasoning will be recorded in the canonical lemma after checking all uniform constants and both reflected factors.
+
+Continue if the exponent is strictly below 1/2 with one height-independent constant on all reserved neighborhoods and both inherited criteria apply literally. Otherwise qualify or repair the failed statement. Preserve the pinned external theorem's unverified full-proof/import-closure status and the old shrinking-region countermodels. Endpoint assembly, all lower indices, bounded exterior heights, every-height passage, selected-law realization and regulator obligations remain outside this attempt.
+
+Completed: the audit passes, with the full reasoning and qualifications recorded in the critical-audit section of [L452](../lemmas/L452-fixed-half-plane-logarithmic-derivative-specialization.md). The provisional record above is retained; it does not replace the canonical proof. No new estimate, endpoint assembly or independent certification of the external theorem is claimed.

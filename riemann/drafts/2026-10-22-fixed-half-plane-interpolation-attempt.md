@@ -1,0 +1,9 @@
+# Fixed-half-plane interpolation attempt
+
+Approved target: the COVERED_TARGET in the saved fixed-half-plane endpoint derivative assessment. Main gap: global mixed positivity remains unproved. This step tests only a fixed-strip logarithmic derivative estimate and L330/L331's exact sufficient criteria.
+
+Proposed construction, not yet verified: center logarithm disks at 2+it; use radii R0=255/256, R1=131/128, R2=71/64, R3=143/128. The largest disk lies strictly in Re(s)>7/8 and above the pole at sufficiently large t. Normalize at the center by the absolutely convergent Euler logarithm. Borel–Caratheodory should give O(log t) on R2; three circles between R0 and R2 should give exponent theta=log(R1/R0)/log(R2/R0)<1/3 on R1. A radius-1/128 Cauchy circle about the required strip remains in R1. Check the exact rational inequality R1^3<R0^2 R2, the branch agreement on R0, and uniform growth constants before claiming this bound.
+
+Continuation test: success requires the complete strip, including Cauchy neighborhoods, and M_r/sqrt(r)->0 for L330 and M/(rd)->0 on the complete L331 disk with d=1/128. Failure of a reserved neighborhood or exponent below 1/2 abandons this particular construction. Even success leaves endpoint assembly, smaller indices, bounded exterior heights, every-height passage and all selected-law/regulator gaps open. The external theorem's pinned version and unaudited import-closure qualification remain load-bearing.
+
+Completed: the construction and both interface applications are written in [the canonical L452 proof](../lemmas/L452-fixed-half-plane-logarithmic-derivative-specialization.md). The strict exponent check is the exact integer inequality 262^3<255^2*284. The proof includes the slightly wider right-hand strip needed by the complete L331 disk. This saved tentative reasoning is retained as the attempt record; the canonical statement, hypotheses and proof take precedence. A separate critical audit is pending.

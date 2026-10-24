@@ -28,3 +28,31 @@ The next target changes to all-support integer q-order coprimality on
 the normal closures, with a separate REVIEW_REQUIRED source comparison.
 This is a different prerequisite, not an authentication retry or a
 claim that the height-selected prime already satisfies either condition.
+
+Recovery note, step423: the ready L105 audit was performed and its
+same-prime occurrence/transfer validated in the canonical lemma, with
+the local-P5 label distinguished from native selected-place data.
+Repeated GenEll refresh and IV authentication remain parked. After
+comparing degree, support and geometric-core directions, the next
+scope changes to the unadorned quotient over C_o(E_o[ell]); L052's
+old-member coverage is a reusable lead requiring separate review.
+No new core conclusion or complete repair is asserted.
+
+Recovery note, step427: the ready L106 mathematical audit passes in its
+canonical proof. No additional coricity approval or blocked authentication
+retrieval is proposed. Comparing rank-one covering geometry, full support
+selection and exact-generation repair selects the first as a bounded
+independent target over the unchanged K_C and selected ell. Its changed
+scope is REVIEW_REQUIRED; no construction or native-data verdict is
+asserted yet. The earlier source blocker and the separate rank-two
+full-multiplication obstruction in ATTEMPTS/030 remain parked.
+
+Recovery note, step447: the ready L110 audit was executed and passed;
+its canonical proof now explicitly includes 039H(2)'s residue-field
+qualification in the completion argument. This completes the bounded
+mathematical test rather than repeating its approval. Comparing the
+local field predicate, common cusp sign and exact-generation repair
+selects the first as the new independently testable target. Its changed
+every-selected-completion scope is REVIEW_REQUIRED. No root membership
+or complete native type is proved in this continuation selection, and
+the authentication blocker remains parked. See history/447 and L110.

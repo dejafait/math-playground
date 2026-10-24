@@ -1,0 +1,453 @@
+import time
+START = time.monotonic()
+import ast, copy, difflib, hashlib, json, math, signal, subprocess, sys, textwrap, traceback
+from pathlib import Path
+sys.dont_write_bytecode = True
+SOURCE = sys.orig_argv[sys.orig_argv.index('-c')+1]
+ROOT = Path.cwd()
+BASE = ROOT/'scripts/four-rational-kernels'
+OLD = BASE/'step-424'
+OUT = BASE/'step-429'
+INDICES = (7,8,9,10)
+LIMIT, RESERVE = 134217728, 73728
+initial, names, sources, executable, codes = {}, {}, {}, {}, {}
+completed, exits, failure, current = [], [], None, None
+stage = 'initialization'
+def alarm(*args):
+    raise TimeoutError('inclusive_180_second_deadline')
+signal.signal(signal.SIGALRM, alarm)
+signal.setitimer(signal.ITIMER_REAL, max(.001,180-(time.monotonic()-START)))
+OUT.mkdir()
+def sha(raw):
+    return hashlib.sha256(raw).hexdigest()
+def disk():
+    return sum(p.stat().st_size for p in OUT.rglob('*') if p.is_file())
+def workcheck():
+    assert time.monotonic()-START < 174, 'aggregate_work_deadline'
+    assert disk()+RESERVE <= LIMIT, 'aggregate_new_byte_cap'
+def rawsave(path, raw):
+    assert type(raw) is bytes
+    assert disk()+len(raw)+RESERVE <= LIMIT
+    with path.open('xb') as handle:
+        assert handle.write(raw)==len(raw)
+    assert path.read_bytes()==raw, ('exact_binary_readback',str(path))
+def save(name, obj):
+    raw=(json.dumps(obj,sort_keys=True,separators=(',',':'))+'\n').encode('utf-8','strict')
+    assert disk()+len(raw)+RESERVE <= LIMIT
+    (OUT/name).write_bytes(raw)
+def unique_pairs(pairs):
+    result={}
+    for key,value in pairs:
+        assert key not in result, ('duplicate_json_key',key)
+        result[key]=value
+    return result
+def load(path):
+    return json.loads(path.read_text(),object_pairs_hook=unique_pairs)
+def read(name):
+    return load(OLD/name)
+def inventory(paths):
+    answer={}
+    for path in sorted(set(paths)):
+        raw=path.read_bytes()
+        answer[str(path.relative_to(ROOT))]={'bytes':len(raw),'sha256':sha(raw)}
+    return answer
+roots=[ROOT/'scripts/first-rational-kernel',ROOT/'scripts/second-rational-kernel',
+       ROOT/'scripts/finite-derivative-coefficients']+[BASE/('step-'+str(i)) for i in (417,419,422,424,426)]
+def tree_names():
+    return {str(root.relative_to(ROOT)):sorted(str(p.relative_to(ROOT)) for p in root.rglob('*') if p.is_file()) for root in roots}
+def literals(step):
+    path=BASE/('step-'+str(step))/'bootstrap.py'
+    tree=ast.parse(path.read_text())
+    return {node.targets[0].id:ast.literal_eval(node.value) for node in tree.body
+            if isinstance(node,ast.Assign) and isinstance(node.targets[0],ast.Name)
+            and node.targets[0].id in ('WORKER','PARENT','INSTALLER','PREFLIGHT')}
+def replacement_data(node,index):
+    if isinstance(node,ast.Constant):
+        return node.value
+    if isinstance(node,ast.Name):
+        assert node.id=='n'
+        return index
+    if isinstance(node,ast.List):
+        return [replacement_data(x,index) for x in node.elts]
+    if isinstance(node,ast.Tuple):
+        return tuple(replacement_data(x,index) for x in node.elts)
+    if isinstance(node,ast.Dict):
+        keys=[replacement_data(x,index) for x in node.keys]
+        assert len(keys)==len(set(keys))
+        return dict(zip(keys,[replacement_data(x,index) for x in node.values],strict=True))
+    if isinstance(node,ast.JoinedStr):
+        return ''.join(replacement_data(x,index) for x in node.values)
+    if isinstance(node,ast.FormattedValue):
+        assert node.conversion==-1 and node.format_spec is None
+        return str(replacement_data(node.value,index))
+    if isinstance(node,ast.BinOp):
+        assert isinstance(node.op,ast.Add)
+        return replacement_data(node.left,index)+replacement_data(node.right,index)
+    if isinstance(node,ast.Call):
+        assert isinstance(node.func,ast.Name) and node.func.id=='str'
+        assert len(node.args)==1 and not node.keywords
+        return str(replacement_data(node.args[0],index))
+    raise AssertionError(('forbidden_replacement_data',ast.dump(node)))
+def gated_bytes(path):
+    path=Path(path).resolve()
+    key=str(path.relative_to(Path.cwd()))
+    payload=json.loads((OUT.parent/'source-payload.json').read_text())
+    expected=payload['sources'][key].encode('utf-8','strict')
+    actual=path.read_bytes()
+    assert actual==expected, ('gated_full_bytes_changed',key)
+    gate=json.loads((OUT.parent/'compile-gate.json').read_text())
+    entry=gate['sources'][key]
+    assert entry=={'bytes':len(actual),'sha256':hashlib.sha256(actual).hexdigest()}
+    assert gate['options']=={'mode':'exec','flags':0,'dont_inherit':True,'optimize':0}
+    return actual
+def historical_identity_checks():
+    index=IDENTITY[0]
+    actual=[index,str(OLD.resolve()),'kernel_424_'+str(index),
+            hashlib.sha256((OLD/'producer.py').read_bytes()).hexdigest(),
+            hashlib.sha256((OLD/'replay.py').read_bytes()).hexdigest()]
+    records={name:read(name) for name in ('identity-before.json','identity-after-production.json','identity-after-replay.json')}
+    assert all(record=={'identity':actual} for record in records.values())
+    assert actual[2]+'_producer'=='kernel_424_'+str(index)+'_producer'
+    assert actual[2]+'_replay'=='kernel_424_'+str(index)+'_replay'
+    save('historical-identities.json',{'records':records,'both_actual_source_hashes_bound':True,
+         'historical_module_names':[actual[2]+'_producer',actual[2]+'_replay'],'producer_imported':False})
+def part(source, first, last):
+    assert source.count(first)==1 and source.count(last)==1
+    assert source.index(first)<source.index(last)
+    return source[source.index(first):source.index(last)]
+def once(source,old,new,records):
+    assert source.count(old)==1, ('unique_fresh_adaptation',old)
+    records.append({'old':old,'new':new,'occurrences':1})
+    return source.replace(old,new,1)
+def selected_function(name):
+    nodes=[node for node in ast.parse(SOURCE).body if isinstance(node,ast.FunctionDef) and node.name==name]
+    assert len(nodes)==1
+    return ast.get_source_segment(SOURCE,nodes[0])+'\n'
+try:
+    stage='inventory'
+    historical={i:load(BASE/('step-'+str(i))/'initial-inventory.json') for i in (417,419,422,424)}
+    assert len(historical[424])==255
+    selected=[
+      'lemmas/L106-kernels-seven-through-ten-certificates.md',
+      'drafts/literature/2026-10-23-file-based-kernel-audit-launcher.md',
+      'drafts/source-notes/2026-10-23-file-based-kernel-audit-launcher-coverage.md',
+      'drafts/literature/2026-10-23-kernels-seven-through-ten-audit.md',
+      'drafts/source-notes/2026-10-23-kernels-seven-through-ten-audit-coverage.md',
+      'drafts/2026-10-23-kernels-seven-through-ten-critical-audit.md',
+      'drafts/2026-10-23-file-based-kernel-critical-audit.md',
+      'ATTEMPTS/048-kernel-audit-launcher-quotation-stop.md',
+      'drafts/2026-10-23-four-kernel-document-transition.json',
+      'drafts/2026-10-23-four-kernel-audit-document-transition.json',
+      'drafts/2026-10-23-isolated-audit-document-transition.json',
+      'drafts/2026-10-23-kernels-seven-through-ten-document-transition.json']
+    paths=[p for root in roots for p in root.rglob('*') if p.is_file()]
+    paths += [ROOT/p for inv in historical.values() for p in inv]+[ROOT/p for p in selected]
+    initial=inventory(paths)
+    names=tree_names()
+    save('initial-inventory.json',initial)
+    transitions=[load(ROOT/p) for p in selected[-4:]]
+    reconciliation={}
+    for step,inv in historical.items():
+        changes=[]
+        for rel,value in inv.items():
+            expected=value
+            for transition in transitions[{417:0,419:1,422:2,424:3}[step]:]:
+                entry=transition['files'].get(rel)
+                if entry is not None:
+                    assert expected==entry['before'], ('exact_editorial_before',step,rel)
+                    expected=entry['after']
+                    changes.append({'path':rel,'transition':transition['step'],'before':entry['before'],'after':entry['after']})
+            assert initial[rel]==expected, ('historical_input_identity',step,rel)
+        old=BASE/('step-'+str(step))
+        preserved=load(old/'preservation.json')
+        assert preserved['all_match'] and preserved['files']==inv
+        source_file='source-hashes.json' if step in (417,424) else 'fresh-source-hashes.json'
+        old_sources=load(old/source_file)
+        assert inventory([ROOT/p for p in old_sources])==old_sources
+        reconciliation[str(step)]={'count':len(inv),'exact_transitions':changes,'all_match':True,'source_hashes':old_sources}
+    assert transitions[3]['files']['drafts/2026-10-23-kernels-seven-through-ten-attempt.md']['before']==historical[424]['drafts/2026-10-23-kernels-seven-through-ten-attempt.md']
+    save('historical-reconciliation.json',{'status':'PASS','inventories':reconciliation,'no_path_exemptions':True})
+    stage='historical_source_provenance'
+    old424=literals(424)
+    assert set(old424)=={'WORKER','PARENT'}
+    assert old424['WORKER']==(OLD/'worker.py').read_text()
+    expected_bootstrap='import time\nSTART=time.monotonic()\nWORKER='+repr(old424['WORKER'])+'\nPARENT='+repr(old424['PARENT'])+'\nexec(compile(PARENT,"batch-parent-424","exec"))\n'
+    assert (OLD/'bootstrap.py').read_text()==expected_bootstrap
+    parent417=literals(417)['PARENT']
+    nodes=[node for node in ast.walk(ast.parse(parent417)) if isinstance(node,ast.Assign)
+           and any(isinstance(t,ast.Name) and t.id=='replacements' for t in node.targets)]
+    assert len(nodes)==1
+    expr=nodes[0].value
+    allowed=(ast.Dict,ast.List,ast.Tuple,ast.Constant,ast.JoinedStr,ast.FormattedValue,ast.Name,ast.Load,ast.BinOp,ast.Add,ast.Call)
+    assert all(isinstance(x,allowed) for x in ast.walk(expr))
+    assert all(x.id in ('n','str') for x in ast.walk(expr) if isinstance(x,ast.Name))
+    assert all(isinstance(x.func,ast.Name) and x.func.id=='str' for x in ast.walk(expr) if isinstance(x,ast.Call))
+    reviews=[]
+    for index in INDICES:
+        transforms=replacement_data(expr,index)
+        transforms={key:[(a,b.replace('step-417','step-424')) for a,b in pairs] for key,pairs in transforms.items()}
+        dest=OLD/('n-'+str(index))
+        expected_review={'n':index,'unique_exact_changes':{k:[{'old':a,'new':b} for a,b in v] for k,v in transforms.items()},
+          'both_scalar_and_beta_arguments_bound':True,'pre_clip_conditions_bound':True,'midpoint_not_scaled':True,
+          'all_independent_arithmetic_and_full_loops_unchanged':True}
+        assert load(dest/'source-review.json')==expected_review
+        differences=[]
+        for name,pairs in transforms.items():
+            before=(ROOT/'scripts/second-rational-kernel/step-412'/name).read_text()
+            after=before
+            for a,b in pairs:
+                assert after.count(a)==1
+                after=after.replace(a,b,1)
+            assert after==(dest/name).read_text(), ('entire_historical_source',index,name)
+            ast.parse(after)
+            differences.extend(difflib.unified_diff(before.splitlines(True),after.splitlines(True),
+                     fromfile='step-412/'+name,tofile='n-'+str(index)+'/'+name))
+        assert ''.join(differences)==(dest/'source-diff.txt').read_text()
+        reviews.append(expected_review)
+    old422=literals(422)
+    assert set(old422)=={'WORKER','PARENT','INSTALLER','PREFLIGHT'}
+    for label,file in (('WORKER','worker.py'),('INSTALLER','installer.py'),('PREFLIGHT','preflight.py')):
+        assert old422[label]==(BASE/'step-422'/file).read_text()
+    assert (BASE/'step-422/bootstrap.py').read_text()=='import time\nSTART=time.monotonic()\nWORKER='+repr(old422['WORKER'])+'\nINSTALLER='+repr(old422['INSTALLER'])+'\nPREFLIGHT='+repr(old422['PREFLIGHT'])+'\nPARENT='+repr(old422['PARENT'])+'\nexec(compile(PARENT,"isolated-audit-parent-422","exec"))\n'
+    expected_manifest={'step':'BSD-2026-10-23-424-kernels-seven-through-ten','indices':[7,8,9,10],
+       'python':read('manifest.json')['python'],'required_seconds':180,'work_deadline_seconds':174,
+       'required_new_bytes':LIMIT,'report_and_diagnostic_reserve':RESERVE,'panels_per_kernel':1016,
+       'pairs_per_pass':21264880,'factor_slots':[129,65,65],'product_slots':[193,257],
+       'scalar_terms':128,'scalar_squares':16,'grid_fractional_bits':256,'analytic_enlargement_grid':2**72,
+       'strict_radius_powers':[183,50],'midpoint':'unchanged complete L103 record','source_generation_in_cap':True,
+       'isolated_modules_per_child':True,'old_entrypoints_executed':False,'no_retry_or_resumption':True,
+       'extra_signed_control_block_reused':False,'independent_sign_case_replay_retained':True}
+    assert read('manifest.json')==expected_manifest and expected_manifest['python'].startswith('3.15.0')
+    term,fin=read('terminal-report.json'),read('finalization.json')
+    hist_exits,hist_completed=read('observed-child-exits.json'),read('completed-kernels.json')
+    assert term['child_exits']==hist_exits and term['completed_indices']==list(INDICES)
+    assert term['status']=='PASS' and term['failure'] is None and term['preservation'] and term['preserved_inputs']==255 and term['terminal_timer_retained']
+    assert term['required_seconds']==180 and term['required_new_bytes']==LIMIT
+    assert term['path']=='scripts/four-rational-kernels/step-424/terminal-report.json'
+    previous=0
+    for index,entry,status in zip(INDICES,hist_exits,hist_completed,strict=True):
+        dest=OLD/('n-'+str(index))
+        assert set(entry)=={'n','returncode','start_seconds','observed_exit_seconds'}
+        assert entry['n']==index and entry['returncode']==0 and previous<entry['start_seconds']<entry['observed_exit_seconds']<term['elapsed_before_terminal_seconds']
+        previous=entry['observed_exit_seconds']
+        assert status==load(dest/'status.json') and status['elapsed_seconds']<entry['observed_exit_seconds']
+        work=load(dest/'working.json')
+        assert set(work)=={'n','stage','panels','elapsed_seconds'}
+        assert work['n']==index and work['stage']=='replay' and work['panels']==961 and work['elapsed_seconds']<status['elapsed_seconds']
+        assert load(dest/'child-stdout.txt')=={'n':index,'status':'PASS','radius':status['radius']}
+        assert (dest/'child-stderr.txt').read_bytes()==b''
+    fixed=list(OLD.rglob('*'))
+    before=sum(p.stat().st_size for p in fixed if p.is_file() and p.name not in ('terminal-report.json','finalization.json'))
+    assert before+RESERVE==term['inclusive_new_bytes']==fin['inclusive_new_bytes']==5791091
+    assert math.ceil(term['elapsed_before_terminal_seconds'])+2==term['inclusive_seconds']==fin['inclusive_seconds']==107
+    assert before+(OLD/'terminal-report.json').stat().st_size==fin['new_bytes_after_terminal']
+    assert term['elapsed_before_terminal_seconds']<fin['elapsed_after_terminal_seconds']<107
+    assert fin['all_children_observed_before_terminal'] and fin['preservation_rechecked_after_terminal'] and fin['parent_exit_time_not_claimed'] and fin['terminal_timer_retained']
+    assert sum(p.stat().st_size for p in fixed if p.is_file())+8192<=5791091
+    save('historical-review.json',{'manifest':expected_manifest,'source_reviews':reviews,'bootstrap_worker_exact':True,
+      'terminal':term,'finalization':fin,'before_terminal_bytes':before,
+      'qualifications':'Historical n=1/n=2/step-417 timing, exact parent-exit timestamps and hard signal guarantees remain unverified as originally qualified.'})
+    stage='source_materialization'
+    installer=old422['INSTALLER']
+    worker=old422['WORKER']
+    preflight=old422['PREFLIGHT']
+    fresh_changes=[]
+    for label,text in (('worker',worker),('preflight',preflight)):
+        records=[]
+        text=once(text,"Path('scripts/four-rational-kernels/step-417')","Path('scripts/four-rational-kernels/step-424')",records)
+        text=once(text,"'fixed_replay_422_'","'fixed_replay_429_'",records)
+        indices_old='(3, 4, 5, 6)' if label=='worker' else '(3,4,5,6)'
+        text=once(text,indices_old,'(7,8,9,10)',records)
+        count=text.count('-422')
+        assert count==(3 if label=='worker' else 2)
+        records.append({'old':'-422','new':'-429','occurrences':count})
+        text=text.replace('-422','-429')
+        if label=='worker':
+            text=once(text,"exec(compile((OUT.parent / 'installer.py').read_text(), 'installer-422', 'exec'), installer_namespace)",
+               "exec(compile(gated_bytes(OUT.parent / 'installer.py'), 'installer-429', 'exec', flags=0, dont_inherit=True, optimize=0), installer_namespace)",records)
+            text=once(text,'    spec.loader.exec_module(replay)',
+               "    exec(compile(gated_bytes(OLD / 'replay.py'), str(OLD / 'replay.py'), 'exec', flags=0, dont_inherit=True, optimize=0), replay.__dict__)",records)
+            text=once(text,'    parameter = read(\'parameter.json\')',
+               "    historical_identity_checks()\n    parameter = read('parameter.json')",records)
+            text=once(text,"    assert 'n' not in report",
+               "    assert report == read('returned-report.json')\n    assert 'n' not in report",records)
+            text=once(text,"'ledger_equal': True, 'strict_radius_tests'",
+               "'ledger_equal': True, 'identity_unchanged': True, 'full_returned_report_persisted': True, 'strict_radius_tests'",records)
+            text=once(text,"    save('complete-replay.json',",
+               "    assert set(status) == {'status', 'n', 'panels', 'pairs_per_pass', 'parameter_complete_equal', 'ledger_equal', 'identity_unchanged', 'full_returned_report_persisted', 'strict_radius_tests', 'radius', 'elapsed_seconds'}\n    assert type(status['elapsed_seconds']) is float and 0 < status['elapsed_seconds'] < 174\n    save('complete-replay.json',",records)
+            text=once(text,'try:\n    spec =',
+               "try:\n    gated_bytes(Path(__file__))\n    spec =",records)
+            worker=selected_function('gated_bytes')+selected_function('historical_identity_checks')+text
+        else:
+            text=once(text,"compile(installer_source,'installer-preflight-422','exec')",
+               "compile(installer_source,'installer-preflight-429','exec',flags=0,dont_inherit=True,optimize=0)",records)
+            preflight=text
+        fresh_changes.append({'source':label,'exact_changes':records})
+    # Only the two gated helpers precede the unchanged/adapted worker body.
+    assert worker.endswith(text) is False
+    fresh_texts={'coordinator.py':SOURCE,'worker.py':worker,'installer.py':installer,'preflight.py':preflight}
+    for filename,text in fresh_texts.items():
+        assert type(text) is str
+        raw=text.encode('utf-8','strict')
+        assert raw.decode('utf-8','strict')==text
+        path=OUT/filename
+        rawsave(path,raw)
+        executable[str(path.relative_to(ROOT))]=text
+    for index in INDICES:
+        path=OLD/('n-'+str(index))/'replay.py'
+        raw=path.read_bytes()
+        text=raw.decode('utf-8','strict')
+        assert text.encode('utf-8','strict')==raw
+        executable[str(path.relative_to(ROOT))]=text
+    payload={'sources':executable,'compiler_options':{'mode':'exec','flags':0,'dont_inherit':True,'optimize':0}}
+    raw=(json.dumps(payload,sort_keys=True,separators=(',',':'))+'\n').encode('utf-8','strict')
+    assert json.loads(raw,object_pairs_hook=unique_pairs)==payload
+    rawsave(OUT/'source-payload.json',raw)
+    assert load(OUT/'source-payload.json')==payload
+    save('fresh-adaptation-review.json',fresh_changes)
+    stage='compile_only_gate'
+    gate={}
+    for rel,text in executable.items():
+        raw=(ROOT/rel).read_bytes()
+        assert raw==text.encode('utf-8','strict')
+        codes[rel]=compile(raw,str(ROOT/rel),'exec',flags=0,dont_inherit=True,optimize=0)
+        gate[rel]={'bytes':len(raw),'sha256':sha(raw)}
+    save('compile-gate.json',{'status':'PASS','sources':gate,'python':sys.version,
+        'options':payload['compiler_options'],'complete_byte_readback':True,'serialization_roundtrip':True,
+        'any_child_started':False,'any_preflight_executed':False,'elapsed_seconds':time.monotonic()-START})
+    stage='static_binding_review'
+    retained=(BASE/'step-419/signed-checks.py').read_text()
+    comparison=(ROOT/'scripts/second-rational-kernel/step-415/audit-body.py').read_text()
+    left='    old_floor,old_ceil=replay.floor_checked,replay.ceil_checked\n'
+    right="    parameter=read('parameter.json')\n"
+    assert textwrap.dedent(part(comparison,left,right))==retained
+    parsed=ast.parse(installer)
+    assert len(parsed.body)==1 and isinstance(parsed.body[0],ast.FunctionDef)
+    fn=parsed.body[0]
+    assert fn.name=='install' and [x.arg for x in fn.args.args]==['replay','D','signed','save']
+    assert not fn.args.defaults and not fn.decorator_list and fn.returns is None
+    assert all(arg.annotation is None for arg in fn.args.args)
+    assert ast.dump(ast.Module(body=fn.body[:-1],type_ignores=[]),include_attributes=False)==ast.dump(ast.parse(retained),include_attributes=False)
+    assert isinstance(fn.body[-1],ast.Return)
+    assert not any(isinstance(x,(ast.Global,ast.Nonlocal,ast.Import,ast.ImportFrom)) for x in ast.walk(fn))
+    assert not {'OUT','OLD','START','IDENTITY','globals','locals','exec','eval','compile','__import__'} & {x.id for x in ast.walk(fn) if isinstance(x,ast.Name)}
+    defaults=[]
+    for node in ast.walk(fn):
+        if isinstance(node,ast.FunctionDef):
+            assert not node.decorator_list and node.returns is None
+            assert all(x.annotation is None for x in node.args.args)
+            for val in node.args.defaults:
+                assert isinstance(val,ast.Constant) and val.value==1
+            defaults.extend(ast.unparse(val) for val in node.args.defaults)
+    calls=sorted({ast.unparse(x.func) for x in ast.walk(fn) if isinstance(x,ast.Call)})
+    assert set(calls)=={'old_floor','old_ceil','old_times','old_over','old_enc','old_plus','old_neg','old_clip','old_product','min','max','len','all','setattr','times','floor_checked','ceil_checked','save','replay.LEDGER.get','replay.LEDGER.clear'}
+    stores=[ast.unparse(x) for x in ast.walk(fn) if isinstance(x,(ast.Name,ast.Attribute,ast.Subscript)) and isinstance(x.ctx,ast.Store)]
+    worker_ast=ast.parse(worker)
+    identity_stores=[x for x in ast.walk(worker_ast) if isinstance(x,ast.Name) and x.id=='IDENTITY' and isinstance(x.ctx,ast.Store)]
+    assert len(identity_stores)==1
+    assert not any(isinstance(x,ast.Subscript) and isinstance(x.ctx,ast.Store) and isinstance(x.value,ast.Name) and x.value.id=='IDENTITY' for x in ast.walk(worker_ast))
+    assert not any(isinstance(x,ast.Name) and x.id=='n' for x in ast.walk(worker_ast))
+    for name in ('fresh_counts','identity_for','check_identity','check_captures'):
+        definitions=[]
+        for source in (worker,preflight):
+            definitions.append(next(x for x in ast.parse(source).body if isinstance(x,ast.FunctionDef) and x.name==name))
+        assert ast.dump(definitions[0],include_attributes=False)==ast.dump(definitions[1],include_attributes=False), ('common_identity_helper',name)
+    save('static-binding-review.json',{'status':'PASS','installer_body_exact':True,
+        'identity_binding_sites':1,'calls':calls,'stores':stores,'defaults':defaults,
+        'all_adapted_sources':gate,'no_producer_import':True})
+    endpoints={}
+    for line in (ROOT/selected[0]).read_text().splitlines():
+        if line.startswith('| ') and line.split('|')[1].strip() in ('7','8','9','10'):
+            values=[int(v.strip()) for v in line.split('|')[1:-1]]
+            endpoints[str(values[0])]=values[1:]
+    assert set(endpoints)=={'7','8','9','10'}
+    assert [endpoints[str(index)][2] for index in INDICES]==[83605,50334,31064,19612]
+    save('expected-endpoints.json',endpoints)
+    sources=inventory([OUT/name for name in fresh_texts]+[OUT/'source-payload.json',OUT/'compile-gate.json',OUT/'expected-endpoints.json'])
+    save('fresh-source-hashes.json',sources)
+    save('audit-manifest.json',{'python':sys.version,'indices':list(INDICES),'time_cap_seconds':180,'byte_cap':LIMIT,
+       'start_before_imports_reads_and_setup':True,'compile_before_any_child_or_generated_execution':True,
+       'old_entrypoints_executed':False,'producer_executed':False,'no_retry_or_resumption':True,
+       'signed_checks':'exact lexical installer; four inert preflights before sole replay per index',
+       'historical_timing_qualifications_retained':True})
+    stage='four_inert_preflights'
+    ns={}
+    assert (OUT/'preflight.py').read_bytes()==executable[str((OUT/'preflight.py').relative_to(ROOT))].encode()
+    exec(codes[str((OUT/'preflight.py').relative_to(ROOT))],ns)
+    assert (OUT/'installer.py').read_bytes()==installer.encode()
+    result=ns['preflight'](OUT,installer)
+    save('identity-preflight.json',{'status':'PASS','indices':list(INDICES),'results':result,
+       'all_before_any_kernel':True,'elapsed_seconds':time.monotonic()-START})
+    workcheck()
+    stage='complete_numerical_audits'
+    for index in INDICES:
+        current=index
+        workcheck()
+        assert inventory([ROOT/p for p in sources])==sources
+        for rel,text in executable.items():
+            assert (ROOT/rel).read_bytes()==text.encode('utf-8','strict')
+        dest=OUT/('n-'+str(index))
+        dest.mkdir()
+        child_start=time.monotonic()-START
+        try:
+            child=subprocess.run([sys.executable,'-B',str(OUT/'worker.py'),str(index),str(dest),repr(START)],
+                 capture_output=True,timeout=max(.001,174-(time.monotonic()-START)))
+            stdout,stderr,code=child.stdout,child.stderr,child.returncode
+        except subprocess.TimeoutExpired as exc:
+            stdout,stderr,code=exc.stdout or b'',exc.stderr or b'',None
+            failure={'type':'ChildTimeout','n':index,'message':'killed and waited; no retry'}
+        assert len(stdout)+len(stderr)<=8192
+        rawsave(dest/'child-stdout.txt',stdout)
+        rawsave(dest/'child-stderr.txt',stderr)
+        exits.append({'n':index,'returncode':code,'start_seconds':child_start,'observed_exit_seconds':time.monotonic()-START})
+        save('observed-child-exits.json',exits)
+        if failure is not None:
+            break
+        if code!=0:
+            failure={'type':'ChildFailure','n':index,'returncode':code,'evidence':str((dest/'first-failure.json').relative_to(ROOT))}
+            break
+        status=load(dest/'status.json')
+        assert status['status']=='PASS' and status['state']=={'n':index,'stage':'complete','panels':1016} and stderr==b''
+        assert load(dest/'child-stdout.txt')=={'n':index,'status':'PASS','panels':1016,'coefficient_pairs':21264880,'strict_radius_powers':[183,50]}
+        completed.append(index)
+        save('completed-indices.json',completed)
+        print(json.dumps({'n':index,'status':'PASS','observed_exit_seconds':exits[-1]['observed_exit_seconds']}),flush=True)
+        workcheck()
+except BaseException as exc:
+    if failure is None:
+        failure={'type':type(exc).__name__,'message':str(exc),'n':current,'stage':stage,'traceback':traceback.format_exc()}
+finally:
+    signal.setitimer(signal.ITIMER_REAL,max(.001,180-(time.monotonic()-START)))
+    final=inventory([ROOT/p for p in initial])
+    mismatches=[p for p in initial if initial[p]!=final.get(p)]
+    fresh_ok=inventory([ROOT/p for p in sources])==sources
+    all_emitted_ok=all((ROOT/rel).read_bytes()==text.encode('utf-8','strict') for rel,text in executable.items())
+    preserved=not mismatches and tree_names()==names and fresh_ok and all_emitted_ok
+    save('preservation.json',{'count':len(initial),'files':final,'mismatches':mismatches,
+        'all_match':preserved,'original_tree_file_sets_equal':tree_names()==names,
+        'fresh_sources_equal':fresh_ok,'all_executable_bytes_equal':all_emitted_ok})
+    if not preserved and failure is None:
+        failure={'type':'PreservationFailure','message':str(mismatches)}
+    if failure is not None:
+        save('first-failure.json',failure)
+    elapsed=time.monotonic()-START
+    sec=math.ceil(elapsed)+2
+    size=disk()+RESERVE
+    okay=failure is None and completed==list(INDICES) and sec<=180 and size<=LIMIT
+    terminal={'status':'PASS' if okay else 'STOP','completed_indices':completed,'failure':failure,
+       'child_exits':exits,'preserved_inputs':len(initial),'preservation':preserved,
+       'elapsed_before_terminal_seconds':elapsed,'inclusive_seconds':sec,'inclusive_new_bytes':size,
+       'required_seconds':180,'required_new_bytes':LIMIT,'terminal_timer_retained':True,
+       'path':str((OUT/'terminal-report.json').relative_to(ROOT))}
+    save('terminal-report.json',terminal)
+    assert inventory([ROOT/p for p in initial])==initial and tree_names()==names
+    assert inventory([ROOT/p for p in sources])==sources
+    assert all((ROOT/rel).read_bytes()==text.encode('utf-8','strict') for rel,text in executable.items())
+    save('finalization.json',{'elapsed_after_terminal_seconds':time.monotonic()-START,
+       'new_bytes_after_terminal':disk(),'inclusive_seconds':sec,'inclusive_new_bytes':size,
+       'all_children_observed_before_terminal':True,'preservation_rechecked_after_terminal':True,
+       'parent_exit_time_not_claimed':True,'terminal_timer_retained':True})
+    assert time.monotonic()-START<=sec<=180 and disk()+8192<=size<=LIMIT
+    print(json.dumps(terminal),flush=True)
+    assert time.monotonic()-START<=sec
+    sys.exit(0 if okay else 1)

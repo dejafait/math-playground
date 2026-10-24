@@ -1,0 +1,31 @@
+# Coverage assessment: fixed-half-plane specialization audit
+
+TARGET: Critically audit L452's fixed-half-plane logarithm interpolation and its complete L330/L331 applications, retaining the pinned external-input qualification and both coupled domains.
+CHECKED: 2026-10-22
+DECISION: SPECIALIZE
+SEARCH_EVIDENCE: Reused the unchanged 2026-10-21 fixed-half-plane endpoint derivative assessment, its recorded exact-statement searches and primary-proof inspection; scoped checks of L005/L330/L331/L452, the dated interpolation draft and two October 22 histories found the existing specialization and old shrinking-region failures. No new discovery search or originality claim.
+SOURCE_EVIDENCE: Reused Titchmarsh (1986), Theorem 14.2 and proof pp. 336–337, equations (14.2.1)–(14.2.6), and Section 14.3 pp. 338–339, as previously inspected; reused the external register's pinned September 30 Theorem 1.1. Fresh PDF access identified the book, but subsequent text extraction timed out; no new theorem evidence is claimed from that access.
+COMPARISON: The saved source coverage is adequate for auditing L452's adaptation of the named logarithm/interpolation/Cauchy mechanism and its direct local interfaces. The RH-conditional printed conclusion is not a literal import; changed fixed disks and uniformity must be checked in the subsequent mathematical audit.
+GAP: The independent correctness verdict remains open for branch normalization, growth, all radii and the exponent, complete Cauchy neighborhoods, both coupled-height applications and their uniform constants. External proof/import-closure verification and final endpoint assembly are outside this audit.
+REASON: Separate approval of the newly saved audit target is required by the gate. Existing coverage suffices without further discovery; this approval adds no mathematical result and does not repeat or certify the external theorem.
+SCOPE: Exactly L452 and its direct L005/L330/L331 interfaces, with the pinned external theorem's strict boundary and pole/trust qualifications. No endpoint sign assembly, new contour argument, all-height extension or RH claim.
+
+Essential inputs are L452, L005, L330 and L331, the external-input register and the unchanged prior derivative assessment. Consult L303/L304 only if verifying the inherited meaning of the relative freezing estimate. The external theorem remains a cited input with no local full-proof/import-closure audit. Independent gaps include final endpoint assembly and its audit, smaller indices, bounded exterior heights, every-height passage, all-degree positivity and the selected-law/regulator obligations.
+
+The discriminating audit test is whether a genuine exponent below 1/2 holds on every reserved neighborhood with height-independent constants, and whether the complete L331 disk stays in the proved strip. A failed branch, radius, exponent, or uniformity check requires correcting or qualifying L452. Success validates only the stated interfaces. No mathematical correctness verdict is supplied by this coverage assessment.
+
+
+## Coverage comparison and audit boundary — 2026-10-22
+
+The essential mechanism is already inspected in the [prior assessment](2026-10-21-fixed-half-plane-endpoint-derivative-review.md). Its [primary book citation, pp. 336–337](https://sites.math.rutgers.edu/~zeilberg/EM18/TitchmarshZeta.pdf#page=173) supplies the logarithm, Borel–Caratheodory and three-circles argument; [pp. 338–339](https://sites.math.rutgers.edu/~zeilberg/EM18/TitchmarshZeta.pdf#page=174) supply derivative transfer. Section 14.1 assumes RH. Rechecking the changed hypotheses is essential, and importing the printed bound without that work would be invalid. No broader passage or new literature discovery is needed for this exact audit. The fresh retrieval failure does not remove the adequate saved primary inspection; it is not a new essential source blocker.
+
+Coverage maps to the audit obligations as follows:
+
+- Analytic logarithm existence uses the standard named holomorphic-logarithm theorem on a simply connected zero-free, pole-free domain. L005 supplies the Euler normalization only on Re(s)>1. The audit must test agreement there, rather than extend the prime series leftward.
+- The elementary growth identity is part of L452's written specialization, not a newly imported estimate. Its continuation, uniform strip bounds and treatment of the pole must be checked. Borel–Caratheodory, Hadamard three-circles and Cauchy's derivative estimate are standard named inputs; their hypotheses and the reserved neighborhoods are audit obligations.
+- L330's statement and relative-error proof through its square comparison, and L331's sufficient-disk statement and local-criterion proof, were read for scope. They supply the exact interfaces to audit, rather than an external theorem about endpoint signs. The old countermodels address their original regional hypotheses; they are not a reason to reject a fixed-domain specialization without checking it.
+- The pinned external-input register specifies the strict 7/8 boundary, allowed pole and unverified full manuscript/import closure. Those qualifications remain load-bearing. No claim about the boundary line or independent certification is covered.
+
+The local duplicate check identifies L452 itself and its dated interpolation draft as the existing attempt; the two October 22 histories record source review followed by specialization, with no completed critical audit. This turn does not repeat the proof, derive an estimate, modify a lemma or script, or assemble endpoint positivity. Full matching Mathlib coverage remains unchecked; L005's recorded Euler-log support and the separately supplied external artifact are distinguished from a matching library theorem.
+
+Approval decision: SPECIALIZE permits the exact saved critical audit as REPRODUCTION, using the existing source coverage. Continue only if the independent audit validates the strict sub-square-root exponent on every reserved neighborhood and both full coupled domains; otherwise correct or qualify the affected claim and preserve the failure. Success would validate local analytic interfaces useful for later endpoint assembly, while leaving all independently listed global gaps open. This is a process/coverage approval, not a new mathematical advance.

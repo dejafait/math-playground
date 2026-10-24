@@ -1,0 +1,13 @@
+# Step445 — selected-completion graph-kernel attempt
+
+Work in progress. Approved target: Test whether L107's unchanged degree-ell cover at every place s(p) selected by L108, p in Sigma, is the native mod-ell graph cover, with equality of the actual arithmetic covering kernels.
+
+Use the invocation-start SPECIALIZE assessment `drafts/literature/2026-10-24-selected-completion-graph-cover-comparison.md`. Main gap: original finite B>=A. Intermediate use: only the graph part of local clause (e). Passing requires actual models and maps over each unchanged completion, residue descent, and equality of arithmetic kernels; degree or geometric point-group agreement is insufficient.
+
+Read L109 including its step443 audit, L107's algebraic construction, L108's actual section hypotheses, and the complete L056/L057 model/graph methods with their audits; read the relevant L055 canonical-log construction and formal-sheaf argument. Reuse prior arbitrary-level source coverage and failure screens. No old-object result is transferred. Preserve existing changes and ATTEMPTS/029,030,031,034,035.
+
+Planned application: for each w=s(p), use k=K_C,w and L109's q_w and pointed k-comparison. No integral model was fixed for this new object: take Conrad's one-gon T_1(q_w) with that generic identification, then construct its tautological stable log over the closed-point base. Use T_ell(q_w), rotation, the canonical origin formal group and the power isogeny to identify the retained complementary map by its composition with alpha. Compare the finite native cycle cover over the actual residue field and lift by proper henselian full faithfulness. These are obligations, not conclusions at this checkpoint.
+
+Independent limits: common cusp sign, theta splitting, double-dot field predicate, independent initial data/III/P7, exact generation/full repair, relative factor-four excess, actual input/action/factorization/pilot, source authentication/def= qualifications and essentiality remain unresolved. Mathlib unchecked. No complete candidate.
+
+Completed outcome: the full specialization is now in `lemmas/L110-selected-completion-native-graph-kernels.md`. It identifies the retained psi by its actual power-map factorization and compares the kappa-defined finite covers before lifting and transporting deck maps. This supplies arithmetic kernel equality, pending a separate critical audit. The new audit assessment is REVIEW_REQUIRED; no audit was performed or approved here. Primary reinspection reused the existing coverage: Conrad section 2.5 including the full Theorem 2.5.2 proof, and EtTh section 1 and Definition 2.5(i). No new discovery search or expanded target was needed.

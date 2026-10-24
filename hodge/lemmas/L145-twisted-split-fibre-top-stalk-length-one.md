@@ -40,8 +40,9 @@ At every selected actual split parameter,
 The isomorphism requires a generator choice; annihilation by the
 maximal ideal and the length are intrinsic. The actual last-row
 cotangent rank is two, equal to the required base cotangent dimension.
-This is a conditional ADVANCE / REPRODUCTION of the covered tools,
-pending a separate critical audit. It supplies a local multiplicity
+This is a conditional ADVANCE / REPRODUCTION of the covered tools.
+The separate critical audit below preserves it without a stronger
+conclusion. It supplies a local multiplicity
 for a possible later twisted-complex defect comparison. It supplies
 no global index effectivity, kernel existence, nonempty split locus,
 cycle, reconstruction, transport or universal primitive Hodge realization.
@@ -229,8 +230,82 @@ global effectivity mechanisms are untouched: G_0 has nonzero endpoint
 cohomology, and a length-one top stalk alone supplies no global positive
 cycle or inequality. The split locus may be empty, making the local
 statement vacuous; F and universal primitive Hodge realization remain
-unproved. A separate critical audit of the natural sequence, the correct
-dual transpose and the rank-to-whole-length passage is still required.
+unproved. The separate audit below checks the natural sequence, the
+correct dual transpose and the rank-to-whole-length passage.
+
+**Independent critical audit, 2026-10-22 (step 463).** Reuse the
+pre-invocation SPECIALIZE assessment
+`drafts/literature/2026-10-21-twisted-split-top-stalk-critical-audit.md`
+and the precise primary inputs cited above. This audit finds no
+substantive error, necessary repair or stronger conclusion. Its outcome
+is EXPLORATION / REPRODUCTION, not a new mathematical advance.
+
+First check the algebraic-to-analytic naturality in (4). Local freeness
+of G makes its pullback flat over A, so multiplication by epsilon
+identifies its kernel and quotient with G_0. The fibre S_1 is fixed;
+the line twist has no parameter deformation. For a finite affine
+cover of S_1, every intersection remains affine because S_1 is
+separated. Its product with Spec R has R-flat coordinate algebra;
+the locally free G gives a finite projective module over that algebra.
+The resulting bounded Cech complex P consists of R-flat modules and
+computes C and its actual scalar extensions. The bounded finite-free K
+computes derived morphisms by ordinary chain maps
+([Stacks Lemma 13.19.8, 064B](https://stacks.math.columbia.edu/tag/064B)), so the
+isomorphism K to P in the derived category has a quasi-isomorphism
+chain representative. Both complexes are bounded and flat; tensoring
+this comparison with A or the residue field preserves the quasi-isomorphism.
+The sequence 0 -> \(\mathbf C\) -> A -> \(\mathbf C\) -> 0 therefore gives a map
+between their short exact complex sequences. Connecting-map naturality
+identifies the two boundaries, including their sign. Minimality makes
+the degree-one boundary exactly the epsilon coefficient of d_A^1.
+Exact GAGA applies to the coherent sequence on the projective S_1
+after the finite dual-number projection is forgotten. Consequently
+the Dolbeault boundary (6) really computes this algebraic last row.
+
+Second, the central ranks and coefficient action are checked without
+ordinary middle base change. Nonzero classes +/-2k have zero h-degree
+and cannot be effective, and their negatives have the same property.
+Serre duality and RR give (0,26,0) for both line cohomologies, hence
+(1,26,1) for G_0. These are precisely the ranks of the minimal K.
+In the ordered splitting (L,L^{-1}), the upper-right KS component is
+p(u) in H^1(Hom(L^{-1},L))=H^1(L^2). Tensoring the whole splitting
+by the fixed L^{-1} makes the coefficient (O,L^{-2}) but leaves this
+endomorphism entry unchanged. Its one-sided action on (0,b) is
+(p(u) wedge b,0). There is no adjoint commutator or factor two.
+Diagonal deformation classes vanish by H^1(O)=0; removing their exact
+representatives changes no boundary on cohomology.
+
+Third, evaluation into O fixes the dual sign independently of any
+self-duality convention. For a degree-zero dual row s, the compatibility
+identity is d(s b)=(d^vee s)b+s(db). With d=d_0+epsilon a_u, the
+variation of d^vee s is -epsilon s a_u. Thus the actual section
+s=(1,0) has boundary (0,-p(u)) in O plus L^2. Placing that degree-one
+dual coefficient before b gives -p(u) wedge b, exactly the minus sign
+in (9). Reversing the two degree-one factors would introduce the
+additional odd interchange sign. The endpoint functional is nonzero
+on H^2(O); Serre duality pairs every class of H^1(L^2) perfectly with
+the entire H^1(L^{-2}). No restriction to the two-dimensional family
+tangent image is permitted or used.
+
+Finally, L134's audited rank passage uses the actual derivative:
+L095 gives injectivity and L094's actual real moment equation equates
+the two weight norms. Thus either weight projection has zero kernel
+on its complex two-dimensional source. Constant allowed central
+markings rescale the blocks invertibly, preserving this rank. It
+follows that the boundary u -> ell(u) has rank two, so the actual row
+entries span m/m^2. Since I is contained in m, the finite module m/I
+satisfies m/I=m(m/I); the cited Nakayama lemma gives I=m, without
+discarding any higher coefficient of d^1. Minimality also ensures
+I is proper, so the cokernel is nonzero and its length is exactly one,
+not merely at most one. This proves the claimed entire ordinary stalk.
+
+Only the weight-rank part of L134 is used, not its higher-jet or image
+ring conclusion. L096's global finiteness and L110's different adjoint
+coefficient are not inputs to the local length proof. The direct inputs
+remain L071, L094, L095 and L134. The audit supplies no middle-module
+freeness, metric extension, effectivity or inequality; the split locus
+may be empty and F remains hypothetical. Full matching Mathlib coverage
+remains not checked.
 
 ## Mathlib
 

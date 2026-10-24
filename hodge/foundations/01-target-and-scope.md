@@ -6,6 +6,8 @@ Rechecked on 2026-09-25: the page and Deligne's rational formulation agree with 
 
 Rechecked on 2026-09-26: the Clay page and Deligne's section 1, p. 2 still specify rational cycle classes on smooth projective complex varieties; this is the target for the extension-sheaf test as well.
 
+Rechecked on 2026-10-23 for the recovery source review: Deligne's Clay-hosted PDF, section 1, p. 2, retains the same rational-cycle formulation on projective non-singular varieties over C. No integral or nonprojective variant is substituted.
+
 Let X be a smooth projective complex variety of complex dimension n. Work componentwise if X is disconnected. For 0 <= p <= n, define
 
 \[

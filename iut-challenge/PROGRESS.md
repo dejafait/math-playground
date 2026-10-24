@@ -1,24 +1,23 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: 2026-10-21-395-all-support-q-order-equivalence
+STEP_ID: 2026-10-24-457-common-native-cusp-place-reselection
 STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: Established h_w=e_w(-v_p(j(E))) and both all-place coprimality implications over the actual C_o, using prime-to-ell Galois ramification; known-method specialization in lemmas/L099-normal-closure-all-support-q-order-equivalence.md, pending separate critical audit.
+STEP_EVIDENCE: L113 constructs semilinear stabilizer action, native graph sign-pair covariance and a common global cusp after place reselection, retaining pointwise local prerequisites; separate critical audit pending. lemmas/L113-common-native-cusp-label-by-place-reselection.md
 STEP_KIND: RESEARCH
 STEP_CLASSIFICATION: REPRODUCTION
-STEP_REVIEW: drafts/literature/2026-10-21-normal-closure-all-support-q-orders.md
+STEP_REVIEW: drafts/literature/2026-10-24-common-cusp-label-place-reselection.md
 ACTUAL_TASK_TYPE: proof_attempt
-Bottleneck: Original finite B>=A remains open; actual height-selected ell-integrality and rational pole-order avoidance remain independent and unproved.
-Route decision: The approved equivalence test passes; retain L099 for separate critical audit after approval of its uncovered audit scope. ATTEMPTS/035 remains parked.
-Exploration turns used: Zero mathematical EXPLORATION attempts; this step completed one concrete proof attempt using ready coverage.
-Continuation inputs and assumptions: L099 with direct inputs audited L092,L098, carrying the same L089/L090 survivor E/Q,c,h,d_*,e_*,both domains/fixed closure, all six full-coordinate E_o,G_o,C_o; S={p:v_p(j(E))<0}; prime ell>=7 and explicit v_ell(j(E))>=0; every actual w|p in S.
-Continuation test: Separately compare source coverage, then audit the full Tate remainder, nonsplit downstairs height normalization, Galois degree divisibility and both quantified implications; a failed load-bearing step requires correction or rejection, while a pass verifies only L099.
-Downstream use: Isolate all-place q-order avoidance as rational pole-order avoidance in a possible native-data repair; no actual prime-selection or full initial-data conclusion follows.
-Unresolved assumptions: Actual height-selected ell-integrality and q-order avoidance, full native selected/theta data, April IV authentication/current-version and def= boundary, exact generation/repairs, native input/action/factorization/pilot, essentiality; preserve L092 factor-four excess and no prime-seven or ell-division-field substitution.
-Source qualification: Reused completed inspected GenEll/Silverman/Kedlaya/Milne/native coverage without new retrieval or authentication; no general theorem reproof, novelty or complete-solution candidate. Mathlib unchecked.
-NEXT_REVIEW: drafts/literature/2026-10-21-normal-closure-all-support-q-order-critical-audit.md
-Next action: Critically audit L099's all-support q-order equivalence, including native nonsplit height normalization, actual Galois ramification divisibility and both all-place implications.
+Bottleneck: Original finite B>=A remains open; L113's common-label specialization now awaits independent critical checking, and complete native initial data are unproved.
+Route decision: The approved bounded target passes by known methods on fixed objects; preserve its outcome and seek separate approval of the new audit scope. No marked-atlas retry or free cyclic relabeling.
+Exploration turns used: Zero mathematical EXPLORATION attempts; this known-method ADVANCE spends no bounded-discovery turn and claims no result beyond the sources checked.
+Continuation inputs and assumptions: L113 with L105,L107,L108,L110,L111,L112; inherited L106,L109,L103,L090. Retain the same member/order, E_o,G_o,C_o, full K_C=C_o(E_o[ell]), ell>=7, fixed U,alpha,psi,V, original s and reselected s', each actual k,q_w, Sigma=S minus {ell}. Only places in their original C_o-fibers change through Stab(U).
+Continuation test: Check the actual quotient/psi and completion diagrams, integral graph/marking/deck covariance, nonzero quotient-vector action and transport of all theta prerequisites. Abstract generator selection or mod-ell kernel equality alone fails; uncovered essential hypotheses require REVIEW_REQUIRED.
+Downstream use: An audited L113 could supply the independent native common-cusp condition beside local graph, field and splitting inputs; it would not establish complete initial data or finite B>=A.
+Unresolved assumptions: Independent initial-data/III/P7, exact generation/full repair, relative factor-four excess, actual input/action/factorization/pilot, authentication/def= qualifications, essentiality and finite B>=A. No C_o-defined U, downstairs splitness, ell-integrality, global theta splitting or K_C/Q normality assumed. Mathlib unchecked. No complete candidate.
+NEXT_REVIEW: drafts/literature/2026-10-24-common-cusp-reselection-critical-audit.md
+Next action: Critically audit L113's common native cusp sign after stabilizer place reselection, including semilinear quotient action, integral graph covariance and transport of L110–L112's local prerequisites.
 NEXT_TASK_TYPE: literature_comparison
 NEXT_MODEL_ROLE: standard
-NEXT_EFFORT: high
-NEXT_ROUTING_REASON: The new critical-audit scope first needs separate approval against existing precise inspected source coverage; reuse that evidence without fresh search unless a specific omission appears.
+NEXT_EFFORT: medium
+NEXT_ROUTING_REASON: Separately approve the newly proposed REVIEW_REQUIRED audit scope against step456's ready sources without repeated discovery, then route the actual critical audit to proof_audit.

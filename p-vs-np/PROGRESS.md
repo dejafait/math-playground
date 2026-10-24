@@ -1,20 +1,21 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: 2026-10-21-404-full-map-obstruction-critical-audit
-STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: Independent all-size informal audit finds no substantive defect in L103's source legality, realized distinct maps/formulas, materialized records or original-Q ledger; lemmas/L103-pathwise-full-map-normalization-obstruction.md. Validates an existing local input, with no stronger bound or verified implementation.
-STEP_KIND: RESEARCH
+STEP_ID: 2026-10-24-467-immutable-byte-audit-scope
+STEP_OUTCOME: EXPLORATION
+STEP_EVIDENCE: Completed separate scope comparison and approved the exact finite audit using retained rule/API coverage; no independent audit or new mathematical result. drafts/literature/2026-10-24-immutable-byte-checker-critical-audit.md, step 467.
+STEP_KIND: LITERATURE
 STEP_CLASSIFICATION: REPRODUCTION
-STEP_REVIEW: drafts/literature/2026-10-21-full-map-obstruction-critical-audit.md
-ACTUAL_TASK_TYPE: proof_audit
-Bottleneck: The specified full-map cache fails its universal polynomial ledger; unrestricted normalization, general short-proof availability, M-only bounds and SAT decision/separation remain unresolved.
-Route decision: Retain audited L103/Attempt 035 and preserve L101/Attempts 032–034. Move to a separately reviewed source-incidence-width supplier through L097, independent of the stopped normalization procedure.
-Exploration turns used: 0 mathematical EXPLORATION turns since this checked local input; no mathematics for the new continuation was attempted.
-NEXT_REVIEW: drafts/literature/2026-10-21-source-incidence-width-occurrence-witness.md
-Next action: Assess whether a supplied width-k incidence-tree decomposition of an unsatisfiable width-three source CNF yields L087's exact-fg witness in size and time 2^{O(k)}Q^{O(1)}, where Q=2+M+|F|+|decomposition| is fixed before construction.
-Continuation inputs: L087 exact occurrence construction/provenance/B/M and L097 ordinary-resolution receiver/full ledger; compare L071's distinct signed-value-graph promise and L096's small-core promise. REVIEW_REQUIRED for constructive incidence-width proof-size coverage and any graph conversion. Retain full decomposition records, original Q, actual fg and both formal identities. Small decompositions for arbitrary sources, general short proofs, M-only bounds and SAT transfer remain unproved.
-NEXT_TASK_TYPE: literature_comparison
-NEXT_MODEL_ROLE: standard
+STEP_REVIEW: drafts/literature/2026-10-24-immutable-byte-checker-critical-audit.md
+ACTUAL_TASK_TYPE: literature_comparison
+LITERATURE_REASON: Separate approval was required for the new critical-audit target and its changed byte/equality boundary; adequate existing source coverage was reused.
+Bottleneck: Independent review of the changed checker boundary and harness remains undone; positive occurrence reception and total interpreter bounds remain unverified. Unrestricted SAT remains open.
+Route decision: SPECIALIZE scope approved; next turn perform the exact finite critical audit. Preserve step-466 repair and parked Attempts 036/037/038.
+Exploration turns used: Literature-only step; no mathematical exploration spent, prior step-461 usage preserved. No supervisor counters edited.
+NEXT_REVIEW: drafts/literature/2026-10-24-immutable-byte-checker-critical-audit.md
+Next action: Critically audit the bounded immutable-byte checker, equality guard, and retained caller authorization evidence.
+Continuation inputs: Approved step-467 assessment; L108 §§1,10–12, L097 §§8–9, audited L035/L036; unchanged step-465 implementation assessment and step-460 source qualifications. Inspect complete checker.py, parameterized_input.py, test_immutable_bytes.py, baseline and load-bearing output-466 AST/receipts/race/regeneration evidence; retain output-459 authorization, output-464 provenance, generic emit/receive and occurrence bind_K. Verify wrapper normalization, exact seven tags/LF framing, full first bytes/dictionary, bounded unparsed second reads and baseline selection. Trusted paths/remaining SHA, latency/post-read changes, uncapped legacy path API, total resources, absent positive endpoint and proof-existence/M-only/W₂/ER/SAT gaps persist.
+NEXT_TASK_TYPE: proof_audit
+NEXT_MODEL_ROLE: deep_research
 NEXT_EFFORT: high
-NEXT_ROUTING_REASON: A materially different structural supplier needs exact primary theorem and constructive proof-record comparison before any derivation; reuse local receiver coverage and downgrade from the completed difficult audit.
+NEXT_ROUTING_REASON: Independent critical review must distinguish engine equivalence and harness evidence from caller authorization, tracing the changed boundary and complete finite certificates without assuming the implementation's verdict.

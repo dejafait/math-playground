@@ -1,0 +1,107 @@
+--- step-449/coordinator.py
++++ step-453/coordinator.py
+@@ -3,8 +3,8 @@
+ import ast,copy,difflib,hashlib,json,math,signal,subprocess,sys,traceback
+ from pathlib import Path
+ sys.dont_write_bytecode=True
+-ROOT=Path.cwd(); BASE=ROOT/'scripts/four-rational-kernels'; OUT=BASE/'step-449'
+-INDICES=(23,24,25,26); LIMIT=134217728; RESERVE=131072
++ROOT=Path.cwd(); BASE=ROOT/'scripts/four-rational-kernels'; OUT=BASE/'step-453'
++INDICES=(27,28,29,30); LIMIT=134217728; RESERVE=131072
+ initial={}; sources={}; names={}; completed=[]; exits=[]; failure=None; current=None
+ capture_complete=False; phase='setup'
+ def alarm(*args): raise TimeoutError('aggregate_180_second_deadline')
+@@ -14,8 +14,8 @@
+ assert sys.orig_argv[-2]=='-c' and sys.flags.optimize==0
+ COORDINATOR=sys.orig_argv[-1]
+ (OUT/'coordinator.py').write_text(COORDINATOR)
+-steps=(417,419,422,424,429,431,433,435,437,440,442,446)
+-roots=[ROOT/'scripts/first-rational-kernel',ROOT/'scripts/second-rational-kernel',ROOT/'scripts/finite-derivative-coefficients']+[BASE/('step-'+str(i)) for i in (417,419,422,424,426,429,431,433,435,437,440,442,444,446)]+[BASE/'step-429-postmortem']
++steps=(417,419,422,424,429,431,433,435,437,440,442,446,449,451)
++roots=[ROOT/'scripts/first-rational-kernel',ROOT/'scripts/second-rational-kernel',ROOT/'scripts/finite-derivative-coefficients']+[BASE/('step-'+str(i)) for i in (417,419,422,424,426,429,431,433,435,437,440,442,444,446,449,451)]+[BASE/'step-429-postmortem']
+ transition_paths=[
+ 'drafts/2026-10-23-four-kernel-document-transition.json',
+ 'drafts/2026-10-23-four-kernel-audit-document-transition.json',
+@@ -28,15 +28,17 @@
+ 'drafts/2026-10-24-l108-audit-document-transition.json',
+ 'drafts/2026-10-24-kernels-nineteen-through-twenty-two-document-transition.json',
+ 'drafts/2026-10-24-l109-audit-document-transition.json',
+-'drafts/2026-10-24-l106-audit-document-transition.json']
++'drafts/2026-10-24-l106-audit-document-transition.json',
++'drafts/2026-10-24-direct-kernels-twenty-three-through-twenty-six-document-transition.json',
++'drafts/2026-10-24-l110-audit-document-transition.json']
+ selected=[
+ 'lemmas/L031-independent-twist-five-ratio-certificate.md',
+ 'lemmas/L101-conductor389-second-derivative-error-budget.md',
+ 'lemmas/L102-capped-rational-taylor-kernel-enclosures.md',
+ 'lemmas/L103-first-rational-kernel-certificate.md',
+-'drafts/literature/2026-10-24-kernels-twenty-three-through-twenty-six-direct.md',
+-'drafts/source-notes/2026-10-24-kernels-twenty-three-through-twenty-six-direct-coverage.md',
+-'drafts/2026-10-24-direct-kernels-twenty-three-through-twenty-six-attempt.md',
++'drafts/literature/2026-10-24-kernels-twenty-seven-through-thirty.md',
++'drafts/source-notes/2026-10-24-kernels-twenty-seven-through-thirty-coverage.md',
++'drafts/2026-10-24-kernels-twenty-seven-through-thirty-attempt.md',
+ 'ATTEMPTS/045-index-128-table-source-adaptation-stop.md',
+ 'ATTEMPTS/046-fixed-derivative-backend-unavailable.md',
+ 'ATTEMPTS/047-four-kernel-audit-control-index-collision.md',
+@@ -98,7 +100,7 @@
+         preserved=json.loads((BASE/('step-'+str(step))/'preservation.json').read_text())
+         assert preserved['all_match'] and preserved['files']==inv
+         assert preserved['count']==len(inv) and preserved['mismatches']==[]
+-        if step==446:
++        if step in (446,449,451):
+             assert preserved['capture_complete'] and preserved['tree_sets_equal'] and preserved['fresh_sources_equal']
+         if step>=424:
+             actual=json.loads((BASE/('step-'+str(step))/'historical-reconciliation.json').read_text())
+@@ -115,12 +117,12 @@
+                 expected.update(historical_timing_qualifications='retained; no historical timer or exit claim repaired',postmortem_429_preserved_as_outside_historical_cap=True)
+             elif step==442:
+                 expected['original_step440_boundary']=boundaries['440']
+-            elif step==446:
++            elif step in (446,449,451):
+                 expected.update(original_reports_at_original_boundaries=copy.deepcopy(original_reports),failed444_frozen_separately=True,postmortem_429_preserved_as_outside_historical_cap=True)
+             assert actual==expected,('whole_historical_report',step)
+             original_reports[str(step)]=actual
+-    for step in (417,419,422,424,431,433,435,437,440,442,446):
+-        f='source-hashes.json' if step in (417,424,431,435,440) else 'fresh-source-hashes.json'
++    for step in (417,419,422,424,431,433,435,437,440,442,446,449,451):
++        f='source-hashes.json' if step in (417,424,431,435,440,449) else 'fresh-source-hashes.json'
+         old=json.loads((BASE/('step-'+str(step))/f).read_text())
+         assert inventory([ROOT/p for p in old])==old,('whole_source_map',step)
+     failed=json.loads((BASE/'step-444/terminal-report.json').read_text())
+@@ -131,7 +133,8 @@
+     assert not (BASE/'step-444/initial-inventory.json').exists() and not (BASE/'step-444/finalization.json').exists()
+     save('historical-reconciliation.json',{'status':'PASS','inventories':reconciliation,'original_reports_at_original_boundaries':original_reports,'no_path_exemptions':True,'failed444_frozen_separately':True,'postmortem_429_preserved_as_outside_historical_cap':True})
+     phase='production_source_construction'
+-    save('manifest.json',{'step':'BSD-2026-10-24-449-direct-kernels-twenty-three-through-twenty-six','indices':INDICES,
++    (OUT/'coordinator-source-diff.txt').write_text(''.join(difflib.unified_diff((BASE/'step-449/coordinator.py').read_text().splitlines(True),COORDINATOR.splitlines(True),fromfile='step-449/coordinator.py',tofile='step-453/coordinator.py')))
++    save('manifest.json',{'step':'BSD-2026-10-24-453-kernels-twenty-seven-through-thirty','indices':INDICES,
+       'python':sys.version,'optimize':sys.flags.optimize,'required_seconds':180,'work_deadline_seconds':174,
+       'required_new_bytes':LIMIT,'report_and_diagnostic_reserve':RESERVE,'panels_per_kernel':1016,
+       'pairs_per_pass':21264880,'factor_slots':[129,65,65],'product_slots':[193,257],
+@@ -139,13 +142,13 @@
+       'strict_radius_powers':[183,50],'midpoint':'unchanged complete L103 record','source_generation_in_cap':True,
+       'isolated_modules_per_child':True,'old_entrypoints_executed':False,'no_retry_or_resumption':True,
+       'extra_signed_control_block_reused':False,'L106_values_used':False,'direct_argument_retained_whole':True,'self_slicing':False})
+-    worker_before=(BASE/'step-440/worker.py').read_text(); worker=worker_before
+-    worker_changes=[("assert INDEX in (19,20,21,22)","assert INDEX in (23,24,25,26)"),("'kernel_440_'","'kernel_449_'")]
++    worker_before=(BASE/'step-449/worker.py').read_text(); worker=worker_before
++    worker_changes=[("assert INDEX in (23,24,25,26)","assert INDEX in (27,28,29,30)"),("'kernel_449_'","'kernel_453_'")]
+     for a,b in worker_changes: worker=exact_replace(worker,a,b)
+     compile(worker,str(OUT/'worker.py'),'exec',flags=0,dont_inherit=True,optimize=0)
+     (OUT/'worker.py').write_text(worker)
+     sources.update(inventory([OUT/'worker.py']))
+-    (OUT/'worker-source-diff.txt').write_text(''.join(difflib.unified_diff(worker_before.splitlines(True),worker.splitlines(True),fromfile='step-440/worker.py',tofile='step-449/worker.py')))
++    (OUT/'worker-source-diff.txt').write_text(''.join(difflib.unified_diff(worker_before.splitlines(True),worker.splitlines(True),fromfile='step-449/worker.py',tofile='step-453/worker.py')))
+     save('worker-source-review.json',{'changes':[{'old':a,'new':b} for a,b in worker_changes],'compile_only_before_import':True})
+     parent417=literal_assignment((BASE/'step-417/bootstrap.py').read_text(),'PARENT')
+     nodes=[x for x in ast.walk(ast.parse(parent417)) if isinstance(x,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='replacements' for t in x.targets)]
+@@ -159,7 +162,7 @@
+         current=index; phase='kernel_'+str(index); workcheck()
+         dest=OUT/('n-'+str(index)); dest.mkdir()
+         repl=eval(expression,{'__builtins__':{},'str':str},{'n':index})
+-        repl={k:[(a,b.replace('step-417','step-449')) for a,b in pairs] for k,pairs in repl.items()}
++        repl={k:[(a,b.replace('step-417','step-453')) for a,b in pairs] for k,pairs in repl.items()}
+         assert set(repl)=={'producer.py','replay.py'}
+         differences=[]; review={}
+         for name,pairs in repl.items():

@@ -154,6 +154,72 @@ by this coverage addition. Screenshot requests returned references only;
 the readable formula text and existing foundations/04 convention were
 used, without claiming visual inspection or a new local PDF.
 
+## Boundary-layer source coverage added 2026-10-24
+
+For the distance-68 principal restriction at w=68,v=956, reuse the
+Schrijver citation above. Freshly inspected Theorem 1 (50)–(51), III.A
+(52)–(59), including (55)'s exact W_k,V_l and the complete extension/reset
+proof, and III.B (64), printed pp.6–7. These statements allow the endpoint
+layer i=68; no strict interior-layer hypothesis is imposed. Direct
+substitution into (55) retains k=0 and 0<=l<=68 for that layer; layer
+zero shares only (k,l)=(0,0). The source therefore covers the boundary
+and the anchor without inventing additional head eigenspaces. Its
+positive binomial rescalings must still be matched to actual entries
+in the finite application. No coefficient or sign is asserted here.
+
+Freshly inspected Brouwer–Cioaba–Ihringer–McGinnis v2, §1.2 p.3,
+§3 opening three formulas p.10 and §3.4 opening multiplicity passage
+p.12. Its standing n>=2d hypothesis covers the tail J(956,68), since
+956>=136. It must not be applied with n=68,d=68 to manufacture head
+modes. The full-weight head has only one subset; Schrijver's index
+restriction handles that case directly. All tail indices 0,...,68,
+identity relations and their complete multiplicities are within the
+inspected source statements. Smallest-eigenvalue theorems are unused.
+
+Reused without changed hypotheses: the constant projector and
+positive-anchor Schur congruence above, foundations/12's order-three
+union matrices and foundations/14's enclosing-expression arithmetic.
+The future assignment-specific check must retain the Boolean diagonal,
+all actual relations and six presentations, the full constant anchor
+correction and all original endpoints. This coverage does not certify
+PSD, a negative mode, full source feasibility or an RS list. The
+boundary comparison is recorded in
+`drafts/literature/2026-10-24-fixed-product-distance-68-shell-psd.md`.
+
+## Global principal and diagonal comparison coverage added 2026-10-24
+
+Import Brouwer–Haemers, the same author preprint, §2.4 p.33,
+Theorem 2.5.1(i) and Corollary 2.5.2 pp.34–35, and Theorem
+2.8.1(ii) p.36. Freshly read the Rayleigh expansion, complete
+interlacing proof and all three Courant–Weyl cases with their proof.
+For real symmetric matrices, a principal restriction has least
+eigenvalue at least that of the full matrix. For same-order Hermitian
+matrices A,B, lambda_min(A+B)>=lambda_min(A)+lambda_min(B).
+No commutation assumption is required for this additive bound.
+The generic statements include singular matrices. Section 11.2
+pp.162–163's idempotent expansion was also reinspected.
+
+For singular bordered matrices import Stephen Boyd and Lieven
+Vandenberghe, *Convex Optimization*, Cambridge University Press, 2004,
+[author-hosted book](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf),
+§A.5.4 pp.648–649 and §A.5.5 pp.650–651. Read the quadratic-minimization
+identity and both Schur cases, including the unbounded cases. For real
+symmetric X=[[A,B],[B^T,C]], its full criterion is
+
+    X>=0 iff A>=0, (I-A*A^dagger)*B=0,
+             C-B^T*A^dagger*B>=0.
+
+The dagger denotes the Moore–Penrose inverse. The range condition
+cannot be omitted, nor can an inverse be assumed from positive diagonal
+entries. No positive-definiteness hypothesis on A is required here.
+
+These are known generic imports. For the proposed full product matrix,
+the entrywise diagonal congruence, deletion of forbidden anchor rows,
+exact-N range identity and bordered scalar remain unproved finite
+specialization obligations. No comparison value or PSD sign is supplied
+by this source addition. The separate assessment is
+`drafts/literature/2026-10-24-full-product-johnson-kernel-comparison.md`.
+
 ## Mathlib
 
 Full matching Johnson spectral theorem, constant-weight pair-moment
@@ -162,3 +228,5 @@ Schur-complement and finite-set coverage: not checked. Unknown
 availability is not evidence of absence.
 Full matching mixed-layer Terwilliger block theorem and supporting
 rectangular/invariant PSD reduction: not checked.
+Full matching global-product comparison and supporting interlacing,
+additive eigenvalue and generalized-Schur coverage: not checked.

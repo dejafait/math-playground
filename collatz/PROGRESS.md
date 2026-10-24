@@ -1,22 +1,22 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-STEP_ID: collatz-2026-10-21-399-uniform-literal-actual-word-source-comparison
+STEP_ID: collatz-2026-10-24-461-c101a-audit-source-scope
 STEP_OUTCOME: EXPLORATION
-STEP_EVIDENCE: Completed exact-range source comparison finds L041 necessity and audited C093a adequate for a separate literal actual-word application; no application or new exclusion proved. drafts/literature/2026-10-21-uniform-literal-actual-word-application.md.
+STEP_EVIDENCE: Separate source comparison approves the exact C101a audit using completed L100/L101 audits; no mathematical verdict or new result. drafts/literature/2026-10-24-d35-last-pair-assembly-critical-audit.md
 STEP_KIND: LITERATURE
 STEP_CLASSIFICATION: NOVELTY_UNCHECKED
-STEP_REVIEW: drafts/literature/2026-10-21-uniform-literal-actual-word-application.md
+STEP_REVIEW: drafts/literature/2026-10-24-d35-last-pair-assembly-critical-audit.md
 ACTUAL_TASK_TYPE: literature_comparison
-LITERATURE_REASON: The saved application was REVIEW_REQUIRED beyond the step-398 real-system audit; changed-range comparison reused ready primary readings and d5 transfer coverage.
-Bottleneck: Universal eventual descent remains unresolved; C093a excludes a literal real subsystem, with actual-word application and cyclic-order reduction independent tasks.
-Route decision: SPECIALIZE coverage is ready for the exact saved application, subject to separate next-turn approval; return to mathematics without new source retrieval or table tuning.
-Continuation: Essential IDs L041,L055,C093a. Retain integer 6<=d<=33,r=25,B=9250245,H_0=40-d,H_24=32670621+d,other L055 pairs,literal order,a_i=2+18b_i,b_i>=0 integers,sum b_i=B. Proposed actual inputs are positive odd residue-20 junctions in closed postspell concatenations with exact tails; repetitions and coincident junctions remain allowed. Match all 25 shifted endpoints, lower domains and non-strict J/strict H guards. No minimum,seed,primitive-count,order-reduction or realization-converse premise is available. Attempt 032 and both d0 witnesses remain intact.
-Continuation test: Apply only after every own-input premise matches C093a, including s_25=s_0 and the closing tail-2 case; any missing necessity blocks or narrows the application.
-Exploration turns used: 0 consecutive mathematical EXPLORATION turns; this literature comparison spends no calculation budget.
-NEXT_REVIEW: drafts/literature/2026-10-21-uniform-literal-actual-word-application.md
-Next action: Apply C093a to exclude actual closed postspell concatenations for literal d=6,...,33 over the full integer allocation simplex.
-NEXT_TASK_TYPE: proof_attempt
-NEXT_MODEL_ROLE: standard
+LITERATURE_REASON: The newly proposed critical-audit target was REVIEW_REQUIRED; checked its exact scope against ready primary coverage and completed input audits.
+Bottleneck: Universal eventual descent remains unresolved; C101a needs independent critical audit, and d35 early-support/order reductions and actual-word transfer remain absent.
+Route decision: SPECIALIZE coverage is ready for a separate C101a proof audit; reuse audited numerical inputs without another source retrieval or certificate rerun absent a specific defect.
+Continuation: Review object C101a; essential inputs L055(table only),L100(step454 audited H roots),L101(step458 audited cutoff). Fix literal d35,H0=5,H24=32670656,r=25,B=9250245,kappa=23/11,a_i=2 for i<23,a23=2+18t,a24=2+18(B-t),integer0<=t<=B. Retain all endpoints including closure,s_i>=540/11,non-strict own-input J and strict own-input H. No minimum/seed,integrality,realization,failed full O/S/C,early-support/order exhaustion or actual-word premise is available; Mathlib matching unchecked.
+Continuation test: Check every common hypothesis, full integer boundary and same-cut row18 identity; correct or narrow C101a on any mismatch. Preserve Attempt032,failed data,both d0 witnesses and unfinished work.
+Exploration turns used: 0 consecutive mathematical EXPLORATION turns; this literature scope comparison spends no mathematical exploration budget and makes no claim beyond inspected sources.
+NEXT_REVIEW: drafts/literature/2026-10-24-d35-last-pair-assembly-critical-audit.md
+Next action: Critically audit C101a's literal d35 last-pair real-system exclusion against L100 and L101 over the full integer interval 0<=t<=9250245.
+NEXT_TASK_TYPE: proof_audit
+NEXT_MODEL_ROLE: deep_research
 NEXT_EFFORT: high
-NEXT_ROUTING_REASON: Newly completed SPECIALIZE assessment awaits separate approval; then a bounded theorem application must match all chronological endpoint/domain/guard premises, without new estimates.
+NEXT_ROUTING_REASON: Ready coverage permits an independent critical check of the complete assembly, guard signs and boundaries using already audited numerical inputs.

@@ -2,22 +2,22 @@
 
 STATUS: IN_PROGRESS
 
-STEP_ID: 2026-10-21-openai-quasi-rh-literature-integration
-STEP_OUTCOME: ADVANCE
-STEP_EVIDENCE: Imported precise citations for OpenAI family 003 and Liu v2; screened all 457 local lemma/corollary files for overlap and identified L330/L331's changed analytic-input comparison. Known-source integration, not a new theorem or independent full-proof certification. drafts/literature/2026-10-21-openai-quasi-rh-overlap.md
+STEP_ID: 2026-10-24-c460b-critical-audit-scope-comparison
+STEP_OUTCOME: EXPLORATION
+STEP_EVIDENCE: Completed exact audit-scope comparison using ready C460a/C458b and transfer evidence; SPECIALIZE covers a later C460b audit, with no correctness verdict or new mathematics. drafts/literature/2026-10-24-every-height-deeper-band-critical-audit-coverage.md
 STEP_KIND: LITERATURE
-STEP_CLASSIFICATION: KNOWN_IMPORTED
-STEP_REVIEW: drafts/literature/2026-10-21-openai-quasi-rh-overlap.md
+STEP_CLASSIFICATION: NOVELTY_UNCHECKED
+STEP_REVIEW: drafts/literature/2026-10-24-every-height-deeper-band-critical-audit-coverage.md
 ACTUAL_TASK_TYPE: literature_comparison
-LITERATURE_REASON: Newly located fixed zero-free half-plane materially strengthens the baseline and changes parked endpoint source assumptions.
+LITERATURE_REASON: Newly nominated C460b critical audit was outside transfer-only coverage; reused ready primary comparisons and checked the exact new audit scope.
 
-Main bottleneck: Full RH and global mixed positivity remain open; the cited fixed zero-free half-plane does not settle them. L451's fixed-mean obstruction and all selected-law constraints remain valid.
-Route decision: Reuse the external half-plane result instead of rediscovering it. Prioritize source comparison for L330/L331 under this changed hypothesis; no new endpoint estimate is claimed. The previous changed-translation target remains pending in its original assessment and history/2026-10-21-openai-quasi-rh-integration.md.
-Exploration turns used: 0 of 3 after step 304's informative NEGATIVE; this literature integration spends no mathematical exploration turn.
-Continuation inputs and unresolved assumptions: Read foundations/2026-10-quasi-riemann-input.md and the overlap assessment. Compare exact L330/L331 moving domains and thresholds with quantitative consequences of the fixed half-plane; source nonvanishing alone is not the required derivative bound. All-index positivity, actual/global realization, clipping, capped nondegeneracy and L413's full-error regulator margin remain open. No local Lean build or complete external proof audit was performed.
-NEXT_REVIEW: drafts/literature/2026-10-21-fixed-half-plane-endpoint-derivative-review.md
-Next action: Compare the October 2026 fixed zero-free half-plane input with L330's moving-height logarithmic-derivative threshold and L331's disk criterion, identifying any applicable quantitative theorem before an endpoint proof attempt.
-NEXT_TASK_TYPE: literature_comparison
-NEXT_MODEL_ROLE: standard
+Main bottleneck: Initial low-index signs and global mixed positivity remain unproved; C460b's conditional every-height partial band still awaits its separate critical audit.
+Route decision: Essential source scope is ready for one REPRODUCTION proof audit of C460b after separate supervisor approval; no missing analytic source or external-proof audit is required for this scope.
+Exploration turns used: 0 of 3 mathematical exploration turns; this literature step neither spends nor resets the budget.
+Continuation inputs and unresolved assumptions: C460b with audited C460a retaining L459/L460; C458b is an audit-method precedent only. Check exact root 4π²exp(4r)=a²+(9/2+n/r)², m=2n, full interval [(53/256)L,(27/128)L], L=log(a/(2π)), both inclusions 13/16≤m/r≤7/8, explicit integer nonemptiness and one real-height onset. Retain h,a,S and zero cutoff equality, P with m! and one reflection, separate positive factorial-normalized M*, |log M*|≤K r^(15/16), complete relative O((log r)^3/sqrt(r)) and additive O((1+r)^2 exp(-r/200)) errors. September 30 Theorem 1.1 at commit 1581d4cbdd69a0faf34b2089614fe2a814316a6a remains conditional: strict Re(s)>7/8, allowed pole, locally unaudited manuscript/import closure; L460 needs no external premise. Mathlib unchecked. Initial indices, bounded heights, mixed positivity and selected-law/regulator realization remain unresolved.
+NEXT_REVIEW: drafts/literature/2026-10-24-every-height-deeper-band-critical-audit-coverage.md
+Next action: Critically audit C460b's every-height deeper-band transfer on its full closed index interval, including exact root, nonemptiness, uniform onset, normalization and complete errors.
+NEXT_TASK_TYPE: proof_audit
+NEXT_MODEL_ROLE: deep_research
 NEXT_EFFORT: high
-NEXT_ROUTING_REASON: The new fixed-half-plane hypothesis changes a parked route's source scope; its quantitative L330/L331 applicability is REVIEW_REQUIRED before any new mathematics.
+NEXT_ROUTING_REASON: A separate critical audit must test the changed rational endpoints, explicit nonemptiness, all-real-height quantifiers and complete exponent-15/16 error budget against audited C460a; coverage is ready, subject to supervisor approval.
