@@ -1,0 +1,353 @@
+{
+  "method": "Independent integer long division, full F9 polynomial multiplication and translation, c4/c6 discriminants. No construction code imported.",
+  "polynomial": {
+    "ascending_coefficients": [
+      -380,
+      -774,
+      -1062,
+      -456,
+      258,
+      468,
+      104,
+      -126,
+      -6,
+      6,
+      -6,
+      0,
+      1
+    ],
+    "division_quotient": [
+      -1217,
+      -1056,
+      155,
+      600,
+      103,
+      -132,
+      1,
+      6,
+      -7,
+      0,
+      1
+    ],
+    "division_remainder": [
+      837,
+      282
+    ],
+    "reconstruction": [
+      -380,
+      -774,
+      -1062,
+      -456,
+      258,
+      468,
+      104,
+      -126,
+      -6,
+      6,
+      -6,
+      0,
+      1
+    ],
+    "residue_factor_product": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "factors_over_U": [
+    {
+      "center": [
+        0,
+        1
+      ],
+      "residue_coefficients": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "translated_residue_coefficients": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "H_at_center": [
+        837,
+        282
+      ],
+      "component_valuations": [
+        3,
+        1
+      ],
+      "normalized_constant_residue": [
+        0,
+        1
+      ],
+      "opposite_factor_at_center": [
+        2,
+        0
+      ]
+    },
+    {
+      "center": [
+        0,
+        2
+      ],
+      "residue_coefficients": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "translated_residue_coefficients": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "H_at_center": [
+        837,
+        -282
+      ],
+      "component_valuations": [
+        3,
+        1
+      ],
+      "normalized_constant_residue": [
+        0,
+        2
+      ],
+      "opposite_factor_at_center": [
+        2,
+        0
+      ]
+    }
+  ],
+  "residue_resultant": [
+    1,
+    0
+  ],
+  "models": [
+    {
+      "a_invariants": [
+        0,
+        -1,
+        1,
+        -10,
+        -20
+      ],
+      "c4": 496,
+      "c6": 20008,
+      "discriminant": -161051,
+      "division_remainder": 0,
+      "v3_discriminant": 0
+    },
+    {
+      "a_invariants": [
+        0,
+        -1,
+        1,
+        -7820,
+        -263580
+      ],
+      "c4": 375376,
+      "c6": 229985128,
+      "discriminant": -11,
+      "division_remainder": 0,
+      "v3_discriminant": 0
+    }
+  ],
+  "residue_kernel": {
+    "all_fifth_roots": [
+      [
+        1,
+        0
+      ]
+    ],
+    "group_order": 8,
+    "kernel_exponent": 5,
+    "derivative_mod_three": 2
+  },
+  "bounds": {
+    "constant_valuations_actual": [
+      1,
+      1
+    ],
+    "constant_valuations_required": [
+      1,
+      1
+    ],
+    "total_degree_actual": 12,
+    "total_degree_required": 12,
+    "residue_degree": 2,
+    "ramification_index": 6
+  },
+  "proof_obligations": "Exact Hensel factor existence, Eisenstein irreducibility, Q3 root-field descent, actual residue field, good reduction and Schaefer-Stoll application are checked in L048; arithmetic flags alone do not prove these.",
+  "checks": {
+    "all_thirteen_coefficients_match": true,
+    "integer_division_reconstructs_all_coefficients": true,
+    "both_exact_constant_values": true,
+    "full_residue_factor_product": true,
+    "all_original_reductions_match": true,
+    "quadratic_has_no_base_residue_root": true,
+    "both_factors_monic_degree_six": true,
+    "both_full_translated_reductions": true,
+    "both_constant_valuations_exactly_one": true,
+    "both_normalized_constants_nonzero": true,
+    "both_opposite_factors_are_units": true,
+    "residue_resultant_is_nonzero": true,
+    "original_factor_arithmetic_matches": true,
+    "both_discriminants_exact": true,
+    "both_discriminants_are_units": true,
+    "all_residue_fifth_roots": true,
+    "unit_derivative_at_one": true,
+    "degree_and_ef_accounting": true
+  },
+  "failures": []
+}

@@ -1,0 +1,34 @@
+{
+  "step": 202,
+  "positive_base": "scripts/left-closure/output/certificate-202.json",
+  "positive_case": "empty",
+  "rejections": [
+    {
+      "name": "dimension",
+      "rejected": true,
+      "reason": "closure adjacency width"
+    },
+    {
+      "name": "triangularity",
+      "rejected": true,
+      "reason": "closure adjacency must be strictly upper triangular"
+    },
+    {
+      "name": "local-endpoint",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    },
+    {
+      "name": "exported-header",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    },
+    {
+      "name": "MP-reference",
+      "rejected": true,
+      "reason": "line 7: reference not strictly earlier"
+    }
+  ],
+  "failures": [],
+  "complete": true
+}

@@ -1,0 +1,1652 @@
+{
+  "step": 236,
+  "complete": true,
+  "failures": [],
+  "library": {
+    "unitR": {
+      "measurements": {
+        "native": {
+          "path": "scripts/actual-tree/output/unitR.native.jsonl.gz",
+          "format": "native",
+          "accepted": true,
+          "lines": 761,
+          "bytes": 207143,
+          "formula_nodes": 58736,
+          "substitution_nodes": 17995,
+          "max_line_nodes": 406,
+          "max_record_nodes": 584,
+          "max_line_depth": 16,
+          "goal_nodes": 21,
+          "goal_depth": 8,
+          "sha256": "dbd160372c200c320f3a64b214aa05631aceea108db9deca8bb3813620bb5893"
+        },
+        "not-or": {
+          "path": "scripts/actual-tree/output/unitR.not-or.jsonl.gz",
+          "format": "not-or",
+          "accepted": true,
+          "lines": 761,
+          "bytes": 285689,
+          "formula_nodes": 79110,
+          "substitution_nodes": 23796,
+          "max_line_nodes": 549,
+          "max_record_nodes": 788,
+          "max_line_depth": 22,
+          "goal_nodes": 28,
+          "goal_depth": 10,
+          "sha256": "de9b5e09f60ec6704a367257c03962c1e2f367d59296a0f961451bd5f51a66d4"
+        }
+      },
+      "node_sums": {
+        "native": 76731,
+        "not-or": 102906
+      },
+      "depths": {
+        "native": 16,
+        "not-or": 22
+      },
+      "name_bytes": 1
+    },
+    "symm": {
+      "measurements": {
+        "native": {
+          "path": "scripts/balanced-slot/output/symm.native.jsonl.gz",
+          "format": "native",
+          "accepted": true,
+          "lines": 872,
+          "bytes": 186448,
+          "formula_nodes": 51610,
+          "substitution_nodes": 15615,
+          "max_line_nodes": 370,
+          "max_record_nodes": 532,
+          "max_line_depth": 13,
+          "goal_nodes": 19,
+          "goal_depth": 5,
+          "sha256": "99d595154a6887f83b26510f1936776bb735fc13a7605ee3fb59f958a9b1f9b7"
+        },
+        "not-or": {
+          "path": "scripts/balanced-slot/output/symm.not-or.jsonl.gz",
+          "format": "not-or",
+          "accepted": true,
+          "lines": 872,
+          "bytes": 259678,
+          "formula_nodes": 70720,
+          "substitution_nodes": 20908,
+          "max_line_nodes": 513,
+          "max_record_nodes": 736,
+          "max_line_depth": 19,
+          "goal_nodes": 26,
+          "goal_depth": 7,
+          "sha256": "969fbfd4da5e621bf4ccdebed816a3695057906cddd0d95d7f7e68b6dd340afd"
+        }
+      },
+      "node_sums": {
+        "native": 67225,
+        "not-or": 91628
+      },
+      "depths": {
+        "native": 13,
+        "not-or": 19
+      },
+      "name_bytes": 1
+    }
+  },
+  "cases": [
+    {
+      "name": "zero-deleted",
+      "input": "scripts/actual-tree/output/initial-236/zero-deleted/source.json",
+      "complete": true,
+      "required": {
+        "Q": 204,
+        "U": 1,
+        "source_depth": 0,
+        "admission": 4,
+        "B": 1,
+        "H": 1,
+        "argument_nodes": 768,
+        "records": 1634,
+        "formats": {
+          "native": {
+            "lines": 1634,
+            "record_nodes": 448512,
+            "full_field_depth": 22,
+            "bytes": 3670398720
+          },
+          "not-or": {
+            "lines": 1634,
+            "record_nodes": 605184,
+            "full_field_depth": 31,
+            "bytes": 4951975680
+          }
+        },
+        "metadata_bytes": 33861268480,
+        "total_bytes": 42483643084,
+        "total_bits": 339869144672
+      },
+      "calls": [
+        {
+          "name": "unitR",
+          "start": 0,
+          "root": 760,
+          "arguments": {
+            "A": "(~(q>q))",
+            "q": "q"
+          }
+        },
+        {
+          "name": "symm",
+          "start": 761,
+          "root": 1632,
+          "arguments": {
+            "A": "(~((~(q>q))>(~(q>q))))",
+            "B": "(~(q>q))",
+            "q": "q"
+          }
+        }
+      ],
+      "expected": {
+        "goal": "(~(((~(q>q))>(~((~(q>q))>(~(q>q)))))>(~((~((~(q>q))>(~(q>q))))>(~(q>q))))))",
+        "formula": "(~(q>q))",
+        "suffix": "(~((~(q>q))>(~(q>q))))",
+        "U": 1,
+        "depth": 0
+      },
+      "checks": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/initial-236/zero-deleted/bridge.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 849769,
+            "formula_nodes": 258558,
+            "substitution_nodes": 80584,
+            "max_line_nodes": 1234,
+            "max_record_nodes": 1780,
+            "max_line_depth": 17,
+            "goal_nodes": 33,
+            "goal_depth": 8,
+            "sha256": "7736d0ea7b9fef65c57eef0f7dc7b48bc39371d6bd114b9ccf8562bf4cc093e2"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/initial-236/zero-deleted/bridge.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 1196722,
+            "formula_nodes": 347446,
+            "substitution_nodes": 107336,
+            "max_line_nodes": 1665,
+            "max_record_nodes": 2400,
+            "max_line_depth": 25,
+            "goal_nodes": 44,
+            "goal_depth": 11,
+            "sha256": "2a41c9dee053ede4e439d235c48bc139b59a53e4a674f721e533f874d9ecc3fc"
+          }
+        },
+        "node_sums": {
+          "native": 339142,
+          "not-or": 454782
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 25
+        },
+        "name_bytes": 1
+      },
+      "argument_checks": [
+        {
+          "law": "unitR",
+          "argument": "A",
+          "stats": [
+            4,
+            2,
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "law": "unitR",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "A",
+          "stats": [
+            10,
+            4,
+            13,
+            6,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "B",
+          "stats": [
+            4,
+            2,
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "manifest": "scripts/actual-tree/output/initial-236/zero-deleted/bridge.json",
+      "metadata_actual_bytes": 582,
+      "total_actual_bytes": 2047277
+    },
+    {
+      "name": "zero-retained",
+      "input": "scripts/actual-tree/output/initial-236/zero-retained/source.json",
+      "complete": true,
+      "required": {
+        "Q": 232,
+        "U": 1,
+        "source_depth": 0,
+        "admission": 4,
+        "B": 1,
+        "H": 1,
+        "argument_nodes": 768,
+        "records": 1634,
+        "formats": {
+          "native": {
+            "lines": 1634,
+            "record_nodes": 448512,
+            "full_field_depth": 22,
+            "bytes": 3670398720
+          },
+          "not-or": {
+            "lines": 1634,
+            "record_nodes": 605184,
+            "full_field_depth": 31,
+            "bytes": 4951975680
+          }
+        },
+        "metadata_bytes": 34899508480,
+        "total_bytes": 43521883112,
+        "total_bits": 348175064896
+      },
+      "calls": [
+        {
+          "name": "unitR",
+          "start": 0,
+          "root": 760,
+          "arguments": {
+            "A": "(~(q>q))",
+            "q": "q"
+          }
+        },
+        {
+          "name": "symm",
+          "start": 761,
+          "root": 1632,
+          "arguments": {
+            "A": "(~((~(q>q))>(~(q>q))))",
+            "B": "(~(q>q))",
+            "q": "q"
+          }
+        }
+      ],
+      "expected": {
+        "goal": "(~(((~(q>q))>(~((~(q>q))>(~(q>q)))))>(~((~((~(q>q))>(~(q>q))))>(~(q>q))))))",
+        "formula": "(~(q>q))",
+        "suffix": "(~((~(q>q))>(~(q>q))))",
+        "U": 1,
+        "depth": 0
+      },
+      "checks": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/initial-236/zero-retained/bridge.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 849769,
+            "formula_nodes": 258558,
+            "substitution_nodes": 80584,
+            "max_line_nodes": 1234,
+            "max_record_nodes": 1780,
+            "max_line_depth": 17,
+            "goal_nodes": 33,
+            "goal_depth": 8,
+            "sha256": "7736d0ea7b9fef65c57eef0f7dc7b48bc39371d6bd114b9ccf8562bf4cc093e2"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/initial-236/zero-retained/bridge.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 1196722,
+            "formula_nodes": 347446,
+            "substitution_nodes": 107336,
+            "max_line_nodes": 1665,
+            "max_record_nodes": 2400,
+            "max_line_depth": 25,
+            "goal_nodes": 44,
+            "goal_depth": 11,
+            "sha256": "2a41c9dee053ede4e439d235c48bc139b59a53e4a674f721e533f874d9ecc3fc"
+          }
+        },
+        "node_sums": {
+          "native": 339142,
+          "not-or": 454782
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 25
+        },
+        "name_bytes": 1
+      },
+      "argument_checks": [
+        {
+          "law": "unitR",
+          "argument": "A",
+          "stats": [
+            4,
+            2,
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "law": "unitR",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "A",
+          "stats": [
+            10,
+            4,
+            13,
+            6,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "B",
+          "stats": [
+            4,
+            2,
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "manifest": "scripts/actual-tree/output/initial-236/zero-retained/bridge.json",
+      "metadata_actual_bytes": 582,
+      "total_actual_bytes": 2047305
+    },
+    {
+      "name": "one",
+      "input": "scripts/actual-tree/output/initial-236/one/source.json",
+      "complete": true,
+      "required": {
+        "Q": 227,
+        "U": 1,
+        "source_depth": 0,
+        "admission": 4,
+        "B": 1,
+        "H": 1,
+        "argument_nodes": 768,
+        "records": 1634,
+        "formats": {
+          "native": {
+            "lines": 1634,
+            "record_nodes": 448512,
+            "full_field_depth": 22,
+            "bytes": 3670398720
+          },
+          "not-or": {
+            "lines": 1634,
+            "record_nodes": 605184,
+            "full_field_depth": 31,
+            "bytes": 4951975680
+          }
+        },
+        "metadata_bytes": 34712958480,
+        "total_bytes": 43335333107,
+        "total_bits": 346682664856
+      },
+      "calls": [
+        {
+          "name": "unitR",
+          "start": 0,
+          "root": 760,
+          "arguments": {
+            "A": "(q>q)",
+            "q": "q"
+          }
+        },
+        {
+          "name": "symm",
+          "start": 761,
+          "root": 1632,
+          "arguments": {
+            "A": "(~((q>q)>(~(q>q))))",
+            "B": "(q>q)",
+            "q": "q"
+          }
+        }
+      ],
+      "expected": {
+        "goal": "(~(((q>q)>(~((q>q)>(~(q>q)))))>(~((~((q>q)>(~(q>q))))>(q>q)))))",
+        "formula": "(q>q)",
+        "suffix": "(~((q>q)>(~(q>q))))",
+        "U": 1,
+        "depth": 0
+      },
+      "checks": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/initial-236/one/bridge.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 732904,
+            "formula_nodes": 228981,
+            "substitution_nodes": 71210,
+            "max_line_nodes": 1090,
+            "max_record_nodes": 1572,
+            "max_line_depth": 17,
+            "goal_nodes": 29,
+            "goal_depth": 8,
+            "sha256": "c97955aa56775ca4d0ddb2795a2359862d85a9f0197be8a342954365053a3b91"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/initial-236/one/bridge.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 1079857,
+            "formula_nodes": 317869,
+            "substitution_nodes": 97962,
+            "max_line_nodes": 1521,
+            "max_record_nodes": 2192,
+            "max_line_depth": 24,
+            "goal_nodes": 40,
+            "goal_depth": 10,
+            "sha256": "f80762d8bccc82a330e7e3bb61d2d79a6b916ebbb7cce476e134e65382b31c04"
+          }
+        },
+        "node_sums": {
+          "native": 300191,
+          "not-or": 415831
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "argument_checks": [
+        {
+          "law": "unitR",
+          "argument": "A",
+          "stats": [
+            3,
+            1,
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "law": "unitR",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "A",
+          "stats": [
+            9,
+            4,
+            12,
+            5,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "B",
+          "stats": [
+            3,
+            1,
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "manifest": "scripts/actual-tree/output/initial-236/one/bridge.json",
+      "metadata_actual_bytes": 558,
+      "total_actual_bytes": 1813546
+    },
+    {
+      "name": "variable-q",
+      "input": "scripts/actual-tree/output/initial-236/variable-q/source.json",
+      "complete": true,
+      "required": {
+        "Q": 256,
+        "U": 1,
+        "source_depth": 0,
+        "admission": 4,
+        "B": 1,
+        "H": 1,
+        "argument_nodes": 768,
+        "records": 1634,
+        "formats": {
+          "native": {
+            "lines": 1634,
+            "record_nodes": 448512,
+            "full_field_depth": 22,
+            "bytes": 3670398720
+          },
+          "not-or": {
+            "lines": 1634,
+            "record_nodes": 605184,
+            "full_field_depth": 31,
+            "bytes": 4951975680
+          }
+        },
+        "metadata_bytes": 35801908480,
+        "total_bytes": 44424283136,
+        "total_bits": 355394265088
+      },
+      "calls": [
+        {
+          "name": "unitR",
+          "start": 0,
+          "root": 760,
+          "arguments": {
+            "A": "q",
+            "q": "q"
+          }
+        },
+        {
+          "name": "symm",
+          "start": 761,
+          "root": 1632,
+          "arguments": {
+            "A": "(~(q>(~(q>q))))",
+            "B": "q",
+            "q": "q"
+          }
+        }
+      ],
+      "expected": {
+        "goal": "(~((q>(~(q>(~(q>q)))))>(~((~(q>(~(q>q))))>q))))",
+        "formula": "q",
+        "suffix": "(~(q>(~(q>q))))",
+        "U": 1,
+        "depth": 0
+      },
+      "checks": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/initial-236/variable-q/bridge.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 577084,
+            "formula_nodes": 169827,
+            "substitution_nodes": 52462,
+            "max_line_nodes": 802,
+            "max_record_nodes": 1156,
+            "max_line_depth": 17,
+            "goal_nodes": 21,
+            "goal_depth": 8,
+            "sha256": "d708deae1d07943f0d726352e9d925d0a4fcc661098860510e149c337033a353"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/initial-236/variable-q/bridge.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 807172,
+            "formula_nodes": 229138,
+            "substitution_nodes": 69840,
+            "max_line_nodes": 1089,
+            "max_record_nodes": 1568,
+            "max_line_depth": 24,
+            "goal_nodes": 28,
+            "goal_depth": 10,
+            "sha256": "9ea7d64081fa2e8f1be1b2a13f444f992e07507bdbd9c056cd413ee7ef9b8129"
+          }
+        },
+        "node_sums": {
+          "native": 222289,
+          "not-or": 298978
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "argument_checks": [
+        {
+          "law": "unitR",
+          "argument": "A",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "unitR",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "A",
+          "stats": [
+            7,
+            4,
+            9,
+            5,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "B",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "manifest": "scripts/actual-tree/output/initial-236/variable-q/bridge.json",
+      "metadata_actual_bytes": 513,
+      "total_actual_bytes": 1385025
+    },
+    {
+      "name": "variable-schematic",
+      "input": "scripts/actual-tree/output/initial-236/variable-schematic/source.json",
+      "complete": true,
+      "required": {
+        "Q": 323,
+        "U": 1,
+        "source_depth": 0,
+        "admission": 4,
+        "B": 1,
+        "H": 1,
+        "argument_nodes": 768,
+        "records": 1634,
+        "formats": {
+          "native": {
+            "lines": 1634,
+            "record_nodes": 448512,
+            "full_field_depth": 22,
+            "bytes": 3670398720
+          },
+          "not-or": {
+            "lines": 1634,
+            "record_nodes": 605184,
+            "full_field_depth": 31,
+            "bytes": 4951975680
+          }
+        },
+        "metadata_bytes": 38382078480,
+        "total_bytes": 47004453203,
+        "total_bits": 376035625624
+      },
+      "calls": [
+        {
+          "name": "unitR",
+          "start": 0,
+          "root": 760,
+          "arguments": {
+            "A": "A",
+            "q": "A"
+          }
+        },
+        {
+          "name": "symm",
+          "start": 761,
+          "root": 1632,
+          "arguments": {
+            "A": "(~(A>(~(A>A))))",
+            "B": "A",
+            "q": "A"
+          }
+        }
+      ],
+      "expected": {
+        "goal": "(~((A>(~(A>(~(A>A)))))>(~((~(A>(~(A>A))))>A))))",
+        "formula": "A",
+        "suffix": "(~(A>(~(A>A))))",
+        "U": 1,
+        "depth": 0
+      },
+      "checks": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/initial-236/variable-schematic/bridge.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 577084,
+            "formula_nodes": 169827,
+            "substitution_nodes": 52462,
+            "max_line_nodes": 802,
+            "max_record_nodes": 1156,
+            "max_line_depth": 17,
+            "goal_nodes": 21,
+            "goal_depth": 8,
+            "sha256": "e9cd51ff70b21eabec985d5c0305f8dd99f401a26b7c847bbe2244a41e8cf9ca"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/initial-236/variable-schematic/bridge.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 807172,
+            "formula_nodes": 229138,
+            "substitution_nodes": 69840,
+            "max_line_nodes": 1089,
+            "max_record_nodes": 1568,
+            "max_line_depth": 24,
+            "goal_nodes": 28,
+            "goal_depth": 10,
+            "sha256": "d8da1f7586e16e66e909959f1a982084eebb2c6caba5695c853158c7f1857a0b"
+          }
+        },
+        "node_sums": {
+          "native": 222289,
+          "not-or": 298978
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "argument_checks": [
+        {
+          "law": "unitR",
+          "argument": "A",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "unitR",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "A",
+          "stats": [
+            7,
+            4,
+            9,
+            5,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "B",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "manifest": "scripts/actual-tree/output/initial-236/variable-schematic/bridge.json",
+      "metadata_actual_bytes": 513,
+      "total_actual_bytes": 1385092
+    },
+    {
+      "name": "final-plus-one",
+      "input": "scripts/actual-tree/output/initial-236/final-plus-one/source.json",
+      "complete": true,
+      "required": {
+        "Q": 819,
+        "U": 3,
+        "source_depth": 1,
+        "admission": 4,
+        "B": 1,
+        "H": 2,
+        "argument_nodes": 3072,
+        "records": 1634,
+        "formats": {
+          "native": {
+            "lines": 1634,
+            "record_nodes": 1794048,
+            "full_field_depth": 25,
+            "bytes": 14676883200
+          },
+          "not-or": {
+            "lines": 1634,
+            "record_nodes": 2420736,
+            "full_field_depth": 37,
+            "bytes": 19803191040
+          }
+        },
+        "metadata_bytes": 60291323920,
+        "total_bytes": 94771398979,
+        "total_bits": 758171191832
+      },
+      "calls": [
+        {
+          "name": "unitR",
+          "start": 0,
+          "root": 760,
+          "arguments": {
+            "A": "((q>(q>q))>(~((q>q)>q)))",
+            "q": "q"
+          }
+        },
+        {
+          "name": "symm",
+          "start": 761,
+          "root": 1632,
+          "arguments": {
+            "A": "(~(((q>(q>q))>(~((q>q)>q)))>(~(q>q))))",
+            "B": "((q>(q>q))>(~((q>q)>q)))",
+            "q": "q"
+          }
+        }
+      ],
+      "expected": {
+        "goal": "(~((((q>(q>q))>(~((q>q)>q)))>(~(((q>(q>q))>(~((q>q)>q)))>(~(q>q)))))>(~((~(((q>(q>q))>(~((q>q)>q)))>(~(q>q))))>((q>(q>q))>(~((q>q)>q)))))))",
+        "formula": "((q>(q>q))>(~((q>q)>q)))",
+        "suffix": "(~(((q>(q>q))>(~((q>q)>q)))>(~(q>q))))",
+        "U": 3,
+        "depth": 1
+      },
+      "checks": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/initial-236/final-plus-one/bridge.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 1473049,
+            "formula_nodes": 495174,
+            "substitution_nodes": 155576,
+            "max_line_nodes": 2386,
+            "max_record_nodes": 3444,
+            "max_line_depth": 19,
+            "goal_nodes": 65,
+            "goal_depth": 10,
+            "sha256": "d2d0b6d48445d0adc331db8dd512d7caea98575cd9b1267d9835b251e9c5836f"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/initial-236/final-plus-one/bridge.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 2287462,
+            "formula_nodes": 702370,
+            "substitution_nodes": 219824,
+            "max_line_nodes": 3393,
+            "max_record_nodes": 4896,
+            "max_line_depth": 28,
+            "goal_nodes": 92,
+            "goal_depth": 14,
+            "sha256": "a131c0face33ab39d23dc47ad1abdbe94409d30b0b188045b05c130e1c600178"
+          }
+        },
+        "node_sums": {
+          "native": 650750,
+          "not-or": 922194
+        },
+        "depths": {
+          "native": 19,
+          "not-or": 28
+        },
+        "name_bytes": 1
+      },
+      "argument_checks": [
+        {
+          "law": "unitR",
+          "argument": "A",
+          "stats": [
+            12,
+            4,
+            17,
+            6,
+            1
+          ]
+        },
+        {
+          "law": "unitR",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "A",
+          "stats": [
+            18,
+            6,
+            25,
+            9,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "B",
+          "stats": [
+            12,
+            4,
+            17,
+            6,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "manifest": "scripts/actual-tree/output/initial-236/final-plus-one/bridge.json",
+      "metadata_actual_bytes": 759,
+      "total_actual_bytes": 3762089
+    },
+    {
+      "name": "product-repeat",
+      "input": "scripts/actual-tree/output/initial-236/product-repeat/source.json",
+      "complete": true,
+      "required": {
+        "Q": 725,
+        "U": 3,
+        "source_depth": 1,
+        "admission": 4,
+        "B": 6,
+        "H": 2,
+        "argument_nodes": 3072,
+        "records": 1634,
+        "formats": {
+          "native": {
+            "lines": 1634,
+            "record_nodes": 1794048,
+            "full_field_depth": 25,
+            "bytes": 29352195840
+          },
+          "not-or": {
+            "lines": 1634,
+            "record_nodes": 2420736,
+            "full_field_depth": 37,
+            "bytes": 39604811520
+          }
+        },
+        "metadata_bytes": 55785357840,
+        "total_bytes": 124742365925,
+        "total_bits": 997938927400
+      },
+      "calls": [
+        {
+          "name": "unitR",
+          "start": 0,
+          "root": 760,
+          "arguments": {
+            "A": "(~(q>(~q)))",
+            "q": "q"
+          }
+        },
+        {
+          "name": "symm",
+          "start": 761,
+          "root": 1632,
+          "arguments": {
+            "A": "(~((~(q>(~q)))>(~(q>q))))",
+            "B": "(~(q>(~q)))",
+            "q": "q"
+          }
+        }
+      ],
+      "expected": {
+        "goal": "(~(((~(q>(~q)))>(~((~(q>(~q)))>(~(q>q)))))>(~((~((~(q>(~q)))>(~(q>q))))>(~(q>(~q)))))))",
+        "formula": "(~(q>(~q)))",
+        "suffix": "(~((~(q>(~q)))>(~(q>q))))",
+        "U": 3,
+        "depth": 1
+      },
+      "checks": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/initial-236/product-repeat/bridge.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 966634,
+            "formula_nodes": 288135,
+            "substitution_nodes": 89958,
+            "max_line_nodes": 1378,
+            "max_record_nodes": 1988,
+            "max_line_depth": 18,
+            "goal_nodes": 37,
+            "goal_depth": 9,
+            "sha256": "2a0c5a76c486bdfc283e61e0942ee2323079fc21236b2fbbc4cc88af423e998d"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/initial-236/product-repeat/bridge.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 1313587,
+            "formula_nodes": 377023,
+            "substitution_nodes": 116710,
+            "max_line_nodes": 1809,
+            "max_record_nodes": 2608,
+            "max_line_depth": 25,
+            "goal_nodes": 48,
+            "goal_depth": 11,
+            "sha256": "8573282b91055601f60c8fd63fce12172f222bf1cea28489811aa97f712299b9"
+          }
+        },
+        "node_sums": {
+          "native": 378093,
+          "not-or": 493733
+        },
+        "depths": {
+          "native": 18,
+          "not-or": 25
+        },
+        "name_bytes": 1
+      },
+      "argument_checks": [
+        {
+          "law": "unitR",
+          "argument": "A",
+          "stats": [
+            5,
+            3,
+            6,
+            3,
+            1
+          ]
+        },
+        {
+          "law": "unitR",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "A",
+          "stats": [
+            11,
+            5,
+            14,
+            6,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "B",
+          "stats": [
+            5,
+            3,
+            6,
+            3,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "manifest": "scripts/actual-tree/output/initial-236/product-repeat/bridge.json",
+      "metadata_actual_bytes": 606,
+      "total_actual_bytes": 2281552
+    },
+    {
+      "name": "repeated-subtrees",
+      "input": "scripts/actual-tree/output/initial-236/repeated-subtrees/source.json",
+      "complete": true,
+      "required": {
+        "Q": 2790,
+        "U": 7,
+        "source_depth": 2,
+        "admission": 4,
+        "B": 1,
+        "H": 3,
+        "argument_nodes": 12288,
+        "records": 1634,
+        "formats": {
+          "native": {
+            "lines": 1634,
+            "record_nodes": 7176192,
+            "full_field_depth": 28,
+            "bytes": 58702821120
+          },
+          "not-or": {
+            "lines": 1634,
+            "record_nodes": 9682944,
+            "full_field_depth": 43,
+            "bytes": 79208052480
+          }
+        },
+        "metadata_bytes": 195979055680,
+        "total_bytes": 333889932070,
+        "total_bits": 2671119456560
+      },
+      "calls": [
+        {
+          "name": "unitR",
+          "start": 0,
+          "root": 760,
+          "arguments": {
+            "A": "(~(((A>B)>(~(B>A)))>(~((A>B)>(~(B>A))))))",
+            "q": "A"
+          }
+        },
+        {
+          "name": "symm",
+          "start": 761,
+          "root": 1632,
+          "arguments": {
+            "A": "(~((~(((A>B)>(~(B>A)))>(~((A>B)>(~(B>A))))))>(~(A>A))))",
+            "B": "(~(((A>B)>(~(B>A)))>(~((A>B)>(~(B>A))))))",
+            "q": "A"
+          }
+        }
+      ],
+      "expected": {
+        "goal": "(~(((~(((A>B)>(~(B>A)))>(~((A>B)>(~(B>A))))))>(~((~(((A>B)>(~(B>A)))>(~((A>B)>(~(B>A))))))>(~(A>A)))))>(~((~((~(((A>B)>(~(B>A)))>(~((A>B)>(~(B>A))))))>(~(A>A))))>(~(((A>B)>(~(B>A)))>(~((A>B)>(~(B>A))))))))))",
+        "formula": "(~(((A>B)>(~(B>A)))>(~((A>B)>(~(B>A))))))",
+        "suffix": "(~((~(((A>B)>(~(B>A)))>(~((A>B)>(~(B>A))))))>(~(A>A))))",
+        "U": 7,
+        "depth": 2
+      },
+      "checks": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/initial-236/repeated-subtrees/bridge.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 2135284,
+            "formula_nodes": 702213,
+            "substitution_nodes": 221194,
+            "max_line_nodes": 3394,
+            "max_record_nodes": 4900,
+            "max_line_depth": 21,
+            "goal_nodes": 93,
+            "goal_depth": 12,
+            "sha256": "08e283b5eaf811325dbe3a2be7d8ae142e63a4a53557eba111e9441d42b53b8c"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/initial-236/repeated-subtrees/bridge.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 3183427,
+            "formula_nodes": 968563,
+            "substitution_nodes": 304190,
+            "max_line_nodes": 4689,
+            "max_record_nodes": 6768,
+            "max_line_depth": 29,
+            "goal_nodes": 128,
+            "goal_depth": 15,
+            "sha256": "7148956b0192f08787c324e017a14390e6ea47e2aa6ed1f8c4ac695da9aeea02"
+          }
+        },
+        "node_sums": {
+          "native": 923407,
+          "not-or": 1272753
+        },
+        "depths": {
+          "native": 21,
+          "not-or": 29
+        },
+        "name_bytes": 1
+      },
+      "argument_checks": [
+        {
+          "law": "unitR",
+          "argument": "A",
+          "stats": [
+            19,
+            6,
+            26,
+            7,
+            1
+          ]
+        },
+        {
+          "law": "unitR",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "A",
+          "stats": [
+            25,
+            8,
+            34,
+            10,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "B",
+          "stats": [
+            19,
+            6,
+            26,
+            7,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "manifest": "scripts/actual-tree/output/initial-236/repeated-subtrees/bridge.json",
+      "metadata_actual_bytes": 919,
+      "total_actual_bytes": 5322420
+    },
+    {
+      "name": "mixed-constant",
+      "input": "scripts/actual-tree/output/initial-236/mixed-constant/source.json",
+      "complete": true,
+      "required": {
+        "Q": 1136,
+        "U": 5,
+        "source_depth": 2,
+        "admission": 4,
+        "B": 1,
+        "H": 3,
+        "argument_nodes": 12288,
+        "records": 1634,
+        "formats": {
+          "native": {
+            "lines": 1634,
+            "record_nodes": 7176192,
+            "full_field_depth": 28,
+            "bytes": 58702821120
+          },
+          "not-or": {
+            "lines": 1634,
+            "record_nodes": 9682944,
+            "full_field_depth": 43,
+            "bytes": 79208052480
+          }
+        },
+        "metadata_bytes": 76924135680,
+        "total_bytes": 214835010416,
+        "total_bits": 1718680083328
+      },
+      "calls": [
+        {
+          "name": "unitR",
+          "start": 0,
+          "root": 760,
+          "arguments": {
+            "A": "(((~(q>q))>(~(C>(~(q>q)))))>(~((~(C>(~(q>q))))>(~(q>q)))))",
+            "q": "q"
+          }
+        },
+        {
+          "name": "symm",
+          "start": 761,
+          "root": 1632,
+          "arguments": {
+            "A": "(~((((~(q>q))>(~(C>(~(q>q)))))>(~((~(C>(~(q>q))))>(~(q>q)))))>(~(q>q))))",
+            "B": "(((~(q>q))>(~(C>(~(q>q)))))>(~((~(C>(~(q>q))))>(~(q>q)))))",
+            "q": "q"
+          }
+        }
+      ],
+      "expected": {
+        "goal": "(~(((((~(q>q))>(~(C>(~(q>q)))))>(~((~(C>(~(q>q))))>(~(q>q)))))>(~((((~(q>q))>(~(C>(~(q>q)))))>(~((~(C>(~(q>q))))>(~(q>q)))))>(~(q>q)))))>(~((~((((~(q>q))>(~(C>(~(q>q)))))>(~((~(C>(~(q>q))))>(~(q>q)))))>(~(q>q))))>(((~(q>q))>(~(C>(~(q>q)))))>(~((~(C>(~(q>q))))>(~(q>q)))))))))",
+        "formula": "(((~(q>q))>(~(C>(~(q>q)))))>(~((~(C>(~(q>q))))>(~(q>q)))))",
+        "suffix": "(~((((~(q>q))>(~(C>(~(q>q)))))>(~((~(C>(~(q>q))))>(~(q>q)))))>(~(q>q))))",
+        "U": 5,
+        "depth": 2
+      },
+      "checks": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/initial-236/mixed-constant/bridge.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 2797519,
+            "formula_nodes": 909252,
+            "substitution_nodes": 286812,
+            "max_line_nodes": 4402,
+            "max_record_nodes": 6356,
+            "max_line_depth": 22,
+            "goal_nodes": 121,
+            "goal_depth": 13,
+            "sha256": "2f1acaa8af53cb106217dd48953caacea30ddc5505b504caaa5904dcbf13c474"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/initial-236/mixed-constant/bridge.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1634,
+            "bytes": 4079392,
+            "formula_nodes": 1234756,
+            "substitution_nodes": 388556,
+            "max_line_nodes": 5985,
+            "max_record_nodes": 8640,
+            "max_line_depth": 31,
+            "goal_nodes": 164,
+            "goal_depth": 17,
+            "sha256": "6dd27b947a4a5d0653cc2166c2aebd53cda35311a499d97dfaa845aaef6bdfe4"
+          }
+        },
+        "node_sums": {
+          "native": 1196064,
+          "not-or": 1623312
+        },
+        "depths": {
+          "native": 22,
+          "not-or": 31
+        },
+        "name_bytes": 1
+      },
+      "argument_checks": [
+        {
+          "law": "unitR",
+          "argument": "A",
+          "stats": [
+            26,
+            7,
+            35,
+            9,
+            1
+          ]
+        },
+        {
+          "law": "unitR",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "A",
+          "stats": [
+            32,
+            9,
+            43,
+            12,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "B",
+          "stats": [
+            26,
+            7,
+            35,
+            9,
+            1
+          ]
+        },
+        {
+          "law": "symm",
+          "argument": "q",
+          "stats": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ]
+        }
+      ],
+      "manifest": "scripts/actual-tree/output/initial-236/mixed-constant/bridge.json",
+      "metadata_actual_bytes": 1079,
+      "total_actual_bytes": 6879126
+    }
+  ],
+  "rejections": [
+    {
+      "label": "native-substitution",
+      "rejected": true,
+      "reason": "AssertionError: native record differs",
+      "path": "scripts/actual-tree/output/initial-236/reject-native-substitution.jsonl.gz"
+    },
+    {
+      "label": "native-forward-reference",
+      "rejected": true,
+      "reason": "AssertionError: ",
+      "path": "scripts/actual-tree/output/initial-236/reject-native-forward-reference.jsonl.gz"
+    },
+    {
+      "label": "native-final-record",
+      "rejected": true,
+      "reason": "AssertionError: different stream lengths",
+      "path": "scripts/actual-tree/output/initial-236/reject-native-final-record.jsonl.gz"
+    },
+    {
+      "label": "native-extra-field",
+      "rejected": true,
+      "reason": "AssertionError: ",
+      "path": "scripts/actual-tree/output/initial-236/reject-native-extra-field.jsonl.gz"
+    },
+    {
+      "label": "image-substitution",
+      "rejected": true,
+      "reason": "AssertionError: literal image/record differs",
+      "path": "scripts/actual-tree/output/initial-236/reject-image-substitution.jsonl.gz"
+    },
+    {
+      "label": "image-endpoint",
+      "rejected": true,
+      "reason": "AssertionError: ",
+      "path": "scripts/actual-tree/output/initial-236/reject-image-endpoint.jsonl.gz"
+    },
+    {
+      "label": "source-suffix",
+      "rejected": true,
+      "reason": "actual suffix/table/order/constant mismatch"
+    },
+    {
+      "label": "source-constant",
+      "rejected": true,
+      "reason": "actual connector graph"
+    },
+    {
+      "label": "request-q",
+      "rejected": true,
+      "reason": "actual suffix/table/order/constant mismatch"
+    },
+    {
+      "label": "dictionary-duplicate",
+      "rejected": true,
+      "reason": "distinct dictionary names required"
+    },
+    {
+      "label": "optional-proof",
+      "rejected": true,
+      "reason": "initial bridge fields; no optional proof occurrences"
+    },
+    {
+      "label": "source-position",
+      "rejected": true,
+      "reason": "source tree operator/arity/position"
+    },
+    {
+      "label": "source-connector",
+      "rejected": true,
+      "reason": "actual connector graph"
+    }
+  ],
+  "contract": "No optional proof occurrences; distinct dictionary names; no formal-zero premise.",
+  "constants": {
+    "lines": {
+      "unitR": 761,
+      "symm": 872
+    },
+    "formats": {
+      "native": {
+        "D": 16,
+        "S": 584
+      },
+      "not-or": {
+        "D": 22,
+        "S": 788
+      }
+    }
+  }
+}

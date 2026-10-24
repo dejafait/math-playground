@@ -1,0 +1,1604 @@
+{
+  "complete": true,
+  "failures": [],
+  "library": {
+    "xor-left-native": {
+      "path": "scripts/guarded-context/output/xor-left.native.jsonl.gz",
+      "format": "native",
+      "accepted": true,
+      "lines": 2165,
+      "bytes": 664096,
+      "sha256": "905bf39d04f62d2489c6390201b6576bf4ec24beffb3021e098e4b6f03622438",
+      "formula_nodes": 199850,
+      "substitution_nodes": 61618,
+      "max_line_nodes": 874,
+      "max_record_nodes": 1260,
+      "max_line_depth": 16,
+      "goal_nodes": 51,
+      "goal_depth": 9
+    },
+    "xor-left-not-or": {
+      "path": "scripts/guarded-context/output/xor-left.not-or.jsonl.gz",
+      "format": "not-or",
+      "accepted": true,
+      "lines": 2165,
+      "bytes": 971659,
+      "sha256": "ba40a9873bcaee920c6316c6bb700aa081f00d038e7678d8b1d05302eb06603c",
+      "formula_nodes": 279079,
+      "substitution_nodes": 84889,
+      "max_line_nodes": 1233,
+      "max_record_nodes": 1776,
+      "max_line_depth": 22,
+      "goal_nodes": 72,
+      "goal_depth": 11
+    },
+    "xor-right-native": {
+      "path": "scripts/guarded-context/output/xor-right.native.jsonl.gz",
+      "format": "native",
+      "accepted": true,
+      "lines": 2165,
+      "bytes": 663821,
+      "sha256": "5e4c725b48a1e2902f4575764eb14236506869325bba2dbed11e93d22779c299",
+      "formula_nodes": 199780,
+      "substitution_nodes": 61596,
+      "max_line_nodes": 874,
+      "max_record_nodes": 1260,
+      "max_line_depth": 16,
+      "goal_nodes": 51,
+      "goal_depth": 9
+    },
+    "xor-right-not-or": {
+      "path": "scripts/guarded-context/output/xor-right.not-or.jsonl.gz",
+      "format": "not-or",
+      "accepted": true,
+      "lines": 2165,
+      "bytes": 971384,
+      "sha256": "537eba1e88da2a2211d1b1af6f4f968fa2949773283df3058329ed41fed9e5f4",
+      "formula_nodes": 279009,
+      "substitution_nodes": 84867,
+      "max_line_nodes": 1233,
+      "max_record_nodes": 1776,
+      "max_line_depth": 22,
+      "goal_nodes": 72,
+      "goal_depth": 11
+    },
+    "and-left-native": {
+      "path": "scripts/guarded-context/output/and-left.native.jsonl.gz",
+      "format": "native",
+      "accepted": true,
+      "lines": 1471,
+      "bytes": 444178,
+      "sha256": "99714842cef914f1e49c4c282a70809da5857800486bb2f93187aff48f36394a",
+      "formula_nodes": 124905,
+      "substitution_nodes": 38289,
+      "max_line_nodes": 658,
+      "max_record_nodes": 948,
+      "max_line_depth": 16,
+      "goal_nodes": 39,
+      "goal_depth": 9
+    },
+    "and-left-not-or": {
+      "path": "scripts/guarded-context/output/and-left.not-or.jsonl.gz",
+      "format": "not-or",
+      "accepted": true,
+      "lines": 1471,
+      "bytes": 598087,
+      "sha256": "dfb2ed999ff118eb05cc3d2eeb59eb20a887f2fede4061e5c402265c82d3abca",
+      "formula_nodes": 164840,
+      "substitution_nodes": 49644,
+      "max_line_nodes": 873,
+      "max_record_nodes": 1256,
+      "max_line_depth": 21,
+      "goal_nodes": 52,
+      "goal_depth": 10
+    },
+    "and-right-native": {
+      "path": "scripts/guarded-context/output/and-right.native.jsonl.gz",
+      "format": "native",
+      "accepted": true,
+      "lines": 1477,
+      "bytes": 443914,
+      "sha256": "0f7fa6e99df3c46e9431eee60791833ba52f93e8823f60e53581b3b9d3dc480b",
+      "formula_nodes": 124719,
+      "substitution_nodes": 38221,
+      "max_line_nodes": 658,
+      "max_record_nodes": 948,
+      "max_line_depth": 16,
+      "goal_nodes": 39,
+      "goal_depth": 9
+    },
+    "and-right-not-or": {
+      "path": "scripts/guarded-context/output/and-right.not-or.jsonl.gz",
+      "format": "not-or",
+      "accepted": true,
+      "lines": 1477,
+      "bytes": 597421,
+      "sha256": "5140c6cd2e9855ff84ce5072cf6dc1977b2b6806644f8f78caa697f903257ab9",
+      "formula_nodes": 164556,
+      "substitution_nodes": 49540,
+      "max_line_nodes": 873,
+      "max_record_nodes": 1256,
+      "max_line_depth": 21,
+      "goal_nodes": 52,
+      "goal_depth": 10
+    }
+  },
+  "unguarded": {
+    "and-left": {
+      "path": "scripts/guarded-context/output/and-left-unguarded.native.jsonl.gz",
+      "format": "native",
+      "accepted": true,
+      "lines": 1467,
+      "bytes": 443312,
+      "sha256": "58753a034066603f557e627a41acd4441f1db78ff28b3ef86b1641e8db9d9bf9",
+      "formula_nodes": 124679,
+      "substitution_nodes": 38218,
+      "max_line_nodes": 658,
+      "max_record_nodes": 948,
+      "max_line_depth": 16,
+      "goal_nodes": 35,
+      "goal_depth": 8
+    },
+    "and-right": {
+      "path": "scripts/guarded-context/output/and-right-unguarded.native.jsonl.gz",
+      "format": "native",
+      "accepted": true,
+      "lines": 1473,
+      "bytes": 443048,
+      "sha256": "ce3550e891ebb545e25405dd710407d0673af61c13c9b042b44fdc2d64f36e83",
+      "formula_nodes": 124493,
+      "substitution_nodes": 38150,
+      "max_line_nodes": 658,
+      "max_record_nodes": 948,
+      "max_line_depth": 16,
+      "goal_nodes": 35,
+      "goal_depth": 8
+    }
+  },
+  "cases": [
+    {
+      "name": "identity",
+      "guard": "G",
+      "U": "A",
+      "V": "(~(~A))",
+      "context": {
+        "mark": true
+      },
+      "s": 1,
+      "h": 0,
+      "k": 0,
+      "N": 383,
+      "R": 0,
+      "J": 383,
+      "input": {
+        "path": "scripts/guarded-context/output/identity-supplied.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 383,
+        "bytes": 91527,
+        "sha256": "0aeff43fa5a51c12ff99e42574f05932a04a6dd97196bf6bfd199b91f6fedd12",
+        "formula_nodes": 23692,
+        "substitution_nodes": 7234,
+        "max_line_nodes": 262,
+        "max_record_nodes": 376,
+        "max_line_depth": 42,
+        "goal_nodes": 15,
+        "goal_depth": 7,
+        "node_sums": {
+          "native": 30926,
+          "not-or": 38903
+        },
+        "depths": {
+          "native": 42,
+          "not-or": 42
+        }
+      },
+      "events": [],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/identity.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 383,
+            "bytes": 91527,
+            "sha256": "0aeff43fa5a51c12ff99e42574f05932a04a6dd97196bf6bfd199b91f6fedd12",
+            "formula_nodes": 23692,
+            "substitution_nodes": 7234,
+            "max_line_nodes": 262,
+            "max_record_nodes": 376,
+            "max_line_depth": 42,
+            "goal_nodes": 15,
+            "goal_depth": 7,
+            "storage_bytes": 5589
+          },
+          "parameters": {
+            "t": 3,
+            "d": 2,
+            "guard_nodes": 1,
+            "guard_depth": 0,
+            "B": 1,
+            "K": 30926,
+            "delta": 42,
+            "P": 128
+          },
+          "bounds": {
+            "lines": 383,
+            "depth": 42,
+            "record_nodes": 161280,
+            "bytes": 1281350,
+            "bits": 10250800
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 3,
+            "depth": 2
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/identity.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 383,
+            "bytes": 115470,
+            "sha256": "bd07226d40b8007e73907da1cdf91425ebe575e7c9fd2c6e7eed375c8d5ac139",
+            "formula_nodes": 29995,
+            "substitution_nodes": 8908,
+            "max_line_nodes": 333,
+            "max_record_nodes": 476,
+            "max_line_depth": 42,
+            "goal_nodes": 19,
+            "goal_depth": 8,
+            "storage_bytes": 5844
+          },
+          "parameters": {
+            "t": 3,
+            "d": 2,
+            "guard_nodes": 1,
+            "guard_depth": 0,
+            "B": 1,
+            "K": 38903,
+            "delta": 42,
+            "P": 128
+          },
+          "bounds": {
+            "lines": 383,
+            "depth": 42,
+            "record_nodes": 227328,
+            "bytes": 1651475,
+            "bits": 13211800
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 3,
+            "depth": 2
+          }
+        }
+      }
+    },
+    {
+      "name": "xor-left",
+      "guard": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))",
+      "U": "((A>G)>(~(G>A)))",
+      "V": "((G>A)>(~(A>G)))",
+      "context": {
+        "op": "xor",
+        "left": {
+          "mark": true
+        },
+        "right": {
+          "term": "(~(q>q))"
+        }
+      },
+      "s": 3,
+      "h": 1,
+      "k": 1,
+      "N": 1289,
+      "R": 2166,
+      "J": 3455,
+      "input": {
+        "path": "scripts/guarded-context/output/xor-left-supplied.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 1289,
+        "bytes": 385007,
+        "sha256": "4a3ecbccd5c23ce11e547c2582070b2b15e99b47c428e2af287c1322a9d87d9c",
+        "formula_nodes": 115656,
+        "substitution_nodes": 35591,
+        "max_line_nodes": 694,
+        "max_record_nodes": 1000,
+        "max_line_depth": 44,
+        "goal_nodes": 67,
+        "goal_depth": 29,
+        "node_sums": {
+          "native": 151247,
+          "not-or": 210641
+        },
+        "depths": {
+          "native": 44,
+          "not-or": 44
+        }
+      },
+      "events": [
+        {
+          "template": "xor-left",
+          "prior": 1288,
+          "law": 3453,
+          "root": 3454,
+          "arguments": {
+            "A": "((A>G)>(~(G>A)))",
+            "B": "((G>A)>(~(A>G)))",
+            "C": "(~(q>q))",
+            "G": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))"
+          }
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/xor-left.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 3455,
+            "bytes": 2297312,
+            "sha256": "344f22ea0415d7251e8182707b35ed58c91b5a598f4f5bf5b18fe35ab93a2b9a",
+            "formula_nodes": 747926,
+            "substitution_nodes": 234518,
+            "max_line_nodes": 2818,
+            "max_record_nodes": 4068,
+            "max_line_depth": 44,
+            "goal_nodes": 147,
+            "goal_depth": 29,
+            "storage_bytes": 64623
+          },
+          "parameters": {
+            "t": 8,
+            "d": 3,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 151247,
+            "delta": 44,
+            "P": 1152
+          },
+          "bounds": {
+            "lines": 3455,
+            "depth": 44,
+            "record_nodes": 1451520,
+            "bytes": 15731515403,
+            "bits": 125852123224
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 8,
+            "depth": 3
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/xor-left.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 3455,
+            "bytes": 3476390,
+            "sha256": "6937d2f5fefd1c1fd3b3424f7001d93e2a67fe536f1387881069fadce7e70808",
+            "formula_nodes": 1048495,
+            "substitution_nodes": 326927,
+            "max_line_nodes": 3969,
+            "max_record_nodes": 5728,
+            "max_line_depth": 44,
+            "goal_nodes": 195,
+            "goal_depth": 30,
+            "storage_bytes": 76938
+          },
+          "parameters": {
+            "t": 11,
+            "d": 4,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 210641,
+            "delta": 44,
+            "P": 1536
+          },
+          "bounds": {
+            "lines": 3455,
+            "depth": 50,
+            "record_nodes": 2727936,
+            "bytes": 29561779733,
+            "bits": 236494237864
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 11,
+            "depth": 4
+          }
+        }
+      }
+    },
+    {
+      "name": "xor-right",
+      "guard": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))",
+      "U": "((A>G)>(~(G>A)))",
+      "V": "((G>A)>(~(A>G)))",
+      "context": {
+        "op": "xor",
+        "left": {
+          "term": "(q>q)"
+        },
+        "right": {
+          "mark": true
+        }
+      },
+      "s": 3,
+      "h": 1,
+      "k": 1,
+      "N": 1289,
+      "R": 2166,
+      "J": 3455,
+      "input": {
+        "path": "scripts/guarded-context/output/xor-right-supplied.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 1289,
+        "bytes": 385007,
+        "sha256": "4a3ecbccd5c23ce11e547c2582070b2b15e99b47c428e2af287c1322a9d87d9c",
+        "formula_nodes": 115656,
+        "substitution_nodes": 35591,
+        "max_line_nodes": 694,
+        "max_record_nodes": 1000,
+        "max_line_depth": 44,
+        "goal_nodes": 67,
+        "goal_depth": 29,
+        "node_sums": {
+          "native": 151247,
+          "not-or": 210641
+        },
+        "depths": {
+          "native": 44,
+          "not-or": 44
+        }
+      },
+      "events": [
+        {
+          "template": "xor-right",
+          "prior": 1288,
+          "law": 3453,
+          "root": 3454,
+          "arguments": {
+            "A": "((A>G)>(~(G>A)))",
+            "B": "((G>A)>(~(A>G)))",
+            "C": "(q>q)",
+            "G": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))"
+          }
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/xor-right.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 3455,
+            "bytes": 2160881,
+            "sha256": "5bc1813571209f81b1710eb2da32cc93a374e29ebca8f92e864fa34ee2b52ebd",
+            "formula_nodes": 713440,
+            "substitution_nodes": 223535,
+            "max_line_nodes": 2674,
+            "max_record_nodes": 3860,
+            "max_line_depth": 44,
+            "goal_nodes": 139,
+            "goal_depth": 29,
+            "storage_bytes": 63334
+          },
+          "parameters": {
+            "t": 8,
+            "d": 3,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 151247,
+            "delta": 44,
+            "P": 1152
+          },
+          "bounds": {
+            "lines": 3455,
+            "depth": 44,
+            "record_nodes": 1451520,
+            "bytes": 15731515403,
+            "bits": 125852123224
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 8,
+            "depth": 3
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/xor-right.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 3455,
+            "bytes": 3339959,
+            "sha256": "4d5829cc9f055103ef12d6977a16a0bf0076bdc887016ffc9cfbc518af1fcae1",
+            "formula_nodes": 1014009,
+            "substitution_nodes": 315944,
+            "max_line_nodes": 3825,
+            "max_record_nodes": 5520,
+            "max_line_depth": 44,
+            "goal_nodes": 187,
+            "goal_depth": 30,
+            "storage_bytes": 75144
+          },
+          "parameters": {
+            "t": 11,
+            "d": 4,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 210641,
+            "delta": 44,
+            "P": 1536
+          },
+          "bounds": {
+            "lines": 3455,
+            "depth": 50,
+            "record_nodes": 2727936,
+            "bytes": 29561779733,
+            "bits": 236494237864
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 11,
+            "depth": 4
+          }
+        }
+      }
+    },
+    {
+      "name": "and-left",
+      "guard": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))",
+      "U": "((A>G)>(~(G>A)))",
+      "V": "((G>A)>(~(A>G)))",
+      "context": {
+        "op": "and",
+        "left": {
+          "mark": true
+        },
+        "right": {
+          "term": "(~(q>q))"
+        }
+      },
+      "s": 3,
+      "h": 1,
+      "k": 1,
+      "N": 1289,
+      "R": 2166,
+      "J": 3455,
+      "input": {
+        "path": "scripts/guarded-context/output/and-left-supplied.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 1289,
+        "bytes": 385007,
+        "sha256": "4a3ecbccd5c23ce11e547c2582070b2b15e99b47c428e2af287c1322a9d87d9c",
+        "formula_nodes": 115656,
+        "substitution_nodes": 35591,
+        "max_line_nodes": 694,
+        "max_record_nodes": 1000,
+        "max_line_depth": 44,
+        "goal_nodes": 67,
+        "goal_depth": 29,
+        "node_sums": {
+          "native": 151247,
+          "not-or": 210641
+        },
+        "depths": {
+          "native": 44,
+          "not-or": 44
+        }
+      },
+      "events": [
+        {
+          "template": "and-left",
+          "prior": 1288,
+          "law": 2759,
+          "root": 2760,
+          "arguments": {
+            "A": "((A>G)>(~(G>A)))",
+            "B": "((G>A)>(~(A>G)))",
+            "C": "(~(q>q))",
+            "G": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))"
+          }
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/and-left.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 2761,
+            "bytes": 1495117,
+            "sha256": "0eb280677fc12327d3f5a127cff476496cde6657b636b477f1dfc884d10d5441",
+            "formula_nodes": 472237,
+            "substitution_nodes": 147204,
+            "max_line_nodes": 1882,
+            "max_record_nodes": 2716,
+            "max_line_depth": 44,
+            "goal_nodes": 95,
+            "goal_depth": 29,
+            "storage_bytes": 48459
+          },
+          "parameters": {
+            "t": 8,
+            "d": 3,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 151247,
+            "delta": 44,
+            "P": 1152
+          },
+          "bounds": {
+            "lines": 3455,
+            "depth": 44,
+            "record_nodes": 1451520,
+            "bytes": 15731515403,
+            "bits": 125852123224
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 8,
+            "depth": 3
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/and-left.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 2761,
+            "bytes": 2202520,
+            "sha256": "bcaaadaaab7d505d503ed3ef5f960cdfbf6370b2fa57ef8b1cccad992e2ee636",
+            "formula_nodes": 653136,
+            "substitution_nodes": 202082,
+            "max_line_nodes": 2601,
+            "max_record_nodes": 3752,
+            "max_line_depth": 44,
+            "goal_nodes": 119,
+            "goal_depth": 30,
+            "storage_bytes": 55724
+          },
+          "parameters": {
+            "t": 11,
+            "d": 4,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 210641,
+            "delta": 44,
+            "P": 1536
+          },
+          "bounds": {
+            "lines": 3455,
+            "depth": 50,
+            "record_nodes": 2727936,
+            "bytes": 29561779733,
+            "bits": 236494237864
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 11,
+            "depth": 4
+          }
+        }
+      }
+    },
+    {
+      "name": "and-right",
+      "guard": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))",
+      "U": "((A>G)>(~(G>A)))",
+      "V": "((G>A)>(~(A>G)))",
+      "context": {
+        "op": "and",
+        "left": {
+          "term": "(q>q)"
+        },
+        "right": {
+          "mark": true
+        }
+      },
+      "s": 3,
+      "h": 1,
+      "k": 1,
+      "N": 1289,
+      "R": 2166,
+      "J": 3455,
+      "input": {
+        "path": "scripts/guarded-context/output/and-right-supplied.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 1289,
+        "bytes": 385007,
+        "sha256": "4a3ecbccd5c23ce11e547c2582070b2b15e99b47c428e2af287c1322a9d87d9c",
+        "formula_nodes": 115656,
+        "substitution_nodes": 35591,
+        "max_line_nodes": 694,
+        "max_record_nodes": 1000,
+        "max_line_depth": 44,
+        "goal_nodes": 67,
+        "goal_depth": 29,
+        "node_sums": {
+          "native": 151247,
+          "not-or": 210641
+        },
+        "depths": {
+          "native": 44,
+          "not-or": 44
+        }
+      },
+      "events": [
+        {
+          "template": "and-right",
+          "prior": 1288,
+          "law": 2765,
+          "root": 2766,
+          "arguments": {
+            "A": "((A>G)>(~(G>A)))",
+            "B": "((G>A)>(~(A>G)))",
+            "C": "(q>q)",
+            "G": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))"
+          }
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/and-right.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 2767,
+            "bytes": 1441490,
+            "sha256": "3bb74fa1212f97ff537c4c1d900592edaa568fc4ae5c2928c891dcc882a28f69",
+            "formula_nodes": 458921,
+            "substitution_nodes": 142990,
+            "max_line_nodes": 1810,
+            "max_record_nodes": 2612,
+            "max_line_depth": 44,
+            "goal_nodes": 91,
+            "goal_depth": 29,
+            "storage_bytes": 48040
+          },
+          "parameters": {
+            "t": 8,
+            "d": 3,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 151247,
+            "delta": 44,
+            "P": 1152
+          },
+          "bounds": {
+            "lines": 3455,
+            "depth": 44,
+            "record_nodes": 1451520,
+            "bytes": 15731515403,
+            "bits": 125852123224
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 8,
+            "depth": 3
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/and-right.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 2767,
+            "bytes": 2150777,
+            "sha256": "03fc150d5b6265db62f1ab1aad5a2259c5cd90571f07f84df80d8e3c317b7014",
+            "formula_nodes": 640294,
+            "substitution_nodes": 198022,
+            "max_line_nodes": 2529,
+            "max_record_nodes": 3648,
+            "max_line_depth": 44,
+            "goal_nodes": 115,
+            "goal_depth": 30,
+            "storage_bytes": 55374
+          },
+          "parameters": {
+            "t": 11,
+            "d": 4,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 210641,
+            "delta": 44,
+            "P": 1536
+          },
+          "bounds": {
+            "lines": 3455,
+            "depth": 50,
+            "record_nodes": 2727936,
+            "bytes": 29561779733,
+            "bits": 236494237864
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 11,
+            "depth": 4
+          }
+        }
+      }
+    },
+    {
+      "name": "mixed-h2",
+      "guard": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))",
+      "U": "(~(q>q))",
+      "V": "(~(~(~(q>q))))",
+      "context": {
+        "op": "and",
+        "left": {
+          "op": "xor",
+          "left": {
+            "term": "A"
+          },
+          "right": {
+            "mark": true
+          }
+        },
+        "right": {
+          "op": "xor",
+          "left": {
+            "term": "(~(q>q))"
+          },
+          "right": {
+            "term": "(q>q)"
+          }
+        }
+      },
+      "s": 7,
+      "h": 2,
+      "k": 2,
+      "N": 383,
+      "R": 4332,
+      "J": 4715,
+      "input": {
+        "path": "scripts/guarded-context/output/mixed-h2-supplied.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 383,
+        "bytes": 153597,
+        "sha256": "cee0badec67898433b6d14b12301c1096693c8057a1da03db4d94a51e12c182e",
+        "formula_nodes": 43799,
+        "substitution_nodes": 13653,
+        "max_line_nodes": 478,
+        "max_record_nodes": 688,
+        "max_line_depth": 46,
+        "goal_nodes": 55,
+        "goal_depth": 29,
+        "node_sums": {
+          "native": 57452,
+          "not-or": 74239
+        },
+        "depths": {
+          "native": 46,
+          "not-or": 46
+        }
+      },
+      "events": [
+        {
+          "template": "xor-right",
+          "prior": 382,
+          "law": 2547,
+          "root": 2548,
+          "arguments": {
+            "A": "(~(q>q))",
+            "B": "(~(~(~(q>q))))",
+            "C": "A",
+            "G": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))"
+          }
+        },
+        {
+          "template": "and-left",
+          "prior": 2548,
+          "law": 4019,
+          "root": 4020,
+          "arguments": {
+            "A": "((A>(~(q>q)))>(~((~(q>q))>A)))",
+            "B": "((A>(~(~(~(q>q)))))>(~((~(~(~(q>q))))>A)))",
+            "C": "(((~(q>q))>(q>q))>(~((q>q)>(~(q>q)))))",
+            "G": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))"
+          }
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/mixed-h2.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 4021,
+            "bytes": 3833656,
+            "sha256": "8a845d295e0e90fabfad8f023e18888ff0a20b9d8c194c72aba29128e884f0d3",
+            "formula_nodes": 1207934,
+            "substitution_nodes": 379544,
+            "max_line_nodes": 4042,
+            "max_record_nodes": 5836,
+            "max_line_depth": 46,
+            "goal_nodes": 183,
+            "goal_depth": 29,
+            "storage_bytes": 87443
+          },
+          "parameters": {
+            "t": 6,
+            "d": 4,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 57452,
+            "delta": 46,
+            "P": 3584
+          },
+          "bounds": {
+            "lines": 4715,
+            "depth": 46,
+            "record_nodes": 4515840,
+            "bytes": 97841092956,
+            "bits": 782728743648
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 18,
+            "depth": 7
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/mixed-h2.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 4021,
+            "bytes": 5464615,
+            "sha256": "57c05b52834851fc6bf4011202c85fdb63ff777ef95757f01fa5a196f73500eb",
+            "formula_nodes": 1623340,
+            "substitution_nodes": 507735,
+            "max_line_nodes": 5481,
+            "max_record_nodes": 7912,
+            "max_line_depth": 46,
+            "goal_nodes": 239,
+            "goal_depth": 30,
+            "storage_bytes": 102523
+          },
+          "parameters": {
+            "t": 7,
+            "d": 5,
+            "guard_nodes": 29,
+            "guard_depth": 28,
+            "B": 1,
+            "K": 74239,
+            "delta": 46,
+            "P": 4096
+          },
+          "bounds": {
+            "lines": 4715,
+            "depth": 50,
+            "record_nodes": 7274496,
+            "bytes": 157607459131,
+            "bits": 1260859673048
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 25,
+            "depth": 9
+          }
+        }
+      }
+    },
+    {
+      "name": "mixed-h3",
+      "guard": "G",
+      "U": "C",
+      "V": "(~(~C))",
+      "context": {
+        "op": "xor",
+        "left": {
+          "op": "and",
+          "left": {
+            "op": "xor",
+            "left": {
+              "term": "G"
+            },
+            "right": {
+              "term": "A"
+            }
+          },
+          "right": {
+            "op": "xor",
+            "left": {
+              "mark": true
+            },
+            "right": {
+              "term": "q"
+            }
+          }
+        },
+        "right": {
+          "op": "xor",
+          "left": {
+            "op": "and",
+            "left": {
+              "term": "(q>q)"
+            },
+            "right": {
+              "term": "(~(q>q))"
+            }
+          },
+          "right": {
+            "op": "and",
+            "left": {
+              "term": "A"
+            },
+            "right": {
+              "term": "A"
+            }
+          }
+        }
+      },
+      "s": 15,
+      "h": 3,
+      "k": 3,
+      "N": 383,
+      "R": 6498,
+      "J": 6881,
+      "input": {
+        "path": "scripts/guarded-context/output/mixed-h3-supplied.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 383,
+        "bytes": 91599,
+        "sha256": "5c434cf3f1eca8126b8e8cbf014a4eb3d6c0a3d86e3add2f8fc94c9a2bc7993d",
+        "formula_nodes": 23708,
+        "substitution_nodes": 7242,
+        "max_line_nodes": 262,
+        "max_record_nodes": 376,
+        "max_line_depth": 50,
+        "goal_nodes": 15,
+        "goal_depth": 7,
+        "node_sums": {
+          "native": 30950,
+          "not-or": 38927
+        },
+        "depths": {
+          "native": 50,
+          "not-or": 50
+        }
+      },
+      "events": [
+        {
+          "template": "xor-left",
+          "prior": 382,
+          "law": 2547,
+          "root": 2548,
+          "arguments": {
+            "A": "C",
+            "B": "(~(~C))",
+            "C": "q",
+            "G": "G"
+          }
+        },
+        {
+          "template": "and-right",
+          "prior": 2548,
+          "law": 4025,
+          "root": 4026,
+          "arguments": {
+            "A": "((C>q)>(~(q>C)))",
+            "B": "(((~(~C))>q)>(~(q>(~(~C)))))",
+            "C": "((G>A)>(~(A>G)))",
+            "G": "G"
+          }
+        },
+        {
+          "template": "xor-left",
+          "prior": 4026,
+          "law": 6191,
+          "root": 6192,
+          "arguments": {
+            "A": "(~(((G>A)>(~(A>G)))>(~((C>q)>(~(q>C))))))",
+            "B": "(~(((G>A)>(~(A>G)))>(~(((~(~C))>q)>(~(q>(~(~C))))))))",
+            "C": "(((~((q>q)>(~(~(q>q)))))>(~(A>(~A))))>(~((~(A>(~A)))>(~((q>q)>(~(~(q>q))))))))",
+            "G": "G"
+          }
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/mixed-h3.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 6193,
+            "bytes": 9429706,
+            "sha256": "6386335cf06daa9edb94694cd65c09d18451ff7302efc4d5d819083ac536706d",
+            "formula_nodes": 3015367,
+            "substitution_nodes": 952742,
+            "max_line_nodes": 9946,
+            "max_record_nodes": 14364,
+            "max_line_depth": 50,
+            "goal_nodes": 463,
+            "goal_depth": 16,
+            "storage_bytes": 178591
+          },
+          "parameters": {
+            "t": 4,
+            "d": 2,
+            "guard_nodes": 1,
+            "guard_depth": 0,
+            "B": 1,
+            "K": 30950,
+            "delta": 50,
+            "P": 10240
+          },
+          "bounds": {
+            "lines": 6881,
+            "depth": 50,
+            "record_nodes": 12902400,
+            "bytes": 419271131454,
+            "bits": 3354169051632
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 34,
+            "depth": 8
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/mixed-h3.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 6193,
+            "bytes": 13509592,
+            "sha256": "47846a50cc9dfe94bf8e1959e859885c53260212493d610a83bc45e7787bd7cf",
+            "formula_nodes": 4051435,
+            "substitution_nodes": 1276476,
+            "max_line_nodes": 13401,
+            "max_record_nodes": 19352,
+            "max_line_depth": 50,
+            "goal_nodes": 623,
+            "goal_depth": 20,
+            "storage_bytes": 232450
+          },
+          "parameters": {
+            "t": 5,
+            "d": 3,
+            "guard_nodes": 1,
+            "guard_depth": 0,
+            "B": 1,
+            "K": 38927,
+            "delta": 50,
+            "P": 12288
+          },
+          "bounds": {
+            "lines": 6881,
+            "depth": 50,
+            "record_nodes": 21823488,
+            "bytes": 709161925899,
+            "bits": 5673295407192
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 45,
+            "depth": 10
+          }
+        }
+      }
+    },
+    {
+      "name": "mixed-h3-deep-payload",
+      "guard": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~G))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))",
+      "U": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))",
+      "V": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))",
+      "context": {
+        "op": "and",
+        "left": {
+          "op": "xor",
+          "left": {
+            "op": "and",
+            "left": {
+              "term": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~C))))))))))))))))))))))))))))))))))"
+            },
+            "right": {
+              "mark": true
+            }
+          },
+          "right": {
+            "op": "and",
+            "left": {
+              "term": "(q>q)"
+            },
+            "right": {
+              "term": "(~(q>q))"
+            }
+          }
+        },
+        "right": {
+          "op": "xor",
+          "left": {
+            "op": "and",
+            "left": {
+              "term": "G"
+            },
+            "right": {
+              "term": "G"
+            }
+          },
+          "right": {
+            "op": "xor",
+            "left": {
+              "term": "A"
+            },
+            "right": {
+              "term": "q"
+            }
+          }
+        }
+      },
+      "s": 15,
+      "h": 3,
+      "k": 3,
+      "N": 382,
+      "R": 6498,
+      "J": 6880,
+      "input": {
+        "path": "scripts/guarded-context/output/mixed-h3-deep-payload-supplied.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 382,
+        "bytes": 673793,
+        "sha256": "998fd1c4a422ec18782a903d9e28d4c93bd41021df57c411dc2f701b7a6e98e0",
+        "formula_nodes": 170749,
+        "substitution_nodes": 54110,
+        "max_line_nodes": 1846,
+        "max_record_nodes": 2664,
+        "max_line_depth": 82,
+        "goal_nodes": 183,
+        "goal_depth": 81,
+        "node_sums": {
+          "native": 224859,
+          "not-or": 232834
+        },
+        "depths": {
+          "native": 82,
+          "not-or": 83
+        }
+      },
+      "events": [
+        {
+          "template": "and-right",
+          "prior": 381,
+          "law": 1858,
+          "root": 1859,
+          "arguments": {
+            "A": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))",
+            "B": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))",
+            "C": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~C))))))))))))))))))))))))))))))))))",
+            "G": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~G))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+          }
+        },
+        {
+          "template": "xor-left",
+          "prior": 1859,
+          "law": 4024,
+          "root": 4025,
+          "arguments": {
+            "A": "(~((~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~C))))))))))))))))))))))))))))))))))>(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A)))))))))))))))))))))))))",
+            "B": "(~((~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~C))))))))))))))))))))))))))))))))))>(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A)))))))))))))))))))))))))))",
+            "C": "(~((q>q)>(~(~(q>q)))))",
+            "G": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~G))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+          }
+        },
+        {
+          "template": "and-left",
+          "prior": 4025,
+          "law": 5496,
+          "root": 5497,
+          "arguments": {
+            "A": "(((~((~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~C))))))))))))))))))))))))))))))))))>(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A)))))))))))))))))))))))))>(~((q>q)>(~(~(q>q))))))>(~((~((q>q)>(~(~(q>q)))))>(~((~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~C))))))))))))))))))))))))))))))))))>(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))",
+            "B": "(((~((~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~C))))))))))))))))))))))))))))))))))>(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A)))))))))))))))))))))))))))>(~((q>q)>(~(~(q>q))))))>(~((~((q>q)>(~(~(q>q)))))>(~((~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~C))))))))))))))))))))))))))))))))))>(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~A))))))))))))))))))))))))))))))",
+            "C": "(((~(G>(~G)))>((A>q)>(~(q>A))))>(~(((A>q)>(~(q>A)))>(~(G>(~G))))))",
+            "G": "(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~(~G))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+          }
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/mixed-h3-deep-payload.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 5498,
+            "bytes": 34800930,
+            "sha256": "6700e8aa13e0140a8296838f31b9f25f8bd95491e9e3d6fe78225881a6847d5f",
+            "formula_nodes": 9268627,
+            "substitution_nodes": 2932629,
+            "max_line_nodes": 23914,
+            "max_record_nodes": 34540,
+            "max_line_depth": 83,
+            "goal_nodes": 811,
+            "goal_depth": 81,
+            "storage_bytes": 584251
+          },
+          "parameters": {
+            "t": 35,
+            "d": 34,
+            "guard_nodes": 81,
+            "guard_depth": 80,
+            "B": 1,
+            "K": 224859,
+            "delta": 82,
+            "P": 73728
+          },
+          "bounds": {
+            "lines": 6880,
+            "depth": 96,
+            "record_nodes": 92897280,
+            "bytes": 3018705725511,
+            "bits": 24149645804088
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 150,
+            "depth": 39
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/guarded-context/output/mixed-h3-deep-payload.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 5498,
+            "bytes": 37833420,
+            "sha256": "6366e22dbeb3e0f7a005e8913626342a205dc466d41e69b6729ca1a27b7120bd",
+            "formula_nodes": 10039673,
+            "substitution_nodes": 3172317,
+            "max_line_nodes": 26505,
+            "max_record_nodes": 38280,
+            "max_line_depth": 85,
+            "goal_nodes": 907,
+            "goal_depth": 82,
+            "storage_bytes": 634601
+          },
+          "parameters": {
+            "t": 35,
+            "d": 34,
+            "guard_nodes": 81,
+            "guard_depth": 80,
+            "B": 1,
+            "K": 232834,
+            "delta": 83,
+            "P": 73728
+          },
+          "bounds": {
+            "lines": 6880,
+            "depth": 102,
+            "record_nodes": 130940928,
+            "bytes": 4254934107146,
+            "bits": 34039472857168
+          },
+          "tests": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true,
+            "context_argument_nodes": true,
+            "context_argument_depth": true,
+            "exact_guard_arguments": true
+          },
+          "context_arguments": {
+            "nodes": 161,
+            "depth": 41
+          }
+        }
+      }
+    }
+  ],
+  "corruptions": [
+    {
+      "name": "endpoint",
+      "path": "scripts/guarded-context/output/corrupt-endpoint.native.jsonl.gz",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    },
+    {
+      "name": "substitution",
+      "path": "scripts/guarded-context/output/corrupt-substitution.native.jsonl.gz",
+      "rejected": true,
+      "reason": "line 0: declared substitution mismatch"
+    },
+    {
+      "name": "reference",
+      "path": "scripts/guarded-context/output/corrupt-reference.native.jsonl.gz",
+      "rejected": true,
+      "reason": "line 6: reference not strictly earlier"
+    },
+    {
+      "name": "mp-antecedent",
+      "path": "scripts/guarded-context/output/corrupt-mp-antecedent.native.jsonl.gz",
+      "rejected": true,
+      "reason": "line 6: MP antecedent/consequent mismatch"
+    },
+    {
+      "name": "premise",
+      "path": "scripts/guarded-context/output/corrupt-premise.native.jsonl.gz",
+      "rejected": true,
+      "reason": "line 0: invalid axiom record"
+    },
+    {
+      "name": "image-input",
+      "path": "scripts/guarded-context/output/corrupt-image-input.native.jsonl.gz",
+      "rejected": true,
+      "reason": "wrong binary connective"
+    },
+    {
+      "name": "changed-guard",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    },
+    {
+      "name": "missing-proof",
+      "rejected": true,
+      "reason": "complete proof required"
+    },
+    {
+      "name": "missing-mark",
+      "rejected": true,
+      "reason": "exactly one mark required"
+    },
+    {
+      "name": "two-marks",
+      "rejected": true,
+      "reason": "exactly one mark required"
+    }
+  ],
+  "constants": {
+    "L": 2165,
+    "native": {
+      "D": 16,
+      "S": 1260,
+      "c": 3
+    },
+    "not-or": {
+      "D": 22,
+      "S": 1776,
+      "c": 6
+    }
+  }
+}

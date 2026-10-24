@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "fixed_generator_replayed": true,
+    "every_reciprocal_disk_once": true,
+    "every_rejection_compared_with_all_root_residues": true,
+    "every_realization_is_a_nonzero_square_in_its_disk": true,
+    "all_R_square_neighborhood_bounds_replayed": true,
+    "all_full_normal_forms_reconstructed": true,
+    "all_collisions_and_affine_matches_replayed": true,
+    "infinity_identity_and_coverage_gap_retained": true
+  },
+  "failures": [],
+  "disks_verified": 128,
+  "realized_disks_verified": 8,
+  "rejected_disks_verified": 120,
+  "distinct_labels_verified": 4,
+  "required": {
+    "reciprocal_disks": 128,
+    "J_constancy_bound": 68,
+    "J_strict_threshold": 66
+  },
+  "scope": "all reciprocal evidence; no middle-annulus certificate or independent L078 audit"
+}

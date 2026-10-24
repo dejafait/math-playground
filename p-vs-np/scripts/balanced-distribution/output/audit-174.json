@@ -1,0 +1,706 @@
+{
+  "complete": true,
+  "failures": [],
+  "library": {
+    "trans": {
+      "native": {
+        "path": "scripts/balanced-slot/output/trans.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 1449,
+        "bytes": 351640,
+        "sha256": "a2513b369faced85c31349e6884fe6c0dce365c725e19f7f318269762b6f38b6",
+        "formula_nodes": 100135,
+        "substitution_nodes": 30418,
+        "max_line_nodes": 550,
+        "max_record_nodes": 792,
+        "max_line_depth": 14,
+        "goal_nodes": 29,
+        "goal_depth": 6
+      },
+      "not-or": {
+        "path": "scripts/balanced-slot/output/trans.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 1449,
+        "bytes": 496156,
+        "sha256": "3f612dcb3843ac1657fec3266900e0ef2100664e95deaaa7a2856129b8d60825",
+        "formula_nodes": 137695,
+        "substitution_nodes": 41019,
+        "max_line_nodes": 765,
+        "max_record_nodes": 1100,
+        "max_line_depth": 20,
+        "goal_nodes": 40,
+        "goal_depth": 8
+      }
+    },
+    "congL": {
+      "native": {
+        "path": "scripts/balanced-slot/output/congL.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 2161,
+        "bytes": 663070,
+        "sha256": "c293cf8d180bff1cee96484f40d98bb767c9010417d1808a630ae2039beafd3b",
+        "formula_nodes": 199552,
+        "substitution_nodes": 61523,
+        "max_line_nodes": 874,
+        "max_record_nodes": 1260,
+        "max_line_depth": 16,
+        "goal_nodes": 47,
+        "goal_depth": 8
+      },
+      "not-or": {
+        "path": "scripts/balanced-slot/output/congL.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 2161,
+        "bytes": 970147,
+        "sha256": "9c9226935ecbc5a66d5424369b47be284860fb3d884406750daa8cc5eead8848",
+        "formula_nodes": 278658,
+        "substitution_nodes": 84757,
+        "max_line_nodes": 1233,
+        "max_record_nodes": 1776,
+        "max_line_depth": 22,
+        "goal_nodes": 66,
+        "goal_depth": 10
+      }
+    },
+    "congR": {
+      "native": {
+        "path": "scripts/balanced-slot/output/congR.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 2161,
+        "bytes": 662795,
+        "sha256": "32b771bd149fd7f7021b16330c1e013540e7aa4c5cee9d976fa0af8ca9318f2a",
+        "formula_nodes": 199482,
+        "substitution_nodes": 61501,
+        "max_line_nodes": 874,
+        "max_record_nodes": 1260,
+        "max_line_depth": 16,
+        "goal_nodes": 47,
+        "goal_depth": 8
+      },
+      "not-or": {
+        "path": "scripts/balanced-slot/output/congR.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 2161,
+        "bytes": 969872,
+        "sha256": "6dd8850028bdd112fe126c0da92382d3f6ab4ea5adeaa18ec121a626300f0cba",
+        "formula_nodes": 278588,
+        "substitution_nodes": 84735,
+        "max_line_nodes": 1233,
+        "max_record_nodes": 1776,
+        "max_line_depth": 22,
+        "goal_nodes": 66,
+        "goal_depth": 10
+      }
+    },
+    "refl": {
+      "native": {
+        "path": "scripts/balanced-slot/output/refl.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 320,
+        "bytes": 61473,
+        "sha256": "304ccb97cb06813a1a07e7674d429a5efc29df178ef43e93e67e3ec2cba70aba",
+        "formula_nodes": 16480,
+        "substitution_nodes": 4962,
+        "max_line_nodes": 190,
+        "max_record_nodes": 272,
+        "max_line_depth": 12,
+        "goal_nodes": 9,
+        "goal_depth": 4
+      },
+      "not-or": {
+        "path": "scripts/balanced-slot/output/refl.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 320,
+        "bytes": 84168,
+        "sha256": "fe3a9b0325be39e0bbb45b37821bec482e3dc9cc0096271529f981eeb3e1b14c",
+        "formula_nodes": 22431,
+        "substitution_nodes": 6573,
+        "max_line_nodes": 261,
+        "max_record_nodes": 372,
+        "max_line_depth": 17,
+        "goal_nodes": 12,
+        "goal_depth": 5
+      }
+    },
+    "symm": {
+      "native": {
+        "path": "scripts/balanced-slot/output/symm.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 872,
+        "bytes": 186448,
+        "sha256": "99d595154a6887f83b26510f1936776bb735fc13a7605ee3fb59f958a9b1f9b7",
+        "formula_nodes": 51610,
+        "substitution_nodes": 15615,
+        "max_line_nodes": 370,
+        "max_record_nodes": 532,
+        "max_line_depth": 13,
+        "goal_nodes": 19,
+        "goal_depth": 5
+      },
+      "not-or": {
+        "path": "scripts/balanced-slot/output/symm.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 872,
+        "bytes": 259678,
+        "sha256": "969fbfd4da5e621bf4ccdebed816a3695057906cddd0d95d7f7e68b6dd340afd",
+        "formula_nodes": 70720,
+        "substitution_nodes": 20908,
+        "max_line_nodes": 513,
+        "max_record_nodes": 736,
+        "max_line_depth": 19,
+        "goal_nodes": 26,
+        "goal_depth": 7
+      }
+    },
+    "dist": {
+      "native": {
+        "path": "scripts/balanced-distribution/output/dist.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 2706,
+        "bytes": 1220042,
+        "sha256": "8f4b2bc06d468bb8598f92fd1f9521ef022647d6036c7cc9bc88385e29ee3da5",
+        "formula_nodes": 361526,
+        "substitution_nodes": 112466,
+        "max_line_nodes": 1414,
+        "max_record_nodes": 2040,
+        "max_line_depth": 18,
+        "goal_nodes": 77,
+        "goal_depth": 10
+      },
+      "not-or": {
+        "path": "scripts/balanced-distribution/output/dist.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 2706,
+        "bytes": 1682204,
+        "sha256": "c5a66d9d3b7d34977d488591dd06fe3703ce389570515483135efcf0bcf725b3",
+        "formula_nodes": 480221,
+        "substitution_nodes": 147800,
+        "max_line_nodes": 1881,
+        "max_record_nodes": 2712,
+        "max_line_depth": 24,
+        "goal_nodes": 102,
+        "goal_depth": 12
+      }
+    },
+    "prod_cong": {
+      "native": {
+        "path": "scripts/balanced-distribution/output/prod_cong.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 1493,
+        "bytes": 449358,
+        "sha256": "2612dfba7faa90836ed1b981fe5a8f06e845e378322b9c3e1df4da3a83f25c3c",
+        "formula_nodes": 126263,
+        "substitution_nodes": 38715,
+        "max_line_nodes": 658,
+        "max_record_nodes": 948,
+        "max_line_depth": 16,
+        "goal_nodes": 35,
+        "goal_depth": 8
+      },
+      "not-or": {
+        "path": "scripts/balanced-distribution/output/prod_cong.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 1493,
+        "bytes": 604806,
+        "sha256": "74679997a395fc0240126b52dee8519371191f57643f43ada1bbbc63313b8f32",
+        "formula_nodes": 166600,
+        "substitution_nodes": 50183,
+        "max_line_nodes": 873,
+        "max_record_nodes": 1256,
+        "max_line_depth": 21,
+        "goal_nodes": 46,
+        "goal_depth": 9
+      }
+    }
+  },
+  "cases": [
+    {
+      "name": "m2-variable",
+      "events": [
+        {
+          "path": [],
+          "lifts": 0,
+          "height": 2
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/balanced-distribution/output/m2-variable.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 2706,
+            "bytes": 1725801,
+            "sha256": "75109973c85df4f0fa2d54663a0bedac04df8e8e31d7133ef4ed29b9d00c2f85",
+            "formula_nodes": 361526,
+            "substitution_nodes": 112466,
+            "max_line_nodes": 1414,
+            "max_record_nodes": 2040,
+            "max_line_depth": 18,
+            "goal_nodes": 77,
+            "goal_depth": 10
+          },
+          "bounds": {
+            "lines": 8122,
+            "depth": 24,
+            "record_nodes": 2088960,
+            "bytes": 203657371392,
+            "argument_nodes": 1024,
+            "term_nodes": 1,
+            "term_depth": 0,
+            "name_bytes": 8,
+            "bits": 1629258971136
+          },
+          "checks": {
+            "lines": {
+              "actual": 2706,
+              "required": 8122
+            },
+            "depth": {
+              "actual": 18,
+              "required": 24
+            },
+            "record_nodes": {
+              "actual": 2040,
+              "required": 2088960
+            },
+            "bytes": {
+              "actual": 1725801,
+              "required": 203657371392
+            }
+          },
+          "arguments": {
+            "count": 7,
+            "max_nodes": 24,
+            "required_nodes": 1024,
+            "max_depth": 6,
+            "required_depth": 6
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/balanced-distribution/output/m2-variable.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 2706,
+            "bytes": 2187963,
+            "sha256": "070e88a2d6c2ed4b8abc5da0e41ac28b43242cc4ae5f93407f62318362b0907a",
+            "formula_nodes": 480221,
+            "substitution_nodes": 147800,
+            "max_line_nodes": 1881,
+            "max_record_nodes": 2712,
+            "max_line_depth": 24,
+            "goal_nodes": 102,
+            "goal_depth": 12
+          },
+          "bounds": {
+            "lines": 8122,
+            "depth": 36,
+            "record_nodes": 2777088,
+            "bytes": 270741593856,
+            "argument_nodes": 1024,
+            "term_nodes": 1,
+            "term_depth": 0,
+            "name_bytes": 8,
+            "bits": 2165932750848
+          },
+          "checks": {
+            "lines": {
+              "actual": 2706,
+              "required": 8122
+            },
+            "depth": {
+              "actual": 24,
+              "required": 36
+            },
+            "record_nodes": {
+              "actual": 2712,
+              "required": 2777088
+            },
+            "bytes": {
+              "actual": 2187963,
+              "required": 270741593856
+            }
+          },
+          "arguments": {
+            "count": 7,
+            "max_nodes": 31,
+            "required_nodes": 1024,
+            "max_depth": 7,
+            "required_depth": 12
+          }
+        }
+      }
+    },
+    {
+      "name": "m4-composite",
+      "events": [
+        {
+          "path": [],
+          "lifts": 0,
+          "height": 3
+        },
+        {
+          "path": [
+            1
+          ],
+          "lifts": 1,
+          "height": 3
+        },
+        {
+          "path": [
+            2
+          ],
+          "lifts": 1,
+          "height": 3
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/balanced-distribution/output/m4-composite.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 12332,
+            "bytes": 85734521,
+            "sha256": "80e3821e9cd77a7bc37750d5f319cdef6054be7afa8eed5257b81f11b419e0ef",
+            "formula_nodes": 16829446,
+            "substitution_nodes": 5308636,
+            "max_line_nodes": 29494,
+            "max_record_nodes": 42600,
+            "max_line_depth": 25,
+            "goal_nodes": 531,
+            "goal_depth": 15
+          },
+          "bounds": {
+            "lines": 27078,
+            "depth": 29,
+            "record_nodes": 20889600,
+            "bytes": 6788317345280,
+            "argument_nodes": 10240,
+            "term_nodes": 4,
+            "term_depth": 2,
+            "name_bytes": 8,
+            "bits": 54306538762240
+          },
+          "checks": {
+            "lines": {
+              "actual": 12332,
+              "required": 27078
+            },
+            "depth": {
+              "actual": 25,
+              "required": 29
+            },
+            "record_nodes": {
+              "actual": 42600,
+              "required": 20889600
+            },
+            "bytes": {
+              "actual": 85734521,
+              "required": 6788317345280
+            }
+          },
+          "arguments": {
+            "count": 25,
+            "max_nodes": 184,
+            "required_nodes": 10240,
+            "max_depth": 11,
+            "required_depth": 11
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/balanced-distribution/output/m4-composite.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 12332,
+            "bytes": 110441405,
+            "sha256": "e5f37e87e70ec3c73b91844a9f00a68829e6c1914d75c8a538352bd5f9f2c027",
+            "formula_nodes": 23095302,
+            "substitution_nodes": 7278213,
+            "max_line_nodes": 40293,
+            "max_record_nodes": 58196,
+            "max_line_depth": 34,
+            "goal_nodes": 726,
+            "goal_depth": 19
+          },
+          "bounds": {
+            "lines": 27078,
+            "depth": 45,
+            "record_nodes": 33325056,
+            "bytes": 10829343127040,
+            "argument_nodes": 12288,
+            "term_nodes": 5,
+            "term_depth": 3,
+            "name_bytes": 8,
+            "bits": 86634745016320
+          },
+          "checks": {
+            "lines": {
+              "actual": 12332,
+              "required": 27078
+            },
+            "depth": {
+              "actual": 34,
+              "required": 45
+            },
+            "record_nodes": {
+              "actual": 58196,
+              "required": 33325056
+            },
+            "bytes": {
+              "actual": 110441405,
+              "required": 10829343127040
+            }
+          },
+          "arguments": {
+            "count": 25,
+            "max_nodes": 247,
+            "required_nodes": 12288,
+            "max_depth": 14,
+            "required_depth": 21
+          }
+        }
+      }
+    },
+    {
+      "name": "m8-composite",
+      "events": [
+        {
+          "path": [],
+          "lifts": 0,
+          "height": 4
+        },
+        {
+          "path": [
+            1
+          ],
+          "lifts": 1,
+          "height": 4
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "lifts": 2,
+          "height": 4
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "lifts": 2,
+          "height": 4
+        },
+        {
+          "path": [
+            2
+          ],
+          "lifts": 1,
+          "height": 4
+        },
+        {
+          "path": [
+            2,
+            1
+          ],
+          "lifts": 2,
+          "height": 4
+        },
+        {
+          "path": [
+            2,
+            2
+          ],
+          "lifts": 2,
+          "height": 4
+        }
+      ],
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/balanced-distribution/output/m8-composite.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 39276,
+            "bytes": 786461422,
+            "sha256": "69ec69c5fb5c3b8ff55f204908a059c14ff209c0ab5910ed2d23e9728da04a7f",
+            "formula_nodes": 169584875,
+            "substitution_nodes": 53538489,
+            "max_line_nodes": 120646,
+            "max_record_nodes": 174264,
+            "max_line_depth": 29,
+            "goal_nodes": 2051,
+            "goal_depth": 19
+          },
+          "bounds": {
+            "lines": 78530,
+            "depth": 33,
+            "record_nodes": 150405120,
+            "bytes": 141739484153088,
+            "argument_nodes": 73728,
+            "term_nodes": 8,
+            "term_depth": 3,
+            "name_bytes": 8,
+            "bits": 1133915873224704
+          },
+          "checks": {
+            "lines": {
+              "actual": 39276,
+              "required": 78530
+            },
+            "depth": {
+              "actual": 29,
+              "required": 33
+            },
+            "record_nodes": {
+              "actual": 174264,
+              "required": 150405120
+            },
+            "bytes": {
+              "actual": 786461422,
+              "required": 141739484153088
+            }
+          },
+          "arguments": {
+            "count": 73,
+            "max_nodes": 732,
+            "required_nodes": 73728,
+            "max_depth": 15,
+            "required_depth": 15
+          }
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/balanced-distribution/output/m8-composite.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 39276,
+            "bytes": 1033520386,
+            "sha256": "6b1ba631ce7d8ac6e4dd614e35e6aeee4e08b034be1b7d61e37364897a1eeb1c",
+            "formula_nodes": 232194450,
+            "substitution_nodes": 73281163,
+            "max_line_nodes": 163413,
+            "max_record_nodes": 236036,
+            "max_line_depth": 39,
+            "goal_nodes": 2790,
+            "goal_depth": 24
+          },
+          "bounds": {
+            "lines": 78530,
+            "depth": 52,
+            "record_nodes": 266600448,
+            "bytes": 251240102135040,
+            "argument_nodes": 98304,
+            "term_nodes": 11,
+            "term_depth": 4,
+            "name_bytes": 8,
+            "bits": 2009920817080320
+          },
+          "checks": {
+            "lines": {
+              "actual": 39276,
+              "required": 78530
+            },
+            "depth": {
+              "actual": 39,
+              "required": 52
+            },
+            "record_nodes": {
+              "actual": 236036,
+              "required": 266600448
+            },
+            "bytes": {
+              "actual": 1033520386,
+              "required": 251240102135040
+            }
+          },
+          "arguments": {
+            "count": 73,
+            "max_nodes": 979,
+            "required_nodes": 98304,
+            "max_depth": 19,
+            "required_depth": 28
+          }
+        }
+      }
+    }
+  ],
+  "corruptions": [
+    {
+      "path": "scripts/balanced-distribution/output/corrupt-native-axiom-substitution.jsonl.gz",
+      "rejected": true,
+      "reason": "line 0: declared substitution mismatch"
+    },
+    {
+      "path": "scripts/balanced-distribution/output/corrupt-native-forward-reference.jsonl.gz",
+      "rejected": true,
+      "reason": "line 5: reference not strictly earlier"
+    },
+    {
+      "path": "scripts/balanced-distribution/output/corrupt-native-mp-antecedent.jsonl.gz",
+      "rejected": true,
+      "reason": "line 5: MP antecedent/consequent mismatch"
+    },
+    {
+      "path": "scripts/balanced-distribution/output/corrupt-native-endpoint.jsonl.gz",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    },
+    {
+      "path": "scripts/balanced-distribution/output/corrupt-not-or-axiom-substitution.jsonl.gz",
+      "rejected": true,
+      "reason": "line 0: declared substitution mismatch"
+    },
+    {
+      "path": "scripts/balanced-distribution/output/corrupt-not-or-forward-reference.jsonl.gz",
+      "rejected": true,
+      "reason": "line 5: reference not strictly earlier"
+    },
+    {
+      "path": "scripts/balanced-distribution/output/corrupt-not-or-mp-antecedent.jsonl.gz",
+      "rejected": true,
+      "reason": "line 5: MP antecedent/consequent mismatch"
+    },
+    {
+      "path": "scripts/balanced-distribution/output/corrupt-not-or-endpoint.jsonl.gz",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    }
+  ],
+  "constants": {
+    "L": 2706,
+    "native": {
+      "D": 18,
+      "S": 2040
+    },
+    "not-or": {
+      "D": 24,
+      "S": 2712
+    }
+  },
+  "code_sha256": {
+    "scripts/balanced-distribution/audit_archives.py": "3a540c74ccb9e09d6a8e84ea81fdace472e39541b6051112a2deb70c2fa7a62b",
+    "scripts/balanced-distribution/run_suite.py": "21924312b0084da9dcb3f6a4bb1eedaa6ffcb72d7f96c24a3b0c22736f234d39",
+    "scripts/balanced-distribution/endpoints.py": "9ecfb5392a9a4aea4a174e292824fc89d30abb97244f65853c315f08222e5f89",
+    "scripts/balanced-slot/checker.py": "1c4ecededa11952de638708fd5424eb29acc643c5bf24297bf09a573b68dae7f",
+    "scripts/balanced-slot/compiler.py": "015f814f570a293e069c77fde18fe24dbaf9d6a0628045659de197bed9c30535"
+  }
+}

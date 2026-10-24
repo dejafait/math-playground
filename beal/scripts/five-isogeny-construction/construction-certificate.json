@@ -1,0 +1,138 @@
+{
+  "arithmetic": "Exact fractions and polynomial identities; coefficients in ascending degree",
+  "checks": {
+    "exact_order_five": true,
+    "all_nonzero_torsion_points_on_curve": true,
+    "miller_identity": true,
+    "norm_identity": true,
+    "line_intersections": true,
+    "quotient_curve_identity": true,
+    "quotient_map_degree_five": true,
+    "discriminants": true,
+    "exceptional_ratios": true
+  },
+  "failures": [],
+  "order": {
+    "actual": 5,
+    "required": 5
+  },
+  "multiples": [
+    [
+      "5",
+      "5"
+    ],
+    [
+      "16",
+      "-61"
+    ],
+    [
+      "16",
+      "60"
+    ],
+    [
+      "5",
+      "-6"
+    ],
+    null
+  ],
+  "f": {
+    "constant_coefficient_in_y": [
+      "-55",
+      "30",
+      "-4"
+    ],
+    "linear_coefficient_in_y": [
+      "-4",
+      "1"
+    ],
+    "miller_residuals": [
+      [
+        "0"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "norm_residual": [
+      "0"
+    ],
+    "line_residuals": [
+      [
+        "0"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "torsion_values": [
+      "0",
+      "-1331",
+      "121",
+      "-11"
+    ],
+    "good_divisor_shifts": [
+      2,
+      2,
+      4,
+      3
+    ],
+    "exceptional_ratios": [
+      "-1/11",
+      "1/121",
+      "121",
+      "-11"
+    ]
+  },
+  "quotient": {
+    "x_numerator": [
+      "-324599",
+      "170498",
+      "-30420",
+      "2163",
+      "-42",
+      "1"
+    ],
+    "x_denominator": [
+      "6400",
+      "-3360",
+      "601",
+      "-42",
+      "1"
+    ],
+    "derivative_numerator": [
+      "534560",
+      "791998",
+      "372028",
+      "9668",
+      "-33811",
+      "-3084",
+      "1404",
+      "-84",
+      "1"
+    ],
+    "curve_residual": [
+      "0"
+    ],
+    "source_invariants": {
+      "discriminant": -161051,
+      "c4": 496,
+      "c6": 20008
+    },
+    "target_invariants": {
+      "discriminant": -11,
+      "c4": 375376,
+      "c6": 229985128
+    },
+    "actual_degree": 5,
+    "required_degree": 5
+  },
+  "not_certified": [
+    "class group",
+    "S-unit basis",
+    "local images",
+    "Selmer dimension",
+    "rank",
+    "fourth-power incompatibility",
+    "branch emptiness"
+  ]
+}

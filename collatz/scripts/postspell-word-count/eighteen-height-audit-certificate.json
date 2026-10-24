@@ -1,0 +1,231 @@
+{
+  "lemma": "L046",
+  "kind": "exact arithmetic audit; analytic proof in lemma",
+  "checks": [
+    {
+      "name": "byte-identical regeneration",
+      "actual": "d4fbc8efc0d2bac5025a5b85bba34e6972a6c664c21c196cf57811bf9e51a689",
+      "relation": "=",
+      "required": "d4fbc8efc0d2bac5025a5b85bba34e6972a6c664c21c196cf57811bf9e51a689",
+      "passed": true
+    },
+    {
+      "name": "record count",
+      "actual": "10",
+      "relation": "=",
+      "required": "10",
+      "passed": true
+    },
+    {
+      "name": "replay: shift constant",
+      "actual": "107/75",
+      "relation": "<",
+      "required": "48/25",
+      "passed": true
+    },
+    {
+      "name": "replay: sixth power integer comparison",
+      "actual": "12230590464",
+      "relation": "<",
+      "required": "12451171875",
+      "passed": true
+    },
+    {
+      "name": "replay: geometric bound via sixth power",
+      "actual": "3316250/23",
+      "relation": "<",
+      "required": "150000",
+      "passed": true
+    },
+    {
+      "name": "replay: full exact geometric sum",
+      "actual": "79544651309362595873687268553/582076609134674072265625",
+      "relation": "<",
+      "required": "150000",
+      "passed": true
+    },
+    {
+      "name": "replay: e series lower bound reciprocal comparison",
+      "actual": "27/10",
+      "relation": "<",
+      "required": "163/60",
+      "passed": true
+    },
+    {
+      "name": "replay: log18 less than 3",
+      "actual": "18000",
+      "relation": "<",
+      "required": "19683",
+      "passed": true
+    },
+    {
+      "name": "replay: logC less than 20",
+      "actual": "33846000000000000000000000000",
+      "relation": "<",
+      "required": "42391158275216203514294433201",
+      "passed": true
+    },
+    {
+      "name": "replay: tail contribution",
+      "actual": "621/517",
+      "relation": "<",
+      "required": "2",
+      "passed": true
+    },
+    {
+      "name": "replay: derivative threshold",
+      "actual": "11970000",
+      "relation": "<",
+      "required": "338460000",
+      "passed": true
+    },
+    {
+      "name": "replay: entire-ray starting bound",
+      "actual": "250200002",
+      "relation": "<",
+      "required": "338460000",
+      "passed": true
+    },
+    {
+      "name": "summary: q",
+      "actual": "48/25",
+      "relation": "=",
+      "required": "48/25",
+      "passed": true
+    },
+    {
+      "name": "summary: R18",
+      "actual": "79544651309362595873687268553/582076609134674072265625",
+      "relation": "=",
+      "required": "79544651309362595873687268553/582076609134674072265625",
+      "passed": true
+    },
+    {
+      "name": "summary: C",
+      "actual": "338460000",
+      "relation": "=",
+      "required": "338460000",
+      "passed": true
+    },
+    {
+      "name": "summary: A",
+      "actual": "11970000",
+      "relation": "=",
+      "required": "11970000",
+      "passed": true
+    },
+    {
+      "name": "summary: B",
+      "actual": "10800002",
+      "relation": "=",
+      "required": "10800002",
+      "passed": true
+    },
+    {
+      "name": "saved failures",
+      "actual": "[]",
+      "relation": "=",
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "positive e-series partial sum",
+      "actual": "163/60",
+      "relation": "=",
+      "required": "163/60",
+      "passed": true
+    },
+    {
+      "name": "exp(4/3) partial sum",
+      "actual": "293/81",
+      "relation": "=",
+      "required": "293/81",
+      "passed": true
+    },
+    {
+      "name": "height coefficient",
+      "actual": "48/25",
+      "relation": "=",
+      "required": "48/25",
+      "passed": true
+    },
+    {
+      "name": "transfer constant",
+      "actual": "32/75",
+      "relation": "=",
+      "required": "32/75",
+      "passed": true
+    },
+    {
+      "name": "prefix height coefficient",
+      "actual": "15/4",
+      "relation": "=",
+      "required": "15/4",
+      "passed": true
+    },
+    {
+      "name": "prefix constant",
+      "actual": "3",
+      "relation": "=",
+      "required": "3",
+      "passed": true
+    },
+    {
+      "name": "geometric formula",
+      "actual": "1829526980115339705094807176719/14551915228366851806640625",
+      "relation": "=",
+      "required": "1829526980115339705094807176719/14551915228366851806640625",
+      "passed": true
+    },
+    {
+      "name": "strict margin lower bound",
+      "actual": "88259998",
+      "relation": "=",
+      "required": "88259998",
+      "passed": true
+    },
+    {
+      "name": "delta upper bound",
+      "actual": "243",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "delta lower bound",
+      "actual": "8",
+      "relation": "<",
+      "required": "9",
+      "passed": true
+    },
+    {
+      "name": "alpha positive",
+      "actual": "16",
+      "relation": "<",
+      "required": "27",
+      "passed": true
+    },
+    {
+      "name": "shift absorption",
+      "actual": "23/11",
+      "relation": "<",
+      "required": "405/11",
+      "passed": true
+    },
+    {
+      "name": "geometric intermediate bound",
+      "actual": "79544651309362595873687268553/582076609134674072265625",
+      "relation": "<",
+      "required": "3316250/23",
+      "passed": true
+    },
+    {
+      "name": "exp(4/3) lower bound",
+      "actual": "3",
+      "relation": "<",
+      "required": "293/81",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

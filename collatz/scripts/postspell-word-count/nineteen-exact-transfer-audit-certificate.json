@@ -1,0 +1,736 @@
+{
+  "scope": "L048 nineteen-word arithmetic audit only; analytic proof and qualifications remain in L048",
+  "log_values": {
+    "log2": {
+      "argument": "2",
+      "x": "1/3",
+      "terms": "12",
+      "lower": "346617686907988864/500063617986634845",
+      "remainder_upper": "1/9414317882700",
+      "upper": "6932353738160839627/10001272359732696900"
+    },
+    "log3": {
+      "argument": "3",
+      "x": "1/2",
+      "terms": "12",
+      "lower": "1541989106264611/1403578975518720",
+      "remainder_upper": "1/314572800",
+      "upper": "3854972776816171/3508947438796800"
+    },
+    "cJ": {
+      "argument": "11/4",
+      "x": "7/15",
+      "terms": "12",
+      "lower": "1206075695958854287938499432140704/1192244572607600319385528564453125",
+      "remainder_upper": "1341068619663964900807/2469003122084140777587890625000",
+      "upper": "241215139321287241668986624653378439/238448914521520063877105712890625000"
+    }
+  },
+  "S": "201086004979505972137061961346282731948781/1000000000000000000000000000000000000",
+  "U": "2259179831230404181315302936475086875829/10000000000000000000000000000000000",
+  "additive_contribution": "210103724304427588862323173092183079452097/500000000000000000000000000000000000",
+  "A": "16047780",
+  "B": "13695003",
+  "C": 338460000,
+  "rhs_upper": "334650603",
+  "margin": "3809397",
+  "checks": [
+    {
+      "name": "log2: recomputed argument",
+      "actual": "2",
+      "relation": "=",
+      "required": "2",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log2: recomputed x",
+      "actual": "1/3",
+      "relation": "=",
+      "required": "1/3",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log2: recomputed terms",
+      "actual": "12",
+      "relation": "=",
+      "required": "12",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log2: recomputed lower",
+      "actual": "346617686907988864/500063617986634845",
+      "relation": "=",
+      "required": "346617686907988864/500063617986634845",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log2: recomputed remainder_upper",
+      "actual": "1/9414317882700",
+      "relation": "=",
+      "required": "1/9414317882700",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log2: recomputed upper",
+      "actual": "6932353738160839627/10001272359732696900",
+      "relation": "=",
+      "required": "6932353738160839627/10001272359732696900",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log3: recomputed argument",
+      "actual": "3",
+      "relation": "=",
+      "required": "3",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log3: recomputed x",
+      "actual": "1/2",
+      "relation": "=",
+      "required": "1/2",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log3: recomputed terms",
+      "actual": "12",
+      "relation": "=",
+      "required": "12",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log3: recomputed lower",
+      "actual": "1541989106264611/1403578975518720",
+      "relation": "=",
+      "required": "1541989106264611/1403578975518720",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log3: recomputed remainder_upper",
+      "actual": "1/314572800",
+      "relation": "=",
+      "required": "1/314572800",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log3: recomputed upper",
+      "actual": "3854972776816171/3508947438796800",
+      "relation": "=",
+      "required": "3854972776816171/3508947438796800",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "cJ: recomputed argument",
+      "actual": "11/4",
+      "relation": "=",
+      "required": "11/4",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "cJ: recomputed x",
+      "actual": "7/15",
+      "relation": "=",
+      "required": "7/15",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "cJ: recomputed terms",
+      "actual": "12",
+      "relation": "=",
+      "required": "12",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "cJ: recomputed lower",
+      "actual": "1206075695958854287938499432140704/1192244572607600319385528564453125",
+      "relation": "=",
+      "required": "1206075695958854287938499432140704/1192244572607600319385528564453125",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "cJ: recomputed remainder_upper",
+      "actual": "1341068619663964900807/2469003122084140777587890625000",
+      "relation": "=",
+      "required": "1341068619663964900807/2469003122084140777587890625000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "cJ: recomputed upper",
+      "actual": "241215139321287241668986624653378439/238448914521520063877105712890625000",
+      "relation": "=",
+      "required": "241215139321287241668986624653378439/238448914521520063877105712890625000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "log2 lower",
+      "actual": "346617686907988864/500063617986634845",
+      "relation": ">",
+      "required": "6931/10000",
+      "cross_product_difference": "235932814522529305",
+      "passed": true
+    },
+    {
+      "name": "log3 upper",
+      "actual": "3854972776816171/3508947438796800",
+      "relation": "<",
+      "required": "10987/10000",
+      "cross_product_difference": "-3077741898731600",
+      "passed": true
+    },
+    {
+      "name": "cJ upper",
+      "actual": "241215139321287241668986624653378439/238448914521520063877105712890625000",
+      "relation": "<",
+      "required": "41/40",
+      "cross_product_difference": "-127799922530832952201869242380487440",
+      "passed": true
+    },
+    {
+      "name": "delta lower: 3^2 > 2^3",
+      "actual": "9",
+      "relation": ">",
+      "required": "8",
+      "cross_product_difference": "1",
+      "passed": true
+    },
+    {
+      "name": "delta upper",
+      "actual": "10987/6931",
+      "relation": "<",
+      "required": "793/500",
+      "cross_product_difference": "-2783",
+      "passed": true
+    },
+    {
+      "name": "q enclosure",
+      "actual": "1886547/1000000",
+      "relation": "<",
+      "required": "189/100",
+      "cross_product_difference": "-345300",
+      "passed": true
+    },
+    {
+      "name": "b enclosure",
+      "actual": "12322427/40000000",
+      "relation": "<",
+      "required": "31/100",
+      "cross_product_difference": "-7757300",
+      "passed": true
+    },
+    {
+      "name": "homogeneous sum matches certificate",
+      "actual": "201086004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "relation": "=",
+      "required": "201086004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "additive sum matches certificate",
+      "actual": "2259179831230404181315302936475086875829/10000000000000000000000000000000000",
+      "relation": "=",
+      "required": "2259179831230404181315302936475086875829/10000000000000000000000000000000000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "geometric formula",
+      "actual": "201086004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "relation": "=",
+      "required": "201086004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "additive formula",
+      "actual": "201067004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "relation": "=",
+      "required": "201067004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "S upper",
+      "actual": "201086004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "relation": "<",
+      "required": "201100",
+      "cross_product_difference": "-13995020494027862938038653717268051219",
+      "passed": true
+    },
+    {
+      "name": "positive additive contribution retained",
+      "actual": "210103724304427588862323173092183079452097/500000000000000000000000000000000000",
+      "relation": ">",
+      "required": "0",
+      "cross_product_difference": "210103724304427588862323173092183079452097",
+      "passed": true
+    },
+    {
+      "name": "additive upper via S",
+      "actual": "210103724304427588862323173092183079452097/500000000000000000000000000000000000",
+      "relation": "<",
+      "required": "18700998463094055408746762405204294071236633/44500000000000000000000000000000000000",
+      "cross_product_difference": "-883500000000000000000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "additive rational coefficient",
+      "actual": "186/89",
+      "relation": "<",
+      "required": "21/10",
+      "cross_product_difference": "-9",
+      "passed": true
+    },
+    {
+      "name": "exponential partial sum",
+      "actual": "163/60",
+      "relation": "=",
+      "required": "163/60",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "exponential lower",
+      "actual": "163/60",
+      "relation": ">",
+      "required": "27/10",
+      "cross_product_difference": "10",
+      "passed": true
+    },
+    {
+      "name": "log19 bound",
+      "actual": "19683/1000",
+      "relation": ">",
+      "required": "19",
+      "cross_product_difference": "683",
+      "passed": true
+    },
+    {
+      "name": "logC bound",
+      "actual": "42391158275216203514294433201/100000000000000000000",
+      "relation": ">",
+      "required": "338460000",
+      "cross_product_difference": "8545158275216203514294433201",
+      "passed": true
+    },
+    {
+      "name": "primitive ray",
+      "actual": "338460000",
+      "relation": "=",
+      "required": "338460000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "constant remainder",
+      "actual": "478059/5170",
+      "relation": "<",
+      "required": "93",
+      "cross_product_difference": "-2751",
+      "passed": true
+    },
+    {
+      "name": "logarithmic coefficient assembly",
+      "actual": "399/5",
+      "relation": "=",
+      "required": "399/5",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "height sum coefficient",
+      "actual": "6",
+      "relation": "=",
+      "required": "6",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "A",
+      "actual": "16047780",
+      "relation": "=",
+      "required": "16047780",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "B",
+      "actual": "13695003",
+      "relation": "=",
+      "required": "13695003",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "A certificate",
+      "actual": "16047780",
+      "relation": "=",
+      "required": "16047780",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "B certificate",
+      "actual": "13695003",
+      "relation": "=",
+      "required": "13695003",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "derivative positive for all t >= C",
+      "actual": "16047780",
+      "relation": "<",
+      "required": "338460000",
+      "cross_product_difference": "-322412220",
+      "passed": true
+    },
+    {
+      "name": "RHS upper at C",
+      "actual": "334650603",
+      "relation": "<",
+      "required": "338460000",
+      "cross_product_difference": "-3809397",
+      "passed": true
+    },
+    {
+      "name": "positive full-ray margin",
+      "actual": "3809397",
+      "relation": "=",
+      "required": "3809397",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: log2 strict lower bound",
+      "actual": "346617686907988864/500063617986634845",
+      "relation": ">",
+      "required": "6931/10000",
+      "cross_product_difference": "235932814522529305",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: log2 strict lower bound",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: log3 strict upper bound",
+      "actual": "3854972776816171/3508947438796800",
+      "relation": "<",
+      "required": "10987/10000",
+      "cross_product_difference": "-3077741898731600",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: log3 strict upper bound",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: cJ strict upper bound",
+      "actual": "241215139321287241668986624653378439/238448914521520063877105712890625000",
+      "relation": "<",
+      "required": "41/40",
+      "cross_product_difference": "-127799922530832952201869242380487440",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: cJ strict upper bound",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: delta rational bound",
+      "actual": "10987/6931",
+      "relation": "<",
+      "required": "793/500",
+      "cross_product_difference": "-2783",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: delta rational bound",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: exact-transfer coefficient enclosure",
+      "actual": "1886547/1000000",
+      "relation": "<",
+      "required": "189/100",
+      "cross_product_difference": "-345300",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: exact-transfer coefficient enclosure",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: exact-transfer additive enclosure",
+      "actual": "12322427/40000000",
+      "relation": "<",
+      "required": "31/100",
+      "cross_product_difference": "-7757300",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: exact-transfer additive enclosure",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: geometric closed form",
+      "actual": "201086004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "relation": "=",
+      "required": "201086004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: geometric closed form",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: additive sum identity",
+      "actual": "2259179831230404181315302936475086875829/10000000000000000000000000000000000",
+      "relation": "=",
+      "required": "2259179831230404181315302936475086875829/10000000000000000000000000000000000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: additive sum identity",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: geometric upper enclosure",
+      "actual": "201086004979505972137061961346282731948781/1000000000000000000000000000000000000",
+      "relation": "<",
+      "required": "201100",
+      "cross_product_difference": "-13995020494027862938038653717268051219",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: geometric upper enclosure",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: additive contribution enclosure",
+      "actual": "186/89",
+      "relation": "<",
+      "required": "21/10",
+      "cross_product_difference": "-9",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: additive contribution enclosure",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: e lower enclosure",
+      "actual": "163/60",
+      "relation": ">",
+      "required": "27/10",
+      "cross_product_difference": "10",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: e lower enclosure",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: log19 less than 3",
+      "actual": "19683",
+      "relation": ">",
+      "required": "19000",
+      "cross_product_difference": "683",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: log19 less than 3",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: logC less than 20",
+      "actual": "42391158275216203514294433201",
+      "relation": ">",
+      "required": "33846000000000000000000000000",
+      "cross_product_difference": "8545158275216203514294433201",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: logC less than 20",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: primitive ray threshold",
+      "actual": "338460000",
+      "relation": "=",
+      "required": "338460000",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: primitive ray threshold",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: constant remainder enclosure",
+      "actual": "478059/5170",
+      "relation": "<",
+      "required": "93",
+      "cross_product_difference": "-2751",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: constant remainder enclosure",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: coefficient evaluation",
+      "actual": "16047780",
+      "relation": "=",
+      "required": "16047780",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: coefficient evaluation",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: constant evaluation",
+      "actual": "13695003",
+      "relation": "=",
+      "required": "13695003",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: constant evaluation",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: positive derivative on entire ray",
+      "actual": "16047780",
+      "relation": "<",
+      "required": "338460000",
+      "cross_product_difference": "-322412220",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: positive derivative on entire ray",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: RHS at ray start",
+      "actual": "334650603",
+      "relation": "<",
+      "required": "338460000",
+      "cross_product_difference": "-3809397",
+      "passed": true
+    },
+    {
+      "name": "stored pass flag: RHS at ray start",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "cross_product_difference": "0",
+      "passed": true
+    },
+    {
+      "name": "source failures count",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "cross_product_difference": "0",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

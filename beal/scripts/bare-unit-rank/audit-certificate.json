@@ -1,0 +1,617 @@
+{
+  "source_sha256": "2fd4a2a53a9592335e127d5cc913032a1c19500bc2f7aec234ca50063a3a8ba2",
+  "method": "Independent verification of all L069 certificate data by exact identities.\n\nDoes not import or execute check_diagnostic.py. Sturm division witnesses\nare verified by convolution, remainder degree and positive rescaling;\nuniqueness of polynomial division then certifies each recorded division.\n",
+  "checks": {
+    "inputs_match_L033_and_transformed_curve": true,
+    "base_sturm_initial_polynomials": true,
+    "base_sturm_complete_degrees": true,
+    "base_sturm_division_count": true,
+    "base_sturm_division_0": true,
+    "base_sturm_division_1": true,
+    "base_sturm_division_2": true,
+    "base_sturm_division_3": true,
+    "base_sturm_division_4": true,
+    "base_sturm_division_5": true,
+    "base_sturm_division_6": true,
+    "base_sturm_division_7": true,
+    "base_sturm_division_8": true,
+    "base_sturm_division_9": true,
+    "base_sturm_division_10": true,
+    "base_sturm_all_signs_and_counts": true,
+    "base_sturm_terminal_minus_one": true,
+    "cubic_sturm_initial_polynomials": true,
+    "cubic_sturm_complete_degrees": true,
+    "cubic_sturm_division_count": true,
+    "cubic_sturm_division_0": true,
+    "cubic_sturm_division_1": true,
+    "cubic_sturm_all_signs_and_counts": true,
+    "cubic_sturm_terminal_minus_one": true,
+    "discriminant_sylvester": true,
+    "model_identity": true,
+    "all_five_residues": true,
+    "hensel_place": true,
+    "all_embeddings": true,
+    "dimension_records": true,
+    "threshold": true,
+    "original_flags_agree_with_verified_claims": true,
+    "no_uninspected_arithmetic_fields": true
+  },
+  "failures": [],
+  "evidence": {
+    "base_sturm": {
+      "verified_polynomials": [
+        [
+          "-380",
+          "-774",
+          "-1062",
+          "-456",
+          "258",
+          "468",
+          "104",
+          "-126",
+          "-6",
+          "6",
+          "-6",
+          "0",
+          "1"
+        ],
+        [
+          "-129",
+          "-354",
+          "-228",
+          "172",
+          "390",
+          "104",
+          "-147",
+          "-8",
+          "9",
+          "-10",
+          "0",
+          "2"
+        ],
+        [
+          "760",
+          "1419",
+          "1770",
+          "684",
+          "-344",
+          "-546",
+          "-104",
+          "105",
+          "4",
+          "-3",
+          "2"
+        ],
+        [
+          "2538",
+          "6485",
+          "8604",
+          "5248",
+          "-444",
+          "-2534",
+          "-1110",
+          "123",
+          "204",
+          "19"
+        ],
+        [
+          "-66115",
+          "-155970",
+          "-199700",
+          "-107286",
+          "24094",
+          "61752",
+          "20791",
+          "-6240",
+          "-4165"
+        ],
+        [
+          "1193745",
+          "1873940",
+          "2517405",
+          "886930",
+          "-394149",
+          "-857534",
+          "-230367",
+          "216914"
+        ],
+        [
+          "503918785",
+          "2775230130",
+          "2709948025",
+          "1040738304",
+          "-1474705701",
+          "-815617428",
+          "474612981"
+        ],
+        [
+          "-332745178093",
+          "-258836261980",
+          "-139145683789",
+          "211879047062",
+          "136393567269",
+          "-19521394362"
+        ],
+        [
+          "71251696646449",
+          "65079661845406",
+          "36213794306857",
+          "-41950595835164",
+          "-35775769867557"
+        ],
+        [
+          "468871333538922913",
+          "240655074523218880",
+          "405725439784711738",
+          "-161479257989543846"
+        ],
+        [
+          "3173675604133222245227",
+          "2396691622907961671355",
+          "3548537761237412284736"
+        ],
+        [
+          "-908288533325991048983941",
+          "-4012020856028140740455541"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "verified_divisions": [
+        {
+          "index": 0,
+          "quotient": [
+            "0",
+            "1/2"
+          ],
+          "remainder": [
+            "-380",
+            "-1419/2",
+            "-885",
+            "-342",
+            "172",
+            "273",
+            "52",
+            "-105/2",
+            "-2",
+            "3/2",
+            "-1"
+          ],
+          "normalization": "2",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 10,
+          "passed": true
+        },
+        {
+          "index": 1,
+          "quotient": [
+            "3/2",
+            "1"
+          ],
+          "remainder": [
+            "-1269",
+            "-6485/2",
+            "-4302",
+            "-2624",
+            "222",
+            "1267",
+            "555",
+            "-123/2",
+            "-102",
+            "-19/2"
+          ],
+          "normalization": "2",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 9,
+          "passed": true
+        },
+        {
+          "index": 2,
+          "quotient": [
+            "-465/361",
+            "2/19"
+          ],
+          "remainder": [
+            "1454530/361",
+            "3431340/361",
+            "4393400/361",
+            "2360292/361",
+            "-530068/361",
+            "-1358544/361",
+            "-457402/361",
+            "137280/361",
+            "91630/361"
+          ],
+          "normalization": "361/22",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 8,
+          "passed": true
+        },
+        {
+          "index": 3,
+          "quotient": [
+            "-29244/693889",
+            "-19/4165"
+          ],
+          "remainder": [
+            "-24625254/99127",
+            "-270596936/693889",
+            "-363513282/693889",
+            "-128072692/693889",
+            "40653654/495635",
+            "619139548/3469445",
+            "9783822/204085",
+            "-156611908/3469445"
+          ],
+          "normalization": "3469445/722",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 7,
+          "passed": true
+        },
+        {
+          "index": 4,
+          "quotient": [
+            "-2313021915/47051683396",
+            "-4165/216914"
+          ],
+          "remainder": [
+            "-349663701804865/47051683396",
+            "-962850829837785/23525841698",
+            "-1880403125119225/47051683396",
+            "-180539215256064/11762920849",
+            "1023282064161189/47051683396",
+            "141486990374373/11762920849",
+            "-329328726773109/47051683396"
+          ],
+          "normalization": "47051683396/693889",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 6,
+          "passed": true
+        },
+        {
+          "index": 5,
+          "quotient": [
+            "22527890061055/75085827244568787",
+            "216914/474612981"
+          ],
+          "remainder": [
+            "78281103855887355219140/75085827244568787",
+            "60893409250435360420400/75085827244568787",
+            "32735193297799788337220/75085827244568787",
+            "-49846329203037039912760/75085827244568787",
+            "-10695911573986693942540/25028609081522929",
+            "1530857444948805688920/25028609081522929"
+          ],
+          "normalization": "75085827244568787/235258416980",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 5,
+          "passed": true
+        },
+        {
+          "index": 6,
+          "quotient": [
+            "-5423574232250664217/42342759759636154116",
+            "-158204327/6507131454"
+          ],
+          "remainder": [
+            "-1783330861759230266278999929121/42342759759636154116",
+            "-814426707743184936110521157087/21171379879818077058",
+            "-906380901065004454011507424153/42342759759636154116",
+            "262491265973820913163442618839/10585689939909038529",
+            "298472586201870495015396238151/14114253253212051372"
+          ],
+          "normalization": "42342759759636154116/25028609081522929",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 4,
+          "passed": true
+        },
+        {
+          "index": 7,
+          "quotient": [
+            "-633168777672223343459689/142211745512933267257905361",
+            "6507131454/11925256622519"
+          ],
+          "remainder": [
+            "-2205922914913205178831628069367962212/142211745512933267257905361",
+            "-1132222222830443579934142483120101120/142211745512933267257905361",
+            "-1908837202797419301298478407555801512/142211745512933267257905361",
+            "759719714135062455532618590732818904/142211745512933267257905361"
+          ],
+          "normalization": "142211745512933267257905361/4704751084404017124",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 3,
+          "passed": true
+        },
+        {
+          "index": 8,
+          "quotient": [
+            "10644645525416366685724724942405/13037775380426830010600933578235858",
+            "35775769867557/161479257989543846"
+          ],
+          "remainder": [
+            "-4062005526200386903301789396795088376717499657523/13037775380426830010600933578235858",
+            "-3067539292349694615819091527770887722689771707395/13037775380426830010600933578235858",
+            "-2270896870698579726703359821203368005307027913632/6518887690213415005300466789117929"
+          ],
+          "normalization": "13037775380426830010600933578235858/1279905709616399405321148249",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 2,
+          "passed": true
+        },
+        {
+          "index": 9,
+          "quotient": [
+            "913374014333819396355477551604976081249/6296060121463913017839162212567783769294848",
+            "-80739628994771923/1774268880618706142368"
+          ],
+          "remainder": [
+            "53289278451547201875831476203226219333510270369259685603701/6296060121463913017839162212567783769294848",
+            "235385220341172009769181461601462280008232057698181274451301/6296060121463913017839162212567783769294848"
+          ],
+          "normalization": "6296060121463913017839162212567783769294848/58669989211920735047704201102061361",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 1,
+          "passed": true
+        },
+        {
+          "index": 10,
+          "quotient": [
+            "-6392480617968449254873150738667818546247303479/16096311349204775211222618766799578121888197602681",
+            "-3548537761237412284736/4012020856028140740455541"
+          ],
+          "remainder": [
+            "45278253800694518949720350627045425956437821834807054968119027670222848/16096311349204775211222618766799578121888197602681"
+          ],
+          "normalization": "16096311349204775211222618766799578121888197602681/45278253800694518949720350627045425956437821834807054968119027670222848",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 0,
+          "passed": true
+        }
+      ],
+      "minus_infinity_signs": [
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        -1
+      ],
+      "plus_infinity_signs": [
+        1,
+        1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "minus_variations": 7,
+      "plus_variations": 5,
+      "real_roots": 2,
+      "last_polynomial_is_nonzero_constant": true
+    },
+    "cubic_sturm": {
+      "verified_polynomials": [
+        [
+          "-1264",
+          "-160",
+          "-4",
+          "1"
+        ],
+        [
+          "-160",
+          "-8",
+          "3"
+        ],
+        [
+          "751",
+          "62"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "verified_divisions": [
+        {
+          "index": 0,
+          "quotient": [
+            "-4/9",
+            "1/3"
+          ],
+          "remainder": [
+            "-12016/9",
+            "-992/9"
+          ],
+          "normalization": "9/16",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 1,
+          "passed": true
+        },
+        {
+          "index": 1,
+          "quotient": [
+            "-2749/3844",
+            "3/62"
+          ],
+          "remainder": [
+            "1449459/3844"
+          ],
+          "normalization": "3844/1449459",
+          "identity_residual": [
+            "0"
+          ],
+          "normalization_residual": [
+            "0"
+          ],
+          "remainder_degree": 0,
+          "passed": true
+        }
+      ],
+      "minus_infinity_signs": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "plus_infinity_signs": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "minus_variations": 2,
+      "plus_variations": 1,
+      "real_roots": 1,
+      "last_polynomial_is_nonzero_constant": true
+    },
+    "sylvester_matrix": [
+      [
+        "1",
+        "-4",
+        "-160",
+        "-1264",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "-4",
+        "-160",
+        "-1264"
+      ],
+      [
+        "3",
+        "-8",
+        "-160",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "3",
+        "-8",
+        "-160",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "3",
+        "-8",
+        "-160"
+      ]
+    ],
+    "discriminant": "-41229056",
+    "model": [
+      "-1264",
+      "-640",
+      "-64",
+      "64"
+    ],
+    "residues": [
+      1,
+      3,
+      3,
+      2,
+      1
+    ],
+    "hensel": {
+      "root": 0,
+      "m_value": 0,
+      "derivative_value": 1
+    },
+    "signatures": {
+      "K": [
+        2,
+        5
+      ],
+      "D": [
+        2,
+        17
+      ]
+    },
+    "dimensions": {
+      "base_unit_squares": 7,
+      "cubic_unit_squares": 19,
+      "norm_square_unit_kernel": 12,
+      "rational_two_torsion": 0,
+      "corrected_ambient_lower_bound": 12,
+      "required_upper_bound": 11
+    }
+  },
+  "qualification": "Arithmetic audit only; L069 supplies field, units, norms and Kummer proof. No rank lower bound."
+}

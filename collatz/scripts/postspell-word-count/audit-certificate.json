@@ -1,0 +1,636 @@
+{
+  "source": "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/collatz/scripts/postspell-word-count/cutoff-certificate.json",
+  "scope": "Exact scalar arithmetic only; analytic justification in L043; no orbit constructed.",
+  "checks": [
+    {
+      "name": "threshold",
+      "actual": 225640000,
+      "relation": "==",
+      "required": 225640000,
+      "passed": true
+    },
+    {
+      "name": "C",
+      "actual": 338460000,
+      "relation": "==",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "r12/Q",
+      "actual": {
+        "numerator": "1460970380836239",
+        "denominator": "8589934592"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "1460970380836239",
+        "denominator": "8589934592"
+      },
+      "passed": true
+    },
+    {
+      "name": "r12/A",
+      "actual": {
+        "numerator": "582927181953659361",
+        "denominator": "42949672960"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "582927181953659361",
+        "denominator": "42949672960"
+      },
+      "passed": true
+    },
+    {
+      "name": "r12/conservative_rhs",
+      "actual": {
+        "numerator": "3147425478170944593741",
+        "denominator": "11102490460160"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "3147425478170944593741",
+        "denominator": "11102490460160"
+      },
+      "passed": true
+    },
+    {
+      "name": "r12/margin",
+      "actual": {
+        "numerator": "610323442974809006259",
+        "denominator": "11102490460160"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "610323442974809006259",
+        "denominator": "11102490460160"
+      },
+      "passed": true
+    },
+    {
+      "name": "A12 derivative threshold",
+      "actual": {
+        "numerator": "582927181953659361",
+        "denominator": "42949672960"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "r12 positive margin",
+      "actual": {
+        "numerator": "610323442974809006259",
+        "denominator": "11102490460160"
+      },
+      "relation": ">",
+      "required": 54971760,
+      "passed": true
+    },
+    {
+      "name": "displayed r12 margin",
+      "actual": {
+        "numerator": "610323442974809006259",
+        "denominator": "11102490460160"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "610323442974809006259",
+        "denominator": "11102490460160"
+      },
+      "passed": true
+    },
+    {
+      "name": "e partial sum",
+      "actual": {
+        "numerator": "163",
+        "denominator": "60"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "163",
+        "denominator": "60"
+      },
+      "passed": true
+    },
+    {
+      "name": "e lower comparison",
+      "actual": {
+        "numerator": "163",
+        "denominator": "60"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "27",
+        "denominator": "10"
+      },
+      "passed": true
+    },
+    {
+      "name": "log12 comparison",
+      "actual": {
+        "numerator": "19683",
+        "denominator": "1000"
+      },
+      "relation": ">",
+      "required": 12,
+      "passed": true
+    },
+    {
+      "name": "logC comparison",
+      "actual": {
+        "numerator": "42391158275216203514294433201",
+        "denominator": "100000000000000000000"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved power",
+      "actual": 42391158275216203514294433201,
+      "relation": "==",
+      "required": 42391158275216203514294433201,
+      "passed": true
+    },
+    {
+      "name": "saved power threshold",
+      "actual": 33846000000000000000000000000,
+      "relation": "==",
+      "required": {
+        "numerator": "33846000000000000000000000000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "log ratio comparison",
+      "actual": 9,
+      "relation": ">",
+      "required": 8,
+      "passed": true
+    },
+    {
+      "name": "r13",
+      "actual": 13,
+      "relation": "==",
+      "required": 13,
+      "passed": true
+    },
+    {
+      "name": "integer count fields",
+      "actual": true,
+      "relation": "==",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J count",
+      "actual": 13,
+      "relation": "==",
+      "required": 13,
+      "passed": true
+    },
+    {
+      "name": "J integer guards",
+      "actual": true,
+      "relation": "==",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H count",
+      "actual": 13,
+      "relation": "==",
+      "required": 13,
+      "passed": true
+    },
+    {
+      "name": "H integer guards",
+      "actual": true,
+      "relation": "==",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a count",
+      "actual": 13,
+      "relation": "==",
+      "required": 13,
+      "passed": true
+    },
+    {
+      "name": "a integer guards",
+      "actual": true,
+      "relation": "==",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "tail congruences",
+      "actual": true,
+      "relation": "==",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "K identity",
+      "actual": 225640001,
+      "relation": "==",
+      "required": 225640001,
+      "passed": true
+    },
+    {
+      "name": "L identity",
+      "actual": 131990940,
+      "relation": "==",
+      "required": 131990940,
+      "passed": true
+    },
+    {
+      "name": "N identity",
+      "actual": 357630941,
+      "relation": "==",
+      "required": 357630941,
+      "passed": true
+    },
+    {
+      "name": "N=K+L",
+      "actual": 357630941,
+      "relation": "==",
+      "required": 357630941,
+      "passed": true
+    },
+    {
+      "name": "d positive",
+      "actual": 1,
+      "relation": ">",
+      "required": 0,
+      "passed": true
+    },
+    {
+      "name": "K scaling",
+      "actual": 225640001,
+      "relation": "==",
+      "required": 225640001,
+      "passed": true
+    },
+    {
+      "name": "L scaling",
+      "actual": 131990940,
+      "relation": "==",
+      "required": 131990940,
+      "passed": true
+    },
+    {
+      "name": "primitive odd threshold",
+      "actual": 225640001,
+      "relation": ">",
+      "required": 225640000,
+      "passed": true
+    },
+    {
+      "name": "primitive even positivity",
+      "actual": 131990940,
+      "relation": ">",
+      "required": 0,
+      "passed": true
+    },
+    {
+      "name": "minimum total length",
+      "actual": 357630941,
+      "relation": ">",
+      "required": 169,
+      "passed": true
+    },
+    {
+      "name": "r13/Q",
+      "actual": {
+        "numerator": "33602387478710233",
+        "denominator": "68719476736"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "33602387478710233",
+        "denominator": "68719476736"
+      },
+      "passed": true
+    },
+    {
+      "name": "r13/A",
+      "actual": {
+        "numerator": "13407352604005382967",
+        "denominator": "343597383680"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "13407352604005382967",
+        "denominator": "343597383680"
+      },
+      "passed": true
+    },
+    {
+      "name": "r13/lower_rhs_margin",
+      "actual": {
+        "numerator": "105043938617475067559",
+        "denominator": "343597383680"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "105043938617475067559",
+        "denominator": "343597383680"
+      },
+      "passed": true
+    },
+    {
+      "name": "displayed r13 margin",
+      "actual": {
+        "numerator": "105043938617475067559",
+        "denominator": "343597383680"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "105043938617475067559",
+        "denominator": "343597383680"
+      },
+      "passed": true
+    },
+    {
+      "name": "r13 length margin",
+      "actual": {
+        "numerator": "105043938617475067559",
+        "denominator": "343597383680"
+      },
+      "relation": ">",
+      "required": 0,
+      "passed": true
+    },
+    {
+      "name": "log N lower comparison",
+      "actual": 357630941,
+      "relation": ">",
+      "required": 129140163,
+      "passed": true
+    },
+    {
+      "name": "series terms",
+      "actual": 64,
+      "relation": "==",
+      "required": 64,
+      "passed": true
+    },
+    {
+      "name": "log2 Horner lower",
+      "actual": {
+        "numerator": "3508595171842993185134796784736611366655501408312351140098685578379184556173245757359910454882815130815005200896",
+        "denominator": "5061832854904846645955900741673035877578026003792249877488563088418276175757042525151232593509677298791370051125"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "3508595171842993185134796784736611366655501408312351140098685578379184556173245757359910454882815130815005200896",
+        "denominator": "5061832854904846645955900741673035877578026003792249877488563088418276175757042525151232593509677298791370051125"
+      },
+      "passed": true
+    },
+    {
+      "name": "log2 geometric upper",
+      "actual": {
+        "numerator": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877",
+        "denominator": "60741994258858159751470808900076430530936312045506998529862757061019314109084510301814791122116127585496440613500"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877",
+        "denominator": "60741994258858159751470808900076430530936312045506998529862757061019314109084510301814791122116127585496440613500"
+      },
+      "passed": true
+    },
+    {
+      "name": "log2 decimal lower",
+      "actual": {
+        "numerator": "6931471805599453",
+        "denominator": "10000000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "3508595171842993185134796784736611366655501408312351140098685578379184556173245757359910454882815130815005200896",
+        "denominator": "5061832854904846645955900741673035877578026003792249877488563088418276175757042525151232593509677298791370051125"
+      },
+      "passed": true
+    },
+    {
+      "name": "log2 decimal upper",
+      "actual": {
+        "numerator": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877",
+        "denominator": "60741994258858159751470808900076430530936312045506998529862757061019314109084510301814791122116127585496440613500"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "3465735902799727",
+        "denominator": "5000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 Horner lower",
+      "actual": {
+        "numerator": "9750286477333934264936876875837695499108858363985284227862595533092664691993496753301134253",
+        "denominator": "8875093222518551031295196273198323940083069189068398162376710109214239563648708678516736000"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "9750286477333934264936876875837695499108858363985284227862595533092664691993496753301134253",
+        "denominator": "8875093222518551031295196273198323940083069189068398162376710109214239563648708678516736000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 geometric upper",
+      "actual": {
+        "numerator": "4875143238666967132468438437918847749554563970389878441163809513045892668151772388204669689",
+        "denominator": "4437546611259275515647598136599161970041534594534199081188355054607119781824354339258368000"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "4875143238666967132468438437918847749554563970389878441163809513045892668151772388204669689",
+        "denominator": "4437546611259275515647598136599161970041534594534199081188355054607119781824354339258368000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 decimal lower",
+      "actual": {
+        "numerator": "1373265360835137",
+        "denominator": "1250000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "9750286477333934264936876875837695499108858363985284227862595533092664691993496753301134253",
+        "denominator": "8875093222518551031295196273198323940083069189068398162376710109214239563648708678516736000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 decimal upper",
+      "actual": {
+        "numerator": "4875143238666967132468438437918847749554563970389878441163809513045892668151772388204669689",
+        "denominator": "4437546611259275515647598136599161970041534594534199081188355054607119781824354339258368000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "10986122886681097",
+        "denominator": "10000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "r13/lambda_lower",
+      "actual": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "r13/lambda_upper",
+      "actual": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "r13/lambda_cap",
+      "actual": {
+        "numerator": "299",
+        "denominator": "517"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "299",
+        "denominator": "517"
+      },
+      "passed": true
+    },
+    {
+      "name": "displayed lambda lower",
+      "actual": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "displayed lambda upper",
+      "actual": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "relation": "==",
+      "required": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "lambda lower",
+      "actual": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "lambda upper",
+      "actual": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "53",
+        "denominator": "100"
+      },
+      "passed": true
+    },
+    {
+      "name": "lambda cap",
+      "actual": {
+        "numerator": "53",
+        "denominator": "100"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "299",
+        "denominator": "517"
+      },
+      "passed": true
+    },
+    {
+      "name": "lower-form comparison",
+      "actual": {
+        "numerator": "1",
+        "denominator": "225640001"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "original check count",
+      "actual": 23,
+      "relation": "==",
+      "required": 23,
+      "passed": true
+    },
+    {
+      "name": "original flags",
+      "actual": true,
+      "relation": "==",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "original failures",
+      "actual": [],
+      "relation": "==",
+      "required": [],
+      "passed": true
+    }
+  ],
+  "failures": []
+}

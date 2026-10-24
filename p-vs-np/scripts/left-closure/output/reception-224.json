@@ -1,0 +1,2035 @@
+{
+  "step": 224,
+  "complete": true,
+  "failures": [],
+  "phase": "complete",
+  "exports": [
+    {
+      "coordinate": 0,
+      "root": 190294,
+      "endpoint": "(~(((~(x>(~(q>q))))>(((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q)))))>(~(x>(~(q>q))))))))",
+      "complete_input_retention": true,
+      "literal_image": true,
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/left-closure/output/actual-224-coordinate-0.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 190295,
+            "bytes": 669137629,
+            "formula_nodes": 221288342,
+            "substitution_nodes": 69932230,
+            "max_line_nodes": 34462,
+            "max_record_nodes": 49776,
+            "max_line_depth": 39,
+            "goal_nodes": 71,
+            "goal_depth": 11,
+            "sha256": "d4653388a351693b95bc95875415ca753eff4d1187dcae8174d98605ff77f620"
+          },
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          },
+          "full_field_depth": 39,
+          "writer_matches": true
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/left-closure/output/actual-224-coordinate-0.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 190295,
+            "bytes": 987629233,
+            "formula_nodes": 302039914,
+            "substitution_nodes": 95344501,
+            "max_line_nodes": 46989,
+            "max_record_nodes": 67868,
+            "max_line_depth": 42,
+            "goal_nodes": 96,
+            "goal_depth": 14,
+            "sha256": "3ab088f76a061db323659e3aa3652eca5a380a8e4890b2aab3da164cc6ecaf1c"
+          },
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          },
+          "full_field_depth": 42,
+          "writer_matches": true
+        }
+      }
+    },
+    {
+      "coordinate": 1,
+      "root": 321723,
+      "endpoint": "(~(((q>q)>(((q>q)>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(q>q)))))>(~((((q>q)>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(q>q))))>(q>q)))))",
+      "complete_input_retention": true,
+      "literal_image": true,
+      "proofs": {
+        "native": {
+          "measurement": {
+            "path": "scripts/left-closure/output/actual-224-coordinate-1.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 321724,
+            "bytes": 1076060865,
+            "formula_nodes": 359982433,
+            "substitution_nodes": 113758545,
+            "max_line_nodes": 34462,
+            "max_record_nodes": 49776,
+            "max_line_depth": 39,
+            "goal_nodes": 63,
+            "goal_depth": 12,
+            "sha256": "8b07c51db1f5eb3aeeeac173221cfe92bb7084a7290c4bcc3380455f178d4261"
+          },
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          },
+          "full_field_depth": 39,
+          "writer_matches": true
+        },
+        "not-or": {
+          "measurement": {
+            "path": "scripts/left-closure/output/actual-224-coordinate-1.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 321724,
+            "bytes": 1613710332,
+            "formula_nodes": 496298845,
+            "substitution_nodes": 156658599,
+            "max_line_nodes": 46989,
+            "max_record_nodes": 67868,
+            "max_line_depth": 42,
+            "goal_nodes": 86,
+            "goal_depth": 15,
+            "sha256": "b578e299a6b75cfc4b1df8ff78621cec13d499526da390cf4a817e466f4c728f"
+          },
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          },
+          "full_field_depth": 42,
+          "writer_matches": true
+        }
+      }
+    }
+  ],
+  "optional": [
+    {
+      "measurements": {
+        "native": {
+          "path": "scripts/actual-tree/output/retained-0.native.jsonl.gz",
+          "format": "native",
+          "accepted": true,
+          "lines": 5,
+          "bytes": 507,
+          "formula_nodes": 41,
+          "substitution_nodes": 11,
+          "max_line_nodes": 17,
+          "max_record_nodes": 22,
+          "max_line_depth": 4,
+          "goal_nodes": 3,
+          "goal_depth": 1,
+          "sha256": "70b06b61bac14f5508092bab5ac4f8f0ed45f65537bd759400242a731f4debc4"
+        }
+      },
+      "node_sums": {
+        "native": 52,
+        "not-or": 72
+      },
+      "depths": {
+        "native": 4,
+        "not-or": 7
+      },
+      "name_bytes": 6
+    },
+    {
+      "measurements": {
+        "native": {
+          "path": "scripts/actual-tree/output/retained-1.native.jsonl.gz",
+          "format": "native",
+          "accepted": true,
+          "lines": 5,
+          "bytes": 4077,
+          "formula_nodes": 846,
+          "substitution_nodes": 326,
+          "max_line_nodes": 332,
+          "max_record_nodes": 477,
+          "max_line_depth": 39,
+          "goal_nodes": 73,
+          "goal_depth": 36,
+          "sha256": "1281d73439ea7cb6f009901e20f019e8e925938302247ca0a881574600284da7"
+        }
+      },
+      "node_sums": {
+        "native": 1172,
+        "not-or": 1192
+      },
+      "depths": {
+        "native": 39,
+        "not-or": 42
+      },
+      "name_bytes": 6
+    }
+  ],
+  "independent_endpoints": {
+    "local": [
+      "(~(((~(x>(~(q>q))))>(((~(q>q))>(((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q)))))>(~(q>q))))))>(~((((~(q>q))>(((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q)))))>(~(q>q)))))>(~(x>(~(q>q))))))))",
+      "(~(((q>q)>(((q>q)>(((~(q>q))>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(~(q>q)))))>(q>q)))))>(~((((q>q)>(((~(q>q))>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(~(q>q)))))>(q>q))))>(q>q)))))"
+    ],
+    "coordinates": [
+      "(~(((~(x>(~(q>q))))>(((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q)))))>(~(x>(~(q>q))))))))",
+      "(~(((q>q)>(((q>q)>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(q>q)))))>(~((((q>q)>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(q>q))))>(q>q)))))"
+    ],
+    "K": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "receiving": {
+      "N": 2,
+      "n": 1,
+      "q": "q",
+      "suffixes": [
+        "(~(x>(~(q>q))))",
+        "(q>q)"
+      ],
+      "letters": [
+        "x"
+      ],
+      "beta": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "G": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "levels": [
+        {
+          "k": 0,
+          "R": [],
+          "T": []
+        }
+      ]
+    }
+  },
+  "libraries": {
+    "source": {
+      "refl": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/refl.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 320,
+            "bytes": 61473,
+            "formula_nodes": 16480,
+            "substitution_nodes": 4962,
+            "max_line_nodes": 190,
+            "max_record_nodes": 272,
+            "max_line_depth": 12,
+            "goal_nodes": 9,
+            "goal_depth": 4,
+            "sha256": "304ccb97cb06813a1a07e7674d429a5efc29df178ef43e93e67e3ec2cba70aba"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/refl.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 320,
+            "bytes": 84168,
+            "formula_nodes": 22431,
+            "substitution_nodes": 6573,
+            "max_line_nodes": 261,
+            "max_record_nodes": 372,
+            "max_line_depth": 17,
+            "goal_nodes": 12,
+            "goal_depth": 5,
+            "sha256": "fe3a9b0325be39e0bbb45b37821bec482e3dc9cc0096271529f981eeb3e1b14c"
+          }
+        },
+        "node_sums": {
+          "native": 21442,
+          "not-or": 29004
+        },
+        "depths": {
+          "native": 12,
+          "not-or": 17
+        },
+        "name_bytes": 1
+      },
+      "symm": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/symm.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 872,
+            "bytes": 186448,
+            "formula_nodes": 51610,
+            "substitution_nodes": 15615,
+            "max_line_nodes": 370,
+            "max_record_nodes": 532,
+            "max_line_depth": 13,
+            "goal_nodes": 19,
+            "goal_depth": 5,
+            "sha256": "99d595154a6887f83b26510f1936776bb735fc13a7605ee3fb59f958a9b1f9b7"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/symm.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 872,
+            "bytes": 259678,
+            "formula_nodes": 70720,
+            "substitution_nodes": 20908,
+            "max_line_nodes": 513,
+            "max_record_nodes": 736,
+            "max_line_depth": 19,
+            "goal_nodes": 26,
+            "goal_depth": 7,
+            "sha256": "969fbfd4da5e621bf4ccdebed816a3695057906cddd0d95d7f7e68b6dd340afd"
+          }
+        },
+        "node_sums": {
+          "native": 67225,
+          "not-or": 91628
+        },
+        "depths": {
+          "native": 13,
+          "not-or": 19
+        },
+        "name_bytes": 1
+      },
+      "trans": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/trans.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1449,
+            "bytes": 351640,
+            "formula_nodes": 100135,
+            "substitution_nodes": 30418,
+            "max_line_nodes": 550,
+            "max_record_nodes": 792,
+            "max_line_depth": 14,
+            "goal_nodes": 29,
+            "goal_depth": 6,
+            "sha256": "a2513b369faced85c31349e6884fe6c0dce365c725e19f7f318269762b6f38b6"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/trans.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1449,
+            "bytes": 496156,
+            "formula_nodes": 137695,
+            "substitution_nodes": 41019,
+            "max_line_nodes": 765,
+            "max_record_nodes": 1100,
+            "max_line_depth": 20,
+            "goal_nodes": 40,
+            "goal_depth": 8,
+            "sha256": "3f612dcb3843ac1657fec3266900e0ef2100664e95deaaa7a2856129b8d60825"
+          }
+        },
+        "node_sums": {
+          "native": 130553,
+          "not-or": 178714
+        },
+        "depths": {
+          "native": 14,
+          "not-or": 20
+        },
+        "name_bytes": 1
+      },
+      "congL": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/congL.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 2161,
+            "bytes": 663070,
+            "formula_nodes": 199552,
+            "substitution_nodes": 61523,
+            "max_line_nodes": 874,
+            "max_record_nodes": 1260,
+            "max_line_depth": 16,
+            "goal_nodes": 47,
+            "goal_depth": 8,
+            "sha256": "c293cf8d180bff1cee96484f40d98bb767c9010417d1808a630ae2039beafd3b"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/congL.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 2161,
+            "bytes": 970147,
+            "formula_nodes": 278658,
+            "substitution_nodes": 84757,
+            "max_line_nodes": 1233,
+            "max_record_nodes": 1776,
+            "max_line_depth": 22,
+            "goal_nodes": 66,
+            "goal_depth": 10,
+            "sha256": "9c9226935ecbc5a66d5424369b47be284860fb3d884406750daa8cc5eead8848"
+          }
+        },
+        "node_sums": {
+          "native": 261075,
+          "not-or": 363415
+        },
+        "depths": {
+          "native": 16,
+          "not-or": 22
+        },
+        "name_bytes": 1
+      },
+      "congR": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/congR.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 2161,
+            "bytes": 662795,
+            "formula_nodes": 199482,
+            "substitution_nodes": 61501,
+            "max_line_nodes": 874,
+            "max_record_nodes": 1260,
+            "max_line_depth": 16,
+            "goal_nodes": 47,
+            "goal_depth": 8,
+            "sha256": "32b771bd149fd7f7021b16330c1e013540e7aa4c5cee9d976fa0af8ca9318f2a"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/congR.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 2161,
+            "bytes": 969872,
+            "formula_nodes": 278588,
+            "substitution_nodes": 84735,
+            "max_line_nodes": 1233,
+            "max_record_nodes": 1776,
+            "max_line_depth": 22,
+            "goal_nodes": 66,
+            "goal_depth": 10,
+            "sha256": "6dd8850028bdd112fe126c0da92382d3f6ab4ea5adeaa18ec121a626300f0cba"
+          }
+        },
+        "node_sums": {
+          "native": 260983,
+          "not-or": 363323
+        },
+        "depths": {
+          "native": 16,
+          "not-or": 22
+        },
+        "name_bytes": 1
+      },
+      "zeroL": {
+        "measurements": {
+          "native": {
+            "path": "scripts/backward-zero/output/zeroL.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1017,
+            "bytes": 356153,
+            "formula_nodes": 106842,
+            "substitution_nodes": 33053,
+            "max_line_nodes": 658,
+            "max_record_nodes": 948,
+            "max_line_depth": 17,
+            "goal_nodes": 35,
+            "goal_depth": 9,
+            "sha256": "8e44dd83c23db92ec883cb5d6c21561010bfb943219c160dc7b903625f9d60a8"
+          },
+          "not-or": {
+            "path": "scripts/backward-zero/output/zeroL.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1017,
+            "bytes": 510290,
+            "formula_nodes": 146501,
+            "substitution_nodes": 44760,
+            "max_line_nodes": 909,
+            "max_record_nodes": 1308,
+            "max_line_depth": 24,
+            "goal_nodes": 48,
+            "goal_depth": 12,
+            "sha256": "751b703e3b9303a76ba7a7f36a0536453b847a98ca5b27243d3e765b6005c62a"
+          }
+        },
+        "node_sums": {
+          "native": 139895,
+          "not-or": 191261
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "zeroR": {
+        "measurements": {
+          "native": {
+            "path": "scripts/backward-zero/output/zeroR.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1067,
+            "bytes": 369425,
+            "formula_nodes": 110540,
+            "substitution_nodes": 34225,
+            "max_line_nodes": 658,
+            "max_record_nodes": 948,
+            "max_line_depth": 17,
+            "goal_nodes": 35,
+            "goal_depth": 9,
+            "sha256": "cc6d15a58807723718aa1beac06f62b9f48f2da99b69c68db5e3d0d11e72a53d"
+          },
+          "not-or": {
+            "path": "scripts/backward-zero/output/zeroR.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1067,
+            "bytes": 528539,
+            "formula_nodes": 151481,
+            "substitution_nodes": 46309,
+            "max_line_nodes": 909,
+            "max_record_nodes": 1308,
+            "max_line_depth": 24,
+            "goal_nodes": 48,
+            "goal_depth": 12,
+            "sha256": "79811a0e579cb845ce830f67d498d57b623f3290f0fbb3c9d601f23d9e426775"
+          }
+        },
+        "node_sums": {
+          "native": 144765,
+          "not-or": 197790
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "prod_zero": {
+        "measurements": {
+          "native": {
+            "path": "scripts/backward-zero/output/prod_zero.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 469,
+            "bytes": 171892,
+            "formula_nodes": 49659,
+            "substitution_nodes": 15414,
+            "max_line_nodes": 550,
+            "max_record_nodes": 792,
+            "max_line_depth": 17,
+            "goal_nodes": 29,
+            "goal_depth": 9,
+            "sha256": "6e4fe2c59f13817059472e36b253b4a5e0615602c1338f6f053390bc56826d59"
+          },
+          "not-or": {
+            "path": "scripts/backward-zero/output/prod_zero.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 469,
+            "bytes": 233956,
+            "formula_nodes": 65649,
+            "substitution_nodes": 20103,
+            "max_line_nodes": 729,
+            "max_record_nodes": 1048,
+            "max_line_depth": 23,
+            "goal_nodes": 38,
+            "goal_depth": 11,
+            "sha256": "72044713474598e2a8295ecfe75641f8a27bb872013dc6708d82ec5a2c2edb68"
+          }
+        },
+        "node_sums": {
+          "native": 65073,
+          "not-or": 85752
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 23
+        },
+        "name_bytes": 1
+      },
+      "prod_assoc": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/prod_assoc.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1542,
+            "bytes": 542779,
+            "formula_nodes": 151199,
+            "substitution_nodes": 46531,
+            "max_line_nodes": 766,
+            "max_record_nodes": 1104,
+            "max_line_depth": 18,
+            "goal_nodes": 41,
+            "goal_depth": 10,
+            "sha256": "0ac50efe798d7d1570b279362f581ebc0dbb6073e050b21d5633ab1bf034417b"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/prod_assoc.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1542,
+            "bytes": 708385,
+            "formula_nodes": 194140,
+            "substitution_nodes": 58781,
+            "max_line_nodes": 981,
+            "max_record_nodes": 1412,
+            "max_line_depth": 23,
+            "goal_nodes": 52,
+            "goal_depth": 11,
+            "sha256": "a52bdbcc1027326ba4230792f88aaae291f441a394cc536df9c0feb2b60d9a1e"
+          }
+        },
+        "node_sums": {
+          "native": 197730,
+          "not-or": 252921
+        },
+        "depths": {
+          "native": 18,
+          "not-or": 23
+        },
+        "name_bytes": 1
+      },
+      "right_dist": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/right_dist.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 2567,
+            "bytes": 1161855,
+            "formula_nodes": 344527,
+            "substitution_nodes": 107137,
+            "max_line_nodes": 1414,
+            "max_record_nodes": 2040,
+            "max_line_depth": 18,
+            "goal_nodes": 77,
+            "goal_depth": 10,
+            "sha256": "e782f699c435f9888f834d4c98097f894303526a6421343c5122ac918cff1701"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/right_dist.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 2567,
+            "bytes": 1602567,
+            "formula_nodes": 457719,
+            "substitution_nodes": 140824,
+            "max_line_nodes": 1881,
+            "max_record_nodes": 2712,
+            "max_line_depth": 24,
+            "goal_nodes": 102,
+            "goal_depth": 12,
+            "sha256": "b750d4675c7834af63ccd4b1ed1bda35ca1fcababfd6ce2ccbcbf20a616fba40"
+          }
+        },
+        "node_sums": {
+          "native": 451664,
+          "not-or": 598543
+        },
+        "depths": {
+          "native": 18,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "unitL": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/unitL.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 724,
+            "bytes": 199020,
+            "formula_nodes": 56480,
+            "substitution_nodes": 17284,
+            "max_line_nodes": 406,
+            "max_record_nodes": 584,
+            "max_line_depth": 15,
+            "goal_nodes": 21,
+            "goal_depth": 7,
+            "sha256": "e884226d9826d345ef79142940aec76879a39f3eb1b9c52e635acc6d01e446ba"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/unitL.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 724,
+            "bytes": 274254,
+            "formula_nodes": 75998,
+            "substitution_nodes": 22837,
+            "max_line_nodes": 549,
+            "max_record_nodes": 788,
+            "max_line_depth": 22,
+            "goal_nodes": 28,
+            "goal_depth": 10,
+            "sha256": "e944ca9a196c1fd226ed61ac041f79b483d8e9163b894ce6f0568570c060dadc"
+          }
+        },
+        "node_sums": {
+          "native": 73764,
+          "not-or": 98835
+        },
+        "depths": {
+          "native": 15,
+          "not-or": 22
+        },
+        "name_bytes": 1
+      },
+      "unitR": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/unitR.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 761,
+            "bytes": 207143,
+            "formula_nodes": 58736,
+            "substitution_nodes": 17995,
+            "max_line_nodes": 406,
+            "max_record_nodes": 584,
+            "max_line_depth": 16,
+            "goal_nodes": 21,
+            "goal_depth": 8,
+            "sha256": "dbd160372c200c320f3a64b214aa05631aceea108db9deca8bb3813620bb5893"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/unitR.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 761,
+            "bytes": 285689,
+            "formula_nodes": 79110,
+            "substitution_nodes": 23796,
+            "max_line_nodes": 549,
+            "max_record_nodes": 788,
+            "max_line_depth": 22,
+            "goal_nodes": 28,
+            "goal_depth": 10,
+            "sha256": "de9b5e09f60ec6704a367257c03962c1e2f367d59296a0f961451bd5f51a66d4"
+          }
+        },
+        "node_sums": {
+          "native": 76731,
+          "not-or": 102906
+        },
+        "depths": {
+          "native": 16,
+          "not-or": 22
+        },
+        "name_bytes": 1
+      },
+      "zero_prodL": {
+        "measurements": {
+          "native": {
+            "path": "scripts/actual-tree/output/zero_prodL.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 480,
+            "bytes": 173287,
+            "formula_nodes": 49968,
+            "substitution_nodes": 15502,
+            "max_line_nodes": 550,
+            "max_record_nodes": 792,
+            "max_line_depth": 16,
+            "goal_nodes": 29,
+            "goal_depth": 8,
+            "sha256": "3bb85200cfd71492fb5d9b674c07fda10c0ecc26d5f69ca6302d1de5b72f6028"
+          },
+          "not-or": {
+            "path": "scripts/actual-tree/output/zero_prodL.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 480,
+            "bytes": 235675,
+            "formula_nodes": 66047,
+            "substitution_nodes": 20210,
+            "max_line_nodes": 729,
+            "max_record_nodes": 1048,
+            "max_line_depth": 23,
+            "goal_nodes": 38,
+            "goal_depth": 11,
+            "sha256": "927fa73e0a404d931c616ae9940ccccef95908657d3f226b3f0b37f253b247e0"
+          }
+        },
+        "node_sums": {
+          "native": 65470,
+          "not-or": 86257
+        },
+        "depths": {
+          "native": 16,
+          "not-or": 23
+        },
+        "name_bytes": 1
+      }
+    },
+    "closure": {
+      "refl": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/refl.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 320,
+            "bytes": 61473,
+            "formula_nodes": 16480,
+            "substitution_nodes": 4962,
+            "max_line_nodes": 190,
+            "max_record_nodes": 272,
+            "max_line_depth": 12,
+            "goal_nodes": 9,
+            "goal_depth": 4,
+            "sha256": "304ccb97cb06813a1a07e7674d429a5efc29df178ef43e93e67e3ec2cba70aba"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/refl.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 320,
+            "bytes": 84168,
+            "formula_nodes": 22431,
+            "substitution_nodes": 6573,
+            "max_line_nodes": 261,
+            "max_record_nodes": 372,
+            "max_line_depth": 17,
+            "goal_nodes": 12,
+            "goal_depth": 5,
+            "sha256": "fe3a9b0325be39e0bbb45b37821bec482e3dc9cc0096271529f981eeb3e1b14c"
+          }
+        },
+        "node_sums": {
+          "native": 21442,
+          "not-or": 29004
+        },
+        "depths": {
+          "native": 12,
+          "not-or": 17
+        },
+        "name_bytes": 1
+      },
+      "symm": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/symm.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 872,
+            "bytes": 186448,
+            "formula_nodes": 51610,
+            "substitution_nodes": 15615,
+            "max_line_nodes": 370,
+            "max_record_nodes": 532,
+            "max_line_depth": 13,
+            "goal_nodes": 19,
+            "goal_depth": 5,
+            "sha256": "99d595154a6887f83b26510f1936776bb735fc13a7605ee3fb59f958a9b1f9b7"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/symm.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 872,
+            "bytes": 259678,
+            "formula_nodes": 70720,
+            "substitution_nodes": 20908,
+            "max_line_nodes": 513,
+            "max_record_nodes": 736,
+            "max_line_depth": 19,
+            "goal_nodes": 26,
+            "goal_depth": 7,
+            "sha256": "969fbfd4da5e621bf4ccdebed816a3695057906cddd0d95d7f7e68b6dd340afd"
+          }
+        },
+        "node_sums": {
+          "native": 67225,
+          "not-or": 91628
+        },
+        "depths": {
+          "native": 13,
+          "not-or": 19
+        },
+        "name_bytes": 1
+      },
+      "trans": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/trans.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1449,
+            "bytes": 351640,
+            "formula_nodes": 100135,
+            "substitution_nodes": 30418,
+            "max_line_nodes": 550,
+            "max_record_nodes": 792,
+            "max_line_depth": 14,
+            "goal_nodes": 29,
+            "goal_depth": 6,
+            "sha256": "a2513b369faced85c31349e6884fe6c0dce365c725e19f7f318269762b6f38b6"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/trans.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1449,
+            "bytes": 496156,
+            "formula_nodes": 137695,
+            "substitution_nodes": 41019,
+            "max_line_nodes": 765,
+            "max_record_nodes": 1100,
+            "max_line_depth": 20,
+            "goal_nodes": 40,
+            "goal_depth": 8,
+            "sha256": "3f612dcb3843ac1657fec3266900e0ef2100664e95deaaa7a2856129b8d60825"
+          }
+        },
+        "node_sums": {
+          "native": 130553,
+          "not-or": 178714
+        },
+        "depths": {
+          "native": 14,
+          "not-or": 20
+        },
+        "name_bytes": 1
+      },
+      "congL": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/congL.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 2161,
+            "bytes": 663070,
+            "formula_nodes": 199552,
+            "substitution_nodes": 61523,
+            "max_line_nodes": 874,
+            "max_record_nodes": 1260,
+            "max_line_depth": 16,
+            "goal_nodes": 47,
+            "goal_depth": 8,
+            "sha256": "c293cf8d180bff1cee96484f40d98bb767c9010417d1808a630ae2039beafd3b"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/congL.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 2161,
+            "bytes": 970147,
+            "formula_nodes": 278658,
+            "substitution_nodes": 84757,
+            "max_line_nodes": 1233,
+            "max_record_nodes": 1776,
+            "max_line_depth": 22,
+            "goal_nodes": 66,
+            "goal_depth": 10,
+            "sha256": "9c9226935ecbc5a66d5424369b47be284860fb3d884406750daa8cc5eead8848"
+          }
+        },
+        "node_sums": {
+          "native": 261075,
+          "not-or": 363415
+        },
+        "depths": {
+          "native": 16,
+          "not-or": 22
+        },
+        "name_bytes": 1
+      },
+      "congR": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/congR.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 2161,
+            "bytes": 662795,
+            "formula_nodes": 199482,
+            "substitution_nodes": 61501,
+            "max_line_nodes": 874,
+            "max_record_nodes": 1260,
+            "max_line_depth": 16,
+            "goal_nodes": 47,
+            "goal_depth": 8,
+            "sha256": "32b771bd149fd7f7021b16330c1e013540e7aa4c5cee9d976fa0af8ca9318f2a"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/congR.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 2161,
+            "bytes": 969872,
+            "formula_nodes": 278588,
+            "substitution_nodes": 84735,
+            "max_line_nodes": 1233,
+            "max_record_nodes": 1776,
+            "max_line_depth": 22,
+            "goal_nodes": 66,
+            "goal_depth": 10,
+            "sha256": "6dd8850028bdd112fe126c0da92382d3f6ab4ea5adeaa18ec121a626300f0cba"
+          }
+        },
+        "node_sums": {
+          "native": 260983,
+          "not-or": 363323
+        },
+        "depths": {
+          "native": 16,
+          "not-or": 22
+        },
+        "name_bytes": 1
+      },
+      "zeroL": {
+        "measurements": {
+          "native": {
+            "path": "scripts/backward-zero/output/zeroL.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1017,
+            "bytes": 356153,
+            "formula_nodes": 106842,
+            "substitution_nodes": 33053,
+            "max_line_nodes": 658,
+            "max_record_nodes": 948,
+            "max_line_depth": 17,
+            "goal_nodes": 35,
+            "goal_depth": 9,
+            "sha256": "8e44dd83c23db92ec883cb5d6c21561010bfb943219c160dc7b903625f9d60a8"
+          },
+          "not-or": {
+            "path": "scripts/backward-zero/output/zeroL.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1017,
+            "bytes": 510290,
+            "formula_nodes": 146501,
+            "substitution_nodes": 44760,
+            "max_line_nodes": 909,
+            "max_record_nodes": 1308,
+            "max_line_depth": 24,
+            "goal_nodes": 48,
+            "goal_depth": 12,
+            "sha256": "751b703e3b9303a76ba7a7f36a0536453b847a98ca5b27243d3e765b6005c62a"
+          }
+        },
+        "node_sums": {
+          "native": 139895,
+          "not-or": 191261
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "zeroR": {
+        "measurements": {
+          "native": {
+            "path": "scripts/backward-zero/output/zeroR.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1067,
+            "bytes": 369425,
+            "formula_nodes": 110540,
+            "substitution_nodes": 34225,
+            "max_line_nodes": 658,
+            "max_record_nodes": 948,
+            "max_line_depth": 17,
+            "goal_nodes": 35,
+            "goal_depth": 9,
+            "sha256": "cc6d15a58807723718aa1beac06f62b9f48f2da99b69c68db5e3d0d11e72a53d"
+          },
+          "not-or": {
+            "path": "scripts/backward-zero/output/zeroR.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1067,
+            "bytes": 528539,
+            "formula_nodes": 151481,
+            "substitution_nodes": 46309,
+            "max_line_nodes": 909,
+            "max_record_nodes": 1308,
+            "max_line_depth": 24,
+            "goal_nodes": 48,
+            "goal_depth": 12,
+            "sha256": "79811a0e579cb845ce830f67d498d57b623f3290f0fbb3c9d601f23d9e426775"
+          }
+        },
+        "node_sums": {
+          "native": 144765,
+          "not-or": 197790
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "prod_zero": {
+        "measurements": {
+          "native": {
+            "path": "scripts/backward-zero/output/prod_zero.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 469,
+            "bytes": 171892,
+            "formula_nodes": 49659,
+            "substitution_nodes": 15414,
+            "max_line_nodes": 550,
+            "max_record_nodes": 792,
+            "max_line_depth": 17,
+            "goal_nodes": 29,
+            "goal_depth": 9,
+            "sha256": "6e4fe2c59f13817059472e36b253b4a5e0615602c1338f6f053390bc56826d59"
+          },
+          "not-or": {
+            "path": "scripts/backward-zero/output/prod_zero.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 469,
+            "bytes": 233956,
+            "formula_nodes": 65649,
+            "substitution_nodes": 20103,
+            "max_line_nodes": 729,
+            "max_record_nodes": 1048,
+            "max_line_depth": 23,
+            "goal_nodes": 38,
+            "goal_depth": 11,
+            "sha256": "72044713474598e2a8295ecfe75641f8a27bb872013dc6708d82ec5a2c2edb68"
+          }
+        },
+        "node_sums": {
+          "native": 65073,
+          "not-or": 85752
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 23
+        },
+        "name_bytes": 1
+      },
+      "assoc": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/assoc.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 3470,
+            "bytes": 1551886,
+            "formula_nodes": 494464,
+            "substitution_nodes": 153903,
+            "max_line_nodes": 1702,
+            "max_record_nodes": 2456,
+            "max_line_depth": 18,
+            "goal_nodes": 93,
+            "goal_depth": 10,
+            "sha256": "4d71d879ac55b5e25e64a40f8ec6a9aca38add8eaef8031bb85441b76c4ca5dd"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/assoc.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 3470,
+            "bytes": 2346478,
+            "formula_nodes": 697790,
+            "substitution_nodes": 215402,
+            "max_line_nodes": 2421,
+            "max_record_nodes": 3492,
+            "max_line_depth": 25,
+            "goal_nodes": 132,
+            "goal_depth": 13,
+            "sha256": "bc50a900783aa0397334124d7544f9d5994c7562d49df93fca731e3b66fdb872"
+          }
+        },
+        "node_sums": {
+          "native": 648367,
+          "not-or": 913192
+        },
+        "depths": {
+          "native": 18,
+          "not-or": 25
+        },
+        "name_bytes": 1
+      },
+      "comm": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/comm.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1286,
+            "bytes": 383817,
+            "formula_nodes": 115395,
+            "substitution_nodes": 35481,
+            "max_line_nodes": 694,
+            "max_record_nodes": 1000,
+            "max_line_depth": 15,
+            "goal_nodes": 37,
+            "goal_depth": 7,
+            "sha256": "be8252f559464e70d4bbddbfee5b88e4a6359db5a18b795b7fd1bbfce028606b"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/comm.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1286,
+            "bytes": 561849,
+            "formula_nodes": 161292,
+            "substitution_nodes": 48913,
+            "max_line_nodes": 981,
+            "max_record_nodes": 1412,
+            "max_line_depth": 21,
+            "goal_nodes": 52,
+            "goal_depth": 9,
+            "sha256": "abdc0cfbe44c3f924508defb1d5145a38c0fa3ddd458428de370927278549998"
+          }
+        },
+        "node_sums": {
+          "native": 150876,
+          "not-or": 210205
+        },
+        "depths": {
+          "native": 15,
+          "not-or": 21
+        },
+        "name_bytes": 1
+      },
+      "cancel": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/cancel.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 803,
+            "bytes": 263032,
+            "formula_nodes": 78995,
+            "substitution_nodes": 24298,
+            "max_line_nodes": 550,
+            "max_record_nodes": 792,
+            "max_line_depth": 15,
+            "goal_nodes": 29,
+            "goal_depth": 7,
+            "sha256": "a17a40757baf0fc689ac0a2f3338063bddee7034d8f9c8be120c45dc146dee01"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/cancel.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 803,
+            "bytes": 379696,
+            "formula_nodes": 109059,
+            "substitution_nodes": 33111,
+            "max_line_nodes": 765,
+            "max_record_nodes": 1100,
+            "max_line_depth": 21,
+            "goal_nodes": 40,
+            "goal_depth": 9,
+            "sha256": "bb339de9f1270651041cc917471b8f1b6f99e2069bdd54a4bace20bb0ae603cf"
+          }
+        },
+        "node_sums": {
+          "native": 103293,
+          "not-or": 142170
+        },
+        "depths": {
+          "native": 15,
+          "not-or": 21
+        },
+        "name_bytes": 1
+      },
+      "zero_slots": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-slot/output/zero_slots.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 603,
+            "bytes": 327240,
+            "formula_nodes": 101215,
+            "substitution_nodes": 31792,
+            "max_line_nodes": 982,
+            "max_record_nodes": 1416,
+            "max_line_depth": 17,
+            "goal_nodes": 53,
+            "goal_depth": 9,
+            "sha256": "c11f08d307ee9154b0f0c63705b018c598165a49601431e46028eae43c8ed3af"
+          },
+          "not-or": {
+            "path": "scripts/balanced-slot/output/zero_slots.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 603,
+            "bytes": 469845,
+            "formula_nodes": 137627,
+            "substitution_nodes": 42896,
+            "max_line_nodes": 1341,
+            "max_record_nodes": 1932,
+            "max_line_depth": 24,
+            "goal_nodes": 72,
+            "goal_depth": 12,
+            "sha256": "d946afd1048bea941cb59a97422f7f7c7a6587d484b1b6ce0c1e96bd9b5ed86f"
+          }
+        },
+        "node_sums": {
+          "native": 133007,
+          "not-or": 180523
+        },
+        "depths": {
+          "native": 17,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "dist": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-distribution/output/dist.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 2706,
+            "bytes": 1220042,
+            "formula_nodes": 361526,
+            "substitution_nodes": 112466,
+            "max_line_nodes": 1414,
+            "max_record_nodes": 2040,
+            "max_line_depth": 18,
+            "goal_nodes": 77,
+            "goal_depth": 10,
+            "sha256": "8f4b2bc06d468bb8598f92fd1f9521ef022647d6036c7cc9bc88385e29ee3da5"
+          },
+          "not-or": {
+            "path": "scripts/balanced-distribution/output/dist.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 2706,
+            "bytes": 1682204,
+            "formula_nodes": 480221,
+            "substitution_nodes": 147800,
+            "max_line_nodes": 1881,
+            "max_record_nodes": 2712,
+            "max_line_depth": 24,
+            "goal_nodes": 102,
+            "goal_depth": 12,
+            "sha256": "c5a66d9d3b7d34977d488591dd06fe3703ce389570515483135efcf0bcf725b3"
+          }
+        },
+        "node_sums": {
+          "native": 473992,
+          "not-or": 628021
+        },
+        "depths": {
+          "native": 18,
+          "not-or": 24
+        },
+        "name_bytes": 1
+      },
+      "prod_cong": {
+        "measurements": {
+          "native": {
+            "path": "scripts/balanced-distribution/output/prod_cong.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1493,
+            "bytes": 449358,
+            "formula_nodes": 126263,
+            "substitution_nodes": 38715,
+            "max_line_nodes": 658,
+            "max_record_nodes": 948,
+            "max_line_depth": 16,
+            "goal_nodes": 35,
+            "goal_depth": 8,
+            "sha256": "2612dfba7faa90836ed1b981fe5a8f06e845e378322b9c3e1df4da3a83f25c3c"
+          },
+          "not-or": {
+            "path": "scripts/balanced-distribution/output/prod_cong.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1493,
+            "bytes": 604806,
+            "formula_nodes": 166600,
+            "substitution_nodes": 50183,
+            "max_line_nodes": 873,
+            "max_record_nodes": 1256,
+            "max_line_depth": 21,
+            "goal_nodes": 46,
+            "goal_depth": 9,
+            "sha256": "74679997a395fc0240126b52dee8519371191f57643f43ada1bbbc63313b8f32"
+          }
+        },
+        "node_sums": {
+          "native": 164978,
+          "not-or": 216783
+        },
+        "depths": {
+          "native": 16,
+          "not-or": 21
+        },
+        "name_bytes": 1
+      },
+      "close_cancel": {
+        "measurements": {
+          "native": {
+            "path": "scripts/left-closure/output/close_cancel.native.jsonl.gz",
+            "format": "native",
+            "accepted": true,
+            "lines": 1937,
+            "bytes": 833483,
+            "formula_nodes": 263451,
+            "substitution_nodes": 82136,
+            "max_line_nodes": 1126,
+            "max_record_nodes": 1624,
+            "max_line_depth": 19,
+            "goal_nodes": 61,
+            "goal_depth": 11,
+            "sha256": "0e180d4fbafa1e49f6cc04c842cc58c5a65a49db15365fbb5d76bf04dd9d08e8"
+          },
+          "not-or": {
+            "path": "scripts/left-closure/output/close_cancel.not-or.jsonl.gz",
+            "format": "not-or",
+            "accepted": true,
+            "lines": 1937,
+            "bytes": 1252058,
+            "formula_nodes": 370570,
+            "substitution_nodes": 114517,
+            "max_line_nodes": 1593,
+            "max_record_nodes": 2296,
+            "max_line_depth": 27,
+            "goal_nodes": 86,
+            "goal_depth": 15,
+            "sha256": "864d9b870fe8ce7293e106c08458550ed975d3e0a603c75c8f2c23b0a8d1a4fc"
+          }
+        },
+        "node_sums": {
+          "native": 345587,
+          "not-or": 485087
+        },
+        "depths": {
+          "native": 19,
+          "not-or": 27
+        },
+        "name_bytes": 1
+      }
+    }
+  },
+  "constants": {
+    "source": {
+      "L": 2567,
+      "native": {
+        "D": 18,
+        "S": 2040
+      },
+      "not-or": {
+        "D": 24,
+        "S": 2712
+      }
+    },
+    "closure": {
+      "L": 3470,
+      "native": {
+        "D": 19,
+        "S": 2456
+      },
+      "not-or": {
+        "D": 27,
+        "S": 3492
+      }
+    }
+  },
+  "original_input": "scripts/actual-tree/output/variable-leaf-224.input.json",
+  "original_input_sha256": "f9067dc91a370c6745cfa603a86951bb349a3e9144a2dd2c49a17637f02edcbe",
+  "original_received": [
+    {
+      "path": "scripts/actual-tree/output/retained-0.native.jsonl.gz",
+      "lines": 5
+    },
+    {
+      "path": "scripts/actual-tree/output/retained-1.native.jsonl.gz",
+      "lines": 5
+    }
+  ],
+  "source_bound": {
+    "U": 1,
+    "source_depth": 0,
+    "N": 2,
+    "n": 1,
+    "H": 10,
+    "operations": 3000,
+    "generated_records": 7704000,
+    "argument_nodes": 201326592,
+    "formats": {
+      "native": {
+        "lines": 7704010,
+        "depth": 51,
+        "record_nodes": 410706247680,
+        "bytes": 31640813441642221776,
+        "aggregate_bytes": 63281626883284443552,
+        "aggregate_bits": 506253015066275548416
+      },
+      "not-or": {
+        "lines": 7704010,
+        "depth": 87,
+        "record_nodes": 545997717504,
+        "bytes": 42063669629797880416,
+        "aggregate_bytes": 84127339259595760832,
+        "aggregate_bits": 673018714076766086656
+      }
+    }
+  },
+  "local_production": [
+    {
+      "v": 0,
+      "info": {
+        "case": "var-entry",
+        "root": 16297,
+        "expected": "(~(((~(x>(~(q>q))))>(((~(q>q))>(((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q)))))>(~(q>q))))))>(~((((~(q>q))>(((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(q>q)))))>(~((~(x>(~(q>q))))>(~(q>q)))))>(~(q>q)))))>(~(x>(~(q>q))))))))",
+        "law_calls": 12,
+        "argument_height": 3
+      },
+      "arguments": {
+        "native": {
+          "nodes": 64,
+          "depth": 10
+        },
+        "not-or": {
+          "nodes": 87,
+          "depth": 13
+        }
+      },
+      "writers": {
+        "native": {
+          "lines": 16298,
+          "bytes": 24124962,
+          "sha256": "49b2040c703715a971b2ad4d83b350059f82bd22609a3e3056206ca158f50aa7",
+          "storage_bytes": 1002772
+        },
+        "not-or": {
+          "lines": 16298,
+          "bytes": 35187108,
+          "sha256": "be4563146bb6d7bd9bfd627bb287cf84dcd868f1fe2c6149c0c40c9dd17a0c70",
+          "storage_bytes": 1380119
+        }
+      }
+    },
+    {
+      "v": 1,
+      "info": {
+        "case": "terminal",
+        "root": 28713,
+        "expected": "(~(((q>q)>(((q>q)>(((~(q>q))>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(~(q>q)))))>(q>q)))))>(~((((q>q)>(((~(q>q))>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(~(q>q))))))>(~((((~(q>q))>(~(x>(~(~(q>q))))))>(~((~(x>(~(~(q>q)))))>(~(q>q)))))>(q>q))))>(q>q)))))",
+        "law_calls": 20,
+        "argument_height": 3
+      },
+      "arguments": {
+        "native": {
+          "nodes": 66,
+          "depth": 11
+        },
+        "not-or": {
+          "nodes": 89,
+          "depth": 14
+        }
+      },
+      "writers": {
+        "native": {
+          "lines": 28714,
+          "bytes": 31843301,
+          "sha256": "acdd6b18ef9ae031c86bb0de900008c91ed762169bcfb5b0a6fa8d49b52dc647",
+          "storage_bytes": 1385931
+        },
+        "not-or": {
+          "lines": 28714,
+          "bytes": 46849868,
+          "sha256": "28df9df3dc23acdbb6a4bb96370e81b3f45126124d08129834a2243a9f9322c4",
+          "storage_bytes": 1995783
+        }
+      }
+    }
+  ],
+  "active_coordinate": 1,
+  "active_root": 321723,
+  "source_packages": [
+    {
+      "measurements": {
+        "native": {
+          "path": "scripts/actual-tree/output/variable-leaf-224-v0.native.jsonl.gz",
+          "format": "native",
+          "accepted": true,
+          "lines": 16298,
+          "bytes": 24124962,
+          "formula_nodes": 7820253,
+          "substitution_nodes": 2462708,
+          "max_line_nodes": 7318,
+          "max_record_nodes": 10568,
+          "max_line_depth": 39,
+          "goal_nodes": 147,
+          "goal_depth": 14,
+          "sha256": "49b2040c703715a971b2ad4d83b350059f82bd22609a3e3056206ca158f50aa7"
+        },
+        "not-or": {
+          "path": "scripts/actual-tree/output/variable-leaf-224-v0.not-or.jsonl.gz",
+          "format": "not-or",
+          "accepted": true,
+          "lines": 16298,
+          "bytes": 35187108,
+          "formula_nodes": 10631552,
+          "substitution_nodes": 3338738,
+          "max_line_nodes": 9981,
+          "max_record_nodes": 14412,
+          "max_line_depth": 42,
+          "goal_nodes": 200,
+          "goal_depth": 18,
+          "sha256": "be4563146bb6d7bd9bfd627bb287cf84dcd868f1fe2c6149c0c40c9dd17a0c70"
+        }
+      },
+      "node_sums": {
+        "native": 10282961,
+        "not-or": 13970290
+      },
+      "depths": {
+        "native": 39,
+        "not-or": 42
+      },
+      "name_bytes": 6
+    },
+    {
+      "measurements": {
+        "native": {
+          "path": "scripts/actual-tree/output/variable-leaf-224-v1.native.jsonl.gz",
+          "format": "native",
+          "accepted": true,
+          "lines": 28714,
+          "bytes": 31843301,
+          "formula_nodes": 10320018,
+          "substitution_nodes": 3244327,
+          "max_line_nodes": 6598,
+          "max_record_nodes": 9528,
+          "max_line_depth": 39,
+          "goal_nodes": 143,
+          "goal_depth": 15,
+          "sha256": "acdd6b18ef9ae031c86bb0de900008c91ed762169bcfb5b0a6fa8d49b52dc647"
+        },
+        "not-or": {
+          "path": "scripts/actual-tree/output/variable-leaf-224-v1.not-or.jsonl.gz",
+          "format": "not-or",
+          "accepted": true,
+          "lines": 28714,
+          "bytes": 46849868,
+          "formula_nodes": 14137947,
+          "substitution_nodes": 4428536,
+          "max_line_nodes": 9045,
+          "max_record_nodes": 13060,
+          "max_line_depth": 42,
+          "goal_nodes": 194,
+          "goal_depth": 19,
+          "sha256": "28df9df3dc23acdbb6a4bb96370e81b3f45126124d08129834a2243a9f9322c4"
+        }
+      },
+      "node_sums": {
+        "native": 13564345,
+        "not-or": 18566483
+      },
+      "depths": {
+        "native": 39,
+        "not-or": 42
+      },
+      "name_bytes": 6
+    }
+  ],
+  "source_aggregate": {
+    "native": {
+      "bytes": 55968263,
+      "required_bytes": 63281626883284443552
+    },
+    "not-or": {
+      "bytes": 82036976,
+      "required_bytes": 84127339259595760832
+    }
+  },
+  "source_accounting_check": {
+    "complete": true,
+    "source_payload_bytes": 6,
+    "original_optional_records": 10,
+    "source_bound_recomputed": true,
+    "composition_recomputed": true,
+    "node_count_majorant": "Full formula and substitution nodes each occupy at least one uncompressed ASCII byte.",
+    "qualification": "Fixed thirteen-law source and fifteen-law closure libraries are paid separately; no generated coordinate length defines a bound."
+  },
+  "uniform_ledger": {
+    "h": 3,
+    "V": 32768,
+    "H": 57,
+    "elementary_operations": 72241349918720000,
+    "generated_records": 250749725567877120000,
+    "imported_records": 45012,
+    "lines": 250749725567877165012,
+    "aggregate_lines": 501499451135754330024,
+    "formats": {
+      "native": {
+        "lines": 250749725567877165012,
+        "depth": 194,
+        "record_nodes": 13058335830591013535407000560194105114624,
+        "bytes": 32743741258938733749564741537420543237254290059718189294803812,
+        "bits": 261949930071509869996517932299364345898034320477745514358430496,
+        "aggregate_bytes": 65487482517877467499129483074841086474508580119436378589607624,
+        "aggregate_bits": 523899860143019739993035864598728691796068640955491028716860992,
+        "argument_nodes": 5316911983139663491615228241121378304,
+        "argument_depth": 175,
+        "input_term_nodes": 7,
+        "input_term_depth": 4,
+        "imported_nodes": 23847306,
+        "imported_depth": 39,
+        "payload_bytes": 6
+      },
+      "not-or": {
+        "lines": 250749725567877165012,
+        "depth": 374,
+        "record_nodes": 23208320806404631140900471272494816296960,
+        "bytes": 58194800730972138769075772317117537145117757744608822016721842,
+        "bits": 465558405847777110152606178536940297160942061956870576133774736,
+        "aggregate_bytes": 116389601461944277538151544634235074290235515489217644033443684,
+        "aggregate_bits": 931116811695554220305212357073880594321884123913741152267549472,
+        "argument_nodes": 6646139978924579364519035301401722880,
+        "argument_depth": 347,
+        "input_term_nodes": 9,
+        "input_term_depth": 5,
+        "imported_nodes": 32536773,
+        "imported_depth": 42,
+        "payload_bytes": 6
+      }
+    }
+  },
+  "composed_source_majorant": {
+    "h": 3,
+    "V": 32768,
+    "H": 57,
+    "elementary_operations": 72241349918720000,
+    "generated_records": 250749725567877120000,
+    "imported_records": 15408020,
+    "lines": 250749725567892528020,
+    "aggregate_lines": 501499451135785056040,
+    "formats": {
+      "native": {
+        "lines": 250749725567892528020,
+        "depth": 194,
+        "record_nodes": 13058335830591013535407000560194105114624,
+        "bytes": 32743741258938733749564741537420543237254922875987092693507136,
+        "bits": 261949930071509869996517932299364345898039383007896741548057088,
+        "aggregate_bytes": 65487482517877467499129483074841086474509845751974185387014272,
+        "aggregate_bits": 523899860143019739993035864598728691796078766015793483096114176,
+        "argument_nodes": 5316911983139663491615228241121378304,
+        "argument_depth": 175,
+        "input_term_nodes": 7,
+        "input_term_depth": 4,
+        "imported_nodes": 63281626883284443552,
+        "imported_depth": 51,
+        "payload_bytes": 6
+      },
+      "not-or": {
+        "lines": 250749725567892528020,
+        "depth": 374,
+        "record_nodes": 23208320806404631140900471272494816296960,
+        "bytes": 58194800730972138769075772317117537145118599018001488441703296,
+        "bits": 465558405847777110152606178536940297160948792144011907533626368,
+        "aggregate_bytes": 116389601461944277538151544634235074290237198036002976883406592,
+        "aggregate_bits": 931116811695554220305212357073880594321897584288023815067252736,
+        "argument_nodes": 6646139978924579364519035301401722880,
+        "argument_depth": 347,
+        "input_term_nodes": 9,
+        "input_term_depth": 5,
+        "imported_nodes": 84127339259595760832,
+        "imported_depth": 87,
+        "payload_bytes": 6
+      }
+    }
+  },
+  "imports": [
+    {
+      "label": "local-0",
+      "start": 0,
+      "lines": 16298,
+      "root": 16297
+    },
+    {
+      "label": "local-1",
+      "start": 16298,
+      "lines": 28714,
+      "root": 45011
+    }
+  ],
+  "receiving": {
+    "N": 2,
+    "n": 1,
+    "q": "q",
+    "suffixes": [
+      "(~(x>(~(q>q))))",
+      "(q>q)"
+    ],
+    "letters": [
+      "x"
+    ],
+    "beta": [
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "G": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "levels": [
+      {
+        "k": 0,
+        "R": [],
+        "T": []
+      }
+    ]
+  },
+  "argument_checks": {
+    "native": {
+      "nodes": 158,
+      "depth": 14
+    },
+    "not-or": {
+      "nodes": 215,
+      "depth": 18
+    }
+  },
+  "aggregate": {
+    "native": {
+      "lines": 512019,
+      "required_lines": 501499451135754330024,
+      "bytes": 1745198494,
+      "required_bytes": 65487482517877467499129483074841086474508580119436378589607624,
+      "composed_required_bytes": 65487482517877467499129483074841086474509845751974185387014272
+    },
+    "not-or": {
+      "lines": 512019,
+      "required_lines": 501499451135754330024,
+      "bytes": 2601339565,
+      "required_bytes": 116389601461944277538151544634235074290235515489217644033443684,
+      "composed_required_bytes": 116389601461944277538151544634235074290237198036002976883406592
+    }
+  },
+  "earlier_prefix": {
+    "native": {
+      "records": 190295,
+      "required_records": 190295,
+      "record_bytes": 669137438,
+      "record_sha256": "b60a84cb36853dfed638c1eddcdfd08fff1a53863891499922352123613fcfa6",
+      "byte_identical_prefix": true
+    },
+    "not-or": {
+      "records": 190295,
+      "required_records": 190295,
+      "record_bytes": 987628967,
+      "record_sha256": "957c9ecaa533f7b8123967905ad0629a2278f7ba4491970410654ff56af607ce",
+      "byte_identical_prefix": true
+    }
+  },
+  "metadata": {
+    "complete_interface": {
+      "source": {
+        "source": {
+          "tree": [
+            "var",
+            0
+          ],
+          "letters": [
+            "x"
+          ],
+          "q": "q",
+          "delete_zero": false
+        },
+        "edges": [
+          {
+            "v": 0,
+            "w": 1,
+            "kind": "var",
+            "position": 0
+          }
+        ],
+        "request": {
+          "N": 2,
+          "n": 1,
+          "q": "q",
+          "t": 1,
+          "suffixes": [
+            "(~(x>(~(q>q))))",
+            "(q>q)"
+          ],
+          "letters": [
+            "x"
+          ],
+          "E0": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "Eb": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                0
+              ]
+            ]
+          ]
+        }
+      },
+      "original_received": [
+        {
+          "path": "scripts/actual-tree/output/retained-0.native.jsonl.gz",
+          "lines": 5
+        },
+        {
+          "path": "scripts/actual-tree/output/retained-1.native.jsonl.gz",
+          "lines": 5
+        }
+      ],
+      "imports": [
+        {
+          "label": "local-0",
+          "start": 0,
+          "lines": 16298,
+          "root": 16297
+        },
+        {
+          "label": "local-1",
+          "start": 16298,
+          "lines": 28714,
+          "root": 45011
+        }
+      ],
+      "receiving": {
+        "N": 2,
+        "n": 1,
+        "q": "q",
+        "suffixes": [
+          "(~(x>(~(q>q))))",
+          "(q>q)"
+        ],
+        "letters": [
+          "x"
+        ],
+        "beta": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "G": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "levels": [
+          {
+            "k": 0,
+            "R": [],
+            "T": []
+          }
+        ]
+      },
+      "exports": [
+        {
+          "coordinate": 0,
+          "root": 190294,
+          "paths": {
+            "native": "scripts/left-closure/output/actual-224-coordinate-0.native.jsonl.gz",
+            "not-or": "scripts/left-closure/output/actual-224-coordinate-0.not-or.jsonl.gz"
+          }
+        },
+        {
+          "coordinate": 1,
+          "root": 321723,
+          "paths": {
+            "native": "scripts/left-closure/output/actual-224-coordinate-1.native.jsonl.gz",
+            "not-or": "scripts/left-closure/output/actual-224-coordinate-1.not-or.jsonl.gz"
+          }
+        }
+      ]
+    },
+    "bytes": 1253,
+    "original_source_optional_bytes": 5207,
+    "optional_path_framing_bytes": 158,
+    "separate_library_bytes": {
+      "source": {
+        "native": 5106980,
+        "not-or": 7159376
+      },
+      "closure": {
+        "native": 7851754,
+        "not-or": 11349742
+      }
+    },
+    "qualification": "Source/import/receiving/export paths and roots are paid interface metadata; complete stream bounds already pay proof headers and references. Shared fixed laws counted twice."
+  },
+  "max_argument_height": 4
+}

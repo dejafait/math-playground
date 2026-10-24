@@ -1,0 +1,867 @@
+{
+  "purpose": "L076 complete fixed-table specialization; not a new-table search",
+  "imports": [
+    "L055 table and lambda < Lambda",
+    "L064 logarithm enclosures and margin table",
+    "L073 audited benchmark comparisons"
+  ],
+  "rows": [
+    [
+      0,
+      8,
+      40
+    ],
+    [
+      1,
+      15,
+      72
+    ],
+    [
+      2,
+      28,
+      134
+    ],
+    [
+      3,
+      52,
+      249
+    ],
+    [
+      4,
+      98,
+      467
+    ],
+    [
+      5,
+      184,
+      877
+    ],
+    [
+      6,
+      347,
+      1650
+    ],
+    [
+      7,
+      653,
+      3106
+    ],
+    [
+      8,
+      1230,
+      5849
+    ],
+    [
+      9,
+      2317,
+      11018
+    ],
+    [
+      10,
+      4365,
+      20756
+    ],
+    [
+      11,
+      8224,
+      39104
+    ],
+    [
+      12,
+      15494,
+      73672
+    ],
+    [
+      13,
+      29191,
+      138802
+    ],
+    [
+      14,
+      54998,
+      261511
+    ],
+    [
+      15,
+      103621,
+      492705
+    ],
+    [
+      16,
+      195229,
+      928293
+    ],
+    [
+      17,
+      367827,
+      1748976
+    ],
+    [
+      18,
+      693015,
+      3295208
+    ],
+    [
+      19,
+      1305695,
+      6208431
+    ],
+    [
+      20,
+      2460032,
+      11697176
+    ],
+    [
+      21,
+      4634896,
+      22038409
+    ],
+    [
+      22,
+      8732512,
+      41522114
+    ],
+    [
+      23,
+      16452748,
+      78230965
+    ],
+    [
+      24,
+      30998279,
+      32670621
+    ]
+  ],
+  "budget": 9250245,
+  "K": 397573379,
+  "N": 630138897,
+  "constants": {
+    "lambda_lower": "1323/12500000000000",
+    "E": "552/4611686018427387881",
+    "residual": "6101253702379434166563/57646075230342348512500000000000",
+    "R": "1325859730438202850942226985830949/67113790726173775832193",
+    "U": "20000000000",
+    "T": "24",
+    "ell": "693147180559/1000000000000",
+    "u": "1098612288669/1000000000000",
+    "v": "1011600911679/1000000000000"
+  },
+  "exponential_terms": [
+    "1",
+    "24",
+    "288",
+    "2304",
+    "13824",
+    "331776/5",
+    "1327104/5",
+    "31850496/35",
+    "95551488/35",
+    "254803968/35",
+    "3057647616/175",
+    "73383542784/1925",
+    "146767085568/1925",
+    "3522410053632/25025",
+    "42268920643584/175175",
+    "338151365148672/875875",
+    "507227047723008/875875",
+    "12173449145352192/14889875",
+    "16231265527136256/14889875",
+    "389550372651270144/282907625",
+    "2337302235907620864/1414538125",
+    "18698417887260966912/9901766875",
+    "224381014647131602944/108919435625",
+    "5385144351531158470656/2505147019375",
+    "5385144351531158470656/2505147019375",
+    "129243464436747803295744/62628675484375",
+    "1550921573240973639548928/814172781296875",
+    "1378596953991976568487936/814172781296875",
+    "8271581723951859410927616/5699209469078125",
+    "198517961374844625862262784/165277074603265625",
+    "794071845499378503449051136/826385373016328125",
+    "19057724291985084082777227264/25617946563506171875",
+    "14293293218988813062082920448/25617946563506171875",
+    "114346345751910504496663363584/281797412198567890625",
+    "1372156149022926053959960363008/4790556007375654140625",
+    "32931747576550225295039048712192/167669460258147894921875",
+    "21954498384366816863359365808128/167669460258147894921875",
+    "526907961224803604720624779395072/6203770029551472112109375",
+    "6322895534697643256647497352740864/117871630561477970130078125",
+    "50583164277581146053179978821926912/1532331197299213611691015625",
+    "151749492832743438159539936465780736/7661655986496068058455078125"
+  ],
+  "offset": {
+    "minimum_early_H": 40,
+    "Q_lower": "36472999400827762787/3023656976384"
+  },
+  "checks": [
+    {
+      "name": "positive residual",
+      "actual": "6101253702379434166563/57646075230342348512500000000000",
+      "required": "0",
+      "relation": ">",
+      "difference": "6101253702379434166563/57646075230342348512500000000000",
+      "passed": true
+    },
+    {
+      "name": "root cap",
+      "actual": "1325859730438202850942226985830949/67113790726173775832193",
+      "required": "20000000000",
+      "relation": "<",
+      "difference": "-16416084085272665701633014169051/67113790726173775832193",
+      "passed": true
+    },
+    {
+      "name": "positive exponential partial sum",
+      "actual": "202750314819830504045671593478515759301/7661655986496068058455078125",
+      "required": "20000000000",
+      "relation": ">",
+      "difference": "49517195089909142876570030978515759301/7661655986496068058455078125",
+      "passed": true
+    },
+    {
+      "name": "smallest early H tail20 offset test",
+      "actual": "36472999400827762787/3023656976384",
+      "required": "24117248/11",
+      "relation": ">",
+      "difference": "2713063704485308425/274877906944",
+      "passed": true
+    },
+    {
+      "name": "odd count",
+      "actual": "397573379",
+      "required": "397573379",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "total count",
+      "actual": "630138897",
+      "required": "630138897",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 0 strict rejection",
+      "actual": "10035584058473/1000000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "715584058473/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 0 exact L064 margin match",
+      "actual": "10035584058473/1000000000000",
+      "required": "10035584058473/1000000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 1 strict rejection",
+      "actual": "5211660934087/500000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "551660934087/500000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 1 exact L064 margin match",
+      "actual": "5211660934087/500000000000",
+      "required": "5211660934087/500000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 2 strict rejection",
+      "actual": "2342118262657/250000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "12118262657/250000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 2 exact L064 margin match",
+      "actual": "2342118262657/250000000000",
+      "required": "2342118262657/250000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 3 strict rejection",
+      "actual": "126551665489/12500000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "10051665489/12500000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 3 exact L064 margin match",
+      "actual": "126551665489/12500000000",
+      "required": "126551665489/12500000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 4 strict rejection",
+      "actual": "4661267067803/500000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "1267067803/500000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 4 exact L064 margin match",
+      "actual": "4661267067803/500000000000",
+      "required": "4661267067803/500000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 5 strict rejection",
+      "actual": "5385115977429/500000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "725115977429/500000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 5 exact L064 margin match",
+      "actual": "5385115977429/500000000000",
+      "required": "5385115977429/500000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 6 strict rejection",
+      "actual": "1996828210031/200000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "132828210031/200000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 6 exact L064 margin match",
+      "actual": "1996828210031/200000000000",
+      "required": "1996828210031/200000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 7 strict rejection",
+      "actual": "5049232234661/500000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "389232234661/500000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 7 exact L064 margin match",
+      "actual": "5049232234661/500000000000",
+      "required": "5049232234661/500000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 8 strict rejection",
+      "actual": "2532016431813/250000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "202016431813/250000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 8 exact L064 margin match",
+      "actual": "2532016431813/250000000000",
+      "required": "2532016431813/250000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 9 strict rejection",
+      "actual": "9995552954311/1000000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "675552954311/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 9 exact L064 margin match",
+      "actual": "9995552954311/1000000000000",
+      "required": "9995552954311/1000000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 10 strict rejection",
+      "actual": "5494897466289/500000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "834897466289/500000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 10 exact L064 margin match",
+      "actual": "5494897466289/500000000000",
+      "required": "5494897466289/500000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 11 strict rejection",
+      "actual": "1324472255409/125000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "159472255409/125000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 11 exact L064 margin match",
+      "actual": "1324472255409/125000000000",
+      "required": "1324472255409/125000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 12 strict rejection",
+      "actual": "593601037693/62500000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "11101037693/62500000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 12 exact L064 margin match",
+      "actual": "593601037693/62500000000",
+      "required": "593601037693/62500000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 13 strict rejection",
+      "actual": "9576565005177/1000000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "256565005177/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 13 exact L064 margin match",
+      "actual": "9576565005177/1000000000000",
+      "required": "9576565005177/1000000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 14 strict rejection",
+      "actual": "2271400515131/200000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "407400515131/200000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 14 exact L064 margin match",
+      "actual": "2271400515131/200000000000",
+      "required": "2271400515131/200000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 15 strict rejection",
+      "actual": "123362081249/12500000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "6862081249/12500000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 15 exact L064 margin match",
+      "actual": "123362081249/12500000000",
+      "required": "123362081249/12500000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 16 strict rejection",
+      "actual": "10890078325377/1000000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "1570078325377/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 16 exact L064 margin match",
+      "actual": "10890078325377/1000000000000",
+      "required": "10890078325377/1000000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 17 strict rejection",
+      "actual": "5659939257943/500000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "999939257943/500000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 17 exact L064 margin match",
+      "actual": "5659939257943/500000000000",
+      "required": "5659939257943/500000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 18 strict rejection",
+      "actual": "11684192033039/1000000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "2364192033039/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 18 exact L064 margin match",
+      "actual": "11684192033039/1000000000000",
+      "required": "11684192033039/1000000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 19 strict rejection",
+      "actual": "5093328290217/500000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "433328290217/500000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 19 exact L064 margin match",
+      "actual": "5093328290217/500000000000",
+      "required": "5093328290217/500000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 20 strict rejection",
+      "actual": "345709658107/31250000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "54459658107/31250000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 20 exact L064 margin match",
+      "actual": "345709658107/31250000000",
+      "required": "345709658107/31250000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 21 strict rejection",
+      "actual": "608895511257/62500000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "26395511257/62500000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 21 exact L064 margin match",
+      "actual": "608895511257/62500000000",
+      "required": "608895511257/62500000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient 22 strict rejection",
+      "actual": "5629399590817/500000000000",
+      "required": "233/25",
+      "relation": ">",
+      "difference": "969399590817/500000000000",
+      "passed": true
+    },
+    {
+      "name": "recipient 22 exact L064 margin match",
+      "actual": "5629399590817/500000000000",
+      "required": "5629399590817/500000000000",
+      "relation": "=",
+      "difference": "0",
+      "passed": true
+    }
+  ],
+  "integer_checks": {
+    "r_at_least_three": true,
+    "integer_domain": true,
+    "increasing_J": true,
+    "budget_positive": true,
+    "nonzero_index_floor": true,
+    "offset_floor_all_early": true,
+    "all_recipient_indices": true,
+    "both_boundaries": true
+  },
+  "margins": [
+    {
+      "first_recipient": 0,
+      "next_input": 1,
+      "A": 64,
+      "D": 74,
+      "next_J": 15,
+      "margin": "10035584058473/1000000000000",
+      "scaled_margin": 10035584058473,
+      "published_upper": -10035584058473
+    },
+    {
+      "first_recipient": 1,
+      "next_input": 2,
+      "A": 181,
+      "D": 208,
+      "next_J": 28,
+      "margin": "5211660934087/500000000000",
+      "scaled_margin": 10423321868174,
+      "published_upper": -10423321868174
+    },
+    {
+      "first_recipient": 2,
+      "next_input": 3,
+      "A": 399,
+      "D": 456,
+      "next_J": 52,
+      "margin": "2342118262657/250000000000",
+      "scaled_margin": 9368473050628,
+      "published_upper": -9368473050628
+    },
+    {
+      "first_recipient": 3,
+      "next_input": 4,
+      "A": 804,
+      "D": 915,
+      "next_J": 98,
+      "margin": "126551665489/12500000000",
+      "scaled_margin": 10124133239120,
+      "published_upper": -10124133239120
+    },
+    {
+      "first_recipient": 4,
+      "next_input": 5,
+      "A": 1565,
+      "D": 1776,
+      "next_J": 184,
+      "margin": "4661267067803/500000000000",
+      "scaled_margin": 9322534135606,
+      "published_upper": -9322534135606
+    },
+    {
+      "first_recipient": 5,
+      "next_input": 6,
+      "A": 2994,
+      "D": 3391,
+      "next_J": 347,
+      "margin": "5385115977429/500000000000",
+      "scaled_margin": 10770231954858,
+      "published_upper": -10770231954858
+    },
+    {
+      "first_recipient": 6,
+      "next_input": 7,
+      "A": 5685,
+      "D": 6431,
+      "next_J": 653,
+      "margin": "1996828210031/200000000000",
+      "scaled_margin": 9984141050155,
+      "published_upper": -9984141050155
+    },
+    {
+      "first_recipient": 7,
+      "next_input": 8,
+      "A": 10750,
+      "D": 12151,
+      "next_J": 1230,
+      "margin": "5049232234661/500000000000",
+      "scaled_margin": 10098464469322,
+      "published_upper": -10098464469322
+    },
+    {
+      "first_recipient": 8,
+      "next_input": 9,
+      "A": 20289,
+      "D": 22922,
+      "next_J": 2317,
+      "margin": "2532016431813/250000000000",
+      "scaled_margin": 10128065727252,
+      "published_upper": -10128065727252
+    },
+    {
+      "first_recipient": 9,
+      "next_input": 10,
+      "A": 38258,
+      "D": 43210,
+      "next_J": 4365,
+      "margin": "9995552954311/1000000000000",
+      "scaled_margin": 9995552954311,
+      "published_upper": -9995552954311
+    },
+    {
+      "first_recipient": 10,
+      "next_input": 11,
+      "A": 72109,
+      "D": 81428,
+      "next_J": 8224,
+      "margin": "5494897466289/500000000000",
+      "scaled_margin": 10989794932578,
+      "published_upper": -10989794932578
+    },
+    {
+      "first_recipient": 11,
+      "next_input": 12,
+      "A": 135885,
+      "D": 153430,
+      "next_J": 15494,
+      "margin": "1324472255409/125000000000",
+      "scaled_margin": 10595778043272,
+      "published_upper": -10595778043272
+    },
+    {
+      "first_recipient": 12,
+      "next_input": 13,
+      "A": 256039,
+      "D": 289080,
+      "next_J": 29191,
+      "margin": "593601037693/62500000000",
+      "scaled_margin": 9497616603088,
+      "published_upper": -9497616603088
+    },
+    {
+      "first_recipient": 13,
+      "next_input": 14,
+      "A": 482414,
+      "D": 544648,
+      "next_J": 54998,
+      "margin": "9576565005177/1000000000000",
+      "scaled_margin": 9576565005177,
+      "published_upper": -9576565005177
+    },
+    {
+      "first_recipient": 14,
+      "next_input": 15,
+      "A": 908919,
+      "D": 1026153,
+      "next_J": 103621,
+      "margin": "2271400515131/200000000000",
+      "scaled_margin": 11357002575655,
+      "published_upper": -11357002575655
+    },
+    {
+      "first_recipient": 15,
+      "next_input": 16,
+      "A": 1712487,
+      "D": 1933344,
+      "next_J": 195229,
+      "margin": "123362081249/12500000000",
+      "scaled_margin": 9868966499920,
+      "published_upper": -9868966499920
+    },
+    {
+      "first_recipient": 16,
+      "next_input": 17,
+      "A": 3226467,
+      "D": 3642555,
+      "next_J": 367827,
+      "margin": "10890078325377/1000000000000",
+      "scaled_margin": 10890078325377,
+      "published_upper": -10890078325377
+    },
+    {
+      "first_recipient": 17,
+      "next_input": 18,
+      "A": 6078924,
+      "D": 6862841,
+      "next_J": 693015,
+      "margin": "5659939257943/500000000000",
+      "scaled_margin": 11319878515886,
+      "published_upper": -11319878515886
+    },
+    {
+      "first_recipient": 18,
+      "next_input": 19,
+      "A": 11453177,
+      "D": 12930111,
+      "next_J": 1305695,
+      "margin": "11684192033039/1000000000000",
+      "scaled_margin": 11684192033039,
+      "published_upper": -11684192033039
+    },
+    {
+      "first_recipient": 19,
+      "next_input": 20,
+      "A": 21578693,
+      "D": 24361324,
+      "next_J": 2460032,
+      "margin": "5093328290217/500000000000",
+      "scaled_margin": 10186656580434,
+      "published_upper": -10186656580434
+    },
+    {
+      "first_recipient": 20,
+      "next_input": 21,
+      "A": 40655965,
+      "D": 45898630,
+      "next_J": 4634896,
+      "margin": "345709658107/31250000000",
+      "scaled_margin": 11062709059424,
+      "published_upper": -11062709059424
+    },
+    {
+      "first_recipient": 21,
+      "next_input": 22,
+      "A": 76599062,
+      "D": 86476625,
+      "next_J": 8732512,
+      "margin": "608895511257/62500000000",
+      "scaled_margin": 9742328180112,
+      "published_upper": -9742328180112
+    },
+    {
+      "first_recipient": 22,
+      "next_input": 23,
+      "A": 144318712,
+      "D": 162928789,
+      "next_J": 16452748,
+      "margin": "5629399590817/500000000000",
+      "scaled_margin": 11258799181634,
+      "published_upper": -11258799181634
+    }
+  ],
+  "zero_budget_case": "No tests required; nonnegative entries with zero sum are all zero.",
+  "summary": {
+    "rational_checks": 52,
+    "integer_checks": 8,
+    "recipients": 23,
+    "minimum_margin": "4661267067803/500000000000",
+    "required_margin": "233/25",
+    "first_margin": "10035584058473/1000000000000",
+    "final_margin": "5629399590817/500000000000",
+    "failures": []
+  }
+}

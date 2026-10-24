@@ -1,0 +1,134 @@
+{
+  "lemma": "L044",
+  "scope": "Exact constants only; analytic proof in lemma",
+  "checks": [
+    {
+      "name": "delta lower sign",
+      "actual": "27",
+      "relation": ">",
+      "required": "16",
+      "passed": true
+    },
+    {
+      "name": "delta upper bound",
+      "actual": "243",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "transfer coefficient",
+      "actual": "48/25",
+      "relation": "=",
+      "required": "48/25",
+      "passed": true
+    },
+    {
+      "name": "transfer additive bound",
+      "actual": "32/75",
+      "relation": "=",
+      "required": "32/75",
+      "passed": true
+    },
+    {
+      "name": "coefficient below two",
+      "actual": "48/25",
+      "relation": "<",
+      "required": "2",
+      "passed": true
+    },
+    {
+      "name": "additive bound below one",
+      "actual": "32/75",
+      "relation": "<",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "exponential partial sum",
+      "actual": "163/60",
+      "relation": ">",
+      "required": "27/10",
+      "passed": true
+    },
+    {
+      "name": "log thirteen below three",
+      "actual": "19683",
+      "relation": ">",
+      "required": "13000",
+      "passed": true
+    },
+    {
+      "name": "thirteen occurrence sum",
+      "actual": "8191",
+      "relation": "=",
+      "required": "8191",
+      "passed": true
+    },
+    {
+      "name": "seed times count coefficient",
+      "actual": "399/5",
+      "relation": "=",
+      "required": "399/5",
+      "passed": true
+    },
+    {
+      "name": "A",
+      "actual": "3268209/5",
+      "relation": "=",
+      "required": "3268209/5",
+      "passed": true
+    },
+    {
+      "name": "primitive threshold scaling",
+      "actual": "338460000",
+      "relation": "=",
+      "required": "338460000",
+      "passed": true
+    },
+    {
+      "name": "log threshold below twenty",
+      "actual": "42391158275216203514294433201",
+      "relation": ">",
+      "required": "33846000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "positive derivative on entire ray",
+      "actual": "3268209/5",
+      "relation": "<",
+      "required": "338460000",
+      "passed": true
+    },
+    {
+      "name": "threshold right side",
+      "actual": "14127116889/1034",
+      "relation": "<",
+      "required": "13662589",
+      "passed": true
+    },
+    {
+      "name": "integer margin",
+      "actual": "324797411",
+      "relation": "=",
+      "required": "324797411",
+      "passed": true
+    },
+    {
+      "name": "strict margin positive",
+      "actual": "335840523111/1034",
+      "relation": ">",
+      "required": "324797411",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "A": "3268209/5",
+    "B": "609804465/1034",
+    "threshold": 338460000,
+    "threshold_rhs_upper": "14127116889/1034",
+    "margin_lower": "335840523111/1034",
+    "required_margin": "0"
+  }
+}

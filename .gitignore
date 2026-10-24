@@ -50,3 +50,21 @@ node_modules/
 # Recommended tracked folders: certificates/, inputs/, fixtures/ and reports/.
 # No blanket *.json, *.txt, output-*, step-* or certificate-name exclusions.
 # Existing legacy certificate paths stay tracked without being moved first.
+
+# Exact expanded copies of versioned lossless certificate archives.
+# scripts/maintenance/materialize_evidence.py restores and checks these bytes.
+/yang-mills/scripts/combined-ward-response/companion-enclosure-certificate.json
+/beal/scripts/global-eleven-valuation/small-norm-certificate.json
+/collatz/scripts/endpoint-coalescence/certificate.json
+/collatz/scripts/postspell-inverse/result.json
+/collatz/scripts/growing-postspell/result.json
+/reed-solomon-mca/scripts/coefficient-feasibility/rational-branch-audit-result.json
+/reed-solomon-mca/scripts/simultaneous-recovery/disjoint-d-pair-result.json
+/reed-solomon-mca/scripts/simultaneous-recovery/forced-v-mixed-result.json
+/reed-solomon-mca/scripts/triangle-recovery/independent-net-pair.json
+/reed-solomon-mca/scripts/triangle-recovery/independent-net-pair-verification.json
+/beal/scripts/ramified-dyadic-image/parameter-disks.json
+/beal/scripts/ramified-dyadic-image/affine-disks.json
+/reed-solomon-mca/scripts/simultaneous-recovery/three-singleton-result.json
+/reed-solomon-mca/scripts/seven-coordinate/nondisjoint-third-diagnostic.json
+/reed-solomon-mca/scripts/simultaneous-recovery/cross-tag-saturated-result.json

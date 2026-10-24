@@ -1,0 +1,545 @@
+{
+  "target": "L077 finite L068 benchmark: literal last-pair cutoff tau=2",
+  "imports": {
+    "Lambda": "Audited L055 enclosure; not freshly recertified here",
+    "logarithms": "Audited L064/L068 outward bounds; not freshly recertified here",
+    "affine": "L051 coordinate; L068 mechanism; H-H (1997) Lemma 2",
+    "survivors": "Audited L055 t=0 and L064 j=23 t=1, assembled in L068"
+  },
+  "constants": {
+    "r": 25,
+    "p": 23,
+    "q": 24,
+    "B": 9250245,
+    "tau": 2,
+    "e": "2",
+    "lambda_lower": "1323/12500000000000",
+    "lambda_upper": "2117/20000000000000",
+    "Q": "1150000023/550000000",
+    "U": "435606069410390910013/22050000000",
+    "T": 24,
+    "ell": "693147180559/1000000000000",
+    "upper_log3": "1098612288669/1000000000000",
+    "upper_log11over4": "1011600911679/1000000000000"
+  },
+  "eta0": "7122556955297586891012225981605/3433683820292512484657849089281",
+  "domain_lower": "39999999995766/2117",
+  "prefixes": [
+    {
+      "i": 0,
+      "incoming_lower": "1",
+      "reciprocal": "1"
+    },
+    {
+      "i": 1,
+      "incoming_lower": "100000000",
+      "reciprocal": "1/100000000"
+    },
+    {
+      "i": 2,
+      "incoming_lower": "200000000",
+      "reciprocal": "1/200000000"
+    },
+    {
+      "i": 3,
+      "incoming_lower": "400000000",
+      "reciprocal": "1/400000000"
+    },
+    {
+      "i": 4,
+      "incoming_lower": "800000000",
+      "reciprocal": "1/800000000"
+    },
+    {
+      "i": 5,
+      "incoming_lower": "1600000000",
+      "reciprocal": "1/1600000000"
+    },
+    {
+      "i": 6,
+      "incoming_lower": "3200000000",
+      "reciprocal": "1/3200000000"
+    },
+    {
+      "i": 7,
+      "incoming_lower": "6400000000",
+      "reciprocal": "1/6400000000"
+    },
+    {
+      "i": 8,
+      "incoming_lower": "12800000000",
+      "reciprocal": "1/12800000000"
+    },
+    {
+      "i": 9,
+      "incoming_lower": "25600000000",
+      "reciprocal": "1/25600000000"
+    },
+    {
+      "i": 10,
+      "incoming_lower": "51200000000",
+      "reciprocal": "1/51200000000"
+    },
+    {
+      "i": 11,
+      "incoming_lower": "102400000000",
+      "reciprocal": "1/102400000000"
+    },
+    {
+      "i": 12,
+      "incoming_lower": "204800000000",
+      "reciprocal": "1/204800000000"
+    },
+    {
+      "i": 13,
+      "incoming_lower": "409600000000",
+      "reciprocal": "1/409600000000"
+    },
+    {
+      "i": 14,
+      "incoming_lower": "819200000000",
+      "reciprocal": "1/819200000000"
+    },
+    {
+      "i": 15,
+      "incoming_lower": "1638400000000",
+      "reciprocal": "1/1638400000000"
+    },
+    {
+      "i": 16,
+      "incoming_lower": "3276800000000",
+      "reciprocal": "1/3276800000000"
+    },
+    {
+      "i": 17,
+      "incoming_lower": "6553600000000",
+      "reciprocal": "1/6553600000000"
+    },
+    {
+      "i": 18,
+      "incoming_lower": "13107200000000",
+      "reciprocal": "1/13107200000000"
+    },
+    {
+      "i": 19,
+      "incoming_lower": "26214400000000",
+      "reciprocal": "1/26214400000000"
+    },
+    {
+      "i": 20,
+      "incoming_lower": "52428800000000",
+      "reciprocal": "1/52428800000000"
+    },
+    {
+      "i": 21,
+      "incoming_lower": "104857600000000",
+      "reciprocal": "1/104857600000000"
+    },
+    {
+      "i": 22,
+      "incoming_lower": "209715200000000",
+      "reciprocal": "1/209715200000000"
+    },
+    {
+      "i": 23,
+      "incoming_lower": "419430400000000",
+      "reciprocal": "1/419430400000000"
+    },
+    {
+      "i": 24,
+      "incoming_lower": "838860800000000",
+      "reciprocal": "1/838860800000000"
+    }
+  ],
+  "reciprocal_sum": "167772163355443/167772160000000",
+  "normalized_required": "80390828282991765264571312031/4069313740800000000",
+  "boundary": {
+    "rows": [
+      {
+        "i": 0,
+        "J": 8,
+        "H": 40,
+        "a": 2
+      },
+      {
+        "i": 1,
+        "J": 15,
+        "H": 72,
+        "a": 2
+      },
+      {
+        "i": 2,
+        "J": 28,
+        "H": 134,
+        "a": 2
+      },
+      {
+        "i": 3,
+        "J": 52,
+        "H": 249,
+        "a": 2
+      },
+      {
+        "i": 4,
+        "J": 98,
+        "H": 467,
+        "a": 2
+      },
+      {
+        "i": 5,
+        "J": 184,
+        "H": 877,
+        "a": 2
+      },
+      {
+        "i": 6,
+        "J": 347,
+        "H": 1650,
+        "a": 2
+      },
+      {
+        "i": 7,
+        "J": 653,
+        "H": 3106,
+        "a": 2
+      },
+      {
+        "i": 8,
+        "J": 1230,
+        "H": 5849,
+        "a": 2
+      },
+      {
+        "i": 9,
+        "J": 2317,
+        "H": 11018,
+        "a": 2
+      },
+      {
+        "i": 10,
+        "J": 4365,
+        "H": 20756,
+        "a": 2
+      },
+      {
+        "i": 11,
+        "J": 8224,
+        "H": 39104,
+        "a": 2
+      },
+      {
+        "i": 12,
+        "J": 15494,
+        "H": 73672,
+        "a": 2
+      },
+      {
+        "i": 13,
+        "J": 29191,
+        "H": 138802,
+        "a": 2
+      },
+      {
+        "i": 14,
+        "J": 54998,
+        "H": 261511,
+        "a": 2
+      },
+      {
+        "i": 15,
+        "J": 103621,
+        "H": 492705,
+        "a": 2
+      },
+      {
+        "i": 16,
+        "J": 195229,
+        "H": 928293,
+        "a": 2
+      },
+      {
+        "i": 17,
+        "J": 367827,
+        "H": 1748976,
+        "a": 2
+      },
+      {
+        "i": 18,
+        "J": 693015,
+        "H": 3295208,
+        "a": 2
+      },
+      {
+        "i": 19,
+        "J": 1305695,
+        "H": 6208431,
+        "a": 2
+      },
+      {
+        "i": 20,
+        "J": 2460032,
+        "H": 11697176,
+        "a": 2
+      },
+      {
+        "i": 21,
+        "J": 4634896,
+        "H": 22038409,
+        "a": 2
+      },
+      {
+        "i": 22,
+        "J": 8732512,
+        "H": 41522114,
+        "a": 2
+      },
+      {
+        "i": 23,
+        "J": 16452748,
+        "H": 78230965,
+        "a": 38
+      },
+      {
+        "i": 24,
+        "J": 30998279,
+        "H": 32670621,
+        "a": 166504376
+      }
+    ],
+    "incoming_k": 271907921,
+    "incoming_d": 306970784,
+    "J_last": 30998279,
+    "negative_log2_coefficient": 430963900,
+    "margin_upper": "-474883782659/125000000000"
+  },
+  "exp24_terms": [
+    "1",
+    "24",
+    "288",
+    "2304",
+    "13824",
+    "331776/5",
+    "1327104/5",
+    "31850496/35",
+    "95551488/35",
+    "254803968/35",
+    "3057647616/175",
+    "73383542784/1925",
+    "146767085568/1925",
+    "3522410053632/25025",
+    "42268920643584/175175",
+    "338151365148672/875875",
+    "507227047723008/875875",
+    "12173449145352192/14889875",
+    "16231265527136256/14889875",
+    "389550372651270144/282907625",
+    "2337302235907620864/1414538125",
+    "18698417887260966912/9901766875",
+    "224381014647131602944/108919435625",
+    "5385144351531158470656/2505147019375",
+    "5385144351531158470656/2505147019375",
+    "129243464436747803295744/62628675484375",
+    "1550921573240973639548928/814172781296875",
+    "1378596953991976568487936/814172781296875",
+    "8271581723951859410927616/5699209469078125",
+    "198517961374844625862262784/165277074603265625",
+    "794071845499378503449051136/826385373016328125",
+    "19057724291985084082777227264/25617946563506171875",
+    "14293293218988813062082920448/25617946563506171875",
+    "114346345751910504496663363584/281797412198567890625",
+    "1372156149022926053959960363008/4790556007375654140625",
+    "32931747576550225295039048712192/167669460258147894921875",
+    "21954498384366816863359365808128/167669460258147894921875",
+    "526907961224803604720624779395072/6203770029551472112109375",
+    "6322895534697643256647497352740864/117871630561477970130078125",
+    "50583164277581146053179978821926912/1532331197299213611691015625",
+    "151749492832743438159539936465780736/7661655986496068058455078125"
+  ],
+  "exp24_partial_sum": "202750314819830504045671593478515759301/7661655986496068058455078125",
+  "checks": [
+    {
+      "name": "positive imported Lambda lower",
+      "actual": "1323/12500000000000",
+      "relation": ">",
+      "required": "0",
+      "actual_minus_required": "1323/12500000000000",
+      "passed": true
+    },
+    {
+      "name": "ordered imported Lambda bounds",
+      "actual": "1323/12500000000000",
+      "relation": "<",
+      "required": "2117/20000000000000",
+      "actual_minus_required": "-1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "Lambda upper below one",
+      "actual": "2117/20000000000000",
+      "relation": "<",
+      "required": "1",
+      "actual_minus_required": "-19999999997883/20000000000000",
+      "passed": true
+    },
+    {
+      "name": "eta0 lower e (all eta >= eta0 by table comparison)",
+      "actual": "7122556955297586891012225981605/3433683820292512484657849089281",
+      "relation": ">",
+      "required": "2",
+      "actual_minus_required": "255189314712561921696527803043/3433683820292512484657849089281",
+      "passed": true
+    },
+    {
+      "name": "unchanged tail2 multiplier lower bound above two",
+      "actual": "19683/8192",
+      "relation": ">",
+      "required": "2",
+      "actual_minus_required": "3299/8192",
+      "passed": true
+    },
+    {
+      "name": "boundary row0 multiplier above 1e8",
+      "actual": "3433683820292512484657849089281/18889465931478580854784",
+      "relation": ">",
+      "required": "100000000",
+      "actual_minus_required": "1544737227144654399179449089281/18889465931478580854784",
+      "passed": true
+    },
+    {
+      "name": "boundary other prefix rows baseline above two",
+      "actual": "66555937033867822607895549241096482953017615834735226163/1496577676626844588240573268701473812127674924007424",
+      "relation": ">",
+      "required": "2",
+      "actual_minus_required": "66552943878514568918719068094559080005393360484887211315/1496577676626844588240573268701473812127674924007424",
+      "passed": true
+    },
+    {
+      "name": "criterion all-input unshifted lower bound",
+      "actual": "39999999995766/2117",
+      "relation": ">=",
+      "required": "47",
+      "actual_minus_required": "39999999896267/2117",
+      "passed": true
+    },
+    {
+      "name": "imported stronger benchmark lower bound",
+      "actual": "39999999995766/2117",
+      "relation": ">",
+      "required": "18000000000",
+      "actual_minus_required": "1893999995766/2117",
+      "passed": true
+    },
+    {
+      "name": "Q bounds complete incoming inverse-prefix sum",
+      "actual": "3858759757175189/1845493760000000",
+      "relation": "<=",
+      "required": "1150000023/550000000",
+      "actual_minus_required": "-23/9227468800000000",
+      "passed": true
+    },
+    {
+      "name": "U bounds normalized shifted input",
+      "actual": "80390828282991765264571312031/4069313740800000000",
+      "relation": "<=",
+      "required": "435606069410390910013/22050000000",
+      "actual_minus_required": "-19293798399999977/9227468800000000",
+      "passed": true
+    },
+    {
+      "name": "U matches L068 bound",
+      "actual": "435606069410390910013/22050000000",
+      "relation": "=",
+      "required": "435606069410390910013/22050000000",
+      "actual_minus_required": "0",
+      "passed": true
+    },
+    {
+      "name": "U below 20 billion",
+      "actual": "435606069410390910013/22050000000",
+      "relation": "<",
+      "required": "20000000000",
+      "actual_minus_required": "-5393930589609089987/22050000000",
+      "passed": true
+    },
+    {
+      "name": "exp24 positive finite sum above 20 billion",
+      "actual": "202750314819830504045671593478515759301/7661655986496068058455078125",
+      "relation": ">",
+      "required": "20000000000",
+      "actual_minus_required": "49517195089909142876570030978515759301/7661655986496068058455078125",
+      "passed": true
+    },
+    {
+      "name": "criterion final-row boundary margin",
+      "actual": "-474883782659/125000000000",
+      "relation": "<",
+      "required": "0",
+      "actual_minus_required": "-474883782659/125000000000",
+      "passed": true
+    },
+    {
+      "name": "same complete margin as L068",
+      "actual": "-474883782659/125000000000",
+      "relation": "=",
+      "required": "-474883782659/125000000000",
+      "actual_minus_required": "0",
+      "passed": true
+    },
+    {
+      "name": "required benchmark margin below -3.79",
+      "actual": "-474883782659/125000000000",
+      "relation": "<",
+      "required": "-379/100",
+      "actual_minus_required": "-1133782659/125000000000",
+      "passed": true
+    }
+  ],
+  "integer_checks": {
+    "literal_increasing_J": true,
+    "eta_monotonicity_hypotheses": true,
+    "boundary_row0_exact_pair": true,
+    "boundary_other_prefix_baseline": true,
+    "all_early_tails_two": true,
+    "boundary_changed_tails": true,
+    "full_exponents": true,
+    "incoming_exponents": true,
+    "full_tail_sum": true,
+    "last_parameter_final_tail_two": true,
+    "cutoff_admitted": true
+  },
+  "symbolic_coverage": {
+    "first_rejected": 2,
+    "last_rejected": 9250245,
+    "number_rejected": 9250244,
+    "reason": "Positive-coefficient exact final-input formula decreases throughout closed interval",
+    "survivors": "t=0,1 imported only; no arbitrary-table survivor verdict"
+  },
+  "small_budgets": [
+    {
+      "B": 0,
+      "cutoff": 2,
+      "rejected_interval_empty": true,
+      "boundary_tests_required": false,
+      "qualification": "Endpoint/domain assertion still requires test (3)"
+    },
+    {
+      "B": 1,
+      "cutoff": 2,
+      "rejected_interval_empty": true,
+      "boundary_tests_required": false,
+      "qualification": "Endpoint/domain assertion still requires test (3)"
+    }
+  ],
+  "preserved_optional_probes": [
+    {
+      "name": "initial unnecessary margin<-4 request",
+      "actual": "-474883782659/125000000000",
+      "requested": "-4",
+      "passed": false,
+      "qualification": "Failed stronger bound preserved; classification requires only margin<0"
+    }
+  ],
+  "preserved_original_certificate_sha256": "3cd14fdc3dd27c802fa5ce7794973d9ede5a0a76b5c7f866ee80bbee7d6f28b7",
+  "failures": [],
+  "limitations": "No new analytic enclosures, new table, integer/order/support assembly or actual-cycle result"
+}

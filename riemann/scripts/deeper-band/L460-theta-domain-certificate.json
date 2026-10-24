@@ -1,0 +1,85 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "h_lower",
+      "actual": "157/32",
+      "relation": "=",
+      "required": "157/32",
+      "passed": true
+    },
+    {
+      "name": "h_upper",
+      "actual": "79/16",
+      "relation": "=",
+      "required": "79/16",
+      "passed": true
+    },
+    {
+      "name": "h_containing_lower",
+      "actual": "157/32",
+      "relation": ">=",
+      "required": "39/8",
+      "passed": true
+    },
+    {
+      "name": "h_containing_upper",
+      "actual": "79/16",
+      "relation": "<=",
+      "required": "5",
+      "passed": true
+    },
+    {
+      "name": "beta_upper_envelope",
+      "actual": "3/16",
+      "relation": "<=",
+      "required": "1/4",
+      "passed": true
+    },
+    {
+      "name": "beta_lower_envelope",
+      "actual": "1/16",
+      "relation": ">=",
+      "required": "1/128",
+      "passed": true
+    },
+    {
+      "name": "nu_lower_containment",
+      "actual": "29/32",
+      "relation": ">=",
+      "required": "7/8",
+      "passed": true
+    },
+    {
+      "name": "patch_mass_rate",
+      "actual": "19/120",
+      "relation": ">",
+      "required": "1/200",
+      "passed": true
+    },
+    {
+      "name": "translated_complement_rate",
+      "actual": "61/80",
+      "relation": ">",
+      "required": "1/200",
+      "passed": true
+    },
+    {
+      "name": "mixed_rate_lower_bound",
+      "actual": "1/54",
+      "relation": ">",
+      "required": "1/200",
+      "passed": true
+    },
+    {
+      "name": "low_strip_strict_logarithm_margin",
+      "actual": "39877/107447310",
+      "relation": ">",
+      "required": "0",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "proof": "lemmas/L460-deeper-band-whole-plane-theta-reduction.md",
+  "scope": "Exact rational domain and decay-rate comparisons only; not an independent proof audit or a certificate of all analytic estimates."
+}

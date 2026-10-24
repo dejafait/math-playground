@@ -1,0 +1,564 @@
+{
+  "group": "library",
+  "checks": [
+    {
+      "name": "assoc",
+      "mode": "native",
+      "expected_goal": "(~((((((A>B)>(~(B>A)))>C)>(~(C>((A>B)>(~(B>A))))))>((A>((B>C)>(~(C>B))))>(~(((B>C)>(~(C>B)))>A))))>(~(((A>((B>C)>(~(C>B))))>(~(((B>C)>(~(C>B)))>A)))>((((A>B)>(~(B>A)))>C)>(~(C>((A>B)>(~(B>A))))))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/assoc.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 3470,
+        "bytes": 1551886,
+        "sha256": "4d71d879ac55b5e25e64a40f8ec6a9aca38add8eaef8031bb85441b76c4ca5dd",
+        "formula_nodes": 494464,
+        "substitution_nodes": 153903,
+        "max_line_nodes": 1702,
+        "max_record_nodes": 2456,
+        "max_line_depth": 18,
+        "goal_nodes": 93,
+        "goal_depth": 10
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "assoc",
+      "mode": "not-or",
+      "expected_goal": "(~((~((~((~((~((~((~A)|B))|(~((~B)|A))))|C))|(~((~C)|((~((~A)|B))|(~((~B)|A)))))))|((~((~A)|((~((~B)|C))|(~((~C)|B)))))|(~((~((~((~B)|C))|(~((~C)|B))))|A)))))|(~((~((~((~A)|((~((~B)|C))|(~((~C)|B)))))|(~((~((~((~B)|C))|(~((~C)|B))))|A))))|((~((~((~((~A)|B))|(~((~B)|A))))|C))|(~((~C)|((~((~A)|B))|(~((~B)|A))))))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/assoc.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 3470,
+        "bytes": 2346478,
+        "sha256": "bc50a900783aa0397334124d7544f9d5994c7562d49df93fca731e3b66fdb872",
+        "formula_nodes": 697790,
+        "substitution_nodes": 215402,
+        "max_line_nodes": 2421,
+        "max_record_nodes": 3492,
+        "max_line_depth": 25,
+        "goal_nodes": 132,
+        "goal_depth": 13
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "comm",
+      "mode": "native",
+      "expected_goal": "(~((((A>B)>(~(B>A)))>((B>A)>(~(A>B))))>(~(((B>A)>(~(A>B)))>((A>B)>(~(B>A)))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/comm.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 1286,
+        "bytes": 383817,
+        "sha256": "be8252f559464e70d4bbddbfee5b88e4a6359db5a18b795b7fd1bbfce028606b",
+        "formula_nodes": 115395,
+        "substitution_nodes": 35481,
+        "max_line_nodes": 694,
+        "max_record_nodes": 1000,
+        "max_line_depth": 15,
+        "goal_nodes": 37,
+        "goal_depth": 7
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "comm",
+      "mode": "not-or",
+      "expected_goal": "(~((~((~((~((~A)|B))|(~((~B)|A))))|((~((~B)|A))|(~((~A)|B)))))|(~((~((~((~B)|A))|(~((~A)|B))))|((~((~A)|B))|(~((~B)|A)))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/comm.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 1286,
+        "bytes": 561849,
+        "sha256": "abdc0cfbe44c3f924508defb1d5145a38c0fa3ddd458428de370927278549998",
+        "formula_nodes": 161292,
+        "substitution_nodes": 48913,
+        "max_line_nodes": 981,
+        "max_record_nodes": 1412,
+        "max_line_depth": 21,
+        "goal_nodes": 52,
+        "goal_depth": 9
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "cancel",
+      "mode": "native",
+      "expected_goal": "(~((((A>A)>(~(A>A)))>(~(q>q)))>(~((~(q>q))>((A>A)>(~(A>A)))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/cancel.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 803,
+        "bytes": 263032,
+        "sha256": "a17a40757baf0fc689ac0a2f3338063bddee7034d8f9c8be120c45dc146dee01",
+        "formula_nodes": 78995,
+        "substitution_nodes": 24298,
+        "max_line_nodes": 550,
+        "max_record_nodes": 792,
+        "max_line_depth": 15,
+        "goal_nodes": 29,
+        "goal_depth": 7
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "cancel",
+      "mode": "not-or",
+      "expected_goal": "(~((~((~((~((~A)|A))|(~((~A)|A))))|(~((~q)|q))))|(~((~(~((~q)|q)))|((~((~A)|A))|(~((~A)|A)))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/cancel.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 803,
+        "bytes": 379696,
+        "sha256": "bb339de9f1270651041cc917471b8f1b6f99e2069bdd54a4bace20bb0ae603cf",
+        "formula_nodes": 109059,
+        "substitution_nodes": 33111,
+        "max_line_nodes": 765,
+        "max_record_nodes": 1100,
+        "max_line_depth": 21,
+        "goal_nodes": 40,
+        "goal_depth": 9
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "zero_slots",
+      "mode": "native",
+      "expected_goal": "(~(((~(q>q))>(((~(q>q))>(~(q>q)))>(~((~(q>q))>(~(q>q))))))>(~((((~(q>q))>(~(q>q)))>(~((~(q>q))>(~(q>q)))))>(~(q>q))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/zero_slots.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 603,
+        "bytes": 327240,
+        "sha256": "c11f08d307ee9154b0f0c63705b018c598165a49601431e46028eae43c8ed3af",
+        "formula_nodes": 101215,
+        "substitution_nodes": 31792,
+        "max_line_nodes": 982,
+        "max_record_nodes": 1416,
+        "max_line_depth": 17,
+        "goal_nodes": 53,
+        "goal_depth": 9
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "zero_slots",
+      "mode": "not-or",
+      "expected_goal": "(~((~((~(~((~q)|q)))|((~((~(~((~q)|q)))|(~((~q)|q))))|(~((~(~((~q)|q)))|(~((~q)|q)))))))|(~((~((~((~(~((~q)|q)))|(~((~q)|q))))|(~((~(~((~q)|q)))|(~((~q)|q))))))|(~((~q)|q))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/zero_slots.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 603,
+        "bytes": 469845,
+        "sha256": "d946afd1048bea941cb59a97422f7f7c7a6587d484b1b6ce0c1e96bd9b5ed86f",
+        "formula_nodes": 137627,
+        "substitution_nodes": 42896,
+        "max_line_nodes": 1341,
+        "max_record_nodes": 1932,
+        "max_line_depth": 24,
+        "goal_nodes": 72,
+        "goal_depth": 12
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "trans",
+      "mode": "native",
+      "expected_goal": "((~((A>B)>(~(B>A))))>((~((B>C)>(~(C>B))))>(~((A>C)>(~(C>A))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/trans.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 1449,
+        "bytes": 351640,
+        "sha256": "a2513b369faced85c31349e6884fe6c0dce365c725e19f7f318269762b6f38b6",
+        "formula_nodes": 100135,
+        "substitution_nodes": 30418,
+        "max_line_nodes": 550,
+        "max_record_nodes": 792,
+        "max_line_depth": 14,
+        "goal_nodes": 29,
+        "goal_depth": 6
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "trans",
+      "mode": "not-or",
+      "expected_goal": "((~(~((~((~A)|B))|(~((~B)|A)))))|((~(~((~((~B)|C))|(~((~C)|B)))))|(~((~((~A)|C))|(~((~C)|A))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/trans.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 1449,
+        "bytes": 496156,
+        "sha256": "3f612dcb3843ac1657fec3266900e0ef2100664e95deaaa7a2856129b8d60825",
+        "formula_nodes": 137695,
+        "substitution_nodes": 41019,
+        "max_line_nodes": 765,
+        "max_record_nodes": 1100,
+        "max_line_depth": 20,
+        "goal_nodes": 40,
+        "goal_depth": 8
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "symm",
+      "mode": "native",
+      "expected_goal": "((~((A>B)>(~(B>A))))>(~((B>A)>(~(A>B)))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/symm.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 872,
+        "bytes": 186448,
+        "sha256": "99d595154a6887f83b26510f1936776bb735fc13a7605ee3fb59f958a9b1f9b7",
+        "formula_nodes": 51610,
+        "substitution_nodes": 15615,
+        "max_line_nodes": 370,
+        "max_record_nodes": 532,
+        "max_line_depth": 13,
+        "goal_nodes": 19,
+        "goal_depth": 5
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "symm",
+      "mode": "not-or",
+      "expected_goal": "((~(~((~((~A)|B))|(~((~B)|A)))))|(~((~((~B)|A))|(~((~A)|B)))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/symm.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 872,
+        "bytes": 259678,
+        "sha256": "969fbfd4da5e621bf4ccdebed816a3695057906cddd0d95d7f7e68b6dd340afd",
+        "formula_nodes": 70720,
+        "substitution_nodes": 20908,
+        "max_line_nodes": 513,
+        "max_record_nodes": 736,
+        "max_line_depth": 19,
+        "goal_nodes": 26,
+        "goal_depth": 7
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "congL",
+      "mode": "native",
+      "expected_goal": "((~((A>B)>(~(B>A))))>(~((((A>C)>(~(C>A)))>((B>C)>(~(C>B))))>(~(((B>C)>(~(C>B)))>((A>C)>(~(C>A))))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/congL.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 2161,
+        "bytes": 663070,
+        "sha256": "c293cf8d180bff1cee96484f40d98bb767c9010417d1808a630ae2039beafd3b",
+        "formula_nodes": 199552,
+        "substitution_nodes": 61523,
+        "max_line_nodes": 874,
+        "max_record_nodes": 1260,
+        "max_line_depth": 16,
+        "goal_nodes": 47,
+        "goal_depth": 8
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "congL",
+      "mode": "not-or",
+      "expected_goal": "((~(~((~((~A)|B))|(~((~B)|A)))))|(~((~((~((~((~A)|C))|(~((~C)|A))))|((~((~B)|C))|(~((~C)|B)))))|(~((~((~((~B)|C))|(~((~C)|B))))|((~((~A)|C))|(~((~C)|A))))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/congL.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 2161,
+        "bytes": 970147,
+        "sha256": "9c9226935ecbc5a66d5424369b47be284860fb3d884406750daa8cc5eead8848",
+        "formula_nodes": 278658,
+        "substitution_nodes": 84757,
+        "max_line_nodes": 1233,
+        "max_record_nodes": 1776,
+        "max_line_depth": 22,
+        "goal_nodes": 66,
+        "goal_depth": 10
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "congR",
+      "mode": "native",
+      "expected_goal": "((~((A>B)>(~(B>A))))>(~((((C>A)>(~(A>C)))>((C>B)>(~(B>C))))>(~(((C>B)>(~(B>C)))>((C>A)>(~(A>C))))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/congR.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 2161,
+        "bytes": 662795,
+        "sha256": "32b771bd149fd7f7021b16330c1e013540e7aa4c5cee9d976fa0af8ca9318f2a",
+        "formula_nodes": 199482,
+        "substitution_nodes": 61501,
+        "max_line_nodes": 874,
+        "max_record_nodes": 1260,
+        "max_line_depth": 16,
+        "goal_nodes": 47,
+        "goal_depth": 8
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "congR",
+      "mode": "not-or",
+      "expected_goal": "((~(~((~((~A)|B))|(~((~B)|A)))))|(~((~((~((~((~C)|A))|(~((~A)|C))))|((~((~C)|B))|(~((~B)|C)))))|(~((~((~((~C)|B))|(~((~B)|C))))|((~((~C)|A))|(~((~A)|C))))))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/congR.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 2161,
+        "bytes": 969872,
+        "sha256": "6dd8850028bdd112fe126c0da92382d3f6ab4ea5adeaa18ec121a626300f0cba",
+        "formula_nodes": 278588,
+        "substitution_nodes": 84735,
+        "max_line_nodes": 1233,
+        "max_record_nodes": 1776,
+        "max_line_depth": 22,
+        "goal_nodes": 66,
+        "goal_depth": 10
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "refl",
+      "mode": "native",
+      "expected_goal": "(~((A>A)>(~(A>A))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/refl.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 320,
+        "bytes": 61473,
+        "sha256": "304ccb97cb06813a1a07e7674d429a5efc29df178ef43e93e67e3ec2cba70aba",
+        "formula_nodes": 16480,
+        "substitution_nodes": 4962,
+        "max_line_nodes": 190,
+        "max_record_nodes": 272,
+        "max_line_depth": 12,
+        "goal_nodes": 9,
+        "goal_depth": 4
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "refl",
+      "mode": "not-or",
+      "expected_goal": "(~((~((~A)|A))|(~((~A)|A))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/refl.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 320,
+        "bytes": 84168,
+        "sha256": "fe3a9b0325be39e0bbb45b37821bec482e3dc9cc0096271529f981eeb3e1b14c",
+        "formula_nodes": 22431,
+        "substitution_nodes": 6573,
+        "max_line_nodes": 261,
+        "max_record_nodes": 372,
+        "max_line_depth": 17,
+        "goal_nodes": 12,
+        "goal_depth": 5
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "imp_bridge",
+      "mode": "native",
+      "expected_goal": "(~(((A>B)>((~(~A))>B))>(~(((~(~A))>B)>(A>B)))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/imp_bridge.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 838,
+        "bytes": 211649,
+        "sha256": "ee221ae34f45d56a708da46abb73a77ed012ffd3b2d81cb6022c287dbbb84f95",
+        "formula_nodes": 58714,
+        "substitution_nodes": 17897,
+        "max_line_nodes": 406,
+        "max_record_nodes": 584,
+        "max_line_depth": 15,
+        "goal_nodes": 21,
+        "goal_depth": 7
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "imp_bridge",
+      "mode": "not-or",
+      "expected_goal": "(~((~((~((~A)|B))|((~(~(~A)))|B)))|(~((~((~(~(~A)))|B))|((~A)|B)))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/imp_bridge.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 838,
+        "bytes": 287342,
+        "sha256": "44621210494d6a87b3fb22a05a7da6280b72db0e6f30b957212af89b23edc266",
+        "formula_nodes": 78427,
+        "substitution_nodes": 23408,
+        "max_line_nodes": 549,
+        "max_record_nodes": 788,
+        "max_line_depth": 21,
+        "goal_nodes": 28,
+        "goal_depth": 9
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "double_neg_bridge",
+      "mode": "native",
+      "expected_goal": "(~((A>(~(~A)))>(~((~(~A))>A))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/double_neg_bridge.native.jsonl.gz",
+        "format": "native",
+        "accepted": true,
+        "lines": 380,
+        "bytes": 90886,
+        "sha256": "3bbb20634318f18ab17a897b96cd184b346afab8075b924fa08f54a30d7e83a6",
+        "formula_nodes": 23563,
+        "substitution_nodes": 7178,
+        "max_line_nodes": 262,
+        "max_record_nodes": 376,
+        "max_line_depth": 14,
+        "goal_nodes": 13,
+        "goal_depth": 6
+      },
+      "matches_saved": true,
+      "bounds": {}
+    },
+    {
+      "name": "double_neg_bridge",
+      "mode": "not-or",
+      "expected_goal": "(~((~((~A)|(~(~A))))|(~((~(~(~A)))|A))))",
+      "measurement": {
+        "path": "scripts/balanced-slot/output/double_neg_bridge.not-or.jsonl.gz",
+        "format": "not-or",
+        "accepted": true,
+        "lines": 380,
+        "bytes": 114775,
+        "sha256": "0aa76520378c84b2e0615d176adb4adaedfd05f0b2feff7ec287977d27e61965",
+        "formula_nodes": 29852,
+        "substitution_nodes": 8849,
+        "max_line_nodes": 333,
+        "max_record_nodes": 476,
+        "max_line_depth": 19,
+        "goal_nodes": 16,
+        "goal_depth": 7
+      },
+      "matches_saved": true,
+      "bounds": {}
+    }
+  ],
+  "failures": [],
+  "constants": {
+    "L": 3470,
+    "native": {
+      "D": 18,
+      "S": 2456
+    },
+    "not-or": {
+      "D": 25,
+      "S": 3492
+    }
+  },
+  "corruptions": [
+    {
+      "path": "output/corrupt-axiom-occurrence.jsonl.gz",
+      "rejected": true,
+      "reason": "line 0: inconsistent schema substitution"
+    },
+    {
+      "path": "output/corrupt-forward-reference.jsonl.gz",
+      "rejected": true,
+      "reason": "line 3: reference not strictly earlier"
+    },
+    {
+      "path": "output/corrupt-mp-antecedent.jsonl.gz",
+      "rejected": true,
+      "reason": "line 3: MP antecedent/consequent mismatch"
+    },
+    {
+      "path": "output/corrupt-endpoint.jsonl.gz",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    },
+    {
+      "path": "output/corrupt-not-or-axiom-occurrence.jsonl.gz",
+      "rejected": true,
+      "reason": "line 0: inconsistent schema substitution"
+    },
+    {
+      "path": "output/corrupt-not-or-forward-reference.jsonl.gz",
+      "rejected": true,
+      "reason": "line 3: reference not strictly earlier"
+    },
+    {
+      "path": "output/corrupt-not-or-mp-antecedent.jsonl.gz",
+      "rejected": true,
+      "reason": "line 3: MP antecedent/consequent mismatch"
+    },
+    {
+      "path": "output/corrupt-not-or-endpoint.jsonl.gz",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "primary-extract.json",
+      "actual": "e99ea24c3033292872a8836150047bc0f3b36456edad5749f92c5b4b64014fd8",
+      "required": "e99ea24c3033292872a8836150047bc0f3b36456edad5749f92c5b4b64014fd8",
+      "pass": true
+    },
+    {
+      "path": "basis-web-snapshot.json",
+      "actual": "d7a409454664672d12d00505c9d59cda68da525c1806b02f6eeff2622c29ba71",
+      "required": "d7a409454664672d12d00505c9d59cda68da525c1806b02f6eeff2622c29ba71",
+      "pass": true
+    },
+    {
+      "path": "classical-web-snapshot.json",
+      "actual": "207fd0814bb0daf7d71b456b5f05b1cf087041f9d03b0981d5ebf9ffffb8c826",
+      "required": "207fd0814bb0daf7d71b456b5f05b1cf087041f9d03b0981d5ebf9ffffb8c826",
+      "pass": true
+    }
+  ],
+  "complete": true
+}

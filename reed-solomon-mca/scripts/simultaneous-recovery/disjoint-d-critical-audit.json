@@ -1,0 +1,40 @@
+{
+  "certificate_sha256": {
+    "scripts/simultaneous-recovery/disjoint-d-pair-result.json": "bb5ada1c3ad5004fffb56b21a0994164d0bd3fbc97c5175fa63982c550a18dde",
+    "scripts/simultaneous-recovery/disjoint-d-pair-verification.json": "ec7139c96565cbb51781c2affcfdbe601f50f1f7952cfcae6e9280e96cf0c7fc"
+  },
+  "replay_matches_initial_bytes": true,
+  "producer_sha256": "f160e239c48fa1a0d305c573f55974a7b5d69b49a6ec592592079ac3a607b592",
+  "verifier_sha256": "421fea8cb27578fc5b928088e1ffb33e829c7a6343b45cdc21fc7676d7e49204",
+  "H": [
+    1,
+    8,
+    12,
+    18,
+    22,
+    27,
+    33,
+    47,
+    50,
+    64,
+    70,
+    75,
+    79,
+    85,
+    89,
+    96
+  ],
+  "generator": 8,
+  "summary": {
+    "complete_records_checked": 8190,
+    "required_records": 8190,
+    "cubic_memberships": 1351350,
+    "large_groups": 6930,
+    "checked_pairs": 38220,
+    "actual_disjoint_pairs": 0,
+    "required_for_pair": 1,
+    "failures": [],
+    "record_consistency_passed": true,
+    "proves_eleven": false
+  }
+}

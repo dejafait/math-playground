@@ -1,0 +1,157 @@
+{
+  "complete": true,
+  "failures": [],
+  "rejections": 13,
+  "cases": [
+    {
+      "name": "chain-198-used",
+      "row_count": 4,
+      "input_uncompressed_bytes": 33965761,
+      "locations": {
+        "path": "scripts/backward-zero/output/chain-198-used.locations.json",
+        "bytes": 1143,
+        "required": 114816
+      },
+      "formats": {
+        "native": {
+          "lines": {
+            "actual": 97217,
+            "required": 21467277337559083566
+          },
+          "bytes": {
+            "actual": 94471045,
+            "required": 2506317944904699935856117781112522750982310277920434528
+          },
+          "max_line_depth": {
+            "actual": 37,
+            "required": 161
+          },
+          "max_record_nodes": {
+            "actual": 9216,
+            "required": 7783374685401328525189757681008640
+          },
+          "path": "scripts/backward-zero/output/chain-198-used.native.jsonl.gz"
+        },
+        "not-or": {
+          "lines": {
+            "actual": 97217,
+            "required": 21467277337559083566
+          },
+          "bytes": {
+            "actual": 134026480,
+            "required": 4276251920329256763522587927513742229425552608030367018
+          },
+          "max_line_depth": {
+            "actual": 37,
+            "required": 310
+          },
+          "max_record_nodes": {
+            "actual": 12332,
+            "required": 13279907687990931210079462779518976
+          },
+          "path": "scripts/backward-zero/output/chain-198-used.not-or.jsonl.gz"
+        }
+      }
+    },
+    {
+      "name": "chain-198-depth-zero",
+      "row_count": 0,
+      "input_uncompressed_bytes": 13770715,
+      "locations": {
+        "path": "scripts/backward-zero/output/chain-198-depth-zero.locations.json",
+        "bytes": 280,
+        "required": 12160
+      },
+      "formats": {
+        "native": {
+          "lines": {
+            "actual": 17552,
+            "required": 17552
+          },
+          "bytes": {
+            "actual": 13779092,
+            "required": 445368271946029387961862697504
+          },
+          "max_line_depth": {
+            "actual": 37,
+            "required": 134
+          },
+          "max_record_nodes": {
+            "actual": 5056,
+            "required": 29691218129735292530783682560
+          },
+          "path": "scripts/backward-zero/output/chain-198-depth-zero.native.jsonl.gz"
+        },
+        "not-or": {
+          "lines": {
+            "actual": 17552,
+            "required": 17552
+          },
+          "bytes": {
+            "actual": 19996271,
+            "required": 759882413176971314053452531274
+          },
+          "max_line_depth": {
+            "actual": 37,
+            "required": 256
+          },
+          "max_record_nodes": {
+            "actual": 6924,
+            "required": 50658827545131420936887599104
+          },
+          "path": "scripts/backward-zero/output/chain-198-depth-zero.not-or.jsonl.gz"
+        }
+      }
+    },
+    {
+      "name": "chain-198-empty-level",
+      "row_count": 2,
+      "input_uncompressed_bytes": 13771023,
+      "locations": {
+        "path": "scripts/backward-zero/output/chain-198-empty-level.locations.json",
+        "bytes": 667,
+        "required": 87040
+      },
+      "formats": {
+        "native": {
+          "lines": {
+            "actual": 31808,
+            "required": 10733638668779537552
+          },
+          "bytes": {
+            "actual": 25923311,
+            "required": 1253158972452349967986434200696770652477203519640678048
+          },
+          "max_line_depth": {
+            "actual": 37,
+            "required": 161
+          },
+          "max_record_nodes": {
+            "actual": 6720,
+            "required": 7783374685401328525189757681008640
+          },
+          "path": "scripts/backward-zero/output/chain-198-empty-level.native.jsonl.gz"
+        },
+        "not-or": {
+          "lines": {
+            "actual": 31808,
+            "required": 10733638668779537552
+          },
+          "bytes": {
+            "actual": 37662659,
+            "required": 2138125960164628381860893271416802411835497472930218698
+          },
+          "max_line_depth": {
+            "actual": 37,
+            "required": 310
+          },
+          "max_record_nodes": {
+            "actual": 9212,
+            "required": 13279907687990931210079462779518976
+          },
+          "path": "scripts/backward-zero/output/chain-198-empty-level.not-or.jsonl.gz"
+        }
+      }
+    }
+  ]
+}

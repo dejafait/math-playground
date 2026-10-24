@@ -1,0 +1,74 @@
+{
+  "parameters": {
+    "q": 137,
+    "n": 963,
+    "w": 7,
+    "unused_points": 4
+  },
+  "monic_root_histogram": {
+    "0": 17962,
+    "1": 924,
+    "2": 21
+  },
+  "neighbors_by_intersection": {
+    "0": 2442832,
+    "1": 125664,
+    "2": 2856
+  },
+  "ordered_pair_orbit_sizes": {
+    "0": 141648856650198600,
+    "1": 7306098921957612,
+    "2": 138285784011816
+  },
+  "diagonal": {
+    "numerator": 18769,
+    "denominator": 1088280707527728
+  },
+  "conditional_row_values": {
+    "0": {
+      "numerator": 17962,
+      "denominator": 1041535710663225
+    },
+    "1": {
+      "numerator": 88,
+      "denominator": 5116315771679
+    },
+    "2": {
+      "numerator": 1,
+      "denominator": 48419392161
+    }
+  },
+  "link_certificate": {
+    "independent_parts": 21,
+    "constant_row": {
+      "numerator": 1,
+      "denominator": 48419392161
+    },
+    "nonempty_mixture_weight": {
+      "numerator": 1,
+      "denominator": 2305685341
+    },
+    "empty_set_weight": {
+      "numerator": 2305685340,
+      "denominator": 2305685341
+    }
+  },
+  "objective": 2571353,
+  "required_strict_upper_cap": 1532496,
+  "excess": 1038857,
+  "checks": {
+    "auxiliary_field_prime": true,
+    "seven_groups_fit": true,
+    "all_monic_polynomials_counted": true,
+    "nonzero_root_bound": true,
+    "all_nonzero_polynomials_counted": true,
+    "two_root_count": true,
+    "one_root_incidence": true,
+    "conditional_two_formula": true,
+    "link_mixture_weight_at_most_one": true,
+    "objective_exceeds_required_cap": true,
+    "objective_below_ordinary_upper_cap": true
+  },
+  "failures": [],
+  "limitations": "Finite counts only: the permutation-average PSD identity and all-core link applicability are proved in L028, not numerically checked here. No actual RS list realization."
+}

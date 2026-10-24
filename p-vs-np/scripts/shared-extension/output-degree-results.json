@@ -1,0 +1,107 @@
+{
+  "scope": "Exact projected words through m=10 and full free-placeholder words through m=6; larger DAG upper bounds only. General lower bound requires L022's induction.",
+  "small_cases": [
+    {
+      "m": 2,
+      "projected_formal_degree": 3,
+      "projected_monomials": 2,
+      "full_formal_degree": 5,
+      "positive_unit_checks": 3,
+      "negative_unit_checks": 1
+    },
+    {
+      "m": 3,
+      "projected_formal_degree": 7,
+      "projected_monomials": 4,
+      "full_formal_degree": 8,
+      "positive_unit_checks": 4,
+      "negative_unit_checks": 2
+    },
+    {
+      "m": 4,
+      "projected_formal_degree": 14,
+      "projected_monomials": 10,
+      "full_formal_degree": 15,
+      "positive_unit_checks": 5,
+      "negative_unit_checks": 3
+    },
+    {
+      "m": 5,
+      "projected_formal_degree": 25,
+      "projected_monomials": 22,
+      "full_formal_degree": 26,
+      "positive_unit_checks": 6,
+      "negative_unit_checks": 4
+    },
+    {
+      "m": 6,
+      "projected_formal_degree": 43,
+      "projected_monomials": 54,
+      "full_formal_degree": 44,
+      "positive_unit_checks": 7,
+      "negative_unit_checks": 5
+    },
+    {
+      "m": 7,
+      "projected_formal_degree": 72,
+      "projected_monomials": 126,
+      "full_formal_degree": null,
+      "positive_unit_checks": 8,
+      "negative_unit_checks": 6
+    },
+    {
+      "m": 8,
+      "projected_formal_degree": 119,
+      "projected_monomials": 298,
+      "full_formal_degree": null,
+      "positive_unit_checks": 9,
+      "negative_unit_checks": 7
+    },
+    {
+      "m": 9,
+      "projected_formal_degree": 195,
+      "projected_monomials": 702,
+      "full_formal_degree": null,
+      "positive_unit_checks": 10,
+      "negative_unit_checks": 8
+    },
+    {
+      "m": 10,
+      "projected_formal_degree": 318,
+      "projected_monomials": 1658,
+      "full_formal_degree": null,
+      "positive_unit_checks": 11,
+      "negative_unit_checks": 9
+    }
+  ],
+  "large_cases": [
+    {
+      "m": 16,
+      "T_bits": 4000,
+      "projected_degree_upper": "5774",
+      "proved_surviving_degree": "5774",
+      "word_expansion": false
+    },
+    {
+      "m": 32,
+      "T_bits": 9634,
+      "projected_degree_upper": "12752039",
+      "proved_surviving_degree": "12752039",
+      "word_expansion": false
+    },
+    {
+      "m": 64,
+      "T_bits": 22708,
+      "projected_degree_upper": "62113250390414",
+      "proved_surviving_degree": "62113250390414",
+      "word_expansion": false
+    },
+    {
+      "m": 128,
+      "T_bits": 52518,
+      "projected_degree_upper": "1473646213395791149646646119",
+      "proved_surviving_degree": "1473646213395791149646646119",
+      "word_expansion": false
+    }
+  ]
+}

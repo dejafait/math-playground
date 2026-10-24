@@ -1,0 +1,173 @@
+{
+  "audit_program_sha256": "3fd3d0b98490aedc4d74fd748cfe581f391fe9b0656ad838f40e5dea74981e67",
+  "summary": {
+    "full_replay": {
+      "input": "scripts/conductor389-absolute-cycles/critical-audit/full-replay/scripts/conductor389-absolute-cycles/certificate.json",
+      "report": "scripts/conductor389-absolute-cycles/critical-audit/full-replay/scripts/conductor389-absolute-cycles/verification.json",
+      "input_sha256": "0181aa07e1ec1f6b1afec6f290f9a45f1917786aa7c7b6ede64a78e5678e6724",
+      "report_sha256": "58e04f30b40838d81f01476717f34c571053617e5f1fac8cc256d4edcd21854d",
+      "exit_code": 0,
+      "failures": [],
+      "stale_report_replaced": true
+    },
+    "checks_passed": 33932,
+    "actual_required": {
+      "kernel_rank_actual": 64,
+      "kernel_rank_required": 64,
+      "image": "1/2",
+      "primitive_image": "Z",
+      "period_interval": [
+        55445334949484787157,
+        127964281715338701155
+      ],
+      "scale": 18446744073709551616,
+      "required_orientation": "strict exclusion of zero",
+      "attempts_actual": 1,
+      "attempts_maximum": 9,
+      "terms_actual": 256,
+      "terms_required": 256,
+      "cosine_residues": 194,
+      "prime_counts": 54,
+      "normalizing_scalar": "-1",
+      "generator_values_actual": 390,
+      "generator_values_required": 390,
+      "all_generator_denominator": 2,
+      "denominator_primes": [
+        2
+      ],
+      "tail_upper": 36259473382926955890,
+      "upstream_report": "upstream-replay/dual-verification.json"
+    },
+    "independent_enclosure": {
+      "terms_actual": 256,
+      "terms_required": 256,
+      "outward_period": [
+        55445334949484791966,
+        127964281715338696442
+      ],
+      "scale": 18446744073709551616,
+      "required_lower_bound": 0,
+      "tail_upper_units": 36259473382926952018,
+      "finite_sum_outward": [
+        91704808332411743983,
+        91704808332411744425
+      ],
+      "complete_evidence_sha256": "805ad8829ca32fd10deb6698ae4ab48890ea0145da3a3ecc6718b0cc447e5a2f"
+    },
+    "rejections": [
+      {
+        "case": "input-binding",
+        "expected": "complete input bindings",
+        "input": "scripts/conductor389-absolute-cycles/critical-audit/altered/input-binding/scripts/conductor389-absolute-cycles/certificate.json",
+        "report": "scripts/conductor389-absolute-cycles/critical-audit/altered/input-binding/scripts/conductor389-absolute-cycles/verification.json",
+        "input_sha256": "8ea157e895da5edb9b3e875f06e6848675030014e64c974e93dde589a5179a20",
+        "report_sha256": "6b86d7a567529fd432f3e8e700f54de8c1af67b7087ef249d55e3399c3e59f59",
+        "exit_code": 1,
+        "failures": [
+          "ValueError: complete input bindings"
+        ],
+        "stale_report_replaced": true
+      },
+      {
+        "case": "component-scope",
+        "expected": "exact source scope",
+        "input": "scripts/conductor389-absolute-cycles/critical-audit/altered/component-scope/scripts/conductor389-absolute-cycles/certificate.json",
+        "report": "scripts/conductor389-absolute-cycles/critical-audit/altered/component-scope/scripts/conductor389-absolute-cycles/verification.json",
+        "input_sha256": "95a52dc4300081b31c2eef22383abd7ce6b51a9c3f749294e070797bcf58077d",
+        "report_sha256": "c777920777f9b57de5a28690914b30eeaad8e756a9b482a21e5098fcda620950",
+        "exit_code": 1,
+        "failures": [
+          "ValueError: exact source scope"
+        ],
+        "stale_report_replaced": true
+      },
+      {
+        "case": "cusp-orientation",
+        "expected": "complete oriented raw cycle",
+        "input": "scripts/conductor389-absolute-cycles/critical-audit/altered/cusp-orientation/scripts/conductor389-absolute-cycles/certificate.json",
+        "report": "scripts/conductor389-absolute-cycles/critical-audit/altered/cusp-orientation/scripts/conductor389-absolute-cycles/verification.json",
+        "input_sha256": "28e6deabb3bf14a7a12d8c18bf9a2d6ddde2f036be725ea7249e97efb1b1add1",
+        "report_sha256": "d689e23d2029af10b50a5abed514ecffaac892c1578037a40d7aa80e53961940",
+        "exit_code": 1,
+        "failures": [
+          "ValueError: complete oriented raw cycle"
+        ],
+        "stale_report_replaced": true
+      },
+      {
+        "case": "kernel-inverse",
+        "expected": "both unimodular inverse products",
+        "input": "scripts/conductor389-absolute-cycles/critical-audit/altered/kernel-inverse/scripts/conductor389-absolute-cycles/certificate.json",
+        "report": "scripts/conductor389-absolute-cycles/critical-audit/altered/kernel-inverse/scripts/conductor389-absolute-cycles/verification.json",
+        "input_sha256": "2c8e40553a612e009f6c3e4ecc45699ca90fade7a83571fa0b367d8ed8c145e9",
+        "report_sha256": "202d73c7a2a5ba71d95a5856d5fabd935d91116ddd45f5cc6e4807c0df0ca427",
+        "exit_code": 1,
+        "failures": [
+          "ValueError: both unimodular inverse products"
+        ],
+        "stale_report_replaced": true
+      },
+      {
+        "case": "image-primitivity",
+        "expected": "complete gcd Bezout primitivity",
+        "input": "scripts/conductor389-absolute-cycles/critical-audit/altered/image-primitivity/scripts/conductor389-absolute-cycles/certificate.json",
+        "report": "scripts/conductor389-absolute-cycles/critical-audit/altered/image-primitivity/scripts/conductor389-absolute-cycles/verification.json",
+        "input_sha256": "4d917653a0fdd3664498225e58382e9c8014cd80401ac8286c8d029732d649a3",
+        "report_sha256": "dc13096db624b078841e59437de2deff1b040113468ea11f9fcda5c7739e9784",
+        "exit_code": 1,
+        "failures": [
+          "ValueError: complete gcd Bezout primitivity"
+        ],
+        "stale_report_replaced": true
+      },
+      {
+        "case": "fourier-coefficient",
+        "expected": "every model-derived Fourier coefficient",
+        "input": "scripts/conductor389-absolute-cycles/critical-audit/altered/fourier-coefficient/scripts/conductor389-absolute-cycles/certificate.json",
+        "report": "scripts/conductor389-absolute-cycles/critical-audit/altered/fourier-coefficient/scripts/conductor389-absolute-cycles/verification.json",
+        "input_sha256": "63b34fab60984f0d80381d7b1c6daa0e9c5d16fb8ad057879eac6c7e0e0cc797",
+        "report_sha256": "deab5f9f33b97e3f4778eeb422216fcde954efec39e34617a3647848f11f484d",
+        "exit_code": 1,
+        "failures": [
+          "ValueError: every model-derived Fourier coefficient"
+        ],
+        "stale_report_replaced": true
+      },
+      {
+        "case": "full-tail",
+        "expected": "full two-series geometric remainder",
+        "input": "scripts/conductor389-absolute-cycles/critical-audit/altered/full-tail/scripts/conductor389-absolute-cycles/certificate.json",
+        "report": "scripts/conductor389-absolute-cycles/critical-audit/altered/full-tail/scripts/conductor389-absolute-cycles/verification.json",
+        "input_sha256": "7871976f526d97f231dfbbbcf80a6f66727facbf6ad2dee607a6708f73e4e43a",
+        "report_sha256": "0683dc2a7802fec65080ae8a34e57f20ebff1f0ef7529df0dae19c4b47a1cb3d",
+        "exit_code": 1,
+        "failures": [
+          "ValueError: full two-series geometric remainder"
+        ],
+        "stale_report_replaced": true
+      },
+      {
+        "case": "last-normalized-value",
+        "expected": "all 390 normalized generators",
+        "input": "scripts/conductor389-absolute-cycles/critical-audit/altered/last-normalized-value/scripts/conductor389-absolute-cycles/certificate.json",
+        "report": "scripts/conductor389-absolute-cycles/critical-audit/altered/last-normalized-value/scripts/conductor389-absolute-cycles/verification.json",
+        "input_sha256": "ba9ef2e6a505b70e9d7b27b19739f712179b1381387776c30582df03be75366a",
+        "report_sha256": "3e04a7cc62b95c9dcb2037074ea3a2d851f031775a2f4b57b7b5432415565f42",
+        "exit_code": 1,
+        "failures": [
+          "ValueError: all 390 normalized generators"
+        ],
+        "stale_report_replaced": true
+      }
+    ],
+    "post_recovery_comparison": {
+      "L032_sha256": "9d5bc211026d1b0a7c4faddc13c64a9b819bd334b8507d19bb294dc7bed74a68",
+      "values_actual": 390,
+      "values_required": 390,
+      "scalar": "-1",
+      "denominator": 2
+    },
+    "original_files_unchanged": 20
+  },
+  "failures": []
+}

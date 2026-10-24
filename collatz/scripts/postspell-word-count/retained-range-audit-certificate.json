@@ -1,0 +1,3128 @@
+{
+  "scope": "Independent scalar arithmetic audit, not orbit realization or source computation verification",
+  "input_sha256": {
+    "retained-range-certificate.json": "17c42081a223ace1081162584840d4f9aa539d6d6ccefd1dc3811d614a9836e3",
+    "retained-range-initial-certificate.json": "d66daf0762cbe90cc29cd065ea372c30a976484b1bd6a4f2e3af202266c7dc87"
+  },
+  "checks": [
+    {
+      "name": "exclusion/last_r",
+      "actual": 17,
+      "relation": "=",
+      "required": 17,
+      "passed": true
+    },
+    {
+      "name": "exclusion/R",
+      "actual": 131071,
+      "relation": "=",
+      "required": 131071,
+      "passed": true
+    },
+    {
+      "name": "exclusion/M",
+      "actual": 225640000,
+      "relation": "=",
+      "required": 225640000,
+      "passed": true
+    },
+    {
+      "name": "exclusion/C",
+      "actual": 338460000,
+      "relation": "=",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "exclusion/A",
+      "actual": {
+        "numerator": "52297329",
+        "denominator": "5"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "52297329",
+        "denominator": "5"
+      },
+      "passed": true
+    },
+    {
+      "name": "exclusion/rhs_upper",
+      "actual": {
+        "numerator": "226059727725",
+        "denominator": "1034"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "226059727725",
+        "denominator": "1034"
+      },
+      "passed": true
+    },
+    {
+      "name": "exclusion/margin_lower",
+      "actual": {
+        "numerator": "123907912275",
+        "denominator": "1034"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "123907912275",
+        "denominator": "1034"
+      },
+      "passed": true
+    },
+    {
+      "name": "exponential finite sum",
+      "actual": {
+        "numerator": "163",
+        "denominator": "60"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "163",
+        "denominator": "60"
+      },
+      "passed": true
+    },
+    {
+      "name": "exponential lower comparison",
+      "actual": {
+        "numerator": "163",
+        "denominator": "60"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "27",
+        "denominator": "10"
+      },
+      "passed": true
+    },
+    {
+      "name": "log17 upper comparison",
+      "actual": {
+        "numerator": "19683",
+        "denominator": "1000"
+      },
+      "relation": ">",
+      "required": 17,
+      "passed": true
+    },
+    {
+      "name": "logC upper comparison",
+      "actual": {
+        "numerator": "42391158275216203514294433201",
+        "denominator": "100000000000000000000"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "derivative threshold",
+      "actual": {
+        "numerator": "52297329",
+        "denominator": "5"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "real-ray initial margin",
+      "actual": {
+        "numerator": "123907912275",
+        "denominator": "1034"
+      },
+      "relation": ">",
+      "required": 119833000,
+      "passed": true
+    },
+    {
+      "name": "primitive length bridge",
+      "actual": 9,
+      "relation": ">",
+      "required": 8,
+      "passed": true
+    },
+    {
+      "name": "eighteen words",
+      "actual": 18,
+      "relation": "=",
+      "required": 18,
+      "passed": true
+    },
+    {
+      "name": "r positive integer",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "K positive integer",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "L positive integer",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "N positive integer",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "d positive integer",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "K0 positive integer",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "L0 positive integer",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J array length",
+      "actual": 18,
+      "relation": "=",
+      "required": 18,
+      "passed": true
+    },
+    {
+      "name": "J[0] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[1] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[2] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[3] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[4] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[5] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[6] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[7] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[8] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[9] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[10] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[11] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[12] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[13] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[14] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[15] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[16] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "J[17] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H array length",
+      "actual": 18,
+      "relation": "=",
+      "required": 18,
+      "passed": true
+    },
+    {
+      "name": "H[0] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[1] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[2] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[3] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[4] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[5] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[6] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[7] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[8] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[9] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[10] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[11] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[12] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[13] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[14] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[15] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[16] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "H[17] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a array length",
+      "actual": 18,
+      "relation": "=",
+      "required": 18,
+      "passed": true
+    },
+    {
+      "name": "a[0] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[1] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[2] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[3] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[4] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[5] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[6] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[7] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[8] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[9] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[10] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[11] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[12] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[13] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[14] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[15] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[16] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[17] integer guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "a[0] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[1] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[2] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[3] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[4] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[5] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[6] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[7] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[8] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[9] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[10] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[11] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[12] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[13] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[14] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[15] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[16] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "a[17] exact congruence",
+      "actual": 2,
+      "relation": "=",
+      "required": 2,
+      "passed": true
+    },
+    {
+      "name": "sumJ",
+      "actual": 36,
+      "relation": "=",
+      "required": 36,
+      "passed": true
+    },
+    {
+      "name": "sumH",
+      "actual": 225639893,
+      "relation": "=",
+      "required": 225639893,
+      "passed": true
+    },
+    {
+      "name": "suma",
+      "actual": 131990904,
+      "relation": "=",
+      "required": 131990904,
+      "passed": true
+    },
+    {
+      "name": "odd count",
+      "actual": 225640001,
+      "relation": "=",
+      "required": 225640001,
+      "passed": true
+    },
+    {
+      "name": "even count",
+      "actual": 131990940,
+      "relation": "=",
+      "required": 131990940,
+      "passed": true
+    },
+    {
+      "name": "total count",
+      "actual": 357630941,
+      "relation": "=",
+      "required": 357630941,
+      "passed": true
+    },
+    {
+      "name": "N=K+L",
+      "actual": 357630941,
+      "relation": "=",
+      "required": 357630941,
+      "passed": true
+    },
+    {
+      "name": "primitive odd scaling",
+      "actual": 225640001,
+      "relation": "=",
+      "required": 225640001,
+      "passed": true
+    },
+    {
+      "name": "primitive even scaling",
+      "actual": 131990940,
+      "relation": "=",
+      "required": 131990940,
+      "passed": true
+    },
+    {
+      "name": "primitive odd threshold",
+      "actual": 225640001,
+      "relation": ">",
+      "required": 225640000,
+      "passed": true
+    },
+    {
+      "name": "length threshold",
+      "actual": 357630941,
+      "relation": ">",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "logN lower comparison",
+      "actual": 357630941,
+      "relation": ">",
+      "required": 129140163,
+      "passed": true
+    },
+    {
+      "name": "saved K lower bound",
+      "actual": {
+        "numerator": "1848894579",
+        "denominator": "8"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "1848894579",
+        "denominator": "8"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved N lower bound",
+      "actual": {
+        "numerator": "955878500448",
+        "denominator": "2585"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "955878500448",
+        "denominator": "2585"
+      },
+      "passed": true
+    },
+    {
+      "name": "aggregate odd-count bound",
+      "actual": 225640001,
+      "relation": "<",
+      "required": {
+        "numerator": "1848894579",
+        "denominator": "8"
+      },
+      "passed": true
+    },
+    {
+      "name": "aggregate length bound",
+      "actual": 357630941,
+      "relation": "<",
+      "required": {
+        "numerator": "955878500448",
+        "denominator": "2585"
+      },
+      "passed": true
+    },
+    {
+      "name": "length conversion, stronger form",
+      "actual": 357630941,
+      "relation": "<",
+      "required": {
+        "numerator": "1805120008",
+        "denominator": "5"
+      },
+      "passed": true
+    },
+    {
+      "name": "log2 complete lower endpoint",
+      "actual": {
+        "numerator": "3508595171842993185134796784736611366655501408312351140098685578379184556173245757359910454882815130815005200896",
+        "denominator": "5061832854904846645955900741673035877578026003792249877488563088418276175757042525151232593509677298791370051125"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "3508595171842993185134796784736611366655501408312351140098685578379184556173245757359910454882815130815005200896",
+        "denominator": "5061832854904846645955900741673035877578026003792249877488563088418276175757042525151232593509677298791370051125"
+      },
+      "passed": true
+    },
+    {
+      "name": "log2 complete upper endpoint",
+      "actual": {
+        "numerator": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877",
+        "denominator": "60741994258858159751470808900076430530936312045506998529862757061019314109084510301814791122116127585496440613500"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877",
+        "denominator": "60741994258858159751470808900076430530936312045506998529862757061019314109084510301814791122116127585496440613500"
+      },
+      "passed": true
+    },
+    {
+      "name": "log2 decimal lower",
+      "actual": {
+        "numerator": "6931471805599453",
+        "denominator": "10000000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "3508595171842993185134796784736611366655501408312351140098685578379184556173245757359910454882815130815005200896",
+        "denominator": "5061832854904846645955900741673035877578026003792249877488563088418276175757042525151232593509677298791370051125"
+      },
+      "passed": true
+    },
+    {
+      "name": "log2 decimal upper",
+      "actual": {
+        "numerator": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877",
+        "denominator": "60741994258858159751470808900076430530936312045506998529862757061019314109084510301814791122116127585496440613500"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "3465735902799727",
+        "denominator": "5000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 complete lower endpoint",
+      "actual": {
+        "numerator": "9750286477333934264936876875837695499108858363985284227862595533092664691993496753301134253",
+        "denominator": "8875093222518551031295196273198323940083069189068398162376710109214239563648708678516736000"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "9750286477333934264936876875837695499108858363985284227862595533092664691993496753301134253",
+        "denominator": "8875093222518551031295196273198323940083069189068398162376710109214239563648708678516736000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 complete upper endpoint",
+      "actual": {
+        "numerator": "4875143238666967132468438437918847749554563970389878441163809513045892668151772388204669689",
+        "denominator": "4437546611259275515647598136599161970041534594534199081188355054607119781824354339258368000"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "4875143238666967132468438437918847749554563970389878441163809513045892668151772388204669689",
+        "denominator": "4437546611259275515647598136599161970041534594534199081188355054607119781824354339258368000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 decimal lower",
+      "actual": {
+        "numerator": "1373265360835137",
+        "denominator": "1250000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "9750286477333934264936876875837695499108858363985284227862595533092664691993496753301134253",
+        "denominator": "8875093222518551031295196273198323940083069189068398162376710109214239563648708678516736000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 decimal upper",
+      "actual": {
+        "numerator": "4875143238666967132468438437918847749554563970389878441163809513045892668151772388204669689",
+        "denominator": "4437546611259275515647598136599161970041534594534199081188355054607119781824354339258368000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "10986122886681097",
+        "denominator": "10000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved lambda lower",
+      "actual": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved lambda upper",
+      "actual": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "positive lambda margin",
+      "actual": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "lambda upper",
+      "actual": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "53",
+        "denominator": "100"
+      },
+      "passed": true
+    },
+    {
+      "name": "upper cap",
+      "actual": {
+        "numerator": "53",
+        "denominator": "100"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "414",
+        "denominator": "517"
+      },
+      "passed": true
+    },
+    {
+      "name": "lower-form exponent guard",
+      "actual": {
+        "numerator": "133",
+        "denominator": "10"
+      },
+      "relation": ">",
+      "required": 1,
+      "passed": true
+    },
+    {
+      "name": "lower-form constant guard",
+      "actual": {
+        "numerator": "6125581",
+        "denominator": "1000000"
+      },
+      "relation": ">",
+      "required": 0,
+      "passed": true
+    },
+    {
+      "name": "lower-form domination",
+      "actual": {
+        "numerator": "1",
+        "denominator": "225640001"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved comparison count",
+      "actual": 99,
+      "relation": "=",
+      "required": 99,
+      "passed": true
+    },
+    {
+      "name": "replay/exp partial sum exceeds 27/10",
+      "actual": {
+        "numerator": "163",
+        "denominator": "60"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "27",
+        "denominator": "10"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/exp partial sum exceeds 27/10",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/log17 below 3",
+      "actual": {
+        "numerator": "19683",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "17000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/log17 below 3",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/log C below 20",
+      "actual": {
+        "numerator": "42391158275216203514294433201",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "33846000000000000000000000000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/log C below 20",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/A17 below C",
+      "actual": {
+        "numerator": "52297329",
+        "denominator": "5"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/A17 below C",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/r17 conservative RHS below C",
+      "actual": {
+        "numerator": "226059727725",
+        "denominator": "1034"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/r17 conservative RHS below C",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/r17 margin exceeds 119833000",
+      "actual": {
+        "numerator": "123907912275",
+        "denominator": "1034"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "119833000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/r17 margin exceeds 119833000",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/log3/log2 exceeds 3/2",
+      "actual": {
+        "numerator": "9",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "8",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/log3/log2 exceeds 3/2",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[0] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[0] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[0] lower guard",
+      "actual": {
+        "numerator": "225639842",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[0] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[0] lower guard",
+      "actual": {
+        "numerator": "131990870",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[0] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[0] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[0] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[1] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[1] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[1] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[1] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[1] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[1] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[1] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[1] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[2] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[2] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[2] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[2] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[2] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[2] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[2] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[2] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[3] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[3] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[3] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[3] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[3] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[3] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[3] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[3] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[4] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[4] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[4] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[4] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[4] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[4] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[4] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[4] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[5] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[5] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[5] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[5] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[5] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[5] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[5] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[5] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[6] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[6] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[6] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[6] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[6] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[6] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[6] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[6] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[7] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[7] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[7] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[7] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[7] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[7] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[7] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[7] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[8] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[8] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[8] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[8] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[8] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[8] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[8] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[8] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[9] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[9] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[9] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[9] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[9] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[9] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[9] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[9] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[10] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[10] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[10] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[10] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[10] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[10] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[10] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[10] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[11] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[11] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[11] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[11] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[11] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[11] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[11] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[11] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[12] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[12] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[12] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[12] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[12] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[12] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[12] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[12] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[13] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[13] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[13] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[13] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[13] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[13] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[13] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[13] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[14] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[14] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[14] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[14] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[14] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[14] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[14] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[14] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[15] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[15] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[15] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[15] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[15] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[15] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[15] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[15] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[16] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[16] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[16] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[16] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[16] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[16] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[16] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[16] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/J[17] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/J[17] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/H[17] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/H[17] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[17] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[17] lower guard",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/a[17] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/a[17] congruence",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/number of words",
+      "actual": {
+        "numerator": "18",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "18",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/number of words",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/K word count",
+      "actual": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/K word count",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/L word count",
+      "actual": {
+        "numerator": "131990940",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "131990940",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/L word count",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/N word count",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/N word count",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/primitive odd scaling",
+      "actual": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/primitive odd scaling",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/primitive even scaling",
+      "actual": {
+        "numerator": "131990940",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "131990940",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/primitive even scaling",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/K0 exceeds published M",
+      "actual": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "225640000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/K0 exceeds published M",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/N exceeds C",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/N exceeds C",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/log N exceeds 17 using e<3",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "129140163",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/log N exceeds 17 using e<3",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/K below aggregate bound lower estimate",
+      "actual": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "1848894579",
+        "denominator": "8"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/K below aggregate bound lower estimate",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/N below assembled bound lower estimate",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "955878500448",
+        "denominator": "2585"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/N below assembled bound lower estimate",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/length conversion",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "933247047241",
+        "denominator": "2585"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/length conversion",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/log2 decimal lower",
+      "actual": {
+        "numerator": "6931471805599453",
+        "denominator": "10000000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "3508595171842993185134796784736611366655501408312351140098685578379184556173245757359910454882815130815005200896",
+        "denominator": "5061832854904846645955900741673035877578026003792249877488563088418276175757042525151232593509677298791370051125"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/log2 decimal lower",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/log2 decimal upper",
+      "actual": {
+        "numerator": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877",
+        "denominator": "60741994258858159751470808900076430530936312045506998529862757061019314109084510301814791122116127585496440613500"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "3465735902799727",
+        "denominator": "5000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/log2 decimal upper",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/log3 decimal lower",
+      "actual": {
+        "numerator": "1373265360835137",
+        "denominator": "1250000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "9750286477333934264936876875837695499108858363985284227862595533092664691993496753301134253",
+        "denominator": "8875093222518551031295196273198323940083069189068398162376710109214239563648708678516736000"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/log3 decimal lower",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/log3 decimal upper",
+      "actual": {
+        "numerator": "4875143238666967132468438437918847749554563970389878441163809513045892668151772388204669689",
+        "denominator": "4437546611259275515647598136599161970041534594534199081188355054607119781824354339258368000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "10986122886681097",
+        "denominator": "10000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/log3 decimal upper",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/lambda lower exceeds 1/2",
+      "actual": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/lambda lower exceeds 1/2",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/lambda upper below 53/100",
+      "actual": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "53",
+        "denominator": "100"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/lambda upper below 53/100",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/53/100 below r18 cap",
+      "actual": {
+        "numerator": "53",
+        "denominator": "100"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "414",
+        "denominator": "517"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/53/100 below r18 cap",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay/optional lower form dominated by 1/K",
+      "actual": {
+        "numerator": "1",
+        "denominator": "225640001"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "saved pass/optional lower form dominated by 1/K",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "saved summary count",
+      "actual": 99,
+      "relation": "=",
+      "required": 99,
+      "passed": true
+    },
+    {
+      "name": "saved failures",
+      "actual": [],
+      "relation": "=",
+      "required": [],
+      "passed": true
+    },
+    {
+      "name": "initial failed tail",
+      "actual": 131990860,
+      "relation": "=",
+      "required": 131990860,
+      "passed": true
+    },
+    {
+      "name": "initial tail residue",
+      "actual": 10,
+      "relation": "=",
+      "required": 10,
+      "passed": true
+    },
+    {
+      "name": "initial reported failure",
+      "actual": [
+        "a[0] congruence"
+      ],
+      "relation": "=",
+      "required": [
+        "a[0] congruence"
+      ],
+      "passed": true
+    },
+    {
+      "name": "retained-range-certificate.json preserved",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "retained-range-initial-certificate.json preserved",
+      "actual": true,
+      "relation": "=",
+      "required": true,
+      "passed": true
+    }
+  ],
+  "summary": {
+    "checks": 336,
+    "failures": []
+  }
+}

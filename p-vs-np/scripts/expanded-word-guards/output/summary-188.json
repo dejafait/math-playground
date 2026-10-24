@@ -1,0 +1,157 @@
+{
+  "complete": true,
+  "failures": [],
+  "fixed_templates": 24,
+  "constants": {
+    "L": 8179,
+    "native": {
+      "D": 26,
+      "S": 19200
+    },
+    "not-or": {
+      "D": 35,
+      "S": 25956
+    }
+  },
+  "rejections": 15,
+  "cases": [
+    {
+      "name": "one-clause-q-collision",
+      "positions": 2,
+      "formats": {
+        "native": {
+          "actual_lines": 7536,
+          "required_lines": 35297,
+          "actual_bytes": 6029456,
+          "required_bytes": 138740750016,
+          "depth": {
+            "actual": 21,
+            "required": 32
+          },
+          "record_nodes": {
+            "actual": 4328,
+            "required": 864000
+          }
+        },
+        "not-or": {
+          "actual_lines": 7536,
+          "required_lines": 35297,
+          "actual_bytes": 8968367,
+          "required_bytes": 237940048416,
+          "depth": {
+            "actual": 27,
+            "required": 41
+          },
+          "record_nodes": {
+            "actual": 5832,
+            "required": 1453536
+          }
+        }
+      }
+    },
+    {
+      "name": "mixed-repeated-positions",
+      "positions": 11,
+      "formats": {
+        "native": {
+          "actual_lines": 66155,
+          "required_lines": 209858,
+          "actual_bytes": 89329885,
+          "required_bytes": 2224670524665,
+          "depth": {
+            "actual": 26,
+            "required": 37
+          },
+          "record_nodes": {
+            "actual": 16392,
+            "required": 3417600
+          }
+        },
+        "not-or": {
+          "actual_lines": 66155,
+          "required_lines": 209858,
+          "actual_bytes": 125422822,
+          "required_bytes": 3579749040400,
+          "depth": {
+            "actual": 34,
+            "required": 49
+          },
+          "record_nodes": {
+            "actual": 21796,
+            "required": 5995836
+          }
+        }
+      }
+    },
+    {
+      "name": "deep-skew-equal-clauses",
+      "positions": 13,
+      "formats": {
+        "native": {
+          "actual_lines": 150389,
+          "required_lines": 313864,
+          "actual_bytes": 408268152,
+          "required_bytes": 17966957166210,
+          "depth": {
+            "actual": 36,
+            "required": 51
+          },
+          "record_nodes": {
+            "actual": 14260,
+            "required": 17011284
+          }
+        },
+        "not-or": {
+          "actual_lines": 150389,
+          "required_lines": 313864,
+          "actual_bytes": 541215525,
+          "required_bytes": 22853226063650,
+          "depth": {
+            "actual": 53,
+            "required": 71
+          },
+          "record_nodes": {
+            "actual": 17896,
+            "required": 21423098
+          }
+        }
+      }
+    },
+    {
+      "name": "long-name-negative",
+      "positions": 2,
+      "formats": {
+        "native": {
+          "actual_lines": 6665,
+          "required_lines": 35079,
+          "actual_bytes": 113702645,
+          "required_bytes": 3861216958528,
+          "depth": {
+            "actual": 21,
+            "required": 32
+          },
+          "record_nodes": {
+            "actual": 4380,
+            "required": 883200
+          }
+        },
+        "not-or": {
+          "actual_lines": 6665,
+          "required_lines": 35079,
+          "actual_bytes": 115472405,
+          "required_bytes": 6225854167864,
+          "depth": {
+            "actual": 27,
+            "required": 42
+          },
+          "record_nodes": {
+            "actual": 5884,
+            "required": 1479492
+          }
+        }
+      }
+    }
+  ],
+  "positions": 28,
+  "metadata_bytes": 132161
+}

@@ -1,0 +1,545 @@
+{
+  "factored": {
+    "q": "q",
+    "clauses": [
+      {
+        "op": "or",
+        "left": {
+          "var": "q",
+          "negative": false
+        },
+        "right": {
+          "var": "q",
+          "negative": true
+        }
+      },
+      {
+        "op": "or",
+        "left": {
+          "op": "or",
+          "left": {
+            "var": "A",
+            "negative": false
+          },
+          "right": {
+            "var": "A",
+            "negative": false
+          }
+        },
+        "right": {
+          "var": "B",
+          "negative": true
+        }
+      },
+      {
+        "op": "or",
+        "left": {
+          "var": "A",
+          "negative": true
+        },
+        "right": {
+          "op": "or",
+          "left": {
+            "var": "B",
+            "negative": false
+          },
+          "right": {
+            "var": "q",
+            "negative": false
+          }
+        }
+      },
+      {
+        "var": "A",
+        "negative": false
+      },
+      {
+        "var": "A",
+        "negative": false
+      }
+    ],
+    "conjunction": {
+      "left": {
+        "left": 0,
+        "right": 1
+      },
+      "right": {
+        "left": 2,
+        "right": {
+          "left": 3,
+          "right": 4
+        }
+      }
+    },
+    "dictionary": [
+      "A",
+      "B",
+      "q"
+    ],
+    "axioms": [
+      {
+        "op": "product",
+        "left": {
+          "op": "sum",
+          "left": 1,
+          "right": "q"
+        },
+        "right": "q"
+      },
+      {
+        "op": "product",
+        "left": {
+          "op": "product",
+          "left": {
+            "op": "sum",
+            "left": 1,
+            "right": "A"
+          },
+          "right": {
+            "op": "sum",
+            "left": 1,
+            "right": "A"
+          }
+        },
+        "right": "B"
+      },
+      {
+        "op": "product",
+        "left": "A",
+        "right": {
+          "op": "product",
+          "left": {
+            "op": "sum",
+            "left": 1,
+            "right": "B"
+          },
+          "right": {
+            "op": "sum",
+            "left": 1,
+            "right": "q"
+          }
+        }
+      },
+      {
+        "op": "sum",
+        "left": 1,
+        "right": "A"
+      },
+      {
+        "op": "sum",
+        "left": 1,
+        "right": "A"
+      },
+      {
+        "op": "sum",
+        "left": {
+          "op": "product",
+          "left": "A",
+          "right": "A"
+        },
+        "right": "A"
+      },
+      {
+        "op": "sum",
+        "left": {
+          "op": "product",
+          "left": "B",
+          "right": "B"
+        },
+        "right": "B"
+      },
+      {
+        "op": "sum",
+        "left": {
+          "op": "product",
+          "left": "q",
+          "right": "q"
+        },
+        "right": "q"
+      },
+      {
+        "op": "sum",
+        "left": {
+          "op": "product",
+          "left": "A",
+          "right": "B"
+        },
+        "right": {
+          "op": "product",
+          "left": "B",
+          "right": "A"
+        }
+      },
+      {
+        "op": "sum",
+        "left": {
+          "op": "product",
+          "left": "A",
+          "right": "q"
+        },
+        "right": {
+          "op": "product",
+          "left": "q",
+          "right": "A"
+        }
+      },
+      {
+        "op": "sum",
+        "left": {
+          "op": "product",
+          "left": "B",
+          "right": "q"
+        },
+        "right": {
+          "op": "product",
+          "left": "q",
+          "right": "B"
+        }
+      }
+    ],
+    "placeholders": [
+      "t_1",
+      "t_2",
+      "t_3",
+      "t_4",
+      "t_5",
+      "t_6",
+      "t_7",
+      "t_8",
+      "t_9",
+      "t_10",
+      "t_11"
+    ]
+  },
+  "expanded_words": [
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "q"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "q",
+          "q"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "B"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "A"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "A",
+          "q"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "A",
+          "B",
+          "q"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": []
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "A"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": []
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "A"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "A",
+          "A"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "A"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "B",
+          "B"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "B"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "q",
+          "q"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "q"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "B",
+          "A"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "A",
+          "q"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "q",
+          "A"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "B",
+          "q"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "q",
+          "B"
+        ]
+      }
+    ]
+  ],
+  "expanded_axioms": [
+    {
+      "op": "sum",
+      "left": "q",
+      "right": {
+        "op": "product",
+        "left": "q",
+        "right": "q"
+      }
+    },
+    {
+      "op": "sum",
+      "left": {
+        "op": "sum",
+        "left": "B",
+        "right": {
+          "op": "product",
+          "left": "A",
+          "right": "B"
+        }
+      },
+      "right": {
+        "op": "sum",
+        "left": {
+          "op": "product",
+          "left": "A",
+          "right": "B"
+        },
+        "right": {
+          "op": "product",
+          "left": {
+            "op": "product",
+            "left": "A",
+            "right": "A"
+          },
+          "right": "B"
+        }
+      }
+    },
+    {
+      "op": "sum",
+      "left": {
+        "op": "sum",
+        "left": "A",
+        "right": {
+          "op": "product",
+          "left": "A",
+          "right": "q"
+        }
+      },
+      "right": {
+        "op": "sum",
+        "left": {
+          "op": "product",
+          "left": "A",
+          "right": "B"
+        },
+        "right": {
+          "op": "product",
+          "left": {
+            "op": "product",
+            "left": "A",
+            "right": "B"
+          },
+          "right": "q"
+        }
+      }
+    },
+    {
+      "op": "sum",
+      "left": 1,
+      "right": "A"
+    },
+    {
+      "op": "sum",
+      "left": 1,
+      "right": "A"
+    },
+    {
+      "op": "sum",
+      "left": {
+        "op": "product",
+        "left": "A",
+        "right": "A"
+      },
+      "right": "A"
+    },
+    {
+      "op": "sum",
+      "left": {
+        "op": "product",
+        "left": "B",
+        "right": "B"
+      },
+      "right": "B"
+    },
+    {
+      "op": "sum",
+      "left": {
+        "op": "product",
+        "left": "q",
+        "right": "q"
+      },
+      "right": "q"
+    },
+    {
+      "op": "sum",
+      "left": {
+        "op": "product",
+        "left": "A",
+        "right": "B"
+      },
+      "right": {
+        "op": "product",
+        "left": "B",
+        "right": "A"
+      }
+    },
+    {
+      "op": "sum",
+      "left": {
+        "op": "product",
+        "left": "A",
+        "right": "q"
+      },
+      "right": {
+        "op": "product",
+        "left": "q",
+        "right": "A"
+      }
+    },
+    {
+      "op": "sum",
+      "left": {
+        "op": "product",
+        "left": "B",
+        "right": "q"
+      },
+      "right": {
+        "op": "product",
+        "left": "q",
+        "right": "B"
+      }
+    }
+  ]
+}

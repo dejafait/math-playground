@@ -1,0 +1,178 @@
+{
+  "complete": true,
+  "failures": [],
+  "cases": [
+    {
+      "name": "zero-deleted",
+      "source_bytes": 60,
+      "U": 1,
+      "d": 0,
+      "n": 0,
+      "B": 1,
+      "envelope_actual_bytes": 204,
+      "envelope_required_bytes": 17280000,
+      "proof_required_bytes": {
+        "native": 3670398720,
+        "not-or": 4951975680
+      },
+      "metadata_required_bytes": 2986549428370228480,
+      "total_actual_bytes": 2047277,
+      "total_required_bytes": 2986549437009882880,
+      "total_required_bits": 23892395496079063040,
+      "accepted": true
+    },
+    {
+      "name": "zero-retained",
+      "source_bytes": 61,
+      "U": 1,
+      "d": 0,
+      "n": 0,
+      "B": 1,
+      "envelope_actual_bytes": 232,
+      "envelope_required_bytes": 17280000,
+      "proof_required_bytes": {
+        "native": 3670398720,
+        "not-or": 4951975680
+      },
+      "metadata_required_bytes": 2986549428370228480,
+      "total_actual_bytes": 2047305,
+      "total_required_bytes": 2986549437009882880,
+      "total_required_bits": 23892395496079063040,
+      "accepted": true
+    },
+    {
+      "name": "one",
+      "source_bytes": 60,
+      "U": 1,
+      "d": 0,
+      "n": 0,
+      "B": 1,
+      "envelope_actual_bytes": 227,
+      "envelope_required_bytes": 17280000,
+      "proof_required_bytes": {
+        "native": 3670398720,
+        "not-or": 4951975680
+      },
+      "metadata_required_bytes": 2986549428370228480,
+      "total_actual_bytes": 1813546,
+      "total_required_bytes": 2986549437009882880,
+      "total_required_bits": 23892395496079063040,
+      "accepted": true
+    },
+    {
+      "name": "variable-q",
+      "source_bytes": 64,
+      "U": 1,
+      "d": 0,
+      "n": 1,
+      "B": 1,
+      "envelope_actual_bytes": 256,
+      "envelope_required_bytes": 25920000,
+      "proof_required_bytes": {
+        "native": 3670398720,
+        "not-or": 4951975680
+      },
+      "metadata_required_bytes": 6719312129170228480,
+      "total_actual_bytes": 1385025,
+      "total_required_bytes": 6719312137818522880,
+      "total_required_bits": 53754497102548183040,
+      "accepted": true
+    },
+    {
+      "name": "variable-schematic",
+      "source_bytes": 77,
+      "U": 1,
+      "d": 0,
+      "n": 4,
+      "B": 1,
+      "envelope_actual_bytes": 323,
+      "envelope_required_bytes": 51840000,
+      "proof_required_bytes": {
+        "native": 3670398720,
+        "not-or": 4951975680
+      },
+      "metadata_required_bytes": 26875552231570228480,
+      "total_actual_bytes": 1385092,
+      "total_required_bytes": 26875552240244442880,
+      "total_required_bits": 215004417921955543040,
+      "accepted": true
+    },
+    {
+      "name": "final-plus-one",
+      "source_bytes": 89,
+      "U": 3,
+      "d": 1,
+      "n": 3,
+      "B": 1,
+      "envelope_actual_bytes": 819,
+      "envelope_required_bytes": 3200000000,
+      "proof_required_bytes": {
+        "native": 14676883200,
+        "not-or": 19803191040
+      },
+      "metadata_required_bytes": 102400104704026786033920,
+      "total_actual_bytes": 3762089,
+      "total_required_bytes": 102400104704064466108160,
+      "total_required_bits": 819200837632515728865280,
+      "accepted": true
+    },
+    {
+      "name": "product-repeat",
+      "source_bytes": 91,
+      "U": 3,
+      "d": 1,
+      "n": 2,
+      "B": 6,
+      "envelope_actual_bytes": 725,
+      "envelope_required_bytes": 5120000000,
+      "proof_required_bytes": {
+        "native": 29352195840,
+        "not-or": 39604811520
+      },
+      "metadata_required_bytes": 262144167526426807107840,
+      "total_actual_bytes": 2281552,
+      "total_required_bytes": 262144167526500884115200,
+      "total_required_bits": 2097153340212007072921600,
+      "accepted": true
+    },
+    {
+      "name": "repeated-subtrees",
+      "source_bytes": 127,
+      "U": 7,
+      "d": 2,
+      "n": 3,
+      "B": 1,
+      "envelope_actual_bytes": 2790,
+      "envelope_required_bytes": 298598400000,
+      "proof_required_bytes": {
+        "native": 58702821120,
+        "not-or": 79208052480
+      },
+      "metadata_required_bytes": 891610054595739674849255680,
+      "total_actual_bytes": 5322420,
+      "total_required_bytes": 891610054595740111358529280,
+      "total_required_bits": 7132880436765920890868234240,
+      "accepted": true
+    },
+    {
+      "name": "mixed-constant",
+      "source_bytes": 97,
+      "U": 5,
+      "d": 2,
+      "n": 1,
+      "B": 1,
+      "envelope_actual_bytes": 1136,
+      "envelope_required_bytes": 84295680000,
+      "proof_required_bytes": {
+        "native": 58702821120,
+        "not-or": 79208052480
+      },
+      "metadata_required_bytes": 71057619424778676449255680,
+      "total_actual_bytes": 6879126,
+      "total_required_bytes": 71057619424778898655809280,
+      "total_required_bits": 568460955398231189246474240,
+      "accepted": true
+    }
+  ],
+  "premise": "Complete primitive/image checks in certificate-236.json; this is accounting only."
+}

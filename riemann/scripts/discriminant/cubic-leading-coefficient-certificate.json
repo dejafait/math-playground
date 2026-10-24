@@ -1,0 +1,505 @@
+{
+  "lemma": "L408",
+  "domain": "exact rational arithmetic",
+  "variables": [
+    "h0",
+    "h1/log H",
+    "h2/(log H)^2"
+  ],
+  "P1": [
+    {
+      "powers": [
+        0,
+        0,
+        3
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        2
+      ],
+      "coefficient": "-3"
+    },
+    {
+      "powers": [
+        0,
+        2,
+        1
+      ],
+      "coefficient": "-4"
+    },
+    {
+      "powers": [
+        0,
+        3,
+        0
+      ],
+      "coefficient": "-2"
+    },
+    {
+      "powers": [
+        1,
+        0,
+        2
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "powers": [
+        1,
+        1,
+        1
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "powers": [
+        1,
+        2,
+        0
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "powers": [
+        2,
+        0,
+        1
+      ],
+      "coefficient": "1/4"
+    }
+  ],
+  "factorization_residual": [],
+  "polar_terms": [
+    {
+      "nu": [
+        0,
+        0,
+        3
+      ],
+      "ordinary_orders": [
+        2,
+        2,
+        2
+      ],
+      "d": 6,
+      "weight_coefficient": "-3/4",
+      "polar_moment": "1/5040",
+      "contribution": "-1/6720"
+    },
+    {
+      "nu": [
+        0,
+        1,
+        2
+      ],
+      "ordinary_orders": [
+        1,
+        2,
+        2
+      ],
+      "d": 5,
+      "weight_coefficient": "-3",
+      "polar_moment": "-1/1260",
+      "contribution": "1/420"
+    },
+    {
+      "nu": [
+        0,
+        2,
+        1
+      ],
+      "ordinary_orders": [
+        1,
+        1,
+        2
+      ],
+      "d": 4,
+      "weight_coefficient": "-4",
+      "polar_moment": "1/360",
+      "contribution": "-1/90"
+    },
+    {
+      "nu": [
+        0,
+        3,
+        0
+      ],
+      "ordinary_orders": [
+        1,
+        1,
+        1
+      ],
+      "d": 3,
+      "weight_coefficient": "-2",
+      "polar_moment": "-1/120",
+      "contribution": "1/60"
+    },
+    {
+      "nu": [
+        1,
+        0,
+        2
+      ],
+      "ordinary_orders": [
+        0,
+        2,
+        2
+      ],
+      "d": 4,
+      "weight_coefficient": "-1/2",
+      "polar_moment": "1/180",
+      "contribution": "-1/360"
+    },
+    {
+      "nu": [
+        1,
+        1,
+        1
+      ],
+      "ordinary_orders": [
+        0,
+        1,
+        2
+      ],
+      "d": 3,
+      "weight_coefficient": "-1",
+      "polar_moment": "-1/60",
+      "contribution": "1/60"
+    },
+    {
+      "nu": [
+        1,
+        2,
+        0
+      ],
+      "ordinary_orders": [
+        0,
+        1,
+        1
+      ],
+      "d": 2,
+      "weight_coefficient": "-1",
+      "polar_moment": "1/24",
+      "contribution": "-1/24"
+    },
+    {
+      "nu": [
+        2,
+        0,
+        1
+      ],
+      "ordinary_orders": [
+        0,
+        0,
+        2
+      ],
+      "d": 2,
+      "weight_coefficient": "1/4",
+      "polar_moment": "1/12",
+      "contribution": "1/48"
+    }
+  ],
+  "polar_sum": "17/20160",
+  "tests": {
+    "P1_complete_factorization": true,
+    "Jplus_exact": true,
+    "Jminus_exact": true,
+    "all_monomials_cubic": true,
+    "complete_polar_sum": true,
+    "positive_polar_sum": true,
+    "finite_residue_count_checks": true
+  },
+  "residue_count_checks": [
+    {
+      "u": 1,
+      "pair_count": 1,
+      "gcd_sum": 1,
+      "A_u": "1",
+      "equal": true
+    },
+    {
+      "u": 2,
+      "pair_count": 3,
+      "gcd_sum": 3,
+      "A_u": "3/4",
+      "equal": true
+    },
+    {
+      "u": 3,
+      "pair_count": 5,
+      "gcd_sum": 5,
+      "A_u": "5/9",
+      "equal": true
+    },
+    {
+      "u": 4,
+      "pair_count": 8,
+      "gcd_sum": 8,
+      "A_u": "1/2",
+      "equal": true
+    },
+    {
+      "u": 5,
+      "pair_count": 9,
+      "gcd_sum": 9,
+      "A_u": "9/25",
+      "equal": true
+    },
+    {
+      "u": 6,
+      "pair_count": 15,
+      "gcd_sum": 15,
+      "A_u": "5/12",
+      "equal": true
+    },
+    {
+      "u": 7,
+      "pair_count": 13,
+      "gcd_sum": 13,
+      "A_u": "13/49",
+      "equal": true
+    },
+    {
+      "u": 8,
+      "pair_count": 20,
+      "gcd_sum": 20,
+      "A_u": "5/16",
+      "equal": true
+    },
+    {
+      "u": 9,
+      "pair_count": 21,
+      "gcd_sum": 21,
+      "A_u": "7/27",
+      "equal": true
+    },
+    {
+      "u": 10,
+      "pair_count": 27,
+      "gcd_sum": 27,
+      "A_u": "27/100",
+      "equal": true
+    },
+    {
+      "u": 11,
+      "pair_count": 21,
+      "gcd_sum": 21,
+      "A_u": "21/121",
+      "equal": true
+    },
+    {
+      "u": 12,
+      "pair_count": 40,
+      "gcd_sum": 40,
+      "A_u": "5/18",
+      "equal": true
+    },
+    {
+      "u": 13,
+      "pair_count": 25,
+      "gcd_sum": 25,
+      "A_u": "25/169",
+      "equal": true
+    },
+    {
+      "u": 14,
+      "pair_count": 39,
+      "gcd_sum": 39,
+      "A_u": "39/196",
+      "equal": true
+    },
+    {
+      "u": 15,
+      "pair_count": 45,
+      "gcd_sum": 45,
+      "A_u": "1/5",
+      "equal": true
+    },
+    {
+      "u": 16,
+      "pair_count": 48,
+      "gcd_sum": 48,
+      "A_u": "3/16",
+      "equal": true
+    },
+    {
+      "u": 17,
+      "pair_count": 33,
+      "gcd_sum": 33,
+      "A_u": "33/289",
+      "equal": true
+    },
+    {
+      "u": 18,
+      "pair_count": 63,
+      "gcd_sum": 63,
+      "A_u": "7/36",
+      "equal": true
+    },
+    {
+      "u": 19,
+      "pair_count": 37,
+      "gcd_sum": 37,
+      "A_u": "37/361",
+      "equal": true
+    },
+    {
+      "u": 20,
+      "pair_count": 72,
+      "gcd_sum": 72,
+      "A_u": "9/50",
+      "equal": true
+    },
+    {
+      "u": 21,
+      "pair_count": 65,
+      "gcd_sum": 65,
+      "A_u": "65/441",
+      "equal": true
+    },
+    {
+      "u": 22,
+      "pair_count": 63,
+      "gcd_sum": 63,
+      "A_u": "63/484",
+      "equal": true
+    },
+    {
+      "u": 23,
+      "pair_count": 45,
+      "gcd_sum": 45,
+      "A_u": "45/529",
+      "equal": true
+    },
+    {
+      "u": 24,
+      "pair_count": 100,
+      "gcd_sum": 100,
+      "A_u": "25/144",
+      "equal": true
+    },
+    {
+      "u": 25,
+      "pair_count": 65,
+      "gcd_sum": 65,
+      "A_u": "13/125",
+      "equal": true
+    },
+    {
+      "u": 26,
+      "pair_count": 75,
+      "gcd_sum": 75,
+      "A_u": "75/676",
+      "equal": true
+    },
+    {
+      "u": 27,
+      "pair_count": 81,
+      "gcd_sum": 81,
+      "A_u": "1/9",
+      "equal": true
+    },
+    {
+      "u": 28,
+      "pair_count": 104,
+      "gcd_sum": 104,
+      "A_u": "13/98",
+      "equal": true
+    },
+    {
+      "u": 29,
+      "pair_count": 57,
+      "gcd_sum": 57,
+      "A_u": "57/841",
+      "equal": true
+    },
+    {
+      "u": 30,
+      "pair_count": 135,
+      "gcd_sum": 135,
+      "A_u": "3/20",
+      "equal": true
+    },
+    {
+      "u": 31,
+      "pair_count": 61,
+      "gcd_sum": 61,
+      "A_u": "61/961",
+      "equal": true
+    },
+    {
+      "u": 32,
+      "pair_count": 112,
+      "gcd_sum": 112,
+      "A_u": "7/64",
+      "equal": true
+    },
+    {
+      "u": 33,
+      "pair_count": 105,
+      "gcd_sum": 105,
+      "A_u": "35/363",
+      "equal": true
+    },
+    {
+      "u": 34,
+      "pair_count": 99,
+      "gcd_sum": 99,
+      "A_u": "99/1156",
+      "equal": true
+    },
+    {
+      "u": 35,
+      "pair_count": 117,
+      "gcd_sum": 117,
+      "A_u": "117/1225",
+      "equal": true
+    },
+    {
+      "u": 36,
+      "pair_count": 168,
+      "gcd_sum": 168,
+      "A_u": "7/54",
+      "equal": true
+    },
+    {
+      "u": 37,
+      "pair_count": 73,
+      "gcd_sum": 73,
+      "A_u": "73/1369",
+      "equal": true
+    },
+    {
+      "u": 38,
+      "pair_count": 111,
+      "gcd_sum": 111,
+      "A_u": "111/1444",
+      "equal": true
+    },
+    {
+      "u": 39,
+      "pair_count": 125,
+      "gcd_sum": 125,
+      "A_u": "125/1521",
+      "equal": true
+    },
+    {
+      "u": 40,
+      "pair_count": 180,
+      "gcd_sum": 180,
+      "A_u": "9/80",
+      "equal": true
+    }
+  ],
+  "analytic_obligations_reference_only": {
+    "weight_error": "O_N(H log H)",
+    "smooth_divisor_error": "O_{u,nu,psi}(X(log X)^(d+1)+X^(1/2))",
+    "sharp_transfer": "fixed boundary width, H limit first, width limit second",
+    "required_total_error": "o_N(H(log H)^2)",
+    "proof": "lemmas/L408-fixed-head-cubic-positive-leading-coefficient.md"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "step": 202,
+  "status": "PARTIAL_PROTOTYPE",
+  "complete_nontrivial_exports": 0,
+  "complete_empty_native_image_pairs": 2,
+  "fixed_law_native_image_pairs": 15,
+  "constants": {
+    "L": 3470,
+    "native": {
+      "D": 19,
+      "S": 2456
+    },
+    "not-or": {
+      "D": 27,
+      "S": 3492
+    }
+  },
+  "empty_actual": [
+    {
+      "coordinate": 0,
+      "formats": {
+        "native": {
+          "lines": 240652,
+          "bytes": 649827368,
+          "max_line_depth": 37,
+          "max_record_nodes": 34800
+        },
+        "not-or": {
+          "lines": 240652,
+          "bytes": 994890311,
+          "max_line_depth": 37,
+          "max_record_nodes": 48524
+        }
+      }
+    },
+    {
+      "coordinate": 1,
+      "formats": {
+        "native": {
+          "lines": 302608,
+          "bytes": 884456585,
+          "max_line_depth": 37,
+          "max_record_nodes": 36672
+        },
+        "not-or": {
+          "lines": 302608,
+          "bytes": 1344436964,
+          "max_line_depth": 37,
+          "max_record_nodes": 50396
+        }
+      }
+    }
+  ],
+  "empty_original_input_uniform_ledger": {
+    "h": 2,
+    "V": 4096,
+    "H": 48,
+    "elementary_operations": 805641912320000,
+    "generated_records": 2796383077662720000,
+    "imported_records": 111152,
+    "lines": 2796383077662831152,
+    "aggregate_lines": 5592766155325662304,
+    "formats": {
+      "native": {
+        "lines": 2796383077662831152,
+        "depth": 165,
+        "record_nodes": 31133498741605314100759030724034560,
+        "bytes": 870611890294586884818021988740748208815443392244298916,
+        "bits": 6964895122356695078544175909925985670523547137954391328,
+        "aggregate_bytes": 1741223780589173769636043977481496417630886784488597832,
+        "aggregate_bits": 13929790244713390157088351819851971341047094275908782656,
+        "argument_nodes": 12676506002282294014967032053760,
+        "argument_depth": 146,
+        "input_term_nodes": 4,
+        "input_term_depth": 2,
+        "imported_nodes": 117315882,
+        "imported_depth": 37,
+        "payload_bytes": 6
+      },
+      "not-or": {
+        "lines": 2796383077662831152,
+        "depth": 318,
+        "record_nodes": 53119630751963724840317851118075904,
+        "bytes": 1485428365264835864064103966457333390725777271587453396,
+        "bits": 11883426922118686912512831731658667125806218172699627168,
+        "aggregate_bytes": 2970856730529671728128207932914666781451554543174906792,
+        "aggregate_bits": 23766853844237373825025663463317334251612436345399254336,
+        "argument_nodes": 15211807202738752817960438464512,
+        "argument_depth": 291,
+        "input_term_nodes": 5,
+        "input_term_depth": 3,
+        "imported_nodes": 161909986,
+        "imported_depth": 37,
+        "payload_bytes": 6
+      }
+    }
+  },
+  "aggregate_argument_checks": {
+    "native": {
+      "nodes": 116,
+      "depth": 11,
+      "aggregate_bytes": 1534283953,
+      "aggregate_required": 1741223780589173769636043977481496417630886784488597832
+    },
+    "not-or": {
+      "nodes": 159,
+      "depth": 15,
+      "aggregate_bytes": 2339327275,
+      "aggregate_required": 2970856730529671728128207932914666781451554543174906792
+    }
+  },
+  "rejections": [
+    {
+      "name": "dimension",
+      "rejected": true,
+      "reason": "closure adjacency width"
+    },
+    {
+      "name": "triangularity",
+      "rejected": true,
+      "reason": "closure adjacency must be strictly upper triangular"
+    },
+    {
+      "name": "local-endpoint",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    },
+    {
+      "name": "exported-header",
+      "rejected": true,
+      "reason": "requested endpoint mismatch"
+    },
+    {
+      "name": "MP-reference",
+      "rejected": true,
+      "reason": "line 7: reference not strictly earlier"
+    }
+  ],
+  "nontrivial_interruption": [
+    "KeyboardInterrupt: "
+  ],
+  "complete_evidence": [
+    "certificate-202.json",
+    "rejections-202.json"
+  ],
+  "incomplete_evidence": [
+    "certificate-202-interrupted.json",
+    "certificate-202-fast.json"
+  ],
+  "pending": "Complete nontrivial coordinate exports and full replay; critically audit the new all-size argument later."
+}

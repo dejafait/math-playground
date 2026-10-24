@@ -1,0 +1,278 @@
+{
+  "lemma": "L407",
+  "coefficient_domain": "Q[i] with i^2=-1",
+  "variable_order": [
+    "D0",
+    "D1",
+    "D2",
+    "R",
+    "Z",
+    "Zbar",
+    "i"
+  ],
+  "tests": {
+    "complete_real_pairing": true,
+    "ordinary_jet_carrier_substitution": true,
+    "P1_factorization": true,
+    "only_zero_and_single_carriers": true,
+    "all_critical_degrees_three": true
+  },
+  "paired_residual": [],
+  "substitution_residual": [],
+  "factorization_residual": [],
+  "P1": [
+    {
+      "powers": [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/4"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "3/4"
+    },
+    {
+      "powers": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "powers": [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "powers": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "7/16"
+    },
+    {
+      "powers": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "5/8"
+    },
+    {
+      "powers": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/16"
+    },
+    {
+      "powers": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-7/64"
+    },
+    {
+      "powers": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "3/64"
+    },
+    {
+      "powers": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3/256"
+    }
+  ],
+  "P0": [
+    {
+      "powers": [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "3/4"
+    },
+    {
+      "powers": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "powers": [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "powers": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-3/16"
+    },
+    {
+      "powers": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "-3/8"
+    },
+    {
+      "powers": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/16"
+    },
+    {
+      "powers": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "3/64"
+    },
+    {
+      "powers": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "3/64"
+    },
+    {
+      "powers": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/256"
+    }
+  ],
+  "carrier_R_powers": [
+    0,
+    2
+  ],
+  "analytic_bounds_reference_only": {
+    "single_carrier_connector_exponent": "71/120",
+    "zero_carrier_connector_exponent": "1/2",
+    "source_remainder_exponent": "11/20",
+    "required_error": "o(H(log H)^2)",
+    "proof": "lemmas/L407-fixed-head-cubic-carrier-compatibility.md"
+  }
+}

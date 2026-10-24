@@ -1,0 +1,252 @@
+{
+  "step": 209,
+  "complete": true,
+  "failures": [],
+  "phase": "complete",
+  "coordinate": 2,
+  "original_request": "scripts/left-closure/output/star-205.request.json",
+  "replay": "scripts/left-closure/output/replay-209-star-coordinate-2.json",
+  "aggregate_verified": false,
+  "original_inputs": [
+    "scripts/left-closure/output/star-205-local-0.native.jsonl.gz",
+    "scripts/left-closure/output/star-205-local-1.native.jsonl.gz",
+    "scripts/left-closure/output/star-205-local-2.native.jsonl.gz"
+  ],
+  "uniform_ledger": {
+    "h": 3,
+    "V": 32768,
+    "H": 57,
+    "elementary_operations": 108362024878080000,
+    "generated_records": 376124588351815680000,
+    "imported_records": 26858,
+    "lines": 376124588351815706858,
+    "aggregate_lines": 1128373765055447120574,
+    "formats": {
+      "native": {
+        "lines": 376124588351815706858,
+        "depth": 197,
+        "record_nodes": 40807299470596917298146876750606578483200,
+        "bytes": 153486287151275314450880689459305811834479810275689514780256310,
+        "bits": 1227890297210202515607045515674446494675838482205516118242050480,
+        "aggregate_bytes": 460458861453825943352642068377917435503439430827068544340768930,
+        "aggregate_bits": 3683670891630607546821136547023339484027515446616548354726151440,
+        "argument_nodes": 16615349947311448411297588253504307200,
+        "argument_depth": 178,
+        "input_term_nodes": 24,
+        "input_term_depth": 7,
+        "imported_nodes": 25297439,
+        "imported_depth": 37,
+        "payload_bytes": 6
+      },
+      "not-or": {
+        "lines": 376124588351815706858,
+        "depth": 378,
+        "record_nodes": 78908290741775745879061602326482375409664,
+        "bytes": 296793483727957907721891897363590560706569691412026694398541090,
+        "bits": 2374347869823663261775135178908724485652557531296213555188328720,
+        "aggregate_bytes": 890380451183873723165675692090771682119709074236080083195623270,
+        "aggregate_bits": 7123043609470989785325405536726173456957672593888640665564986160,
+        "argument_nodes": 22596875928343569839364720024765857792,
+        "argument_depth": 351,
+        "input_term_nodes": 33,
+        "input_term_depth": 9,
+        "imported_nodes": 34679453,
+        "imported_depth": 37,
+        "payload_bytes": 6
+      }
+    }
+  },
+  "imported_records": 26858,
+  "root": 168368,
+  "records": 168369,
+  "exact_endpoint": "(~(((A>A)>(((A>A)>(~(A>(~(~(A>A))))))>(~((~(A>(~(~(A>A)))))>(A>A)))))>(~((((A>A)>(~(A>(~(~(A>A))))))>(~((~(A>(~(~(A>A)))))>(A>A))))>(A>A)))))",
+  "max_argument_height": 4,
+  "imports": [
+    {
+      "label": "local-0",
+      "start": 0,
+      "lines": 10653,
+      "root": 10652
+    },
+    {
+      "label": "local-1",
+      "start": 10653,
+      "lines": 5503,
+      "root": 16155
+    },
+    {
+      "label": "local-2",
+      "start": 16156,
+      "lines": 10702,
+      "root": 26857
+    }
+  ],
+  "traces": [
+    {
+      "slots": 4,
+      "survivors": 1,
+      "events": [
+        {
+          "kind": "append-padding",
+          "path": [],
+          "height": 3,
+          "leaves": 4,
+          "root": 47713
+        },
+        {
+          "kind": "rotate-left",
+          "path": [
+            1
+          ],
+          "height": 3,
+          "leaves": 4,
+          "root": 55669
+        },
+        {
+          "kind": "rotate-right",
+          "path": [],
+          "height": 2,
+          "leaves": 4,
+          "root": 60590
+        }
+      ],
+      "max_height": 3
+    },
+    {
+      "slots": 4,
+      "survivors": 1,
+      "events": [
+        {
+          "kind": "rotate-left",
+          "path": [],
+          "height": 2,
+          "leaves": 4,
+          "root": 113069
+        },
+        {
+          "kind": "rotate-right",
+          "path": [],
+          "height": 3,
+          "leaves": 4,
+          "root": 114520
+        },
+        {
+          "kind": "rotate-left",
+          "path": [
+            2
+          ],
+          "height": 3,
+          "leaves": 4,
+          "root": 122476
+        },
+        {
+          "kind": "exchange",
+          "path": [
+            2,
+            1
+          ],
+          "height": 3,
+          "leaves": 4,
+          "root": 129537
+        },
+        {
+          "kind": "rotate-right",
+          "path": [
+            2
+          ],
+          "height": 3,
+          "leaves": 4,
+          "root": 133150
+        },
+        {
+          "kind": "rotate-left",
+          "path": [],
+          "height": 2,
+          "leaves": 4,
+          "root": 133153
+        },
+        {
+          "kind": "exchange",
+          "path": [
+            1
+          ],
+          "height": 2,
+          "leaves": 4,
+          "root": 136766
+        },
+        {
+          "kind": "rotate-right",
+          "path": [],
+          "height": 3,
+          "leaves": 4,
+          "root": 136768
+        },
+        {
+          "kind": "rotate-left",
+          "path": [
+            2
+          ],
+          "height": 3,
+          "leaves": 4,
+          "root": 136772
+        },
+        {
+          "kind": "cancel",
+          "path": [
+            2,
+            1
+          ],
+          "height": 3,
+          "leaves": 4,
+          "root": 145404
+        },
+        {
+          "kind": "rotate-right",
+          "path": [
+            2
+          ],
+          "height": 3,
+          "leaves": 4,
+          "root": 152487
+        },
+        {
+          "kind": "rotate-left",
+          "path": [],
+          "height": 2,
+          "leaves": 4,
+          "root": 158281
+        }
+      ],
+      "max_height": 4
+    }
+  ],
+  "argument_checks": {
+    "native": {
+      "nodes": 134,
+      "depth": 14,
+      "required_nodes": 16615349947311448411297588253504307200,
+      "required_depth": 178
+    },
+    "not-or": {
+      "nodes": 185,
+      "depth": 18,
+      "required_nodes": 22596875928343569839364720024765857792,
+      "required_depth": 351
+    }
+  },
+  "writers": {
+    "native": {
+      "lines": 168369,
+      "bytes": 473743050,
+      "sha256": "f44615c38794f9df12bc04b8caaa6a58976dd52ff11ceb647ed66ba09357b760",
+      "storage_bytes": 19745489
+    },
+    "not-or": {
+      "lines": 168369,
+      "bytes": 725003772,
+      "sha256": "bd9d6582a757f3978200c33c9c52ddd1ed37b784c614465bf153ee8b5963b1d4",
+      "storage_bytes": 36567202
+    }
+  },
+  "verified_pairs": 1
+}

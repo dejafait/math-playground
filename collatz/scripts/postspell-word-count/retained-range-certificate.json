@@ -1,0 +1,1418 @@
+{
+  "scope": "Fixed factor-2 assembled scalar comparison, not individual heights, parity or closure.",
+  "exclusion": {
+    "last_r": 17,
+    "R": 131071,
+    "M": 225640000,
+    "C": 338460000,
+    "A": {
+      "numerator": "52297329",
+      "denominator": "5"
+    },
+    "rhs_upper": {
+      "numerator": "226059727725",
+      "denominator": "1034"
+    },
+    "margin_lower": {
+      "numerator": "123907912275",
+      "denominator": "1034"
+    }
+  },
+  "first_failure": {
+    "r": 18,
+    "J": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "H": [
+      225639842,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "a": [
+      131990870,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "K": 225640001,
+    "L": 131990940,
+    "N": 357630941,
+    "d": 1,
+    "K0": 225640001,
+    "L0": 131990940,
+    "K_rhs_lower": {
+      "numerator": "1848894579",
+      "denominator": "8"
+    },
+    "N_rhs_lower": {
+      "numerator": "955878500448",
+      "denominator": "2585"
+    },
+    "lambda_lower": {
+      "numerator": "40739498685267",
+      "denominator": "78125000000000"
+    },
+    "lambda_upper": {
+      "numerator": "2607328207492559",
+      "denominator": "5000000000000000"
+    }
+  },
+  "log_evidence": {
+    "method": "positive atanh series; 64 terms, geometric tail bound",
+    "log2_lower": {
+      "numerator": "3508595171842993185134796784736611366655501408312351140098685578379184556173245757359910454882815130815005200896",
+      "denominator": "5061832854904846645955900741673035877578026003792249877488563088418276175757042525151232593509677298791370051125"
+    },
+    "log2_upper": {
+      "numerator": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877",
+      "denominator": "60741994258858159751470808900076430530936312045506998529862757061019314109084510301814791122116127585496440613500"
+    },
+    "log3_lower": {
+      "numerator": "9750286477333934264936876875837695499108858363985284227862595533092664691993496753301134253",
+      "denominator": "8875093222518551031295196273198323940083069189068398162376710109214239563648708678516736000"
+    },
+    "log3_upper": {
+      "numerator": "4875143238666967132468438437918847749554563970389878441163809513045892668151772388204669689",
+      "denominator": "4437546611259275515647598136599161970041534594534199081188355054607119781824354339258368000"
+    }
+  },
+  "checks": [
+    {
+      "name": "exp partial sum exceeds 27/10",
+      "actual": {
+        "numerator": "163",
+        "denominator": "60"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "27",
+        "denominator": "10"
+      },
+      "passed": true
+    },
+    {
+      "name": "log17 below 3",
+      "actual": {
+        "numerator": "19683",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "17000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "log C below 20",
+      "actual": {
+        "numerator": "42391158275216203514294433201",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "33846000000000000000000000000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "A17 below C",
+      "actual": {
+        "numerator": "52297329",
+        "denominator": "5"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "r17 conservative RHS below C",
+      "actual": {
+        "numerator": "226059727725",
+        "denominator": "1034"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "r17 margin exceeds 119833000",
+      "actual": {
+        "numerator": "123907912275",
+        "denominator": "1034"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "119833000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3/log2 exceeds 3/2",
+      "actual": {
+        "numerator": "9",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "8",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[0] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[0] lower guard",
+      "actual": {
+        "numerator": "225639842",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[0] lower guard",
+      "actual": {
+        "numerator": "131990870",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[0] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[1] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[1] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[1] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[1] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[2] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[2] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[2] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[2] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[3] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[3] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[3] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[3] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[4] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[4] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[4] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[4] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[5] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[5] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[5] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[5] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[6] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[6] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[6] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[6] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[7] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[7] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[7] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[7] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[8] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[8] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[8] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[8] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[9] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[9] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[9] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[9] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[10] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[10] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[10] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[10] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[11] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[11] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[11] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[11] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[12] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[12] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[12] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[12] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[13] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[13] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[13] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[13] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[14] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[14] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[14] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[14] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[15] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[15] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[15] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[15] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[16] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[16] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[16] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[16] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "J[17] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "H[17] lower guard",
+      "actual": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[17] lower guard",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "a[17] congruence",
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "number of words",
+      "actual": {
+        "numerator": "18",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "18",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "K word count",
+      "actual": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "L word count",
+      "actual": {
+        "numerator": "131990940",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "131990940",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "N word count",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "primitive odd scaling",
+      "actual": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "primitive even scaling",
+      "actual": {
+        "numerator": "131990940",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "131990940",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "K0 exceeds published M",
+      "actual": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "225640000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "N exceeds C",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "338460000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "log N exceeds 17 using e<3",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "129140163",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "K below aggregate bound lower estimate",
+      "actual": {
+        "numerator": "225640001",
+        "denominator": "1"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "1848894579",
+        "denominator": "8"
+      },
+      "passed": true
+    },
+    {
+      "name": "N below assembled bound lower estimate",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "955878500448",
+        "denominator": "2585"
+      },
+      "passed": true
+    },
+    {
+      "name": "length conversion",
+      "actual": {
+        "numerator": "357630941",
+        "denominator": "1"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "933247047241",
+        "denominator": "2585"
+      },
+      "passed": true
+    },
+    {
+      "name": "log2 decimal lower",
+      "actual": {
+        "numerator": "6931471805599453",
+        "denominator": "10000000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "3508595171842993185134796784736611366655501408312351140098685578379184556173245757359910454882815130815005200896",
+        "denominator": "5061832854904846645955900741673035877578026003792249877488563088418276175757042525151232593509677298791370051125"
+      },
+      "passed": true
+    },
+    {
+      "name": "log2 decimal upper",
+      "actual": {
+        "numerator": "42103142062115918221617561416839336399866016899748213681184226970503191837707222979818147583109816019560407766877",
+        "denominator": "60741994258858159751470808900076430530936312045506998529862757061019314109084510301814791122116127585496440613500"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "3465735902799727",
+        "denominator": "5000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 decimal lower",
+      "actual": {
+        "numerator": "1373265360835137",
+        "denominator": "1250000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "9750286477333934264936876875837695499108858363985284227862595533092664691993496753301134253",
+        "denominator": "8875093222518551031295196273198323940083069189068398162376710109214239563648708678516736000"
+      },
+      "passed": true
+    },
+    {
+      "name": "log3 decimal upper",
+      "actual": {
+        "numerator": "4875143238666967132468438437918847749554563970389878441163809513045892668151772388204669689",
+        "denominator": "4437546611259275515647598136599161970041534594534199081188355054607119781824354339258368000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "10986122886681097",
+        "denominator": "10000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "lambda lower exceeds 1/2",
+      "actual": {
+        "numerator": "40739498685267",
+        "denominator": "78125000000000"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "lambda upper below 53/100",
+      "actual": {
+        "numerator": "2607328207492559",
+        "denominator": "5000000000000000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "53",
+        "denominator": "100"
+      },
+      "passed": true
+    },
+    {
+      "name": "53/100 below r18 cap",
+      "actual": {
+        "numerator": "53",
+        "denominator": "100"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "414",
+        "denominator": "517"
+      },
+      "passed": true
+    },
+    {
+      "name": "optional lower form dominated by 1/K",
+      "actual": {
+        "numerator": "1",
+        "denominator": "225640001"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    }
+  ],
+  "summary": {
+    "checks": 99,
+    "failures": []
+  }
+}

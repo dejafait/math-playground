@@ -1,0 +1,80 @@
+{
+  "factored": {
+    "q": "q",
+    "clauses": [
+      {
+        "var": "q",
+        "negative": false
+      }
+    ],
+    "conjunction": 0,
+    "dictionary": [
+      "q"
+    ],
+    "axioms": [
+      {
+        "op": "sum",
+        "left": 1,
+        "right": "q"
+      },
+      {
+        "op": "sum",
+        "left": {
+          "op": "product",
+          "left": "q",
+          "right": "q"
+        },
+        "right": "q"
+      }
+    ],
+    "placeholders": [
+      "t_1",
+      "t_2"
+    ]
+  },
+  "expanded_words": [
+    [
+      {
+        "coefficient": 1,
+        "word": []
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "q"
+        ]
+      }
+    ],
+    [
+      {
+        "coefficient": 1,
+        "word": [
+          "q",
+          "q"
+        ]
+      },
+      {
+        "coefficient": 1,
+        "word": [
+          "q"
+        ]
+      }
+    ]
+  ],
+  "expanded_axioms": [
+    {
+      "op": "sum",
+      "left": 1,
+      "right": "q"
+    },
+    {
+      "op": "sum",
+      "left": {
+        "op": "product",
+        "left": "q",
+        "right": "q"
+      },
+      "right": "q"
+    }
+  ]
+}

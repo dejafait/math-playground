@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "fixed_generator_retained": true,
+    "all_16384_disks_once": true,
+    "all_actual_parameter_centers_verified": true,
+    "all_implicit_polynomials_replayed": true,
+    "all_derivatives_units": true,
+    "all_exact_normalizations_replayed": true,
+    "all_full_class_reconstructions_replayed": true,
+    "all_existing_label_matches_replayed": true,
+    "all_collisions_and_annulus_counts_replayed": true,
+    "all_constancy_bounds_replayed": true,
+    "zero_disk_identity_and_infinity": true,
+    "parameter_partition_scope_retained": true
+  },
+  "failures": [],
+  "disks_verified": 16384,
+  "middle_annulus_disks_verified": 16376,
+  "distinct_labels_verified": 2048,
+  "actual_required": {
+    "parameter_disks": [
+      16384,
+      16384
+    ],
+    "relative_J_error_and_strict_threshold": [
+      67,
+      66
+    ],
+    "normalized_arithmetic_J_error_and_required": [
+      132,
+      99
+    ]
+  },
+  "scope": "full stored parameter evidence; not independent audits of L078-L081 or literal X-disk trace"
+}

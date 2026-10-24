@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "exact_normalizers_replayed": true,
+    "every_mask_once": true,
+    "all_disk_units_match_exact_x": true,
+    "all_full_normal_forms_reconstruct": true,
+    "all_representatives_match_fixed_class_generators": true,
+    "all_residuals_in_proven_square_neighborhood": true,
+    "complete_collision_histogram_matches": true,
+    "eleven_original_witnesses_independent": true
+  },
+  "failures": [],
+  "disks_verified": 32768,
+  "distinct_classes_verified": 2048,
+  "rank_verified": 11,
+  "required": {
+    "integral_disks": 32768,
+    "full_image_classes": 2048
+  },
+  "scope": "affine evidence replay; no reciprocal-chart or independent L078 audit"
+}

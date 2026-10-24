@@ -1,0 +1,586 @@
+{
+  "input": "scripts/five-isogeny-modular-norm/norm-certificate.json",
+  "zero_disk": {
+    "scope": "all v11(s)>=3; in particular every positive multiple of three",
+    "variable": "V=(x+105)/121",
+    "monic_polynomial": "F(-105+121V,s)/11^24",
+    "H_ascending": [
+      352,
+      -1144,
+      1232,
+      -440,
+      1
+    ],
+    "components_ascending": {
+      "base": [
+        43614208,
+        -425238528,
+        1839974400,
+        -4637416960,
+        7503378432,
+        -8083992576,
+        5801766080,
+        -2677348608,
+        723120288,
+        -88439912,
+        584496,
+        -1320,
+        1
+      ],
+      "linear": [
+        11979,
+        251680,
+        -3077272,
+        13826791,
+        -33864996,
+        50217299,
+        -45812657,
+        24180970,
+        -5664175,
+        -413281,
+        342177,
+        1486,
+        0
+      ],
+      "quadratic": [
+        -1,
+        11,
+        -55,
+        165,
+        -330,
+        462,
+        -462,
+        330,
+        -165,
+        55,
+        -11,
+        1,
+        0
+      ]
+    },
+    "full_bounds": [
+      {
+        "i": 0,
+        "required_bound": "3",
+        "valuations": {
+          "base": 3,
+          "linear": 3,
+          "quadratic": 0
+        },
+        "uniform_component_bounds": {
+          "base": 3,
+          "linear": 4,
+          "quadratic": 4
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 1,
+        "required_bound": "11/4",
+        "valuations": {
+          "base": 3,
+          "linear": 2,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 3,
+          "linear": 3,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 2,
+        "required_bound": "5/2",
+        "valuations": {
+          "base": 3,
+          "linear": 3,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 3,
+          "linear": 4,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 3,
+        "required_bound": "9/4",
+        "valuations": {
+          "base": 3,
+          "linear": 2,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 3,
+          "linear": 3,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 4,
+        "required_bound": "2",
+        "valuations": {
+          "base": 2,
+          "linear": 2,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 2,
+          "linear": 3,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 5,
+        "required_bound": "7/4",
+        "valuations": {
+          "base": 2,
+          "linear": 3,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 2,
+          "linear": 4,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 6,
+        "required_bound": "3/2",
+        "valuations": {
+          "base": 2,
+          "linear": 2,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 2,
+          "linear": 3,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 7,
+        "required_bound": "5/4",
+        "valuations": {
+          "base": 2,
+          "linear": 1,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 2,
+          "linear": 2,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 8,
+        "required_bound": "1",
+        "valuations": {
+          "base": 1,
+          "linear": 1,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 1,
+          "linear": 2,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 9,
+        "required_bound": "3/4",
+        "valuations": {
+          "base": 1,
+          "linear": 1,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 1,
+          "linear": 2,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 10,
+        "required_bound": "1/2",
+        "valuations": {
+          "base": 1,
+          "linear": 1,
+          "quadratic": 1
+        },
+        "uniform_component_bounds": {
+          "base": 1,
+          "linear": 2,
+          "quadratic": 5
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 11,
+        "required_bound": "1/4",
+        "valuations": {
+          "base": 1,
+          "linear": 0,
+          "quadratic": 0
+        },
+        "uniform_component_bounds": {
+          "base": 1,
+          "linear": 1,
+          "quadratic": 4
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 12,
+        "required_bound": "0",
+        "valuations": {
+          "base": 0,
+          "linear": null,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 0,
+          "linear": null,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      }
+    ],
+    "forced_root_valuation": "1/4",
+    "constant_over_11pow3_residue": 10
+  },
+  "one_disk": {
+    "scope": "all v11(s-1728)>=4; in particular every positive multiple of four",
+    "variable": "W=x-16",
+    "monic_polynomial": "F(16+W,s)",
+    "components_ascending": {
+      "base": [
+        150513683616266718298530529,
+        64914992511032580407822892,
+        12443061588091733101089114,
+        1382221727379650709452692,
+        97048122781109413224399,
+        4386635046929324149752,
+        123107093344118862572,
+        1883409982506570408,
+        9139675985582703,
+        -68268768402340,
+        83308841946,
+        -576444,
+        1
+      ],
+      "linear": [
+        81402749386839761113321,
+        37001249721290800506055,
+        7277931763361331008629,
+        810231586684367914913,
+        56008543455525048608,
+        2478281936676374697,
+        69650570341227931,
+        1187778422178194,
+        11088999273011,
+        45243896379,
+        43381283,
+        -1970,
+        0
+      ],
+      "quadratic": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "full_bounds": [
+      {
+        "i": 0,
+        "required_bound": "22",
+        "valuations": {
+          "base": 22,
+          "linear": 22,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 22,
+          "linear": 26,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 1,
+        "required_bound": "121/6",
+        "valuations": {
+          "base": 21,
+          "linear": 21,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 21,
+          "linear": 25,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 2,
+        "required_bound": "55/3",
+        "valuations": {
+          "base": 19,
+          "linear": 19,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 19,
+          "linear": 23,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 3,
+        "required_bound": "33/2",
+        "valuations": {
+          "base": 17,
+          "linear": 17,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 17,
+          "linear": 21,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 4,
+        "required_bound": "44/3",
+        "valuations": {
+          "base": 15,
+          "linear": 15,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 15,
+          "linear": 19,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 5,
+        "required_bound": "77/6",
+        "valuations": {
+          "base": 13,
+          "linear": 13,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 13,
+          "linear": 17,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 6,
+        "required_bound": "11",
+        "valuations": {
+          "base": 11,
+          "linear": 11,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 11,
+          "linear": 15,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 7,
+        "required_bound": "55/6",
+        "valuations": {
+          "base": 10,
+          "linear": 10,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 10,
+          "linear": 14,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 8,
+        "required_bound": "22/3",
+        "valuations": {
+          "base": 8,
+          "linear": 8,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 8,
+          "linear": 12,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 9,
+        "required_bound": "11/2",
+        "valuations": {
+          "base": 6,
+          "linear": 6,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 6,
+          "linear": 10,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 10,
+        "required_bound": "11/3",
+        "valuations": {
+          "base": 4,
+          "linear": 4,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 4,
+          "linear": 8,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 11,
+        "required_bound": "11/6",
+        "valuations": {
+          "base": 2,
+          "linear": 0,
+          "quadratic": 0
+        },
+        "uniform_component_bounds": {
+          "base": 2,
+          "linear": 4,
+          "quadratic": 8
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      },
+      {
+        "i": 12,
+        "required_bound": "0",
+        "valuations": {
+          "base": 0,
+          "linear": null,
+          "quadratic": null
+        },
+        "uniform_component_bounds": {
+          "base": 0,
+          "linear": null,
+          "quadratic": null
+        },
+        "base_meets_bound": true,
+        "perturbations_strictly_above": true
+      }
+    ],
+    "forced_root_valuation": "11/6",
+    "constant_over_11pow22_residue": 1
+  },
+  "exceptional_charts": {
+    "T_scalar": -24729001,
+    "T_scalar_valuation": 1,
+    "twoT_scalar": -121,
+    "twoT_scalar_valuation": 2,
+    "fourT_scalar": -32768,
+    "fourT_scalar_minus_1728_valuation": 1,
+    "O_and_threeT_scalar": "infinity"
+  },
+  "threshold": {
+    "actual_compatible_branch_disk_vectors": 0,
+    "actual_complete_primitive_vectors": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "actual_vector_count": 2,
+    "prior_norm_candidates": 25,
+    "required": "uniform necessity on all scalar regions plus exact realization",
+    "realization_input": "L042",
+    "negative_scalar_input": "L043"
+  },
+  "checks": {
+    "zero_H_exact": true,
+    "zero_Dstar_identity": true,
+    "zero_all_base_bounds": true,
+    "zero_all_perturbations_strict": true,
+    "zero_endpoints_exact": true,
+    "zero_constant_leading_residue": true,
+    "one_all_base_bounds": true,
+    "one_all_perturbations_strict": true,
+    "one_endpoints_exact": true,
+    "one_constant_leading_residue": true,
+    "rational_root_valuation_impossible": true,
+    "T_and_twoT_not_primitive_scalars": true,
+    "fourT_not_primitive_scalar": true,
+    "T_and_fourT_map_evaluations": true,
+    "complete_vectors_meet_norm": true
+  },
+  "failures": [],
+  "qualification": "Exact arithmetic evidence; full proof and inherited inputs are in L044. No global class intersection or integer emptiness follows."
+}

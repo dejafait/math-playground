@@ -1,0 +1,300 @@
+{
+  "complete": true,
+  "failures": [],
+  "cases": [
+    {
+      "name": "194-nonpower-selection",
+      "dimensions": {
+        "N": 3,
+        "n": 0,
+        "k": 1
+      },
+      "r": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "R_next": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "T": [],
+      "imported_records": 52066,
+      "max_argument_height": 4,
+      "max_normalization_height": 4,
+      "uniform_skeleton_height": 47,
+      "proofs": {
+        "native": {
+          "path": "scripts/backward-zero/output/194-nonpower-selection.native.jsonl.gz",
+          "actual_required": {
+            "lines": [
+              134440,
+              5366819334389812066
+            ],
+            "depth": [
+              28,
+              161
+            ],
+            "record_nodes": [
+              146496,
+              7783374685401328525189757681008640
+            ],
+            "bytes": [
+              718287741,
+              208859828742058328017197470162980324181233089720873254
+            ]
+          },
+          "complete_primitive_check": true,
+          "four_exact_endpoints": true,
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          }
+        },
+        "not-or": {
+          "path": "scripts/backward-zero/output/194-nonpower-selection.not-or.jsonl.gz",
+          "actual_required": {
+            "lines": [
+              134440,
+              5366819334389812066
+            ],
+            "depth": [
+              39,
+              310
+            ],
+            "record_nodes": [
+              201404,
+              13279907687990931210079462779518976
+            ],
+            "bytes": [
+              1072294119,
+              356354326694104730343348647789459624119839678072676539
+            ]
+          },
+          "complete_primitive_check": true,
+          "four_exact_endpoints": true,
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          }
+        }
+      }
+    },
+    {
+      "name": "194-zero-row",
+      "dimensions": {
+        "N": 2,
+        "n": 1,
+        "k": 1
+      },
+      "r": [
+        [
+          0,
+          0
+        ]
+      ],
+      "R_next": [
+        [
+          1,
+          1
+        ]
+      ],
+      "T": [
+        [
+          [
+            0
+          ]
+        ]
+      ],
+      "imported_records": 47872,
+      "max_argument_height": 1,
+      "max_normalization_height": 1,
+      "uniform_skeleton_height": 47,
+      "proofs": {
+        "native": {
+          "path": "scripts/backward-zero/output/194-zero-row.native.jsonl.gz",
+          "actual_required": {
+            "lines": [
+              60647,
+              5366819334389807872
+            ],
+            "depth": [
+              37,
+              161
+            ],
+            "record_nodes": [
+              9216,
+              7783374685401328525189757681008640
+            ],
+            "bytes": [
+              55359593,
+              626579486226174984051592410488894946701087541905225652
+            ]
+          },
+          "complete_primitive_check": true,
+          "four_exact_endpoints": true,
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          }
+        },
+        "not-or": {
+          "path": "scripts/backward-zero/output/194-zero-row.not-or.jsonl.gz",
+          "actual_required": {
+            "lines": [
+              60647,
+              5366819334389807872
+            ],
+            "depth": [
+              37,
+              310
+            ],
+            "record_nodes": [
+              12540,
+              13279907687990931210079462779518976
+            ],
+            "bytes": [
+              79329974,
+              1069062980082314191030045943368332846516907306878788472
+            ]
+          },
+          "complete_primitive_check": true,
+          "four_exact_endpoints": true,
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          }
+        }
+      }
+    },
+    {
+      "name": "194-used-next-row",
+      "dimensions": {
+        "N": 2,
+        "n": 1,
+        "k": 1
+      },
+      "r": [
+        [
+          1,
+          0
+        ]
+      ],
+      "R_next": [
+        [
+          1,
+          0
+        ]
+      ],
+      "T": [
+        [
+          [
+            1
+          ]
+        ]
+      ],
+      "imported_records": 31694,
+      "max_argument_height": 2,
+      "max_normalization_height": 2,
+      "uniform_skeleton_height": 47,
+      "proofs": {
+        "native": {
+          "path": "scripts/backward-zero/output/194-used-next-row.native.jsonl.gz",
+          "actual_required": {
+            "lines": [
+              65389,
+              5366819334389791694
+            ],
+            "depth": [
+              22,
+              161
+            ],
+            "record_nodes": [
+              9216,
+              7783374685401328525189757681008640
+            ],
+            "bytes": [
+              65270588,
+              250631794490469993620636964195571786433218534729645624
+            ]
+          },
+          "complete_primitive_check": true,
+          "four_exact_endpoints": true,
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          }
+        },
+        "not-or": {
+          "path": "scripts/backward-zero/output/194-used-next-row.not-or.jsonl.gz",
+          "actual_required": {
+            "lines": [
+              65389,
+              5366819334389791694
+            ],
+            "depth": [
+              30,
+              310
+            ],
+            "record_nodes": [
+              12332,
+              13279907687990931210079462779518976
+            ],
+            "bytes": [
+              91535858,
+              427625192032925676412018377347346946359546440696712064
+            ]
+          },
+          "complete_primitive_check": true,
+          "four_exact_endpoints": true,
+          "uniform_checks": {
+            "lines": true,
+            "depth": true,
+            "record_nodes": true,
+            "bytes": true
+          }
+        }
+      }
+    }
+  ],
+  "library_constants": {
+    "L": 3470,
+    "native": {
+      "D": 18,
+      "S": 2456
+    },
+    "not-or": {
+      "D": 25,
+      "S": 3492
+    }
+  },
+  "fixed_laws_checked_in_both_formats": 14,
+  "complete_literal_library_pairs": 14,
+  "full_certificate": "scripts/backward-zero/output/certificate-194.json",
+  "library_image_certificate": "scripts/backward-zero/output/library-images-194.json",
+  "reused_evidence": "scripts/backward-zero/output/certificate-192-summary.json",
+  "preserved_interruption": "scripts/backward-zero/output/certificate-192-interrupted.json",
+  "qualification": "Conditional local construction with L062 informal ledger; independent critical review pending, not a complete L055 receiver.",
+  "checks": {
+    "new_cases": 3,
+    "new_complete_streams": 6,
+    "all_four_endpoints_and_uniform_thresholds_pass": true,
+    "all_supplied_records_retained": true,
+    "independent_critical_audit_pending": true
+  }
+}
