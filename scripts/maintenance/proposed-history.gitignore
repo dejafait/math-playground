@@ -1,0 +1,77 @@
+# PROPOSAL ONLY: not installed as .gitignore and no history has been rewritten.
+# If approved, put this policy in the root commit before replaying history.
+
+# Workstation and editor state
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Credentials and local environments; keep deliberately public examples
+.env
+.env.*
+!.env.example
+!.env.template
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Dependencies and historical Lean build caches, not toolchain/lock manifests
+node_modules/
+.lake/
+/scripts/lean/lake-packages/
+
+# Supervisor state and raw CLI logs, including former provider launchers
+/scripts/loop-codex/
+/scripts/loop-claude/
+/scripts/loop-gemini/
+/scripts/loop-grok/
+/scripts/loop/*.lock
+
+# Generated run directories; do not blanket-ignore step-* or source scripts
+/scripts/**/output/
+/scripts/**/output-*/
+/*/scripts/**/output/
+/*/scripts/**/output-*/
+
+# Generated notebook calculation data, transcripts and interrupted outputs
+/*/scripts/**/*.json
+/*/scripts/**/*.jsonl
+/*/scripts/**/*.csv
+/*/scripts/**/*.tsv
+/*/scripts/**/*.txt
+/*/scripts/**/*.log
+/*/scripts/**/*.gz
+/*/scripts/**/*.npz
+/*/scripts/**/*.npy
+/*/scripts/**/*.bin
+/*/scripts/**/*.partial
+/*/scripts/**/*.partial-*
+
+# Pre-notebook generated data names from the early repository layout
+/hankel-certificate.json
+/hankel-h2-128.json
+/scripts/hankel/*.json
+/scripts/laguerre/*.json
+
+# Explicit source-fixture namespaces: keep small intentional inputs/certificates.
+# Review individual load-bearing files before any historical filtering.
+!/*/scripts/**/fixtures/
+!/*/scripts/**/fixtures/**
+!/*/scripts/**/inputs/
+!/*/scripts/**/inputs/**
+!/*/scripts/**/certificates/
+!/*/scripts/**/certificates/**
+
+# Registry, offline reports, Markdown proofs and mathematical programs stay tracked.
+# Never remove a referenced certificate merely because it matches an ignore rule:
+# retain it explicitly or provide verified immutable external storage/provenance.
