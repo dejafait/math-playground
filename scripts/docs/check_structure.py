@@ -15,11 +15,25 @@ REPO = Path(__file__).resolve().parents[2]
 ROOT = REPO
 ID = r'(?:L\d{3}|C\d{3}[a-z]?)'
 errors = []
+OVERVIEW_LIMITS = {'PROOF.md': (100, 8192), 'PROGRESS.md': (40, 8192)}
 
 
 def require(condition, message):
     if not condition:
         errors.append(message)
+
+
+def overview_errors(name, text):
+    """Bound real startup volume as well as lines; UTF-8 bytes are not tokens."""
+    lines, size = OVERVIEW_LIMITS[name]
+    result = []
+    if len(text.splitlines()) > lines:
+        result.append(f'{name} exceeds {lines} lines.')
+    actual = len(text.encode('utf-8'))
+    if actual > size:
+        result.append(f'{name} exceeds {size} UTF-8 bytes ({actual}); keep a concise overview '
+                      'and preserve detail in canonical proofs or tracked history, not longer lines.')
+    return result
 
 
 def parse_dag(text):
@@ -103,8 +117,8 @@ def check_notebook():
             require(destination.exists(), f'Broken link in {rel}: {url}')
             if path.parent == ROOT / 'lemmas':
                 require(destination.parent != ROOT / 'lemmas', f'Inter-lemma link in {rel}: {url}')
-    for name, limit in [('PROGRESS.md', 40), ('PROOF.md', 100)]:
-        require(len((ROOT / name).read_text().splitlines()) <= limit, f'{name} exceeds {limit} lines.')
+    for name in OVERVIEW_LIMITS:
+        errors.extend(overview_errors(name, (ROOT / name).read_text()))
     progress = (ROOT / 'PROGRESS.md').read_text()
     require(len(re.findall(r'^STATUS: ', progress, re.M)) == 1, 'Expected one current status.')
     require(len(re.findall(r'^Next action: ', progress, re.M)) == 1, 'Expected one current next action.')

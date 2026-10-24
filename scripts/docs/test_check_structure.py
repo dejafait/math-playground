@@ -1,6 +1,6 @@
 """Regression checks for the compact canonical dependency format."""
 import unittest
-from check_structure import parse_dag
+from check_structure import parse_dag, overview_errors
 
 HEADER = ('# Lemma dependencies\n\n'
           '`ID: inputs` lists direct mathematical dependencies; empty means none. '
@@ -33,6 +33,21 @@ class CompactDagTests(unittest.TestCase):
         for text in ('```mermaid\nflowchart TD\n```\n',
                      document('L001:') + 'Extra narrative\n', ''):
             self.assertTrue(parse_dag(text)[2])
+
+
+class StartupBudgetTests(unittest.TestCase):
+    def test_single_line_cannot_hide_unbounded_overview(self):
+        self.assertIn('UTF-8 bytes', overview_errors('PROOF.md', 'x' * 8193)[0])
+        self.assertFalse(overview_errors('PROOF.md', 'x' * 8192))
+
+    def test_measure_utf8_bytes_not_character_count(self):
+        self.assertFalse(overview_errors('PROGRESS.md', 'α' * 4096))
+        self.assertIn('8194', overview_errors('PROGRESS.md', 'α' * 4097)[0])
+
+    def test_line_budgets_remain_independent(self):
+        self.assertIn('100 lines', overview_errors('PROOF.md', 'x\n' * 101)[0])
+        self.assertIn('40 lines', overview_errors('PROGRESS.md', 'x\n' * 41)[0])
+        self.assertFalse(overview_errors('PROOF.md', 'x\n' * 100))
 
 
 if __name__ == '__main__':
