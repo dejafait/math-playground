@@ -32,6 +32,30 @@ class ContextTests(unittest.TestCase):
         self.assertIn('STATUS: IN_PROGRESS\n', text)
         self.assertNotIn('collatz', text)
 
+    def test_checkpoint_changes_do_not_displace_static_notebook_prefix(self):
+        first = context.notebook_context(self.notebook, 'STEP_ID: first\n', None)
+        second = context.notebook_context(self.notebook, 'STEP_ID: second\n', None)
+        boundary = first.index('BEGIN VERBATIM PROGRESS.md')
+        common = first[:boundary]
+        self.assertEqual(common, second[:boundary])
+        for name in ('GOAL.md', 'PROOF.md', 'DAG.md'):
+            self.assertIn((self.notebook / name).read_text(), common)
+        self.assertLess(first.index('END VERBATIM DAG.md'), first.index('BEGIN VERBATIM PROGRESS.md'))
+        self.assertEqual(first.count('BEGIN VERBATIM PROGRESS.md'), 1)
+
+    def test_reference_changes_do_not_displace_checkpoint(self):
+        directory = self.notebook / 'drafts/literature'
+        directory.mkdir(parents=True)
+        reference = directory / 'review.md'
+        reference.write_text('First source statement with exact hypotheses')
+        first = context.notebook_context(self.notebook, 'Exact checkpoint\n', 'drafts/literature/review.md')
+        reference.write_text('Second source statement with changed hypotheses')
+        second = context.notebook_context(self.notebook, 'Exact checkpoint\n', 'drafts/literature/review.md')
+        boundary = first.index('BEGIN VERBATIM drafts/literature/review.md')
+        self.assertEqual(first[:boundary], second[:boundary])
+        self.assertIn('Exact checkpoint\n', first[:boundary])
+        self.assertIn(reference.read_text(), second)
+
     def test_large_assessment_is_marked_omitted_not_truncated(self):
         directory = self.notebook / 'drafts/literature'
         directory.mkdir(parents=True)

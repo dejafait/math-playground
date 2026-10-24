@@ -360,10 +360,12 @@ def main():
                     if literature_context['decision'] not in READY:
                         literature_context['decision'] = 'REVIEW_REQUIRED'
                     literature_context['reason'] = 'Recovery required: ' + recovery
-                prompt = (shared_context(ROOT, prompt) + '\n\n' + f'Active problem: {problem}. Working directory: {notebook}. '
+                prompt = (shared_context(ROOT, prompt) + ROUTING_INSTRUCTION + '\n\n'
+                          + f'Active problem: {problem}. Working directory: {notebook}. '
                           'Shared instructions are ../GOAL.md and ../PROMPT.md. '
                           'All notebook paths are relative to this working directory. '
                           f'Use --problem {problem} with the shared documentation checker.\n\n'
+                          + notebook_context(notebook, before_progress, literature_context['reference'])
                           + instruction(literature_context) + balance_instruction(local, literature_context['decision'] in READY))
                 if recovery:
                     prompt += ('\nSupervisor recovery turn: ' + recovery
@@ -381,9 +383,8 @@ def main():
                                    'If a source cannot be accessed, park dependent work and choose an '
                                    'independent target. Do not repeat the same access attempts. Save a '
                                    'assessment for the new target; a literature turn may finish approving it.\n')
-                prompt += notebook_context(notebook, before_progress, literature_context['reference'])
                 route = select_route(before_progress, local, literature_context['decision'] in READY)
-                prompt += ROUTING_INSTRUCTION + f'\nCurrent settings: {route["model"]}, {route["effort"]}. One bounded step, then checkpoint.\n'
+                prompt += f'\nCurrent settings: {route["model"]}, {route["effort"]}. One bounded step, then checkpoint.\n'
                 argv, stdin = command(executable, prompt, route)
                 local['last_route'] = route
                 state.update(outcome='running', retry_at=0, started_at=time.time())

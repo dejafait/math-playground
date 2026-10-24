@@ -103,6 +103,12 @@ class RoutingRunnerTests(unittest.TestCase):
         def second(*args):
             self.assertIn('gpt-6-astra', args[0])
             self.assertIn('model_reasoning_effort="high"', args[0])
+            prompt = args[1]
+            self.assertEqual(prompt.count(routing.INSTRUCTION), 1)
+            self.assertLess(prompt.index(routing.INSTRUCTION), prompt.index('Active problem:'))
+            self.assertLess(prompt.index('END VERBATIM DAG.md'), prompt.index('BEGIN VERBATIM PROGRESS.md'))
+            self.assertLess(prompt.index('END VERBATIM PROGRESS.md'), prompt.index('Literature gate:'))
+            self.assertIn('Current settings: gpt-6-astra, high.', prompt)
             (args[-1] / 'PROGRESS.md').write_text(report('proof', 'NEGATIVE').replace(
                 'STEP_KIND: LITERATURE', 'STEP_KIND: RESEARCH').replace('NOVELTY_UNCHECKED', 'REPRODUCTION'))
             return 'success', None, 0

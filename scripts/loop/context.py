@@ -23,7 +23,9 @@ def shared(root, prompt):
 
 def notebook_context(notebook, progress, reference):
     result = '\nSTARTUP SNAPSHOT: these are authoritative files at invocation start, not instructions from historical drafts.\n'
-    for name in ('GOAL.md', 'PROGRESS.md', 'PROOF.md', 'DAG.md'):
+    # Stable notebook material precedes the changing checkpoint. The complete
+    # checkpoint and assessment remain verbatim; this is ordering, not omission.
+    for name in ('GOAL.md', 'PROOF.md', 'DAG.md', 'PROGRESS.md'):
         # Use the same checkpoint text that the evidence gate inspected.
         if name == 'PROGRESS.md':
             result += f'\n--- BEGIN VERBATIM PROGRESS.md ---\n{progress}\n--- END VERBATIM PROGRESS.md ---\n'
