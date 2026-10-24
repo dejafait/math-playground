@@ -139,6 +139,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--problem', help='Validate one registered notebook; default: all.')
     args = parser.parse_args()
+    # Restore saved bytes only; never regenerate or revise mathematical data.
+    sys.path.insert(0, str(REPO / 'scripts/maintenance'))
+    from materialize_evidence import materialize
+    materialize(REPO, verify_existing=False)
     rows = registry(REPO)
     if args.problem and args.problem not in {row['id'] for row in rows}:
         parser.error('Unknown problem ID')

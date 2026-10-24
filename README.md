@@ -19,6 +19,14 @@ The two Reed–Solomon problems share a prize pool, not a fixed individual rewar
 
 Install Python 3.9+ and the [Codex CLI](https://developers.openai.com/codex/cli), then run `codex login` using ChatGPT. Do not configure API keys or custom paid providers. Keep paid extra usage and automatic top-ups disabled in your account; the wrapper cannot inspect account-side billing settings.
 
+On a fresh clone, restore the saved large-certificate bytes before running mathematical scripts:
+
+```bash
+make -f scripts/maintenance/Makefile evidence
+```
+
+These are lossless versioned archives with exact compressed and expanded checksums, not newly generated numerical results. The shared documentation checker also performs this restoration. Changed local evidence is never overwritten. Some historical full proof/execution streams remain locally generated artifacts; their compact certificates and source bindings are versioned in the [recovered evidence inventory](scripts/maintenance/recovered-evidence-inventory.json).
+
 ```bash
 bash loop-codex.sh
 ```
