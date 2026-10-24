@@ -1,0 +1,330 @@
+{
+  "window": "2026-10-22 00:00 UTC through snapshot",
+  "first": "2026-10-22T00:14:43.742396+00:00",
+  "last": "2026-10-24T17:44:13.369278+00:00",
+  "attempts": 645,
+  "accounted": 626,
+  "collection_status": {
+    "partial": 17,
+    "complete": 626,
+    "absent": 2
+  },
+  "totals": {
+    "turns": 626,
+    "input_tokens": 627438147,
+    "cached_input_tokens": 573391744,
+    "fresh_input_tokens": 54046403,
+    "output_tokens": 6261997,
+    "reasoning_output_tokens": 1187884,
+    "requests": 7324,
+    "compactions": 0,
+    "tool_output_bytes": 86083405,
+    "median_prompt_bytes": 166467.5
+  },
+  "by_model": {
+    "gpt-6-astra": {
+      "turns": 149,
+      "input_tokens": 158912455,
+      "cached_input_tokens": 145953152,
+      "fresh_input_tokens": 12959303,
+      "output_tokens": 1736594,
+      "reasoning_output_tokens": 308718,
+      "requests": 1871,
+      "compactions": 0,
+      "tool_output_bytes": 18920307,
+      "median_prompt_bytes": 171120
+    },
+    "gpt-6-luna": {
+      "turns": 1,
+      "input_tokens": 481715,
+      "cached_input_tokens": 432768,
+      "fresh_input_tokens": 48947,
+      "output_tokens": 4771,
+      "reasoning_output_tokens": 1957,
+      "requests": 9,
+      "compactions": 0,
+      "tool_output_bytes": 34771,
+      "median_prompt_bytes": 150265
+    },
+    "gpt-6.1-sol": {
+      "turns": 476,
+      "input_tokens": 468043977,
+      "cached_input_tokens": 427005824,
+      "fresh_input_tokens": 41038153,
+      "output_tokens": 4520632,
+      "reasoning_output_tokens": 877209,
+      "requests": 5444,
+      "compactions": 0,
+      "tool_output_bytes": 67128327,
+      "median_prompt_bytes": 165563.0
+    }
+  },
+  "by_problem": {
+    "beal": {
+      "turns": 62,
+      "input_tokens": 53172184,
+      "cached_input_tokens": 48614144,
+      "fresh_input_tokens": 4558040,
+      "output_tokens": 683824,
+      "reasoning_output_tokens": 136816,
+      "requests": 688,
+      "compactions": 0,
+      "tool_output_bytes": 7159097,
+      "median_prompt_bytes": 153628.0
+    },
+    "birch-swinnerton-dyer": {
+      "turns": 62,
+      "input_tokens": 86804982,
+      "cached_input_tokens": 80782720,
+      "fresh_input_tokens": 6022262,
+      "output_tokens": 764824,
+      "reasoning_output_tokens": 136714,
+      "requests": 995,
+      "compactions": 0,
+      "tool_output_bytes": 11144063,
+      "median_prompt_bytes": 146017.0
+    },
+    "collatz": {
+      "turns": 62,
+      "input_tokens": 45441109,
+      "cached_input_tokens": 40864128,
+      "fresh_input_tokens": 4576981,
+      "output_tokens": 478688,
+      "reasoning_output_tokens": 55534,
+      "requests": 598,
+      "compactions": 0,
+      "tool_output_bytes": 6154157,
+      "median_prompt_bytes": 181922.0
+    },
+    "hodge": {
+      "turns": 63,
+      "input_tokens": 60361907,
+      "cached_input_tokens": 54678144,
+      "fresh_input_tokens": 5683763,
+      "output_tokens": 552220,
+      "reasoning_output_tokens": 120482,
+      "requests": 657,
+      "compactions": 0,
+      "tool_output_bytes": 8006912,
+      "median_prompt_bytes": 228408
+    },
+    "iut-challenge": {
+      "turns": 62,
+      "input_tokens": 59847091,
+      "cached_input_tokens": 54740096,
+      "fresh_input_tokens": 5106995,
+      "output_tokens": 553752,
+      "reasoning_output_tokens": 106951,
+      "requests": 716,
+      "compactions": 0,
+      "tool_output_bytes": 9238477,
+      "median_prompt_bytes": 156901.0
+    },
+    "p-vs-np": {
+      "turns": 64,
+      "input_tokens": 64024354,
+      "cached_input_tokens": 58680064,
+      "fresh_input_tokens": 5344290,
+      "output_tokens": 724837,
+      "reasoning_output_tokens": 176788,
+      "requests": 764,
+      "compactions": 0,
+      "tool_output_bytes": 9518312,
+      "median_prompt_bytes": 160333.5
+    },
+    "reed-solomon-list-decoding": {
+      "turns": 62,
+      "input_tokens": 64002529,
+      "cached_input_tokens": 58679424,
+      "fresh_input_tokens": 5323105,
+      "output_tokens": 687104,
+      "reasoning_output_tokens": 142454,
+      "requests": 774,
+      "compactions": 0,
+      "tool_output_bytes": 9113538,
+      "median_prompt_bytes": 155473.0
+    },
+    "reed-solomon-mca": {
+      "turns": 63,
+      "input_tokens": 68284393,
+      "cached_input_tokens": 62921984,
+      "fresh_input_tokens": 5362409,
+      "output_tokens": 663163,
+      "reasoning_output_tokens": 91924,
+      "requests": 814,
+      "compactions": 0,
+      "tool_output_bytes": 9484405,
+      "median_prompt_bytes": 174147
+    },
+    "riemann": {
+      "turns": 63,
+      "input_tokens": 50478530,
+      "cached_input_tokens": 45452416,
+      "fresh_input_tokens": 5026114,
+      "output_tokens": 554158,
+      "reasoning_output_tokens": 113921,
+      "requests": 619,
+      "compactions": 0,
+      "tool_output_bytes": 7870351,
+      "median_prompt_bytes": 171019
+    },
+    "yang-mills": {
+      "turns": 63,
+      "input_tokens": 75021068,
+      "cached_input_tokens": 67978624,
+      "fresh_input_tokens": 7042444,
+      "output_tokens": 599427,
+      "reasoning_output_tokens": 106300,
+      "requests": 699,
+      "compactions": 0,
+      "tool_output_bytes": 8394093,
+      "median_prompt_bytes": 295818
+    }
+  },
+  "by_effort": {
+    "high": {
+      "turns": 396,
+      "input_tokens": 489822934,
+      "cached_input_tokens": 452155008,
+      "fresh_input_tokens": 37667926,
+      "output_tokens": 5143447,
+      "reasoning_output_tokens": 1112041,
+      "requests": 5424,
+      "compactions": 0,
+      "tool_output_bytes": 62907545,
+      "median_prompt_bytes": 167218.0
+    },
+    "medium": {
+      "turns": 230,
+      "input_tokens": 137615213,
+      "cached_input_tokens": 121236736,
+      "fresh_input_tokens": 16378477,
+      "output_tokens": 1118550,
+      "reasoning_output_tokens": 75843,
+      "requests": 1900,
+      "compactions": 0,
+      "tool_output_bytes": 23175860,
+      "median_prompt_bytes": 164839.5
+    }
+  },
+  "validation": {
+    "not_accepted": 21,
+    "accepted": 588,
+    "Ready assessments need a direct source URL.": 22,
+    "Literature assessment does not match the exact target.": 9,
+    "Three exploration turns without an advance or informative negative result; review the recorded decision.": 1,
+    "Two consecutive stalled literature turns; park the source blocker and select an independent target.": 4
+  },
+  "outcomes": {
+    "None": 21,
+    "ADVANCE": 324,
+    "EXPLORATION": 235,
+    "STALLED": 40,
+    "NEGATIVE": 25
+  },
+  "task_counts": {
+    "literature_comparison": 301,
+    "proof_attempt": 81,
+    "implementation": 28,
+    "metadata": 19,
+    "proof_audit": 143,
+    "calculation": 51,
+    "source_extraction": 1,
+    "null": 2
+  },
+  "orientation_mentions": {
+    "PROGRESS.md": 1947,
+    "PROOF.md": 1188,
+    "DAG.md": 857,
+    "GOAL.md": 1
+  },
+  "first_request": {
+    "n": 626,
+    "input": 33392386,
+    "cached": 7723264
+  },
+  "startup_file_bytes": {
+    "riemann": {
+      "GOAL.md": 1976,
+      "PROGRESS.md": 2766,
+      "PROOF.md": 127203,
+      "DAG.md": 9376
+    },
+    "reed-solomon-list-decoding": {
+      "GOAL.md": 817,
+      "PROGRESS.md": 2438,
+      "PROOF.md": 123427,
+      "DAG.md": 3353
+    },
+    "iut-challenge": {
+      "GOAL.md": 669,
+      "PROGRESS.md": 2927,
+      "PROOF.md": 128509,
+      "DAG.md": 2091
+    },
+    "p-vs-np": {
+      "GOAL.md": 511,
+      "PROGRESS.md": 2505,
+      "PROOF.md": 123901,
+      "DAG.md": 2055
+    },
+    "reed-solomon-mca": {
+      "GOAL.md": 860,
+      "PROGRESS.md": 2780,
+      "PROOF.md": 142088,
+      "DAG.md": 3168
+    },
+    "hodge": {
+      "GOAL.md": 570,
+      "PROGRESS.md": 2603,
+      "PROOF.md": 197004,
+      "DAG.md": 3309
+    },
+    "yang-mills": {
+      "GOAL.md": 597,
+      "PROGRESS.md": 2737,
+      "PROOF.md": 260045,
+      "DAG.md": 10348
+    },
+    "birch-swinnerton-dyer": {
+      "GOAL.md": 611,
+      "PROGRESS.md": 3147,
+      "PROOF.md": 122987,
+      "DAG.md": 2592
+    },
+    "collatz": {
+      "GOAL.md": 529,
+      "PROGRESS.md": 2434,
+      "PROOF.md": 152022,
+      "DAG.md": 2797
+    },
+    "beal": {
+      "GOAL.md": 577,
+      "PROGRESS.md": 2272,
+      "PROOF.md": 122010,
+      "DAG.md": 2627
+    }
+  },
+  "credit_rate_proxy": {
+    "gpt-6-astra": {
+      "fresh_input": 3239.82575,
+      "cached_input": 3648.8288,
+      "output": 2170.7425
+    },
+    "gpt-6-luna": {
+      "fresh_input": 0.1223675,
+      "cached_input": 0.108192,
+      "output": 0.0596375
+    },
+    "gpt-6.1-sol": {
+      "fresh_input": 2051.90765,
+      "cached_input": 1067.51456,
+      "output": 1130.158
+    }
+  },
+  "credit_rate_proxy_totals": {
+    "fresh_input": 5291.8557675,
+    "cached_input": 4716.451552,
+    "output": 3300.9601374999997
+  }
+}

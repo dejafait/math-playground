@@ -1,5 +1,7 @@
 # Codex portfolio loop
 
+The [October 24 efficiency review](reports/2026-10-24-gateway-review.md) compares Cloudflare AI Gateway with the subscription-only loop, documents observed cache/effort usage and separates relative rate-card sensitivity from actual subscription billing. It includes an aggregate snapshot and interactive cache sensitivity view; it does not change runtime behavior.
+
 The root launcher locates the repository from any calling directory. `runner.py` reads the ordered `problems.json` registry; `portfolio.py` validates it, migrates legacy RH counters and selects the next eligible notebook. `codex.py` retains the subscription authentication checks and command construction. `events.py` classifies failures without interpreting tool output as quota errors.
 
 Each invocation starts a fresh session in the selected notebook directory. The literal root PROMPT.md is reread on every turn, prefixed with the active problem and shared instruction paths. Research artifacts and reproduction paths are local to that notebook; the shared documentation checker accepts `--problem ID`. The configured default model is retained. No API key or paid fallback is selected. Existing sandbox policies remain effective; instructions also restrict edits to the active notebook.

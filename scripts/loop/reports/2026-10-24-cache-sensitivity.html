@@ -1,0 +1,67 @@
+<div id="math-cache-sensitivity">
+  <style>
+    #math-cache-sensitivity { color:var(--foreground); }
+    #math-cache-sensitivity .allocation { display:flex; height:30px; background:var(--muted); overflow:hidden; margin:12px 0; }
+    #math-cache-sensitivity .allocation span { display:block; height:100%; }
+    #math-cache-sensitivity .fresh { background:var(--viz-series-1); }
+    #math-cache-sensitivity .cached { background:var(--viz-series-2); }
+    #math-cache-sensitivity .output { background:var(--viz-series-3); }
+    #math-cache-sensitivity .legend { display:flex; flex-wrap:wrap; gap:8px 20px; margin-bottom:22px; }
+    #math-cache-sensitivity .swatch { display:inline-block; width:12px; height:12px; margin-right:6px; }
+    #math-cache-sensitivity h3 { margin-top:22px; }
+    #math-cache-sensitivity .numbers { font-variant-numeric:tabular-nums; }
+    @media (prefers-reduced-motion:no-preference) { #math-cache-sensitivity .allocation span { transition:width 180ms; } }
+  </style>
+  <h3>Prompt cache and relative resource mix</h3>
+  <div class="text-small">626 complete invocations · Oct 22–24, 2026 · Standard credit-rate proxy, not a euro bill</div>
+  <h3>Observed input tokens</h3>
+  <div class="allocation" role="img" aria-label="Observed input tokens: 8.61 percent fresh, 91.39 percent cached">
+    <span class="fresh" style="width:8.613834%" data-tooltip="Fresh input: 54,046,403 tokens"></span>
+    <span class="cached" style="width:91.386166%" data-tooltip="Cached input: 573,391,744 tokens"></span>
+  </div>
+  <div class="legend numbers"><span><i class="swatch fresh"></i>Fresh 8.61%</span><span><i class="swatch cached"></i>Cached 91.39%</span></div>
+  <h3>Relative credit-rate weight</h3>
+  <div class="allocation" role="img" data-weight-bar aria-label="Relative credit-rate proxy by token category">
+    <span class="fresh" data-fresh></span><span class="cached" data-cached></span><span class="output" data-output></span>
+  </div>
+  <div class="legend numbers"><span><i class="swatch fresh"></i>Fresh <span data-fresh-label></span></span><span><i class="swatch cached"></i>Cached <span data-cached-label></span></span><span><i class="swatch output"></i>Output <span data-output-label></span></span></div>
+  <div class="viz-controls"><label class="form-label">Hypothetical share of current fresh input moved to cache: <span data-scenario-label>0%</span><input class="form-range" type="range" min="0" max="100" step="5" value="0" aria-label="Hypothetical percentage of currently fresh input moved to cache"></label></div>
+  <div class="numbers" aria-live="polite" data-savings></div>
+  <div class="text-small">Sensitivity only · Same models, input volume and output · No measured savings</div>
+  <hr>
+  <div class="viz-grid">
+    <div class="card viz-stat"><div>First model request of each session</div><div class="viz-stat-value">47.5%</div><div>of all observed fresh input</div></div>
+    <div class="card viz-stat"><div>Astra in this sample</div><div class="viz-stat-value">23.8%</div><div>of turns · 68.1% of the rate-weight proxy</div></div>
+  </div>
+  <script>
+    (() => {
+      const root = document.getElementById('math-cache-sensitivity');
+      const input = root.querySelector('input');
+      const fresh = 5291.8557675, cached = 4716.451552, output = 3300.9601375;
+      const recachedWeight = 12959303*25/1e6 + 41038153*2.5/1e6 + 48947*0.25/1e6;
+      const baseline = fresh+cached+output;
+      function draw() {
+        const fraction = Number(input.value)/100;
+        const parts = [fresh*(1-fraction), cached+recachedWeight*fraction, output];
+        const total = parts.reduce((a,b)=>a+b,0);
+        ['fresh','cached','output'].forEach((name,i) => {
+          const percentage=100*parts[i]/total;
+          root.querySelector('[data-'+name+']').style.width=percentage+'%';
+          root.querySelector('[data-'+name+'-label]').textContent=percentage.toFixed(1)+'%';
+        });
+        root.querySelector('[data-weight-bar]').setAttribute('aria-label', 'Scenario credit-rate weight: fresh '+(100*parts[0]/total).toFixed(1)+' percent, cached '+(100*parts[1]/total).toFixed(1)+' percent, output '+(100*parts[2]/total).toFixed(1)+' percent.');
+        root.querySelector('[data-scenario-label]').textContent=input.value+'%';
+        root.querySelector('[data-savings]').textContent=(100*(1-total/baseline)).toFixed(1)+'% lower relative rate-weight proxy';
+      }
+      const saved=window.openai?.widgetState?.modelContent?.recachePercent;
+      if(Number.isFinite(saved) && saved>=0 && saved<=100) input.value=String(saved);
+      input.addEventListener('input',draw);
+      input.addEventListener('change',()=>{window.openai?.setWidgetState?.({modelContent:{recachePercent:Number(input.value)}}).catch(()=>{});});
+      window.addEventListener('openai:set_globals',(event)=>{
+        const value=event.detail?.globals?.widgetState?.modelContent?.recachePercent;
+        if(Number.isFinite(value) && value>=0 && value<=100){input.value=String(value);draw();}
+      });
+      draw();
+    })();
+  </script>
+</div>
