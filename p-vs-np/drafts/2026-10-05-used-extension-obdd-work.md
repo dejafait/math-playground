@@ -1,9 +1,0 @@
-# Used HWB extension — saved reasoning
-
-Approved target: Test whether polynomial-length ER refutations can have a used extension value requiring exponential OBDD width in every common variable order.
-
-Main gap: unrestricted uniform SAT complexity; this step only tests L026's representation premise. Receiving conventions are L025/L026, and L019 supplies the contrast between ancestry and optimal-certificate hardness. The prior SPECIALIZE assessment is `drafts/literature/2026-10-05-used-extension-obdd-width.md`.
-
-Completed construction: original F contains every positive input unit x_i and the negative unit NOT x_1. Build HWB on all n original inputs with explicit signed-AND gates. Evaluate each gate at the all-one assignment and derive its true signed unit from the original positive units. Add an AND accumulator starting at x_1 and successively including the true signed value of every circuit gate. Its positive final unit requires every circuit-gate unit. Propagate NOT x_1 along the accumulator projections to a negative final unit, then resolve. Every circuit definition has a used defining clause; every accumulator definition is used. HWB itself is unchanged on all original assignments, despite unsatisfiability of F.
-
-All listed checks passed in the [canonical proof](../lemmas/L027-used-er-extension-every-order-obdd-width.md): explicit weight-counter recurrence and fresh positive HWB root; exact resolution steps for both gate values and both literal signs; ancestry of every introduced extension; polynomial full binary length; every-order node-count-to-dense-width transfer. The primary 1999 Theorem 4.2 is imported without reconstructing its damaged numeric display. Complete finite certificates are in `scripts/used-extension-obdd/embedding-results.json`. Alternative proofs of F remain trivial and this is not certificate hardness. The canonical checkpoint, rather than this saved reasoning, owns the continuation.

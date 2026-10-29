@@ -1,5 +1,0 @@
-# Step 359 — 2026-10-20: direct-source repair and separate approval
-
-Repaired the supervisor-reported missing direct URLs in the [saved assessment](../drafts/literature/2026-10-20-fixed-cardinality-normalized-control.md). Reinspected Raghavendra–Tan Section 3's conditional display and global-distribution qualification, Schrijver (60),(62)–(66), Kim–Toan (31)–(35), and Polak Proposition 1.1's full indicator proof and Section 1.2. Reused the companion review's discovery searches; ATTEMPTS/033,034,080 remain stopped and concern different prescriptions or old constraints.
-
-Outcome STALLED: valid process/source approval repair, no new mathematical evidence. The unchanged SPECIALIZE target is ready for the next mathematical invocation. Its exact objective, inherited feasibility and all nonzero-distance contraction residuals remain unchecked. No lemma, mathematical script, DAG or argument was changed. Continue only if a row fails after the inherited controls pass; otherwise park this frozen diagnostic without retuning. The main boundary remains 955–957.

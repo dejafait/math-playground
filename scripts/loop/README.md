@@ -1,6 +1,8 @@
-# Codex portfolio loop
+# Codex Riemann research loop
 
 The [October 24 efficiency review](reports/2026-10-24-gateway-review.md) compares Cloudflare AI Gateway with the subscription-only loop, documents observed cache/effort usage and separates relative rate-card sensitivity from actual subscription billing. It includes an aggregate snapshot and interactive cache sensitivity view; it does not change runtime behavior.
+
+Only `riemann` is registered in `problems.json`; each invocation continues its saved checkpoint. Historical scheduling state for removed notebooks is ignored. Restart an already running supervisor after changing this registry, because it is read at startup.
 
 The root launcher locates the repository from any calling directory. `runner.py` reads the ordered `problems.json` registry; `portfolio.py` validates it, migrates legacy RH counters and selects the next eligible notebook. `codex.py` retains the subscription authentication checks and command construction. `events.py` classifies failures without interpreting tool output as quota errors.
 

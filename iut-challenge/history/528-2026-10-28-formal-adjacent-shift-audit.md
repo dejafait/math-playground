@@ -1,7 +1,0 @@
-# Step528 — 2026-10-28 — formal adjacent-shift audit
-
-Completed the approved conceptual audit as an [unfinished formal descent trace](../drafts/2026-10-28-step528-formal-adjacent-shift-audit.md). It applies §3.9 descent on the admitted underlying-data domain without requiring an original-data lift, then distinguishes the value-group and Galois/unit comparisons from transport of the retained marking/localization diagrams. The unresolved endpoint is the scope of (cQ4)'s cited vertical-coricity input, IUT III, Theorem 1.5(i). This is not proof that the source lacks or cannot supply the comparison.
-
-Outcome EXPLORATION / RESEARCH / REPRODUCTION; actual task proof_audit. One mathematical exploration turn used, without resetting prior exhausted routes. [L127](../lemmas/L127-global-exact-approximants-preserve-reconstructed-value-data.md) remains restricted to reconstructed value data. No new lemma, mathematical script, DAG edge or PROOF change. Native membership, synchronization and finite B>=A remain unverified; no result beyond the checked sources or essential IUT flaw is claimed.
-
-The [next assessment](../drafts/literature/2026-10-28-vertical-coricity-relative-scope.md) is REVIEW_REQUIRED for the exact theorem-level scope comparison. It names the essential unread source case rather than reopening general source searches. A creative obstruction still lacks an invariant of the actual formal relative data; the stopped strict-square, numerical and norm substitutes remain stopped. Existing unfinished work is preserved.

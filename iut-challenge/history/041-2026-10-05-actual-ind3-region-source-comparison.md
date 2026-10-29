@@ -1,7 +1,0 @@
-# 2026-10-05 — Actual ind3 source bridge remains blocked
-
-STEP_ID: 2026-10-05-041-actual-ind3-region-source-comparison
-
-Completed the saved source comparison as one literature-only step. The [canonical assessment](../drafts/literature/2026-10-05-actual-ind3-to-power-union.md) records exact primary statements and proof justifications: §4.9 assumes a pilot-power tensor-shell upper envelope; numerical §6.2 attributes its different literal-union input to an unresolved reference. Neither provides equality or reverse membership for the notebook's witnesses. This informative NEGATIVE stops the proposed source shortcut; it supplies no new mathematical theorem or essential IUT flaw. The underlying unread log-Kummer source was already recorded, but the precise attempted replacement by (4.3) and its failure are newly assessed here.
-
-Park dependent all-image bridge work. Preserve L020's boundary containment, L017's singleton result and L019's full-pair exclusion. The [new pending assessment](../drafts/literature/2026-10-05-two-factor-shell-envelope-sufficiency.md) selects an independently testable local sufficiency question for the stated shell upper envelope. It is REVIEW_REQUIRED, not calculation approval, and its possible negative would concern sufficiency only. No actual image membership or global initial data is assumed. Mathematical exploration usage stays 0/3; prior defect/quotient exhaustion remains 3/3. No lemma, script, DAG, PROOF, shared infrastructure or supervisor state was changed.

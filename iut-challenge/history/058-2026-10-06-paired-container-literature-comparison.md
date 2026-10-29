@@ -1,7 +1,0 @@
-# 2026-10-06 — Paired-container coverage
-
-Completed one literature-only comparison for the saved invariance target. [The assessment](../drafts/literature/2026-10-06-source-paired-action-container-invariance.md) is now SPECIALIZE, with exact source words, primary stable-lattice criterion, qualifications and access failures in [the source notes](../drafts/2026-10-06-paired-container-source-notes.md). Outcome ADVANCE records usable known source coverage, not mathematics beyond the inspected sources. Completed classification is NOVELTY_UNCHECKED; no novelty is inferred from the searches.
-
-The residual-irreducibility/homothety criterion provides a concrete test without prescribing the reciprocal basis or identifying the paired subgroup with a full symplectic group. Its actual mod-3 action, the requisite closed-lattice hypotheses and C-versus-M comparison remain future mathematical work. The abbreviated source proof warrants a short rigorous reproduction using the inspected Nakayama lemma. Ancillary lecture-note access failures are not essential blockers.
-
-No lemma, mathematical script, DAG or PROOF.md was changed, and no container verdict, radius estimate or IUT objection was established. The unchanged target is ready for separate supervisor approval. Retain the old 3/3 exploration records, ATTEMPTS/019–020 and L020; a moved C point would still require independent input-region and original-IUT bridges.

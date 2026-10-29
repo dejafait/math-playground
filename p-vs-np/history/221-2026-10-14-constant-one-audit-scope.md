@@ -1,7 +1,0 @@
-# Step 221 — constant-one critical-audit scope comparison
-
-2026-10-14. One LITERATURE / literature_comparison / NOVELTY_UNCHECKED step, outcome EXPLORATION. The [assessment](../drafts/literature/2026-10-14-constant-one-reception-critical-audit.md) changes REVIEW_REQUIRED to SPECIALIZE after the first separate comparison of the step-220 audit scope with reusable Mohri/classical/LTW coverage, canonical L066/L065 contracts, step-218 all-size composition and L064 endpoint syntax. No fresh external source, theorem, archive replay or mathematical audit verdict is claimed. Approval is local preparation, not progress beyond the checked sources toward SAT.
-
-The changed driver uses audit-218 accounting helpers during construction; the next independent audit must recompute the ledger from canonical formulas and original evidence rather than merely call those helpers. Replay both complete coordinate pairs, all nested relocated imports and every earlier generated prefix record; keep fixed suffixes and both distinct library charges. Preserve original certificates, streams, historical failures and interrupted work. Attempt 018's stopped repeated approval does not prevent this first changed-scope comparison.
-
-No lemma/script/PROOF/DAG or shared-state edits occurred. Mathematical exploration usage remains zero after step 220. PROGRESS.md owns the exact ready audit continuation and routing; variable reception, coefficient/initial-output, ordinary-input completeness, whole L055, certificate existence and unrestricted SAT remain open.

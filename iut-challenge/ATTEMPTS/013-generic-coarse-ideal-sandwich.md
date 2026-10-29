@@ -1,5 +1,0 @@
-# Generic inner/outer ideal certification of the coarse enclosure
-
-The approved mechanism combines the strict log/exp ideal inside J with a cited outer ideal for J, places the literal scalar input inside an integer-scaled I, and uses preservation of that lattice by the entire group.
-
-**WHY IT FAILS:** [L015](../lemmas/L015-generic-ideal-certification-leaves-degree-27-gap.md) isolates degree 27 and residual valuations below 14/27: even the stronger analytic outer bound gives a certified upper radius of 243 times 3^(-n), while the required radius is 81 times 3^(-n). The integer scaling needed for the available inner ideal causes the factor-three loss. The other residual range is successfully enclosed. Stop repeating this sandwich in the unresolved regime; a refinement must use actual logarithm-lattice membership or a different saturation mechanism. An insufficient upper bound is not a counterexample. The general coarse assertion, original IUT applicability and finite B >= A remain open here.

@@ -1,7 +1,0 @@
-# 2026-10-07 — Alternative final affine-ABP assembly coverage
-
-STEP_ID: 2026-10-07-86-alternative-affine-abp-assembly-source-comparison
-
-Completed one literature-only comparison for the saved final-assembly target. The [canonical assessment](../drafts/literature/2026-10-07-alternative-affine-abp-certificate-assembly.md) records eleven queries, inspected primary hypotheses/extraction cases, reused coverage and a ready EXPLORE decision. LTW's tree extraction, mixed-side skew computations and Boolean BP proof identities do not supply the requested full conditional free-ring graph theorem. No novelty inference, new lemma, script or assembly identity is claimed; outcome EXPLORATION, classification NOVELTY_UNCHECKED.
-
-L025 still specifies the full supplied-data promises; audited L035/L036 supply alternative x-only correction inputs and L024 supplies defining-clause identities. L034 and Attempts 020/021 remain exact-output stops, not all-certificate obstructions. The next direction is a bounded test of consistent-side propagation with independently charged x-only multipliers/corrections, covering proof reuse and retaining nonlinear H terms. All identities and the global graph bound remain unproved. General data existence, every-certificate hardness and unrestricted SAT decision transfer remain independent gaps. Mathematical exploration usage stays one since L036's advance; existing unfinished work and the main argument/DAG are preserved.

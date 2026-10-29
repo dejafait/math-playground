@@ -1,9 +1,0 @@
-# Step 263: ready explicit dual-kernel replay
-
-Before arithmetic: reuse unchanged SPECIALIZE assessment drafts/literature/2026-10-16-explicit-dual-kernel-algebra.md and its exact target. Preserve dual-262 bytes and its failure. Copy only candidate certificates; no new production stage is required. One repaired replay, arithmetic cap 180 seconds, external cap 181 seconds, cumulative new directory bound 128 MiB. Stop on first failure/cap.
-
-The psi8/Y factor is repaired from 8 to 2. Static recurrence audit gives r6=2 psi3(psi5-4 r4^2), psi7=psi5 psi3^3-128 c^2 r4^3, r8=2 r4(r6 psi3^2-2 psi5^2), psi9=64 c^2 r6 r4^3-psi3 psi5^3. Then phi7=X psi7^2-c r6 r8 and omega7/Y=(psi9 r6^2-psi5 r8^2)/4. Leading coefficients are 7,1,1 for psi7,phi7,omega7/Y. The replay independently retains Y and checks all five recurrences and both multiplication-coordinate numerators before either composition. All new arithmetic is inside the capped replay.
-
-J:(X,Y)->(49X,343Y) maps E to (7^4 a,7^6 b), with differential 1/7; J inverse gives actual dual differential seven. For either composition, inner x=I/D with D=s^2 K^2 (s=1 or 7), outer kernel homogenization H=D^3 k_out(I/D). The composite denominator root is 7 K H; x numerator is homogenization degree seven and y numerator is inner M times outer degree-nine homogenization. This retains the 49/343 scaling in both orders.
-
-Inputs: audited L067/L068/L070/L071/L072 and complete direction/quotient certificates. No L069, partial columns, or cross-notebook input. Main gap: arbitrary analytic order >=2 rational rank equality. Downstream possibility: affine-line algebra for L066, still missing incidence/norm, functions, complete units/classes, local data, Selmer containment, other L026 premises, successful localization, rational membership, divisible Sha and complex-order comparison. Continue only on full two-coordinate dual compositions, projective kernel completeness and etaleness in every fiber.

@@ -1,6 +1,6 @@
 # Goal
 
-Develop complete, checkable informal resolutions of the problems listed in scripts/loop/problems.json. Each problem has its own GOAL.md specifying its exact target. These shared standards apply to every notebook.
+Develop a complete, checkable informal proof or disproof of the Riemann hypothesis, as specified in riemann/GOAL.md. Only Riemann is registered in scripts/loop/problems.json. The following research standards apply to that notebook.
 
 ## Success criteria
 

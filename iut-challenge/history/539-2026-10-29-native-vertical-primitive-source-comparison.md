@@ -1,9 +1,0 @@
-# 2026-10-29 — step539: full vertical primitive calibration source comparison
-
-Completed one literature-only review of the saved continuation. Read the full vertical input, q-splitting reconstruction and its cited theta/cyclotomic cases, then the normalized constant-monoid/realification interfaces. The [assessment](../drafts/literature/2026-10-28-native-vertical-primitive-calibration.md) is SPECIALIZE; [source evidence](../drafts/2026-10-29-step539-native-vertical-primitive-source-review.md) records exact clauses, qualifications, versions and extracted pages.
-
-The new local input is verified source coverage of the full-curve reconstruction and normalized valuation mechanism, beyond the unit-only comparison. This imports known source statements, not new mathematics. No application establishing L129's equality, no enhanced beta, no native mismatch and no essential IUT flaw is claimed.
-
-The next bounded application must first identify a full vertical representative inducing L128's already prescribed maps; III 1.5(iii) distinguishes this class from the larger field-group class. It must then check the retained q-divisor embeddings, including cyclotomes, the q/p ratio, reciprocal degree and compatible common scale. An abstract generator isomorphism or a replacement representative does not suffice. Preserve ATTEMPTS/042 and unfinished step530 until this succeeds; the sufficient strict model lift is not asserted necessary for formal comparison.
-
-Mathematical exploration usage remains 1 after step535. The creative-invariant route remains blocked by the unspecified formal action, not by a global ban on discovery. The next recommendation is a conceptual application audit after the supervisor's separate approval of the changed assessment. No lemmas, mathematical scripts, PROOF or DAG were changed.

@@ -1,7 +1,0 @@
-# 2026-10-05 — Used-extension OBDD source comparison
-
-Completed the saved literature-only target in the [assessment](../drafts/literature/2026-10-05-used-extension-obdd-width.md). Bollig–Löbbing–Sauerhoff–Wegener's 1999 journal paper supplies the HWB binary-circuit upper bound and every-order deterministic OBDD lower bound, Theorems 2.1(i) and 4.2. Read the relevant definitions and residual-function/two-window proof cases; record damaged displays and inaccessible optional mirrors rather than treating search previews as verification. The qualitative theorem suffices; no sharper constant or new lower-bound proof is needed.
-
-Decision changes REVIEW_REQUIRED to SPECIALIZE for the exact unchanged target. The remaining attempt is local ER-use and dense-width specialization, with original-variable retention, all-assignment semantics, actual inference ancestry and full bit length checked. It was not derived this turn. L019's unfolding and optimal-certificate distinction remains a contrast, not an OBDD input. Preserve Attempts 016–018. No lemmas, scripts, DAG or PROOF assembly were changed.
-
-Outcome ADVANCE / LITERATURE / KNOWN_IMPORTED: essential source coverage enables a concrete attempt; no mathematical discovery or P-versus-NP progress beyond checked sources is claimed. Mathematical exploration remains 1. Next is the same ready target, standard/high proof_attempt, with no additional approval-only browsing needed for this unchanged scope. No supervisor state was edited.

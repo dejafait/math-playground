@@ -1,9 +1,0 @@
-# 2026-10-10 — Independent L047 supplied-H converse audit
-
-STEP_ID: 2026-10-10-135-clause-product-converse-critical-audit
-
-Completed RESEARCH / REPRODUCTION / proof_audit under the prior EXPLORE [audit assessment](../drafts/literature/2026-10-10-clause-product-converse-critical-audit.md). The independent checks in [canonical L047](../lemmas/L047-clause-product-witness-original-axiom-abp.md) found no load-bearing error in ordered telescoping, injective dictionary interpretation, nonlinear/cancellation sectors, arbitrary-endpoint graph composition, the complete KQ⁶ bit/time bound or listed empty cases. Inter-gadget connectors are now explicitly charged to the O(m²) gadget copies; this clarifies the existing ledger without altering its bound. Preliminary reasoning was saved in the [audit note](../drafts/2026-10-10-clause-product-converse-critical-audit.md).
-
-Outcome EXPLORATION records completion of an independent verification test, not a new theorem, substantive error repair or advance beyond the checked literature. Mathematical exploration usage is one since step 133. No script or implementation certificate was produced. The argument and sole direct input L041 are unchanged, so PROOF.md and DAG.md were left intact; canonical L047's audit supersedes the overview's historical pending-audit wording. Existing changes, unfinished work and Attempts 018/020/021 remain preserved.
-
-The [new formula-bound comparison](../drafts/literature/2026-10-10-clause-product-formula-bound-comparison.md) is REVIEW_REQUIRED for separate source/scope approval. It asks whether the two supplied-certificate interfaces give equivalent formula-length polynomial-bound premises, with complete dictionaries explicitly charged. No such equivalence was derived or approved here. General ER-to-ABP representation, either formula-only witness bound, W/V/U, fidelity, ER boundedness and unrestricted SAT transfer remain unresolved; there is no main-problem candidate.

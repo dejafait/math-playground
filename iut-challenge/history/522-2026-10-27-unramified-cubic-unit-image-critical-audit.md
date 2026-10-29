@@ -1,7 +1,0 @@
-# Step522 — 2026-10-27
-
-Critical audit passed for [L126](../lemmas/L126-variable-norm-fails-unramified-cubic-unit-image.md) under the unchanged fixed ordinary marking and identity subgroup indexing. Checked the nonempty norm-4 fiber, L125's 1/3 exponent, every torsion representative, strict logarithm depth and the exact modulo-9/valuation contradiction. Primary norm/unit statements and proofs and the saved IUT II indexed-image definitions were replayed. Clarified the exponential/logarithm citation without changing the mathematics. This validates a known-method local obstruction; it supplies no progress beyond the checked methods, native initial-data counterexample or essential IUT flaw.
-
-ATTEMPTS/039's same-index use is now stopped after audit. L125 stays valid at the bare-group level; no new DAG input was introduced. Main pilot membership and finite B>=A remain open. Working notes: `drafts/2026-10-27-step522-unramified-cubic-critical-audit.md`.
-
-Next direction: a separately gated source comparison of the actual structured distinguished-pilot transport, proposed in `drafts/literature/2026-10-27-native-structured-pilot-transport-source-test.md` with REVIEW_REQUIRED. L123's numerical audit and L126's optional-map obstruction do not cover it. This is a source-level independent target, not a reopening of ATTEMPTS/037–039. A creative mechanism remains blocked until an actual source-compatible operation and decisive test can be specified; no creative classification is manufactured.

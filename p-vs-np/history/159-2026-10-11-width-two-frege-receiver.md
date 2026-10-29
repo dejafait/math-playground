@@ -1,7 +1,0 @@
-# Step 159 — Width-two ordinary-Frege receiver
-
-2026-10-11. One proof attempt on the exact prior EXPLORE target establishes the local informal receiver in [L053](../lemmas/L053-width-two-affine-abp-polynomial-frege.md). Balanced original suffixes and bounded gadget suffixes permit backward coefficient-space invariants after left constant closure; full ordinary-formula and binary costs are charged. The result uses known semantic and matrix mechanisms with a separately justified propositional interface. It is POTENTIALLY_NEW only in the assessment sense, with no certified originality or independent audit verdict.
-
-ADVANCE is toward a restricted supplied-certificate comparison, not toward a complete SAT algorithm or separation. Small width-two certificates, general ER representation and unrestricted SAT transfer remain absent. Attempts 020/021/022/024 retain their original evidence and scope. Direct local mathematical inputs are L038, L048 and L052; L017 remains a contrast.
-
-The polynomial threshold is attained informally; the especially delicate suffix-congruence and XOR-expansion ledger needs a separate critical audit. The new assessment `drafts/literature/2026-10-11-width-two-frege-critical-audit.md` is REVIEW_REQUIRED for a separate scope-approval turn. Existing unfinished work was preserved. The prior mathematical exploration count was one; this advance renews it to zero, without a literature reset or a main-problem completion claim. No script or propositional proof-string check was used as mathematical evidence.

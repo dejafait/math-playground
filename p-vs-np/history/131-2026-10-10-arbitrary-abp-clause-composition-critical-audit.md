@@ -1,9 +1,0 @@
-# 2026-10-10 — Independent C046a composition audit
-
-STEP_ID: 2026-10-10-131-arbitrary-abp-clause-composition-critical-audit
-
-Completed RESEARCH / REPRODUCTION / proof_audit under the prior SPECIALIZE [audit assessment](../drafts/literature/2026-10-10-arbitrary-abp-clause-composition-critical-audit.md). The independent checks in [canonical C046a](../lemmas/C046a-arbitrary-abp-clause-placeholder-elimination.md) found no substantive error in the L046–L045 receiving hypotheses, ordered dictionary interpretation, both formal output identities, complete KQ⁸⁰ size ledger or fixed polynomial bit time. All exceptional input/factor cases remain within component coverage. No new sources, component reproof, mathematical script or implementation certificate was used.
-
-Outcome EXPLORATION records a completed verification test of the existing application, not a new theorem, error repair or progress beyond the checked sources. Mathematical exploration usage is one since step 129. No stronger result, main-problem candidate or novelty claim follows. The argument and direct inputs are unchanged, so PROOF.md and DAG.md were left intact; the canonical audit and current checkpoint supersede the overview's historical pending-audit wording. Existing changes, unfinished work and Attempts 018/020/021 remain preserved.
-
-The [new converse-interface proposal](../drafts/literature/2026-10-10-clause-product-witness-to-original-abp.md) is REVIEW_REQUIRED for a separate literature comparison. Its purpose is to test whether the clause-product witness formulation changes the missing representation obligation. No converse derivation or source approval occurred here. General ER-to-original-axiom ABP construction, formula-only bounds, ER boundedness, W/V/U, fidelity and unrestricted SAT transfer remain unproved.

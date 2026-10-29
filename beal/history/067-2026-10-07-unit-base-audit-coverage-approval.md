@@ -1,5 +1,0 @@
-# 2026-10-07 — Unit-base critical-audit coverage approval
-
-LITERATURE / KNOWN_IMPORTED / STALLED: the [assessment](../drafts/literature/2026-10-07-unit-base-application-audit.md) now approves the unchanged audit scope using existing full Catalan–Mihăilescu coverage. Bilu printed pp. 1–2 were reaccessed to check full-statement and square-case scope; the original-paper publisher/OCR qualification remains. This supplies no new mathematical result or new source coverage and does not complete the application audit of [L029](../lemmas/L029-catalan-unit-base-exclusion.md). No lemma, mathematical script, PROOF or DAG changed; unfinished work is preserved.
-
-The sole continuation is the exact approved critical audit of L029, using the target foundation and existing base-one assessments. Check every unit-base position/overlap, source premises, orientation and exceptional representations; correct or restrict failed clauses. The all-nonunit residual gap and parked independent blockers remain unresolved. Mathematical exploration usage stays 0/3; ready coverage routes the next turn to mathematics.

@@ -1,9 +1,0 @@
-# 2026-10-08 — L040 converse critical audit
-
-STEP_ID: 2026-10-08-101-faithful-affine-abp-converse-critical-audit
-
-Completed the exact preapproved SPECIALIZE target as RESEARCH/REPRODUCTION, actual task proof_audit. [L040's canonical dated audit](../lemmas/L040-faithful-affine-abp-class-converse.md) found no substantive error in the fixed evaluator, literal specialization or complete aggregate polynomial. It checks malformed counts, a single arbitrary-advice family, signed/base roots, long identifiers, shifted suffixes, separately copied graph/dictionary framing and n=0. The conclusion remains conditional Boolean fidelity; it does not supply formal signed/base equality or local H identities. [Saved work](../drafts/2026-10-08-faithful-affine-abp-class-converse-critical-audit.md) preserves the initial checkpoint and final scope.
-
-Outcome EXPLORATION: this is a new independent informal audit, without a new mathematical input, repaired error or new obstruction. One mathematical exploration turn since step 99. No theorem hypothesis, bound, conclusion or dependency changes; PROOF.md and DAG.md are unchanged. No external retrieval, mathematical script or formal verification was needed. No progress beyond the checked sources or P-versus-NP candidate is claimed. Attempts 018/020/021 and all unfinished work are preserved.
-
-Next is the proposed Boolean-zero affine-ABP ideal-witness bound in the [new REVIEW_REQUIRED assessment](../drafts/literature/2026-10-08-boolean-zero-affine-abp-ideal-witness.md). This changes the missing obligation from representatives to formal local relations, so its exact source scope must be assessed separately before mathematics. It does not reject the completed converse or repeat its audit. The hypothetical equality/U, efficient data construction, every-certificate hardness and unrestricted SAT transfer remain open.

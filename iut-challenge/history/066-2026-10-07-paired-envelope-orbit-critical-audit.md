@@ -1,7 +1,0 @@
-# 2026-10-07 — Paired-envelope orbit critical audit
-
-One gate-approved proof audit retains [L026](../lemmas/L026-paired-reference-orbit-escapes-trace-zero-envelope.md) with unchanged hypotheses and conclusion. Its canonical audit subsection verifies complete logarithm evidence, bounded full orbit-sum lattice, embedded scale, trace-zero valuation and actual finite-word attainment. The existing table and orbit checkers each passed all 351 checks and additional arithmetic checks with zero failures; their full certificates and selected inspected values are recorded canonically. No new mathematical script or source review was needed.
-
-Outcome EXPLORATION, kind RESEARCH, classification REPRODUCTION: a completed verification of the existing specialization, with no new theorem, stronger bound or repaired mathematical error. This spends one mathematical exploration turn since L026's advance. PROOF.md and DAG.md stay unchanged. No essential IUT flaw or original finite B>=A conclusion follows; all prior work and failures remain preserved.
-
-Next direction: separately review the paired subgroup on the trace-zero literal two-factor union, queued as REVIEW_REQUIRED in `drafts/literature/2026-10-07-paired-literal-trace-zero-orbit.md`. This distinguishes the smaller literal input from the already tested shell envelope and is independent of the parked actual-ind3 source blocker. No changed-region result is derived or approved in this turn.

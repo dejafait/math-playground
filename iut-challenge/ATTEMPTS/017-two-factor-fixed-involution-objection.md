@@ -1,5 +1,0 @@
-# Two-factor fixed-involution objection — stopped
-
-The approved target was L017's involution tensored with identity on (Q_3(pi),Q_3), pi^27=3, with a=pi and the prescribed tensor logarithm, shell and beta.
-
-**WHY IT FAILS:** [L020](../lemmas/L020-two-factor-fixed-involution-meets-coarse-enclosure.md) proves that the second-field logarithm is 3Z_3 while its shell is Z_3. Thus the literal logarithm branch is 3pi J, and the singleton sharp image is scaled to radius 81, exactly the prescribed coarse radius. The ideal branch's sharp image radius is 27. Complete branch inclusions and the infinite-tail bound establish containment under the fixed involution. Stop this specified tensor-witness objection; do not omit the second logarithm factor, infer an original full-pair lift, or change fields merely because this test failed. L017's singleton result and L019's full-pair obstruction remain valid. A separate source comparison of actual ind3 data with the auxiliary input region addresses an independent applicability gap.

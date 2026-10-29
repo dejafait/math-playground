@@ -1,5 +1,0 @@
-# 2026-10-07 — Base-one Catalan coverage
-
-Completed the gate-required LITERATURE / KNOWN_IMPORTED comparison. The [coverage assessment](../drafts/literature/2026-10-07-base-one-catalan-coverage.md) records Mihailescu's Theorem 5 and Bilu's full statement, odd-prime theorem and both square cases. Publisher access failed, but the author-paper transcription and original Bilu PDF supplied essential coverage. ADVANCE closes a local source gap using known mathematics; it establishes no new exclusion or progress beyond the sources. No lemma, script, PROOF or DAG was modified.
-
-The boundary target remains viable. All-positions applicability and exceptional representations are reserved for research. The [new application assessment](../drafts/literature/2026-10-07-base-one-catalan-import.md) recommends IMPORT and awaits separate next-turn approval. Three-bases-greater-than-one cases, Cao retrieval and mixed-seventh assumptions remain unresolved. Mathematical exploration usage stays 1/3; unfinished work is preserved.

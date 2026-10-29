@@ -1,5 +1,0 @@
-# Step 314 — 2026-10-18: changed-table actual-word scope comparison
-
-Completed the separate [assessment](../drafts/literature/2026-10-18-redistributed-h-actual-word-application.md), now SPECIALIZE. Reused ready primary affine and actual-word coverage; compared audited C078a and C080a, L079/L080 statements, focused duplicate records and Attempts 026–031. Every independent table test and both candidate arithmetic conclusions match C078a at its normalized unshifted row-0 cut; no essential unread source or identical completed specialization was found.
-
-This is LITERATURE / EXPLORATION / NOVELTY_UNCHECKED, with zero mathematical exploration usage. No new exclusion or source reproof was derived, and no lemma, mathematical script, overview or DAG was edited. Both witnesses and recorded stops remain valid. The sole continuation is the exact saved C078a specialization, after separate approval of the updated assessment, preserving the complete actual language and both cuts. Any premise mismatch blocks that application. Real survivor feasibility and universal eventual descent remain unresolved.

@@ -1,7 +1,0 @@
-# 2026-10-07 — Paired literal trace-zero orbit coverage
-
-One literature-only comparison completes [the changed-input assessment](../drafts/literature/2026-10-07-paired-literal-trace-zero-orbit.md) as SPECIALIZE. Rechecked primary orbit-sum, finite-generation and Nakayama hypotheses/proofs and the literal tensor/shell passages; reused ready Kondo/Hoshi, conductor and qualified homothety coverage. L020's fixed-map result and audited L026's envelope result do not give the exact paired literal-union radius. The comparison preserves ATTEMPTS/017 and /020 and requires branch membership, boundedness/fullness, embedded scales and finite-word attainment in the subsequent application.
-
-Outcome EXPLORATION, kind LITERATURE, classification NOVELTY_UNCHECKED: adequate source coverage for a nonduplicate target, without new mathematics, certified originality or an essential IUT flaw. No lemma, mathematical script, PROOF.md or DAG.md was modified, and no mathematical checker was rerun. Mathematical exploration usage remains one since L026's advance. Original finite B>=A, actual-ind3/native applicability, original data and essentiality remain open.
-
-Next direction is the unchanged exact literal-union orbit calculation under L025's finite-word reference subgroup. A sharp radius at most 81 stops this trace-zero transfer; an attained larger radius would justify separate applicability work. The exact action and assessment match in PROGRESS.md; the supervisor owns subsequent gate validation and routing.

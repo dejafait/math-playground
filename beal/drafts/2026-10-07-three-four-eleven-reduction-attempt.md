@@ -1,7 +1,0 @@
-# Unconditional ordered (3,4,11) application checkpoint
-
-Approved input: drafts/literature/2026-10-07-three-four-eleven-unconditional-reduction.md (SPECIALIZE). Main gap is residual-signature emptiness. The bounded target is the square-coordinate specialization of FNS's unconditional modular reduction, not its GRH classification.
-
-The substitution is (X,Y,Z)=(B^2,A,C); common prime support and nonzero coordinates are preserved, including units. Source Table 1 loses X=2 mod 4 and the negative odd-X subrows; Table 2 loses X=±3 mod 9 and all nonsquare residue choices. CM elimination then removes its X=0 mod 9 branches. Lemma 7.3 and the already inspected Lemma 5.2 retain only symplectic cases: in particular the coarse Table 3 possibility (i2,i3)=(6,7) is anti-symplectic for 864a1 and is removed. All five non-CM labels still occur in the necessary filters; no rational point or integer solution has been constructed.
-
-Completed: the full proof and cited qualifications are canonical in L032; the complete finite certificate is scripts/three-four-eleven-reduction/filter-certificate.json. It checks eight necessary branches on five labels, with no failures. Both 96a1 and 864c1 retain only the -512+2048 Z_2 domain. Full fourth-power identities remain required; no global point or emptiness is asserted. Next is the separately proposed critical audit. No conditional Selmer premise, divisor extension or other placement was used. Source details were retrieved through the primary PDF in the browser; shell PDF retrieval failed DNS and was unnecessary.

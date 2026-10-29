@@ -1,7 +1,0 @@
-# 2026-10-07 — Ordered (3,4,7) critical application audit
-
-STEP_ID: beal-2026-10-07-072-three-four-seven-critical-audit
-
-RESEARCH / REPRODUCTION / STALLED: the separate application audit of [L030](../lemmas/L030-poonen-schaefer-stoll-ordered-three-four-seven.md) passes. Direct primary-list comparison, prime-support reasoning, all 16 signed rows and both exact consecutive-square bounds agree; the [full independent certificate](../scripts/three-four-seven-specialization/application-audit.json) has zero failures and zero survivors, matching the required zero. Lemma 7.8/Section 8 and Section 13.7 retain integral-subset completeness without assuming the unknown full C5 rational-point set. This confirms an existing known-result specialization; it establishes no new exclusion or repaired mathematical error, hence no mathematical advance or budget reset is claimed.
-
-The main residual-signature gap remains. Further identical audits are saturated; the sole next action is the [remaining-placement coverage proposal](../drafts/literature/2026-10-07-three-four-seven-remaining-placements.md), marked REVIEW_REQUIRED because its hypotheses lie outside saved approval. It names independent finite application targets and requires literature comparison before new mathematics. Existing duplicate/failure comparisons are reused; Cao and mixed-seventh blockers remain parked. PROOF and DAG are unchanged because the argument and inputs did not change. Mathematical exploration remains 0/3; unfinished work is preserved.

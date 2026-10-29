@@ -1,7 +1,0 @@
-# 2026-10-05 — Conditional BD audit source comparison
-
-STEP_ID: beal-2026-10-05-039-bd-audit-source-comparison
-
-LITERATURE / NEGATIVE / NOVELTY_UNCHECKED. The [completed assessment](../drafts/literature/2026-10-05-mixed-seventh-bd-specialization-audit.md) preserves its target and records SOURCE_BLOCKED for the full audit. Original Carayol/Saito statements retain an even-degree discrete-series qualification and dual/Hecke normalizations requiring comparison. New primary subobject, filtered exactness and base-change coverage supports the local audit. Conductor/newvector retrieval exposed no usable theorem text; those leads are explicitly unread. This changes routing, not the mathematical truth of [L023](../lemmas/L023-mixed-seventh-conditional-bd-upper-level.md), and supplies no progress beyond known mathematics.
-
-Park the dependent level audit and select the independently testable ordinary/monodromy and saturated residual-line audit in its [new assessment](../drafts/literature/2026-10-05-mixed-seventh-bd-local-line-audit.md). Its ready continuation receives separate supervisor approval next turn. L019–L023, the explicit exceptional-algebra hypothesis and both coefficient embeddings remain essential inputs; packet exhaustion, algebra applicability and uniform signature emptiness remain unresolved. No proof audit, lemma derivation, mathematical script, DAG or PROOF change occurred. All unfinished work and earlier stop evidence are preserved. Mathematical exploration usage remains 0/3 and STATUS stays IN_PROGRESS.

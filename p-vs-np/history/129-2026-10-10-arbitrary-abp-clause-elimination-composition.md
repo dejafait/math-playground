@@ -1,9 +1,0 @@
-# 2026-10-10 — Arbitrary supplied ABP clause-elimination composition
-
-STEP_ID: 2026-10-10-129-arbitrary-abp-clause-elimination-composition
-
-Completed one RESEARCH / REPRODUCTION / proof_attempt under the prior SPECIALIZE [composition assessment](../drafts/literature/2026-10-10-arbitrary-abp-clause-elimination-composition.md). [Canonical C046a](../lemmas/C046a-arbitrary-abp-clause-placeholder-elimination.md) applies L046 then L045 with unchanged ordered axiom dictionaries and both formal IPS identities. Its single KQ⁸⁰ complete output bound charges F and A again at the second input; fixed polynomial bit-time majorants compose. Component endpoint, empty-alphabet/clause and cancellation qualifications match without an added promise or interface repair. The full all-input application and ledger are canonical; no mathematical script, implementation certificate or fresh source search was needed.
-
-Outcome ADVANCE means relevant local conditional representation progress by application of existing results, not mathematics beyond the checked sources or certified originality. The supplied-C pathwise restriction is removed. General ER-to-affine-ABP representation, formula-only witness bounds, W/V/U, faithfulness, ER boundedness and unrestricted SAT decision/separation remain open. Mathematical exploration usage is now zero since this application; the preceding one since step 125 remains recorded. DAG adds only C046a's direct inputs L045/L046, and PROOF.md gains the actual composed argument. All existing work and Attempts 018/020/021 are preserved.
-
-The [new audit proposal](../drafts/literature/2026-10-10-arbitrary-abp-clause-composition-critical-audit.md) is REVIEW_REQUIRED and receives separate next-turn scope approval before a later independent mathematical audit. No audit verdict or broadened theorem is derived or approved here. This routing preserves the completed construction and reuses the component/source assessments.

@@ -1,7 +1,0 @@
-# 2026-10-10 — Formula-length equivalence audit coverage
-
-STEP_ID: 2026-10-10-138-formula-length-equivalence-audit-coverage
-
-Completed LITERATURE / NOVELTY_UNCHECKED / literature_comparison, outcome EXPLORATION. The [assessment](../drafts/literature/2026-10-10-formula-length-equivalence-critical-audit.md) now separately approves the exact L048 audit as SPECIALIZE. Read complete [L048](../lemmas/L048-formula-length-abp-clause-product-bound-equivalence.md) for scope, exact receiving interfaces and canonical component audit sections, L041's unconditional ordered definitions, step-136 source comparison, step-132/134 primary evidence and Attempts 018/020/021. The occurring-only convention is the restriction explicitly authorized by step 136; no essential new source mismatch was found. Primary comparisons remain narrower than the exact local theorem; no novelty or correctness inference follows.
-
-No new external browsing, theorem, calculation, lemma/script write, DAG change or argument change occurred. The source coverage decision is new for this proposed audit, not a mathematical advance. Existing work and stop evidence remain intact. Mathematical exploration usage remains zero after step 137. The next direction is the approved independent mathematical audit, with the ledger, both interfaces and fixed all-UNSAT quantifiers as its discriminating test. Neither size premise, general ER-to-ABP representation nor unrestricted SAT transfer is established.

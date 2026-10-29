@@ -1,10 +1,0 @@
-{"format":"literal-four-rule-v1","alphabet":["A","B"],"goal":["or","A",["or",["not","B"],"B"]]}
-{"rule":"axiom","f":["or",["not","A"],"A"],"refs":[]}
-{"rule":"axiom","f":["or",["not","B"],"B"],"refs":[]}
-{"rule":"true","f":"true","refs":[]}
-{"rule":"not-false","f":["not","false"],"refs":[]}
-{"rule":"expansion","f":["or",["not",["not","A"]],["or",["not","B"],"B"]],"refs":[1]}
-{"rule":"expansion","f":["or",["or",["not","B"],"B"],["or",["not","B"],"B"]],"refs":[1]}
-{"rule":"contraction","f":["or",["not","B"],"B"],"refs":[5]}
-{"rule":"association","f":["or",["or",["not",["not","A"]],["not","B"]],"B"],"refs":[4]}
-{"rule":"cut","f":["or","A",["or",["not","B"],"B"]],"refs":[0,4]}

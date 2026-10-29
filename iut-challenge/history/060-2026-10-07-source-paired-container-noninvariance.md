@@ -1,7 +1,0 @@
-# 2026-10-07 — Source paired-container noninvariance
-
-One approved mathematical attempt, using the unchanged SPECIALIZE assessment in drafts/literature/2026-10-06-source-paired-action-container-invariance.md, establishes [L025](../lemmas/L025-source-paired-actions-do-not-preserve-trace-zero-container.md). The exact paired residual subgroup is irreducible on the genuine integral trace kernel; the reproduced known homothety criterion and the complete logarithm-image comparison show that the radius-81 trace-zero container is not invariant. Some forward source reference action moves one of its field-basis points outside. No script or prescribed presentation coordinates were needed.
-
-Outcome ADVANCE, classification POTENTIALLY_NEW: this is a relevant field-specific specialization not supplied by the inspected general sources, without a claim of certified novelty. The original finite B>=A gap is unchanged. The point's membership in pi I or an actual IUT input, native-action applicability, original data and essentiality remain open. Existing stops, including L020 and ATTEMPTS/015–020, are preserved. Canonical proof and ID-only DAG were updated; the reasoning checkpoint is drafts/2026-10-07-paired-container-invariance-attempt.md.
-
-Next direction: separately approve coverage for a critical audit of L025 before invoking that new target, as recorded in drafts/literature/2026-10-07-paired-container-critical-audit.md. The noninvariance result is an intermediate input, not an unverified complete solution or a challenge verdict.

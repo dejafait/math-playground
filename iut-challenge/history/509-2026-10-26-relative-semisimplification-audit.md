@@ -1,9 +1,0 @@
-# 2026-10-26 — step509: numerical comparison does not construct markings
-
-Completed the invocation-start EXPLORE target as RESEARCH / REPRODUCTION, actual task proof_audit (conceptual audit). [L123](../lemmas/L123-fixed-cutoff-numerical-log-link-audit.md) contains the complete typed cutoff calculation and the audit of its source use. The bound is preserved numerically; the source assigns marked comparison to earlier stages. Demanding a marked-category functor from numerical semisimplification tests an unused stronger premise. This is NEGATIVE evidence against that objection, not a new result beyond the sources checked or an IUT flaw. [ATTEMPTS/037](../ATTEMPTS/037-semisimplification-as-marked-transport.md) preserves the stop.
-
-The main A<=B gap, actual prior relative comparison and distinguished-pilot membership remain open. No mathematical EXPLORATION attempt was spent, and no historical exhausted route was reopened. The short overview now distinguishes this numerical check from the unverified prior comparison; the new DAG row has no local lemma inputs because the calculation uses cited source definitions directly.
-
-The newly exposed norm-extension assertion in Remark 3.9.5(x) offers an independently testable local comparison question. Its [scope assessment](../drafts/literature/2026-10-26-equivariant-norm-obstruction-scope.md) is REVIEW_REQUIRED: the source-required operation and known obstruction theorems need separate comparison. This is not approval of an uncovered calculation. No justified creative construction is available before those hypotheses are fixed; the old pilot/quotient access failures are preserved and not retried.
-
-Pre-existing notebook changes were preserved. No mathematical script, shared infrastructure, scheduler state, commit or cross-notebook input was used.

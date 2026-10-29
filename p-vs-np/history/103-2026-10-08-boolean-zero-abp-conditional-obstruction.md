@@ -1,9 +1,0 @@
-# 2026-10-08 — Conditional burden on universal Boolean-zero ABP witnesses
-
-STEP_ID: 2026-10-08-103-boolean-zero-affine-abp-conditional-obstruction
-
-Completed one RESEARCH/proof_attempt under the pre-existing EXPLORE [assessment](../drafts/literature/2026-10-08-boolean-zero-affine-abp-ideal-witness.md). [L041](../lemmas/L041-boolean-zero-affine-abp-witness-bound-consequence.md) establishes the local conditional specialization W⇒NP=coNP: ordered 3-CNF input graphs are polynomial-full-bit, supplied witnesses have a sound deterministic formal-identity verifier, and W gives one certificate polynomial. The primary mechanism is known; the step is classified REPRODUCTION, with no certified novelty claim. Its separate critical audit is pending.
-
-The continuation/abandonment test succeeds for the conditional mechanism: no exponential expansion, Boolean-promise test or witness constructor is needed. This changes the universal premise's recorded burden, not its truth value. The universal H bound and NP≠coNP remain unproved; no unconditional obstruction or P-versus-NP candidate is asserted. The all-input proof covers the endpoint, nonlinear, zero-degree, empty-clause/conjunction, n=0, dictionary and invalid-input obligations; no mathematical script or numerical evidence is used. L038 supplies only existing normalization, not its ER conclusion. The DAG is updated for that finite-closure input. All old stops and unfinished work are preserved.
-
-Next is the exact critical-audit target in the [new REVIEW_REQUIRED proposal](../drafts/literature/2026-10-08-boolean-zero-abp-conditional-obstruction-audit.md), which requires separate coverage approval. Mathematical exploration usage is zero since this ADVANCE (previously one since step 99); no supervisor state is edited. U/class equality, efficient faithful/relation data, every-certificate hardness and unrestricted SAT transfer remain unresolved.

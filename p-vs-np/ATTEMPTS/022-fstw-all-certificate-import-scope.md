@@ -1,5 +1,0 @@
-# Attempt 022 — Direct FSTW all-certificate lower-bound import
-
-The source-review target was an all-certificate lower bound for an explicit width-three UNSAT family in L048's original-axiom affine-F₂ format.
-
-**WHY IT FAILS.** The [completed theorem-scope comparison](../drafts/literature/2026-10-10-all-certificate-abp-lower-bound-scope.md) checks FSTW's journal Corollaries 5.15 and 7.3 and their essential proof cases. Their every-certificate quantifiers concern commutative read-once oblivious ABPs (or restricted multilinear formulas), with large-characteristic assumptions and global algebraic axioms. Corollary 7.3 permits nonlinear placeholders but does not remove those mismatches. No theorem or preserving reduction here supplies L048's original-CNF family, free-F₂ receiving class or formula-length hardness threshold. Park direct import; this is source-scope evidence, not an impossibility theorem, an all-certificate counterexample, or a global ban on algebraic lower-bound methods. The polynomial representation correspondence is a separate, unapproved substitution-interface lead. Preserve Attempts 020/021 and the canonical fixed-output results L033/L034.

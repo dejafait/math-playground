@@ -1,9 +1,0 @@
-# 2026-10-05 — Remaining modular-location interfaces
-
-STEP_ID: beal-2026-10-05-035-modular-location-lifts-literature
-
-LITERATURE / ADVANCE / NOVELTY_UNCHECKED. The [completed assessment](../drafts/literature/2026-10-05-mixed-seventh-modular-location-after-restriction.md) compares PVT Theorem 7.8 and all five local-lift requirements of BD Theorem 3.2.2 with L019–L021. The restriction input is available, but these lemmas alone do not supply a prescribed characteristic-zero lift at 7 or exact residual-conductor equalities. Newly inspected Fontaine–Laffaille 9.11–9.12 and CHT Lemma 2.4.1 provide general classification and liftability coverage for a bounded local specialization. This is new source readiness, not new mathematics or a proof of PVT's full implementation.
-
-The next [local-lift assessment](../drafts/literature/2026-10-05-mixed-seventh-local-barsotti-tate-lift.md) is SPECIALIZE and needs separate supervisor approval. Its test retains both coefficient embeddings and asks for the same residual module, weight pair (0,1) at each base embedding, and full cyclotomic determinant. It records coefficient actions, filtration multiplicities, convention conversion and determinant correction as unwritten obligations. A later global application still needs prescribed types and lines at 3 and 5; an upper level dividing 3^3(sqrt(5))^3 is distinguished from PVT's exact four levels. No packet or descent blocker was reopened.
-
-Primary sources were accessible through the web tool despite shell DNS failures. No lemmas, mathematical scripts, DAG or PROOF assembly changed; all previous unfinished work was preserved. Mathematical exploration usage remains 0/3. STATUS remains IN_PROGRESS and the external fixed-signature candidate remains UNVERIFIED. No progress beyond the checked sources is claimed.
