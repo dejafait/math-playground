@@ -35,7 +35,8 @@ restricted results cover every one of its 154 preserved residuals. There
 are zero uncovered occurrences. This is a local REPRODUCTION assembly
 under the invocation-start SPECIALIZE assessment, not a new general coding
 theorem or progress beyond the sources checked. Complete same-step independent
-replay passes. A separate critical audit of this assembly remains pending.
+replay passes. The separate step-463 critical audit below found no defect
+in this conditional assembly, with its finite-certificate qualifications.
 
 Other pairs/profiles, universal representation/extraction and challenge
 identification remain open. The global frozen-model interval stays 11/q–16/q.
@@ -223,11 +224,107 @@ applied. No kernel is promoted to an event, no recursive deletion changes the
 domain, and no symmetry or fixed-pair extraction is assumed. This proves the
 conditional conclusion with the stated finite-computation qualifications.
 
+### Separate critical audit — 2026-10-24
+
+Step `2026-10-24-mca-463-l151-critical-audit` completed the unchanged
+SPECIALIZE target in
+`drafts/literature/2026-10-24-l151-critical-audit-review.md` as
+RESEARCH / REPRODUCTION / proof_audit. The entire new proof and both
+complete assembly programs were inspected. The imported hypotheses and
+indexed conclusions, L086's universal actual-pair proof/audit, L109's
+necessary independence/recovery/chart proof/audit, L125's original
+partition/audit, and the capacity and literal-import application scopes
+were checked. No missing mathematical hypothesis, occurrence or dependency
+was found. The ready primary assessment is reused; no new general theorem
+or result beyond the sources checked is claimed.
+
+Reproduce this separate audit with assertions enabled:
+
+    python3 -E -B scripts/seven-coordinate/audit_l151.py
+
+The full report is `scripts/seven-coordinate/l151-critical-audit.json`;
+the complete isolated execution log is
+`scripts/seven-coordinate/l151-critical-audit-replay.log`.
+All 7,716 checks pass with zero failures. The wrapper checks every entry
+of all 26 canonical audit manifests against the actual source bytes and
+the assembly's frozen union. The L125 master and every original shard
+belong to its own audit manifest; both capacity sources belong to their
+respective L142/L150 manifests. All 567 frozen source inputs and all
+572 bound originals remain byte-for-byte unchanged. The latter include
+the two assembly programs, their outputs and the initial schema diagnostic.
+Earlier mathematical searches and their audit programs are not rerun;
+their separately audited ranks, complete kernels and loci are imports.
+
+Both complete assembly programs run in a separate notebook-shaped tree.
+Their imports are standard-library only, and the verifier imports no
+producer or mathematical helper. Every rebuilt output value is compared
+with its original, with one relocation qualification: absolute notebook
+paths in diagnostic strings are normalized, and the verifier's digest
+of the relocated producer certificate is checked against that certificate
+before normalizing this dependent digest. Thus the full outputs agree
+after explicit relocation normalization; their raw hashes differ. No
+mathematical record, index, predicate, source hash or failure is normalized
+away. The original outputs themselves are not overwritten.
+
+The verifier's independent four-subset generation and bit-mask tests
+recover the entire 756-row universe and fixed indices 0,412. Every
+ordered fourth list is compared, including lengths and order, before
+the aligned records are processed. All 382/382 thirds and
+100,764/100,764 occurrences pass. L125's rank-21, whole-factor and
+whole-omission predicates use every coordinate of every complete saved
+basis and the correct priority; original rank/kernel completeness is
+imported from its unchanged audited source, not inferred from status
+counts. Their 100,610 exclusions leave exactly the original 154 records.
+
+The independently encoded canonical index formulas partition all 154
+residuals without duplicates. For each, the exact original labels,
+shard, case pointer, whole ordered kernel or complete original record,
+and original stack where present bind to the named audited exclusion.
+Every residual has exactly one disposition. All 77 exchange pairs retain
+both orders, and the seed assemblies are only overlaps. Every historical
+domain is preserved through the unchanged source hashes. For L145 the
+adapter checks the nested `complete_prior_overlay` shard and case pointer
+and equality of its complete original record; it does not waive provenance
+after the historical `KeyError: 'shard'` diagnostic.
+
+Literal imports use equal entire ordered bases in the same exterior
+coordinates and the canonical unchanged rejecting-row subresults. They
+do not transfer a four-support contradiction to different labels without
+its individual algebraic hypotheses. Their imported loci include all
+extension points and the separate infinity branch. At (199,565), L141's
+surviving displayed plane binds exactly to L142's capacity source; L143
+supplies the exchanged occurrence. Each surviving L149 occurrence binds
+its entire u,v to the correct L150 plane and historical index list.
+The other L149 records have the audited failed necessary gates. For
+each capacity import the bound is four full projective directions over
+the extension field, against twelve necessary actual directions.
+An arbitrary invertible original-basis change preserves projective
+distinctness and its omitted direction can only reduce this capacity.
+
+Finally, L109 supplies at least twelve distinct actual two-overlap rows
+of the same equality pencil, including the assumed pair. Choose actual
+C and D distinct from it and each other; L086 then gives all six required
+intersection bounds. Hence this particular ordered occurrence lies in
+the exhaustively excluded domain. Equality precedes fullness, independence,
+activity and row selection. Rank-zero projections contradict actual
+nonpersistence; failed weights contradict actual full errors; capacity
+contradicts the required twelve. Neither a four-row converse nor universal
+pair extraction is used. There are zero uncovered occurrences.
+
+This establishes an audited conditional input, not a challenge solution.
+Shared Python/residue arithmetic, the inherited L040/L069/L056 finite
+certificates, arbitrary-weight/chart hypotheses and unchecked Mathlib
+coverage remain qualifications. ATTEMPTS/045–047 remain valid for their
+stated mechanisms. The argument and direct DAG inputs are unchanged;
+this verdict supersedes the overview's pending-audit wording without
+rewriting that argument. Universal representation, extraction, other
+pairs/profiles and challenge equivalence remain unresolved.
+
 ## Mathlib
 
 Full matching coverage for this exact labeled conditional assembly is **not
 checked**. Supporting coding/exterior/field coverage is not newly checked;
 the canonical inputs retain their qualifications. Unknown availability is not
 evidence of absence. This proof depends explicitly on imported finite
-certificates and the complete indexed comparison. A separate critical audit
-of the new assembly is pending.
+certificates and the complete indexed comparison. The separate audit above
+does not constitute proof-assistant verification.

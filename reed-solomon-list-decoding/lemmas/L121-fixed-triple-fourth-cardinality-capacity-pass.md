@@ -55,8 +55,8 @@ specialization of known Boolean inversion and cardinality methods,
 not a new general theorem or progress beyond the inspected sources.
 It gives no shared system for other triples, full/excluded PSD,
 representing measure, packing, RS realization or boundary improvement.
-The 955–957 bracket is unchanged. A separate critical proof audit is
-pending; independent exact reconstruction is recorded below.
+The 955–957 bracket is unchanged. The separate critical proof audit
+below retains exactly this restricted pass.
 
 ## Proof
 
@@ -229,6 +229,99 @@ collection, full PSD, global root uniqueness and all realization
 questions remain unresolved. A very wide capacity pass is not a
 representing measure or a code-size bound. No previous spectral stop
 or capped prescription is reopened, and no second triple is tested.
+
+**Separate critical audit (2026-10-24, step 464).** The prior SPECIALIZE
+assessment `drafts/literature/2026-10-24-l121-fourth-capacity-critical-audit.md`
+approved this audit. The complete constructor and independent verifier
+were read, and their correspondence to the preceding proof was checked.
+L112/L113's joint review and L114's review are retained inputs; their
+root-existence proof and previous computations are not rerun here.
+No source theorem is reproved, and no hypothesis or mathematical input
+is changed.
+
+For clarity, all sixteen raw atom masses divided by rho have the
+following forms, with W={A,B,C,D} and q=q_D. Each row applies to every
+ones-set S of the indicated size, so the counts exhaust all atoms:
+
+| Size of S | Count | Normalized atom mass |
+| --- | --- | --- |
+| 4 | 1 | q |
+| 3 | 4 | b(S)-q |
+| 2 | 6 | b(S)-b(S+i)-b(S+j)+q, where {i,j}=W minus S |
+| 1 | 4 | 1-sum of the three incident pair moments + sum of the three incident triple moments - q |
+| 0 | 1 | 1/rho-4+sum of all six pair moments-sum of all four triple moments+q |
+
+These signs give exactly (4)–(5), including the empty atom, not a
+normalization with empty moment rho. For every type the constructor
+computes signed interval sums; the verifier instead computes the
+explicit candidate formulas. Every lower-candidate upper endpoint is
+nonpositive, and zero is present. Every singleton upper-candidate lower
+endpoint is at least the minimum triple upper endpoint, hence at least
+the actual minimum triple. The four triple candidates remain, proving
+the exact interval (1), not just a sufficient subinterval.
+
+The smaller marginal check includes both singleton atoms, all four
+pair atoms, and all eight triple atoms. In normalized units the triple
+atoms are b(ijk), c_ij-b(ijk) for the three pairs,
+1-c_ij-c_ik+b(ijk) for the three singletons, and
+1/rho-3+c_ij+c_ik+c_jk-b(ijk). Opposite interval endpoints are used
+for subtracted quantities. Every saved minimum agrees with this
+separate reconstruction and is nonnegative. For a null edge its pair
+moment and all containing triple moments are zero, and the interval
+forces q=0. For a repetition the actual support is A, B or C, the
+distinct variable set is ABC, and the moment is rho*x_5^3. These are
+three summands of multiplicity one, not three independent variables
+with an additional fourth moment.
+
+The verifier independently reconstructs the eight regions from the
+literal sets and enumerates outside/core counts before solving for
+the third private count. The outside range 0,...,68 is exhaustive for
+a 68-subset and is below the outside region size 946. The core and
+private ranges are exactly their region sizes. Actual representative
+supports check the distances and Boolean repetitions. Uniqueness and
+equality with the saved occupancy set, as well as equality of the full
+used type set, exclude omissions or extra types. Independent factorial
+multiplicities and the coefficient of X^68 in the eight-region product
+give exactly H. All 13,214 occupancies and 5,729 types are checked,
+including 323 null occupancies and the three repetitions; no division
+by a permutation count is made. No RS-label averaging is used.
+
+Fresh verification writes
+`scripts/finite-support/l121-critical-audit-replay.json`. Its complete
+117,635-check report agrees with the original report in every field;
+there are zero failures. Every occupancy record and every factored
+type endpoint is consumed in full, not sampled. Full exact capacity,
+required-value and ratio fractions were also inspected. The additional
+audit `scripts/finite-support/critical_audit_l121.py` checks the saved
+constructor/verifier code hashes, compressed-certificate binding,
+entire input map, unchanged inputs of both retained critical audits,
+and complete original/replay equality. Its 41 checks have zero failures;
+the complete report is `scripts/finite-support/l121-critical-audit.json`.
+This binding check supplements the full arithmetic replay; an old
+success flag alone does not constitute the new verification.
+
+Reproduce without modifying the original artifacts:
+
+    python3 scripts/finite-support/critical_audit_l121.py
+
+The `--reuse-replay` option consumes the already completed fresh replay
+and compares its entire report with the original. The audit reconfirms
+R^->0 and the strict rational bracket in (3). Since S^-<=S(x) and
+R(x)<S^-, the required value is attainable, not merely below an outer
+upper estimate. Positivity of all box endpoints and N>3 give
+0<lambda=R(x)/S(x)<1. Each four-set containing ABC has exactly one
+fourth support D, so this assignment is unambiguous; distinct such
+four-sets intersect only in ABC and therefore share only already fixed
+lower moments. Boolean inversion gives normalized local laws whose
+marginals agree on those intersections.
+
+This confirms (2) throughout the box as a single row with freely chosen
+fourth moments; the inherited lower-order contractions hold only at
+the enclosed root. No inference about other conditioning assignments,
+other triples, a shared global fourth-order system, PSD or realization
+is made. The audit retains the local stop evidence and closes its
+pending review, without a new general result or boundary improvement.
+All mathematical inputs were already direct inputs in the DAG.
 
 ## Mathlib
 

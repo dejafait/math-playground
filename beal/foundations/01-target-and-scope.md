@@ -21,6 +21,12 @@ failed web retrieval; its current contents and prize rules are not
 asserted to have been inspected. This source check adds no mathematical
 assumption to the existing argument.
 
+Rechecked on 2026-10-26 during the finite-place source review: Mauldin's
+live primary opening statement again matches the positive-integer target,
+all exponents greater than two and a prime common to all three bases.
+The nominated AMS page again returned HTTP 403; its current contents
+and prize rules were not inspected. No mathematical scope change follows.
+
 ## Primitivity and local terminology
 
 A positive integer solution is **primitive** when gcd(A,B,C) = 1. For this coefficient-one equation, this is equivalent to pairwise coprimality: a prime dividing any two bases divides their corresponding powers and hence the remaining power by the equation, so it divides the third base. Thus a shared divisor of any pair in an actual solution contradicts primitivity. This equivalence would not hold for arbitrary triples without the equation.

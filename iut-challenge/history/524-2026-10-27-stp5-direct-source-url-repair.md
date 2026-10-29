@@ -1,0 +1,5 @@
+# Step524 — direct-source gate repair (2026-10-27)
+
+Literature-only recovery: added the two direct author PDF URLs to `SOURCE_EVIDENCE` in [the saved Stp5 assessment](../drafts/literature/2026-10-27-global-hull-approximant-value-group-audit.md). Both endpoints reopened successfully with the recorded March 2024/May 2020 title dates and 167/199 page counts. Rechecked the existing local Stp4–Stp6 and Remark 2.4.2 extracts; the web text search failed to locate the Stp5 label, but the previously saved full-text extract contains it on printed p.150. No new source assessment verdict or preservation proof is claimed.
+
+STALLED / LITERATURE / NOVELTY_UNCHECKED; actual task type metadata. This repairs the reported process issue without claiming an advance or resetting mathematical exploration. No lemmas, scripts, overview or DAG changed; pre-existing unfinished work is preserved. The exact continuation, inputs, conditional hypotheses, downstream use and bounded test remain in the assessment and checkpoint. Next: separate approval of that unchanged mathematical target, then its conceptual audit. Native q-membership and finite B>=A remain open.

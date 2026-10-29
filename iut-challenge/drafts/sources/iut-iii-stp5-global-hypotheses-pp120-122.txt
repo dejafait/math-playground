@@ -1,0 +1,172 @@
+120                               SHINICHI MOCHIZUKI
+
+      more general weighted averages, i.e., as opposed to just averages, in the
+      usual sense, over the capsules that appear in the procession?
+The answer to this question is “no”. Indeed, in the situation of Proposition 3.4,
+(ii), for j ∈ {1, . . . , l }, the packet-normalized log-volume corresponding to the
+capsule with index set S±         j+1 may be thought of as a log-volume that arises from
+“any one of the log-shells whose label ∈ {0, 1, . . . , j}”. In particular, if j  , j1 , j2 ∈
+{1, . . . , l }, and j  ≤ j1 , j2 , then log-volumes corresponding to the same log-shell
+labeled j  might give rise to packet-normalized log-volumes corresponding to either
+of [the capsules with index sets] S±                   ±
+                                              j1 +1 , Sj2 +1 . That is to say, in order for the
+resulting notion of a procession-normalized log-volume to be compatible with the
+appearance of the component labeled j  in various distinct capsules of the procession
+— i.e., compatible with the various inclusion morphisms of the procession! —
+one has no choice but to assign the same weights to [the capsules with index sets]
+S±           ±
+  j1 +1 , Sj2 +1 .
+
+
+
+Remark 3.9.4. The log-link compatibility of log-volumes discussed in Propo-
+sition 3.9, (iv), may be formulated somewhat more explicitly by applying various
+elementary observations, as follows.
+
+     (i) Let (M, μM ) be a measure space [i.e., in the sense of the discussion of
+Remark 3.1.1, (iii)]. We shall say that a subset S ⊆ M is pre-ample if S is a
+relatively compact Borel set, that a pre-ample subset S ⊆ M is ample if μM (S) > 0,
+and that (M, μM ) is ample if there exists an ample subset of M . In the following,
+for the sake of simplicity, we assume that (M, μM ) is ample. Also, to simplify the
+notation, we shall often denote the dependence of objects constructed from the pair
+(M, μM ) by means of the notation “(M )” [i.e., as opposed to “(M, μM )”]. Write
+
+                                          Sub(M )
+
+for the set of pre-ample subsets of M and
+
+                                           Fn(M )
+
+for the set of Borel measurable functions f : M → R≥0 such that the image f (M ) ⊆
+R≥0 of f is a ﬁnite set, and, moreover, M ⊇ f −1 (R>0 ) ∈ Sub(M ). Observe that
+Fn(M ) is equipped with a natural monoid structure [induced by the natural monoid
+structure on R≥0 ], as well as a natural action by R>0 [induced by the natural action
+by multiplication of R>0 on R≥0 ]. By assigning to an element S ∈ Sub(M ) the
+characteristic function χS : M → R≥0 [i.e., which is = 1 on S and = 0 on M \S], we
+shall regard Sub(M ) as a subset of Fn(M ). Note that integration over M , relative
+to the measure μM , determines an R>0 -equivariant surjection
+
+                                        : Fn(M )  R≥0
+                                    M
+
+whose restriction to Sub(M ) maps Sub(M )  S → μM (S) ∈ R≥0 . In particular,
+if we write FnRssM : Fn(M )  Rss(M ) for the natural map to the quotient set of
+Fn(M ) [i.e., the set of equivalence classes of elements of Fn(M )] determined by M
+                    INTER-UNIVERSAL TEICHMÜLLER THEORY III                        121
+
+[so Rss(M ) also admits a natural monoid structure, as well as a natural action by
+R>0 ], then we obtain a natural R>0 -equivariant isomorphism of monoids
+
+                                  Rss
+                                                  ∼
+                                        : Rss(M ) → R≥0
+                                M
+
+                    Rss
+such that   M
+                =   M
+                        ◦FnRssM . Here,
+
+    we wish to think of integration        M
+                                               — and hence of the quotient
+
+                             FnRssM : Fn(M )  Rss(M )
+
+    — as a sort of “realiﬁed semi-simpliﬁcation” of (M, μM )
+[i.e., roughly in the spirit of the Grothendieck group associated to an additive cat-
+egory], that is to say, a quotient in the category of commutative monoids with
+R>0 -action, whose restriction to Sub(M ) ⊆ Fn(M )
+    · identiﬁes S1 , S2 ∈ Sub(M ) such that μM (S1 ) = μM (S2 ) [such as, for
+     instance, additive translates of an element S ∈ Sub(M ) relative to an
+     additive structure on M with respect to which μM is invariant];
+    · maps S1 ∪ S2 ∈ Sub(M ) to the sum [relative to the monoid structure on
+     the quotient] of the images of S1 , S2 ∈ Sub(M ) whenever S1 , S2 ∈ Sub(M )
+     are disjoint [i.e., as subsets of M ].
+We shall refer to a subset E ⊆ Fn(M ) as ample if (R≥0 ⊇) R>0 ∩ M (E) = ∅. Thus,
+if, for instance, S ∈ Sub(M ) is ample and compact, then the pair (S, μM |S ) obtained
+by restricting μM to S is an ample measure space that determines compatible natural
+inclusions Sub(S) → Sub(M ), Fn(S) → Fn(M ) [the latter of which is deﬁned by
+extension by zero] — which we shall use to regard Sub(S), Fn(S) as subsets of
+Sub(M ), Fn(M ), respectively — such that the subsets Sub(S), Fn(S) ⊆ Fn(M )
+are ample. If E ⊆ Fn(M ) is ample, then the image of E in Rss(M ) determines a
+natural subset Rss(E) ⊆ Rss(M ), whose R≥0 -orbit R≥0 · Rss(E) is equal to Rss(M ).
+In particular, if S ∈ Sub(M ) is ample and compact, then we obtain natural R>0 -
+equivariant isomorphisms of monoids
+                              ∼                        ∼
+                      Rss(S) → R≥0 · Rss(Fn(S)) → Rss(M )
+
+— where, the notation “R≥0 · Rss(Fn(S))” is intended relative to the interpre-
+tation of Fn(S) as a subset of Fn(M ) — such that the composite isomorphism
+         ∼                                                  Rss            ∼
+Rss(S) → Rss(M ) is compatible with the isomorphisms S : Rss(S) → R≥0 ,
+  Rss           ∼
+ M
+      : Rss(M ) → R≥0 . Finally, we observe that if (M1 , μM1 ) and (M2 , μM2 ) are
+ample measure spaces, then the product measure space (M1 × M2 , μM1 ×M2 ) is also
+an ample measure space; moreover, there is a natural map
+
+                       Sub(M1 ) × Sub(M2 ) → Sub(M1 × M2 )
+
+that maps (S1 , S2 ) → S1 × S2 and induces a natural R>0 -equivariant isomorphism
+of monoids
+                                            ∼
+                       Rss(M1 ) ⊗ Rss(M2 ) → Rss(M1 × M2 )
+122                              SHINICHI MOCHIZUKI
+
+                                             Rss   Rss                      ∼
+that is compatible with the isomorphisms     M1
+                                                 ⊗ M2 : Rss(M1 ) ⊗ Rss(M2 ) → R≥0 ,
+ Rss                     ∼
+ M1 ×M2
+         : Rss(M1 × M2 ) → R≥0 . [Here, we observe that there is a natural notion of
+“tensor product of monoids isomorphic to R≥0 ” since such a monoid may be thought
+of, by passing to the groupiﬁcation of such a monoid, as a one-dimensional R-vector
+space equipped with a subset [which forms a R>0 -torsor] of “positive elements”.]
+    (ii) One very rough approach to understanding the log-link compatibility of log-
+volumes is the following. Suppose that instead of knowing this property, one only
+knows that
+      each application of the log-link has the eﬀect of dilating volumes by a
+      factor λ ∈ R>0 \ {1}.
+[Here, relative to the notation of (i), we observe that this sort of situation in which
+volumes are dilated in a nontrivial fashion may be seen in the following example:
+                         def
+      Suppose that M = Qp , for some prime number p, equipped with the
+      [additive] Haar measure μQp normalized so that Zp ⊆ Qp has measure
+      1, so (Qp , μQp ) is an ample measure space in the sense of (i). Then
+                                                           ∼
+      multiplication by p induces a bijection αp : Qp → Qp . Moreover, αp
+                                                            ∼
+      induces compatible bijections Sub(αp ) : Sub(Qp ) → Sub(Qp ), Fn(αp ) :
+               ∼                                ∼
+      Fn(Qp ) → Fn(Qp ), Rss(αp ) : Rss(Qp ) → Rss(Qp ). On the other hand,
+      [unlike the situation discussed in (i) concerning the “composite isomor-
+                      ∼
+      phism Rss(S) → Rss(M )”!] in the present context, Rss(αp ) is not com-
+                                         Rss           ∼
+      patible with the isomorphisms Qp : Rss(Qp ) → R≥0 in the domain and
+      codomain of Rss(αp ), i.e., it is only compatible up to a factor p−1 (= 1)!]
+Then in order to compute log-volumes in a fashion that is consistent with the various
+arrows [i.e., both Kummer isomorphisms and log-links!] of the “systems” consti-
+tuted by the log-Kummer correspondences discussed in Proposition 3.5, (ii), it
+would be necessary to regard the various “log-volumes” computed as only giving
+rise to well-deﬁned elements [not ∈ R, but rather]
+                             ∈ R/Z · log(λ) (∼   = S1 )
+— a situation which is not acceptable, relative to the goal of obtaining log-volume
+estimates [i.e., as in Corollary 3.12 below] for the various objects for which log-shells
+serve as “multiradial containers” [cf. the discussion of Remark 1.5.2; the content
+of Theorem 3.11 below].
+      (iii) In the following discussion, we use the notation of Remark 1.2.2, (i). Thus,
+we regard k as being equipped with the [additive] Haar measure μk normalized so
+that μk (Ok ) = 1 [cf. [AbsTopIII], Proposition 5.7, (i)]. Then (k, μk ) is an ample
+measure space in the sense of (i); Ok× ⊆ k is an ample subset; for any compact ample
+subset S ⊆ Ok× on which logk : Ok× → k is injective, we have μk (S) = μk (logk (S))
+[cf. [AbsTopIII], Proposition 5.7, (i), (c)]. In particular, by applying the formalism
+of realiﬁed semi-simpliﬁcations introduced in (i), we conclude that the diagram
+                                       log
+                         k     ⊇ Ok×    k
+                                       −→    logk (Ok× )   ⊆   k
+
+                                  ∪               ∪
+                                        ∼
+                                  S     →     logk (S)
+

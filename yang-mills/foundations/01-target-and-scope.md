@@ -16,6 +16,10 @@ Confinement, an isolated particle, and extension to other manifolds are addition
 
 ## Operational nontriviality test
 
+Source rechecks on 2026-10-25 and 2026-10-28: the current Clay page still links to the
+same 14-page Jaffe–Witten description. Section 4, p. 6, retains the
+target and mass definition recorded above; no source version changed.
+
 For a proposed Euclidean construction, form the positive-time reflection inner product. A centered observable must have strictly positive norm in the quotient if it is to create a nonvacuum state. Nonzero variance in the original probability space is a different test: it does not by itself imply a positive reflection norm. This distinction is proved directly in L001 for one soluble lattice observable sector.
 
 The notebook has not constructed the required Yang–Mills observables, their continuum limits, or their finite positive mass. A failure for a chosen SU(2) plaquette field cannot refute the existence target for SU(2), much less the statement for every gauge group.

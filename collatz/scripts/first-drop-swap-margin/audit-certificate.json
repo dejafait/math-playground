@@ -1,0 +1,291 @@
+{
+  "result": "PASS",
+  "input_path": "certificate.json",
+  "input_sha256": "c3ab5bcb70cbcef611fcfa90903e5f06ffd9d10ef9c37f8222e4f0ef566a2aab",
+  "checks": {
+    "entire_counterexample_matches": true,
+    "all_endpoint_checks": true,
+    "all_independent_endpoint_checks": true,
+    "all_edge_checks": true,
+    "actual_exceeds_required_bound": true,
+    "entire_lengths_matches": true,
+    "completed_lengths_independently_replayed": true,
+    "checked_edges_exactly_the_witness": true,
+    "original_failures_empty": true,
+    "stopping_report_exact": true,
+    "class_containing_one_retained": true
+  },
+  "failures": [],
+  "counterexample": {
+    "swap_index_zero_based": 2,
+    "u": "11",
+    "v": "0",
+    "r": 2,
+    "s": 0,
+    "B": 4,
+    "R": 12,
+    "carry": 0,
+    "original": {
+      "word": "11010",
+      "length": 5,
+      "q": 3,
+      "modulus": 32,
+      "D": 5,
+      "A": 23,
+      "residue": 11,
+      "rho": 11,
+      "M": 32,
+      "prefix_guards": [
+        {
+          "k": 0,
+          "q_k": 0,
+          "three_power": 1,
+          "two_power": 1,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 1,
+          "q_k": 1,
+          "three_power": 3,
+          "two_power": 2,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 2,
+          "q_k": 2,
+          "three_power": 9,
+          "two_power": 4,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 3,
+          "q_k": 2,
+          "three_power": 9,
+          "two_power": 8,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 4,
+          "q_k": 3,
+          "three_power": 27,
+          "two_power": 16,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 5,
+          "q_k": 3,
+          "three_power": 27,
+          "two_power": 32,
+          "required_relation": "<",
+          "passed": true
+        }
+      ],
+      "trajectory": [
+        11,
+        17,
+        26,
+        13,
+        20,
+        10
+      ],
+      "actual_parity": "11010",
+      "checks": {
+        "all_first_drop_guards": true,
+        "first_drop_predicate": true,
+        "least_representative_interval": true,
+        "previous_class_member_below_two": true,
+        "residue_matches": true,
+        "affine_congruence": true,
+        "direct_parity_matches": true,
+        "affine_endpoint_matches": true,
+        "margin_matches_direct_descent": true
+      }
+    },
+    "swapped": {
+      "word": "11100",
+      "length": 5,
+      "q": 3,
+      "modulus": 32,
+      "D": 5,
+      "A": 19,
+      "residue": 23,
+      "rho": 23,
+      "M": 96,
+      "prefix_guards": [
+        {
+          "k": 0,
+          "q_k": 0,
+          "three_power": 1,
+          "two_power": 1,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 1,
+          "q_k": 1,
+          "three_power": 3,
+          "two_power": 2,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 2,
+          "q_k": 2,
+          "three_power": 9,
+          "two_power": 4,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 3,
+          "q_k": 3,
+          "three_power": 27,
+          "two_power": 8,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 4,
+          "q_k": 3,
+          "three_power": 27,
+          "two_power": 16,
+          "required_relation": ">=",
+          "passed": true
+        },
+        {
+          "k": 5,
+          "q_k": 3,
+          "three_power": 27,
+          "two_power": 32,
+          "required_relation": "<",
+          "passed": true
+        }
+      ],
+      "trajectory": [
+        23,
+        35,
+        53,
+        80,
+        40,
+        20
+      ],
+      "actual_parity": "11100",
+      "checks": {
+        "all_first_drop_guards": true,
+        "first_drop_predicate": true,
+        "least_representative_interval": true,
+        "previous_class_member_below_two": true,
+        "residue_matches": true,
+        "affine_congruence": true,
+        "direct_parity_matches": true,
+        "affine_endpoint_matches": true,
+        "margin_matches_direct_descent": true
+      }
+    },
+    "margin_delta": 64,
+    "required_upper_bound": 0,
+    "conjectured_inequality_holds": false,
+    "checks": {
+      "both_endpoint_checks": true,
+      "directed_adjacent_swap": true,
+      "same_length_and_ones": true,
+      "strict_coefficient_drop": true,
+      "numerator_difference": true,
+      "nonzero_residue_jump": true,
+      "binary_carry": true,
+      "representative_difference": true,
+      "exact_swap_margin_formula": true
+    }
+  },
+  "independent_endpoint_checks": [
+    {
+      "unique_representative_by_direct_iteration": true,
+      "recovered_A_matches_source_sum": true
+    },
+    {
+      "unique_representative_by_direct_iteration": true,
+      "recovered_A_matches_source_sum": true
+    }
+  ],
+  "completed_length_replay": [
+    {
+      "length": 1,
+      "all_parity_classes_present": true,
+      "first_drop_words": [
+        "0"
+      ],
+      "guarded_edges": []
+    },
+    {
+      "length": 2,
+      "all_parity_classes_present": true,
+      "first_drop_words": [
+        "10"
+      ],
+      "guarded_edges": []
+    },
+    {
+      "length": 3,
+      "all_parity_classes_present": true,
+      "first_drop_words": [],
+      "guarded_edges": []
+    },
+    {
+      "length": 4,
+      "all_parity_classes_present": true,
+      "first_drop_words": [
+        "1100"
+      ],
+      "guarded_edges": []
+    }
+  ],
+  "lengths": [
+    {
+      "length": 1,
+      "first_drop_words_visited": 1,
+      "directed_01_pairs_seen": 0,
+      "guarded_edges_checked": 0,
+      "rejected_swapped_guard": 0,
+      "completed_length": true
+    },
+    {
+      "length": 2,
+      "first_drop_words_visited": 1,
+      "directed_01_pairs_seen": 0,
+      "guarded_edges_checked": 0,
+      "rejected_swapped_guard": 0,
+      "completed_length": true
+    },
+    {
+      "length": 3,
+      "first_drop_words_visited": 0,
+      "directed_01_pairs_seen": 0,
+      "guarded_edges_checked": 0,
+      "rejected_swapped_guard": 0,
+      "completed_length": true
+    },
+    {
+      "length": 4,
+      "first_drop_words_visited": 1,
+      "directed_01_pairs_seen": 0,
+      "guarded_edges_checked": 0,
+      "rejected_swapped_guard": 0,
+      "completed_length": true
+    },
+    {
+      "length": 5,
+      "first_drop_words_visited": 1,
+      "directed_01_pairs_seen": 1,
+      "guarded_edges_checked": 1,
+      "rejected_swapped_guard": 0,
+      "completed_length": false
+    }
+  ],
+  "scope": "Existing L109 witness and completed lengths1\u20134 only; length5 incomplete, lengths6\u201324 untested",
+  "general_carry_proof": "Manual audit in canonical L109; finite replay alone does not prove the general formula"
+}

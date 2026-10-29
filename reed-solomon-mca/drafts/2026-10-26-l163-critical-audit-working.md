@@ -1,0 +1,13 @@
+# L163 critical audit working record
+
+2026-10-26. Approved target: Critically audit L163's complete additional-row loci on the fixed L162 projective family, including original-label coverage, all polynomial witnesses and every projective parameter.
+
+Invocation-start SPECIALIZE coverage is `drafts/literature/2026-10-26-l163-critical-audit-review.md`; classification REPRODUCTION. No new source discovery is needed. Read L163, both complete scripts, L109's hypotheses/formula and L162's complete proof, including its separate audit. Reused the precise Kostrikin–Manin and Milne imports and the earlier duplicate/failure comparison; history/507 confirms that the existing verifier was same-step evidence. ATTEMPTS/052 remains stopped.
+
+Main gap: uniform twelve-row exclusion, with independent representation and challenge-definition gaps. Intermediate target: validate the exact additional-row restrictions on this one family, potentially supporting a later finite compatibility test. Accept only if every original label, coefficient, witness, rank branch and extension-field parameter is accounted for; otherwise preserve and identify the defect.
+
+Initial proof review: L162 supplies an independent basis at all parameters. Each restricted entry is homogeneous linear and each minor homogeneous quadratic. The verifier's nodes 0,1,-1 are distinct and 2*49=1 in F_97, so its coefficient reconstruction is exact. Nonzero g-values follow from S and J being disjoint. Division plus Bezout proves simultaneous affine vanishing equivalent to the certified gcd, over every extension; entry gcd one and a nonzero infinity minor exclude rank zero. These conclusions still depend on checking the complete finite records, currently pending.
+
+Planned evidence: preserve producer and verifier; run the reviewed verifier, then an additional independent direct-product/coefficient audit that explicitly compares the theorem's forty labels and all stored witnesses. No new family, coding gates or many-row compatibility calculation is in scope.
+
+Completed: the original verifier passes 4,946 checks; the separate `scripts/seven-coordinate/audit_l163.py` passes 4,397 checks, with full evidence in `scripts/seven-coordinate/l163-critical-audit.json`. Every complete producer and verifier record was checked, including the literal forty-label set and printed label-145 example. No defect was found. L163 now contains the canonical separate audit and all-parameter reasoning. The prospective eight-additional-support target is deliberately uncovered, with a REVIEW_REQUIRED assessment; no compatibility mathematics was performed.

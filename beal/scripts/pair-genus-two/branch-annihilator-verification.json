@@ -1,0 +1,56 @@
+{
+  "completed": true,
+  "failures": [],
+  "bindings": {
+    "branch-annihilator-certificate.json": "19430ef7dd775d3a779926e996a263bfc0c8c8fe760e5aef019eaa5a20c0603d",
+    "odd-membership-35-certificate.json": "60db6aa9958df7980a1f8914f79d6b228775a2fbcc5bd3575301cabc68887c07",
+    "odd-membership-35-audit.json": "8f31ed7df01864a2c954b838ce68aa17ffabe45b48f0cb737d921332839ea12a"
+  },
+  "checks": 130,
+  "max_rational_bits": 69,
+  "epsilon_root_O": [
+    "10519/1500",
+    "67/225",
+    "5471/4500",
+    "-947/375"
+  ],
+  "epsilon_root_Q": "13341611250000000",
+  "real_nonsquare": {
+    "alpha_interval": [
+      "-3105933/65536",
+      "-776483/16384"
+    ],
+    "A_end_values": [
+      "1222606091777206673/18446744073709551616",
+      "-40592557146770991/72057594037927936"
+    ],
+    "branch_interval": [
+      "-166956019462677687/687194767360000",
+      "-10684080015131015449/43980465111040000"
+    ],
+    "eta_class_interval": [
+      "404687349923679358827/43980465111040000",
+      "6324542858191440901/687194767360000"
+    ]
+  },
+  "product_rational_3_valuation": 17,
+  "comparisons": [
+    {
+      "combination": "epsilon",
+      "equal": true
+    },
+    {
+      "combination": "eta_class",
+      "equal": false
+    },
+    {
+      "combination": "epsilon*eta_class",
+      "equal": false
+    }
+  ],
+  "actual": 3,
+  "required": 3,
+  "branch_equals": "epsilon",
+  "branch_nonzero": true,
+  "pairing_forced_zero": true
+}

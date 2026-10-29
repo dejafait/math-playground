@@ -1,0 +1,56 @@
+{
+  "completed": true,
+  "checks": 55,
+  "failures": [],
+  "bindings": {
+    "branch-annihilator-certificate.json": "19430ef7dd775d3a779926e996a263bfc0c8c8fe760e5aef019eaa5a20c0603d",
+    "branch-annihilator-verification.json": "af4cdbec238b95ba2b91e66e9a672017381429d221cccddcb30c0b258ced405e",
+    "odd-membership-35-certificate.json": "60db6aa9958df7980a1f8914f79d6b228775a2fbcc5bd3575301cabc68887c07",
+    "odd-membership-35-audit.json": "8f31ed7df01864a2c954b838ce68aa17ffabe45b48f0cb737d921332839ea12a"
+  },
+  "evidence": {
+    "branch_rational": "73990352390625",
+    "branch_power": [
+      "-9229",
+      "-10296/25",
+      "-5016/625",
+      "-44/625"
+    ],
+    "epsilon_root_Q": "13341611250000000",
+    "epsilon_root_power": [
+      "225497/45000",
+      "6653/187500",
+      "-73819/9375000",
+      "-947/7031250"
+    ],
+    "epsilon_root_square": [
+      "301578101/12656250",
+      "33593417/421875000",
+      "-300309097/7031250000",
+      "-45107557/63281250000"
+    ],
+    "real_interval": [
+      "-3105933/65536",
+      "-776483/16384"
+    ],
+    "A_end_values": [
+      "1222606091777206673/18446744073709551616",
+      "-40592557146770991/72057594037927936"
+    ],
+    "branch_interval": [
+      "-166956019462677687/687194767360000",
+      "-10684080015131015449/43980465111040000"
+    ],
+    "eta_class_interval": [
+      "404687349923679358827/43980465111040000",
+      "6324542858191440901/687194767360000"
+    ],
+    "product_rational_ratio": "4757902330643963015625000000000000000000000000",
+    "product_3_valuation": 17
+  },
+  "actual_comparisons": 3,
+  "required_comparisons": 3,
+  "arithmetic_correction_needed": false,
+  "qualification": "Pairing theorem and proper-model hypotheses are reviewed in L148; arithmetic replay alone does not verify them.",
+  "source_sha256": "2e919c129cce12bc4bcc282ca287711f706cf4b8d023cd24e5f8ec8c45171034"
+}

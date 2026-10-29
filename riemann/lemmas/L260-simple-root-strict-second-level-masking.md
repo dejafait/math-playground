@@ -18,7 +18,20 @@ Indeed the coefficient of y² consists of the two (0,2) terms and the (1,1) term
 
 P′=5x⁴+3Ax²+B, P″=20x³+6Ax, P‴=60x²+6A, P⁗=120x
 
-yields the two asserted polynomial identities. Their displayed coefficients are positive except for absent terms: 3A²−10B>0, B²>0, and −2AB>0. Since each power of x is even, both expressions are strictly positive at every real x, including all three real roots. The roots 0, ±ε, ±ib are distinct.
+yields the two asserted polynomial identities. For an explicit normalization and cancellation check, the first identity subtracts
+
+P′²=25x⁸+30Ax⁶+(9A²+10B)x⁴+6ABx²+B²,
+PP″=20x⁸+26Ax⁶+(6A²+20B)x⁴+6ABx².
+
+The three terms in the second identity are
+
+P″²/4=100x⁶+60Ax⁴+9A²x²,
+P′P‴/3=100x⁶+70Ax⁴+(6A²+20B)x²+2AB,
+PP⁗/12=10x⁶+10Ax⁴+10Bx².
+
+Subtracting the second line from the first and adding the third gives exactly the asserted D_2, including cancellation of x⁴. This is the coefficient convention in Csordas, *Fourier transforms of positive definite kernels and the Riemann ξ-Function*, [arXiv:1309.0055v2](https://arxiv.org/pdf/1309.0055v2), Remarks 2.5, equation (2.11), p. 4; no all-order converse from that source is needed here.
+
+Since A>0 and B<0, all displayed nonzero coefficients of D_1 and D_2 are positive. In particular, D_1(P;x)≥B²>0 and D_2(P;x)≥−2AB>0 for every real x. These polynomial bounds include all real roots and arbitrarily large |x|; no division by P or compactness argument is used. The factorization gives all five roots 0, ±ε, ±ib, which are pairwise distinct because ε,b>0. Each linear factor occurs once, so simplicity is over C, not just on the real axis.
 
 At x=0 the generating polynomial is t(t+ε²)²(b²−t)² with t=y². Its t⁴ coefficient is 2ε²−2b², proving the last assertion without invoking any real-zero criterion.
 
@@ -27,7 +40,16 @@ The coefficient convolution from L257 gives, with U(x)=P(x−10), V(x)=P(x+10),
 D_1(UV;x)=D_1(U;x)V(x)²+U(x)²D_1(V;x),
 D_2(UV;x)=D_2(U;x)V(x)²+D_1(U;x)D_1(V;x)+U(x)²D_2(V;x).
 
-Both factors have strictly positive first and second expressions by translation. They have no common real zero, so the first sum is strictly positive; the middle term in the second sum is strictly positive. All remaining terms are nonnegative. Since P is odd, E is even. Its real zeros are 10, 10±ε, −10, −10±ε, and its nonreal zeros are 10±ib and −10±ib. For the specified parameters these ten zeros are distinct and satisfy the stated localization. ∎
+Both factors have strictly positive first and second expressions by translation. For b=1/4, each translated root lies in the closed disk of radius b about its translation center, 10 or −10. Those disks are disjoint: their centers have distance 20>2b. Each factor has five distinct simple roots, and there is no common complex root. Thus the degree-ten product has precisely ten simple roots, in particular no common real zero of its factors. Consequently
+
+D_1(E;x)≥B²(V(x)²+U(x)²)>0,
+D_2(E;x)≥D_1(U;x)D_1(V;x)≥B⁴>0
+
+for every real x. All omitted terms are nonnegative. These inequalities also handle a real zero of either factor, without dividing by that factor.
+
+Since P is odd, E(−z)=P(−z−10)P(−z+10)=P(z+10)P(z−10)=E(z). Its real zeros are 10, 10±ε, −10, −10±ε, and its nonreal zeros are 10±ib and −10±ib. The quartet has distinct real or imaginary coordinates, since 10 and b are positive. Every root obeys |Re z|≥10−b=39/4>4 and |Im z|≤b=1/4<1/2. ∎
+
+Critical audit completed 2026-10-25: the finite coefficient identities, parameter signs, all-real-center strictness, full complex-root list and convolution transfer above were checked independently. This verifies the existing certificate, not a new construction. The negative fourth-level value asserted here concerns P at zero; it is not asserted for E at zero.
 
 This removes the repeated-root and non-strict-sign qualifications for the first two levels of L257. It does not remove them for arbitrary finite K. The actual required threshold is an all-degree criterion or a separately sufficient theta-specific condition, not these two inequalities, even with simple zeros. No positive Fourier-kernel representation, theta identity, or counterexample to RH is claimed.
 

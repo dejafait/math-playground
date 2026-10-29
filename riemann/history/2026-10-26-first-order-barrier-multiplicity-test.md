@@ -1,0 +1,7 @@
+# 2026-10-26 — local scalar barrier multiplicity test
+
+Completed the exact gate-approved target using the unchanged prior SPECIALIZE assessment. Read L018 and the needed L466 normalization/source passages; targeted local searches found no recorded matching scalar test. Existing unfinished notebook edits were preserved.
+
+[L469](../lemmas/L469-first-order-barrier-multiplicity-obstruction.md) records the full calculation: every hypothetical m>=2 forces failure of the proposed inequality immediately to the left, for every allowed local w,C; m=1 admits a local existence choice of C. This is a routine known-tool specialization and an informative NEGATIVE for multiplicity-uniform use, not a discovery beyond the sources checked or an actual multiple-zero claim. No numerical check was used. The [attempt record](../ATTEMPTS/2026-10-26-first-order-height-barrier-multiplicity.md) preserves the precise class stop.
+
+The main sign gap remains. A separate ordinary critical audit is nominated in [its new scope assessment](../drafts/literature/2026-10-26-l469-critical-audit-coverage.md), subject to next-turn approval. Creative central-sign work is still blocked by the absence of a specified independently controlled actual-Xi operator/source; the local obstruction supplies no such new mechanism. Do not relabel another routine specialization creative or treat this result as a global differential-method ban.

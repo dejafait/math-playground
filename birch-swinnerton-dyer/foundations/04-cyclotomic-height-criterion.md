@@ -14,9 +14,28 @@ to nondegeneracy on V. A change of basis multiplies the determinant by a
 nonzero square. Normalizing the height by log_p(kappa(gamma)), where kappa
 is the cyclotomic character on Gamma, multiplies R_p by
 log_p(kappa(gamma))^(-r); this scalar is nonzero. Only nonvanishing is used.
-See [Stein--Wuthrich, Sections 4.1 and 4.4, printed pages 1770--1771 and 1774](https://wstein.org/papers/mcom2649-iwasawa-alg.pdf#page=14)
-for the ordinary height and normalization. No arbitrary bilinear form is
-substituted for this arithmetic height.
+An explicit canonical representative, independent of the unresolved
+printed sigma comparison in L119, is the pairing C of Mazur--Stein--Tate,
+*Computation of p-Adic Heights and Log Convergence*, Documenta Mathematica,
+Extra Volume Coates (2006), 577--614, equation (1.1) p.579, Theorem 1.3
+p.580, equations (1.7)--(1.9) p.581, and Sections 2.1/2.6--2.8 pp.582--587:
+[primary PDF](https://ems.press/content/book-chapter-files/27479).
+Its ordinary cyclotomic functional is p^(-1)log_p composed with kappa;
+the pairing for log_p composed with kappa is p C by linearity in that
+functional. Thus using either determinant changes R_p by p^r, a nonzero
+scalar, and generator normalization divides it by ell^r with
+ell=log_p(kappa(gamma))!=0. Nonvanishing is identical in all these
+conventions. This is the canonical construction, not the source's
+Conjecture 1.1 asserting nondegeneracy.
+
+[Stein--Wuthrich, Sections 4.1 and 4.4, printed pages 1770--1771 and 1774](https://wstein.org/papers/mcom2649-iwasawa-alg.pdf#page=14)
+remain references for the ordinary height and generator normalization.
+Their displayed general-model sigma convention is not used to identify
+Harvey's height here: the literal comparison remains unresolved in L119.
+L119 (15)--(17) instead uses MST and Harvey's explicit 2p normalization,
+with its local scalar/precision specialization passing the separate
+step-499 critical audit at the stated finite-input hypotheses.
+No arbitrary bilinear form is substituted for this arithmetic height.
 
 ## Named arithmetic input and checked scope
 

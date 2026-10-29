@@ -1,0 +1,42 @@
+{
+  "actual_new_bytes_under_cap": null,
+  "actual_seconds": null,
+  "arithmetic_module_imported": false,
+  "child_exits": [],
+  "completed_indices": [],
+  "coordinator_clock_started": false,
+  "failure": {
+    "matching_lines": [
+      {
+        "line": 108,
+        "text": "        if step in (446,449,451,453,455,457,459):"
+      },
+      {
+        "line": 125,
+        "text": "            elif step in (446,449,451,453,455,457,459):"
+      }
+    ],
+    "message": "nonunique coordinator edit if step in (446,449,451,453,455,457,459):",
+    "occurrences": 2,
+    "required_occurrences": 1,
+    "type": "Error"
+  },
+  "fresh_coordinator_saved": false,
+  "input": {
+    "bytes": 18307,
+    "path": "scripts/four-rational-kernels/step-461/coordinator.py",
+    "sha256": "ed7b021281df11e29bdab0b640fdc8feb62e1f7e916761915569a05cb436891c"
+  },
+  "kernel_produced": false,
+  "phase": "prelaunch_source_adaptation",
+  "python_process_launched": false,
+  "qualification": "Failure occurred in the JavaScript exact-once adapter before tools.exec_command was reached. No execution-resource or whole-input preservation certificate exists. This static diagnosis and source archival are post-stop and outside any measured cap.",
+  "required_new_bytes_if_launched": 134217728,
+  "required_seconds_if_launched": 180,
+  "retry_repair_resumption_or_further_kernel": false,
+  "source_diagnosis": "The unanchored if substring also matches the elif branch. Both original statement sites are required and have different syntactic roles; the exclusivity guard is correct to reject two matches.",
+  "status": "STOP",
+  "step": "BSD-2026-10-25-465-n39-42-adapter-stop",
+  "submitted_source": "scripts/four-rational-kernels/step-465-postmortem/submitted-adapter.txt",
+  "successful_in_memory_edits_before_failure": 9
+}

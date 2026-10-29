@@ -1,0 +1,31 @@
+{
+  "completed": false,
+  "failures": [
+    {
+      "type": "KeyError",
+      "message": "'completed'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/odd_membership_35.py\", line 254, in <module>\n    try:main()\n        ~~~~^^\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/odd_membership_35.py\", line 191, in main\n    ck(name+' complete',C['completed'] and not C['failures'])\n                        ~^^^^^^^^^^^^^\nKeyError: 'completed'\n"
+    }
+  ],
+  "bindings": {
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+    "odd-model-support-certificate.json": "22315e6ebcbaa4ff063206432a958935aeb01b07ea6652bcc51d851c45162193",
+    "two-adic-filter-certificate.json": "18a2ac2527d1a3cf2c1c8e78bd9ce8bdd4cdc98b38375419554600e73b11736e",
+    "two-adic-filter-audit.json": "538970ae98c36ac4ea42ebfe7551e7c3cbf836904bb7334b2a30a11e7c793958"
+  },
+  "places": {},
+  "checks": [
+    {
+      "name": "quartic-class complete",
+      "passed": true
+    }
+  ],
+  "bounds": {
+    "tests_cap_per_place": 200000,
+    "depth_cap": 64,
+    "rational_bits_cap": 8192,
+    "max_rational_bits": 0
+  },
+  "source_sha256": "29a1a0c63b241b1190edcb0d2a1e30c6d41213aa048a188f950f39f0fb1a6af3",
+  "helper_sha256": "18d966696d1bf307b717771b544deb34d8b40dbc8048f1a58d4923010408d4cb"
+}

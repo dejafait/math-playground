@@ -1,0 +1,139 @@
+# L138 conditional equivalence — independent critical audit
+
+The invocation-start SPECIALIZE assessment is
+`drafts/literature/2026-10-29-l138-critical-audit-coverage.md`.
+The exact audit target is its TARGET, with no closure derivation or
+counterassignment search. Canonical proof: L138. Essential local input:
+L030's arbitrary-label setup. The retained EKL Proposition 2.6(1),(3)
+and complete proof, pp. 309–310, have been read directly.
+
+The main gap is arbitrary-center 67/68 safety. The intermediate target
+is to accept or correct the equivalence between one nonzero translation
+inclusion for U and equality of all full-sheet quadratic messages,
+separately over E and F. Its downstream use is to measure exactly what
+the missing translation bridge would establish. Accept only if the
+two cardinality orders, restricted operator, containing-1 threshold,
+all-label propagation and converse pass. Any defect is retained and
+corrected within this scope. No inclusion, retention bound or RS
+transfer is sought; ATTEMPTS/113 stays parked.
+
+## Saved audit state
+
+No prior L138 critical audit was located in the scoped audit/history
+search. L138 expressly awaits one. ATTEMPTS/113 and history/548 preserve
+the failed transport mechanism; history/549 warns against duplicate
+L133/L129 audits. Existing notebook modifications are preserved.
+
+The primary source explicitly separates X-1 and proves separability
+and the degree of the other irreducible factors for finite coefficient
+fields. Its identity-root wording must be read with that exception;
+the proof does not require the coefficient field to contain F_137.
+The audit will apply the factorization to the actual restricted
+operator, rather than identify an arbitrary invariant subspace with
+an ideal of the cyclic ring. Numerical certificates and every local
+implication remain to be independently checked below.
+
+## Completed critical checks
+
+**Model and source.** Read L030's hypotheses and construction of Omega
+and sigma, L135's hypotheses only before its span-two restriction, and
+the whole L138 proof. L138 independently restates the full-sheet
+equations and does not import L135's span-two premise. The 959 labels
+are distinct elements of E, and hence of either K. The four dummy
+images impose no constancy equations. Neither field is identified with
+the auxiliary F_137. Repeated quadratics and zero polynomials are allowed.
+The source input is precisely EKL Proposition 2.6(1),(3), pp. 309–310
+of the 2017 journal version linked in L138: finite fields of cardinality
+Q, characteristic different from 137, distinct factors and nonidentity
+factor degree ord_137(Q). The extension-field case uses Q=65537^28.
+
+**Independent arithmetic.** The new audit program
+`scripts/finite-support/audit_coefficient_translation_orders.py` uses
+successive integer multiplication to reconstruct both cardinality
+residues and every power with exponent 1 through 136. It compares
+the complete arrays and metadata in the retained production certificate,
+not a prefix or statistical sample. The full replay is saved in
+`scripts/finite-support/l138-critical-audit-arithmetic.json`.
+All 37 checks pass, with no failures. Trial division verifies that
+137 and 65537 are prime; the label budget is 7*137+4=963=1024-61.
+The residues are 51 and 81. Their first identity powers are 136 and
+34, respectively. In particular the displayed powers 51^2=135,
+51^8=16, 51^28=81, 51^68=136, 51^136=1 and
+81^2=122, 81^17=136, 81^34=1 all pass modulo 137.
+The short certificates suffice because the prime divisors of 136
+are 2 and 17, and those of 34 are also 2 and 17. The tested exponents
+are exactly the order divided by each prime divisor; the full arrays
+provide an independent first-return check. Both degrees exceed four.
+
+**Restricted operator.** Under the assumed inclusion, induction shows
+that every iterate of A=tau_e|_U agrees with the restriction of tau_e^n.
+Thus A^137=I on U; an inverse is A^136. Its minimal polynomial divides
+Z^137-1, is nonconstant since U contains the nonzero function 1, and
+has degree at most dim U<=4 by Cayley–Hamilton. Squarefreeness rules
+out powers of Z-1. Each other irreducible factor has degree at least
+34, so the minimal polynomial is exactly Z-1. This argument applies
+to an arbitrary invariant function subspace and never assumes it is
+an ideal or one copy of the regular representation.
+
+For a larger invariant W containing 1, the representation of the
+quotient ring K[Z]/(Z^137-1) gives mutually orthogonal CRT idempotents
+whose sum is identity on W. The Z-1 idempotent fixes 1 and the other
+idempotents kill it. Thus the fixed component is nonzero. Every
+nonzero other component is a unital vector space over its degree-r
+extension of K and has dimension a positive multiple of r. If all
+other components vanish then A=I. Nontrivial action therefore forces
+dimension at least 1+r, namely 137 over E or 35 over F. There is no
+upper bound asserted on the space generated by arbitrary translates.
+
+**Every direction and every label.** If A=I, coefficientwise equality
+g_(P+e)=g_P holds at every P. Write e=(h,j) nonzero. Among the seven
+distinct t, at most one solves h+t*j=0 when j!=0, and none does when
+j=0. Choose any remaining t and put delta=h+t*j. Since the auxiliary
+field is prime, the iterates of e are all s e with s in F_137.
+For each P and each y, the iterate with
+s=(y-(u+t*v))/delta is on A_(t,y). Its polynomial equals g_P.
+The full-sheet equation therefore gives g_P(x_(t,y))=d_(t,y)
+simultaneously for every P and all 137 y. For arbitrary P,Q,
+g_P-g_Q has degree at most two and 137 distinct roots in K, so is
+zero. This uses neither distinctness of messages nor any embedding of
+the auxiliary field in K. It fails as an argument for partial retention,
+which is not a hypothesis here. Conversely if all messages equal,
+all three coefficient functions are constant, U=K*1 and every
+translation preserves it. Both implications pass for each nonzero e.
+
+**Transport qualification.** Direct subtraction of quadratic evaluations
+at x and x' gives (x-x')[a_1+(x+x')a_2], with the sign printed in
+L138. At P+e the known common value is at x'=x_(t,y+delta_t), not x.
+For either unit translation every delta_t is nonzero, since all t in
+T are nonzero. The label correction in L138's covariance is a
+permutation on each direction class with the dummies fixed. If it
+fixed sigma, injectivity would force every delta_t=0; two distinct
+directions imply e=0. None of this asserts membership of the correction
+term in U. The polynomial X-x' only diagnoses a local evaluation-row
+difference, not a full-sheet counterassignment. ATTEMPTS/113 remains
+a valid stop and is not strengthened into a no-go theorem.
+
+## Verdict and limits
+
+Accept L138 as a correct conditional specialization/reproduction over
+both fields. No mathematical defect or new bound was found. The
+canonical file now records the audit, explicit restricted-operator and
+CRT qualifications, and the prime-subfield label use. Its hypotheses
+and conclusion, and its sole direct DAG input L030, are unchanged.
+The audit establishes an accepted local input, not progress beyond the
+checked cyclic-module literature or a verified closure premise.
+The 955–957 bracket, arbitrary-center 67/68 safety, span-three collapse,
+partial retention, compatible laws and RS transfer remain unresolved.
+Mathlib matching and supporting coverage remain unchecked as stated
+canonically; no absence claim is made. No cross-notebook input is used.
+
+For next-target selection only, inspected the opening comparisons of
+the existing full-sheet, cone and span-three line-fiber assessments.
+They cover rank, planarization, circle stability and multinet leads.
+A narrow search for Rudnev, Vinh, Kollar/Kollár and point-plane
+incidence bounds in those assessments, the post-L134 and closure
+assessments and ATTEMPTS/109–113 found no match. This does not establish
+literature coverage or novelty. A weighted point-plane incidence
+comparison is therefore proposed as REVIEW_REQUIRED, with repeated
+indexed planes and all degeneracies retained. No incidence theorem
+has been read or applied in this audit.

@@ -1,0 +1,25 @@
+let s=load("coordinator461"); const edits=[];
+function change(a,b){if(s.split(a).length!==2)throw Error("nonunique coordinator edit "+a);s=s.replace(a,b);edits.push([a,b]);}
+change("OUT=BASE/'step-461'","OUT=BASE/'step-465'");
+change("INDICES=(35,36,37,38)","INDICES=(39,40,41,42)");
+change("steps=(417,419,422,424,429,431,433,435,437,440,442,446,449,451,453,455,457,459)","steps=(417,419,422,424,429,431,433,435,437,440,442,446,449,451,453,455,457,459,461,463)");
+change("for i in (417,419,422,424,426,429,431,433,435,437,440,442,444,446,449,451,453,455,457,459)","for i in (417,419,422,424,426,429,431,433,435,437,440,442,444,446,449,451,453,455,457,459,461,463)");
+change("'drafts/2026-10-24-l112-audit-document-transition.json']","'drafts/2026-10-24-l112-audit-document-transition.json',\n'drafts/2026-10-24-kernels-thirty-five-through-thirty-eight-document-transition.json',\n'drafts/2026-10-24-l113-audit-document-transition.json']");
+change("'lemmas/L112-kernels-thirty-one-through-thirty-four-certificates.md'","'lemmas/L113-kernels-thirty-five-through-thirty-eight-certificates.md'");
+change("'drafts/literature/2026-10-24-kernels-thirty-five-through-thirty-eight.md'","'drafts/literature/2026-10-24-kernels-thirty-nine-through-forty-two.md'");
+change("'drafts/source-notes/2026-10-24-kernels-thirty-five-through-thirty-eight-coverage.md'","'drafts/source-notes/2026-10-24-kernels-thirty-nine-through-forty-two-coverage.md',\n'drafts/2026-10-24-n39-42-source-metadata.json'");
+change("'drafts/2026-10-24-kernels-thirty-five-through-thirty-eight-attempt.md'","'drafts/2026-10-25-kernels-thirty-nine-through-forty-two-attempt.md'");
+change("if step in (446,449,451,453,455,457,459):","if step in (446,449,451,453,455,457,459,461,463):");
+change("elif step in (446,449,451,453,455,457,459):","elif step in (446,449,451,453,455,457,459,461,463):");
+change("for step in (417,419,422,424,431,433,435,437,440,442,446,449,451,453,455,457,459):","for step in (417,419,422,424,431,433,435,437,440,442,446,449,451,453,455,457,459,461,463):");
+change("if step in (417,424,431,435,440,449,453,457)","if step in (417,424,431,435,440,449,453,457,461)");
+change("(BASE/'step-457/coordinator.py').read_text().splitlines(True),COORDINATOR.splitlines(True),fromfile='step-457/coordinator.py',tofile='step-461/coordinator.py'","(BASE/'step-461/coordinator.py').read_text().splitlines(True),COORDINATOR.splitlines(True),fromfile='step-461/coordinator.py',tofile='step-465/coordinator.py'");
+change("'BSD-2026-10-24-461-kernels-thirty-five-through-thirty-eight'","'BSD-2026-10-25-465-kernels-thirty-nine-through-forty-two'");
+change("worker_before=(BASE/'step-457/worker.py').read_text()","worker_before=(BASE/'step-461/worker.py').read_text()");
+change(`worker_changes=[("assert INDEX in (31,32,33,34)","assert INDEX in (35,36,37,38)"),("'kernel_457_'","'kernel_461_'")]`,`worker_changes=[("assert INDEX in (35,36,37,38)","assert INDEX in (39,40,41,42)"),("'kernel_461_'","'kernel_465_'")]`);
+change("fromfile='step-457/worker.py',tofile='step-461/worker.py'","fromfile='step-461/worker.py',tofile='step-465/worker.py'");
+change("b.replace('step-417','step-461')","b.replace('step-417','step-465')");
+store("coordinator465",s);store("coordinator465Edits",edits);
+const quote=x=>"'"+x.replace(/'/g,"'\\''")+"'";
+const r=await tools.exec_command({cmd:"python3 -B -c "+quote(s),yield_time_ms:1000,max_output_tokens:2000});
+store("production465",r);text(r);

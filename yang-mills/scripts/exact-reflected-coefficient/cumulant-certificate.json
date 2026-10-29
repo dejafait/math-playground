@@ -1,0 +1,235 @@
+{
+  "scope": "Exact rational generic Gaussian algebra only; no box evaluation or mesh bound.",
+  "source": "scripts/combined-ward-response/check.py",
+  "source_sha256": "59faafffa9987dfc629c627400f4b18d88b02942cddcfbcafcb3c4055f6e81df",
+  "gaussian": "Three independent centered real normal variables of variance one.",
+  "inputs": {
+    "minus_jets": [
+      [
+        {
+          "powers": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      [
+        {
+          "powers": [
+            1,
+            1,
+            1
+          ],
+          "coefficient": "1/3"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      [
+        {
+          "powers": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": "1/5"
+        },
+        {
+          "powers": [
+            4,
+            0,
+            0
+          ],
+          "coefficient": "1/4"
+        }
+      ]
+    ],
+    "plus_jets": [
+      [
+        {
+          "powers": [
+            0,
+            0,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": "2"
+        }
+      ],
+      [
+        {
+          "powers": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": "1/5"
+        }
+      ],
+      [
+        {
+          "powers": [
+            0,
+            0,
+            4
+          ],
+          "coefficient": "1/7"
+        },
+        {
+          "powers": [
+            2,
+            2,
+            0
+          ],
+          "coefficient": "1/3"
+        }
+      ]
+    ],
+    "S3": [
+      {
+        "powers": [
+          1,
+          1,
+          1
+        ],
+        "coefficient": "1/4"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0
+        ],
+        "coefficient": "1/2"
+      },
+      {
+        "powers": [
+          3,
+          0,
+          0
+        ],
+        "coefficient": "1/6"
+      }
+    ],
+    "S4": [
+      {
+        "powers": [
+          0,
+          0,
+          4
+        ],
+        "coefficient": "1/8"
+      },
+      {
+        "powers": [
+          0,
+          4,
+          0
+        ],
+        "coefficient": "1/12"
+      },
+      {
+        "powers": [
+          4,
+          0,
+          0
+        ],
+        "coefficient": "1/24"
+      }
+    ],
+    "M2": [
+      {
+        "powers": [
+          0,
+          0,
+          2
+        ],
+        "coefficient": "1/12"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0
+        ],
+        "coefficient": "1/12"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0
+        ],
+        "coefficient": "1/12"
+      }
+    ]
+  },
+  "comparison": {
+    "normalized_covariance_series": [
+      "4",
+      "0",
+      "47/80"
+    ],
+    "connected_second_coefficient": "47/80",
+    "actual_difference": "0",
+    "required_difference": "0",
+    "without_cubic": "46/15",
+    "without_haar": "461/240"
+  },
+  "checks": {
+    "leading_covariance": true,
+    "odd_coefficient_zero": true,
+    "second_coefficient_agrees": true,
+    "cubic_terms_detected": true,
+    "haar_term_detected": true
+  },
+  "failures": [],
+  "source_check_output": "Connected cubic/quartic expansion agrees with normalized moments: 47/80.\nRadial SU(2): remaining coefficient -87/256; divergence contribution 9/32.\nNonlinear flow and coordinate Haar terms are both detected; Ward sign agrees exactly.\nThese checks do not evaluate L010's box response or its cutoff logarithm.\n"
+}

@@ -1,0 +1,51 @@
+{
+  "completed": true,
+  "failures": [],
+  "bindings": {
+    "shukla-dyadic-conics-certificate.json": "5ed93422dcdf9861192e90be31e98d1858312476d464695d1379829a3715b98e",
+    "shukla-good-conics-certificate.json": "8a3cc2051ef948d0c16832c9be692752f18d7e9df57ba0fc7c10834232afee70",
+    "shukla-good-conics-verification.json": "9764ddec0381b1a43d9f953094941992dce6a1f81ac808f1d5efc9f894a4eced",
+    "two-adic-filter-certificate.json": "18a2ac2527d1a3cf2c1c8e78bd9ce8bdd4cdc98b38375419554600e73b11736e",
+    "two-adic-filter-audit.json": "538970ae98c36ac4ea42ebfe7551e7c3cbf836904bb7334b2a30a11e7c793958",
+    "odd-model-support-certificate.json": "22315e6ebcbaa4ff063206432a958935aeb01b07ea6652bcc51d851c45162193",
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b"
+  },
+  "checks": 1189,
+  "classes": [
+    {
+      "label": "eta_class",
+      "soluble": true,
+      "good": null,
+      "candidates": 17,
+      "a_valuation": -50,
+      "c_valuation": -10,
+      "square_valuation": 0,
+      "residual_valuation": 11,
+      "hensel_threshold": 8
+    },
+    {
+      "label": "nu",
+      "soluble": true,
+      "good": null,
+      "candidates": 2,
+      "a_valuation": -80,
+      "c_valuation": -16,
+      "square_valuation": 8,
+      "residual_valuation": 17,
+      "hensel_threshold": 16
+    }
+  ],
+  "full_goodness_decided": false,
+  "pairing_computed": false,
+  "bounds": {
+    "classes_required": 2,
+    "classes_actual": 2,
+    "candidates_actual": 19,
+    "candidates_cap_per_class": 2560,
+    "rational_bits_cap": 8192,
+    "rational_bits_actual": 551
+  },
+  "helper_checks": 7630,
+  "source_sha256": "05a08920e3751997e11ec2a4bf83c2f8e8df6db89e69295bea27eb645beb39d0",
+  "helper_sha256": "931d0d8e46228169373a14eb2b8fd6100898f8ed8ef532516adc9e9fc949facf"
+}

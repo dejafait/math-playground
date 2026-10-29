@@ -1,0 +1,9 @@
+# Regular first-order height barrier: multiplicity-uniform use stopped
+
+The approved test asked whether U'+CU>=0 can hold on both sides of every real Xi zero for U=wD_1, with positive C^1 w and continuous C and without simplicity. The main gap remains initial signs at unbounded heights and global mixed positivity.
+
+WHY IT FAILS: [L469](../lemmas/L469-first-order-barrier-multiplicity-obstruction.md) gives an exact local factorization and defect. For every hypothetical multiplicity m>=2, every allowed w,C forces negative defect immediately to the left and positive defect immediately to the right; a bounded regular coefficient cannot repair it. Simple zeros are locally compatible, but the existence choice of C supplies no independent Xi estimate. No actual multiple Xi zero, simplicity theorem or missing sign is established. The stop concerns this precise two-sided, regular first-order implementation, not other operators or differential methods generally.
+
+Decision: NEGATIVE, a new informative local obstruction obtained by routine specialization of known tools, with separate audit pending. Preserve the class stop; reopening multiplicity-uniform use requires a genuinely changed hypothesis or operator and new source coverage. Audit the exact local statement before using it as a permanent route constraint. No mathematical script or numerical evidence is needed.
+
+2026-10-26 audit update: the separate critical replay of L469 found no error and verified the precise class stop, including m=1, both sides for every m>=2, the central defect and C^1 weight regularity. The earlier pending-audit qualification is discharged for this local specialization only. The [audit record](../drafts/audits/2026-10-26-l469-critical-audit.md) records scope and checks; no stronger impossibility or actual-Xi sign follows.

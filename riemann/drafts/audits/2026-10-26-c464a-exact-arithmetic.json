@@ -1,0 +1,46 @@
+{
+  "scope": "Exact rational substitution only; analytic strict inequalities and all-height quantifiers are verified in canonical C464a, not by this certificate.",
+  "approved_target_match": true,
+  "target_match_basis": "Supplied invocation-start Next action and SPECIALIZE TARGET are identical; no disk reread or assessment mutation.",
+  "checks": [
+    {
+      "name": "a",
+      "actual": "144",
+      "required": "144",
+      "pass": true
+    },
+    {
+      "name": "b_strict_upper",
+      "actual": "126",
+      "required": "126",
+      "pass": true
+    },
+    {
+      "name": "product_term_upper",
+      "actual": "154224",
+      "required": "154224",
+      "pass": true
+    },
+    {
+      "name": "constant_strict_upper",
+      "actual": "154369",
+      "required": "154369",
+      "pass": true
+    },
+    {
+      "name": "S1_strict_upper",
+      "actual": "11/6",
+      "required": "11/6",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "analytic_bounds": {
+    "S0": "<=3/4",
+    "S1": "<11/6",
+    "log4": ">1",
+    "b": "<126",
+    "C_star": "<154369"
+  },
+  "sampling_used": false
+}

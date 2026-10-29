@@ -1,0 +1,24 @@
+{
+  "caps": {
+    "resolvent_root_branches": 3,
+    "relative_factor_candidates": 6,
+    "root_trials": 250000,
+    "scalar_operations": 500000,
+    "polynomial_degree": 8,
+    "integer_bits": 4096
+  },
+  "actual": {
+    "resolvent_root_branches": 0,
+    "relative_factor_candidates": 0,
+    "root_trials": 517,
+    "scalar_operations": 5458,
+    "polynomial_degree": 4,
+    "integer_bits": 47
+  },
+  "phases": [
+    "producer: normalization, resolvent, complete divisor test, field maps",
+    "producer: normalization, resolvent, complete divisor test, field maps",
+    "independent replay: Horner, mod 7, quotient rings, determinant"
+  ],
+  "cap_stop": null
+}

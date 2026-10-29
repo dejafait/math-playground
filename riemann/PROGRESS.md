@@ -2,22 +2,22 @@
 
 STATUS: IN_PROGRESS
 
-STEP_ID: 2026-10-24-c460b-critical-audit-scope-comparison
-STEP_OUTCOME: EXPLORATION
-STEP_EVIDENCE: Completed exact audit-scope comparison using ready C460a/C458b and transfer evidence; SPECIALIZE covers a later C460b audit, with no correctness verdict or new mathematics. drafts/literature/2026-10-24-every-height-deeper-band-critical-audit-coverage.md
-STEP_KIND: LITERATURE
-STEP_CLASSIFICATION: NOVELTY_UNCHECKED
-STEP_REVIEW: drafts/literature/2026-10-24-every-height-deeper-band-critical-audit-coverage.md
-ACTUAL_TASK_TYPE: literature_comparison
-LITERATURE_REASON: Newly nominated C460b critical audit was outside transfer-only coverage; reused ready primary comparisons and checked the exact new audit scope.
+STEP_ID: 2026-10-29-c464c-designated-audit-replay
+STEP_OUTCOME: STALLED
+STEP_EVIDENCE: Replayed the already completed October 26 C464c audit against full L464: no defect, repair or stronger bound; repeated checks add no mathematical evidence. drafts/audits/2026-10-29-c464c-designated-audit-replay.md; canonical proof and prior audit remain in lemmas/C464c-negative-middle-near-degree-xi-tail.md.
+STEP_KIND: RESEARCH
+STEP_CLASSIFICATION: REPRODUCTION
+STEP_REVIEW: drafts/literature/2026-10-26-c464c-critical-audit-coverage.md
+ACTUAL_TASK_TYPE: proof_audit
 
-Main bottleneck: Initial low-index signs and global mixed positivity remain unproved; C460b's conditional every-height partial band still awaits its separate critical audit.
-Route decision: Essential source scope is ready for one REPRODUCTION proof audit of C460b after separate supervisor approval; no missing analytic source or external-proof audit is required for this scope.
-Exploration turns used: 0 of 3 mathematical exploration turns; this literature step neither spends nor resets the budget.
-Continuation inputs and unresolved assumptions: C460b with audited C460a retaining L459/L460; C458b is an audit-method precedent only. Check exact root 4π²exp(4r)=a²+(9/2+n/r)², m=2n, full interval [(53/256)L,(27/128)L], L=log(a/(2π)), both inclusions 13/16≤m/r≤7/8, explicit integer nonemptiness and one real-height onset. Retain h,a,S and zero cutoff equality, P with m! and one reflection, separate positive factorial-normalized M*, |log M*|≤K r^(15/16), complete relative O((log r)^3/sqrt(r)) and additive O((1+r)^2 exp(-r/200)) errors. September 30 Theorem 1.1 at commit 1581d4cbdd69a0faf34b2089614fe2a814316a6a remains conditional: strict Re(s)>7/8, allowed pole, locally unaudited manuscript/import closure; L460 needs no external premise. Mathlib unchecked. Initial indices, bounded heights, mixed positivity and selected-law/regulator realization remain unresolved.
-NEXT_REVIEW: drafts/literature/2026-10-24-every-height-deeper-band-critical-audit-coverage.md
-Next action: Critically audit C460b's every-height deeper-band transfer on its full closed index interval, including exact root, nonemptiness, uniform onset, normalization and complete errors.
-NEXT_TASK_TYPE: proof_audit
-NEXT_MODEL_ROLE: deep_research
+Main bottleneck: Actual-Xi initial signs at unbounded heights and global mixed positivity remain unproved; no N(T)=o(T(log T)^3) saving is established.
+Route decision: Stop duplicate C464c audit replays absent a changed claim. Preserve square-surrogate SOURCE_BLOCKED and all prior stops. Select an independent fixed-displacement source test for recovery; its essential density coverage is missing, so the next step is literature-only. A creative central mechanism remains desirable but unprepared: no justified arithmetic cancellation test for microscopic retained mass is available from the inspected sources; do not relabel this prospective routine specialization creative.
+Exploration turns used: 0 consecutive mathematical EXPLORATION turns; this duplicate audit is STALLED, with no new bound, lemma or candidate.
+Continuation inputs and unresolved assumptions: L471's exact B(T), P_T, J_j(T), F_j and full m_j, inheriting L018/L024/L465; restrict only to d_j>=1/16. L467 is a possible local-overlap input if needed. Unconditional fixed-sigma zero-density and ordinary fourth-moment hypotheses require primary coverage. No RH, simplicity, spacing, external half-plane premise or shrinking cutoff. Sectors d_j<1/16, the full saving, individual heights, higher signs and Mathlib matching remain open.
+Continuation test: Approve a bounded aggregation attempt only if precise accessible density/count/moment bounds support the fixed-sector little-o threshold without unproved selected amplitude control; otherwise record the actual loss and park this implementation. No density theorem has been applied or sector bound derived.
+NEXT_REVIEW: drafts/literature/2026-10-29-fixed-displacement-density-coverage.md
+Next action: Assess whether unconditional zero-density estimates and the ordinary fourth moment control L471's fixed-displacement sector d_j>=1/16 by B_{>=1/16}(T)=o(T(log T)^3).
+NEXT_TASK_TYPE: literature_comparison
+NEXT_MODEL_ROLE: standard
 NEXT_EFFORT: high
-NEXT_ROUTING_REASON: A separate critical audit must test the changed rational endpoints, explicit nonemptiness, all-real-height quantifiers and complete exponent-15/16 error budget against audited C460a; coverage is ready, subject to supervisor approval.
+NEXT_ROUTING_REASON: Compare primary fixed-sigma density, multiplicity, padded-height and moment hypotheses for an independent residual sector; standard/high suits theorem comparison. Essential missing coverage requires a literature-only turn before any aggregation attempt.

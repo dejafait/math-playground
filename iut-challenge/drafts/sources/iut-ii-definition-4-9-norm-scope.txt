@@ -1,0 +1,296 @@
+                    INTER-UNIVERSAL TEICHMÜLLER THEORY II                            153
+
+Remark 4.8.2.
+
+      (i) The realiﬁed localization functor discussed in Remark 4.8.1, (iii), only
+concerns the realiﬁcation of the Frobenioid-theoretic version Fgau († HT Θ ) of the
+Gaussian monoids. The unit portion of the Gaussian monoids will be used, in
+the context of the theory involving the log-wall that will be developed in [IUTchIII],
+not in its capacity as a “multiplicative object”, but rather — i.e., by applying the
+operation “log” to the units at the various v ∈ V, as in the theory of [AbsTopIII]
+— as an “additive object”. In this theory, the non-realiﬁed global Frobenioids of
+Corollary 4.8, (i), will appear in the context of localization functors/morphisms —
+i.e., as a sort of translation apparatus between - and -line bundles [cf. the
+discussion of Remark 4.7.2] — that relate these [multiplicative!] non-realiﬁed global
+Frobenioids to the [additive!] images via “log” of the units. Note that this sort of
+construction — i.e., in which the localization operations involving units and value
+groups diﬀer by a shift via the operation “log” — depends, in an essential way [cf.
+the discussion of Remark 1.12.2, (iv)], on the natural splittings with which the
+Gaussian monoids are equipped [cf. Corollary 4.6, (iv)].
+
+      (ii) In the context of (i), it is useful to observe that, although the non-realiﬁed
+global Frobenioids of Corollary 4.8, (i), may only be considered in the context of the
+Fl -symmetry [cf. the discussion of Remark 4.7.6], this does not yield any obstacles,
+relative to the discussion in (i) of Gaussian monoids, since Gaussian monoids are
+most naturally considered as “functions” of a parameter j ∈ F       l [cf. the discussion
+of Remark 4.7.3, (iii)].
+
+      (iii) From the point of view of the analogy of the theory of the present series
+of papers with p-adic Teichmüller theory [cf. the discussion of [AbsTopIII], §I5], it
+is of interest to note that the construction discussed in (i) involving the use of the
+natural splittings of Gaussian monoids to consider “log-shifted units” together with
+“non-log-shifted value groups” may be thought of as corresponding to the situation
+that frequently occurs in p-adic Teichmüller theory in which an indigenous bundle
+(E, ∇E ) equipped with a Hodge ﬁltration 0 → ω → E → τ → 0 on a hyperbolic curve
+in positive characteristic is represented, in the context of local Frobenius liftings
+modulo higher powers of p, as a direct sum
+
+                                       Φ∗ τ ⊕ ω
+
+— where Φ denotes the Frobenius morphism on the curve, which, as may be recalled
+from the discussion of [AbsTopIII], §I5, corresponds, relative to the analogy under
+consideration, to the operation “log” studied in [AbsTopIII].
+
+Remark 4.8.3. Similar observations to the observations made in Remark 4.5.2,
+(i), (ii), concerning the F±
+                           l -symmetrizing isomorphisms of Corollary 4.5, (iii), may
+be made in the case of the F l -symmetrizing isomorphisms of Corollary 4.8, (ii).
+
+
+Deﬁnition 4.9.
+
+    (i) Let C be an arbitrary Frobenioid. Write D for the base category of C.
+Suppose that D is isomorphic to the category of connected ﬁnite étale coverings
+154                             SHINICHI MOCHIZUKI
+
+of the spectrum of an MLF or a CAF. Let A be a “universal covering pro-object”
+                                                                def
+of D [cf. the discussion of Example 3.2, (i), (ii)]. Write G = Aut(A) [so G is
+isomorphic to the absolute Galois group of an MLF or a CAF]. Now by evaluating
+the monoid “O (−)” on D that arises from the general theory of Frobenioids [cf.
+[FrdI], Proposition 2.2] at A, we thus obtain a monoid [in the usual sense] equipped
+with a natural action by G
+                                    G  O (A)
+[cf. the discussion of Example 3.2, (ii)]. If N is a positive integer, then we shall
+write
+                          μN (A) ⊆ Oμ (A) ⊆ O× (A)
+for the subgroups of N -torsion elements [cf. [FrdII], Deﬁnition 2.1, (i)] and torsion
+elements of arbitrary order;
+
+                      O× (A)          O×μN (A)          O×μ (A)
+
+for the respective quotients of the submonoid of units O× (A) ⊆ O (A) by μN (A),
+Oμ (A). Thus, O (A), O× (A), O×μN (A), O×μ (A), μN (A), and Oμ (A) are all
+equipped with natural G-actions. Next, let us suppose that G is nontrivial [i.e.,
+arises from an MLF]. Recall the group-theoretic algorithms “G → (G  O× (G))”
+and “G → (G  O×μ (G))” discussed in Example 1.8, (iii), (iv). We deﬁne
+a ×-Kummer structure (respectively, ×μ-Kummer structure) on C to be a Z× -
+(respectively, Ism- [cf. Example 1.8, (iv)]) orbit of isomorphisms
+                 ∼                                                    ∼
+ κ× : O× (G)    →     O× (A)         (respectively,   κ×μ : O×μ (G)   →    O×μ (A))
+
+of ind-topological G-modules. Note that since any two “universal covering pro-
+objects” of D are isomorphic, it follows immediately that the deﬁnition of a ×-
+(respectively, ×μ-) Kummer structure is independent of the choice of A. Next, let
+us recall from Remark 1.11.1, (b), that
+                     any ×-Kummer structure on C is unique.
+
+In the case of ×μ-Kummer structures, let us observe that a ×μ-Kummer structure
+κ×μ on C determines, for each open subgroup H ⊆ G, a submodule
+
+                      κ
+                                     Im(O× (G)H )          O×μ (A)
+                               def
+                     IH (A)    =                      ⊆
+
+— namely, the image via κ×μ of the image of O× (G)H in O×μ (G)H [where the
+superscript “H’s” denote the submodules of H-invariants]. Conversely, it is es-
+sentially a tautology [cf. the deﬁnition of “Ism” given in Example 1.8, (iv)!] that
+the ×μ-Kummer structure κ×μ on C is completely determined by the submodules
+   κ
+{IH  (A) ⊆ O×μ (A)}H [where H ranges over the open subgroups of G], namely, as
+                                                             ∼
+the unique Ism-orbit of G-equivariant isomorphisms O×μ (G) → O×μ (A) that maps
+O× (G)H onto IH  κ
+                   (A) for each open subgroup H ⊆ G. That is to say,
+
+      a ×μ-Kummer structure κ×μ on C may be thought of as — i.e., in the
+      sense that it determines and is uniquely determined by — the collection
+                          κ
+      of submodules {IH     (A) ⊆ O×μ (A)}H [where H ranges over the open
+      subgroups of G].
+                    INTER-UNIVERSAL TEICHMÜLLER THEORY II                                      155
+
+Finally, we shall refer to as a [×-, ×μ-]Kummer Frobenioid any Frobenioid equipped
+with a [×-, ×μ-]Kummer structure. We shall refer to as a split-[×-, ×μ-]Kummer
+Frobenioid any split Frobenioid equipped with a [×-, ×μ-]Kummer structure.
+
+    (ii) Let
+                                    ‡ 
+                                     F         = {‡ Fv }v∈V
+
+be an F  -prime-strip; w ∈ Vbad . Write ‡ D = {‡ Dv }v∈V for the D -prime-
+strip associated to ‡ F [cf. [IUTchI], Remark 5.2.1, (i)]. Thus, ‡ Fw is a split
+Frobenioid [cf. [IUTchI], Deﬁnition 5.2, (ii), (a); [IUTchI], Example 3.2, (v)], with
+base category ‡ Dw
+                    . Let ‡ A be a “universal covering pro-object” of ‡ Dw
+                                                                             [cf. the
+                              def
+discussion of (i)]. Write ‡ G = Aut(‡ A) [so ‡ G is a proﬁnite group isomorphic to
+Gw ]. Then the 2l-torsion subgroup μ2l (‡ A) ⊆ O× (‡ A) of the submonoid of units
+O× (‡ A) ⊆ O (‡ A) of O (‡ A), together with the images of the splittings with which
+‡ 
+ Fw is equipped, generate a submonoid O⊥ (‡ A) ⊆ O (‡ A), whose quotient by
+μ2l (‡ A) we denote by
+
+         O (‡ A)         O⊥ (‡ A)                   O (‡ A)              O⊥ (‡ A)/μ2l (‡ A)
+                                                                 def
+                     ⊇                                          =
+                                                                       ∼
+[so we have a natural isomorphism O (‡ A)/O× (‡ A) → O (‡ A)]. Write
+
+                      O×μ (‡ A)                    O (‡ A) × O×μ (‡ A)
+                                         def
+                                         =
+
+for the direct product monoid. Thus, the monoids O (‡ A), O⊥ (‡ A), O (‡ A),
+O× (‡ A), O×μ (‡ A), Oμ (‡ A), and O×μ (‡ A) are all equipped with natural ‡ G-
+actions. Next, we consider the group-theoretic algorithms “G → (G  O× (G))”
+and “G → (G  O×μ (G))” discussed in Example 1.8, (iii), (iv). If we apply the
+ﬁrst of these algorithms to ‡ G, then it follows from Remark 1.11.1, (b), that there
+exists a unique Z× -orbit of isomorphisms
+                          ‡ ×                           ∼
+                           κw :      O× (‡ G)            →      O× (‡ A)
+
+of ind-topological modules equipped with ‡ G-actions. Moreover, ‡ κ×
+                                                                   w induces an
+Ism-orbit [cf. Example 1.8, (iv)] of isomorphisms
+                         ‡ ×μ                              ∼
+                          κw :       O×μ (‡ G)              →   O×μ (‡ A)
+
+— i.e., by forming the quotient by “Oμ (−)”.
+
+     (iii) In the notation of (ii), the [rational function monoid determined by the
+groupiﬁcation of the] monoid with ‡ G-action O×μ (‡ A), together with the divisor
+monoid of [the underlying Frobenioid of] ‡ Fw , determines a “model Frobenioid” [cf.
+[FrdI], Theorem 5.2, (ii)] equipped with a splitting, i.e., the splitting arising from
+the deﬁnition of O×μ (‡ A) as a direct product. Thus, the ‡ G-module obtained by
+evaluating at ‡ A the group of units “O× (−)” (respectively, the monoid “O (−)”)
+associated to this Frobenioid may be naturally identiﬁed with O×μ (‡ A) (respec-
+tively, O×μ (‡ A)). In particular, the Ism-orbit of isomorphisms ‡ κ×μ
+                                                                       w   determines
+a ×μ-Kummer structure on this Frobenioid. We shall write
+                                               ‡
+                                                   Fw×μ
+156                             SHINICHI MOCHIZUKI
+
+for the resulting split-Kummer Frobenioid and — by abuse of notation! —
+                                               ‡
+                                                   Fw
+
+for the split-Kummer Frobenioid determined by the split Frobenioid ‡ Fw equipped
+with the ×-Kummer structure determined by ‡ κ×     w . Here, we remark that the
+primary justiﬁcation for this abuse of notation lies in the uniqueness of ×-Kummer
+structures discussed in (i) above.
+
+     (iv) Let ‡ F be as in (ii); w ∈ Vgood Vnon . Thus, ‡ Fw is a split Frobenioid [cf.
+[IUTchI], Deﬁnition 5.2, (ii), (a); [IUTchI], Example 3.3, (i)], with base category
+‡ 
+ Dw . Let ‡ A be a “universal covering pro-object” of ‡ Dw   
+                                                                [cf. the discussion of
+                 def
+(i)]. Write ‡ G = Aut(‡ A) [so ‡ G is a proﬁnite group isomorphic to Gw ]. Then
+the image of the splitting with which ‡ Fw is equipped determines a submonoid
+                                           def
+O⊥ (‡ A) ⊆ O (‡ A). Write O (‡ A) = O⊥ (‡ A),
+
+                       O×μ (‡ A)               O (‡ A) × O×μ (‡ A)
+                                     def
+                                      =
+
+for the direct product monoid. Thus, the monoids O (‡ A), O⊥ (‡ A), O (‡ A),
+O× (‡ A), O×μ (‡ A), Oμ (‡ A), and O×μ (‡ A) are all equipped with natural ‡ G-
+actions. Next, we consider the group-theoretic algorithms “G → (G  O× (G))”
+and “G → (G  O×μ (G))” discussed in Example 1.8, (iii), (iv). If we apply the
+ﬁrst of these algorithms to ‡ G, then it follows from Remark 1.11.1, (b), that there
+exists a unique Z× -orbit of isomorphisms
+                          ‡ ×                           ∼
+                           κw :     O× (‡ G)             →   O× (‡ A)
+
+of ind-topological modules equipped with ‡ G-actions. Moreover, ‡ κ×
+                                                                   w induces an
+Ism-orbit [cf. Example 1.8, (iv)] of isomorphisms
+
+                        ‡ ×μ                            ∼
+                         κw :       O×μ (‡ G)            →   O×μ (‡ A)
+
+— i.e., by forming the quotient by “Oμ (−)”. The [rational function monoid de-
+termined by the groupiﬁcation of the] monoid with ‡ G-action O×μ (‡ A), together
+with the divisor monoid of [the underlying Frobenioid of] ‡ Fw , determines a “model
+Frobenioid” [cf. [FrdI], Theorem 5.2, (ii)] equipped with a splitting, i.e., the splitting
+arising from the deﬁnition of O×μ (‡ A) as a direct product. Thus, the ‡ G-module
+obtained by evaluating at ‡ A the group of units “O× (−)” (respectively, the monoid
+“O (−)”) associated to this Frobenioid may be naturally identiﬁed with O×μ (‡ A)
+(respectively, O×μ (‡ A)). In particular, the Ism-orbit of isomorphisms ‡ κ×μ   w    de-
+termines a ×μ-Kummer structure on this Frobenioid. We shall write
+                                           ‡
+                                               Fw×μ
+
+for the resulting split-Kummer Frobenioid and — by abuse of notation! [cf. the
+discussion of (iii) above] —
+                                      ‡ 
+                                       Fw
+                     INTER-UNIVERSAL TEICHMÜLLER THEORY II                          157
+
+for the split-Kummer Frobenioid determined by the split Frobenioid ‡ Fw equipped
+with the ×-Kummer structure determined by ‡ κ×
+                                              w .
+
+    (v) Let ‡ F be as in (ii); w ∈ Varc . Then we shall write
+                                        ‡
+                                            Fw×μ
+
+for the collection of data obtained by replacing the split Frobenioid that appears in
+the collection of data ‡ Fw [cf. [IUTchI], Deﬁnition 5.2, (ii), (b); [IUTchI], Example
+3.4, (ii)] by the inductive system, indexed by any [“multiplicatively”] coﬁnal subset
+of the multiplicative monoid N≥1 , of split Frobenioids obtained [in the evident
+fashion] from ‡ Fw by forming the quotients by the N -torsion, for N ∈ N≥1 . Here,
+we identify [in the evident fashion] the inductive systems arising from distinct coﬁnal
+subsets of N≥1 . Thus, [cf. the notation of (i)] the units of the split Frobenioids of
+this inductive system give rise to an inductive system
+
+          ...        O×μN (A)             ...      O×μN ·N  (A)       ...
+
+[where N, N ∈ N≥1 ]. Now recall that ‡ Dw     
+                                                is an object of the category TM [cf.
+[IUTchI], Deﬁnition 4.1, (iii), (b)]. In particular, the units (‡ Dw
+                                                                    ×
+                                                                     ) of this object of
+    
+TM form a topological group [noncanonically isomorphic to S ], which we think of
+                                                                   1
+
+as being related to the above inductive system of units via a system of compatible
+surjections
+                                (‡ D w
+                                      ×
+                                       )  O×μN (A)
+[i.e., where the kernel of the displayed surjection is the subgroup of N -torsion]. This
+system of compatible surjections is well-deﬁned up to an indeterminacy given by
+composition with the unique nontrivial automorphism of (‡ Dw      ×
+                                                                  ) . When considered
+up to this indeterminacy, this system of compatible surjections may be thought of as
+a sort of Kummer structure on ‡ Fw×μ [which may be algorithmically reconstructed
+from the collection of data ‡ Fw×μ ].
+
+    (vi) Write
+                               ‡ ×μ
+                                F       = {‡ Fv×μ }v∈V
+
+for the collection of data indexed by V obtained as follows: (a) if v ∈ Vbad , then
+we take ‡ Fv×μ to be the split-Kummer Frobenioid constructed in (iii); (b) if v ∈
+Vgood Vnon , then we take ‡ Fv×μ to be the split-Kummer Frobenioid constructed
+in (iv); (c) if v ∈ Varc , then we take ‡ Fv×μ to be the collection of data constructed
+in (v). Moreover, by replacing the various split Frobenioids of ‡ F (respectively,
+‡ ×μ
+ F       ) with the split Frobenioids — i.e., equipped with trivial splittings! —
+obtained by considering the subcategories [of the underlying categories associated to
+these Frobenioids] determined by the isometries [i.e., roughly speaking, the “units”
+— cf. [FrdI], Theorem 5.1, (iii), in the case of v ∈ Vnon ; [FrdII], Example 3.3, (iii),
+in the case of v ∈ Varc ], one obtains a collection of data
+           ‡ ×
+            F     = {‡ Fv× }v∈V    (respectively, ‡ F×μ = {‡ Fv×μ }v∈V )
+
+indexed by V. Thus, for each v ∈ Vnon , ‡ Fv× (respectively, ‡ Fv×μ ) is a split-×-
+(respectively, split-×μ-) Kummer Frobenioid.
+

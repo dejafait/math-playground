@@ -1,0 +1,360 @@
+      EULER SYSTEMS AND MODULAR ELLIPTIC CURVES
+
+                                    KARL RUBIN
+
+
+
+
+                                   Introduction
+   This paper consists of two parts. In the first we present a general theory of Euler
+systems. The main results (see §§3 and 4) show that an Euler system for a p-adic
+representation T gives a bound on the Selmer group associated to the dual module
+Hom(T, µp∞ ). These theorems, which generalize work of Kolyvagin [Ko], have been
+obtained independently by Kato [Ka1], Perrin-Riou [PR2], and the author [Ru3].
+We will not prove these theorems here, or even attempt to state them in the greatest
+possible generality.
+   In the second part of the paper we show how to apply the results of Part I
+and an Euler system recently constructed by Kato [Ka2] (see the article of Scholl
+[Scho] in this volume) to obtain Kato’s theorem in the direction of the Birch and
+Swinnerton-Dyer conjecture for modular elliptic curves (Theorem 8.1).
+
+Part 1. Generalities
+          1. Selmer groups attached to p-adic representations
+   A p-adic representation of GQ = Gal(Q̄/Q) is a free Zp -module T of finite rank
+with a continuous, Zp -linear action of GQ . We will assume in addition throughout
+this paper that T is unramified outside of a finite set of primes.
+   Given a p-adic representation T , we also define
+                              V = T ⊗Zp Qp ,
+                              W = V /T = T ⊗ Qp /Zp .
+(Note that T determines V and W , and W determines T and V , but in general
+there may be non-isomorphic Zp -lattices T giving rise to the same vector space V .)
+   The following are basic examples of p-adic representations to keep in mind.
+Example . If ρ : GQ → Z× p is a continuous character we can take T to be a free, rank-
+one Zp -module with GQ acting via ρ (clearly every one-dimensional representation
+arises in this way). For example, when ρ is the cyclotomic character we get
+                                T = Zp (1) = lim
+                                              ←−
+                                                 µpn .
+                                                  n
+
+
+Example . If A is an abelian variety we can take the p-adic Tate module of A
+                               T = Tp (A) = lim
+                                             ←−
+                                                Ap n .
+                                                  n
+
+
+This is the situation we will concentrate on in this paper, when A is an elliptic
+curve.
+
+  partially supported by NSF grant DMS-9306287.
+                                           1
+2                                     KARL RUBIN
+
+
+Example . If T is a p-adic representation, then we define the dual representation
+                                 T ∗ = Hom(T, Zp (1))
+and we denote the corresponding vector space and divisible group by
+        V ∗ = T ∗ ⊗ Qp = Hom(V, Qp (1)),          W ∗ = V ∗ /T ∗ = Hom(T, µp∞ ).
+If E is an elliptic curve then the Weil pairing gives an isomorphism Tp (E)∗ ∼
+                                                                             = Tp (E).
+   Let Q∞ ⊂ Q(µp∞ ) denote the cyclotomic Zp -extension of Q. For every n let
+Qn ⊂ Q(µpn+1 ) be the extension of Q of degree pn in Q∞ , and let Qn,p denote the
+completion of Qn at the unique prime above p.
+   Fix a p-adic representation T as above. We wish to define a Selmer group
+S(Qn , W ) ⊂ H 1 (Qn , W ) for every n. If v is a place of Qn not dividing p, let
+Iv denote an inertia group of v in GQn , let Qur
+                                               n,v denote the maximal unramified
+extension of Qn,v , and define
+        HS1 (Qn,v , V ) = Hur
+                           1
+                              (Qn,v , V ) = ker(H 1 (Qn,v , V ) → H 1 (Qur
+                                                                        n,v , V ))
+
+                                            = H 1 (Qur
+                                                    n,v /Qn,v , V
+                                                                  Iv
+                                                                     ).
+For the unique prime of Qn above p, we will ignore all questions about what is
+the “correct” definition, and we just fix some choice of subspace HS1 (Qn,p , V ) ⊂
+H 1 (Qn,p , V ). (For example, one could choose HS1 (Qn,p , V ) = H 1 (Qn,p , V ) or
+HS1 (Qn,p , V ) = 0.)
+   For every place v of Qn we now define
+        HS1 (Qn,v , W ) ⊂ H 1 (Qn,v , W )     and HS1 (Qn,v , T ) ⊂ H 1 (Qn,v , T )
+to be the image and inverse image, respectively, of HS1 (Qn,v , V ) under the maps on
+cohomology induced by the exact sequence
+                                0 → T → V → W → 0.
+Finally, we define
+                                                                                    
+                                               M
+     S(Qn , W ) = ker H 1 (Qn , W ) →                 H 1 (Qn,v , W )/HS1 (Qn,v , W ) .
+                                             v of Qn
+
+Of course, this definition depends on the choice we made for HS1 (Qn,p , V ).
+
+                                  2. Euler systems
+  Fix a p-adic representation T of GQ as in §1, and fix a positive integer N divisible
+by p and by all primes where T is ramified. Define
+                 R = R(N ) = {squarefree integers r : (r, N ) = 1}
+For every prime q which is unramified in T , let Frq denote a Frobenius of q in GQ
+and define the characteristic polynomial
+                           Pq (x) = det(1 − Frq x|T ) ∈ Zp [x].
+Since q is unramified in T , Pq is independent of the choice of Frobenius element
+Frq .
+                  EULER SYSTEMS AND MODULAR ELLIPTIC CURVES                           3
+
+
+Definition . An Euler system c for T is a collection of cohomology classes
+                               cQn (µr ) ∈ H 1 (Qn (µr ), T )
+for every r ∈ R and every n ≥ 0, such that if m ≥ n, q is prime, and rq ∈ R, then
+                CorQn (µrq )/Qn (µr ) cQn (µrq ) = Pq (q −1 Fr−1
+                                                              q )cQn (µr ) ,
+                 CorQm (µr )/Qn (µr ) cQm (µr ) = cQn (µr ) .
+Note that this definition depends on N (since R does), but not in an important
+way so we will suppress it from the notation.
+Remarks . Kolyvagin’s original method (see [Ko] or [Ru1]) required the Euler sys-
+tem to satisfy an additional “congruence” condition. The fact that our Euler sys-
+tem “extends in the Q∞ direction” (i.e., consists of classes defined over the fields
+Qn (µr ) for every n, and not just over Q(µr )) eliminates the need for the congruence
+condition.
+   There is some freedom in the exact form of the distribution relation in the
+definition of an Euler system. It is easy to modify an Euler system satisfying one
+distribution relation to obtain a new Euler system satisfying a slightly different one.
+
+                                 3. Results over Q
+   We now come to the fundamental applications of an Euler system. For the proofs
+of Theorems 3.1, 3.2, and 4.1 see [Ka1], [PR2], or [Ru3]. In fact, once the setting
+is properly generalized the proofs are similar to the original method of Kolyvagin
+[Ko]; see also [Ru1] and [Ru2].
+   For this section and the next fix a p-adic representation T as in §1. Fix also a
+choice of subspaces HS1 (Qn,p , V ) and HS1 (Qn,p , V ∗ ) for every n, so that we have
+Selmer groups as defined in §1. We assume only that these choices satisfy the
+following conditions:
+    • HS1 (Qn,p , V ) and HS1 (Qn,p , V ∗ ) are orthogonal complements under the cup
+      product pairing
+              H 1 (Qn,p , V ) × H 1 (Qn,p , V ∗ ) → H 2 (Qn,p , Qp (1)) = Qp ,
+   • if m ≥ n then
+                     CorQm,p /Qn,p HS1 (Qm,p , V ) ⊂ HS1 (Qn,p , V ),
+                           ResQm,p HS1 (Qn,p , V ) ⊂ HS1 (Qm,p , V )
+      and similarly for V ∗ .
+                  1
+We will write H/S   (Qn,p , T ) = H 1 (Qn,p , T )/HS1 (Qn,p , T ) (and similarly with T
+replaced by V or W ), and we write locram
+                                        p     for the localization map
+                         locram
+                            p   : H 1 (Qn , T ) → H/S
+                                                   1
+                                                      (Qn,p , T ).
+   We will make use of two different sets of hypotheses on the Galois representation
+T . Hypotheses Hyp(Q∞ , T ) are stronger than Hyp(Q∞ , V ), and will allow us to
+prove a stronger conclusion.
+Hypotheses Hyp(Q∞ , T ). (i) There is a τ ∈ GQ∞ such that
+        • τ acts trivially on µp∞ ,
+        • T /(τ − 1)T is free of rank one over Zp .
+ (ii) T /pT is an irreducible Fp [GQ∞ ]-module.
+4                                       KARL RUBIN
+
+
+Hypotheses Hyp(Q∞ , V ). (i) There is a τ ∈ GQ∞ such that
+        • τ acts trivially on µp∞ ,
+        • dimQp (V /(τ − 1)V ) = 1.
+ (ii) V is an irreducible Qp [GQ∞ ]-module.
+Theorem 3.1. Suppose c is an Euler system for T , and V satisfies Hyp(Q∞ , V ).
+If cQ ∈ / H 1 (Q, T )tors and [H/S
+                                 1
+                                   (Qp , T ) : locram 1                                ∗
+                                                  p (H (Q, T ))] is finite, then S(Q, W )
+                               ram                       1
+is finite. In particular if locp (cQ ) 6= 0 and rankZp H/S  (Qp , T ) = 1, then S(Q, W ∗ )
+is finite.
+   Define Ω = Q(W )Q(µp∞ ), where Q(W ) denotes the minimal extension of Q
+such that GQ(W ) acts trivially on W .
+Theorem 3.2. Suppose c is an Euler system for T , and T satisfies Hyp(Q∞ , T ).
+If p > 2 and locram
+                p (cQ ) 6= 0 then
+
+      |S(Q, W ∗ )| ≤ |H 1 (Ω/Q, W )||H 1 (Ω/Q, W ∗ )|[H/S
+                                                       1
+                                                          (Qp , T ) : Zp locram
+                                                                            p (cQ )].
+
+Remark . Hypotheses Hyp(Q∞ , T ) are satisfied if the image of the Galois repre-
+sentation on T is “sufficiently large.” They often hold in practice; see for exam-
+ple the discussion in connection with elliptic curves below. If rankZp T = 1 then
+Hyp(Q∞ , T ) holds with τ = 1.
+
+                                4. Results over Q∞
+   Essentially by proving analogues of Theorem 3.2 for each field Qn , we can pass
+to the limit and prove an Iwasawa-theoretic version of Theorem 3.2.
+   Let Λ denote the Iwasawa algebra
+                    Λ = Zp [[Gal(Q∞ /Q)]] = lim
+                                             ←−
+                                                Zp [[Gal(Qn /Q)]],
+                                                     n
+
+
+so Λ is (noncanonically) isomorphic to a power series ring in one variable over Zp .
+If B is a finitely generated torsion Λ-module then there is a pseudo-isomorphism
+(a Λ-module homomorphism with finite kernel and cokernel)
+                                       M
+                                   B→     Λ/fi Λ
+                                             i
+with nonzero fi ∈ Λ, and we define the characteristic ideal of B
+                                          Y
+                               char(B) =     fi Λ.
+                                                     i
+
+The characteristic ideal is well-defined, although the individual fi are not. If B is
+not a finitely-generated torsion Λ-module we define char(B) = 0.
+  Define Λ-modules
+                         X∞ = Hom(lim
+                                   −→
+                                      S(Qn , W ∗ ), Qp /Zp ).
+                                         n
+
+
+and
+                           1                     1
+                          H∞,/S (Qp , T ) = lim
+                                             ←−
+                                                H/S (Qn,p , T ).
+                                                 n
+
+
+(Our requirements on the choices of HS1 (Qn,p , V ) and HS1 (Qn,p , V ∗ ) ensure that if
+m ≥ n, the restriction and corestriction maps induce maps
+          S(Qn , W ∗ ) → S(Qm , W ∗ )         1
+                                         and H/S                1
+                                                 (Qm,p , T ) → H/S (Qn,p , T )
+                 EULER SYSTEMS AND MODULAR ELLIPTIC CURVES                          5
+
+
+so these limits are well-defined.) If c is an Euler system let [locram
+                                                                   p (cQn )] denote
+                                 1
+the corresponding element of H∞,/S    (Qp , T ).
+
+Theorem 4.1. Suppose that V satisfies Hyp(Q∞ , V ), c is an Euler system for T ,
+[locram
+    p (cQn )] ∈
+                 1
+              / H∞,/S                      1
+                      (Qp , T )tors , and H∞,/S (Qp , T )/Λ[locram
+                                                               p (cQn )] is a torsion
+Λ-module. Define
+                               1
+                     L = char(H∞,/S (Qp , T )/Λ[locram
+                                                   p (cQn )]).
+
+Then
+   (i) X∞ is a torsion Λ-module,
+  (ii) there is a nonnegative integer t such that char(X∞ ) divides pt L,
+ (iii) if T satisfies Hyp(Q∞ , T ) then char(X∞ ) divides L.
+
+Part 2. Elliptic curves
+   The ‘Heegner point Euler system’ for modular elliptic curves used by Kolyvagin
+in [Ko] does not fit into the framework of §2, because the cohomology classes are
+not defined over abelian extensions of Q. However, Kato [Ka2] has constructed
+an Euler system for the Tate module of a modular elliptic curve, using Beilinson
+elements in the K-theory of modular curves. We now describe how, given Kato’s
+Euler system and its essential properties, one can use the general results above to
+study the arithmetic of elliptic curves. The main result is Theorem 8.1 below.
+
+                         5. Local cohomology groups
+   Suppose E is an elliptic curve defined over Q, and take T = Tp (E), the p-adic
+Tate module of E. Then V = Vp (E) = Tp (E) ⊗ Qp and W = Ep∞ . The Weil
+pairing gives isomorphisms V ∼= V ∗, T ∼
+                                       = T ∗ , and W ∼
+                                                     = W ∗.
+   If B is an abelian group, we will abbreviate B ⊗ Zp = lim B/pn B, the p-adic
+                                                            ←−
+completion of B, and
+    B ⊗ Qp = (lim
+               ←−
+                  B/pn B) ⊗Zp Qp ,      B ⊗ Qp /Zp = (lim
+                                                       ←−
+                                                          B/pn B) ⊗Zp Qp /Zp .
+                 n                                       n
+
+
+  For every n define
+              HS1 (Qn,p , V ) = image(E(Qn,p ) ⊗ Qp ,→ H 1 (Qn,p , V )),
+image under the natural Kummer map. Since V = V ∗ , this also fixes a choice of
+HS1 (Qp , V ∗ ), and this subgroup is its own orthogonal complement as required.
+   Let X(E/Qn ) denote the Tate-Shafarevich group of E over Qn .
+Proposition 5.1. With HS1 (Qn,p , V ) as defined above, S(Qn , Ep∞ ) is the classical
+p-power Selmer group of E over Qn , so there is an exact sequence
+            0 → E(Qn ) ⊗ Qp /Zp → S(Qn , Ep∞ ) → X(E/Qn )p∞ → 0
+Proof. If v - p then the p-part of E(Qn,v ) is finite, and one can check easily that
+HS1 (Qn,v , Vp (E)) = 0. Therefore for every v, HS1 (Qn,v , Vp (E)) is the image of
+E(Qn,v ) ⊗ Qp under the Kummer map. It follows that for every v, HS1 (Qn,v , Ep∞ )
+is the image of E(Qn,v ) ⊗ Qp /Zp under the corresponding Kummer map, and so
+the definition of S(Qn , Ep∞ ) coincides with the classical definition of the Selmer
+group of E.
+6                                       KARL RUBIN
+
+
+  For every n let tan(E/Qn,p ) denote the tangent space of E/Qn,p at the origin and
+consider the Lie group exponential map
+                                                   ∼
+                         expE : tan(E/Qn,p ) −→ E(Qn,p ) ⊗ Qp .
+Fix a minimal Weierstrass model of E and let ωE denote the corresponding holo-
+                                                                                 ∗
+morphic differential. Then the cotangent space cotan(E) is Qn,p ωE , and we let ωE
+be the corresponding dual basis of tan(E). We have a commutative diagram
+                                             exp
+                                               E
+                 tan(E/Qn,p )               −−−−→              E(Qn,p ) ⊗ Qp
+                       x                                            x
+                     ∗                                             
+                   ·ωE                                             
+                                   ∼                    ∼
+                   λE (pn )     −−−−→       Ê(pn )    −−−−→     E1 (Qn,p )
+
+where Ê is the formal group of E, λE is its logarithm map, pn is the maximal ideal
+of Qn,p , E1 (Qn,p ) is the kernel of reduction in E(Qp ), and the bottom maps are the
+formal group exponential followed by the isomorphism of [T] Theorem 4.2. (Note
+that Ê(pn )tors = 0 because Qp (Êp )/Qp is totally ramified of degree p − 1, so λE is
+injective.) Extending λE linearly we will view it as a homomorphism defined on all
+of E(Qn,p ) ⊗ Qp .
+   Since V ∼ = V ∗,
+          Hom(E(Qn,p ), Qp ) ∼
+                             = Hom(HS1 (Qn,p , V ), Qp ) ∼  1
+                                                         = H/S (Qn,p , V ).
+Thus there is a dual exponential map
+                                             ∼
+                  exp∗E : H/S
+                           1
+                              (Qn,p , V ) −→ cotan(E/Qn,p ) = Qn,p ωE .
+                         1              ∼                              ∗
+We write exp∗ωE : H/S      (Qn,p , V ) −→ Qn,p for the composition ωE    ◦ exp∗E Since
+  1                           1                  ∗                   1
+H/S (Qn,p , T ) injects into H/S (Qn,p , V ), expωE is injective on H/S (Qn,p , T ). The
+local pairing allows us to identify
+                       1                    ∼
+                      H/S (Qn,p , V ) −−−−→ Hom(E(Qn,p ), Qp )
+                           x                      x
+                                                 
+(1)                                              
+                       1                    ∼
+                      H/S (Qn,p , T ) −−−−→ Hom(E(Qn,p ), Zp ).
+                 1
+Explicitly, z ∈ H/S (Qn,p , V ) corresponds to the map
+
+(2)                           x 7→ TrQn,p /Qp λE (x) exp∗ωE (z).
+
+Proposition 5.2. exp∗ωE (H/S
+                          1
+                             (Qp , T )) = [E(Qp ) : E1 (Qp ) + E(Qp )tors ]p−1 Zp .
+
+Proof. By (2),
+                                exp∗ωE (H/S
+                                         1
+                                            (Qp , T )) = pa Zp
+where
+                                   λE (E(Qp )) = p−a Zp .
+We have λE (E1 (Qp )) = pZp and, since rankZp E(Qp ) = 1,
+            [λE (E(Qp )) : λE (E1 (Qp )] = [E(Qp ) : E1 (Qp ) + E(Qp )tors ].
+Thus the proposition follows.
+

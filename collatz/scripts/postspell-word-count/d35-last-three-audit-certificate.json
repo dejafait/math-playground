@@ -1,0 +1,2667 @@
+{
+  "scope": "Independent critical audit of L102 only; no parameter sampling",
+  "construction_sha256": "8167bc692351fe9e06c1e5a17398a976abbc392b6455bdeaae0065b4ca36894b",
+  "reconstructed": {
+    "scope": "Literal d35 u>=1,v>=0,u+v<=B three-tail endpoint/domain/J subsystem",
+    "imports": "L055 table; L076 cap proof(6)-(7); audited L084 analytic enclosures",
+    "sources": [
+      {
+        "path": "lemmas/L055-fixed-count-twenty-five-word-real-witness.md",
+        "sha256": "486c7e8df6d7b909d87697c8da7605c53fd8e85d8c0fdc2741a9414d93c0aaf9"
+      },
+      {
+        "path": "scripts/postspell-word-count/h-transfer-family-certificate.json",
+        "sha256": "7d1d3061646525d514ea06b191250e5ee9235efd48d17848e6a0d184e64c5955"
+      }
+    ],
+    "rows": [
+      [
+        0,
+        8,
+        5
+      ],
+      [
+        1,
+        15,
+        72
+      ],
+      [
+        2,
+        28,
+        134
+      ],
+      [
+        3,
+        52,
+        249
+      ],
+      [
+        4,
+        98,
+        467
+      ],
+      [
+        5,
+        184,
+        877
+      ],
+      [
+        6,
+        347,
+        1650
+      ],
+      [
+        7,
+        653,
+        3106
+      ],
+      [
+        8,
+        1230,
+        5849
+      ],
+      [
+        9,
+        2317,
+        11018
+      ],
+      [
+        10,
+        4365,
+        20756
+      ],
+      [
+        11,
+        8224,
+        39104
+      ],
+      [
+        12,
+        15494,
+        73672
+      ],
+      [
+        13,
+        29191,
+        138802
+      ],
+      [
+        14,
+        54998,
+        261511
+      ],
+      [
+        15,
+        103621,
+        492705
+      ],
+      [
+        16,
+        195229,
+        928293
+      ],
+      [
+        17,
+        367827,
+        1748976
+      ],
+      [
+        18,
+        693015,
+        3295208
+      ],
+      [
+        19,
+        1305695,
+        6208431
+      ],
+      [
+        20,
+        2460032,
+        11697176
+      ],
+      [
+        21,
+        4634896,
+        22038409
+      ],
+      [
+        22,
+        8732512,
+        41522114
+      ],
+      [
+        23,
+        16452748,
+        78230965
+      ],
+      [
+        24,
+        30998279,
+        32670656
+      ]
+    ],
+    "B": 9250245,
+    "constants": {
+      "kappa": "23/11",
+      "U": "20000000000",
+      "T": "24",
+      "ell": "693147180559/1000000000000",
+      "log3_upper": "1098612288669/1000000000000",
+      "logv_upper": "1011600911679/1000000000000",
+      "lambda_lower": "1323/12500000000000",
+      "E": "552/4611686018427387881",
+      "R": "1325859730438202850942226985830949/67113790726173775832193"
+    },
+    "exponential_terms": [
+      "1",
+      "24",
+      "288",
+      "2304",
+      "13824",
+      "331776/5",
+      "1327104/5",
+      "31850496/35",
+      "95551488/35",
+      "254803968/35",
+      "3057647616/175",
+      "73383542784/1925",
+      "146767085568/1925",
+      "3522410053632/25025",
+      "42268920643584/175175",
+      "338151365148672/875875",
+      "507227047723008/875875",
+      "12173449145352192/14889875",
+      "16231265527136256/14889875",
+      "389550372651270144/282907625",
+      "2337302235907620864/1414538125",
+      "18698417887260966912/9901766875",
+      "224381014647131602944/108919435625",
+      "5385144351531158470656/2505147019375",
+      "5385144351531158470656/2505147019375",
+      "129243464436747803295744/62628675484375",
+      "1550921573240973639548928/814172781296875",
+      "1378596953991976568487936/814172781296875",
+      "8271581723951859410927616/5699209469078125",
+      "198517961374844625862262784/165277074603265625",
+      "794071845499378503449051136/826385373016328125",
+      "19057724291985084082777227264/25617946563506171875",
+      "14293293218988813062082920448/25617946563506171875",
+      "114346345751910504496663363584/281797412198567890625",
+      "1372156149022926053959960363008/4790556007375654140625",
+      "32931747576550225295039048712192/167669460258147894921875",
+      "21954498384366816863359365808128/167669460258147894921875",
+      "526907961224803604720624779395072/6203770029551472112109375",
+      "6322895534697643256647497352740864/117871630561477970130078125",
+      "50583164277581146053179978821926912/1532331197299213611691015625",
+      "151749492832743438159539936465780736/7661655986496068058455078125"
+    ],
+    "exp24_lower": "202750314819830504045671593478515759301/7661655986496068058455078125",
+    "offsets": [
+      {
+        "i": 0,
+        "H_floor": 5,
+        "Q_lower": "817/88",
+        "tail2_upper": "-81/352"
+      },
+      {
+        "i": 1,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 2,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 3,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 4,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 5,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 6,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 7,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 8,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 9,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 10,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 11,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 12,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 13,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 14,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 15,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 16,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 17,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 18,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 19,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 20,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 21,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      },
+      {
+        "i": 22,
+        "H_floor": 72,
+        "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+        "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656"
+      }
+    ],
+    "recipient": {
+      "i": 22,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "required_Q": "24117248/11",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    "row23": {
+      "A": 144318677,
+      "D": 162928754,
+      "J": 16452748,
+      "log2_coefficient": 228739764,
+      "margin": "6362519491371/250000000000",
+      "scaled_margin": "25450077965484"
+    },
+    "summary": {
+      "checks": 196,
+      "failures": [],
+      "passed": true,
+      "prefix_tail2_upper": "-81/352",
+      "required_offset": "strictly below 0",
+      "rejection_margin": "6362519491371/250000000000",
+      "required_margin": "strictly above 25 > 0",
+      "uniform_domain": "integers u>=1,v>=0,u+v<=9250245",
+      "parameter_samples": 0
+    },
+    "limitations": "Construction evidence, not independent audit; no other support/order exhaustion, realization, actual-word transfer or universal descent.",
+    "checks": [
+      {
+        "name": "L084 S constant U",
+        "actual": "20000000000",
+        "relation": "=",
+        "required": "20000000000",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "L084 S constant T",
+        "actual": "24",
+        "relation": "=",
+        "required": "24",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "L084 S constant ell",
+        "actual": "693147180559/1000000000000",
+        "relation": "=",
+        "required": "693147180559/1000000000000",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "L084 S constant u",
+        "actual": "1098612288669/1000000000000",
+        "relation": "=",
+        "required": "1098612288669/1000000000000",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "L084 S constant v",
+        "actual": "1011600911679/1000000000000",
+        "relation": "=",
+        "required": "1011600911679/1000000000000",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "budget positive",
+        "actual": "9250245",
+        "relation": ">",
+        "required": "0",
+        "difference": "9250245",
+        "passed": true
+      },
+      {
+        "name": "row0 J domain",
+        "actual": "8",
+        "relation": ">=",
+        "required": "2",
+        "difference": "6",
+        "passed": true
+      },
+      {
+        "name": "row0 H domain",
+        "actual": "5",
+        "relation": ">=",
+        "required": "3",
+        "difference": "2",
+        "passed": true
+      },
+      {
+        "name": "row1 J domain",
+        "actual": "15",
+        "relation": ">=",
+        "required": "2",
+        "difference": "13",
+        "passed": true
+      },
+      {
+        "name": "row1 H domain",
+        "actual": "72",
+        "relation": ">=",
+        "required": "3",
+        "difference": "69",
+        "passed": true
+      },
+      {
+        "name": "row1 increasing J",
+        "actual": "15",
+        "relation": ">",
+        "required": "8",
+        "difference": "7",
+        "passed": true
+      },
+      {
+        "name": "row2 J domain",
+        "actual": "28",
+        "relation": ">=",
+        "required": "2",
+        "difference": "26",
+        "passed": true
+      },
+      {
+        "name": "row2 H domain",
+        "actual": "134",
+        "relation": ">=",
+        "required": "3",
+        "difference": "131",
+        "passed": true
+      },
+      {
+        "name": "row2 increasing J",
+        "actual": "28",
+        "relation": ">",
+        "required": "15",
+        "difference": "13",
+        "passed": true
+      },
+      {
+        "name": "row3 J domain",
+        "actual": "52",
+        "relation": ">=",
+        "required": "2",
+        "difference": "50",
+        "passed": true
+      },
+      {
+        "name": "row3 H domain",
+        "actual": "249",
+        "relation": ">=",
+        "required": "3",
+        "difference": "246",
+        "passed": true
+      },
+      {
+        "name": "row3 increasing J",
+        "actual": "52",
+        "relation": ">",
+        "required": "28",
+        "difference": "24",
+        "passed": true
+      },
+      {
+        "name": "row4 J domain",
+        "actual": "98",
+        "relation": ">=",
+        "required": "2",
+        "difference": "96",
+        "passed": true
+      },
+      {
+        "name": "row4 H domain",
+        "actual": "467",
+        "relation": ">=",
+        "required": "3",
+        "difference": "464",
+        "passed": true
+      },
+      {
+        "name": "row4 increasing J",
+        "actual": "98",
+        "relation": ">",
+        "required": "52",
+        "difference": "46",
+        "passed": true
+      },
+      {
+        "name": "row5 J domain",
+        "actual": "184",
+        "relation": ">=",
+        "required": "2",
+        "difference": "182",
+        "passed": true
+      },
+      {
+        "name": "row5 H domain",
+        "actual": "877",
+        "relation": ">=",
+        "required": "3",
+        "difference": "874",
+        "passed": true
+      },
+      {
+        "name": "row5 increasing J",
+        "actual": "184",
+        "relation": ">",
+        "required": "98",
+        "difference": "86",
+        "passed": true
+      },
+      {
+        "name": "row6 J domain",
+        "actual": "347",
+        "relation": ">=",
+        "required": "2",
+        "difference": "345",
+        "passed": true
+      },
+      {
+        "name": "row6 H domain",
+        "actual": "1650",
+        "relation": ">=",
+        "required": "3",
+        "difference": "1647",
+        "passed": true
+      },
+      {
+        "name": "row6 increasing J",
+        "actual": "347",
+        "relation": ">",
+        "required": "184",
+        "difference": "163",
+        "passed": true
+      },
+      {
+        "name": "row7 J domain",
+        "actual": "653",
+        "relation": ">=",
+        "required": "2",
+        "difference": "651",
+        "passed": true
+      },
+      {
+        "name": "row7 H domain",
+        "actual": "3106",
+        "relation": ">=",
+        "required": "3",
+        "difference": "3103",
+        "passed": true
+      },
+      {
+        "name": "row7 increasing J",
+        "actual": "653",
+        "relation": ">",
+        "required": "347",
+        "difference": "306",
+        "passed": true
+      },
+      {
+        "name": "row8 J domain",
+        "actual": "1230",
+        "relation": ">=",
+        "required": "2",
+        "difference": "1228",
+        "passed": true
+      },
+      {
+        "name": "row8 H domain",
+        "actual": "5849",
+        "relation": ">=",
+        "required": "3",
+        "difference": "5846",
+        "passed": true
+      },
+      {
+        "name": "row8 increasing J",
+        "actual": "1230",
+        "relation": ">",
+        "required": "653",
+        "difference": "577",
+        "passed": true
+      },
+      {
+        "name": "row9 J domain",
+        "actual": "2317",
+        "relation": ">=",
+        "required": "2",
+        "difference": "2315",
+        "passed": true
+      },
+      {
+        "name": "row9 H domain",
+        "actual": "11018",
+        "relation": ">=",
+        "required": "3",
+        "difference": "11015",
+        "passed": true
+      },
+      {
+        "name": "row9 increasing J",
+        "actual": "2317",
+        "relation": ">",
+        "required": "1230",
+        "difference": "1087",
+        "passed": true
+      },
+      {
+        "name": "row10 J domain",
+        "actual": "4365",
+        "relation": ">=",
+        "required": "2",
+        "difference": "4363",
+        "passed": true
+      },
+      {
+        "name": "row10 H domain",
+        "actual": "20756",
+        "relation": ">=",
+        "required": "3",
+        "difference": "20753",
+        "passed": true
+      },
+      {
+        "name": "row10 increasing J",
+        "actual": "4365",
+        "relation": ">",
+        "required": "2317",
+        "difference": "2048",
+        "passed": true
+      },
+      {
+        "name": "row11 J domain",
+        "actual": "8224",
+        "relation": ">=",
+        "required": "2",
+        "difference": "8222",
+        "passed": true
+      },
+      {
+        "name": "row11 H domain",
+        "actual": "39104",
+        "relation": ">=",
+        "required": "3",
+        "difference": "39101",
+        "passed": true
+      },
+      {
+        "name": "row11 increasing J",
+        "actual": "8224",
+        "relation": ">",
+        "required": "4365",
+        "difference": "3859",
+        "passed": true
+      },
+      {
+        "name": "row12 J domain",
+        "actual": "15494",
+        "relation": ">=",
+        "required": "2",
+        "difference": "15492",
+        "passed": true
+      },
+      {
+        "name": "row12 H domain",
+        "actual": "73672",
+        "relation": ">=",
+        "required": "3",
+        "difference": "73669",
+        "passed": true
+      },
+      {
+        "name": "row12 increasing J",
+        "actual": "15494",
+        "relation": ">",
+        "required": "8224",
+        "difference": "7270",
+        "passed": true
+      },
+      {
+        "name": "row13 J domain",
+        "actual": "29191",
+        "relation": ">=",
+        "required": "2",
+        "difference": "29189",
+        "passed": true
+      },
+      {
+        "name": "row13 H domain",
+        "actual": "138802",
+        "relation": ">=",
+        "required": "3",
+        "difference": "138799",
+        "passed": true
+      },
+      {
+        "name": "row13 increasing J",
+        "actual": "29191",
+        "relation": ">",
+        "required": "15494",
+        "difference": "13697",
+        "passed": true
+      },
+      {
+        "name": "row14 J domain",
+        "actual": "54998",
+        "relation": ">=",
+        "required": "2",
+        "difference": "54996",
+        "passed": true
+      },
+      {
+        "name": "row14 H domain",
+        "actual": "261511",
+        "relation": ">=",
+        "required": "3",
+        "difference": "261508",
+        "passed": true
+      },
+      {
+        "name": "row14 increasing J",
+        "actual": "54998",
+        "relation": ">",
+        "required": "29191",
+        "difference": "25807",
+        "passed": true
+      },
+      {
+        "name": "row15 J domain",
+        "actual": "103621",
+        "relation": ">=",
+        "required": "2",
+        "difference": "103619",
+        "passed": true
+      },
+      {
+        "name": "row15 H domain",
+        "actual": "492705",
+        "relation": ">=",
+        "required": "3",
+        "difference": "492702",
+        "passed": true
+      },
+      {
+        "name": "row15 increasing J",
+        "actual": "103621",
+        "relation": ">",
+        "required": "54998",
+        "difference": "48623",
+        "passed": true
+      },
+      {
+        "name": "row16 J domain",
+        "actual": "195229",
+        "relation": ">=",
+        "required": "2",
+        "difference": "195227",
+        "passed": true
+      },
+      {
+        "name": "row16 H domain",
+        "actual": "928293",
+        "relation": ">=",
+        "required": "3",
+        "difference": "928290",
+        "passed": true
+      },
+      {
+        "name": "row16 increasing J",
+        "actual": "195229",
+        "relation": ">",
+        "required": "103621",
+        "difference": "91608",
+        "passed": true
+      },
+      {
+        "name": "row17 J domain",
+        "actual": "367827",
+        "relation": ">=",
+        "required": "2",
+        "difference": "367825",
+        "passed": true
+      },
+      {
+        "name": "row17 H domain",
+        "actual": "1748976",
+        "relation": ">=",
+        "required": "3",
+        "difference": "1748973",
+        "passed": true
+      },
+      {
+        "name": "row17 increasing J",
+        "actual": "367827",
+        "relation": ">",
+        "required": "195229",
+        "difference": "172598",
+        "passed": true
+      },
+      {
+        "name": "row18 J domain",
+        "actual": "693015",
+        "relation": ">=",
+        "required": "2",
+        "difference": "693013",
+        "passed": true
+      },
+      {
+        "name": "row18 H domain",
+        "actual": "3295208",
+        "relation": ">=",
+        "required": "3",
+        "difference": "3295205",
+        "passed": true
+      },
+      {
+        "name": "row18 increasing J",
+        "actual": "693015",
+        "relation": ">",
+        "required": "367827",
+        "difference": "325188",
+        "passed": true
+      },
+      {
+        "name": "row19 J domain",
+        "actual": "1305695",
+        "relation": ">=",
+        "required": "2",
+        "difference": "1305693",
+        "passed": true
+      },
+      {
+        "name": "row19 H domain",
+        "actual": "6208431",
+        "relation": ">=",
+        "required": "3",
+        "difference": "6208428",
+        "passed": true
+      },
+      {
+        "name": "row19 increasing J",
+        "actual": "1305695",
+        "relation": ">",
+        "required": "693015",
+        "difference": "612680",
+        "passed": true
+      },
+      {
+        "name": "row20 J domain",
+        "actual": "2460032",
+        "relation": ">=",
+        "required": "2",
+        "difference": "2460030",
+        "passed": true
+      },
+      {
+        "name": "row20 H domain",
+        "actual": "11697176",
+        "relation": ">=",
+        "required": "3",
+        "difference": "11697173",
+        "passed": true
+      },
+      {
+        "name": "row20 increasing J",
+        "actual": "2460032",
+        "relation": ">",
+        "required": "1305695",
+        "difference": "1154337",
+        "passed": true
+      },
+      {
+        "name": "row21 J domain",
+        "actual": "4634896",
+        "relation": ">=",
+        "required": "2",
+        "difference": "4634894",
+        "passed": true
+      },
+      {
+        "name": "row21 H domain",
+        "actual": "22038409",
+        "relation": ">=",
+        "required": "3",
+        "difference": "22038406",
+        "passed": true
+      },
+      {
+        "name": "row21 increasing J",
+        "actual": "4634896",
+        "relation": ">",
+        "required": "2460032",
+        "difference": "2174864",
+        "passed": true
+      },
+      {
+        "name": "row22 J domain",
+        "actual": "8732512",
+        "relation": ">=",
+        "required": "2",
+        "difference": "8732510",
+        "passed": true
+      },
+      {
+        "name": "row22 H domain",
+        "actual": "41522114",
+        "relation": ">=",
+        "required": "3",
+        "difference": "41522111",
+        "passed": true
+      },
+      {
+        "name": "row22 increasing J",
+        "actual": "8732512",
+        "relation": ">",
+        "required": "4634896",
+        "difference": "4097616",
+        "passed": true
+      },
+      {
+        "name": "row23 J domain",
+        "actual": "16452748",
+        "relation": ">=",
+        "required": "2",
+        "difference": "16452746",
+        "passed": true
+      },
+      {
+        "name": "row23 H domain",
+        "actual": "78230965",
+        "relation": ">=",
+        "required": "3",
+        "difference": "78230962",
+        "passed": true
+      },
+      {
+        "name": "row23 increasing J",
+        "actual": "16452748",
+        "relation": ">",
+        "required": "8732512",
+        "difference": "7720236",
+        "passed": true
+      },
+      {
+        "name": "row24 J domain",
+        "actual": "30998279",
+        "relation": ">=",
+        "required": "2",
+        "difference": "30998277",
+        "passed": true
+      },
+      {
+        "name": "row24 H domain",
+        "actual": "32670656",
+        "relation": ">=",
+        "required": "3",
+        "difference": "32670653",
+        "passed": true
+      },
+      {
+        "name": "row24 increasing J",
+        "actual": "30998279",
+        "relation": ">",
+        "required": "16452748",
+        "difference": "14545531",
+        "passed": true
+      },
+      {
+        "name": "total K",
+        "actual": "397573379",
+        "relation": "=",
+        "required": "397573379",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "total N",
+        "actual": "630138897",
+        "relation": "=",
+        "required": "630138897",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "J1 for residual",
+        "actual": "15",
+        "relation": "=",
+        "required": "15",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "positive residual",
+        "actual": "6101253702379434166563/57646075230342348512500000000000",
+        "relation": ">",
+        "required": "0",
+        "difference": "6101253702379434166563/57646075230342348512500000000000",
+        "passed": true
+      },
+      {
+        "name": "cap",
+        "actual": "1325859730438202850942226985830949/67113790726173775832193",
+        "relation": "<",
+        "required": "20000000000",
+        "difference": "-16416084085272665701633014169051/67113790726173775832193",
+        "passed": true
+      },
+      {
+        "name": "cap equals independent L084 datum",
+        "actual": "1325859730438202850942226985830949/67113790726173775832193",
+        "relation": "=",
+        "required": "1325859730438202850942226985830949/67113790726173775832193",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "U below exp24 lower sum",
+        "actual": "20000000000",
+        "relation": "<",
+        "required": "202750314819830504045671593478515759301/7661655986496068058455078125",
+        "difference": "-49517195089909142876570030978515759301/7661655986496068058455078125",
+        "passed": true
+      },
+      {
+        "name": "prefix minimum H",
+        "actual": "5",
+        "relation": "=",
+        "required": "5",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix uniform tail2 offset",
+        "actual": "-81/352",
+        "relation": "<",
+        "required": "0",
+        "difference": "-81/352",
+        "passed": true
+      },
+      {
+        "name": "row0 L084 O index",
+        "actual": "0",
+        "relation": "=",
+        "required": "0",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row0 L084 O floor",
+        "actual": "5",
+        "relation": "=",
+        "required": "5",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row0 L084 O offset",
+        "actual": "-81/352",
+        "relation": "=",
+        "required": "-81/352",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row0 tail2 offset",
+        "actual": "-81/352",
+        "relation": "<",
+        "required": "0",
+        "difference": "-81/352",
+        "passed": true
+      },
+      {
+        "name": "row1 L084 O index",
+        "actual": "1",
+        "relation": "=",
+        "required": "1",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row1 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row1 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row1 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row2 L084 O index",
+        "actual": "2",
+        "relation": "=",
+        "required": "2",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row2 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row2 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row2 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row3 L084 O index",
+        "actual": "3",
+        "relation": "=",
+        "required": "3",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row3 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row3 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row3 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row4 L084 O index",
+        "actual": "4",
+        "relation": "=",
+        "required": "4",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row4 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row4 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row4 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row5 L084 O index",
+        "actual": "5",
+        "relation": "=",
+        "required": "5",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row5 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row5 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row5 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row6 L084 O index",
+        "actual": "6",
+        "relation": "=",
+        "required": "6",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row6 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row6 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row6 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row7 L084 O index",
+        "actual": "7",
+        "relation": "=",
+        "required": "7",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row7 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row7 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row7 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row8 L084 O index",
+        "actual": "8",
+        "relation": "=",
+        "required": "8",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row8 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row8 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row8 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row9 L084 O index",
+        "actual": "9",
+        "relation": "=",
+        "required": "9",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row9 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row9 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row9 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row10 L084 O index",
+        "actual": "10",
+        "relation": "=",
+        "required": "10",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row10 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row10 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row10 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row11 L084 O index",
+        "actual": "11",
+        "relation": "=",
+        "required": "11",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row11 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row11 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row11 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row12 L084 O index",
+        "actual": "12",
+        "relation": "=",
+        "required": "12",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row12 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row12 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row12 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row13 L084 O index",
+        "actual": "13",
+        "relation": "=",
+        "required": "13",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row13 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row13 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row13 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row14 L084 O index",
+        "actual": "14",
+        "relation": "=",
+        "required": "14",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row14 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row14 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row14 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row15 L084 O index",
+        "actual": "15",
+        "relation": "=",
+        "required": "15",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row15 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row15 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row15 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row16 L084 O index",
+        "actual": "16",
+        "relation": "=",
+        "required": "16",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row16 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row16 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row16 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row17 L084 O index",
+        "actual": "17",
+        "relation": "=",
+        "required": "17",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row17 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row17 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row17 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row18 L084 O index",
+        "actual": "18",
+        "relation": "=",
+        "required": "18",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row18 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row18 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row18 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row19 L084 O index",
+        "actual": "19",
+        "relation": "=",
+        "required": "19",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row19 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row19 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row19 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row20 L084 O index",
+        "actual": "20",
+        "relation": "=",
+        "required": "20",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row20 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row20 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row20 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row21 L084 O index",
+        "actual": "21",
+        "relation": "=",
+        "required": "21",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row21 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row21 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix row21 tail2 offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+        "passed": true
+      },
+      {
+        "name": "row22 L084 O index",
+        "actual": "22",
+        "relation": "=",
+        "required": "22",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row22 L084 O floor",
+        "actual": "72",
+        "relation": "=",
+        "required": "72",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row22 L084 O offset",
+        "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+        "relation": "=",
+        "required": "-67585198634721895314242333308740579/51946031311566097350656",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "recipient H floor",
+        "actual": "41522114",
+        "relation": ">=",
+        "required": "72",
+        "difference": "41522042",
+        "passed": true
+      },
+      {
+        "name": "recipient Q lower",
+        "actual": "67585198634830509743348335148655587/12986507827891524337664",
+        "relation": ">",
+        "required": "24117248/11",
+        "difference": "67585170162209606179602012468798435/12986507827891524337664",
+        "passed": true
+      },
+      {
+        "name": "recipient S index",
+        "actual": "22",
+        "relation": "=",
+        "required": "22",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "recipient Q matches L084",
+        "actual": "67585198634830509743348335148655587/12986507827891524337664",
+        "relation": "=",
+        "required": "67585198634830509743348335148655587/12986507827891524337664",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "recipient offset",
+        "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+        "relation": "<",
+        "required": "0",
+        "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+        "passed": true
+      },
+      {
+        "name": "failed full-package row0 tail20 test retained",
+        "actual": "817/88",
+        "relation": "<",
+        "required": "24117248/11",
+        "difference": "-192937167/88",
+        "passed": true
+      },
+      {
+        "name": "row22 matches L084 S j",
+        "actual": "22",
+        "relation": "=",
+        "required": "22",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row22 matches L084 S A",
+        "actual": "144318677",
+        "relation": "=",
+        "required": "144318677",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row22 matches L084 S D",
+        "actual": "162928754",
+        "relation": "=",
+        "required": "162928754",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "row22 matches L084 S margin",
+        "actual": "6362519491371/250000000000",
+        "relation": "=",
+        "required": "6362519491371/250000000000",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix A shift",
+        "actual": "-35",
+        "relation": "=",
+        "required": "-35",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "prefix D shift",
+        "actual": "-35",
+        "relation": "=",
+        "required": "-35",
+        "difference": "0",
+        "passed": true
+      },
+      {
+        "name": "A positive",
+        "actual": "144318677",
+        "relation": ">",
+        "required": "0",
+        "difference": "144318677",
+        "passed": true
+      },
+      {
+        "name": "log2 coefficient positive",
+        "actual": "228739764",
+        "relation": ">",
+        "required": "0",
+        "difference": "228739764",
+        "passed": true
+      },
+      {
+        "name": "row23 rejection margin",
+        "actual": "6362519491371/250000000000",
+        "relation": ">",
+        "required": "25",
+        "difference": "112519491371/250000000000",
+        "passed": true
+      },
+      {
+        "name": "scaled row23 margin",
+        "actual": "25450077965484",
+        "relation": "=",
+        "required": "25450077965484",
+        "difference": "0",
+        "passed": true
+      }
+    ]
+  },
+  "logs": {
+    "2": {
+      "argument": "2",
+      "z": "1/3",
+      "terms": [
+        "2/3",
+        "2/81",
+        "2/1215",
+        "2/15309",
+        "2/177147",
+        "2/1948617",
+        "2/20726199",
+        "2/215233605",
+        "2/2195382771",
+        "2/22082967873",
+        "2/219667417263",
+        "2/2165293113021",
+        "2/21182215236075",
+        "2/205891132094649",
+        "2/1990280943581607",
+        "2/19147875284802357",
+        "2/183448998696332259",
+        "2/1751104078464989745",
+        "2/16660504517966902431",
+        "2/158049650967740074413",
+        "2/1495392851464002242523",
+        "2/14115049597965094337961",
+        "2/132944071794787516438935",
+        "2/1249674274871002654525989",
+        "2/11725667132300258949914067",
+        "2/109838392116853446081848097",
+        "2/1027312020387041054530226319",
+        "2/9594706605501609848914377885",
+        "2/89492445247678651863510470091",
+        "2/833692779412585335781123852953",
+        "2/7757581964364565243115881275783",
+        "2/72107360226142762177814830874901",
+        "2/669568344957039934508280572409795",
+        "2/6211534030909155084746049002509329",
+        "2/57572576614844556830258155679974527",
+        "2/533172122563560461080216833036285837",
+        "2/4933719500341679196192992384575208379",
+        "2/45620009078501828183976299446414598025",
+        "2/421528883885356892419941006884870885751",
+        "2/3892299174577775980656857868768093503493",
+        "2/35917545547686059365808220080151141317043",
+        "2/331239586717549214151342474072504969923841",
+        "2/3052991371553315046093698706812847011948655",
+        "2/28123438163838184483427836322758343651244669",
+        "2/258929585853268801968111458557809577754562987",
+        "2/2382734054087945492268351511897146563831315577",
+        "2/21915916519468245901413299070966062350844078439",
+        "2/201485038969304841351702910813720250644856850165",
+        "2/1851541463370559226316175169898713461189052949411",
+        "2/17007458184156373924203217282265501999169548226033",
+        "2/156159388781799433304047722318983245628738579166303",
+        "2/1433264885155723511612398401878192759384561018684781",
+        "2/13149857441477269111395305725969826772994273423855515",
+        "2/120602978248977239564511232515323268403747479115932009",
+        "2/1105715155721931514138182421472262862654918476754479447",
+        "2/10134031564827610849761873752759546787084986773190137317",
+        "2/92849640553420542650520951410418550292481365300309636499",
+        "2/850436973210533288878665351414010615510780646777172334305",
+        "2/7787044632962535245123779261208288505503061052664021461071",
+        "2/71281408563272438013056133237214333242681866559001427220573",
+        "2/652314738868938529379984278111986629422525652796239951623563",
+        "2/5967871206015826049782170213801398336948230559053203524357721",
+        "2/54584187859900848016300337321354253081843572186462227356930375",
+        "2/499117813790933354261050284466463290180377624073010606951771349",
+        "2/4562801431584831687378577797366644723617467886210750509220523907",
+        "2/41701882851461368677669327310816078520503834401879650002875951057",
+        "2/381046975367933269520383090007991190756054120450762908804904682559",
+        "2/3480993045654427988475680107967739073448163581561480708255332250445",
+        "2/31793069816977108961411211652772016870826560711594857135398701220731",
+        "2/290314820007579294238871721004509438725576842702227491068494709687113",
+        "2/2650428104961281470425382834206636530523431751000911411265609975488823",
+        "2/24192205468689143634308281614354193012650047259135978626232908074142661",
+        "2/220775021934540786313093059487637915255302878833373790959677937319973235",
+        "2/2014381751857913519256704260014792840570797991010713968549337317753962689",
+        "2/18376094756744639655260138861767599994594830652689574366154158796653496367",
+        "2/167604783720912518734889454450618579816472314476544507138278535601691956797",
+        "2/1528422431680109525151938932307958837134320377709945604830526778301522016619",
+        "2/13935616288848057435208854971043154103283509326178915808748920625690347798585",
+        "2/127038876233176162296452335961832108051223217276714890566207902220002977028391",
+        "2/1157914852800478269084224794658482462556053655560375849683079669279135414825653",
+        "2/10552318375521339697503407090944283573859885200672859158432593967204196327562083",
+        "2/96150627682545374759239119269660024862437587511721021027457238198065565295239601",
+        "2/875973509868588230168528172487393478041225873956476786661190176221640272781784095",
+        "2/7979322335348412787535138443930620590884621142767179456677386877946214121157706029",
+        "2/72673947736915783531981710019272298914583884779334610500636559529078992085514196827",
+        "2/661805950101262667785324566388521112600855613463881453020589734409778513725481354537",
+        "2/6025917335132549554045323683432323814734106375223762703819053897520614888132014438679",
+        "2/54860230074183615882204536424311618544544610063453330974075201668179008374612270178725",
+        "2/499384837189568572002010437279590904808340364749035178524010264328052344804327693684051",
+        "2/4545248433403361409577620420663395184442013150342913404532093422782442528134304601836193",
+        "2/41364299988905451040234322152294250030480667161500591821132850199511725577266939644643343",
+        "2/376392276694625844548430544667561490608848943729234667013291736345833215611926240854848541",
+        "2/3424552681401923667612769709680272578490346947044676068727490388064548109256050224171162955",
+        "2/31154173852969932608606980656172425673509480604736161209018196341149375502042878525838201369",
+        "2/283386362159902969878291305327001583265452548174632140195400812707460362187031745307223425287",
+        "2/2577466436787688916512078062736062019223877938159749465586740725101187103701098254937127344277",
+        "2/23440100527226259937075809397761988101528146484730287024733867222517078529470197218983194748739",
+        "2/213147028110269876629886246078094762270372523734205459732683611272111258130674591291790190590865",
+        "2/1937998363279530724434811868186984684642925561952545026184861757874119285465056668514584655987711",
+        "2/17619061262099693032805827695040048579672485692675168232980139128693135229786378138627518369918733",
+        "2/160165235292152485911285137187575114978027771949996881072668701928672772013485216345613973523532603",
+        "2/1455830273028669610745860426078108134651028553993255232436645365291965942630037264992222535460169481",
+        "2/13231560855851701634611391557212362110498264443928846816973451719032892434248368245865273782876909815",
+        "2/120245843290008390952590353517495759082235447117265568878153856353942822463437609961204902719510648709",
+        "2/1092668749896163204743103647180722332529878628152543647631919825129306517167759151386601072538161981747",
+        "2/9928124191640258018216047014335845499876744090247274578244094487658148689481218318101222185406553126017",
+        "2/90200066707935424743697450836406710062861224744094906950208194942372848520073438463507312461726835746799",
+        "2/819423141219976745911054306894117295641485774083679084265975855462401229513343208576932627293152240235005",
+        "2/7443411138616812022159484006345167806454984729234536053820701607991021401114229238840694981876866628739371",
+        "2/67608126056284499980075313255789519569229377425443643143228584651383885629475326404400966863038267858273273",
+        "2/614029966785159225846437434090252759923275030589988156218637693477637207840303306933121110002662624521029863",
+        "2/5576281191573821566849773439905598593511370979158851717333963125835375005137958086039701664141827544858402421",
+        "2/50636634138730890909734489756990301129419400147070290258301683093348136257418677687131820044337223221247824675",
+        "2/459780637979676489460389166993471934255128153335398235545379282487601077217361593399156926002581986848930248049",
+        "2/4174484118396974646598511335566280425109335348124474728894390754215620353061595788527147244455160682359670666207",
+        "2/37898482454791747992481681513721820977302655846073288040923311694385479100502435128156939393983751347710721899757",
+        "2/344039470596096517490190849066124063157591642031236731696173959407473375211054573436125982290839508987659670232859",
+        "2/3122933391891605727432419080578765637675134433030324839216343022089296946658285076469555590322427302613305590311145",
+        "2/28345603935765085177078084676061732362387496790015671838504083685602001647753710928125796060245691219039067336739031",
+        "2/257263266100551469265379578642231165871289053144825781116549721551602976980245705512230326268305830431025459246099813"
+      ],
+      "remainder_upper": "1/1037664387116868687748225580799626961924362540718042062746250759731151756522832050685313951977601759562797249846193388",
+      "lower": "472305362676400265091644208201071801927973402564370059259613418004095750590398623514080974394322905167301514164407186580439573544472412204044309086041150090653212510735468981619665393295661121590074022952617505984/681392604518505972021578019764771152174542880706363291823658014665038097113662569329567375213216600577970107266475673997783218966170924836645476655918262032243945280100824912558533701629636629769698760496737316375",
+      "upper": "455302369620049855548345016705833217058566360072052737126267334955948303569144273067574059316127280581278659654488528496563903497069245865990974902669457334727502112377996436185652524937350057139150342982452443917701/656862470755839757028801211053239390696259337000934213318006326137096725617570716833702949705540802957163183404882549733863023083388771542526239496305204599083163250017195215706426488370969711097989605118854772985500"
+    },
+    "3": {
+      "argument": "3",
+      "z": "1/2",
+      "terms": [
+        "1",
+        "1/12",
+        "1/80",
+        "1/448",
+        "1/2304",
+        "1/11264",
+        "1/53248",
+        "1/245760",
+        "1/1114112",
+        "1/4980736",
+        "1/22020096",
+        "1/96468992",
+        "1/419430400",
+        "1/1811939328",
+        "1/7784628224",
+        "1/33285996544",
+        "1/141733920768",
+        "1/601295421440",
+        "1/2542620639232",
+        "1/10720238370816",
+        "1/45079976738816",
+        "1/189115999977472",
+        "1/791648371998720",
+        "1/3307330976350208",
+        "1/13792273858822144",
+        "1/57420895248973824",
+        "1/238690780250636288",
+        "1/990791918021509120",
+        "1/4107282860161892352",
+        "1/17005592192950992896",
+        "1/70328211781017665536",
+        "1/290536219160925437952",
+        "1/1199038364791120855040",
+        "1/4943727411754159833088",
+        "1/20365205457375344984064",
+        "1/83822005070936202543104",
+        "1/344732753249484100599808",
+        "1/1416709944860893564108800",
+        "1/5817955506895402903273472",
+        "1/23876284937388926200446976",
+        "1/97922991388784963151200256",
+        "1/401363372112056886002450432",
+        "1/1644139114675895677600399360",
+        "1/6731298963614255244763987968",
+        "1/27544165874099711116505513984",
+        "1/112652543574969605015820304384",
+        "1/460513694614161462262474211328",
+        "1/1881668859713778017846668820480",
+        "1/7685131763883640746573763182592",
+        "1/31374352355648677687043404333056",
+        "1/128032710623051169551167023742976",
+        "1/522272047294030513416641720614912",
+        "1/2129653008383425394514461385031680",
+        "1/8680871310362914941449423550414848",
+        "1/35372522348768513219364006242811904",
+        "1/144086237824341466691721273135857664",
+        "1/586729545014435522023946085201870848",
+        "1/2388456554926020709124028311441244160",
+        "1/9719979719177197320609089128300019712",
+        "1/39544532874601247218888260043340251136",
+        "1/160836587489974820621360654293921693696",
+        "1/653980173926178609468673073657929531392",
+        "1/2658455991569831745807614120560689152000",
+        "1/10803965149739796214962143785958640713728",
+        "1/43896425332801061786775324358698099277824",
+        "1/178307960266571754854808294294246542802944",
+        "1/724120876807757050250061164614802753978368",
+        "1/2940039650196908324323556608210477346979840",
+        "1/11934383172651153790587474231846974712184832",
+        "1/48434430978058697135522888123408160145801216",
+        "1/196525317062051116434783517277713685771452416",
+        "1/797251640847469777309901928247178923838799872",
+        "1/3233608053786940355522679149534012418367160320",
+        "1/13112838176736006407223002344317236565516484608",
+        "1/53164976553297005569421152361993693830257311744",
+        "1/215514401598599942039801181386873765593794740224",
+        "1/873475587936047447207671013303091023466240933888",
+        "1/3539574277910780505024549204234747938229211627520",
+        "1/14340984816309484884873657421028527130373838077952",
+        "1/58094690083903390998596472100472250031323318583296",
+        "1/235301763610275369830793258067321566164605139419136",
+        "1/952899067539748702668802510931016528815668018020352",
+        "1/3858364322553583704057727958370987171891661913456640",
+        "1/15620529499792690389760983492071632914082607019327488",
+        "1/63230406837484183853164220602637268562394265539313664",
+        "1/255914782703190424589138028947952021873832412005269504",
+        "1/1035631752225776455062476701941419877992351047413137408",
+        "1/4190417494555164847073605152364126673957489787220787200",
+        "1/16953231920828895495589213987850295343782301539156099072",
+        "1/68579175453748526411536029464976335966938575717716197376",
+        "1/277381692896725883362860811914205962234991781115231993856",
+        "1/1121786735913830644318310023874026322408917037438396792832",
+        "1/4536186800963031020740707200364915183511467801663462440960",
+        "1/18340906633082957856832697220934900309549069814293350842368",
+        "1/74148264249255166522810262561640559540209073687731407683584",
+        "1/299731607864714006473158944958166071368887472473157647990784",
+        "1/1211480634929629387420307358679079618307754600781558660988928",
+        "1/4896139353601610995791915750101979804559837246681946920058880",
+        "1/19785424669938817767610408261950564543554624360950636784648192",
+        "1/79945167701884766208212614093972839475479598940693943556243456",
+        "1/322994546896057045383934380560573683106962801750341359895576576",
+        "1/1304833691938300103740073218981024033248028830951627782264717312",
+        "1/5270756785169488103777635662879013336272825819607560499788513280",
+        "1/21288715210343103170379913799335722158214145261634439482072629248",
+        "1/85977613120033015702597139788621563885347948979354547859964821504",
+        "1/347201461594774474894698497519600956551357267648685351166556504064",
+        "1/1401969882837667547916033743538862630245290957519810043573014888448",
+        "1/5660535677184948785013093987997285737140611377779514729919215042560",
+        "1/22852767292076909513448212007356483813200235701919157142185482125312",
+        "1/92253567501656095547376192250895298711352103570881021458776416321536",
+        "1/372384263340018212163838145889458648679613057336341657395243616567296",
+        "1/1503017026693648168552686091101344410055270801556636915821526271393792",
+        "1/6065988000108893953800078394579416901568357495071628808248312306073600",
+        "1/24479631573772780933557649699013824651662527135666839812842078106288128",
+        "1/98781244588439944207659943278839926788206497164188657570763627953127424",
+        "1/398575851527155058724357151046498219879051543142839823560635773924409344",
+        "1/1608106898802201362472298115910546930421108390515700067352868144145235968",
+        "1/6487641565983129960188670510540403925304042433840163361852772770371338240",
+        "1/26171422147029817881952594229754480515694605222470105817176291856646930432",
+        "1/105569112120508463692602025669389381320692162838318232747765970527234031616"
+      ],
+      "remainder_upper": "1/319357606958692967572181023259282521735817714360268126680480320883641024512",
+      "lower": "10245545722234658029048391809458643323005863632933809684888113125371963237470266578584705170892293170705488897785439232008227364634395098997815950556935856140546112096962137/9325897614576777291416794552843865617741571160126163428374247597521127283204718356449371558494524243779559554701788455829226022018601034211565318527311932582507917082624000",
+      "upper": "1234588259529276292500331213039766520422206567768524067029017631607321570118685970049440425794131451697022123184743864080304146903734724481331418009378125791057506755118648821/1123770662556501663615723743617685806937859324795202693119096835501295837626168561952149272798590171375436926341565508927421735653241424622493620882541087876192204008456192000"
+    },
+    "11/4": {
+      "argument": "11/4",
+      "z": "7/15",
+      "terms": [
+        "14/15",
+        "686/10125",
+        "33614/3796875",
+        "235298/170859375",
+        "80707214/345990234375",
+        "3954653486/95147314453125",
+        "193778020814/25300535888671875",
+        "9495123019886/6568408355712890625",
+        "465261027974414/1674944130706787109375",
+        "22797790370746286/421199185810089111328125",
+        "159584532595224002/14963655285358428955078125",
+        "54737494680161832686/25812305367243289947509765625",
+        "2682137239327929801614/6312792073510587215423583984375",
+        "131424724727068560279086/1534008473863072693347930908203125",
+        "6439811511626359453675214/370718714516909234225749969482421875",
+        "315550764069691613230085486/89164242543291100300848484039306640625",
+        "15461987439414889048274188814/21356274222062465152703225612640380859375",
+        "108233912075904223337919321698/728054803024856766569428145885467529296875",
+        "37124231842035148604906327342414/1212211247036386516338097862899303436279296875",
+        "1819087360259722281640410039778286/287490640344440315699102939106523990631103515625",
+        "89135280652726391800380091949136014/68002593773781074674980118288658559322357177734375",
+        "4367628751983593198218624505507664686/16046953530764192621473966937628574669361114501953125",
+        "214013808847196066712712600769875569614/3778497779046219774242416633569519035518169403076171875",
+        "10486676633512607268922917437723902911086/887946978075861646946967908888836973346769809722900390625",
+        "10486676633512607268922917437723902911086/4250810001426997246022718712765708914957940578460693359375",
+        "25178510597063770052683924767975090889517486/48778044766374793398110697228986509799142368137836456298828125",
+        "1233747019256124732581512313630779453586356814/11405454585078811985734707146189492732446524314582347869873046875",
+        "60453603943550111896494103367908193225731483886/2663066046987741477801264168567829671019353554584085941314697265625",
+        "2962226593233955482928211065027501468060842710414/620978582774868808232749326579680282378603806137107312679290771484375",
+        "145149103068463818663482342186347571934981292810286/144622643619936551391048198427109749975016939060878939926624298095703125",
+        "7112306050354727114510634767131031024814083347704014/33643148875993714709188754634103073193340804891704465262591838836669921875",
+        "49786142352483089801574443369917217173698583433928098/1116842237276840529280446362853421692074018523044287576340138912200927734375",
+        "17076646826901699801940034075881605490578614117837337614/1814868635574865860080725339636810249620280099946967311552725732326507568359375",
+        "836755694518183290295061669718198669038352091774029543086/420909918173709274472568223000383300200395730872315880333189852535724639892578125",
+        "41001029031390981224458021816191734782879252496927447611214/97531738502191589346068980031058966203151398832726926002578693442046642303466796875",
+        "2009050422538158079998443068993395004361083372349444932949486/22580717718442183185557274724582130218773095599316125259292675764299929141998291015625",
+        "98443470704369745919923710380676355213693085245122801714524814/5223778711625533222856031511989598434413353453785455737801157738431356847286224365234375",
+        "4823730064514117550076261808653141405470961177011017284011715886/1207551585735354426516377147463348953160621089488076240758829271726426668465137481689453125",
+        "33766110451598822850533832660571989838296728239077120988082011202/39849202329266696075040445866290515454300495953106515945041365966972080059349536895751953125",
+        "11581775884898396237733104602576192514535777786003452498912129842286/64392688309337774793985811388483082927290119596951665538464570914811702095903456211090087890625",
+        "567507018360021415648922125526233433212253111514169172446694362272014/14855148663768113235701157120950685903162815565246127904285022847119535072124563157558441162109375",
+        "27807843899641049366797184150785438227400402464194289449888023751328686/3424937053035426107119989002885852583229204699765079489043491378641448363850940950214862823486328125",
+        "1362584351082411418973062023388486473142619720745520183044513163815105614/789179772762681015646623972050505188605524576903700544915141838753225300706617417745292186737060546875",
+        "66766633203038159529680039146035837183988366316530488969181145026940175086/181743459433288010368031344151631047846507571681058096078987076395228061898023952380754053592681884765625",
+        "3271565026948869816954321918155756022015429949509993959489876106320068579214/41832330748868878248503766283177146357773725550726303149215128790970597005838271797983907163143157958984375",
+        "22900955188642088718680253427090292154108009646569957716429132744240480054498/1374826600454398526706444004250484866252675811639038614735441030489764002719965674259583465754985809326171875",
+        "7855027629704236430507326925491970208859047308773495496735192531274484658692814/2212942047269868397794795445303184294333633950657452539487623350999870135147329364144752616994082927703857421875",
+        "384896353855507585094859019349106540234093318129901279340024434032449748275947886/508619744735413301106061856380167357971843287046269333672558592770131442352410378049398786970414221286773681640625",
+        "18859921338919871669648091948106220471470572588365162687661197267590037665521446414/116848693987898897859366315952601606186689260418787665341090434602190723466751121062401352901360951364040374755859375",
+        "924136145607073711812756505457204803102058056829892971695398666111911845610550874286/26833037717324205668220460699424750286685600781737064386317416811997921290947229089329795215235208161175251007080078125",
+        "45282671134746611878825068767403035352000844784664755613074534639483680434916992840014/6159401839658510846568787569640681315807376543080553415950134313663159205421977586414339356224445509724318981170654296875",
+        "2218850885602583982062428369602748732248041394448573025040652197334700341310932649160686/1413308293406791969002293583429928608849860904810810152620241215041026877085686441239131827529718066216446459293365478515625",
+        "15531956199218087874436998587219241125736289761140011175284565381342902389176528544124802/46309859128620610634783891690058340338526995667344507428090428162752094273438754749340484639930082266801036894321441650390625",
+        "5327460976331804140931890515416199706127547388071023833122605925800615519487549290634807086/74327323901436080068828146162543636243335828046087934422085137201217111308869201372691477847087782038215664215385913848876953125",
+        "261045587840258402905662635255393785600249822015480167823007690364230160454889915241105547214/17036239426941307137271124155480211952035618531124360670108766260372426680841281903413630786914279013899431447498500347137451171875",
+        "12791233804172661742377469127514295494412241278758528223327376827847277862289605846814171813486/3903486969613386658287580970487323793597152044172760621430884746355975746367073537043627788102606590570076150470413267612457275390625",
+        "626770456404460425376495987248200479226199822659167882943041464564516615252190686493894418860814/894109515337120322405060776348109977046915231739571520719641843928834985147593195309317446058637590677875550682074390351772308349609375",
+        "30711752363818560843448303375161823482083791310299226264209031763661314147357343638200826524179886/204735254065026445506468562725728722620256032046561177863900289483704471156583840076359193953692457157433892689368803985416889190673828125",
+        "1504875865827109481328966865382929350622105774204662086946242556419404393220509838271840499684814414/46866570115320184156154651423954857591115130814136721802323261918769740897365822521827441572443077692777801956935945781879127025604248046875",
+        "10534131060789766369302768057680505454354740419432634608623697894935830752543568867902883497793700898/1532176330693159866643517450398524190478763892000623597383645101190549221644651890136666359099100616879274294745982842869125306606292724609375",
+        "3613206953850889864670849443784413370843675963865393670757928377962989948122444121690689039743239408014/2453735329595369257021750740417636534457902762336292790515866934112511915251508688762984801557236134972837804379963699830113910138607025146484375",
+        "177047140738693603368871622745436255171340122229404289867138490520186507457999761962843762947418730992686/561215911128527637917991336702959430505144288823610768409310887616229481442855396376162019695012479631184183770375994981804979033768177032470703125",
+        "8675309896195986565074709514526376503395665989240810203489786035489138865441988336179344384423517818641614/128326808947071868426369970282688894170383602627350023264324135887857350939677301000646803283920536501032968849933535437912723864428699016571044921875",
+        "425090184913603341688660766211792448666387633472799699970999515738967804406657428472787874836752373113439086/29335508525300629122268175206622681207349691560612215318224497463964190424810231008747859230704234644136136679094806201106848675408400595188140869140625",
+        "20829419060766563742744377544377829984652994040167185298578976271209422415926213995166605867000866282558515214/6704434133439769765935699097419081275931691319265901965444614479461107299843440590778792237568428429496467457564777558953750258297077380120754241943359375",
+        "1020641533977561623394474499674513669247996707968192079630369837289261698380384485763163687483042447845367245486/1531885240954552045356238224003313338047182958413662483964961331644311144673530321032596133351390914414018436524975337598153402041134540922939777374267578125",
+        "7144490737842931363761321497721595684735976955777344557412588861024831888662691400342145812381297134917570718402/49990911489165725144258919142092858932455779749758832969085570173888779721216352079498843283032031749007090199574576856733632013174428720958530902862548828125",
+        "2450560323080125457770133273718507319864440095831629183192517979331517337811303150317356013646784917276726756411886/79919680867547836908256035207424767898597068942048660601893378633256404422734036548146177090636734967162650779583040632804424863167014336795546114444732666015625",
+        "120077455830926147430736530412206858673357564695749829976433380987244349552753854365550444668692460946559611064182414/18248327131423422760718461372361988670179664075101110837432321454593545676524271678493377102362054484168805261338127611157010343756468273568316362798213958740234375",
+        "5883795335715381224106089990198136074994520670091741668845235668374973128084938863911971788765930586381420942144938286/4165813365220930998842845835187016026714372218604286433873692361258490080535011655072119480849439810163353171885765992984930645992580622305467841215431690216064453125",
+        "288305971450053679981198409519708667674731512834495341773416547750373683276162004331686617649530598732689626165101976014/950794453321108172217908518858331535593622004569935159098150288927522286366713991058726550575168906312463160993351986528395142043990073688064512680284678936004638671875",
+        "14126992601052630319078722066465724716061844128890271746897410839768310480531938212252644264826999337901791682089996824686/216963202380189045681639763079906504664714808489628820879311954228673968537936330938400899040823117451088668120291490542915699966421139155414721244596876204013824462890625",
+        "692222637451578885634857381256820511087030362315623315597973131148647213546064972400379568976522967557187792422409844409614/49499471871703969338206274618754893109694549838980001966346521025947470094756453124932372945502476970921453128842726426312060918912515139478358605629182420670986175537109375",
+        "692222637451578885634857381256820511087030362315623315597973131148647213546064972400379568976522967557187792422409844409614/230428575954483995195098174949376226545129800974562078119199322017341671130762799029857598194580496243944695599785105777659593932868604959640634888273780234158039093017578125",
+        "1662026552521240904409292572397626047119959899919811580750733487887901959724101998733311345112631645104807889606206036427483214/2575039336291358646305222105059279331641825525890731222982052423543793174886274279158658659824437045526081973327598557065345962199806660423984094876459494116716086864471435546875",
+        "81439301073540804316055336047483676308878035096070767456785940906507196026480997937932255910518950610135586590704095784946677486/587160815104019530256509537042879297265308874108305995307484772415438745750074957277955892399565426991601577475202422659698852790190814012784292774682626259163953363895416259765625",
+        "3990525752603499411486711466326700139135023719707467605382511104418852605297568898958680539615428579896643742944500693462387196814/133861000397058757146227422600669667605021576100519429724901743645042906108916095392673056926192316716462809964131413245431344419220654121788736945486419926965027116239070892333984375",
+        "195535761877571471162848861850008306817616162265665912663743044116523777659580876048975346441156000414935543404280533979656972643886/30512433914035451996566544857505585998203447493500752363764368036737721245414698214506358564058542780958434624177013313296850566145884395407726803750581012764087063260376453399658203125",
+        "9581252332001002086979594230650407034063191951017629720523409161709665105319462926399791975616644020331841626809746165003191659550414/6953882116214853817927181916718611776687334081986542433870814844501677438672736867273787846937858217660365826445503195433620943542602363017922253822511446941234680707566440105438232421875",
+        "469481364268049102262000117301869944669096405599863856305647048923773590160653683393589806805215556996260239713677562085156391317970286/1584554985398639460741050529112155008350250807535468506826295548165907709353612493163820128816572469661143869051515138959476364683035665840548844780256987352373698740848340094089508056640625",
+        "3286369549876343715834000821113089612683674839199046994139529342466415131124575783755128647636508898973821677995742934596094739225792002/51572780185144397542987021938084290366116653641484588193874713595965864125188331145426221173746934154065531587054030466133900548645972142923523721621571758166879817508743144571781158447265625",
+        "1127224755607585894531062281641789737150500469845273118989858564465980389975729493828009126139322552348020835552539826566460495554446656686/82236161447398729560393436068662667355536011839193359652624135701393394208316610641674202675963861308711016128487242058498295766156131667031314456107441053511752926397093688137829303741455078125",
+        "55234013024771708832022051800447697120374523022418382830503069658833039108810745197572447180826805065053020942074451501756564282167886177614/18730168673218882422881020331589579911498616193435910902476509435056624294378859939092974075737167798072984501656986879888032087843842872015567786398703982279900781549031307804398238658905029296875",
+        "2706466638213813732769080538221937158898351628098500758694650413282818916331726514681049911860513448187598026161648123586071649826226422703086/4265370229673936406301541448239263425300366687686996073700332375892440350674458558857081823611055030379347834240977466738138216368075126763545209538977588691922859798211220550001598894596099853515625",
+        "132616865272476872905684946372874920786019229776826537176037870250858126900254599219371445681165158961192303281920758055717510841485094712451214/971201814271565460177341997420946058365547564666455243727276279001856552900576567069105008040780643893261685012054899237830572918539261647807225106105525808445309843275339289903058670461177825927734375",
+        "6498226398351366772378562372270871118514942259064500321625855642292048218112475361749200838377092789098422860814117144730158031232769640910109486/221106448544961426510788363022313015358665340535750683446194999021280656052364990638957486298041628839013274146975220403405510609708864449108775064836746186271794652189459640112545457668602466583251953125",
+        "318413093519216971846549556241272684807232170694160515759666926472310362687511292725710841080477546665822720179891740091777743530405712404595364814/50330809997734640508376824740605462706643557779848510837094387935107307232972557079657427802054212880459600562403569907617307020367938881178708008179943539769763782669442786499303110758773982524871826171875",
+        "2228891654634518802925846893688908793650625194859123610317668485306172538812579049079975887563342826660759041259242180642444204712839986832167553698/1636478648770273715951558607895408830779595448044207361032693249335136434598096147821231395298005476604539035627283703643626312078437319113469552289087759602340585419165408520569826578139327466487884521484375",
+        "764509837539639949403565484535295716222164441836679398338960290460017180812714613834431729434226589544640351151920067960358362216504115483433470918414/2606910487491046029510832862377386267431895548734422326125080346190872340314767163479221612709722724231030683754262939904296715140950649347756996796516801046528552572730495773267733738975948654115200042724609375",
+        "37460982039442357520774708742229490094886057649997290518609054232540841859823016077887154742277102887687377206444083330057559748608701658688240075002286/593182598213004965189541206396888315936833860029824063190325485552753579130944901181500850010644535132230286938999660478223447470631567245654875965987085661858403699811981453493547888911052723415195941925048828125",
+        "1835588119932675518517960728369245014649416824849867235411843657394501251131327787816470582371578041496681483115760083172820427681826381275723763675112014/134957325766618029091307629220744562382835524858740698175564275972826198380490117880539788361360327895307700757490285882545530157773578637314496221870525494855773690920910305550417529474316324922256171703338623046875",
+        "89943817876701100407380075690093005717821424417643494535180339212330561305435061603007058536207324033337392672672244075468200956409492682510464420080488686/30700927560444736728367909575492582077973772022423470979993696481663639327716467423929424230823267961819307064583770835435426542797387294980245204063640261053516473611428076414577026387320302092120982706546783447265625",
+        "4407247075958353919961623708814557280173249796464531232223836621404197503966318018547345868274158877633532240960939959697941846864065141443012756583943945614/6983202785265093805018110579671468464457148964116814095859221945624311404460098123065914118076603983118735828214751153142074480021536864227063970596442764297008870022271550168069774444656871992265223525464534759521484375",
+        "215955106721959342078119561731913306728489240026762030378967994448805677694349582908819947545433785004043079807086058025199150496339191930707625072613253335086/1588206795621777415384524338592848841308294825217378124774468991146718391041397992043234251449043851836328702552084620370015047280573857093803873312677455717819720033443651207143436539237502103105725836940109729766845703125",
+        "1511685747053715394546836932123393147099424680187334212652775961141639743860447080361739632818036495028301558649602406176394053474374343514953375508292773345602/51595488146536351863427729181559126796512786434200920363662562145541787302548089848463358703491665240137416406438043148384178675023990277245232782751420018640399995738877973708002015913731685969878526520915329456329345703125",
+        "518508211239424380329565067718323849455102665304255634939902154671582432144133348564076694056586517794707434616813625318503160341710399825629007799344421257541486/82122818633237026715955802280648276817782851741103131578829578081654011456555709675470845936390900507218721113580552011178151057746517857948662179212676863002636659884380774818569875329356266835389988045790232717990875244140625",
+        "25406902350731794636148688318197868623300030599908526112055205578907539175062534079639758008772739371940664296223867640606654856743809591455821382167876641619532814/18671117273027842330577909497576709009488064590876458056600389676417934280109590013912677930826046358774727562079766864321524658024306481578118613258170119245494748458006466735583229508781653860349791784756234847009181976318359375",
+        "1244938215185857937171285727591695562541701499395517779490705073366469419578064169902348142429864229225092550514969514389726087980446669981335247726225955439357107886/4244535079554904571264796783451700040369372196501060089291927964004336096061182703939993493341931523270679646560879643378792198812520450151502353143534787470964155899456133305822353340403083228615788158322175149805843830108642578125",
+        "61001972544107038921393000651993082564543373470380371195044548594957001559325144325215058979063347232029534975233506205096578311041886829085427138585071816528498286414/964815473852672539083651884238444124560884218512356351065972856433293320296984222318667751755800588558835258122107642014179303653153686938283804118395792075130698514068682609131158009299316226196896462141694428282789885997772216796875",
+        "2989096654661244907148257031947661045662625300048638188557182881152893076406932071935537889974104014369447213786441804049732337241052454625185929790668519009896416034286/219287374831235598667363010745057541508698430882694190959283932217262479270545525656438317689674981485897709047803906960329331579035311333307905225386657818091253938920940425501764466326786213339929132448702375768334604799747467041015625",
+        "146465736078401000450264594565435391237468639702383271239301961176491760743939671524841356608731096704102913475535648398436884524811570276634110559742757431484924385680014/49835535310264472109203478195704659873019530335024345658962893640832641331710660290514688027716336872862934129080058755180371963124984698737939767930209044337572660239696134388529135626275912051750226205992788663934334181249141693115234375",
+        "1025260152548807003151852161958047738662280477916682898675113728235442325207577700673889496261117676928720394328749538789058191673680991936438773918199302020394470699760098/1617795362683958609515187538442651271997275798189223161317079009982253655171204270624917111347507950723535548220136235709213567459654354026194313361913502558719709492855807347687326417718658338993384208925885303642644430510699748992919921875",
+        "351664232324240802081085291551610374361162203925422234245564008784756717546199151331144097217563363186551095254761091804646959744072580234198499453942360592995303450017713614/2573131417372330719444414662436803100719805041085445459163802390876946546371441275261182819341510490590450936608751168003016406864708864808903886338560700190377468977861176341795790724733555720209305056438153780362654288182966411113739013671875",
+        "17231547383887799301973179286028908343696947992345689478032636430453079159763758415226060763660604796141003667483293498427701027459556431475726473243175669056769869050867967086/584602906166420991503042014160946850809877657505144498831971201732164806815853060464827267369906590728050011573427247071904825120603977455974139054724217616423563988506752624971409526851050525213406746359058596684832309620105661451816558837890625",
+        "844345821810502165796685785015416508841150451624938784423599185092200878828424162346076977419369635010909179706681381422957350345518265142310597188915607783781723583492530387214/132806529770415203504495414086562925890504815672364348104219544741328744157079662649074890087293997241480926542224233302204465706745903574237603328736262480252744427823816628933722381643336478010436967379394833377315165989784873090684413909912109375",
+        "41372945268714606124037603465755408933216372129622000436756360069517843062592783954957771893549112115534549805627387689724910166930394991973219262256864781405304455591133988973486/30167416272011778882181434372055382328477110641366016393530253045907091525633287006051820128680777603058885108096150602976827796305080249698230708285904599282292065602563131380997464442666982265767918786300333562622189020885343779809772968292236328125",
+        "2027274318167015700077842569822015037727602234351478021401061643406374310067046413792930822783906493661192940475741996796520598179589354606687743850586374288859918323965565459700814/6852006752778030819566565129292673924607893495201262254312499418128423513582821231113902747237091311026526392443165960415471431933274743918425150211383781614236242862572692281679163428506232820317191980253286663453404781165545500698499381542205810546875",
+        "99336441590183769303814285921278736848652509483222423048652020526912341193285274275853610316411418189398454083311357843029509310799878375727699448678732340154135997874312707525339886/1556177589979517562894519193096399535694398346621413434518155677708744072627084399319882842242226723807080818002057057911260237182028947122318387988148781387740273467027953000592626905417788791938235502557524611946283832342174946461454965174198150634765625",
+        "695355091131286385126700001448951157940567566382556961340564143688386388352996919930975272214879927325789178583179504901206565175599148630093896140751126381078951985120188952677379202/50485296233056441865996611031848310518457806826438877701228538846597627472436807838400850347160611156066924211927199902004837927184427470596143052173663954323201895034976614786667779838553845691949733164366205434071301072496140704970457591116428375244140625",
+        "238506796258031230098458100496990247173614675269217037739813501285116531205077943536324518369703815072745688254030570181113851855230507980122206376277636348710080530896224810768341066286/80247192641414715256354290599816951638613175205573409636388266182777357861429796975393609705043197248877344856216541134557689963290731084310482222447009398363734625091886215923001769404669056337768487150778863637543979366040236556045783800072968006134033203125",
+        "11686833016643530274824446924352522111507119088191634849250861562970710029048819233279901400115486938564538724447497938874578740906294891025988112437604181086793946013915015727648712248014/18220509836047245279096881735506383197397443548388757051001856328486776802098614861193823025494397183563588917695742045277996043034847503047208805987112065450395909738328959300325401751813556284911132527728214586195773397152286587896696801180951297283172607421875",
+        "572654817815532983466397899293273583463848835321390107613292216585564791423392142430715168605658859989662397497927399004854358304408449660273417509442604873252903354681835770654786900152686/4136715298749640415740660819362139262124057601992786810108679372315945819209493215657918870154666871879199429617121525438115164974088115228025800182820578660514093986971292004044466212204729351110479975469516592137434073312741988903695755652734078466892242431640625",
+        "28060086072961116189853497065370405589728592930748115273051318612692674779746214979105043261677284139493457477398442551237863556916014033353397457962687638789392264379409952762084558107481614/939108573987446394829017730852952018587580341259573238841936740912532543038029569698126200903946234927733054369357745404953274559700497010846664279171712083805049363634177837241036331806566921076089904745041603035684304759899386494392814483944675885140895843505859375",
+        "1374944217575094693302821356203149873896701053606657648379514612021941064207564533976147119822186922835179416392523685010655314288884687634316475440171694300680220954591087685342143347266599086/213177646295150331626187024903620108219380737465923125217119640187144887269632712321474647605195795328595403341844208206924393325052012821462192791371978643023746205544958369053715247320090691084272408377124443889100337180497160734227168887855441425926983356475830078125",
+        "67372266661179639971838246453954343820938351626726224770596215989075112146170662164831208871287159218923791403233660565522110400155349694081507296568413020733330826774963296581765024016063355214/48387569274703175493565138582198352757725077083399511131330790575518239280034473578695952501575829754651445626381157831990217471688568108483874376984322465118055168461251013063844396996333360608445532341988268596413633802753815889123589766285249424981884658336639404296875",
+        "471605866628257479802867725177680406746568461387083573394173511923525785023194635153818462099010114532466539822635623958654772801087447858570551075978891145133315787424743076072355168112443486498/1568898261417777633361227746606212966052876407616774542140310567786999679712908149876932084385155178726144033955808283417150064311299642818745708511391241500006810593121348349340806321824345862522742697114685128071490091639506912562194995697240074150613509118556976318359375",
+        "161760812253492315572383629735944379514072982255769665674201514589769344262955759857759732499960469284636023159164019017818587070772994615489699019060759662780727315086686875092817822662568115868814/2492408828934151285726132261085779234706728656645739556718357015643438127543915447190853470420962431658124272125249977519517943076360114387052841476051085928419910464981414764066417315807313086144084421098102055731753577400034845184032504528115481434724642895162105560302734375",
+        "7926279800421123463046797857061274596189576130532713618035874214898697868884832233030226892498062994947165134799036931873110766467876736158995251933977223476255638439247656879548073310465837677571886/565605651630443129754374434785023935773039818541388322152288099580029145896500125623246254285443727785078630423272929447830520344045240550280768210498717461224046205304258822532239551816788323733341046204129382818954808605265418193586775437442515368502427008934319019317626953125",
+        "388387710220635049689293094996002455213289230396102967283757836530036195575356779418481117732405086752411091605152809661782427556925960071790767344764883950336526283523135187097855592212826046201022414/128344346268907999549583049935793197340839780100934179909662820894064060446514337016423857488388454400592842414132038139598138286579627456781795594999336632424562825097232347708645421704809520693959196973766805697109639016492674149672403405113285668193157107452861964702606201171875",
+        "19030997800811117434775361654804120305451172289409045396904133989971773583192482191505574768887849250868143488652487673427338950289372043517747599893479313566489787892633624167794924018428476263850098286/29121169707217416353497166710115102054867760231762597150388684361089851689921132797713894246574215761147173421181225109522742136543542052693844127093203913116585932150226453578195812456439375423281248174111012558489750371780141571302251025780451210156485331026487983763217926025390625"
+      ],
+      "remainder_upper": "466259446119872377151996360542700947483553721090521612224151282754308452788215813691886581837752306646269515471985947998969804282089615066184816197390243182378999803369523792110975638451497668464327408007/2584107812345886887133756952251552654308098154791720336257084593849345500585135499472453009126970576830164242328081264111959477957386777629837013587417023386512780121514655345131283642578101564757107578562955457491425212906749968385682593116116356757316907533095218241214752197265625000",
+      "lower": "89172226608998315725751398368991374194122449685343408237232274656495268356302235909387171119239828232428284034594793666509183633365334693561405590994741116131461594881559892552482591396507376706230234279780085063154284784332589792889630735040627561312367027892850170572296883172757399544710714476855888932010670745975870710681809602873218747264981047725749464994322567904094976/88149610760078264113407950359867863572080667830901064250166013009340218757068654949183484160911284023179964002966182206901907139378029362496779961144183412666500354310409687282944772965084737000790180934507337220626033288921012642034201935380277991614224669977266528741717621030403057666997341134897702945914816992477974020354475372649762088261837789104902185499668121337890625",
+      "upper": "171924052902148752719248696055415369446268082993342091081383825537722877390950710863963569987151970891298755133740192110631733332636793227041787936683106474138901604299586336621600746921710685553102147563200088198713508747412533497031324323827351583287840712012779942548937359849392094194365373444378394519991750109228999353926728257812719836310839410690212585525340268775954635291/169952449545430893210650528293825240966971527577977251874320073082007941763628366742025757462236955596690970597718799294906876964720840610893791765085985619621012683110469877081517522276683372937523468841730146161366992181039712373841941331413175967832225163716169867414031573346617095181970873708082771279723767161497533911243428518468741306168823257394251413643360137939453125000"
+    },
+    "3/2": {
+      "argument": "3/2",
+      "z": "1/5",
+      "terms": [
+        "2/5",
+        "2/375",
+        "2/15625",
+        "2/546875",
+        "2/17578125",
+        "2/537109375",
+        "2/15869140625",
+        "2/457763671875",
+        "2/12969970703125",
+        "2/362396240234375",
+        "2/10013580322265625",
+        "2/274181365966796875",
+        "2/7450580596923828125",
+        "2/201165676116943359375",
+        "2/5401670932769775390625",
+        "2/144354999065399169921875",
+        "2/3841705620288848876953125",
+        "2/101863406598567962646484375",
+        "2/2692104317247867584228515625",
+        "2/70940586738288402557373046875",
+        "2/1864464138634502887725830078125",
+        "2/48885340220294892787933349609375",
+        "2/1278976924368180334568023681640625",
+        "2/33395508580724708735942840576171875",
+        "2/870414851306122727692127227783203125",
+        "2/22648549702353193424642086029052734375",
+        "2/588418203051332966424524784088134765625",
+        "2/15265566588595902430824935436248779296875",
+        "2/395516952522712017525918781757354736328125",
+        "2/10234868508263161857030354440212249755859375",
+        "2/264545330086463081897818483412265777587890625",
+        "2/6830473686658677934246952645480632781982421875",
+        "2/176182853028894470526211080141365528106689453125",
+        "2/4540096597283049817406208603642880916595458984375",
+        "2/116890546721093446791428505093790590763092041015625",
+        "2/3006966962752766203692544877412728965282440185546875",
+        "2/77291756436954905939984428187017329037189483642578125",
+        "2/1985233470127266419691380860967910848557949066162109375",
+        "2/50954325733266504772078775431509711779654026031494140625",
+        "2/1306945367833783726296825733470541308633983135223388671875",
+        "2/33500814808397620832292052028833495569415390491485595703125",
+        "2/858199885523766212679086518022586460574530065059661865234375",
+        "2/21971985020939797613771793383108388297841884195804595947265625",
+        "2/562224322594635997764160595391302877033012919127941131591796875",
+        "2/14378725491644426379600658905122401165499468334019184112548828125",
+        "2/367546072960573820377432573136555760129340342245995998382568359375",
+        "2/9390600215750924531621216841126287278029849403537809848785400390625",
+        "2/239813715187187588845165483845967013820654756273142993450164794921875",
+        "2/6121560624515051609995013666594421142264081936446018517017364501953125",
+        "2/156194459233760337471522255925991673475294874151586554944515228271484375",
+        "2/3983747571366109617329229254678070459849692497300566174089908599853515625",
+        "2/101565841547205269946760052780158727070425328520286711864173412322998046875",
+        "2/2588449845256444986507234354834142316115208615201481734402477741241455078125",
+        "2/65943841295818955608636684754107911386744600434894891805015504360198974609375",
+        "2/1679410911505669663864812765934056621765224637243818506249226629734039306640625",
+        "2/42755644765396635937842710325385386471545856590381617934326641261577606201171875",
+        "2/1088150418578788256976627537560483934974027431241694330310565419495105743408203125",
+        "2/27685242950566515387679682924658330203985211193096205306574120186269283294677734375",
+        "2/704168135916583108773591935257614050840493415128751308884602622129023075103759765625",
+        "2/17905129951725083321379794934969246164533913760752437127621305990032851696014404296875",
+        "2/455151412638389723085494787212453526451387303582152288328188660671003162860870361328125",
+        "2/11566864412091309078412367526266897469735669078637341211646116789779625833034515380859375",
+        "2/293873587705571876992184134305561419454666389193021880377187926569604314863681793212890625",
+        "2/7464389127721525675601477011361260054148526285502755761580573334867949597537517547607421875",
+        "2/189548464070093860659958766627087115548259821029499112843286212637394783087074756622314453125",
+        "2/4812179998678739485747015199253568243570162123035733291176452297577270655892789363861083984375",
+        "2/122141209890128311374876530820748964960845718008349719031768731980491793365217745304107666015625",
+        "2/3099447995332203390151942041503968095810934573520152644603153913038795508327893912792205810546875",
+        "2/78634143585279974898299270312230301690018154920789057835302238164132404563133604824542999267578125",
+        "2/1994552182181371626069999739671535024619073637589357488888140712557373035451746545732021331787109375",
+        "2/50581269368268596992062943038432812674692335053974713297343136775285898920628824271261692047119140625",
+        "2/1282468354550072583309397314626931243347695729205387234312068893415936798874099622480571269989013671875",
+        "2/32510124372335756045430526332326054245702077051535165904763984186243153118311965954490005970001220703125",
+        "2/823963497022992437703152994974470685192794021823391273793156150927197156619286033674143254756927490234375",
+        "2/20879347118439774356763570791019750356075902933960084999180317429957887132019322962150909006595611572265625",
+        "2/528990170282618444273707917691943339558298883058384703838293277168396133713912377061205916106700897216796875",
+        "2/13399916565106063240708164140209823005367504819194182067426965464696127228183542001715977676212787628173828125",
+        "2/339376971828666634364340758453026563044438439048218663472414975004558777837981864422545186243951320648193359375",
+        "2/8593900738242042192774435335020188773867231440414569381478895334792859374284379470054773264564573764801025390625",
+        "2/217584429519185463161008792717867836790587547615591804403685407361793732565480308238647921825759112834930419921875",
+        "2/5508033514557996787566417551505773855862357730520484356759960783844149519346278243148162800935097038745880126953125",
+        "2/139411407278408924902690382126621294799000669266279340085694659591086393113888719508253188905655406415462493896484375",
+        "2/3528049417321698252905508136639956080036059881738664281309757489651726206103012073445057694698334671556949615478515625",
+        "2/89270341317079334581093918002859494752427575795508626511928712238157314608970153979594641668882104568183422088623046875",
+        "2/2258486180027905320988753314743002187598841363688766149777837180875536851634125153076571024257646058686077594757080078125",
+        "2/57130345678220681936253966985362925159674833312245415918936413894928520951099911416581900169830987579189240932464599609375",
+        "2/1444963421393593271194727527553769890734465813306791952335672456699215515283667350156238118330520592280663549900054931640625",
+        "2/36541705020791737349577647011836666311926519845186212667448364150630450169745922872448218310381662377039901912212371826171875",
+        "2/923983112668591072982177645870727133887284858942565663162622922094512811435004049774762091562507748676580376923084259033203125",
+        "2/23360589995434717805622852911138440249410168043886900240975918510581609215659000693457968134136848448179080151021480560302734375",
+        "2/590540054353866469667281616887717553790955365355241472572156599220009953636072503563672099480275079486091271974146366119384765625",
+        "2/14926633970546624854849797774924352533666413240332760977997880891886991922016749744772374890178223694192638504318892955780029296875",
+        "2/377244164556164699200438878191394155563973558669612128542296170081843375078292172511323682333739260030824880232103168964385986328125",
+        "2/9533061996216594425740820300241987444657169658272630815866132946662798802654140035083449810325573192670844946405850350856781005859375",
+        "2/240875496963226784286766716142478025005375008745123960454371541031987830708774393934595189057691622114276697175228036940097808837890625",
+        "2/6085611100525967698250323119472659097358019400835803762802243959935142283779882174802603321431097860294556767257745377719402313232421875",
+        "2/153733369424281644733286958384584189239541589576087712856129984851764719996010112531008172910497629193304902628369745798408985137939453125",
+        "2/3883161533385352425257895969558797526128317353282008291055096767628772072438079267298781569630445296981147151882396428845822811126708984375",
+        "2/98074720779091593304590449487574758031702374179045594017673597849085653624397643033058970412461246603241793451388730318285524845123291015625",
+        "2/2476760080588734399443337493404489447754920363151024518974244412686300135946082609591210039604034019548872702642938747885636985301971435546875",
+        "2/62541303542504474156797843740490248617932034295647729687666221978636473282055603583898645472413421850417514225028980945353396236896514892578125",
+        "2/1579090126757264708187806253646706526049776487812996160024408341002886079136478548200425998868149830302830272099612329839146696031093597412109375",
+        "2/39866191623797939061391660344528920916281302955869976946429028313496508155539175170084646523149102858630567214337503401111462153494358062744140625",
+        "2/1006378251966606510452204108697254467032954842910376247306196202548021608316659665878966076864861498992259440654617463906106422655284404754638671875",
+        "2/25402542833456613609240417719532147778971927798100076773791667431465762818620998812645399766274885662968867523769933569610657286830246448516845703125",
+        "2/641140734193701611429393318040823347052999613086018684123210744980774635733137649457916190273205846278281225779360763539216350181959569454193115234375",
+        "2/16180447438774697065694404827333574990792525780488386222540745104372630025018758214992434659738488774558519086611829695954156704829074442386627197265625",
+        "2/408309413067671346141349417591164157631501530845657633550030539605647353917726879838424114066170784804000188218491007585697616377728991210460662841796875",
+        "2/10302691004149381641008467862474723512329747929477640288413561290049473930249620107550934040971983756100934981792156819313532878368278034031391143798828125",
+        "2/259941167040174490712080007129258577096798939695345993451908977248944100313901705478531630757242447302546631453050961224615633682333282195031642913818359375",
+        "2/6557876474415361009973707942416226659633854528843774492336973056166283809289072706707247762254632517564247209032450049159823635136490338481962680816650390625",
+        "2/165430594320658993803635392665024722296193389132597478709405542027724127768265069411280118889455096314120715793465651692606410705366215552203357219696044921875",
+        "2/4172856919523349058948202169241094452538510376102514877759668941282279007607583028871976093063609492228381284028001303905430763308004316058941185474395751953125",
+        "2/105248724525755581820137988046414271191804650597252319694604983296786370525213483061548730347271039415093616830484032887392531474546331082819961011409759521484375",
+        "2/2654400651585685929164273046545029526753663544798544186130456076537894146505934760032451459198796038111942539006700829428732346659813856604159809648990631103515625",
+        "2/66939579750687057820627409798242556842805270616644509497394689266403225747038311088154616492895402271163616431282520916816285161399235903445514850318431854248046875",
+        "2/1687978580293299185303699835821484387919223815333135358538199415483977445785706329387448662645522589738216734684938027447856541407578134794675861485302448272705078125",
+        "2/42561691670485548127292860667172621369207896631253949491038289982696856197386372039275797824216503067433576464695325799382648844504384300080346292816102504730224609375",
+        "2/1073097970840965415549830635970203326010879946979487875465539864457356906253252146096634477057373534785293364056680022814222103845482880757344901212491095066070556640625",
+        "2/27053841247994803197933493881527277944789061954440675341378061983682310189296124780284350212733362322118682912399422516096949664458903850317028627614490687847137451171875"
+      ],
+      "remainder_upper": "1/327362798699585652085454662365593672871673502812729845553411528271168372667131350897834061988388635295260380680582133542060160793368828180405216699000447988510131835937500",
+      "lower": "3064831845913995119735271973362950487930148102480376184683877271105874509323780145396538367286514989741285126454637083830210952759746548714216247387365582431664958731941685194231900123537614630967003721370968827221416885662582289152839028086122115184261554038414656/7558805393179236537142346215148099658010717860544057547161559977953298390604634844580775371481590431317796525438586454032364505467373473957278547920186055485940786204164166973765311773350575577252787412568688405664074433259504159909880627310485579073429107666015625",
+      "upper": "2954497899461091295424802182321884270364662770791082642035257689346063026988124060162262986064200450110598861902270148812323358460395672960504462481420421464125020217591806785994755335349210224110297329573531037226597995635812092122271002844861177656100349778317827023/7286688399024784021805221751402768070322332017564471475463743818746979648542867990175867458108253175790355850522797341687199383270548028894816520195059357488446917900814256962709760549509954856471687065716215623060167753662162010153124924727308098226785659790039062500"
+    }
+  },
+  "lambda_interval": [
+    "8047652156460067833210891357385234199882839511675511717277352724278191669861390030366761356597597096035469372877163042244921460593049120259769582217462585891014881955703454529753379127915820776935423595883238061932385880246066610781726270590395864317668012318215882320699009/76033512081894181701292156238151635353322035053241492237313285574685165306595540414489148746395449973691132072804125965564354001270300788558988326037812554835200420511177333994602984491308498060205846651118922578636963369432837331799651565404511734146618865511174909767545868255232000",
+    "16095304312920135666421782714770468399765679023351023434744016112570382701936824948385520513427029512133016755403772999164288218116885139617380481220534695209230181689986849892608907675770037342416035769912617660856681090731092240203498322844134222364992224784645236051573893/152067024163788363402584312476303270706644070106482984474626571149370330613191080828978297492790899947382264145608251931128708002540601577117976652075625109670400841022354667989205968982616996120411693302237845157273926738865674663599303130809023468293237731022349819535091736510464000"
+  ],
+  "lambda_alternative": [
+    "62959260445892006085940882049088882797508157830372197226594536105182397938147016768853676907389305032779848510073469244242442152683092833330446735184389446561996050203855545203772096890564173810305570109988117920945746267817895610109370171888620036183445334961704026269027201109254874270806331705966363289787970206476376712049041708340850550552459534143640059577070095069/594833573409008126237276849028388343384400346522920381560120255787027796172699283597090151117829344588418397092015797532174069376522942138128271177800949668673544390886644569785311327968391805281332140946055511564784472633638993308446794659946115887412788073006594535949110506713159833136898057978289699479033185065241368689351999814640594571590881400879879947751760482788085937500",
+    "31479630222946003042970441024544441398754078915186098613297268052591198969073508384426838453694652583048171295790421500883608600357473646187334741436164861319799563736369660808993011846355860235405508060713109741423099754821524614412906727298057791530736947456170257867101089486036124749854170803002859805935195186100864666296468838840118826366665903872164191884458770451/297416786704504063118638424514194171692200173261460190780060127893513898086349641798545075558914672294209198546007898766087034688261471069064135588900474834336772195443322284892655663984195902640666070473027755782392236316819496654223397329973057943706394036503297267974555253356579916568449028989144849739516592532620684344675999907320297285795440700439939973875880241394042968750"
+  ],
+  "amplified_error_interval": [
+    "504785440242359741329342995825634847606115226000725933783344013937381008252781062093269062564733643765328665720799395770149419136908476424070027442308345220046558870937418153057951313695440884637603938070644468521518995736655157382749280148426738867727102225142206600001676643703932878004380315755110944086939372911359621501854343226257726695996814203900876594516146509022220275498061763334531226819428228511207713039835738967142547846649528108417/1464343087672254235414524992793845775437520814970235507396829389477604165389488859183414219088785229522338306953559824247465338083987707260408814163737717259102593232522409716542988986814263687161123323513370513025000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "1009570880484719482658685991651269695212230452001451867566688029198244235072470328143596629651784940754550200525876050511918351805895888223544624219617215565146064801210617572212086259990467395310933074829306870995470737319234946902958205599527919933231684573223782737847275197034424125919065163080510915494273603679731143266950777062303100844782110521650286955003951216206298377799556632883488187216336575062471459715447566093022103331196785131397/2928686175344508470829049985587691550875041629940471014793658778955208330778977718366828438177570459044676613907119648494930676167975414520817628327475434518205186465044819433085977973628527374322246647026741026050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "true_margin_lower": "37268150534916685072775825552980893888430614197840593618040019485602379436086659254827403987606512564166667000828731701350983412227480999988074998581801354455756205413653293438386524242679869922821699328919251609467290841424836655157382749280148426738867727102225142206600001676643703932878004380315755110944086939372911359621501854343226257726695996814203900876594516146509022220275498061763334531226819428228511207713039835738967142547846649528108417/1464343087672254235414524992793845775437520814970235507396829389477604165389488859183414219088785229522338306953559824247465338083987707260408814163737717259102593232522409716542988986814263687161123323513370513025000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "proof_checks": [
+    {
+      "name": "lambda independently lower",
+      "actual": "8047652156460067833210891357385234199882839511675511717277352724278191669861390030366761356597597096035469372877163042244921460593049120259769582217462585891014881955703454529753379127915820776935423595883238061932385880246066610781726270590395864317668012318215882320699009/76033512081894181701292156238151635353322035053241492237313285574685165306595540414489148746395449973691132072804125965564354001270300788558988326037812554835200420511177333994602984491308498060205846651118922578636963369432837331799651565404511734146618865511174909767545868255232000",
+      "relation": ">",
+      "required": "1323/12500000000000",
+      "difference": "12951060175177829400856500940679398790787189474227484380594680347352236880763325060051429643685098632810268143278811015148100517601796810852431133813724963733859804709252918193322722447721789220546207461489072727035020766362675002497505272575311308099198853180169477634487493469/3712573832123739340883406066315997819986427492834057238150062772201424087236110371801227966132590330746637308242388963162321972718276405691356851857315066154062520532772330761455223852114672756845988606011666141535007977023087760341779861592017174518877874292537837390993450598400000000000000",
+      "passed": true
+    },
+    {
+      "name": "lambda independently upper",
+      "actual": "16095304312920135666421782714770468399765679023351023434744016112570382701936824948385520513427029512133016755403772999164288218116885139617380481220534695209230181689986849892608907675770037342416035769912617660856681090731092240203498322844134222364992224784645236051573893/152067024163788363402584312476303270706644070106482984474626571149370330613191080828978297492790899947382264145608251931128708002540601577117976652075625109670400841022354667989205968982616996120411693302237845157273926738865674663599303130809023468293237731022349819535091736510464000",
+      "relation": "<",
+      "required": "2117/20000000000000",
+      "difference": "-9669871258423825603191023888992231763630834181645233351625425688152279975107005486643322118039524388631878992778005328960194844116575396067845719435768060368626291302653457505313877343473602827558262981037588288711470486713114633671030781258903846162002383500901818511399508131/1485029532849495736353362426526399127994570997133622895260025108880569634894444148720491186453036132298654923296955585264928789087310562276542740742926026461625008213108932304582089540845869102738395442404666456614003190809235104136711944636806869807551149717015134956397380239360000000000000",
+      "passed": true
+    },
+    {
+      "name": "alternative lambda lower",
+      "actual": "62959260445892006085940882049088882797508157830372197226594536105182397938147016768853676907389305032779848510073469244242442152683092833330446735184389446561996050203855545203772096890564173810305570109988117920945746267817895610109370171888620036183445334961704026269027201109254874270806331705966363289787970206476376712049041708340850550552459534143640059577070095069/594833573409008126237276849028388343384400346522920381560120255787027796172699283597090151117829344588418397092015797532174069376522942138128271177800949668673544390886644569785311327968391805281332140946055511564784472633638993308446794659946115887412788073006594535949110506713159833136898057978289699479033185065241368689351999814640594571590881400879879947751760482788085937500",
+      "relation": ">",
+      "required": "1323/12500000000000",
+      "difference": "1062418576684034553600178137221393256051279045787669642961015133888507509004591584079520296062567189322425269512823519814988734415174364646663027679710018349113278675498976099709920455467591336640671875892519387626334348054813871801049640920642897754032801119263019096752680311827216177685119766620926426674124375669887983629336555156490800783691097350945744396167972203/304554789585412160633485746702534831812812977419735235358781570962958231640422033201710157372328624429270219311112088336473123520779746374721674843034086230360854728133962019730079399919816604304042056164380421921169649988423164573924758865892411334355347493379376402405944579437137834566091805684884326133264990753403580768948223905095984420654531277250498533248901367187500000000000",
+      "passed": true
+    },
+    {
+      "name": "alternative lambda upper",
+      "actual": "31479630222946003042970441024544441398754078915186098613297268052591198969073508384426838453694652583048171295790421500883608600357473646187334741436164861319799563736369660808993011846355860235405508060713109741423099754821524614412906727298057791530736947456170257867101089486036124749854170803002859805935195186100864666296468838840118826366665903872164191884458770451/297416786704504063118638424514194171692200173261460190780060127893513898086349641798545075558914672294209198546007898766087034688261471069064135588900474834336772195443322284892655663984195902640666070473027755782392236316819496654223397329973057943706394036503297267974555253356579916568449028989144849739516592532620684344675999907320297285795440700439939973875880241394042968750",
+      "relation": "<",
+      "required": "2117/20000000000000",
+      "difference": "-15865034553360696421877434638431640496614805827277461685014404605928598459197029983500650221285206375402457534583468086919343267865120547668055236201675937773757655498776960160482806753493476220891126635546281108426418698806119928953897612004489712311183832709185110061744797760384359761173835760619839427675205443868848844683275057026181814530001054953098037683430199783/2436438316683297285067885973620278654502503819357881882870252567703665853123376265613681258978628995434161754488896706691784988166237970997773398744272689842886837825071696157840635199358532834432336449315043375369357199907385316591398070927139290674842779947035011219247556635497102676528734445479074609066119926027228646151585791240767875365236250218003988265991210937500000000000000",
+      "passed": true
+    },
+    {
+      "name": "ell strictly lower",
+      "actual": "693147180559/1000000000000",
+      "relation": "<",
+      "required": "472305362676400265091644208201071801927973402564370059259613418004095750590398623514080974394322905167301514164407186580439573544472412204044309086041150090653212510735468981619665393295661121590074022952617505984/681392604518505972021578019764771152174542880706363291823658014665038097113662569329567375213216600577970107266475673997783218966170924836645476655918262032243945280100824912558533701629636629769698760496737316375",
+      "difference": "-5153014767069330328594411234648503584867721293365821801608950285927822601595851120414056026456675722134197186535258415901606827535914388406040014751554333879253329836880375647173984236291212988376230561798141171/5451140836148047776172624158118169217396343045650906334589264117320304776909300554636539001705732804623760858131805391982265751729367398693163813247346096257951562240806599300468269613037093038157590083973898531000000000000",
+      "passed": true
+    },
+    {
+      "name": "q strictly upper",
+      "actual": "1098612288669/1000000000000",
+      "relation": ">",
+      "required": "1234588259529276292500331213039766520422206567768524067029017631607321570118685970049440425794131451697022123184743864080304146903734724481331418009378125791057506755118648821/1123770662556501663615723743617685806937859324795202693119096835501295837626168561952149272798590171375436926341565508927421735653241424622493620882541087876192204008456192000",
+      "difference": "1954106817666044279109112662408483805266764395128517642563398380942339535911721208304146785772597877379283021176557647752251546063180012193653095771599624114773635829079/2194864575305667311749460436753292591675506493740630259998236006838468432863610472562791548434746428467650246760870134623870577447737157465807853286213062258187898454016000000000000",
+      "passed": true
+    },
+    {
+      "name": "w strictly upper",
+      "actual": "1011600911679/1000000000000",
+      "relation": ">",
+      "required": "171924052902148752719248696055415369446268082993342091081383825537722877390950710863963569987151970891298755133740192110631733332636793227041787936683106474138901604299586336621600746921710685553102147563200088198713508747412533497031324323827351583287840712012779942548937359849392094194365373444378394519991750109228999353926728257812719836310839410690212585525340268775954635291/169952449545430893210650528293825240966971527577977251874320073082007941763628366742025757462236955596690970597718799294906876964720840610893791765085985619621012683110469877081517522276683372937523468841730146161366992181039712373841941331413175967832225163716169867414031573346617095181970873708082771279723767161497533911243428518468741306168823257394251413643360137939453125000",
+      "difference": "45254646546774916751989095537753002073593690829502423186567080475691036270310023653105052180107345172238752651922322576124648790844985302558300413951250636895701250114276564068047971797683110682971042725510549414555729126973849025253533288494817749863693783616273359327496377468457371004061807498060942656628724529839462383578704933451501146332478694408901493003951340383/87015654167260617323853070486438523375089422119924352959651877417988066182977723771917187820665321265505776946032025238992321005937070392777621383724024637245958493752560577065736971405661886944012016046965834834619899996692332735407073961683546095530099283822678972115984165553467952733169087338538378895218568786686737362556635401455995548758437507785856723785400390625000000000000",
+      "passed": true
+    },
+    {
+      "name": "outward error positive",
+      "actual": "504785440242359741329342995825634847606115226000725933783344013937381008252781062093269062564733643765328665720799395770149419136908476424070027442308345220046558870937418153057951313695440884637603938070644468521518995736655157382749280148426738867727102225142206600001676643703932878004380315755110944086939372911359621501854343226257726695996814203900876594516146509022220275498061763334531226819428228511207713039835738967142547846649528108417/1464343087672254235414524992793845775437520814970235507396829389477604165389488859183414219088785229522338306953559824247465338083987707260408814163737717259102593232522409716542988986814263687161123323513370513025000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "relation": ">",
+      "required": "0",
+      "difference": "504785440242359741329342995825634847606115226000725933783344013937381008252781062093269062564733643765328665720799395770149419136908476424070027442308345220046558870937418153057951313695440884637603938070644468521518995736655157382749280148426738867727102225142206600001676643703932878004380315755110944086939372911359621501854343226257726695996814203900876594516146509022220275498061763334531226819428228511207713039835738967142547846649528108417/1464343087672254235414524992793845775437520814970235507396829389477604165389488859183414219088785229522338306953559824247465338083987707260408814163737717259102593232522409716542988986814263687161123323513370513025000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "exact amplified identity",
+      "actual": "37268150534916685072775825552980893888430614197840593618040019485602379436086659254827403987606512564166667000828731701350983412227480999988074998581801354455756205413653293438386524242679869922821699328919251609467290841424836655157382749280148426738867727102225142206600001676643703932878004380315755110944086939372911359621501854343226257726695996814203900876594516146509022220275498061763334531226819428228511207713039835738967142547846649528108417/1464343087672254235414524992793845775437520814970235507396829389477604165389488859183414219088785229522338306953559824247465338083987707260408814163737717259102593232522409716542988986814263687161123323513370513025000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "relation": "=",
+      "required": "37268150534916685072775825552980893888430614197840593618040019485602379436086659254827403987606512564166667000828731701350983412227480999988074998581801354455756205413653293438386524242679869922821699328919251609467290841424836655157382749280148426738867727102225142206600001676643703932878004380315755110944086939372911359621501854343226257726695996814203900876594516146509022220275498061763334531226819428228511207713039835738967142547846649528108417/1464343087672254235414524992793845775437520814970235507396829389477604165389488859183414219088785229522338306953559824247465338083987707260408814163737717259102593232522409716542988986814263687161123323513370513025000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "margin threshold as printed",
+      "actual": "6362519491371/250000000000",
+      "relation": "=",
+      "required": "6362519491371/250000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "printed cap",
+      "actual": "1325859730438202850942226985830949/67113790726173775832193",
+      "relation": "=",
+      "required": "1325859730438202850942226985830949/67113790726173775832193",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "printed exponential sum",
+      "actual": "202750314819830504045671593478515759301/7661655986496068058455078125",
+      "relation": "=",
+      "required": "202750314819830504045671593478515759301/7661655986496068058455078125",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "printed prefix sign",
+      "actual": "-81/352",
+      "relation": "=",
+      "required": "-81/352",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "printed recipient Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "sum J",
+      "actual": "66061058",
+      "relation": "=",
+      "required": "66061058",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "sum H",
+      "actual": "199390205",
+      "relation": "=",
+      "required": "199390205",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "tail sum",
+      "actual": "166504460",
+      "relation": "=",
+      "required": "166504460",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "printed A",
+      "actual": "144318677",
+      "relation": "=",
+      "required": "144318677",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "printed D",
+      "actual": "162928754",
+      "relation": "=",
+      "required": "162928754",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "printed next J",
+      "actual": "16452748",
+      "relation": "=",
+      "required": "16452748",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "printed C",
+      "actual": "228739764",
+      "relation": "=",
+      "required": "228739764",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "all construction comparisons independently true",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "construction certificate unchanged",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "difference": "0",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "construction_checks": 196,
+    "compared_leaves": 1864,
+    "additional_checks": 23,
+    "failures": [],
+    "passed": true,
+    "cap": "1325859730438202850942226985830949/67113790726173775832193",
+    "required_cap": "20000000000",
+    "margin": "6362519491371/250000000000",
+    "required_margin": 25,
+    "parameter_samples": 0
+  }
+}

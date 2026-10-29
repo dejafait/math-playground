@@ -1,0 +1,5 @@
+# 2026-10-25: finite-height citation-only import
+
+Imported the approved target as [L466](../lemmas/L466-finite-height-all-order-laguerre-sign-import.md), using Sra v1 Theorem 1.3 and Platt–Trudgian Theorem 1. The factorial convention matches D_n; T=3*10^12 lies below the verified height. Closed endpoints, n=0 and central multiplicities are retained without division by the center value or a simplicity premise. This is local canonicalization of known mathematics, not a new sign theorem.
+
+The target's continuation test passed at citation-application level using the ready primary-case assessment. A fresh direct Sra PDF request failed in the web tool; the already completed source review remains the evidence basis, and Platt–Trudgian's statement was retrieved and confirmed. No new essential source gap was identified. Global low orders and effective overlap remain missing. The next nominated step is a critical application audit, with separate coverage approval required; no full manuscript audit is claimed. Existing unfinished work was preserved.

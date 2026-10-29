@@ -1,0 +1,45 @@
+{
+  "caps": {
+    "factor_trials": 10000,
+    "candidate_work": 200000
+  },
+  "used": {
+    "factor_trials": 84,
+    "candidate_work": 69552
+  },
+  "runs": [
+    {
+      "status": "MATHEMATICS_PASS_ACCOUNTING_REPAIRED",
+      "start": {
+        "factor_trials": 0,
+        "candidate_work": 0
+      },
+      "failures": [],
+      "end": {
+        "factor_trials": 42,
+        "candidate_work": 34776
+      },
+      "certificate_sha256": "253c8e1e5ace90906d8ec8ddf8efba42e851fda4b827df314e4512dfb3bc0f79",
+      "accounting_correction": {
+        "additional_record_passes": 6,
+        "records_per_pass": 3024,
+        "additional_charged_units": 18144,
+        "initial_certificate": "scripts/pair-genus-two/three-isogeny-eligibility-initial-accounting-omission.json",
+        "reason": "Initial ledger omitted post-enumeration table, set, zero-filter and minimum passes."
+      }
+    },
+    {
+      "status": "PASS",
+      "start": {
+        "factor_trials": 42,
+        "candidate_work": 34776
+      },
+      "failures": [],
+      "end": {
+        "factor_trials": 84,
+        "candidate_work": 69552
+      },
+      "certificate_sha256": "2e10573b933d85f115ec98738fbd36f6a817a6d55bdb2e9e385a11253edff179"
+    }
+  ]
+}

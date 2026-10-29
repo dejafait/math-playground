@@ -1,24 +1,25 @@
 # Current checkpoint
 
 STATUS: IN_PROGRESS
-CANDIDATE: No complete challenge candidate; frozen-model interval remains 11/q–16/q.
-STEP_ID: 2026-10-24-mca-462-l151-audit-source-scope
+CANDIDATE: No complete challenge candidate; no pair-free uniform bound. Radius remains 11/q–16/q.
+STEP_ID: 2026-10-29-mca-554-l174-audit-source-scope
 STEP_OUTCOME: EXPLORATION
-STEP_EVIDENCE: Completed target-specific source/import/duplicate/failure comparison; L151 audit scope is SPECIALIZE-ready, with no mathematical verdict or certificate execution. drafts/literature/2026-10-24-l151-critical-audit-review.md
+STEP_EVIDENCE: First separate audit-scope comparison completed; existing locator/shortening coverage suffices for the exact L174 audit, now SPECIALIZE in drafts/literature/2026-10-29-l174-critical-audit-review.md. No new mathematical result or correctness audit; L174 remains unaudited. History: history/554-2026-10-29-l174-audit-source-scope.md.
 STEP_KIND: LITERATURE
 STEP_CLASSIFICATION: NOVELTY_UNCHECKED
-STEP_REVIEW: drafts/literature/2026-10-24-l151-critical-audit-review.md
+STEP_REVIEW: drafts/literature/2026-10-29-l174-critical-audit-review.md
 ACTUAL_TASK_TYPE: literature_comparison
-LITERATURE_REASON: First gate-required comparison for the new L151 critical-audit target; reuse unchanged ready primary coverage.
 
-Bottleneck: L151's conditional pair exclusion still needs separate critical audit; arbitrary representation/extraction and challenge-definition gaps remain independent.
-Route decision: Scope approved for one REPRODUCTION proof audit of the unchanged target; preserve ATTEMPTS/045–047, both orders and every historical domain. No all-pair sweep or global bound claim.
-Exploration turns used: 0 mathematical EXPLORATION turns; this literature comparison spends no calculation budget.
-Continuation inputs and assumptions: L151 and its complete new_pair_complete_assembly.py / verify_new_pair_complete_assembly.py programs and certificates; audited L086/L109/L125, L126/L127/L129/L130/L132–L150; L128/L131 only as overlaps. Keep F_(97^20), order-sixteen H, k=8, S={1,8,12,18,22,27,33}, cell [1/4,5/16), represented t=0, sixteen actual original finite events, both syndromes in U_S, nonzero actual D/locators, arbitrary weights/prescribed chart and both fixed supports actual. Retain L040/L069/L056 finite-certificate qualifications, both orders, all historical lists and initial schema diagnostic. Universal representation/extraction and challenge equivalence remain unproved.
-Continuation test: Inspect complete proof/programs and all essential manifests/predicates; reproduce 382/382 thirds, 100,764/100,764 occurrences and 154/154 residual bindings in isolation, with unchanged inputs and zero uncovered cases. Actual-row selection precedes eligibility; any missing branch/hypothesis prevents an audited verdict.
-NEXT_REVIEW: drafts/literature/2026-10-24-l151-critical-audit-review.md
-Next action: Critically audit L151's conditional fixed-pair assembly, complete source bindings, and independent coverage replay.
+Bottleneck: Uniform twelve-row exclusion for an unspecified pair remains open; arbitrary representation and challenge equivalence are unproved.
+Route decision: Source coverage is ready for the exact first audit; next defaults to mathematics. L076 is a duplicate template, not an imported family conclusion. Creative discovery remains due, but no separately assessed new mechanism is ready and L174's first audit remains essential before downstream use. No cover obligation or cap changes; all 1665 obligations remain.
+Exploration turns used: Zero consecutive mathematical EXPLORATION turns; this literature scope comparison does not spend that budget or establish a new bound.
+LITERATURE_REASON: Invocation-start REVIEW_REQUIRED required separate scope comparison for L174's new all-extension first audit; prior source coverage was reused, with a narrow Hall hypothesis/proof check.
+Continuation inputs and assumptions: L174 in full, L010 moment injectivity/factorization/multiplicity and L109 (3)–(6), with the step-553 working check. L076 is comparison only. Retain fixed S/J, arbitrary E/F_97, all seven axes, twelve distinct linear two-plus-two supports, degree <=4, exact rank one, nonzero lambda and both overlap weights. Original prescribed charts remain arbitrary; the auxiliary chart is only an impossibility device. Coding use retains F=F_(97^20), order-sixteen H, k=8, unit multipliers, 1/4<=delta<5/16, syndromes in U_S, sixteen finite events, t=0, nonzero actual D/locators and inherited representation/finite-certificate qualifications. Other planes and challenge equivalence remain open.
+Continuation test: A separate full hypothesis audit must validate injective transport, full recovery, all thirteen distinct directions, nonpersistence and finite multiplicity divisibility over arbitrary extensions; otherwise record and repair the first failed implication. No cover mutation or new numerical sweep.
+NEXT_REVIEW: drafts/literature/2026-10-29-l174-critical-audit-review.md
+Next action: Critically audit L174's coordinate-axis twelve-row exclusion over every extension of F_97, checking full recovery, thirteen distinct directions, auxiliary-chart legitimacy, actual locator nonvanishing and the 96-versus-64 multiplicity contradiction without cover mutation.
 NEXT_TASK_TYPE: proof_audit
-NEXT_MODEL_ROLE: deep_research
+NEXT_MODEL_ROLE: standard
 NEXT_EFFORT: high
-NEXT_ROUTING_REASON: Complete proof/program and canonical-manifest audit must distinguish exact ordered coverage from count sums and validate actual-row/extension/chart applicability; ready source coverage avoids another literature turn.
+NEXT_REASONING_CLASS: routine_audit
+NEXT_ROUTING_REASON: Ready scope covers explicit recovery, scalar extension, finite-chart, determinant and multiplicity checks; standard/high supports a full independent replay of these algebraic implications without new mechanism development.

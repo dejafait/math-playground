@@ -1,0 +1,280 @@
+{
+  "scope": "Exact L130 arithmetic audit; canonical lemma supplies the symbolic proof.",
+  "input_sha256": "de3dae8850d9e6e39b9c165f2e7c9eb256db42c4ef9f9f32e2ed5783ad69640b",
+  "method": "Sequential ordered draws without replacement; all eight states and all saved mathematical fields compared.",
+  "ordered_draw_layers": [
+    [
+      1
+    ],
+    [
+      955,
+      7
+    ],
+    [
+      911070,
+      13370,
+      42
+    ],
+    [
+      868249710,
+      19132470,
+      120330,
+      210
+    ],
+    [
+      826573723920,
+      24310991880,
+      229589640,
+      802200,
+      840
+    ],
+    [
+      786071611447920,
+      28930080337200,
+      364664878200,
+      1913247000,
+      4011000,
+      2520
+    ],
+    [
+      746768030875524000,
+      33015007680812640,
+      520741446069600,
+      3646648782000,
+      11479482000,
+      14439600,
+      5040
+    ],
+    [
+      708682861300872276000,
+      36591633512900676000,
+      693315161297065440,
+      6075316870812000,
+      25526541474000,
+      48213824400,
+      33692400,
+      5040
+    ]
+  ],
+  "recomputed": {
+    "parameters": {
+      "q": 137,
+      "H": 1024,
+      "K": 60,
+      "Y": 962,
+      "residual_size": 7,
+      "total_blocks": 2571353,
+      "left_star_deleted": 18769,
+      "retention_required_each": 1532496,
+      "overlap_required_for_proposed_bridge": 18632
+    },
+    "conditional_sample_space_size": 820054659222096155122844006328438830947019475156738538204245104791500643048940463694858533318694957196848004571206989433745289378072586904730626170899257106249369475425031199219159856531621354331623901243055203262568342736564903898551539113597658547561360687265416581381526656672291399958736710894353293433782531499388733854470599580036116118634555490351162725843095686027771382315020135940489255151071746908221462712444583037151965462069191998086579452893956859828237181585475138802593947393540269643660826156152238970720618776927369309759681710148823219460847941030737715807955219898803728877879793964313241877402961473583914806311153837096087931011502090781010543648161057122194217040500153733050961669893655604682216607928025646138306465035915315988337154865084739757515091777707225557187281486491519195429493057762585052946398057571623532463434262720599073166023099283113516271497327036282540341390180375585250497880175623654951649342361579388046862101253252658503823561081877676969084546061842964422644627016701903084953573140952140065660364987620716151996123909891993001450866739401225829604930908264132750213595303484707454869299459221560935375728606080064765232914855774979632090311411955871466615674609060758972269658151713721411309900141269307832449194959117465811215280569655075699563419880205178013792137261045500838168407324251317138647294798254541997924893581104073902694338558744529915574586646207234956946724672584163708713833799477114368622415830043472916181513941775754234412360213773280647381270791341909885481261850821844122804070428547597556541863840454245323489562849262718986868040979491875593782038884576441073103227572730280123912983238540313509175649676355087793819963621361030703660906432665112968626778317581266767932275736225612617551678055593326878632175911245671889100724121822325042624180186393975108417573336029830772049489351759048337714933041692929668325064639752337383969486664477624608434763287749072651904097482870515789560786114911670759942708731171455481568768633783764519485955752056338752905933186654034244297544497791644149224129297256781064953747043843574082112032405455120282650640332061110712607410414187176763254550836314568139624094810629800966306123374590506324459520000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+    "subset_denominator": 148010696600541632,
+    "intersection_distribution": [
+      {
+        "intersection": 0,
+        "subset_count": 140611678829538150,
+        "injection_count": 708682861300872276000,
+        "probability": {
+          "numerator": 5408141493443775,
+          "denominator": 5692719100020832
+        },
+        "ordered_image_probability": {
+          "numerator": 5408141493443775,
+          "denominator": 5692719100020832
+        },
+        "forbidden": false
+      },
+      {
+        "intersection": 1,
+        "subset_count": 7260244744623150,
+        "injection_count": 36591633512900676000,
+        "probability": {
+          "numerator": 3630122372311575,
+          "denominator": 74005348300270816
+        },
+        "ordered_image_probability": {
+          "numerator": 3630122372311575,
+          "denominator": 74005348300270816
+        },
+        "forbidden": false
+      },
+      {
+        "intersection": 2,
+        "subset_count": 137562532003386,
+        "injection_count": 693315161297065440,
+        "probability": {
+          "numerator": 68781266001693,
+          "denominator": 74005348300270816
+        },
+        "ordered_image_probability": {
+          "numerator": 68781266001693,
+          "denominator": 74005348300270816
+        },
+        "forbidden": false
+      },
+      {
+        "intersection": 3,
+        "subset_count": 1205420014050,
+        "injection_count": 6075316870812000,
+        "probability": {
+          "numerator": 602710007025,
+          "denominator": 74005348300270816
+        },
+        "ordered_image_probability": {
+          "numerator": 602710007025,
+          "denominator": 74005348300270816
+        },
+        "forbidden": false
+      },
+      {
+        "intersection": 4,
+        "subset_count": 5064789975,
+        "injection_count": 25526541474000,
+        "probability": {
+          "numerator": 5064789975,
+          "denominator": 148010696600541632
+        },
+        "ordered_image_probability": {
+          "numerator": 5064789975,
+          "denominator": 148010696600541632
+        },
+        "forbidden": true
+      },
+      {
+        "intersection": 5,
+        "subset_count": 9566235,
+        "injection_count": 48213824400,
+        "probability": {
+          "numerator": 9566235,
+          "denominator": 148010696600541632
+        },
+        "ordered_image_probability": {
+          "numerator": 9566235,
+          "denominator": 148010696600541632
+        },
+        "forbidden": true
+      },
+      {
+        "intersection": 6,
+        "subset_count": 6685,
+        "injection_count": 33692400,
+        "probability": {
+          "numerator": 6685,
+          "denominator": 148010696600541632
+        },
+        "ordered_image_probability": {
+          "numerator": 6685,
+          "denominator": 148010696600541632
+        },
+        "forbidden": true
+      },
+      {
+        "intersection": 7,
+        "subset_count": 1,
+        "injection_count": 5040,
+        "probability": {
+          "numerator": 1,
+          "denominator": 148010696600541632
+        },
+        "ordered_image_probability": {
+          "numerator": 1,
+          "denominator": 148010696600541632
+        },
+        "forbidden": true
+      }
+    ],
+    "forbidden_subset_count": 5074362896,
+    "forbidden_pair_probability": {
+      "numerator": 317147681,
+      "denominator": 9250668537533852
+    },
+    "expected_conflict_edges": {
+      "numerator": 3798592669695986594,
+      "denominator": 16880782002799
+    },
+    "fourth_subset_union_probability": {
+      "numerator": 35,
+      "denominator": 1013232272
+    },
+    "existence_edge_cap": 225024,
+    "retained_bounds": {
+      "left": 2552584,
+      "right": 2346329,
+      "left_margin": 1020088,
+      "right_margin": 813833,
+      "right_deletion_budget": 1038857,
+      "ambient_common_star_overlap": 0
+    },
+    "checks": {
+      "ground_size": true,
+      "conditional_bijection_ground": true,
+      "hypergeometric_partition": true,
+      "injection_partition": true,
+      "every_probability_agrees": true,
+      "tail_below_independent_union_bound": true,
+      "floor_brackets_expectation": true,
+      "left_threshold": true,
+      "right_threshold": true,
+      "deletion_budget": true,
+      "ambient_overlap_below_required": true
+    },
+    "failures": []
+  },
+  "strict_expectation_floor_remainder": 11580298144418,
+  "checks": {
+    "draw_partition_1": true,
+    "draw_partition_2": true,
+    "draw_partition_3": true,
+    "draw_partition_4": true,
+    "draw_partition_5": true,
+    "draw_partition_6": true,
+    "draw_partition_7": true,
+    "images_divisible_by_7_factorial": true,
+    "full_saved_row_0": true,
+    "full_saved_row_1": true,
+    "full_saved_row_2": true,
+    "full_saved_row_3": true,
+    "full_saved_row_4": true,
+    "full_saved_row_5": true,
+    "full_saved_row_6": true,
+    "full_saved_row_7": true,
+    "exactly_eight_rows": true,
+    "strict_expected_edge_bracket": true,
+    "canonical_probability": true,
+    "canonical_expectation": true,
+    "canonical_counts": true,
+    "left_strict_threshold": true,
+    "right_strict_threshold": true,
+    "loss_within_budget": true,
+    "union_bound_comparison": true,
+    "conditional_extension_count": true,
+    "q_prime": true,
+    "seven_distinct_T": true,
+    "saved_field_parameters": true,
+    "saved_field_conditional_sample_space_size": true,
+    "saved_field_subset_denominator": true,
+    "saved_field_intersection_distribution": true,
+    "saved_field_forbidden_subset_count": true,
+    "saved_field_forbidden_pair_probability": true,
+    "saved_field_expected_conflict_edges": true,
+    "saved_field_fourth_subset_union_probability": true,
+    "saved_field_existence_edge_cap": true,
+    "saved_field_retained_bounds": true,
+    "saved_field_checks": true,
+    "saved_field_failures": true,
+    "complete_saved_schema": true,
+    "ground_count": true
+  },
+  "failures": [],
+  "symbolic_obligations": [
+    "Nonempty conditional sample space of 962! bijections",
+    "All sample-space labelings have zero right ambient star",
+    "Cross supports are distinct; intersection is 60+j",
+    "Polynomial blocks are distinct; expectation counts actual edges",
+    "Finite averaging gives an integer edge count at most floor(expectation)",
+    "Deleting right endpoints costs at most the number of edges",
+    "L030 packing survives arbitrary bijections and deletion"
+  ],
+  "qualification": "No sampled labeling or RS realization; symbolic obligations are reviewed in L130, not proved by these checks."
+}

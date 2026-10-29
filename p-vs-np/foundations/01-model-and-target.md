@@ -1,6 +1,6 @@
 # Exact target and conventions
 
-Source audit: 2026-09-24; statement reconfirmed 2026-09-25. The [Clay Mathematics Institute problem page](https://www.claymath.org/millennium/p-vs-np/) currently labels the problem unsolved and links Stephen Cook's [official description, §1, pp. 1–2](https://www.claymath.org/wp-content/uploads/2022/06/pvsnp.pdf). Its target is equality of deterministic and nondeterministic polynomial-time language classes. The notebook uses the equivalent certificate definition below. Historical algorithmic records in that older description are not treated as current records.
+Source audit: 2026-09-24; statement reconfirmed 2026-09-25 and 2026-10-27. The [Clay Mathematics Institute problem page](https://www.claymath.org/millennium/p-vs-np/) currently labels the problem unsolved and links Stephen Cook's [official description, §1, pp. 1–2](https://www.claymath.org/wp-content/uploads/2022/06/pvsnp.pdf). Its target is equality of deterministic and nondeterministic polynomial-time language classes. The notebook uses the equivalent certificate definition below. Historical algorithmic records in that older description are not treated as current records. The 2026-10-27 check read the current linked 12-page PDF; its URL date is not asserted as a publication version.
 
 All languages are subsets of {0,1}*. Input length means the full binary description length, including indices, clocks, and padding. Deterministic machines must halt on every input. Changing between standard finite-tape Turing-machine conventions only changes polynomial overhead.
 

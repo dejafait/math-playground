@@ -1,0 +1,174 @@
+{
+  "completed": true,
+  "failures": [],
+  "checks": 59,
+  "bindings": {
+    "marked-dyadic-abel-certificate.json": "66b6017acccd1d494720adb8b91f0dad9d1240ae22ea621fe0c19935008ca826",
+    "two-adic-filter-certificate.json": "18a2ac2527d1a3cf2c1c8e78bd9ce8bdd4cdc98b38375419554600e73b11736e",
+    "two-adic-filter-audit.json": "538970ae98c36ac4ea42ebfe7551e7c3cbf836904bb7334b2a30a11e7c793958",
+    "odd-model-support-certificate.json": "22315e6ebcbaa4ff063206432a958935aeb01b07ea6652bcc51d851c45162193",
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b"
+  },
+  "rows": [
+    {
+      "chart": "t",
+      "center": 0,
+      "modulus": 8,
+      "field_valuation": 0,
+      "difference_bound": 24,
+      "strict_required": 8,
+      "mask": 352,
+      "field_unit_residue": 497,
+      "curve_value": "2673",
+      "source_valuation": 0
+    },
+    {
+      "chart": "t",
+      "center": 2,
+      "modulus": 8,
+      "field_valuation": 0,
+      "difference_bound": 20,
+      "strict_required": 8,
+      "mask": 208,
+      "field_unit_residue": 241,
+      "curve_value": "-173503",
+      "source_valuation": 0
+    },
+    {
+      "chart": "t",
+      "center": 4,
+      "modulus": 8,
+      "field_valuation": 0,
+      "difference_bound": 24,
+      "strict_required": 8,
+      "mask": 352,
+      "field_unit_residue": 497,
+      "curve_value": "88276529",
+      "source_valuation": 0
+    },
+    {
+      "chart": "t",
+      "center": 6,
+      "modulus": 8,
+      "field_valuation": 0,
+      "difference_bound": 20,
+      "strict_required": 8,
+      "mask": 208,
+      "field_unit_residue": 241,
+      "curve_value": "3710426049",
+      "source_valuation": 0
+    },
+    {
+      "chart": "t",
+      "center": 3,
+      "modulus": 16,
+      "field_valuation": 10,
+      "difference_bound": 20,
+      "strict_required": 18,
+      "mask": 208,
+      "field_unit_residue": 225,
+      "curve_value": "2737152",
+      "source_valuation": 10
+    },
+    {
+      "chart": "t",
+      "center": 13,
+      "modulus": 16,
+      "field_valuation": 10,
+      "difference_bound": 20,
+      "strict_required": 18,
+      "mask": 208,
+      "field_unit_residue": 225,
+      "curve_value": "2317904602112",
+      "source_valuation": 10
+    },
+    {
+      "chart": "q",
+      "center": 0,
+      "modulus": 8,
+      "field_valuation": 0,
+      "difference_bound": 24,
+      "strict_required": 8,
+      "mask": 0,
+      "field_unit_residue": 1,
+      "curve_value": "3025",
+      "source_valuation": 0
+    },
+    {
+      "chart": "q",
+      "center": 2,
+      "modulus": 8,
+      "field_valuation": 0,
+      "difference_bound": 20,
+      "strict_required": 8,
+      "mask": 432,
+      "field_unit_residue": 257,
+      "curve_value": "-727903",
+      "source_valuation": 0
+    },
+    {
+      "chart": "q",
+      "center": 4,
+      "modulus": 8,
+      "field_valuation": 0,
+      "difference_bound": 24,
+      "strict_required": 8,
+      "mask": 0,
+      "field_unit_residue": 1,
+      "curve_value": "33612689",
+      "source_valuation": 0
+    },
+    {
+      "chart": "q",
+      "center": 6,
+      "modulus": 8,
+      "field_valuation": 0,
+      "difference_bound": 20,
+      "strict_required": 8,
+      "mask": 432,
+      "field_unit_residue": 257,
+      "curve_value": "2758176289",
+      "source_valuation": 0
+    }
+  ],
+  "result": {
+    "marked_point_masks": [
+      0,
+      208,
+      352,
+      432
+    ],
+    "marked_count": 4,
+    "jacobian_masks": [
+      0,
+      36,
+      208,
+      244,
+      324,
+      352,
+      404,
+      432
+    ],
+    "jacobian_count": 8,
+    "excluded_masks": [
+      36,
+      244,
+      324,
+      404
+    ],
+    "strict": true,
+    "rational_projection_zero_masks": [
+      0,
+      208,
+      352,
+      432
+    ],
+    "new_rank_bound": null,
+    "independent_global_pruning_claimed": false
+  },
+  "all_rows_replayed": 10,
+  "inherited_arithmetic_checks": 852,
+  "max_rational_bits": 417,
+  "rational_bits_cap": 8192,
+  "unresolved": []
+}

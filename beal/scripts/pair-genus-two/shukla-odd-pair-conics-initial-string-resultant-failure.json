@@ -1,0 +1,23 @@
+{
+  "completed": false,
+  "failures": [
+    {
+      "message": "resultant value",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/verify_shukla_odd_pair_conics.py\", line 147, in <module>\n    try:main()\n        ~~~~^^\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/verify_shukla_odd_pair_conics.py\", line 137, in main\n    ck(out['resultant']==ev(out['H'],Q(9075))==3**5*5**6*11**7,'resultant value')\n    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/verify_shukla_odd_pair_conics.py\", line 18, in ck\n    assert ok,name\n           ^^\nAssertionError: resultant value\n"
+    }
+  ],
+  "bindings": {
+    "shukla-odd-pair-conics-certificate.json": "1e655a9afa14aa8a2626ced49c941473ce1261fb4e53d1eb3d1bdf8b96a9095c",
+    "shukla-good-conics-certificate.json": "8a3cc2051ef948d0c16832c9be692752f18d7e9df57ba0fc7c10834232afee70",
+    "shukla-quartic-pair-conics-certificate.json": "73481998a27e4199367246042d5abf82b65abe8f886f05ec84849d2949c55eb6",
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+    "odd-model-support-certificate.json": "22315e6ebcbaa4ff063206432a958935aeb01b07ea6652bcc51d851c45162193",
+    "two-adic-filter-certificate.json": "18a2ac2527d1a3cf2c1c8e78bd9ce8bdd4cdc98b38375419554600e73b11736e",
+    "shukla-good-conics-verification.json": "9764ddec0381b1a43d9f953094941992dce6a1f81ac808f1d5efc9f894a4eced",
+    "shukla-quartic-pair-conics-verification.json": "3ddbdd6cab7eaa0ee42c086eaf5691149779ad1db96d10ddccedd0f444f07ddb"
+  },
+  "checks": 752,
+  "new_mixed_symbols": 2,
+  "full_goodness_decided": false,
+  "pairing_computed": false
+}

@@ -1,0 +1,7 @@
+# 2026-10-28 — enhanced local contact source comparison
+
+STEP_ID: 2026-10-28-536-enhanced-local-contact-source-comparison
+
+ADVANCE / LITERATURE / REPRODUCTION. Completed the entry REVIEW_REQUIRED assessment in [enhanced-local scope](../drafts/literature/2026-10-28-enhanced-local-contact-beta-scope.md). [Step536 source record](../drafts/2026-10-28-step536-enhanced-local-contact-source-review.md) identifies II 4.9's split model, Kummer image data, its use in III 3.8(ii), and the canonical realification construction with correction-qualified hypotheses. This is useful local source coverage, not new mathematics, beta_v, native membership or an IUT flaw. No lemma/scripts, PROOF or DAG edits were made.
+
+The distinction between full enhanced horizontal links, unit-strip comparisons and realified comparisons prevents silently promoting L128 to an enhanced local equivalence. The [new model-application assessment](../drafts/literature/2026-10-28-enhanced-local-beta-model-application.md) prepares one bounded lift test for separate approval: compare the actual divisor/splitting data to the prescribed real map and check the resulting realification square, or park this sufficient construction on an exact unmatched input. Creative testing remains blocked by the missing action on the retained determinant/formal marked diagram. Preserve step530 and ATTEMPTS/003–006,037–041; no historical stop was promoted to a global ban.

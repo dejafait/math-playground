@@ -1,0 +1,44 @@
+{
+  "purpose": "Exact-decimal bookkeeping for the L467 proof audit; the analytic all-height proof is canonical in L467, not certified by numerical sampling.",
+  "startup_exact_target_match": true,
+  "startup_target": "Critically audit L467's A=18 half-open and closed unit-shell bounds against Bellotti\u2013Wong v2 Theorem 1.1, checking endpoint conventions, multiplicities, compact heights and exact all-height inequalities.",
+  "assessment_path": "drafts/literature/2026-10-25-l467-critical-audit-coverage.md",
+  "decimal_checks": {
+    "b": {
+      "actual": "0.34536",
+      "required_equal": "0.34536",
+      "passed": true
+    },
+    "2b": {
+      "actual": "0.69072",
+      "required_equal": "0.69072",
+      "passed": true
+    },
+    "2d": {
+      "actual": "16.16688",
+      "required_equal": "16.16688",
+      "passed": true
+    },
+    "large_shell_coefficient": {
+      "actual": "17.85760",
+      "required_equal": "17.85760",
+      "passed": true
+    },
+    "margin_to_18": {
+      "actual": "0.14240",
+      "required_equal": "0.14240",
+      "passed": true
+    },
+    "compact_upper_envelope": {
+      "actual": "8.77416",
+      "required_equal": "8.77416",
+      "passed": true
+    },
+    "compact_margin_to_9": {
+      "actual": "0.22584",
+      "required_equal": "0.22584",
+      "passed": true
+    }
+  },
+  "failures": []
+}

@@ -1104,6 +1104,117 @@ Attempts 036/037/038 remain parked. No mathematical dependency or argument chang
 so DAG.md and PROOF.md are unchanged this step. Full matching Mathlib coverage
 remains not checked.
 
+### 13. Independent immutable-byte boundary audit — step 468, 2026-10-24
+
+**Hypotheses and sources.** This is the exact finite audit approved before
+invocation in `drafts/literature/2026-10-24-immutable-byte-checker-critical-audit.md`.
+It receives §12's implementation and §10's caller-selected bounded interface,
+with trusted caller paths and the remaining SHA provenance assumptions.
+Reuse §1's Shoenfield, *Mathematical Logic* (1967), §2.6 pp.21–22 literal
+rules, separately added constant axioms, and audited L035/L036 corrections.
+The official Python binary I/O, IOBase.readline and BytesIO specifications at
+https://docs.python.org/3/library/io.html and bytes.splitlines at
+https://docs.python.org/3/builtins/stdtypes.html#bytes.splitlines are the
+previously inspected API inputs. Runtime is Python 3.15.0; the assessment
+recorded rendered documentation 3.15.1. No source theorem certifies this
+implementation. No completeness result or new algebraic lemma is used.
+
+**Conclusion and independent code review.** No substantive defect was found
+in this finite boundary and retained caller-authorization audit. The old checker
+and request snapshots are pinned to the actual/recorded hashes in step 464's
+`dependency-preservation.json`, not merely accepted as baselines because of
+their filenames. All unchanged generic dependencies and all four occurrence
+modules still match the audited hashes. All three current step-466 files match
+its recorded implementation hashes.
+
+The entire checker, request module, old checker and test harness were read.
+The full checker module, after removing only the new io import and two functions
+and restoring the old check function, has exactly the old AST. Thus the engine
+test does not overlook changes to tree normalization, variable collection,
+node counting or other module definitions. The old check body consists of
+expected-tree normalization, two initialization statements, a binary-file with
+block, and final endpoint/receipt statements. The harness compares precisely
+the two initializations, complete with-body and final statements to the new
+helper; no literal rule branch is omitted. Separate wrapper AST comparison
+checks normalization followed by opening the binary path and calling the helper.
+Closing the ordinary binary file now follows helper completion; no mutable
+caller stream is admitted by either public interface. This is not a claim
+about arbitrary monkey-patched file objects or resource-exhaustion exceptions.
+
+The byte wrapper first requires exact bytes and an exact nonnegative int limit
+(not bool), and rejects overflow before expected normalization or stream parsing.
+It then performs the same normalization and creates private BytesIO. For fixed
+bytes, LF-delimited chunks agree with the old binary file; the unchanged engine
+therefore checks the same seven directed rule cases, ordered arguments,
+backward references and endpoints and accumulates the same full receipt. It
+does not substitute splitlines framing. Strict caller preflight still uses
+splitlines, so an internal CR accepted as checker JSON whitespace need not pass
+that stronger caller preflight. This existing distinction is retained.
+
+The complete request diff changes only the former path checker call and its
+comments: read the second bytes with the existing bounded reader, compare them
+to the retained first bytes, and call check_bytes on the first object under
+the unchanged cap. The reader checks stat size, requests cap+1, then checks
+returned length. A changed in-cap second read exits before either parser sees
+it; an oversized read exits at the byte cap. There is no fallback or third source
+open. Unchanged digest/header/goal/reference/dictionary preflight and final
+receipt-SHA binding remain necessary. Exact equality removes SHA dependence
+only for this cross-read comparison.
+
+**Complete replay and authorization evidence.** The audit program is
+`scripts/four-rule-extraction/audit_immutable_bytes.py`; run from the notebook
+root with `PYTHONDONTWRITEBYTECODE=1 python3 scripts/four-rule-extraction/audit_immutable_bytes.py`
+in a workspace where output-468 does not yet exist. It deliberately refuses
+to overwrite its output directory. The original harness is reused for its
+reviewed cases, with output redirected; its hard-coded regression path is not
+used. Independent receipt reconstruction uses explicit LF segmentation, counts
+raw formula nodes/tags and hashes complete original bytes without checker helpers.
+The fresh generic driver compares full saved results with only output-path
+relocation, including complete construction/reception JSON and all polynomial
+words. No transient counter exception was needed in this run.
+
+All six fixture receipts, six framing cases, nine primitive/endpoint failures,
+eight preparse type/cap failures and five intercepted-read cases match the full
+step-466 evidence. Ten accepted fixture/framing receipts are independently
+reconstructed. Every intercepted read requests 2,000,001 bytes against the
+2,000,000-byte acceptance cap. The stable 682-byte object is exactly the first
+read and is parsed without path opens. Replacements of 683, 322 and 8 bytes
+reject by equality; 2,000,001 bytes reject by cap. Replacement bytes never enter
+the strict parser or checker. Accepted fixture source maximum is 824 bytes.
+
+The six regenerated source/request/certificate triples are byte-identical to
+both steps 457 and 466. Complete reception agrees at 35 roots and 56 blocks;
+all 192 earlier-fixture polynomial comparisons, 47 rejection reasons and the
+neutral duplicate-label acceptance replay. Maxima remain 17,689 graph records
+against 2,000,000, 223,971 certificate bytes against 200,000,000, 45,260
+multiplication pairs against 100,000,000, nine words against 1,000,000,
+length four against 256, and 4,223 stored words against 20,000,000.
+
+Generic reception still compares full source text, original caller SHA, freshly
+checked typed receipt, complete ordered dictionary and symbol map. Its foreign
+singleton certificate rejects at source retention. The whitespace interception
+matches step 459's full original/replacement hashes, two reads and exact reason.
+Occurrence reception separately retains K's checked certificate digest and
+bind_K's comparisons against the ORIGINAL context, as specified in L097 §9.
+Four focused bind_K units on a generic fixture reject changed text, changed
+digest, reversed dictionary and a foreign certificate with the same step-464
+reasons. These units do not execute a positive occurrence endpoint/composition.
+Old source hashes alone were not used to certify the changed shared boundary.
+
+Full receipts, module comparisons, authorization results, replay artifacts and
+actual/required bounds are in `scripts/four-rule-extraction/output-468/`.
+`verification.json` records no failures; all 1,014 protected files (the prior
+885-file manifest plus the step-466 archive) retain their hashes. No production
+code, extraction identity or mathematical DAG input changed.
+
+**Qualification.** This is independent local verification evidence, not a new
+result beyond the assessed mathematics. No total interpreter work/memory,
+filesystem latency or atomic snapshot bound follows; later path changes are
+unobserved, and legacy path checking remains uncapped. Trusted paths and other
+SHA bindings persist. Positive occurrence reception, proof availability, M-only
+bounds, universal W₂, arbitrary ER and unrestricted SAT remain unresolved.
+Attempts 036/037/038 remain parked. Full matching Mathlib coverage is not checked.
+
 ## Mathlib
 
 Full matching theorem, explicit graph construction and binary ledger:

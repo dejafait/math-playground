@@ -1,0 +1,12 @@
+# Ordinary-middle radical audit checkpoint — step 567
+
+2026-10-26. Exact approved target: Critically audit L170's actual ordinary-middle radical identification and its rank-48 section-test consequences.
+Prior gate: drafts/literature/2026-10-26-ordinary-middle-radical-critical-audit.md, SPECIALIZE, unchanged before invocation. RESEARCH / REPRODUCTION; actual task proof_audit.
+
+Main gap remains primitive realization and F existence. The intermediate reliability test concerns the domain of the actual section quadrics, not their values. Read L170 in full, L111's actual paired complex and incoming variation, L164's actual-j construction and audit, L094's actual smooth-family and harmonic bridges, and ATTEMPTS/092–094. Reused the approved primary-source coverage; no further browsing or mathematical script is needed.
+
+Checks so far: the projective ordinary middle module specifies the actual truncation inclusion uniquely in the derived category. Its orthogonal-complement representative reduces to the annihilator of the actual incoming plane because the pairing on that plane is a unit. The incoming sign is minus ad(h_0) applied to KS; ad(h_0) has weights +2,-2, and Omega(ad(h_0)xi,eta)=2B(xi,eta). This gives Q=K-perpendicular for B, with no ordinary-middle-base-change isomorphism. The actual unitary slice has a smooth second derivative despite the stabilizer, and its (0,2) curvature equation kills the Yoneda square of each actual base tangent. The convention u=(t-iIt)/2 removes, rather than introduces, a factor two. No defect has been found.
+
+Remaining audit check before finalization: record explicitly why all complex KS directions are covered by real tangents, distinguish symmetric obstruction from nonzero alternating KS pairing, and check the radical/quotient bound including t=0 and empty support. Preserve unknown section values and intersection; no stronger threshold or exclusion is being attempted. A possible next target is comparison of KS with the extended tangent-summand image, but it is not covered by this audit and must receive a separate REVIEW_REQUIRED source assessment before mathematical work.
+
+Completed: the separate audit is now canonical in L170. All complex directions and both vacuous cases were checked; no defect or stronger conclusion was found. Outcome EXPLORATION / REPRODUCTION. The section intersection stays unknown and the threshold stays 26. No dependency or argument change, numerical evidence or new lemma. The proposed next comparison has a separate REVIEW_REQUIRED assessment and was not derived here.

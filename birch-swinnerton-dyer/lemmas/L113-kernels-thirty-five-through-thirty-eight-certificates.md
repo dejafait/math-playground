@@ -37,7 +37,11 @@ zero. All 1391 captured inputs survive preservation after terminal
 writing, under inclusive bounds 119 seconds/12393323 new bytes versus
 180/134217728.
 
-This is known-method REPRODUCTION, with separate critical audit pending.
+This is known-method REPRODUCTION. The separate step-463 critical audit
+below passes all four full signed replays, with all 1486 captured inputs
+preserved after terminal writing, inclusive bounds 147 seconds/13663063
+new bytes, four observed zero-code children and tool-observed parent
+exit zero. These bounds are below 180 seconds/134217728 bytes.
 Ninety kernels, signed assembly, exact-parameter transfer and strict
 zero exclusion remain. The arbitrary-curve rank comparison, full Sha
 and refined BSD remain unresolved. L035 already imports this fixed
@@ -160,12 +164,116 @@ Python signal-dispatch guarantee are not claimed. Actual interpreter:
 Python 3.15.0, optimize=0, as retained in manifest.json. Fresh timing
 repairs no historical qualification. These are J_n(c_*) inputs only;
 signed assembly, exact-parameter transfer and derivative nonvanishing
-remain to be established. Separate critical audit is still required.
+remain to be established. These production claims are distinguished
+from the separate critical audit below.
+
+### Separate critical audit — 2026-10-24, step 463
+
+**Scope and imported containment.** The prior SPECIALIZE assessment is
+`drafts/literature/2026-10-24-kernels-thirty-five-through-thirty-eight-audit.md`.
+The complete fresh evidence is in `scripts/four-rational-kernels/step-463/`.
+The attempt audits existing midpoint inputs; it executes neither producer
+nor historical entrypoint and introduces no new analytic estimate.
+Apply the audited L102 containment theorem at the same entire audited
+L103 parameter and integer indices 35–38. The positive panel arguments,
+smoothness and branch hypotheses of the standard DLMF inputs cited
+above are unchanged. This applicability argument and complete arithmetic
+reconstruction suffice; no reproof of Taylor's theorem is needed.
+
+**Whole sources and lexical controls.** The direct coordinator retains
+and compiles its whole actual `-c` argument with flags=0,
+dont_inherit=True, optimize=0, preserving its complete diff against
+step 459. The whole original step-461 coordinator is compiled and its
+diff against step 457 checked. The production worker is reconstructed
+from the whole step-457 worker with exactly the two approved changes.
+The restricted step-417 expression reconstructs all eight complete
+arithmetic texts from the whole step-412 templates; every exact-once
+change, complete diff, review map and the ten-source hash map agrees.
+Both scalar and panel exponential arguments and both pre-clip tests
+are bound at each index. All three original identities per index match
+the fixed path, unique production prefix and both source hashes.
+
+The step-459 installer is byte-for-byte unchanged. Worker/preflight
+adaptation changes only identity_for's fixed path and fresh prefix,
+check_identity's allowed tuple and the preflight loop tuple. Exact
+changed AST-site lists, untouched AST, static bindings, permitted calls
+and all nine closure captures are checked before any replay. The -422
+sentinel and installer labels remain unchanged. All four inert
+preflights pass; their controls cover all nine multiplication sign
+cases, eleven zero-operand controls and 21 quotient controls. Counters
+and the replay ledger reset afterward. Distinct immutable fresh
+identities and original primitive/counter captures survive each replay.
+
+**Complete signed reconstruction.** Each replay independently rebuilds
+the entire L103 parameter record, including both arctangent term lists
+and adjacent sums, pi grids, square-root witness and squared inequalities,
+both c endpoints, midpoint and delta. Every one of 1016 panels is
+reconstructed, including scalar traces, full coefficient arrays, reverse
+convolutions with 21264880 pairs, every stored field, signed integrals
+and running sums. No digest or saved PASS label replaces reconstruction.
+The unchanged installer checks every encountered floor/ceiling by its
+integer inequalities and every interval product by the four extrema,
+independently of the replayer's sign-case implementation; it also checks
+division, conversion, addition, negation, clipping and product lengths.
+
+Deep copies of the full returned report and both fresh ledgers are saved
+before comparison. Complete reports, original ledgers, metadata addition
+of n only, final grid, polynomial sum, midpoint, reduced radius, parameter
+identity and status contracts all agree. The full count map above is
+unchanged. For every index the signed counts include multiply=21801456,
+divide=716408, convert=5083, negate=356616, clip=24386, plus=521336,
+products=2032 and floor=ceiling=22522948. The latter equals multiply+
+divide+convert+1. The observed sign-case vector is
+[5644008,5527040,0,5266944,5363464,0,0,0,0], summing to multiply;
+there are 896 zero-operand multiplications. Missing sign cases in this
+particular arithmetic are covered by the separate inert controls.
+
+The endpoints are exactly those in the conclusion. Exact Fraction
+comparison checks the reduced midpoint and radius, the enlargement of
+exactly +/-2^72 grid units, u-l=2^73+w and both strict radius tests.
+In particular 0<w<=1020<2^73 gives radius <2^-183<2^-50.
+The denominator reduction for n=35,36 is retained. L102 therefore
+encloses J_n(c_*), without asserting an enclosure at the exact c.
+
+**Provenance and bounded lifecycle.** All nineteen transition suffixes
+through the exact post-461 note edit pass with matching before values.
+Every complete recursive report remains at its original boundary:
+449 post-446, 451 post-449, 453 post-451, 455 post-453, 457 post-455,
+459 post-457 and 461 post-459. All original inventories, complete trees
+and source maps match, including the five step-459 fresh sources and
+ten step-461 production sources. No projection, rebasing or pathname
+exemption is used. Failed-444 flags, absences and empty exits/completions,
+step-429 postmortem, ATTEMPTS/045–050 and all historical timing
+qualifications remain intact. Complete step-461 manifest, terminal,
+finalization, exit, status, working and stdout contracts and byte/reserve
+relations are checked against the whole source.
+
+One clock starts before setup/imports, capture and materialization;
+the four signed replays execute once in order. Observed zero-code
+child exits occur at elapsed seconds 38.88985725003295,
+74.46013008314185, 109.32942504202947 and 143.73006833298132.
+All 1486 captured inputs, whole tree sets and fresh sources match
+after terminal writing. Finalization records elapsed
+144.12638491694815 seconds and 13532806 bytes before its own write.
+Inclusive bounds 147 seconds/13663063 new bytes satisfy the required
+180/134217728, with 174-second work deadline and 131072-byte reserve.
+The timer remains armed through final writing; the tool observes
+parent exit zero. No failure, retry, resumption, enlargement or other
+kernel occurs. Actual interpreter is Python 3.15.0, optimize=0.
+
+An exact retained parent-exit timestamp and hard Python signal-dispatch
+bound remain unproved, including historical qualifications. The later
+editorial update to this file and the attempt note is recorded in
+`drafts/2026-10-24-l113-audit-document-transition.json`; it does not
+change the pre-edit preservation statement. This validates known-method
+midpoint inputs only. Ninety kernels, signed assembly, exact-parameter
+transfer and zero exclusion remain; the general rank comparison,
+full Sha and refined BSD are unresolved. No candidate is asserted.
 
 ## Mathlib
 
 Full matching coverage is not checked; no absence claim or
 formalization is asserted. Supporting integration and series theorems
 are distinguished from a complete matching executable-certificate
-theorem. Known-method production and independent replay pass;
-the separate critical audit remains pending.
+theorem. Known-method production, independent replay and the separate
+complete signed critical audit pass.

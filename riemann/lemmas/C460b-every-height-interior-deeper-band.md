@@ -56,8 +56,9 @@ additive theta error is negligible relative to (4), as quantified
 in the proof. No effective numerical onset is claimed.
 
 This is a conditional partial result and local REPRODUCTION of the
-assessed parameter method. It awaits a separate critical audit, makes
-no originality claim and is not an RH candidate. Initial low indices,
+assessed parameter method. The separate critical audit below validates
+this conditional transfer; it makes no originality claim and is not an
+RH candidate. Initial low indices,
 bounded heights, global mixed positivity and zero exclusion remain open.
 
 ## Proof
@@ -211,6 +212,109 @@ The new contribution is local parameter transfer of an assessed
 conditional input, not progress beyond the checked source methods.
 Initial indices, bounded heights, mixed positivity and selected-law/
 regulator realization remain independent unresolved gaps. ∎
+
+### Separate critical audit — 2026-10-24
+
+**Verdict and scope.** The entire stated transfer passes without a
+statement repair, extra hypothesis or narrowed interval. This
+REPRODUCTION audit uses the unchanged prior SPECIALIZE
+[audit assessment](../drafts/literature/2026-10-24-every-height-deeper-band-critical-audit-coverage.md).
+The full C460a assembly and audit, and L459/L460's exact statement
+interfaces, were checked. Their deep analytic proofs and the pinned
+external manuscript/import closure are retained inputs, not newly
+audited here. C458b supplies only an audit-method precedent.
+
+**Exact root and endpoint checks.** At fixed a,n>0, the negative
+square in F tends to minus infinity as r tends to zero, while the
+exponential dominates at infinity. The derivative in the proof has
+both terms positive, including the positive derivative of the negative
+square. The intermediate value theorem and strict monotonicity therefore
+give a unique positive root. Dividing its equation by a² gives
+exp(4(r−R))=1+h²/a² exactly. Thus r>R and C460a's positive height
+is the prescribed a itself; no height approximation or limit in D_n
+is used.
+
+The endpoint conversion in (6) is exact: multiplication by L=2R
+and then by m/n=2 gives 53R/64≤m≤27R/32. Before any domain
+inclusion, r>R gives h≤9/2+27/64=315/64<5, and hence
+0<Δ=r−R≤25/(4a²). The upper bound m/r≤27/32<7/8 follows
+immediately. The lower-bound cross multiplication is
+
+    (53/64)R/(R+Δ)≥52/64  if and only if  R≥52Δ.
+
+For a≥100 and R≥1, 52Δ≤325/a²≤13/400<1≤R. All denominators
+are positive, so this checks the lower endpoint without assuming the
+band first. Both closed endpoints, every intervening integer n and
+positive even m=2n are covered. The root itself is not rounded.
+
+The width of the requested n interval is exactly L/256. If L≥256,
+its lower endpoint u is at least 53 and ceil(u)≤u+1 is at most the
+upper endpoint. This proves positive integer nonemptiness also when
+the width equals one or an endpoint is integral. The statement is
+stronger than C458b's vacuous-empty-interval convention, and the extra
+claim has been checked rather than imported from that precedent.
+
+**Exact normalization and retained hypotheses.** With m=2n, h,a,τ,
+Φ_* and P equal C460a's parameters exactly. P is positive and retains
+2^(m−1)/m! and the same-sign reflection once in π/a. The arithmetic
+factorial A_m=m!/(2r)^m is separately present in M*. The stationary
+point is unique only in [x₀−d,x₀+d], with N=m+1, x₀=N/(2r)
+and d=1/4096. C460a supplies λ≥2r and its positive Gaussian
+square root. In particular
+
+    x*≥x₀−d≥13/32−1/4096>3/8,
+
+so the zeta argument has real part strictly greater than 7/8; a>0
+avoids the pole. This respects the exact external premise and makes
+the zeta factor nonzero. All factors in M* are positive. Its two-sided
+logarithmic bound gives M*≥exp(−K r^(15/16)), with no fixed-center
+replacement or use of the different exponent in C458b.
+
+The signed S has identical phase, exponent m and product cutoff in
+both inputs, with zero weight at equality because m>0. It is finite,
+and interchanging j,k proves reality. D_n and P are real, with P>0,
+so ε is real; positive M* makes δ real as well. L460 requires no
+external zero-free hypothesis. The external hypothesis enters the
+arithmetic estimate through L459 and C460a only.
+
+**Complete errors and a single onset.** Substitution gives exactly
+D_n/(PM*)−1=δ+ε/M*. The arithmetic error includes both original
+residues and the full deformed contour. The additive error includes
+all theta sectors, boundaries, clipped patches and cutoff terms.
+There is no omitted remainder. At the minimum permitted M*,
+
+    |ε|/M*≤q=C_E(1+r)²exp(−r/200+K r^(15/16)).
+
+The two stated eventual inequalities imply
+
+    log(2sqrt(r)q)≤−r/200+r/800+r/800=−r/400.
+
+Thus q/f→0 for f=(log r)^3/sqrt(r), and the entire additive error
+divided by the guaranteed lower margin is at most 2q→0. These
+thresholds exist for arbitrary fixed positive K,C_E because 15/16<1;
+no smallness of the constants or practical onset is assumed. This is
+a complete error comparison, not a local stationary-phase preview.
+
+Take one real-r threshold R_*≥128,e including C460a's full onset,
+the two comparison thresholds, and thresholds for C_A f≤1/4,
+q≤1/4 and q≤f. All are independent of n. With
+a₀=max(100,2πexp(2R_*)), every real a≥a₀ gives r>R≥R_* and
+L≥256. The verified inclusions place all requested pairs in C460a's
+domain at once. Reality then gives D_n/(PM*)≥1−1/4−1/4=1/2
+and the complete relative bound with constant C_A+1. No sequence of
+heights or index-dependent onset replaces this universal assertion.
+Finally Δ≤R gives L/2≤r≤L; positivity of the logarithms yields
+f(r)≤sqrt(2)(log L)^3/sqrt(L) factor by factor, without assuming
+monotonicity of f on a finite interval.
+
+The only direct mathematical input remains C460a. The L323/L327/L456
+and fixed-r unit-phase stops retain their distinct scopes. This audit
+validates an existing conditional partial band, with no additional
+sign range or progress beyond the assessed methods. Initial low
+indices, bounded heights, global mixed positivity and selected-law/
+regulator realization remain unresolved. The external manuscript and
+formal import closure remain locally unaudited, and no RH candidate
+or actual off-line zero is asserted.
 
 ## Mathlib
 

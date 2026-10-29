@@ -1,0 +1,225 @@
+82                              SHINICHI MOCHIZUKI
+
+— where we note that this equality gives rise to a natural isomorphism of split Frobe-
+                    ∼
+nioids (Cv , τv ) → (CvΘ , τvΘ ), obtained by “forgetting the formal symbol log(Θ)”. In
+particular, we thus obtain a natural isomorphism
+                                           ∼
+                                      Fv → FvΘ
+
+                          def
+— where we write FvΘ = (CvΘ , DvΘ , τvΘ ) for the [ordered] triple consisting of CvΘ ,
+     def
+DvΘ = Dv , τvΘ . Finally, we observe that FvΘ may be algorithmically reconstructed
+from F v .
+
+
+Remark 3.4.1. A similar remark to Remark 3.2.1 [i.e., concerning the phrase
+“reconstructed category-theoretically”] applies to the phrase “algorithmically recon-
+structed” that was applied in the discussion of Example 3.4.
+
+Remark 3.4.2. One way to think of the Kummer structure
+
+                                 κv : O (Cv ) → ADv
+
+discussed in Example 3.4, (i), is as follows. In the terminology of [AbsTopIII], Def-
+inition 2.1, (i), (iv), the structure of CAF on ADv determines, via pull-back by κv ,
+an Aut-holomorphic structure on the groupiﬁcation O (Cv )gp of O (Cv ), together
+with a [tautological!] co-holomorphicization O (Cv )gp → ADv . Conversely, if one
+starts with this Aut-holomorphic structure on [the groupiﬁcation of] the topological
+monoid O (Cv ), together with the co-holomorphicization O (Cv )gp → ADv , then
+one veriﬁes immediately that one may recover the inclusion of topological monoids
+κv . [Indeed, this follows immediately from [AbsTopIII], Corollary 2.3, together
+with the elementary fact that every holomorphic automorphism of the complex Lie
+group C× that preserves the submonoid of elements of norm ≤ 1 is equal to the
+identity.] That is to say, in summary,
+
+     the Kummer structure κv is completely equivalent to the collection
+     of data consisting of the Aut-holomorphic structure [induced by κv ] on
+     the groupiﬁcation O (Cv )gp of O (Cv ), together with the co-holomorphi-
+     cization [induced by κv ] O (Cv )gp → ADv .
+The signiﬁcance of thinking of Kummer structures in this way lies in the observation
+that [unlike inclusions of topological monoids!]
+
+     the co-holomorphicization induced by κv is compatible with the log-
+     arithm operation discussed in [AbsTopIII], Corollary 4.5.
+Indeed, this observation may be thought of as a rough summary of a substantial
+portion of the content of [AbsTopIII], Corollary 4.5. Put another way, thinking of
+Kummer structures in terms of co-holomorphicizations allows one to separate out
+the portion of the structures involved that is not compatible with this logarithm
+operation — i.e., the monoid structures! — from the portion of the structures
+involved that is compatible with this logarithm operation — i.e., the tautological
+co-holomorphicization.
+                    INTER-UNIVERSAL TEICHMÜLLER THEORY I                             83
+
+Remark 3.4.3.
+     (i) In the notation of Example 3.4, write A× ⊆ A for the topological group
+of units [i.e., of elements of norm 1] of the CAF A [so A×   is noncanonically iso-
+                                    μ       ×
+morphic to the unit circle S ]; A ⊆ A for the subgroup of torsion elements
+                                1
+
+[so Aμ is noncanonically isomorphic to Q/Z]; Ev for the Aut-holomorphic space
+[cf. [AbsTopIII], Deﬁnition 2.1, (i)] determined by the elliptic curve obtained by
+compactifying X K at v. Now recall from the construction of “A ” in [AbsTopIII],
+Corollary 2.7 [cf. also [AbsTopIII], Deﬁnition 4.1, (i)] via the technique of “holo-
+morphic elliptic cuspidalization”, that one has a natural isomorphism of CAF’s
+                                                     ∼
+                               A−
+                                X
+                                →
+                                        = ADv → AXv
+                                    v
+
+
+— which may be used to “identify” A−X
+                                   →
+                                                    = ADv with AXv . Indeed, thinking of
+                                                v
+
+“A−
+  X
+  →
+         = ADv ” as “AXv ” is natural from the point of view of the “Θ-approach”
+     v
+
+discussed in Remark 3.1.2, (ii). Moreover, by allowing A×
+                                                        X to “act” [cf. the algo-
+                                                                     v
+
+rithm discussed in [AbsTopIII], Corollary 2.7, (e)] on points in a suﬃciently small
+neighborhood of [but not equal to!] a given point “x” of Ev , one may regard the
+“circle” A×
+          X as a deformation retract of the complement of x in a suitable small
+            v
+neighborhood of x in Ev . In particular,
+
+    from the point of view of the “Θ-approach” discussed in Remark 3.1.2,
+    (ii), it is natural to think of “A−
+                                      X
+                                      →
+                                        = ADv ” as “AXv ” and to regard
+                                            v
+
+
+                        Hom(Q/Z, Aμ               ×
+                                  X ) = Hom(Q/Z, AX )
+                                        v                        v
+
+
+    [a proﬁnite group which is noncanonically isomorphic to Z] as the result
+    of identifying the cuspidal inertia groups of the various points “x” of
+    Ev
+— cf. discussion of the cuspidal inertia groups “Ix ” in [AbsTopIII], Proposition
+1.4, (i), (ii). Indeed, this interpretation of A−X
+                                                →
+                                                   = ADv via cuspidal inertia groups
+                                                      v
+may be thought of as a sort of archimedean version of the “Θ-approach” discussed
+in Remark 3.1.2, (ii).
+     (ii) We observe that just as the theory of elliptic cuspidalization [cf. [AbsTopII],
+Example 3.2; [AbsTopII], Corollaries 3.3, 3.4] admits a straightforward holomorphic
+analogue, i.e., the theory of “holomorphic elliptic cuspidalization” [cf. [AbsTopIII],
+Corollary 2.7] referred to in (i) above, the theory of Belyi cuspidalization [cf. [Ab-
+sTopII], Example 3.6; [AbsTopII], Corollaries 3.7, 3.8; [AbsTopIII], Remark 2.8.3]
+admits a straightforward holomorphic analogue, i.e., a theory of “holomorphic
+Belyi cuspidalization”. We leave the routine details to the reader. Here, we ob-
+serve that one immediate consequence of such “holomorphic Belyi cuspidalizations”
+may be stated as follows:
+    the set of NF-points [i.e., points deﬁned over a number ﬁeld] of the
+    underlying topological space of the Aut-holomorphic space Dv may be
+    reconstructed via a functorial algorithm from the [abstract] Aut-
+    holomorphic space Dv .
+84                               SHINICHI MOCHIZUKI
+
+Example 3.5.           Global Realiﬁed Frobenioids.
+
+     (i) Write
+                                            
+                                           Cmod
+for the realiﬁcation [cf. [FrdI], Theorem 6.4, (ii)] of the Frobenioid of [FrdI], Example
+6.3 [cf. also Remark 3.1.5 of the present paper], associated to the number ﬁeld Fmod
+and the trivial Galois extension [i.e., the Galois extension of degree 1] of Fmod [so
+                           
+the base category of Cmod      is, in the terminology of [FrdI], equivalent to a one-
+                                                                    
+morphism category]. Thus, the divisor monoid ΦC  of Cmod              may be thought of
+                                                         mod
+                                                                                       
+as a single abstract monoid, whose set of primes, which we denote Prime(Cmod               )
+[cf. [FrdI], §0], is in natural bijective correspondence with Vmod [cf. the discussion
+of [FrdI], Example 6.3]. Moreover, the submonoid ΦC  ,v of ΦC  corresponding
+                                                             mod         mod
+to v ∈ Vmod is naturally isomorphic to ord(O(F       
+                                                           )
+                                                       mod v
+                                                              ) pf
+                                                                   ⊗ R≥0  (∼
+                                                                           = R≥0 ) [i.e., to
+ord(O(Fmod )v ) (∼
+       
+                  = R≥0 ) if v ∈ Vmod ]. In particular, pv determines an element
+                                       arc
+
+logmod (pv ) ∈ ΦC      Write v ∈ V for the element of V that corresponds to v.
+                        ,v .
+                  mod
+                                                                   non
+Then observe that regardless of whether v belongs to Vbad , Vgood     V , or Varc ,
+                                                     
+                  C  of the divisor monoid ΦCv of Cv [which, as is easily veriﬁed,
+the realiﬁcation Φrlf
+                       v
+
+is a constant monoid over the corresponding base category] may be regarded as a
+single abstract monoid isomorphic to R≥0 . Write logΦ (pv ) ∈ Φrlf
+                                                               C  for the element
+                                                                        v
+deﬁned by pv and
+                                         
+                                  Cρv : Cmod → (Cv )rlf
+
+for the natural restriction functor [cf. the theory of poly-Frobenioids developed in
+[FrdII], §5] to the realiﬁcation of the Frobenioid Cv [cf. [FrdI], Proposition 5.3].
+Thus, one veriﬁes immediately that Cρv is determined, up to isomorphism, by the
+isomorphism of topological monoids [which are isomorphic to R≥0 ]
+                                                   ∼
+                                                ,v → ΦCv
+                                                      rlf
+                                   ρv : ΦC 
+                                          mod
+
+
+
+induced by Cρv — which, by considering the natural “volume interpretations” of
+the arithmetic divisors involved, is easily computed to be given by the assignment
+logmod (pv ) → [Kv :(F1mod )v ] logΦ (pv ).
+
+     (ii) In a similar vein, one may construct a “Θ-version” [i.e., as in Examples
+3.2, (v); 3.3, (ii); 3.4, (iii)] of the various data constructed in (i). That is to say, we
+set
+                                          def
+                                     ΦC  = ΦC  · log(Θ)
+                                    tht        mod
+
+
+— i.e., an isomorphic copy of ΦC  generated by a formal symbol log(Θ). This
+                                mod
+                                          
+monoid ΦC  thus determines a Frobenioid Ctht , equipped with a natural equivalence
+           tht
+                       ∼
+                                                                     ∼
+of categories Cmod → Ctht  and a natural bijection Prime(Ctht ) → Vmod . For v ∈
+                      
+Vmod , the element logmod (pv ) of the submonoid ΦC  ,v ⊆ ΦC  thus determines
+                                                            mod       mod
+
+an element logmod (pv ) · log(Θ) of a submonoid ΦC  ,v ⊆ ΦC  . Write v ∈ V for the
+                                                   tht       tht
+element of V that corresponds to v. Then the realiﬁcation Φrlf
+                                                             C Θ of the divisor monoid
+                                                                  v
+
+ΦCvΘ of CvΘ [which, as is easily veriﬁed, is a constant monoid over the corresponding
+

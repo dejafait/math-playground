@@ -41,8 +41,9 @@ response is not part of (1).
 This is local RESEARCH / REPRODUCTION under the invocation-start EXPLORE
 assessment `drafts/literature/2026-10-23-transverse-h-quantitative-remainder.md`.
 It assembles imported estimates by finite algebra and inequalities,
-without a novelty claim beyond the checked sources. Separate critical
-review of this new assembly remains pending. Complete quantitative
+without a novelty claim beyond the checked sources. The separate critical
+audit in proof section 4 accepts this finite assembly conditional on
+the imported complete estimates. Complete quantitative
 L011 assembly, its remaining component/audit qualifications, finer
 asymptotics and interacting estimates remain unresolved. No interacting
 reflected-error bound, continuum theory, axioms or finite positive
@@ -162,6 +163,106 @@ is used. The bound is an upper bound on the full signed remainder,
 not a growth lower bound, an O(N^2) conclusion, or a full-response
 estimate. The independent construction and infrared gaps persist.
 
+### 4. Separate critical audit — 2026-10-24
+
+**Verdict and scope.** The finite assembly (1)--(4) is accepted under
+the stated imported premises, for both actual probes. This review used
+the saved SPECIALIZE assessment
+`drafts/literature/2026-10-24-transverse-h-assembly-critical-audit.md`.
+It checked the full L124 telescope, the complete hypotheses/conclusions
+of every table input, and the definition and projection passages
+identified below. It does not recursively certify their analytic
+proofs. No error requiring a repair, improved rate or coefficient
+evaluation was found. This is RESEARCH / REPRODUCTION, not a new
+bound beyond the existing component estimates or checked sources.
+
+**Independent finite subtraction.** Expand the five differences of
+L124(7) in order. Their sum is
+
+    (R_bulk-R_bulk,moved)+(R_bulk,moved-R_bulk,sc)
+      +(R_bulk,sc-R_bulk,sc,Pbulk)
+      +(R_bulk,sc,Pbulk-R_prod)+(R_prod-R_inf)
+        =R_bulk-R_inf.
+
+Adding E^f+R_pin+R_inf gives R_H,tr by the two finite equalities
+at the start of L124 proof section 2. Thus every placement difference
+has the sign used in (2). Only R_inf is set to zero by L118(3).
+Inserting +V_N-V_N and subtracting the four signed coefficients
+gives exactly (4), with eight scalar summands before absolute values.
+There is no additional coefficient or surviving full-grid term.
+
+**Insertion and coefficient identity checks.** Both L268 and L269
+start with precisely L119(3)'s V_N: its kernel is
+B_(r,j,m)(d)=sum_(h,q)(d_m+h_m)A_r(h)C_r(q)e_j(d+h+q),
+its output multiplier is partial_m u_(rho(r))(xi_t,xi_x), and its
+middle factor is F_l(s)^T P F_k(t), with the original min(s,t).
+Neither input has first replaced this finite P in the definition
+of V_N. L269's coefficient is L120(3), whose tensor pairs B(d)
+with q(-d); it is not the differently ordered Vmix coefficient.
+L270 uses exactly L121(3)'s n_m and -(d_m-n_m) terms. L271 uses
+L122(2)'s positive (d_m-n_m) product derivative; L122(4)--(6)
+fixes the finite difference as psi(y+d-n)-psi(y), consistent with
+Delta_en, rather than its negative. L275(4) uses L123(2)'s sum of
+both mixed orientations with measure dtheta/(2pi)^3, while its
+finite E^f is all three terms of L123(5), including f,f. Each of
+these is the coefficient named in L124(10). These are definition
+checks of the imported estimates, not additional analytic premises.
+
+**Projection accounting.** The potentially overlapping comparisons
+do not invalidate (4). To check this algebraically, write M(P) for
+R_bulk,moved and S(P) for R_bulk,sc, and let replacement of the
+displayed P by P_bulk define M(P_bulk), S(P_bulk). Then
+
+    Delta_sc=M(P)-S(P),  Delta_P=S(P)-S(P_bulk),
+    Delta_sc^bulk=M(P_bulk)-S(P_bulk),
+    Delta_sc-Delta_sc^bulk
+        =[M(P)-M(P_bulk)]-Delta_P.
+
+L270 proof section 2 estimates this last whole comparison internally
+and its conclusion estimates Delta_sc-a^(-3)K_(i,sc). It is not a
+bound only on Delta_sc^bulk. Accordingly (4) still needs Delta_P,
+bounded by L114(3). The underlying projection-row estimate may be
+used in both bounds: this is a conservative triangle inequality,
+not an extra copy of a scalar summand or an assumed independence.
+No internal L270 allowance is added a third time. L271 already
+starts at S(P_bulk), so no analogous projection allowance is added
+to its complete conclusion. Likewise L267(3)'s second bound is
+not added to its first, and L275(4) already includes the complete
+L274(5) transfer and f,f part. The table uses all eight complete
+conclusions once, including both parts of the generator split.
+
+**Uniformity and normalization.** Each table input asserts a bound
+for all sufficiently large admitted even N in the same fixed box,
+at a=8/N and tau=1/16, with the same lower-rooted forest, stored
+coordinates and bare-first order. None requires choosing a new
+mesh-dependent mass or truncation in this assembly. All original
+levels, source/end rows, upper pin, finite stencil filters, constant
+indices and heat sums remain in the imported complete quantities.
+The two insertion representations are those of the same actual
+residual fixed in L124; this audit makes no replacement of that
+residual or its orientation multiplicity. There are finitely many
+table bounds and two probes (and, if represented separately, two
+insertion forms). Taking the maximum of their asserted thresholds,
+the identity thresholds and 8 is therefore legitimate. Constants
+can similarly be enlarged over the two forms without claiming an
+explicit N_0 or an unproved uniformity over varying physical data.
+
+For that common N_0, the eight logarithmic factors are respectively
+ell_N, log N, 1, 1, ell_N^(3/4), (log N)^(3/4), 1, 1.
+All are at most ell_N=log(eN). Thus C_i can be the sum of the eight
+nonnegative constants, proving the first bound in (1); ell_N>=1
+gives the requested weaker ell_N^2 bound. Multiplying by
+a^3=512/N^3 gives exactly 512 C_i N^(-1/2)ell_N, tending to zero.
+L124 applies the outside factor 3 only in the complete other/other
+group, so no such factor is missing in (1).
+
+ATTEMPTS/030 and ATTEMPTS/032 remain valid stopped shortcuts: neither
+a varying parameter in a qualitative limit nor a separate absolute
+kernel moment occurs in this finite argument. No L220 cancellation
+is used. This acceptance supplies no full quantitative L011 result,
+upstream analytic audit, interacting bound, continuum axioms or
+positive infinite-volume mass.
+
 ## Mathlib
 
 Full matching transverse-H quantitative assembly: **not checked**.
@@ -169,4 +270,5 @@ Supporting finite telescoping, triangle inequalities, finite maxima
 and elementary real-power/logarithm comparisons: **not checked**.
 Unknown availability is not evidence of absence. This proof imports
 the specialized analytic inputs by the precise canonical equations
-above; it is not a formal verification or a critical audit of them.
+above; section 4 audits their finite assembly, not their analytic
+proofs. It is not a formal verification.

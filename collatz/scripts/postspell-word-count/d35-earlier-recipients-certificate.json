@@ -1,0 +1,4729 @@
+{
+  "scope": "L103 literal d35 endpoint/domain/J full integer simplex, conditional b0=0",
+  "imports": "L055 table; L076 cap proof(6)-(7); audited L084 analytic enclosures",
+  "sources": [
+    {
+      "path": "lemmas/L055-fixed-count-twenty-five-word-real-witness.md",
+      "sha256": "486c7e8df6d7b909d87697c8da7605c53fd8e85d8c0fdc2741a9414d93c0aaf9"
+    },
+    {
+      "path": "scripts/postspell-word-count/h-transfer-family-certificate.json",
+      "sha256": "7d1d3061646525d514ea06b191250e5ee9235efd48d17848e6a0d184e64c5955"
+    }
+  ],
+  "rows": [
+    [
+      0,
+      8,
+      5
+    ],
+    [
+      1,
+      15,
+      72
+    ],
+    [
+      2,
+      28,
+      134
+    ],
+    [
+      3,
+      52,
+      249
+    ],
+    [
+      4,
+      98,
+      467
+    ],
+    [
+      5,
+      184,
+      877
+    ],
+    [
+      6,
+      347,
+      1650
+    ],
+    [
+      7,
+      653,
+      3106
+    ],
+    [
+      8,
+      1230,
+      5849
+    ],
+    [
+      9,
+      2317,
+      11018
+    ],
+    [
+      10,
+      4365,
+      20756
+    ],
+    [
+      11,
+      8224,
+      39104
+    ],
+    [
+      12,
+      15494,
+      73672
+    ],
+    [
+      13,
+      29191,
+      138802
+    ],
+    [
+      14,
+      54998,
+      261511
+    ],
+    [
+      15,
+      103621,
+      492705
+    ],
+    [
+      16,
+      195229,
+      928293
+    ],
+    [
+      17,
+      367827,
+      1748976
+    ],
+    [
+      18,
+      693015,
+      3295208
+    ],
+    [
+      19,
+      1305695,
+      6208431
+    ],
+    [
+      20,
+      2460032,
+      11697176
+    ],
+    [
+      21,
+      4634896,
+      22038409
+    ],
+    [
+      22,
+      8732512,
+      41522114
+    ],
+    [
+      23,
+      16452748,
+      78230965
+    ],
+    [
+      24,
+      30998279,
+      32670656
+    ]
+  ],
+  "B": 9250245,
+  "constants": {
+    "kappa": "23/11",
+    "U": "20000000000",
+    "T": "24",
+    "ell": "693147180559/1000000000000",
+    "log3_upper": "1098612288669/1000000000000",
+    "logv_upper": "1011600911679/1000000000000",
+    "lambda_lower": "1323/12500000000000",
+    "E": "552/4611686018427387881",
+    "R": "1325859730438202850942226985830949/67113790726173775832193"
+  },
+  "uniform_offsets": {
+    "prefix_H_floor": 5,
+    "prefix_tail2_upper": "-81/352",
+    "recipient_H_floor": 72,
+    "recipient_Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+    "required_Q": "24117248/11",
+    "failed_row0_Q": "817/88"
+  },
+  "offsets": [
+    {
+      "i": 0,
+      "H_floor": 5,
+      "Q_lower": "817/88",
+      "tail2_upper": "-81/352",
+      "tail20_upper": "192937167/92274688"
+    },
+    {
+      "i": 1,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 2,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 3,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 4,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 5,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 6,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 7,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 8,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 9,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 10,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 11,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 12,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 13,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 14,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 15,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 16,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 17,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 18,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 19,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 20,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    },
+    {
+      "i": 21,
+      "H_floor": 72,
+      "Q_lower": "67585198634830509743348335148655587/12986507827891524337664",
+      "tail2_upper": "-67585198634721895314242333308740579/51946031311566097350656",
+      "tail20_upper": "-67585170162209606179602012468798435/13617340432139183023890366464"
+    }
+  ],
+  "prefixes": [
+    {
+      "i": 0,
+      "A": 0,
+      "D": 0
+    },
+    {
+      "i": 1,
+      "A": 29,
+      "D": 39
+    },
+    {
+      "i": 2,
+      "A": 146,
+      "D": 173
+    },
+    {
+      "i": 3,
+      "A": 364,
+      "D": 421
+    },
+    {
+      "i": 4,
+      "A": 769,
+      "D": 880
+    },
+    {
+      "i": 5,
+      "A": 1530,
+      "D": 1741
+    },
+    {
+      "i": 6,
+      "A": 2959,
+      "D": 3356
+    },
+    {
+      "i": 7,
+      "A": 5650,
+      "D": 6396
+    },
+    {
+      "i": 8,
+      "A": 10715,
+      "D": 12116
+    },
+    {
+      "i": 9,
+      "A": 20254,
+      "D": 22887
+    },
+    {
+      "i": 10,
+      "A": 38223,
+      "D": 43175
+    },
+    {
+      "i": 11,
+      "A": 72074,
+      "D": 81393
+    },
+    {
+      "i": 12,
+      "A": 135850,
+      "D": 153395
+    },
+    {
+      "i": 13,
+      "A": 256004,
+      "D": 289045
+    },
+    {
+      "i": 14,
+      "A": 482379,
+      "D": 544613
+    },
+    {
+      "i": 15,
+      "A": 908884,
+      "D": 1026118
+    },
+    {
+      "i": 16,
+      "A": 1712452,
+      "D": 1933309
+    },
+    {
+      "i": 17,
+      "A": 3226432,
+      "D": 3642520
+    },
+    {
+      "i": 18,
+      "A": 6078889,
+      "D": 6862806
+    },
+    {
+      "i": 19,
+      "A": 11453142,
+      "D": 12930076
+    },
+    {
+      "i": 20,
+      "A": 21578658,
+      "D": 24361289
+    },
+    {
+      "i": 21,
+      "A": 40655930,
+      "D": 45898595
+    },
+    {
+      "i": 22,
+      "A": 76599027,
+      "D": 86476590
+    },
+    {
+      "i": 23,
+      "A": 144318677,
+      "D": 162928754
+    },
+    {
+      "i": 24,
+      "A": 271907886,
+      "D": 306970713
+    }
+  ],
+  "margins": [
+    {
+      "j": 1,
+      "next_input": 2,
+      "A": 146,
+      "D": 173,
+      "next_J": 28,
+      "log2_coefficient": 303,
+      "margin": "3076825081503/125000000000",
+      "scaled_margin": "24614600652024"
+    },
+    {
+      "j": 2,
+      "next_input": 3,
+      "A": 364,
+      "D": 421,
+      "next_J": 52,
+      "log2_coefficient": 647,
+      "margin": "11779875917239/500000000000",
+      "scaled_margin": "23559751834478"
+    },
+    {
+      "j": 3,
+      "next_input": 4,
+      "A": 769,
+      "D": 880,
+      "next_J": 98,
+      "log2_coefficient": 1290,
+      "margin": "2431541202297/100000000000",
+      "scaled_margin": "24315412022970"
+    },
+    {
+      "j": 4,
+      "next_input": 5,
+      "A": 1530,
+      "D": 1741,
+      "next_J": 184,
+      "log2_coefficient": 2495,
+      "margin": "734806653733/31250000000",
+      "scaled_margin": "23513812919456"
+    },
+    {
+      "j": 5,
+      "next_input": 6,
+      "A": 2959,
+      "D": 3356,
+      "next_J": 347,
+      "log2_coefficient": 4762,
+      "margin": "6240377684677/250000000000",
+      "scaled_margin": "24961510738708"
+    },
+    {
+      "j": 6,
+      "next_input": 7,
+      "A": 5650,
+      "D": 6396,
+      "next_J": 653,
+      "log2_coefficient": 9026,
+      "margin": "4835083966801/200000000000",
+      "scaled_margin": "24175419834005"
+    },
+    {
+      "j": 7,
+      "next_input": 8,
+      "A": 10715,
+      "D": 12116,
+      "next_J": 1230,
+      "log2_coefficient": 17054,
+      "margin": "6072435813293/250000000000",
+      "scaled_margin": "24289743253172"
+    },
+    {
+      "j": 8,
+      "next_input": 9,
+      "A": 20254,
+      "D": 22887,
+      "next_J": 2317,
+      "log2_coefficient": 32173,
+      "margin": "12159672255551/500000000000",
+      "scaled_margin": "24319344511102"
+    },
+    {
+      "j": 9,
+      "next_input": 10,
+      "A": 38223,
+      "D": 43175,
+      "next_J": 4365,
+      "log2_coefficient": 60653,
+      "margin": "24186831738161/1000000000000",
+      "scaled_margin": "24186831738161"
+    },
+    {
+      "j": 10,
+      "next_input": 11,
+      "A": 72074,
+      "D": 81393,
+      "next_J": 8224,
+      "log2_coefficient": 114307,
+      "margin": "6295268429107/250000000000",
+      "scaled_margin": "25181073716428"
+    },
+    {
+      "j": 11,
+      "next_input": 12,
+      "A": 135850,
+      "D": 153395,
+      "next_J": 15494,
+      "log2_coefficient": 215389,
+      "margin": "12393528413561/500000000000",
+      "scaled_margin": "24787056827122"
+    },
+    {
+      "j": 12,
+      "next_input": 13,
+      "A": 256004,
+      "D": 289045,
+      "next_J": 29191,
+      "log2_coefficient": 405827,
+      "margin": "11844447693469/500000000000",
+      "scaled_margin": "23688895386938"
+    },
+    {
+      "j": 13,
+      "next_input": 14,
+      "A": 482379,
+      "D": 544613,
+      "next_J": 54998,
+      "log2_coefficient": 764623,
+      "margin": "23767843789027/1000000000000",
+      "scaled_margin": "23767843789027"
+    },
+    {
+      "j": 14,
+      "next_input": 15,
+      "A": 908884,
+      "D": 1026118,
+      "next_J": 103621,
+      "log2_coefficient": 1440620,
+      "margin": "5109656271901/200000000000",
+      "scaled_margin": "25548281359505"
+    },
+    {
+      "j": 15,
+      "next_input": 16,
+      "A": 1712452,
+      "D": 1933309,
+      "next_J": 195229,
+      "log2_coefficient": 2714243,
+      "margin": "2406024528377/100000000000",
+      "scaled_margin": "24060245283770"
+    },
+    {
+      "j": 16,
+      "next_input": 17,
+      "A": 3226432,
+      "D": 3642520,
+      "next_J": 367827,
+      "log2_coefficient": 5113846,
+      "margin": "25081357109227/1000000000000",
+      "scaled_margin": "25081357109227"
+    },
+    {
+      "j": 17,
+      "next_input": 18,
+      "A": 6078889,
+      "D": 6862806,
+      "next_J": 693015,
+      "log2_coefficient": 9634884,
+      "margin": "3188894662467/125000000000",
+      "scaled_margin": "25511157299736"
+    },
+    {
+      "j": 18,
+      "next_input": 19,
+      "A": 11453142,
+      "D": 12930076,
+      "next_J": 1305695,
+      "log2_coefficient": 18152874,
+      "margin": "25875470816889/1000000000000",
+      "scaled_margin": "25875470816889"
+    },
+    {
+      "j": 19,
+      "next_input": 20,
+      "A": 21578658,
+      "D": 24361289,
+      "next_J": 2460032,
+      "log2_coefficient": 34201435,
+      "margin": "6094483841071/250000000000",
+      "scaled_margin": "24377935364284"
+    },
+    {
+      "j": 20,
+      "next_input": 21,
+      "A": 40655930,
+      "D": 45898595,
+      "next_J": 4634896,
+      "log2_coefficient": 64438197,
+      "margin": "12626993921637/500000000000",
+      "scaled_margin": "25253987843274"
+    },
+    {
+      "j": 21,
+      "next_input": 22,
+      "A": 76599027,
+      "D": 86476590,
+      "next_J": 8732512,
+      "log2_coefficient": 121406656,
+      "margin": "11966803481981/500000000000",
+      "scaled_margin": "23933606963962"
+    }
+  ],
+  "exponential_terms": [
+    "1",
+    "24",
+    "288",
+    "2304",
+    "13824",
+    "331776/5",
+    "1327104/5",
+    "31850496/35",
+    "95551488/35",
+    "254803968/35",
+    "3057647616/175",
+    "73383542784/1925",
+    "146767085568/1925",
+    "3522410053632/25025",
+    "42268920643584/175175",
+    "338151365148672/875875",
+    "507227047723008/875875",
+    "12173449145352192/14889875",
+    "16231265527136256/14889875",
+    "389550372651270144/282907625",
+    "2337302235907620864/1414538125",
+    "18698417887260966912/9901766875",
+    "224381014647131602944/108919435625",
+    "5385144351531158470656/2505147019375",
+    "5385144351531158470656/2505147019375",
+    "129243464436747803295744/62628675484375",
+    "1550921573240973639548928/814172781296875",
+    "1378596953991976568487936/814172781296875",
+    "8271581723951859410927616/5699209469078125",
+    "198517961374844625862262784/165277074603265625",
+    "794071845499378503449051136/826385373016328125",
+    "19057724291985084082777227264/25617946563506171875",
+    "14293293218988813062082920448/25617946563506171875",
+    "114346345751910504496663363584/281797412198567890625",
+    "1372156149022926053959960363008/4790556007375654140625",
+    "32931747576550225295039048712192/167669460258147894921875",
+    "21954498384366816863359365808128/167669460258147894921875",
+    "526907961224803604720624779395072/6203770029551472112109375",
+    "6322895534697643256647497352740864/117871630561477970130078125",
+    "50583164277581146053179978821926912/1532331197299213611691015625",
+    "151749492832743438159539936465780736/7661655986496068058455078125"
+  ],
+  "exp24_lower": "202750314819830504045671593478515759301/7661655986496068058455078125",
+  "checks": [
+    {
+      "name": "L084 S constant U",
+      "actual": "20000000000",
+      "relation": "=",
+      "required": "20000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "L084 S constant T",
+      "actual": "24",
+      "relation": "=",
+      "required": "24",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "L084 S constant ell",
+      "actual": "693147180559/1000000000000",
+      "relation": "=",
+      "required": "693147180559/1000000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "L084 S constant u",
+      "actual": "1098612288669/1000000000000",
+      "relation": "=",
+      "required": "1098612288669/1000000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "L084 S constant v",
+      "actual": "1011600911679/1000000000000",
+      "relation": "=",
+      "required": "1011600911679/1000000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "positive budget",
+      "actual": "9250245",
+      "relation": ">",
+      "required": "0",
+      "difference": "9250245",
+      "passed": true
+    },
+    {
+      "name": "row0 J domain",
+      "actual": "8",
+      "relation": ">=",
+      "required": "2",
+      "difference": "6",
+      "passed": true
+    },
+    {
+      "name": "row0 H domain",
+      "actual": "5",
+      "relation": ">=",
+      "required": "3",
+      "difference": "2",
+      "passed": true
+    },
+    {
+      "name": "row1 J domain",
+      "actual": "15",
+      "relation": ">=",
+      "required": "2",
+      "difference": "13",
+      "passed": true
+    },
+    {
+      "name": "row1 H domain",
+      "actual": "72",
+      "relation": ">=",
+      "required": "3",
+      "difference": "69",
+      "passed": true
+    },
+    {
+      "name": "row1 increasing J",
+      "actual": "15",
+      "relation": ">",
+      "required": "8",
+      "difference": "7",
+      "passed": true
+    },
+    {
+      "name": "row2 J domain",
+      "actual": "28",
+      "relation": ">=",
+      "required": "2",
+      "difference": "26",
+      "passed": true
+    },
+    {
+      "name": "row2 H domain",
+      "actual": "134",
+      "relation": ">=",
+      "required": "3",
+      "difference": "131",
+      "passed": true
+    },
+    {
+      "name": "row2 increasing J",
+      "actual": "28",
+      "relation": ">",
+      "required": "15",
+      "difference": "13",
+      "passed": true
+    },
+    {
+      "name": "row3 J domain",
+      "actual": "52",
+      "relation": ">=",
+      "required": "2",
+      "difference": "50",
+      "passed": true
+    },
+    {
+      "name": "row3 H domain",
+      "actual": "249",
+      "relation": ">=",
+      "required": "3",
+      "difference": "246",
+      "passed": true
+    },
+    {
+      "name": "row3 increasing J",
+      "actual": "52",
+      "relation": ">",
+      "required": "28",
+      "difference": "24",
+      "passed": true
+    },
+    {
+      "name": "row4 J domain",
+      "actual": "98",
+      "relation": ">=",
+      "required": "2",
+      "difference": "96",
+      "passed": true
+    },
+    {
+      "name": "row4 H domain",
+      "actual": "467",
+      "relation": ">=",
+      "required": "3",
+      "difference": "464",
+      "passed": true
+    },
+    {
+      "name": "row4 increasing J",
+      "actual": "98",
+      "relation": ">",
+      "required": "52",
+      "difference": "46",
+      "passed": true
+    },
+    {
+      "name": "row5 J domain",
+      "actual": "184",
+      "relation": ">=",
+      "required": "2",
+      "difference": "182",
+      "passed": true
+    },
+    {
+      "name": "row5 H domain",
+      "actual": "877",
+      "relation": ">=",
+      "required": "3",
+      "difference": "874",
+      "passed": true
+    },
+    {
+      "name": "row5 increasing J",
+      "actual": "184",
+      "relation": ">",
+      "required": "98",
+      "difference": "86",
+      "passed": true
+    },
+    {
+      "name": "row6 J domain",
+      "actual": "347",
+      "relation": ">=",
+      "required": "2",
+      "difference": "345",
+      "passed": true
+    },
+    {
+      "name": "row6 H domain",
+      "actual": "1650",
+      "relation": ">=",
+      "required": "3",
+      "difference": "1647",
+      "passed": true
+    },
+    {
+      "name": "row6 increasing J",
+      "actual": "347",
+      "relation": ">",
+      "required": "184",
+      "difference": "163",
+      "passed": true
+    },
+    {
+      "name": "row7 J domain",
+      "actual": "653",
+      "relation": ">=",
+      "required": "2",
+      "difference": "651",
+      "passed": true
+    },
+    {
+      "name": "row7 H domain",
+      "actual": "3106",
+      "relation": ">=",
+      "required": "3",
+      "difference": "3103",
+      "passed": true
+    },
+    {
+      "name": "row7 increasing J",
+      "actual": "653",
+      "relation": ">",
+      "required": "347",
+      "difference": "306",
+      "passed": true
+    },
+    {
+      "name": "row8 J domain",
+      "actual": "1230",
+      "relation": ">=",
+      "required": "2",
+      "difference": "1228",
+      "passed": true
+    },
+    {
+      "name": "row8 H domain",
+      "actual": "5849",
+      "relation": ">=",
+      "required": "3",
+      "difference": "5846",
+      "passed": true
+    },
+    {
+      "name": "row8 increasing J",
+      "actual": "1230",
+      "relation": ">",
+      "required": "653",
+      "difference": "577",
+      "passed": true
+    },
+    {
+      "name": "row9 J domain",
+      "actual": "2317",
+      "relation": ">=",
+      "required": "2",
+      "difference": "2315",
+      "passed": true
+    },
+    {
+      "name": "row9 H domain",
+      "actual": "11018",
+      "relation": ">=",
+      "required": "3",
+      "difference": "11015",
+      "passed": true
+    },
+    {
+      "name": "row9 increasing J",
+      "actual": "2317",
+      "relation": ">",
+      "required": "1230",
+      "difference": "1087",
+      "passed": true
+    },
+    {
+      "name": "row10 J domain",
+      "actual": "4365",
+      "relation": ">=",
+      "required": "2",
+      "difference": "4363",
+      "passed": true
+    },
+    {
+      "name": "row10 H domain",
+      "actual": "20756",
+      "relation": ">=",
+      "required": "3",
+      "difference": "20753",
+      "passed": true
+    },
+    {
+      "name": "row10 increasing J",
+      "actual": "4365",
+      "relation": ">",
+      "required": "2317",
+      "difference": "2048",
+      "passed": true
+    },
+    {
+      "name": "row11 J domain",
+      "actual": "8224",
+      "relation": ">=",
+      "required": "2",
+      "difference": "8222",
+      "passed": true
+    },
+    {
+      "name": "row11 H domain",
+      "actual": "39104",
+      "relation": ">=",
+      "required": "3",
+      "difference": "39101",
+      "passed": true
+    },
+    {
+      "name": "row11 increasing J",
+      "actual": "8224",
+      "relation": ">",
+      "required": "4365",
+      "difference": "3859",
+      "passed": true
+    },
+    {
+      "name": "row12 J domain",
+      "actual": "15494",
+      "relation": ">=",
+      "required": "2",
+      "difference": "15492",
+      "passed": true
+    },
+    {
+      "name": "row12 H domain",
+      "actual": "73672",
+      "relation": ">=",
+      "required": "3",
+      "difference": "73669",
+      "passed": true
+    },
+    {
+      "name": "row12 increasing J",
+      "actual": "15494",
+      "relation": ">",
+      "required": "8224",
+      "difference": "7270",
+      "passed": true
+    },
+    {
+      "name": "row13 J domain",
+      "actual": "29191",
+      "relation": ">=",
+      "required": "2",
+      "difference": "29189",
+      "passed": true
+    },
+    {
+      "name": "row13 H domain",
+      "actual": "138802",
+      "relation": ">=",
+      "required": "3",
+      "difference": "138799",
+      "passed": true
+    },
+    {
+      "name": "row13 increasing J",
+      "actual": "29191",
+      "relation": ">",
+      "required": "15494",
+      "difference": "13697",
+      "passed": true
+    },
+    {
+      "name": "row14 J domain",
+      "actual": "54998",
+      "relation": ">=",
+      "required": "2",
+      "difference": "54996",
+      "passed": true
+    },
+    {
+      "name": "row14 H domain",
+      "actual": "261511",
+      "relation": ">=",
+      "required": "3",
+      "difference": "261508",
+      "passed": true
+    },
+    {
+      "name": "row14 increasing J",
+      "actual": "54998",
+      "relation": ">",
+      "required": "29191",
+      "difference": "25807",
+      "passed": true
+    },
+    {
+      "name": "row15 J domain",
+      "actual": "103621",
+      "relation": ">=",
+      "required": "2",
+      "difference": "103619",
+      "passed": true
+    },
+    {
+      "name": "row15 H domain",
+      "actual": "492705",
+      "relation": ">=",
+      "required": "3",
+      "difference": "492702",
+      "passed": true
+    },
+    {
+      "name": "row15 increasing J",
+      "actual": "103621",
+      "relation": ">",
+      "required": "54998",
+      "difference": "48623",
+      "passed": true
+    },
+    {
+      "name": "row16 J domain",
+      "actual": "195229",
+      "relation": ">=",
+      "required": "2",
+      "difference": "195227",
+      "passed": true
+    },
+    {
+      "name": "row16 H domain",
+      "actual": "928293",
+      "relation": ">=",
+      "required": "3",
+      "difference": "928290",
+      "passed": true
+    },
+    {
+      "name": "row16 increasing J",
+      "actual": "195229",
+      "relation": ">",
+      "required": "103621",
+      "difference": "91608",
+      "passed": true
+    },
+    {
+      "name": "row17 J domain",
+      "actual": "367827",
+      "relation": ">=",
+      "required": "2",
+      "difference": "367825",
+      "passed": true
+    },
+    {
+      "name": "row17 H domain",
+      "actual": "1748976",
+      "relation": ">=",
+      "required": "3",
+      "difference": "1748973",
+      "passed": true
+    },
+    {
+      "name": "row17 increasing J",
+      "actual": "367827",
+      "relation": ">",
+      "required": "195229",
+      "difference": "172598",
+      "passed": true
+    },
+    {
+      "name": "row18 J domain",
+      "actual": "693015",
+      "relation": ">=",
+      "required": "2",
+      "difference": "693013",
+      "passed": true
+    },
+    {
+      "name": "row18 H domain",
+      "actual": "3295208",
+      "relation": ">=",
+      "required": "3",
+      "difference": "3295205",
+      "passed": true
+    },
+    {
+      "name": "row18 increasing J",
+      "actual": "693015",
+      "relation": ">",
+      "required": "367827",
+      "difference": "325188",
+      "passed": true
+    },
+    {
+      "name": "row19 J domain",
+      "actual": "1305695",
+      "relation": ">=",
+      "required": "2",
+      "difference": "1305693",
+      "passed": true
+    },
+    {
+      "name": "row19 H domain",
+      "actual": "6208431",
+      "relation": ">=",
+      "required": "3",
+      "difference": "6208428",
+      "passed": true
+    },
+    {
+      "name": "row19 increasing J",
+      "actual": "1305695",
+      "relation": ">",
+      "required": "693015",
+      "difference": "612680",
+      "passed": true
+    },
+    {
+      "name": "row20 J domain",
+      "actual": "2460032",
+      "relation": ">=",
+      "required": "2",
+      "difference": "2460030",
+      "passed": true
+    },
+    {
+      "name": "row20 H domain",
+      "actual": "11697176",
+      "relation": ">=",
+      "required": "3",
+      "difference": "11697173",
+      "passed": true
+    },
+    {
+      "name": "row20 increasing J",
+      "actual": "2460032",
+      "relation": ">",
+      "required": "1305695",
+      "difference": "1154337",
+      "passed": true
+    },
+    {
+      "name": "row21 J domain",
+      "actual": "4634896",
+      "relation": ">=",
+      "required": "2",
+      "difference": "4634894",
+      "passed": true
+    },
+    {
+      "name": "row21 H domain",
+      "actual": "22038409",
+      "relation": ">=",
+      "required": "3",
+      "difference": "22038406",
+      "passed": true
+    },
+    {
+      "name": "row21 increasing J",
+      "actual": "4634896",
+      "relation": ">",
+      "required": "2460032",
+      "difference": "2174864",
+      "passed": true
+    },
+    {
+      "name": "row22 J domain",
+      "actual": "8732512",
+      "relation": ">=",
+      "required": "2",
+      "difference": "8732510",
+      "passed": true
+    },
+    {
+      "name": "row22 H domain",
+      "actual": "41522114",
+      "relation": ">=",
+      "required": "3",
+      "difference": "41522111",
+      "passed": true
+    },
+    {
+      "name": "row22 increasing J",
+      "actual": "8732512",
+      "relation": ">",
+      "required": "4634896",
+      "difference": "4097616",
+      "passed": true
+    },
+    {
+      "name": "row23 J domain",
+      "actual": "16452748",
+      "relation": ">=",
+      "required": "2",
+      "difference": "16452746",
+      "passed": true
+    },
+    {
+      "name": "row23 H domain",
+      "actual": "78230965",
+      "relation": ">=",
+      "required": "3",
+      "difference": "78230962",
+      "passed": true
+    },
+    {
+      "name": "row23 increasing J",
+      "actual": "16452748",
+      "relation": ">",
+      "required": "8732512",
+      "difference": "7720236",
+      "passed": true
+    },
+    {
+      "name": "row24 J domain",
+      "actual": "30998279",
+      "relation": ">=",
+      "required": "2",
+      "difference": "30998277",
+      "passed": true
+    },
+    {
+      "name": "row24 H domain",
+      "actual": "32670656",
+      "relation": ">=",
+      "required": "3",
+      "difference": "32670653",
+      "passed": true
+    },
+    {
+      "name": "row24 increasing J",
+      "actual": "30998279",
+      "relation": ">",
+      "required": "16452748",
+      "difference": "14545531",
+      "passed": true
+    },
+    {
+      "name": "J1 for residual",
+      "actual": "15",
+      "relation": "=",
+      "required": "15",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "positive cap residual",
+      "actual": "6101253702379434166563/57646075230342348512500000000000",
+      "relation": ">",
+      "required": "0",
+      "difference": "6101253702379434166563/57646075230342348512500000000000",
+      "passed": true
+    },
+    {
+      "name": "cap",
+      "actual": "1325859730438202850942226985830949/67113790726173775832193",
+      "relation": "<",
+      "required": "20000000000",
+      "difference": "-16416084085272665701633014169051/67113790726173775832193",
+      "passed": true
+    },
+    {
+      "name": "cap matches L084 independent datum",
+      "actual": "1325859730438202850942226985830949/67113790726173775832193",
+      "relation": "=",
+      "required": "1325859730438202850942226985830949/67113790726173775832193",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "U below exp24 lower sum",
+      "actual": "20000000000",
+      "relation": "<",
+      "required": "202750314819830504045671593478515759301/7661655986496068058455078125",
+      "difference": "-49517195089909142876570030978515759301/7661655986496068058455078125",
+      "passed": true
+    },
+    {
+      "name": "prefix H floor",
+      "actual": "5",
+      "relation": "=",
+      "required": "5",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "uniform prefix tail2 offset",
+      "actual": "-81/352",
+      "relation": "<",
+      "required": "0",
+      "difference": "-81/352",
+      "passed": true
+    },
+    {
+      "name": "recipient H floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "uniform recipient Q lower",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": ">",
+      "required": "24117248/11",
+      "difference": "67585170162209606179602012468798435/12986507827891524337664",
+      "passed": true
+    },
+    {
+      "name": "failed full-package row0 tail20 datum retained",
+      "actual": "817/88",
+      "relation": "<",
+      "required": "24117248/11",
+      "difference": "-192937167/88",
+      "passed": true
+    },
+    {
+      "name": "row0 O index",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row0 O floor",
+      "actual": "5",
+      "relation": "=",
+      "required": "5",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row0 O offset",
+      "actual": "-81/352",
+      "relation": "=",
+      "required": "-81/352",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row0 negative tail2 offset upper",
+      "actual": "-81/352",
+      "relation": "<",
+      "required": "0",
+      "difference": "-81/352",
+      "passed": true
+    },
+    {
+      "name": "row1 O index",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row1 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row1 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row1 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient1 S index",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row2 O index",
+      "actual": "2",
+      "relation": "=",
+      "required": "2",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row2 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row2 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row2 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient2 S index",
+      "actual": "2",
+      "relation": "=",
+      "required": "2",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row3 O index",
+      "actual": "3",
+      "relation": "=",
+      "required": "3",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row3 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row3 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row3 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient3 S index",
+      "actual": "3",
+      "relation": "=",
+      "required": "3",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row4 O index",
+      "actual": "4",
+      "relation": "=",
+      "required": "4",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row4 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row4 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row4 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient4 S index",
+      "actual": "4",
+      "relation": "=",
+      "required": "4",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row5 O index",
+      "actual": "5",
+      "relation": "=",
+      "required": "5",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row5 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row5 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row5 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient5 S index",
+      "actual": "5",
+      "relation": "=",
+      "required": "5",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row6 O index",
+      "actual": "6",
+      "relation": "=",
+      "required": "6",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row6 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row6 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row6 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient6 S index",
+      "actual": "6",
+      "relation": "=",
+      "required": "6",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row7 O index",
+      "actual": "7",
+      "relation": "=",
+      "required": "7",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row7 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row7 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row7 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient7 S index",
+      "actual": "7",
+      "relation": "=",
+      "required": "7",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row8 O index",
+      "actual": "8",
+      "relation": "=",
+      "required": "8",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row8 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row8 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row8 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient8 S index",
+      "actual": "8",
+      "relation": "=",
+      "required": "8",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row9 O index",
+      "actual": "9",
+      "relation": "=",
+      "required": "9",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row9 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row9 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row9 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient9 S index",
+      "actual": "9",
+      "relation": "=",
+      "required": "9",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row10 O index",
+      "actual": "10",
+      "relation": "=",
+      "required": "10",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row10 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row10 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row10 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient10 S index",
+      "actual": "10",
+      "relation": "=",
+      "required": "10",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row11 O index",
+      "actual": "11",
+      "relation": "=",
+      "required": "11",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row11 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row11 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row11 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient11 S index",
+      "actual": "11",
+      "relation": "=",
+      "required": "11",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row12 O index",
+      "actual": "12",
+      "relation": "=",
+      "required": "12",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row12 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row12 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row12 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient12 S index",
+      "actual": "12",
+      "relation": "=",
+      "required": "12",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row13 O index",
+      "actual": "13",
+      "relation": "=",
+      "required": "13",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row13 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row13 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row13 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient13 S index",
+      "actual": "13",
+      "relation": "=",
+      "required": "13",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row14 O index",
+      "actual": "14",
+      "relation": "=",
+      "required": "14",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row14 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row14 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row14 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient14 S index",
+      "actual": "14",
+      "relation": "=",
+      "required": "14",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row15 O index",
+      "actual": "15",
+      "relation": "=",
+      "required": "15",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row15 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row15 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row15 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient15 S index",
+      "actual": "15",
+      "relation": "=",
+      "required": "15",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row16 O index",
+      "actual": "16",
+      "relation": "=",
+      "required": "16",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row16 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row16 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row16 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient16 S index",
+      "actual": "16",
+      "relation": "=",
+      "required": "16",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row17 O index",
+      "actual": "17",
+      "relation": "=",
+      "required": "17",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row17 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row17 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row17 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient17 S index",
+      "actual": "17",
+      "relation": "=",
+      "required": "17",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row18 O index",
+      "actual": "18",
+      "relation": "=",
+      "required": "18",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row18 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row18 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row18 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient18 S index",
+      "actual": "18",
+      "relation": "=",
+      "required": "18",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row19 O index",
+      "actual": "19",
+      "relation": "=",
+      "required": "19",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row19 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row19 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row19 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient19 S index",
+      "actual": "19",
+      "relation": "=",
+      "required": "19",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row20 O index",
+      "actual": "20",
+      "relation": "=",
+      "required": "20",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row20 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row20 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "prefix row20 negative tail2 offset upper",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585198634721895314242333308740579/51946031311566097350656",
+      "passed": true
+    },
+    {
+      "name": "recipient20 S index",
+      "actual": "20",
+      "relation": "=",
+      "required": "20",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "row21 O index",
+      "actual": "21",
+      "relation": "=",
+      "required": "21",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row21 O floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "row21 O offset",
+      "actual": "-67585198634721895314242333308740579/51946031311566097350656",
+      "relation": "=",
+      "required": "-67585198634721895314242333308740579/51946031311566097350656",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 S index",
+      "actual": "21",
+      "relation": "=",
+      "required": "21",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 S floor",
+      "actual": "72",
+      "relation": "=",
+      "required": "72",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 S Q",
+      "actual": "67585198634830509743348335148655587/12986507827891524337664",
+      "relation": "=",
+      "required": "67585198634830509743348335148655587/12986507827891524337664",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 negative tail20 offset upper",
+      "actual": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "relation": "<",
+      "required": "0",
+      "difference": "-67585170162209606179602012468798435/13617340432139183023890366464",
+      "passed": true
+    },
+    {
+      "name": "incoming0 A matches L084",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming0 D matches L084",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming1 A matches L084",
+      "actual": "29",
+      "relation": "=",
+      "required": "29",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming1 D matches L084",
+      "actual": "39",
+      "relation": "=",
+      "required": "39",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 matches L084 j",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 matches L084 A",
+      "actual": "146",
+      "relation": "=",
+      "required": "146",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 matches L084 D",
+      "actual": "173",
+      "relation": "=",
+      "required": "173",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 matches L084 margin",
+      "actual": "3076825081503/125000000000",
+      "relation": "=",
+      "required": "3076825081503/125000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient1 positive A",
+      "actual": "146",
+      "relation": ">",
+      "required": "0",
+      "difference": "146",
+      "passed": true
+    },
+    {
+      "name": "recipient1 positive log2 coefficient",
+      "actual": "303",
+      "relation": ">",
+      "required": "0",
+      "difference": "303",
+      "passed": true
+    },
+    {
+      "name": "recipient1 rejection",
+      "actual": "3076825081503/125000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "139325081503/125000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming2 A matches L084",
+      "actual": "146",
+      "relation": "=",
+      "required": "146",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming2 D matches L084",
+      "actual": "173",
+      "relation": "=",
+      "required": "173",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 matches L084 j",
+      "actual": "2",
+      "relation": "=",
+      "required": "2",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 matches L084 A",
+      "actual": "364",
+      "relation": "=",
+      "required": "364",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 matches L084 D",
+      "actual": "421",
+      "relation": "=",
+      "required": "421",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 matches L084 margin",
+      "actual": "11779875917239/500000000000",
+      "relation": "=",
+      "required": "11779875917239/500000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient2 positive A",
+      "actual": "364",
+      "relation": ">",
+      "required": "0",
+      "difference": "364",
+      "passed": true
+    },
+    {
+      "name": "recipient2 positive log2 coefficient",
+      "actual": "647",
+      "relation": ">",
+      "required": "0",
+      "difference": "647",
+      "passed": true
+    },
+    {
+      "name": "recipient2 rejection",
+      "actual": "11779875917239/500000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "29875917239/500000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming3 A matches L084",
+      "actual": "364",
+      "relation": "=",
+      "required": "364",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming3 D matches L084",
+      "actual": "421",
+      "relation": "=",
+      "required": "421",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 matches L084 j",
+      "actual": "3",
+      "relation": "=",
+      "required": "3",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 matches L084 A",
+      "actual": "769",
+      "relation": "=",
+      "required": "769",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 matches L084 D",
+      "actual": "880",
+      "relation": "=",
+      "required": "880",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 matches L084 margin",
+      "actual": "2431541202297/100000000000",
+      "relation": "=",
+      "required": "2431541202297/100000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient3 positive A",
+      "actual": "769",
+      "relation": ">",
+      "required": "0",
+      "difference": "769",
+      "passed": true
+    },
+    {
+      "name": "recipient3 positive log2 coefficient",
+      "actual": "1290",
+      "relation": ">",
+      "required": "0",
+      "difference": "1290",
+      "passed": true
+    },
+    {
+      "name": "recipient3 rejection",
+      "actual": "2431541202297/100000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "81541202297/100000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming4 A matches L084",
+      "actual": "769",
+      "relation": "=",
+      "required": "769",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming4 D matches L084",
+      "actual": "880",
+      "relation": "=",
+      "required": "880",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 matches L084 j",
+      "actual": "4",
+      "relation": "=",
+      "required": "4",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 matches L084 A",
+      "actual": "1530",
+      "relation": "=",
+      "required": "1530",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 matches L084 D",
+      "actual": "1741",
+      "relation": "=",
+      "required": "1741",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 matches L084 margin",
+      "actual": "734806653733/31250000000",
+      "relation": "=",
+      "required": "734806653733/31250000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient4 positive A",
+      "actual": "1530",
+      "relation": ">",
+      "required": "0",
+      "difference": "1530",
+      "passed": true
+    },
+    {
+      "name": "recipient4 positive log2 coefficient",
+      "actual": "2495",
+      "relation": ">",
+      "required": "0",
+      "difference": "2495",
+      "passed": true
+    },
+    {
+      "name": "recipient4 rejection",
+      "actual": "734806653733/31250000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "431653733/31250000000",
+      "passed": true
+    },
+    {
+      "name": "incoming5 A matches L084",
+      "actual": "1530",
+      "relation": "=",
+      "required": "1530",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming5 D matches L084",
+      "actual": "1741",
+      "relation": "=",
+      "required": "1741",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 matches L084 j",
+      "actual": "5",
+      "relation": "=",
+      "required": "5",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 matches L084 A",
+      "actual": "2959",
+      "relation": "=",
+      "required": "2959",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 matches L084 D",
+      "actual": "3356",
+      "relation": "=",
+      "required": "3356",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 matches L084 margin",
+      "actual": "6240377684677/250000000000",
+      "relation": "=",
+      "required": "6240377684677/250000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient5 positive A",
+      "actual": "2959",
+      "relation": ">",
+      "required": "0",
+      "difference": "2959",
+      "passed": true
+    },
+    {
+      "name": "recipient5 positive log2 coefficient",
+      "actual": "4762",
+      "relation": ">",
+      "required": "0",
+      "difference": "4762",
+      "passed": true
+    },
+    {
+      "name": "recipient5 rejection",
+      "actual": "6240377684677/250000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "365377684677/250000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming6 A matches L084",
+      "actual": "2959",
+      "relation": "=",
+      "required": "2959",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming6 D matches L084",
+      "actual": "3356",
+      "relation": "=",
+      "required": "3356",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 matches L084 j",
+      "actual": "6",
+      "relation": "=",
+      "required": "6",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 matches L084 A",
+      "actual": "5650",
+      "relation": "=",
+      "required": "5650",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 matches L084 D",
+      "actual": "6396",
+      "relation": "=",
+      "required": "6396",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 matches L084 margin",
+      "actual": "4835083966801/200000000000",
+      "relation": "=",
+      "required": "4835083966801/200000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient6 positive A",
+      "actual": "5650",
+      "relation": ">",
+      "required": "0",
+      "difference": "5650",
+      "passed": true
+    },
+    {
+      "name": "recipient6 positive log2 coefficient",
+      "actual": "9026",
+      "relation": ">",
+      "required": "0",
+      "difference": "9026",
+      "passed": true
+    },
+    {
+      "name": "recipient6 rejection",
+      "actual": "4835083966801/200000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "135083966801/200000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming7 A matches L084",
+      "actual": "5650",
+      "relation": "=",
+      "required": "5650",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming7 D matches L084",
+      "actual": "6396",
+      "relation": "=",
+      "required": "6396",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 matches L084 j",
+      "actual": "7",
+      "relation": "=",
+      "required": "7",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 matches L084 A",
+      "actual": "10715",
+      "relation": "=",
+      "required": "10715",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 matches L084 D",
+      "actual": "12116",
+      "relation": "=",
+      "required": "12116",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 matches L084 margin",
+      "actual": "6072435813293/250000000000",
+      "relation": "=",
+      "required": "6072435813293/250000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient7 positive A",
+      "actual": "10715",
+      "relation": ">",
+      "required": "0",
+      "difference": "10715",
+      "passed": true
+    },
+    {
+      "name": "recipient7 positive log2 coefficient",
+      "actual": "17054",
+      "relation": ">",
+      "required": "0",
+      "difference": "17054",
+      "passed": true
+    },
+    {
+      "name": "recipient7 rejection",
+      "actual": "6072435813293/250000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "197435813293/250000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming8 A matches L084",
+      "actual": "10715",
+      "relation": "=",
+      "required": "10715",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming8 D matches L084",
+      "actual": "12116",
+      "relation": "=",
+      "required": "12116",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 matches L084 j",
+      "actual": "8",
+      "relation": "=",
+      "required": "8",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 matches L084 A",
+      "actual": "20254",
+      "relation": "=",
+      "required": "20254",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 matches L084 D",
+      "actual": "22887",
+      "relation": "=",
+      "required": "22887",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 matches L084 margin",
+      "actual": "12159672255551/500000000000",
+      "relation": "=",
+      "required": "12159672255551/500000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient8 positive A",
+      "actual": "20254",
+      "relation": ">",
+      "required": "0",
+      "difference": "20254",
+      "passed": true
+    },
+    {
+      "name": "recipient8 positive log2 coefficient",
+      "actual": "32173",
+      "relation": ">",
+      "required": "0",
+      "difference": "32173",
+      "passed": true
+    },
+    {
+      "name": "recipient8 rejection",
+      "actual": "12159672255551/500000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "409672255551/500000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming9 A matches L084",
+      "actual": "20254",
+      "relation": "=",
+      "required": "20254",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming9 D matches L084",
+      "actual": "22887",
+      "relation": "=",
+      "required": "22887",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 matches L084 j",
+      "actual": "9",
+      "relation": "=",
+      "required": "9",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 matches L084 A",
+      "actual": "38223",
+      "relation": "=",
+      "required": "38223",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 matches L084 D",
+      "actual": "43175",
+      "relation": "=",
+      "required": "43175",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 matches L084 margin",
+      "actual": "24186831738161/1000000000000",
+      "relation": "=",
+      "required": "24186831738161/1000000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient9 positive A",
+      "actual": "38223",
+      "relation": ">",
+      "required": "0",
+      "difference": "38223",
+      "passed": true
+    },
+    {
+      "name": "recipient9 positive log2 coefficient",
+      "actual": "60653",
+      "relation": ">",
+      "required": "0",
+      "difference": "60653",
+      "passed": true
+    },
+    {
+      "name": "recipient9 rejection",
+      "actual": "24186831738161/1000000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "686831738161/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming10 A matches L084",
+      "actual": "38223",
+      "relation": "=",
+      "required": "38223",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming10 D matches L084",
+      "actual": "43175",
+      "relation": "=",
+      "required": "43175",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 matches L084 j",
+      "actual": "10",
+      "relation": "=",
+      "required": "10",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 matches L084 A",
+      "actual": "72074",
+      "relation": "=",
+      "required": "72074",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 matches L084 D",
+      "actual": "81393",
+      "relation": "=",
+      "required": "81393",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 matches L084 margin",
+      "actual": "6295268429107/250000000000",
+      "relation": "=",
+      "required": "6295268429107/250000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient10 positive A",
+      "actual": "72074",
+      "relation": ">",
+      "required": "0",
+      "difference": "72074",
+      "passed": true
+    },
+    {
+      "name": "recipient10 positive log2 coefficient",
+      "actual": "114307",
+      "relation": ">",
+      "required": "0",
+      "difference": "114307",
+      "passed": true
+    },
+    {
+      "name": "recipient10 rejection",
+      "actual": "6295268429107/250000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "420268429107/250000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming11 A matches L084",
+      "actual": "72074",
+      "relation": "=",
+      "required": "72074",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming11 D matches L084",
+      "actual": "81393",
+      "relation": "=",
+      "required": "81393",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 matches L084 j",
+      "actual": "11",
+      "relation": "=",
+      "required": "11",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 matches L084 A",
+      "actual": "135850",
+      "relation": "=",
+      "required": "135850",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 matches L084 D",
+      "actual": "153395",
+      "relation": "=",
+      "required": "153395",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 matches L084 margin",
+      "actual": "12393528413561/500000000000",
+      "relation": "=",
+      "required": "12393528413561/500000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient11 positive A",
+      "actual": "135850",
+      "relation": ">",
+      "required": "0",
+      "difference": "135850",
+      "passed": true
+    },
+    {
+      "name": "recipient11 positive log2 coefficient",
+      "actual": "215389",
+      "relation": ">",
+      "required": "0",
+      "difference": "215389",
+      "passed": true
+    },
+    {
+      "name": "recipient11 rejection",
+      "actual": "12393528413561/500000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "643528413561/500000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming12 A matches L084",
+      "actual": "135850",
+      "relation": "=",
+      "required": "135850",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming12 D matches L084",
+      "actual": "153395",
+      "relation": "=",
+      "required": "153395",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 matches L084 j",
+      "actual": "12",
+      "relation": "=",
+      "required": "12",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 matches L084 A",
+      "actual": "256004",
+      "relation": "=",
+      "required": "256004",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 matches L084 D",
+      "actual": "289045",
+      "relation": "=",
+      "required": "289045",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 matches L084 margin",
+      "actual": "11844447693469/500000000000",
+      "relation": "=",
+      "required": "11844447693469/500000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient12 positive A",
+      "actual": "256004",
+      "relation": ">",
+      "required": "0",
+      "difference": "256004",
+      "passed": true
+    },
+    {
+      "name": "recipient12 positive log2 coefficient",
+      "actual": "405827",
+      "relation": ">",
+      "required": "0",
+      "difference": "405827",
+      "passed": true
+    },
+    {
+      "name": "recipient12 rejection",
+      "actual": "11844447693469/500000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "94447693469/500000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming13 A matches L084",
+      "actual": "256004",
+      "relation": "=",
+      "required": "256004",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming13 D matches L084",
+      "actual": "289045",
+      "relation": "=",
+      "required": "289045",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 matches L084 j",
+      "actual": "13",
+      "relation": "=",
+      "required": "13",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 matches L084 A",
+      "actual": "482379",
+      "relation": "=",
+      "required": "482379",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 matches L084 D",
+      "actual": "544613",
+      "relation": "=",
+      "required": "544613",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 matches L084 margin",
+      "actual": "23767843789027/1000000000000",
+      "relation": "=",
+      "required": "23767843789027/1000000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient13 positive A",
+      "actual": "482379",
+      "relation": ">",
+      "required": "0",
+      "difference": "482379",
+      "passed": true
+    },
+    {
+      "name": "recipient13 positive log2 coefficient",
+      "actual": "764623",
+      "relation": ">",
+      "required": "0",
+      "difference": "764623",
+      "passed": true
+    },
+    {
+      "name": "recipient13 rejection",
+      "actual": "23767843789027/1000000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "267843789027/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming14 A matches L084",
+      "actual": "482379",
+      "relation": "=",
+      "required": "482379",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming14 D matches L084",
+      "actual": "544613",
+      "relation": "=",
+      "required": "544613",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 matches L084 j",
+      "actual": "14",
+      "relation": "=",
+      "required": "14",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 matches L084 A",
+      "actual": "908884",
+      "relation": "=",
+      "required": "908884",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 matches L084 D",
+      "actual": "1026118",
+      "relation": "=",
+      "required": "1026118",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 matches L084 margin",
+      "actual": "5109656271901/200000000000",
+      "relation": "=",
+      "required": "5109656271901/200000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient14 positive A",
+      "actual": "908884",
+      "relation": ">",
+      "required": "0",
+      "difference": "908884",
+      "passed": true
+    },
+    {
+      "name": "recipient14 positive log2 coefficient",
+      "actual": "1440620",
+      "relation": ">",
+      "required": "0",
+      "difference": "1440620",
+      "passed": true
+    },
+    {
+      "name": "recipient14 rejection",
+      "actual": "5109656271901/200000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "409656271901/200000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming15 A matches L084",
+      "actual": "908884",
+      "relation": "=",
+      "required": "908884",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming15 D matches L084",
+      "actual": "1026118",
+      "relation": "=",
+      "required": "1026118",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 matches L084 j",
+      "actual": "15",
+      "relation": "=",
+      "required": "15",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 matches L084 A",
+      "actual": "1712452",
+      "relation": "=",
+      "required": "1712452",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 matches L084 D",
+      "actual": "1933309",
+      "relation": "=",
+      "required": "1933309",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 matches L084 margin",
+      "actual": "2406024528377/100000000000",
+      "relation": "=",
+      "required": "2406024528377/100000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient15 positive A",
+      "actual": "1712452",
+      "relation": ">",
+      "required": "0",
+      "difference": "1712452",
+      "passed": true
+    },
+    {
+      "name": "recipient15 positive log2 coefficient",
+      "actual": "2714243",
+      "relation": ">",
+      "required": "0",
+      "difference": "2714243",
+      "passed": true
+    },
+    {
+      "name": "recipient15 rejection",
+      "actual": "2406024528377/100000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "56024528377/100000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming16 A matches L084",
+      "actual": "1712452",
+      "relation": "=",
+      "required": "1712452",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming16 D matches L084",
+      "actual": "1933309",
+      "relation": "=",
+      "required": "1933309",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 matches L084 j",
+      "actual": "16",
+      "relation": "=",
+      "required": "16",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 matches L084 A",
+      "actual": "3226432",
+      "relation": "=",
+      "required": "3226432",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 matches L084 D",
+      "actual": "3642520",
+      "relation": "=",
+      "required": "3642520",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 matches L084 margin",
+      "actual": "25081357109227/1000000000000",
+      "relation": "=",
+      "required": "25081357109227/1000000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient16 positive A",
+      "actual": "3226432",
+      "relation": ">",
+      "required": "0",
+      "difference": "3226432",
+      "passed": true
+    },
+    {
+      "name": "recipient16 positive log2 coefficient",
+      "actual": "5113846",
+      "relation": ">",
+      "required": "0",
+      "difference": "5113846",
+      "passed": true
+    },
+    {
+      "name": "recipient16 rejection",
+      "actual": "25081357109227/1000000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "1581357109227/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming17 A matches L084",
+      "actual": "3226432",
+      "relation": "=",
+      "required": "3226432",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming17 D matches L084",
+      "actual": "3642520",
+      "relation": "=",
+      "required": "3642520",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 matches L084 j",
+      "actual": "17",
+      "relation": "=",
+      "required": "17",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 matches L084 A",
+      "actual": "6078889",
+      "relation": "=",
+      "required": "6078889",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 matches L084 D",
+      "actual": "6862806",
+      "relation": "=",
+      "required": "6862806",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 matches L084 margin",
+      "actual": "3188894662467/125000000000",
+      "relation": "=",
+      "required": "3188894662467/125000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient17 positive A",
+      "actual": "6078889",
+      "relation": ">",
+      "required": "0",
+      "difference": "6078889",
+      "passed": true
+    },
+    {
+      "name": "recipient17 positive log2 coefficient",
+      "actual": "9634884",
+      "relation": ">",
+      "required": "0",
+      "difference": "9634884",
+      "passed": true
+    },
+    {
+      "name": "recipient17 rejection",
+      "actual": "3188894662467/125000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "251394662467/125000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming18 A matches L084",
+      "actual": "6078889",
+      "relation": "=",
+      "required": "6078889",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming18 D matches L084",
+      "actual": "6862806",
+      "relation": "=",
+      "required": "6862806",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 matches L084 j",
+      "actual": "18",
+      "relation": "=",
+      "required": "18",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 matches L084 A",
+      "actual": "11453142",
+      "relation": "=",
+      "required": "11453142",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 matches L084 D",
+      "actual": "12930076",
+      "relation": "=",
+      "required": "12930076",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 matches L084 margin",
+      "actual": "25875470816889/1000000000000",
+      "relation": "=",
+      "required": "25875470816889/1000000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient18 positive A",
+      "actual": "11453142",
+      "relation": ">",
+      "required": "0",
+      "difference": "11453142",
+      "passed": true
+    },
+    {
+      "name": "recipient18 positive log2 coefficient",
+      "actual": "18152874",
+      "relation": ">",
+      "required": "0",
+      "difference": "18152874",
+      "passed": true
+    },
+    {
+      "name": "recipient18 rejection",
+      "actual": "25875470816889/1000000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "2375470816889/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming19 A matches L084",
+      "actual": "11453142",
+      "relation": "=",
+      "required": "11453142",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming19 D matches L084",
+      "actual": "12930076",
+      "relation": "=",
+      "required": "12930076",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 matches L084 j",
+      "actual": "19",
+      "relation": "=",
+      "required": "19",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 matches L084 A",
+      "actual": "21578658",
+      "relation": "=",
+      "required": "21578658",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 matches L084 D",
+      "actual": "24361289",
+      "relation": "=",
+      "required": "24361289",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 matches L084 margin",
+      "actual": "6094483841071/250000000000",
+      "relation": "=",
+      "required": "6094483841071/250000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient19 positive A",
+      "actual": "21578658",
+      "relation": ">",
+      "required": "0",
+      "difference": "21578658",
+      "passed": true
+    },
+    {
+      "name": "recipient19 positive log2 coefficient",
+      "actual": "34201435",
+      "relation": ">",
+      "required": "0",
+      "difference": "34201435",
+      "passed": true
+    },
+    {
+      "name": "recipient19 rejection",
+      "actual": "6094483841071/250000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "219483841071/250000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming20 A matches L084",
+      "actual": "21578658",
+      "relation": "=",
+      "required": "21578658",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming20 D matches L084",
+      "actual": "24361289",
+      "relation": "=",
+      "required": "24361289",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 matches L084 j",
+      "actual": "20",
+      "relation": "=",
+      "required": "20",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 matches L084 A",
+      "actual": "40655930",
+      "relation": "=",
+      "required": "40655930",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 matches L084 D",
+      "actual": "45898595",
+      "relation": "=",
+      "required": "45898595",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 matches L084 margin",
+      "actual": "12626993921637/500000000000",
+      "relation": "=",
+      "required": "12626993921637/500000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient20 positive A",
+      "actual": "40655930",
+      "relation": ">",
+      "required": "0",
+      "difference": "40655930",
+      "passed": true
+    },
+    {
+      "name": "recipient20 positive log2 coefficient",
+      "actual": "64438197",
+      "relation": ">",
+      "required": "0",
+      "difference": "64438197",
+      "passed": true
+    },
+    {
+      "name": "recipient20 rejection",
+      "actual": "12626993921637/500000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "876993921637/500000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming21 A matches L084",
+      "actual": "40655930",
+      "relation": "=",
+      "required": "40655930",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming21 D matches L084",
+      "actual": "45898595",
+      "relation": "=",
+      "required": "45898595",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 matches L084 j",
+      "actual": "21",
+      "relation": "=",
+      "required": "21",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 matches L084 A",
+      "actual": "76599027",
+      "relation": "=",
+      "required": "76599027",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 matches L084 D",
+      "actual": "86476590",
+      "relation": "=",
+      "required": "86476590",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 matches L084 margin",
+      "actual": "11966803481981/500000000000",
+      "relation": "=",
+      "required": "11966803481981/500000000000",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 A shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 D shift",
+      "actual": "-35",
+      "relation": "=",
+      "required": "-35",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "recipient21 positive A",
+      "actual": "76599027",
+      "relation": ">",
+      "required": "0",
+      "difference": "76599027",
+      "passed": true
+    },
+    {
+      "name": "recipient21 positive log2 coefficient",
+      "actual": "121406656",
+      "relation": ">",
+      "required": "0",
+      "difference": "121406656",
+      "passed": true
+    },
+    {
+      "name": "recipient21 rejection",
+      "actual": "11966803481981/500000000000",
+      "relation": ">",
+      "required": "47/2",
+      "difference": "216803481981/500000000000",
+      "passed": true
+    },
+    {
+      "name": "incoming22 A matches L084",
+      "actual": "76599027",
+      "relation": "=",
+      "required": "76599027",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming22 D matches L084",
+      "actual": "86476590",
+      "relation": "=",
+      "required": "86476590",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming23 A matches L084",
+      "actual": "144318677",
+      "relation": "=",
+      "required": "144318677",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming23 D matches L084",
+      "actual": "162928754",
+      "relation": "=",
+      "required": "162928754",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming24 A matches L084",
+      "actual": "271907886",
+      "relation": "=",
+      "required": "271907886",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "incoming24 D matches L084",
+      "actual": "306970713",
+      "relation": "=",
+      "required": "306970713",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "total K",
+      "actual": "397573379",
+      "relation": "=",
+      "required": "397573379",
+      "difference": "0",
+      "passed": true
+    },
+    {
+      "name": "total N",
+      "actual": "630138897",
+      "relation": "=",
+      "required": "630138897",
+      "difference": "0",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "checks": 502,
+    "recipients": 21,
+    "minimum_j": 4,
+    "minimum_margin": "734806653733/31250000000",
+    "required_margin": "47/2",
+    "failures": [],
+    "passed": true,
+    "parameter_samples": 0
+  },
+  "limitations": "Construction evidence only; b0=0 is assumed; no separate critical audit, assembly, realization, actual-word transfer or universal descent."
+}

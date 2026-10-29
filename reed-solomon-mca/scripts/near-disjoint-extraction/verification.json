@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "summary": {
+    "edges": 12,
+    "required_edges": [
+      12,
+      14
+    ],
+    "pair_checks": 66,
+    "quadruple_checks": 495,
+    "target_patterns": 0,
+    "max_degree": 4,
+    "required_max_degree": 4,
+    "max_S_union_four_edges": 6,
+    "required_S_union_for_target": 7
+  },
+  "failures": [],
+  "certificate": "scripts/near-disjoint-extraction/counterexample.json",
+  "method": "rebuild columns and all 66 pair/495 quadruple records"
+}

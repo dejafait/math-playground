@@ -33,6 +33,11 @@ pilot log-volumes. Reuse the qualified April 2020 IV and May 2020 I
 reproductions and the explicit def= boundary in the saved assessment;
 current author/journal authentication is unresolved.
 
+The separate integral-witness application below replaces the L101
+selection by one L118 member/order/prime, retaining the same definitions
+and source qualifications. It does not identify their existential
+witnesses. Its additional full-support input is L119.
+
 ## Conclusion
 
 U is finite and nonempty, contains three, and avoids two and ell.
@@ -58,6 +63,16 @@ Under that identification, computing the native arithmetic degree at
 F'=C in K_C=C(E_o[ell]) gives exactly (2)'s arithmetic difference.
 This conditional dictionary does not construct such data or apply IV
 Theorem 1.10. Its pilot magnitude has the separate 1/(2ell) factor.
+
+For the L118 witness, put Sigma=S to distinguish this rational support
+from L119's torsion line U. Then S excludes ell, every ordinary height
+over ell is zero, and the application below gives
+
+    D_C^(not2)=D_(Sigma,C), H_ell(C)=0, Delta_C=0.
+
+Every ordinary integer q-order at every C-place over Sigma is positive
+and prime to ell. This concerns C=C_o, not K=C_o(E_o[ell]). The
+application is validated by the separate step502 critical audit below.
 
 ## Proof
 
@@ -286,6 +301,208 @@ The argument and its direct inputs are unchanged, so PROOF.md and
 DAG.md are unchanged; this audit supersedes the overview's pending
 wording for L103 only.
 
+### Integral-witness application — 2026-10-26, step499
+
+**Scope and inputs.** Use the prior SPECIALIZE assessment
+`drafts/literature/2026-10-26-integral-witness-ordinary-q-divisor-comparison.md`.
+Fix one member, one ordering and its one prime from L118, and retain
+its literal E_o, F=G_o, C=C_o and original downstairs H. No existential
+conclusion of L101 is reapplied. L118's construction and step484 audit
+give a survivor of the same L089 family, fixed domains and closure,
+d=6, epsilon_d=1, full-coordinate fields of L090, the degrees of
+L092, H>xi^2 with xi>=5, and P1+/P2/P3 for this one ell>=7.
+In addition v_ell(j)>=0. L119 applies on exactly this tuple and gives
+its full support S, with three in S and two,ell outside S.
+
+The main gap remains original finite B>=A. The bounded target is
+zero omitted-ell ordinary contribution and ell-coprime ordinary
+C-orders over full S; this could remove one arithmetic discrepancy
+before a separate native/pilot comparison. Continue only if the
+same-member premises and complete fibers pass. ATTEMPTS/031,035–036
+remain parked; no coordinate normalization, authentication retry or
+height-only pole-exclusion deduction is used.
+
+**Why the original selector is unnecessary.** L100 is explicitly
+quantified for any survivor, ordering and prime ell>=7 satisfying
+P2 over its literal F. All its hypotheses hold by L118, so its
+semistability, height formula and C-order coprimality apply here.
+L101's unconditional height calculation, used by L118, identifies H
+over this actual F before choosing the prime. L102's proof uses only
+these local heights, F subset C with [C:F]=4, H>25 and P3 at the
+same prime. These premises also hold here, independently of whether
+the prime was selected by L101 or L116/L117. Its existing tower and
+weighted-contribution proof therefore applies to this tuple. This
+is an applicability argument, not an identification of old witnesses.
+
+The proof of (1) above uses only the same rational j, L100's local
+height formula, the support S, and ell>=7. Its degree step uses the
+displayed ordinary degree definition and L102's weighted estimate.
+All these premises have now been matched. Thus apply that coefficient
+and degree argument to the present tuple, without repeating its Tate
+or divisor calculation. The precise sources remain GenEll (2010),
+Definition 3.3/Remark 3.3.1, p.17; Silverman AEC (2009), C.14.1(b,d),
+p.445; Milne ANT v3.08, Theorem 3.34, pp.59–60 and Corollary 7.42/
+Remark 7.43, p.124; and IV Definition 1.9(i)–(ii), pp.21–22, with
+the reproduction and authentication qualifications stated above.
+
+**Zero term and full-fiber conclusion.** Since ell is outside S by
+L119, Sigma=S=S minus {ell} is the U of the ordinary divisor
+argument; it is not the torsion line named U in L119. At every actual
+C-place w|ell, L100 gives good reduction and h_w=0. Hence the entire
+right side of (1) is the zero divisor and its complete weighted degree
+H_ell(C) is zero. Consequently D_C^(not2)=D_(Sigma,C) as finite
+arithmetic divisors with zero infinite part, and Delta_C=0. This
+meets the sought zero threshold, not merely L102's positive upper
+bound. All complete fibers are retained: the degree still uses
+f_w log(p_w)/[C:Q], with no section representative substituted.
+
+For every p in Sigma and every actual C-place w|p, L100 gives
+
+    h_w=e(C_w/Q_p)(-v_p(j))>0, gcd(ell,h_w)=1.
+
+These h_w are exactly its ordinary q-orders, interpreted through the
+unramified quadratic splitting comparison if reduction is nonsplit.
+The residue degree of that comparison is not an extra factor in h_w.
+No order of a 2ell-th root is used. Outside S every finite C-place
+has good reduction and height zero, so no further nonzero ordinary
+contribution was excluded. This proves the stated specialization.
+
+**Assembly boundary.** The calculation takes place on C alone and
+uses no conclusion of L120 or L121. Those later constructions retain
+the same member/order/prime, fields and full rational S; their local
+place reselection does not enter this complete-fiber divisor. Thus
+the result is available on that retained tuple without a backward
+dependency on its later assembly. It makes no coprimality assertion
+for K-orders after division-field ramification.
+
+The native dictionary above still requires independently supplied
+initial theta-data and an IUT III situation, identifying the native
+divisor with these ordinary orders. Neither zero Delta_C nor ordinary
+coprimality supplies those premises, the actual action/factorization/
+pilot, or a log-volume inequality. Full (a)–(c)/initial data/III/P7,
+directed (*), exact generation/full repair, factor-four excess,
+authentication/def= qualifications, essentiality and finite B>=A
+remain open. The pilot's separate 1/(2ell) normalization is unchanged.
+This is local REPRODUCTION by known methods, with no claimed advance
+beyond the checked sources or complete-solution candidate. A separate
+critical audit of this changed-witness application is recorded below.
+
+### Separate integral-witness critical audit — 2026-10-26, step502
+
+**Scope and verdict.** The invocation-start SPECIALIZE assessment is
+`drafts/literature/2026-10-26-integral-ordinary-divisor-critical-audit.md`.
+The step499 application passes without mathematical correction. This
+audit verifies the changed selection and complete-fiber arithmetic;
+it does not identify two existential witnesses. Reuse the precise
+primary imports above: GenEll Definition 3.3/Remark 3.3.1, p.17;
+Silverman AEC (2009), VII.5.5, pp.197–199, A.1.3/A.1.4(b),
+pp.412–413, and C.14.1(b,d), p.445; Milne ANT v3.08, Theorem
+3.34, pp.59–60 and Corollary 7.42/Remark 7.43, p.124; and the
+qualified IV Definition 1.9 and Theorem 1.10 definitions, pp.21–23.
+The audited local results are used, not reproved. No current-source
+authentication or broader source interpretation is asserted.
+
+**Selector-independent premises.** Fix L118's member, then one
+ordering and its prime once. Its construction and step484 audit retain
+an L089 survivor in the same domains and closure, with d=6 and
+epsilon_d=1. L090's geometric pointed change of variables preserves
+the rational j even when that change does not descend to T. Thus
+0<j<1728, v_2(j)>=8 and v_3(j)=-30 still hold for E_o. The fields
+are the literal F=T(iota,E_o[15]) and its actual normal closure C,
+with every torsion point's two coordinates adjoined. L092 applies
+to every such survivor and ordering, giving [F:Q]=276480,
+[C:Q]=1105920=2^13*3^3*5 and [C:F]=4.
+
+L101's pre-selection calculation applies before choosing any prime:
+its local reduction and height portion uses full 15-torsion, not P2.
+It identifies the height over this actual F as
+
+    H=(1/[F:Q])sum_v h_v f_v log(p_v)
+     =sum_p max(0,-v_p(j))log p.
+
+L118 explicitly uses this height in L116/L117's construction, with
+sqrt(H)>xi>=5, so H>25. Its one ell>=7 has P2 at every finite
+F-place and P3 at every F-place over ell, as well as v_ell(j)>=0.
+L100 is stated for any such survivor and P2 prime. Its hypotheses
+therefore hold literally; its conclusions need no selector transfer.
+L101's finite-exception selection and original existential conclusion
+are not invoked again.
+
+L102's statement names L101's witness, so a literal invocation of
+that statement alone would not suffice. Its actual proof, however,
+uses precisely the heights just matched, F contained in C with
+relative degree four, H>25 and same-prime P3. For every actual
+x|ell and w|x, the cited completion formulas give
+
+    h_w=e(w/x)h_x, f_w=f(w/x)f_x,
+    sum_(w|x)e(w/x)f(w/x)=4.
+
+These give its complete normalized identity and strict bound on this
+tuple, with no equality of indices over different x and no assumption
+that F/Q is normal. No use of L101's choice mechanism occurs in
+either proof case h_x=0 or h_x>0. In particular L102's proof-use
+specialization in step499 is justified; zero heights below make its
+strict bound automatic, but do not change the height definition.
+
+**Every coefficient and every positive order.** L119's full-support
+application and step489 audit use L098 on this L118 tuple, not this
+lemma or later assembly. They give S={p:v_p(j)<0}, finite and
+containing three, with two and ell excluded. Let Sigma=S; it is a
+set of rational primes, not L119's torsion line U. L100 gives, at
+every actual C-place w over p,
+
+    h_w=e(C_w/Q_p)(-v_p(j))>0 if p in S,
+    h_w=0 and good reduction if p outside S.
+
+Thus every w|ell has height zero, including all completion factors.
+For p=2 both divisor coefficients vanish by definition and two is
+outside S. For p in S, both coefficients equal h_w. At every other
+finite place both are zero by the displayed local formula. These
+cases include ell and exhaust all places. Infinite coefficients are
+zero by definition. Hence D_C^(not2)=D_(Sigma,C) coefficientwise;
+no rational pole has been removed and no infinite part is implicit.
+
+For each p in S, take any actual F-place v above p. P2 excludes
+ell from the positive integer h_v=e(F_v/Q_p)(-v_p(j)), so ell
+does not divide -v_p(j). Since C/Q is Galois, e(C_w/Q_p) divides
+[C:Q]=2^13*3^3*5 and is prime to ell>=7 at every extending w.
+These are exactly the two factors in L100's transfer, proving
+gcd(ell,h_w)=1 throughout the full C-fiber over every p in S.
+This uses Galoisness of C/Q, never normality of F/Q or K/Q.
+
+Here ordinary q-order means ord_L(q)/e(L/C_w) in the split Tate
+comparison. In the nonsplit multiplicative case the cited splitting
+extension is unramified quadratic, so its ordinary integer order is
+also h_w. Its residue degree two is not a multiplier. At residue
+two or three semistability is already covered by invertible level
+five, and at residue five by level three; no place is omitted.
+These assertions concern C-orders, not K-orders or 2ell-th-root orders.
+
+**Full degree and assembly boundary.** The complete finite ell-fiber
+therefore gives, with exactly the declared absolute residue weights,
+
+    H_ell(C)=sum_(w|ell)0*f_w*log(ell)/[C:Q]=0,
+    Delta_C=(deg_C(D_C^(not2))-deg_C(D_(Sigma,C)))/6=0.
+
+No representative selected by a place section replaces this sum.
+In particular the attained value is zero, not merely the upper bound
+sqrt(H)log(ell)/6; that bound remains positive since H>25, ell>=7.
+There is no extra ramification, residue or pilot normalization factor.
+The separate pilot magnitude 1/(2ell) has not entered this arithmetic
+identity. L120/L121 and their reselections are not proof premises.
+The existing direct inputs in DAG.md already cover this application;
+no new edge or lemma is needed. The argument is unchanged, so the
+overview is not rewritten; this audit and the current checkpoint
+supersede its pending-audit wording for the step499 application.
+
+This validates a local reproduction of known methods on the integral
+tuple. It supplies no K-order coprimality, native divisor identification,
+initial theta-data or III comparison situation. The exact-generation
+and factor-four issues, directed (*), full repair, native action/
+factorization/pilot, authentication/def= qualification, essentiality
+and original finite B>=A remain unresolved. No complete candidate
+or mathematical progress beyond the checked sources is claimed.
+
 ## Mathlib
 
 Full matching and supporting Mathlib coverage have not been checked.
@@ -295,3 +512,5 @@ certificate, mathematical script or general theorem reproof is needed.
 
 The separate step414 audit verifies the informal application only;
 it is not a Mathlib formalization.
+The step499 integral-witness application and step502 informal audit
+have no checked full matching or supporting Mathlib theorem.

@@ -1,0 +1,104 @@
+54                              SHINICHI MOCHIZUKI
+
+1.11, (a), it is necessary [cf. Proposition 1.3, (iii)] to pass through the cyclotome
+“(l · ΔΘ )(Π)” by applying the cyclotomic rigidity isomorphisms of Corollaries 1.10,
+1.11 — which, in the case of Corollary 1.11, results in various indeterminacies. Put
+another way, the Frobenioid-theoretic identiﬁcation [i.e., via “μN (S)”] of Proposi-
+                                                            ×
+tion 1.3 between the cyclotomes “Πμ (MΘ   ∗ (Π))”, “μZ (O (G))” of Corollaries 1.10;
+1.11, (a), may be thought of either as being only uniradially deﬁned [cf. (iv)],
+or as multiradially deﬁned, but only up to certain indeterminacies.
+
+Remark 1.11.4.
+     (i) One way to understand the signiﬁcance of the cyclotomic rigidity isomor-
+phism obtained in Corollary 1.10 — i.e., of the triviality of the homomorphism that
+relates the cyclotomic portion of “O (−)” to the coric data “O×μ (−)” [cf. Remark
+1.11.3, (iii), (b)] — relative to the cyclotomic rigidity isomorphism of Corollary 1.11,
+which involves substantial indeterminacies arising from the highly nontrivial re-
+lationship between the input data “O (−)” of the cyclotomic rigidity algorithm
+involved and the coric data “O×μ (−)” [cf. Remark 1.11.3, (iii), (a)], is as a sort of
+     splitting, or decoupling, that serves to separate the “purely radial
+     data” that appears in the cyclotomic rigidity isomorphism of Corollary
+     1.10 from the “purely coric data” constituted by “O×μ (−)”.
+This point of view is discussed further in Remark 1.12.2, (vi), below.
+     (ii) From the point of view of the discussion of Remark 1.9.2, (iii), the “purely
+radial data” that appears in the cyclotomic rigidity isomorphism of Corollary 1.10
+depends on the tautological collection of “labels of all possible arithmetic holo-
+morphic structures”. That is to say, the algorithms of Corollary 1.10 do not give
+rise to a “detailed, explicit description” of these labels in terms of the “purely coric
+data O×μ (−)”. On the other hand, one may also consider a modiﬁed version of
+Corollary 1.10 in which
+ (∗) one replaces “O×μ (−)” by “O× (−)” [i.e., so that the crucial triviality
+    discussed in Remark 1.11.3, (iii), (b), no longer holds!] and applies the
+    tautological approach discussed in Example 1.9, (iv), (a), to construct-
+    ing the cyclotomic rigidity isomorphism [without indeterminacies!] under
+    consideration.
+If one works with this modiﬁed version (∗), then the codomain of the cyclotomic
+rigidity isomorphism under consideration may be thought of as the submodule
+“Oμ (−)” of the “purely coric data O× (−)”, equipped with a “certain rigidity” that
+depends on the choice of an element of the collection of “labels of all possible
+arithmetic holomorphic structures”. That is to say, whereas Corollary 1.10 has
+the drawback of being “not entirely free of label-dependence”, the signiﬁcance of
+Corollary 1.10 [as stated!] relative to the tautological modiﬁed version (∗) lies in
+the fact that the label-dependence inherent in Corollary 1.10 is conﬁned to the
+“purely radial component” of the splitting, or decoupling, discussed in (i) — i.e.,
+unlike the case with (∗), the algorithms of Corollary 1.10 yield a “purely coric
+component” that is free of such “unwanted” label-dependent data. Thus,
+in summary, unlike the case with (∗), the algorithms of Corollary 1.10 yield out-
+put data equipped with a splitting, or decoupling, into label-dependent [i.e.,
+“purely radial”] and label-independent [i.e. “purely coric”] components.
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY II                          55
+
+Remark 1.11.5. Suppose that we are in the situation of Corollary 1.11.
+
+    (i) Recall the natural surjection
+
+                                H 1 (G, μZ (G))  Z
+
+— which is constructed via a functorial group-theoretic algorithm in [AbsTopIII],
+Corollary 1.10, (b). That is to say, when G = Gk , this surjection is the surjection
+determined by the valuation of k on the image of the natural Kummer map
+
+                              k × → H 1 (Gk , μZ (Gk ))
+
+— where we recall that the image of this Kummer map is equal to the inverse image
+of Z ⊆ Z via the surjection under consideration. In particular, the existence of this
+functorial group-theoretic algorithm implies that the data consisting of this natural
+surjection — hence, in particular, its kernel, i.e., “Ok× ” — may be formulated as a
+corically, hence, in particular, as a multiradially [cf. Example 1.7, (iv)], deﬁned
+functor. [We leave the routine details to the reader.]
+
+    (ii) On the other hand, if one applies the isomorphisms (∗bs-Gal
+                                                              G, ) [cf. also the
+                                                    bs-Gal
+poly-isomorphism α of Example 1.8, (ii)] and (∗G,Π ), of Corollary 1.11, then the
+natural surjection of (i) gives rise to natural surjections
+
+               H 1 (G, μZ (MTM (Π)))  Z;    H 1 (G, (l · ΔΘ )(Π))  Z
+
+— which yield data that may be formulated either as a uniradially deﬁned functor
+[cf. Remark 1.11.3, (iv)] or, when considered up to a Z× -indeterminacy, as a
+multiradially deﬁned functor [cf. Corollary 1.11]. In particular, the kernels of
+these natural surjections yield data that may be formulated as a multiradially
+deﬁned functor. [We leave the routine details to the reader.]
+
+Remark 1.11.6.         The importance of cyclotomic rigidity in the theory of the
+present series of papers is interesting in light of the analogy between the ideas of
+the present series of papers and the p-adic Teichmüller theory of [pTeich] [cf. the
+discussion of [AbsTopIII], §I5]. Indeed, the proof of a fundamental absolute p-adic
+anabelian result concerning the canonical curves that arise in the theory of [pTeich]
+[cf. [CanLift], Theorem 3.6] depends, in an essential way, on a certain cyclotomic
+rigidity result proven in an earlier paper [cf. [AbsAnab], Lemma 2.5, (ii)]. In this
+context, we observe that one important theme that appears both in the present
+series of papers and in the theory of [CanLift], §3, is the idea that cyclotomes
+should be thought of as the “skeleta of arithmetic holomorphic structures”
+— cf. the relation of S1 to C× in the complex archimedean theory.
+
+    We are now ready to discuss the main result of the present §1.
+
+Corollary 1.12. (Multiradial Constant Multiple Rigidity) Write (R, C, Φ :
+R → C) — i.e., in the notation of Example 1.8, (v), (vi),
+                                     ×μ
+                 ∗ (Π)) ⊗ Q/Z, G  O
+       (Π  Πμ (MΘ                      (G), αμ,×μ ) → (G  O×μ (G))
+

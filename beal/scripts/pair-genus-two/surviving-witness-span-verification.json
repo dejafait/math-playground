@@ -1,0 +1,47 @@
+{
+  "completed": true,
+  "failures": [],
+  "checks": 1545,
+  "bindings": {
+    "surviving-witness-span-certificate.json": "6190fc8ebfb79e9a9f532c75c893cff4bebd27aa8ae27dac042cd18c758eb131",
+    "odd-membership-35-certificate.json": "60db6aa9958df7980a1f8914f79d6b228775a2fbcc5bd3575301cabc68887c07",
+    "two-adic-filter-certificate.json": "18a2ac2527d1a3cf2c1c8e78bd9ce8bdd4cdc98b38375419554600e73b11736e",
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+    "odd-model-support-certificate.json": "22315e6ebcbaa4ff063206432a958935aeb01b07ea6652bcc51d851c45162193"
+  },
+  "max_rational_bits": 77,
+  "outcome": "outside",
+  "outside_mask": 3109,
+  "outside_rational_comparisons": [
+    {
+      "reference_mask": 0,
+      "rational_ratio": "1/524880000000000000",
+      "numerator_floor": 1,
+      "denominator_floor": 724486024
+    },
+    {
+      "reference_mask": 165,
+      "rational_ratio": "55/12",
+      "numerator_floor": 7,
+      "denominator_floor": 3
+    },
+    {
+      "reference_mask": 132102,
+      "rational_ratio": "11/216000",
+      "numerator_floor": 3,
+      "denominator_floor": 464
+    },
+    {
+      "reference_mask": 132259,
+      "rational_ratio": "3403125/16",
+      "numerator_floor": 1844,
+      "denominator_floor": 4
+    }
+  ],
+  "all_kernel_vectors_checked": 31,
+  "products_checked": 4,
+  "comparisons_actual": 10,
+  "comparisons_required_for_outside": 4,
+  "comparisons_cap": 124,
+  "independent_selmer_classes_at_least": 3
+}

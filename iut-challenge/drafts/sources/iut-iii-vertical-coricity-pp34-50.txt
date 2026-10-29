@@ -1,0 +1,1018 @@
+34                                    SHINICHI MOCHIZUKI
+
+     (ix) (Coric Holomorphic Log-shells) Let ∗ D be a D-prime-strip; write
+
+                                                   F(∗ D)
+
+for the F-prime-strip naturally determined by Ψcns (∗ D) [cf. [IUTchII], Remark
+4.5.1, (i)]. Suppose that † F = ‡ F = F(∗ D), and that the given log-link F(∗ D) =
+†    log
+ F −→ ‡ F = F(∗ D) is the full log-link. Then there exists a functorial algorithm
+in the D-prime-strip ∗ D for constructing a collection of topological subspaces — i.e.,
+a collection of “coric holomorphic log-shells” —
+
+                                                     def
+                                            I∗ D     =      I† F
+                     gp                                                                 gp
+of the collection Ψcns (∗ D), which may be naturally identiﬁed with Ψcns (‡ F), together
+with a collection of natural isomorphisms [cf. (viii); the fourth display of [IUTchII],
+Corollary 4.5, (ii)]
+                                           ∼
+                                    I∗ D  → I ∗ D
+— where we write ∗ D for the D -prime-strip determined by ∗ D.
+
+    (x) (Frobenius-picture) Let {n F}n∈Z be a collection of distinct F-prime-
+strips [relative to the given initial Θ-data — cf. [IUTchI], Deﬁnition 5.2, (i)]
+indexed by the integers. Write {n D}n∈Z for the associated D-prime-strips [cf.
+[IUTchI], Remark 5.2.1, (i)] and {n D }n∈Z for the associated D -prime-strips [cf.
+                                                                                     log
+[IUTchI], Deﬁnition 4.1, (iv)]. Then the full log-links n F                          −→      (n+1)
+                                                                                                     F, for
+n ∈ Z, give rise to an inﬁnite chain
+
+                          log               log             log                log
+                 . . . −→       (n−1)
+                                        F −→        n
+                                                        F −→       (n+1)
+                                                                           F −→ . . .
+
+of log-linked F-prime-strips which induces chains of full poly-isomorphisms
+           ∼     ∼              ∼                                      ∼        ∼            ∼
+     . . . → n D → (n+1) D → . . .                 and         . . . → n D → (n+1) D → . . .
+
+on the associated D- and D -prime-strips [cf. (i)]. These chains may be represented
+symbolically as an oriented graph Γ [cf. [AbsTopIII], §0]
+
+                          ...    →      •     →      •     →       •       →   ...
+
+                                ...                 ↓                 ...
+                                                     ◦
+
+                                                                               log
+— i.e., where the horizontal arrows correspond to the “ −→ ’s”; the “•’s” corre-
+spond to the “n F”; the “◦” corresponds to the “n D”, identiﬁed up to isomorphism;
+the vertical/diagonal arrows correspond to the Kummer isomorphisms of (iv).
+This oriented graph Γ admits a natural action by Z [cf. [AbsTopIII], Corollary 5.5,
+(v)] — i.e., a translation symmetry — that ﬁxes the “core” ◦, but it does not
+admit arbitrary permutation symmetries. For instance, Γ does not admit an
+automorphism that switches two adjacent vertices, but leaves the remaining vertices
+ﬁxed.
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY III                           35
+
+Proof. The various assertions of Proposition 1.2 follow immediately from the
+deﬁnitions and the references quoted in the statements of these assertions. 
+
+Remark 1.2.1.
+     (i) Suppose that we are in the situation of Deﬁnition 1.1, (ii). Then at the
+level of metrics — i.e., which give rise to angular log-volumes as in Proposition
+                                       μN
+1.2, (iii) — we suppose that Ψgp† F /Ψ† F
+                                   v      v
+                                            is equipped with the metric obtained by
+descending the metric of Ψgp
+                          † F , but we regard the object
+                             v
+
+
+           μN               μN
+    Ψgp
+     † F /Ψ† F
+        v      v
+                 [or Ψ×
+                      † F /Ψ† F ] as being equipped with a “weight N ”
+                         v     v
+
+
+                                                                      μN
+— i.e., which has the eﬀect of ensuring that the log-volume of Ψ×
+                                                                † F /Ψ† F is equal
+                                                                   v     v
+
+to that of Ψ×
+            † F . That is to say, this convention concerning “weights” ensures that
+               v
+                    μN
+working with Ψgp
+              † F /Ψ† F
+                 v      v
+                          does not have any eﬀect on various computations of log-
+volume.
+     (ii) Although, at ﬁrst glance, the compatibility with archimedean log-volumes
+discussed in Proposition 1.2, (iii), appears to relate “diﬀerent objects” — i.e., angu-
+lar versus radial log-volumes — in the domain and codomain of the log-link under
+consideration, in fact, this compatibility property may be regarded as an invari-
+ance property — i.e., that relates “similar objects” in the domain and codomain
+of the log-link under consideration — by reasoning as follows. Let k be a complex
+archimedean ﬁeld. Write Ok× ⊆ k for the group of elements of absolute value = 1
+and k × ⊆ k for the group of nonzero elements. In the following, we shall use the
+term “metric on k” to refer to a Riemannian metric on the real analytic manifold
+determined by k that is compatible with the two natural almost complex structures
+on this real analytic manifold and, moreover, is invariant with respect to arbitrary
+additive translation automorphisms of k. In passing, we note that any metric on
+k is also invariant with respect to multiplication by elements ∈ Ok× . Next, let us
+observe that the metrics on k naturally form a torsor over R>0 . In particular, if
+we write k × ∼= Ok× × R>0 for the natural direct product decomposition, then one
+veriﬁes immediately that
+
+    any metric on k is uniquely determined either by its restriction to
+    Ok× ⊆ k or by its restriction to R>0 ⊆ k.
+
+Thus, if one regards the compatibility property concerning angular and radial log-
+volumes discussed in Proposition 1.2, (iii), as a property concerning the respective
+restrictions of the corresponding uniquely determined metrics [i.e., the metrics
+corresponding to the respective standard norms on the complex archimedean ﬁelds
+under consideration — cf. [AbsTopIII], Proposition 5.7, (ii), (a)], then this compat-
+ibility property discussed in Proposition 1.2, (iii), may be regarded as a property
+that asserts the invariance of the respective natural metrics with respect to the
+“transformation” constituted by the log-link.
+
+Remark 1.2.2. Before proceeding, we pause to consider the signiﬁcance of the
+various properties discussed in Proposition 1.2, (v). For simplicity, we suppose
+36                              SHINICHI MOCHIZUKI
+
+that “† F” is the F-prime-strip that arises from the data constructed in [IUTchI],
+Examples 3.2, (iii); 3.3, (i); 3.4, (i) [cf. [IUTchI], Deﬁnition 5.2, (i)].
+
+     (i) Suppose that v ∈ Vnon . Thus, Kv [cf. the notation of [IUTchI], Deﬁnition
+                                                                                 def
+3.1, (e)] is a mixed-characteristic nonarchimedean local ﬁeld. Write k = Kv ,
+Ok ⊆ k for the ring of integers of k, Ok× ⊆ Ok for the group of units, and logk :
+Ok× → k for the pv -adic logarithm. Then, at a more concrete level — i.e., relative
+to the notation of the present discussion — the log-shell “I† Fv ” corresponds to
+the submodule
+                           Ik = (p∗v )−1 · logk (Ok× ) ⊆ k
+                              def
+
+
+— where p∗v = pv if pv is odd, p∗v = p2v if pv is even — while the properties (bnon ),
+(cnon ) of Proposition 1.2, (v), correspond, respectively, to the evident inclusions
+
+                   Ok = Ok \ {0} ⊆ Ok ⊆ Ik ;         logk (Ok× ) ⊆ Ik
+                       def
+
+
+
+of subsets of k.
+
+     (ii) Suppose that v ∈ Varc . Thus, Kv [cf. the notation of [IUTchI], Deﬁnition
+                                                         def
+3.1, (e)] is a complex archimedean ﬁeld. Write k = Kv , Ok ⊆ k for the subset
+of elements of absolute value ≤ 1, Ok× ⊆ Ok for the group of elements of absolute
+value = 1, and expk : k → k × for the exponential map. Then, at a more concrete
+level — i.e., relative to the notation of the present discussion — the log-shell
+“I† Fv ” corresponds to the subset
+
+                                def
+                             Ik = {a ∈ k | |a| ≤ π} ⊆ k
+
+of elements of absolute value ≤ π, while the properties (barc ), (carc ) of Proposition
+1.2, (v), correspond, respectively, to the evident inclusions
+
+                   Ok = Ok \ {0} ⊆ Ok ⊆ Ik ;         Ok× ⊆ expk (Ik )
+                      def
+
+
+
+— where we note the slightly diﬀerent roles played, in the archimedean [cf. the
+present (ii)] and nonarchimedean [cf. (i)] cases, by the exponential and logarithmic
+functions, respectively [cf. [AbsTopIII], Remark 4.5.2].
+
+      (iii) The diagram represented by the oriented graph Γ of Proposition 1.2, (x), is,
+of course, far from commutative [cf. Proposition 1.2, (iv)]! Ultimately, however,
+[cf. the discussion of Remark 1.4.1, (ii), below] we shall be interested in
+
+ (a) constructing invariants with respect to the Z-action on Γ — i.e., in eﬀect,
+    constructing objects via functorial algorithms in the coric D-prime-strips
+    “n D” —
+
+while, at the same time,
+
+ (b) relating the corically constructed objects of (a) to the non-coric “n F” via
+    the various Kummer isomorphisms of Proposition 1.2, (iv).
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY III                            37
+
+That is to say, from the point of view of (a), (b), the content of the inclusions
+discussed in (i) and (ii) above may be interpreted, at v ∈ Vnon , as follows:
+
+    the coric holomorphic log-shells of Proposition 1.2, (ix), contain not
+    only the images, via the Kummer isomorphisms [i.e., the vertical/diagonal
+    arrows of Γ], of the various “O ” at v ∈ Vnon , but also the images, via
+    the composite of the Kummer isomorphisms with the various iterates
+    [cf. Remark 1.1.1] of the log-link [i.e., the horizontal arrows of Γ], of the
+    portions of the various “O ” at v ∈ Vnon on which these iterates are
+    deﬁned.
+
+An analogous statement in the case of v ∈ Varc may be formulated by adjusting the
+wording appropriately so as to accommodate the latter portion of this statement,
+which corresponds to a certain surjectivity — we leave the routine details to the
+reader. Thus, although the diagram [corresponding to] Γ fails to be commutative,
+
+    the coric holomorphic log-shells involved exhibit a sort of “upper semi-
+    commutativity” with respect to containing/surjecting onto the various
+    images arising from composites of arrows in Γ.
+
+
+     (iv) Note that although the diagram Γ admits a natural “upper semi-commu-
+tativity” interpretation as discussed in (iii) above, it fails to admit a corresponding
+“lower semi-commutativity” interpretation. Indeed, such a “lower semi-commu-
+tativity” interpretation would amount to the existence of some sort of collection
+of portions of the various “O ’s” involved [cf. the discussion of (i), (ii) above]
+— i.e., a sort of “core” — that are mapped to one another isomorphically by
+the various maps “logk ”/“expk ” [cf. the discussion of (i), (ii) above] in a fashion
+that is compatible with the various Kummer isomorphisms that appear in
+the diagram Γ. On the other hand, it is diﬃcult to see how to construct such a
+collection of portions of the various “O ’s” involved.
+
+      (v) Proposition 1.2, (iii), may be interpreted in the spirit of the discussion of
+(iii) above. That is to say, although the diagram corresponding to Γ fails to be
+commutative, it is nevertheless “commutative with respect to log-volumes”, in
+the sense discussed in Proposition 1.2, (iii). This “commutativity with respect to
+log-volumes” allows one to work with log-volumes in a fashion that is consistent
+with all composites of the various arrows of Γ. Log-volumes will play an important
+role in the theory of §3, below, as a sort of mono-analytic version of the notion of
+the degree of a global arithmetic line bundle [cf. the theory of [AbsTopIII], §5].
+
+     (vi) As discussed in [AbsTopIII], §I3, the log-links of Γ may be thought of
+as a sort of “juggling of , ” [i.e., of the two combinatorial dimensions of
+the ring structure constituted by addition and multiplication]. The “arithmetic
+holomorphic structure” constituted by the coric D-prime-strips is immune to
+this juggling, and hence may be thought as representing a sort of quotient of the
+horizontal arrow portion of Γ by the action of Z [cf. (iii), (a)] — i.e., at the level
+of abstract oriented graphs, as a sort of “oriented copy of S1 ”. That is to say,
+the horizontal arrow portion of Γ may be thought of as a sort of “unraveling” of
+38                              SHINICHI MOCHIZUKI
+
+this “oriented copy of S1 ”, which is subject to the “juggling of , ” constituted
+by the Z-action. Here, it is useful to recall that
+
+ (a) the Frobenius-like structures constituted by the monoids that appear
+    in the horizontal arrow portion of Γ play the crucial role in the theory
+    of the present series of papers of allowing one to construct such “non-
+    ring/scheme-theoretic ﬁlters” as the Θ-link [cf. the discussion of
+    [IUTchII], Remark 3.6.2, (ii)].
+
+By contrast,
+
+ (b) the étale-like structures constituted by the coric D-prime-strips play
+    the crucial role in the theory of the present series of papers of allowing
+    one to construct objects that are capable of “functorially permeating”
+    such non-ring/scheme-theoretic ﬁlters as the Θ-link [cf. the discussion of
+    [IUTchII], Remark 3.6.2, (ii)].
+
+Finally, in order to relate the theory of (a) to the theory of (b), one must avail
+oneself of Kummer theory [cf. (iii), (b), above].
+
+
+
+                 mono-anabelian coric           invariant diﬀerential
+                  étale-like structures              dθ on S1
+
+
+                    post-anabelian              coordinate functions
+                Frobenius-like structures             •
+                                                        dθ on Γ
+
+
+
+               Fig. 1.1: Analogy with the diﬀerential geometry of S1
+
+      (vii) From the point of view of the discussion in (vi) above of the “oriented
+ copy of S1 ” obtained by forming the quotient of the horizontal arrow portion of Γ
+ by Z, one may think of the coric étale-like structures of Proposition 1.2, (i) — as
+ well as the various objects constructed from these coric étale-like structures via the
+ various mono-anabelian algorithms discussed in [AbsTopIII] — as corresponding to
+ the “canonical invariant diﬀerential dθ” on S1 [which is, in particular, invariant
+ with respect to the action of Z!]. On the other hand, the various post-anabelian
+ Frobenius-like structures obtained by forgetting the mono-anabelian algorithms ap-
+ plied to construct these objects — cf., e.g.., the “Ψcns († F)” that appear in the
+ Kummer isomorphisms of Proposition 1.2, (iv) — may be thought of as coordinate
+ functions on the horizontal arrow portion of Γ [which are not invariant with respect
+ to the action of Z!] of the form “ • dθ” obtained by integrating the invariant dif-
+ ferential dθ along various paths of Γ that emanate from some ﬁxed vertex “•” of
+Γ. This point of view is summarized in Fig. 1.1 above. Finally, we observe that
+ this point of view is reminiscent of the discussion of [AbsTopIII], §I5, concerning
+ the analogy between the theory of [AbsTopIII] and the construction of canonical
+                   INTER-UNIVERSAL TEICHMÜLLER THEORY III                             39
+
+coordinates via integration of Frobenius-invariant diﬀerentials in the classical p-adic
+theory.
+
+Remark 1.2.3.
+     (i) Observe that, relative to the notation of Remark 1.2.2, (i), any multi-
+plicative indeterminacy with respect to the action on Ok of some subgroup
+H ⊆ Ok× at some “•” of the diagram Γ gives rise to an additive indeterminacy
+with respect to the action of logk (H) on the copy of “Ok ” that corresponds to the
+subsequent “•” of the diagram Γ. In particular, if H consists of roots of unity,
+then logk (H) = {0}, so the resulting additive indeterminacy ceases to exist. This
+observation will play a crucial role in the theory of §3, below, when it is applied in
+the context of the constant multiple rigidity properties constituted by the canon-
+ical splittings of theta and Gaussian monoids discussed in [IUTchII], Proposition
+3.3, (i); [IUTchII], Corollary 3.6, (iii) [cf. also [IUTchII], Corollary 1.12, (ii); the
+discussion of [IUTchII], Remark 1.12.2, (iv)].
+      (ii) In the theory of §3, below, we shall consider global arithmetic line bundles.
+                                                                                     ×
+This amounts, in eﬀect, to considering multiplicative translates by f ∈ Fmod
+of the product of the various “Ok× ” of Remark 1.2.2, (i), (ii), as v ranges over the
+elements of V. Such translates are disjoint from one another, except in the case
+where f is a unit at all v ∈ V. By elementary algebraic number theory [cf., e.g.,
+[Lang], p. 144, the proof of Theorem 5], this corresponds precisely to the case where
+f is a root of unity. In particular, to consider quotients by this multiplicative action
+      ×
+by Fmod     at one “•” of the diagram Γ [where we allow v to range over the elements
+of V] gives rise to an additive indeterminacy by “logarithms of roots of unity”
+at the subsequent “•” of the diagram Γ. In particular, at v ∈ Vnon , the resulting
+additive indeterminacy ceases to exist [cf. the discussion of (i); Deﬁnition 1.1,
+(iv)]; at v ∈ Varc , the resulting indeterminacy corresponds to considering certain
+quotients of the copies of “Ok× ” — i.e., of “S1 ” — that appear by some ﬁnite
+subgroup [cf. the discussion of Deﬁnition 1.1, (ii)]. These observations will be of
+use in the development of the theory of §3, below.
+
+Remark 1.2.4.
+     (i) At this point, we pause to recall the important observation that the log-link
+                                                   gp        gp
+is incompatible with the ring structures of Ψ† Fv and Ψlog(† Fv ) [cf. the notation
+of Proposition 1.2, (ii)], in the sense that it does not arise from a ring homomorphism
+between these two rings. The barrier constituted by this incompatibility between
+the ring structures on either side of the log-link is precisely what is referred to as the
+“log-wall” in the theory of [AbsTopIII] [cf. the discussion of [AbsTopIII], §I4]. This
+incompatibility with the respective ring structures implies that it is not possible,
+a priori, to transport objects whose structure depends on these ring structures via
+the log-link by invoking the principle of “transport of structure”. From the point
+of view of the theory of the present series of papers, this means, in particular, that
+
+     the log-wall is incompatible with conventional scheme-theoretic base-
+     points, which are deﬁned by means of geometric points [i.e., ring homo-
+     morphisms of a certain type]
+40                             SHINICHI MOCHIZUKI
+
+— cf. the discussion of [IUTchII], Remark 3.6.3, (i); [AbsTopIII], Remark 3.7.7, (i).
+In this context, it is useful to recall that étale fundamental groups — i.e., Galois
+groups — are deﬁned as certain automorphism groups of ﬁelds/rings; in particular,
+the deﬁnition of such a Galois group “as a certain automorphism group of some ring
+structure” is incompatible, in a quite essential way, with the log-wall. In a similar
+vein, Kummer theory, which depends on the multiplicative structure of the ring
+under consideration, is also incompatible, in a quite essential way, with the log-wall
+[cf. Proposition 1.2, (iv)]. That is to say, in the context of the log-link,
+
+     the only structure of interest that is manifestly compatible with the log-
+     link [cf. Proposition 1.2, (i), (ii)] is the associated D-prime-strip
+
+— i.e., the abstract topological groups [isomorphic to “Πv ” — cf. the notation of
+[IUTchI], Deﬁnition 3.1, (e), (f)] at v ∈ Vnon and abstract Aut-holomorphic spaces
+[isomorphic to “Uv ” — cf. the notation of [IUTchII], Proposition 4.3] at v ∈ Varc .
+Indeed, this observation is precisely the starting point of the theory of [AbsTopIII]
+[cf. the discussion of [AbsTopIII], §I1, §I4].
+
+     (ii) Other important examples of structures which are incompatible with the
+log-wall include
+
+ (a) the additive structure on the image of the Kummer map [cf. the discussion
+    of [AbsTopIII], Remark 3.7.5];
+
+ (b) in the “birational” situation — i.e., where one replaces “Πv ” by the abso-
+    lute Galois group Πbirat
+                         v    of the function ﬁeld of the aﬃne curve that gave
+    rise to Πv — the datum of the collection of closed points that determines
+    the aﬃne curve [cf. [AbsTopIII], Remark 3.7.7, (ii)].
+
+Note, for instance in the case of (b), when, say, for simplicity, v ∈ Vgood Vnon ,
+that one may think of the additional datum under consideration as consisting of
+the natural outer surjection Πbirat
+                                 v      Πv that arises from the scheme-theoretic
+morphism from the spectrum of the function ﬁeld to the given aﬃne curve. On the
+other hand, just as in the case of the discussion of scheme-theoretic basepoints in
+(i), the construction of such an object Πbirat
+                                          v     Πv whose structure depends, in an
+essential way, on the scheme [i.e., ring!] structures involved necessarily fails to be
+compatible with the log-link [cf. the discussion of [AbsTopIII], Remark 3.7.7, (ii)].
+
+      (iii) One way to understand the incompatibility discussed in (ii), (b), is as
+follows. Write Δbirat
+                    v   , Δv for the respective kernels of the natural surjections
+Πvbirat
+          Gv , Πv  Gv . Then if one forgets about the scheme-theoretic base-
+points discussed in (i), Gv , Δbirat
+                                 v   , and Δv may be understood on both sides of
+the log-wall as “some topological group”, and each of the topological groups Δbirat
+                                                                                v   ,
+Δv may be understood on both sides of the log-wall as being equipped with “some
+outer Gv -action” — cf. the two diagonal arrows of Fig. 1.2 below. On the other
+hand, the datum of a particular outer surjection Δbirat
+                                                    v    Δv [cf. the dotted line in
+Fig. 1.2] relating these two diagonal arrows — which depends, in an essential way,
+on the scheme [i.e., ring] structures involved! — necessarily fails to be compatible
+with the log-link [cf. the discussion of [AbsTopIII], Remark 3.7.7, (ii)]. This issue
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY III                                         41
+
+of “triangular compatibility between independent indeterminacies” is formally remi-
+niscent of the issue of compatibility of outer homomorphisms discussed in [IUTchI],
+Remark 4.5.1, (i) [cf. also [IUTchII], Remark 2.5.2, (ii)].
+
+                                                indep.
+                                               bp. indet.
+                                                   
+
+
+                                       nonarch. local
+                                   abs. Galois group Gv
+
+
+
+          indep.                                                                     indep.
+                                                                              
+         bp. indet.                                                                 bp. indet.
+                                                                                       
+
+
+     birational geom.                            ?                                 aﬃne geom.
+      fund. gp. Δbirat
+                 v                        ...............                          fund. gp. Δv
+
+
+      Fig. 1.2: Independent basepoint indeterminacies obstruct relationship
+           between birational and aﬃne geometric fundamental groups
+
+
+Remark 1.2.5. The discussion in Remark 1.2.4 of the incompatibility of the log-
+wall with various structures that arise from ring/scheme-theory is closely related to
+the issue of avoiding the use of ﬁxed ring/scheme-theoretic reference mod-
+els in mono-anabelian construction algorithms [cf. the discussion of [IUTchI],
+Remark 3.2.1, (i); [AbsTopIII], §I4]. Put another way, at least in the context of
+the log-link [i.e., situations of the sort considered in [AbsTopIII], as well as in the
+present paper], mono-anabelian construction algorithms may be understood as
+
+    algorithms whose dependence on data arising from such ﬁxed ring/scheme-
+    theoretic reference models is “invariant”, or “coric”, with respect to the
+    action of log on such models.
+A substantial portion of [AbsTopIII], §3, is devoted precisely to the task of giving
+a precise formulation of this concept of “invariance” by means of such notions as
+observables, families of homotopies, and telecores. For instance, one approach to
+formulating the failure of the ring structure of a ﬁxed reference model to be “coric”
+with respect to log may be seen in [AbsTopIII], Corollary 3.6, (iv); [AbsTopIII],
+Corollary 3.7, (iv).
+
+
+Proposition 1.3.      (log-links Between Θ±ell NF-Hodge Theaters) Let
+
+                                        ±ell                       ±ell
+                             †                          ‡
+                                 HT Θ          NF
+                                                    ;       HT Θ          NF
+42                                 SHINICHI MOCHIZUKI
+
+be Θ±ell NF-Hodge theaters [relative to the given initial Θ-data] — cf. [IUTchI],
+                                   ±ell             ±ell
+Deﬁnition 6.13, (i). Write † HT D-Θ NF , ‡ HT D-Θ NF for the associated D-
+Θ±ell NF-Hodge theaters — cf. [IUTchI], Deﬁnition 6.13, (ii). Then:
+
+     (i) (Construction of the log-Link) Fix an isomorphism
+                                              ±ell             ∼                    ±ell
+                          Ξ : † HT D-Θ               NF
+                                                           →           ‡
+                                                                           HT D-Θ          NF
+
+
+
+of D-Θ±ell NF-Hodge theaters. Let † F be one of the F-prime-strips that appear
+                                                ±ell
+in the Θ- and Θ± -bridges that constitute † HT Θ NF — i.e., either one of the
+F-prime-strips
+                                  †
+                                    F> , † F
+or one of the constituent F-prime-strips of the capsules
+
+                                                †              †
+                                                    FJ ,           FT
+
+[cf. [IUTchI], Deﬁnition 5.5, (ii); [IUTchI], Deﬁnition 6.11, (i)]. Write ‡ F for
+                                         ±ell
+the corresponding F-prime-strip of ‡ HT Θ NF . Then the poly-isomorphism deter-
+mined by Ξ between the D-prime-strips associated to † F , ‡ F uniquely determines
+                               ∼
+a poly-isomorphism log(† F ) → ‡ F [cf. Deﬁnition 1.1, (iii); [IUTchI], Corol-
+                                                     log
+lary 5.3, (ii)], hence a log-link † F              −→         ‡
+                                                                   F [cf. Deﬁnition 1.1, (iii)]. We shall
+denote by
+                                       ±ell                                      ±ell
+                            †                          log             ‡
+                                HT Θ          NF
+                                                       −→                  HT Θ         NF
+
+                                                      ±ell                              ±ell
+and refer to as a log-link from † HT Θ NF to ‡ HT Θ NF the collection of data
+                                                                     log
+consisting of Ξ, together with the collection of log-links † F −→ ‡ F , as “”
+ranges over all possibilities for the F-prime-strips in question. When Ξ is replaced
+                                   ±ell     ∼          ±ell
+by a poly-isomorphism † HT D-Θ NF → ‡ HT D-Θ NF , we shall also refer to the
+resulting collection of log-links [i.e., corresponding to each constituent isomorphism
+                                                            ±ell          ±ell
+of the poly-isomorphism Ξ] as a log-link from † HT Θ NF to ‡ HT Θ NF . When
+Ξ is the full poly-isomorphism, we shall refer to the resulting log-link as the full
+log-link.
+                                                       ±ell                log                 ±ell
+     (ii) (Coricity) Any log-link † HT Θ NF −→ ‡ HT Θ                                                 NF
+                                                                                                           induces [and may
+be thought of as “lying over”] a [poly-]isomorphism
+                                         ±ell              ∼                      ±ell
+                           †
+                               HT D-Θ           NF
+                                                          →        ‡
+                                                                       HT D-Θ            NF
+
+
+
+of D-Θ±ell NF-Hodge theaters [and indeed coincides with the log-link constructed in
+(i) from this [poly-]isomorphism of D-Θ±ell NF-Hodge theaters].
+
+     (iii) (Further Properties of the log-Link) In the notation of (i), any log-
+           ±ell     log           ±ell
+link † HT Θ NF −→ ‡ HT Θ NF satisﬁes, for each F-prime-strip † F , properties
+corresponding to the properties of Proposition 1.2, (ii), (iii), (iv), (v), (vi), (vii),
+(viii), (ix), i.e., concerning simultaneous compatibility with ring structures
+and log-volumes, Kummer theory, and log-shells.
+                      INTER-UNIVERSAL TEICHMÜLLER THEORY III                                                          43
+
+                                                           ±ell
+     (iv) (Frobenius-picture) Let {n HT Θ NF }n∈Z be a collection of distinct
+Θ±ell NF-Hodge theaters [relative to the given initial Θ-data] indexed by the in-
+                       ±ell
+tegers. Write {n HT D-Θ NF }n∈Z for the associated D-Θ±ell NF-Hodge theaters.
+                                       ±ell         log                          ±ell
+Then the full log-links n HT Θ                NF
+                                                    −→          (n+1)
+                                                                         HT Θ           NF
+                                                                                             , for n ∈ Z, give rise
+to an inﬁnite chain
+        log              ±ell          log               ±ell        log                        ±ell        log
+  . . . −→    (n−1)
+                      HT Θ      NF
+                                     −→       n
+                                                  HT Θ          NF
+                                                                     −→      (n+1)
+                                                                                        HT Θ           NF
+                                                                                                            −→ . . .
+
+of log-linked Θ±ell NF-Hodge theaters which induces a chain of full poly-isomor-
+phisms
+                    ∼         ±ell ∼              ±ell    ∼
+              . . . → n HT D-Θ NF → (n+1) HT D-Θ NF → . . .
+on the associated D-Θ±ell NF-Hodge theaters. These chains may be represented
+symbolically as an oriented graph Γ [cf. [AbsTopIII], §0]
+
+                         ...     →       •     →     •      →        •     →       ...
+
+                                 ...                ↓                     ...
+
+                                                     ◦
+
+                                                                                   log
+— i.e., where the horizontal arrows correspond to the “ −→ ’s”; the “•’s” corre-
+                    ±ell                                          ±ell
+spond to the “n HT Θ NF ”; the “◦” corresponds to the “n HT D-Θ NF ”, identiﬁed
+up to isomorphism; the vertical/diagonal arrows correspond to the Kummer iso-
+morphisms implicit in the statement of (iii). This oriented graph Γ admits a
+natural action by Z [cf. [AbsTopIII], Corollary 5.5, (v)] — i.e., a translation
+symmetry — that ﬁxes the “core” ◦, but it does not admit arbitrary per-
+mutation symmetries. For instance, Γ does not admit an automorphism that
+switches two adjacent vertices, but leaves the remaining vertices ﬁxed.
+
+Proof. The various assertions of Proposition 1.3 follow immediately from the
+deﬁnitions and the references quoted in the statements of these assertions. 
+
+Remark 1.3.1.          Note that in Proposition 1.3, (i), it was necessary to carry
+out the given construction of the log-link ﬁrst for a single Ξ [i.e., as opposed to
+a poly-isomorphism Ξ], in order to maintain compatibility with the crucial “±-
+synchronization” [cf. [IUTchI], Remark 6.12.4, (iii); [IUTchII], Remark 4.5.3,
+(iii)] inherent in the structure of a Θ±ell -Hodge theater.
+
+Remark 1.3.2. In the construction of Proposition 1.3, (i), the constituent F-
+prime-strips † Ft , for t ∈ T , of the capsule † FT are considered without regard to the
+F±
+  l -symmetries discussed in [IUTchII], Corollary 4.6, (iii). On the other hand, one
+veriﬁes immediately that the log-links associated, in the construction of Proposi-
+tion 1.3, (i), to these F-prime-strips † Ft , for t ∈ T — i.e., more precisely, associated
+to the labeled collections of monoids Ψcns († F )t of [IUTchII], Corollary 4.6, (iii)
+— are in fact compatible with the F±     l -symmetrizing isomorphisms discussed
+in [IUTchII], Corollary 4.6, (iii), hence also with the conjugate synchronization
+determined by these F±   l -symmetrizing isomorphisms — cf. the discussion of Step
+44                             SHINICHI MOCHIZUKI
+
+(vi) of the proof of Corollary 3.12 of §3 below. We leave the routine details to the
+reader.
+
+
+Remark 1.3.3.
+
+     (i) In the context of Proposition 1.3 [cf. also the discussion of Remarks 1.2.4,
+1.3.1, 1.3.2], it is of interest to observe that the relationship between the various
+Frobenioid-theoretic [i.e., Frobenius-like!] portions of the Θ±ell NF-Hodge the-
+aters in the domain and codomain of the log-link of Proposition 1.3, (i),
+
+     does not include any data — i.e., of the sort discussed in Remark 1.2.4,
+     (ii), (a), (b); Remark 1.2.4, (iii) — that is incompatible, relative to the
+     relevant Kummer isomorphisms, with the coricity property for étale-
+     like structures given in Proposition 1.3, (ii).
+
+Indeed, this observation may be understood as a consequence of the fact [cf. Re-
+marks 1.3.1, 1.3.2; [IUTchI], Corollary 5.3, (i), (ii), (iv); [IUTchI], Corollary 5.6,
+(i), (ii), (iii)] that these Frobenioid-theoretic portions of the Θ±ell NF-Hodge the-
+aters under consideration are completely [i.e., fully faithfully!] controlled [cf. the
+discussion of (ii) below for more details], via functorial algorithms, by the cor-
+responding étale-like structures, i.e., structures that appear in the associated D-
+Θ±ell NF-Hodge theaters, which satisfy the crucial coricity property of Proposition
+1.3, (ii).
+
+     (ii) In the context of (i), it is of interest to recall that the global portion of
+the underlying Θell -bridges is deﬁned [cf. [IUTchI], Deﬁnition 6.11, (ii)] in such a
+way that it does not contain any global Frobenioid-theoretic data! In particular,
+the issue discussed in (i) concerns only the Frobenioid-theoretic portions of the
+following:
+
+ (a) the various F-prime-strips that appear;
+ (b) the underlying Θ-Hodge theaters of the Θ±ell NF-Hodge theaters under
+    consideration;
+ (c) the global portion of the underlying NF-bridges of the Θ±ell NF-Hodge
+    theaters under consideration.
+
+Here, the Frobenioid-theoretic data of (c) gives rise to independent [i.e., for cor-
+responding portions of the Θ±ell NF-Hodge theaters in the domain and codomain of
+the log-link] basepoints with respect to the F    l -symmetry [cf. [IUTchI], Corol-
+lary 5.6, (iii); [IUTchI], Remark 6.12.6, (iii); [IUTchII], Remark 4.7.6]. On the
+other hand, the independent basepoints that arise from the Frobenioid-theoretic
+data of (b), as well as of the portion of (a) that lies in the underlying ΘNF-Hodge
+theater, do not cause any problems [i.e., from the point of view of the sort of in-
+compatibility discussed in (i)] since this data is only subject to relationships deﬁned
+by means of full poly-isomorphisms [cf. [IUTchI], Examples 4.3, 4.4]. That is to
+say, the F-prime-strips that lie in the underlying Θ±ell -Hodge theater constitute
+the most delicate [i.e., relative to the issue of independent basepoints!] portion of
+the Frobenioid-theoretic data of a Θ±ell NF-Hodge theater. This delicacy revolves
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY III                                     45
+
+around the global synchronization of ±-indeterminacies in the underlying Θ±ell -
+Hodge theater [cf. [IUTchI], Remark 6.12.4, (iii); [IUTchII], Remark 4.5.3, (iii)].
+On the other hand, this delicacy does not in fact cause any problems [i.e., from the
+point of view of the sort of incompatibility discussed in (i)] since [cf. [IUTchI],
+Remark 6.12.4, (iii); [IUTchII], Remark 4.5.3, (iii)] the synchronizations of ±-
+indeterminacies in the underlying Θ±ell -Hodge theater are deﬁned [not by means of
+scheme-theoretic relationships, but rather] by applying the intrinsic structure of
+the underlying D-Θ±ell -Hodge theater, which satisﬁes the crucial coricity property
+of Proposition 1.3, (ii) [cf. the discussion of (i); Remarks 1.3.1, 1.3.2].
+
+     The diagrams discussed in the following Deﬁnition 1.4 will play a central role
+in the theory of the present series of papers.
+
+Deﬁnition 1.4. We maintain the notation of Proposition 1.3 [cf. also [IUTchII],
+                                     ±ell
+Corollary 4.10, (iii)]. Let {n,m HT Θ NF }n,m∈Z be a collection of distinct Θ±ell NF-
+Hodge theaters [relative to the given initial Θ-data] indexed by pairs of integers.
+Then we shall refer to either of the diagrams
+                            ..                          ..
+                             .                           .
+                                                      
+                            ⏐log                       ⏐log
+                            ⏐                          ⏐
+          Θ×μ                    ±ell        Θ×μ                     ±ell        Θ×μ
+   ...    −→      n,m+1
+                          HT Θ          NF
+                                             −→     n+1,m+1
+                                                              HT Θ          NF
+                                                                                 −→     ...
+                                                             
+                           ⏐log                               ⏐log
+                           ⏐                                  ⏐
+          Θ×μ                   ±ell         Θ×μ                    ±ell         Θ×μ
+   ...    −→       n,m
+                         HT Θ NF             −→      n+1,m
+                                                             HT Θ          NF
+                                                                                 −→     ...
+                                                             
+                           ⏐log                               ⏐log
+                           ⏐                                  ⏐
+                           ..                                 ..
+                            .                                  .
+
+
+                           ..                                 ..
+                            .                                  .
+                                                             
+                           ⏐log                               ⏐log
+                           ⏐                                  ⏐
+          Θ×μ                    ±ell        Θ×μ                     ±ell        Θ×μ
+          −→              HT Θ          NF
+                                             −→               HT Θ          NF
+                                                                                 −→
+           gau    n,m+1                       gau   n+1,m+1                       gau
+   ...                                                                                  ...
+                                                             
+                           ⏐log                               ⏐log
+                           ⏐                                  ⏐
+          Θ×μ               Θ±ell NF         Θ×μ                   Θ±ell NF      Θ×μ
+          −→             HT                  −→              HT                  −→
+           gau     n,m                        gau    n+1,m                        gau
+   ...                                                                                  ...
+                                                             
+                           ⏐log                               ⏐log
+                           ⏐                                  ⏐
+                           ..                                 ..
+                            .                                  .
+
+— where the vertical arrows are the full log-links, and the horizontal arrows are the
+Θ×μ - and Θ×μgau -links of [IUTchII], Corollary 4.10, (iii) — as the log-theta-lattice.
+We shall refer to the log-theta-lattice that involves the Θ×μ - (respectively, Θ×μ
+                                                                                 gau -)
+46                              SHINICHI MOCHIZUKI
+
+links as non-Gaussian (respectively, Gaussian). Thus, either of these diagrams may
+be represented symbolically by an oriented graph
+                                     ..         ..
+                                      .          .
+                                               
+                                     ⏐          ⏐
+                                     ⏐          ⏐
+                         ...   −→    •     −→   •      −→ . . .
+                                               
+                                     ⏐          ⏐
+                                     ⏐          ⏐
+                         ...   −→    •     −→   •      −→ . . .
+                                               
+                                     ⏐          ⏐
+                                     ⏐          ⏐
+                                      ..        ..
+                                       .         .
+                                                     ±ell
+— where the “•’s” correspond to the “n,m HT Θ               NF
+                                                                 ”.
+
+
+Remark 1.4.1.
+
+     (i) One fundamental property of the log-theta-lattices discussed in Deﬁnition
+1.4 is the following:
+
+     the various squares that appear in each of the log-theta-lattices discussed
+     in Deﬁnition 1.4 are far from being [1-]commutative!
+
+Indeed, whereas the vertical arrows in each log-theta-lattice are constructed by
+applying the various logarithms at v ∈ V — i.e., which are deﬁned by means of
+power series that depend, in an essential way, on the local ring structures at v ∈ V
+— the horizontal arrows in each log-theta-lattice [i.e., the Θ×μ -, Θ×μgau -links] are
+incompatible with these local ring structures at v ∈ V in an essential way [cf.
+[IUTchII], Remark 1.11.2, (i), (ii)].
+
+     (ii) Whereas the horizontal arrows in each log-theta-lattice [i.e., the Θ×μ -,
+Θ×μ
+ gau -links] allow one, roughly speaking, to identify the respective “O
+                                                                        ×μ
+                                                                           ’s” at [for
+simplicity] v ∈ V non
+                      on either side of the horizontal arrow [cf. [IUTchII], Corollary
+4.10, (iv)], in order to avail oneself of the theory of log-shells — which will play
+an essential role in the multiradial representation of the Gaussian monoids to be
+developed in §3 below — it is necessary for the “•” [i.e., Θ±ell NF-Hodge theater] in
+which one operates to appear as the codomain of a log-link, i.e., of a vertical arrow
+of the log-theta-lattice [cf. the discussion of [AbsTopIII], Remark 5.10.2, (iii)].
+That is to say, from the point of view of the goal of constructing the multiradial
+representation of the Gaussian monoids that is to be developed in §3 below,
+
+     each execution of a horizontal arrow of the log-theta-lattice necessarily
+     obligates a subsequent execution of a vertical arrow of the log-theta-lattice.
+
+On the other hand, in light of the noncommutativity observed in (i), this “in-
+tertwining” of the horizontal and vertical arrows of the log-theta-lattice means
+                   INTER-UNIVERSAL TEICHMÜLLER THEORY III                            47
+
+that the desired multiradiality — i.e., simultaneous compatibility with the
+arithmetic holomorphic structures on both sides of a horizontal arrow of the log-
+theta-lattice — can only be realized [cf. the discussion of Remark 1.2.2, (iii)] if one
+works with objects that are invariant with respect to the vertical arrows [i.e., with
+respect to the action of Z discussed in Proposition 1.3, (iv)], that is to say, with
+“vertical cores”, of the log-theta-lattice.
+
+     (iii) From the point of view of the analogy between the theory of the present
+series of papers and p-adic Teichmüller theory [cf. [AbsTopIII], §I5], the vertical
+arrows of the log-theta-lattice correspond to the Frobenius morphism in positive
+characteristic, whereas the horizontal arrows of the log-theta-lattice correspond
+to the “transition from pn Z/pn+1 Z to pn−1 Z/pn Z”, i.e., the mixed characteristic
+extension structure of a ring of Witt vectors [cf. [IUTchI], Remark 3.9.3, (i)]. These
+correspondences are summarized in Fig. 1.3 below. In particular, the “intertwining
+of horizontal and vertical arrows of the log-theta-lattice” discussed in (ii) above
+may be thought of as the analogue, in the context of the theory of the present
+series of papers, of the well-known “intertwining between the mixed characteristic
+extension structure of a ring of Witt vectors and the Frobenius morphism in positive
+characteristic” that appears in the classical p-adic theory.
+
+
+    horizontal arrows of the         mixed characteristic extension structure
+        log-theta-lattice                   of a ring of Witt vectors
+
+
+     vertical arrows of the                   the Frobenius morphism
+        log-theta-lattice                      in positive characteristic
+
+
+
+  Fig. 1.3: Analogy between the log-theta-lattice and p-adic Teichmüller theory
+
+Remark 1.4.2.
+
+      (i) The horizontal and vertical arrows of the log-theta-lattices discussed in
+Deﬁnition 1.4 share the common property of being incompatible with the local ring
+structures, hence, in particular, with the conventional scheme-theoretic basepoints
+on either side of the arrow in question [cf. the discussion of [IUTchII], Remark 3.6.3,
+(i)]. On the other hand, whereas the linking data of the vertical arrows [i.e., the log-
+link] is rigid and corresponds to a single ﬁxed, rigid arithmetic holomorphic
+structure in which addition and multiplication are subject to “rotations” [cf. the
+discussion of [AbsTopIII], §I3], the linking data of the horizontal arrows [i.e., the
+Θ×μ -, Θ×μgau -links] — i.e., more concretely, the “O
+                                                      ×μ
+                                                         ’s” at [for simplicity] v ∈ Vnon
+— is subject to a Z     × -indeterminacy, which has the eﬀect of obliterating the
+arithmetic holomorphic structure associated to a vertical line of the log-theta-lattice
+[cf. the discussion of [IUTchII], Remark 1.11.2, (i), (ii)].
+
+     (ii) If, in the spirit of the discussion of [IUTchII], Remark 1.11.2, (ii), one
+attempts to “force” the horizontal arrows of the log-theta-lattice to be compat-
+ible with the arithmetic holomorphic structures on either side of the arrow by
+48                                SHINICHI MOCHIZUKI
+
+declaring — in the style of the log-link! — that these horizontal arrows induce an
+isomorphism of the respective “Πv ’s” at [for simplicity] v ∈ Vnon , then one must
+contend with a situation in which the “common arithmetic holomorphic structure
+rigidiﬁed by the isomorphic copies of Πv ” is obliterated each time one takes into
+account the action of a nontrivial element of Z                                  ×-
+                                                  × [i.e., that arises from the Z
+indeterminacy involved] on the corresponding “O×μ ”. In particular, in order to
+keep track of the arithmetic holomorphic structure currently under consideration,
+one must, in eﬀect, consider paths that record the sequence of “Πv -rigidifying”
+and “Z × -indeterminacy” operations that one invokes. On the other hand, the hor-
+izontal lines of the log-theta-lattices given in Deﬁnition 1.4 amount, in eﬀect, to
+universal covering spaces of the loops — i.e., “unraveling paths of the loops” [cf.
+the discussion of Remark 1.2.2, (vi)] — that occur as one invokes various series
+of “Πv -rigidifying” and “Z × -indeterminacy” operations. Thus, in summary, any
+attempt as described above to “force” the horizontal arrows of the log-theta-lattice
+to be compatible with the arithmetic holomorphic structures on either side of the
+arrow does not result in any substantive simpliﬁcation of the theory of the present
+series of papers. We refer the reader to [IUTchIV], Remark 3.6.3, for a discussion
+of a related topic.
+
+     We are now ready to state the main result of the present §1.
+
+Theorem 1.5.         (Bi-cores of the Log-theta-lattice) Fix a collection of initial
+Θ-data
+                             (F /F, XF , l, C K , V, Vbad
+                                                      mod , )
+
+as in [IUTchI], Deﬁnition 3.1. Then any Gaussian log-theta-lattice correspond-
+ing to this collection of initial Θ-data [cf. Deﬁnition 1.4] satisﬁes the following
+properties:
+     (i) (Vertical Coricity) The vertical arrows of the Gaussian log-theta-lattice
+induce full poly-isomorphisms between the respective associated D-Θ±ell NF-Hodge
+theaters
+                  ∼                ±ell        ∼                ±ell        ∼
+            ... →      n,m
+                             HT D-Θ       NF
+                                               →   n,m+1
+                                                           HT D-Θ      NF
+                                                                            → ...
+
+[cf. Proposition 1.3, (ii)]. Here, n ∈ Z is held ﬁxed, while m ∈ Z is allowed to vary.
+      (ii) (Horizontal Coricity) The horizontal arrows of the Gaussian log-theta-
+lattice induce full poly-isomorphisms between the respective associated F ×μ -
+prime-strips
+                        ∼       n,m ×μ        ∼    n+1,m ×μ          ∼
+               ...      →         F            →            F       →       ...
+
+[cf. [IUTchII], Corollary 4.10, (iv)]. Here, m ∈ Z is held ﬁxed, while n ∈ Z is
+allowed to vary.
+    (iii) (Bi-coric F ×μ -Prime-Strips) For n, m ∈ Z, write n,m D for the D -
+prime-strip associated to the F  -prime-strip n,m F labeled “” of the Θ±ell NF-
+                         ±ell
+Hodge theater n,m HT Θ NF [cf. [IUTchII], Corollary 4.10, (i)]; n,m D for the D-
+                                                              ±ell
+prime-strip labeled “” of the Θ±ell NF-Hodge theater n,m HT Θ NF [cf. [IUTchI],
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY III                           49
+
+Deﬁnitions 6.11, (i), (iii); 6.13, (i)]. Let us identify [cf. [IUTchII], Corollary
+4.10, (i)] the collections of data
+
+                         Ψcns (n,m D )0 and Ψcns (n,m D ) F
+                                                               l
+
+
+via the isomorphism of the ﬁnal display of [IUTchII], Corollary 4.5, (iii), and
+denote by
+                                F (n,m D )
+the resulting F  -prime-strip. [Thus, it follows immediately from the constructions
+involved — cf. the discussion of [IUTchII], Corollary 4.10, (i) — that there is a
+                                                          ∼
+natural identiﬁcation isomorphism F (n,m D ) → F> (n,m D> ), where we
+write F> (n,m D> ) for the F  -prime-strip determined by Ψcns (n,m D> ).] Write
+
+                           F× (n,m D ),       F×μ (n,m D )
+
+for the F × -, F ×μ -prime-strips determined by F (n,m D ) [cf. [IUTchII], Def-
+                                                                               ∼
+inition 4.9, (vi), (vii)]. Thus, by applying the isomorphisms “Ψcns (‡ D)× v   →
+       ‡  ×
+  cns ( D )v ”, for v ∈ V, of [IUTchII], Corollary 4.5, (ii), [it follows immediately
+Ψss
+from the deﬁnitions that] there exists a functorial algorithm in the D -prime-
+strip n,m D for constructing an F × -prime-strip F× (n,m D ), together with a
+functorial algorithm in the D-prime-strip n,m D for constructing a natural
+isomorphism
+                                          ∼
+                           F× (n,m D ) → F× (n,m D )
+
+— i.e., in more intuitive terms, “F× (n,m D )”, hence also the associated F ×μ -
+prime-strip “F×μ (n,m D )”, may be naturally regarded, up to isomorphism, as
+objects constructed from n,m D . Then the poly-isomorphisms of (i) [cf. Remark
+1.3.2], (ii) induce, respectively, poly-isomorphisms of F ×μ -prime-strips
+                     ∼                     ∼                       ∼
+               . . . → F×μ (n,m D ) → F×μ (n,m+1 D ) → . . .
+                    ∼                      ∼                       ∼
+               . . . → F×μ (n,m D ) → F×μ (n+1,m D ) → . . .
+— where we note that, relative to the natural isomorphisms of F ×μ -prime-strips
+                 ∼
+F× (n,m D ) → F× (n,m D ) discussed above, the collection of isomorphisms that
+constitute the poly-isomorphisms of F ×μ -prime-strips of the ﬁrst line of the display
+is, in general, strictly smaller than the collection of isomorphisms that constitute
+the poly-isomorphisms of F ×μ -prime-strips of the second line of the display [cf.
+the existence of non-scheme-theoretic automorphisms of absolute Galois groups of
+MLF’s, as discussed in [AbsTopIII], §I3]; the poly-isomorphisms of F ×μ -prime-
+strips of the second line of the display are not full [cf. [IUTchII], Remark 1.8.1].
+In particular, by composing these isomorphisms, one obtains poly-isomorphisms
+of F ×μ -prime-strips
+                                           ∼             
+                         F×μ (n,m D ) → F×μ (n ,m D )
+
+for arbitrary n , m ∈ Z. That is to say, in more intuitive terms, the F ×μ -prime-
+strip “n,m F×μ (n,m D )”, regarded up to a certain class of isomorphisms, is an
+50                                          SHINICHI MOCHIZUKI
+
+invariant — which we shall refer to as “bi-coric” — of both the horizontal and
+the vertical arrows of the Gaussian log-theta-lattice. Finally, the Kummer iso-
+                        ∼
+morphisms “Ψcns (‡ F) → Ψcns (‡ D)” of [IUTchII], Corollary 4.6, (i), determine
+Kummer isomorphisms
+                                          n,m ×μ   ∼
+                                            F       → F×μ (n,m D )
+
+which are compatible with the poly-isomorphisms of (ii), as well as with the ×μ-
+Kummer structures at the v ∈ Vnon of the various F ×μ -prime-strips involved [cf.
+[IUTchII], Deﬁnition 4.9, (vi), (vii)]; a similar compatibility holds for v ∈ Varc [cf.
+the discussion of the ﬁnal portion of [IUTchII], Deﬁnition 4.9, (v)].
+     (iv) (Bi-coric Mono-analytic Log-shells) The poly-isomorphisms that con-
+stitute the bi-coricity property discussed in (iii) induce poly-isomorphisms
+                                                                    
+                                          ∼                        
+             In,m D ⊆ log(n,m D ) → In ,m D ⊆ log(n ,m D )
+                                                                        
+
+                                                                                                         
+                                                        ∼                                         
+    IF×μ (n,m D ) ⊆ log(F×μ (n,m D ))               →       IF×μ (n ,m D ) ⊆ log(F×μ (n ,m D ))
+                                                                              
+
+                                 
+for arbitrary n, m, n , m ∈ Z that are compatible with the natural poly-isomor-
+phisms
+                                                                       
+                                   ∼
+       In,m D ⊆ log(n,m D ) → IF×μ (n,m D ) ⊆ log(F×μ (n,m D ))
+                                                                       
+
+
+of Proposition 1.2, (viii). On the other hand, by applying the constructions of
+Deﬁnition 1.1, (i), (ii), to the collections of data “Ψcns († F )0 ” and “Ψcns († F ) F ”
+                                                                                                   l
+used in [IUTchII], Corollary 4.10, (i), to construct n,m F [cf. Remark 1.3.2], one
+obtains a [“holomorphic”] log-shell, together with an enveloping “log(−)” [cf.
+the pair “I† F ⊆ log(† F)” of Deﬁnition 1.1, (iii)], which we denote by
+
+                                            In,m F ⊆ log(n,m F )
+
+[by means of a slight abuse of notation, since no F-prime-strip “n,m F ” has been
+deﬁned!]. Then one has natural poly-isomorphisms
+                                                                   
+                                       ∼
+            In,m D ⊆ log(n,m D ) → In,m F×μ ⊆ log(n,m F×μ )
+                                                 
+                                                                  
+                                       ∼
+                                       → In,m F ⊆ log(n,m F )
+                                                                                                   ∼
+[cf. the poly-isomorphisms obtained in Proposition 1.2, (viii)]; here, the ﬁrst “ → ”
+may be regarded as being induced by the Kummer isomorphisms of (iii) and is
+compatible with the poly-isomorphisms induced by the poly-isomorphisms of (ii).
+      (v) (Bi-coric Mono-analytic Global Realiﬁed Frobenioids) Let n, m,
+                                                                          ∼    
+n , m ∈ Z. Then the poly-isomorphisms of D -prime-strips n,m D → n ,m D
+induced by the full poly-isomorphisms of (i), (ii) induce [cf. [IUTchII], Corollaries
+4.5, (ii); 4.10, (v)] an isomorphism of collections of data
+                                                        ∼
+       (D (n,m D ), Prime(D (n,m D )) → V, {n,m ρD ,v }v∈V )
+             ∼                                                           ∼          
+             →       (D (n ,m D ), Prime(D (n ,m D )) → V, {n ,m ρD ,v }v∈V )
+

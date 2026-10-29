@@ -1,0 +1,182 @@
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY III                         97
+
+MV , and ME×V are equipped with natural product measure space structures; the
+               ∼
+bijection ME∗V → MW , together with the measure space structure on MW , induces
+a measure space structure on ME∗V . In particular, if S ⊆ MV is any Borel set,
+then the product              
+                                   S ⊆ ME×V
+                                 e∈E
+
+is a Borel set of ME×V ; the intersection of this product with ME∗V
+                                
+                          def
+                     SE =            S        ME∗V ⊆ ME∗V
+                                e∈E
+
+                          ∼
+is a Borel set of ME∗V ( → MW ). Thus, in summary, for any Borel set S ⊆ MV ,
+one may speak of the “E-weighted measure”
+                                         
+                            μE (S) ∈ R≥0    {+∞}
+                                                                            ∼
+of S, i.e., the measure, relative to the measure space structure of ME∗V ( → MW ),
+of SE . Since, moreover, one veriﬁes immediately that the above construction is
+functorial with respect to isomorphisms of the given data (V, E, M), it follows
+                                                                                  def
+immediately that, in fact, μE (−) is completely determined by the cardinalities N =
+{Nv }v∈V of the ﬁnite sets E = {Ev }v∈V , i.e., by the data (V, N , M). Finally, we
+observe that when S ⊆ MV isa “direct product region” [cf. the discussion
+of (iii)], i.e., a set of the form v∈V Sv , where Sv ⊆ Mv is a compact subset of
+positive measure, then a straightforward computation reveals that
+                                    log
+                                              
+                              1
+                             NE · μ E   (S) =   Nv · μv (Sv )
+                                                 1    log
+
+                                         v∈V
+                        
+— where we write NE = v∈V Nv , and each superscript “log” denotes the natural
+logarithm of the corresponding quantity without a superscript.
+
+Remark 3.1.2. The constructions involving local holomorphic tensor packets
+given in Proposition 3.1 may be applied to the capsules that appear in the various
+F-prime-strip processions obtained by considering the evident F-prime-strip
+analogues [cf. [IUTchI], Remark 5.6.1; [IUTchI], Remark 6.12.1] of the holomor-
+phic processions discussed in [IUTchI], Proposition 4.11, (i); [IUTchI], Proposi-
+tion 6.9, (i).
+
+Proposition 3.2.      (Local Mono-analytic Tensor Packets) Let
+                                              
+                          α           α 
+                         { D }α∈A = { Dv }v∈V
+                                                         α∈A
+
+be an n-capsule, with index set A, of D -prime-strips [relative to the given initial
+Θ-data — cf. [IUTchI], §0; [IUTchI], Deﬁnition 4.1, (iii)]. Then [cf. the notation
+of Proposition 1.2, (vi), (vii)] we shall refer to the correspondence
+                                                    
+                 VQ  vQ → log(α DvQ ) =                    log(α Dv )
+                                           def
+
+                                                 V  v | vQ
+98                                SHINICHI MOCHIZUKI
+
+as the [1-]tensor packet associated to the D -prime-strip α D and to the corre-
+spondence
+                                               
+                  VQ  vQ → log(A DvQ ) =         log(α DvQ )
+                                          def
+
+                                                     α∈A
+
+— where the tensor product is to be understood as a tensor product of ind-topological
+modules — as the [n-]tensor packet associated to the collection of D -prime-strips
+{α D }α∈A . For α ∈ A, v ∈ V, vQ ∈ VQ such that v | vQ , we shall write
+
+                              log(A,α Dv ) ⊆ log(A DvQ )
+
+for the ind-topological submodule determined by the tensor product of the factors
+labeled by β ∈ A \ {α} with the tensor product of the direct summand with subscript
+v of the factor labeled α [cf. Proposition 3.1, (ii)]. If the capsule of D -prime-strips
+{α D }α∈A arises from a capsule of F ×μ -prime-strips
+                                                              
+                         {α F×μ }α∈A =        {α Fv×μ }v∈V
+                                                                   α∈A
+
+
+[relative to the given initial Θ-data — cf. [IUTchI], §0; [IUTchII], Deﬁnition 4.9,
+(vii)], then we shall use similar notation to the notation just introduced concerning
+{α D }α∈A to denote objects associated to {α F×μ }α∈A , i.e., by replacing “D ”
+in the above notational conventions by “F ×μ ” [cf. also the notation of Proposition
+1.2, (vi), (vii)]. Then:
+
+     (i) (Mono-analytic/Holomorphic Compatibility) Suppose that the cap-
+sule of D -prime-strips {α D }α∈A arises from the capsule of F-prime-strips {α F}α∈A
+of Proposition 3.1; write {α F×μ }α∈A for the capsule of F ×μ -prime-strips associ-
+                                                            ∼               ∼
+ated to {α F}α∈A . Then the poly-isomorphisms “log(† Dv ) → log(† Fv×μ ) → log(† Fv )”
+of Proposition 1.2, (vi), (vii), induce natural poly-isomorphisms of ind-topologi-
+cal modules
+            ∼                 ∼                                ∼                  ∼
+log(α DvQ ) → log(α Fv×μ
+                        Q
+                           ) → log(α FvQ );      log(A DvQ ) → log(A Fv×μ
+                                                                         Q
+                                                                            ) → log(A FvQ )
+
+                                  ∼                    ∼
+                   log(A,α Dv ) → log(A,α Fv×μ ) → log(A,α Fv )
+between the various “mono-analytic” tensor packets of the present Proposition
+3.2 and the “holomorphic” tensor packets of Proposition 3.1.
+
+     (ii) (Integral Structures) If V  v | vQ ∈ Vnon Q , then the mono-analytic
+log-shells “I† Dv ” of Proposition 1.2, (vi), determine [i.e., by forming suitable
+direct sums and tensor products] topological submodules
+
+I(α DvQ ) ⊆ log(α DvQ );    I(A DvQ ) ⊆ log(A DvQ );           I(A,α Dv ) ⊆ log(A,α Dv )
+
+— which may be regarded as integral structures on the Q-spans of these sub-
+modules. If V  v | vQ ∈ Varc   Q , then by regarding the mono-analytic log-shell
+“I† Dv ” of Proposition 1.2, (vii), as the “closed unit ball” of a Hermitian metric on
+“log(† Dv )”, and considering the induced direct sum Hermitian metric on log(α DvQ ),
+                    INTER-UNIVERSAL TEICHMÜLLER THEORY III                                          99
+
+together with the induced tensor product Hermitian metric on log(A DvQ ), one ob-
+tains Hermitian metrics on log(α DvQ ), log(A DvQ ), and log(A,α Dv ), whose associ-
+ated closed unit balls
+
+I(α DvQ ) ⊆ log(α DvQ );     I(A DvQ ) ⊆ log(A DvQ );                    I(A,α Dv ) ⊆ log(A,α Dv )
+
+may be regarded as integral structures on log(α DvQ ), log(A DvQ ), and log(A,α Dv ),
+respectively. For arbitrary V  v | vQ ∈ VQ , we shall denote by “I Q ((−))” the Q-
+span of “I((−))”; also, we shall apply this notation involving “I((−))”, “I Q ((−))”
+with “D ” replaced by “F” or “F ×μ ” for the various objects obtained from the
+“D -versions” discussed above by applying the natural poly-isomorphisms of
+(i).
+
+Proof. The various assertions of Proposition 3.2 follow immediately from the
+deﬁnitions and the references quoted in the statements of these assertions. 
+
+Remark 3.2.1. The issue of estimating the discrepancy between the holo-
+morphic integral structures of Proposition 3.1, (ii), and the mono-analytic in-
+tegral structures of Proposition 3.2, (ii), will form one of the main topics to be
+discussed in [IUTchIV] — cf. also Remark 3.9.1 below.
+
+Remark 3.2.2. The constructions involving local mono-analytic tensor pack-
+ets given in Proposition 3.2 may be applied to the capsules that appear in the
+various D -prime-strip processions — i.e., mono-analytic processions —
+discussed in [IUTchI], Proposition 4.11, (ii); [IUTchI], Proposition 6.9, (ii).
+
+Proposition 3.3.       (Global Tensor Packets) Let
+                                                    ±ell
+                                        †
+                                            HT Θ           NF
+
+
+be a Θ±ell NF-Hodge theater [relative to the given initial Θ-data] — cf. [IUTchI],
+                                   ±ell
+Deﬁnition 6.13, (i). Thus, † HT Θ NF determines ΘNF- and Θ±ell -Hodge theaters
+                  ±ell
+†
+  HT ΘNF , † HT Θ      as in [IUTchII], Corollary 4.8. Let {α F}α∈A be an n-capsule
+of F-prime-strips as in Proposition 3.1. Suppose, further, that A is a subset of
+the index set J that appears in the ΘNF-Hodge theater † HT ΘNF , and that, for each
+α ∈ A, we are given a log-link
+                                                  log      †
+                                    α
+                                        F     −→               Fα
+                                                                        ∼
+— i.e., a poly-isomorphism of F-prime-strips log(α F) → † Fα [cf. Deﬁnition 1.1,
+                                 
+(iii)]. Next, recall the ﬁeld † Mmod discussed in [IUTchII], Corollary 4.8, (i); thus,
+                                                   
+one also has, for j ∈ J, a labeled version († Mmod )j of this ﬁeld [cf. [IUTchII],
+Corollary 4.8, (ii)]. We shall refer to
+                                                                  
+                             († Mmod )A =                       († Mmod )α
+                                            def
+
+                                                    α∈A
+

@@ -1,0 +1,548 @@
+                                                      The uncertainty principle over finite fields
+                                                                            Martino Borello
+
+
+
+
+arXiv:2007.04159v2 [math.CO] 23 Mar 2021
+                                               Université Paris 8, Laboratoire de Géométrie, Analyse et Applications, LAGA,
+                                             Université Sorbonne Paris Nord, CNRS, UMR 7539, F-93430, Villetaneuse, France
+
+                                                                               Patrick Solé
+                                                 Aix Marseille University, CNRS, Centrale Marseille, I2M, Marseille, France
+
+
+
+
+                                           Abstract
+                                               In this paper we study the uncertainty principle (UP) connecting a func-
+                                           tion over a finite field and its Mattson-Solomon polynomial, which is a kind
+                                           of Fourier transform in positive characteristic. Three versions of the UP over
+                                           finite fields are studied, in connection with the asymptotic theory of cyclic
+                                           codes. We first show that no finite field satisfies the strong version of UP,
+                                           introduced recently by Evra, Kowalsky, Lubotzky, 2017. A refinement of
+                                           the weak version is given, by using the asymptotic Plotkin bound. A naive
+                                           version, which is the direct analogue over finite fields of the Donoho-Stark
+                                           bound over the complex numbers, is proved by using the BCH bound. It is
+                                           strong enough to show that there exist sequences of cyclic codes of length n,
+                                           arbitrary rate, and minimum distance Ω(nα ) for all 0 < α < 1/2. Finally, a
+                                           connection with Ramsey Theory is pointed out.
+                                           Keywords: uncertainty principle, cyclic codes, Mattson-Solomon
+                                           polynomial, BCH bound, asymptotically good codes
+                                           2010 MSC: 43A99, 94B15, 20C05
+
+
+                                           1. Introduction
+                                               The uncertainty principle (UP) is a very famous inequality in Physics
+                                           [7], and Signal Processing [3] (see [16] for a general very recent survey on
+                                           the UP). It compares the supports of functions and of their complex-valued
+                                           Fourier transforms. In a paper of 2017 [4], a connection between UP and
+                                           the asymptotic performance of cyclic codes was pointed out. Note that the
+
+
+                                           Preprint submitted to journal                                         March 25, 2021
+existence of an asymptotically good family of cyclic codes is a problem open
+for more than half a century [13]. The reference [4] is an attempt to motivate
+further research into, and eventually solve this very hard problem. In a recent
+note [11], a connection with Ramsey Theory and the Szemerédi Theorem was
+derived.
+    In the present paper, we replace the classical Discrete Fourier transform
+([3, §2]) by a vectorial version of the Mattson-Solomon polynomial ([10, Ch.8,
+§6]). In contrast with all the results in [16], this transform takes its values in
+a finite field. We study three versions of the UP for this kind of transform.
+    The strong version of the UP over finite fields is defined in [4] by analogy
+with the bound of [14] for the classical Fourier transform. Exploiting the
+connection with the theory of MDS codes, we show that no finite fields may
+satisfy the strong UP.
+    The weak version of the UP is a similar and weakened statement de-
+pending on two real parameters λ and ǫ. In [4] it is shown that a finite
+field satisfying this UP enjoys sequences of asymptotically good cyclic codes.
+Here, we show that, if this version holds over Fq , then λ < q−1 q
+                                                                   .
+    The third version is the straight analogue of the Donoho-Stark bound of
+[3] and we call this the naive version. It allows us to construct sequences of
+cyclic codes with nonzero rate and minimum distance growing like a power
+α of the length with 0 < α < 1/2.
+    Finally, with similar arguments, we give an alternate proof of the results
+of [11], based on the familiar BCH bound and a generalization based on the
+Hartmann-Tzeng bound on the minimum distance of cyclic codes ([8, Th.
+4.5.6]).
+    The material is organized as follows: the next section collects background
+material; Section 3 is about the strong version; Section 4 contains numerical
+results related to the weak version; Section 5 is dedicated to the naive ver-
+sion of UP; Section 6 deals with the Ramsey Theory connection; Section 7
+concludes the article. An Appendix building on the naive version shows the
+existence of cyclic codes of all rates with minimum distance Ω(nα ), for all
+0 < α < 1/2.
+
+2. Background
+    Throughout the paper, Fq denotes a finite field of cardinality q, where q
+is a prime power.
+
+
+                                        2
+2.1. Linear codes and asymptotics
+    The (Hamming) weight of x ∈ Fnq is denoted by wH (x). The minimum
+nonzero weight d of a linear code is called the minimum distance. A linear
+code is a subspace of Fnq . Its parameters are written as [n, k, d] where k is
+its dimension as an Fq -vector space. If Cn is a sequence of linear codes of
+parameters [n, kn , dn ], the rate R and relative distance δ are defined as
+
+                                  kn                 dn
+                      R := lim inf   and δ := lim inf .
+                              n→∞ n             n→∞ n
+
+A family of codes is said to be good iff it contains a sequence with rate and
+relative distance such that R · δ 6= 0. The binary entropy function H(x)
+of the real variable x is defined (see [10, p.308]) for 0 < x < 1,
+
+                  H(x) := −x log2 (x) − (1 − x) log2 (1 − x).
+
+2.2. Cyclic Codes
+    Consider the quotient ring R(Fq , n) := Fq [x]/(xn − 1). We will identify
+each class of R(Fq , n) with the unique polynomial of degree less than n con-
+tained in it. The ring R(Fq , n) is principal, and we denote by C(f ) the ideal
+with generator f. It is well-known that every ideal of R(Fq , n) has a unique
+monic generator of minimal degree, and this is a divisor of xn − 1. Whenever
+we will consider and ideal C(f ), we will implicitly assume that f is such gen-
+erator. The polynomials of R(Fq , n) are in one-to-one correspondence with
+the vectors of Fnq , by the map
+                                                                 n−1
+                                                                 X
+                ϕ : f := (f0 , f1 , . . . , fn−1 ) 7→ f (x) :=         fi xi .
+                                                                 i=0
+
+    The (Hamming) weight of a polynomial is the (Hamming) weight of the
+corresponding vector. A cyclic code is an ideal in R(Fq , n) or its preimage
+in Fnq via ϕ.
+    The zeros of C(f ) are the roots of f in the algebraic closure of Fq . The
+dimension of C(f ) is n − deg(f ), and deg(f ) equals the number of zeros of
+C(f ) (see for example [10, Chap. 7]). The well-known BCH-bound [10,
+Chap., Th. 8] states that if among the zeros of f there exists δ−1 consecutive
+powers of a primitive n-th root of unity and (m, q) = 1, then the minimum
+distance of C(f ) is at least δ.
+
+
+                                           3
+2.3. Mattson-Solomon polynomial
+    Let ζ be a primitive root of unity of order n in the algebraic closure Fq of
+Fq . The Mattson-Solomon polynomial ([10, Chap. 8]) associated with a
+vector f := (f0 , f1 , . . . , fn−1 ) is the following polynomial in Fq [z]:
+                                              n
+                                              X
+                                  fˆ(z) :=          Fi z n−i ,
+                                              i=1
+
+where Fi := f (ζ i ) is the evaluation of f (x) in ζ i . It is sometimes called a
+discrete Fourier transform of f . In the following, we will prefer the vectorial
+version of the Mattson-Solomon polynomial, which is
+
+               fˆ := (F1 , F2 , . . . , Fn ) = (f (ζ), f (ζ 2), . . . , f (ζ n)).
+
+2.4. An invariant of fields
+    We introduce here, following [4], the invariant of fields
+
+        µ(Fq , n) := min{d(C(f )) + dim C(f ) | f ∈ R(Fq , n), f 6= 0}.
+
+By the Singleton bound, µ(Fq , n) ≤ n+ 1 for any n. Moreover, equality holds
+if n is prime and q is a primitive root modulo n or if q is a power of n ([4,
+Propositions 4.3. and 4.4.]).
+
+Remark 1. Note that µ(Fq , n) = n+ 1 if and only if all cyclic codes of length
+n over Fq are MDS.
+
+Remark 2. Note that, as observed in [4], if we consider the complex field C
+instead of Fq , then the uncertainty principle for simple cyclic group
+(proved for example in [6, 14]) may be reformulated as follows: µ(C, p) = p+1
+for any prime p.
+
+    In next sections we aim to investigate analogues of the uncertainty prin-
+ciple over finite fields.
+
+3. Strong version of UP
+   The following version of UP is the one stated in [4].
+
+
+
+
+                                               4
+Definition 1. A finite field Fq satisfies the (strong) uncertainty principle
+if, for all primes p, we have µ(Fq , p) = p + 1.
+   As we have already mentioned, in [4, Prop. 4.3] it is shown that µ(Fq , p) =
+p + 1 if q is primitive mod p (under this hypothesis, there exists exactly 3
+cyclic codes of length p over Fq and of positive dimension, that are all trivial
+MDS codes). We show below that is almost the only case.
+
+Theorem 1. Assume the MDS conjecture [10, Res. Prob. 11.4]. If q is not
+primitive modulo p and if p > q + 2 then µ(Fq , p) ≤ p.
+Proof. By the hypothesis we know that there are polynomials f |xp − 1 in
+R(Fq , p) such that 1 < deg(f ) < p − 1. Let [p, k, d] be the parameters of
+the cyclic code C(f ). Let g ∈ C(f ) of weight d. The code C(g) ⊆ C(f ) is
+certainly not the repetition code, since k > 1. Its parameters [p, k ′ ≤ k, d]
+satisfy d + k ′ ≥ µ(Fq , p) and if, arguing by contradiction, µ(Fq , p) > p, we see
+that d ≥ p − k ′ + 1, entailing that C(g) is MDS. But we know, by [10, Chapt.
+11], that MDS codes of parameters [N, K, D] with 1 < K < N − 1 only exist
+for lengths at most q + 2. This is the so-called MDS Conjecture that is now
+proved in many cases [1, 2]. Note that codes of parameters [N, 1, N] and
+[N, N − 1, 2] exist for all lengths N.
+
+Remark 3. A similar (slightly weaker) result holds unconditionally, since it
+is well-known that nontrivial MDS codes have length at most 2q − 2 (see for
+example [8, Corollary 7.4.4]). So, with the same arguments we can prove
+that µ(Fq , p) ≤ p if q is not primitive modulo p and if p > 2q − 2.
+
+Corollary 1. No finite field satisfies the (strong) uncertainty principle.
+Proof. Suppose that Fq satisfies the (strong) uncertainty principle. Then
+Theorem 1 would imply that all p > q + 2 (or eventually > 2q − 2, if we
+refer to Remark 3) are necessarily such that q is primitive modulo p. But
+we know that this is not possible: it is enough to consider all primes p such
+that q is a quadratic residue (so that q cannot be primitive modulo p) and
+observe that, by quadratic reciprocity, these correspond to p being in some
+non-empty set of residue classes modulo 4q (so that they are infinitely many
+by Dirichlet’s theorem).
+
+
+
+
+                                        5
+4. Weak version of UP
+   The following is Definition 5.3 in [4].
+
+Definition 2. Let 0 < ǫ < λ ≤ 1. A finite field Fq satisfies the (ǫ, λ)-
+uncertainty principle, if
+
+                                  µ(Fq , p) > λp                               (1)
+                                  ordp (q) < ǫp,                               (2)
+
+for infinitely many primes p, where ordp (q) is the order of q dans F∗p .
+    In [4, Th. 5.4] it is shown that finite fields satisfying this definition enjoy
+sequences of asymptotically good cyclic codes. Intuitively, (1) guarantees
+to get codes with a large minimum distance, whereas (2) guarantees to get
+codes with a large dimension.
+    In the following table, we show some values of µ(F2 , p), for small primes
+p, omitting those for which 2 is primitive modulo p.
+
+             p      7 17 23 31 41 43 47 71 73 79 89 97
+          µ(F2 , p) 7 14 19 20 30 28 35 47 37 55 45 64
+
+    In the following proposition, we get a restriction on possible values of λ
+for finite fields satisfying the principle above.
+
+Proposition 1. If Fq satisfies the (ǫ, λ)-uncertainty principle then λ < q−1
+                                                                          q
+                                                                             .
+
+Proof. By combining [4, Th. 5.4] with the same argument as in the proof of
+Theorem 1, we see that under the hypothesis, there are sequences of cyclic
+codes of length p over Fq , of rate R and relative distance δ such that
+
+                           pλ < µ(Fq , p) < pδ + pR.
+
+In particular this implies that
+
+                        λ < min{δ + αq (δ) | δ ∈ (0, 1)},
+where αq (δ) is the largest possible rate of a code of relative distance δ. But
+we know, by the asymptotic Plotkin bound [8, Th.2.10.2], that
+
+   • for 0 < δ < q−1
+                  q
+                                             qδ
+                     , we have αq (δ) < 1 − q−1 , and
+
+
+                                        6
+   • for q−1
+          q
+             ≤ δ < 1, we have αq (δ) = 0.
+
+It follows that the function δ + αq (δ) is ≤ f (δ) where
+                  δ
+   • f (δ) = 1 − q−1 , for 0 < δ < q−1
+                                    q
+                                       , and
+
+   • f (δ) = δ for q−1
+                    q
+                       ≤ δ < 1.
+
+Thus the minimum of f (δ) for δ ∈ (0, 1) is met at δ = q−1
+                                                        q
+                                                           , and equals
+q−1
+ q
+    .
+
+5. Naive version of UP
+   We prove here a finite field version of a result due to Donoho et al. [3] in
+characteristic zero. Throughout this section we assume (n, q) = 1 and we let
+ζ denote a primitive root of unity of order n in the algebraic closure of Fq .
+
+Proposition 2 (Naive UP). For any f 6= 0 in Fnq ,
+
+                               wH (f ) · wH (fˆ) ≥ n,
+
+where fˆ := (f (ζ), f (ζ 2), . . . , f (ζ n)) is the vectorial version of the Mattson-
+Solomon polynomial.
+Proof. Let w := wH (f ). By the BCH bound, fˆ cannot have w consecutive
+zeros.
+    Suppose first that w divides n. Partition the set {1, . . . , n} into n/w
+intervals of consecutive indices of length w. In each of these intervals there is
+at least one index where fˆ is nonzero. Thus, we have exhibited n/w nonzeros
+of fˆ. The desired inequality follows in that case.
+    Equality holds if fˆ has exactly one nonzero for each interval. Moreover,
+these nonzeros must be equally spaced, since otherwise there would be more
+than w consecutive zeros between some pairs of nonzero elements of fˆ.
+    If w does not divide n, then there is no way of distributing fewer than
+⌈n/w⌉ nonzero elements among n places without leaving a gap of at least w
+consecutive zeros. Thus wH (fˆ) ≥ ⌈n/w⌉.
+Remark: The constant n is best possible in view of the example of f equal
+to the all-one vector (in this case wH (fˆ) = 1). Note also that a sharper bound
+
+
+                                          7
+has been very recently proved in [5] by using van Lint-Wilson bound [9].
+
+   This can be reformulated in terms of cyclic codes as follows: for any
+f ∈ R(Fq , n), f 6= 0,
+                        d(C(f )) · dim C(f ) ≥ n.
+    This allows to prove the following result, whose proof is technical and
+relegated to an appendix.
+Theorem 2. For every real number 0 < α < 1/2 there are sequences of
+cyclic codes of rate R with minimum distance Ω(nα ).
+
+Remark: for R ≤ 1/2, the square root bound on the minimum distance
+of quadratic residue codes (see for example [10, Chap. 16, Th. 1]) gives
+an explicit construction of cyclic codes with asymptotic minimum distance
+bounded below by the square root of the length. However, for R > 1/2 our
+result is the best, to our knowledge.
+
+6. Connection with Ramsey Theory
+    In [11] a connection between the uncertainty problem over finite fields and
+Ramsey Theory is pointed out. We give here a slight generalization, and a
+reinterpretation in terms of Coding Theory. We require a pair of definitions.
+Definition 3. An arithmetic progression of length m in Z/nZ is any
+subset of the form {a + kb | k ∈ {0, . . . , m − 1}} with b 6= 0.
+Definition 4. The Szemerédi function rm (n) is the largest size of a subset
+of Z/nZ not containing an arithmetic progression of length m.
+Proposition 3. For p prime such that (q, p) = 1, we have
+                 µ(Fq , p) ≥ min{m + p − rm (p) | 1 ≤ m ≤ p}.
+Proof. Let f ∈ R(Fq , p). If f has weight m, then, by BCH bound again,
+among the zeros of f there cannot be m consecutive powers of an p-th prim-
+itive root of unity. So {i | f (ζ i) = 0, ζ p = 1, ζ 6= 1} is a subset of Z/pZ not
+containing an arithmetic progression of length m. Hence the number of zeros
+of f is bounded above by rm (p). Then
+       µ(Fq , p) = min{wH (f ) + wH (fˆ) | f ∈ R(Fq , p), f 6= 0}
+                 ≥ min{wH (f ) + p − rwH (f ) (p) | f ∈ R(Fq , p), f 6= 0}
+                 ≥ min{m + p − rm (p) | 1 ≤ m ≤ p}.
+
+                                        8
+Remark: if p is not prime, Proposition 3 is not true. For example, µ(F2 , 9) =
+6, but min{m + 9 − rm (9) | 1 ≤ m ≤ 9} = 8. This is due to the fact that
+powers of 9-th primitive root of unity may be 3-rd root of unity.
+
+Remark: to our best knowledge, the function rm (p) is only known for m
+fixed and p → ∞ [15]. The fact that then rm (p) = o(p) is the celebrated
+Szemerédi Theorem. Any result on rm (p) when m grows proportionally to p
+with p → ∞ would impact on the UP over finite fields.
+
+   We can generalize further by replacing arithmetic progression by their 2D
+analogues that is to say sets of the shape
+
+       A(δ, s) = {a + kb + rc | k ∈ {0, . . . , δ − 2} and r ∈ {0, . . . , s}},
+
+for b, c coprime with n. Define then the function rδ,s (n) as the largest size of
+a subset of Z/nZ not containing an A(δ, s).
+
+Proposition 4. For p prime such that (q, p) = 1, we have
+
+µ(Fq , p) ≥ min{δ + s − 1 + p − rδ,s(p) | δ ∈ {2, . . . , p} and s ∈ {0, . . . , p − δ}}.
+
+Proof. The proof is the same as that of Proposition 3, up to the replacement
+of the BCH bound by the Hartmann-Tzeng bound [10, p. 206].
+
+7. Conclusion and Open Problems
+    In reaction to the recent papers [4] and [12], we have considered the
+uncertainty principle when the Fourier transform takes its values over finite
+fields. Exploring the connection with MDS codes, we prove that no finite
+field satisfies the strong version of UP introduced in [4]. The weak version
+remains conjectural and we prove that it can only hold if λ < q−1  q
+                                                                     . This
+should not discourage the researchers to try and prove the weak version of
+UP for some values of λ respecting this bound.
+    The analogue of the DFT UP of Donoho-Stark [3], which we called naive
+UP, allowed us to construct long cyclic codes of length n and minimum
+distance Ω(nα ), where 0 < α < 1/2. The proof is technical and relegated to
+an appendix. More suggestively, the arguments used to prove the naive UP
+
+                                           9
+yields an alternative proof of the results of [12], based on the BCH bound
+on the minimum distance of cyclic codes. A generalization based on the
+Hartmann-Tzeng bound has been sketched out.
+    More generally, it would be worthy to generalize all these results to abelian
+codes.
+
+Acknowledgement
+   The authors are grateful to Alexis Bonnecaze for programming help and
+to Pieter Moree for the fruitful discussions on the topic.
+
+References
+ [1] S. Ball. On sets of vectors of a finite vector space in which every subset
+     of basis size is a basis. J. Eur. Math. Soc., 14, 733–748 (2012).
+
+ [2] S. Ball , J. de Beule. On sets of vectors of a finite vector space in which
+     every subset of basis size is a basis II. Design, Codes, Crypt., 65, 5–14
+     (2012).
+
+ [3] D.L. Donoho, P.B. Stark. Uncertainty principles, and signal recovery.
+     SIAM J. Appl. Math., 49, 906–931 (1989).
+
+ [4] S. Evra, E. Kowalski, A. Lubotzky. Good cyclic codes and the uncertainty
+     principle. Enseign. Math., 63, 305–332 (2017).
+
+ [5] T. Feng, H.D. Hollmann, Q. Xiang. The shift bound for abelian codes and
+     generalizations of the Donoho-Stark uncertainty principle. IEEE Trans.
+     Inform. Theory, 65(8), 4673–4682 (2019).
+
+ [6] D. Goldstein, R.M. Guralnick, I.M. Isaacs. Inequalities for finite group
+     permutation modules. Trans. Amer. Math. Soc., 357, 4017–4042 (2005).
+
+ [7] W. Heisenberg, W. Über den anschaulichen Inhalt der quantentheoretis-
+     chen Kinematik und Mechanik. Zeitschrift für Physik , 43(3–4), 172–198
+     (1927).
+
+ [8] W.C. Huffman, V. Pless. Fundamentals of Error Correcting Codes, Cam-
+     bridge University Press (2003).
+
+
+
+                                       10
+ [9] J. H. van Lint, R. M. Wilson. On the minimum distance of cyclic codes.
+     IEEE Trans. Inform. Theory, 32, 23–40 (1986).
+[10] F.J. MacWilliams, N.J. A. Sloane. The theory of Error Correcting Codes.
+     North-Holland, Amsterdam (1981).
+[11] S. Quader, A. Russell, R. Sundaram. Small-Support Uncertainty Prin-
+     ciples on Z/p over Finite Fields. https://arxiv.org/abs/1906.05179
+     (2019).
+[12] M. Shi, R. Wu, P. Solé. Asymptotically Good Additive Cyclic Codes Exist.
+     IEEE Communications Letters, 22(10): 1980–1983 (2018).
+[13] C. Martinez-Perez, W. Willems. Is the class of cyclic codes asymptoti-
+     cally good?. IEEE Trans. Inform. Theory, 52(2), 696–700 (2006).
+[14] T. Tao. An uncertainty principle for cyclic groups of prime order, Math.
+     Res. Lett., 12, 121–127 (2005).
+[15] T. Tao and Van H Vu. Additive combinatorics. volume 105. Cambridge
+     University Press (2006).
+[16] A. Widgerson, Y. Widgerson. The uncertainty principle: variations on
+     a theme. Bull. Amer. Math. Soc. (2021).
+
+
+Appendix: Proof of Theorem 2
+   We construct a sequence of q-ary cyclic codes of rate 0 < R < 1,
+and designed minimum distance. Let p be an arbitrary prime, and write
+n = q p − 1. If x is an indeterminate then, from finite field theory [10,
+Chap. 4, Th. 10], we know that
+                                   Y                   s
+                                                       Y
+                        xn − 1 =           (x − a) ·         fi ,
+                                   a∈F∗q               i=1
+
+where fi runs over all irreducible
+                            Q      polynomials in x of degree p, and where
+n = q − 1 + sp. Let gI = i∈I fi with |I| = s′ = ⌊s(1 − R)⌋. Then the
+dimension of the cyclic code C(gI ) of generator g is n − ps′ , and it can be
+checked that
+                                n − s′ p
+                                         →R
+                                   n
+                                       11
+when p → ∞.
+   We need to control the intersections of the C(gI )’s when I varies.
+
+Lemma 1. Let r 6= 0 be an arbitrary vector in Fnq , of Hamming weight ≤ nα
+for some 0 < α < 1. There at most Λn (1 +o(1)) polynomials gI with |I| = s′
+                                     δn−n1−α
+                                               H(R)
+such that r ∈ C(gI ), where Λn = 2      δp
+                                                      .
+Proof. The number N of indexes I such that r ∈ C(gI ), equals the number
+of s′ -sets of fi ’s which divide r(x) in polynomial notation.
+    Let ζ be a primitive n-th root of unity in the algebraic closure K of Fq ,
+and rb = (r(ζ), r(ζ 2), . . . , r(ζ n)). We have
+                                   Z(r) 
+                                   ⌊ p ⌋
+                               N≤         ,
+                                     s′
+
+where
+          Z(r) := |{ω ∈ K | ω n = 1 and r(ω) = 0}| = n − wH (b
+                                                             r ).
+                r ) ≥ n1−α , so that Z(r) ≤ n − n1−α . Thus
+By Lemma 2, wH (b
+                        j   n−n
+                                   k
+                                1−α 
+                                                   n−n1−α
+                                                         
+                               p                           H(R)
+                     N≤                 ≤2            p
+                                                                  ,
+                               s′
+where the upper bound is a consequence of [10, Chap. 10, Lemma 8].
+Proof of Theorem 2. The number of possible gI ’s is
+                         
+                          s         2sH(R)
+                            ∼  p
+                         s′       2πsR(1 − R)
+
+for s → ∞, by Stirling’s approximation of the factorial.
+    If this number is greater than the product of Λn by the volume of the
+Hamming ball of radius nα in length n, then there are codes C(gI ) with
+minimum distance at least nα .
+    The volume of the Hamming ball of radius nα is bounded above by
+                                        
+                                      n            α
+                               α
+                        (1 + ⌊n ⌋)     α
+                                          (q − 1)⌊n ⌋
+                                     ⌊n ⌋
+
+
+
+
+                                      12
+(see the proof of [8, Lemma 2.10.3]), which is bounded above by a quantity
+asymptotically equivalent to
+                                         α−1              α   α
+                                 2nH(n )+log2 (n )+n log2 (q−1)
+                                     p
+                                       2πnα (1 − nα−1 )
+
+                   1       α     α    α   2α−1            α
+               ∼ √ · n−n (α−1)+ 2 · en −n      · (q − 1)n
+                    2π
+for n → ∞. So, applying Lemma 1, the mentioned inequality happens if
+                                             
+                        −(q p −1)1−α +(q−1)
+                                                  H(R)            p   α         α
+                2                 p
+                                                · (q p − 1)−(q −1) (α−1)+ 2 ·
+                                                       p      1/2
+        (q p −1)α −(q p −1)2α−1           (q p −1)α     q −q                  1
+      ·e                        · (q − 1)           ·               ≤p             .
+                                                          p               R(1 − R)
+We can write the last inequality as efα,q,R (p) ≤ √ 1                      , with
+                                                                  R(1−R)
+
+
+                                                                               qp
+  fα,q,R (p) = (1 − α) ln(q p − 1)(q p − 1)α − ln(2)H(R)                     p     α
+                                                                                     + o(pq αp )
+                                                                          p(q − 1)
+
+for p → ∞, so that fα,q,R (p) → −∞ for p → ∞ if α < 1/2, and it grows to
+∞ otherwise.
+
+
+
+
+                                                         13
+

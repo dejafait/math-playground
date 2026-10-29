@@ -1,0 +1,1343 @@
+L’Enseignement Mathématique (2) 63 (2017), 305–332                   DOI 10.4171/LEM/63-3/4-4
+
+
+
+
+        Good cyclic codes and the uncertainty principle
+
+       Shai Evra, Emmanuel Kowalski and Alexander Lubotzky
+
+
+Abstract. A long standing problem in the area of error correcting codes asks whether there
+exist good cyclic codes. Most of the known results point in the direction of a negative
+answer.
+    The uncertainty principle is a classical result of harmonic analysis asserting that given
+a non-zero function f on some abelian group, either f or its Fourier transform fO has
+large support.
+    In this note, we observe a connection between these two subjects. We point out that
+even a weak version of the uncertainty principle for fields of positive characteristic would
+imply that good cyclic codes do exist. We also provide some heuristic arguments supporting
+that this is indeed the case.
+
+Mathematics Subject Classification (2010). Primary: 94B15, 11T71, 11A07.
+
+Keywords. Cyclic codes, uncertainty principles, finite abelian groups, primitive roots, Artin
+conjecture.
+
+
+
+                                     1. Introduction
+
+    Let F be a field. Given integers n , k and d with 1  k  n , an Œn; k; d F -
+code, or code over F , is a subspace C of F n of dimension dimF .C / D k , such
+that for every 0 ¤ ˛ 2 C , we have wt.˛/  d , where the weight wt.˛/ of a
+vector ˛ D .a0 ; : : : ; an 1 / 2 F n is the number of non-zero components ai . The
+integer d is called the distance of the code C .
+    Furthermore, a code C is called cyclic if it is invariant under cyclic
+permutations of the coordinates, i.e. if
+                   .a0 ; : : : ; an 1 / 2 C , .an 1 ; a0 ; : : : ; an 2 / 2 C
+(see [Rot, Ch. 8]).
+    The code C , or more properly a family .Cn / of codes in F n where n ! 1 ,
+possibly along some subsequence of positive integers, is called good if there
+exists a constant c > 0 such that
+306                    S. Evra, E. Kowalski and A. Lubotzky
+
+                                 k            d
+(1)                                 c;         c
+                                 n            n
+for all n .
+    We are interested in the case of cyclic codes over a finite field F with `
+elements. The practical interest of such codes goes back at least to Brown and
+Peterson [BP] (e.g., they can be used to efficiently detect so-called “burst errors”).
+A long standing open problem in the area of error correcting codes is whether,
+for a fixed value of ` , there exists an infinite sequence of good cyclic codes.
+    Most evidence, and maybe the prevailing opinion, goes towards the non-
+existence of good cyclic codes. Indeed, it was proved by Berman [Ber] in 1967
+that if n ranges over integers whose prime factors are bounded, and these factors
+are coprime to the characteristic of the underlying field F` , then no sequence
+of cyclic codes of lengths n , is good. Babai, Shpilka and Stefankovic [BSS]
+proved that this is also the case if n ranges over integers such that the primes p
+                              1
+dividing n all satisfy p  n 2  for some fixed constant  > 0 . Furthermore, they
+also showed that there are no good cyclic codes that are either locally testable
+or LDPC (“low density parity check”) codes. We refer to the book [MWS] of
+MacWilliams and Sloane and to the textbook of Roth [Rot] for basic terminology
+and concepts in coding theory.
+    On the other hand, the uncertainty principle is a classical result of harmonic
+analysis, which in one form asserts that given a function f , either f or its
+Fourier transform fO has large support. Many variants exist, and we refer to
+Folland and Sitaram [FS] for a survey of the continuous setting. We will consider
+the version of the uncertainly principle where f W A ! C is a complex valued
+function on a finite group A , and even more particularly, when A is the cyclic
+group Z=pZ of prime order p . In this case, the uncertainty principle states that
+for f 6D 0 , we have
+
+(2)                      j supp.f /j C j supp.fO/j  p C 1;
+
+where supp.g/ is the support of a function (this was observed by Meshulam,
+although he did not publish a proof; proofs can be found in papers of Goldstein,
+Guralnick, Isaacs [GGI], Tao [Tao] or in §3 below).
+    One can formulate the uncertainty principle for functions from A D Z=pZ
+to any algebraically closed field F (see Section 3). The case of interest to us is
+when F has positive characteristic ` , in particular when ` D 2 . The inequality
+(2) does not hold in general in this case (see §4 below), but we will give some
+heuristic argument suggesting that some weaker version may still hold.
+    We will then show that even a much weaker version of the inequality (2) for
+F D FN 2 would suffice to imply the existence of good cyclic codes. This should
+                    Good cyclic codes and the uncertainty principle                307
+
+come as quite a surprise, as it goes against the common wisdom in the theory
+of error correcting codes.
+
+1.1. Organization of the paper. This note is arranged as follows:
+    In  2, we describe cyclic codes of length n over the prime field F` of order
+` , as ideals in the group algebra F` ŒZ=nZ Š F` Œx=.x n 1/ . We then describe
+the structure and the ideals of F` ŒZ=pZ when n D p is a prime, and express
+the dimension and the distance of such an ideal in terms of this data (using in
+particular the multiplicative order of ` modulo p ).
+    In  3, we formulate the uncertainty principle for functions f W Z=pZ ! C .
+To illustrate the connection with cyclic codes, we show how this uncertainty
+principle implies the existence of good cyclic codes over C – the examples we
+recover are the well-known Reed-Solomon codes over C . This is of course not
+the end of the story, as one wants such codes over finite fields.
+    In  4, we formulate a few variants of the uncertainty principle over various
+fields. We present a proof of the uncertainty principle for any field of characteristic
+zero, following [GGI]. Afterwards, we present some counter-examples to a naive
+generalization of the uncertainty principle to finite fields.
+    In  5, we propose a weaker version of uncertainty principle, and show how
+this weaker version implies the existence of good cyclic codes. In  6, we present
+some heuristics, both for this weak uncertainty principle and for the existence of
+good cyclic codes.
+    We conclude with an Appendix that explains that the uncertainty principle for
+Z=pZ is equivalent to an old result of Chebotarev.
+
+
+
+                                  2. Cyclic codes
+
+2.1. Introduction. The following is a long standing open problem.
+
+Problem 2.1. Are there good cyclic codes over a fixed finite field F ?
+
+    This was asked by MacWilliams and Sloane [MWS, Problem 9.2, p. 270].
+See also [MPW] who attribute the problem to [AMT]. It seems that the common
+belief is that there are no such codes and there are a number of results in support
+of such a conjecture.
+    For instance, the most commonly used cyclic codes are the long BCH codes
+(see [Rot, §5.6] for definition and background of BCH codes), and Lin and
+Weldon [LW] proved that at least certain of these codes are not good (although
+the general case seems to still be open).
+308                     S. Evra, E. Kowalski and A. Lubotzky
+
+   Partial results toward the conjecture were obtained by Berman [Ber] in 1967
+and by Babai, Shpilka and Stefankovic [BSS] in 2005. We state their results
+formally:
+
+Theorem 2.2 (Berman). Let F be a finite field of order ` , and .C t / t a family
+of Œn t ; k t ; d t F -cyclic codes such that there exists some real number c > 0 with
+kt
+nt
+    c for all t . Assume furthermore that there exists ˇ  1 such that all primes
+dividing n t are coprime to ` and at most ˇ . Then there exists an integer m ,
+depending on ` and ˇ , such that d t  m . In particular, this family is not a
+good family of codes.
+
+Theorem 2.3 (Babai-Shpilka-Stefankovic). Let F be a finite field, and let .C t / t
+be a family of Œn t ; k t ; d t F -cyclic codes over F . Assume that there exists ı > 0 ,
+independent of t , such that for every t and for every prime p dividing n t , we
+have p < n1=2
+           t
+                ı
+                  . Then the family .C t / t is not a good family of codes over F .
+
+   There are other results which give some support to a negative answer to
+Problem 2.1, for example:
+
+Theorem 2.4 (Babai-Shpilka-Stefankovic). Let F be a finite field. Then:
+   There are no good cyclic LDPC (low density parity check) codes over F ;
+   There are no good cyclic locally testable codes over F .
+
+    We refer to [McK, Ch. 47] for the definition of LDPC codes, and to [GS] for
+locally testable codes; these are important concepts in coding theory in recent
+years.
+    Let F be any field. The key to the investigation of cyclic codes over F is
+their description in algebraic terms using the polynomial ring F ŒX .
+
+Proposition 2.5. Let n  1 be an integer. Under the isomorphism
+
+                   .a0 ; : : : ; an 1 / 7! a0 C a1 X C    C an 1 X n 1
+
+between F n and the ring R D F ŒX=.X n 1/ , a subspace C  R is a cyclic
+code over F if and only if C is an ideal of R .
+
+Proof. Indeed, an F -vector subspace of R is a cyclic code if and only if XP 2 C
+for any P 2 C , which is equivalent to asking that C be an ideal of R .
+
+   It will also often be convenient to identify the ring R with the subspace of
+polynomials P 2 F ŒX of degree less than n .
+                   Good cyclic codes and the uncertainty principle              309
+
+2.2. Describing the ideals of R D F ŒX =.X n 1/ . If we specialize to the case
+where n D p is a prime number, we can describe R and its ideals in quite
+concrete and well-known terms:
+
+Proposition 2.6. Let p be a prime number different from the characteristic
+char.F / of F . Then:
+(1) The ring R D F ŒX=.X p 1/ is a direct sum of finite extensions of F ;
+    these finite extensions are in one to one correspondence with the irreducible
+    factors of the polynomial X p 1 2 F ŒX .
+(2) If X p 1 splits in linear factors in F ŒX (e.g., if F is algebraically closed),
+    then R is isomorphic to F p as a ring;
+(3) Assume that F D F` is a finite field of order ` . Let r D ordp .`/ , i.e., the
+    order of ` as an element of the multiplicative group .Z=pZ/ D Fp . Denote
+    s D .p 1/=r . Then
+
+                         R D F` ŒX=.X p        1/ Š F` ˚ .F`r /s
+
+    i.e., it is isomorphic as a ring to a direct sum of F` and s copies of the
+    extension F`r of F` .
+
+Proof. (1) As p ¤ char.F / , the polynomial X p 1 is separable in F ŒX and
+    hence factors as a product of distinct irreducible polynomials siD0 gi , where
+                                                                  Q
+
+    we put g0 D X 1 . It then follows from the Chinese Remainder Theorem
+    that
+                                       Ms
+                                 RŠ         F ŒX=.gi /:
+                                         i D0
+
+    Since gi is irreducible, each quotient ring F ŒX=.gi / is a field extension of
+    F of degree deg.gi / .
+(2) By assumption, X p 1 D pi D01 .X i / , where i runs over the p -th
+                                 Q
+
+    roots of unity in F . Since F ŒX=.X ˛/ Š F , we get an isomorphism
+                                 p 1
+                                 M
+                            RŠ          F ŒX=.X    i / Š F p :
+                                 i D0
+
+
+(3) Since Fp is a cyclic group of order p 1 , the order r of ` modulo p
+    divides p 1 , and hence s D .p 1/=r is an integer.
+    We have `r  1.mod p/ and F`r is a cyclic group of order `r 1 , hence
+    the field extension F`r of F` contains an element of order p , and is the
+    smallest extension with this property. In fact, the field F`r contains all the
+310                    S. Evra, E. Kowalski and A. Lubotzky
+
+      p -th roots of unity, i.e. F`r is the splitting field of the polynomial X p 1 .
+      For every p -th root of unity  , the extension F` Œ is equal to F`r (in a
+      fixed algebraic closure of F` ). This shows that all the irreducible factors gi
+      of X p 1 , with the exception of X 1 , are of degree r . Hence
+                                    R Š F` ˚ .F`r /s :
+
+    We can now describe the ideals of R . Since R is a direct sum of fields,
+every ideal in R is the direct sum of a certain subset of these fields. If F
+is algebraically closed, for instance, we see that R has pi distinct ideals of
+                                                               
+
+dimension i , for every 0  i  p , and a total of 2p ideals.
+    If F D F` where ` is the power of a prime number, let r be the order of `
+modulo p and s D p r 1 as in the proposition. In the special case r D 1 , namely
+when p j ` 1 , the polynomial X p 1 splits completely in F` ŒX and the ideals
+are exactly the same as those in the algebraically closed case.
+    Now assume that r > 1 , which is the case we are most interested in since
+we will consider a fixed value of ` as p tends to 1 . Then R has si ideals
+                                                                         
+
+of dimension ir and si ideals of dimension ir C 1 for all integers i with
+                          
+
+0  i  s . Hence the total number of ideals in R is 2sC1 .
+    We note that r  log` .p C 1/ , and hence s  log p.pC1/
+                                                         1
+                                                             .
+                                                     `
+    There are two extreme cases which are worth singling out, although whether
+they actually occur is somewhat conjectural:
+(a) Assume that ` is a primitive root mod p , i.e. ` generates the cyclic group
+    .Z=pZ/ . Then r D p 1 and so s D 1 , i.e. R Š Fl ˚ Fl p 1 and R has
+    only two non-trivial ideals.
+(b) Assume that ` D 2 and that p is a Mersenne prime, namely p D 2m 1
+    for some m  2 . Then we have r D m D log2 .p C 1/ and s D log p.pC1/
+                                                                      1
+                                                                          ; in
+                                                                          2
+                                                                        p 1
+                                                                                 C1
+      this case, R has the “maximal” possible number of ideals      2 log2 .pC1/      .
+We stated that it is not known if these cases occur infinitely often. Indeed, it is
+a very famous conjecture of Artin (see Moree’s survey [Mor]) that, for a given
+prime number ` , there exist infinitely many primes p such that ` is a primitive
+root modulo p . The validity of this conjecture is extremely likely, since it was
+shown by Hooley [H] to follow from a suitable form of the Generalized Riemann
+Hypothesis. Moreover, although it not known to hold for any concrete single
+prime ` , Heath-Brown [HB] has shown that it holds for all but at most two
+(unspecified) prime numbers.
+   On the other hand, although it is expected that there are infinitely many
+Mersenne primes, very little is known about this question, or about small values
+of ordp .2/ in general, even assuming such conjectures as the Generalized Riemann
+Hypothesis (see however Lemma 6.2).
+                    Good cyclic codes and the uncertainty principle                 311
+
+   The most convenient analytic criterion to find primes with ordp .`/ under
+control is the following elementary fact:
+
+Lemma 2.7. Let ` , q and pp be different primes. If p is totally split in the
+extension Kq;` D Q.e 2i =q ; q `/ , then p is congruent to 1 modulo q and the
+order of ` modulo p divides .p 1/=q , in particular ordp .`/ < p=q .
+
+Proof. Let O be the ring of integers of Kq;` . If p is totally split in Kq;` , then
+the quotient ring O=p O is a product of copies of the field Fp . So Fp contains
+the q -th roots of unity (in particular, q j p 1 ) and the q -th roots of ` . So `
+is a q -th power in Fp , which means that ordp .`/ divides .p 1/=q .
+    Note that as an application of Chebotarev’s density Theorem [Neu, Th. 13.4],
+for any primes q; ` , there exists infinitely many primes which totally splits in Kq;` .
+    To summarize the discussion: the ideals of R and their dimensions can be
+easily described, although the existence of certain configurations might be subject
+to the truth of certain arithmetic conjectures.
+    It is more complicated to evaluate the distance of ideals of R when interpreted
+as cyclic codes. For this we will use the Fourier transform and the uncertainty
+principle in the next section. We begin first with a general lemma.
+
+Lemma 2.8. Let p be a prime. For any polynomial f 2 F ŒX , let If be the ideal
+generated by the image of f in R D F ŒX=.X p 1/ and let g D gcd.f; X p 1/ .
+(1) We have If D Ig , i.e. the ideal generated by f is the same as the ideal
+    generated by the greatest common divisor of f and X p 1 .
+(2) We have
+                              dim If D dim Ig D p      deg.g/
+
+Proof. (a) We obviously have gcd.f; X p 1/ j f in F ŒX , and since F ŒX is
+a principal ideal domain, there exist polynomials h1 and h2 in F ŒX such that
+gcd.f; X p 1/ D h1 f C h2 .X p 1/ . Hence we get f j gcd.f; X p 1/ in R ,
+which proves claim (a).
+   (b) The first equality follows from (a). For the second equality, it suffices
+to note that, by euclidean division by the polynomial .X p 1/=g of degree
+d D p deg.g/ , the elements ¹X i  f j i D 0; 1; : : : ; d 1º form a basis of If .
+
+    For later reference, we will denote Z.f / D deg.gcd.f; X p 1// for any
+polynomial f 2 F ŒX and any prime p . If F has characteristic different from
+p , then X p 1 is a separable polynomial, and in that case, the integer Z.f /
+is therefore the number of p -th roots of unity  , in an algebraic closure of F ,
+such that f ./ D 0 . This interpretation will be very useful as we now turn to the
+uncertainty principle.
+312                   S. Evra, E. Kowalski and A. Lubotzky
+
+                    3. The uncertainty principle over C
+
+3.1. The Fourier transform on finite abelian groups. Let A be a finite abelian
+group. The dual group b  A of A is the group of all homomorphisms A ! S1 ,
+where S is the group of complex numbers of modulus 1 . The product on b
+        1
+                                                                             A is
+the pointwise multiplication of functions. The dual group is also a finite abelian
+group, in fact it is isomorphic to A (non-canonically).
+    The Fourier transform on A is a linear map from the space L2 .A/ D C A of
+complex-valued functions on A to the analogue space L2 . bA / of complex-valued
+functions on the dual group. For a function f W A ! C , its Fourier transform
+ bW b
+ f   A ! C is defined by
+
+                            b ./ D 1
+                                       X
+                            f            f .a/.a/
+                                   jAj
+                                          a2A
+
+for any  2 bA.
+    The Fourier transform is also an algebra isomorphism, where L2 .A/ is viewed
+as an algebra with the convolution product
+                                        1 X
+                     .f1 ? f2 /.x/ D        f1 .x   a/f2 .a/;
+                                       jAj
+                                          a2A
+
+and L2 . b
+         A / has the pointwise product of functions. In other words, we have
+                               2
+                              f1 ? f2 D f
+                                        b1 f
+                                            b 2:
+
+    The connection that we will make with cyclic codes emphasizes the group
+algebra of a cyclic group. It is therefore convenient to interpret the Fourier
+transform in terms of the group algebra CŒA of the group A instead of L2 .A/ .
+    We identify L2 .A/ and CŒA by the map
+                                     X
+                                f 7!     f .a/a:
+                                        a2A
+
+Then the Fourier transform gives an isomorphism
+
+                                  CŒA ! C A
+
+of algebras over C , where the image of the standard basis ¹a 2 Aº is the basis
+of characters of the algebra of functions C A .
+
+3.2. The general uncertainty principle for finite abelian groups. For f 2
+L2 .A/ , or equivalently f 2 CŒA , we denote by supp.f / the support of f ,
+namely the set of a 2 A such that f .a/ ¤ 0 .
+                       Good cyclic codes and the uncertainty principle                 313
+
+    Intuitively, by “uncertainty principle”, we mean a statement that asserts that
+there are no non-zero functions f such that both f and f   b have “small” support
+(for instance, in the continuous case, there is no non-zero smooth function with
+compact support whose Fourier transform is also compactly supported). There
+are many variants of this principle. One well-known elementary “uncertainty
+principle” version, valid for all finite abelian groups, is the following result of
+Donoho and Stark [DS, §2]:
+
+Proposition 3.1 (Uncertainty principle). Let A be a finite abelian group and let
+f 6D 0 be a function from A to C . Then we have
+
+(3)                             j supp.f /j  j supp.fO/j  jAj
+
+    We present the proof of this fact from [Mes1, Th. 1] and [GGI], which fits
+well with our point of view of working with group algebras. For other proofs
+and generalizations, we refer to the papers [Mes2] and [Tao], as well as to the
+references contained in those articles.
+
+Proof. We view f as an element of the group algebra CŒA , which is
+commutative. Let I D .f / be the principal ideal generated by f . Using the
+isomorphism CŒA ' C A given by the Fourier transform, as we recalled above,
+the ideal I corresponds to the principal ideal in C A generated by the Fourier
+transform of f . This ideal is simply
+                                   Y
+                                          C  CA:
+                                 b .x/6D0
+                                 f
+
+In particular, the dimension r of I , as a C -vector space, is the cardinality of the
+support of f b . Since the elements a  f for a 2 A span I as C -vector space,
+there exist r elements a1 , . . . , ar such that I is the span of a1  f , . . . , ar  f .
+    For any a 2 A  CŒA , the support of a  f is a  supp.f / . Since f ¤ 0 ,
+its support is not empty, hence for any x 2 A , we can find some element
+a 2 A  CŒA such that x 2 supp.a  f / .
+    We then have
+                                [                     r
+                                                      [
+                          AD         supp.a  f /          supp.ai  f /
+                               a2A                    iD1
+
+which implies that
+                 r
+                 X
+         jAj          j supp.ai  f /j D rj supp.f /j D j supp. f
+                                                                 b /j  j supp.f /j;
+                 iD1
+
+as claimed.
+314                   S. Evra, E. Kowalski and A. Lubotzky
+
+3.3. The uncertainty principle for simple cyclic groups. In the late 1980’s,
+R. Meshulam observed that an old result of Chebotarev implies a version of
+the uncertainty principle for cyclic groups of prime order p that is much
+stronger than Proposition 3.1. This strong version has been rediscovered several
+times since then, and admits a number of proofs and generalizations (see for
+instance, Chebotarev [Che], Meshulam [Mes1, Mes2], Goldstein, Guralnick and
+Isaacs [GGI], Tao [Tao], Stevenhagen and Lenstra [SL], and the references therein).
+
+Theorem 3.2 (Uncertainty principle for cyclic groups of prime order). Let A be
+a cyclic group of prime order p , and f 6D 0 an element of CŒA . Then
+
+(4)                     j supp.f /j C j supp. f
+                                              b /j  p C 1:
+
+    We will postpone the proof to Section 3.2, and in the appendix, we will also
+explain Meshulam’s original observation that this statement is equivalent to a
+classical result of Chebotarev about Vandermonde matrices.
+    To bring the connection with codes, we will now reformulate this statement.
+The group algebra CŒZ=pZ of the cyclic group of order p is isomorphic to the
+quotient algebra R D CŒX=.X p 1/ by mapping the generator 1 of Z=pZ to
+                                    2
+the image of X . The dual group Z=pZ is isomorphic to the group p .C/ of
+p -th roots of unity in C , by mapping a character  to the p -th root of unity
+.1/ . The Fourier transform of an element f 2 R , represented as the image of
+a polynomial
+
+(5)                     f D a0 C a1 X C    C ap 1 X p 1
+
+is then identified with the function defined on p -th roots of unity by
+                                            p
+                                            X1
+                               b ./ D 1
+                               f                   ai  i :
+                                       p
+                                            i D0
+
+
+In other words, fb is essentially the evaluation of the representing polynomial (5)
+at roots of unity.
+    With this notation, recalling the definition Z.f / D deg.gcd.f; X p 1// and
+the fact that this is the number of zeros of f among p -th roots of unity, the
+uncertainty principle of Theorem 3.2 gets the following form:
+
+Theorem 3.3. Let p be a prime. For any polynomial
+                                    p
+                                    X1
+                              f D         ai X i 2 CŒX
+                                    iD0
+                    Good cyclic codes and the uncertainty principle             315
+
+of degree < p , let wt.f / D j¹ijai ¤ 0ºj and let Z.f / D j¹ 2 p .C/jf ./ D 0ºj ,
+i.e. the number of p -th roots of unity of f which are also roots of f . Then we
+have
+
+(6)                              Z.f /  wt.f /       1:
+
+    Indeed, by definition, if we view f as an element of R D CŒZ=pZ , then
+we have j supp.f /j D wt.f / and j supp. f
+                                         b /j D p Z.f / , and therefore (4) and
+(6) are equivalent.
+
+Remark 3.4. (1) The restriction deg.f / < p is necessary: the polynomial
+   f D X p 1 has wt.f / D 2 and Z.f / D p .
+(2) The inequality (6) is best possible. For instance, the cyclotomic polynomial
+            p
+    f D XX 11 D 1 C X C : : : C X p 1 vanishes on all the non-trivial p -roots
+    of unity, so Z.f / D p 1 D wt.f / 1 . Another example is f D X 1 , in
+    which case we also obtain Z.f / D 1 D wt.f / 1 .
+
+    We can now use Lemma 2.8 to obtain another reformulation of Theorems 3.2
+and 3.3. The point is that if f is a polynomial in CŒX of degree < p , viewed
+also as an element of R , then by Lemma 2.8 (2), the dimension of the ideal If
+generated by the image of f in R satisfies
+
+                                dim.If / D p      Z.f /:
+
+From Theorem 3.3, we get therefore:
+
+Theorem 3.5 (Uncertainty principle reformulated). For every non-zero polynomial
+f 2 CŒX of degree < p , considered as an element of R D CŒX=.X p 1/ , we
+have:
+
+(7)                          wt.f / C dim.If /  p C 1
+
+when If D .f / is the ideal of R generated by the image of f .
+
+    We conclude this section by showing how this interpretation of the uncertainty
+principle gives a good family of cyclic codes over C :
+
+Corollary 3.6. There exists a family of good cyclic codes over C .
+                  2 i
+Proof. Let  D e p 2 C , and define
+                                   p 1
+                                   Y2
+
+                             f D          .X    i / 2 CŒX:
+                                   i D1
+316                   S. Evra, E. Kowalski and A. Lubotzky
+
+Since f j.X p 1/ , we have dim.If / D p deg.f / D pC1 2
+                                                         by Lemma 2.8 (2).
+    Let then h 6D 0 be an element of If . We then have dim.Ih /  dim.If / , so
+that
+                                                          pC1
+              wt.h/  p C 1 dim.Ih /  p C 1 dim.If / D
+                                                            2
+by Theorem 3.5. The ideal Cp D If is therefore a Œp; pC1  2
+                                                            ; pC1
+                                                               2 C
+                                                                   -cyclic code,
+and the family ¹Cp ºp prime is a good family of cyclic codes.
+
+   The codes we have “found” in this proof are special cases of the famous
+Reed-Solomon codes (see, e.g., [Rot, §5.2]). In fact, these codes are in some
+sense best possible: their parameters Œn; k; d  D Œp; .p C 1/=2; .p C 1/=2 satisfy
+the condition
+                             kCd DpC1DnC1
+where in general the so-called singleton bound implies that k C d  n C 1 . (Such
+codes are called “maximum distance separable” codes, or MDS codes).
+
+
+                  4. Uncertainty principle for general fields
+
+4.1. General statements. The formulation of the uncertainty principle in Theo-
+rem 3.3, in the form of the inequality (6) and in Theorem 3.5, through (7), make
+sense for all fields. As we will see later, these statements are not true in such
+generality, but they might be true, and useful, in some weaker form. For this
+reason, we make the following definition.
+
+Definition 4.1. Let F be a field, p a prime number and R D F ŒX=.X p 1/ .
+For f 2 R , represented by a polynomial of degree < p , we denote by If the
+ideal generated by f in R , and we denote
+
+                          F ;p .f / D wt.f / C dim.If /:
+
+We then define the invariant
+
+                        F ;p D min¹F ;p .f /j0 ¤ f 2 Rº:
+
+We will sometimes write .f / instead of F ;p .f / , when the field and prime
+involved are clear in context.
+
+   Here are some simple observations:
+   If E=F is a field extension and f 2 F ŒX=.X p 1/ , then F ;p .f / D
+    E;p .f / for any prime number p . In particular, it follows that E;p  F ;p
+    for each p .
+                   Good cyclic codes and the uncertainty principle              317
+
+   For f D 1 C X C : : : C X p 1 , we have wt.f / D p and dim.If / D 1 . It
+    follows that F ;p  p C 1 for any field F and any prime p .
+   According to the uncertainty principle for F D C (Theorems 3.2, 3.3 and
+    3.5), we have C;p D p C 1 for every prime p .
+   So for any field we can state the uncertainty principle as follows:
+
+Definition 4.2 (Uncertainty principle). A field F is said to satisfy the uncertainty
+principle if, for any prime number p , we have F ;p > p , or equivalently if
+F ;p D p C 1 , for all p .
+
+   As we shall see in §4.2, the uncertainty principle does not hold in general,
+but let us start with some positive results:
+
+Proposition 4.3. Let F D F` be the finite field of prime order ` and assume that
+` is a primitive root modulo p , i.e., that ordp .`/ D p 1 . Then F ;p D p C 1 .
+
+Proof. Let  ¤ 1 be a primitive p -th root of unity in FN ` . As recalled in
+Section 2.2, the extension F` ./=F` is then of degree ordp .`/ D p 1 . This
+                              p
+implies that the polynomial XX 11 D 1 C X C : : : C X p 1 is irreducible over F` .
+In particular, for every polynomial f 2 F` ŒX of degree less then p , the gcd
+of f and X p 1 can only be one of 1 , X 1 or .X p 1/=.X 1/ . Then
+the dimension dim.If / D p deg.gcd.f; X p 1// is equal to p , p 1 or 1 ,
+respectively (Lemma 2.8 (2)).
+    We consider each case in turn and show that .f /  p C 1 in any case. If
+dim.If / D p , then since wt.f /  1 (because f ¤ 0 ), we get .f /  p C 1 . If
+dim.If / D p 1 , then we have gcd.f; X p 1/ D X 1 , so X 1 j f . Since
+the only non-zero polynomials of weight 1 are monomials cX i with c 6D 0 ,
+and X 1 − cX i for 0  i < p , we must have wt.f /  2 , and therefore
+                                                                        Pp 1 i
+.f /  p 1 C 2 D p C 1 . Finally, if dim.If / D 1 , then we have f D c iD0   X
+for some c 6D 0 , and then wt.f / D p and .f / D p C 1 .
+
+   Another case is the following claim (which appears also in [Fre, Lemma 2]
+and [GGI, Lemma 6.5]), that we will use later:
+
+Proposition 4.4. Let p be a prime and let F be a field of characteristic p .
+Then we have F ;p D p C 1 .
+
+Proof. By Lemma 2.8 (2), we need to show that for any 0 ¤ f 2 F ŒX=.X p 1/ ,
+we have
+               wt.f / > p dim.If / D deg.gcd.f; X p 1//:
+318                   S. Evra, E. Kowalski and A. Lubotzky
+
+Since F has characteristic p , we have X p 1 D .X 1/p , which means that there
+exists some integer m with 0  m < p such that gcd.f; X p 1/ D .X 1/m . So
+we need to prove that for a polynomial f with .X 1/m jf , we have wt.f / > m .
+    We proceed by induction on deg.f / < p . In the base case deg.f / D 0 , we
+have f D c ¤ 0 . Then X 1 − f , so that m D 0 and wt.f / D 1 > m , as
+claimed.
+    Now assume that the property is valid for all polynomials of degree < deg.f /
+and that .X 1/m jf . If f .0/ D 0 , we deduce that .X 1/m jf .X/=X , hence
+by induction we obtain m < wt.f =X/ D wt.f / . If f .0/ ¤ 0 , on the other
+hand, then we consider the derivative f 0 of f . From .X 1/m j f , it follows
+that .X 1/m 1 j f 0 : indeed, writing f D f1 .X 1/m and differentiating, we
+get f 0 D f10 .X 1/m C mf1 .X 1/m 1 , which is divisible by .X 1/m 1 . By
+induction, we therefore get wt.f 0 / > m 1 . But then, since f .0/ ¤ 0 and m < p ,
+we have wt.f / D wt.f 0 / C 1 > m , as needed.
+
+4.2. Fields of characteristic zero. We will now present a proof (following
+[GGI]) of the uncertainty principle for any field F of characteristic zero. Note
+that Theorems 3.2, 3.3 and 3.5 are special cases of this result, where the field is
+C . Since it is elementary that we need only prove the uncertainty principle for
+finitely generated fields F , and since such a field F of characteristic 0 can be
+embedded into C , we could simply deduce the result from the case of C . We
+give a complete proof anyway.
+    The next lemma is the key step in the proof.
+
+Lemma 4.5 (Specialization). Let p be a prime, F a field of characteristic 0 ,
+and
+                                   p
+                                   X1
+                               f D    ai X i
+                                        iD0
+
+a non-zero element of R D F ŒX=.X p 1/ . Then for every prime number q ,
+there exists a field E of characteristic q and a polynomial fQ 2 EŒX=.X p 1/
+such that wt.fQ/  wt.f / and dimE .IfQ /  dimF .If / .
+
+Sketch of the proof. (1) Since char.F / D 0 , the field Q is a subfield of F .
+     Let A D QŒa0 ; : : : ; ap 1  , which is a Q -subalgebra of F . By Hilbert’s
+     Nullstellensatz, the homomorphisms  W A ! Q      N , where QN is the algebraic
+     closure of Q , separate the points of A , and therefore there exists a morphism
+     WA!Q      N , such that .ai / ¤ 0 for every i , with 0  i  p 1 , such that
+     ai 6D 0 . Let K1 be the number field (a finite extension of Q ) generated by
+     the image of  and f1 the polynomial
+                    Good cyclic codes and the uncertainty principle                 319
+                                      p
+                                      X1
+                               f1 D         .ai /X i 2 K1 ŒX:
+                                      iD0
+
+     Then by the definition of K1 , we have wt.f1 / D wt.f / . Moreover,  induces
+     an isomorphism between the p -th roots of unity in KN and those in Q    N , so
+     that Z.f / D Z.f1 / also. This means that we may replace K and f by K1
+     and f1 , and reduce to the case where K is a number field.
+(2) Let OK be the ring of integers of K , and m a maximal ideal in OK that
+    contains q 2 Z  OK . Then E D OK =m is a finite field of characteristic q .
+(3) Let t 2 OK be a non-zero integer such that tai 2 OK for all i , and such
+    that there exists some i such that tai … m (this exists because not all ai
+    are zero). Then, if fQ is the image of tf under the reduction map from OK
+    to E , we have fQ ¤ 0 in EŒX , and fQ is a polynomial of degree < p .
+(4) By construction, we have wt.fQ/  wt.f / . On the other hand, we get
+
+             dimF If  dimF I tf D p         deg gcd.tf; X p
+                                                                    
+                                                                  1/
+                                             deg gcd.fQ; X p      1/ D dimE IfQ :
+                                                                    
+                                   p
+
+
+
+Theorem 4.6. For every field F of characteristic 0 and every prime p , we have
+F ;p D p C1 , i.e., the uncertainty principle is true over any field of characteristic
+0.
+
+Proof. Let F be a field of characteristic zero, and let p be a prime. Let
+f 2 F ŒX=.X p       1/ be non-zero. By the Specialization Lemma 4.5 with
+q D p , there exists a field E of characteristic p and a non-zero element
+fQ 2 EŒX=.X p 1/ such that E;p .fQ/  F ;p .f / . Because E has characteristic
+p , Proposition 4.4 implies that F ;p .f /  E;p .fQ/ > p . Since this holds for all
+f , the result follows.
+
+4.3. Counter examples to the uncertainty principle over finite fields. Specific
+examples of finite fields F for which the uncertainty principle of Definition 4.2
+does not hold over a finite field F are given in [GGI]. One such example is
+F D F2 . If we take p D 7 and f D X 3 C X C 1 2 F2 ŒX=.X 7 1/ , then we have
+
+                  X7    1 D .X     1/.X 3 C X 2 C 1/.X 3 C X C 1/;
+
+hence dim.If / D 4 while wt.f / D 3 , so that F2 ;7  7 .
+   The next counter-examples to the naive uncertainty principal for finite fields
+were suggested to us by Madhu Sudan.
+320                   S. Evra, E. Kowalski and A. Lubotzky
+
+   Let q < p be two different primes, and r D ordp .q/ . Let F D Fq and
+E D Fq r , so that E contains all the p -th roots of unity. Moreover, E is
+generated as an F -vector space by the p -th roots of unity. We consider the trace
+polynomial
+                                     r 1
+                                             i
+                                     X
+                               T D         X q 2 F ŒX:
+                                     iD0
+
+A basic but crucial observation is that the function from E to E defined by
+the trace polynomial T is a surjective F -linear map from E to the subfield F ,
+which we denote tr . In particular, tr is not identically zero on E , and since
+the p -th roots of unity generate E as F -vector space, this means that T is not
+identically zero on the p -th roots of unity.
+    By the pigeon-hole principle, there exists some ˛ 2 F such that at least pq of
+the p -th roots of unity in E are roots of T C ˛ . Let then f D T C ˛ 2 F ŒX .
+Then we have
+                                                             1
+                F ;p .f / D wt.f / C dimF .If /  r C 1 C 1    p
+                                                              q
+
+(using the interpretation of dimF .If / as the number of roots of unity where f
+does not vanish), and consequently
+                                                          p
+                         E;p  F ;p  p C 1 C r           :
+                                                          q
+
+In particular, if r D ordp .q/ < pq , we obtain a counter example to the uncertainty
+principle for the field E D Fq r .
+    There exist infinitely many pairs of primes with this property. For instance,
+take q D 2 and let p be a prime such that the Legendre symbol . p2 / is equal to
+1 . Then q D 2 is a square modulo p , which implies that 2.p 1/=2  1 mod p ,
+hence that the order of 2 modulo p is  .p 1/=2 < p=2 D p=q .
+    More generally, fix the prime q and take any prime ` > q . By Lemma 2.7, if
+                                                                               p̀
+p is any prime that is totally split in the Galois extension K` D Q.e 2i=` ; q/ ,
+we have ordp .2/  .p 1/=` < p=q . It is a well-known consequence of the
+Chebotarev density theorem that there are infinitely such primes.
+    In anticipation of the next section, we note however that, for any pair q < p
+with r < p=q , it still remains true that
+                                                    p  p
+                         F ;p .f /  p C 1 C r        ;
+                                                    q  2
+
+or in other words, the uncertainty principle for f does not fail drastically.
+                     Good cyclic codes and the uncertainty principle            321
+
+                        5. The weak uncertainty principle
+
+5.1. Statement. The uncertainty principle in its current version over C states
+that for each prime p , we have C;p > p . We have seen that this inequality
+does not always hold if C is replaced by any field. Because of the link with
+good cyclic codes, we introduce a weaker version:
+
+Definition 5.1 (Weak uncertainty principle). Let ı be a real number such that
+0 < ı  1 . We say that a field F satisfies the ı -uncertainty principle for a prime
+p if
+
+(8)                                  F ;p > ı  p:
+
+   This variant of the uncertainty principle is weaker than the one in the previous
+section in two respects: the lower bound for F ;p is relaxed, and it is stated with
+respect to an individual prime p , and not all of them.
+
+Example 5.2. We first present some finite fields that satisfy the weak uncertainty
+principle for certain primes. Let ` be a prime number, and let P be an infinite
+set of primes such that ` is a primitive root in Fp for all p 2 P . As we have
+already mentioned, Artin’s Conjecture asserts that such a set P exists for any
+prime ` , and Hooley [H] confirmed this under a suitable form of the Generalized
+Riemann Hypothesis. By Proposition 4.3, we have F` ;p > p , for any p 2 P ,
+and hence the weak uncertainly principle is satisfied by the field F` for any prime
+in P .
+    This example does not however lead to good cyclic codes. Indeed, if we
+consider proper ideals Ip  F` ŒZ=pZ D F` ŒX=.X p 1/ for p 2 P , the fact that
+` is a primitive root modulo p means that Ip is generated either by X 1 or
+by .X p 1/=.X 1/ . In the first case, we have dim Ip D p 1 , but the element
+X 1 has weight 2 , so that the distance of the code Ip is 2 . In the second case,
+we have dim Ip D 1 . In either case, the codes corresponding to Ip are not good
+as p ! C1 in P since one of the inequalities in (1) fails.
+
+      This example motivates our last variant of the uncertainty principle.
+
+Definition 5.3 (Weak uncertainty principle, 2). Let ı and  be real numbers
+such that 0 < ı  1 and 0 <  < ı . We say that a field F of size ` satisfies the
+.; ı/ -uncertainty principle if there exists an infinite set of primes P such that,
+for all primes p 2 P , the two following conditions holds:
+(1) We have F ;p > ıp ,
+(2) We have ordp .`/ < p .
+322                   S. Evra, E. Kowalski and A. Lubotzky
+
+   The existence of finite fields F which satisfy such an uncertainty principle
+implies the existence of good cyclic codes over F :
+
+Theorem 5.4. Let F D F` be a finite field prime order ` . Assume there exist
+real numbers 0 <  < ı < 1 such that F satisfies the .; ı/ -uncertainty principle.
+Then there exists an infinite family of good cyclic codes over the field F .
+
+Proof. For each prime p 2 P , let Ip  F ŒX=.X p 1/ be a non-zero ideal such
+that
+                                p
+                                    dim.Ip / < p:
+                                 2
+Such an element exists because r D ordp .`/ < p by definition, and R D
+F ŒX=.X p 1/ is a sum of ideals of dimension r each, plus a one dimensional
+ideal, see Proposition 2.6 (3).
+    For every element h 2 Ip , we have Ih  Ip and hence dim.Ih /  dim.Ip / .
+From the weak uncertainty inequality that we assume, we get
+
+         wt.h/ D j supp.h/j > ıp    dim.Ih /  ıp   dim.Ip / > .ı   /p:
+
+   The cyclic code Ip has length p ; the last computation shows that its distance
+is  .ı /p , and its dimension is  p=2 . Hence by definition (see (1)), the
+sequence .Ip /p2P is an infinite sequence of good cyclic codes over F .
+
+   Generally speaking, condition (1) in Definition 5.3 ensures that we can find
+ideals with “large” distance, while condition (2) is used to show the existence of
+such ideals with “large” dimension.
+
+Remark 5.5. Our proof shows that any choice of ideal Ip , such that 2 p 
+dim.Ip / < p will give a good code. There are many possibilities for such ideals.
+This suggests that a randomized process might be used to prove existence of
+cyclic good codes even under a weaker uncertainty principle.
+
+5.2. A uniform weak uncertainty principle does not hold. It is only natural
+to ask (and maybe hope) that a uniform weak uncertainty principle, uniform with
+respect to ı , should hold for all finite fields, or in other words, to ask whether
+there exists ı > 0 such that F ;p > ıp for any finite field F and any prime p .
+    We will show – following an argument of Eli Ben-Sasson – that, assuming
+the existence of infinitely many Mersenne primes, this is not the case.
+
+Proposition 5.6 (No uniform weak uncertainty principle). Assume that there exist
+infinitely many Mersenne primes. Then, for any ı > 0 , there exists a finite field
+F and a prime number p such that F ;p  ıp .
+                    Good cyclic codes and the uncertainty principle                323
+
+    For the proof, we will use the following result of Ore [Ore]:
+
+Lemma 5.7 (Ore). Let q be a prime number and n  1 . Let F D Fq n , and
+view F as an Fq -vector space of dimension n . For every integer k  n and
+every Fq -affine subspace A  F of dimension k , the polynomial
+                                    Y
+                               fA D   .X a/
+                                        a2A
+
+satisfies
+                                           k
+                                                           i
+                                           X
+                                fA D ˛ C          ˛i X q
+                                           i D0
+
+where ˛ and ˛i are elements of F . In particular, we have wt.fA /  k C 2 .
+
+Proof. It is easy to see that it suffices to consider the case where A is a vector
+subspace of dimension k . Then fA is a separable polynomial whose roots form an
+additive subgroup of F . This implies that fA is an additive polynomial (see [Gos,
+Th. 1.2.1]), which is necessarily of the desired form (with ˛ D 0 in that case)
+by [Gos, Prop. 1.1.5].
+
+Remark 5.8. In general, if K is any field, an additive polynomial f 2 KŒX
+is a polynomial such that f .x C y/ D f .x/ C f .y/ for any x and y in K . If
+K has characteristic zero, it is easy to check that f is necessarily of the form
+f D aX for some a 2 K , but this is not so in characteristic p > 0 , since any
+              i
+monomial X p is then an additive polynomial. The result we used is that any
+additive polynomial is a linear combination of these monomials.
+
+Proof of Proposition 5.6. Let q D 2 and let p D 2n 1 be a Mersenne prime, so
+that n D ordp .2/ . Let F D F2n . Then the non-zero elements of F are precisely
+the p -th roots of unity.
+    We view F as an n -dimensional vector space over F2 , and fix a basis e1 , . . . ,
+en . Let k be an integer parameter such that 1  k < n .
+    There exist disjoint affine subspaces A1 , . . . , Ak in F , none of which contains
+0 , with dim.Ai / D n i (for instance, we could take Ai to be the subspace
+defined by the equations
+
+                  Ai D ¹x 2 F j x1 D    D xi 1 D 0;         xi D 1º;
+
+where .x1 ; : : : ; xn / are the coordinates of an element x of F with respect to the
+chosen basis .e1 ; : : : ; en / ).
+324                    S. Evra, E. Kowalski and A. Lubotzky
+
+   The disjoint union of the subspaces Ai has cardinality
+                                   k
+                        ˇ [    ˇ X                                   1
+                            Ai ˇ D   2n i D 2n 1                        :
+                        ˇ      ˇ
+                                                                     2k
+                        ˇ
+                           1ik           iD1
+
+Thus if we denote by fi the polynomial associated to Ai as in Lemma 5.7, and
+put
+                                  k
+                                  Y
+                             f D     fi 2 F ŒX;
+                                            i D1
+
+then we have
+                     k
+                     X                ˇ [    ˇ                       1
+         deg.f / D         deg.fi / D ˇ   Ai ˇ D 2n 1                    < 2n     1Dp
+                                      ˇ      ˇ
+                     iD1
+                                                                     2k
+                                          1ik
+
+since 1  k < n and
+                              k
+                              Y                  k
+                                                 Y
+                   wt.f /           wt.fi /        .n     i C 2/  .n C 1/k :
+                              i D1               i D1
+
+Since gcd.f; X p     1/ D f , we have
+                                                                                       p
+      dim.If / D p     deg gcd.f; X p                            deg.f / D 2n k
+                                                   
+                                                 1/ D p                           1      :
+                                                                                       2k
+   Let ı > 0 be any given real number. Take some integer k  1 such that
+ 1
+2k
+    2ı . By the assumption that there exist infinitely many Mersenne primes, we
+can find a prime p D 2 n
+                                1 for which n > k and
+                                                          ı
+                                        .n C 1/k           p:
+                                                          2
+Then using the polynomial f obtained as above for these parameters p D 2n                     1
+and k , we get
+                                                                 p    ı   ı
+          F ;p  wt.f / C dim.If /  .n C 1/k C                   k
+                                                                      p C p D ıp;
+                                                                 2    2   2
+and therefore F ;p  ıp .
+
+    It is important to notice that this counter-example does not show that F2 does
+not satisfy the ı -uncertainty principle for the prime p , since the polynomials
+fi and f do not usually belong to F2 ŒX . Furthermore, as the underlying field
+depends on the primes p , this counter example is not really relevant to our search
+of families of cyclic good codes, since in such a family we need to work with a
+fixed underlying field while in the last example, the size of F grows to infinity.
+                   Good cyclic codes and the uncertainty principle            325
+
+                   6. Why good cyclic codes should exist
+
+6.1. Preliminaries. In this section, we describe some heuristic arguments that
+all point in the direction of the existence of families of good cyclic codes, and
+of the weak uncertainty principle according to Definition 5.3.
+    In both arguments, the main unproved claim is that for a polynomial of
+degree < p , the property of being “sparse” (i.e., of having small weight wt.f / )
+and of vanishing on many roots of unity should be roughly independent. The
+following result is then relevant.
+
+Lemma 6.1. Let ı be a fixed real number with 0 < ı < 1=2 . Let Sı be the set
+of polynomials f in F2 ŒX=.X p 1/ with wt.f /  ıp . Then we have
+
+                                jSı j D 2pH2 .ı/Co.p/
+
+where H2 .ı/ D H.ı/= log.2/ and
+
+                      H.ı/ D     ı log.ı/   .1   ı/ log.1      ı/
+
+is the entropy for Bernoulli random variables.
+
+Sketch of proof. We have
+                                       ıp
+                           !                !         !
+                        p              X  p       p
+                              jSı j         p
+                       bıpc               j      bıpc
+                                        j D1
+
+which the Stirling formula reveals to be of size
+
+                        e H.ı/pCo.p/ D 2pH.ı/= log.2/Co.p/ ;
+
+as claimed.
+
+   We also recall some fairly classical results on primes where 2 has relatively
+small multiplicative order.
+
+Lemma 6.2. (1) For any  with 0 <  < 1 , there exist infinitely many primes
+   p such that ordp .2/ <   p .
+(2) Assume the Generalized Riemann Hypothesis for Dedekind zeta functions of
+    number fields. For any  > 0 , there exist infinitely many primes p such that
+    ordp .2/ < p 3=4C .
+326                   S. Evra, E. Kowalski and A. Lubotzky
+
+Proof. In both cases, we use the criterion of Lemma 2.7: if ` is an odd prime
+and if p is an odd
+                 p̀ prime distinct from ` such that p is totally split in the field
+K` D Q.e 2i =` ; 2/ , then p  1 .mod `/ and the order of 2 modulo p divides
+.p 1/=` , hence is < p=` .
+    Hence, taking ` to be any prime such that ` > 1= , the first statement follows
+from the existence of infinitely many primes totally split in K` (this is an easy
+consequence of the Chebotarev Density Theorem, see for instance [Neu, Th. 13.4]).
+    For the second, we use the explicit form of the Chebotarev Density Theorem,
+following Serre’s presentation of the results of Lagarias and Odlyzko: for any odd
+prime ` and any X  2 , the number ` .X/ of primes  X which are totally
+split in K` satisfies
+                                     Z X            p
+                               1          dt
+                                               C O X log.`X/
+                                                                 
+                  ` .X/ D
+                            ŒK` W Q 2 log t
+
+where the implied constant is absolute, under the assumption that Dedekind zeta
+functions satisfy the Riemann Hypothesis. Precisely, this follows from [Ser, Th.
+4], applied with E D K` , K D Q and C the trivial conjugacy class of the
+identity element; then nE D ŒK` W Q and the discriminant dE is estimated using
+the bound [Ser, (20)].
+    In particular, since the integral is of size X=.log X/ and ŒK` W Q  `2 , this
+result shows that if  > 0 is fixed and ` is any prime large enough, there exists
+a prime p totally split in K` with p  `4C . Such a prime p satisfies
+                                        p
+                           ordp .2/ <     < p 1 1=.4C/ ;
+                                        `
+and the result follows.
+
+    The interest of these statements is that if the order r of 2 modulo p is
+“small” compared with p , then by the discussion following Proposition 2.6, the
+ring R D F2 ŒX=.X p 1/ contains many ideals. In particular, if r D p 3=4C and
+ with 0 <  < 1 is fixed, and if we look for ideals of dimension ir  p ,
+then for such primes we have approximately si ideals of dimension p , where
+                                                
+
+(see Proposition 2.6), we have s D .p 1/=r and i D p=r  s . By Stirling’s
+formula, as in the Lemma 6.1, this numbers grows exponentially with s .
+
+6.2. Picking ideals at random. Fix some real number with 0 <  < 1 . Let
+p be a prime such that there exists an ideal I in R D F2 ŒX=.X p 1/ with
+dim.I /  p .
+    Let ı > 0 be another parameter. Assuming that the probability for an element
+of Ip to be in the set Sı of Lemma 6.1 is approximately the same as the probability
+                   Good cyclic codes and the uncertainty principle             327
+
+for a general element of R , the expected cardinality of the intersection Sı \ I
+should be about
+                   2pH2 .ı/Cdim.I / pCo.1/ D 2p.H2 .ı/ .1 //Co.1/
+
+by Lemma 6.1. If  and ı are chosen so that
+                                  1    > H2 .ı/;
+
+this expectation is < 1 . So, as in the Borel-Cantelli lemma, if we select an ideal
+Ip of this approximate dimension for all primes where this is possible (an infinite
+set, by Lemma 6.2 and Proposition 2.6), we may expect that only finitely many
+p will have the property that Ip intersects Sı . Since H2 .ı/ ! 0 as ı ! 0 , a
+suitable choice of ı exists for any fixed  .
+    Moreover, under the Generalized Riemann Hypothesis, picking the primes p
+as given by Lemma 6.2 (2), the number of options for Ip grows exponentially
+as a function of s D p= ordp .2/  p 1=4  , and we need to succeed only with a
+single one of them to obtain a good cyclic code with rate  .
+
+6.3. The weak uncertainty principle should hold. Here we give a heuristic
+argument, suggested by B. Poonen, as to why the weak uncertainty principle of
+Definition 5.3 should hold for the field F2 for an infinite sequence of primes.
+This is a variant of the previous argument.
+    First, the Generalized Riemann Hypothesis implies that there are infinitely
+many primes such that ordp .2/ D p 2 1 (this is a simple variant of the argument
+of Hooley [H] forpprimitive roots, where we count primesp̀that are split in the
+quadratic field Q. 2/ , and not split in any field Q.e 2i=` ; 2/ for `  3 prime,
+see Lemma 2.7 and [Mor]).
+    We consider such primes and explain that all but finitely many should satisfy
+Definition 5.3 with  D 1=2 and ı D 3=5 . Indeed, the condition ordp .2/ < p
+holds by construction. Suppose F ;p  ıp . Then there exists a non-zero f 2 F2 ŒX
+of degree < p such that
+(9)     F ;p .f / D wt.f / C dim If D wt.f / C p deg gcd.f; X p 1/  ıp:
+                                                                        
+
+Since ordp .2/ D .p 1/=2 , the polynomial .X p 1/=.X 1/ has exactly two
+irreducible factors of degree .p 1/=2 . So the gcd of f and X p 1 is of degree
+1 , .p 1/=2 or p 1 . In the first case, the inequality (9) is clearly false. In
+the third case, we have f D .X p 1/=.X 1/ , with wt.f / D p , and again (9)
+is false. So f must be divisible by exactly one of the two factors of degree
+.p 1/=2 , say f1 , and then we must have wt.f /  p=10 C 1=2 for (9) to hold.
+    Now comes the heuristic argument, where we will assume that the property of
+being divisible by f1 and of having support of size  p=10 are “independent”: the
+328                    S. Evra, E. Kowalski and A. Lubotzky
+
+number of polynomials f of degree < p divisible by f1 is about 2p=2 , and on
+the other hand, the number of polynomials f of degree < p with wt.f / < p=10
+is 2pH2 .1=10/Co.p/ by Lemma 6.1. Since
+                                      H.1=10/
+                       H2 .1=10/ D            ' 0:47 < 1=2;
+                                       log.2/
+we may hope that the expected number of polynomials in the intersection is
+
+                          O.2.0:47 1=2/p / D O.2 3p=100 /
+
+and since the sum of the series                is finite, this suggests (by analogy
+                                  P 3p=100
+                                     2
+with the Borel-Cantelli lemma) that the set of primes where the intersection is
+non-empty is finite.
+    F. Voloch has pointed out that one must be careful with this heuristic. Indeed,
+let Cp , for p odd, be the quadratic residue code of dimension .p 1/=2 , namely
+the cyclic code corresponding to the principal ideal generated by the polynomial
+                                Y
+                                      .X a/ 2 ŒX:
+                               a2.Fp /2
+
+If the last step is taken literally, the previous argument suggests that the family of
+the cyclic codes Cp , parameterized by primes p such that ordp .2/ D .p 1/=2 ,
+is good. However, assuming GRH, Voloch’s results [Vol] imply that this is not
+the case.
+    More precisely, Voloch shows, under the Generalized Riemann Hypothesis, that
+there exist an infinite sequence of primes p for which the distance of the code Cp
+is  p.log p/ 1 (he obtains an unconditonal bound of size  p.log log p/ 1 ).
+Although the primes that he constructs in [Vol] do not necessarily satisfy the
+condition ordp .2/ D .p 1/=2 that we wish to impose, we will now show that
+the two can be combined (as was suggested to us by Voloch).
+    Indeed, Voloch defines a sequence of Galois extensions L` =Q of degree about
+.` 1/2` , for ` a prime. He shows that if p is totally split in L` , then the distance
+of Cp is  .p 1/=.2`/ (for this purpose, he uses a formula of Helleseth). It
+turns out that the splitting restrictions in L` are compatible with those involved
+in constructing primes with ordp .2/ D .p 1/=2 . Under the Generalized Riemann
+Hypothesis, one gets by following Hooley’s method (see, e.g., [Mor, §5]) that for
+a given odd prime ` and for X  2 , there are roughly
+                                                              !
+                              1       X          X.log log X/
+                                           CO
+                          ŒL` W Q log X           .log X/2
+
+primes p  X satisfying all the desired combined splitting conditions. Since
+the degree of L` over Q is about `2` , we can find a prime p of size about
+                    Good cyclic codes and the uncertainty principle                329
+
+exp.exp.`// that satisfies the desired conditions. This provides an infinite family
+of codes Cp with distance  p=.log log p/ , under the Generalized Riemann
+Hypothesis.
+    Although this discussion shows that the heuristic argument cannot be literally
+correct, the optimist might still hope that the events which we consider are
+sufficiently independent to still lead to infinitely many primes where the weak
+uncertainty principle holds. It is maybe a positive sign that the primes given by
+Voloch’s argument are rather sparse, and even then, only a very slow decay of
+their distance is proved.
+
+
+
+                                     Appendix
+
+Chebotarev’s Theorem. A well-known (but not the best-known!) result of
+Chebotarev [Che] states the following:
+                                                              2 i
+Theorem 6.3 (Chebotarev). Let p be a prime and  D e p 2 C . Let V be the
+Vandermonde matrix V D . ij /pi;j D0
+                                   1
+                                      2 Mp .C/ . Then each minor of the matrix
+V is invertible, i.e., we have det.V jAB / ¤ 0 for any A; B  ¹0; : : : ; p 1º ,
+jAj D jBj , where V jAB denotes the minor of V with rows in A and columns
+in B .
+
+    Let R D CŒX=.X p 1/ . Then R is a vector space over C with basis the
+images of the monomials ei D X i for 0  i  p 1 .
+    A (multiple of) the Fourier transform on Z=pZ can be interpreted as the
+linear map F W f 7! fb from R to R such that
+
+                                    p
+                                    X1
+                              b D
+                              f           f . i /X i 2 R:
+                                    iD0
+
+
+It is elementary that the matrix representing this linear map is V 0 D . ij /pi;j D0
+                                                                                   1
+                                                                                      2
+Mp .C/ . Then each minor of the matrix V has a non-zero determinant if and
+only if the same property holds for the matrix V 0 , so we may replace V by V 0
+in proving Chebotarev’s Theorem.
+    We now show that Theorem 6.3 is equivalent to the uncertainty principle over
+C . For a direct simple proof of Chebotarev’s Theorem, see the note [Fre] of
+Frenkel.
+
+Proposition 6.4. Chebotarev’s Theorem 6.3 is equivalent to the uncertainty
+principle for Z=pZ over C , i.e., to Theorem 3.2.
+330                    S. Evra, E. Kowalski and A. Lubotzky
+
+Proof. For each A  ¹0; : : : ; p 1º , we denote by `2 .A/ the space of elements of
+R which have zero coefficients for the basis vectors ei for i … A , i.e., polynomials
+f with support contained in A . For an element
+                                       X
+                                  f D     ai X i 2 R
+                                        i
+
+we denote by f jA the element         X
+                                            ai X i
+                                      i2A
+
+of ` .A/ .
+      2
+
+    For any two subsets A and B of ¹0; : : : ; p 1º with the same cardinality, the
+linear map TA;B W `2 .A/ ! `2 .B/ obtained by restricting the Fourier transform
+(i.e., TA;B .f / D f
+                   b jB for f 2 `2 .A/ ) is represented by the matrix V 0
+                                                                       AB with
+respect to the bases .ei /i 2A and .ei /i2B .
+(Theorem 6.3 ) Theorem 3.2) Assume for contradiction that there exists a
+non-zero element
+                            p
+                            X1
+                       f D     ai X i 2 CŒX
+                                     iD0
+
+such that j supp.f /j C j supp. f
+                                b /j  p . Let A D supp.f / . Since j supp. f
+                                                                            b /j 
+p jAj , the complement of supp. f    b / has cardinality  jAj . We can therefore
+find a subset B of the complement of supp. f      b / such that jBj D jAj . Let
+T D TA;B W ` .A/ ! ` .B/ . We then have T .f / D f
+             2         2                              b jB D 0 since B is in the
+complement of the support of f   b , but f is non-zero in `2 .A/ . Hence T is not
+invertible. Hence, by the previous remark, the matrix VAB
+                                                        0
+                                                             has determinant zero,
+which contradicts Chebotarev’s Theorem.
+(Theorem 6.3 ( Theorem 3.2) Now assume that there exist subsets A; B 
+¹0; : : : ; p 1º with jAj D jBj and det.V 0 jAB / D 0 . This means that the linear map
+T D TA;B W l 2 .A/ ! l 2 .B/ is not invertible. In particular, T is not injective. Let
+f 6D 0 be an element of `2 .A/ such that 0 D T .f / D f       b jB . Then supp.f /  A
+and B is contained in the complement of the support of f         b . Hence
+
+                     j supp.f /j  jAj D jBj  p     j supp. f
+                                                             b /j;
+
+which contradicts the uncertainty principle.
+    In this argument, we may replace C with any other field F containing a
+p -primitive root of unity  . So for any prime p and for any field F containing
+a p -primitive root of unity  , Theorem 6.3 with respect to the prime p (i.e., the
+claim that each minor of the p  p Vandermonde matrix . ij /i;j is invertible) is
+equivalent to the uncertainty principle for the field F with respect to p , i.e., to
+the claim that F ;p > p .
+                   Good cyclic codes and the uncertainty principle                  331
+
+Acknowledgements. The authors are grateful to E. Ben-Sasson, B. Poonen,
+P. Sarnak and M. Sudan for discussions and suggestions, many of which have been
+incorporated into the text. We thank F. Voloch for pointing out his note [Vol].
+We acknowledge support by the ERC, NSF, ISF, Dr. Max Rössler, the Walter
+Haefner Foundation and the ETH Foundation, and the ETH Institute for Theoretical
+Studies. EK’s work is partially supported by an DFG-SNF lead agency program
+grant (grant 200021L_153647).
+
+                                    References
+
+[AMT]    E. F. Assmus, H. F. Mattson, and R. Turyn, Cyclic Codes. AF Cambridge
+               Research Labs, Bedford, MA, Summary Sci. Rep. AFCRL (1966), 66–348.
+[Ber]    S. D. Berman, Semisimple cyclic and abelian codes. II. Cybernetics and Systems
+               Analysis 3 (1967): 17-23. Zbl 1026.94551 MR 0274185
+[BP]     D. T. Brown and W. W. Peterson, Cyclic codes for error detection. Proceedings
+               of the IRE 49 (1961), 228–235. MR 0128011
+[BSS]    L. Babai, A. Shpilka, and D. Stefankovic, Locally testable cyclic codes. IEEE
+               Trans. Inf. Theory 51 (2005), 2849–2858. Zbl 1284.94156 MR 2236251
+[Che]    N. G. Chebotarev, Mathematical autobiography, Uspekhi Matematicheskikh
+               Nauk 3 (1948), 3–66. MR 0026596
+[DS]     D. L. Donoho and P. B. Stark, Uncertainty principles and signal recovery, SIAM
+               J. Appl. Math 49 (1989), 906–931. Zbl 0689.42001 MR 0997928
+[EI]     R. J. Evans and I. M. Isaacs, Generalized Vandermonde determinants and roots
+               of unity of prime order. Proceedings of the American Mathematical Society
+               58 (1976): 51–54. Zbl 0337.12006 MR 0412205
+[Fre]    P. E. Frenkel, Simple proof of Chebotarev’s theorem on roots of unity.
+               arXiv:math/0312398, (2003).
+[FS]     G. B. Folland and A. Sitaram, The uncertainty principle: A mathematical sur-
+               vey. J. Fourier Anal. Appl. 3 (1997) 207–238. Zbl 0885.42006 MR 1448337
+[Gos]    D. Goss, Basic Structures of Function Field Arithmetic. Springer, 1998.
+               Zbl 0892.11021
+[GS]     O. Goldreich and M. Sudan, Locally testable codes and PCPs of almost-linear
+               length. In Proceedings FOCS02, Vancouver, Canada, 16–19 November 2002.
+[GGI]    D. Goldstein, R. M. Guralnick and I. M. Isaacs, Inequalities for finite group
+               permutation modules. Transactions of the American Mathematical Society
+               357 (2005), 4017–4042. Zbl 1112.20008 MR 2159698
+[HB]     D. R. Heath-Brown, Artin’s conjecture for primitive roots. The Quarterly Journal
+               of Mathematics 37 (1986), 27–38. Zbl 0586.10025 MR 0830627
+[H]      C. Hooley, Artin’s conjecture for primitive roots. J. reine angew. Math. 225
+               (1967), 209–220.
+[LW]     S. Lin, E. J. Weldon Jr., Long BCH codes are bad. Information and Control
+               11 (1967), 445–451. Zbl 0155.27704
+332                     S. Evra, E. Kowalski and A. Lubotzky
+
+[MPW]      C. Martínez-Pérez and W. Willems, Is the class of cyclic codes asymptotically
+                 good? IEEE Transactions on Information Theory 52 (2006), 696–700.
+                 Zbl 1317.94148 MR 2236182
+[MWS]      M. J. MacWilliams and N. J. A Sloane, The Theory of Error-correcting Codes.
+                 North Holland, 1977. Zbl 0369.94008 MR 0465509 (Vol. I) MR 0465510
+                 (Vol. II)
+[McK]      D. McKay, Information Theory, Inference, and Learning Algorithms. Cambridge
+                 Univ. Press, 2003.
+[Mes1]     R. Meshulam, An uncertainty inequality for groups of order pq , European
+                 Journal of Combinatorics 13 (1992), 401–407. Zbl 0790.43007 MR 1181081
+[Mes2]           An uncertainty inequality for finite abelian groups, European Journal of
+                 Combinatorics 27 (2006), 63–67. Zbl 1145.43005 MR 2186416
+[Mor]      P. Moree, Artin’s primitive root conjecture – a survey. Integers 12 (2012),
+                 1305–1416. Zbl 1271.11002 MR 3011564
+[Neu]      J. Neukirch, Algebraic Number Theory. Grundlehren der math. Wissens. 322,
+                 Springer 1999. Zbl 0956.11021 MR 1697859
+[Ore]      O. Ore, Contributions to the theory of finite fields, Transactions of the American
+                 Mathematical Society 36 (1934), 243–274. Zbl 0009.10003 MR 1501740
+[Rot]      R. Roth, Introduction to Coding Theory. Cambridge University Press, 2006.
+                 Zbl 1092.94001
+[Ser]      J.-P. Serre, Quelques applications du théorème de densité de Chebotarev. Publ.
+                 Math. I.H.É.S. 54 (1981), 123–201. Zbl 0496.12011 MR 0644559
+[SL]       P. Stevenhagen and H. W. Lenstra Jr., Chebotarëv and his density theorem. The
+                 Mathematical Intelligencer 18 (1996), 26–37. Zbl 0885.11005 MR 1395088
+[Tao]      T. Tao, An uncertainty principle for cyclic groups of prime order. Mathematical
+                 Research Letters 12 (2005), 121–127. Zbl 1080.42002 MR 2122735
+[Vol]      J. F. Voloch, Asymptotics of the minimal distance of quadratic residue codes.
+                 Mathematisches Forschungsinstitut Oberwolfach Report 54 (2004), 2946.
+
+                                                                     (Reçu le 17 avril 2017 )
+
+Shai Evra, Einstein Institute of Mathematics,
+The Hebrew University of Jerusalem, 91904, Jerusalem, Israel
+e-mail: shai.evra@gmail.com
+
+Emmanuel Kowalski, ETH Zürich – D-MATH,
+Rämistrasse 101, 8092 Zürich, Switzerland
+e-mail: kowalski@math.ethz.ch
+
+Alexander Lubotzky, Einstein Institute of Mathematics,
+The Hebrew University of Jerusalem, 91904, Jerusalem, Israel
+e-mail: alex.lubotzky@mail.huji.ac.il
+                      © Fondation L’Enseignement Mathématique
+

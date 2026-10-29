@@ -1,0 +1,259 @@
+{
+  "target": "Test whether an explicit two-descent on L112's elliptic model can certify rank E(Q) <= 1 without the parked class-group backend.",
+  "assessment": "drafts/literature/2026-10-25-marked-elliptic-explicit-two-descent.md",
+  "sources": {
+    "minimality": "Cremona III.3.1 Prop.3.1.1 and III.3.2 pp.63-65",
+    "invariant_selection": "Cremona III.3.6 Step 1 p.92",
+    "coefficient_regions": "Cremona III.3.6 Step 2 p.94"
+  },
+  "input_hashes": {
+    "lemmas/L112-marked-elliptic-positive-rank.md": "83e20c9b8c0e03af7f71946d7eb47355e340c602f3065e2b13ad14442dbe9069"
+  },
+  "old_model": {
+    "ai": [
+      0,
+      0,
+      0,
+      -2874960,
+      1739350800
+    ],
+    "c4": 137998080,
+    "c6": -1502799091200,
+    "delta": "213864120124199424000",
+    "c4_factorization": {
+      "2": 8,
+      "3": 4,
+      "5": 1,
+      "11": 3
+    },
+    "c6_factorization": {
+      "2": 9,
+      "3": 6,
+      "5": 2,
+      "11": 5
+    }
+  },
+  "normalization": {
+    "candidates": [
+      {
+        "u": 1,
+        "c4": "137998080",
+        "c6": "-1502799091200",
+        "delta": "213864120124199424000",
+        "integral_discriminant": true,
+        "kraus_pass": true
+      },
+      {
+        "u": 2,
+        "c4": "8624880",
+        "c6": "-23481235800",
+        "delta": "52212919952197125",
+        "integral_discriminant": true,
+        "kraus_pass": true
+      },
+      {
+        "u": 3,
+        "c4": "1703680",
+        "c6": "-2061452800",
+        "delta": "1207269217792000/3",
+        "integral_discriminant": false,
+        "kraus_pass": false
+      },
+      {
+        "u": 6,
+        "c4": "106480",
+        "c6": "-32210200",
+        "delta": "294743461375/3",
+        "integral_discriminant": false,
+        "kraus_pass": false
+      }
+    ],
+    "maximal_scaling": 2,
+    "minimal_ai": [
+      0,
+      0,
+      1,
+      -179685,
+      27177356
+    ],
+    "c4": 8624880,
+    "c6": -23481235800,
+    "delta": "52212919952197125",
+    "forward": "x=4X,y=8Y+4",
+    "inverse": "X=x/4,Y=(y-4)/8",
+    "polynomial_residual": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "rational_two_torsion": {
+    "modulus": 7,
+    "reduced_cubic": [
+      1,
+      0,
+      3,
+      5
+    ],
+    "values_on_all_residues": [
+      5,
+      2,
+      5,
+      6,
+      4,
+      5,
+      1
+    ],
+    "dimension": 0
+  },
+  "invariant_selection": {
+    "I": 8624880,
+    "J": -46962471600,
+    "dyadic": {
+      "I_mod16": 0,
+      "J_mod64": 16,
+      "I_mod4": 0,
+      "J_mod8": 0,
+      "twoI_plus_J_mod16": 0
+    },
+    "required_pairs": [
+      [
+        8624880,
+        -46962471600
+      ]
+    ],
+    "larger_pair_omitted": true,
+    "discriminant": 360895702709586528000
+  },
+  "root_certificates": [
+    {
+      "interval": {
+        "lo": "-3562729358095299/1000000000000",
+        "hi": "-1781364679047649/500000000000"
+      },
+      "endpoint_values": [
+        "-5277855905545279009439605015899/1000000000000000000000000000000000000",
+        "865828191444641758115977299551/125000000000000000000000000000000000"
+      ]
+    },
+    {
+      "interval": {
+        "lo": "-2262749518242581/1000000000000",
+        "hi": "-113137475912129/50000000000"
+      },
+      "endpoint_values": [
+        "9438732171646410188036888591059/1000000000000000000000000000000000000",
+        "-134475210179062422884922689/125000000000000000000000000000000"
+      ]
+    },
+    {
+      "interval": {
+        "lo": "2912739438168939/500000000000",
+        "hi": "5825478876337879/1000000000000"
+      },
+      "endpoint_values": [
+        "-6358173553935610764121382679981/125000000000000000000000000000000000",
+        "25068583984491608401798820202439/1000000000000000000000000000000000000"
+      ]
+    }
+  ],
+  "bounds": {
+    "K": {
+      "lo": "46942988445096889/250000000000",
+      "hi": "187771953780391441/1000000000000"
+    },
+    "sqrtK": {
+      "lo": "216663306642119/500000000000",
+      "hi": "433326613284243/1000000000000"
+    },
+    "type1_denominator": {
+      "lo": "259995967970543/100000000000",
+      "hi": "2599959679705447/1000000000000"
+    },
+    "regions": [
+      {
+        "type": "type1_positive",
+        "abs_a_bound": {
+          "lo": "208626849654069/200000000000",
+          "hi": "260783562067591/250000000000"
+        },
+        "maximum_abs_a": 1043,
+        "b_convention": "-2|a| < b <= 2|a|",
+        "raw_ab_rows": 2177784
+      },
+      {
+        "type": "type2_positive",
+        "abs_a_bound": {
+          "lo": "898692043842271/1000000000000",
+          "hi": "35947681753691/40000000000"
+        },
+        "maximum_abs_a": 898,
+        "b_convention": "-2|a| < b <= 2|a|",
+        "raw_ab_rows": 1614604
+      },
+      {
+        "type": "type2_negative",
+        "abs_a_bound": {
+          "lo": "144442204428079/1000000000000",
+          "hi": "1805527555351/12500000000"
+        },
+        "maximum_abs_a": 144,
+        "b_convention": "-2|a| < b <= 2|a|",
+        "raw_ab_rows": 41760
+      }
+    ],
+    "type3_applicable": false,
+    "type1_c_interval_width": {
+      "lo": "4044114197290229/1000000000000",
+      "hi": "404411419729023/100000000000"
+    }
+  },
+  "workload": {
+    "caps": {
+      "ab_rows": 200000,
+      "abc_triples": 2000000
+    },
+    "complete_raw_ab_row_count": 3834148,
+    "ab_rows_visited": 0,
+    "abc_triples_enumerated": 0,
+    "type1_subset_a": [
+      1,
+      16
+    ],
+    "type1_subset_rows": 544,
+    "integers_per_c_interval_at_least": 4044,
+    "certified_abc_triple_lower_bound": 2199936,
+    "full_abc_count_computed": false,
+    "mechanism": "Closed-form row count and interval-width lower bound; no truncated descent.",
+    "result": "STOP_UNSIEVED_REGION_OVER_CAP"
+  },
+  "limitations": [
+    "No quartic reconstruction, syzygy sieve, local exclusion or class merge run.",
+    "No Selmer dimension, Sha claim, rank upper bound or Beal exclusion.",
+    "Raw workload is not a lower bound on inequivalent or locally soluble classes."
+  ],
+  "checks": {
+    "all_possible_integer_scalings_divide_6": true,
+    "maximal_kraus_scaling_is_2": true,
+    "minimal_invariants_exact": true,
+    "scaled_invariants_match": true,
+    "rational_model_change_identity": true,
+    "model_change_invertible_over_Q": true,
+    "monic_cubic_has_no_mod7_root": true,
+    "basic_pair_not_dyadically_divisible": true,
+    "larger_pair_omission_criterion": true,
+    "positive_nonzero_quartic_discriminant": true,
+    "three_disjoint_root_brackets": true,
+    "type1_K_and_denominator_positive": true,
+    "type1_positive_a_floor_certified": true,
+    "type2_positive_a_floor_certified": true,
+    "type2_negative_a_floor_certified": true,
+    "type1_width_strictly_above_4044": true,
+    "type1_includes_every_a_from_1_to_16": true,
+    "type1_rows_alone_exceed_row_cap": true,
+    "type1_subset_exceeds_triple_cap": true
+  },
+  "failures": []
+}

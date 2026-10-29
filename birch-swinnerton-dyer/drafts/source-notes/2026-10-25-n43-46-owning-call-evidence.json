@@ -1,0 +1,140 @@
+{
+  "absent": [
+    "scripts/four-rational-kernels/step-472",
+    "scripts/four-rational-kernels/step-472-prelaunch/edit-map.json",
+    "scripts/four-rational-kernels/step-472-prelaunch/coordinator-source-diff.txt",
+    "scripts/four-rational-kernels/step-472-prelaunch/verification.json",
+    "scripts/four-rational-kernels/step-472-prelaunch/coordinator.py",
+    "scripts/four-rational-kernels/step-472-prelaunch/worker-expected.py"
+  ],
+  "arithmetic_executed": false,
+  "complete_failure_parsed": true,
+  "complete_owner_and_old_byte_checks": true,
+  "constructed_edit_records_checked": 10,
+  "first_failure_fields": [
+    "edits_constructed",
+    "execution_started",
+    "message",
+    "status",
+    "traceback",
+    "type"
+  ],
+  "frozen_files": {
+    "ATTEMPTS/052-coordinator-obsolete-line-selection-stop.md": {
+      "bytes": 1054,
+      "sha256": "e345963819c9218ce0c70ac236985acdab44198a7666e6216b5875ef48609aab"
+    },
+    "drafts/2026-10-25-n43-46-attempt.md": {
+      "bytes": 3834,
+      "sha256": "a9eb7ae6e41bbc513497686c4893e23e9532d476763f1c49656342ef1479ed4d"
+    },
+    "history/472-2026-10-25-n43-46-owning-statement-stop.md": {
+      "bytes": 1081,
+      "sha256": "6102a42f87863177da375456df8a4025c77176bfbc836e21d94f1bdc64ea9453"
+    },
+    "scripts/four-rational-kernels/build-parsed-472.py": {
+      "bytes": 12787,
+      "sha256": "eda27bc3615255c5a3a20c17b1cfd6f0e866de98023ae899fe4628e3237eff88"
+    },
+    "scripts/four-rational-kernels/step-472-postmortem/source-diagnosis.json": {
+      "bytes": 4161,
+      "sha256": "c88c223ae3789916faa22186f20d59d69139df9945e793f49257b2475e3a0330"
+    },
+    "scripts/four-rational-kernels/step-472-prelaunch/first-failure.json": {
+      "bytes": 17175,
+      "sha256": "06e2b8896eee5f838f63d860a1bbbb28d1330b4a4aa54c129129863ff89be390"
+    }
+  },
+  "frozen_trees": {
+    "scripts/four-rational-kernels/step-472-postmortem": [
+      "scripts/four-rational-kernels/step-472-postmortem/source-diagnosis.json"
+    ],
+    "scripts/four-rational-kernels/step-472-prelaunch": [
+      "scripts/four-rational-kernels/step-472-prelaunch/first-failure.json"
+    ]
+  },
+  "owners": {
+    "coordinator_diff": {
+      "complete_original_owner": "(OUT/'coordinator-source-diff.txt').write_text(''.join(difflib.unified_diff((BASE/'step-461/coordinator.py').read_text().splitlines(True),COORDINATOR.splitlines(True),fromfile='step-461/coordinator.py',tofile='step-468/coordinator.py')))",
+      "count": 1,
+      "end": 10842,
+      "fields": [
+        {
+          "end": 10712,
+          "old_bytes": "'step-461/coordinator.py'",
+          "path": "Module.body[40].body[25].value.args[0].args[0].args[0].func.value.func.value.right",
+          "start": 10687,
+          "value": "step-461/coordinator.py"
+        },
+        {
+          "end": 10806,
+          "old_bytes": "'step-461/coordinator.py'",
+          "path": "Module.body[40].body[25].value.args[0].args[0].keywords[0].value",
+          "start": 10781,
+          "value": "step-461/coordinator.py"
+        },
+        {
+          "end": 10839,
+          "old_bytes": "'step-468/coordinator.py'",
+          "path": "Module.body[40].body[25].value.args[0].args[0].keywords[1].value",
+          "start": 10814,
+          "value": "step-468/coordinator.py"
+        }
+      ],
+      "path": "Module.body[40].body[25]",
+      "sha256": "f04018ecbd46dd6c5d3c6b56d241a823f447462624e62d7a7d34956b7346f2f5",
+      "start": 10605
+    },
+    "manifest": {
+      "complete_original_owner": "save('manifest.json',{'step':'BSD-2026-10-25-468-kernels-thirty-nine-through-forty-two-parsed','indices':INDICES,\n      'python':sys.version,'optimize':sys.flags.optimize,'required_seconds':180,'work_deadline_seconds':174,\n      'required_new_bytes':LIMIT,'report_and_diagnostic_reserve':RESERVE,'panels_per_kernel':1016,\n      'pairs_per_pass':21264880,'factor_slots':[129,65,65],'product_slots':[193,257],\n      'scalar_terms':128,'scalar_squares':16,'grid_fractional_bits':256,'analytic_enlargement_grid':2**72,\n      'strict_radius_powers':[183,50],'midpoint':'unchanged complete L103 record','source_generation_in_cap':True,\n      'isolated_modules_per_child':True,'old_entrypoints_executed':False,'no_retry_or_resumption':True,\n      'extra_signed_control_block_reused':False,'L106_values_used':False,'direct_argument_retained_whole':True,'self_slicing':False})",
+      "count": 1,
+      "end": 11714,
+      "fields": [
+        {
+          "end": 10941,
+          "old_bytes": "'BSD-2026-10-25-468-kernels-thirty-nine-through-forty-two-parsed'",
+          "path": "Module.body[40].body[26].value.args[1].values[0]",
+          "start": 10876,
+          "value": "BSD-2026-10-25-468-kernels-thirty-nine-through-forty-two-parsed"
+        }
+      ],
+      "path": "Module.body[40].body[26]",
+      "sha256": "459a78ae4e95548e3d9a01e4f71aede4eefb565e6627ddd09c87e154e1cf92ac",
+      "start": 10847
+    },
+    "worker_diff": {
+      "complete_original_owner": "(OUT/'worker-source-diff.txt').write_text(''.join(difflib.unified_diff(worker_before.splitlines(True),worker.splitlines(True),fromfile='step-461/worker.py',tofile='step-468/worker.py')))",
+      "count": 1,
+      "end": 12348,
+      "fields": [
+        {
+          "end": 12317,
+          "old_bytes": "'step-461/worker.py'",
+          "path": "Module.body[40].body[34].value.args[0].args[0].keywords[0].value",
+          "start": 12297,
+          "value": "step-461/worker.py"
+        },
+        {
+          "end": 12345,
+          "old_bytes": "'step-468/worker.py'",
+          "path": "Module.body[40].body[34].value.args[0].args[0].keywords[1].value",
+          "start": 12325,
+          "value": "step-468/worker.py"
+        }
+      ],
+      "path": "Module.body[40].body[34]",
+      "sha256": "aa5084839f1fd1755c1913872f06d8d4aea7e4ad554979a823978bf6ef42b032",
+      "start": 12162
+    }
+  },
+  "predecessor": {
+    "bytes": 19680,
+    "path": "scripts/four-rational-kernels/step-468/coordinator.py",
+    "sha256": "2cdae569efd7406a76f61e89104f47d4b6301094223e0424d1c725dcf906af13"
+  },
+  "production_feasibility_established": false,
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "source_compiled": false,
+  "source_generated": false,
+  "status": "SOURCE_REVIEW_ONLY"
+}

@@ -34,7 +34,8 @@ No such real tuple exists for any integer 0<=t<=9250245.
 This is a local RESEARCH/REPRODUCTION assembly under the prior SPECIALIZE
 assessment `drafts/literature/2026-10-24-d35-last-pair-real-exclusion-assembly.md`.
 It combines audited inputs and claims no new general mathematics beyond
-the inspected sources. Its separate critical audit remains pending.
+the inspected sources. The separate step462 critical audit below found
+no defect within these hypotheses.
 Early-support and cyclic-order reductions, actual-word transfer and
 universal eventual descent remain unresolved. This is not a complete
 Collatz candidate. Attempt032 and both original d0 witnesses remain valid.
@@ -121,6 +122,65 @@ No coding or analytic theorem needs reproof for this case assembly.
 Only the literal last-pair subsystem is excluded. Other allocations,
 nonliteral orders, actual-word transfer, other tables, unrestricted
 cycles, divergence and universal eventual descent remain unresolved.
+
+### Independent critical audit — 2026-10-24, step462
+
+This RESEARCH/REPRODUCTION proof audit uses the unchanged prior SPECIALIZE
+assessment `drafts/literature/2026-10-24-d35-last-pair-assembly-critical-audit.md`.
+The object is this assembly, not a fresh numerical audit of L100 or
+L101. Their completed step454/458 audits and the precise source
+specializations recorded there are reused. No certificate is rerun,
+new bound asserted or stronger source theorem claimed.
+
+**Common hypotheses.** The complete canonical L055 table has 25 indexed
+pairs; its row18 is (693015,3295208) and its final J is 30998279.
+Only H_0=40 becomes 5 and H_24=32670621 becomes 32670656. These are
+exactly the changes in both inputs. The resulting J_i>=2,H_i>=3 and
+literal order meet L101's table hypotheses. The B, kappa, integer range
+and all tails agree. In particular the first 23 tails are 2, and both
+changing tails are present; no fixed-total condition substitutes for
+their individual values. At every index 0 through 24, equation (1)
+has the same multiplier, both negative offsets inside 2^(-a_i), and
+the same external kappa as L100 and L101. The index24 equation uses
+s_25=s_0 in all three statements. The lower domain makes each logarithm
+well-defined. Deleting just the H guards gives precisely L101's
+subsystem, without an extra seed, minimum or feasibility premise.
+
+**Complete integer split and guard signs.** On 2<=t<=9250245, L101's
+row24 margin is strictly below -8995174522561/500000000000, a negative
+number. C101a's non-strict J guard requires this same right-minus-left
+margin to be >=0. L101's audited statement is quantified on the whole
+closed interval; using it here is not extrapolation from its t=2 test.
+The extreme t=B has (a_23,a_24)=(166504412,2), so no final-tail
+boundary is omitted. Removing this interval from the original integer
+range leaves exactly 0 and 1; the argument would not exhaust a real
+parameter interval, and makes no such claim.
+
+**Same-tuple identification at the remaining parameters.** Direct
+substitution gives tails (2,166504412) at t=0 and (20,166504394) at
+t=1, exactly L100's two cases. Its uniqueness conclusion applies to
+all real solutions of the full endpoint equations, without either
+guard or a lower-domain premise. Therefore any hypothetical C101a
+tuple is its unique endpoint tuple at that very parameter and indexed
+cut. Its s_18 is consequently the input used by L100, not a rotation,
+minimum or adjacent output. The unchanged row18 pair gives precisely
+the margin in (4). The strict H guard requires this margin to be >0,
+whereas L100 bounds it strictly below the negative rational
+-172437107269/12500000000. Both remaining cases are excluded. There
+is no inference that either root satisfies all the other guards.
+
+**Verdict and dependency scope.** The complete case assembly is valid
+as stated. The direct mathematical inputs remain L055 for its table,
+L100 for the two endpoint roots and H failure, and L101 for the full
+cutoff. Their upstream analytic and affine inputs are used through
+these audited statements; no new direct input or DAG edge is needed.
+Attempt032's failed sufficient package, d34 precedents, the two d0
+witnesses and unproved support/order reductions supply no premise.
+No mathematical correction, scope enlargement or new general result
+was obtained. This secures the existing restricted assembly for later
+use, while actual-word transfer and universal descent remain open.
+PROOF.md and DAG.md are unchanged because the argument is unchanged;
+this audit supersedes the overview's pending-audit wording only.
 
 ## Mathlib
 

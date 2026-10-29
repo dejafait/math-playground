@@ -1,0 +1,84 @@
+{
+  "all_checks_pass": true,
+  "failures": [],
+  "pair_diagnostic": {
+    "records": 18769,
+    "full": 11231,
+    "exceptional": 7538,
+    "max_proper_closure": 6,
+    "threshold_pass": false,
+    "trace_sha256": "baac03559456f183b2e0a561a355204c30283408ed18ba91197cdd9d60f6a377"
+  },
+  "collinear": {
+    "records": 959,
+    "full_by_direction": [
+      75,
+      66,
+      75,
+      54,
+      63,
+      81,
+      78
+    ],
+    "exceptional_by_direction": [
+      62,
+      71,
+      62,
+      83,
+      74,
+      56,
+      59
+    ],
+    "trace_sha256": "f4b9d32cfb7dff39adf6ebb9f585000fda50549e3a82defe12e301cf4fb11c00"
+  },
+  "graphs": {
+    "edge_counts": [
+      252,
+      504,
+      378,
+      1206,
+      735,
+      180,
+      249
+    ],
+    "color_counts": [
+      5,
+      6,
+      8,
+      12,
+      8,
+      4,
+      5
+    ],
+    "line_bounds": [
+      7,
+      8,
+      10,
+      14,
+      10,
+      6,
+      7
+    ],
+    "best_incidence_bound": {
+      "direction": 16,
+      "reciprocal_sum": [
+        593,
+        840
+      ],
+      "bound": [
+        144480,
+        593
+      ],
+      "integer_bound": 243
+    },
+    "required_integer_bound": 272,
+    "threshold_pass": true,
+    "graph_sha256": "1f7f3d481d2b4e2f9172597849edb4c1f8e73a89f5d9c1e7e16271b8211e4737"
+  },
+  "qualifications": [
+    "No full-sheet coefficient counterassignment constructed.",
+    "Fixed-pair and uniform-eight diagnostic thresholds fail.",
+    "Asymmetric incidence certificate proves only the conditional large-fiber implication.",
+    "Separate critical mathematical audit remains pending."
+  ]
+}

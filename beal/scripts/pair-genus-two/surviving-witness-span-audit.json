@@ -1,0 +1,3912 @@
+{
+  "completed": true,
+  "failures": [],
+  "bindings": {
+    "surviving-witness-span-certificate.json": "6190fc8ebfb79e9a9f532c75c893cff4bebd27aa8ae27dac042cd18c758eb131",
+    "surviving-witness-span-verification.json": "01c9c40b42fa6d0155e63f22c57e753445f82801dc5b2cec45558a4588d658d0",
+    "surviving_witness_span.py": "c51ba351250e0007e72a5631364d7508530541ad23245ca0d24840df4d878b33",
+    "verify_surviving_witness_span.py": "b87fd1547df20fbddc7c95237c5c97f2d970e27db59c19ab11079aa0f62eaa30",
+    "odd-membership-35-certificate.json": "60db6aa9958df7980a1f8914f79d6b228775a2fbcc5bd3575301cabc68887c07",
+    "odd-membership-35-verification.json": "0304dd7cc99c086c27e5e9b169ad7777a995e2abd1d548752c97765a820ba945",
+    "odd-membership-35-audit.json": "8f31ed7df01864a2c954b838ce68aa17ffabe45b48f0cb737d921332839ea12a",
+    "two-adic-filter-certificate.json": "18a2ac2527d1a3cf2c1c8e78bd9ce8bdd4cdc98b38375419554600e73b11736e",
+    "odd-model-support-certificate.json": "22315e6ebcbaa4ff063206432a958935aeb01b07ea6652bcc51d851c45162193",
+    "branch-annihilator-certificate.json": "19430ef7dd775d3a779926e996a263bfc0c8c8fe760e5aef019eaa5a20c0603d",
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+    "two-adic-filter-audit.json": "538970ae98c36ac4ea42ebfe7551e7c3cbf836904bb7334b2a30a11e7c793958",
+    "odd-membership-35-preaudit-verification.json": "0304dd7cc99c086c27e5e9b169ad7777a995e2abd1d548752c97765a820ba945",
+    "quartic-class-audit.json": "66081845daee55f5830836e75a9cd0ab3db644fa447dfc8fc0b579636b19ab10",
+    "odd-model-support-audit.json": "8145c1a559f911f01ef365280ba461dfb7ba76f1c534d93721a71e334fb1daa0",
+    "real-kummer-certificate.json": "1abd068db5a72c8ffd06d2670d5e4dbfd1c20efff75698f0dd944e430c6064d9",
+    "eleven-adic-filter-certificate.json": "400abaaa4b0eb26be5200bb27b8f27aebdb3c3b0c501df1ea68617cbf4b8e750",
+    "real-kummer-audit.json": "6d8436930d79de37a1f3a083eb71f7d06b234c79d5bd097c66360a148a8a094e",
+    "eleven-adic-filter-audit.json": "e30fee464bbe3a66d112a888b8b02ec1def39a4b684bad313ed4537b90153c3c",
+    "branch-annihilator-verification.json": "af4cdbec238b95ba2b91e66e9a672017381429d221cccddcb30c0b258ced405e",
+    "branch-annihilator-audit.json": "b73747a21569ef3c25317a9d7f7bbe4c55b50e50ce9e2b97bb6855b3e910b116",
+    "two-adic-filter-verification.json": "53a79448c25df2455ecb3b145c6bb880c897199a0dba7e432a9b011d41d84c0f",
+    "two-adic-filter-preaudit-verification.json": "53a79448c25df2455ecb3b145c6bb880c897199a0dba7e432a9b011d41d84c0f",
+    "odd-model-support-verification.json": "c8087e75257e0c390581074fd5710c7885745e46a3b99722a6717edb41a2996e",
+    "odd-model-support-preaudit-verification.json": "c8087e75257e0c390581074fd5710c7885745e46a3b99722a6717edb41a2996e"
+  },
+  "checks": [
+    {
+      "name": "successful saved producer and replay",
+      "passed": true
+    },
+    {
+      "name": "producer script hash",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash branch-annihilator-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash branch-annihilator-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash branch-annihilator-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash surviving-witness-span-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success odd-membership-35-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success odd-membership-35-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success odd-membership-35-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success branch-annihilator-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-verification.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success two-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success odd-membership-35-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success quartic-class-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-order-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-order-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success odd-model-support-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success real-kummer-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-parity-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash localized-parity-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-parity-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash localized-parity-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success eleven-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-parity-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash localized-parity-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-parity-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash localized-parity-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success real-kummer-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success eleven-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success branch-annihilator-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash branch-annihilator-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success branch-annihilator-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash branch-annihilator-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash branch-annihilator-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-membership-35-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success two-adic-filter-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success two-adic-filter-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "input hash two-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash odd-model-support-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash quartic-class-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input hash real-kummer-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input hash eleven-adic-filter-audit.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success odd-model-support-verification.json",
+      "passed": true
+    },
+    {
+      "name": "accepted success odd-model-support-preaudit-verification.json",
+      "passed": true
+    },
+    {
+      "name": "actual full field and basis",
+      "passed": true
+    },
+    {
+      "name": "actual full quintic",
+      "passed": true
+    },
+    {
+      "name": "accepted whole multiplication table",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (0, 0)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (0, 1)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (0, 2)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (0, 3)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (1, 0)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (1, 1)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (1, 2)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (1, 3)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (2, 0)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (2, 1)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (2, 2)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (2, 3)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (3, 0)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (3, 1)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (3, 2)",
+      "passed": true
+    },
+    {
+      "name": "literal basis product (3, 3)",
+      "passed": true
+    },
+    {
+      "name": "full source domain",
+      "passed": true
+    },
+    {
+      "name": "all seven support primes",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 0",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 0",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 0",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 0",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 0",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 0",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 0",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 0",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 0",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 1",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 1",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 1",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 1",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 1",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 1",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 1",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 1",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 1",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 2",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 2",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 2",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 2",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 2",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 2",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 2",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 2",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 2",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 3",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 3",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 3",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 3",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 3",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 3",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 3",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 3",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 3",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 4",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 4",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 4",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 4",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 4",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 4",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 4",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 4",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 4",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 5",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 5",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 5",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 5",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 5",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 5",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 5",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 5",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 5",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 6",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 6",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 6",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 6",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 6",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 6",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 6",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 6",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 6",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 7",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 7",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 7",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 7",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 7",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 7",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 7",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 7",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 7",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 8",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 8",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 8",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 8",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 8",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 8",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 8",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 8",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 8",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 9",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 9",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 9",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 9",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 9",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 9",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 9",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 9",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 9",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 10",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 10",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 10",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 10",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 10",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 10",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 10",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 10",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 10",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 11",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 11",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 11",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 11",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 11",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 11",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 11",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 11",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 11",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 12",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 12",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 12",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 12",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 12",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 12",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 12",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 12",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 12",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 13",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 13",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 13",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 13",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 13",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 13",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 13",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 13",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 13",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 14",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 14",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 14",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 14",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 14",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 14",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 14",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 14",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 14",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 15",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 15",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 15",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 15",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 15",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 15",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 15",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 15",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 15",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 16",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 16",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 16",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 16",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 16",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 16",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 16",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 16",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 16",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 17",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 17",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 17",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 17",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 17",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 17",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 17",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 17",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 17",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 18",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 18",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 18",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 18",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 18",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 18",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 18",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 18",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 18",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 19",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 19",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 19",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 19",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 19",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 19",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 19",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 19",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 19",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 20",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 20",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 20",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 20",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 20",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 20",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 20",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 20",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 20",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 21",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 21",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 21",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 21",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 21",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 21",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 21",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 21",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 21",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 22",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 22",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 22",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 22",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 22",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 22",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 22",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 22",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 22",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 23",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 23",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 23",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 23",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 23",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 23",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 23",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 23",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 23",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 24",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 24",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 24",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 24",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 24",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 24",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 24",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 24",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 24",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 25",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 25",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 25",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 25",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 25",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 25",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 25",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 25",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 25",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 26",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 26",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 26",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 26",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 26",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 26",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 26",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 26",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 26",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 27",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 27",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 27",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 27",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 27",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 27",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 27",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 27",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 27",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 28",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 28",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 28",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 28",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 28",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 28",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 28",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 28",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 28",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 29",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 29",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 29",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 29",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 29",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 29",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 29",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 29",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 29",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 30",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 30",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 30",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 30",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 30",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 30",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 30",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 30",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 30",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 31",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 31",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 31",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 31",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 31",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 31",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 31",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 31",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 31",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 32",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 32",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 32",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 32",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 32",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 32",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 32",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 32",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 32",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 33",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 33",
+      "passed": true
+    },
+    {
+      "name": "complete accepted ideal input 33",
+      "passed": true
+    },
+    {
+      "name": "full ideal norm binding 33",
+      "passed": true
+    },
+    {
+      "name": "literal principal matrix 33",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 33",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 33",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 33",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 33",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 34",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 34",
+      "passed": true
+    },
+    {
+      "name": "exact appended rational source 34",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 34",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 34",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 34",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 34",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 35",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 35",
+      "passed": true
+    },
+    {
+      "name": "exact appended rational source 35",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 35",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 35",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 35",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 35",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 36",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 36",
+      "passed": true
+    },
+    {
+      "name": "exact appended rational source 36",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 36",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 36",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 36",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 36",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 37",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 37",
+      "passed": true
+    },
+    {
+      "name": "exact appended rational source 37",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 37",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 37",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 37",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 37",
+      "passed": true
+    },
+    {
+      "name": "entire accepted supported source 38",
+      "passed": true
+    },
+    {
+      "name": "signed source norm 38",
+      "passed": true
+    },
+    {
+      "name": "exact appended rational source 38",
+      "passed": true
+    },
+    {
+      "name": "whole ordered source at every new place 38",
+      "passed": true
+    },
+    {
+      "name": "complete full mask widths 38",
+      "passed": true
+    },
+    {
+      "name": "independent rational localization 38",
+      "passed": true
+    },
+    {
+      "name": "all five actual image quotient maps 38",
+      "passed": true
+    },
+    {
+      "name": "entire source columns",
+      "passed": true
+    },
+    {
+      "name": "entire coefficient kernel",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 118",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 165",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 296",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 3109",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 5125",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 9225",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 17429",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 32788",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 65551",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 132102",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 263197",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 524316",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 1048576",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 2097164",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 4194348",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 8388617",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 16778761",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 33555489",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 67109932",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 134218815",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 268436521",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 536871961",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 1073742849",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 2147484685",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 4294968331",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 8589935624",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 17179870217",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 34359739393",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 68719477818",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 137438953494",
+      "passed": true
+    },
+    {
+      "name": "all actual local images for kernel 274877907977",
+      "passed": true
+    },
+    {
+      "name": "reference domain",
+      "passed": true
+    },
+    {
+      "name": "product norm 0",
+      "passed": true
+    },
+    {
+      "name": "full reference product 0",
+      "passed": true
+    },
+    {
+      "name": "product norm 165",
+      "passed": true
+    },
+    {
+      "name": "full reference product 165",
+      "passed": true
+    },
+    {
+      "name": "product norm 132102",
+      "passed": true
+    },
+    {
+      "name": "full reference product 132102",
+      "passed": true
+    },
+    {
+      "name": "product norm 132259",
+      "passed": true
+    },
+    {
+      "name": "full reference product 132259",
+      "passed": true
+    },
+    {
+      "name": "reference XOR product class",
+      "passed": true
+    },
+    {
+      "name": "accepted independent reference binding",
+      "passed": true
+    },
+    {
+      "name": "accepted independent reference binding",
+      "passed": true
+    },
+    {
+      "name": "reference independence",
+      "passed": true
+    },
+    {
+      "name": "tested prefix and stop",
+      "passed": true
+    },
+    {
+      "name": "product norm 118",
+      "passed": true
+    },
+    {
+      "name": "complete saved tested product 118",
+      "passed": true
+    },
+    {
+      "name": "product norm 165",
+      "passed": true
+    },
+    {
+      "name": "complete saved tested product 165",
+      "passed": true
+    },
+    {
+      "name": "product norm 296",
+      "passed": true
+    },
+    {
+      "name": "complete saved tested product 296",
+      "passed": true
+    },
+    {
+      "name": "product norm 3109",
+      "passed": true
+    },
+    {
+      "name": "complete saved tested product 3109",
+      "passed": true
+    },
+    {
+      "name": "literal nu and exact norm",
+      "passed": true
+    },
+    {
+      "name": "all ten comparison domains and first outside order",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (0, 0)",
+      "passed": true
+    },
+    {
+      "name": "conclusive negative comparison (0, 0)",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (0, 165)",
+      "passed": true
+    },
+    {
+      "name": "conclusive negative comparison (0, 165)",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (0, 132102)",
+      "passed": true
+    },
+    {
+      "name": "exact full-group roots (0, 132102)",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (1, 0)",
+      "passed": true
+    },
+    {
+      "name": "conclusive negative comparison (1, 0)",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (1, 165)",
+      "passed": true
+    },
+    {
+      "name": "exact full-group roots (1, 165)",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (2, 0)",
+      "passed": true
+    },
+    {
+      "name": "exact full-group roots (2, 0)",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (3, 0)",
+      "passed": true
+    },
+    {
+      "name": "conclusive negative comparison (3, 0)",
+      "passed": true
+    },
+    {
+      "name": "rational-only outside proof 0",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (3, 165)",
+      "passed": true
+    },
+    {
+      "name": "conclusive negative comparison (3, 165)",
+      "passed": true
+    },
+    {
+      "name": "rational-only outside proof 165",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (3, 132102)",
+      "passed": true
+    },
+    {
+      "name": "conclusive negative comparison (3, 132102)",
+      "passed": true
+    },
+    {
+      "name": "rational-only outside proof 132102",
+      "passed": true
+    },
+    {
+      "name": "complete rational test (3, 132259)",
+      "passed": true
+    },
+    {
+      "name": "conclusive negative comparison (3, 132259)",
+      "passed": true
+    },
+    {
+      "name": "rational-only outside proof 132259",
+      "passed": true
+    },
+    {
+      "name": "all literal outside ratios",
+      "passed": true
+    },
+    {
+      "name": "printed strict bounds",
+      "passed": true
+    },
+    {
+      "name": "printed earlier roots",
+      "passed": true
+    },
+    {
+      "name": "bounded complete outcome",
+      "passed": true
+    }
+  ],
+  "sources": [
+    {
+      "index": 0,
+      "id": "tuple-0",
+      "rational": "-1/36000",
+      "quartic_power": [
+        "-76/15",
+        "-1139/375",
+        "-614/9375",
+        "-1/9375"
+      ],
+      "full_local": [
+        17,
+        8,
+        511,
+        54,
+        147
+      ],
+      "quotient": [
+        9,
+        8,
+        79,
+        49,
+        128
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 1,
+      "id": "tuple-26",
+      "rational": "-1/3000",
+      "quartic_power": [
+        "-121/30",
+        "-1349/750",
+        "-989/18750",
+        "-1/18750"
+      ],
+      "full_local": [
+        23,
+        0,
+        377,
+        47,
+        165
+      ],
+      "quotient": [
+        9,
+        0,
+        25,
+        34,
+        135
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 2,
+      "id": "tuple-60",
+      "rational": "1/24000",
+      "quartic_power": [
+        "-61/15",
+        "-179/375",
+        "-239/9375",
+        "-1/9375"
+      ],
+      "full_local": [
+        30,
+        0,
+        162,
+        7,
+        59
+      ],
+      "quotient": [
+        0,
+        0,
+        86,
+        0,
+        10
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 3,
+      "id": "tuple-62",
+      "rational": "1/16",
+      "quartic_power": [
+        "-2",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_local": [
+        30,
+        0,
+        48,
+        0,
+        168
+      ],
+      "quotient": [
+        0,
+        0,
+        20,
+        0,
+        138
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 4,
+      "id": "tuple-66",
+      "rational": "-1/242",
+      "quartic_power": [
+        "-38/15",
+        "31/750",
+        "68/9375",
+        "-1/18750"
+      ],
+      "full_local": [
+        9,
+        0,
+        107,
+        0,
+        34
+      ],
+      "quotient": [
+        9,
+        0,
+        79,
+        0,
+        0
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 5,
+      "id": "tuple-78",
+      "rational": "-1/27000",
+      "quartic_power": [
+        "-59/30",
+        "509/750",
+        "-511/18750",
+        "1/18750"
+      ],
+      "full_local": [
+        15,
+        0,
+        25,
+        7,
+        201
+      ],
+      "quotient": [
+        9,
+        0,
+        25,
+        0,
+        141
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 6,
+      "id": "tuple-82",
+      "rational": "-1/80190",
+      "quartic_power": [
+        "-5/2",
+        "18/25",
+        "-1/50",
+        "0"
+      ],
+      "full_local": [
+        15,
+        5,
+        377,
+        40,
+        19
+      ],
+      "quotient": [
+        9,
+        0,
+        25,
+        34,
+        0
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 7,
+      "id": "tuple-85",
+      "rational": "1/103125",
+      "quartic_power": [
+        "-61/15",
+        "196/375",
+        "-239/9375",
+        "-1/9375"
+      ],
+      "full_local": [
+        30,
+        13,
+        36,
+        49,
+        7
+      ],
+      "quotient": [
+        0,
+        8,
+        0,
+        49,
+        7
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 8,
+      "id": "tuple-130",
+      "rational": "-1/630750",
+      "quartic_power": [
+        "-107/30",
+        "-1034/375",
+        "-853/18750",
+        "-1/9375"
+      ],
+      "full_local": [
+        17,
+        0,
+        41,
+        7,
+        97
+      ],
+      "quotient": [
+        9,
+        0,
+        13,
+        0,
+        7
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 9,
+      "id": "tuple-152",
+      "rational": "1/13500",
+      "quartic_power": [
+        "-2",
+        "-39/25",
+        "-1/25",
+        "0"
+      ],
+      "full_local": [
+        18,
+        8,
+        450,
+        19,
+        215
+      ],
+      "quotient": [
+        10,
+        8,
+        86,
+        19,
+        128
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 10,
+      "id": "tuple-156",
+      "rational": "-1/2250",
+      "quartic_power": [
+        "-38/15",
+        "-1139/750",
+        "-307/9375",
+        "-1/18750"
+      ],
+      "full_local": [
+        17,
+        0,
+        175,
+        30,
+        59
+      ],
+      "quotient": [
+        9,
+        0,
+        91,
+        19,
+        10
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 11,
+      "id": "tuple-184",
+      "rational": "-1/10",
+      "quartic_power": [
+        "17/30",
+        "74/375",
+        "103/18750",
+        "1/9375"
+      ],
+      "full_local": [
+        15,
+        8,
+        175,
+        34,
+        47
+      ],
+      "quotient": [
+        9,
+        8,
+        91,
+        34,
+        13
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 12,
+      "id": "tuple-186",
+      "rational": "1/1500",
+      "quartic_power": [
+        "-61/30",
+        "-179/750",
+        "-239/18750",
+        "-1/18750"
+      ],
+      "full_local": [
+        30,
+        8,
+        498,
+        47,
+        147
+      ],
+      "quotient": [
+        0,
+        8,
+        66,
+        34,
+        128
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 13,
+      "id": "tuple-187",
+      "rational": "1",
+      "quartic_power": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_local": [
+        30,
+        8,
+        352,
+        40,
+        0
+      ],
+      "quotient": [
+        0,
+        8,
+        0,
+        34,
+        0
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 14,
+      "id": "tuple-304",
+      "rational": "-1/4320",
+      "quartic_power": [
+        "16/15",
+        "-31/375",
+        "-136/9375",
+        "1/9375"
+      ],
+      "full_local": [
+        23,
+        8,
+        409,
+        47,
+        177
+      ],
+      "quotient": [
+        9,
+        8,
+        13,
+        34,
+        128
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 15,
+      "id": "tuple-308",
+      "rational": "-1/270",
+      "quartic_power": [
+        "8/15",
+        "-31/750",
+        "-68/9375",
+        "1/18750"
+      ],
+      "full_local": [
+        23,
+        0,
+        201,
+        7,
+        25
+      ],
+      "quotient": [
+        9,
+        0,
+        25,
+        0,
+        10
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 16,
+      "id": "tuple-309",
+      "rational": "1/165",
+      "quartic_power": [
+        "47/30",
+        "74/375",
+        "103/18750",
+        "1/9375"
+      ],
+      "full_local": [
+        6,
+        13,
+        196,
+        25,
+        195
+      ],
+      "quotient": [
+        0,
+        8,
+        20,
+        19,
+        135
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 17,
+      "id": "tuple-315",
+      "rational": "1/165",
+      "quartic_power": [
+        "-47/30",
+        "-74/375",
+        "-103/18750",
+        "-1/9375"
+      ],
+      "full_local": [
+        24,
+        5,
+        420,
+        49,
+        195
+      ],
+      "quotient": [
+        0,
+        0,
+        20,
+        49,
+        135
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 18,
+      "id": "tuple-316",
+      "rational": "-1/270",
+      "quartic_power": [
+        "-8/15",
+        "31/750",
+        "68/9375",
+        "-1/18750"
+      ],
+      "full_local": [
+        9,
+        8,
+        425,
+        47,
+        25
+      ],
+      "quotient": [
+        9,
+        8,
+        25,
+        34,
+        10
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 19,
+      "id": "tuple-320",
+      "rational": "-1/4320",
+      "quartic_power": [
+        "-16/15",
+        "31/375",
+        "136/9375",
+        "-1/9375"
+      ],
+      "full_local": [
+        9,
+        0,
+        249,
+        7,
+        177
+      ],
+      "quotient": [
+        9,
+        0,
+        13,
+        0,
+        128
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 20,
+      "id": "tuple-437",
+      "rational": "1",
+      "quartic_power": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 21,
+      "id": "tuple-438",
+      "rational": "1/1500",
+      "quartic_power": [
+        "61/30",
+        "179/750",
+        "239/18750",
+        "1/18750"
+      ],
+      "full_local": [
+        0,
+        0,
+        146,
+        7,
+        147
+      ],
+      "quotient": [
+        0,
+        0,
+        66,
+        0,
+        128
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 22,
+      "id": "tuple-440",
+      "rational": "-1/10",
+      "quartic_power": [
+        "-17/30",
+        "-74/375",
+        "-103/18750",
+        "-1/9375"
+      ],
+      "full_local": [
+        17,
+        0,
+        463,
+        10,
+        47
+      ],
+      "quotient": [
+        9,
+        0,
+        91,
+        0,
+        13
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 23,
+      "id": "tuple-468",
+      "rational": "-1/2250",
+      "quartic_power": [
+        "38/15",
+        "1139/750",
+        "307/9375",
+        "1/18750"
+      ],
+      "full_local": [
+        15,
+        8,
+        463,
+        54,
+        59
+      ],
+      "quotient": [
+        9,
+        8,
+        91,
+        49,
+        10
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 24,
+      "id": "tuple-472",
+      "rational": "1/13500",
+      "quartic_power": [
+        "2",
+        "39/25",
+        "1/25",
+        "0"
+      ],
+      "full_local": [
+        12,
+        0,
+        162,
+        59,
+        215
+      ],
+      "quotient": [
+        10,
+        0,
+        86,
+        49,
+        128
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 25,
+      "id": "tuple-494",
+      "rational": "-1/630750",
+      "quartic_power": [
+        "107/30",
+        "1034/375",
+        "853/18750",
+        "1/9375"
+      ],
+      "full_local": [
+        15,
+        8,
+        329,
+        47,
+        97
+      ],
+      "quotient": [
+        9,
+        8,
+        13,
+        34,
+        7
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 26,
+      "id": "tuple-539",
+      "rational": "1/103125",
+      "quartic_power": [
+        "61/15",
+        "-196/375",
+        "239/9375",
+        "1/9375"
+      ],
+      "full_local": [
+        0,
+        5,
+        324,
+        25,
+        7
+      ],
+      "quotient": [
+        0,
+        0,
+        0,
+        19,
+        7
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 27,
+      "id": "tuple-542",
+      "rational": "-1/80190",
+      "quartic_power": [
+        "5/2",
+        "-18/25",
+        "1/50",
+        "0"
+      ],
+      "full_local": [
+        17,
+        13,
+        25,
+        0,
+        19
+      ],
+      "quotient": [
+        9,
+        8,
+        25,
+        0,
+        0
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 28,
+      "id": "tuple-546",
+      "rational": "-1/27000",
+      "quartic_power": [
+        "59/30",
+        "-509/750",
+        "511/18750",
+        "-1/18750"
+      ],
+      "full_local": [
+        17,
+        8,
+        377,
+        47,
+        201
+      ],
+      "quotient": [
+        9,
+        8,
+        25,
+        34,
+        141
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 29,
+      "id": "tuple-558",
+      "rational": "-1/242",
+      "quartic_power": [
+        "38/15",
+        "-31/750",
+        "-68/9375",
+        "1/18750"
+      ],
+      "full_local": [
+        23,
+        8,
+        267,
+        40,
+        34
+      ],
+      "quotient": [
+        9,
+        8,
+        79,
+        34,
+        0
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 30,
+      "id": "tuple-562",
+      "rational": "1/16",
+      "quartic_power": [
+        "2",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_local": [
+        0,
+        8,
+        336,
+        40,
+        168
+      ],
+      "quotient": [
+        0,
+        8,
+        20,
+        34,
+        138
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 31,
+      "id": "tuple-564",
+      "rational": "1/24000",
+      "quartic_power": [
+        "61/15",
+        "179/375",
+        "239/9375",
+        "1/9375"
+      ],
+      "full_local": [
+        0,
+        8,
+        450,
+        47,
+        59
+      ],
+      "quotient": [
+        0,
+        8,
+        86,
+        34,
+        10
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 32,
+      "id": "tuple-598",
+      "rational": "-1/3000",
+      "quartic_power": [
+        "121/30",
+        "1349/750",
+        "989/18750",
+        "1/18750"
+      ],
+      "full_local": [
+        9,
+        8,
+        25,
+        7,
+        165
+      ],
+      "quotient": [
+        9,
+        8,
+        25,
+        0,
+        135
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 33,
+      "id": "tuple-624",
+      "rational": "-1/36000",
+      "quartic_power": [
+        "76/15",
+        "1139/375",
+        "614/9375",
+        "1/9375"
+      ],
+      "full_local": [
+        15,
+        0,
+        159,
+        30,
+        147
+      ],
+      "quotient": [
+        9,
+        0,
+        79,
+        19,
+        128
+      ],
+      "support": "accepted full ideal equality"
+    },
+    {
+      "index": 34,
+      "id": "rational--1",
+      "rational": "1",
+      "quartic_power": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_local": [
+        30,
+        8,
+        352,
+        40,
+        0
+      ],
+      "quotient": [
+        0,
+        8,
+        0,
+        34,
+        0
+      ],
+      "support": "rational S-element"
+    },
+    {
+      "index": 35,
+      "id": "rational-2",
+      "rational": "1/16",
+      "quartic_power": [
+        "2",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_local": [
+        0,
+        8,
+        336,
+        40,
+        168
+      ],
+      "quotient": [
+        0,
+        8,
+        20,
+        34,
+        138
+      ],
+      "support": "rational S-element"
+    },
+    {
+      "index": 36,
+      "id": "rational-3",
+      "rational": "1/81",
+      "quartic_power": [
+        "3",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_local": [
+        0,
+        0,
+        208,
+        60,
+        168
+      ],
+      "quotient": [
+        0,
+        0,
+        0,
+        49,
+        138
+      ],
+      "support": "rational S-element"
+    },
+    {
+      "index": 37,
+      "id": "rational-5",
+      "rational": "1/625",
+      "quartic_power": [
+        "5",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_local": [
+        0,
+        0,
+        432,
+        40,
+        188
+      ],
+      "quotient": [
+        0,
+        0,
+        0,
+        34,
+        141
+      ],
+      "support": "rational S-element"
+    },
+    {
+      "index": 38,
+      "id": "rational-11",
+      "rational": "1/14641",
+      "quartic_power": [
+        "11",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_local": [
+        0,
+        8,
+        208,
+        40,
+        0
+      ],
+      "quotient": [
+        0,
+        8,
+        0,
+        34,
+        0
+      ],
+      "support": "rational S-element"
+    }
+  ],
+  "kernel_memberships": [
+    {
+      "mask": 118,
+      "full_local": [
+        0,
+        5,
+        208,
+        7,
+        102
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 165,
+      "full_local": [
+        30,
+        5,
+        352,
+        7,
+        102
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 296,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 3109,
+      "full_local": [
+        30,
+        0,
+        324,
+        10,
+        117
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 5125,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 9225,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 17429,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 32788,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 65551,
+      "full_local": [
+        0,
+        5,
+        208,
+        7,
+        102
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 132102,
+      "full_local": [
+        0,
+        5,
+        208,
+        7,
+        102
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 263197,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 524316,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 1048576,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 2097164,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 4194348,
+      "full_local": [
+        30,
+        0,
+        324,
+        10,
+        117
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 8388617,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 16778761,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 33555489,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 67109932,
+      "full_local": [
+        30,
+        5,
+        352,
+        7,
+        102
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 134218815,
+      "full_local": [
+        0,
+        5,
+        208,
+        7,
+        102
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 268436521,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 536871961,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 1073742849,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 2147484685,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 4294968331,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 8589935624,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 17179870217,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 34359739393,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 68719477818,
+      "full_local": [
+        30,
+        0,
+        324,
+        10,
+        117
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 137438953494,
+      "full_local": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient": 0
+    },
+    {
+      "mask": 274877907977,
+      "full_local": [
+        30,
+        0,
+        432,
+        0,
+        0
+      ],
+      "quotient": 0
+    }
+  ],
+  "products": [
+    {
+      "mask": 118,
+      "rational": "1/37725225120000000000",
+      "quartic_power": [
+        "6922620",
+        "47779692/25",
+        "-31083516/625",
+        "-1877244/625"
+      ],
+      "norm": "37725225120000000000",
+      "full_local": 1713217696
+    },
+    {
+      "mask": 165,
+      "rational": "1/2405700000000000000",
+      "quartic_power": [
+        "95628",
+        "632124/25",
+        "-619884/625",
+        "-15756/625"
+      ],
+      "norm": "2405700000000000000",
+      "full_local": 1713291454
+    },
+    {
+      "mask": 296,
+      "rational": "1/272484000000",
+      "quartic_power": [
+        "-1128/5",
+        "-8632/125",
+        "11268/3125",
+        "112/3125"
+      ],
+      "norm": "272484000000",
+      "full_local": 0
+    },
+    {
+      "mask": 3109,
+      "rational": "1/524880000000000000",
+      "quartic_power": [
+        "90688",
+        "99088/5",
+        "-1403152/625",
+        "-33968/625"
+      ],
+      "norm": "524880000000000000",
+      "full_local": 1965721630
+    }
+  ],
+  "comparisons": [
+    {
+      "generator": 118,
+      "reference": 0,
+      "rational_ratio": "1/37725225120000000000",
+      "numerator_floor": 1,
+      "denominator_floor": 6142086381,
+      "full_difference": 1713217696,
+      "decision": "unequal"
+    },
+    {
+      "generator": 118,
+      "reference": 165,
+      "rational_ratio": "625/9801",
+      "numerator_floor": 25,
+      "denominator_floor": 99,
+      "full_difference": 221214,
+      "decision": "unequal"
+    },
+    {
+      "generator": 118,
+      "reference": 132102,
+      "rational_ratio": "1/1411344",
+      "numerator_floor": 1,
+      "denominator_floor": 1188,
+      "full_difference": 0,
+      "decision": "equal"
+    },
+    {
+      "generator": 165,
+      "reference": 0,
+      "rational_ratio": "1/2405700000000000000",
+      "numerator_floor": 1,
+      "denominator_floor": 1551031914,
+      "full_difference": 1713291454,
+      "decision": "unequal"
+    },
+    {
+      "generator": 165,
+      "reference": 165,
+      "rational_ratio": "1",
+      "numerator_floor": 1,
+      "denominator_floor": 1,
+      "full_difference": 0,
+      "decision": "equal"
+    },
+    {
+      "generator": 296,
+      "reference": 0,
+      "rational_ratio": "1/272484000000",
+      "numerator_floor": 1,
+      "denominator_floor": 522000,
+      "full_difference": 0,
+      "decision": "equal"
+    },
+    {
+      "generator": 3109,
+      "reference": 0,
+      "rational_ratio": "1/524880000000000000",
+      "numerator_floor": 1,
+      "denominator_floor": 724486024,
+      "full_difference": 1965721630,
+      "decision": "unequal"
+    },
+    {
+      "generator": 3109,
+      "reference": 165,
+      "rational_ratio": "55/12",
+      "numerator_floor": 7,
+      "denominator_floor": 3,
+      "full_difference": 322193568,
+      "decision": "unequal"
+    },
+    {
+      "generator": 3109,
+      "reference": 132102,
+      "rational_ratio": "11/216000",
+      "numerator_floor": 3,
+      "denominator_floor": 464,
+      "full_difference": 322382014,
+      "decision": "unequal"
+    },
+    {
+      "generator": 3109,
+      "reference": 132259,
+      "rational_ratio": "3403125/16",
+      "numerator_floor": 1844,
+      "denominator_floor": 4,
+      "full_difference": 1965680640,
+      "decision": "unequal"
+    }
+  ],
+  "max_rational_bits": 77,
+  "result": "L149 accepted within imported interfaces",
+  "bounds": {
+    "sources_actual": 39,
+    "sources_required": 39,
+    "kernel_actual": 31,
+    "kernel_required": 31,
+    "products_actual": 4,
+    "products_required": 4,
+    "comparisons_actual": 10,
+    "comparisons_required": 10,
+    "outside_comparisons_actual": 4,
+    "outside_comparisons_required": 4,
+    "comparisons_cap": 124,
+    "rational_bits_cap": 8192
+  },
+  "outside_mask": 3109,
+  "limitations": "No global generation, rational Kummer quotient, pairing or rank improvement."
+}

@@ -1,0 +1,132 @@
+114                                SHINICHI MOCHIZUKI
+
+
+
+                            ..                                              ..
+                             .                                               .
+                                                                           
+                            ⏐log                                            ⏐log
+                            ⏐                                               ⏐
+            Θ×μ
+             lgp                 ±ell             Θ×μ
+                                                   lgp                                ±ell        Θ×μ
+                                                                                                   lgp
+      ...   −→     n,m+1
+                           HT Θ         NF
+                                                  −→     n+1,m+1
+                                                                          HT Θ               NF
+                                                                                                  −→     ...
+                                                                         
+                            ⏐log                                          ⏐log
+                            ⏐                                             ⏐
+            Θ×μ                                   Θ×μ                                             Θ×μ
+             lgp             Θ±ell NF              lgp                              Θ±ell NF       lgp
+      ...   −→      n,m
+                          HT                      −→          n+1,m
+                                                                       HT                         −→     ...
+                                                                       
+                            ⏐log                                        ⏐log
+                            ⏐                                           ⏐
+                            ..                                                 ..
+                             .                                                  .
+— where the vertical arrows are the full log-links, and the horizontal arrow of the
+                                                     ±ell              ±ell
+ﬁrst (respectively, second) diagram from n,m HT Θ NF to n+1,m HT Θ NF is the
+                                                 ±ell               ±ell
+Θ×μ                     ×μ
+  LGP - (respectively, Θlgp -) link from
+                                         n,m
+                                             HT Θ NF to n+1,m HT Θ NF , relative
+                                   ±ell           log                ±ell
+to the full log-link n,m−1 HT Θ NF −→ n,m HT Θ NF [cf. (ii)] — as the [LGP-
+Gaussian] (respectively, [lgp-Gaussian]) log-theta-lattice. Thus, [cf. Deﬁnition
+1.4] either of these diagrams may be represented symbolically by an oriented graph
+                                    ..        ..
+                                     .         .
+                                            
+                                   ⏐         ⏐
+                                   ⏐         ⏐
+                           ...     −→        •     −→    •      −→ . . .
+                                                        
+                                             ⏐           ⏐
+                                             ⏐           ⏐
+                           ...     −→        •     −→    •      −→ . . .
+                                                        
+                                             ⏐           ⏐
+                                             ⏐           ⏐
+                                             ..          ..
+                                              .           .
+                                                              ±ell
+— where the “•’s” correspond to the “n,m HT Θ                        NF
+                                                                          ”.
+
+Remark 3.8.1. The LGP-Gaussian and lgp-Gaussian log-theta-lattices are, of
+course, closely related, but, in the theory to be developed below, we shall mainly be
+interested in the LGP-Gaussian log-theta-lattice [for reasons to be explained in
+Remark 3.10.1, (ii), below]. On the other hand, our computation of the Θ×μ    LGP -link
+                   ×μ
+will involve the Θlgp -link, as well as related Θ-pilot objects, in an essential way.
+Here, we note, for future reference, that both the Θ×μ                  ×μ
+                                                         LGP - and the Θlgp -link map
+Θ-pilot objects to q-pilot objects. Also, we observe that this terminology of “Θ-
+pilot/q-pilot objects” is consistent with the notion of a “pilot object” associated
+to a F ×μ -prime-strip, as deﬁned in [IUTchII], Deﬁnition 4.9, (viii).
+
+Remark 3.8.2. One veriﬁes immediately that the main results obtained so far
+concerning Gaussian log-theta-lattices — namely, Theorem 1.5, Proposition 2.1,
+                   INTER-UNIVERSAL TEICHMÜLLER THEORY III                             115
+
+Corollary 2.3 [cf. also Remark 2.3.2], and Proposition 3.5 — generalize immediately
+[indeed, “formally”] to the case of LGP- or lgp-Gaussian log-theta-lattices.
+Indeed, the substantive content of these results concerns portions of the log-theta-
+lattices involved that are substantively unaﬀected by the transition from “Gaussian”
+to “LGP- or lgp-Gaussian”.
+
+Remark 3.8.3. In the deﬁnition of the various horizontal arrows of the log-
+theta-lattices discussed in Deﬁnition 3.8, (iii), it may appear to the reader, at
+ﬁrst glance, that, instead of working with F ×μ -prime-strips, it might in fact
+be suﬃcient to replace the unit [i.e., F ×μ -prime-strip] portions of these prime-
+strips by the associated log-shells [cf. Proposition 1.2, (vi), (vii)], on which, at
+nonarchimedean v ∈ V, the associated local Galois groups act trivially. In fact,
+however, this is not the case. That is to say, the nontrivial Galois action on the local
+unit portions of the F ×μ -prime-strips involved is necessary in order to consider
+the Kummer theory [cf. Proposition 3.5, (i), (ii), as well as Proposition 3.10,
+(i), (iii); Theorem 3.11, (iii), (c), (d), below] of the various local and global objects
+for which the log-shells serve as “multiradial containers” [cf. the discussion of
+Remark 1.5.2]. Here, we recall that this Kummer theory plays a crucial role in the
+theory of the present series of papers in relating corresponding Frobenius-like and
+étale-like objects [cf. the discussion of Remark 1.5.4, (i)].
+
+Proposition 3.9.       (Log-volume for Packets and Processions)
+
+      (i) (Local Holomorphic Packets) In the situation of Proposition 3.2, (i),
+(ii): Suppose that V  v | vQ ∈ Vnon Q , α ∈ A. Then the pvQ -adic log-volume on
+each of the direct summand pvQ -adic ﬁelds of I Q (α FvQ ), I Q (A FvQ ), and I Q (A,α Fv )
+— cf. the direct sum decompositions of Proposition 3.1, (i), together with the
+discussion of normalized weights in Remark 3.1.1, (ii), (iii), (iv) — determines
+[cf. [AbsTopIII], Proposition 5.7, (i)] log-volumes
+
+                       Q α                                Q A
+             α,vQ : M(I ( FvQ )) → R;
+            μlog                               μlog
+                                                A,vQ : M(I ( FvQ )) → R
+
+                                         Q A,α
+                             μlog
+                              A,α,v : M(I (    Fv )) → R
+
+— where we write “M(−)” for the set of nonempty compact open subsets of
+“(−)” — such that the log-volume of each of the “local holomorphic” integral
+structures of Proposition 3.1, (ii) — i.e., the elements
+
+      Oα FvQ ⊆ I Q (α FvQ );     OA FvQ ⊆ I Q (A FvQ );    OA,α Fv ⊆ I Q (A,α Fv )
+
+of “M(−)” given by the integral structures discussed in Proposition 3.1, (ii), on each
+of the direct summand pvQ -adic ﬁelds — is equal to zero. Here, we assume that
+these log-volumes are normalized so that multiplication of an element of “M(−)”
+by pv corresponds to adding the quantity −log(pv ) ∈ R; we shall refer to this nor-
+malization as the packet-normalization. Suppose that V  v | vQ ∈ Varc       Q , α ∈ A.
+Then the sum of the radial log-volumes on each of the direct summand complex
+archimedean ﬁelds of I Q (α FvQ ), I Q (A FvQ ), and I Q (A,α Fv ) — cf. the direct sum
+decompositions of Proposition 3.1, (i), together with the discussion of normalized
+

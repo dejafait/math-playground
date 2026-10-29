@@ -1,0 +1,48 @@
+{
+  "completed": false,
+  "outcome": "unresolved_execution_failure",
+  "failures": [
+    {
+      "message": "'str' object has no attribute 'items'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/rational_branch_positive_search.py\", line 247, in <module>\n    main()\n    ~~~~^^\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/rational_branch_positive_search.py\", line 134, in main\n    bind_saved(c)\n    ~~~~~~~~~~^^^\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/rational_branch_positive_search.py\", line 68, in bind_saved\n    for name, h in c.get('helper_sha256', {}).items():\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'items'\n"
+    }
+  ],
+  "bindings": {
+    "shukla-good-conics-certificate.json": "8a3cc2051ef948d0c16832c9be692752f18d7e9df57ba0fc7c10834232afee70",
+    "shukla-good-conics-verification.json": "9764ddec0381b1a43d9f953094941992dce6a1f81ac808f1d5efc9f894a4eced",
+    "odd-membership-35-certificate.json": "60db6aa9958df7980a1f8914f79d6b228775a2fbcc5bd3575301cabc68887c07",
+    "surviving-witness-span-certificate.json": "6190fc8ebfb79e9a9f532c75c893cff4bebd27aa8ae27dac042cd18c758eb131",
+    "odd-membership-35-audit.json": "8f31ed7df01864a2c954b838ce68aa17ffabe45b48f0cb737d921332839ea12a",
+    "surviving-witness-span-audit.json": "af60be83e1766ab0ed05d4d1dc31a06c502de8abfacbb8dd69c0c4165291d80c",
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+    "odd-model-support-certificate.json": "22315e6ebcbaa4ff063206432a958935aeb01b07ea6652bcc51d851c45162193",
+    "two-adic-filter-certificate.json": "18a2ac2527d1a3cf2c1c8e78bd9ce8bdd4cdc98b38375419554600e73b11736e",
+    "odd_membership_35.py": "21269e752473f71e80a1a6c6827ddaf949932212d53ca32de703c410b1248072",
+    "quartic_parity_generate.py": "18d966696d1bf307b717771b544deb34d8b40dbc8048f1a58d4923010408d4cb",
+    "surviving_witness_span.py": "c51ba351250e0007e72a5631364d7508530541ad23245ca0d24840df4d878b33",
+    "branch_annihilator.py": "f8a30e9b800d924fc2843667ac8ad21eccf99451c3f57eaac68ffbafc7670d53",
+    "shukla-dyadic-conics-certificate.json": "5ed93422dcdf9861192e90be31e98d1858312476d464695d1379829a3715b98e",
+    "shukla-dyadic-conics-verification.json": "550a97ad65bc5a99c35bd31803c97026a47198355e1c2b897c67546fa8dcb9ef",
+    "two-adic-filter-audit.json": "538970ae98c36ac4ea42ebfe7551e7c3cbf836904bb7334b2a30a11e7c793958"
+  },
+  "checks": 30,
+  "mask": 132102,
+  "trials": [],
+  "accepted_point": null,
+  "bounds": {
+    "tuples_actual": 0,
+    "tuples_cap": 5000,
+    "zero_tuples": 0,
+    "v_actual": 0,
+    "sign_proposals_actual": 0,
+    "sign_proposals_cap": 80000,
+    "per_v_sign_cap": 16,
+    "precision": 200,
+    "root_refinements_actual": 0,
+    "root_refinements_cap_per_root": 450,
+    "denominator_cap": 1000000000000,
+    "rational_bits_actual": 0,
+    "rational_bits_cap": 8192
+  },
+  "source_sha256": "6e58e7a6a0351ab759eab7c69ac54f40417af584d6237f53adb47d5fadc4ff34"
+}

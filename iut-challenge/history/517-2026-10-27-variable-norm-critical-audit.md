@@ -1,0 +1,7 @@
+# 2026-10-27 — step517: variable normalized-norm critical audit
+
+Completed the exact invocation-start SPECIALIZE audit. [L125](../lemmas/L125-variable-degree-normalized-norm-on-algebraic-units.md) passes the full stated bare-group test, including all-prime/nonnormal hypotheses, unique quotient division and classwise equivariance. Its canonical proof now includes precise valuation/embedding citations and the critical replay. No mathematical defect was found and no new theorem beyond the known methods is claimed. This validates a local input, not native-pilot membership, finite B>=A or an essential IUT flaw.
+
+Outcome: ADVANCE as a completed critical validation of the previously unaudited input; classification REPRODUCTION. [The working record](../drafts/2026-10-27-step517-variable-norm-critical-audit.md) records the source replays and scope boundaries. DAG is unchanged. Existing work and stopped fixed-transversal evidence are preserved; no mathematical script, commit or shared-state edit was made.
+
+Next is one proposed finite-level unit-image test over an unramified cubic extension of Q_3. Its [assessment](../drafts/literature/2026-10-27-variable-norm-finite-level-unit-image.md) is REVIEW_REQUIRED: source identification and exact local norm coverage must precede any mathematical test. This changed scope could test eligibility for retaining indexed Kummer data; it is not a completed structured comparison. No justified creative central mechanism is yet available because the Kummer/determinant bridge remains unspecified.

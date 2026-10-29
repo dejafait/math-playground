@@ -1,0 +1,334 @@
+--- step-463/coordinator.py
++++ step-470/coordinator.py
+@@ -3,8 +3,8 @@
+ import ast,copy,difflib,hashlib,json,math,signal,subprocess,sys,textwrap,traceback
+ from pathlib import Path
+ sys.dont_write_bytecode=True
+-ROOT=Path.cwd(); BASE=ROOT/'scripts/four-rational-kernels'; OLD=BASE/'step-461'; OUT=BASE/'step-463'
+-INDICES=(35,36,37,38); LIMIT=134217728; RESERVE=131072
++ROOT=Path.cwd(); BASE=ROOT/'scripts/four-rational-kernels'; OLD=BASE/'step-468'; OUT=BASE/'step-470'
++INDICES=(39,40,41,42); LIMIT=134217728; RESERVE=131072
+ initial={}; sources={}; names={}; completed=[]; exits=[]; failure=None; current=None
+ capture_complete=False; phase='setup'
+ def alarm(*args): raise TimeoutError('aggregate_180_second_deadline')
+@@ -14,8 +14,8 @@
+ assert sys.orig_argv[-2]=='-c' and sys.flags.optimize==0
+ COORDINATOR=sys.orig_argv[-1]
+ (OUT/'coordinator.py').write_text(COORDINATOR)
+-steps=(417,419,422,424,429,431,433,435,437,440,442,446,449,451,453,455,457,459,461)
+-roots=[ROOT/'scripts/first-rational-kernel',ROOT/'scripts/second-rational-kernel',ROOT/'scripts/finite-derivative-coefficients']+[BASE/('step-'+str(i)) for i in (417,419,422,424,426,429,431,433,435,437,440,442,444,446,449,451,453,455,457,459,461)]+[BASE/'step-429-postmortem']
++steps=(417,419,422,424,429,431,433,435,437,440,442,446,449,451,453,455,457,459,461,463,468)
++roots=[ROOT/'scripts/first-rational-kernel',ROOT/'scripts/second-rational-kernel',ROOT/'scripts/finite-derivative-coefficients']+[BASE/('step-'+str(i)) for i in (417,419,422,424,426,429,431,433,435,437,440,442,444,446,449,451,453,455,457,459,461,463,468)]+[BASE/'step-429-postmortem',BASE/'step-465-postmortem',BASE/'step-468-prelaunch',BASE/'step-468-postcheck']
+ transition_paths=[
+ 'drafts/2026-10-23-four-kernel-document-transition.json',
+ 'drafts/2026-10-23-four-kernel-audit-document-transition.json',
+@@ -35,8 +35,17 @@
+ 'drafts/2026-10-24-l111-audit-document-transition.json',
+ 'drafts/2026-10-24-kernels-thirty-one-through-thirty-four-document-transition.json',
+ 'drafts/2026-10-24-l112-audit-document-transition.json',
+-'drafts/2026-10-24-kernels-thirty-five-through-thirty-eight-document-transition.json']
++'drafts/2026-10-24-kernels-thirty-five-through-thirty-eight-document-transition.json',
++'drafts/2026-10-24-l113-audit-document-transition.json',
++'drafts/2026-10-25-n39-42-parsed-document-transition.json']
+ selected=[
++'lemmas/L114-kernels-thirty-nine-through-forty-two-certificates.md',
++'drafts/literature/2026-10-25-kernels-thirty-nine-through-forty-two-audit.md',
++'drafts/source-notes/2026-10-25-l114-audit-coverage.md',
++'drafts/2026-10-25-l114-critical-audit.md',
++'scripts/four-rational-kernels/build-parsed-468.py',
++'scripts/four-rational-kernels/check-468-evidence.py',
++'ATTEMPTS/051-coordinator-if-elif-substring-stop.md',
+ 'lemmas/L113-kernels-thirty-five-through-thirty-eight-certificates.md',
+ 'drafts/literature/2026-10-24-kernels-thirty-five-through-thirty-eight-audit.md',
+ 'drafts/source-notes/2026-10-24-kernels-thirty-five-through-thirty-eight-audit-coverage.md',
+@@ -78,7 +87,7 @@
+ sources=inventory([OUT/'coordinator.py'])
+ try:
+     compile(COORDINATOR,str(OUT/'coordinator.py'),'exec',flags=0,dont_inherit=True,optimize=0)
+-    (OUT/'coordinator-source-diff.txt').write_text(''.join(difflib.unified_diff((BASE/'step-459/coordinator.py').read_text().splitlines(True),COORDINATOR.splitlines(True),fromfile='step-459/coordinator.py',tofile='step-463/coordinator.py')))
++    (OUT/'coordinator-source-diff.txt').write_text(''.join(difflib.unified_diff((BASE/'step-463/coordinator.py').read_text().splitlines(True),COORDINATOR.splitlines(True),fromfile='step-463/coordinator.py',tofile='step-470/coordinator.py')))
+     phase='initial_capture'
+     historical={i:json.loads((BASE/('step-'+str(i))/'initial-inventory.json').read_text()) for i in steps}
+     paths=[p for r in roots for p in r.rglob('*') if p.is_file()]+[ROOT/p for p in selected]+[ROOT/p for inv in historical.values() for p in inv]
+@@ -102,6 +111,12 @@
+                 assert boundary[rel]==expected,('historical_boundary',step,stop,rel)
+             result[str(step)]={'count':len(inv),'all_match':True,'exact_transitions':changed}
+         return result
++    for filename,digest in {
++'coordinator.py':'0495c365793872d8f5b300ccb38731fc5ab6372fbfa950f9ddaf87c5347bce50',
++'worker.py':'7e9fc2cc57fa1bc3375dfb66054456f67059e59dd72476e14f71274d4ea72c99',
++'installer.py':'63100c048975061d9128877f9b1d87db39f3bef6efa8772b470ff1b057458115',
++'preflight.py':'9a8d9ba1eefe8e3270e8eabedf24550691b2f1ac6e66337f05be13c75f389be1'}.items():
++        assert sha((BASE/'step-463'/filename).read_bytes())==digest
+     phase='historical_boundaries'
+     reconciliation=reconcile(len(steps))
+     boundaries={str(step):reconcile(pos) for pos,step in enumerate(steps) if step>=424}
+@@ -111,7 +126,7 @@
+         preserved=json.loads((BASE/('step-'+str(step))/'preservation.json').read_text())
+         assert preserved['all_match'] and preserved['files']==inv
+         assert preserved['count']==len(inv) and preserved['mismatches']==[]
+-        if step in (446,449,451,453,455,457,459,461):
++        if step in (446,449,451,453,455,457,459,461,463,468):
+             assert preserved['capture_complete'] and preserved['tree_sets_equal'] and preserved['fresh_sources_equal']
+         if step>=424:
+             actual=json.loads((BASE/('step-'+str(step))/'historical-reconciliation.json').read_text())
+@@ -128,12 +143,12 @@
+                 expected.update(historical_timing_qualifications='retained; no historical timer or exit claim repaired',postmortem_429_preserved_as_outside_historical_cap=True)
+             elif step==442:
+                 expected['original_step440_boundary']=boundaries['440']
+-            elif step in (446,449,451,453,455,457,459,461):
++            elif step in (446,449,451,453,455,457,459,461,463,468):
+                 expected.update(original_reports_at_original_boundaries=copy.deepcopy(original_reports),failed444_frozen_separately=True,postmortem_429_preserved_as_outside_historical_cap=True)
+             assert actual==expected,('whole_historical_report',step)
+             original_reports[str(step)]=actual
+-    for step in (417,419,422,424,431,433,435,437,440,442,446,449,451,453,455,457,459,461):
+-        f='source-hashes.json' if step in (417,424,431,435,440,449,453,457,461) else 'fresh-source-hashes.json'
++    for step in (417,419,422,424,431,433,435,437,440,442,446,449,451,453,455,457,459,461,463,468):
++        f='source-hashes.json' if step in (417,424,431,435,440,449,453,457,461,468) else 'fresh-source-hashes.json'
+         old=json.loads((BASE/('step-'+str(step))/f).read_text())
+         assert inventory([ROOT/p for p in old])==old,('whole_source_map',step)
+     failed=json.loads((BASE/'step-444/terminal-report.json').read_text())
+@@ -146,15 +161,117 @@
+     phase='whole_source_reconstruction'
+     original_coordinator=(OLD/'coordinator.py').read_text()
+     original_worker=(OLD/'worker.py').read_text()
+-    compile(original_coordinator,str(OLD/'coordinator.py'),'exec',flags=0,dont_inherit=True,optimize=0)
+-    assert (OLD/'coordinator-source-diff.txt').read_text()==''.join(difflib.unified_diff((BASE/'step-457/coordinator.py').read_text().splitlines(True),original_coordinator.splitlines(True),fromfile='step-457/coordinator.py',tofile='step-461/coordinator.py'))
+-    before_worker=(BASE/'step-457/worker.py').read_text(); rebuilt=before_worker
+-    worker_changes=[("assert INDEX in (31,32,33,34)","assert INDEX in (35,36,37,38)"),("'kernel_457_'","'kernel_461_'")]
++    prelaunch=BASE/'step-468-prelaunch'
++    raw=(BASE/'step-461/coordinator.py').read_bytes()
++    assert sha(raw)=='ed7b021281df11e29bdab0b640fdc8feb62e1f7e916761915569a05cb436891c'
++    old_text=raw.decode('utf-8'); assert old_text.encode('utf-8')==raw
++    def nodes_at(node,path='Module'):
++        yield path,node
++        for field,value in ast.iter_fields(node):
++            if isinstance(value,ast.AST): yield from nodes_at(value,path+'.'+field)
++            elif isinstance(value,list):
++                for i,child in enumerate(value):
++                    if isinstance(child,ast.AST): yield from nodes_at(child,path+'.'+field+'['+str(i)+']')
++    old_nodes=dict(nodes_at(ast.parse(old_text)))
++    offsets=[0]
++    for line in raw.splitlines(keepends=True): offsets.append(offsets[-1]+len(line))
++    def span(node):
++        return offsets[node.lineno-1]+node.col_offset,offsets[node.end_lineno-1]+node.end_col_offset
++    def old_value(path): return ast.literal_eval(old_nodes[path])
++    spec=[]
++    def declare(path,role,new):
++        node=old_nodes[path]; a,b=span(node)
++        owners=[(p,n) for p,n in old_nodes.items() if isinstance(n,ast.stmt) and (path==p or path.startswith(p+'.') or path.startswith(p+'['))]
++        op,owner=max(owners,key=lambda pn:len(pn[0]))
++        c,d=span(owner); assert c<=a<b<=d
++        spec.append({'role':role,'path':path,'start':a,'end':b,'old':raw[a:b].decode(),'new':new,'owner_start':c,'owner_end':d,'complete_original_owner':raw[c:d].decode()})
++    declare('Module.body[7].value.right','exclusive_destination',repr('step-468'))
++    assert old_value('Module.body[8].value')==(35,36,37,38)
++    declare('Module.body[8].value','indices','(39,40,41,42)')
++    assert old_value('Module.body[27].value')==steps[:-3]
++    declare('Module.body[27].value','historical_steps',repr(steps[:-1]))
++    old_root=ast.get_source_segment(old_text,old_nodes['Module.body[28].value'])
++    old_roots_tuple='(417,419,422,424,426,429,431,433,435,437,440,442,444,446,449,451,453,455,457,459)'
++    new_root=exact_replace(old_root,old_roots_tuple,old_roots_tuple[:-1]+',461,463)')+"+[BASE/'step-465-postmortem']"
++    declare('Module.body[28].value','frozen_roots',new_root)
++    assert old_value('Module.body[29].value')==transition_paths[:-3]
++    declare('Module.body[29].value','twenty_transition_suffixes',repr(transition_paths[:-1]))
++    old_selected=old_value('Module.body[30].value.left')
++    assert old_selected[0]=='lemmas/L112-kernels-thirty-one-through-thirty-four-certificates.md'
++    additions=[
++'drafts/literature/2026-10-24-kernels-thirty-nine-through-forty-two.md',
++'drafts/source-notes/2026-10-24-kernels-thirty-nine-through-forty-two-coverage.md',
++'drafts/2026-10-24-n39-42-source-metadata.json',
++'drafts/literature/2026-10-25-kernels-thirty-nine-through-forty-two-parsed-adapter.md',
++'drafts/source-notes/2026-10-25-parsed-coordinator-interface-review.md',
++'drafts/2026-10-25-kernels-thirty-nine-through-forty-two-attempt.md',
++'ATTEMPTS/051-coordinator-if-elif-substring-stop.md',
++'history/465-2026-10-25-n39-42-adapter-stop.md',
++'history/466-2026-10-25-parsed-adapter-interface-review.md',
++'history/467-2026-10-25-direct-source-field-recovery.md',
++'drafts/2026-10-25-n39-42-parsed-attempt.md',
++'scripts/four-rational-kernels/build-parsed-468.py',
++'scripts/four-rational-kernels/step-468-prelaunch/edit-map.json',
++'scripts/four-rational-kernels/step-468-prelaunch/coordinator-source-diff.txt',
++'scripts/four-rational-kernels/step-468-prelaunch/verification.json',
++'scripts/four-rational-kernels/step-468-prelaunch/coordinator.py',
++'scripts/four-rational-kernels/step-468-prelaunch/worker-expected.py']
++    new_selected=['lemmas/L113-kernels-thirty-five-through-thirty-eight-certificates.md']+old_selected[1:]+additions
++    assert len(new_selected)==len(set(new_selected))
++    declare('Module.body[30].value.left','selected_inputs',repr(new_selected))
++    prefix='Module.body[40].body'
++    direct=prefix+'[15].body[4].test'
++    dispatch=prefix+'[15].body[5].body[3].orelse[0].orelse[0].orelse[0].orelse[0].test'
++    for path,role in [(direct,'preservation_branch'),(dispatch,'original_report_dispatch_tail')]:
++        assert ast.get_source_segment(old_text,old_nodes[path])=='step in (446,449,451,453,455,457,459)'
++        declare(path,role,'step in (446,449,451,453,455,457,459,461,463)')
++    source_steps=old_value(prefix+'[16].iter')
++    assert source_steps==(417,419,422,424,431,433,435,437,440,442,446,449,451,453,455,457,459)
++    declare(prefix+'[16].iter','source_map_steps',repr(source_steps+(461,463)))
++    declare(prefix+'[16].body[0].value.test','whole_source_map_dispatch','step in (417,424,431,435,440,449,453,457,461)')
++    for path,role,new in [
++('[25].value.args[0].args[0].args[0].func.value.func.value.right','coordinator_diff_predecessor',repr('step-461/coordinator.py')),
++('[25].value.args[0].args[0].keywords[0].value','coordinator_diff_predecessor',repr('step-461/coordinator.py')),
++('[25].value.args[0].args[0].keywords[1].value','coordinator_diff_destination',repr('step-468/coordinator.py')),
++('[26].value.args[1].values[0]','manifest_step',repr('BSD-2026-10-25-468-kernels-thirty-nine-through-forty-two-parsed')),
++('[27].value.func.value.right','worker_predecessor',repr('step-461/worker.py')),
++('[29].value','two_whole_worker_substitutions',repr([('assert INDEX in (35,36,37,38)','assert INDEX in (39,40,41,42)'),("'kernel_461_'","'kernel_468_'")])),
++('[34].value.args[0].args[0].keywords[0].value','worker_diff_predecessor',repr('step-461/worker.py')),
++('[34].value.args[0].args[0].keywords[1].value','worker_diff_destination',repr('step-468/worker.py')),
++('[44].body[6].value.value.elt.elts[1].args[1]','arithmetic_replacement_destination_only',repr('step-468'))]:
++        declare(prefix+path,role,new)
++    spec.sort(key=lambda e:e['start']); assert len(spec)==19
++    for a,b in zip(spec,spec[1:]): assert a['end']<=b['start']
++    rebuilt_bytes=raw
++    for e in reversed(spec):
++        assert rebuilt_bytes[e['start']:e['end']]==e['old'].encode()
++        rebuilt_bytes=rebuilt_bytes[:e['start']]+e['new'].encode()+rebuilt_bytes[e['end']:]
++    untouched=[]; oc=nc=0
++    for e in spec:
++        length=e['start']-oc
++        assert raw[oc:e['start']]==rebuilt_bytes[nc:nc+length]
++        untouched.append({'old_start':oc,'old_end':e['start'],'new_start':nc,'new_end':nc+length,'sha256':sha(raw[oc:e['start']])})
++        oc=e['end']; nc+=length+len(e['new'].encode())
++    assert raw[oc:]==rebuilt_bytes[nc:]
++    untouched.append({'old_start':oc,'old_end':len(raw),'new_start':nc,'new_end':len(rebuilt_bytes),'sha256':sha(raw[oc:])})
++    assert json.loads((prelaunch/'edit-map.json').read_text())=={'old_sha256':sha(raw),'new_sha256':sha(rebuilt_bytes),'edits':spec,'untouched_intervals':untouched}
++    assert rebuilt_bytes==(OLD/'coordinator.py').read_bytes()==(prelaunch/'coordinator.py').read_bytes()
++    new_nodes=dict(nodes_at(ast.parse(original_coordinator)))
++    for e in spec: assert ast.get_source_segment(original_coordinator,new_nodes[e['path']])==e['new']
++    expected_diff=''.join(difflib.unified_diff(old_text.splitlines(True),original_coordinator.splitlines(True),fromfile='step-461/coordinator.py',tofile='step-468/coordinator.py'))
++    assert (OLD/'coordinator-source-diff.txt').read_text()==(prelaunch/'coordinator-source-diff.txt').read_text()==expected_diff
++    worker_raw=(BASE/'step-461/worker.py').read_bytes()
++    assert sha(worker_raw)=='628f7f9dbb42289e16d906b90e0f1f11b1b21d08be58273e34f8e6d8739c6e56'
++    before_worker=worker_raw.decode(); rebuilt=before_worker
++    worker_changes=[("assert INDEX in (35,36,37,38)","assert INDEX in (39,40,41,42)"),("'kernel_461_'","'kernel_468_'")]
+     for a,b in worker_changes: rebuilt=exact_replace(rebuilt,a,b)
+-    assert rebuilt==original_worker
+-    compile(rebuilt,str(OLD/'worker.py'),'exec',flags=0,dont_inherit=True,optimize=0)
++    assert rebuilt==original_worker==(prelaunch/'worker-expected.py').read_text()
++    for source,label in [(old_text,'original-461'),(original_coordinator,'actual-468'),(before_worker,'worker-461'),(rebuilt,'worker-468')]:
++        compile(source,label,'exec',flags=0,dont_inherit=True,optimize=0)
+     assert read('worker-source-review.json')=={'changes':[{'old':a,'new':b} for a,b in worker_changes],'compile_only_before_import':True}
+-    assert (OLD/'worker-source-diff.txt').read_text()==''.join(difflib.unified_diff(before_worker.splitlines(True),rebuilt.splitlines(True),fromfile='step-457/worker.py',tofile='step-461/worker.py'))
++    assert (OLD/'worker-source-diff.txt').read_text()==''.join(difflib.unified_diff(before_worker.splitlines(True),rebuilt.splitlines(True),fromfile='step-461/worker.py',tofile='step-468/worker.py'))
++    assert json.loads((prelaunch/'verification.json').read_text())=={'status':'PASS','unique_structural_roles':True,'complete_old_bytes_pinned':True,'disjoint_spans':True,'untouched_intervals_equal':True,'all_new_structural_values_equal':True,'compile_optimize':0,'coordinator_sha256':sha(rebuilt_bytes),'worker_sha256':sha(rebuilt.encode()),'edits':19,'suffixes':20,'execution_started':False,'prelaunch_outside_unstarted_cap':True}
++    save('parsed-reconstruction.json',{'status':'PASS','old_sha256':sha(raw),'new_sha256':sha(rebuilt_bytes),'edits':spec,'untouched_intervals':untouched,'prelaunch_and_actual_equal':True,'whole_verification_equal':True,'worker_equal':True})
+     parent417=literal_assignment((BASE/'step-417/bootstrap.py').read_text(),'PARENT')
+     nodes=[x for x in ast.walk(ast.parse(parent417)) if isinstance(x,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='replacements' for t in x.targets)]
+     assert len(nodes)==1
+@@ -167,11 +284,12 @@
+     for index in INDICES:
+         fixed=OLD/('n-'+str(index))
+         repl=eval(expression,{'__builtins__':{},'str':str},{'n':index})
+-        repl={k:[(a,b.replace('step-417','step-461')) for a,b in pairs] for k,pairs in repl.items()}
++        repl={k:[(a,b.replace('step-417','step-468')) for a,b in pairs] for k,pairs in repl.items()}
+         assert set(repl)=={'producer.py','replay.py'}
+         diffs=[]
+         for name,pairs in repl.items():
+             before=(ROOT/'scripts/second-rational-kernel/step-412'/name).read_text(); after=before
++            compile(before,'whole-step412-'+name,'exec',flags=0,dont_inherit=True,optimize=0)
+             for a,b in pairs: after=exact_replace(after,a,b)
+             assert after==(fixed/name).read_text()
+             compile(after,str(fixed/name),'exec',flags=0,dont_inherit=True,optimize=0)
+@@ -179,7 +297,7 @@
+         review={'n':index,'unique_exact_changes':{k:[{'old':a,'new':b} for a,b in pairs] for k,pairs in repl.items()},'both_scalar_and_beta_arguments_bound':True,'pre_clip_conditions_bound':True,'midpoint_not_scaled':True,'all_independent_arithmetic_and_full_loops_unchanged':True,'compile_optimize':0}
+         assert json.loads((fixed/'source-review.json').read_text())==review
+         assert (fixed/'source-diff.txt').read_text()==''.join(diffs)
+-        identity=[index,str(fixed.resolve()),'kernel_461_'+str(index),sha((fixed/'producer.py').read_bytes()),sha((fixed/'replay.py').read_bytes())]
++        identity=[index,str(fixed.resolve()),'kernel_468_'+str(index),sha((fixed/'producer.py').read_bytes()),sha((fixed/'replay.py').read_bytes())]
+         for name in ('identity-before.json','identity-after-production.json','identity-after-replay.json'):
+             assert json.loads((fixed/name).read_text())=={'identity':identity}
+         reviews.append({'source_review':review,'all_three_original_identities':identity})
+@@ -188,12 +306,12 @@
+     assert inventory([ROOT/p for p in source_map])==source_map
+     phase='older_report_contracts'
+     manifest=read('manifest.json')
+-    expected_manifest={'step':'BSD-2026-10-24-461-kernels-thirty-five-through-thirty-eight','indices':list(INDICES),'optimize':0,'required_seconds':180,'work_deadline_seconds':174,'required_new_bytes':LIMIT,'report_and_diagnostic_reserve':RESERVE,'panels_per_kernel':1016,'pairs_per_pass':21264880,'factor_slots':[129,65,65],'product_slots':[193,257],'scalar_terms':128,'scalar_squares':16,'grid_fractional_bits':256,'analytic_enlargement_grid':2**72,'strict_radius_powers':[183,50],'midpoint':'unchanged complete L103 record','source_generation_in_cap':True,'isolated_modules_per_child':True,'old_entrypoints_executed':False,'no_retry_or_resumption':True,'extra_signed_control_block_reused':False,'L106_values_used':False,'direct_argument_retained_whole':True,'self_slicing':False}
++    expected_manifest={'step':'BSD-2026-10-25-468-kernels-thirty-nine-through-forty-two-parsed','indices':list(INDICES),'optimize':0,'required_seconds':180,'work_deadline_seconds':174,'required_new_bytes':LIMIT,'report_and_diagnostic_reserve':RESERVE,'panels_per_kernel':1016,'pairs_per_pass':21264880,'factor_slots':[129,65,65],'product_slots':[193,257],'scalar_terms':128,'scalar_squares':16,'grid_fractional_bits':256,'analytic_enlargement_grid':2**72,'strict_radius_powers':[183,50],'midpoint':'unchanged complete L103 record','source_generation_in_cap':True,'isolated_modules_per_child':True,'old_entrypoints_executed':False,'no_retry_or_resumption':True,'extra_signed_control_block_reused':False,'L106_values_used':False,'direct_argument_retained_whole':True,'self_slicing':False}
+     assert {k:v for k,v in manifest.items() if k!='python'}==expected_manifest
+     assert manifest['python'].startswith('3.15.0')
+     term=read('terminal-report.json'); fin=read('finalization.json'); he=read('observed-child-exits.json'); hc=read('completed-kernels.json')
+     assert set(term)=={'status','completed_indices','failure','child_exits','preserved_inputs','capture_complete','preservation','elapsed_before_terminal_seconds','inclusive_seconds','inclusive_new_bytes','required_seconds','required_new_bytes','terminal_timer_retained','path'}
+-    assert term=={**term,'status':'PASS','completed_indices':list(INDICES),'failure':None,'child_exits':he,'preserved_inputs':1391,'capture_complete':True,'preservation':True,'inclusive_seconds':119,'inclusive_new_bytes':12393323,'required_seconds':180,'required_new_bytes':LIMIT,'terminal_timer_retained':True,'path':str((OLD/'terminal-report.json').relative_to(ROOT))}
++    assert term=={**term,'status':'PASS','completed_indices':list(INDICES),'failure':None,'child_exits':he,'preserved_inputs':1567,'capture_complete':True,'preservation':True,'inclusive_seconds':114,'inclusive_new_bytes':31844254,'required_seconds':180,'required_new_bytes':LIMIT,'terminal_timer_retained':True,'path':str((OLD/'terminal-report.json').relative_to(ROOT))}
+     prev=0
+     for index,ex,st in zip(INDICES,he,hc,strict=True):
+         assert set(ex)=={'n','returncode','start_seconds','observed_exit_seconds'}
+@@ -209,39 +327,39 @@
+         assert json.loads((fixed/'child-stdout.txt').read_text())=={'n':index,'status':'PASS','radius':st['radius']}
+         assert (fixed/'child-stderr.txt').read_bytes()==b''
+     before_bytes=sum(p.stat().st_size for p in OLD.rglob('*') if p.is_file() and p.name not in ('terminal-report.json','finalization.json'))
+-    assert before_bytes+131072==term['inclusive_new_bytes']==12393323
+-    assert math.ceil(term['elapsed_before_terminal_seconds'])+3==119
+-    assert fin=={'elapsed_after_terminal_seconds':fin['elapsed_after_terminal_seconds'],'new_bytes_after_terminal':before_bytes+(OLD/'terminal-report.json').stat().st_size,'inclusive_seconds':119,'inclusive_new_bytes':12393323,'all_children_observed_before_terminal':True,'preservation_rechecked_after_terminal':True,'capture_complete':True,'parent_exit_time_not_claimed':True,'terminal_timer_retained':True}
+-    assert term['elapsed_before_terminal_seconds']<fin['elapsed_after_terminal_seconds']<119
+-    assert sum(p.stat().st_size for p in OLD.rglob('*') if p.is_file())+8192<=12393323
++    assert before_bytes+131072==term['inclusive_new_bytes']==31844254
++    assert math.ceil(term['elapsed_before_terminal_seconds'])+3==114
++    assert fin=={'elapsed_after_terminal_seconds':fin['elapsed_after_terminal_seconds'],'new_bytes_after_terminal':before_bytes+(OLD/'terminal-report.json').stat().st_size,'inclusive_seconds':114,'inclusive_new_bytes':31844254,'all_children_observed_before_terminal':True,'preservation_rechecked_after_terminal':True,'capture_complete':True,'parent_exit_time_not_claimed':True,'terminal_timer_retained':True}
++    assert term['elapsed_before_terminal_seconds']<fin['elapsed_after_terminal_seconds']<114
++    assert sum(p.stat().st_size for p in OLD.rglob('*') if p.is_file())+8192<=31844254
+     save('full-historical-review.json',{'manifest':manifest,'source_reviews':reviews,'whole_direct_coordinator_compiled_and_hashed':True,'whole_production_worker_reconstructed':True,'fresh_compile_optimize':0,'terminal':term,'finalization':fin,'observed_exits':he,'completed':hc,'before_terminal_bytes':before_bytes,'qualification':'Historical exact parent-exit timestamp and all earlier timing qualifications remain unverified; fresh audit does not repair them.'})
+-    assert read('preservation.json')=={'count':1391,'files':historical[461],'mismatches':[],'capture_complete':True,'all_match':True,'tree_sets_equal':True,'fresh_sources_equal':True}
++    assert read('preservation.json')=={'count':1567,'files':historical[468],'mismatches':[],'capture_complete':True,'all_match':True,'tree_sets_equal':True,'fresh_sources_equal':True}
+     phase='lexical_adapter'
+-    INSTALLER=(BASE/'step-459/installer.py').read_text()
++    INSTALLER=(BASE/'step-463/installer.py').read_text()
+     assert INSTALLER==(BASE/'step-437/installer.py').read_text()==(BASE/'step-433/installer.py').read_text()==(BASE/'step-422/installer.py').read_text()
+     adaptations=[]
+     class Sites(ast.NodeTransformer):
+         def __init__(self,fn): self.fn=fn; self.changes=[]
+         def visit_Constant(self,node):
+-            values={'scripts/four-rational-kernels/step-457':'scripts/four-rational-kernels/step-461','fixed_replay_459_':'fixed_replay_463_'}
++            values={'scripts/four-rational-kernels/step-461':'scripts/four-rational-kernels/step-468','fixed_replay_463_':'fixed_replay_470_'}
+             if isinstance(node.value,str) and node.value in values:
+                 self.changes.append([self.fn,node.value,values[node.value]])
+                 return ast.copy_location(ast.Constant(values[node.value]),node)
+             return node
+         def visit_Tuple(self,node):
+-            if len(node.elts)==4 and all(isinstance(x,ast.Constant) for x in node.elts) and [x.value for x in node.elts]==[31,32,33,34]:
+-                self.changes.append([self.fn,[31,32,33,34],list(INDICES)])
++            if len(node.elts)==4 and all(isinstance(x,ast.Constant) for x in node.elts) and [x.value for x in node.elts]==[35,36,37,38]:
++                self.changes.append([self.fn,[35,36,37,38],list(INDICES)])
+                 return ast.copy_location(ast.Tuple(elts=[ast.Constant(x) for x in INDICES],ctx=ast.Load()),node)
+             return self.generic_visit(node)
+     def adapt(name):
+-        before=(BASE/'step-459'/name).read_text()
+-        compile(before,str(BASE/'step-459'/name),'exec',flags=0,dont_inherit=True,optimize=0)
++        before=(BASE/'step-463'/name).read_text()
++        compile(before,str(BASE/'step-463'/name),'exec',flags=0,dont_inherit=True,optimize=0)
+         tree=ast.parse(before); changes=[]
+         for node in tree.body:
+             if isinstance(node,ast.FunctionDef) and node.name in ('identity_for','check_identity','preflight'):
+                 visitor=Sites(node.name); visitor.visit(node); changes+=visitor.changes
+-        expected=[['identity_for','scripts/four-rational-kernels/step-457','scripts/four-rational-kernels/step-461'],['identity_for','fixed_replay_459_','fixed_replay_463_'],['check_identity',[31,32,33,34],list(INDICES)]]
+-        if name=='preflight.py': expected+=[['preflight',[31,32,33,34],list(INDICES)]]
++        expected=[['identity_for','scripts/four-rational-kernels/step-461','scripts/four-rational-kernels/step-468'],['identity_for','fixed_replay_463_','fixed_replay_470_'],['check_identity',[35,36,37,38],list(INDICES)]]
++        if name=='preflight.py': expected+=[['preflight',[35,36,37,38],list(INDICES)]]
+         assert changes==expected,(name,changes)
+         after=ast.unparse(ast.fix_missing_locations(tree))+'\n'
+         assert ast.dump(ast.parse(after),include_attributes=False)==ast.dump(tree,include_attributes=False)
+@@ -252,10 +370,10 @@
+         compile(source,str(OUT/filename),'exec',flags=0,dont_inherit=True,optimize=0)
+         (OUT/filename).write_text(source)
+         sources.update(inventory([OUT/filename]))
+-    assert (OUT/'installer.py').read_bytes()==(BASE/'step-459/installer.py').read_bytes()
++    assert (OUT/'installer.py').read_bytes()==(BASE/'step-463/installer.py').read_bytes()
+     save('adapter-review.json',{'status':'PASS','changes':adaptations,'compile':'flags=0,dont_inherit=True,optimize=0','sentinel_and_installer_label_retained':True})
+     for filename,before,after in [('worker',worker_before,WORKER),('preflight',preflight_before,PREFLIGHT)]:
+-        (OUT/(filename+'-diff.txt')).write_text(''.join(difflib.unified_diff(before.splitlines(True),after.splitlines(True),fromfile='step-459/'+filename+'.py',tofile='step-463/'+filename+'.py')))
++        (OUT/(filename+'-diff.txt')).write_text(''.join(difflib.unified_diff(before.splitlines(True),after.splitlines(True),fromfile='step-463/'+filename+'.py',tofile='step-470/'+filename+'.py')))
+     retained=(BASE/'step-419/signed-checks.py').read_text()
+     comparison=(ROOT/'scripts/second-rational-kernel/step-415/audit-body.py').read_text()
+     left='    old_floor,old_ceil=replay.floor_checked,replay.ceil_checked\n'; right="    parameter=read('parameter.json')\n"
+@@ -290,11 +408,11 @@
+     save('identity-preflight.json',{'status':'PASS','indices':INDICES,'results':preflight,'all_before_any_kernel':True,'elapsed_seconds':time.monotonic()-START})
+     endpoints={}
+     for line in (ROOT/selected[0]).read_text().splitlines():
+-        if line.startswith('| ') and line.split('|')[1].strip() in ('35','36','37','38'):
++        if line.startswith('| ') and line.split('|')[1].strip() in ('39','40','41','42'):
+             values=[int(v.strip()) for v in line.split('|')[1:-1]]
+             endpoints[str(values[0])]=values[1:]
+     assert set(endpoints)==set(map(str,INDICES)) and all(len(x)==3 for x in endpoints.values())
+-    assert [endpoints[str(i)][2] for i in INDICES]==[1020,1020,1017,1017]
++    assert [endpoints[str(i)][2] for i in INDICES]==[1018,1017,1019,1017]
+     save('expected-endpoints.json',endpoints)
+     sources.update(inventory([OUT/'expected-endpoints.json']))
+     save('fresh-source-hashes.json',sources)

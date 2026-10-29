@@ -1,0 +1,915 @@
+{
+  "input": "scripts/batched-incidence/output-556/two-local-source-certificate.json",
+  "cases": [
+    {
+      "N": 4,
+      "graphs": {
+        "A": {
+          "vertices_checked": 12,
+          "occurrences_checked": 15,
+          "all_closure_rows_equal": true,
+          "all_transition_rows_equal": true,
+          "all_residuals_and_boundaries_equal": true
+        },
+        "V": {
+          "vertices_checked": 10,
+          "occurrences_checked": 10,
+          "all_closure_rows_equal": true,
+          "all_transition_rows_equal": true,
+          "all_residuals_and_boundaries_equal": true
+        },
+        "B": {
+          "vertices_checked": 12,
+          "occurrences_checked": 15,
+          "all_closure_rows_equal": true,
+          "all_transition_rows_equal": true,
+          "all_residuals_and_boundaries_equal": true
+        }
+      },
+      "local_tests": [
+        {
+          "pair": "AV",
+          "N": 4,
+          "coordinate_subsets_examined_by_weight": [
+            1,
+            22,
+            231,
+            1540,
+            7315,
+            26334,
+            74613
+          ],
+          "coordinate_subsets_examined": 110056,
+          "coordinate_subsets_required": 110056,
+          "all_complete_low_weight_lists_equal": true,
+          "counts": [
+            1,
+            4,
+            11,
+            26,
+            53,
+            104,
+            201
+          ],
+          "ranks": [
+            0,
+            4,
+            9,
+            10,
+            12,
+            12,
+            13
+          ],
+          "initial_in_span": true,
+          "span_invariant": true,
+          "krylov_in_span": true
+        },
+        {
+          "pair": "VB",
+          "N": 4,
+          "coordinate_subsets_examined_by_weight": [
+            1,
+            22,
+            231,
+            1540,
+            7315,
+            26334,
+            74613
+          ],
+          "coordinate_subsets_examined": 110056,
+          "coordinate_subsets_required": 110056,
+          "all_complete_low_weight_lists_equal": true,
+          "counts": [
+            1,
+            4,
+            12,
+            32,
+            71,
+            144,
+            264
+          ],
+          "ranks": [
+            0,
+            4,
+            10,
+            12,
+            13,
+            13,
+            13
+          ],
+          "initial_in_span": true,
+          "span_invariant": true,
+          "krylov_in_span": true
+        }
+      ],
+      "parameter_test": {
+        "N": 4,
+        "examined": 8,
+        "required": 8,
+        "all_parameter_values_equal": true,
+        "minimum_weight_lower_bound": 6,
+        "every_support_product_comparison": [
+          {
+            "r_bits": 8,
+            "actual_support_product": 4,
+            "required_support_product": 4
+          },
+          {
+            "r_bits": 9,
+            "actual_support_product": 6,
+            "required_support_product": 4
+          },
+          {
+            "r_bits": 10,
+            "actual_support_product": 4,
+            "required_support_product": 4
+          },
+          {
+            "r_bits": 11,
+            "actual_support_product": 9,
+            "required_support_product": 4
+          },
+          {
+            "r_bits": 12,
+            "actual_support_product": 4,
+            "required_support_product": 4
+          },
+          {
+            "r_bits": 13,
+            "actual_support_product": 9,
+            "required_support_product": 4
+          },
+          {
+            "r_bits": 14,
+            "actual_support_product": 6,
+            "required_support_product": 4
+          },
+          {
+            "r_bits": 15,
+            "actual_support_product": 4,
+            "required_support_product": 4
+          }
+        ]
+      }
+    },
+    {
+      "N": 8,
+      "graphs": {
+        "A": {
+          "vertices_checked": 20,
+          "occurrences_checked": 27,
+          "all_closure_rows_equal": true,
+          "all_transition_rows_equal": true,
+          "all_residuals_and_boundaries_equal": true
+        },
+        "V": {
+          "vertices_checked": 18,
+          "occurrences_checked": 18,
+          "all_closure_rows_equal": true,
+          "all_transition_rows_equal": true,
+          "all_residuals_and_boundaries_equal": true
+        },
+        "B": {
+          "vertices_checked": 20,
+          "occurrences_checked": 27,
+          "all_closure_rows_equal": true,
+          "all_transition_rows_equal": true,
+          "all_residuals_and_boundaries_equal": true
+        }
+      },
+      "local_tests": [
+        {
+          "pair": "AV",
+          "N": 8,
+          "coordinate_subsets_examined_by_weight": [
+            1,
+            38,
+            703,
+            8436,
+            73815,
+            501942,
+            2760681
+          ],
+          "coordinate_subsets_examined": 3345616,
+          "coordinate_subsets_required": 3345616,
+          "all_complete_low_weight_lists_equal": true,
+          "counts": [
+            1,
+            4,
+            15,
+            42,
+            105,
+            244,
+            555
+          ],
+          "ranks": [
+            0,
+            4,
+            13,
+            14,
+            17,
+            17,
+            20
+          ],
+          "initial_in_span": false,
+          "span_invariant": true,
+          "krylov_in_span": false
+        },
+        {
+          "pair": "VB",
+          "N": 8,
+          "coordinate_subsets_examined_by_weight": [
+            1,
+            38,
+            703,
+            8436,
+            73815,
+            501942,
+            2760681
+          ],
+          "coordinate_subsets_examined": 3345616,
+          "coordinate_subsets_required": 3345616,
+          "all_complete_low_weight_lists_equal": true,
+          "counts": [
+            1,
+            4,
+            16,
+            50,
+            139,
+            358,
+            850
+          ],
+          "ranks": [
+            0,
+            4,
+            14,
+            17,
+            20,
+            20,
+            21
+          ],
+          "initial_in_span": true,
+          "span_invariant": true,
+          "krylov_in_span": true
+        }
+      ],
+      "parameter_test": {
+        "N": 8,
+        "examined": 128,
+        "required": 128,
+        "all_parameter_values_equal": true,
+        "minimum_weight_lower_bound": 8,
+        "every_support_product_comparison": [
+          {
+            "r_bits": 128,
+            "actual_support_product": 8,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 129,
+            "actual_support_product": 14,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 130,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 131,
+            "actual_support_product": 21,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 132,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 133,
+            "actual_support_product": 21,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 134,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 135,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 136,
+            "actual_support_product": 8,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 137,
+            "actual_support_product": 15,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 138,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 139,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 140,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 141,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 142,
+            "actual_support_product": 24,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 143,
+            "actual_support_product": 35,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 144,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 145,
+            "actual_support_product": 21,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 146,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 147,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 148,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 149,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 150,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 151,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 152,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 153,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 154,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 155,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 156,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 157,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 158,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 159,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 160,
+            "actual_support_product": 8,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 161,
+            "actual_support_product": 15,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 162,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 163,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 164,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 165,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 166,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 167,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 168,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 169,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 170,
+            "actual_support_product": 8,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 171,
+            "actual_support_product": 15,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 172,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 173,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 174,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 175,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 176,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 177,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 178,
+            "actual_support_product": 24,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 179,
+            "actual_support_product": 35,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 180,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 181,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 182,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 183,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 184,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 185,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 186,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 187,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 188,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 189,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 190,
+            "actual_support_product": 24,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 191,
+            "actual_support_product": 35,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 192,
+            "actual_support_product": 8,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 193,
+            "actual_support_product": 15,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 194,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 195,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 196,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 197,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 198,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 199,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 200,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 201,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 202,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 203,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 204,
+            "actual_support_product": 8,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 205,
+            "actual_support_product": 15,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 206,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 207,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 208,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 209,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 210,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 211,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 212,
+            "actual_support_product": 24,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 213,
+            "actual_support_product": 35,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 214,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 215,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 216,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 217,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 218,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 219,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 220,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 221,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 222,
+            "actual_support_product": 24,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 223,
+            "actual_support_product": 35,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 224,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 225,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 226,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 227,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 228,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 229,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 230,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 231,
+            "actual_support_product": 30,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 232,
+            "actual_support_product": 16,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 233,
+            "actual_support_product": 25,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 234,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 235,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 236,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 237,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 238,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 239,
+            "actual_support_product": 21,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 240,
+            "actual_support_product": 8,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 241,
+            "actual_support_product": 15,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 242,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 243,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 244,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 245,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 246,
+            "actual_support_product": 24,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 247,
+            "actual_support_product": 35,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 248,
+            "actual_support_product": 20,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 249,
+            "actual_support_product": 18,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 250,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 251,
+            "actual_support_product": 21,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 252,
+            "actual_support_product": 12,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 253,
+            "actual_support_product": 21,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 254,
+            "actual_support_product": 14,
+            "required_support_product": 8
+          },
+          {
+            "r_bits": 255,
+            "actual_support_product": 8,
+            "required_support_product": 8
+          }
+        ]
+      }
+    }
+  ],
+  "verification_failures": [],
+  "fixture_failure_received": [
+    {
+      "N": 8,
+      "pair": "AV",
+      "test": "required initial pair outside complete weight-six span"
+    }
+  ]
+}

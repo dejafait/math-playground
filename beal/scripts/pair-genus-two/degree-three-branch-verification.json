@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "checks": 1175,
+  "failures": [],
+  "squarefree_bezout": {
+    "u": [
+      17,
+      16,
+      4,
+      2,
+      1
+    ],
+    "v": [
+      8,
+      11,
+      7,
+      18,
+      5,
+      3
+    ],
+    "identity": [
+      1
+    ]
+  },
+  "selected_prime": 19,
+  "complete_divisor_rows_verified": 380,
+  "budget": {
+    "actual": {
+      "prime_visits": 8,
+      "divisor_trials": 773,
+      "work_units": 14543,
+      "polynomial_degree": 10,
+      "integer_bits": 12
+    },
+    "required_caps": {
+      "prime_visits": 25,
+      "divisor_trials": 250000,
+      "work_units": 1000000,
+      "polynomial_degree": 12,
+      "integer_bits": 4096
+    },
+    "cap_stop": null
+  }
+}

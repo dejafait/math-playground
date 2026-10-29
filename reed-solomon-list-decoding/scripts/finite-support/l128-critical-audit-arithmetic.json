@@ -1,0 +1,1955 @@
+{
+  "scope": "Exact integer checks for L128; symbolic audit is canonical in lemmas/L128-near-complete-star-retention-obstruction.md. No verification of arbitrary labels by enumeration.",
+  "summary": {
+    "q": 137,
+    "star_size": 18769,
+    "full_family_size": 2571353,
+    "matching_size": 2552584,
+    "s_values_checked": 137,
+    "s_min": 18633,
+    "s_max": 18769,
+    "sum_bound": 2590122,
+    "required_sum": 3064992,
+    "smaller_bound": 1295061,
+    "required_size": 1532496,
+    "sum_shortfall": 474870,
+    "smaller_shortfall": 237435,
+    "minimum_s_sum": 2589850,
+    "minimum_s_smaller": 1294925,
+    "constant_checks": {
+      "ambient_residual_size": true,
+      "support_size": true,
+      "six_common_points_exceed_limit": true,
+      "star_size": true,
+      "full_family_size": true,
+      "matching_size": true,
+      "matching_even": true,
+      "threshold_deficiency": true,
+      "minimum_s_sum": true,
+      "minimum_s_smaller": true,
+      "sum_shortfall": true,
+      "smaller_shortfall": true
+    },
+    "failures": []
+  },
+  "all_s_checks": [
+    {
+      "s": 18633,
+      "d": 136,
+      "sum_bound": 2589850,
+      "smaller_bound": 1294925,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18634,
+      "d": 135,
+      "sum_bound": 2589852,
+      "smaller_bound": 1294926,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18635,
+      "d": 134,
+      "sum_bound": 2589854,
+      "smaller_bound": 1294927,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18636,
+      "d": 133,
+      "sum_bound": 2589856,
+      "smaller_bound": 1294928,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18637,
+      "d": 132,
+      "sum_bound": 2589858,
+      "smaller_bound": 1294929,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18638,
+      "d": 131,
+      "sum_bound": 2589860,
+      "smaller_bound": 1294930,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18639,
+      "d": 130,
+      "sum_bound": 2589862,
+      "smaller_bound": 1294931,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18640,
+      "d": 129,
+      "sum_bound": 2589864,
+      "smaller_bound": 1294932,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18641,
+      "d": 128,
+      "sum_bound": 2589866,
+      "smaller_bound": 1294933,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18642,
+      "d": 127,
+      "sum_bound": 2589868,
+      "smaller_bound": 1294934,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18643,
+      "d": 126,
+      "sum_bound": 2589870,
+      "smaller_bound": 1294935,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18644,
+      "d": 125,
+      "sum_bound": 2589872,
+      "smaller_bound": 1294936,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18645,
+      "d": 124,
+      "sum_bound": 2589874,
+      "smaller_bound": 1294937,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18646,
+      "d": 123,
+      "sum_bound": 2589876,
+      "smaller_bound": 1294938,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18647,
+      "d": 122,
+      "sum_bound": 2589878,
+      "smaller_bound": 1294939,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18648,
+      "d": 121,
+      "sum_bound": 2589880,
+      "smaller_bound": 1294940,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18649,
+      "d": 120,
+      "sum_bound": 2589882,
+      "smaller_bound": 1294941,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18650,
+      "d": 119,
+      "sum_bound": 2589884,
+      "smaller_bound": 1294942,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18651,
+      "d": 118,
+      "sum_bound": 2589886,
+      "smaller_bound": 1294943,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18652,
+      "d": 117,
+      "sum_bound": 2589888,
+      "smaller_bound": 1294944,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18653,
+      "d": 116,
+      "sum_bound": 2589890,
+      "smaller_bound": 1294945,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18654,
+      "d": 115,
+      "sum_bound": 2589892,
+      "smaller_bound": 1294946,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18655,
+      "d": 114,
+      "sum_bound": 2589894,
+      "smaller_bound": 1294947,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18656,
+      "d": 113,
+      "sum_bound": 2589896,
+      "smaller_bound": 1294948,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18657,
+      "d": 112,
+      "sum_bound": 2589898,
+      "smaller_bound": 1294949,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18658,
+      "d": 111,
+      "sum_bound": 2589900,
+      "smaller_bound": 1294950,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18659,
+      "d": 110,
+      "sum_bound": 2589902,
+      "smaller_bound": 1294951,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18660,
+      "d": 109,
+      "sum_bound": 2589904,
+      "smaller_bound": 1294952,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18661,
+      "d": 108,
+      "sum_bound": 2589906,
+      "smaller_bound": 1294953,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18662,
+      "d": 107,
+      "sum_bound": 2589908,
+      "smaller_bound": 1294954,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18663,
+      "d": 106,
+      "sum_bound": 2589910,
+      "smaller_bound": 1294955,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18664,
+      "d": 105,
+      "sum_bound": 2589912,
+      "smaller_bound": 1294956,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18665,
+      "d": 104,
+      "sum_bound": 2589914,
+      "smaller_bound": 1294957,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18666,
+      "d": 103,
+      "sum_bound": 2589916,
+      "smaller_bound": 1294958,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18667,
+      "d": 102,
+      "sum_bound": 2589918,
+      "smaller_bound": 1294959,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18668,
+      "d": 101,
+      "sum_bound": 2589920,
+      "smaller_bound": 1294960,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18669,
+      "d": 100,
+      "sum_bound": 2589922,
+      "smaller_bound": 1294961,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18670,
+      "d": 99,
+      "sum_bound": 2589924,
+      "smaller_bound": 1294962,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18671,
+      "d": 98,
+      "sum_bound": 2589926,
+      "smaller_bound": 1294963,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18672,
+      "d": 97,
+      "sum_bound": 2589928,
+      "smaller_bound": 1294964,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18673,
+      "d": 96,
+      "sum_bound": 2589930,
+      "smaller_bound": 1294965,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18674,
+      "d": 95,
+      "sum_bound": 2589932,
+      "smaller_bound": 1294966,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18675,
+      "d": 94,
+      "sum_bound": 2589934,
+      "smaller_bound": 1294967,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18676,
+      "d": 93,
+      "sum_bound": 2589936,
+      "smaller_bound": 1294968,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18677,
+      "d": 92,
+      "sum_bound": 2589938,
+      "smaller_bound": 1294969,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18678,
+      "d": 91,
+      "sum_bound": 2589940,
+      "smaller_bound": 1294970,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18679,
+      "d": 90,
+      "sum_bound": 2589942,
+      "smaller_bound": 1294971,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18680,
+      "d": 89,
+      "sum_bound": 2589944,
+      "smaller_bound": 1294972,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18681,
+      "d": 88,
+      "sum_bound": 2589946,
+      "smaller_bound": 1294973,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18682,
+      "d": 87,
+      "sum_bound": 2589948,
+      "smaller_bound": 1294974,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18683,
+      "d": 86,
+      "sum_bound": 2589950,
+      "smaller_bound": 1294975,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18684,
+      "d": 85,
+      "sum_bound": 2589952,
+      "smaller_bound": 1294976,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18685,
+      "d": 84,
+      "sum_bound": 2589954,
+      "smaller_bound": 1294977,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18686,
+      "d": 83,
+      "sum_bound": 2589956,
+      "smaller_bound": 1294978,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18687,
+      "d": 82,
+      "sum_bound": 2589958,
+      "smaller_bound": 1294979,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18688,
+      "d": 81,
+      "sum_bound": 2589960,
+      "smaller_bound": 1294980,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18689,
+      "d": 80,
+      "sum_bound": 2589962,
+      "smaller_bound": 1294981,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18690,
+      "d": 79,
+      "sum_bound": 2589964,
+      "smaller_bound": 1294982,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18691,
+      "d": 78,
+      "sum_bound": 2589966,
+      "smaller_bound": 1294983,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18692,
+      "d": 77,
+      "sum_bound": 2589968,
+      "smaller_bound": 1294984,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18693,
+      "d": 76,
+      "sum_bound": 2589970,
+      "smaller_bound": 1294985,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18694,
+      "d": 75,
+      "sum_bound": 2589972,
+      "smaller_bound": 1294986,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18695,
+      "d": 74,
+      "sum_bound": 2589974,
+      "smaller_bound": 1294987,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18696,
+      "d": 73,
+      "sum_bound": 2589976,
+      "smaller_bound": 1294988,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18697,
+      "d": 72,
+      "sum_bound": 2589978,
+      "smaller_bound": 1294989,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18698,
+      "d": 71,
+      "sum_bound": 2589980,
+      "smaller_bound": 1294990,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18699,
+      "d": 70,
+      "sum_bound": 2589982,
+      "smaller_bound": 1294991,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18700,
+      "d": 69,
+      "sum_bound": 2589984,
+      "smaller_bound": 1294992,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18701,
+      "d": 68,
+      "sum_bound": 2589986,
+      "smaller_bound": 1294993,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18702,
+      "d": 67,
+      "sum_bound": 2589988,
+      "smaller_bound": 1294994,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18703,
+      "d": 66,
+      "sum_bound": 2589990,
+      "smaller_bound": 1294995,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18704,
+      "d": 65,
+      "sum_bound": 2589992,
+      "smaller_bound": 1294996,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18705,
+      "d": 64,
+      "sum_bound": 2589994,
+      "smaller_bound": 1294997,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18706,
+      "d": 63,
+      "sum_bound": 2589996,
+      "smaller_bound": 1294998,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18707,
+      "d": 62,
+      "sum_bound": 2589998,
+      "smaller_bound": 1294999,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18708,
+      "d": 61,
+      "sum_bound": 2590000,
+      "smaller_bound": 1295000,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18709,
+      "d": 60,
+      "sum_bound": 2590002,
+      "smaller_bound": 1295001,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18710,
+      "d": 59,
+      "sum_bound": 2590004,
+      "smaller_bound": 1295002,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18711,
+      "d": 58,
+      "sum_bound": 2590006,
+      "smaller_bound": 1295003,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18712,
+      "d": 57,
+      "sum_bound": 2590008,
+      "smaller_bound": 1295004,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18713,
+      "d": 56,
+      "sum_bound": 2590010,
+      "smaller_bound": 1295005,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18714,
+      "d": 55,
+      "sum_bound": 2590012,
+      "smaller_bound": 1295006,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18715,
+      "d": 54,
+      "sum_bound": 2590014,
+      "smaller_bound": 1295007,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18716,
+      "d": 53,
+      "sum_bound": 2590016,
+      "smaller_bound": 1295008,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18717,
+      "d": 52,
+      "sum_bound": 2590018,
+      "smaller_bound": 1295009,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18718,
+      "d": 51,
+      "sum_bound": 2590020,
+      "smaller_bound": 1295010,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18719,
+      "d": 50,
+      "sum_bound": 2590022,
+      "smaller_bound": 1295011,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18720,
+      "d": 49,
+      "sum_bound": 2590024,
+      "smaller_bound": 1295012,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18721,
+      "d": 48,
+      "sum_bound": 2590026,
+      "smaller_bound": 1295013,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18722,
+      "d": 47,
+      "sum_bound": 2590028,
+      "smaller_bound": 1295014,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18723,
+      "d": 46,
+      "sum_bound": 2590030,
+      "smaller_bound": 1295015,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18724,
+      "d": 45,
+      "sum_bound": 2590032,
+      "smaller_bound": 1295016,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18725,
+      "d": 44,
+      "sum_bound": 2590034,
+      "smaller_bound": 1295017,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18726,
+      "d": 43,
+      "sum_bound": 2590036,
+      "smaller_bound": 1295018,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18727,
+      "d": 42,
+      "sum_bound": 2590038,
+      "smaller_bound": 1295019,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18728,
+      "d": 41,
+      "sum_bound": 2590040,
+      "smaller_bound": 1295020,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18729,
+      "d": 40,
+      "sum_bound": 2590042,
+      "smaller_bound": 1295021,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18730,
+      "d": 39,
+      "sum_bound": 2590044,
+      "smaller_bound": 1295022,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18731,
+      "d": 38,
+      "sum_bound": 2590046,
+      "smaller_bound": 1295023,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18732,
+      "d": 37,
+      "sum_bound": 2590048,
+      "smaller_bound": 1295024,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18733,
+      "d": 36,
+      "sum_bound": 2590050,
+      "smaller_bound": 1295025,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18734,
+      "d": 35,
+      "sum_bound": 2590052,
+      "smaller_bound": 1295026,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18735,
+      "d": 34,
+      "sum_bound": 2590054,
+      "smaller_bound": 1295027,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18736,
+      "d": 33,
+      "sum_bound": 2590056,
+      "smaller_bound": 1295028,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18737,
+      "d": 32,
+      "sum_bound": 2590058,
+      "smaller_bound": 1295029,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18738,
+      "d": 31,
+      "sum_bound": 2590060,
+      "smaller_bound": 1295030,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18739,
+      "d": 30,
+      "sum_bound": 2590062,
+      "smaller_bound": 1295031,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18740,
+      "d": 29,
+      "sum_bound": 2590064,
+      "smaller_bound": 1295032,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18741,
+      "d": 28,
+      "sum_bound": 2590066,
+      "smaller_bound": 1295033,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18742,
+      "d": 27,
+      "sum_bound": 2590068,
+      "smaller_bound": 1295034,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18743,
+      "d": 26,
+      "sum_bound": 2590070,
+      "smaller_bound": 1295035,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18744,
+      "d": 25,
+      "sum_bound": 2590072,
+      "smaller_bound": 1295036,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18745,
+      "d": 24,
+      "sum_bound": 2590074,
+      "smaller_bound": 1295037,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18746,
+      "d": 23,
+      "sum_bound": 2590076,
+      "smaller_bound": 1295038,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18747,
+      "d": 22,
+      "sum_bound": 2590078,
+      "smaller_bound": 1295039,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18748,
+      "d": 21,
+      "sum_bound": 2590080,
+      "smaller_bound": 1295040,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18749,
+      "d": 20,
+      "sum_bound": 2590082,
+      "smaller_bound": 1295041,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18750,
+      "d": 19,
+      "sum_bound": 2590084,
+      "smaller_bound": 1295042,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18751,
+      "d": 18,
+      "sum_bound": 2590086,
+      "smaller_bound": 1295043,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18752,
+      "d": 17,
+      "sum_bound": 2590088,
+      "smaller_bound": 1295044,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18753,
+      "d": 16,
+      "sum_bound": 2590090,
+      "smaller_bound": 1295045,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18754,
+      "d": 15,
+      "sum_bound": 2590092,
+      "smaller_bound": 1295046,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18755,
+      "d": 14,
+      "sum_bound": 2590094,
+      "smaller_bound": 1295047,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18756,
+      "d": 13,
+      "sum_bound": 2590096,
+      "smaller_bound": 1295048,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18757,
+      "d": 12,
+      "sum_bound": 2590098,
+      "smaller_bound": 1295049,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18758,
+      "d": 11,
+      "sum_bound": 2590100,
+      "smaller_bound": 1295050,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18759,
+      "d": 10,
+      "sum_bound": 2590102,
+      "smaller_bound": 1295051,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18760,
+      "d": 9,
+      "sum_bound": 2590104,
+      "smaller_bound": 1295052,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18761,
+      "d": 8,
+      "sum_bound": 2590106,
+      "smaller_bound": 1295053,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18762,
+      "d": 7,
+      "sum_bound": 2590108,
+      "smaller_bound": 1295054,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18763,
+      "d": 6,
+      "sum_bound": 2590110,
+      "smaller_bound": 1295055,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18764,
+      "d": 5,
+      "sum_bound": 2590112,
+      "smaller_bound": 1295056,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18765,
+      "d": 4,
+      "sum_bound": 2590114,
+      "smaller_bound": 1295057,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18766,
+      "d": 3,
+      "sum_bound": 2590116,
+      "smaller_bound": 1295058,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18767,
+      "d": 2,
+      "sum_bound": 2590118,
+      "smaller_bound": 1295059,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18768,
+      "d": 1,
+      "sum_bound": 2590120,
+      "smaller_bound": 1295060,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    },
+    {
+      "s": 18769,
+      "d": 0,
+      "sum_bound": 2590122,
+      "smaller_bound": 1295061,
+      "checks": {
+        "sum_equals_d_form": true,
+        "smaller_equals_d_form": true,
+        "twice_smaller_equals_sum": true,
+        "sum_below_required": true,
+        "smaller_below_required": true,
+        "claimed_maxima": true
+      }
+    }
+  ]
+}

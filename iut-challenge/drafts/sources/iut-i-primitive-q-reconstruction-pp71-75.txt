@@ -1,0 +1,324 @@
+                       INTER-UNIVERSAL TEICHMÜLLER THEORY I                             71
+
+l · Z ⊆ Aut(TŸ ) [i.e., we write Z for the group denoted “Z” in [EtTh], Theorem
+                   v
+
+5.7; cf. also the discussion preceding [EtTh], Deﬁnition 1.9]. Moreover, we recall
+from the theory of [EtTh], §5 [cf. the discussion at the beginning of [EtTh], §5;
+[EtTh], Theorem 5.7] that
+
+                        TŸ        [regarded up to isomorphism] and
+                              v
+
+     Θv    [regarded up to the μ2l (T÷
+                                     Ÿ
+                                        ), l · Z indeterminacies discussed above]
+                                                    v
+
+may be reconstructed category-theoretically from F v [cf. Remark 3.2.1 below].
+
+     (iii) Next, we recall from [EtTh], Corollary 3.8, (ii) [cf. also [EtTh], Proposition
+5.1], that the pv -adic Frobenioid constituted by the “base-ﬁeld-theoretic hull” [cf.
+[EtTh], Remark 3.6.2]
+                                        Cv ⊆ F v
+
+
+[i.e., we write Cv for the subcategory “C bs-ﬂd ” of [EtTh], Deﬁnition 3.6, (iv)] may
+be reconstructed category-theoretically from F v [cf. Remark 3.2.1 below].
+
+    (iv) Write qv for the q-parameter of the elliptic curve Ev over Kv . Thus, we may
+think of qv as an element qv ∈ O (TX ) (∼ = OK 
+                                                  v
+                                                    ). Note that it follows from our as-
+                                                    v
+
+sumption concerning 2-torsion [cf. Deﬁnition 3.1, (b)], together with the deﬁnition
+of “K” [cf. Deﬁnition 3.1, (c)], that qv admits a 2l-th root in O (TX ) (∼= OK
+                                                                                 v
+                                                                                   ).
+                                                                                  v
+
+Then one computes immediately from the ﬁnal formula of [EtTh], Proposition 1.4,
+(ii), that the value of Θv at −qv is equal to
+
+
+                                         q = qv1/2l ∈ O (TX )
+                                              def
+                                          v                           v
+
+
+                                  1/2l
+— where the notation “qv                 ” [hence also q ] is completely determined up to a
+                                                                  v
+μ2l (TX )-multiple. Write ΦCv for the divisor monoid [cf. [FrdI], Deﬁnition 1.1,
+       v
+
+(iv)] of the pv -adic Frobenioid Cv . Then the image of q determines a constant
+                                                                          v
+section [i.e., a sub-monoid on Dv isomorphic to N] “logΦ (q )” of ΦCv . Moreover,
+                                                                              v
+the resulting submonoid [cf. Remark 3.2.2 below]
+
+                                     def
+                              ΦCv = N · logΦ (q )|Dv ⊆ ΦCv |Dv
+                                                              v
+
+
+determines a pv -adic Frobenioid with base category given by Dv [cf. [FrdII], Example
+1.1, (ii)]
+                            Cv (⊆ Cv ⊆ F v → F ÷      v
+                                                         )
+
+— which may be thought of as a subcategory of Cv . Also, we observe that [since the
+q-parameter q ∈ Kv , it follows that] q determines a μ2l (−)-orbit of characteristic
+               v                                        v
+splittings [cf. [FrdI], Deﬁnition 2.3]
+                                                            τv
+72                                     SHINICHI MOCHIZUKI
+
+on Cv .
+
+    (v) Next, let us recall that the base ﬁeld of Ÿ v is equal to Kv [cf. the discussion
+of Deﬁnition 3.1, (e)]. Write
+                                    DvΘ ⊆ (Dv )Ÿ
+                                                             v
+
+
+for the full subcategory of the category (Dv )Ÿ                     [cf. the notational conventions
+                                                                 v
+
+concerning categories discussed in §0] determined by the products in Dv of Ÿ v
+with objects of Dv . Thus, one veriﬁes immediately that “forming the product
+                                                               ∼
+with Ÿ v ” determines a natural equivalence of categories Dv → DvΘ . Moreover, for
+AΘ ∈ Ob(DvΘ ), the assignment
+
+                           AΘ → O× (TAΘ ) · (ΘN |
+                                               v TAΘ
+                                                     ) ⊆ O× (T÷
+                                                              AΘ
+                                                                 )
+
+determines a monoid OCΘ (−) on DvΘ [in the sense of [FrdI], Deﬁnition 1.1, (ii)];
+                               v
+
+write OC×Θ (−) ⊆ OCΘ (−) for the submonoid determined by the invertible elements.
+           v           v
+                                                                                              ∼
+Next, let us observe that, relative to the natural equivalence of categories Dv → DvΘ
+                                                                           def
+— which we think of as mapping Ob(Dv )  A → AΘ = Ÿ v × A ∈ Ob(DvΘ ) — we
+have natural isomorphisms
+                                   ∼                                   ∼
+                    OC (−) → OCΘ (−);               OC× (−) → OC×Θ (−)
+                           v              v              v                       v
+
+
+
+[where OC (−), OC× (−) are the monoids associated to the Frobenioid Cv as in
+               v       v
+
+[FrdI], Proposition 2.2] which are compatible with the assignment
+
+                                         q |TA → Θv |TAΘ
+                                          v
+
+
+and the natural isomorphism [i.e., induced by the natural projection AΘ = Ÿ v ×
+                   ∼
+A → A] O× (TA ) → O× (TAΘ ). In particular, we conclude that the monoid OCΘ (−)
+                                                                                               v
+
+determines — in a fashion consistent with the notation of [FrdI], Proposition 2.2!
+— a pv -adic Frobenioid with base category given by DvΘ [cf. [FrdII], Example 1.1,
+(ii)]
+                                  CvΘ (⊆ F ÷ v
+                                               )
+
+— which may be thought of as a subcategory of F ÷
+                                                v
+                                                  , and which is equipped with a
+μ2l (−)-orbit of characteristic splittings [cf. [FrdI], Deﬁnition 2.3]
+
+                                                 τvΘ
+
+determined by Θv . Moreover, we have a natural equivalence of categories
+
+                                                 ∼
+                                              Cv → CvΘ
+                    INTER-UNIVERSAL TEICHMÜLLER THEORY I                             73
+
+that maps τv to τvΘ . This fact may be stated more succinctly by writing
+
+                                           ∼
+                                      Fv → FvΘ
+
+                        def               def
+— where we write Fv = (Cv , τv ); FvΘ = (CvΘ , τvΘ ). In the following, we shall refer
+to a pair such as Fv or FvΘ consisting of a Frobenioid equipped with a collection
+of characteristic splittings as a split Frobenioid.
+
+    (vi) Here, it is useful to recall [cf. Remark 3.2.1 below] that:
+ (a) the subcategory Dv ⊆ Dv may be reconstructed category-theoretically
+    from Dv [cf. [AbsAnab], Lemma 1.3.8];
+
+ (b) the category DvΘ may be reconstructed category-theoretically from Dv [cf.
+    (a); the discussion at the beginning of [EtTh], §5];
+
+ (c) the category Dv (respectively, DvΘ ) may be reconstructed category-theoretically
+    from Cv (respectively, CvΘ ) [cf. [FrdI], Theorem 3.4, (v); [FrdII], Theorem
+    1.2, (i); [FrdII], Example 1.3, (i); [AbsAnab], Theorem 1.1.1, (ii)];
+
+ (d) the category Dv may be reconstructed category-theoretically either from
+    F v [cf. [EtTh], Theorem 4.4; [EtTh], Proposition 5.1] or from Cv [cf.
+    [FrdI], Theorem 3.4, (v); [FrdII], Theorem 1.2, (i); [FrdII], Example 1.3,
+    (i); [SemiAnbd], Example 3.10; [SemiAnbd], Remark 3.4.1].
+
+Next, let us observe that by (b), (d), together with the discussion of (ii) concerning
+the category-theoreticity of Θv , it follows [cf. Remark 3.2.1 below] that
+
+ (e) one may reconstruct the split Frobenioid FvΘ [up to the l ·Z indeterminacy
+    in Θv discussed in (ii); cf. also Remark 3.2.3 below] category-theoretically
+    from F v [cf. [FrdI], Theorem 3.4, (i), (v); [EtTh], Proposition 5.1].
+
+Next, let us recall that the values of Θv may be computed by restricting the cor-
+responding Kummer class, i.e., the “étale theta function” [cf. [EtTh], Proposition
+1.4, (iii); the proof of [EtTh], Theorem 1.10, (ii); the proof of [EtTh], Theorem 5.7],
+which may be reconstructed category-theoretically from Dv [cf. [EtTh], Corollary
+2.8, (i)]. Thus, by applying the isomorphisms of cyclotomes of [AbsTopIII], Corol-
+lary 1.10, (c); [AbsTopIII], Remark 3.2.1 [cf. also [AbsTopIII], Remark 3.1.1], to
+these Kummer classes, one concludes from (a), (d) that
+  (f) one may reconstruct the split Frobenioid Fv category-theoretically from
+     Cv , hence also [cf. (iii)] from F v [cf. Remark 3.2.1 below].
+
+
+Remark 3.2.1.
+
+     (i) In [FrdI], [FrdII], and [EtTh] [cf. [EtTh], Remark 5.1.1], the phrase “recon-
+structed category-theoretically” is interpreted as meaning “preserved by equivalences
+of categories”. From the point of view of the theory of [AbsTopIII] — i.e., the dis-
+cussion of “mono-anabelian” versus “bi-anabelian” geometry [cf. [AbsTopIII], §I2,
+74                              SHINICHI MOCHIZUKI
+
+(Q2)] — this sort of deﬁnition is “bi-anabelian” in nature. In fact, it is not diﬃcult
+to verify that the techniques of [FrdI], [FrdII], and [EtTh] all result in explicit re-
+construction algorithms, whose input data consists solely of the category structure
+of the given category, of a “mono-anabelian” nature that do not require the use of
+some ﬁxed reference model that arises from scheme theory [cf. the discussion of
+[AbsTopIII], §I4]. For more on the foundational aspects of such “mono-anabelian
+reconstruction algorithms”, we refer to the discussion of [IUTchIV], Example 3.5.
+
+      (ii) One reason that we do not develop in detail here a “mono-anabelian ap-
+proach to the geometry of categories” along the lines of [AbsTopIII] is that, unlike
+the case with the mono-anabelian theory of [AbsTopIII], which plays a quite essen-
+tial role in the theory of the present series of papers, much of the category-theoretic
+reconstruction theory of [FrdI], [FrdII], and [EtTh] is not of essential importance
+in the development of the theory of the present series of papers. That is to say, for
+instance, instead of quoting results to the eﬀect that the base categories or divisor
+monoids of various Frobenioids may be reconstructed category-theoretically, one
+could instead simply work with the data consisting of “the category constituted by
+the Frobenioid equipped with its pre-Frobenioid structure” [cf. [FrdI], Deﬁnition
+1.1, (iv)]. Nevertheless, we chose to apply the theory of [FrdI], [FrdII], and [EtTh]
+partly because it simpliﬁes the exposition [i.e., reduces the number of auxiliary
+structures that one must carry around], but more importantly because it renders
+explicit precisely which structures arising from scheme-theory are “categorically
+intrinsic” and which merely amount to “arbitrary, non-intrinsic choices” which,
+when formulated intrinsically, correspond to various “indeterminacies”. This ex-
+plicitness is of particular importance with respect to phenomena related to the unit-
+linear Frobenius functor [cf. [FrdI], Proposition 2.5] and the Frobenioid-theoretic
+indeterminacies studied in [EtTh], §5.
+
+
+Remark 3.2.2. Although the submonoid ΦCv is not “absolutely primitive” in the
+sense of [FrdII], Example 1.1, (ii), it is “very close to being absolutely primitive”,
+in the sense that [as is easily veriﬁed] there exists a positive integer N such that
+N · ΦCv is absolutely primitive. This proximity to absolute primitiveness may also
+be seen in the existence of the characteristic splittings τv .
+
+
+Remark 3.2.3.
+
+     (i) Let α ∈ AutDv (Ÿ v ). Then observe that α determines, in a natural way, an
+automorphism αD of the functor Dv → Dv obtained by composing the equivalence
+                  ∼
+of categories Dv → DvΘ [i.e., which maps Ob(Dv )  A → AΘ ∈ Ob(DvΘ )] discussed
+in Example 3.2, (v), with the natural functor DvΘ ⊆ (Dv )Ÿ → Dv . Moreover,
+                                                                  v
+
+αD induces, in a natural way, an isomorphism αO of the monoid OCΘ (−) on
+                                                                             v
+
+DvΘ associated to Θv in Example 3.2, (v), onto the corresponding monoid on DvΘ
+associated to the α-conjugate Θα v
+                                   of Θv . Thus, it follows immediately from the
+discussion of Example 3.2, (v), that
+
+     αO — hence also α — induces an isomorphism of the split Frobenioid
+                    INTER-UNIVERSAL TEICHMÜLLER THEORY I                            75
+
+                                                        α
+    FvΘ associated to Θv onto the split Frobenioid FvΘ associated to Θα
+                                                                      v
+                                                                        which
+    lies over the identity functor on DvΘ .
+
+In particular, the expression “FvΘ , regarded up to the l · Z indeterminacy in Θv
+discussed in Example 3.2, (ii)” may be understood as referring to the various split
+                 α
+Frobenioids “FvΘ ”, as α ranges over the elements of AutDv (Ÿ v ), relative to the
+identiﬁcations given by these isomorphisms of split Frobenioids induced by the
+various elements of AutDv (Ÿ v ).
+
+     (ii) Suppose that A ∈ Ob(Dv ) lies in the image of the natural functor DvΘ ⊆
+(Dv )Ÿ → Dv , and that ψ : B → TA is a linear morphism in the Frobenioid F v .
+      v
+Then ψ induces an injective homomorphism
+
+                                O× (T÷       ×  ÷
+                                     A ) → O (B )
+
+
+[cf. [FrdI], Proposition 1.11, (iv)]. In particular, one may pull-back sections of the
+monoid OCΘ (−) on DvΘ of Example 3.2, (v), to B. Such pull-backs are useful, for
+           v
+
+instance, when one considers the roots of Θv , as in the theory of [EtTh], §5.
+
+
+Remark 3.2.4. Before proceeding, we pause to discuss certain minor oversights
+on the part of the author in the discussion of the theory of tempered Frobenioids
+                          ∞ be as in the discussion at the beginning of [EtTh], §3.
+in [EtTh], §3, §4. Let Zlog
+Here, we recall that Z∞ is obtained as the “universal combinatorial covering” of
+                        log
+
+the formal log scheme associated to a stable log curve with split special ﬁber over
+the ring of integers of a ﬁnite extension of an MLF of residue characteristic p [cf.
+loc. cit. for more details]; we write Z log for the generic ﬁber of the stable log curve
+under consideration.
+
+    (i) First, let us consider the following conditions on a nonzero meromorphic
+function f on Zlog
+                 ∞:
+
+ (a) For every N ∈ N≥1 , it holds that f admits an N -th root over some
+    tempered covering of Z log .
+
+ (b) For every N ∈ N≥1 which is prime to p, it holds that f admits an N -th
+    root over some tempered covering of Z log .
+
+ (c) The divisor of zeroes and poles of f is a log-divisor.
+It is immediate that (a) implies (b). Moreover, one veriﬁes immediately, by consid-
+ering the ramiﬁcation divisors of the tempered coverings that arise from extracting
+roots of f , that (b) implies (c). When N is prime to p, if f satisﬁes (c), then
+it follows immediately from the theory of admissible coverings [cf., e.g., [PrfGC],
+§2, §8] that there exists a ﬁnite log étale covering Y log → Z log whose pull-back
+Y∞log
+      → Z∞log                      log
+              to the generic ﬁber Z∞   of Zlog
+                                           ∞ is suﬃcient
+
+(R1) to annihilate all ramiﬁcation over the cusps or special ﬁber of Zlog
+                                                                      ∞ that
+    might arise from extracting an N -th root of f , as well as
+

@@ -1,0 +1,5 @@
+# Step511 — 2026-10-26 — fixed-coset source URL repair
+
+Literature-only recovery for the supervisor-reported missing direct source URL. Added direct primary links and an approval record to [the unchanged assessment](../drafts/literature/2026-10-26-fixed-coset-norm-equivariance-test.md). Rechecked Stacks statements/proofs, the local slimness theorem/proof extract and Conrad theorem hypotheses; reused the prior source comparison and version record. Narrowly checked ATTEMPTS/006 and 037 without reopening their stopped claims.
+
+Outcome STALLED: a valid process repair, with no new mathematical input, obstruction or formula calculation. No lemmas, scripts, DAG or argument overview were changed. The fixed-product action audit is now the concrete source-approved next test. Its success/failure concerns only this formula; native pilot membership and finite B>=A remain open. No justified creative central target is available until the general source-compatible operation is specified. Continue with the unchanged bounded conceptual audit, including the trivial base-field case, nonnormal cosets, finite normal witness and all-torsion quotient.

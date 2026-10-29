@@ -1,0 +1,18 @@
+--- step-463/worker.py
++++ step-470/worker.py
+@@ -12,12 +12,12 @@
+     return result
+ 
+ def identity_for(index, output):
+-    fixed = (Path('scripts/four-rational-kernels/step-461') / ('n-' + str(index))).resolve()
+-    return (index, str(fixed), str(Path(output).resolve()), 'fixed_replay_463_' + str(index), hashlib.sha256((fixed / 'replay.py').read_bytes()).hexdigest())
++    fixed = (Path('scripts/four-rational-kernels/step-468') / ('n-' + str(index))).resolve()
++    return (index, str(fixed), str(Path(output).resolve()), 'fixed_replay_470_' + str(index), hashlib.sha256((fixed / 'replay.py').read_bytes()).hexdigest())
+ 
+ def check_identity(identity, fixed, output, module, original_module):
+     assert isinstance(identity, tuple) and len(identity) == 5
+-    assert type(identity[0]) is int and identity[0] in (35, 36, 37, 38)
++    assert type(identity[0]) is int and identity[0] in (39, 40, 41, 42)
+     assert all((type(x) is str for x in identity[1:]))
+     assert str(fixed.resolve()) == identity[1] and str(output.resolve()) == identity[2]
+     assert fixed.name == output.name == 'n-' + str(identity[0])

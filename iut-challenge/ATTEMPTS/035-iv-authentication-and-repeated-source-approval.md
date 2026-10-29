@@ -56,3 +56,20 @@ selects the first as the new independently testable target. Its changed
 every-selected-completion scope is REVIEW_REQUIRED. No root membership
 or complete native type is proved in this continuation selection, and
 the authentication blocker remains parked. See history/447 and L110.
+
+Recovery note, step480: performed the ready L117 critical audit; its
+canonical proof validates the actual-family pole budget. Repeated source
+approval/authentication stays parked, as does ATTEMPTS/036's scalar-only
+method. Comparing joint image/integrality, exact generation and the
+blocked directed module selects the first for a different, independently
+testable quantifier comparison using L105. Its scope is REVIEW_REQUIRED;
+no joint image conclusion is asserted. See history/480 and L117.
+
+Recovery note, step484: performed the ready L118 mathematical audit;
+its canonical proof validates the same-witness joint integrality and
+full-image application without another prime or member. Repeated scope
+approval and authentication retrieval remain parked. Comparing full
+bad-support place selection, wholesale native-assembly transfer and
+exact-generation repair selects the first as a distinct bounded test.
+Its changed-witness scope is REVIEW_REQUIRED; no new place section or
+native assembly is asserted. See history/484 and the canonical L118 audit.

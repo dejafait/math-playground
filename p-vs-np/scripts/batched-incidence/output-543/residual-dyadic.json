@@ -1,0 +1,7575 @@
+{
+  "encoding": "F2 integer bitsets in stored vertex/basis order.",
+  "cases": [
+    {
+      "A": {
+        "vertices": [
+          "s",
+          "f0",
+          "f1",
+          "h0",
+          "h1",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "f0",
+            "f1",
+            "1"
+          ],
+          [
+            "f0",
+            "f1",
+            "x"
+          ],
+          [
+            "h0",
+            "h1",
+            "x"
+          ],
+          [
+            "s",
+            "f0",
+            "1"
+          ],
+          [
+            "f1",
+            "h0",
+            "1"
+          ],
+          [
+            "h1",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "f0",
+          "f1",
+          "h0",
+          "h1",
+          "t"
+        ],
+        "C_rows": [
+          2,
+          4,
+          8,
+          0,
+          32,
+          0
+        ],
+        "D_rows": [
+          0,
+          4,
+          0,
+          16,
+          0,
+          0
+        ],
+        "K_rows": [
+          15,
+          14,
+          12,
+          8,
+          48,
+          32
+        ],
+        "M_rows": [
+          0,
+          12,
+          0,
+          48,
+          0,
+          0
+        ],
+        "alpha_bits": 15,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "powers_M1_through_first_zero": [
+          [
+            0,
+            12,
+            0,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            48,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "nilpotency_index": 3,
+        "all_coefficients_through_dimension": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "g": 18,
+        "all_prefix_polynomial_bits": [
+          1,
+          1,
+          3,
+          3,
+          6,
+          6
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          4,
+          0,
+          2,
+          0,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          15,
+          60,
+          48,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 6
+      },
+      "B": {
+        "vertices": [
+          "s",
+          "f0",
+          "f1",
+          "h0",
+          "h1",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "f0",
+            "f1",
+            "1"
+          ],
+          [
+            "f0",
+            "f1",
+            "x"
+          ],
+          [
+            "h0",
+            "h1",
+            "x"
+          ],
+          [
+            "s",
+            "h0",
+            "1"
+          ],
+          [
+            "h1",
+            "f0",
+            "1"
+          ],
+          [
+            "f1",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "h0",
+          "h1",
+          "f0",
+          "f1",
+          "t"
+        ],
+        "C_rows": [
+          8,
+          4,
+          32,
+          0,
+          2,
+          0
+        ],
+        "D_rows": [
+          0,
+          4,
+          0,
+          16,
+          0,
+          0
+        ],
+        "K_rows": [
+          9,
+          38,
+          36,
+          8,
+          54,
+          32
+        ],
+        "M_rows": [
+          0,
+          36,
+          0,
+          54,
+          0,
+          0
+        ],
+        "alpha_bits": 9,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "powers_M1_through_first_zero": [
+          [
+            0,
+            36,
+            0,
+            54,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            36,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "nilpotency_index": 3,
+        "all_coefficients_through_dimension": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "g": 18,
+        "all_prefix_polynomial_bits": [
+          1,
+          2,
+          6,
+          1,
+          2,
+          6
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          2,
+          0,
+          6,
+          0,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          9,
+          54,
+          36,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 6
+      },
+      "factor_choices": [
+        {
+          "label": "L0",
+          "j": 0,
+          "a": 0,
+          "b": 0,
+          "q_z_coefficients": 1,
+          "q_y_coefficients": 1,
+          "weight": 2
+        },
+        {
+          "label": "H0",
+          "j": 0,
+          "a": 0,
+          "b": 0,
+          "q_z_coefficients": 1,
+          "q_y_coefficients": 1,
+          "weight": 3
+        }
+      ],
+      "basis_labels": [
+        "A_s",
+        "A_f1",
+        "A_h1",
+        "B_s",
+        "B_f1",
+        "B_h1",
+        "final",
+        "L0",
+        "H0"
+      ],
+      "basis_rows": [
+        1,
+        4,
+        16,
+        64,
+        256,
+        1024,
+        2080,
+        136,
+        522
+      ],
+      "basis_A_rows": [
+        1,
+        4,
+        16,
+        0,
+        0,
+        0,
+        32,
+        8,
+        10
+      ],
+      "basis_B_rows": [
+        0,
+        0,
+        0,
+        1,
+        4,
+        16,
+        32,
+        2,
+        8
+      ],
+      "relation_residual_columns": [
+        0,
+        4,
+        0,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        6,
+        0,
+        1
+      ],
+      "A_residual_degree_rank_witness": [
+        0,
+        1,
+        2
+      ],
+      "shift_images_original_coordinates": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2352,
+        3516
+      ],
+      "shift_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        84,
+        246
+      ],
+      "shift_products": {
+        "A_left": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          48,
+          60
+        ],
+        "A_right": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          48,
+          60
+        ],
+        "B_left": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          36,
+          54
+        ],
+        "B_right": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          36,
+          54
+        ]
+      },
+      "degree_topological_order": [
+        8,
+        7,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "initial_coordinates": 267,
+      "common_final_functional": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "initial_A_product": 15,
+      "initial_B_product": 9,
+      "Q": {
+        "vertices": [
+          "s",
+          "q0",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q8",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "q7",
+            "q2",
+            "x"
+          ],
+          [
+            "q7",
+            "q4",
+            "x"
+          ],
+          [
+            "q7",
+            "q6",
+            "x"
+          ],
+          [
+            "q8",
+            "q1",
+            "x"
+          ],
+          [
+            "q8",
+            "q2",
+            "x"
+          ],
+          [
+            "q8",
+            "q4",
+            "x"
+          ],
+          [
+            "q8",
+            "q5",
+            "x"
+          ],
+          [
+            "q8",
+            "q6",
+            "x"
+          ],
+          [
+            "q8",
+            "q7",
+            "x"
+          ],
+          [
+            "s",
+            "q0",
+            "1"
+          ],
+          [
+            "s",
+            "q1",
+            "1"
+          ],
+          [
+            "s",
+            "q3",
+            "1"
+          ],
+          [
+            "s",
+            "q8",
+            "1"
+          ],
+          [
+            "q6",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "q8",
+          "q7",
+          "q0",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "t"
+        ],
+        "C_rows": [
+          534,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1024,
+          0,
+          0,
+          0
+        ],
+        "D_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          168,
+          492,
+          0
+        ],
+        "K_rows": [
+          535,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          1152,
+          256,
+          512,
+          1024
+        ],
+        "M_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1192,
+          1516,
+          0
+        ],
+        "alpha_bits": 535,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "g": 39,
+        "all_prefix_polynomial_bits": [
+          1,
+          1,
+          3,
+          6,
+          1,
+          6,
+          2,
+          6,
+          2,
+          1,
+          6
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          535,
+          1516,
+          1192,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 6
+      },
+      "arrows": {
+        "A": {
+          "orientation": "Q_to_A",
+          "X_rows": [
+            0,
+            1,
+            4,
+            16,
+            0,
+            0,
+            0,
+            0,
+            8,
+            10,
+            32
+          ],
+          "literal_map_rows": {
+            "s": [],
+            "q0": [
+              "s"
+            ],
+            "q1": [
+              "f1"
+            ],
+            "q2": [
+              "h1"
+            ],
+            "q3": [],
+            "q4": [],
+            "q5": [],
+            "q6": [],
+            "q7": [
+              "h0"
+            ],
+            "q8": [
+              "f0",
+              "h0"
+            ],
+            "t": [
+              "t"
+            ]
+          },
+          "support": 7,
+          "left_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            48,
+            60,
+            0
+          ],
+          "right_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            48,
+            60,
+            0
+          ],
+          "initial_product_bits": 15,
+          "required_initial_bits": 15,
+          "final_product_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "required_final_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "checks": {
+            "initial": true,
+            "transition": true,
+            "final": true
+          },
+          "failed_transition_coordinates": []
+        },
+        "B": {
+          "orientation": "Q_to_B",
+          "X_rows": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            4,
+            16,
+            0,
+            2,
+            8,
+            32
+          ],
+          "literal_map_rows": {
+            "s": [],
+            "q0": [],
+            "q1": [],
+            "q2": [],
+            "q3": [
+              "s"
+            ],
+            "q4": [
+              "f1"
+            ],
+            "q5": [
+              "h1"
+            ],
+            "q6": [],
+            "q7": [
+              "f0"
+            ],
+            "q8": [
+              "h0"
+            ],
+            "t": [
+              "t"
+            ]
+          },
+          "support": 6,
+          "left_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            36,
+            54,
+            0
+          ],
+          "right_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            36,
+            54,
+            0
+          ],
+          "initial_product_bits": 9,
+          "required_initial_bits": 9,
+          "final_product_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "required_final_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "checks": {
+            "initial": true,
+            "transition": true,
+            "final": true
+          },
+          "failed_transition_coordinates": []
+        }
+      },
+      "ledger": {
+        "k": 0,
+        "N": 1,
+        "S": 36,
+        "dimension": 9,
+        "basis_support": 13,
+        "required_recurrence_value": 13,
+        "shift_support": 9,
+        "initial_support": 4,
+        "final_support": 1,
+        "Q_vertices": 11,
+        "Q_occurrences": 14,
+        "g_Q": 39,
+        "map_A_support": 7,
+        "map_B_support": 6,
+        "expanded_map_support": 13,
+        "required_asymptotic_threshold": "One constant C times N (equivalently S) for all k. This basis fails because H_(k+2)=2H_(k+1)+H_k, H_0=5, H_1=12.",
+        "equation_or_graph_failures": [],
+        "linear_bound_failure": "Proved symbolically for this basis only; finite values are not a proof of asymptotic failure."
+      },
+      "literal_table": [
+        {
+          "label": "A_s",
+          "A": [
+            "s"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "A_f1",
+          "A": [
+            "f1"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "A_h1",
+          "A": [
+            "h1"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "B_s",
+          "A": [],
+          "B": [
+            "s"
+          ],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "B_f1",
+          "A": [],
+          "B": [
+            "f1"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "B_h1",
+          "A": [],
+          "B": [
+            "h1"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "final",
+          "A": [
+            "t"
+          ],
+          "B": [
+            "t"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 1
+        },
+        {
+          "label": "L0",
+          "A": [
+            "h0"
+          ],
+          "B": [
+            "f0"
+          ],
+          "shift": [
+            "A_h1",
+            "B_f1",
+            "final"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H0",
+          "A": [
+            "f0",
+            "h0"
+          ],
+          "B": [
+            "h0"
+          ],
+          "shift": [
+            "A_f1",
+            "A_h1",
+            "B_f1",
+            "B_h1",
+            "final",
+            "L0"
+          ],
+          "initial": 1,
+          "final": 0
+        }
+      ]
+    },
+    {
+      "A": {
+        "vertices": [
+          "s",
+          "f0",
+          "f1",
+          "f2",
+          "h0",
+          "h1",
+          "h2",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "f0",
+            "f1",
+            "1"
+          ],
+          [
+            "f0",
+            "f1",
+            "x"
+          ],
+          [
+            "f1",
+            "f2",
+            "1"
+          ],
+          [
+            "f1",
+            "f2",
+            "x"
+          ],
+          [
+            "h0",
+            "h1",
+            "x"
+          ],
+          [
+            "h1",
+            "h2",
+            "x"
+          ],
+          [
+            "s",
+            "f0",
+            "1"
+          ],
+          [
+            "f2",
+            "h0",
+            "1"
+          ],
+          [
+            "h2",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "f0",
+          "f1",
+          "f2",
+          "h0",
+          "h1",
+          "h2",
+          "t"
+        ],
+        "C_rows": [
+          2,
+          4,
+          8,
+          16,
+          0,
+          0,
+          128,
+          0
+        ],
+        "D_rows": [
+          0,
+          4,
+          8,
+          0,
+          32,
+          64,
+          0,
+          0
+        ],
+        "K_rows": [
+          31,
+          30,
+          28,
+          24,
+          16,
+          32,
+          192,
+          128
+        ],
+        "M_rows": [
+          0,
+          28,
+          24,
+          0,
+          32,
+          192,
+          0,
+          0
+        ],
+        "alpha_bits": 31,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "powers_M1_through_first_zero": [
+          [
+            0,
+            28,
+            24,
+            0,
+            32,
+            192,
+            0,
+            0
+          ],
+          [
+            0,
+            56,
+            32,
+            0,
+            192,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            224,
+            192,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            192,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "nilpotency_index": 5,
+        "all_coefficients_through_dimension": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "g": 26,
+        "all_prefix_polynomial_bits": [
+          1,
+          1,
+          3,
+          5,
+          5,
+          10,
+          20,
+          20
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          24,
+          8,
+          0,
+          4,
+          2,
+          0,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          31,
+          36,
+          216,
+          32,
+          192,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 20
+      },
+      "B": {
+        "vertices": [
+          "s",
+          "f0",
+          "f1",
+          "f2",
+          "h0",
+          "h1",
+          "h2",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "f0",
+            "f1",
+            "1"
+          ],
+          [
+            "f0",
+            "f1",
+            "x"
+          ],
+          [
+            "f1",
+            "f2",
+            "1"
+          ],
+          [
+            "f1",
+            "f2",
+            "x"
+          ],
+          [
+            "h0",
+            "h1",
+            "x"
+          ],
+          [
+            "h1",
+            "h2",
+            "x"
+          ],
+          [
+            "s",
+            "h0",
+            "1"
+          ],
+          [
+            "h2",
+            "f0",
+            "1"
+          ],
+          [
+            "f2",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "h0",
+          "h1",
+          "h2",
+          "f0",
+          "f1",
+          "f2",
+          "t"
+        ],
+        "C_rows": [
+          16,
+          4,
+          8,
+          128,
+          0,
+          0,
+          2,
+          0
+        ],
+        "D_rows": [
+          0,
+          4,
+          8,
+          0,
+          32,
+          64,
+          0,
+          0
+        ],
+        "K_rows": [
+          17,
+          142,
+          140,
+          136,
+          16,
+          32,
+          206,
+          128
+        ],
+        "M_rows": [
+          0,
+          140,
+          136,
+          0,
+          32,
+          206,
+          0,
+          0
+        ],
+        "alpha_bits": 17,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "powers_M1_through_first_zero": [
+          [
+            0,
+            140,
+            136,
+            0,
+            32,
+            206,
+            0,
+            0
+          ],
+          [
+            0,
+            136,
+            0,
+            0,
+            206,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            136,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            136,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "nilpotency_index": 5,
+        "all_coefficients_through_dimension": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "g": 26,
+        "all_prefix_polynomial_bits": [
+          1,
+          4,
+          12,
+          20,
+          1,
+          2,
+          4,
+          20
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          6,
+          2,
+          0,
+          20,
+          10,
+          0,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          17,
+          32,
+          206,
+          4,
+          136,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 20
+      },
+      "factor_choices": [
+        {
+          "label": "L0",
+          "j": 0,
+          "a": 0,
+          "b": 0,
+          "q_z_coefficients": 1,
+          "q_y_coefficients": 1,
+          "weight": 2
+        },
+        {
+          "label": "L1",
+          "j": 1,
+          "a": 1,
+          "b": 0,
+          "q_z_coefficients": 2,
+          "q_y_coefficients": 3,
+          "weight": 3
+        },
+        {
+          "label": "H0",
+          "j": 0,
+          "a": 0,
+          "b": 0,
+          "q_z_coefficients": 1,
+          "q_y_coefficients": 1,
+          "weight": 3
+        },
+        {
+          "label": "H1",
+          "j": 1,
+          "a": 1,
+          "b": 0,
+          "q_z_coefficients": 2,
+          "q_y_coefficients": 3,
+          "weight": 4
+        }
+      ],
+      "basis_labels": [
+        "A_s",
+        "A_f2",
+        "A_h2",
+        "B_s",
+        "B_f2",
+        "B_h2",
+        "final",
+        "L0",
+        "L1",
+        "H0",
+        "H1"
+      ],
+      "basis_rows": [
+        1,
+        8,
+        64,
+        256,
+        2048,
+        16384,
+        32896,
+        1056,
+        1552,
+        8228,
+        4118
+      ],
+      "basis_A_rows": [
+        1,
+        8,
+        64,
+        0,
+        0,
+        0,
+        128,
+        32,
+        16,
+        36,
+        22
+      ],
+      "basis_B_rows": [
+        0,
+        0,
+        0,
+        1,
+        8,
+        64,
+        128,
+        4,
+        6,
+        32,
+        16
+      ],
+      "relation_residual_columns": [
+        0,
+        24,
+        8,
+        0,
+        4,
+        2,
+        0,
+        1,
+        0,
+        6,
+        2,
+        0,
+        20,
+        10,
+        0,
+        1
+      ],
+      "A_residual_degree_rank_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "shift_images_original_coordinates": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35008,
+        1056,
+        52952,
+        8228
+      ],
+      "shift_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        84,
+        128,
+        374,
+        512
+      ],
+      "shift_products": {
+        "A_left": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          192,
+          32,
+          216,
+          36
+        ],
+        "A_right": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          192,
+          32,
+          216,
+          36
+        ],
+        "B_left": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          136,
+          4,
+          206,
+          32
+        ],
+        "B_right": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          136,
+          4,
+          206,
+          32
+        ]
+      },
+      "degree_topological_order": [
+        10,
+        9,
+        8,
+        7,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "initial_coordinates": 1035,
+      "common_final_functional": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "initial_A_product": 31,
+      "initial_B_product": 17,
+      "Q": {
+        "vertices": [
+          "s",
+          "q0",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q8",
+          "q9",
+          "q10",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "q7",
+            "q2",
+            "x"
+          ],
+          [
+            "q7",
+            "q4",
+            "x"
+          ],
+          [
+            "q7",
+            "q6",
+            "x"
+          ],
+          [
+            "q8",
+            "q7",
+            "x"
+          ],
+          [
+            "q9",
+            "q1",
+            "x"
+          ],
+          [
+            "q9",
+            "q2",
+            "x"
+          ],
+          [
+            "q9",
+            "q4",
+            "x"
+          ],
+          [
+            "q9",
+            "q5",
+            "x"
+          ],
+          [
+            "q9",
+            "q6",
+            "x"
+          ],
+          [
+            "q9",
+            "q8",
+            "x"
+          ],
+          [
+            "q10",
+            "q9",
+            "x"
+          ],
+          [
+            "s",
+            "q0",
+            "1"
+          ],
+          [
+            "s",
+            "q1",
+            "1"
+          ],
+          [
+            "s",
+            "q3",
+            "1"
+          ],
+          [
+            "s",
+            "q10",
+            "1"
+          ],
+          [
+            "q6",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "q10",
+          "q9",
+          "q8",
+          "q7",
+          "q0",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "t"
+        ],
+        "C_rows": [
+          2070,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4096,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "D_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          168,
+          256,
+          748,
+          1024,
+          0
+        ],
+        "K_rows": [
+          2071,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          4224,
+          256,
+          512,
+          1024,
+          2048,
+          4096
+        ],
+        "M_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4264,
+          256,
+          4844,
+          1024,
+          0
+        ],
+        "alpha_bits": 2071,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "g": 45,
+        "all_prefix_polynomial_bits": [
+          1,
+          1,
+          5,
+          20,
+          1,
+          20,
+          4,
+          20,
+          8,
+          4,
+          2,
+          1,
+          20
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          4,
+          10,
+          20,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          2071,
+          1024,
+          4844,
+          256,
+          4264,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 20
+      },
+      "arrows": {
+        "A": {
+          "orientation": "Q_to_A",
+          "X_rows": [
+            0,
+            1,
+            8,
+            64,
+            0,
+            0,
+            0,
+            0,
+            32,
+            16,
+            36,
+            22,
+            128
+          ],
+          "literal_map_rows": {
+            "s": [],
+            "q0": [
+              "s"
+            ],
+            "q1": [
+              "f2"
+            ],
+            "q2": [
+              "h2"
+            ],
+            "q3": [],
+            "q4": [],
+            "q5": [],
+            "q6": [],
+            "q7": [
+              "h1"
+            ],
+            "q8": [
+              "h0"
+            ],
+            "q9": [
+              "f1",
+              "h1"
+            ],
+            "q10": [
+              "f0",
+              "f1",
+              "h0"
+            ],
+            "t": [
+              "t"
+            ]
+          },
+          "support": 11,
+          "left_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            192,
+            32,
+            216,
+            36,
+            0
+          ],
+          "right_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            192,
+            32,
+            216,
+            36,
+            0
+          ],
+          "initial_product_bits": 31,
+          "required_initial_bits": 31,
+          "final_product_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "required_final_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "checks": {
+            "initial": true,
+            "transition": true,
+            "final": true
+          },
+          "failed_transition_coordinates": []
+        },
+        "B": {
+          "orientation": "Q_to_B",
+          "X_rows": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            8,
+            64,
+            0,
+            4,
+            6,
+            32,
+            16,
+            128
+          ],
+          "literal_map_rows": {
+            "s": [],
+            "q0": [],
+            "q1": [],
+            "q2": [],
+            "q3": [
+              "s"
+            ],
+            "q4": [
+              "f2"
+            ],
+            "q5": [
+              "h2"
+            ],
+            "q6": [],
+            "q7": [
+              "f1"
+            ],
+            "q8": [
+              "f0",
+              "f1"
+            ],
+            "q9": [
+              "h1"
+            ],
+            "q10": [
+              "h0"
+            ],
+            "t": [
+              "t"
+            ]
+          },
+          "support": 9,
+          "left_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            136,
+            4,
+            206,
+            32,
+            0
+          ],
+          "right_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            136,
+            4,
+            206,
+            32,
+            0
+          ],
+          "initial_product_bits": 17,
+          "required_initial_bits": 17,
+          "final_product_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "required_final_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "checks": {
+            "initial": true,
+            "transition": true,
+            "final": true
+          },
+          "failed_transition_coordinates": []
+        }
+      },
+      "ledger": {
+        "k": 1,
+        "N": 2,
+        "S": 52,
+        "dimension": 11,
+        "basis_support": 20,
+        "required_recurrence_value": 20,
+        "shift_support": 11,
+        "initial_support": 4,
+        "final_support": 1,
+        "Q_vertices": 13,
+        "Q_occurrences": 16,
+        "g_Q": 45,
+        "map_A_support": 11,
+        "map_B_support": 9,
+        "expanded_map_support": 20,
+        "required_asymptotic_threshold": "One constant C times N (equivalently S) for all k. This basis fails because H_(k+2)=2H_(k+1)+H_k, H_0=5, H_1=12.",
+        "equation_or_graph_failures": [],
+        "linear_bound_failure": "Proved symbolically for this basis only; finite values are not a proof of asymptotic failure."
+      },
+      "literal_table": [
+        {
+          "label": "A_s",
+          "A": [
+            "s"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "A_f2",
+          "A": [
+            "f2"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "A_h2",
+          "A": [
+            "h2"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "B_s",
+          "A": [],
+          "B": [
+            "s"
+          ],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "B_f2",
+          "A": [],
+          "B": [
+            "f2"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "B_h2",
+          "A": [],
+          "B": [
+            "h2"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "final",
+          "A": [
+            "t"
+          ],
+          "B": [
+            "t"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 1
+        },
+        {
+          "label": "L0",
+          "A": [
+            "h1"
+          ],
+          "B": [
+            "f1"
+          ],
+          "shift": [
+            "A_h2",
+            "B_f2",
+            "final"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L1",
+          "A": [
+            "h0"
+          ],
+          "B": [
+            "f0",
+            "f1"
+          ],
+          "shift": [
+            "L0"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H0",
+          "A": [
+            "f1",
+            "h1"
+          ],
+          "B": [
+            "h1"
+          ],
+          "shift": [
+            "A_f2",
+            "A_h2",
+            "B_f2",
+            "B_h2",
+            "final",
+            "L1"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H1",
+          "A": [
+            "f0",
+            "f1",
+            "h0"
+          ],
+          "B": [
+            "h0"
+          ],
+          "shift": [
+            "H0"
+          ],
+          "initial": 1,
+          "final": 0
+        }
+      ]
+    },
+    {
+      "A": {
+        "vertices": [
+          "s",
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "h0",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "f0",
+            "f1",
+            "1"
+          ],
+          [
+            "f0",
+            "f1",
+            "x"
+          ],
+          [
+            "f1",
+            "f2",
+            "1"
+          ],
+          [
+            "f1",
+            "f2",
+            "x"
+          ],
+          [
+            "f2",
+            "f3",
+            "1"
+          ],
+          [
+            "f2",
+            "f3",
+            "x"
+          ],
+          [
+            "f3",
+            "f4",
+            "1"
+          ],
+          [
+            "f3",
+            "f4",
+            "x"
+          ],
+          [
+            "h0",
+            "h1",
+            "x"
+          ],
+          [
+            "h1",
+            "h2",
+            "x"
+          ],
+          [
+            "h2",
+            "h3",
+            "x"
+          ],
+          [
+            "h3",
+            "h4",
+            "x"
+          ],
+          [
+            "s",
+            "f0",
+            "1"
+          ],
+          [
+            "f4",
+            "h0",
+            "1"
+          ],
+          [
+            "h4",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "h0",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "t"
+        ],
+        "C_rows": [
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          0,
+          0,
+          0,
+          0,
+          2048,
+          0
+        ],
+        "D_rows": [
+          0,
+          4,
+          8,
+          16,
+          32,
+          0,
+          128,
+          256,
+          512,
+          1024,
+          0,
+          0
+        ],
+        "K_rows": [
+          127,
+          126,
+          124,
+          120,
+          112,
+          96,
+          64,
+          128,
+          256,
+          512,
+          3072,
+          2048
+        ],
+        "M_rows": [
+          0,
+          124,
+          120,
+          112,
+          96,
+          0,
+          128,
+          256,
+          512,
+          3072,
+          0,
+          0
+        ],
+        "alpha_bits": 127,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "powers_M1_through_first_zero": [
+          [
+            0,
+            124,
+            120,
+            112,
+            96,
+            0,
+            128,
+            256,
+            512,
+            3072,
+            0,
+            0
+          ],
+          [
+            0,
+            232,
+            144,
+            224,
+            128,
+            0,
+            256,
+            512,
+            3072,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            496,
+            352,
+            384,
+            256,
+            0,
+            512,
+            3072,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            992,
+            640,
+            768,
+            512,
+            0,
+            3072,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3968,
+            3328,
+            3584,
+            3072,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3840,
+            512,
+            3072,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3584,
+            3072,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3072,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "nilpotency_index": 9,
+        "all_coefficients_through_dimension": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "g": 42,
+        "all_prefix_polynomial_bits": [
+          1,
+          1,
+          3,
+          5,
+          15,
+          17,
+          17,
+          34,
+          68,
+          136,
+          272,
+          272
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          480,
+          160,
+          96,
+          32,
+          0,
+          16,
+          8,
+          4,
+          2,
+          0,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          127,
+          148,
+          280,
+          528,
+          3168,
+          128,
+          256,
+          512,
+          3072,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 272
+      },
+      "B": {
+        "vertices": [
+          "s",
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "h0",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "f0",
+            "f1",
+            "1"
+          ],
+          [
+            "f0",
+            "f1",
+            "x"
+          ],
+          [
+            "f1",
+            "f2",
+            "1"
+          ],
+          [
+            "f1",
+            "f2",
+            "x"
+          ],
+          [
+            "f2",
+            "f3",
+            "1"
+          ],
+          [
+            "f2",
+            "f3",
+            "x"
+          ],
+          [
+            "f3",
+            "f4",
+            "1"
+          ],
+          [
+            "f3",
+            "f4",
+            "x"
+          ],
+          [
+            "h0",
+            "h1",
+            "x"
+          ],
+          [
+            "h1",
+            "h2",
+            "x"
+          ],
+          [
+            "h2",
+            "h3",
+            "x"
+          ],
+          [
+            "h3",
+            "h4",
+            "x"
+          ],
+          [
+            "s",
+            "h0",
+            "1"
+          ],
+          [
+            "h4",
+            "f0",
+            "1"
+          ],
+          [
+            "f4",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "h0",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "t"
+        ],
+        "C_rows": [
+          64,
+          4,
+          8,
+          16,
+          32,
+          2048,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "D_rows": [
+          0,
+          4,
+          8,
+          16,
+          32,
+          0,
+          128,
+          256,
+          512,
+          1024,
+          0,
+          0
+        ],
+        "K_rows": [
+          65,
+          2110,
+          2108,
+          2104,
+          2096,
+          2080,
+          64,
+          128,
+          256,
+          512,
+          3134,
+          2048
+        ],
+        "M_rows": [
+          0,
+          2108,
+          2104,
+          2096,
+          2080,
+          0,
+          128,
+          256,
+          512,
+          3134,
+          0,
+          0
+        ],
+        "alpha_bits": 65,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "powers_M1_through_first_zero": [
+          [
+            0,
+            2108,
+            2104,
+            2096,
+            2080,
+            0,
+            128,
+            256,
+            512,
+            3134,
+            0,
+            0
+          ],
+          [
+            0,
+            2088,
+            16,
+            2080,
+            0,
+            0,
+            256,
+            512,
+            3134,
+            20,
+            0,
+            0
+          ],
+          [
+            0,
+            2096,
+            2080,
+            0,
+            0,
+            0,
+            512,
+            3134,
+            20,
+            24,
+            0,
+            0
+          ],
+          [
+            0,
+            2080,
+            0,
+            0,
+            0,
+            0,
+            3134,
+            20,
+            24,
+            16,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            24,
+            16,
+            2080,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            16,
+            2080,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            16,
+            2080,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2080,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "nilpotency_index": 9,
+        "all_coefficients_through_dimension": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "g": 42,
+        "all_prefix_polynomial_bits": [
+          1,
+          16,
+          48,
+          80,
+          240,
+          272,
+          1,
+          2,
+          4,
+          8,
+          16,
+          272
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          30,
+          10,
+          6,
+          2,
+          0,
+          272,
+          136,
+          68,
+          34,
+          0,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          65,
+          128,
+          256,
+          512,
+          3134,
+          20,
+          24,
+          16,
+          2080,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 272
+      },
+      "factor_choices": [
+        {
+          "label": "L0",
+          "j": 0,
+          "a": 0,
+          "b": 0,
+          "q_z_coefficients": 1,
+          "q_y_coefficients": 1,
+          "weight": 2
+        },
+        {
+          "label": "L1",
+          "j": 1,
+          "a": 1,
+          "b": 0,
+          "q_z_coefficients": 2,
+          "q_y_coefficients": 3,
+          "weight": 3
+        },
+        {
+          "label": "L2",
+          "j": 2,
+          "a": 2,
+          "b": 0,
+          "q_z_coefficients": 4,
+          "q_y_coefficients": 5,
+          "weight": 3
+        },
+        {
+          "label": "L3",
+          "j": 3,
+          "a": 1,
+          "b": 2,
+          "q_z_coefficients": 10,
+          "q_y_coefficients": 12,
+          "weight": 4
+        },
+        {
+          "label": "H0",
+          "j": 0,
+          "a": 0,
+          "b": 0,
+          "q_z_coefficients": 1,
+          "q_y_coefficients": 1,
+          "weight": 3
+        },
+        {
+          "label": "H1",
+          "j": 1,
+          "a": 1,
+          "b": 0,
+          "q_z_coefficients": 2,
+          "q_y_coefficients": 3,
+          "weight": 4
+        },
+        {
+          "label": "H2",
+          "j": 2,
+          "a": 2,
+          "b": 0,
+          "q_z_coefficients": 4,
+          "q_y_coefficients": 5,
+          "weight": 4
+        },
+        {
+          "label": "H3",
+          "j": 3,
+          "a": 3,
+          "b": 0,
+          "q_z_coefficients": 8,
+          "q_y_coefficients": 15,
+          "weight": 6
+        }
+      ],
+      "basis_labels": [
+        "A_s",
+        "A_f4",
+        "A_h4",
+        "B_s",
+        "B_f4",
+        "B_h4",
+        "final",
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "H0",
+        "H1",
+        "H2",
+        "H3"
+      ],
+      "basis_rows": [
+        1,
+        32,
+        1024,
+        4096,
+        131072,
+        4194304,
+        8390656,
+        66048,
+        98560,
+        82048,
+        24896,
+        2097680,
+        1048856,
+        524436,
+        262238
+      ],
+      "basis_A_rows": [
+        1,
+        32,
+        1024,
+        0,
+        0,
+        0,
+        2048,
+        512,
+        256,
+        128,
+        320,
+        528,
+        280,
+        148,
+        94
+      ],
+      "basis_B_rows": [
+        0,
+        0,
+        0,
+        1,
+        32,
+        1024,
+        2048,
+        16,
+        24,
+        20,
+        6,
+        512,
+        256,
+        128,
+        64
+      ],
+      "relation_residual_columns": [
+        0,
+        480,
+        160,
+        96,
+        32,
+        0,
+        16,
+        8,
+        4,
+        2,
+        0,
+        1,
+        0,
+        30,
+        10,
+        6,
+        2,
+        0,
+        272,
+        136,
+        68,
+        34,
+        0,
+        1
+      ],
+      "A_residual_degree_rank_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "shift_images_original_coordinates": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8522752,
+        66048,
+        98560,
+        17024,
+        12840032,
+        2097680,
+        1048856,
+        524436
+      ],
+      "shift_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        84,
+        128,
+        256,
+        640,
+        1398,
+        2048,
+        4096,
+        8192
+      ],
+      "shift_products": {
+        "A_left": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3072,
+          512,
+          256,
+          640,
+          3168,
+          528,
+          280,
+          148
+        ],
+        "A_right": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3072,
+          512,
+          256,
+          640,
+          3168,
+          528,
+          280,
+          148
+        ],
+        "B_left": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2080,
+          16,
+          24,
+          4,
+          3134,
+          512,
+          256,
+          128
+        ],
+        "B_right": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2080,
+          16,
+          24,
+          4,
+          3134,
+          512,
+          256,
+          128
+        ]
+      },
+      "degree_topological_order": [
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "initial_coordinates": 16395,
+      "common_final_functional": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "initial_A_product": 127,
+      "initial_B_product": 65,
+      "Q": {
+        "vertices": [
+          "s",
+          "q0",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q8",
+          "q9",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "q7",
+            "q2",
+            "x"
+          ],
+          [
+            "q7",
+            "q4",
+            "x"
+          ],
+          [
+            "q7",
+            "q6",
+            "x"
+          ],
+          [
+            "q8",
+            "q7",
+            "x"
+          ],
+          [
+            "q9",
+            "q8",
+            "x"
+          ],
+          [
+            "q10",
+            "q7",
+            "x"
+          ],
+          [
+            "q10",
+            "q9",
+            "x"
+          ],
+          [
+            "q11",
+            "q1",
+            "x"
+          ],
+          [
+            "q11",
+            "q2",
+            "x"
+          ],
+          [
+            "q11",
+            "q4",
+            "x"
+          ],
+          [
+            "q11",
+            "q5",
+            "x"
+          ],
+          [
+            "q11",
+            "q6",
+            "x"
+          ],
+          [
+            "q11",
+            "q8",
+            "x"
+          ],
+          [
+            "q11",
+            "q10",
+            "x"
+          ],
+          [
+            "q12",
+            "q11",
+            "x"
+          ],
+          [
+            "q13",
+            "q12",
+            "x"
+          ],
+          [
+            "q14",
+            "q13",
+            "x"
+          ],
+          [
+            "s",
+            "q0",
+            "1"
+          ],
+          [
+            "s",
+            "q1",
+            "1"
+          ],
+          [
+            "s",
+            "q3",
+            "1"
+          ],
+          [
+            "s",
+            "q14",
+            "1"
+          ],
+          [
+            "q6",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "q14",
+          "q13",
+          "q12",
+          "q11",
+          "q10",
+          "q9",
+          "q8",
+          "q7",
+          "q0",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "t"
+        ],
+        "C_rows": [
+          32790,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          65536,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "D_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          168,
+          256,
+          512,
+          1280,
+          2796,
+          4096,
+          8192,
+          16384,
+          0
+        ],
+        "K_rows": [
+          32791,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          65664,
+          256,
+          512,
+          1024,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536
+        ],
+        "M_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          65704,
+          256,
+          512,
+          1280,
+          68332,
+          4096,
+          8192,
+          16384,
+          0
+        ],
+        "alpha_bits": 32791,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "g": 61,
+        "all_prefix_polynomial_bits": [
+          1,
+          1,
+          17,
+          272,
+          1,
+          272,
+          16,
+          272,
+          128,
+          80,
+          32,
+          16,
+          8,
+          4,
+          2,
+          1,
+          272
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          4,
+          8,
+          20,
+          34,
+          68,
+          136,
+          272,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          32791,
+          16384,
+          8192,
+          4096,
+          68332,
+          1024,
+          512,
+          256,
+          65704,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 272
+      },
+      "arrows": {
+        "A": {
+          "orientation": "Q_to_A",
+          "X_rows": [
+            0,
+            1,
+            32,
+            1024,
+            0,
+            0,
+            0,
+            0,
+            512,
+            256,
+            128,
+            320,
+            528,
+            280,
+            148,
+            94,
+            2048
+          ],
+          "literal_map_rows": {
+            "s": [],
+            "q0": [
+              "s"
+            ],
+            "q1": [
+              "f4"
+            ],
+            "q2": [
+              "h4"
+            ],
+            "q3": [],
+            "q4": [],
+            "q5": [],
+            "q6": [],
+            "q7": [
+              "h3"
+            ],
+            "q8": [
+              "h2"
+            ],
+            "q9": [
+              "h1"
+            ],
+            "q10": [
+              "h0",
+              "h2"
+            ],
+            "q11": [
+              "f3",
+              "h3"
+            ],
+            "q12": [
+              "f2",
+              "f3",
+              "h2"
+            ],
+            "q13": [
+              "f1",
+              "f3",
+              "h1"
+            ],
+            "q14": [
+              "f0",
+              "f1",
+              "f2",
+              "f3",
+              "h0"
+            ],
+            "t": [
+              "t"
+            ]
+          },
+          "support": 22,
+          "left_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3072,
+            512,
+            256,
+            640,
+            3168,
+            528,
+            280,
+            148,
+            0
+          ],
+          "right_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3072,
+            512,
+            256,
+            640,
+            3168,
+            528,
+            280,
+            148,
+            0
+          ],
+          "initial_product_bits": 127,
+          "required_initial_bits": 127,
+          "final_product_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "required_final_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "checks": {
+            "initial": true,
+            "transition": true,
+            "final": true
+          },
+          "failed_transition_coordinates": []
+        },
+        "B": {
+          "orientation": "Q_to_B",
+          "X_rows": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            32,
+            1024,
+            0,
+            16,
+            24,
+            20,
+            6,
+            512,
+            256,
+            128,
+            64,
+            2048
+          ],
+          "literal_map_rows": {
+            "s": [],
+            "q0": [],
+            "q1": [],
+            "q2": [],
+            "q3": [
+              "s"
+            ],
+            "q4": [
+              "f4"
+            ],
+            "q5": [
+              "h4"
+            ],
+            "q6": [],
+            "q7": [
+              "f3"
+            ],
+            "q8": [
+              "f2",
+              "f3"
+            ],
+            "q9": [
+              "f1",
+              "f3"
+            ],
+            "q10": [
+              "f0",
+              "f1"
+            ],
+            "q11": [
+              "h3"
+            ],
+            "q12": [
+              "h2"
+            ],
+            "q13": [
+              "h1"
+            ],
+            "q14": [
+              "h0"
+            ],
+            "t": [
+              "t"
+            ]
+          },
+          "support": 15,
+          "left_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2080,
+            16,
+            24,
+            4,
+            3134,
+            512,
+            256,
+            128,
+            0
+          ],
+          "right_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2080,
+            16,
+            24,
+            4,
+            3134,
+            512,
+            256,
+            128,
+            0
+          ],
+          "initial_product_bits": 65,
+          "required_initial_bits": 65,
+          "final_product_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "required_final_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "checks": {
+            "initial": true,
+            "transition": true,
+            "final": true
+          },
+          "failed_transition_coordinates": []
+        }
+      },
+      "ledger": {
+        "k": 2,
+        "N": 4,
+        "S": 84,
+        "dimension": 15,
+        "basis_support": 37,
+        "required_recurrence_value": 37,
+        "shift_support": 17,
+        "initial_support": 4,
+        "final_support": 1,
+        "Q_vertices": 17,
+        "Q_occurrences": 22,
+        "g_Q": 61,
+        "map_A_support": 22,
+        "map_B_support": 15,
+        "expanded_map_support": 37,
+        "required_asymptotic_threshold": "One constant C times N (equivalently S) for all k. This basis fails because H_(k+2)=2H_(k+1)+H_k, H_0=5, H_1=12.",
+        "equation_or_graph_failures": [],
+        "linear_bound_failure": "Proved symbolically for this basis only; finite values are not a proof of asymptotic failure."
+      },
+      "literal_table": [
+        {
+          "label": "A_s",
+          "A": [
+            "s"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "A_f4",
+          "A": [
+            "f4"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "A_h4",
+          "A": [
+            "h4"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "B_s",
+          "A": [],
+          "B": [
+            "s"
+          ],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "B_f4",
+          "A": [],
+          "B": [
+            "f4"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "B_h4",
+          "A": [],
+          "B": [
+            "h4"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "final",
+          "A": [
+            "t"
+          ],
+          "B": [
+            "t"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 1
+        },
+        {
+          "label": "L0",
+          "A": [
+            "h3"
+          ],
+          "B": [
+            "f3"
+          ],
+          "shift": [
+            "A_h4",
+            "B_f4",
+            "final"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L1",
+          "A": [
+            "h2"
+          ],
+          "B": [
+            "f2",
+            "f3"
+          ],
+          "shift": [
+            "L0"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L2",
+          "A": [
+            "h1"
+          ],
+          "B": [
+            "f1",
+            "f3"
+          ],
+          "shift": [
+            "L1"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L3",
+          "A": [
+            "h0",
+            "h2"
+          ],
+          "B": [
+            "f0",
+            "f1"
+          ],
+          "shift": [
+            "L0",
+            "L2"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H0",
+          "A": [
+            "f3",
+            "h3"
+          ],
+          "B": [
+            "h3"
+          ],
+          "shift": [
+            "A_f4",
+            "A_h4",
+            "B_f4",
+            "B_h4",
+            "final",
+            "L1",
+            "L3"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H1",
+          "A": [
+            "f2",
+            "f3",
+            "h2"
+          ],
+          "B": [
+            "h2"
+          ],
+          "shift": [
+            "H0"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H2",
+          "A": [
+            "f1",
+            "f3",
+            "h1"
+          ],
+          "B": [
+            "h1"
+          ],
+          "shift": [
+            "H1"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H3",
+          "A": [
+            "f0",
+            "f1",
+            "f2",
+            "f3",
+            "h0"
+          ],
+          "B": [
+            "h0"
+          ],
+          "shift": [
+            "H2"
+          ],
+          "initial": 1,
+          "final": 0
+        }
+      ]
+    },
+    {
+      "A": {
+        "vertices": [
+          "s",
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6",
+          "f7",
+          "f8",
+          "h0",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "h7",
+          "h8",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "f0",
+            "f1",
+            "1"
+          ],
+          [
+            "f0",
+            "f1",
+            "x"
+          ],
+          [
+            "f1",
+            "f2",
+            "1"
+          ],
+          [
+            "f1",
+            "f2",
+            "x"
+          ],
+          [
+            "f2",
+            "f3",
+            "1"
+          ],
+          [
+            "f2",
+            "f3",
+            "x"
+          ],
+          [
+            "f3",
+            "f4",
+            "1"
+          ],
+          [
+            "f3",
+            "f4",
+            "x"
+          ],
+          [
+            "f4",
+            "f5",
+            "1"
+          ],
+          [
+            "f4",
+            "f5",
+            "x"
+          ],
+          [
+            "f5",
+            "f6",
+            "1"
+          ],
+          [
+            "f5",
+            "f6",
+            "x"
+          ],
+          [
+            "f6",
+            "f7",
+            "1"
+          ],
+          [
+            "f6",
+            "f7",
+            "x"
+          ],
+          [
+            "f7",
+            "f8",
+            "1"
+          ],
+          [
+            "f7",
+            "f8",
+            "x"
+          ],
+          [
+            "h0",
+            "h1",
+            "x"
+          ],
+          [
+            "h1",
+            "h2",
+            "x"
+          ],
+          [
+            "h2",
+            "h3",
+            "x"
+          ],
+          [
+            "h3",
+            "h4",
+            "x"
+          ],
+          [
+            "h4",
+            "h5",
+            "x"
+          ],
+          [
+            "h5",
+            "h6",
+            "x"
+          ],
+          [
+            "h6",
+            "h7",
+            "x"
+          ],
+          [
+            "h7",
+            "h8",
+            "x"
+          ],
+          [
+            "s",
+            "f0",
+            "1"
+          ],
+          [
+            "f8",
+            "h0",
+            "1"
+          ],
+          [
+            "h8",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6",
+          "f7",
+          "f8",
+          "h0",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "h7",
+          "h8",
+          "t"
+        ],
+        "C_rows": [
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          1024,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          524288,
+          0
+        ],
+        "D_rows": [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          0,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536,
+          131072,
+          262144,
+          0,
+          0
+        ],
+        "K_rows": [
+          2047,
+          2046,
+          2044,
+          2040,
+          2032,
+          2016,
+          1984,
+          1920,
+          1792,
+          1536,
+          1024,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536,
+          131072,
+          786432,
+          524288
+        ],
+        "M_rows": [
+          0,
+          2044,
+          2040,
+          2032,
+          2016,
+          1984,
+          1920,
+          1792,
+          1536,
+          0,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536,
+          131072,
+          786432,
+          0,
+          0
+        ],
+        "alpha_bits": 2047,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "powers_M1_through_first_zero": [
+          [
+            0,
+            2044,
+            2040,
+            2032,
+            2016,
+            1984,
+            1920,
+            1792,
+            1536,
+            0,
+            2048,
+            4096,
+            8192,
+            16384,
+            32768,
+            65536,
+            131072,
+            786432,
+            0,
+            0
+          ],
+          [
+            0,
+            3752,
+            2384,
+            3744,
+            2368,
+            3712,
+            2304,
+            3584,
+            2048,
+            0,
+            4096,
+            8192,
+            16384,
+            32768,
+            65536,
+            131072,
+            786432,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            7984,
+            5728,
+            6336,
+            4480,
+            7936,
+            5632,
+            6144,
+            4096,
+            0,
+            8192,
+            16384,
+            32768,
+            65536,
+            131072,
+            786432,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            15904,
+            10304,
+            12416,
+            8448,
+            15872,
+            10240,
+            12288,
+            8192,
+            0,
+            16384,
+            32768,
+            65536,
+            131072,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            32704,
+            22400,
+            26368,
+            17920,
+            30720,
+            20480,
+            24576,
+            16384,
+            0,
+            32768,
+            65536,
+            131072,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            65152,
+            43264,
+            52736,
+            34816,
+            61440,
+            40960,
+            49152,
+            32768,
+            0,
+            65536,
+            131072,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            130816,
+            87552,
+            104448,
+            69632,
+            122880,
+            81920,
+            98304,
+            65536,
+            0,
+            131072,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            261632,
+            174080,
+            208896,
+            139264,
+            245760,
+            163840,
+            196608,
+            131072,
+            0,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1046528,
+            872448,
+            942080,
+            802816,
+            1015808,
+            851968,
+            917504,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1044480,
+            172032,
+            835584,
+            32768,
+            983040,
+            131072,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1040384,
+            868352,
+            98304,
+            65536,
+            917504,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1032192,
+            163840,
+            196608,
+            131072,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1015808,
+            851968,
+            917504,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            983040,
+            131072,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            917504,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            786432,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "nilpotency_index": 17,
+        "all_coefficients_through_dimension": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "g": 74,
+        "all_prefix_polynomial_bits": [
+          1,
+          1,
+          3,
+          5,
+          15,
+          17,
+          51,
+          85,
+          255,
+          257,
+          257,
+          514,
+          1028,
+          2056,
+          4112,
+          8224,
+          16448,
+          32896,
+          65792,
+          65792
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          130560,
+          43520,
+          26112,
+          8704,
+          7680,
+          2560,
+          1536,
+          512,
+          0,
+          256,
+          128,
+          64,
+          32,
+          16,
+          8,
+          4,
+          2,
+          0,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          2047,
+          2388,
+          4504,
+          8464,
+          16864,
+          33088,
+          65920,
+          131328,
+          787968,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536,
+          131072,
+          786432,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 65792
+      },
+      "B": {
+        "vertices": [
+          "s",
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6",
+          "f7",
+          "f8",
+          "h0",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "h7",
+          "h8",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "f0",
+            "f1",
+            "1"
+          ],
+          [
+            "f0",
+            "f1",
+            "x"
+          ],
+          [
+            "f1",
+            "f2",
+            "1"
+          ],
+          [
+            "f1",
+            "f2",
+            "x"
+          ],
+          [
+            "f2",
+            "f3",
+            "1"
+          ],
+          [
+            "f2",
+            "f3",
+            "x"
+          ],
+          [
+            "f3",
+            "f4",
+            "1"
+          ],
+          [
+            "f3",
+            "f4",
+            "x"
+          ],
+          [
+            "f4",
+            "f5",
+            "1"
+          ],
+          [
+            "f4",
+            "f5",
+            "x"
+          ],
+          [
+            "f5",
+            "f6",
+            "1"
+          ],
+          [
+            "f5",
+            "f6",
+            "x"
+          ],
+          [
+            "f6",
+            "f7",
+            "1"
+          ],
+          [
+            "f6",
+            "f7",
+            "x"
+          ],
+          [
+            "f7",
+            "f8",
+            "1"
+          ],
+          [
+            "f7",
+            "f8",
+            "x"
+          ],
+          [
+            "h0",
+            "h1",
+            "x"
+          ],
+          [
+            "h1",
+            "h2",
+            "x"
+          ],
+          [
+            "h2",
+            "h3",
+            "x"
+          ],
+          [
+            "h3",
+            "h4",
+            "x"
+          ],
+          [
+            "h4",
+            "h5",
+            "x"
+          ],
+          [
+            "h5",
+            "h6",
+            "x"
+          ],
+          [
+            "h6",
+            "h7",
+            "x"
+          ],
+          [
+            "h7",
+            "h8",
+            "x"
+          ],
+          [
+            "s",
+            "h0",
+            "1"
+          ],
+          [
+            "h8",
+            "f0",
+            "1"
+          ],
+          [
+            "f8",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "h0",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "h7",
+          "h8",
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6",
+          "f7",
+          "f8",
+          "t"
+        ],
+        "C_rows": [
+          1024,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          524288,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "D_rows": [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          0,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536,
+          131072,
+          262144,
+          0,
+          0
+        ],
+        "K_rows": [
+          1025,
+          525310,
+          525308,
+          525304,
+          525296,
+          525280,
+          525248,
+          525184,
+          525056,
+          524800,
+          1024,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536,
+          131072,
+          787454,
+          524288
+        ],
+        "M_rows": [
+          0,
+          525308,
+          525304,
+          525296,
+          525280,
+          525248,
+          525184,
+          525056,
+          524800,
+          0,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536,
+          131072,
+          787454,
+          0,
+          0
+        ],
+        "alpha_bits": 1025,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "powers_M1_through_first_zero": [
+          [
+            0,
+            525308,
+            525304,
+            525296,
+            525280,
+            525248,
+            525184,
+            525056,
+            524800,
+            0,
+            2048,
+            4096,
+            8192,
+            16384,
+            32768,
+            65536,
+            131072,
+            787454,
+            0,
+            0
+          ],
+          [
+            0,
+            524968,
+            336,
+            524960,
+            320,
+            524928,
+            256,
+            524800,
+            0,
+            0,
+            4096,
+            8192,
+            16384,
+            32768,
+            65536,
+            131072,
+            787454,
+            340,
+            0,
+            0
+          ],
+          [
+            0,
+            525104,
+            524896,
+            192,
+            384,
+            525056,
+            524800,
+            0,
+            0,
+            0,
+            8192,
+            16384,
+            32768,
+            65536,
+            131072,
+            787454,
+            340,
+            408,
+            0,
+            0
+          ],
+          [
+            0,
+            524832,
+            64,
+            128,
+            256,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            16384,
+            32768,
+            65536,
+            131072,
+            787454,
+            340,
+            408,
+            272,
+            0,
+            0
+          ],
+          [
+            0,
+            525248,
+            525184,
+            525056,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            0,
+            32768,
+            65536,
+            131072,
+            787454,
+            340,
+            408,
+            272,
+            480,
+            0,
+            0
+          ],
+          [
+            0,
+            524928,
+            256,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            65536,
+            131072,
+            787454,
+            340,
+            408,
+            272,
+            480,
+            320,
+            0,
+            0
+          ],
+          [
+            0,
+            525056,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            131072,
+            787454,
+            340,
+            408,
+            272,
+            480,
+            320,
+            384,
+            0,
+            0
+          ],
+          [
+            0,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            787454,
+            340,
+            408,
+            272,
+            480,
+            320,
+            384,
+            256,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            340,
+            408,
+            272,
+            480,
+            320,
+            384,
+            256,
+            524800,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            408,
+            272,
+            480,
+            320,
+            384,
+            256,
+            524800,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            272,
+            480,
+            320,
+            384,
+            256,
+            524800,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            480,
+            320,
+            384,
+            256,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            320,
+            384,
+            256,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            384,
+            256,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            256,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            524800,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "nilpotency_index": 17,
+        "all_coefficients_through_dimension": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "g": 74,
+        "all_prefix_polynomial_bits": [
+          1,
+          256,
+          768,
+          1280,
+          3840,
+          4352,
+          13056,
+          21760,
+          65280,
+          65792,
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          65792
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          510,
+          170,
+          102,
+          34,
+          30,
+          10,
+          6,
+          2,
+          0,
+          65792,
+          32896,
+          16448,
+          8224,
+          4112,
+          2056,
+          1028,
+          514,
+          0,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          1025,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536,
+          131072,
+          787454,
+          340,
+          408,
+          272,
+          480,
+          320,
+          384,
+          256,
+          524800,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 65792
+      },
+      "factor_choices": [
+        {
+          "label": "L0",
+          "j": 0,
+          "a": 0,
+          "b": 0,
+          "q_z_coefficients": 1,
+          "q_y_coefficients": 1,
+          "weight": 2
+        },
+        {
+          "label": "L1",
+          "j": 1,
+          "a": 1,
+          "b": 0,
+          "q_z_coefficients": 2,
+          "q_y_coefficients": 3,
+          "weight": 3
+        },
+        {
+          "label": "L2",
+          "j": 2,
+          "a": 2,
+          "b": 0,
+          "q_z_coefficients": 4,
+          "q_y_coefficients": 5,
+          "weight": 3
+        },
+        {
+          "label": "L3",
+          "j": 3,
+          "a": 1,
+          "b": 2,
+          "q_z_coefficients": 10,
+          "q_y_coefficients": 12,
+          "weight": 4
+        },
+        {
+          "label": "L4",
+          "j": 4,
+          "a": 4,
+          "b": 0,
+          "q_z_coefficients": 16,
+          "q_y_coefficients": 17,
+          "weight": 3
+        },
+        {
+          "label": "L5",
+          "j": 5,
+          "a": 1,
+          "b": 4,
+          "q_z_coefficients": 34,
+          "q_y_coefficients": 48,
+          "weight": 4
+        },
+        {
+          "label": "L6",
+          "j": 6,
+          "a": 2,
+          "b": 4,
+          "q_z_coefficients": 68,
+          "q_y_coefficients": 80,
+          "weight": 4
+        },
+        {
+          "label": "L7",
+          "j": 7,
+          "a": 3,
+          "b": 4,
+          "q_z_coefficients": 136,
+          "q_y_coefficients": 240,
+          "weight": 6
+        },
+        {
+          "label": "H0",
+          "j": 0,
+          "a": 0,
+          "b": 0,
+          "q_z_coefficients": 1,
+          "q_y_coefficients": 1,
+          "weight": 3
+        },
+        {
+          "label": "H1",
+          "j": 1,
+          "a": 1,
+          "b": 0,
+          "q_z_coefficients": 2,
+          "q_y_coefficients": 3,
+          "weight": 4
+        },
+        {
+          "label": "H2",
+          "j": 2,
+          "a": 2,
+          "b": 0,
+          "q_z_coefficients": 4,
+          "q_y_coefficients": 5,
+          "weight": 4
+        },
+        {
+          "label": "H3",
+          "j": 3,
+          "a": 3,
+          "b": 0,
+          "q_z_coefficients": 8,
+          "q_y_coefficients": 15,
+          "weight": 6
+        },
+        {
+          "label": "H4",
+          "j": 4,
+          "a": 4,
+          "b": 0,
+          "q_z_coefficients": 16,
+          "q_y_coefficients": 17,
+          "weight": 4
+        },
+        {
+          "label": "H5",
+          "j": 5,
+          "a": 5,
+          "b": 0,
+          "q_z_coefficients": 32,
+          "q_y_coefficients": 51,
+          "weight": 6
+        },
+        {
+          "label": "H6",
+          "j": 6,
+          "a": 6,
+          "b": 0,
+          "q_z_coefficients": 64,
+          "q_y_coefficients": 85,
+          "weight": 6
+        },
+        {
+          "label": "H7",
+          "j": 7,
+          "a": 3,
+          "b": 4,
+          "q_z_coefficients": 136,
+          "q_y_coefficients": 240,
+          "weight": 8
+        }
+      ],
+      "basis_labels": [
+        "A_s",
+        "A_f8",
+        "A_h8",
+        "B_s",
+        "B_f8",
+        "B_h8",
+        "final",
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "H0",
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ],
+      "basis_rows": [
+        1,
+        512,
+        262144,
+        1048576,
+        536870912,
+        274877906944,
+        549756338176,
+        268566528,
+        402718720,
+        335577088,
+        100745216,
+        285220864,
+        25235456,
+        21006336,
+        31474688,
+        137439084800,
+        68719542656,
+        34359771456,
+        17179886048,
+        8589943056,
+        4294971800,
+        2147486036,
+        18253628446
+      ],
+      "basis_A_rows": [
+        1,
+        512,
+        262144,
+        0,
+        0,
+        0,
+        524288,
+        131072,
+        65536,
+        32768,
+        81920,
+        8192,
+        69632,
+        34816,
+        17408,
+        131328,
+        65920,
+        33088,
+        16864,
+        8464,
+        4504,
+        2388,
+        17438
+      ],
+      "basis_B_rows": [
+        0,
+        0,
+        0,
+        1,
+        512,
+        262144,
+        524288,
+        256,
+        384,
+        320,
+        96,
+        272,
+        24,
+        20,
+        30,
+        131072,
+        65536,
+        32768,
+        16384,
+        8192,
+        4096,
+        2048,
+        17408
+      ],
+      "relation_residual_columns": [
+        0,
+        130560,
+        43520,
+        26112,
+        8704,
+        7680,
+        2560,
+        1536,
+        512,
+        0,
+        256,
+        128,
+        64,
+        32,
+        16,
+        8,
+        4,
+        2,
+        0,
+        1,
+        0,
+        510,
+        170,
+        102,
+        34,
+        30,
+        10,
+        6,
+        2,
+        0,
+        65792,
+        32896,
+        16448,
+        8224,
+        4112,
+        2056,
+        1028,
+        514,
+        0,
+        1
+      ],
+      "A_residual_degree_rank_witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "shift_images_original_coordinates": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        550293471232,
+        268566528,
+        402718720,
+        67272704,
+        503332864,
+        16916480,
+        25235456,
+        21006336,
+        825706153472,
+        137439084800,
+        68719542656,
+        34359771456,
+        17179886048,
+        8589943056,
+        4294971800,
+        36507256852
+      ],
+      "shift_rows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        84,
+        128,
+        256,
+        640,
+        1280,
+        2176,
+        4096,
+        8192,
+        17782,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288,
+        1048576,
+        2228224
+      ],
+      "shift_products": {
+        "A_left": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          786432,
+          131072,
+          65536,
+          163840,
+          16384,
+          139264,
+          69632,
+          34816,
+          787968,
+          131328,
+          65920,
+          33088,
+          16864,
+          8464,
+          4504,
+          34836
+        ],
+        "A_right": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          786432,
+          131072,
+          65536,
+          163840,
+          16384,
+          139264,
+          69632,
+          34816,
+          787968,
+          131328,
+          65920,
+          33088,
+          16864,
+          8464,
+          4504,
+          34836
+        ],
+        "B_left": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          524800,
+          256,
+          384,
+          64,
+          480,
+          16,
+          24,
+          20,
+          787454,
+          131072,
+          65536,
+          32768,
+          16384,
+          8192,
+          4096,
+          34816
+        ],
+        "B_right": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          524800,
+          256,
+          384,
+          64,
+          480,
+          16,
+          24,
+          20,
+          787454,
+          131072,
+          65536,
+          32768,
+          16384,
+          8192,
+          4096,
+          34816
+        ]
+      },
+      "degree_topological_order": [
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "initial_coordinates": 4456459,
+      "common_final_functional": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "initial_A_product": 2047,
+      "initial_B_product": 1025,
+      "Q": {
+        "vertices": [
+          "s",
+          "q0",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q8",
+          "q9",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17",
+          "q18",
+          "q19",
+          "q20",
+          "q21",
+          "q22",
+          "t"
+        ],
+        "occurrences": [
+          [
+            "q7",
+            "q2",
+            "x"
+          ],
+          [
+            "q7",
+            "q4",
+            "x"
+          ],
+          [
+            "q7",
+            "q6",
+            "x"
+          ],
+          [
+            "q8",
+            "q7",
+            "x"
+          ],
+          [
+            "q9",
+            "q8",
+            "x"
+          ],
+          [
+            "q10",
+            "q7",
+            "x"
+          ],
+          [
+            "q10",
+            "q9",
+            "x"
+          ],
+          [
+            "q11",
+            "q8",
+            "x"
+          ],
+          [
+            "q11",
+            "q10",
+            "x"
+          ],
+          [
+            "q12",
+            "q7",
+            "x"
+          ],
+          [
+            "q12",
+            "q11",
+            "x"
+          ],
+          [
+            "q13",
+            "q12",
+            "x"
+          ],
+          [
+            "q14",
+            "q13",
+            "x"
+          ],
+          [
+            "q15",
+            "q1",
+            "x"
+          ],
+          [
+            "q15",
+            "q2",
+            "x"
+          ],
+          [
+            "q15",
+            "q4",
+            "x"
+          ],
+          [
+            "q15",
+            "q5",
+            "x"
+          ],
+          [
+            "q15",
+            "q6",
+            "x"
+          ],
+          [
+            "q15",
+            "q8",
+            "x"
+          ],
+          [
+            "q15",
+            "q10",
+            "x"
+          ],
+          [
+            "q15",
+            "q14",
+            "x"
+          ],
+          [
+            "q16",
+            "q15",
+            "x"
+          ],
+          [
+            "q17",
+            "q16",
+            "x"
+          ],
+          [
+            "q18",
+            "q17",
+            "x"
+          ],
+          [
+            "q19",
+            "q18",
+            "x"
+          ],
+          [
+            "q20",
+            "q19",
+            "x"
+          ],
+          [
+            "q21",
+            "q20",
+            "x"
+          ],
+          [
+            "q22",
+            "q17",
+            "x"
+          ],
+          [
+            "q22",
+            "q21",
+            "x"
+          ],
+          [
+            "s",
+            "q0",
+            "1"
+          ],
+          [
+            "s",
+            "q1",
+            "1"
+          ],
+          [
+            "s",
+            "q3",
+            "1"
+          ],
+          [
+            "s",
+            "q18",
+            "1"
+          ],
+          [
+            "s",
+            "q22",
+            "1"
+          ],
+          [
+            "q6",
+            "t",
+            "1"
+          ]
+        ],
+        "topological_order": [
+          "s",
+          "q22",
+          "q21",
+          "q20",
+          "q19",
+          "q18",
+          "q17",
+          "q16",
+          "q15",
+          "q14",
+          "q13",
+          "q12",
+          "q11",
+          "q10",
+          "q9",
+          "q8",
+          "q7",
+          "q0",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "t"
+        ],
+        "C_rows": [
+          8912918,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16777216,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "D_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          168,
+          256,
+          512,
+          1280,
+          2560,
+          4352,
+          8192,
+          16384,
+          35564,
+          65536,
+          131072,
+          262144,
+          524288,
+          1048576,
+          2097152,
+          4456448,
+          0
+        ],
+        "K_rows": [
+          8912919,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          16777344,
+          256,
+          512,
+          1024,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          65536,
+          131072,
+          262144,
+          524288,
+          1048576,
+          2097152,
+          4194304,
+          8388608,
+          16777216
+        ],
+        "M_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16777384,
+          256,
+          512,
+          1280,
+          2560,
+          4352,
+          8192,
+          16384,
+          16812780,
+          65536,
+          131072,
+          262144,
+          524288,
+          1048576,
+          2097152,
+          4456448,
+          0
+        ],
+        "alpha_bits": 8912919,
+        "beta_rows": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "g": 95,
+        "all_prefix_polynomial_bits": [
+          1,
+          1,
+          257,
+          65792,
+          1,
+          65792,
+          256,
+          65792,
+          32768,
+          21760,
+          8704,
+          4352,
+          2048,
+          1024,
+          512,
+          256,
+          128,
+          64,
+          32,
+          17,
+          8,
+          4,
+          2,
+          1,
+          65792
+        ],
+        "all_residual_polynomial_bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          4,
+          8,
+          20,
+          32,
+          68,
+          136,
+          272,
+          514,
+          1028,
+          2056,
+          4112,
+          8224,
+          16448,
+          32896,
+          69904,
+          1
+        ],
+        "all_initial_orbit_rows": [
+          8912919,
+          4194304,
+          2097152,
+          1048576,
+          524288,
+          262144,
+          131072,
+          65536,
+          16812780,
+          17408,
+          8704,
+          4096,
+          2560,
+          1024,
+          512,
+          256,
+          16777384,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "accepted_polynomial_bits": 65792
+      },
+      "arrows": {
+        "A": {
+          "orientation": "Q_to_A",
+          "X_rows": [
+            0,
+            1,
+            512,
+            262144,
+            0,
+            0,
+            0,
+            0,
+            131072,
+            65536,
+            32768,
+            81920,
+            8192,
+            69632,
+            34816,
+            17408,
+            131328,
+            65920,
+            33088,
+            16864,
+            8464,
+            4504,
+            2388,
+            17438,
+            524288
+          ],
+          "literal_map_rows": {
+            "s": [],
+            "q0": [
+              "s"
+            ],
+            "q1": [
+              "f8"
+            ],
+            "q2": [
+              "h8"
+            ],
+            "q3": [],
+            "q4": [],
+            "q5": [],
+            "q6": [],
+            "q7": [
+              "h7"
+            ],
+            "q8": [
+              "h6"
+            ],
+            "q9": [
+              "h5"
+            ],
+            "q10": [
+              "h4",
+              "h6"
+            ],
+            "q11": [
+              "h3"
+            ],
+            "q12": [
+              "h2",
+              "h6"
+            ],
+            "q13": [
+              "h1",
+              "h5"
+            ],
+            "q14": [
+              "h0",
+              "h4"
+            ],
+            "q15": [
+              "f7",
+              "h7"
+            ],
+            "q16": [
+              "f6",
+              "f7",
+              "h6"
+            ],
+            "q17": [
+              "f5",
+              "f7",
+              "h5"
+            ],
+            "q18": [
+              "f4",
+              "f5",
+              "f6",
+              "f7",
+              "h4"
+            ],
+            "q19": [
+              "f3",
+              "f7",
+              "h3"
+            ],
+            "q20": [
+              "f2",
+              "f3",
+              "f6",
+              "f7",
+              "h2"
+            ],
+            "q21": [
+              "f1",
+              "f3",
+              "f5",
+              "f7",
+              "h1"
+            ],
+            "q22": [
+              "f0",
+              "f1",
+              "f2",
+              "f3",
+              "h0",
+              "h4"
+            ],
+            "t": [
+              "t"
+            ]
+          },
+          "support": 48,
+          "left_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            786432,
+            131072,
+            65536,
+            163840,
+            16384,
+            139264,
+            69632,
+            34816,
+            787968,
+            131328,
+            65920,
+            33088,
+            16864,
+            8464,
+            4504,
+            34836,
+            0
+          ],
+          "right_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            786432,
+            131072,
+            65536,
+            163840,
+            16384,
+            139264,
+            69632,
+            34816,
+            787968,
+            131328,
+            65920,
+            33088,
+            16864,
+            8464,
+            4504,
+            34836,
+            0
+          ],
+          "initial_product_bits": 2047,
+          "required_initial_bits": 2047,
+          "final_product_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "required_final_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "checks": {
+            "initial": true,
+            "transition": true,
+            "final": true
+          },
+          "failed_transition_coordinates": []
+        },
+        "B": {
+          "orientation": "Q_to_B",
+          "X_rows": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            512,
+            262144,
+            0,
+            256,
+            384,
+            320,
+            96,
+            272,
+            24,
+            20,
+            30,
+            131072,
+            65536,
+            32768,
+            16384,
+            8192,
+            4096,
+            2048,
+            17408,
+            524288
+          ],
+          "literal_map_rows": {
+            "s": [],
+            "q0": [],
+            "q1": [],
+            "q2": [],
+            "q3": [
+              "s"
+            ],
+            "q4": [
+              "f8"
+            ],
+            "q5": [
+              "h8"
+            ],
+            "q6": [],
+            "q7": [
+              "f7"
+            ],
+            "q8": [
+              "f6",
+              "f7"
+            ],
+            "q9": [
+              "f5",
+              "f7"
+            ],
+            "q10": [
+              "f4",
+              "f5"
+            ],
+            "q11": [
+              "f3",
+              "f7"
+            ],
+            "q12": [
+              "f2",
+              "f3"
+            ],
+            "q13": [
+              "f1",
+              "f3"
+            ],
+            "q14": [
+              "f0",
+              "f1",
+              "f2",
+              "f3"
+            ],
+            "q15": [
+              "h7"
+            ],
+            "q16": [
+              "h6"
+            ],
+            "q17": [
+              "h5"
+            ],
+            "q18": [
+              "h4"
+            ],
+            "q19": [
+              "h3"
+            ],
+            "q20": [
+              "h2"
+            ],
+            "q21": [
+              "h1"
+            ],
+            "q22": [
+              "h0",
+              "h4"
+            ],
+            "t": [
+              "t"
+            ]
+          },
+          "support": 30,
+          "left_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            524800,
+            256,
+            384,
+            64,
+            480,
+            16,
+            24,
+            20,
+            787454,
+            131072,
+            65536,
+            32768,
+            16384,
+            8192,
+            4096,
+            34816,
+            0
+          ],
+          "right_transition_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            524800,
+            256,
+            384,
+            64,
+            480,
+            16,
+            24,
+            20,
+            787454,
+            131072,
+            65536,
+            32768,
+            16384,
+            8192,
+            4096,
+            34816,
+            0
+          ],
+          "initial_product_bits": 1025,
+          "required_initial_bits": 1025,
+          "final_product_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "required_final_rows": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "checks": {
+            "initial": true,
+            "transition": true,
+            "final": true
+          },
+          "failed_transition_coordinates": []
+        }
+      },
+      "ledger": {
+        "k": 3,
+        "N": 8,
+        "S": 148,
+        "dimension": 23,
+        "basis_support": 78,
+        "required_recurrence_value": 78,
+        "shift_support": 29,
+        "initial_support": 5,
+        "final_support": 1,
+        "Q_vertices": 25,
+        "Q_occurrences": 35,
+        "g_Q": 95,
+        "map_A_support": 48,
+        "map_B_support": 30,
+        "expanded_map_support": 78,
+        "required_asymptotic_threshold": "One constant C times N (equivalently S) for all k. This basis fails because H_(k+2)=2H_(k+1)+H_k, H_0=5, H_1=12.",
+        "equation_or_graph_failures": [],
+        "linear_bound_failure": "Proved symbolically for this basis only; finite values are not a proof of asymptotic failure."
+      },
+      "literal_table": [
+        {
+          "label": "A_s",
+          "A": [
+            "s"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "A_f8",
+          "A": [
+            "f8"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "A_h8",
+          "A": [
+            "h8"
+          ],
+          "B": [],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "B_s",
+          "A": [],
+          "B": [
+            "s"
+          ],
+          "shift": [],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "B_f8",
+          "A": [],
+          "B": [
+            "f8"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "B_h8",
+          "A": [],
+          "B": [
+            "h8"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "final",
+          "A": [
+            "t"
+          ],
+          "B": [
+            "t"
+          ],
+          "shift": [],
+          "initial": 0,
+          "final": 1
+        },
+        {
+          "label": "L0",
+          "A": [
+            "h7"
+          ],
+          "B": [
+            "f7"
+          ],
+          "shift": [
+            "A_h8",
+            "B_f8",
+            "final"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L1",
+          "A": [
+            "h6"
+          ],
+          "B": [
+            "f6",
+            "f7"
+          ],
+          "shift": [
+            "L0"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L2",
+          "A": [
+            "h5"
+          ],
+          "B": [
+            "f5",
+            "f7"
+          ],
+          "shift": [
+            "L1"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L3",
+          "A": [
+            "h4",
+            "h6"
+          ],
+          "B": [
+            "f4",
+            "f5"
+          ],
+          "shift": [
+            "L0",
+            "L2"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L4",
+          "A": [
+            "h3"
+          ],
+          "B": [
+            "f3",
+            "f7"
+          ],
+          "shift": [
+            "L1",
+            "L3"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L5",
+          "A": [
+            "h2",
+            "h6"
+          ],
+          "B": [
+            "f2",
+            "f3"
+          ],
+          "shift": [
+            "L0",
+            "L4"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L6",
+          "A": [
+            "h1",
+            "h5"
+          ],
+          "B": [
+            "f1",
+            "f3"
+          ],
+          "shift": [
+            "L5"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "L7",
+          "A": [
+            "h0",
+            "h4"
+          ],
+          "B": [
+            "f0",
+            "f1",
+            "f2",
+            "f3"
+          ],
+          "shift": [
+            "L6"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H0",
+          "A": [
+            "f7",
+            "h7"
+          ],
+          "B": [
+            "h7"
+          ],
+          "shift": [
+            "A_f8",
+            "A_h8",
+            "B_f8",
+            "B_h8",
+            "final",
+            "L1",
+            "L3",
+            "L7"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H1",
+          "A": [
+            "f6",
+            "f7",
+            "h6"
+          ],
+          "B": [
+            "h6"
+          ],
+          "shift": [
+            "H0"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H2",
+          "A": [
+            "f5",
+            "f7",
+            "h5"
+          ],
+          "B": [
+            "h5"
+          ],
+          "shift": [
+            "H1"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H3",
+          "A": [
+            "f4",
+            "f5",
+            "f6",
+            "f7",
+            "h4"
+          ],
+          "B": [
+            "h4"
+          ],
+          "shift": [
+            "H2"
+          ],
+          "initial": 1,
+          "final": 0
+        },
+        {
+          "label": "H4",
+          "A": [
+            "f3",
+            "f7",
+            "h3"
+          ],
+          "B": [
+            "h3"
+          ],
+          "shift": [
+            "H3"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H5",
+          "A": [
+            "f2",
+            "f3",
+            "f6",
+            "f7",
+            "h2"
+          ],
+          "B": [
+            "h2"
+          ],
+          "shift": [
+            "H4"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H6",
+          "A": [
+            "f1",
+            "f3",
+            "f5",
+            "f7",
+            "h1"
+          ],
+          "B": [
+            "h1"
+          ],
+          "shift": [
+            "H5"
+          ],
+          "initial": 0,
+          "final": 0
+        },
+        {
+          "label": "H7",
+          "A": [
+            "f0",
+            "f1",
+            "f2",
+            "f3",
+            "h0",
+            "h4"
+          ],
+          "B": [
+            "h0",
+            "h4"
+          ],
+          "shift": [
+            "H2",
+            "H6"
+          ],
+          "initial": 1,
+          "final": 0
+        }
+      ]
+    }
+  ],
+  "scope": "Balanced Pascal-product basis only."
+}

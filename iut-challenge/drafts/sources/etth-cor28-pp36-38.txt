@@ -1,0 +1,236 @@
+36                                    SHINICHI MOCHIZUKI
+
+                                        ∼
+induces an isomorphism Δtp          tp
+                           Cα → ΔCβ ; moreover, this last isomorphism induces
+[by considering open subgroups of index 2 whose proﬁnite completions contain no
+                                       ∼
+torsion elements] an isomorphism Δtp      tp
+                                   Xα → ΔXβ , hence also [by considering the con-
+jugation action of Πtp                                             tp
+                     C on an appropriate abelian quotient of ΔX as in the proof
+                                            ∼
+of Proposition 1.8] an isomorphism Πtp           tp
+                                        Xα → ΠXβ , which preserves the decomposi-
+tion groups of cusps [cf. [Mzk14], Theorem 6.5, (iii)]. Also, by the deﬁnition of
+                               ∼                                            ∼
+ΔX , the isomorphism Δtp           tp
+                           Xα → ΔXβ determines an isomorphism ΔXα → ΔXβ . In
+light of these observations, the various assertions of Proposition 2.4 follow immedi-
+ately from the deﬁnitions [cf. also Proposition 2.2; Theorem 1.6, (i); the proof of
+Proposition 1.8].
+
+     Now, we return to the discussion of §1. In particular, we assume that K is a
+ﬁnite extension of Qp .
+
+Deﬁnition 2.5. Suppose that l and the residue characteristic of K are odd, and
+that K = K̈ [cf. Deﬁnition 1.7 and the preceding discussion].
+                                                                                                 ell
+     (i) Suppose, in the situation of Deﬁnitions 2.1, 2.3, that the quotient ΠX  Q
+factors through the natural quotient ΠX  Z         determined by the quotient Πtp  Z
+                                                                                        X
+discussed at the beginning of §1, and that the choice of a splitting of D x → GK [cf.
+Proposition 2.2, (ii)] that determined the covering X log → X log is compatible with
+the “{±1}-structure” of Theorem 1.10, (iii). Then we shall say that the orbicurve
+of type (1, l-tors) (respectively, (1, l-torsΘ ); (1, l-tors)± ; (1, l-torsΘ )± ) under consid-
+eration is of type (1, Z/lZ) (respectively, (1, (Z/lZ)Θ ); (1, Z/lZ)± ; (1, (Z/lZ)Θ )± ).
+    (ii) In the notation of the above discussion and the discussion at the end of §1,
+we shall refer to a smooth log orbicurve isomorphic to the smooth log orbicurve
+                               log                       log          log          log
+                          Ẋ         (respectively, Ẋ         ; Ċ         ; Ċ         )
+obtained by taking the composite of the covering
+                          X log (respectively, X log ; C log ; C log )
+
+of C log with the covering Ċ log → C log , as being of type (1, μ2 × Z/lZ) (respectively,
+(1, μ2 × (Z/lZ)Θ ); (1, μ2 × Z/lZ)± ; (1, μ2 × (Z/lZ)Θ )± ).
+
+Remark 2.5.1. Thus, the irreducible components of the special ﬁber of C, Ċ may
+be naturally identiﬁed with the elements of (Z/lZ)/{±1} — cf. Corollary 2.9 below
+for more details.
+
+Proposition 2.6.    (Characteristic Nature of Coverings) For  = α, β, let
+us assume that we have smooth log orbicurves as in the above discussion, over
+a ﬁnite extension K of Qp . Then any isomorphism of topological groups
+                                ∼                                                   ∼
+                   γ : Πtp
+                        Ẋ
+                           → Πtp
+                              Ẋ
+                                 (respectively, γ : Πtp
+                                                     Ẋ
+                                                        → Πtp
+                                                           Ẋ
+                                                              ;
+                           α               β                                  α              β
+                                               ∼             ∼
+                            γ : Πtp
+                                 Ċ
+                                           → Πtp
+                                              Ċ
+                                                 ; γ : Πtp
+                                                        Ċ α
+                                                             → Πtp
+                                                                Ċ β
+                                                                     )
+                                       α           β
+                           THE ÉTALE THETA FUNCTION                                37
+
+induces isomorphisms compatible with the various natural maps between the respec-
+tive “Πtp ’s” of X log
+                   
+                       (respectively, X log         log       log
+                                         ; C  ; C  ) and Ċ , where  = α, β. A
+                                              log
+
+similar statement holds when “Πtp ” is replaced by “Π”.
+
+Proof. The proof is entirely similar to the proofs of Propositions 1.8, 2.4.
+
+Remark 2.6.1. Suppose, for simplicity, that K contains a primitive l-th root
+of unity. Then we observe in passing that by applying the Propositions 2.4, 2.6
+to “isomorphisms of fundamental groups arising from isomorphisms of the orbi-
+curves in question” [cf. also Remark 2.1.1], one computes easily that the groups
+of K-linear automorphisms “AutK (−)” of the various smooth log orbicurves under
+consideration are given as follows:
+
+             AutK (X log ) = μl × {±1}; AutK (X log ) = Z/lZ  {±1}
+                      AutK (C log ) = μl ; AutK (C log ) = {1}
+
+— where μl denotes the group of l-th roots of unity in K, and the semi-direct
+product “” is with respect to the natural multiplicative action of ±1 on Z/lZ; the
+“AutK (−)’s” of the various “once-dotted versions” of these orbicurves [cf. Deﬁni-
+tion 2.5, (ii)] are given by taken the direct product of the “AutK (−)’s” listed above
+with Gal(Ċ log /C log ) ∼
+                         = {±1}.
+
+      Next, we consider étale theta functions. First, let us observe that the covering
+                                             log
+Ÿ log → C log factors naturally through Ẋ . Thus, the class [which is only well-
+                   ×
+deﬁned up to a OK    -multiple]
+
+                                 η̈ Θ ∈ H 1 (Πtp
+                                              Ÿ
+                                                 , ΔΘ )
+
+of §1 — as well as the corresponding Πtp /Πtp ∼
+                                              = Z-orbit η̈ Θ,Z — may be thought of
+                                      Ẋ   Ÿ
+                                          log   log
+as objects associated to the “Πtp ” of Ẋ , Ċ , X log , C log . On the other hand, the
+composites of the coverings Ÿ log → C log , Y log → C log with C log → C log determine
+new coverings
+                                log
+                             Ÿ     → Ÿ log ; Y log → Y log
+
+of degree l. Moreover, the choice of a splitting of D x → GK [cf. Proposition
+2.2, (ii)] that determined the covering X log → X log determines [by considering
+the natural map Dx → Πtp    Ÿ
+                               → (Πtp
+                                    Ÿ
+                                       )Θ — cf. Proposition 1.5, (ii)] a speciﬁc class
+                                                                                  × l
+∈ H 1 (Πtp
+         Ÿ
+            , ΔΘ ⊗ Z/lZ), which may be thought of as a choice of η̈ Θ up to an (OK  )-
+                                            ×
+multiple [i.e., as opposed to only up to a OK -multiple]. Now it is a tautology that,
+                                    log
+upon restriction to the covering Ÿ   → Ÿ log [which was determined, in eﬀect, by
+the choice of a splitting of Dx → GK ], the class η̈ Θ determines a class
+
+                                η̈ Θ ∈ H 1 (Πtp
+                                             Ÿ
+                                                , l · ΔΘ )
+38                                  SHINICHI MOCHIZUKI
+
+— as well as a corresponding Πtp /Πtp ∼
+                                      = ΠẊ /ΠŸ ∼
+                                         tp   tp
+                                                 = l · Z-orbit η̈ Θ,l·Z — which may
+                              Ẋ   Ÿ
+                                                                              log          log
+be thought of as objects associated to the “Πtp ” of Ẋ                             , Ċ         , X log , C log , and
+which satisfy the following property:
+
+                      H 1 (Πtp
+                            Ÿ
+                               , l · ΔΘ )        η̈ Θ → η̈ Θ |Ÿ ∈ H 1 (Πtp
+                                                                          Ÿ
+                                                                             , ΔΘ )
+
+[relative to the natural inclusion l · ΔΘ → ΔΘ ]. That is to say, at a more intuitive
+level, η̈ Θ may be thought of as an “l-th root of the étale theta function”. In the
+following, we shall also consider the l · Z-orbit η̈ Θ,l·Z of η̈ Θ , as well as the Πtp /Πtp ∼
+                                                                                             =             X    Ÿ
+     tp ∼
+Πtp
+ X /ΠŸ = {(l · Z) × μ2 }-orbits
+
+
+                                    η̈ Θ,l·Z×μ2 ,           η̈ Θ,l·Z×μ2
+
+                              tp ∼
+of η̈ Θ , η̈ Θ , and the Πtp
+                          X /ΠŸ = (Z × μ2 )-orbit η̈
+                                                      Θ,Z×μ2
+                                                             of η̈ Θ .
+
+
+Deﬁnition 2.7.                If η̈ Θ,Z is of standard type, then we shall also refer to η̈ Θ,l·Z ,
+η̈ Θ,l·Z
+         , η̈ Θ,l·Z×μ2
+                       , η̈ Θ,l·Z×μ2
+                                      , η̈ Θ,Z×μ2 as being of standard type.
+
+
+Corollary 2.8. (Constant Multiple Rigidity of Roots of the Étale Theta
+Function) For  = α, β, let us assume that we have smooth log orbicurves as
+in the above discussion, over a ﬁnite extension K of Qp . Let
+                                ∼                                              ∼
+                    γ : Πtp   tp                    tp   tp
+                         X → ΠX (respectively, γ : ΠX → ΠX ;
+                            α            β                                α                 β
+                                             ∼       tp ∼
+                             γ : Πtp
+                                  C      → Πtp              tp
+                                            C ; γ : ΠC α → ΠC β )
+                                     α              β
+
+be an isomorphism of topological groups. Then:
+
+     (i) The isomorphism γ preserves the property [cf. Theorem 1.6, (iii)] that
+                           Θ,Z×μ2                   Θ,l·Z×μ2
+η̈
+ Θ,l·Z×μ2
+          (respectively, η̈      ; η̈ Θ,l·Z×μ2 ; η̈        ) be of standard type — a
+                                      
+property that determines this collection of classes up to multiplication by a root
+of unity of order l (respectively, 1; l; 1).
+
+     (ii) Suppose further that the cusps of X  are rational over K , that the
+residue characteristic of K is prime to l, and that K contains a primitive l-th
+root of unity. Then the {±1}-[i.e., μ2 -] structure of Theorem 1.10, (iii), deter-
+mines a μ2l (respectively, μ2 ; μ2l ; μ2 )-structure [cf. [Mzk13], Corollary 4.12] on
+        × ∧
+the (K  ) -torsor at the cusps of X log
+                                            (respectively, X log         log
+                                                              ; X  ; X  ). Moreover,
+                                                                   log
+
+this μ2l (respectively, μ2 ; μ2l ; μ2 )-structure is compatible with the canonical in-
+tegral structure [cf. [Mzk13], Deﬁnition 4.1, (iii)] determined by the stable model
+     log
+of X    and preserved by γ.
+
+    (iii) If the data for  = α, β are equal, and γ arises [cf. Proposition 2.6]
+from an inner automorphism of Πtp     Ẋ
+                                          (respectively, Πtp
+                                                          Ẋ
+                                                             ; Πtp
+                                                                Ċ
+                                                                   ; Πtp
+                                                                      Ċ
+                                                                         ), then
+                                                                                                        
+

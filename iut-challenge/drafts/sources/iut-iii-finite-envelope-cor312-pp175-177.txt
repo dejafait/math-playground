@@ -1,0 +1,172 @@
+                     INTER-UNIVERSAL TEICHMÜLLER THEORY III                           175
+
+                 ±
+n,◦
+   Uj,vQ ⊆ I Q (Sj+1 ;n,◦ DvQ ), relative to the arithmetic holomorphic structure labeled
+“n, ◦”. Here, we observe that one concludes easily from the [easily veriﬁed] com-
+pactness of the 1,◦ Uj,vQ [where j ∈ |Fl |, vQ ∈ VQ ], together with the deﬁnition of the
+log-volume, that the quantity − |log(Θ)| is ﬁnite, hence negative [by our assumption
+at the beginning of the present proof!]. In particular, we observe [cf. Remark 2.4.2,
+(iv), (v), (vi); Remark 3.9.6; Remark 3.9.7; the discussion of “IPL” in Remark
+3.11.1, (iii)] that
+
+      we may restrict our attention to possible images of a Θ-pilot object
+      that correspond to data [i.e., collections of regions] that may be interpreted
+      as an F  -prime-strip.
+Now we proceed to review precisely what is achieved by the various portions of
+Theorem 3.11 and, indeed, by the theory developed thus far in the present series of
+papers. This review leads naturally to an interpretation of the theory that gives rise
+to the inequality asserted in the statement of Corollary 3.12. For ease of reference,
+we divide our discussion into steps, as follows.
+
+    (i) In the following discussion, we concentrate on a single arrow — i.e., a single
+Θ×μ
+ LGP -link
+                                 ±ell    Θ×μ           ±ell
+                        0,0
+                            HT Θ NF −→    LGP  1,0
+                                                   HT Θ NF
+— of the [LGP-Gaussian] log-theta-lattice under consideration. This arrow consists
+of the full poly-isomorphism of F ×μ -prime-strips
+                                0,0 ×μ    ∼
+                                   FLGP    → 1,0 F×μ
+
+[cf. Deﬁnition 3.8, (ii)]. This poly-isomorphism may be thought of as consisting of
+a “unit portion” constituted by the associated [full] poly-isomorphism of F ×μ -
+prime-strips
+                                 0,0 ×μ ∼ 1,0 ×μ
+                                    FLGP →      F
+and a “value group portion” constituted by the associated [full] poly-isomorphism
+of F  -prime-strips
+                            0,0     ∼
+                               FLGP → 1,0 F
+
+[cf. Deﬁnition 2.4, (iii)]. This value group portion of the Θ×μ LGP -link maps Θ-pilot
+                Θ±ell NF                            Θ±ell NF
+objects of HT
+          0,0
+                           to q-pilot objects of HT
+                                                1,0
+                                                             [cf. Remark 3.8.1].
+
+     (ii) Whereas the units of the Frobenioids that appear in the F ×μ -prime-strip
+0,0 ×μ
+   FLGP are subject to AutF ×μ (−)-indeterminacies [i.e., “(Ind1), (Ind2)” — cf.
+Theorem 3.11, (iii), (a), (b)], the cyclotomes that appear in the Kummer theory
+surrounding the étale theta function and κ-coric functions, i.e., which give
+rise to the “value group portion” 0,0 F
+                                       LGP , are insulated from these AutF ×μ (−)-
+indeterminacies — cf. Theorem 3.11, (iii), (c), (d); the discussion of Remark
+3.11.3, (iv); Fig. 3.6 below. Here, we recall that in the case of the étale theta
+function, this follows from the theory of §2, i.e., in essence, from the cyclotomic
+rigidity of mono-theta environments, as discussed in [EtTh]. On the other
+hand, in the case of κ-coric functions, this follows from the algorithms discussed in
+[IUTchI], Example 5.1, (v); [IUTchI], Deﬁnition 5.2, (vi), (viii).
+176                             SHINICHI MOCHIZUKI
+
+
+
+
+                                   Θ-related objects        NF-related objects
+
+
+            require
+         mono-analytic           local LGP-monoids            copies of Fmod
+           containers,
+       Kummer theory               [cf. Proposition          [cf. Proposition
+         incompatible                   3.4, (ii)]                3.7, (i)]
+       with (Ind1), (Ind2)
+
+
+        independent of
+          mono-analytic                étale theta          global ∞ κ-coric,
+            containers,                  function,                  local
+       Kummer theory                  mono-theta             ∞ κ-, ∞ κ×-coric
+           compatible                environments                structures
+       with (Ind1), (Ind2)        [cf. Corollary 2.3]       [cf. Remark 2.3.2]
+       [cf. Remark 2.3.3]
+
+
+
+         Fig. 3.6: Relationship of theta- and number ﬁeld-related objects
+                           to mono-analytic containers
+
+     (iii) In the following discussion, it will be of crucial importance to relate si-
+multaneously both the unit and the value group portions of the Θ×μ          LGP -link(s)
+involved on the 0-column [i.e., the vertical line indexed by 0] of the log-theta-lattice
+under consideration to the corresponding unit and value group portions on the
+1-column [i.e., the vertical line indexed by 1] of the log-theta-lattice under con-
+sideration. On the other hand, if one attempts to relate the unit portions via
+one Θ×μLGP -link [say, from (0, m) to (1, m)] and the value group portions via another
+Θ×μ
+  LGP -link  [say, from (0, m ) to (1, m ), for m = m], then the non-commutativity
+of the log-theta-lattice renders it practically impossible to obtain conclusions that
+require one to relate both the unit and the value group portions simultaneously [cf.
+the discussion of Remark 3.11.3, (i), (ii)]. This is precisely why we concentrate on
+a single Θ×μ LGP -link [cf. (i)].
+
+
+     (iv) The issue discussed in (iii) is relevant in the context of the present dis-
+cussion for the following reason. Ultimately, we wish to apply the bi-coricity of
+the units [cf. Theorem 1.5, (iii), (iv)] in order to compute the 0-column Θ-pilot
+object in terms of the arithmetic holomorphic structure of the 1-column. In order
+to do this, one must work with units that are vertically once-shifted [i.e., lie at
+(n, m − 1)] relative to the value group structures involved [i.e., which lie at (n, m)]
+— cf. the discussion of Remark 3.11.3, (ii). The solution to the problem of si-
+multaneously accommodating these apparently contradictory requirements — i.e.,
+“vertical shift” vs. “impossibility of vertical shift” [cf. (iii)] — is given precisely
+by working, on the 0-column, with structures that are invariant with respect to
+                   INTER-UNIVERSAL TEICHMÜLLER THEORY III                            177
+
+vertical shifts [i.e., “(0, m) → (0, m + 1)”] of the log-theta-lattice [cf. the discus-
+sion surrounding Remark 1.2.2, (iii), (a)] such as vertically coric structures [i.e.,
+indexed by “(n, ◦)”] that are related to the “Frobenius-like” structures which are
+not vertically coric by means of the log-Kummer correspondences of Theorem
+3.11, (ii). Here, we note that this “solution” may be implemented only at the cost
+of admitting the “indeterminacy” constituted by the upper semi-compatibility
+of (Ind3).
+
+     (v) Thus, we begin our computation of the 0-column Θ-pilot object in terms of
+the arithmetic holomorphic structure of the 1-column by relating the units on the
+0- and 1-columns by means of the unit portion
+                                 0,0 ×μ    ∼
+                                    FLGP   → 1,0 F×μ
+
+of the Θ×μ
+         LGP -link from (0, 0) to (1, 0) [cf. (i)] and then applying the bi-coricity of
+the units of Theorem 1.5, (iii), (iv). In particular, the mono-analytic log-shell
+interpretation of this bi-coricity given in Theorem 1.5, (iv), will be applied to regard
+these mono-analytic log-shells as “multiradial mono-analytic containers” [cf.
+the discussion of Remark 1.5.2, (i), (ii), (iii)] for the various [local and global] value
+group structures that constitute the Θ-pilot object on the 0-column — cf. Fig.
+3.6 above. [Here, we observe that the parallel treatment of “theta-related” and
+“number ﬁeld-related” objects is reminiscent of the discussion of [IUTchII], Remark
+4.11.2, (iv).] That is to say, we will relate the various Frobenioid-theoretic [i.e.,
+“Frobenius-like” — cf. Remark 1.5.4, (i)]
+    · local units at v ∈ V,
+    · splitting monoids at v ∈ Vbad , and
+    · global Frobenioids
+indexed by (0, m), for m ∈ Z, to the vertically coric [i.e., indexed by “(0, ◦)”]
+versions of these bi-coric mono-analytic containers by means of the log-Kummer
+correspondences of Theorem 3.11, (ii), (a), (b), (c) — i.e., by varying the “Kum-
+mer input index” (0, m) along the 0-column.
+
+     (vi) In the context of (v), it is useful to recall that the log-Kummer correspon-
+dences of Theorem 3.11, (ii), (b), (c), are obtained precisely as a consequence of
+the splittings, up to roots of unity, of the relevant monoids into unit and value
+group portions constructed by applying the Galois evaluation operations dis-
+cussed in Remarks 2.2.2, (iii) [in the case of Theorem 3.11, (ii), (b)], and 2.3.2 [in
+the case of Theorem 3.11, (ii), (c)]. Moreover, we recall that the Kummer theory
+surrounding the local LGP-monoids of Proposition 3.4, (ii), depends, in an essential
+way, on the theory of [IUTchII], §3 [cf., especially, [IUTchII], Corollaries 3.5, 3.6],
+which, in turn, depends, in an essential way, on the Kummer theory surrounding
+mono-theta environments established in [EtTh]. Thus, for instance, we recall
+that the discrete rigidity established in [EtTh] is applied so as to avoid working,
+                                                       
+in the tempered Frobenioids that occur, with “Z-divisors/line           bundles” [i.e.,
+ 
+“Z-completions” of Z-modules of divisors/line bundles], which are fundamentally
+incompatible with conventional notions of divisors/line bundles, hence, in partic-
+ular, with mono-theta-theoretic cyclotomic rigidity [cf. Remark 2.1.1, (v)]. Also,
+we recall that “isomorphism class compatibility” — i.e., in the terminology of
+

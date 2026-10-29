@@ -1,0 +1,293 @@
+                   INTER-UNIVERSAL TEICHMÜLLER THEORY II                                           137
+
+Corollary 4.6.   (Frobenioid-theoretic Monoids Associated to Θ±ell -
+Hodge Theaters) Let
+                                                 †    ±                  †    ell
+                   †        Θ±ell       †            ψ±
+                                                      Θ
+                                                                †            ψ±
+                                                                              Θ
+                                                                                    †
+                       HT           = ( F       ←−                 FT   −→             D± )
+be a Θ±ell -Hodge theater [relative to the given initial Θ-data — cf. [IUTchI],
+Deﬁnition 6.11, (iii)] and
+                                ‡
+                                  F = {‡ Fv }v∈V
+an F-prime-strip; here, we assume [for simplicity] that the D-Θ±ell -Hodge theater
+                      ±ell
+associated to † HT Θ       [cf. [IUTchI], Deﬁnition 6.11, (iii)] is the D-Θ±ell -Hodge
+                 ±ell
+theater † HT D-Θ      of Corollary 4.5, and that the D-prime-strip associated to ‡ F
+[cf. [IUTchI], Remark 5.2.1, (i)] is the D-prime-strip ‡ D of Corollary 4.5. Also, we
+shall denote the F  -prime-strip associated to — i.e., the mono-analyticization of
+— an F-prime-strip [cf. [IUTchI], Deﬁnition 5.2.1, (ii)] by means of a superscript
+“”.
+     (i) (Constant Monoids) There is a functorial algorithm in the F-prime-
+strip ‡ F for constructing the assignment Ψcns (‡ F) given by
+                                                             
+                                     ‡    def        ‡
+                 V non
+                        v → Ψcns ( F)v = Gv ( Πv )  Ψ‡ Fv
+
+                 Varc  v → Ψcns (‡ F)v = Ψ‡ Fv
+                                                          def
+
+
+— where the data in brackets “{−}” is to be regarded as being well-deﬁned only up
+to a ‡ Πv -conjugacy indeterminacy — cf. [IUTchI], Deﬁnition 5.2, (i); Propo-
+sitions 3.3, (ii) [i.e., where we take “† Cv ” to be ‡ Fv ]; 4.2, (i); 4.4, (i). We shall
+write
+                                           ∼
+                               Ψcns (‡ F) → Ψcns (‡ D)
+for the collection of isomorphisms of data indexed by v ∈ V determined by the
+“Kummer-theoretic” isomorphisms of Propositions 3.3, (ii) [i.e., where we take
+“† Cv ” to be ‡ Fv and apply the conventions discussed in Remark 4.2.1., (i); cf. also
+Proposition 1.3, (ii), (iii)]; 4.2, (i); 4.4, (i).
+    (ii) (Mono-analytic Semi-simpliﬁcations) There is a functorial algo-
+rithm in the F  -prime-strip ‡ F for constructing the assignment Ψss   ‡ 
+                                                                    cns ( F ) given
+by
+                                             ‡    def
+                       V  v → Ψss     cns ( F )v = Ψ‡ Fv
+                                                         ss
+
+
+— where we regard each “Ψss
+                         ‡ F  ” as being equipped with its natural splitting and,
+                                       v
+
+when v ∈ Vnon , its associated distinguished element; for v ∈ Vnon , “Ψss
+                                                                       ‡ F  ” is
+                                                                                                v
+
+to be regarded as being well-deﬁned only up to a † Gv -conjugacy indeterminacy
+— cf. Remark 4.2.1, (i), and Propositions 4.2, (ii); 4.4, (ii). We shall write
+                                          ‡          ∼                   ‡ 
+                                     cns ( F )
+                                    Ψss               →              cns ( D )
+                                                                    Ψss
+for the collection of isomorphisms of data indexed by v ∈ V determined by the
+“Kummer-theoretic” isomorphisms of Propositions 4.2, (ii); 4.4, (ii) — cf. also
+Remark 4.2.1, (i); Corollary 4.5, (ii). Now recall the F  -prime-strip
+                 ‡                                             ∼
+                  F     = (‡ C  , Prime(‡ C  ) → V, ‡ F , {‡ ρv }v∈V )
+138                               SHINICHI MOCHIZUKI
+
+associated to ‡ F in [IUTchI], Remark 5.2.1, (ii). Then, in the notation of Corollary
+4.5, (ii); [IUTchI], Remark 5.2.1, (ii), there is an isomorphism of Frobenioids
+                                   ‡       ∼
+                                   C        →        D  ( ‡ D )
+
+that is uniquely determined by the condition that it be compatible with the
+                                     ∼
+respective bijections Prime(−) → V and local isomorphisms of topologi-
+cal monoids for each v ∈ V, relative to the above collection of isomorphisms
+       ‡  ∼     ss ‡ 
+  cns ( F ) → Ψcns ( D ). Finally, there is a functorial algorithm for construct-
+Ψss
+                                                                            ∼
+ing from the F -prime-strip ‡ F [recalled above] the isomorphism ‡ C  → D (‡ D )
+                
+
+[of the preceding display] and the [necessarily compatible] collection of isomorphisms
+       ‡  ∼     ss ‡ 
+  cns ( F ) → Ψcns ( D ) [cf. Remark 4.6.1 below].
+Ψss
+
+     (iii) (Labels, F±
+                     l -Symmetries, and Conjugate Synchronization) In the
+notation of Corollary 4.5, (iii), the collection of isomorphisms of (i) determines,
+for each t ∈ LabCusp± († D ), a collection of compatible isomorphisms
+                                                 ∼
+                          Ψcns († F )t          →      Ψcns († D )t
+
+— where the † Πv -conjugacy indeterminacy at each v ∈ Vnon [cf. (i)] is in-
+dependent of t ∈ LabCusp± († D ) — as well as [F±    l -]symmetrizing isomor-
+                                           ±
+phisms, induced by the various local Fl -actions discussed in Corollary 3.6,
+(i), and Propositions 4.2, (iii); 4.4, (iii), between the data indexed by distinct
+t ∈ LabCusp± († D ). Moreover, these symmetrizing isomorphisms are compat-
+ible, relative to † ζ [cf. Corollary 4.5, (iii)], with the F±
+                                                             l -symmetry of the
+associated D-Θ -bridge [cf. [IUTchI], Proposition 6.8, (i)] and determine [various
+                ell
+
+diagonal submonoids, as well as] an isomorphism
+                                                ∼
+                         Ψcns († F )0          →     Ψcns († F )F 
+                                                                        l
+
+
+constituted by the various corresponding local isomorphisms of Corollary 3.6, (iii),
+and Propositions 4.2, (iii); 4.4, (iii).
+
+      (iv) (Local Theta and Gaussian Monoids) Let
+                                   †
+                                       ψ
+                                        Θ
+
+                         ( † FJ    −→       †
+                                                F>           †
+                                                                    HT Θ )
+
+be a Θ-bridge [relative to the given initial Θ-data — cf. [IUTchI], Deﬁnition
+5.5, (ii)] which is glued to the Θ± -bridge associated to the Θ±ell -Hodge theater
+       ±ell
+†
+  HT Θ      via the functorial algorithm of [IUTchI], Proposition 6.7 [so J = T  ]
+— cf. the discussion of [IUTchI], Remark 6.12.2, (i). Then there is a functo-
+rial algorithm in the Θ-bridge of the above display, equipped with its gluing to
+                                     ±ell
+the Θ± -bridge associated to † HT Θ , for constructing assignments ΨFenv († HT Θ ),
+ΨFgau († HT Θ ), ∞ ΨFenv († HT Θ ), ∞ ΨFgau († HT Θ ) [where we make a slight abuse of
+the notation “† HT Θ ”]
+                             def                                             def
+ V  v → ΨFenv († HT Θ )v = Ψ† FvΘ ;            V  v → ΨFgau († HT Θ )v = ΨFgau († F v )
+                                                                def
+                      V  v → ∞ ΨFenv († HT Θ )v = ∞ Ψ† FvΘ
+                                                          def
+                   V  v → ∞ ΨFgau († HT Θ )v = ∞ ΨFgau († F v )
+                      INTER-UNIVERSAL TEICHMÜLLER THEORY II                                          139
+
+— where the various local data are equipped with actions by topological groups
+when v ∈ Vnon and splittings [for all v ∈ V], as described in detail in Corollary
+3.6, (ii), (iii), and Propositions 4.2, (iv); 4.4, (iv) [cf. also Remarks 4.2.1, (ii);
+4.4.1] — as well as compatible evaluation isomorphisms
+                             ∼                      ∼                         ∼
+    ΨFenv († HT Θ )      →        Ψenv († D> )      →      Ψgau († D> )       →       ΨFgau († HT Θ );
+         †               ∼               †          ∼              †              ∼              †
+∞ ΨFenv ( HT )           →       ∞ Ψenv ( D> )      →      ∞ Ψgau ( D> )          →     ∞ ΨFgau ( HT )
+            Θ                                                                                       Θ
+
+
+as described in detail in Corollary 3.6, (ii) [cf. also Remark 4.2.1, (iv); the left-hand
+portion of the ﬁrst display of Proposition 3.4, (i); the ﬁrst display of Proposition
+3.7, (i)], and Propositions 4.2, (iv); 4.4, (iv) [cf. also Corollary 4.5, (iv)].
+
+      (v) (Global Realiﬁed Theta and Gaussian Frobenioids) By applying —
+i.e., in the fashion of the constructions of Propositions 4.2, (iv); 4.4, (iv) — both
+labeled [as in (iii) — cf. Remark 4.6.2, (ii), below] and non-labeled versions of the
+                      ∼
+isomorphism “‡ C  → D (‡ D )” of (ii) to the global Frobenioids “Denv    † 
+                                                                              ( D )”,
+       † 
+“Dgau ( D )” constructed in Corollary 4.5, (v), one obtains a functorial algo-
+rithm in the Θ-bridge of the ﬁrst display of (iv), equipped with its gluing to the
+                                ±ell
+Θ± -bridge associated to † HT Θ , for constructing Frobenioids
+                                     †                   †
+                                   Cenv ( HT Θ ),       Cgau ( HT Θ )
+
+— where again we make a slight abuse of the notation “† HT Θ ”; we note in passing
+                             †
+that the construction of “Cenv ( HT Θ )” is essentially similar to the construction of
+                                                                            †
+“Ctht ” in [IUTchI], Example 3.5, (ii) — together with bijections Prime(Cenv  ( HT Θ ))
+ ∼              †           ∼
+→ V, Prime(Cgau   ( HT Θ )) → V and isomorphisms of topological monoids
+                         ∼                                                ∼
+      ΦCenv
+         († HT Θ ),v → ΨFenv († HT Θ )R
+                                       v;               ΦCgau
+                                                           († HT Θ ),v → ΨFgau († HT Θ )R
+                                                                                         v
+
+
+[cf. the notational conventions of Corollary 4.5, (v)] for each v ∈ V, as well as
+evaluation isomorphisms
+       †                ∼          †             ∼                        ∼
+     Cenv ( HT Θ )       →        Denv ( D> )    →        Dgau († D> )    →            †
+                                                                                      Cgau ( HT Θ )
+
+— i.e., in the fashion of the constructions of Propositions 4.2, (iv); 4.4, (iv), by
+“conjugating” the evaluation isomorphism of Corollary 4.5, (v), by the isomorphism
+       ∼
+“‡ C  → D (‡ D )” of (ii) — which are compatible, relative to the local iso-
+morphisms of topological monoids for each v ∈ V discussed above, with the
+local evaluation isomorphisms of (iv).
+
+Proof. The various assertions of Corollary 4.6 follow immediately from the deﬁni-
+tions and the references quoted in the statements of these assertions. 
+
+Remark 4.6.1.      One veriﬁes easily that, in the case of v ∈ Vnon , the poly-
+                   ∼   ss †
+             † F  → Ψcns ( Gv ) of Proposition 4.2, (ii) [cf.
+isomorphism Ψss                                                also Remark 4.2.1,
+                     v
+
+(i)], may be reconstructed algorithmically from † Fv . By contrast, in the case of
+v ∈ Varc , it is not possible to reconstruct algorithmically [the non-unit portion of]
+140                                 SHINICHI MOCHIZUKI
+
+                                                     ∼
+                                    † F  → Ψcns (Dv ) of Proposition 4.4, (ii), from
+the corresponding poly-isomorphism Ψss       ss
+                                                 v
+†
+    Fv . That is to say, in the case of v ∈ Varc , the distinguished element of Ψss
+                                                                                  † F  [i.e.,
+                                                                                                      v
+
+of ΨR
+    † F  ] is not preserved by arbitrary automorphisms of
+                                                           † 
+                                                            Fv . On the other hand,
+          v
+                                                                      ‡      ss ‡          ∼
+                                                                 cns ( F ) → Ψcns ( D )
+in the context of Corollary 4.6, (ii), if one reconstructs both Ψss
+      ‡  ∼     ‡ 
+and C → D ( D ) in a compatible fashion, then the distinguished elements at
+v ∈ Varc may be computed [in the evident fashion] from the distinguished elements
+at v ∈ Vnon , together with the structure of the global Frobenioids ‡ C  , D (‡ D ),
+i.e., by thinking of these global Frobenioids as “devices for currency exchange”
+between the various “local currencies” constituted by the divisor monoids at the
+various v ∈ V [cf. [IUTchI], Remark 3.5.1, (ii)].
+
+Remark 4.6.2.
+
+     (i) Similar observations to the observations made in Remark 4.5.1, (i), con-
+cerning the content of Corollary 4.5, (i), (iv), may be made in the case of Corollary
+4.6, (i), (iv).
+
+     (ii) Similar observations to the observations made in Remark 4.5.2, (i), (ii),
+concerning the content of Corollary 4.5, (iii), may be made in the case of Corollary
+4.6, (iii).
+
+Corollary 4.7.   (Group-theoretic Monoids Associated to Base-ΘNF-
+Hodge Theaters) Let
+                                                 †                  †
+                                                     φNF                φΘ
+                       †
+                           HT D-ΘNF = († D                †                 †
+                                                                        
+                                                 ←−            DJ   −→           D> )
+
+be a D-ΘNF-Hodge theater [cf. [IUTchI], Deﬁnition 4.6, (iii)] which is glued
+                                          ±ell
+to the D-Θ±ell -Hodge theater † HT D-Θ         of Corollary 4.5 via the functorial al-
+gorithm of [IUTchI], Proposition 6.7 [so J = T  ] — cf. the discussion of [IUTchI],
+Remark 6.12.2, (i), (ii).
+
+     (i) (Non-realiﬁed Global Structures) There is a functorial algorithm
+in the category † D for constructing the morphism
+                                          †
+                                              D → † D
+
+[i.e., a “category-theoretic version” of the natural morphism of hyperbolic orbicurves
+C K → CFmod ] of [IUTchI], Example 5.1, (i), the monoid/ﬁeld/pseudo-monoid
+equipped with natural π1 († D )-/(π1rat († D ) )π1κ-sol († D )-actions
+                                                       
+π1 († D )  M († D ),          π1 († D )  M († D ),               π1κ-sol († D )  M
+                                                                                           ∞κ
+                                                                                              († D  )
+
+— which are well-deﬁned up to π1 († D )-/π1κ-sol († D )-conjugacy indetermina-
+cies — of [IUTchI], Example 5.1, (i), the submonoids/subﬁeld/subset of π1 († D )-
+   rat/κ-sol † 
+/π1         ( D )-/π1κ-sol († D )-invariants
+
+           M    † 
+            mod ( D )        ⊆   (π1κ-sol († D ) )       M    † 
+                                                            sol ( D )            ⊆      M († D ),
+

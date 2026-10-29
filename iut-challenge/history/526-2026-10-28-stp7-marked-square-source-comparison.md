@@ -1,0 +1,7 @@
+# Step526 — 2026-10-28 — Stp7 marked-square source comparison
+
+Completed the literature-only saved target. [The assessment](../drafts/literature/2026-10-27-stp7-one-log-shift-marked-square.md) identifies the four refined input/output corners, the underlying shift/log-link comparisons and the permitted formal identifications. Primary Stp7–Stp8 and cQ3/cQ4 passages require formal-diagram compatibility; they do not supply a strict square of ordinary marked regions. [ATTEMPTS/040](../ATTEMPTS/040-stp7-strict-representative-square.md) records why that stronger test is stopped.
+
+Outcome NEGATIVE / LITERATURE / NOVELTY_UNCHECKED: a source-level scope finding changes the proposed test, without establishing new mathematics beyond the sources. L127's reconstruction remains valid within its audited scope; no full marked naturality, synchronization, q-membership or essential flaw is verified. No lemma, mathematical script, DAG or PROOF changes. Zero mathematical exploration turns used; prior failures/exhaustion are retained.
+
+The [new ready assessment](../drafts/literature/2026-10-28-stp7-formal-adjacent-shift-audit.md) prepares an audit of the source's formal adjacent-shift inference for separate approval next turn. No justified creative invariant on the full formal quotient is available yet; the next task is a conceptual audit rather than a scalar-loop rebranding. Reused primary coverage avoids another discovery search merely for scheduling balance.

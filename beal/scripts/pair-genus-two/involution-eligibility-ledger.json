@@ -1,0 +1,52 @@
+{
+  "caps": {
+    "divisor_trials": 10000,
+    "work": 200000,
+    "degree": 64,
+    "bits": 4096
+  },
+  "used": {
+    "divisor_trials": 20,
+    "work": 2541
+  },
+  "runs": [
+    {
+      "status": "COMPLETE_NO_EXTRA_Q_INVOLUTION",
+      "start": {
+        "divisor_trials": 0,
+        "work": 0
+      },
+      "end": {
+        "divisor_trials": 10,
+        "work": 908
+      },
+      "max_degree": 8,
+      "max_bits": 84,
+      "failures": []
+    },
+    {
+      "status": "VERIFIED_EXACT_CERTIFICATE",
+      "start": {
+        "divisor_trials": 10,
+        "work": 908
+      },
+      "prior_selected_inspection_nodes": 216,
+      "end": {
+        "divisor_trials": 20,
+        "work": 2494
+      }
+    },
+    {
+      "status": "FINAL_SELECTED_INSPECTION",
+      "start": {
+        "divisor_trials": 20,
+        "work": 2494
+      },
+      "end": {
+        "divisor_trials": 20,
+        "work": 2541
+      },
+      "processed_nodes": 47
+    }
+  ]
+}

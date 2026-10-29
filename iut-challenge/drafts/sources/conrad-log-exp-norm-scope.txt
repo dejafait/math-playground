@@ -1,0 +1,401 @@
+                             INFINITE SERIES IN p-ADIC FIELDS                              27
+
+
+  To prove n − ord5 (n) ≥ 5 for n ≥ 6 we will work out a lower bound on n − ord5 (n) from
+an upper bound on ord5 (n):
+                            5ord5 (n) ≤ n =⇒ ord5 (n) ≤ log5 (n),
+so n−ord5 (n) ≥ n−log5 (n). By calculus, the function g(x) = x−log5 x on(0, ∞) is increasing
+for x ≥ 1/ ln 5 ≈ .378, so from g(6) ≈ 4.8 and g(7) ≈ 5.7, we have n − ord5 (n) ≥ g(n) ≥ 5
+for n ≥ 7. Since also 6 − ord5 (6) = 6 > 5 we have proved ord5 (10n /n) ≥ 5 for n ≥ 6. Thus
+                                             102 103 104 105
+               log 11 = log(1 + 10) = 10 −       +     −     +     mod 55 .
+                                              2     3     4     5
+The sum of the first 5 terms in the series is 53380/3 ≡ 255/3 ≡ 85 mod 55 , so
+                                log 11 ≡ 85 ≡ 02300 mod 55 .
+Theorem 8.4. If |x − 1| < 1 in K then log0 (x) = 1/x.
+Proof. We can write log x as a power series in x − 1, and such series when |x − 1| < 1 can
+be differentiated termwise, so
+                                                             0
+                                         X                  n
+                                                     (x − 1) 
+                            log0 (x) =  (−1)n−1
+                                                        n
+                                         n≥1
+                                       X          n
+                                     =    (−1)n−1 (x − 1)n−1
+                                                  n
+                                       n≥1
+                                       X
+                                     =    (1 − x)n−1
+                                        n≥1
+                                            1
+                                    =
+                                       1 − (1 − x)
+                                       1
+                                    = .                                                
+                                       x
+   The real logarithm sends products to sums: it is a group homomorphism (0, ∞) → R.
+The p-adic logarithm’s domain {x ∈ K : |x − 1| < 1} is also a multiplicative group: by
+the strong triangle inequality, |x − 1| < 1 =⇒ |x| = |(x − 1) + 1| = 1, so |x − 1| < 1
+and |y − 1| < 1 imply |xy − 1| = |(x − 1)y + (y − 1)| ≤ max(|x − 1||y|, |y − 1|) < 1 and
+|1/x − 1| = |(1 − x)/x| = |1 − x| < 1. The values of the p-adic logarithm are in K, an
+additive group. Is the p-adic logarithm a group homomorphism?
+Theorem 8.5. If |x − 1| < 1 and |y − 1| < 1 in a p-adic field K then log(xy) = log x + log y.
+Proof. Fix a choice of y. We consider the two expressions log(xy) and log x + log y as
+functions of x on the disc {x ∈ K : |x − 1| < 1}. To prove they are equal, look at the
+x-derivative of both sides. By Theorem 8.4, (log x + log y)0 = log0 (x) = 1/x. By the chain
+rule, (log(xy))0 = (1/(xy))y = 1/x.
+   Since the two derivative formulas match, we expect the functions log(xy) and log x+log y
+differ by a constant: log(xy) = log x + log y + Cy for some Cy ∈ K. Setting x = 1, we would
+then see that log y = log y + Cy , so Cy = 0 and thus log(xy) = log x + log y. Since y was
+fixed but arbitrary, and x was arbitrary, we have proved the desired identity.
+   However, this reasoning has a gap. The argument was based on knowing that two p-adic
+functions on a disc with the same derivative on that disc differ by a constant, and we have
+28                                        KEITH CONRAD
+
+
+shown this holds for two functions on a disc represented by power series that meet the
+hypotheses of Theorem 7.1(4) or Theorem 7.10. Both log x + log y and log(xy), as functions
+of x, have power series expansions:
+                                                 X         (x − 1)n
+                         log x + log y = log y +   (−1)n−1
+                                                              n
+                                                  n≥1
+
+and
+                            X             (xy − 1)n X             (x − 1/y)n
+                log(xy) =       (−1)n−1            =  (−1)n−1 y n            .
+                                              n                       n
+                            n6=1                        n6=1
+The first series is centered at 1 and the second is centered at 1/y. Both series converge on the
+disc D = {x ∈ K : |x−1| < 1}, and D contains 1/y since |1/y −1| = |1−y|/|y| = |1−y| < 1.
+Thus log x + log y and log(xy) are power series in x centered at different points of D (unless
+y = 1: a trivial case), so we could use Theorem 7.10. Or by recentering, we can write the
+two functions of x as power series on D centered at the same point and then use Theorem
+7.1(4) (equality of derivatives does not depend on the center).                               
+Corollary 8.6. If |x − 1| < 1 in K then log(1/x) = − log x and log(xn ) = n log x for all
+n ∈ Z.
+Proof. Taking the logarithm on both sides of x(1/x) = 1 we get log x+log(1/x) = log(1) = 0,
+so log(1/x) = − log x. We get log(xn ) = n log x for n ∈ Z+ from Theorem 8.5 by induction.
+The equation is trivial for n = 0, and the case n < 0 follows from the case n > 0 since
+log(x−n ) = log((xn )−1 ) = − log(xn ).                                                  
+  The p-adic exponential is defined near 0 and the p-adic logarithm is defined near 1. We
+saw in Theorem 4.5 that the p-adic exponential is an isometry on the disc where it converges.
+The p-adic logarithm is an isometry too, but only on numbers close enough to 1.
+Theorem 8.7. If |t − 1| < (1/p)1/(p−1) then | log t| = |t − 1|. If |x − 1| < (1/p)1/(p−1) and
+|y − 1| < (1/p)1/(p−1) then | log x − log y| = |x − y|.
+Proof. If t = 1 then log t = t − 1 = 0. For 0 < |t − 1| < (1/p)1/(p−1) , extract the first term
+from the power series for log t:
+                                              X          (t − 1)n
+                            log t = (t − 1) +   (−1)n−1           .
+                                                             n
+                                               n≥2
+
+We will show |(−1)n−1 (t−1)n /n| < |t−1| for n ≥ 2. Then |t−1+ N                n−1 (t−1)n /n| =
+                                                                     P
+                                                                        n=2 (−1)
+|t − 1| for N ≥ 2, and letting N → ∞ we get | log t| = |t − 1|.
+   The condition |(−1)n−1 (t − 1)n /n| < |t − 1| is equivalent to |t − 1|n−1 < |n| = |n|p , which
+for n ≥ 2 says
+(8.1)                                 |t − 1| < |n|p1/(n−1) .
+Why is this inequality true? Since |t − 1| < (1/p)1/(p−1) , we can verify (8.1) by showing
+                                  1/(p−1)
+                                   1
+                                              ≤ |n|p1/(n−1) .
+                                   p
+It is left to the reader to check this inequality holds for all n ≥ 2 (and equality occurs if
+and only if n = p). This completes the proof of the first part.
+                                INFINITE SERIES IN p-ADIC FIELDS                              29
+
+
+  To show | log x − log y| = |x − y|, rewrite | log x − log y| as | log(x/y)| by Corollary 8.6.
+To apply the first part to | log(x/y)|, we check
+                                                                       1/(p−1)
+             x          |x − y|                                         1
+                −1 =             = |x − y| ≤ max(|x − 1|, |y − 1|) <             .
+             y            |y|                                           p
+Therefore | log(x/y)| = |x/y − 1| = |x − y|/|y| = |x − y|.                                    
+  Recall the disc Dp in (4.1).
+Corollary 8.8. The logarithm is injective on {x ∈ K : |x − 1| < (1/p)1/(p−1) } = 1 + Dp .
+Proof. If log x = log y for x and y in 1 + Dp then |x − y| = | log x − log y| = 0, so x = y. 
+Example 8.9. For prime p 6= 2,
+           {x ∈ Qp : |x − 1|p < (1/p)1/(p−1) } = {x ∈ Qp : |x − 1|p ≤ 1/p} = 1 + pZp ,
+which is the full domain on which the p-adic logarithm is defined in Qp . Thus the logarithm
+on 1 + pZp is injective and an isometry here: | log x − log y|p = |x − y|p . Its image is in pZp
+since | log x|p = |x − 1|p ≤ 1/p.
+   For p = 2,
+              {x ∈ Q2 : |x − 1|2 < (1/2)} = {x ∈ Q2 : |x − 1|2 ≤ 1/4} = 1 + 4Z2 ,
+so the 2-adic logarithm is injective and an isometry on 1 + 4Z2 , with image in 4Z2 . The
+set 1 + 4Z2 is not the whole domain for the 2-adic log, whose power series converges on
+1 + 2Z2 . It turns out that on 1 + 2Z2 the logarithm is not an isometry or injective. The
+reason is explained most easily with −1. Since −1 ∈ 1 + 2Z2 and (−1)2 = 1, taking the
+logarithm of both sides shows 2 log(−1) = log(1) = 0 by Theorem 8.5, so log(−1) = 0.
+Hence log(−1) = log(1) even though −1 6= 1. More generally, log(−a) = log a for all
+a ∈ 1 + 2Z2 . So if a ≡ 3 mod 4 then | log a|2 = | log(−a)|2 = | − a − 1|2 = |a + 1|2 since
+−a ≡ 1 mod 4.
+Example 8.10. The 2-adic equation log(−1) = 0, which says log(1 − 2) = 0, is equivalent
+to
+                        X           (−2)n      X 2n
+                           (−1)n−1        =−         = 0,
+                                      n            n
+                              n≥1                      n≥1
+so in Q2
+                                          X 2n
+(8.2)                                               = 0.
+                                                n
+                                          n≥1
+
+   Using the partial sums s(n) = 2 + 22 /2 + 23 /3 + · · · + 2n /n, (8.2) says ord2 (s(n)) → ∞
+as n → ∞. In the table below, the 2-adic valuations of ord2 (s(n)) grow irregularly.
+           n       1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+      ord2 (s(n)) 1 2 2 5 8 5 5 13 9 10 10 12 12 12 12 22 17 18
+   Since ord2 (s(n)) doesn’t directly mention 2-adic logarithms, it’s natural to ask whether
+we can prove ord2 (s(n)) → ∞ as n → ∞ without using 2-adic logarithms. This can be done.
+See the accepted answer at https://math.stackexchange.com/questions/2816184. The
+                                                                                     Pm
+idea is to show when n is even that nk=1 2k /k is n times a 2-adic integer, so 2k=1 2k /k
+                                       P
+                                                      m
+when m ≥ 1 is 2m times a 2-adic integer. Thus 2k=1 2k /k → 0 in Z2 as m → ∞, so the
+                                                  P
+
+series k≥1 2k /k has a subsequence among its partial sums that tends to 0. Since the whole
+       P
+30                                       KEITH CONRAD
+
+
+series converges in Q2 , it equals every limit taken along a subsequence of its partial sums,
+and thus the whole series is 0.
+  That ord2 (s(n)) → ∞ as n → ∞ can be expressed as the following lower bound, whose
+proof is omitted.
+Theorem 8.11. If 2r ≤ n < 2r+1 , then ord2 (s(n)) ≥ n − r, with equality if and only if
+n = 2r+1 − 1.
+     Here is a corresponding upper bound on ord2 (s(n)) based on numerical data.
+Conjecture 8.12. When 2r ≤ n < 2r+1 , ord2 (s(n)) ≤ n + 2r − 2 except at n = 8, and
+there is equality if n = 2r except if n is 4 or 8.
+   In Conjecture 8.12 we write “if” rather than “if and only if” since sometimes ord2 (s(n)) =
+n + 2r − 2 when n is not a power of 2: it holds at n = 40 and n = 296.
+   Rewriting 2r ≤ n < 2r+1 as r ≤ log2 n < r + 1 (where log2 is the high school base-2
+logarithm), the upper and lower bounds above say
+                        n − blog2 nc ≤ ord2 (s(n)) ≤ n + 2blog2 nc − 2
+for all n ≥ 1 except when n = 8 in the upper bound.
+   Returning to general primes, the p-adic exponential and logarithm are continuous homo-
+morphisms exp : pZp → 1 + pZp and log : 1 + pZp → pZp for p 6= 2 and exp : 4Z2 → 1 + 4Z2
+and log : 1 + 4Z2 → 4Z2 for p = 2. We will show next that these are inverse functions. More
+generally, on a p-adic field these functions are inverses on the discs where we proved they
+are isometries.
+Theorem 8.13. The functions exp : Dp → 1 + Dp and log : 1 + Dp → Dp are inverses,
+where Dp = {x ∈ K : |x| < (1/p)1/(p−1) }.
+   Before getting into the proof of Theorem 8.13, some comments are in order to get the
+right perspective about the result and its proof.
+   You might think the proof should be easy using derivatives. After all, setting f (x) =
+log(ex ), we have by the chain rule that f 0 (x) = (log0 (ex ))(ex )0 = (1/ex )(ex ) = 1, so f has
+constant derivative 1. That means f (x) = x + c for some constant c. Then we can find c
+by setting x = 0: f (0) = log(e0 ) = log(1) = 0, so c is 0 and f (x) = x, i.e., log(ex ) = x,
+right? This is how a proof in real analysis could go. But such reasoning in p-adic analysis
+has a gap: why must a function with derivative 1 be linear? Recall by Example 5.9 that not
+all functions Zp → Qp with derivative 0 have to be constant! We know that on a disc in
+a p-adic field, an analytic function on the disc with derivative 1 must have the form x + c,
+since the derivative determines the function up to an additive constant. But that begs the
+question: why is log(ex ) analytic? That log x and ex are each analytic is not good enough:
+the composition of analytic functions does not have to be analytic!
+Example 8.14. Consider the 2-adic exponential and logarithm. Both log : 1 + 2Z2 → Q2
+and exp : 4Z2 → Q2 are analytic (each is a power series on a disc). Since 1+2Z2 = ±(1+4Z2 )
+and log(−1) = 0, we have log(1 + 2Z2 ) = log(1 + 4Z2 ) ⊂ 4Z2 . Also exp(4Z2 ) ⊂ 1 + 4Z2 , so
+if for x ∈ 1 + 2Z2 we set h(x) = elog x then h(1 + 2Z2 ) ⊂ 1 + 4Z2 . Therefore we can’t have
+h(x) = x for x ∈ 1 + 2Z2 with x 6∈ 1 + 4Z2 . (We know it’s false at x = −1!) In fact it turns
+out that for x ∈ 1 + 2Z2 ,             (
+                                         x,    if x ≡ 1 mod 4,
+                              elog x =
+                                         −x if x ≡ 3 mod 4.
+                                 INFINITE SERIES IN p-ADIC FIELDS                                31
+
+
+This composite of analytic functions is not an analytic function since it is not given by a
+single power series on 1 + 2Z2 .
+   There is a theorem giving general conditions under which a formal composition of power
+series h(X) = f (g(X)) satisfies the numerical identity h(x) = f (g(x)) for x in the domain
+of convergence of g(X). (See [2, pp. 99-101] for p-adic power series and [6, pp. 180-181] for
+real power series; the real case uses hypotheses of absolute convergence.) The only instance
+of composition of power series that we will use is for the p-adic exponential and logarithm,
+so we will bypass proving a general theorem justifying formal-to-numerical composition
+and give instead a proof tailor-made to the p-adic exponential and logarithm series. The
+following proof of Theorem 8.13 can be safely skipped and returned to later.
+
+Proof. Since exp x is an isometry on Dp and log x is an isometry on 1 + Dp , we know
+exp(Dp ) ⊂ 1 + Dp and log(1 + Dp ) ⊂ Dp . Therefore it makes sense to ask if log(ex ) = x for
+all x ∈ Dp and if elog y = y for all y in 1 + Dp .
+   If we prove log(ex ) = x for all x ∈ Dp or elog y = y for all y ∈ 1 + Dp then the other
+follows. For example, if log(ex ) = x for all x ∈ Dp then for y ∈ 1 + Dp set x = log y ∈ Dp
+and thus log(elog y ) = log y. Both elog y and y are in 1 + Dp and log is injective on this disc
+since it is an isometry there, so from log(elog y ) = log y on 1 + Dp we get elog y = y on 1 + Dp .
+   We will now prove log(eP  x ) = x for x ∈ D . From now on, x always runs over D .
+                                               p                                         p
+   The formula log(e ) = n≥1 (−1)n−1 (ex − 1)n /n, is not directly a power series in x, but
+                       x
+
+rather in ex − 1. For N ≥ 1, define the truncated log polynomial
+                               N
+                               X (−1)n−1           1           (−1)N −1 N
+                 LN (T ) =                 Tn = T − T2 + ··· +         T .
+                                     n             2              N
+                               n=1
+
+For y ∈ 1 + Dp , LN (y − 1) → log y as N → ∞. When x ∈ Dp and we set y = ex , we get
+LN (ex − 1) → log(ex ). We will now prove that LN (ex − 1) → x as N → ∞, so log(ex ) = x.
+   Since LN (ex −1) is a polynomial in ex −1, it is a finite sum of powers of analytic functions
+on Dp and therefore it is analytic on Dp (Theorem 3.1). Let the expansion of LN (ex − 1)
+as a power series in x have coefficients cm,N for m ≥ 0: for x ∈ Dp ,
+                                     N
+                           x
+                                     X (−1)n−1                  X
+(8.3)                LN (e − 1) =                 (ex − 1)n =         cm,N xm .
+                                             n
+                                     n=1                        m≥0
+
+We want to understand what is happening to the coefficients cm,N as N grows.
+  Because ex − 1 = x + x2 /2! + · · · has constant term 0 and first term x, (ex − 1)n is a
+power series in x with first term xn . Therefore the expression of
+                                      (ex − 1)2                    (ex − 1)N
+                LN (ex − 1) = (ex − 1) −        + · · · + (−1)N −1
+                                          2                            N
+                    x
+as a polynomial in e − 1 shows c0,N = 0 and c1,N = 1, so
+                                               X
+(8.4)                       LN (ex − 1) = x +      cm,N xm .
+                                                    m≥2
+
+We will use derivatives to show cm,N = 0 for 2 ≤ m ≤ N . (Since LN (ex − 1) → log(ex )
+as N → ∞, and anticipating that log(ex ) = x, we should expect in (8.4) that many of the
+cm,N ’s for m ≥ 2 should vanish as N grows.)
+32                                            KEITH CONRAD
+
+
+   Differentiate LN (ex − 1) as a function of x. Since LN (T ) is a polynomial, the rules of
+differential calculus (basically the chain rule) tell us that for x ∈ Dp ,
+                   (LN (ex − 1))0 = L0N (ex − 1)(ex − 1)0 = L0N (ex − 1)ex .
+Since LN (T ) has derivative N          n−1 T n−1 ,
+                            P
+                               n=1 (−1)
+                                                  N
+                                                  X
+                          L0N (ex − 1)ex =            (−1)n−1 (ex − 1)n−1 ex
+                                                  n=1
+                                                  XN
+                                              =       (1 − ex )n−1 ex
+                                                  n=1
+                                                  1 − (1 − ex )N x
+                                              =                  e
+                                                   1 − (1 − ex )
+                                              = 1 − (1 − ex )N .
+The power series for 1 − ex starts with −x, so 1 − (1 − ex )N = 1 + (−1)NP  +1 xN + · · · , which
+
+has no terms in degrees 1 through N − 1. By (8.3), (LN (ex − 1))0 = m≥1 mcm,N xm−1 .
+Therefore by uniqueness  of coefficients in power series expansions (Corollary 3.15 or 5.6), the
+coefficients of m≥1 mcm,N xm−1 are 0 for 1 ≤ m − 1 ≤ N − 1, so cm,N = 0 for 2 ≤ m ≤ N .
+               P
+
+Feeding this into (8.4),
+                                                   X
+(8.5)                        LN (ex − 1) = x +            cm,N xm .
+                                                         m≥N +1
+
+     Now we compute 1 − (1 − ex )N as a power series more explicitly:
+
+                                              N  
+                             x N
+                                              X  N
+                   1 − (1 − e )    =1−                   (−ex )k
+                                                    k
+                                          k=0
+                                        N    
+                                        XN
+                                   =       (−1)k+1 ekx by Theorem 4.4
+                                         k
+                                     k=1
+                                      N           X km
+                                     X   N
+                                   =       (−1)k+1        xm .
+                                         k             m!
+                                        k=1                   m≥0
+
+We can interchange the order of summation since the sum of finitely many convergent series
+can always be added termwise (you could apply Theorem 3.1 if you wish). Then
+                                   N  
+                                                      !
+                       x N
+                             X X       N        k+1 m   xm      X        xm
+             1 − (1 − e ) =                (−1) k            =      bm,N    ,
+                                        k                m!              m!
+                                  m≥0    k=1                              m≥0
+
+where bm,N is an integer. Since (LN           (ex − 1))0   = 1 − (1 − ex )N , and power series in x
+have uniquely determined coefficients, equating coefficients of xm−1 on both sides gives us
+mcm,N = bm−1,N /(m − 1)! for m ≥ 1. Therefore when m ≥ 1, cm,N = bm−1,N /m! is an
+integer divided by m!. Place this formula for cm,N into (8.5):
+                                               X bm−1,N
+                           LN (ex − 1) = x +                 xm .
+                                                        m!
+                                                        m≥N +1
+                                   INFINITE SERIES IN p-ADIC FIELDS                                     33
+
+
+Subtract x and estimate:
+                                             bm−1,N m             xm
+                     |LN (ex − 1) − x| ≤ max        x ≤ max           ,
+                                     m≥N +1     m!       m≥N +1 m!
+
+where in the last estimate we used the fact that bm−1,N is an integer. Because x ∈ Dp ,
+xm /m! → 0 as m → ∞ from convergence of the p-adic exponential series at x. Therefore
+our upper bound on |LN (ex − 1) − x| tends to 0 as N → ∞, so LN (ex − 1) → x as N → ∞.
+We already saw at the start that LN (ex − 1) → log(ex ) as N → ∞, so log(ex ) = x by
+uniqueness of limits.                                                               
+Example 8.15. For p odd, ex is an isomorphism from pZp onto 1 + pZp with inverse log y.
+These isomorphisms are isometries, so ex maps pk Zp onto 1 + pk Zp if k ≥ 1. For p = 2, ex
+is an isomorphism from 4Z2 onto 1 + 4Z2 , and the image of 2k Z2 under ex is 1 + 2k Z2 if
+k ≥ 2.
+   In R the exponential function with its infinite radius of convergence defines a global group
+isomorphism from all of R to the positive reals (0, ∞). In the p-adic world, the exponential
+function sets up a local group isomorphism between a neighborhood of 0 (additive) and a
+neighborhood of 1 (multiplicative).
+Example 8.16. We saw in Example 8.3 that in Q5 , log 11 ≡ 85 mod 55 . Since the 5-adic
+exponential is an
+               P isometry 5Z5 → 1 + 5Z5 , we must have e85 ≡ 11 mod 55 . Let’s check. As
+a series, e = n≥0 85 /n!. The reader should check that 85n /n! ≡ 0 mod 55 for n ≥ 6, so
+           85         n
+
+                                         852 853 854 855
+                         e85 ≡ 1 + 85 +      +     +     +      mod 55
+                                          2     6     24     5!
+                              ≡ 1 + 85 + 2050 + 2875 + 2500 + 1875 mod 55
+                              ≡ 11 mod 55 .
+
+                              9. Power series and root extractions
+   In this section we look at the p-adic version of power series for power functions.
+   One of Newton’s great discoveries was the extension of the binomial theorem from integral
+to real exponents:
+                                  X t                   
+                                                           t 2
+                               t            n
+                        (1 + x) =          x = 1 + tx +        x + ···
+                                        n                  2
+                                      n≥0
+
+for t ∈ R, which is absolutely convergent for |x| < 1 in R.4 In particular, taking t = 1/m
+for m ∈ Z+ ,
+                                              X 1/m
+(9.1)                           (1 + x)1/m =              xn
+                                                     n
+                                              n≥0
+   √
+   m
+is 1 + x, the positive real mth root of 1 + x, when −1 < x < 1.
+   We will look at Newton’s binomial series for p-adic x and p-adic integer exponents t, and
+in particular show when t = 1/m that the mth root series (9.1) describes p-adic mth roots,
+but it might not converge to the mth root you’d expect.
+Theorem 9.1. For t ∈ Zp , the series n≥0 nt xn converges for |x|p < 1.
+                                       P        
+
+   4For x = ±1 the series converges for some t, and of course it converges for all x when t ∈ Z+ since then
+the series is a polynomial.
+

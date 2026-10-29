@@ -1,0 +1,39 @@
+{
+  "completed": true,
+  "failures": [],
+  "checks": 316044,
+  "bindings": {
+    "odd-membership-35-certificate.json": "60db6aa9958df7980a1f8914f79d6b228775a2fbcc5bd3575301cabc68887c07",
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+    "odd-model-support-certificate.json": "22315e6ebcbaa4ff063206432a958935aeb01b07ea6652bcc51d851c45162193",
+    "two-adic-filter-certificate.json": "18a2ac2527d1a3cf2c1c8e78bd9ce8bdd4cdc98b38375419554600e73b11736e",
+    "two-adic-filter-audit.json": "538970ae98c36ac4ea42ebfe7551e7c3cbf836904bb7334b2a30a11e7c793958"
+  },
+  "max_rational_bits": 116,
+  "places": {
+    "3": {
+      "actual_image_rank": 2,
+      "required_image_rank": 2,
+      "tests": 134,
+      "tests_cap": 200000,
+      "max_ideal_depth": 6
+    },
+    "5": {
+      "actual_image_rank": 3,
+      "required_image_rank": 3,
+      "tests": 924,
+      "tests_cap": 200000,
+      "max_ideal_depth": 6
+    }
+  },
+  "old_coefficient_dimension": 34,
+  "all_coefficient_dimension": 31,
+  "pair_masks": [
+    165,
+    132102
+  ],
+  "selected_pair_independent": true,
+  "additional_condition_rank": 3,
+  "rank_bound_improvement": 3,
+  "rank_upper_bound": 4
+}

@@ -1,0 +1,74 @@
+{
+  "completed": false,
+  "failures": [
+    {
+      "message": "complete odd prime indices",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/shukla_good_conics.py\", line 107, in <module>\n    try:main()\n        ~~~~^^\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/shukla_good_conics.py\", line 56, in main\n    ck('complete odd prime indices',[P.index for P in primes]==[27,28,29,30,31,26])\n    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/beal/scripts/pair-genus-two/shukla_good_conics.py\", line 24, in ck\n    assert test,name\n           ^^^^\nAssertionError: complete odd prime indices\n"
+    }
+  ],
+  "bindings": {
+    "odd-membership-35-certificate.json": "60db6aa9958df7980a1f8914f79d6b228775a2fbcc5bd3575301cabc68887c07",
+    "surviving-witness-span-certificate.json": "6190fc8ebfb79e9a9f532c75c893cff4bebd27aa8ae27dac042cd18c758eb131",
+    "odd-membership-35-audit.json": "8f31ed7df01864a2c954b838ce68aa17ffabe45b48f0cb737d921332839ea12a",
+    "surviving-witness-span-audit.json": "af60be83e1766ab0ed05d4d1dc31a06c502de8abfacbb8dd69c0c4165291d80c",
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+    "odd-model-support-certificate.json": "22315e6ebcbaa4ff063206432a958935aeb01b07ea6652bcc51d851c45162193",
+    "two-adic-filter-certificate.json": "18a2ac2527d1a3cf2c1c8e78bd9ce8bdd4cdc98b38375419554600e73b11736e"
+  },
+  "classes": [],
+  "checks": [
+    {
+      "name": "odd-membership-35 complete",
+      "passed": true
+    },
+    {
+      "name": "odd-membership-35 audit",
+      "passed": true
+    },
+    {
+      "name": "surviving-witness-span complete",
+      "passed": true
+    },
+    {
+      "name": "surviving-witness-span audit",
+      "passed": true
+    },
+    {
+      "name": "basis matches field arithmetic",
+      "passed": true
+    },
+    {
+      "name": "actual field identification",
+      "passed": true
+    },
+    {
+      "name": "model rational root",
+      "passed": true
+    },
+    {
+      "name": "rational-root quartic factor value",
+      "passed": true
+    },
+    {
+      "name": "whole 39-source order",
+      "passed": true
+    },
+    {
+      "name": "complete odd prime indices",
+      "passed": false
+    }
+  ],
+  "bounds": {
+    "classes_required": 2,
+    "classes_tested": 0,
+    "odd_primes": [
+      3,
+      5,
+      11
+    ],
+    "prime_depth_cap": 64,
+    "rational_bits_cap": 8192
+  },
+  "full_goodness_decided": false,
+  "pairing_computed": false
+}

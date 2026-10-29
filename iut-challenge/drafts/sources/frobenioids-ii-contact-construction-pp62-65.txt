@@ -1,0 +1,246 @@
+62                                 SHINICHI MOCHIZUKI
+
+[Mzk5], Corollary 5.4, to the various local and global components of Ci , in light of
+the compatibility of assertion (v).
+
+
+     We are now ready to discuss the main motivating example of the theory of
+[Mzk5] and the present paper, an example to which most of the main results of
+this theory may be applied. The example arises, in eﬀect, by “grafting” the global
+example of [Mzk5], Example 6.3, onto the local examples of Examples 1.1, 3.3, of
+the present paper.
+
+
+Example 5.6.        Poly-Frobenioids Associated to Number Fields.
+
+     (i) Let F /F be a Galois extension of a number ﬁeld F ; write G = Gal(F/F ),
+                                                                       def
+
+V(F ) for the set of valuations on F [where we identify complex archimedean val-
+uations with their complex conjugates —cf. [Mzk5], Example 6.3]. For v ∈ V(F ),
+write Fv for the completion of F at v, Fv for the Galois extension of Fv determined
+by F, Dv = Gal(Fv /Fv ) ⊆ G [so Dv is well-deﬁned up to conjugation in G ].
+            def
+
+Also, we assume that we have been given monoid types
+
+                           Λ ;     {Λv }v∈V(F );   {Λv }v∈V(F )
+
+satisfying Λv ≥ Λ , Λv ≥ Λv , for all v ∈ V(F ). Note that [if we take the “F/F ”,
+“v” of Example 1.4 to be the “F/F ”, “v” of the present discussion, then] the
+                                                                               def
+category “P0 ” of Example 1.4 may be identiﬁed with the category Pv = B(Dv )0 .
+Thus, the functor “E0 → P0 ” of Example 1.4 determines a functor which we denote
+by Ev → Pv .
+
+     (ii) Let
+                                         Π  G
+
+be a surjection of residually ﬁnite tempered groups. Then the category
+
+                                          def
+                                      D = B(Π )0
+
+is connected, totally epimorphic, Frobenius-slim, and of FSM- and strongly indis-
+sectible [hence, in particular, weakly indissectible] type — cf. Example 1.3, (i).
+Thus, if “CF /F ” is as in [Mzk5], Example 6.3, then
+
+                 Z def   def                         Q  def
+                                                          pf        R def
+                C = C = CF /F ×B(G ) D ;        C = C  ;     C = C
+                                                                         rlf
+
+
+
+                               Λ
+determines a Frobenioid C which is of rationally standard type over a Frobenius-
+slim base category [cf. [Mzk5], Theorem 6.4, (i), for the case Π = G ; the case
+of arbitrary Π is entirely similar]. If, moreover, Π is temp-slim, then D is slim
+[cf. Example 1.3, (i)].
+                        THE GEOMETRY OF FROBENIOIDS II                                63
+
+      (iii) Let v ∈ V(F ) be nonarchimedean; K v /Fv a Galois extension containing
+Fv ; Gv = Gal(K    v /Fv ). Thus, we have a natural surjection Gv  Dv ⊆ G .
+           def
+
+Suppose further that we have been given a commutative diagram
+
+                                     Πv         Gv
+                                     ⏐           ⏐
+                                     ⏐           ⏐
+
+                                    Π      G
+
+of residually ﬁnite tempered groups [where the lower horizontal surjection and the
+vertical homomorphism on the right are the morphisms that were given previously].
+Let
+                                       Dv
+be one of the categories B(Πv )0 , B(Πv )0 ×Pv Ev [where the functor B(Πv )0 → Pv
+is the functor determined by the surjection Πv  Gv  Dv — cf. Example 1.3,
+(ii)]. Then the category Dv is connected, totally epimorphic, Frobenius-slim, and of
+FSMFF- and strongly indissectible [hence, in particular, weakly indissectible] type
+[cf. Example 1.3, (i); Example 1.4, (iii)]. If, moreover, Πv is temp-slim, then Dv is
+slim [cf. Example 1.3, (i); Example 1.4, (iii)]. Write
+
+                                      CvΛv ;   CΛ
+                                                v
+                                                  v
+
+
+
+for the respective categories “C” of Example 1.1, (ii), obtained by taking the “D”
+of loc. cit. to be Dv , the “Λ” of loc. cit. to be Λv , Λv , and the “Φ” of loc. cit. to
+be functors Φv , Φv : Dv → Mon as in loc. cit. such that the following conditions
+are satsﬁed:
+
+ (a) Φv ⊆ Φv ;
+ (b) the resulting functors Φbirat
+                             v     , Φbirat
+                                      v     satisfy Φbirat
+                                                     v     = Φbirat
+                                                              v     +Φcnst
+                                                                      v    for some
+    group-like functor Dv → Mon which is constant [i.e., maps all arrows of
+    Dv to isomorphisms of Mon];
+ (c) Φv is ﬁeldwise saturated [cf. Example 1.1, (ii)] and supported by Λv [cf.
+    [Mzk5], Deﬁnition 2.4, (ii)].
+
+Thus, CvΛv , C Λ
+               v are Frobenioids which are of rationally standard type over a Frobenius-
+                 v
+
+slim base category [cf. Theorem 1.2, (i)]; the underlying category of CvΛv , C Λ  v is
+                                                                                   v
+
+of weakly indissectible type [cf. the discussion of §0]. Moreover, [since Λv ≥ Λ ,
+Λv ≥ Λv , for all v ∈ V(F )] it follows immediately from the deﬁnitions [by restricting
+arithmetic divisors on number ﬁelds to divisors on their localizations and nonzero
+elements of number ﬁelds to elements of their completions] that we obtain functors
+
+                                      v 
+                              Λ
+                            C → (C Λ
+                                     v ) ;       CvΛv → C Λ
+                                                          v
+                                                            v
+
+
+
+the ﬁrst of which is GC-admissible and 1-compatible with the natural localization
+functor D → Dv [arising from the homomorphism “Πv → Π ” — cf. the “pull-
+back functor” of Example 1.3, (ii)], and the second of which is LC-unit-admissible
+64                              SHINICHI MOCHIZUKI
+
+[cf. [Mzk5], Proposition 5.5, (i)]; also, we note that the “restriction of arithmetic di-
+visors” portion of the ﬁrst of these functors is possible precisely because of condition
+(c).
+
+    (iv) Let v ∈ V(F ) be archimedean; K  v /Fv a Galois extension containing Fv
+           v is complex; Gv = Gal(K
+such that K
+                             def     v /Fv ). Thus, we have a natural surjection
+Gv  Dv ⊆ G . Suppose further that we have been given a commutative diagram
+
+                                      Πv         Gv
+                                      ⏐           ⏐
+                                      ⏐           ⏐
+
+                                      Π     G
+
+of residually ﬁnite tempered groups [where the lower horizontal surjection and the
+vertical homomorphism on the right are the morphisms that were given previously].
+Let
+                                       Dv
+be one of the following categories:
+
+ (a) B(Πv )0 , B(Πv )0 ×Pv Ev [where the functor B(Πv )0 → Pv is the functor
+    determined by the surjection Πv  Gv  Dv — cf. Example 1.3, (ii)];
+ (b) one of the categories of hyperbolic Riemann surfaces “D” or “E” of
+    Example 4.3, (i), (ii), (iii), where the tempered group “Π” of loc. cit. is
+    equal to Πv [in a fashion compatible with the surjection Πv  Gv ];
+ (c) a nonrigidiﬁed or rigidifed angloid [i.e., “N ”, “R”] over a base category
+    as in (a) above [cf. Remark 4.2.1];
+ (d) a nonrigidiﬁed or rigidifed angloid [i.e., “N ”, “R”] over a base category
+    as in (b) above [cf. Remark 4.2.1].
+
+If Dv is taken to be one of the categories that involves Ev , then let us assume
+further that the extension F/F is amply quadratic [cf. Example 4.3, (iii)]. Then
+[cf. Example 1.3, (i); Proposition 1.5, (iv); Proposition 4.1, (v); Corollary 4.2,
+(iv), (v); Example 4.3, (ii), (iii), (iv); Example 4.4, (ii), (iii), (iv)] the category Dv
+is Frobenius-slim and of RC-standard [hence, in particular, connected, totally epi-
+morphic, and of FSMFF-type] and either strongly dissectible or weakly indissectible
+type; moreover, in cases (b), (d), Dv is always slim, while in cases (a), (c), Dv is
+slim whenever Πv is temp-slim. Write
+
+                                       CvΛv ;   CΛ
+                                                 v
+                                                   v
+
+
+
+
+for the respective categories “C Λ ” of Example 3.3, (ii), obtained by taking the “D”
+of loc. cit. to be Dv and the “Λ” of loc. cit. to be Λv , Λv . Thus, CvΛv , C Λ        v
+                                                                                         v
+
+are Frobenioids which are of rationally standard type over a Frobenius-slim base
+category [cf. Theorem 3.6, (i)]; the underlying category of CvΛv , C Λ   v
+                                                                           v is of either
+
+strongly dissectible or weakly indissectible type [cf. the discussion of §0]. Moreover,
+                          THE GEOMETRY OF FROBENIOIDS II                                65
+
+[since Λv ≥ Λ , Λv ≥ Λv , for all v ∈ V(F )] it follows immediately from the
+deﬁnitions [by restricting arithmetic divisors on number ﬁelds to divisors on their
+localizations and nonzero elements of number ﬁelds to elements of their completions]
+that we obtain functors
+                                        v 
+                                Λ
+                              C → (C Λ
+                                       v ) ;      CvΛv → C Λ
+                                                           v
+                                                             v
+
+
+
+the ﬁrst of which is GC-admissible and 1-compatible with the natural localization
+functor D → Dv [arising from the homomorphism “Πv → Π ” — cf. the “pull-
+back functor” of Example 1.3, (ii)], and the second of which is LC-unit-admissible
+[cf. [Mzk5], Proposition 5.5, (i)].
+
+        (v) Thus, the data
+  def      Λ                                 Λ           Λv 
+C =      C , {CvΛv }v∈V(F ) , {C Λ
+                                   v }v∈V(F ) , {C → (C v ) }v∈V(F ) , {Cv → C v }v∈V(F )
+                                     v                                   Λv    Λv
+
+
+determines a poly-Frobenioid C of poly-rationally standard and poly-non-group-like
+type over a Frobenius-slim poly-base category D. In particular, all but the portion
+requiring “slimness” of Theorem 5.5 applies to C; the conditions on the data of the
+present Example 5.6 necessary for the poly-base category to be slim are as discussed
+above.
+
+Remark 5.6.1. Observe that unlike the case with Frobenioids, poly-Frobenioids
+are not necessarily totally epimorphic! In a similar vein [cf. the use of the injectivity
+condition of [Mzk5], Deﬁnition 1.1, (ii), (a), in the proof of the total epimorphicity
+portion of [Mzk5], Proposition 1.5], we observe that [again, unlike the case with
+Frobenioids] the map induced by a heterogeneous morphism between the values
+of the divisor monoids at the domain and codomain is not necessarily injective!
+Indeed, these phenomena occur, for instance, if one considers the poly-Frobenioids
+of Example 5.6, when Λ = R.
+
+Remark 5.6.2. Just as in the case of archimedean v, it is natural to consider
+Π , Πv [for nonarchimedean v] arising from the arithmetic fundamental group of
+a hyperbolic curve. One may then apply to such Π , Πv various results from the
+absolute anabelian geometry of hyperbolic curves [cf., e.g., [Mzk4]].
+
+Remark 5.6.3.       One veriﬁes immediately that, when considering equivalences
+of categories between poly-Frobenioids of the sort discussed in Example 5.6, (v),
+the induced equivalences of categories between the respective global components
+determine a “degree” ∈ R>0 , as in [Mzk5], Theorem 6.4, (ii). Moreover, just as
+in [Mzk5], Theorem 6.4, (iii), this degree is ∈ Q>0 [even if Λ = R!] whenever it
+holds that the Λv ≤ Q for all v ∈ V(F ). Similarly, just as in [Mzk5], Theorem 6.4,
+(iv), this degree = 1 [even if Λ = R!] whenever it holds that the Λv = Z for all
+v ∈ V(F ).
+

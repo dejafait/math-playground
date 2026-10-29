@@ -1,0 +1,874 @@
+                                                Real and finite field versions of Chebotarëv’s theorem
+                                                                         Tarek Emmrich                         Stefan Kunis
+
+                                                                                             Abstract
+
+
+
+
+arXiv:2506.02947v2 [math.NA] 30 Sep 2025
+                                                     Chebotarev’s theorem on roots of unity states that all minors of the Fourier matrix of
+                                                 prime size are non-vanishing. This result has been rediscovered several times and proved
+                                                 via different techniques. We follow the proof of Evans and Isaacs and generalize the original
+                                                 result to a real version and a version over finite fields. For the latter, we are able to decrease a
+                                                 sufficient lower bound on the characteristic by Zhang considerably. Direct applications include
+                                                 a specific real phase retrieval problem as well as a recent result for Riesz bases of exponentials.
+                                                 Key words and phrases: Discrete Fourier transform, finite fields, minors, Schur polynomials.
+                                                 2020 AMS Mathematics Subject Classification: 11T06, 15B33, 15B99, 43A25, 65T50.
+
+
+                                           1     Introduction
+                                           Let p ∈ N be a prime and ωp ∈ K be a primitive p-th root of unity for an arbitrary field K, then
+                                           we consider the Fourier matrix
+                                                                                                                 
+                                                                                     1   1       1    ...     1
+                                                                                    1  ωp      ωp2   . . . ωpp−1 
+                                                                                           2       4
+                                                                                                      . . . ωpp−2 
+                                                                                                                 
+                                                          Fp = ωpjm j,m=0,...,p−1 = 1  ωp      ωp                 ∈ Kp×p ,
+                                                                                   
+                                                                                        ..      ..   . ..     .
+                                                                                                               .. 
+                                                                                    1    .       .               
+                                                                                             1   ωpp−1     ωpp−2   ...   ωp
+
+                                           and ask under which conditions all of its square submatrices are non-singular. Over the complex
+                                           number field, the well known theorem by Chebotarëv gives an affirmative answer.
+                                           Theorem 1 (See e.g. [8, 15, 9, 16]; see Section 2). Let p ∈ N be prime and ωp = exp(2πi/p) ∈ C
+                                           be a p-th root of unity, then all minors of the Fourier matrix
+
+                                                                                            Fp ∈ Cp×p
+
+                                           are nonzero.
+                                               We will generalize this theorem to a real version and a version over finite fields as follows:
+
+                                           Theorem 2 (See Section 3). Let p ∈ N be prime and ωp = exp(2πi/p) ∈ C be a p-th root of unity,
+                                           then all minors of the real Vandermonde matrix
+                                                                                    m           p−1  p−1
+                                                                          ωpj + ωp−j        p−1
+                                                                                                ∈R 2 × 2
+                                                                                              j,m=1,...,   2
+
+
+                                           are nonzero.
+
+                                           Theorem 3 (Informal version; see Section 4). Let p, q ∈ N be two distinct primes, ordp (q) = p−1,
+                                           ωp ∈ Fqp−1 be a p-th root of unity, and q sufficiently large, then all minors of the Fourier matrix
+
+                                                                                            Fp ∈ Fp×p
+                                                                                                  q p−1
+
+                                           are nonzero.
+
+
+                                                                                                  1
+    The matrix in Theorem 2 is a real Vandermonde matrix and the result follows by understanding
+the Galois group of the field extension Q ⊆ Q(ωp +ωp−1 ) ⊆ Q(ωp ). Further note that Vandermonde
+matrices are known to be totally positive for positive nodes, see e.g. [14] or Theorem 4, and there is
+also a variant for a discrete cosine transform matrix which easily follows directly from Theorem 1.
+    Regarding Theorem 3, we note the following.
+     i) In [11] it has been falsely stated that the criterion ordp (q) = p − 1 is a sufficient condition
+        (without any lower bound on q); Zhang [17, Example 4.1,4.2] gave counterexamples for
+        p = 11, q = 2 and p = 41, q = 11.
+    ii) Zhang [17, Theorem A] proved Theorem 3 under the conditions ordp (q) = p − 1 and q > Γ,
+        for some large Γ.
+ iii) Recently, Pfander, Caragea, Lee, and Malikiosis [4] improved Zhang’s result by getting rid
+      of the criterion ordp (q) = p − 1.
+    iv) Here, we decrease the bound Γ on the characteristic q considerably.
+    Beyond scientific curiosity, our results are motivated by the following applications: The real
+versions in Theorem 7 and Theorem 9 are of interest if one wishes to do computations avoiding
+complex arithmetic. In particular, the complex Fourier matrix is an eigenvector matrix of the
+real symmetric graph Laplacian of the ring graph, whereas the real eigenvectors consisting of
+sine/cosine-pairs are the more natural choice. For the analysis of sparse signals on (more general)
+graphs, we refer to [6, 7]. A second application is in real phase retrieval for sparse polynomials in
+monomial or Chebyshev basis. The finite field version yields an uncertainty principle for specific
+integer matrices via standard arguments, see e.g. [16, Proof of Thm. 1.1] and Theorem 19. More
+surprisingly, a recent question in time-frequency analysis on Riesz bases of exponentials studies
+the principal minors of the complex Fourier matrix of size pq and reduces this to the nonvanishing
+minors property of the Fourier matrix of size p in characteristic q, see [3, 12]. Consequently,
+Theorem 17 also weakens the conditions of these results.
+    This paper is organized as follows: In Section 2, we recall the proof Chebotarëv’s theorem
+given by Evans and Isaacs [8] and slightly expand it in a way, such that it can be generalized
+directly to a real version in Section 3. For this proof Schur polynomials are essential. Now, the
+known proofs always use a divisibility argument, that is valid in Z but not in characteristic q > 0.
+Thus a more delicate analysis is required in Section 4. From this analysis we also obtain a new
+proof of Theorem 1 that completely works in the ring Z(ωp ) and does not rely on a substitution
+ωp 7→ 1, which is a standard trick in the known proofs, see Theorem 14.
+
+
+2      Prerequisites
+An important tool for our proofs are Schur polynomials. For k ∈ N, a set A = {a1 , . . . , ak } ∈
+ {0,1,...,n−1}
+              
+        k       , with a1 < a2 < . . . < ak , and any field K consider the generalized Vandermonde
+matrix
+                                            a1
+                                                  xa2 1 xa3 1 . . . xak1
+                                                                         
+                                             x1
+                                           xa1 2 xa2 2 xa3 2 . . . xa2 
+                                                                      k                          k×k
+              VA = VA (x1 , . . . , xk ) =  .                        ..  ∈ (K[x1 , . . . , xk ])    , (2.1)
+                                           
+                                              .     ..    ..  . .
+                                            .       .     .      .    . 
+                                         xa1 k   xa2 k      xa3 k     ...   xakk
+and drop the subscript for A = {0, . . . , k − 1}. For any matrix M , denote by MA,B the restric-
+tion of M to the rows A and the columns B. With this notation we observe VA (x1 , . . . , xk ) =
+(V{0,...,n−1} (x1 , . . . , xn ))A,{1,...,k} .
+    The determinant det(VA ) vanishes if (xi = xj ) and thus (xj − xi )| det(VA ). This motivates the
+definition of the Schur polynomial sA (x1 , . . . , xk ) as
+                                                                     det(VA )
+                                  sA (x1 , . . . , xk ) =           Q              .
+                                                                        (xj − xi )
+                                                            1≤i<j≤k
+
+
+                                                            2
+The following results is due to Mitchell [13], but is stated in a modern way in [8].
+
+Lemma 4 (See [13, 8]). Let A ∈ {0,1,...,n−1}
+                                                       
+                                             k           be any index set. The Schur polynomial sA (x1 , . . . , xk ) ∈
+Q[x1 , . . . , xk ] has nonnegative coefficients and
+                                                              Q
+                                                                   (aj − ai )
+                                                           1≤i<j≤k
+                                      sA (1, . . . , 1) =      Q              .
+                                                                    (j − i)
+                                                          1≤i<j≤k
+
+   These tools are already sufficient to prove Theorem 1. We will provide a proof that might seem
+cumbersome at some points, but can directly be generalized to a real version.
+Proof of Theorem 1. Let A, B ∈ {0,1,...,p−1}
+                                              
+                                        k       be the indices of a submatrix
+                                        a1 b1
+                                                       ωpa1 b2           ωpa1 bk
+                                                                                 
+                                         ωp                       ...
+                                       ωpa2 b1        ωpa2 b2    ...    ωpa2 bk 
+                                    M = .
+                                                                                
+                                                          ..      ..        .. 
+                                        ..                .         .       . 
+                                             ωpak b1   ωpak b2    ...    ωpak bk
+
+of the Fourier matrix Fp , with ωp = exp(2πi/p). We consider the Schur polynomial sA (x1 , . . . , xk )
+and observe that det(M ) = 0 if and only if sA (ωpb1 , ωpb2 , . . . , ωpbk ) = 0. After the substitution
+
+                                   αB : Q[x1 , . . . , xk ] → Q[X], xl 7→ X bl ,
+
+the multivariate Schur polynomial sA becomes an univariate polynomial αB (sA ) ∈ Q[X]. The
+prior statement can be rewritten as αB (sA )(ωp ) = 0 if and only if det(M ) = 0. Now, since
+Q[X] is a principal ideal domain, αB (sA )(ωp ) = 0 implies that αB (sA ) is divisible by the minimal
+                      Pp−1
+polynomial Φp (X) = i=0 X i of ωp , i.e.,
+
+                                          αB (sA ) = Φp (X) · R(X),                                          (2.2)
+
+for some R ∈ Q[X]. Both polynomials, αB (sA ) and Φp , have integer coefficients and leading
+coefficient 1. Hence the same holds for R. Equality (2.2) also holds true after another substitution
+X 7→ 1 and yields
+
+                                          αB (sA )(1) = Φp (1) ·R(1).                                        (2.3)
+                                                        | {z }
+                                                             =p
+
+Finally, we want to show that αB (sA )(1) is not divisible by the prime p, which contradicts
+det(M ) = 0. Here we can use that the value X = 1 has good properties under the substitu-
+tion xl 7→ X bl , i.e.,
+                                                                Q
+                                                                     (aj − ai )
+                                                             1≤i<j≤k
+                        αB (sA )(1) = sA (1, 1, . . . , 1) =     Q              ,
+                                                                      (j − i)
+                                                                     1≤i<j≤k
+
+by Theorem 4. The factors (aj − ai ) are all smaller than p and cannot divide p. This contradicts
+equation (2.3) and hence det(M ) ̸= 0.
+    A key ingredient in the proof is that there exists a substitution αB : Q[x1 , . . . , xk ] → Q[X] with
+α(sA ) ∈ Q[X] and sA (ωpb1 , . . . , ωpbk ) = αB (sA )(ωp ). This substitution only exists because of the
+polynomial connection between the roots ωpbi that is encoded in the fact that Q(ωp ) = Q[X]/Φp (X)
+is the splitting field of Φp (X). In this case we have Gal(Q[X]/Φp (X)|Q) = (Z/p)× . Furthermore,
+we were able to evaluate at the point x1 = . . . = xk = X = 1, here it was crucial that 1 is a fixed
+point of the maps xl 7→ X bl and the diagram in Figure 2.1 commutes.
+
+                                                         3
+                                                         xl 7→X bl
+                                sA (x1 , . . . , xk )                 αB (sA )
+                                                                            X7→1
+                                                xl 7→1
+                                                                      Q
+                                                                            (aj −ai )
+                                                                 1≤i<j≤k
+                                                                       Q
+                                                                               (j−i)
+                                                                     1≤i<j≤k
+
+
+
+
+       Figure 2.1: The Substitutions of the Schur Polynomial in the proof of Theorem 1.
+
+
+3    Real version of Chebotarëv’s theorem
+For each prime p > 3 the group (Z/p)× is the Galois group of the field extension Q ⊆ Q[X]/Φp (X)
+and has the subgroup H = {1, −1}. This subgroup H is generated by the automorphism on
+Q[X]/Φp (X) which is induced by the complex conjugation i 7→ −i. By the Galois correspondence
+this induces the subfield
+                                 Q ⊊ Fix(H) ⊊ Q[X]/Φp (X),
+of degree degQ (Fix(H)) = p−1                                     −1
+                           2 . This field is generated as Q(ωp + ωp ) = Fix(H) ⊆ R and has the
+cyclic Galois group
+                                         Z×     ∼
+                                           p /H = Z p−1 ,        2
+
+which is generated by the image of any generator (Z/p)× modulo H. It is ωp + ωp−1 = 2 cos(2π/p)
+and these elements are mapped to (ωpj +ωp−j ) = 2 cos(2πj/p) by the Galois group of the cyclotomic
+field. Thus the elements
+                                                                                       p−1
+                          (ωpj + ωp−j ) = 2 cos(2πj/p),               j = 1, . . . ,       ,
+                                                                                        2
+are conjugate and share the same minimal polynomial
+                                             (p−1)/2
+                                               Y
+                                P (X) =                  (X − 2 cos(2jπ/p)).
+                                               j=1
+
+The coefficients of this polynomial are symmetric in the cosine terms and hence, due to the Galois
+correspondence, must lie in the fixed field of the Galois group, i.e., the coefficients are rational.
+An explicit formula for the coefficients of this minimal polynomial is given in [5] by
+                                                                         
+                                 k n−k                         k n−k−1
+                       X                              X
+                                             n−2k
+             P (x) =         (−1)          X      +        (−1)               X n−2k−1 ,
+                           n         k                   n            k
+                    0≤k≤ 2                                    0≤k< 2
+
+
+where n = p−12 . However, this expression does not provide much additional insight into the struc-
+ture of the minimal polynomial and will not be used later. In order to use the Schur polynomials,
+we need to understand the polynomial expression between the roots.
+Lemma 5. Let p be a prime and let P (X) ∈ Q[X] be the minimal polynomial of 2 cos(2π/p). The
+elements φj ∈ Q[X]/P (X) that are given by the recursion
+
+                     φ1 (X) = X,
+                     φ2 (X) = X 2 − 2,
+                                                                                             p−1
+                     φj (X) = X · φj−1 (X) − φj−2 (X),                      j = 3, . . . ,       ,
+                                                                                              2
+are to the roots of P . Viewed over the rationals, the polynomials φj (X) have the common fixed
+point at 2, i.e., φj (2) = 2 for all j.
+
+
+                                                          4
+Proof. In the field Q[X]/P (X) we can use X = (ωp + ωp−1 ) and we have
+
+                                             X 2 − 2 = ωp2 + ωp−2 .
+
+Induction on j proves the first part, where we use
+
+                  φj (X) = (ωp + ωp−1 ) · (ωpj−1 + ωp1−j ) − (ωpj−2 + ωp2−j ) = ωpj + ωp−j .
+
+Regarding the second part, we see that φj (2) = 2 · φj−1 (2) − φj−2 (2) = 2 · 2 − 2 = 2.
+   Now, we evaluate the minimal polynomial P (X) at the fixed point 2 of the polynomials φj ,
+j = 1, . . . , p−1
+                2 .
+
+Lemma 6. Let p be a prime. The minimal polynomial P (X) of 2 cos(2π/p) has the evaluation
+P (2) = p.
+Proof. The Chebyshev polynomials of first kind Tp : [−1, 1] → R are given by
+
+                                            Tp (x) = cos(p arccos x).
+
+The roots of
+                                                (p−1)/2                    
+                                                  Y                   2jπ
+                                     P (X) =                X − 2 cos
+                                                 j=1
+                                                                       p
+
+coincide with the local maxima of 2Tp (X/2) in (−2, 2), 2Tp (X/2) = 2, and 2Tp (X/2) is a monic
+polynomial of degree p. Hence we have the identity
+
+                                    2(Tp (X/2) − 1) = (P (X))2 (X − 2)
+
+from which also
+                                            Tp (y) − 1                   sin pθ
+                         (P (2))2 = lim                = Tp′ (1) = p lim        = p2
+                                      y→1     y−1                    θ→0 sin θ
+
+follows.
+   We now have all the tools to state and prove the main theorem of this section, which can be
+seen as a real version of Chebatarëv’s theorem.
+Theorem 7. Let p be a prime. All minors of the Vandermonde matrix
+                                  m 
+                               2·j·π                         p−1 p−1
+                         cos                               ∈R 2 × 2
+                                 p          j,m=1,..., p−1         2
+
+
+are nonzero.
+Proof. For notational convenience, we work with the Vandermonde matrix, see Equation (2.1),
+                                                               !
+                                           2·j·π
+                               V 2 · cos                           ,
+                                             p      j=1,..., p−1       2
+
+
+whose columns are a multiple of the original matrix and hence the minors show the same vanishing
+                                p−1 
+behaviour. Let A, B ∈ [ 2l ] be the indices of the submatrix that is under consideration. This
+minor is zero if and only if sA (2 cos(2b1 π/p), . . . , 2 cos(2bl π/p)) = 0. We break down the step
+from sA (x1 , . . . , xk ) to sA (2 cos(2b1 π/p), . . . , 2 cos(2bl π/p)) = 0 in two steps. The first step is the
+substitution
+                                     α : Q[x1 , . . . , xl ] → Q[X], xi 7→ φbi (X),
+
+
+                                                       5
+with φbi from Theorem 5. The second step is to look at the image of αB (sA ) modulo the minimal
+polynomial P of 2 cos(2π/p). The minor is zero if and only if P |αB (sA ) in Q[X]. If this equation
+holds, it will also hold after another substitution X 7→ 2. Theorem 6 yields P (2) = p and
+Theorem 4 yields
+
+                             αB (sA )(2, . . . , 2) = sA (2, . . . , 2)                                        (3.1)
+                                                          d
+                                                    = 2 · sA (1, . . . , 1)                                    (3.2)
+                                                             Q
+                                                                     (aj − ai )
+                                                       d 1≤i<j≤l
+                                                    =2 ·      Q                 ,                              (3.3)
+                                                                       (j − i)
+                                                                1≤i<j≤l
+
+which is a contradiction to the divisibility by p, hence the minor must be nonzero. Equality (3.1)
+follows from the fact that 2 is a fixed point of all φk , equality (3.2) follows from the fact that
+Schur polynomials are homogeneous of some degree d and equality (3.3) is Theorem 4.
+Example 8. Let p = 7 and t1 = cos(2π/7) ≈ 0.62, t2 = cos(4π/7) ≈ −0.22, and t3 = cos(6π/7) ≈
+−0.90 be given. Then all minors of the Vandermonde matrix
+
+                                          1 t1 t22
+                                                  
+                                        1 t2 t22 
+                                          1 t3 t23
+
+are nonzero, while (obviously) the matrix is not totally positive.
+Remark 9. Another real version can be infered from the classical Chebotarëv result. Let p be a
+prime, set r = (p − 1)/2, and
+                                                              
+                     2πikj                  p×p             2πkj
+          F = exp                         ∈C ,  C = 2 cos                      ∈ Cr×r .
+                       p     k,j=−r,...,r                     p    k,j=1,...,r
+
+                                                      [r]
+                                                               Then there exists a fˆ = (fˆ−r , . . . , fˆr )⊤ ∈ Cp ,
+                                                           
+Now assume det(CJ×K ) = 0 for some J, K ∈              s .
+fˆk = fˆ−k , which fulfils
+                               X                2πkj           X               2πikj
+                          0=         2fˆk cos        =                 fˆk exp
+                                                  p                              p
+                               k∈K                            k∈K∪−K
+
+for j ∈ J, as well as for j ∈ −J in the first equation since the cosine is even. This implies
+det(F(J∪−J)×(K∪−K) ) = 0 which is false.
+    More general results on uncertainty principles for vectors with symmetry and related Chebotarëv
+theorems can be found in [10].
+    Finally, we note in passing that polynomials that are either sparse in the monomial basis (using
+Theorem 7) or the Chebyshev basis (using Theorem 9) are uniquely determined by a minimal
+number of phaseless evaluations. This is a direct consequence since the non-vanishing minors
+property implies the so-called complement property, which is equivalent to the uniqueness of the
+real phase-retrieval problem, see e.g. [1, 2].
+
+
+4    Chebotarëv’s theorem over finite fields
+Now let us once again consider the Fourier matrix Fp of prime size, but this time over fields of
+characteristic q for q ∈ N prime. It is well known that, given two primes p, q ∈ Z, the polynomial
+                                                    p−1
+                                                    X
+                                       Φp (X) =            X i ∈ Fq [X]
+                                                    i=0
+
+
+                                                       6
+is not even necessarily irreducible. In fact Φp (X) is irreducible if and only if ordp (q) = p − 1. This
+                                                                                        i
+follows from the fact that, if Φp is irreducible, the roots of Φp (X) are given by X q ∈ Fq [X]/Φ( X),
+for i = 0, 1, . . . , p − 2, and the roots fulfill X p = 1. Thus the roots are given by
+                                                    2                     3                               p−2
+                    X, X (q       mod p)
+                                           , X (q       mod p)
+                                                                 , X (q        mod p)
+                                                                                         , . . . , X (q           mod p)
+                                                                                                                           ,
+
+and these are repeated, if ordp (q) = r < p − 1, which would contradict the separability of Φp (X).
+In fact it is known that Φp (X) ∈ Fq [X] splits into p−1
+                                                      r many irreducible polynomials of degree r.
+The roots of all these polynomials are contained in the field Fqr .
+Example 10. For p = 7 and q = 11 we have r = ord7 (11) = 3 and the factorization
+
+(X 3 + 7X 2 + 6X + 10)(X 3 + 5X 2 + 4X + 10) = (X 6 + X 5 + X 4 + X 3 + X 2 + X + 1) ∈ F11 [X].
+
+    Zhang’s conditions [17], ordp (q) = p − 1 and q > Γ, for some large Γ, imply the nonvanishing
+of the minors, which on polynomial side again can be written as
+
+                                      Φp (X) ∤ αB (sA (x1 , . . . , xk )) ∈ Fq [X],
+                 {0,1,...,p−1}
+                              
+for all A, B ∈         k       . The sufficient lower bound is given by
+                                                                       Q
+                                                                                     (aj − ai )
+                                        Γ=               max                  Qi<j                ,
+                                                A⊆{0,1,...,p−1}                 i<j (j − i)
+
+and for q > Γ, the Euclidean division
+
+                         αB (sA (x1 , . . . , xk )) = f (X) · Φp (X) + R(X) ∈ Z[X]
+
+in combination with                                                             Q
+                                                                    i<j                  (aj − ai )
+                                    αB (sA (x1 , . . . , xk ))(1) = Q                                     ,
+                                                                                      i<j (j − i)
+
+yields that q is too large to divide all the coefficients of R(X) and thus R(X) ̸= 0 ∈ Fq [X]. We
+want to improve the condition on q with an approach that provides more insight into the  problem.
+                                                                                      Pp−1
+From now on, let p, q be two distinct primes with ordp (q) = r and denote Φp (X) = i=0 X i ∈
+                     Pp−1
+Z[X] and Φp (X) = i=0 X i ∈ Fq [X]. Since Φp (X) is not necessarily irreducible, we denote by
+P (X) ∈ Fq [X] an irreducible factor of Φp (X) and by P (X) ∈ Z[X] the canonical preimage of
+P (X) in Z[X]. Note that all the nontrivial (p − 1) many p-th roots of unity ωp will be contained
+in the field Fqr ∼
+                 = Fq [X]/P (X), with one explicit root given by ωp = X. Let
+                                                                                                      p×p
+                                  Fp = V (1, ωp , ωp2 , ωp3 , . . . , ωpp−1 ) ∈ (Fqr )                        .                (4.1)
+
+be the Fourier matrix of size p in characteristic q. This matrix always has entries in Fqr .
+Example 11. Again, for p = 7 and q = 11 we know that F113 ∼        = F11 [X]/(X 3 + 7X 2 + 6X + 10)
+is the splitting field of Φp (X) and one explicit 7-th root of unity is ω7 = X. The Fourier matrix
+is given by
+
+            F7 = V (1, X, X 2 , X 3 , X 4 , X 5 , X 6 ) ∈ (F11 [X]/(X 3 + 7X 2 + 6X + 10))7×7 ,
+
+with X 3 = 4X 2 + 5X + 1, X 4 = −X 2 − X − 4, X 5 = −5X 2 − X − 1 and X 6 = X 2 − 4X − 5 in
+the field F113 = F11 [X]/(X 3 + 7X 2 − 6X + 10).
+
+    Furthermore, for B ∈ {0,1,...,p−1}
+                                      
+                                k       and l ∈ {1, . . . , p − 1} we denote
+
+                                           l · B := {(l · b)         mod p : b ∈ B}.
+
+The multiplication with l is a bijection on F×
+                                             p . We start with a simple well known observation.
+
+
+                                                                   7
+Lemma 12. Let p, q ∈ Z be two distinct primes with ordp (q) = r. Let Fp ∈ Fp×p    qr be the Fourier
+                                                  {0,1,...,p−1}
+                                                               
+matrix in characteristic q, see (4.1). Let A, B ∈       k        be two index sets. We have
+
+                                                    det((Fp )A,B ) = 0
+
+if and only if
+                                                 det((Fp )A,ql ·B ) = 0
+for all l = 0, . . . , p − 2.
+Proof. The determinant det((Fp )A,B ) is a polynomial expression in ωp . The Galois group of the
+                                                                                   p−2
+field extension Fp ⊆ Fqr is generated by Y 7→ Y q and hence ωp , ωpq , . . . , ωpq     are conjugate. Thus
+the vanishing of the polynomials is equivalent.
+   For our main results, from now on we consider two distinct primes p, q with ordp (q) = p − 1.
+Note the map
+                                      l 7→ (q l mod p)
+induces an isomorphism from {0, . . . , p − 2} to {1, . . . , p − 1}.
+
+
+                                                    mod Φp (X)
+                                           Z[X]                 Z[X]/Φp (X)
+
+                                                 mod q                    mod q
+
+                                                    mod Φp (X)
+                                           Fq [X]               Fq [X]/Φp (X)
+
+
+          Figure 4.1: The p-th cyclotomic polynomial over Z and Fq , with ordp (q) = p − 1.
+
+Consider the commuting diagram in Figure 4.1, we want to know whether
+
+                            Φp (X) | αB (sA (x1 , . . . , xk )) ∈ Fq [X]/Φp (X)                         (4.2)
+
+for some A, B ∈ {0,1,...,p−1}
+                             
+                      k        . We know by Theorem 1 that
+
+                                        Φp (X) ∤ αB (sA (x1 , . . . , xk )) ∈ Z[X]
+                   {0,1,...,p−1}
+                                
+for all A, B ∈           k          . Euclidean division in Z[X] yields
+
+                                 αB (sA (x1 , . . . , xk )) = f (X) · Φp (X) + R(X),
+
+with R ̸= 0 and thus equation (4.2) holds if q divides all the coefficients of R(X). The polynomial R
+itself might be quite complicated, but averaging over     well chosen column sets B can be reasonably
+described. For two fixed sets A, B ∈ {0,1,...,p−1}k        denote by mA,B the number of indices µ of
+                       P        µ
+                                                        Pk
+sA (x1 , . . . , xk ) = µ∈T cµ x , such that p divides j=1 µj bj , i.e.,
+                                                                     
+                                              X             Xk
+                                     mA,B =        cµ 1 p      µj bj  .
+                                                     µ∈T           j=0
+
+Here b1 <P. . . < bk is the ascending list of the elements of B. By abuse of notation, we also write
+            k
+⟨µ, B⟩ = j=1 µj bj .
+
+Lemma 13. Let p ∈ Z be a prime and let A, B ∈ {0,1,...,p−1}
+                                                                 
+                                                            k      be two sets. We have
+                 p−1                                               Q
+                 X                                                 i<j    (aj − ai )
+                       α(l·B) (sA (x1 , . . . , xk )) = mA,B · p − Q                   ∈ Z[X]/Φp (X).
+                 l=1                                                   i<j (j − i)
+
+
+
+                                                            8
+Proof. The ring Z[X]/Φp (X) is a Z-algebra and all substitutions α(ql ·B) are Z-linear maps. Thus
+we observe
+                                                                              
+                    Xp−1                                  p−1
+                                                          X            X
+                         α(l·B) (sA (x1 , . . . , xk )) =     α(l·B)    cµ xµ 
+                       l=1                                   l=1               µ∈T
+                                                                                          
+                                                            p−1
+                                                            X          X
+                                                       =                  cµ α(l·B) (xµ )
+                                                             l=1    µ∈T
+                                                                         p−1
+                                                                                           !
+                                                            X            X
+                                                                                       µ
+                                                       =           cµ          α(l·B) (x ) .
+                                                            µ∈T          l=1
+
+We distinguish two cases, first p|⟨µ, B⟩ and second p ∤ ⟨µ, B⟩. In the first case, we have
+                                     k
+                                     Y                      Pk
+                               µ
+                         αB (x ) =         X µ j bj = X      j=1 µj bj   = X ⟨µ,B⟩ = 1,
+                                     j=1
+
+since X p = 1. This yields
+                                    p−1
+                                    X                       p−1
+                                                            X
+                                           αl·B (xµ ) =           1 = p − 1.
+                                     l=1                    l=1
+
+In the second case we have ⟨µ, B⟩ = z ̸= 0 mod p. For any l ∈ (Fp )× we observe
+                                           k
+                                           Y
+                                α(l·B) =         X µj ·bj ·l = X l⟨µ,B⟩ = X l·z
+                                           j=1
+
+
+Now, since multiplication with z is an isomorphism on F×
+                                                       p , we have
+
+                                       p−1
+                                       X               p−1
+                                                       X
+                                             X l·z =         X l = −1,
+                                       l=1             l=1
+                                                                                                Q
+                                                                                                      (aj −ai )
+in Z[X]/Φp (X). There are, counted with multiplicity, αB (sA (x1 , . . . , xk ))(1) = Qi<j (j−i) many
+                                                                                        i<j
+exponents in sA . We finally conclude
+          p−1                              p−1                                       p−1
+                          !                                !                                         !
+   X      X                      X        X                            X             X
+      cµ      α(l·B) (xµ ) =           cµ      α(l·B) (xµ ) +                    cµ      α(l·B) (xµ )
+  µ∈T      l=1                 µ∈T : p|⟨µ,B⟩         l=1                        µ∈T : p∤⟨µ,B⟩   l=1
+                                                      Q
+                                                    i<j (aj − ai )
+                             = mA,B · (p − 1) − Q                  + mA,B
+                                                     i<j (j − i)
+                                          Q
+                                            i<j (aj − ai )
+                             = mA,B · p − Q                 .
+                                              i<j (j − i)
+
+
+
+
+Remark 14. Note that the proof also works for every other list b1 , . . . , bk of B. So in principle,
+one can choose the list of B with the best properties.
+   Note further that Theorem 13 yields yet another proof for Theorem 1, without an explicit
+evaluation at X = 1. Since                 Q
+                                                 (aj − ai )
+                                            Qi<j
+                                              i<j (j − i)
+
+
+
+
+                                                        9
+is not divisible by p in Z, we have
+                      p−1                                            Q
+                      X                                               i<j     (aj − ai )
+                             α(l·B) (sA (x1 , . . . , xk )) = m · p − Q                      ̸= 0
+                       l=1                                               i<j (j − i)
+
+
+and thus αB (sA ) ̸= 0 mod Φp (X).
+                                       Q
+                                            (aj −ai )
+   Since the quantity mA,B · p − Qi<j (j−i) ∈ Z[X]/Φp (X) is an integer, it is easier to understand
+                                   i<j
+the rightmost map in Figure 4.1.
+
+Lemma 15. Let p, q ∈ Z be two distinct primes with ordp (q) = p − 1. The diagram in Figure 4.1
+commutes.
+Proof. Both maps are the canonical maps with kernel ⟨{q, Φp (X)}⟩ ⊆ Z[X].
+
+
+Theorem 16. Let p, q ∈ Z be two distinct primes with ordp (q) = p − 1. Let Fp ∈ Fp×p         qr   be the
+                                                                 {0,1,...,p−1}
+                                                                              
+Fourier matrix in characteristic q, see (4.1), and let A, B ∈          k        be two index sets. If
+                                                 Q                 !
+                                                    i<j (aj − ai )
+                                q ∤ mA,B · p − Q                     ,
+                                                     i<j (j − i)
+
+
+we have det((Fp )A,B ) ̸= 0 ∈ Fqr .
+Proof. Assume that det((Fp )A,B ) = 0 ∈ Fqr , by Theorem 12 we know that det((Fp )A,l·B ) = 0 for
+all l ∈ (Fp )× . Furthermore let Rl (X) ∈ Z[X]/Φp (X) be the remainder of αl·B (sA (x1 , . . . , xk ))
+modulo Φp (X). We have det((Fp )A,l·B ) = 0 if and only if q divides every coefficient of Rl for every
+l. Hence we also know that q divides the coefficients of the sum
+                             p−1                    Q                !
+                                                      i<j (aj − ai )
+                             X
+                                 Rl (X) = m · p − Q                    ,
+                                 l=1                    i<j (j − i)
+
+
+where the equality follows from Theorem 13. This is a contradiction to our assumption and hence
+det((Fp )A,B ) ̸= 0.
+
+
+   Our main result now follows directly.
+Corollary 17. Let p, q ∈ Z be two distinct primes with ordp (q) = p − 1. Let Fp ∈ Fp×p
+                                                                                   qr  be the
+Fourier matrix in characteristic q, see (4.1). If
+                                                                         Q
+                                                                    i<j               (aj − ai )
+                      q>                   max           mA,B · p − Q                              ,
+                             A,B⊆{0,1,...,p−1},#A=#B                           i<j (j − i)
+
+then all minors of Fp are nonzero.
+Proof. By Theorem 16 we need to show that
+                                                        Q                     !
+                                                             i<j (aj − ai )
+                                       q∤   mA,B · p − Q                          ,
+                                                              i<j (j − i)
+
+
+for all A, B ⊆ {0, 1, . . . , p − 1}, with #A = #B. This is trivially the case under the condition on
+q and the statement follows.
+
+
+
+
+                                                        10
+                     p                     2   3     5    7        11             13
+                     q via Theorem 17      3   2      7   17     193          1619
+                     q via [4]             3   2     11   79   105 863     11 709 007
+                     q via [17]            3   2     13   89   105 871     11 709 007
+
+Table 4.1: First prime q for which Fp has nonvanishing minors in characteristic q according to
+Theorem 17, the recent improvement [4] of [17], and [17, Theorem A].
+
+
+Example 18. For p = 7 we have
+                                                               Q
+                                                              i<j    (aj − ai )
+                                  max              mA,B · p − Q                   =8
+                         A,B⊆{0,1,...,p−1},#A=#B                   i<j (j − i)
+
+and thus Theorem 17 yields that the Fourier matrix F7 has nonvanishing minors in characteristic
+q for every prime q > 8 with ord7 (q) = 6. In comparison, for p = 7 [17, Theorem A] yields this
+property of F7 in characteristic q for any prime q ≥ 75 and ord7 (q) = 6.
+   Removing the order condition has its own charme, in particular, if q ≡ 1 mod p, the Fourier
+matrix Fp has entries in the field Fq . In this case, we can use the results from [4], where the order
+condition has been removed.
+Example 19. For p = 5 and q = 11, we have ord5 (11) = 1 and thus already F11 contains 5-th
+roots of unity, e.g. ω5 = 3. According to [4], the Fourier matrix
+                                                         
+                                         1 1 1 1 1
+                                      1 3 9 5 4 
+                                                                5×5
+                                                         
+                                      1 9 4 3 5  ∈ F11
+                                F5 =                     
+                                      1 5 3 4 9 
+                                         1 4 5 9 3
+has no vanishing minors in characteristic 11. This also implies that every square submatrix is
+invertible over R and via standard arguments [16] the uncertainty principle ∥g∥0 + ∥F5 g∥0 ≥ 6 for
+all g ∈ R5 , where ∥ · ∥0 denotes the number of nonzero entries of a vector.
+
+4.1    Characteristic q not primitive modulo p
+If we consider two distinct primes p, q with ordp (q) = r < p − 1, we cannot prove explicit bounds
+as in Theorem 17. We start with a similar result as Theorem 13, but for the nonprimitive case.
+This requires some technical definition.
+Definition 20. Let p, q be two distinct primes with r = ordp (q). Let Fq [X]/P (X) be the p-th
+cyclotomic field over Fq . For i = 1, . . . , p − 1 we know that the element X i is a root of unity and
+by L(X i ) we denote the trace of the element X i , i.e., the coefficient of the second highest monomial
+in the minimal polynomial of X i over Fq [X].
+    Since ⟨q⟩ ⊆ (Fp )× is a proper subgroup, we can look at the quotient group (Fp )× /⟨q⟩. This group
+consists of (p − 1)/r many cosets, where we denote a set of representatives by n1 , . . . , n(p−1)/r .
+                        (i)
+    Furthermore, by mA,B , we denote the number of exponents µ of sA (x1 , . . . , xk ) = µ∈T xµ ,
+                                                                                                P
+
+such that i ≡ ⟨µ, B⟩ ∈ (Fp )× /⟨q⟩.
+Example 21. Let p = 7, q = 2, with ordp (q) = 3. In F2 [X] we have
+
+                                Φ7 (X) = (X 3 + X + 1) · (X 3 + X 2 + 1)
+For A = {0, 1, 3} it is sA (x1 , x2 , x3 ) = x1 + x2 + x3 and the µ are given by (1, 0, 0), (0, 1, 0) and
+(0, 0, 1). The cosets of the subgroup generated by q = 2 in F×     7 are {1, 2, 4} and {3, 5, 6}. If we
+construct F23 as F2 [X]/(X 3 + X + 1), we have LX = LX 2 = LX 4 = 0 and LX 3 = LX 5 = LX 6 = 1.
+                                         (0)        (1)           (3)
+Lastly, for B = {0, 2, 4} we have mA,B = 1, mA,B = 2 and mA,B = 0.
+
+
+                                                    11
+                                                                                             {0,1,...,p−1}
+                                                                                                         
+Lemma 22. Let p, q ∈ Z be two distinct primes, r = ordp (q) and A, B ∈                             k         be two sets.
+We have
+          r−1                                                      (p−1)/r
+                                                         (0)                   (n )
+          X                                                         X
+                                                                                i
+                 α(ql ·B) (sA (x1 , . . . , xk )) = r · mA,B −               mA,B · L(xni ) ∈ Fq [X]/P (X).
+           l=0                                                      i=1
+
+Proof. By the same argumentation as before, we obtain
+                                         
+                   r−1
+                   X              X           X X   r−1
+                       α(ql ·B)    cµ xµ  =    cµ     α(ql ·B) (xµ ) ∈ Z[X]
+                           l=0           µ∈T                  µ∈T     l=0
+
+            (0)
+The number mA,B denotes the number of indices µ with p|⟨µ, B⟩. In this case we have α(ql ·B) (xµ ) =
+1 in Z[X]/Φp (X). And thus
+                                      r−1
+                                      X
+                                            α(ql ·B) (xµ ) = r ∈ Fq [X]/P (X).
+                                      l=0
+                                 ×
+Now let i ≡ ⟨µ, B⟩ ∈ (Fp ) , we obtain
+                                       α(ql ·B) (xµ ) = X i ∈ Z[X]/Φp (X),                                         (4.3)
+and furthermore
+                                            r−1                      r−1
+                                            X                        X               l
+                                                              µ
+                                                  α(ql ·B) (x ) =          (X i )q
+                                            l=0                      l=0
+
+                    i ql
+The elements (X ) ∈ Fqr are conjugate, and there is no conjugate element missing in this list,
+and thus the sum yields the negative trace of this element
+                                                  r−1
+                                                  X          l
+                                                      (X i )q = −L(X i ) ,
+                                                  l=0
+
+which can be deduced from the fact that the polynomial
+                                                    r−1
+                                                    Y              l
+                                                       (Y − (X i )q )
+                                                    l=0
+
+is the minimal polynomial of all of these elements over Fq . Lastly, since the sum iterates through
+all conjugate roots, the result is the same for each j ∈ F×  p that is conjugate to i modulo the
+subgroup ⟨q⟩.
+     For ordp (q) = r < p − 1, the diagram in Figure 4.2 looks a bit different than Figure 4.1. There
+still is a map φ : Z[X]/(Φp (X)) → Fq [X]/P (X) but with a larger kernel ⟨{q, P (X)}⟩.
+     The main problem with this approach under the condition ordp (q) < p − 1 is that the factor-
+ization of Φp (X) is dependent on q. Especially the traces of the elements X i ∈ Fqr are not known,
+while for ordp (q) = p − 1 we know that the trace is 1, independent of q. Thus any bound arising
+from Theorem 22 will be still dependent on q.
+
+
+                                               mod Φp (X)
+                                      Z[X]                 Z[X]/Φp (X)
+
+                                             mod q                      mod ⟨q,P (X)⟩
+
+                                                  mod P (X)
+                                     Fq [X]                Fq [X]/P (X)
+
+
+      Figure 4.2: The p-th cyclotomic polynomial over Z and Fq , with ordp (q) = r < p − 1.
+
+
+                                                              12
+Acknowledgement
+We sincerely thank Romanos Malikiosis for poining out a mistake in the previous version of Lemma
+12 which had resulted in a flawed version of Corollary 17 for ordp (q) < p−1. The corrected version
+now is stated for the primitive case ordp (q) = p − 1 only and Section 4.1 partially extends our
+approach to the nonprimitive case ordp (q) < p − 1.
+
+
+References
+ [1] R. Balan, P. Casazza, and D. Edidin. On signal reconstruction without phase. Appl. Comput.
+     Harmon. Anal., 20(3):345–356, 2006.
+ [2] T. Bendory and D. Edidin. Algebraic theory of phase retrieval. Notices Amer. Math. Soc.,
+     69(9):1487–1495, 2022.
+ [3] A. Caragea and D. G. Lee. On the principal minors of Fourier matrices, 2025. URL: https:
+     //arxiv.org/abs/2409.09793, arXiv:2409.09793.
+ [4] A. Caragea, D. G. Lee, R. D. Malikiosis, and G. Pfander. Personal communication, 2025.
+ [5] J. Cihlář, J. Fuka, and M. Kuřil. Polynomials with a given cyclic Galois group. Acta Math.
+     Acad. Paedagog. Nyházi, 31(2):207–214, 2015.
+ [6] T. Emmrich. Nonvanishing minors of eigenvector matrices and consequences. Spec. Matrices,
+     12:Paper No. 20240020, 12, 2024.
+ [7] T. Emmrich, M. Juhnke, and S. Kunis. Sparse graph signals – uncertainty principles and
+     recovery. GAMM-Mitt., 48(2):Paper No. e70002, 13, 2025.
+ [8] R. J. Evans and I. M. Isaacs. Generalized Vandermonde determinants and roots of unity of
+     prime order. Proc. Amer. Math. Soc., 58:51–54, 1976. doi:10.2307/2041358.
+ [9] P. E. Frenkel. Simple proof of Chebotarev’s theorem on roots of unity, 2004. URL: https:
+     //arxiv.org/abs/math/0312398, arXiv:math/0312398.
+[10] S. R. Garcia, G. Karaali, and D. J. Katz. An improved uncertainty principle for functions
+     with symmetry. J. Algebra, 586:899–934, 2021.
+[11] B. Hurley and T. Hurley. Systems of MDS codes from units and idempotents. Discrete Math.,
+     335:81–91, 2014. doi:10.1016/j.disc.2014.07.010.
+[12] M. Loukaki. Chebotarev’s theorem for roots of unity of square free order, 2025. URL:
+     https://arxiv.org/abs/2412.08600, arXiv:2412.08600.
+[13] O. H. Mitchell. Note on Determinants of Powers. Amer. J. Math., 4(1-4):341–344, 1881.
+     doi:10.2307/2369171.
+[14] A. Pinkus. Totally positive matrices, volume 181 of Cambridge Tracts in Mathematics. Cam-
+     bridge University Press, Cambridge, 2010.
+[15] P. Stevenhagen and H. W. Lenstra, Jr. Chebotarëv and his density theorem. Math. Intelli-
+     gencer, 18(2):26–37, 1996. doi:10.1007/BF03027290.
+[16] T. Tao. An uncertainty principle for cyclic groups of prime order. Math. Res. Lett., 12(1):121–
+     127, 2005. doi:10.4310/MRL.2005.v12.n1.a11.
+[17] G. Zhang. On the Chebotarëv theorem over finite fields. Finite Fields Appl., 56:97–108, 2019.
+     doi:10.1016/j.ffa.2018.11.004.
+
+
+
+                                                13
+

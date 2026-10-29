@@ -1,0 +1,255 @@
+100                            SHINICHI MOCHIZUKI
+
+Frobenius-section. Moreover, since C is of unit-trivial type, it follows immediately
+from the structure of an elementary Frobenioid [cf. the description of the kernel in
+Proposition 4.4, (iii)] that C is of birationally Frobenius-normalized type, hence also
+of model type, as desired. This completes the proof of assertion (iv). 
+
+
+     The explicit descriptions of Theorem 5.1, (i), (ii), motivate the following con-
+struction/result.
+
+
+Theorem 5.2.        (Model Frobenioids) Let Φ : D → Mon be a divisorial
+monoid on D; B : D → Mon a group-like monoid on D; DivB : B → Φgp a
+homomorphism of monoids on D. Denote the group-like monoid determined by
+the image of DivB by Φbirat ⊆ Φgp . Then:
+
+    (i) A well-deﬁned category C may be constructed in the following fashion.
+The objects of C are pairs of the form
+
+                                       (AD , α)
+
+                                                    def           def               def
+where AD ∈ Ob(D), α ∈ Φ(AD )gp ; set Base(A) = AD , Φ(A) = Φ(AD ), B(A) =
+B(AD ). A morphism
+
+                                def               def
+                          φ : A = (AD , α) → B = (BD , β)
+
+[where AD , BD ∈ Ob(D), α ∈ Φ(A)gp , β ∈ Φ(B)gp ] is deﬁned to be a collection
+of data as follows: (a) an element degFr (φ) ∈ N≥1 , which we shall refer to as the
+Frobenius degree of φ; (b) a morphism Base(φ) : AD → BD , which we shall
+refer to as the projection to D to φ; (c) an element Div(φ) ∈ Φ(A), which we
+shall refer to as the zero divisor of φ; (d) an element uφ ∈ B(A) whose image
+DivB (uφ ) ∈ Φ(A)gp satisﬁes the relation
+
+                degFr (φ) · α + Div(φ) = (Φ(Base(φ)))(β) + DivB (uφ )
+
+in Φ(A)gp . The composite ψ ◦ φ of two morphisms
+
+                    φ = (degFr (φ), Base(φ), Div(φ), uφ ) : A → B
+                   ψ = (degFr (ψ), Base(ψ), Div(ψ), uψ ) : B → C
+
+is deﬁned as follows:
+       
+      def
+ψ ◦ φ = degFr (ψ) · degFr (φ), Base(ψ) ◦ Base(φ),
+                                                                                      
+      (Φ(Base(φ)))(Div(ψ)) + degFr (ψ) · Div(φ), (B(Base(φ)))(uψ ) + degFr (ψ) · uφ
+
+[cf. Remark 1.1.1]. Moreover, the Frobenius degree, projection to D, and zero
+divisor determine a functor C → FΦ .
+                         THE GEOMETRY OF FROBENIOIDS I                                101
+
+      (ii) The category C is a Frobenioid [with respect to the functor C → FΦ ] of
+isotropic and model — hence, in particular, birationally Frobenius-normalized
+— type. We shall refer to C as the model Frobenioid deﬁned by the divisor
+monoid Φ and the rational function monoid B [which we regard as equipped
+with the homomorphism DivB : B → Φgp ]. Moreover, there is a natural isomor-
+phism of functors between the functor “O× (−)” on D associated to the Frobenioid
+C birat [cf. Propositions 2.2, (ii), (iii); 4.4, (ii)] and the functor B; this isomorphism
+is compatible with the homomorphisms O× (−) → Φgp [cf. Proposition 4.4, (iii)],
+DivB : B → Φgp .
+
+     (iii) C is of standard type if and only if the following conditions are satisﬁed:
+(a) if Φ is the zero monoid, then C admits a Frobenius-compact object; (b) D
+is of FSMFF-type; (c) Φ is non-dilating. C is of rationally standard type if
+and only if the following conditions are satisﬁed: (a) C is of rational and standard
+type; (b) (C un-tr )birat admits a Frobenius-compact object.
+
+     (iv) Suppose that Φ = Φ; B is the rational function monoid on D associated
+to the Frobenioid C [cf. Proposition 4.4, (ii)]; DivB : B → Φgp is the natural
+homomorphism O× (−) → Φgp = Φgp [cf. Proposition 4.4, (iii)]; C is of model
+type. Then there exists an equivalence of categories
+                                            ∼
+                                         C →C
+
+that is 1-compatible with the functors C → FΦ , C → FΦ .
+
+Proof. Assertions (i), (ii) follow via a routine veriﬁcation [which, in the case of
+assertion (ii), is reminiscent of the veriﬁcation that “elementary Frobenioids are
+Frobenioids” in Proposition 1.5, (i)]; in light of assertion (ii), assertion (iii) follows
+formally from the deﬁnitions [cf. Deﬁnitions 3.1, (i); 4.5, (iii)]. Here, we observe
+that the objects A = (AD , α) such that α = 0 are Frobenius-trivial, and that these
+objects, together with the morphisms φ = (degFr (φ), Base(φ), Div(φ), uφ ) : A → B
+such that Div(φ) = 0, uφ = 1 [i.e., uφ is the identity element of B(A)], determine a
+base-Frobenius pair of C.
+      Finally, we consider assertion (iv). We may assume without loss of generality
+that C, hence also C Fr-tr , is a skeleton. Let (P, F ) be a base-Frobenius pair of C [cf.
+our assumption that C is of model type]. Thus, P may be regarded as a subcategory
+of C Fr-tr . If C ∈ Ob(C), then let us refer to a(n)[ordered] pair of pre-steps in C
+
+                                   (B → A, A → C)
+
+such that A ∈ Ob(P) as an F P-path for C. Write
+
+                                           C
+
+for the category C  whose objects are objects of C equipped with an F P-path, and
+whose morphisms are the morphisms between the objects regarded as objects of
+C. Thus, we have a natural functor C  → C [obtained by forgetting the F P-paths],
+102                             SHINICHI MOCHIZUKI
+
+which is manifestly an equivalence of categories. Thus, it suﬃces to construct an
+                              ∼
+equivalence of categories C  → C that is compatible with the functors C  → C → FΦ ,
+C → FΦ .
+    Next, observe that we may apply Remark 2.7.2 to C Fr-tr [which is of base-trivial
+type, by Theorem 5.1, (iii)] to conclude that every morphism φ of C Fr-tr admits a
+unique factorization
+                                φ = φP ◦ φO× ◦ φF
+in C Fr-tr , where φP is P-distinguished; φO× is a base-identity automorphism; φF is
+F -distinguished. Let us write
+                                       E ⊆ C birat
+for the full subcategory determined by the image of the objects in P. Then observe
+                                                                   ∼
+that the category E is also a skeleton; that the Frobenioid E → C birat is also of
+isotropic and base-trivial type [cf. Proposition 4.8, (i); Theorem 5.1, (iii)]; and that
+(P, F ) determine a base-Frobenius pair of E. Thus, we may apply Remark 2.7.2 to
+E to conclude that every morphism ψ of E admits a unique factorization
+
+                                 ψ = ψP ◦ ψO × ◦ ψF
+
+in E, where ψP is P-distinguished; ψO× is a base-identity automorphism; ψF is
+F -distinguished.
+     Now observe that to every object C ∈ Ob(C) equipped with an F P-path
+(ζA : B → A, ζC : B → C), we may associate an object
+
+                 (Base(A), Φ(ζA )−1 (Div(ζC ) − Div(ζA )) ∈ Φgp (A))
+
+of C [cf. Theorem 5.1, (i)]. If C  ∈ Ob(C) is equipped with an F P-path (ζA :
+B  → A , ζC  : B  → C  ), then we may associate to any morphism φ : C → C  a
+morphism
+
+  degFr (φ), Base(ζA ) ◦ Base(ζC  )−1 ◦ Base(φ) ◦ Base(ζC ) ◦ Base(ζA )−1 : A → A ,
+ (Φ(ζA )−1 ◦ Φ(ζC ))(Div(φ)) ∈ Φ(A),
+                                                                      
+             birat −1                     birat −1
+ {ζA
+   birat
+        ◦ (ζC   ) ◦ φbirat ◦ ζC
+                                birat
+                                      ◦ (ζA    ) }O× ∈ O× (Abirat )
+
+[where the superscript “birat’s” denote the images of the respective objects and
+morphisms of C in C birat ] of C. Now in light of the fact that C is of model — hence,
+in particular, birationally Frobenius-normalized — type, it is a routine exercise to
+verify that these assignments determine a functor
+
+                                        C → C
+
+that is compatible with the functors C  → C → FΦ , C → FΦ . Indeed, this is
+immediate for the ﬁrst three entries of the data that deﬁne a morphism of C; for the
+ﬁnal entry, it follows from the existence of the unique factorizations of morphisms
+of E discussed above. Note that these factorizations also imply that this functor
+                        THE GEOMETRY OF FROBENIOIDS I                                103
+
+C  → C is faithful. Moreover, this functor C  → C is manifestly essentially surjective
+[cf. Theorem 5.1, (i)] and full [cf. Theorem 5.1, (ii)], hence an equivalence of
+categories, as desired. This completes the proof of assertion (iv). 
+
+Remark 5.2.1. It follows formally from Theorem 5.2, (ii), (iv), that the Frobe-
+nioid “C” of Example 4.6 constitutes an example of a Frobenioid of isotropic, stan-
+dard, and [strictly] rational type, which is not of group-like or model type.
+
+Proposition 5.3.     (Realiﬁcations of Frobenioids) Suppose that Φ is perf-
+factorial. Then we shall refer to as the realiﬁcation
+
+                                          C rlf
+
+of the Frobenioid C the model Frobenioid [cf. Theorem 5.2, (ii)] associated to
+the divisor monoid
+                                   Φrlf
+[i.e., the “realiﬁcation” of Deﬁnition 2.4, (i)] and the rational function monoid
+R · Φbirat ⊆ (Φrlf )gp [i.e., for AD ∈ Ob(D), (R · Φbirat )(AD ) is the R-vector subspace
+of (Φrlf )gp (AD ) generated by Φbirat (AD )]. Moreover, the Frobenioid C un-tr (respec-
+tively, (C un-tr )pf ) is of model type and may be obtained as the model Frobenioid
+associated to the divisor monoid Φ (respectively, Φpf ) and the rational function
+monoid Φbirat (respectively, Q · Φbirat = Φbirat ⊗Z Q = (Φbirat )pf ). In particular,
+if C is of Frobenius-isotropic type, then there is a natural 1-commutative
+diagram of functors
+
+                    C   −→     C istr    −→       C pf
+                                 ⏐                 ⏐
+                                 ⏐                 ⏐
+
+                               C un-tr   −→   (C un-tr )pf   −→   C rlf
+
+[where the functor C → C istr is the isotropiﬁcation functor of Proposition 1.9, (v);
+the remaining functors are the functors that arise naturally from the construction
+of the “unit-trivialization”, “perfection”, and “realiﬁcation”].
+
+Proof. Since Frobenioids of unit-trivial type are always of model type [cf. The-
+orem 5.1, (iv)], the various assertions in the statement of Proposition 5.3 follow
+immediately from the deﬁnitions and Theorem 5.2, (ii), (iv). 
+
+Corollary 5.4.     (Category-theoreticity of the Realiﬁcation) For i = 1, 2,
+let Φi be a perf-factorial divisorial monoid on a connected, totally epimorphic
+category Di which is Div-slim [with respect to Φi ]; Ci → FΦi a Frobenioid of
+rationally standard type;
+                                         ∼
+                                  Ψ : C1 → C2
+an equivalence of categories. If C1 , C2 are of group-like type, then we also
+assume that both Ψ and some quasi-inverse to Ψ preserve base-isomorphisms. Then
+104                              SHINICHI MOCHIZUKI
+
+there exists a 1-unique functor Ψrlf : C1rlf → C2rlf that ﬁts into a 1-commutative
+diagram                                Ψ
+                                C1 −→ C2
+                                 ⏐            ⏐
+                                 ⏐            ⏐
+                                             Ψrlf
+                                     C1rlf   −→     C2rlf
+[where the vertical arrows are the natural functors of Proposition 5.3; the horizontal
+arrows are equivalences of categories]. Moreover, each of the composite functors of
+this diagram is rigid. Finally, the formation of Ψrlf from Ψ is 1-compatible
+with the 1-commutative diagram of Proposition 5.3 [involving perfections, unit-
+trivializations, etc.].
+
+Proof. In light of the deﬁnition of the realiﬁcation [cf. Proposition 5.3], Corollary
+5.4 follows immediately from Corollaries 4.10; 4.11, (iii), (iv). [Here, we note that
+the rigidity assertion of Corollary 5.4 follows by a similar argument applied to prove
+the rigidity assertion in Corollary 4.11, (i), (iv).] 
+
+     Before continuing, we note the following [portions of which were in fact applied
+in the proofs of Theorems 4.2, 4.9].
+
+Proposition 5.5.    (Perfection, Unit-trivialization and Realiﬁcation of
+Types) Suppose that C is of Frobenius-isotropic and Frobenius-normalized
+type. Then:
+
+   (i) If A ∈ Ob(C istr ) maps to an object Apf ∈ Ob(C pf ), then the natural functor
+                                                           ∼
+C → C pf determines a natural isomorphism O (A)pf → O (Apf ).
+
+     (ii) There is a natural equivalence of categories [compatible with the func-
+tors to the respective elementary Frobenioids] between (C pf )un-tr and (C un-tr )pf and
+between (C pf )birat and (C birat )pf .
+
+     (iii) If C is of standard (respectively, rationally standard; model) type,
+then so is C pf . Moreover, C un-tr , C rlf are always of model type. Finally, suppose
+further that C is not of group-like type. Then if C is of standard (respectively,
+rationally standard) type, then so are C un-tr , C rlf .
+
+      (iv) If C is the model Frobenioid associated to data Φ, B, DivB : B → Φgp [cf.
+Theorem 5.2, (ii)], then there is a natural equivalence of categories [compatible
+with the functors to the respective elementary Frobenioids] between C pf (respectively,
+C un-tr ; C rlf ) and the model Frobenioid associated to the data Φpf , Bpf , Bpf → (Φgp )pf
+(respectively, Φ, Φbirat , Φbirat → Φgp ; Φrlf , R · Φbirat , R · Φbirat → (Φrlf )gp ).
+
+Proof. Assertion (i) follows immediately for Frobenius-trivial A by considering
+base-identity endomorphisms of Frobenius type of A and applying the hypothesis
+that C is of Frobenius-normalized type; the case of arbitrary A then follows by con-
+sidering “pairs of pre-steps” as in Theorem 5.1, (i) [cf. also Deﬁnition 1.3, (iii),
+

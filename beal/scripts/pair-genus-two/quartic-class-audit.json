@@ -1,0 +1,5136 @@
+{
+  "completed": true,
+  "failures": [],
+  "checks": [
+    {
+      "name": "actual order hash equals L134 audited input",
+      "actual": "4531a1f5ed1b9291da37fe111651bb72ee488cfaeadefb7679dd255fb473680e",
+      "required": "4531a1f5ed1b9291da37fe111651bb72ee488cfaeadefb7679dd255fb473680e",
+      "passed": true
+    },
+    {
+      "name": "order audit binds same input",
+      "actual": "4531a1f5ed1b9291da37fe111651bb72ee488cfaeadefb7679dd255fb473680e",
+      "required": "4531a1f5ed1b9291da37fe111651bb72ee488cfaeadefb7679dd255fb473680e",
+      "passed": true
+    },
+    {
+      "name": "class input binds accepted order",
+      "actual": "4531a1f5ed1b9291da37fe111651bb72ee488cfaeadefb7679dd255fb473680e",
+      "required": "4531a1f5ed1b9291da37fe111651bb72ee488cfaeadefb7679dd255fb473680e",
+      "passed": true
+    },
+    {
+      "name": "entire final order",
+      "actual": {
+        "basis": [
+          [
+            1,
+            0,
+            "1/2",
+            "31/30"
+          ],
+          [
+            0,
+            1,
+            "7/25",
+            "179/750"
+          ],
+          [
+            0,
+            0,
+            "1/50",
+            "239/18750"
+          ],
+          [
+            0,
+            0,
+            0,
+            "1/18750"
+          ]
+        ],
+        "inverse": [
+          [
+            1,
+            0,
+            -25,
+            -13400
+          ],
+          [
+            0,
+            1,
+            -14,
+            -1129
+          ],
+          [
+            0,
+            0,
+            50,
+            -11950
+          ],
+          [
+            0,
+            0,
+            0,
+            18750
+          ]
+        ],
+        "one": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "table": [
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              -25,
+              -14,
+              50,
+              0
+            ],
+            [
+              -275,
+              -26,
+              -225,
+              375
+            ],
+            [
+              -125,
+              -11,
+              -100,
+              175
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              -275,
+              -26,
+              -225,
+              375
+            ],
+            [
+              236,
+              29,
+              174,
+              -270
+            ],
+            [
+              83,
+              11,
+              61,
+              -88
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              -125,
+              -11,
+              -100,
+              175
+            ],
+            [
+              83,
+              11,
+              61,
+              -88
+            ],
+            [
+              25,
+              4,
+              18,
+              -20
+            ]
+          ]
+        ],
+        "traces": [
+          4,
+          -64,
+          60,
+          30
+        ],
+        "gram": [
+          [
+            4,
+            -64,
+            60,
+            30
+          ],
+          [
+            -64,
+            3796,
+            -1686,
+            -546
+          ],
+          [
+            60,
+            -1686,
+            1428,
+            648
+          ],
+          [
+            30,
+            -546,
+            648,
+            324
+          ]
+        ],
+        "discriminant": 2874960
+      },
+      "required": {
+        "basis": [
+          [
+            1,
+            0,
+            "1/2",
+            "31/30"
+          ],
+          [
+            0,
+            1,
+            "7/25",
+            "179/750"
+          ],
+          [
+            0,
+            0,
+            "1/50",
+            "239/18750"
+          ],
+          [
+            0,
+            0,
+            0,
+            "1/18750"
+          ]
+        ],
+        "inverse": [
+          [
+            1,
+            0,
+            -25,
+            -13400
+          ],
+          [
+            0,
+            1,
+            -14,
+            -1129
+          ],
+          [
+            0,
+            0,
+            50,
+            -11950
+          ],
+          [
+            0,
+            0,
+            0,
+            18750
+          ]
+        ],
+        "one": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "table": [
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              -25,
+              -14,
+              50,
+              0
+            ],
+            [
+              -275,
+              -26,
+              -225,
+              375
+            ],
+            [
+              -125,
+              -11,
+              -100,
+              175
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              -275,
+              -26,
+              -225,
+              375
+            ],
+            [
+              236,
+              29,
+              174,
+              -270
+            ],
+            [
+              83,
+              11,
+              61,
+              -88
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              -125,
+              -11,
+              -100,
+              175
+            ],
+            [
+              83,
+              11,
+              61,
+              -88
+            ],
+            [
+              25,
+              4,
+              18,
+              -20
+            ]
+          ]
+        ],
+        "traces": [
+          4,
+          -64,
+          60,
+          30
+        ],
+        "gram": [
+          [
+            4,
+            -64,
+            60,
+            30
+          ],
+          [
+            -64,
+            3796,
+            -1686,
+            -546
+          ],
+          [
+            60,
+            -1686,
+            1428,
+            648
+          ],
+          [
+            30,
+            -546,
+            648,
+            324
+          ]
+        ],
+        "discriminant": 2874960
+      },
+      "passed": true
+    },
+    {
+      "name": "replay binds actual class certificate",
+      "actual": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+      "required": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+      "passed": true
+    },
+    {
+      "name": "replay complete",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "replay failures",
+      "actual": [],
+      "required": [],
+      "passed": true
+    },
+    {
+      "name": "replay full check count",
+      "actual": 1409026,
+      "required": 1409026,
+      "passed": true
+    },
+    {
+      "name": "cutoff matches printed 159",
+      "actual": 159,
+      "required": 159,
+      "passed": true
+    },
+    {
+      "name": "positive square-root upper bound",
+      "actual": 1696,
+      "required": 1696,
+      "passed": true
+    },
+    {
+      "name": "printed prime domain",
+      "actual": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29,
+        31,
+        37,
+        41,
+        43,
+        47,
+        53,
+        59,
+        61,
+        67,
+        71,
+        73,
+        79,
+        83,
+        89,
+        97,
+        101,
+        103,
+        107,
+        109,
+        113,
+        127,
+        131,
+        137,
+        139,
+        149,
+        151,
+        157
+      ],
+      "required": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29,
+        31,
+        37,
+        41,
+        43,
+        47,
+        53,
+        59,
+        61,
+        67,
+        71,
+        73,
+        79,
+        83,
+        89,
+        97,
+        101,
+        103,
+        107,
+        109,
+        113,
+        127,
+        131,
+        137,
+        139,
+        149,
+        151,
+        157
+      ],
+      "passed": true
+    },
+    {
+      "name": "exact generator count",
+      "actual": 32,
+      "required": 32,
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 0",
+      "actual": [
+        7,
+        [
+          0,
+          1
+        ],
+        7
+      ],
+      "required": [
+        7,
+        [
+          0,
+          1
+        ],
+        7
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 1",
+      "actual": [
+        11,
+        [
+          5,
+          1
+        ],
+        11
+      ],
+      "required": [
+        11,
+        [
+          5,
+          1
+        ],
+        11
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 2",
+      "actual": [
+        13,
+        [
+          7,
+          1
+        ],
+        13
+      ],
+      "required": [
+        13,
+        [
+          7,
+          1
+        ],
+        13
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 3",
+      "actual": [
+        17,
+        [
+          3,
+          1
+        ],
+        17
+      ],
+      "required": [
+        17,
+        [
+          3,
+          1
+        ],
+        17
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 4",
+      "actual": [
+        17,
+        [
+          15,
+          1
+        ],
+        17
+      ],
+      "required": [
+        17,
+        [
+          15,
+          1
+        ],
+        17
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 5",
+      "actual": [
+        29,
+        [
+          15,
+          1
+        ],
+        29
+      ],
+      "required": [
+        29,
+        [
+          15,
+          1
+        ],
+        29
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 6",
+      "actual": [
+        31,
+        [
+          17,
+          1
+        ],
+        31
+      ],
+      "required": [
+        31,
+        [
+          17,
+          1
+        ],
+        31
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 7",
+      "actual": [
+        43,
+        [
+          41,
+          1
+        ],
+        43
+      ],
+      "required": [
+        43,
+        [
+          41,
+          1
+        ],
+        43
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 8",
+      "actual": [
+        47,
+        [
+          8,
+          1
+        ],
+        47
+      ],
+      "required": [
+        47,
+        [
+          8,
+          1
+        ],
+        47
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 9",
+      "actual": [
+        71,
+        [
+          41,
+          1
+        ],
+        71
+      ],
+      "required": [
+        71,
+        [
+          41,
+          1
+        ],
+        71
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 10",
+      "actual": [
+        71,
+        [
+          44,
+          1
+        ],
+        71
+      ],
+      "required": [
+        71,
+        [
+          44,
+          1
+        ],
+        71
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 11",
+      "actual": [
+        73,
+        [
+          53,
+          1
+        ],
+        73
+      ],
+      "required": [
+        73,
+        [
+          53,
+          1
+        ],
+        73
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 12",
+      "actual": [
+        79,
+        [
+          1,
+          1
+        ],
+        79
+      ],
+      "required": [
+        79,
+        [
+          1,
+          1
+        ],
+        79
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 13",
+      "actual": [
+        79,
+        [
+          77,
+          1
+        ],
+        79
+      ],
+      "required": [
+        79,
+        [
+          77,
+          1
+        ],
+        79
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 14",
+      "actual": [
+        97,
+        [
+          7,
+          1
+        ],
+        97
+      ],
+      "required": [
+        97,
+        [
+          7,
+          1
+        ],
+        97
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 15",
+      "actual": [
+        97,
+        [
+          56,
+          1
+        ],
+        97
+      ],
+      "required": [
+        97,
+        [
+          56,
+          1
+        ],
+        97
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 16",
+      "actual": [
+        101,
+        [
+          66,
+          1
+        ],
+        101
+      ],
+      "required": [
+        101,
+        [
+          66,
+          1
+        ],
+        101
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 17",
+      "actual": [
+        113,
+        [
+          37,
+          1
+        ],
+        113
+      ],
+      "required": [
+        113,
+        [
+          37,
+          1
+        ],
+        113
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 18",
+      "actual": [
+        127,
+        [
+          56,
+          1
+        ],
+        127
+      ],
+      "required": [
+        127,
+        [
+          56,
+          1
+        ],
+        127
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 19",
+      "actual": [
+        131,
+        [
+          80,
+          1
+        ],
+        131
+      ],
+      "required": [
+        131,
+        [
+          80,
+          1
+        ],
+        131
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 20",
+      "actual": [
+        137,
+        [
+          119,
+          1
+        ],
+        137
+      ],
+      "required": [
+        137,
+        [
+          119,
+          1
+        ],
+        137
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 21",
+      "actual": [
+        149,
+        [
+          45,
+          1
+        ],
+        149
+      ],
+      "required": [
+        149,
+        [
+          45,
+          1
+        ],
+        149
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 22",
+      "actual": [
+        151,
+        [
+          14,
+          1
+        ],
+        151
+      ],
+      "required": [
+        151,
+        [
+          14,
+          1
+        ],
+        151
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 23",
+      "actual": [
+        151,
+        [
+          53,
+          1
+        ],
+        151
+      ],
+      "required": [
+        151,
+        [
+          53,
+          1
+        ],
+        151
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 24",
+      "actual": [
+        157,
+        [
+          10,
+          1
+        ],
+        157
+      ],
+      "required": [
+        157,
+        [
+          10,
+          1
+        ],
+        157
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed regular ideal 25",
+      "actual": [
+        157,
+        [
+          86,
+          1
+        ],
+        157
+      ],
+      "required": [
+        157,
+        [
+          86,
+          1
+        ],
+        157
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed exceptional ideal 0",
+      "actual": [
+        2,
+        [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        2
+      ],
+      "required": [
+        2,
+        [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        2
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed exceptional ideal 1",
+      "actual": [
+        3,
+        [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        3
+      ],
+      "required": [
+        3,
+        [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            3
+          ]
+        ],
+        3
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed exceptional ideal 2",
+      "actual": [
+        3,
+        [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        3
+      ],
+      "required": [
+        3,
+        [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            3,
+            0,
+            0
+          ]
+        ],
+        3
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed exceptional ideal 3",
+      "actual": [
+        5,
+        [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        5
+      ],
+      "required": [
+        5,
+        [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        5
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed exceptional ideal 4",
+      "actual": [
+        5,
+        [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        5
+      ],
+      "required": [
+        5,
+        [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        5
+      ],
+      "passed": true
+    },
+    {
+      "name": "printed exceptional ideal 5",
+      "actual": [
+        5,
+        [
+          [
+            1,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        5
+      ],
+      "required": [
+        5,
+        [
+          [
+            1,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        5
+      ],
+      "passed": true
+    },
+    {
+      "name": "integral factor at 7",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 7",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 7",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 11",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 13",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 13",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 13",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 17",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 17",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 17",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 17",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 19",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 19",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 23",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 23",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 23",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 23",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 29",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 29",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 29",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 31",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 31",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 31",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 37",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 37",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 41",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 41",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 41",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 41",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 43",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 43",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 43",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 47",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 47",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 47",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 53",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 53",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 53",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 53",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 59",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 59",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 61",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 61",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 67",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 67",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 71",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 71",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 71",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 71",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 73",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 73",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 73",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 79",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 79",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 79",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 79",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 83",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 83",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 89",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 89",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 97",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 97",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 97",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 97",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 101",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 101",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 101",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 103",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 103",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 107",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 107",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 109",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 109",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 113",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 113",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 113",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 127",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 127",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 127",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 131",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 131",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 131",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 137",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 137",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 137",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 139",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 139",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 149",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 149",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 149",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 151",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 151",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 151",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 151",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 157",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 157",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral factor at 157",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "excluded norm exceeds cutoff at 157",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "complete replay regular summary",
+      "actual": [
+        {
+          "p": 7,
+          "factors": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              3,
+              1,
+              1
+            ]
+          ],
+          "norms": [
+            7,
+            343
+          ]
+        },
+        {
+          "p": 11,
+          "factors": [
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "norms": [
+            11
+          ]
+        },
+        {
+          "p": 13,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              1,
+              11,
+              5,
+              1
+            ]
+          ],
+          "norms": [
+            13,
+            2197
+          ]
+        },
+        {
+          "p": 17,
+          "factors": [
+            [
+              3,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              8,
+              12,
+              1
+            ]
+          ],
+          "norms": [
+            17,
+            17,
+            289
+          ]
+        },
+        {
+          "p": 19,
+          "factors": [
+            [
+              8,
+              9,
+              17,
+              7,
+              1
+            ]
+          ],
+          "norms": [
+            130321
+          ]
+        },
+        {
+          "p": 23,
+          "factors": [
+            [
+              10,
+              6,
+              1
+            ],
+            [
+              22,
+              12,
+              1
+            ]
+          ],
+          "norms": [
+            529,
+            529
+          ]
+        },
+        {
+          "p": 29,
+          "factors": [
+            [
+              15,
+              1
+            ],
+            [
+              26,
+              24,
+              20,
+              1
+            ]
+          ],
+          "norms": [
+            29,
+            24389
+          ]
+        },
+        {
+          "p": 31,
+          "factors": [
+            [
+              17,
+              1
+            ],
+            [
+              16,
+              2,
+              16,
+              1
+            ]
+          ],
+          "norms": [
+            31,
+            29791
+          ]
+        },
+        {
+          "p": 37,
+          "factors": [
+            [
+              34,
+              23,
+              2,
+              27,
+              1
+            ]
+          ],
+          "norms": [
+            1874161
+          ]
+        },
+        {
+          "p": 41,
+          "factors": [
+            [
+              14,
+              27,
+              1
+            ],
+            [
+              39,
+              37,
+              1
+            ]
+          ],
+          "norms": [
+            1681,
+            1681
+          ]
+        },
+        {
+          "p": 43,
+          "factors": [
+            [
+              41,
+              1
+            ],
+            [
+              13,
+              24,
+              23,
+              1
+            ]
+          ],
+          "norms": [
+            43,
+            79507
+          ]
+        },
+        {
+          "p": 47,
+          "factors": [
+            [
+              8,
+              1
+            ],
+            [
+              11,
+              31,
+              9,
+              1
+            ]
+          ],
+          "norms": [
+            47,
+            103823
+          ]
+        },
+        {
+          "p": 53,
+          "factors": [
+            [
+              39,
+              10,
+              1
+            ],
+            [
+              48,
+              1,
+              1
+            ]
+          ],
+          "norms": [
+            2809,
+            2809
+          ]
+        },
+        {
+          "p": 59,
+          "factors": [
+            [
+              11,
+              9,
+              32,
+              5,
+              1
+            ]
+          ],
+          "norms": [
+            12117361
+          ]
+        },
+        {
+          "p": 61,
+          "factors": [
+            [
+              59,
+              13,
+              28,
+              3,
+              1
+            ]
+          ],
+          "norms": [
+            13845841
+          ]
+        },
+        {
+          "p": 67,
+          "factors": [
+            [
+              36,
+              62,
+              16,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            20151121
+          ]
+        },
+        {
+          "p": 71,
+          "factors": [
+            [
+              41,
+              1
+            ],
+            [
+              44,
+              1
+            ],
+            [
+              60,
+              50,
+              1
+            ]
+          ],
+          "norms": [
+            71,
+            71,
+            5041
+          ]
+        },
+        {
+          "p": 73,
+          "factors": [
+            [
+              53,
+              1
+            ],
+            [
+              12,
+              5,
+              11,
+              1
+            ]
+          ],
+          "norms": [
+            73,
+            389017
+          ]
+        },
+        {
+          "p": 79,
+          "factors": [
+            [
+              1,
+              1
+            ],
+            [
+              77,
+              1
+            ],
+            [
+              59,
+              65,
+              1
+            ]
+          ],
+          "norms": [
+            79,
+            79,
+            6241
+          ]
+        },
+        {
+          "p": 83,
+          "factors": [
+            [
+              19,
+              36,
+              67,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            47458321
+          ]
+        },
+        {
+          "p": 89,
+          "factors": [
+            [
+              6,
+              74,
+              61,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            62742241
+          ]
+        },
+        {
+          "p": 97,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              56,
+              1
+            ],
+            [
+              83,
+              1,
+              1
+            ]
+          ],
+          "norms": [
+            97,
+            97,
+            9409
+          ]
+        },
+        {
+          "p": 101,
+          "factors": [
+            [
+              66,
+              1
+            ],
+            [
+              95,
+              80,
+              99,
+              1
+            ]
+          ],
+          "norms": [
+            101,
+            1030301
+          ]
+        },
+        {
+          "p": 103,
+          "factors": [
+            [
+              11,
+              48,
+              47,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            112550881
+          ]
+        },
+        {
+          "p": 107,
+          "factors": [
+            [
+              86,
+              28,
+              43,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            131079601
+          ]
+        },
+        {
+          "p": 109,
+          "factors": [
+            [
+              61,
+              91,
+              41,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            141158161
+          ]
+        },
+        {
+          "p": 113,
+          "factors": [
+            [
+              37,
+              1
+            ],
+            [
+              43,
+              55,
+              27,
+              1
+            ]
+          ],
+          "norms": [
+            113,
+            1442897
+          ]
+        },
+        {
+          "p": 127,
+          "factors": [
+            [
+              56,
+              1
+            ],
+            [
+              63,
+              83,
+              8,
+              1
+            ]
+          ],
+          "norms": [
+            127,
+            2048383
+          ]
+        },
+        {
+          "p": 131,
+          "factors": [
+            [
+              80,
+              1
+            ],
+            [
+              82,
+              120,
+              115,
+              1
+            ]
+          ],
+          "norms": [
+            131,
+            2248091
+          ]
+        },
+        {
+          "p": 137,
+          "factors": [
+            [
+              119,
+              1
+            ],
+            [
+              56,
+              119,
+              82,
+              1
+            ]
+          ],
+          "norms": [
+            137,
+            2571353
+          ]
+        },
+        {
+          "p": 139,
+          "factors": [
+            [
+              18,
+              26,
+              11,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            373301041
+          ]
+        },
+        {
+          "p": 149,
+          "factors": [
+            [
+              45,
+              1
+            ],
+            [
+              119,
+              40,
+              19,
+              1
+            ]
+          ],
+          "norms": [
+            149,
+            3307949
+          ]
+        },
+        {
+          "p": 151,
+          "factors": [
+            [
+              14,
+              1
+            ],
+            [
+              53,
+              1
+            ],
+            [
+              62,
+              148,
+              1
+            ]
+          ],
+          "norms": [
+            151,
+            151,
+            22801
+          ]
+        },
+        {
+          "p": 157,
+          "factors": [
+            [
+              10,
+              1
+            ],
+            [
+              86,
+              1
+            ],
+            [
+              7,
+              125,
+              1
+            ]
+          ],
+          "norms": [
+            157,
+            157,
+            24649
+          ]
+        }
+      ],
+      "required": [
+        {
+          "p": 7,
+          "factors": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              3,
+              1,
+              1
+            ]
+          ],
+          "norms": [
+            7,
+            343
+          ]
+        },
+        {
+          "p": 11,
+          "factors": [
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "norms": [
+            11
+          ]
+        },
+        {
+          "p": 13,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              1,
+              11,
+              5,
+              1
+            ]
+          ],
+          "norms": [
+            13,
+            2197
+          ]
+        },
+        {
+          "p": 17,
+          "factors": [
+            [
+              3,
+              1
+            ],
+            [
+              15,
+              1
+            ],
+            [
+              8,
+              12,
+              1
+            ]
+          ],
+          "norms": [
+            17,
+            17,
+            289
+          ]
+        },
+        {
+          "p": 19,
+          "factors": [
+            [
+              8,
+              9,
+              17,
+              7,
+              1
+            ]
+          ],
+          "norms": [
+            130321
+          ]
+        },
+        {
+          "p": 23,
+          "factors": [
+            [
+              10,
+              6,
+              1
+            ],
+            [
+              22,
+              12,
+              1
+            ]
+          ],
+          "norms": [
+            529,
+            529
+          ]
+        },
+        {
+          "p": 29,
+          "factors": [
+            [
+              15,
+              1
+            ],
+            [
+              26,
+              24,
+              20,
+              1
+            ]
+          ],
+          "norms": [
+            29,
+            24389
+          ]
+        },
+        {
+          "p": 31,
+          "factors": [
+            [
+              17,
+              1
+            ],
+            [
+              16,
+              2,
+              16,
+              1
+            ]
+          ],
+          "norms": [
+            31,
+            29791
+          ]
+        },
+        {
+          "p": 37,
+          "factors": [
+            [
+              34,
+              23,
+              2,
+              27,
+              1
+            ]
+          ],
+          "norms": [
+            1874161
+          ]
+        },
+        {
+          "p": 41,
+          "factors": [
+            [
+              14,
+              27,
+              1
+            ],
+            [
+              39,
+              37,
+              1
+            ]
+          ],
+          "norms": [
+            1681,
+            1681
+          ]
+        },
+        {
+          "p": 43,
+          "factors": [
+            [
+              41,
+              1
+            ],
+            [
+              13,
+              24,
+              23,
+              1
+            ]
+          ],
+          "norms": [
+            43,
+            79507
+          ]
+        },
+        {
+          "p": 47,
+          "factors": [
+            [
+              8,
+              1
+            ],
+            [
+              11,
+              31,
+              9,
+              1
+            ]
+          ],
+          "norms": [
+            47,
+            103823
+          ]
+        },
+        {
+          "p": 53,
+          "factors": [
+            [
+              39,
+              10,
+              1
+            ],
+            [
+              48,
+              1,
+              1
+            ]
+          ],
+          "norms": [
+            2809,
+            2809
+          ]
+        },
+        {
+          "p": 59,
+          "factors": [
+            [
+              11,
+              9,
+              32,
+              5,
+              1
+            ]
+          ],
+          "norms": [
+            12117361
+          ]
+        },
+        {
+          "p": 61,
+          "factors": [
+            [
+              59,
+              13,
+              28,
+              3,
+              1
+            ]
+          ],
+          "norms": [
+            13845841
+          ]
+        },
+        {
+          "p": 67,
+          "factors": [
+            [
+              36,
+              62,
+              16,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            20151121
+          ]
+        },
+        {
+          "p": 71,
+          "factors": [
+            [
+              41,
+              1
+            ],
+            [
+              44,
+              1
+            ],
+            [
+              60,
+              50,
+              1
+            ]
+          ],
+          "norms": [
+            71,
+            71,
+            5041
+          ]
+        },
+        {
+          "p": 73,
+          "factors": [
+            [
+              53,
+              1
+            ],
+            [
+              12,
+              5,
+              11,
+              1
+            ]
+          ],
+          "norms": [
+            73,
+            389017
+          ]
+        },
+        {
+          "p": 79,
+          "factors": [
+            [
+              1,
+              1
+            ],
+            [
+              77,
+              1
+            ],
+            [
+              59,
+              65,
+              1
+            ]
+          ],
+          "norms": [
+            79,
+            79,
+            6241
+          ]
+        },
+        {
+          "p": 83,
+          "factors": [
+            [
+              19,
+              36,
+              67,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            47458321
+          ]
+        },
+        {
+          "p": 89,
+          "factors": [
+            [
+              6,
+              74,
+              61,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            62742241
+          ]
+        },
+        {
+          "p": 97,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              56,
+              1
+            ],
+            [
+              83,
+              1,
+              1
+            ]
+          ],
+          "norms": [
+            97,
+            97,
+            9409
+          ]
+        },
+        {
+          "p": 101,
+          "factors": [
+            [
+              66,
+              1
+            ],
+            [
+              95,
+              80,
+              99,
+              1
+            ]
+          ],
+          "norms": [
+            101,
+            1030301
+          ]
+        },
+        {
+          "p": 103,
+          "factors": [
+            [
+              11,
+              48,
+              47,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            112550881
+          ]
+        },
+        {
+          "p": 107,
+          "factors": [
+            [
+              86,
+              28,
+              43,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            131079601
+          ]
+        },
+        {
+          "p": 109,
+          "factors": [
+            [
+              61,
+              91,
+              41,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            141158161
+          ]
+        },
+        {
+          "p": 113,
+          "factors": [
+            [
+              37,
+              1
+            ],
+            [
+              43,
+              55,
+              27,
+              1
+            ]
+          ],
+          "norms": [
+            113,
+            1442897
+          ]
+        },
+        {
+          "p": 127,
+          "factors": [
+            [
+              56,
+              1
+            ],
+            [
+              63,
+              83,
+              8,
+              1
+            ]
+          ],
+          "norms": [
+            127,
+            2048383
+          ]
+        },
+        {
+          "p": 131,
+          "factors": [
+            [
+              80,
+              1
+            ],
+            [
+              82,
+              120,
+              115,
+              1
+            ]
+          ],
+          "norms": [
+            131,
+            2248091
+          ]
+        },
+        {
+          "p": 137,
+          "factors": [
+            [
+              119,
+              1
+            ],
+            [
+              56,
+              119,
+              82,
+              1
+            ]
+          ],
+          "norms": [
+            137,
+            2571353
+          ]
+        },
+        {
+          "p": 139,
+          "factors": [
+            [
+              18,
+              26,
+              11,
+              64,
+              1
+            ]
+          ],
+          "norms": [
+            373301041
+          ]
+        },
+        {
+          "p": 149,
+          "factors": [
+            [
+              45,
+              1
+            ],
+            [
+              119,
+              40,
+              19,
+              1
+            ]
+          ],
+          "norms": [
+            149,
+            3307949
+          ]
+        },
+        {
+          "p": 151,
+          "factors": [
+            [
+              14,
+              1
+            ],
+            [
+              53,
+              1
+            ],
+            [
+              62,
+              148,
+              1
+            ]
+          ],
+          "norms": [
+            151,
+            151,
+            22801
+          ]
+        },
+        {
+          "p": 157,
+          "factors": [
+            [
+              10,
+              1
+            ],
+            [
+              86,
+              1
+            ],
+            [
+              7,
+              125,
+              1
+            ]
+          ],
+          "norms": [
+            157,
+            157,
+            24649
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "exceptional domain counts at 2",
+      "actual": [
+        67,
+        4,
+        1
+      ],
+      "required": [
+        67,
+        4,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "name": "exceptional domain counts at 3",
+      "actual": [
+        212,
+        7,
+        2
+      ],
+      "required": [
+        212,
+        7,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "name": "exceptional domain counts at 5",
+      "actual": [
+        1120,
+        11,
+        3
+      ],
+      "required": [
+        1120,
+        11,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "name": "complete replay exceptional summary",
+      "actual": [
+        {
+          "p": 2,
+          "subspaces": 67,
+          "proper_ideals": 4,
+          "maximal_ideals": [
+            58
+          ],
+          "norms": [
+            2
+          ]
+        },
+        {
+          "p": 3,
+          "subspaces": 212,
+          "proper_ideals": 7,
+          "maximal_ideals": [
+            185,
+            208
+          ],
+          "norms": [
+            3,
+            3
+          ]
+        },
+        {
+          "p": 5,
+          "subspaces": 1120,
+          "proper_ideals": 11,
+          "maximal_ideals": [
+            990,
+            997,
+            1066
+          ],
+          "norms": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "required": [
+        {
+          "p": 2,
+          "subspaces": 67,
+          "proper_ideals": 4,
+          "maximal_ideals": [
+            58
+          ],
+          "norms": [
+            2
+          ]
+        },
+        {
+          "p": 3,
+          "subspaces": 212,
+          "proper_ideals": 7,
+          "maximal_ideals": [
+            185,
+            208
+          ],
+          "norms": [
+            3,
+            3
+          ]
+        },
+        {
+          "p": 5,
+          "subspaces": 1120,
+          "proper_ideals": 11,
+          "maximal_ideals": [
+            990,
+            997,
+            1066
+          ],
+          "norms": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 7: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 7: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 7: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 7: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 7: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 7: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 11: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 11: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 11: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 13: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 13: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 13: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 13: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 13: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 13: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 17: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 17: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 17: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 17: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 17: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 17: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 17: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 17: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 17: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 19: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 19: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 19: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 23: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 23: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 23: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 23: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 23: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 23: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 29: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 29: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 29: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 29: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 29: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 29: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 31: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 31: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 31: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 31: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 31: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 31: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 37: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 37: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 37: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 41: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 41: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 41: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 41: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 41: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 41: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 43: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 43: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 43: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 43: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 43: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 43: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 47: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 47: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 47: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 47: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 47: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 47: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 53: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 53: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 53: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 53: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 53: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 53: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 59: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 59: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 59: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 61: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 61: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 61: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 67: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 67: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 67: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 71: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 71: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 71: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 71: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 71: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 71: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 71: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 71: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 71: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 73: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 73: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 73: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 73: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 73: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 73: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 79: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 79: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 79: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 79: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 79: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 79: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 79: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 79: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 79: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 83: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 83: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 83: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 89: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 89: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 89: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 97: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 97: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 97: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 97: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 97: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 97: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 97: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 97: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 97: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 101: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 101: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 101: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 101: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 101: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 101: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 103: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 103: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 103: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 107: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 107: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 107: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 109: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 109: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 109: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 113: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 113: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 113: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 113: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 113: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 113: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 127: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 127: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 127: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 127: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 127: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 127: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 131: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 131: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 131: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 131: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 131: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 131: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 137: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 137: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 137: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 137: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 137: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 137: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 139: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 139: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 139: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 149: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 149: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 149: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 149: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 149: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 149: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 151: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 151: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 151: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 151: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 151: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 151: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 151: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 151: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 151: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 157: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 157: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 157: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 157: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 157: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 157: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 157: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 157: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 157: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 2: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 2: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 2: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 3: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 3: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 3: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 3: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 3: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 3: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 5: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 5: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 5: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 5: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 5: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 5: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 5: columns",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 5: p_coordinates",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "integral lattice data at 5: closure_actions",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "generator norm summary",
+      "actual": [
+        7,
+        11,
+        13,
+        17,
+        17,
+        29,
+        31,
+        43,
+        47,
+        71,
+        71,
+        73,
+        79,
+        79,
+        97,
+        97,
+        101,
+        113,
+        127,
+        131,
+        137,
+        149,
+        151,
+        151,
+        157,
+        157,
+        2,
+        3,
+        3,
+        5,
+        5,
+        5
+      ],
+      "required": [
+        7,
+        11,
+        13,
+        17,
+        17,
+        29,
+        31,
+        43,
+        47,
+        71,
+        71,
+        73,
+        79,
+        79,
+        97,
+        97,
+        101,
+        113,
+        127,
+        131,
+        137,
+        149,
+        151,
+        151,
+        157,
+        157,
+        2,
+        3,
+        3,
+        5,
+        5,
+        5
+      ],
+      "passed": true
+    },
+    {
+      "name": "all generator norms at most 157",
+      "actual": true,
+      "required": true,
+      "passed": true
+    }
+  ],
+  "input_sha256": {
+    "quartic-class-certificate.json": "c5363d1b846188e37fc53590b61de34923bb981da25ddd895cd82e14dda9b73b",
+    "quartic-class-verification.json": "b96ee4fd308facce58fe69be6c28b7922497401417f3da9d385ea883f65c222c",
+    "quartic-order-certificate.json": "4531a1f5ed1b9291da37fe111651bb72ee488cfaeadefb7679dd255fb473680e",
+    "quartic-order-audit.json": "1cbd46e1a8f3b6404f8bd9f7367b604bb17352bb0980c4f11c4d4d584c54e14e",
+    "quartic_class_generate.py": "c68a59ab49e403029e49694c2ac351254c36aa4c00adf1d0fe3494462f950a3a",
+    "quartic_class_replay.py": "3f3afb94ae8068636399c920e10c7145cc25df3be6b5e3104ef24ec1e920fbbe",
+    "quartic_class_budget.py": "aa2d9a1094f00624ffb8fd32b6d88385402fbe9263856b61ef3b54a417115243",
+    "audit_quartic_class.py": "cb2ef0b5564f8d77df9347001f5dd90ac2cda3929dc28d7bee591eb2e75af6d4"
+  },
+  "excluded_regular_ideals": [
+    {
+      "p": 7,
+      "factor": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "norm": 343
+    },
+    {
+      "p": 13,
+      "factor": [
+        1,
+        11,
+        5,
+        1
+      ],
+      "norm": 2197
+    },
+    {
+      "p": 17,
+      "factor": [
+        8,
+        12,
+        1
+      ],
+      "norm": 289
+    },
+    {
+      "p": 19,
+      "factor": [
+        8,
+        9,
+        17,
+        7,
+        1
+      ],
+      "norm": 130321
+    },
+    {
+      "p": 23,
+      "factor": [
+        10,
+        6,
+        1
+      ],
+      "norm": 529
+    },
+    {
+      "p": 23,
+      "factor": [
+        22,
+        12,
+        1
+      ],
+      "norm": 529
+    },
+    {
+      "p": 29,
+      "factor": [
+        26,
+        24,
+        20,
+        1
+      ],
+      "norm": 24389
+    },
+    {
+      "p": 31,
+      "factor": [
+        16,
+        2,
+        16,
+        1
+      ],
+      "norm": 29791
+    },
+    {
+      "p": 37,
+      "factor": [
+        34,
+        23,
+        2,
+        27,
+        1
+      ],
+      "norm": 1874161
+    },
+    {
+      "p": 41,
+      "factor": [
+        14,
+        27,
+        1
+      ],
+      "norm": 1681
+    },
+    {
+      "p": 41,
+      "factor": [
+        39,
+        37,
+        1
+      ],
+      "norm": 1681
+    },
+    {
+      "p": 43,
+      "factor": [
+        13,
+        24,
+        23,
+        1
+      ],
+      "norm": 79507
+    },
+    {
+      "p": 47,
+      "factor": [
+        11,
+        31,
+        9,
+        1
+      ],
+      "norm": 103823
+    },
+    {
+      "p": 53,
+      "factor": [
+        39,
+        10,
+        1
+      ],
+      "norm": 2809
+    },
+    {
+      "p": 53,
+      "factor": [
+        48,
+        1,
+        1
+      ],
+      "norm": 2809
+    },
+    {
+      "p": 59,
+      "factor": [
+        11,
+        9,
+        32,
+        5,
+        1
+      ],
+      "norm": 12117361
+    },
+    {
+      "p": 61,
+      "factor": [
+        59,
+        13,
+        28,
+        3,
+        1
+      ],
+      "norm": 13845841
+    },
+    {
+      "p": 67,
+      "factor": [
+        36,
+        62,
+        16,
+        64,
+        1
+      ],
+      "norm": 20151121
+    },
+    {
+      "p": 71,
+      "factor": [
+        60,
+        50,
+        1
+      ],
+      "norm": 5041
+    },
+    {
+      "p": 73,
+      "factor": [
+        12,
+        5,
+        11,
+        1
+      ],
+      "norm": 389017
+    },
+    {
+      "p": 79,
+      "factor": [
+        59,
+        65,
+        1
+      ],
+      "norm": 6241
+    },
+    {
+      "p": 83,
+      "factor": [
+        19,
+        36,
+        67,
+        64,
+        1
+      ],
+      "norm": 47458321
+    },
+    {
+      "p": 89,
+      "factor": [
+        6,
+        74,
+        61,
+        64,
+        1
+      ],
+      "norm": 62742241
+    },
+    {
+      "p": 97,
+      "factor": [
+        83,
+        1,
+        1
+      ],
+      "norm": 9409
+    },
+    {
+      "p": 101,
+      "factor": [
+        95,
+        80,
+        99,
+        1
+      ],
+      "norm": 1030301
+    },
+    {
+      "p": 103,
+      "factor": [
+        11,
+        48,
+        47,
+        64,
+        1
+      ],
+      "norm": 112550881
+    },
+    {
+      "p": 107,
+      "factor": [
+        86,
+        28,
+        43,
+        64,
+        1
+      ],
+      "norm": 131079601
+    },
+    {
+      "p": 109,
+      "factor": [
+        61,
+        91,
+        41,
+        64,
+        1
+      ],
+      "norm": 141158161
+    },
+    {
+      "p": 113,
+      "factor": [
+        43,
+        55,
+        27,
+        1
+      ],
+      "norm": 1442897
+    },
+    {
+      "p": 127,
+      "factor": [
+        63,
+        83,
+        8,
+        1
+      ],
+      "norm": 2048383
+    },
+    {
+      "p": 131,
+      "factor": [
+        82,
+        120,
+        115,
+        1
+      ],
+      "norm": 2248091
+    },
+    {
+      "p": 137,
+      "factor": [
+        56,
+        119,
+        82,
+        1
+      ],
+      "norm": 2571353
+    },
+    {
+      "p": 139,
+      "factor": [
+        18,
+        26,
+        11,
+        64,
+        1
+      ],
+      "norm": 373301041
+    },
+    {
+      "p": 149,
+      "factor": [
+        119,
+        40,
+        19,
+        1
+      ],
+      "norm": 3307949
+    },
+    {
+      "p": 151,
+      "factor": [
+        62,
+        148,
+        1
+      ],
+      "norm": 22801
+    },
+    {
+      "p": 157,
+      "factor": [
+        7,
+        125,
+        1
+      ],
+      "norm": 24649
+    }
+  ],
+  "scope": "L135 statement/output binding; full arithmetic and domain exhaustion checked by separately reviewed and executed replay",
+  "budget": {
+    "actual": {
+      "polynomial_divisions": 513525,
+      "exceptional_subspaces": 4197,
+      "subspace_tests": 18530,
+      "scalar_operations": 53838792,
+      "dimension": 4,
+      "integer_bits": 55,
+      "sign_evaluations": 603
+    },
+    "required_caps": {
+      "polynomial_divisions": 10000000,
+      "exceptional_subspaces": 100000,
+      "subspace_tests": 10000000,
+      "scalar_operations": 1000000000,
+      "dimension": 4,
+      "integer_bits": 4096,
+      "sign_evaluations": 4096
+    },
+    "failures": [],
+    "cap_stop": null
+  }
+}

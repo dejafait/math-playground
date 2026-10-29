@@ -1,0 +1,47 @@
+{
+  "kind": "complete finite certificate regeneration and exact comparison",
+  "original_certificates": [
+    "scripts/batched-incidence/output-544/weight-filtration.json",
+    "scripts/batched-incidence/output-544/audit.json"
+  ],
+  "regenerated_certificates": [
+    "scripts/batched-incidence/output-547/weight-filtration.json",
+    "scripts/batched-incidence/output-547/audit.json"
+  ],
+  "checks": {
+    "every_constructor_field_and_nested_value_equal": true,
+    "every_audit_field_and_nested_value_equal_except_input_path": true,
+    "old_audit_input_path_correct": true,
+    "new_audit_input_path_correct": true,
+    "every_subset_count_exact": true,
+    "all_reported_failures_empty": true
+  },
+  "coordinate_subsets_actual_required": [
+    1091059,
+    1091059
+  ],
+  "all_passing_relation_rows_actual_required": [
+    202,
+    202
+  ],
+  "multilinear_cases_actual_required": [
+    65809,
+    65809
+  ],
+  "full_threshold_ranks": [
+    0,
+    6,
+    8,
+    13,
+    23
+  ],
+  "core_threshold_ranks": [
+    0,
+    0,
+    1,
+    6,
+    16
+  ],
+  "failures": [],
+  "qualification": "Complete finite comparison only. The all-k bound rests on L126 and its conceptual audit, not on these data."
+}

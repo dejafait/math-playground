@@ -1,0 +1,377 @@
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY III                            29
+
+discussion of [IUTchI], Remark 3.4.2, it is natural to regard the [local] units that
+appear as being, in fact, “Aut-holomorphic semi-germs”, that is to say,
+    · projective systems of arbitrarily small neighborhoods of the [local] units
+     [i.e., of “S1 ” in “C× ”, or, in the notation of [IUTchI], Example 3.4, (i);
+     [IUTchI], Remark 3.4.2, of “O× (Cv )” in “O (Cv )gp ”], equipped with
+    · the Aut-holomorphic structures induced by restricting the ambient Aut-
+     holomorphic structure [i.e., of “C× ”, or, in the notation of [IUTchI], Ex-
+     ample 3.4, (i); [IUTchI], Remark 3.4.2, of “O (Cv )gp ”],
+    · the group structure [germ] induced by restricting the ambient group
+     structure [i.e., of “C× ”, or, in the notation of [IUTchI], Example 3.4, (i);
+     [IUTchI], Remark 3.4.2, of “O (Cv )gp ”], and
+    · a choice of one of the two connected components of the complement of the
+     units in a suﬃciently small neighborhood [i.e., determined by “OC \ S1 ⊆
+     C× \ S1 ”, or, in the notation of [IUTchI], Example 3.4, (i); [IUTchI],
+     Remark 3.4.2, by “O (Cv ) \ O× (Cv ) ⊆ O (Cv )gp \ O× (Cv )”].
+Indeed, one veriﬁes immediately that such “Aut-holomorphic semi-germs” are rigid
+in the sense that they do not admit any nontrivial holomorphic automorphisms. In
+particular, by thinking of the [local] units as “Aut-holomorphic semi-germs” in
+this way, the approach to Kummer structures in terms of Aut-holomorphic
+structures and co-holomorphicizations discussed in [IUTchI], Remark 3.4.2,
+carries over without change [cf. [AbsTopIII], Corollary 2.3, (i)]. Moreover, in
+light of the well-known discreteness of the image of the units of a number ﬁeld via
+the logarithms of the various archimedean valuations of the number ﬁeld [cf., e.g.,
+[Lang], p. 144, Theorem 5], it follows that the “idèlic” aspects discussed in (i) are
+also unaﬀected by thinking in terms of Aut-holomorphic semi-germs.
+
+Remark 1.1.2.
+     (i) In the notation of Deﬁnition 1.1, (i), we observe that the tautological
+log-link
+                              †
+                                Fv −→ log(† Fv )
+                                     log
+
+
+satisﬁes the property that there is a tautological identiﬁcation between the † Πv ’s
+that appear in the data that gives rise to the domain [i.e., {† Πv  Ψ† Fv }] and the
+data that gives rise to the codomain [i.e., {† Πv  Ψlog(† Fv ) }] of the tautological
+log-link. By contrast, the † Πv that appears in the data that gives rise to the domain
+of the full log-link
+                                    †
+                                      Fv −→ ‡ Fv
+                                          log
+
+
+is related to the ‡ Πv [where we use analogous notational conventions for objects
+associated to ‡ F to the notational conventions already in force for objects associated
+to † F] that appears in the data that gives rise to the codomain of the full log-link
+                                               ∼
+by means of a full poly-isomorphism † Πv → ‡ Πv . In this situation,
+    the speciﬁc isomorphism between the † Πv ’s in the domain and codomain
+    of the tautological log-link may be thought of as a sort of speciﬁc “rigid-
+    ifying path” between the † Πv ’s in the domain and codomain of the tau-
+    tological log-link that is constructed precisely by using [in an essential
+30                                SHINICHI MOCHIZUKI
+
+     way!] Frobenius-like monoids that are related via the pv -adic logarithm
+     [cf. the construction of Deﬁnition 1.1, (i)], i.e., by applying the Galois-
+     equivariance of the power series deﬁning the pv -adic logarithm to relate
+     automorphisms of the monoid Ψ† Fv to [induced!] automorphisms of the
+                          gp
+     monoid Ψ∼
+             †F
+               v
+                 = Ψlog(† Fv ) .
+
+Here, the use of the term “path” is intended to be in the spirit of the notion of
+a path in the étale groupoid [i.e., in the context of the classical theory of the étale
+fundamental group], except that, in the present context, we allow arbitrary au-
+tomorphism indeterminacies, instead of just inner automorphism indeterminacies.
+In the present paper, we shall work mainly with the full log-link [i.e., not with
+the tautological log-link!] since, in the context of the multiradial algorithms to be
+developed in §3 below, it will be of crucial importance to be able to
+
+     express the relationship between the étale-like (−) Πv ’s in the domain and
+     codomain of the log-links that appear in purely étale-like terms, i.e., in a
+     fashion that is [unlike the speciﬁc “rigidifying path” discussed above!] free
+     of any dependence on the Frobenius-like monoids involved.
+This is precisely what is achieved by working with the “tautologically indeterminate
+isomorphism” between (−) Πv ’s that underlies the full log-link.
+
+    (ii) An analogous discussion to that of (i) may be given in the situation of
+Deﬁnition 1.1, (ii), i.e., in the case of v ∈ Varc . We leave the routine details to the
+reader.
+
+    From the point of view of the present series of papers, the theory of [AbsTopIII]
+may be summarized as follows.
+
+Proposition 1.2.       (log-links Between F-prime-strips) Let
+                          †
+                              F = {† Fv }v∈V ;       ‡
+                                                         F = {‡ Fv }v∈V
+
+be F-prime-strips [relative to the given initial Θ-data — cf. [IUTchI], Deﬁnition
+5.2, (i)] and
+                                       †       log        ‡
+                                           F   −→             F
+a log-link from † F to ‡ F. Write † F×μ , ‡ F×μ for the associated F ×μ -prime-strips
+[cf. [IUTchII], Deﬁnition 4.9, (vi), (vii)]; † D, ‡ D for the associated D-prime-strips
+[cf. [IUTchI], Remark 5.2.1, (i)]; † D , ‡ D for the associated D -prime-strips [cf.
+[IUTchI], Deﬁnition 4.1, (iv)]. Also, let us recall the diagrams
+                                                                  gp      ∼         gp
+               Ψ† Fv ⊇ Ψ×
+                        †F
+                          v
+                            → log(† Fv ) = Ψlog(† Fv ) →                        Ψ‡ Fv    (∗non )
+
+                                                                  gp      ∼         gp
+               Ψ† Fv ⊆ Ψgp
+                        †F
+                           v
+                              log(† Fv ) = Ψlog(† Fv ) →                       Ψ‡ Fv    (∗arc )
+
+— where the v of (∗non ) (respectively, (∗arc )) belongs to Vnon (respectively, Varc ),
+                                                                              log
+and the [poly-]isomorphisms on the right are induced by the “ −→ ” — of Deﬁnition
+1.1, (i), (ii).
+                      INTER-UNIVERSAL TEICHMÜLLER THEORY III                                                     31
+
+                                                                                                        log
+    (i) (Coricity of Associated D-Prime-Strips) The log-link † F                                    −→            ‡
+                                                                                                                      F
+induces [poly-]isomorphisms
+
+                                 †         ∼       ‡        †       ∼
+                                     D →               D;       D →    ‡
+                                                                            D
+
+between the associated D- and D -prime-strips. In particular, the [poly-]isomorphism
+†     ∼   ‡                          log
+    D →       D induced by † F       −→        ‡
+                                                   F induces a [poly-]isomorphism
+                                                            ∼
+                                     Ψcns († D) → Ψcns (‡ D)
+
+between the collections of monoids equipped with auxiliary data of [IUTchII], Corol-
+lary 4.5, (i).
+
+     (ii) (Simultaneous Compatibility with Ring Structures) At v ∈ Vnon ,
+the natural † Πv -actions on the “Ψ’s” appearing in the diagram (∗non ) are compat-
+                                                   gp         gp
+ible with the ind-topological ring structures on Ψ† Fv and Ψlog(† Fv ) . At v ∈ Varc ,
+                                                                                      gp           gp
+the co-holomorphicizations determined by the natural Ψ† Fv - and Ψlog(† Fv ) (=
+Ψ∼                                †
+  † F )-Kummer structures on Uv — which [cf. the discussion of Deﬁnition 1.1,
+     v
+
+(ii)] are compatible with the diagram (∗arc ) — are compatible with the topological
+                        gp        gp
+ring structures on Ψ† Fv and Ψlog(† Fv ) .
+
+     (iii) (Simultaneous Compatibility with Log-volumes) At v ∈ Vnon , the
+diagram (∗non ) is compatible with the natural pv -adic log-volumes [cf. [Ab-
+sTopIII], Proposition 5.7, (i), (c); [AbsTopIII], Corollary 5.10, (ii)] on the sub-
+                             gp        gp
+sets of † Πv -invariants of Ψ† Fv and Ψlog(† Fv ) . At v ∈ Varc , the diagram (∗arc ) is
+compatible with the natural angular log-volume [cf. Remark 1.2.1, (i), below;
+[AbsTopIII], Proposition 5.7, (ii); [AbsTopIII], Corollary 5.10, (ii)] on Ψ×
+                                                                           †F
+                                                                             v
+                                                                               and
+the natural radial log-volume [cf. [AbsTopIII], Proposition 5.7, (ii), (c); [Ab-
+                                    gp
+sTopIII], Corollary 5.10, (ii)] on Ψlog(† Fv ) — cf. also Remark 1.2.1, (ii), below.
+
+     (iv) (Kummer theory) The Kummer isomorphisms
+                             ∼                                                    ∼
+                Ψcns († F)   →       Ψcns († D);                Ψcns (‡ F)        →   Ψcns (‡ D)
+
+of [IUTchII], Corollary 4.6, (i), fail to be compatible with the [poly-]isomorphism
+            ∼
+Ψcns († D) → Ψcns (‡ D) of (i), relative to the diagrams (∗non ), (∗arc ) [and the
+notational conventions of Deﬁnition 1.1] — cf. [AbsTopIII], Corollary 5.5, (iv).
+[Here, we regard the diagrams (∗non ), (∗arc ) as diagrams that relate Ψ† Fv and Ψ‡ Fv ,
+                                                   ∼                                                    log
+via the [poly-]isomorphism log(† F) → ‡ F that determines the log-link † F −→                                 ‡
+                                                                                                                  F.]
+
+     (v) (Holomorphic Log-shells) At v ∈ Vnon , the log-shell
+                                                                   ∼         gp
+                             I† Fv ⊆ log(† Fv )                  (→     Ψ‡ Fv )
+
+satisﬁes the following properties: (anon ) I† Fv is compact, hence of ﬁnite log-
+volume [cf. [AbsTopIII], Corollary 5.10, (i)]; (bnon ) I† Fv contains the submonoid
+32                                SHINICHI MOCHIZUKI
+
+of † Πv -invariants of Ψlog(† Fv ) [cf. [AbsTopIII], Deﬁnition 5.4, (iii)]; (cnon ) I† Fv
+contains the image of the submonoid of † Πv -invariants of Ψ×   † F . At v ∈ V
+                                                                   v
+                                                                                arc
+                                                                                    , the
+log-shell
+                                                   ∼    gp
+                           I† Fv ⊆ log(† Fv ) ( → Ψ‡ Fv )
+
+satisﬁes the following properties: (aarc ) I† Fv is compact, hence of ﬁnite radial
+log-volume [cf. [AbsTopIII], Corollary 5.10, (i)]; (barc ) I† Fv contains Ψlog(† Fv )
+[cf. [AbsTopIII], Deﬁnition 5.4, (v)]; (carc ) the image of I† Fv in Ψgp
+                                                                       †F
+                                                                          v
+                                                                            contains
+Ψ×
+ †F
+   v
+     [i.e., in essence, the pre-log-shell].
+
+      (vi) (Nonarchimedean Mono-analytic Log-shells) At v ∈ Vnon , if we
+write † Dv = B(† Gv )0 for the portion of † D indexed by v [cf. the notation of
+[IUTchII], Corollary 4.5], then the algorithms for constructing “k ∼ (G)”, “I(G)”
+given in [AbsTopIII], Proposition 5.8, (ii), yield a functorial algorithm in the
+category † Dv for constructing an ind-topological module equipped with a continuous
+†
+  Gv -action
+                                                          
+                          log(† Dv ) = † Gv  k ∼ († Gv )
+                                      def
+
+
+and a topological submodule — i.e., a “mono-analytic log-shell” —
+
+                               I† Dv = I(† Gv ) ⊆ k ∼ († Gv )
+                                     def
+
+
+
+equipped with a pv -adic log-volume [cf. [AbsTopIII], Corollary 5.10, (iv)]. More-
+over, there is a natural functorial algorithm [cf. the second display of [IUTchII],
+Corollary 4.6, (ii)] in the collection of data † Fv×μ [i.e., the portion of † F×μ labeled
+by v] for constructing an Ism-orbit of isomorphisms [cf. [IUTchII], Example 1.8,
+(iv); [IUTchII], Deﬁnition 4.9, (i), (vii)]
+                                            ∼
+                                log(† Dv ) → log(† Fv×μ )
+
+of ind-topological modules [cf. Deﬁnition 1.1, (iv)], as well as a functorial al-
+gorithm [cf. [AbsTopIII], Corollary 5.10, (iv), (c), (d); the fourth display of
+[IUTchII], Corollary 4.5, (ii); the ﬁnal display of [IUTchII], Corollary 4.6, (i)]
+in the collection of data † Fv for constructing isomorphisms
+
+                           ∼                    ∼                 ∼     gp
+               log(† Dv ) → log(† Fv×μ ) → log(† Fv )          (→   Ψ ‡ Fv )
+
+of ind-topological modules. The various isomorphisms of the last two displays are
+compatible with one another, as well as with the respective † Gv - and Gv († Πv )-
+actions [relative to the natural identiﬁcation † Gv = Gv († Πv ) that arises from re-
+garding † Dv as an object constructed from † Dv ], the respective log-shells, and the
+respective log-volumes on these log-shells.
+
+     (vii) (Archimedean Mono-analytic Log-shells) At v ∈ Varc , the algo-
+rithms for constructing “k ∼ (G)”, “I(G)” given in [AbsTopIII], Proposition 5.8,
+(v), yield a functorial algorithm in † Dv [regarded as an object of the category
+                   INTER-UNIVERSAL TEICHMÜLLER THEORY III                                       33
+
+“TM ” of split topological monoids discussed in [IUTchI], Example 3.4, (ii)] for
+constructing a topological module
+
+                                        log(† Dv ) = k ∼ († Gv )
+                                                     def
+
+
+
+and a topological subspace — i.e., a “mono-analytic log-shell” —
+
+                                    I† Dv = I(† Gv ) ⊆ k ∼ († Gv )
+                                           def
+
+
+
+equipped with angular and radial log-volumes [cf. [AbsTopIII], Corollary 5.10, (iv)].
+Moreover, there is a natural functorial algorithm [cf. the second display of
+[IUTchII], Corollary 4.6, (ii)] in the collection of data † Fv×μ for constructing
+a poly-isomorphism [i.e., an orbit of isomorphisms with respect to the indepen-
+dent actions of {±1} on each of the direct factors that occur in the construction
+of [AbsTopIII], Proposition 5.8, (v)]
+                                                  ∼
+                                     log(† Dv ) → log(† Fv×μ )
+
+of topological modules [cf. Deﬁnition 1.1, (v)], as well as a functorial algorithm
+[cf. [AbsTopIII], Corollary 5.10, (iv), (c), (d); the fourth display of [IUTchII],
+Corollary 4.5, (ii); the ﬁnal display of [IUTchII], Corollary 4.6, (i)] in the collection
+of data † Fv for constructing poly-isomorphisms [i.e., orbits of isomorphisms with
+respect to the independent actions of {±1} on each of the direct factors that occur
+in the construction of [AbsTopIII], Proposition 5.8, (v)]
+                                ∼                        ∼                       ∼        gp
+               log(† Dv ) → log(† Fv×μ ) → log(† Fv )                        (→     Ψ ‡ Fv )
+
+of topological modules. The various isomorphisms of the last two displays are com-
+patible with one another, as well as with the respective log-shells and the respec-
+tive angular and radial log-volumes on these log-shells.
+
+     (viii) (Mono-analytic Log-shells) The various [poly-]isomorphisms of (vi),
+(vii) [cf. also Deﬁnition 1.1, (iii), (vi)] yield collections of [poly-]isomorphisms
+indexed by v ∈ V
+                                                 ∼
+       log(† D ) = {log(† Dv )}v∈V → log(† F×μ ) = {log(† Fv×μ )}v∈V
+                   def                                                     def
+
+
+                          def                    ∼                   def
+                I† D = {I† Dv }v∈V → I† F×μ = {I† Fv×μ }v∈V
+
+                           ∼                         ∼
+             log(† D ) → log(† F×μ ) → log(† F) = {log(† Fv )}v∈V
+                                                                         def
+
+                                                     ∼        gp                     gp
+                                                             Ψcns (‡ F) = {Ψ‡ Fv }v∈V
+                                                                           def
+                                                  →
+
+                                    ∼                ∼             def
+                         I† D → I† F×μ → I† F = {I† Fv }v∈V
+                                            gp                                       gp
+— where, in the deﬁnition of “Ψcns (‡ F)”, we regard each Ψ‡ Fv , for v ∈ Vnon , as
+being equipped with its natural Gv (‡ Πv )-action [cf. the discussion at the beginning
+of Deﬁnition 1.1].
+34                                    SHINICHI MOCHIZUKI
+
+     (ix) (Coric Holomorphic Log-shells) Let ∗ D be a D-prime-strip; write
+
+                                                   F(∗ D)
+
+for the F-prime-strip naturally determined by Ψcns (∗ D) [cf. [IUTchII], Remark
+4.5.1, (i)]. Suppose that † F = ‡ F = F(∗ D), and that the given log-link F(∗ D) =
+†    log
+ F −→ ‡ F = F(∗ D) is the full log-link. Then there exists a functorial algorithm
+in the D-prime-strip ∗ D for constructing a collection of topological subspaces — i.e.,
+a collection of “coric holomorphic log-shells” —
+
+                                                     def
+                                            I∗ D     =      I† F
+                     gp                                                                 gp
+of the collection Ψcns (∗ D), which may be naturally identiﬁed with Ψcns (‡ F), together
+with a collection of natural isomorphisms [cf. (viii); the fourth display of [IUTchII],
+Corollary 4.5, (ii)]
+                                           ∼
+                                    I∗ D  → I ∗ D
+— where we write ∗ D for the D -prime-strip determined by ∗ D.
+
+    (x) (Frobenius-picture) Let {n F}n∈Z be a collection of distinct F-prime-
+strips [relative to the given initial Θ-data — cf. [IUTchI], Deﬁnition 5.2, (i)]
+indexed by the integers. Write {n D}n∈Z for the associated D-prime-strips [cf.
+[IUTchI], Remark 5.2.1, (i)] and {n D }n∈Z for the associated D -prime-strips [cf.
+                                                                                     log
+[IUTchI], Deﬁnition 4.1, (iv)]. Then the full log-links n F                          −→      (n+1)
+                                                                                                     F, for
+n ∈ Z, give rise to an inﬁnite chain
+
+                          log               log             log                log
+                 . . . −→       (n−1)
+                                        F −→        n
+                                                        F −→       (n+1)
+                                                                           F −→ . . .
+
+of log-linked F-prime-strips which induces chains of full poly-isomorphisms
+           ∼     ∼              ∼                                      ∼        ∼            ∼
+     . . . → n D → (n+1) D → . . .                 and         . . . → n D → (n+1) D → . . .
+
+on the associated D- and D -prime-strips [cf. (i)]. These chains may be represented
+symbolically as an oriented graph Γ [cf. [AbsTopIII], §0]
+
+                          ...    →      •     →      •     →       •       →   ...
+
+                                ...                 ↓                 ...
+                                                     ◦
+
+                                                                               log
+— i.e., where the horizontal arrows correspond to the “ −→ ’s”; the “•’s” corre-
+spond to the “n F”; the “◦” corresponds to the “n D”, identiﬁed up to isomorphism;
+the vertical/diagonal arrows correspond to the Kummer isomorphisms of (iv).
+This oriented graph Γ admits a natural action by Z [cf. [AbsTopIII], Corollary 5.5,
+(v)] — i.e., a translation symmetry — that ﬁxes the “core” ◦, but it does not
+admit arbitrary permutation symmetries. For instance, Γ does not admit an
+automorphism that switches two adjacent vertices, but leaves the remaining vertices
+ﬁxed.
+

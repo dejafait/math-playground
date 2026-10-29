@@ -1,0 +1,9 @@
+# Step518 — finite-level unit-image source comparison
+
+2026-10-27. One literature-only step on the unchanged step517 target. The essential known inputs and ordinary-field source dictionary are now documented in [the source record](../drafts/sources/2026-10-27-finite-level-unit-image-sources.md); [the exact-target assessment](../drafts/literature/2026-10-27-variable-norm-finite-level-unit-image.md) changes from REVIEW_REQUIRED to SPECIALIZE. This is local source preparation, not a preservation verdict, novel result or IUT flaw.
+
+Example 1.8(ii)–(iv) and Definition 4.9(i) confirm the distinction between the image of full-unit invariants and invariants after quotienting. The one-index test is necessary only for the proposed same-index isometry use. Kedlaya's ordinary norm-surjectivity theorem includes residue-characteristic degree; inspected unit/logarithm inputs cover the finite-field specialization without reproof. Details, precise citations and remaining representative obligations are in the source record.
+
+No lemma, mathematical script, DAG edge or assembled argument changed. Existing unfinished work and all recorded stops were retained. Current primary challenge pages were refreshed without a scope change. A shell PDF fetch failed at DNS, but primary web statements and proof cases were readable; no essential source blocker persists.
+
+Continue with the same bounded mathematical test after the supervisor's separate approval of the ready assessment. Require preservation or a complete failure certificate modulo every root of unity; a non-E chosen root is not enough. This routine specialization supplies no creative central mechanism: the source-compatible Kummer/determinant bridge remains unspecified. Main-gap membership, finite B>=A and original-hypothesis essentiality remain unresolved.

@@ -1,0 +1,309 @@
+                    INTER-UNIVERSAL TEICHMÜLLER THEORY II                              87
+
+                 Section 3: Tempered Gaussian Frobenioids
+
+     In the present §3, we relate the theory of group-theoretic algorithms surround-
+ing the Hodge-Arakelov-theoretic evaluation of the étale theta function on
+l-torsion points developed in §1, §2 to the local portion at bad primes [i.e., at
+v ∈ Vbad ] of the various Frobenioids considered in [IUTchI], §3, §4, §5, §6. In par-
+ticular, we shall discuss how the various multiradial formulations developed in §1
+and the theory of conjugate synchronization developed in §2 may be applied
+in the context of the “tempered Gaussian Frobenioids” that arise from the
+Hodge-Arakelov-theoretic evaluation of the étale theta function on l-torsion points.
+    In the present §3, we shall continue to use the notation of §2. In particular,
+our discussion concerns the local portion at v ∈ Vbad of the various mathematical
+objects considered in [IUTchI], §3, §4, §5, §6.
+
+Proposition 3.1.       (Mono-theta-theoretic Theta Monoids) Let
+
+                     MΘ
+                      ∗     =     {. . . → MΘ
+                                            M  → MM → . . . }
+                                                   Θ
+
+
+be a projective system of mono-theta environments [cf. Proposition 1.5,
+Corollary 2.8] such that ΠX (MΘ     ∼
+                                ∗ ) = Πv . In the following, to simplify the notation,
+we shall denote a “ΠX (MΘ ∗ )” in parenthesis by means of the abbreviated notation
+   Θ
+“M∗ ”.
+
+     (i) (Split Theta Monoids) By applying the constructions of Proposition
+1.5, (iii); Corollary 2.8, (i) [cf. also Corollary 1.12, (d)], one obtains a functorial
+algorithm
+               
+                   ×            ι              ι
+  MΘ∗      →    MTM  (MΘ             Θ              Θ
+                         ∗ ), θ env (M∗ ), ∞ θ env (M∗ ),
+                                                                                    
+                                 ×      ι
+                             MTM · ∞ θenv (M∗ ) ⊆ lim
+                                                Θ           1        Θ          Θ
+                                                       −→ H (ΠŸ (M∗ )|J , Πμ (M∗ )) ι
+                                                       J
+
+
+— where J ranges over the ﬁnite index open subgroups of ΠX (MΘ      ∗ ), and ι ranges
+over the inversion automorphisms of Proposition 2.2, (i) — for constructing var-
+ious subsets of the direct limit of cohomology modules in the above display; this
+collection of subsets is equipped with a natural conjugation action by ΠX (MΘ     ∗ ).
+In particular, one obtains a functorial algorithm for constructing the data
+                                                                      
+                         def     ι              ×         ι      Θ N
+                    Θ
+            Ψenv (M∗ ) =       Ψenv (M∗ ) = MTM (M∗ ) · θenv (M∗ )
+                                       Θ             Θ
+                                                                          ;
+                                                                        ι 
+                        def        ι             ×            ι      Θ N
+                               ∞ Ψenv (M∗ ) = MTM (M∗ ) · ∞ θ env (M∗ )
+                    Θ                   Θ              Θ
+          ∞ Ψenv (M∗ ) =
+                                                                                ι
+
+consisting of the submonoids {Ψιenv (MΘ                 ι
+                                            ∗ )}ι , {∞ Ψenv (M∗ )}ι [of the direct limit of
+                                                              Θ
+
+cohomology modules in the ﬁrst display of the present (i)] generated, respectively,
+by the subsets “MTM  ×
+                        · θιenv (MΘ         ×        ι
+                                   ∗ )”, “MTM · ∞ θ env (M∗ )”, as well as a functorial
+                                                           Θ
+
+algorithm for constructing the splittings up to torsion determined by the subsets
+    ×             ι                 ι
+“MTM   (MΘ              Θ                 Θ
+         ∗ )”, “θ env (M∗ )”, “∞ θ env (M∗ )” [cf. Corollary 2.8, (iii)]. We shall refer
+to each Ψιenv (MΘ        ι       Θ
+                ∗ ), ∞ Ψenv (M∗ ) as a theta monoid.
+88                                     SHINICHI MOCHIZUKI
+
+     (ii) (Constant Monoids) By applying the cyclotomic rigidity isomor-
+phisms of Corollaries 2.8, (i); 2.9, and considering the inverse image of Z ⊆ Z
+via the surjection of Remark 1.11.5, (i), applied to Gv (MΘ               Θ
+                                                          ∗ ) (= Gv (ΠX (M∗ ))) [cf.
+the notation of Corollary 2.5, (i)], one obtains a functorial algorithm
+
+                                   def
+      MΘ
+       ∗    → Ψcns (MΘ
+                      ∗ ) = MTM (M∗ ) ⊆ lim
+                                  Θ         1       Θ            Θ
+                                        −→ H (ΠŸ (M∗ )|J , Πμ (M∗ ))
+                                                              J
+
+
+[where J is as in (i)] for constructing a “monoid of constants” — i.e., which is
+naturally isomorphic to OF [cf. Example 1.8, (ii)] — equipped with a natural
+                                   v
+
+conjugation action by ΠX (MΘ                             Θ
+                           ∗ ). We shall refer to Ψcns (M∗ ) as a constant
+monoid.
+
+
+Proof. Assertions (i) and (ii) follow immediately from the deﬁnitions and the
+references quoted in the statements of these assertions. 
+
+
+    Before proceeding, we pause to review the theory of tempered Frobenioids dis-
+cussed in [IUTchI], Example 3.2.
+
+
+Example 3.2. Theta Monoids Constructed from Tempered Frobenioids.
+In the situation of [IUTchI], Example 3.2:
+
+     (i) Recall the tempered Frobenioid F v of [IUTchI], Example 3.2, (i), (ii), (v)
+[cf. also [IUTchI], Remark 3.2.3, (i), (ii)]. Then, in the notation of loc. cit., the
+choice of a Frobenioid-theoretic theta function
+
+                                          Θv ∈ O× (T÷
+                                                    Ÿ
+                                                       )
+                                                          v
+
+
+
+— i.e., among the μ2l (T÷
+                        Ÿ
+                           )-multiples of the AutDv (Ÿ v )-conjugates of Θv — deter-
+                               v
+
+mines a monoid OCΘ (−) on DvΘ . Now suppose, for simplicity, that the topological
+                  v
+group Πv arises from a basepoint, i.e., more concretely, from a “universal covering
+             ∞ of Dv [i.e., a pro-object determined by a coﬁnal projective system
+pro-object” AΘ
+of Galois objects of Dv ]. Then by evaluating OCΘ (−) on [the “universal covering
+                                                                  v
+
+pro-object” of DvΘ determined by] AΘ
+                                   ∞ , we obtain submonoids [in the usual sense]
+
+
+                                                               N
+                       OCΘ (AΘ                 OC×Θ (AΘ
+                 def
+      ΨFvΘ ,id   =
+                           v
+                              ∞)           =
+                                                      v
+                                                       ∞ ) · Θ v |A Θ
+                                                                    ∞
+
+                                                             Q≥0
+                                               OC×Θ (AΘ                     O× (T÷
+                                         def
+                 ⊆     ∞ ΨFvΘ ,id        =            ∞ ) · Θv   |AΘ
+                                                                   ∞
+                                                                        ⊆        AΘ
+                                                                                    )
+                                                  v                               ∞
+
+
+
+— where the superscript “Q≥0 ” denotes the set of elements for which some [positive
+integer] power is equal to a [positive integer] power of Θv |AΘ
+                                                              ∞
+                                                                . In a similar vein,
+by considering [cf. [IUTchI], Remark 3.2.3, (i)] the various conjugates Θα v
+                                                                             of Θv ,
+for α ∈ AutDv (Ÿ v ), we also obtain submonoids ΨFvΘ ,α ⊆ ∞ ΨFvΘ ,α ⊆ O× (T÷
+                                                                            AΘ
+                                                                               ).
+                                                                                        ∞
+                   INTER-UNIVERSAL TEICHMÜLLER THEORY II                             89
+
+Moreover, one has a natural surjection Πv  AutDv (Ÿ v ), as well as a natural
+conjugation action of Πv on the collections of submonoids
+                                                                
+                  def                              def
+          ΨFvΘ    =      ΨFvΘ ,α      ; ∞ ΨFvΘ     =     ∞ ΨFvΘ ,α
+                                   α∈Πv                                 α∈Πv
+
+— i.e., where, by abuse of notation, we think of the subscripted “α’s” as denoting
+the image of “α” via the surjection Πv  AutDv (Ÿ v ). Also, we recall from loc. cit.
+that ΘQ
+      v
+        ≥0
+           |AΘ
+             ∞
+               determines characteristic splittings, up to torsion, of the monoids
+ΨFvΘ ,α [cf. the “τvΘ ” of [IUTchI], Example 3.2, (v)], ∞ ΨFvΘ ,α which are compatible
+with the action of Πv . Finally, we recall that the collection of data
+                                                                   
+            Πv  ΨFvΘ = ΨFvΘ ,α              , ∞ ΨFvΘ = ∞ ΨFvΘ ,α
+                                          α∈Πv                          α∈Πv
+
+— i.e., consisting of two collections of submonoids of the group of units [namely,
+O× (T÷  AΘ
+            )] associated to the birationalization of a certain characteristic pro-object
+          ∞
+of F v , equipped with the conjugation action by an automorphism group of a certain
+characteristic pro-object of Dv — as well as the characteristic splittings, up to
+torsion, just discussed, may be reconstructed category-theoretically from F v
+[cf. [IUTchI], Example 3.2, (vi), (e)], up to an indeterminacy arising from the inner
+automorphisms of Πv .
+    (ii) In a similar, but somewhat simpler, vein, the Frobenioid structure on
+the subcategory Cv ⊆ F v — i.e., the “base-ﬁeld-theoretic hull” of the tempered
+Frobenioid F v [cf. [IUTchI], Example 3.2, (iii)] — determines, via the general
+theory of Frobenioids [cf. [FrdI], Proposition 2.2], a monoid OCv (−) on Dv . Then
+by evaluating OCv (−) on AΘ
+                           ∞ , we obtain a monoid [in the usual sense]
+
+
+                                              OCv (AΘ
+                                        def
+                                ΨCv       =          ∞)
+
+which is equipped with a natural action by Πv . Finally, we recall that the collection
+of data
+                                  Πv  ΨCv
+— i.e., consisting of a submonoid of the group of units [namely, O× (T÷  AΘ
+                                                                              )] associ-
+                                                                           ∞
+ated to the birationalization of a certain characteristic pro-object of F v , equipped
+with the conjugation action by an automorphism group of a certain characteristic
+pro-object of Dv — may be reconstructed category-theoretically from F v [cf.
+[IUTchI], Example 3.2, (iii); [IUTchI], Example 3.2, (vi), (d); [FrdI], Theorem 3.4,
+(iv); [FrdII], Theorem 1.2, (i); [FrdII], Example 1.3, (i)], up to an indeterminacy
+arising from the inner automorphisms of Πv .
+
+Proposition 3.3.       (Frobenioid-theoretic Theta Monoids) Suppose, in the
+situation of Proposition 3.1, that MΘ
+                                    ∗ arises [cf. Proposition 1.2, (ii)] from a tem-
+                     †
+pered Frobenioid F v — i.e.,
+
+                                                  †
+                                 MΘ
+                                  ∗       =   MΘ
+                                               ∗ ( F v)
+90                               SHINICHI MOCHIZUKI
+
+— that appears in a Θ-Hodge theater † HT Θ = ({† F w }w∈V , † F
+                                                               mod ) [cf. [IUTchI],
+Deﬁnition 3.6] — cf., for instance, the Frobenioid “F v ” of [IUTchI], Example 3.2,
+(i). Observe that by applying the category-theoretic constructions of Example 3.2,
+(i), (ii), to † F v , one obtains data
+                                                                           
+ ΠX (MΘ   ∗ )        Ψ † Fv
+                            Θ =   Ψ † Fv
+                                        Θ ,α     , ∞ Ψ † Fv
+                                                           Θ =   ∞ Ψ † Fv
+                                                                         Θ ,α     ;
+                                        α∈ΠX (M∗ )
+                                               Θ                                Θ   α∈ΠX (M∗ )
+
+                                       ∗ )  Ψ† Cv
+                                  ΠX (MΘ
+as well as splittings, up to torsion, of each of the monoids Ψ† FvΘ ,α , ∞ Ψ† FvΘ ,α .
+
+     (i) (Split Theta Monoids) By forming Kummer classes relative to the
+Frobenioid structure of † F v — i.e., in essence, by considering the Galois coho-
+mology classes that arise when one extracts N -th roots of unity for N ∈ N≥1 [cf.
+[FrdII], Deﬁnition 2.1, (ii); [IUTchI], Remark 3.2.3, (ii); the discussion of [EtTh],
+§5] — and applying the description given in Proposition 1.3, (i), of the exterior
+cyclotome of a mono-theta environment that arises from a tempered Frobenioid,
+one obtains, for a suitable bijection of l · Z-torsors between [Gal(Ÿ v /Y v )-orbits
+of ] “ι” as in Proposition 2.2, (i), and images of “α” via the natural surjection
+Πv  l · Z, collections of isomorphisms of monoids
+                        ∼                                       ∼
+            Ψ† FvΘ ,α   →     Ψιenv (MΘ
+                                      ∗ );    ∞ Ψ† FvΘ ,α   →           ι     Θ
+                                                                     ∞ Ψenv (M∗ )
+
+
+— each of which is well-deﬁned up to composition with an inner automorphism
+[cf. the discussion of Example 3.2, (i)] and compatible with both the respective
+conjugation actions by ΠX (MΘ  ∗ ) and the splittings up to torsion on the monoids
+under consideration. We shall denote these collections of isomorphisms by means
+of the notation
+                        ∼                                   ∼
+              Ψ† FvΘ    →     Ψenv (MΘ
+                                     ∗ );     ∞ Ψ† FvΘ      →                Θ
+                                                                    ∞ Ψenv (M∗ )
+
+
+[cf. the notation of Proposition 3.1, (i); Example 3.2, (i)].
+     (ii) (Constant Monoids) By forming Kummer classes relative to the Frobe-
+nioid structure of † F v — i.e., in essence, by considering the Galois cohomology
+classes that arise when one extracts N -th roots of unity for N ∈ N≥1 [cf. [FrdII],
+Deﬁnition 2.1, (ii); [IUTchI], Remark 3.2.3, (ii); [FrdII], Theorem 2.4] — and ap-
+plying the description given in Proposition 1.3, (i), of the exterior cyclotome of
+a mono-theta environment that arises from a tempered Frobenioid, one obtains an
+isomorphism of monoids
+                                          ∼
+                                Ψ† Cv    →      Ψcns (MΘ
+                                                       ∗)
+
+— which is well-deﬁned up to composition with an inner automorphism [cf. the
+discussion of Example 3.2, (ii)] and compatible with the respective conjugation
+actions by ΠX (MΘ ∗ ).
+
+
+Proof. Assertions (i) and (ii) follow immediately from the deﬁnitions and the
+references quoted in the statements of these assertions. 
+

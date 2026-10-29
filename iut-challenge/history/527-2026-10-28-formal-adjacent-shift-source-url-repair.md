@@ -1,0 +1,5 @@
+# Step527 — formal adjacent-shift direct-source gate repair (2026-10-28)
+
+Repaired SOURCE_EVIDENCE in [the saved assessment](../drafts/literature/2026-10-28-stp7-formal-adjacent-shift-audit.md) with three direct author PDF URLs. All opened with the recorded title versions/page counts. Rechecked the retained final Stp7/Stp8 passage and web-accessible IUT III (cQ3)/(cQ4)/(iQ5) cases. Web Stp7/Stp8 finds timed out; the already inspected local extract supplies the cases. No essential source blocker remains for the bounded audit.
+
+STALLED / LITERATURE / NOVELTY_UNCHECKED; actual task type metadata. This repairs the reported process issue, supplies no mathematical advance, and does not reset exploration. The exact target and EXPLORE decision are unchanged; the supervisor can approve the repaired source gate before the conceptual audit. ATTEMPTS/040 remains controlling against the strict representative-square variant. No new creative mechanism is justified without a source-compatible invariant and original-data test. Native q-membership and finite B>=A remain open. Pre-existing work is preserved; lemmas, mathematical scripts, DAG and PROOF are untouched.

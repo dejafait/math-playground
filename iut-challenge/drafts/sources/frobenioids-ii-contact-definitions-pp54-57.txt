@@ -1,0 +1,223 @@
+54                               SHINICHI MOCHIZUKI
+
+Deﬁnition 5.3. For i = 1, 2, let Ci be a Frobenioid over a base category Di , with
+perf-factorial divisor monoid Φi . Note that Φi extends naturally to a functor Φi
+on Di by assigning to a coproduct of objects {Aj }j∈J of Di the direct sum of the
+monoids Φi (Aj ).
+
+     (i) Suppose that C1 is of isotropic type. Then we shall refer to a functor
+
+                                        Ψ : C1 → C2
+
+as GC-admissible [i.e., “global contact-admissible”] if the following conditions are
+satisﬁed: (a) there exists a functor ΨBase : D1 → D2 which is 1-compatible with
+Ψ, [relative to the natural projection functors Ci → Di , for i = 1, 2]; (b) Ψ maps an
+arrow of Frobenius degree d ∈ N≥1 of C1 to an arrow of C2 each of whose component
+arrows [∈ Arr(C2 )] is of Frobenius degree d; (c) there exists a natural transformation
+ΨΦ : Φ1 → Φ  2 |C1 that is compatible with Ψ relative to the functors Ci → FΦi [for
+i = 1, 2] that deﬁne the Frobenioid structures of the Ci [in other words: ΨΦ is
+compatible with Ψ relative to the operation of taking the zero divisor]; (d) every
+component object ∈ Ob(C2 ) of an object in the image of Ψ is isotropic.
+
+     (ii) We shall refer to a functor
+
+                                        Ψ : C1 → C2
+
+as LC-admissible [i.e., “local contact-admissible”] if there exists a subfunctor of
+group-like monoids
+                                 Φcnst ⊆ (Φrlf
+                                           1 )
+                                               birat
+
+
+[where “rlf” is as in [Mzk5], Deﬁnition 2.4, (i); cf. also [Mzk5], Proposition 5.3] on
+D1 of “constant realiﬁed rational functions” such that the following conditions are
+                                                                     ∼
+satisﬁed: (a) there exists an equivalence of categories ΨBase : D1 → D2 which is 1-
+compatible with Ψ [relative to the natural projection functors Ci → Di , for i = 1, 2];
+(b) Ψ is compatible with Frobenius degrees; (c) the natural inclusion Φ1 → Φrlf    1
+factors as a composite of inclusions
+
+                                  Φ1 → Φ2 |D1 → Φrlf
+                                                   1
+
+of functors of monoids on D1 that are compatible with Ψ relative to the functors
+Ci → FΦi [for i = 1, 2] that deﬁne the Frobenioid structures of the Ci [in other words:
+relative to the operation of taking the zero divisor]; (d) applying the operation of
+“groupiﬁcation” to the monoids of (c) induces inclusions
+
+                     Φbirat
+                      1     → Φbirat
+                                2     |D1 → (Φrlf
+                                               1 )
+                                                   birat
+                                                         = R · Φbirat
+                                                                1
+
+[where we recall that Φbirat
+                           i   ⊆ Φgp
+                                   i , for i = 1, 2 — cf. [Mzk5], Proposition 4.4, (iii)]
+of functors of monoids on D1 ; (e) the image of the inclusion Φbirat2  |D1 → (Φrlf
+                                                                                 1 )
+                                                                                     birat
+
+of (d) is equal to the subfunctor of [group-like] monoids Φ1  birat
+                                                                    +Φ cnst
+                                                                            ⊆ (Φ1 )
+                                                                                rlf birat
+                                                                                          ;
+(f) the functor Φ cnst
+                       is “constant” on D1 in the sense that Φ cnst
+                                                                    maps every arrow of
+D1 to an isomorphism; (g) Ψ preserves isotropic objects and co-angular morphisms.
+We shall say that Ψ is LC-unit-admissible if Ψ is LC-admissible, and, moreover, the
+                          THE GEOMETRY OF FROBENIOIDS II                                   55
+
+following condition is satisﬁed: (h) if A2 = Ψ(A1 ) ∈ Ob(C2 ), where A1 ∈ Ob(C1 ),
+then the induced homomorphism of abelian groups O× (A1 ) → O× (A2 ) induces a
+surjection on perfections O× (A1 )pf  O× (A2 )pf .
+
+     (iii) We shall refer to as a collection of Frobenioid-theoretic grafting data any
+collection of grafting data
+
+                  C , {Cι }ι∈I , {C ι }ι∈I , {ζι : C → C 
+            def
+          C =                                              ι }ι∈I , {ηι : Cι → C ι }ι∈I
+
+
+such that the following conditions are satisﬁed: (a) the categories C , Cι , C ι [for
+ι ∈ I] are equipped with Frobenioid structures, the base categories of which we
+denote by D , Dι , D ι , respectively, and the divisor monoids of which we denote
+by Φ , Φι , Φι , respectively; (b) the divisor monoids Φ , Φι , Φι [for ι ∈ I] are all
+perf-factorial; (c) the global contact functors ζι [for ι ∈ I] are GC-admissible [which
+implies, in particular, that C is of isotropic type]; (d) the local contact functors ηι
+[for ι ∈ I] are LC-admissible. A category obtained as the grafted category associated
+to such data C will be referred to as a poly-Frobenioid C. If all of the ηι [for ι ∈ I]
+are LC-unit-admissible, then we shall say that C or C is of LC-unit-admissible type.
+Observe that C determines a collection of base-category grafting data D, which is of
+totally tactile type [cf. (ii), (a)]; the associated grafted category D will be referred
+to as the poly-base category of the poly-Frobenioid C. [Here, we observe that, by
+a [harmless!] abuse of notation, “C ” denotes both the category “A ” and the
+category “G ” of Deﬁnition 5.1, (i); a similar remark holds for “D ”, “Cι ”, “Dι ”,
+where ι ∈ I.] Thus, we have a natural projection functor C → D. If P is a property
+of Frobenioids (respectively, base categories of Frobenioids), then we shall say that
+C or C (respectively, D or D) satisﬁes this property P if the Frobenioids C , Cι , C ι
+[for ι ∈ I] (respectively, the base categories D , Dι , Dι [for ι ∈ I]) all satisfy this
+property P. [In particular, one must be careful to distinguish between the assertion
+that “D satisﬁes P as an abstract category” and the assertion that “D satisﬁes P as
+a poly-base category of a poly-Frobenioid”.]
+
+      (iv) Let φ : A → B be a morphism of the poly-Frobenioid C. We shall denote
+the projection of φ to D by Base(φ). Observe that by conditions (i), (b), and (ii),
+(b), above, it makes sense to speak of the Frobenius degree degFr (φ) ∈ N≥1 of φ; if
+degFr (φ) = 1, then we shall say that φ is linear. If, for ι ∈ I, φ is ι-local (respectively,
+ι-heterogeneous), then it makes sense to speak of the zero divisor Div(φ) ∈ Φι (A)
+(respectively, Div(φ) ∈ Φι (A)); if φ is global, then it makes sense to speak of the
+zero divisor Div(φ) ∈ Φ (A). We shall say that φ satisﬁes a property P of arrows
+of Frobenioids if φ is homogeneous, and, moreover, satisﬁes the property P when
+regarded as an arrow of one of the local or global component Frobenioids of C; a
+similar convention will be applied to objects of C. We shall say that φ is base-[ι-
+]tactile if it projects to a(n) [ι-]tactile morphism of D [for ι ∈ I]. We shall say that φ
+is birationally [ι-]tactile [i.e., “base-linear-tactile”] if it is linear and base-[ι-]tactile
+[for ι ∈ I], with isotropic domain. We shall say that φ is base-[ι-]pre-tactile if φ is
+[ι-]heterogeneous, and, moreover, for every factorization A → A → B of φ, where
+A is [ι-]local, it holds that A → A is a base-isomorphism [for ι ∈ I]. We shall
+say that φ is birationally [ι-]pre-tactile if φ is [ι-]heterogeneous, and, moreover, for
+56                               SHINICHI MOCHIZUKI
+
+every factorization A → A → B of φ, where A is [ι-]local, it holds that A → A is
+a co-angular pre-step [for ι ∈ I]. If φ factors as a composite A → A → B, where
+A → B is base-[ι-]tactile (respectively, birationally [ι-]tactile) [for some ι ∈ I], then
+we shall refer to this factorization as a base-[ι-]tactile (respectively, birationally [ι-
+]tactile) factorization of φ. If, for some ι ∈ I, {Aj → B}j∈J forms a collection of
+birationally ι-tactile morphisms of C that projects to a complete ι-tactile collection
+of Base(B), then we shall refer to the collection of morphisms {Aj → B}j∈J as a
+complete birationally [ι-]tactile collection [for B].
+
+     (v) A routine check reveals [cf. Remarks 5.3.1, 5.3.3, below; [Mzk5], Deﬁni-
+tion 2.4, (i); [Mzk5], Proposition 3.2, (ii), (iii); [Mzk5], Proposition 4.4, (iv)] that
+applying the operations
+
+                         “pf”, “un-tr”, “rlf”, “birat”, or “istr”
+
+[where “pf” is deﬁned whenever C is of Frobenius-isotropic type] to each of the
+Frobenioids C , Cι , C ι [for ι ∈ I] yields a new collection of Frobenioid-theoretic
+grafting data “Cpf ”, “Cun-tr ”, “Crlf ”, “Cbirat ”, or “Cistr ”, whose associated poly-
+Frobenioids “C pf ”, “C un-tr ”, “C rlf ”, “C birat ”, or “C istr ” we shall refer to as the
+perfection, unit-trivialization, realiﬁcation, birationalization, or isotropiﬁcation of
+the poly-Frobenioid C. Observe, moreover, that each of the operations “un-tr”,
+“rlf”, “istr” preserves the property of being of LC-unit-admissible type; if C is of
+Frobenius-normalized type, then the operation “pf” preserves the property of being
+of LC-unit-admissible type [cf. [Mzk5], Proposition 5.5, (i)].
+
+      (vi) If C is of uniformly dissectible, LC-unit-admissible, and standard [cf. the
+convention concerning “P” in (iii) above] type, then we shall say that C or C is of
+poly-standard type. If C is of uniformly dissectible, LC-unit-admissible, and ratio-
+nally standard [cf. the convention concerning “P” in (iii) above] type, then we shall
+say that C or C is of poly-rationally standard type. If each of the Frobenioids C ,
+Cι , C ι [for ι ∈ I] contains a non-group-like object, then we shall say that C or C is
+of poly-non-group-like type.
+
+Remark 5.3.1. Observe that if a morphism φ of the domain Frobenioid of a
+GC-admissible functor Ψ is a morphism of Frobenius type (respectively, pre-step;
+pull-back morphism; linear morphism; isometry; base-isomorphism; base-identity
+endomorphism), then so is each of the component arrows of Ψ(φ) [cf. Deﬁnition
+5.3, (i); [Mzk5], Deﬁnition 1.3, (vii), (b); [Mzk5], Proposition 1.4, (ii)].
+
+Remark 5.3.2. We observe in passing that, in the notation of Deﬁnition 5.3, (i),
+the functor Ψ : C1 → C2 that maps every object of C1 to the initial object of C2 is
+a GC-admissible functor which is not totally non-initial. In particular, Deﬁnition
+5.3, (iii), does not rule out the possibility that some [but, at least in the case of
+data of uniformly dissectible type, not all — cf. Deﬁnition 5.1, (ii), (a), (c)] of the
+global contact functors that appear in a collection of Frobenioid-theoretic grafting
+data are functors of this form [i.e., functors that map every object to the initial
+object].
+                        THE GEOMETRY OF FROBENIOIDS II                               57
+
+Remark 5.3.3. Observe that [in the notation of Deﬁnition 5.3, (ii)] any LC-
+                                                                              ∼
+admissible functor Ψ : C1 → C2 induces an equivalence of categories C1rlf → C2rlf be-
+tween the associated realiﬁcations. Indeed, this follows immediately from Deﬁnition
+5.3, (ii), (a), (c), (d) [cf. also the deﬁnition of the “realiﬁcation” in [Mzk5], Propo-
+sition 5.3]. In particular, [cf. also Deﬁnition 5.3, (ii), (g); [Mzk5], Proposition 1.4,
+(ii)] Ψ preserves morphisms of Frobenius type, pre-steps, pull-back morphisms, linear
+morphisms, isometries, isotropic hulls, co-angular morphisms, base-isomorphisms,
+and base-identity endomorphisms.
+
+Remark 5.3.4.         It is immediate from the deﬁnitions that “birationally pre-
+tactile” implies “base-pre-tactile”, that “birationally tactile” implies “base-tactile”,
+that “birationally tactile” implies “birationally pre-tactile”, and that “base-tactile”
+implies “base-pre-tactile” [cf. Remark 5.1.2].
+
+Proposition 5.4.         (Birationally Tactile Factorizations) In the notation of
+Deﬁnition 5.3, (iii), suppose that the poly-Frobenioid C is of LC-unit-admissible,
+Frobenius-normalized, and perfect type. Let φ : A → B be an ι-heterogeneous
+morphism, where ι ∈ I, of C, whose image in the birationalization [cf. Deﬁnition
+5.3, (v)] C birat of C we denote by φbirat : Abirat → B birat . Then:
+    (i) φbirat admits a tactile factorization.
+    (ii) φbirat is tactile if and only if it is pre-tactile.
+    (iii) There exists a co-angular pre-step ψ : C → A such that φ ◦ ψ admits a
+birationally tactile factorization.
+     (iv) There exists a co-angular pre-step ψ : C → A such that φ ◦ ψ is base-
+tactile (respectively, birationally tactile) if and only if φ◦ψ is base-pre-tactile
+(respectively, birationally pre-tactile).
+
+Proof. First, we consider assertion (i). Since every connected component of an
+object in the essential image of the global contact functor labeled ι is isotropic
+[cf. Deﬁnition 5.3, (i), (d)], it follows that φbirat factors through any isotropic
+hull of Abirat ; thus, we may assume without loss of generality that A, Abirat [cf.
+[Mzk5], Proposition 4.4, (iv)] are isotropic. Also, by factoring φ through a morphism
+of Frobenius type with domain A [cf. [Mzk5], Deﬁnition 1.3, (ii), (iv)], we may
+assume without loss of generality that φ is linear. Since the isomorphism class of
+an isotropic [hence Frobenius-trivial — cf. [Mzk5], Proposition 1.10, (vi)] object of
+C birat
+  ι     is determined by the isomorphism class of its projection to Dι [cf. [Mzk5],
+Theorem 5.1, (iii)], and D is of totally tactile type, it follows that there exists an
+object D ∈ Ob(Cιistr ) such that the morphism ηι (A)birat → ζι (B)birat determined
+by φ admits a factorization
+                                   α               δ
+                       ηι (A)birat −→ ηι (D)birat −→ ζι (B)birat
+
+[where δ determines a tactile morphism of C birat ; we use the superscript “birat” to
+denote the images of objects or arrows of Frobenioids or poly-Frobenioids in their
+

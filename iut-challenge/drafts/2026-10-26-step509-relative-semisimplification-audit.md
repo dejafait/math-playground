@@ -1,0 +1,15 @@
+# Step509 — relative semisimplification audit (completed)
+
+Invocation-start assessment: `drafts/literature/2026-10-26-relative-semisimplification-bounded-hull-audit.md` (EXPLORE). Actual task: conceptual proof audit, RESEARCH / REPRODUCTION. No new source discovery or new mechanism is being approved in this attempt.
+
+The main gap is native input-volume membership A<=B in IUT III Corollary 3.12(xi-f). The intermediate test is whether Remark 3.9.5(vii)(Ob9)'s use of Remark 3.9.4 needs to transport the category marked to a fixed output determinant, or instead takes numerical invariants after a separate comparison. This could identify the actual prerequisite to retaining a bounded output family. Abandon an objection that requires an unused pointwise-image or marked-category operation; isolate any necessary unresolved premise without calling it a counterexample.
+
+Retain the actual log-link, full finite field-factor packet and normalizations, finite hull H, weighted determinant D, local linear Aut(D)-orbit markings, unit/Galois actions and any local-global compatibility. Foundations/02–03 and the September 26 realification assessment are cited inputs. ATTEMPTS/003–006 and 031–032 prohibit the already failed ordinary-model substitutes. L003–L006 are contrasts, not native inputs. The supplied overview and DAG have been read; pre-existing notebook changes are preserved.
+
+The completed typed calculation and source-use audit are canonical in [L123](../lemmas/L123-fixed-cutoff-numerical-log-link-audit.md). The numerical cutoff is preserved. Rss(H) itself is the full integration line because functions on H can be scaled; it is not the bounded family. Neither fact constructs a marking. The source places the structural stages before the numerical operation, so requiring the latter to supply a marked-category functor tests an unused stronger premise. Abandon that objection; the actual prior structured comparison remains unaudited.
+
+Outcome: NEGATIVE / RESEARCH / REPRODUCTION. This is an informative narrowing of the proposed objection, with no progress beyond the imported formalism, no numerical improvement, and no IUT flaw. The mathematical exploration count spent on this attempt is zero: it produced a route-changing negative result, not an EXPLORATION classification. No exhausted historical route is reopened.
+
+Source inspection was confined to the previously covered IUT III passages: Remark 3.9.4(i), (iii)–(v), Remark 3.9.5(Ob3), (Ob5)–(Ob9), (cQ3)–(cQ4)/(iQ5), and Corollary 3.12(xi-d)–(xi-f). Primary links and precise pages are in L123. The returned adjacent passage Remark 3.9.5(x), pp.144–145, exposes a different, concrete norm-extension assertion; no theorem about that assertion is derived or approved here. Its hypotheses need separate source comparison before any test. The March 2024 exposition was not retried.
+
+Unresolved outside this audit: full initial data, directed (*), actual native pilot and all-image identification, global localization, formal quotient, essentiality and finite B>=A. Mathlib not checked. No complete candidate.

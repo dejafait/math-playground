@@ -1,0 +1,184 @@
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY III                           35
+
+Proof. The various assertions of Proposition 1.2 follow immediately from the
+deﬁnitions and the references quoted in the statements of these assertions. 
+
+Remark 1.2.1.
+     (i) Suppose that we are in the situation of Deﬁnition 1.1, (ii). Then at the
+level of metrics — i.e., which give rise to angular log-volumes as in Proposition
+                                       μN
+1.2, (iii) — we suppose that Ψgp† F /Ψ† F
+                                   v      v
+                                            is equipped with the metric obtained by
+descending the metric of Ψgp
+                          † F , but we regard the object
+                             v
+
+
+           μN               μN
+    Ψgp
+     † F /Ψ† F
+        v      v
+                 [or Ψ×
+                      † F /Ψ† F ] as being equipped with a “weight N ”
+                         v     v
+
+
+                                                                      μN
+— i.e., which has the eﬀect of ensuring that the log-volume of Ψ×
+                                                                † F /Ψ† F is equal
+                                                                   v     v
+
+to that of Ψ×
+            † F . That is to say, this convention concerning “weights” ensures that
+               v
+                    μN
+working with Ψgp
+              † F /Ψ† F
+                 v      v
+                          does not have any eﬀect on various computations of log-
+volume.
+     (ii) Although, at ﬁrst glance, the compatibility with archimedean log-volumes
+discussed in Proposition 1.2, (iii), appears to relate “diﬀerent objects” — i.e., angu-
+lar versus radial log-volumes — in the domain and codomain of the log-link under
+consideration, in fact, this compatibility property may be regarded as an invari-
+ance property — i.e., that relates “similar objects” in the domain and codomain
+of the log-link under consideration — by reasoning as follows. Let k be a complex
+archimedean ﬁeld. Write Ok× ⊆ k for the group of elements of absolute value = 1
+and k × ⊆ k for the group of nonzero elements. In the following, we shall use the
+term “metric on k” to refer to a Riemannian metric on the real analytic manifold
+determined by k that is compatible with the two natural almost complex structures
+on this real analytic manifold and, moreover, is invariant with respect to arbitrary
+additive translation automorphisms of k. In passing, we note that any metric on
+k is also invariant with respect to multiplication by elements ∈ Ok× . Next, let us
+observe that the metrics on k naturally form a torsor over R>0 . In particular, if
+we write k × ∼= Ok× × R>0 for the natural direct product decomposition, then one
+veriﬁes immediately that
+
+    any metric on k is uniquely determined either by its restriction to
+    Ok× ⊆ k or by its restriction to R>0 ⊆ k.
+
+Thus, if one regards the compatibility property concerning angular and radial log-
+volumes discussed in Proposition 1.2, (iii), as a property concerning the respective
+restrictions of the corresponding uniquely determined metrics [i.e., the metrics
+corresponding to the respective standard norms on the complex archimedean ﬁelds
+under consideration — cf. [AbsTopIII], Proposition 5.7, (ii), (a)], then this compat-
+ibility property discussed in Proposition 1.2, (iii), may be regarded as a property
+that asserts the invariance of the respective natural metrics with respect to the
+“transformation” constituted by the log-link.
+
+Remark 1.2.2. Before proceeding, we pause to consider the signiﬁcance of the
+various properties discussed in Proposition 1.2, (v). For simplicity, we suppose
+36                              SHINICHI MOCHIZUKI
+
+that “† F” is the F-prime-strip that arises from the data constructed in [IUTchI],
+Examples 3.2, (iii); 3.3, (i); 3.4, (i) [cf. [IUTchI], Deﬁnition 5.2, (i)].
+
+     (i) Suppose that v ∈ Vnon . Thus, Kv [cf. the notation of [IUTchI], Deﬁnition
+                                                                                 def
+3.1, (e)] is a mixed-characteristic nonarchimedean local ﬁeld. Write k = Kv ,
+Ok ⊆ k for the ring of integers of k, Ok× ⊆ Ok for the group of units, and logk :
+Ok× → k for the pv -adic logarithm. Then, at a more concrete level — i.e., relative
+to the notation of the present discussion — the log-shell “I† Fv ” corresponds to
+the submodule
+                           Ik = (p∗v )−1 · logk (Ok× ) ⊆ k
+                              def
+
+
+— where p∗v = pv if pv is odd, p∗v = p2v if pv is even — while the properties (bnon ),
+(cnon ) of Proposition 1.2, (v), correspond, respectively, to the evident inclusions
+
+                   Ok = Ok \ {0} ⊆ Ok ⊆ Ik ;         logk (Ok× ) ⊆ Ik
+                       def
+
+
+
+of subsets of k.
+
+     (ii) Suppose that v ∈ Varc . Thus, Kv [cf. the notation of [IUTchI], Deﬁnition
+                                                         def
+3.1, (e)] is a complex archimedean ﬁeld. Write k = Kv , Ok ⊆ k for the subset
+of elements of absolute value ≤ 1, Ok× ⊆ Ok for the group of elements of absolute
+value = 1, and expk : k → k × for the exponential map. Then, at a more concrete
+level — i.e., relative to the notation of the present discussion — the log-shell
+“I† Fv ” corresponds to the subset
+
+                                def
+                             Ik = {a ∈ k | |a| ≤ π} ⊆ k
+
+of elements of absolute value ≤ π, while the properties (barc ), (carc ) of Proposition
+1.2, (v), correspond, respectively, to the evident inclusions
+
+                   Ok = Ok \ {0} ⊆ Ok ⊆ Ik ;         Ok× ⊆ expk (Ik )
+                      def
+
+
+
+— where we note the slightly diﬀerent roles played, in the archimedean [cf. the
+present (ii)] and nonarchimedean [cf. (i)] cases, by the exponential and logarithmic
+functions, respectively [cf. [AbsTopIII], Remark 4.5.2].
+
+      (iii) The diagram represented by the oriented graph Γ of Proposition 1.2, (x), is,
+of course, far from commutative [cf. Proposition 1.2, (iv)]! Ultimately, however,
+[cf. the discussion of Remark 1.4.1, (ii), below] we shall be interested in
+
+ (a) constructing invariants with respect to the Z-action on Γ — i.e., in eﬀect,
+    constructing objects via functorial algorithms in the coric D-prime-strips
+    “n D” —
+
+while, at the same time,
+
+ (b) relating the corically constructed objects of (a) to the non-coric “n F” via
+    the various Kummer isomorphisms of Proposition 1.2, (iv).
+                  INTER-UNIVERSAL TEICHMÜLLER THEORY III                            37
+
+That is to say, from the point of view of (a), (b), the content of the inclusions
+discussed in (i) and (ii) above may be interpreted, at v ∈ Vnon , as follows:
+
+    the coric holomorphic log-shells of Proposition 1.2, (ix), contain not
+    only the images, via the Kummer isomorphisms [i.e., the vertical/diagonal
+    arrows of Γ], of the various “O ” at v ∈ Vnon , but also the images, via
+    the composite of the Kummer isomorphisms with the various iterates
+    [cf. Remark 1.1.1] of the log-link [i.e., the horizontal arrows of Γ], of the
+    portions of the various “O ” at v ∈ Vnon on which these iterates are
+    deﬁned.
+
+An analogous statement in the case of v ∈ Varc may be formulated by adjusting the
+wording appropriately so as to accommodate the latter portion of this statement,
+which corresponds to a certain surjectivity — we leave the routine details to the
+reader. Thus, although the diagram [corresponding to] Γ fails to be commutative,
+
+    the coric holomorphic log-shells involved exhibit a sort of “upper semi-
+    commutativity” with respect to containing/surjecting onto the various
+    images arising from composites of arrows in Γ.
+
+
+     (iv) Note that although the diagram Γ admits a natural “upper semi-commu-
+tativity” interpretation as discussed in (iii) above, it fails to admit a corresponding
+“lower semi-commutativity” interpretation. Indeed, such a “lower semi-commu-
+tativity” interpretation would amount to the existence of some sort of collection
+of portions of the various “O ’s” involved [cf. the discussion of (i), (ii) above]
+— i.e., a sort of “core” — that are mapped to one another isomorphically by
+the various maps “logk ”/“expk ” [cf. the discussion of (i), (ii) above] in a fashion
+that is compatible with the various Kummer isomorphisms that appear in
+the diagram Γ. On the other hand, it is diﬃcult to see how to construct such a
+collection of portions of the various “O ’s” involved.
+
+      (v) Proposition 1.2, (iii), may be interpreted in the spirit of the discussion of
+(iii) above. That is to say, although the diagram corresponding to Γ fails to be
+commutative, it is nevertheless “commutative with respect to log-volumes”, in
+the sense discussed in Proposition 1.2, (iii). This “commutativity with respect to
+log-volumes” allows one to work with log-volumes in a fashion that is consistent
+with all composites of the various arrows of Γ. Log-volumes will play an important
+role in the theory of §3, below, as a sort of mono-analytic version of the notion of
+the degree of a global arithmetic line bundle [cf. the theory of [AbsTopIII], §5].
+
+     (vi) As discussed in [AbsTopIII], §I3, the log-links of Γ may be thought of
+as a sort of “juggling of , ” [i.e., of the two combinatorial dimensions of
+the ring structure constituted by addition and multiplication]. The “arithmetic
+holomorphic structure” constituted by the coric D-prime-strips is immune to
+this juggling, and hence may be thought as representing a sort of quotient of the
+horizontal arrow portion of Γ by the action of Z [cf. (iii), (a)] — i.e., at the level
+of abstract oriented graphs, as a sort of “oriented copy of S1 ”. That is to say,
+the horizontal arrow portion of Γ may be thought of as a sort of “unraveling” of
+
