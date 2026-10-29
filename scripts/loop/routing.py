@@ -9,9 +9,45 @@ from research import field
 MODELS = {'routine': 'gpt-6-luna', 'standard': 'gpt-6.1-sol', 'deep_research': 'gpt-6-astra'}
 DEFAULTS = {'metadata': ('routine', 'low'), 'source_extraction': ('routine', 'medium'),
             'literature_comparison': ('standard', 'medium'), 'calculation': ('standard', 'high'),
-            'implementation': ('standard', 'high'), 'proof_attempt': ('deep_research', 'high'),
-            'proof_audit': ('deep_research', 'high')}
+            'implementation': ('standard', 'high'), 'proof_attempt': ('deep_research', 'xhigh'),
+            'proof_audit': ('standard', 'high')}
 EFFORTS = ('low', 'medium', 'high', 'xhigh', 'max')
+REASONING_CLASSES = {'creative', 'development', 'routine_audit', 'conceptual_audit', 'candidate_audit'}
+CLASS_ROUTES = {'creative': ('deep_research', 'max'), 'development': ('deep_research', 'xhigh'),
+                'routine_audit': ('standard', 'high'), 'conceptual_audit': ('deep_research', 'xhigh'),
+                'candidate_audit': ('deep_research', 'max')}
+
+
+def reasoning_class(task, recommendation):
+    """Explicit mathematical purpose, bound to the saved target; no keyword guessing."""
+    value = recommendation.get('reasoning_class')
+    allowed = ({'creative', 'development'} if task == 'proof_attempt' else
+               {'routine_audit', 'conceptual_audit', 'candidate_audit'} if task == 'proof_audit' else set())
+    if value in allowed:
+        # Maximum effort requires a specific obstruction or load-bearing claim,
+        # but not an earlier failure. Incomplete metadata never rejects research.
+        if value in {'creative', 'candidate_audit'} and not recommendation.get('escalation'):
+            return 'development' if task == 'proof_attempt' else 'conceptual_audit'
+        return value
+    return 'development' if task == 'proof_attempt' else 'routine_audit' if task == 'proof_audit' else None
+
+
+def planning_instruction(local):
+    """Keep discovery from being indefinitely displaced; never override a source gate."""
+    history = [r for r in local.get('routing_history', []) if r.get('validation') == 'accepted']
+    since = []
+    for row in reversed(history):
+        if row.get('reasoning_class') == 'creative' and row.get('outcome') == 'success':
+            break
+        since.append(row)
+    if len(since) < 4:
+        return ''
+    return ('\nDiscovery planning: at least four accepted turns have passed without a protected creative attempt. '
+            'When choosing the next target, prioritize a bounded new mechanism for a central mathematical gap '
+            'and nominate proof_attempt/creative with NEXT_ESCALATION naming the obstruction and why it matters. '
+            'Prepare missing source coverage first; do not skip an essential audit, invent a target just to fill '
+            'a quota, repeat an exhausted mechanism, or label routine specialization creative. If no justified '
+            'creative target is available, state the blocker in the existing route decision.\n')
 
 
 def profile_home():
@@ -48,19 +84,14 @@ def select(progress, local, ready, catalog=None):
     if not ready and task not in ('metadata', 'source_extraction', 'literature_comparison'):
         role, effort = 'standard', 'medium'
         reason += ' Source gate requires comparison first.'
-    history = local.get('routing_history', [])[-9:]
-    if effort == 'max' and (not valid or not recommendation.get('escalation')
-                            or local.get('last_outcome') != 'success'
-                            or local.get('research_outcome') not in ('EXPLORATION', 'NEGATIVE')
-                            or local.get('last_route', {}).get('target') != target
-                            or local.get('last_route', {}).get('model') != MODELS['deep_research']
-                            or local.get('last_route', {}).get('effort') not in ('high', 'xhigh')
-                            or sum(r.get('effort') == 'max' for r in history) >= 2):
+    purpose = reasoning_class(task, recommendation if valid else {})
+    gated = not ready and task not in ('metadata', 'source_extraction', 'literature_comparison')
+    if purpose and not gated:
+        role, effort = CLASS_ROUTES[purpose]
+        reason += ' Mathematical purpose: ' + purpose + '; protected task-based allocation.'
+    elif effort == 'max':
         effort = 'high'
-        reason += ' Max requires a specific obstruction after a successful high-depth attempt; limited to two in ten.'
-    if role == 'deep_research' and sum(r.get('model') == MODELS[role] for r in history) >= 4:
-        role, effort = 'standard', min(effort, 'high', key=EFFORTS.index)
-        reason += ' Deep-model share limited to four in ten attempted turns.'
+        reason += ' Maximum effort is reserved for justified creative work and candidate audits.'
     catalog = available() if catalog is None else catalog
     model = MODELS[role]
     if catalog and model not in catalog:
@@ -74,7 +105,8 @@ def select(progress, local, ready, catalog=None):
             raise RuntimeError('No supported effort within the routing budget for ' + model)
         effort = options[-1]
         reason += ' Effort adjusted to advertised support.'
-    return dict(target=target, task_type=task, model=model, effort=effort, reason=reason,
+    return dict(target=target, task_type=task, reasoning_class=purpose if not gated else None,
+                model=model, effort=effort, reason=reason,
                 availability='cached' if catalog else 'unverified')
 
 
@@ -85,7 +117,8 @@ def recommendation(progress):
     if task not in DEFAULTS or role not in MODELS or effort not in EFFORTS or not reason:
         return None
     return dict(target=field(progress, 'Next action'), task_type=task, role=role,
-                effort=effort, reason=reason, escalation=field(progress, 'NEXT_ESCALATION'))
+                effort=effort, reason=reason, escalation=field(progress, 'NEXT_ESCALATION'),
+                reasoning_class=field(progress, 'NEXT_REASONING_CLASS'))
 
 
 INSTRUCTION = '''\nRecord ACTUAL_TASK_TYPE using one task-type value below for the work just completed; this is a self-report.
@@ -93,12 +126,22 @@ Recommend settings for the exact Next action using single-line checkpoint fields
 NEXT_TASK_TYPE: metadata|source_extraction|literature_comparison|calculation|implementation|proof_attempt|proof_audit
 NEXT_MODEL_ROLE: routine|standard|deep_research
 NEXT_EFFORT: low|medium|high|xhigh|max
+NEXT_REASONING_CLASS: creative|development|routine_audit|conceptual_audit|candidate_audit (proof tasks only)
 NEXT_ROUTING_REASON: concrete task difficulty and expected benefit
-NEXT_ESCALATION: optional specific unresolved obstruction after a serious high-effort attempt
+NEXT_ESCALATION: required for creative/candidate_audit; precise obstruction or critical claim and its main-goal importance
 Use routine for mechanical extraction/repairs, standard for theorem comparison and ordinary calculations,
-deep_research for new mechanisms, difficult proofs and critical audits. Downgrade after the hard step.
-Max requires a precise obstruction and one bounded test; failure alone is insufficient. No lemma quota.
-The supervisor validates recommendations and enforces expensive-turn limits; do not edit runtime state.
+proof_attempt/creative for genuinely new mechanisms at central gaps (Astra/max immediately),
+proof_attempt/development for difficult development of an established route (Astra/xhigh),
+proof_audit/routine_audit for replay, arithmetic and ordinary hypothesis checks (Sol/high),
+proof_audit/conceptual_audit for delicate logical/analytic arguments (Astra/xhigh), and
+proof_audit/candidate_audit for independent scrutiny of a possible complete solution (Astra/max).
+These purpose routes override older role/effort recommendations; no rolling Astra/max share cap applies.
+Distinguish reproduction/specialization from creative work. Never reduce conceptual audit rigor to save tokens.
+For creative work name one bounded test and the decisive evidence; preserve partial reasoning and require
+a materially new input, informative obstruction or refined mechanism before repeating an unsuccessful attempt.
+Use existing STEP_EVIDENCE/route decision for conclusions; no extra report or lemma quota. Choose discovery
+regularly when justified, instead of chains of routine audits/approvals. Source gates and exploration stops
+still apply. Ultra/delegation is not enabled. Do not edit runtime state.
 '''
 
 

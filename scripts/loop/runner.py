@@ -23,7 +23,8 @@ from context import shared as shared_context, notebook_context
 from research import assess, resume, recover, field, balance_instruction
 from literature import prepare, instruction, validate_turn, continuation_requires_review, READY
 from codex import check, command
-from routing import select as select_route, recommendation, telemetry, INSTRUCTION as ROUTING_INSTRUCTION
+from routing import select as select_route, recommendation, telemetry, planning_instruction, INSTRUCTION as ROUTING_INSTRUCTION
+from reloader import Reloader
 from portfolio import registry, migrate, choose
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -244,6 +245,7 @@ def show_status(rows, state, only=None):
 
 
 def main():
+    reloader = Reloader(Path(__file__).resolve().parent)
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--status', action='store_true', help='Show every problem’s scheduling state and reason; no model call or state changes.')
     parser.add_argument('--recover-research', action='store_true', help='Queue recovery for saved stops and exit without calling the model.')
@@ -304,6 +306,7 @@ def main():
             show_status(rows, state, args.problem)
             return 0
         while not STOP:
+            reloader.check(announce)
             problem, next_problem = choose(rows, state, proved, args.problem)
             if problem is None:
                 validate()
@@ -319,6 +322,7 @@ def main():
                 wait_until(retry_at)
             if STOP:
                 break
+            reloader.check(announce)
             with lock(ROOT / 'scripts/loop/workspace.lock', wait=True) as acquired:
                 if not acquired or STOP:
                     break
@@ -366,7 +370,8 @@ def main():
                           'All notebook paths are relative to this working directory. '
                           f'Use --problem {problem} with the shared documentation checker.\n\n'
                           + notebook_context(notebook, before_progress, literature_context['reference'])
-                          + instruction(literature_context) + balance_instruction(local, literature_context['decision'] in READY))
+                          + instruction(literature_context) + balance_instruction(local, literature_context['decision'] in READY)
+                          + planning_instruction(local))
                 if recovery:
                     prompt += ('\nSupervisor recovery turn: ' + recovery
                                + '. Repair the reported process issue or reassess the exhausted approach. '

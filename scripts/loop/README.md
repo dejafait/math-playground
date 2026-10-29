@@ -44,9 +44,27 @@ Use `python3 -B -m unittest discover -s scripts/loop -p 'test_*.py' -q` for an o
 
 ## Adaptive routing
 
-Each accepted turn recommends the next invocation through optional NEXT_TASK_TYPE, NEXT_MODEL_ROLE, NEXT_EFFORT, NEXT_ROUTING_REASON and NEXT_ESCALATION checkpoint fields. `routing.py` binds recommendations to the next target, validates enumerations, enforces escalation and expensive-turn limits, and checks the active CODEX_HOME model cache. Defaults: Sol/high for ready calculations; Sol/medium for source comparison. Roles explicitly map to Luna, Sol 6.1 and Astra. Max needs a specific obstruction after an Astra/high or xhigh attempt; at most two max and four Astra invocations in a rolling ten attempts per notebook. No extra model call is spent on routing. Rejected or stale recommendations use defaults.
+Each accepted turn recommends its exact next target using NEXT_TASK_TYPE, NEXT_MODEL_ROLE, NEXT_EFFORT, NEXT_ROUTING_REASON, optional NEXT_REASONING_CLASS and NEXT_ESCALATION. No extra inference is spent on routing. Stale recommendations fall back; source gates still take precedence.
 
-`codex.py` passes both settings explicitly. Status displays the last requested settings. Per-notebook `routing.jsonl` records requested/actual model and effort, target, selection reason, elapsed seconds, invocation outcome and CLI-reported token usage. Actual settings are read from the active profile's session database using the CLI thread ID; missing evidence remains null. `telemetry.json` is the latest invocation observation. Subscription allowance remains marked unavailable; token usage is not converted to credit cost. Logs enable manual comparison of reviewed correctness and useful progress across settings; automatic quality learning or paid comparison runs are not enabled. Restart the supervisor to load routing changes.
+| Mathematical purpose | Model / effort |
+| --- | --- |
+| proof_attempt / creative | Astra / max |
+| proof_attempt / development (default for legacy proof attempts) | Astra / xhigh |
+| proof_audit / routine_audit (default for legacy audits) | Sol / high |
+| proof_audit / conceptual_audit | Astra / xhigh |
+| proof_audit / candidate_audit | Astra / max |
+
+Creative/candidate audits require a concrete NEXT_ESCALATION identifying the central obstruction or critical claim and bounded test, without requiring a previous failed invocation. Missing justification falls back to development/conceptual audit. Older role/effort nominations cannot downgrade protected purpose routes. The old four-in-ten Astra and two-in-ten max caps are removed. Routine extraction, source comparison and calculation retain economical defaults. Ultra/automatic delegation is not enabled. After four accepted turns without creative work, a planning reminder prioritizes a justified creative continuation, without replacing the saved target or bypassing source/audit requirements. This is scheduling guidance, not a guarantee that every four turns contain a novel proof attempt.
+
+`codex.py` passes model and effort explicitly; availability fallbacks use the active CODEX_HOME cache and are logged. Per-notebook `routing.jsonl` records reasoning class, requested/actual settings, target, outcome and CLI token usage. Missing actual-session evidence stays null. Compare independent review outcomes and informative failures; self-reported progress and tokens are not exact subscription-credit value.
+
+## Automatic updates between turns
+
+A running supervisor checks runtime Python files before starting another turn and re-executes itself when they change. It syntax-checks the update first; invalid syntax retains the loaded code with a warning. Reloads occur outside model invocations, retain command-line arguments and inherited CODEX_HOME, and resume saved checkpoints, cursor and quota cooldowns. The normal exclusive process lock is reacquired. Tests, logs and reports do not trigger reloads. Runtime import/semantic errors still require repair; this is not a transactional deployment system.
+
+An already applied `--resume-research` option is removed from the reload arguments so automatic updates do not renew exploration budgets again.
+
+**One initial restart is required for supervisors started before this reload mechanism existed.** Thereafter Python updates load between turns; PROMPT.md and shared GOAL.md are already reread for each invocation. Do not interrupt active mathematical work just to update code: wait for a checkpoint, stop during the cooldown, and relaunch with the same command and CODEX_HOME. An already running research invocation keeps its original settings.
 
 ## Lightweight accounting
 
@@ -74,4 +92,4 @@ Accounting collector version 2 adds heuristic orientation-file read mentions to 
 
 PROOF.md and PROGRESS.md each have an 8,192 UTF-8 byte ceiling as well as their existing line limits. Full proof statements are never truncated to meet a startup budget. Historical overview catalogs are retained in tracked notebook history; canonical lemma proofs remain available for targeted reads.
 
-Startup ordering is shared policy and static routing instructions, active notebook identity, local GOAL/PROOF/DAG, then the verbatim checkpoint and optional assessment, followed by dynamic gate/balance/recovery and current settings. A changed checkpoint no longer invalidates the earlier notebook overview/DAG prefix by construction. All source gates, current checkpoint data, route decisions, quota waits and fresh sessions remain. Reusing bytes is only a prerequisite for provider cache reuse; hidden CLI context, model/settings compatibility and retention can still prevent hits. No API cache controls or paid experiment were added. Restart the supervisor to load Python changes; do not interrupt an active mathematical invocation just for this optimization.
+Startup ordering is shared policy and static routing instructions, active notebook identity, local GOAL/PROOF/DAG, then the verbatim checkpoint and optional assessment, followed by dynamic gate/balance/recovery and current settings. A changed checkpoint no longer invalidates the earlier notebook overview/DAG prefix by construction. All source gates, current checkpoint data, route decisions, quota waits and fresh sessions remain. Reusing bytes is only a prerequisite for provider cache reuse; hidden CLI context, model/settings compatibility and retention can still prevent hits. No API cache controls or paid experiment were added. Python updates now reload between turns once the supervisor has acquired the automatic-update mechanism; never interrupt active mathematics just for this optimization.
