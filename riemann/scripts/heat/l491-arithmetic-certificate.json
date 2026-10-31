@@ -1,0 +1,80 @@
+{
+  "lemma": "L491",
+  "scope": "Exact rational arithmetic only; no automated branch or continuum proof.",
+  "source_discrepancy": {
+    "source_bound": "1/97",
+    "exact_imaginary_component": "30001/2000200",
+    "positive_difference": "909897/194019400",
+    "positive_common_denominator_numerator": 909897
+  },
+  "checks": [
+    {
+      "name": "source_76_bound_below_exact_imaginary_component",
+      "actual": "1/97",
+      "required": "30001/2000200",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "half_time_bound",
+      "actual": "11/100",
+      "required": "1/8",
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "name": "Q_extra_terms_below_one",
+      "actual": "899/39600",
+      "required": "1",
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "name": "center_constant",
+      "actual": "5/2",
+      "required": "5/2",
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "name": "derivative_constant_before_denominator_coarsening",
+      "actual": "19/4",
+      "required": "19/4",
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "name": "combined_log_coefficient",
+      "actual": "5/8",
+      "required": "1",
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "name": "combined_constant",
+      "actual": "12",
+      "required": "20",
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "name": "threshold_simplification",
+      "actual": "501/100000000000",
+      "required": "501/100000000000",
+      "relation": "<=",
+      "passed": true
+    },
+    {
+      "name": "required_tolerance",
+      "actual": "501/100000000000",
+      "required": "1/100",
+      "relation": "<",
+      "passed": true
+    }
+  ],
+  "uniform_analytic_bound": "(log(X/(4*pi))+20)/X; proved in canonical L491",
+  "rational_upper_bound": "501/100000000000",
+  "required_tolerance": "1/100",
+  "failures": [],
+  "passed": true
+}

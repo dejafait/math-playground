@@ -1,0 +1,84 @@
+{
+  "target": "exactly the approved degree-eight polynomial; no parameter search",
+  "polynomial_coefficients_ascending": [
+    "1",
+    "0",
+    "-13020677/10252804",
+    "0",
+    "2820065/10252804",
+    "0",
+    "-13112/2563201",
+    "0",
+    "64/2563201"
+  ],
+  "density_coefficients": {
+    "A": "5126402/7536867",
+    "B": "-2563201/7087875",
+    "C": "31766670568/5935596798625",
+    "D": "247683050816/5935596798625"
+  },
+  "transform_identity": {
+    "common_denominator_coefficients": [
+      "2563201/64",
+      "0",
+      "-13020677/256",
+      "0",
+      "2820065/256",
+      "0",
+      "-1639/8",
+      "0",
+      "1"
+    ],
+    "summed_numerator_coefficients": [
+      "2563201/64",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "required_constant": "2563201/64",
+    "pass": true
+  },
+  "right_derivatives_at_zero": [
+    "21691949/66971775",
+    "0",
+    "-58953623/133943550",
+    "0"
+  ],
+  "curvature_coefficients": {
+    "b": "13139998732802/53420371187625",
+    "u_r": "-5756989644681283/34491752996809875",
+    "u_i": "-79800320299202816/34491752996809875",
+    "v_r": "26015847378648431/410446518624918750",
+    "v_i": "199595858502737404/205223259312459375",
+    "k": "16414739204/148389919965625"
+  },
+  "global_bounds": {
+    "density_scaled_lower": "4833914684009/17806790395875",
+    "curvature_scaled_near_lower": "1596333387589/20190294437157",
+    "near_envelope_derivative_margin": "42448515581544/56084151214325",
+    "curvature_scaled_far_lower": "286072961398359582124871/1221173616501454262400000",
+    "required_lower_bound": "0",
+    "near_interval": "0<=x<=1",
+    "far_interval": "x>=1",
+    "tail_inequalities": "e>2 implies exp(-8x)<1/256 and exp(-9x)<1/512 for x>=1",
+    "all_pass": true
+  },
+  "polynomial_jet": {
+    "P_10": "15208776/2563201",
+    "Pprime_10": "7761615/2563201",
+    "Psecond_10": "979818323/5126402",
+    "first_laguerre_10": "-7390676030193099/6569999366401",
+    "required": "strictly negative",
+    "pass": true
+  },
+  "failures": [],
+  "qualifications": [
+    "No actual-Xi claim",
+    "No PF256 certification",
+    "No novelty certification",
+    "Informal proof; not formally verified"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "scope": "Complete stored interval/aggregation audit after generator replay; elementary algorithms and analytic errors inspected in L527 audit.",
+  "certificate_sha256": "46a11f4da528024ea182450ae648bb22562ea3bbfc66b7f0db185c964d979b55",
+  "generator_sha256": "3160a5f7fd91e22ec4f94ed8aef6db154062580d56538d6bec84a5cc8730a263",
+  "interval_records_checked": 8459,
+  "bump_nodes_checked": 256,
+  "outer_nodes_checked": 2048,
+  "exact_rational_checks": 33846,
+  "coefficient_interval": {
+    "lower_numerator": "1511396475182945214093713962228826098284",
+    "upper_numerator": "2342725848138675893829464080374919436350",
+    "denominator": "10000000000000000000000000000000000000000",
+    "decimal_enclosure": [
+      "0.1511396475182945214093713962228826098284",
+      "0.2342725848138675893829464080374919436350"
+    ]
+  },
+  "required_threshold": {
+    "lower_numerator": "7853981633974483096156608458198757210391",
+    "upper_numerator": "7853981633974483096156608458198757210594",
+    "denominator": "10000000000000000000000000000000000000000",
+    "decimal_enclosure": [
+      "0.7853981633974483096156608458198757210391",
+      "0.7853981633974483096156608458198757210594"
+    ]
+  },
+  "gamma_limit_interval": {
+    "lower_numerator": "-12982851192323385571256392174555451583114",
+    "upper_numerator": "-11924369759976262773504415910713899679588",
+    "denominator": "10000000000000000000000000000000000000000",
+    "decimal_enclosure": [
+      "-1.2982851192323385571256392174555451583114",
+      "-1.1924369759976262773504415910713899679588"
+    ]
+  },
+  "failures": []
+}

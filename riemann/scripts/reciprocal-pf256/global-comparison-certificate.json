@@ -1,0 +1,65 @@
+{
+  "scope": "L562 exact scalar thresholds only; analytic proof unaudited",
+  "fixed_parameters": {
+    "A": 1048576,
+    "b": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "m": 270,
+    "r": 256
+  },
+  "bounds": {
+    "epsilon": {
+      "numerator": 1,
+      "denominator": 4194300
+    },
+    "series_ratio": {
+      "numerator": 128,
+      "denominator": 1048575
+    },
+    "bernoulli_loss": {
+      "numerator": 32768,
+      "denominator": 1048575
+    },
+    "bernoulli_loss_required_upper_strict": {
+      "numerator": 1,
+      "denominator": 2
+    },
+    "relative_error_upper": {
+      "numerator": 32768,
+      "denominator": 1015807
+    },
+    "relative_error_required_upper_strict": {
+      "numerator": 1,
+      "denominator": 1
+    },
+    "determinant_comparison_lower": {
+      "numerator": 983039,
+      "denominator": 1015807
+    },
+    "determinant_comparison_required_lower_strict": {
+      "numerator": 0,
+      "denominator": 1
+    }
+  },
+  "checks": {
+    "partition_length_within_real_alphabet": true,
+    "geometric_series_converges": true,
+    "bernoulli_loss_below_half": true,
+    "beta_exact": true,
+    "relative_error_below_0033": true,
+    "theta_exact_and_positive": true,
+    "nonnegative_factorial_row_indices": true,
+    "causal_derivatives_below_edge_regularity": true,
+    "bilateral_regularity_suffices": true
+  },
+  "failures": [],
+  "unverified_by_script": [
+    "Schur identities and all-partition dimension-ratio proof",
+    "infinite Cauchy--Binet convergence and signs",
+    "causal-factor transform and zero-extension regularity",
+    "ordered Wronskian transfer and Andreief integral",
+    "retained L561 density and negative-sign inputs"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "source_labels": [
+    "lem:balanced-endpoint",
+    "eq:balanced-endpoint-certificate",
+    "prop:parameter-order"
+  ],
+  "scope": "Exact polynomial identity and listed rational values only; positivity domains and quantifiers require the written proof.",
+  "domain": {
+    "y": "[0,1/2]",
+    "delta": "[0,5/6]",
+    "J_bounds": "[35/54,5/2]"
+  },
+  "identity": {
+    "lhs": [
+      {
+        "y_degree": 0,
+        "delta_degree": 0,
+        "coefficient": "18870"
+      },
+      {
+        "y_degree": 0,
+        "delta_degree": 1,
+        "coefficient": "-96696"
+      },
+      {
+        "y_degree": 0,
+        "delta_degree": 2,
+        "coefficient": "124848"
+      },
+      {
+        "y_degree": 1,
+        "delta_degree": 0,
+        "coefficient": "32510"
+      },
+      {
+        "y_degree": 1,
+        "delta_degree": 1,
+        "coefficient": "-231552"
+      },
+      {
+        "y_degree": 1,
+        "delta_degree": 2,
+        "coefficient": "421056"
+      },
+      {
+        "y_degree": 2,
+        "delta_degree": 0,
+        "coefficient": "13940"
+      },
+      {
+        "y_degree": 2,
+        "delta_degree": 1,
+        "coefficient": "-134264"
+      },
+      {
+        "y_degree": 2,
+        "delta_degree": 2,
+        "coefficient": "487920"
+      },
+      {
+        "y_degree": 3,
+        "delta_degree": 1,
+        "coefficient": "-8528"
+      },
+      {
+        "y_degree": 3,
+        "delta_degree": 2,
+        "coefficient": "263328"
+      },
+      {
+        "y_degree": 4,
+        "delta_degree": 2,
+        "coefficient": "62976"
+      }
+    ],
+    "rhs": [
+      {
+        "y_degree": 0,
+        "delta_degree": 0,
+        "coefficient": "18870"
+      },
+      {
+        "y_degree": 0,
+        "delta_degree": 1,
+        "coefficient": "-96696"
+      },
+      {
+        "y_degree": 0,
+        "delta_degree": 2,
+        "coefficient": "124848"
+      },
+      {
+        "y_degree": 1,
+        "delta_degree": 0,
+        "coefficient": "32510"
+      },
+      {
+        "y_degree": 1,
+        "delta_degree": 1,
+        "coefficient": "-231552"
+      },
+      {
+        "y_degree": 1,
+        "delta_degree": 2,
+        "coefficient": "421056"
+      },
+      {
+        "y_degree": 2,
+        "delta_degree": 0,
+        "coefficient": "13940"
+      },
+      {
+        "y_degree": 2,
+        "delta_degree": 1,
+        "coefficient": "-134264"
+      },
+      {
+        "y_degree": 2,
+        "delta_degree": 2,
+        "coefficient": "487920"
+      },
+      {
+        "y_degree": 3,
+        "delta_degree": 1,
+        "coefficient": "-8528"
+      },
+      {
+        "y_degree": 3,
+        "delta_degree": 2,
+        "coefficient": "263328"
+      },
+      {
+        "y_degree": 4,
+        "delta_degree": 2,
+        "coefficient": "62976"
+      }
+    ],
+    "residual": [],
+    "passed": true
+  },
+  "rational_checks": {
+    "endpoint_lower_bound": {
+      "actual": "49/440640",
+      "required": "1/10000",
+      "relation": ">",
+      "passed": true
+    },
+    "floor_exponent": {
+      "actual": "-7/1200",
+      "required": "-7/1200",
+      "relation": "=",
+      "passed": true
+    },
+    "intermediate_exponent": {
+      "actual": "-49/14400",
+      "required": "-49/14400",
+      "relation": "=",
+      "passed": true
+    },
+    "small_row_exponent": {
+      "actual": "-63/800",
+      "required": "-63/800",
+      "relation": "=",
+      "passed": true
+    },
+    "delta_margin_coefficient": {
+      "actual": "51/64",
+      "required": "51/64",
+      "relation": "=",
+      "passed": true
+    },
+    "supply_excess_at_h": {
+      "actual": "23/1443",
+      "required": "23/1443",
+      "relation": "=",
+      "passed": true
+    },
+    "extension_supply_excess": {
+      "actual": "2/185",
+      "required": "2/185",
+      "relation": "=",
+      "passed": true
+    },
+    "extension_slope_bound": {
+      "actual": "3859/2400",
+      "required": "2",
+      "relation": "<",
+      "passed": true
+    }
+  },
+  "failures": [],
+  "passed": true
+}

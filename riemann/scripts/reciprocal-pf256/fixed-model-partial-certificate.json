@@ -1,0 +1,239 @@
+{
+  "status": "PARTIAL_MODEL_ONLY",
+  "inputs": {
+    "A": {
+      "numerator": "1048576",
+      "denominator": "1"
+    },
+    "b": {
+      "numerator": "1",
+      "denominator": "4"
+    },
+    "real_pole_multiplicity": 270
+  },
+  "first_sign": {
+    "normalized_D1": {
+      "numerator": "-170277282315511414008713060143186594067936298338644",
+      "denominator": "5321165072441475074137145028169664078494042230125"
+    },
+    "independent_quartic_jet_value": {
+      "numerator": "-170277282315511414008713060143186594067936298338644",
+      "denominator": "5321165072441475074137145028169664078494042230125"
+    },
+    "required": "normalized D1 < 0; proved stronger normalized D1 < -31",
+    "quartic_at_A": {
+      "numerator": "70368744177665",
+      "denominator": "309485009821380253096869889"
+    },
+    "quartic_prime_at_A": {
+      "numerator": "67108864",
+      "denominator": "309485009821380253096869889"
+    },
+    "quartic_second_at_A": {
+      "numerator": "2251799813685312",
+      "denominator": "309485009821380253096869889"
+    }
+  },
+  "density": {
+    "weighted_base_mass": {
+      "numerator": "1099512152064",
+      "denominator": "1099513724929"
+    },
+    "weighted_error_upper": {
+      "numerator": "36893470555235155967",
+      "denominator": "649034631440316655416115200000000"
+    },
+    "ratio_lower": {
+      "numerator": "41977733198765155386868679947546458503249921",
+      "denominator": "41977793248403718949638339179210342400000000"
+    },
+    "required": "p_*(x)/ell^{*270}(x) > 1/2 for every real x",
+    "analytic_justification": "lemmas/L561-fixed-high-rank-reciprocal-density-partial-certificate.md"
+  },
+  "determinants": {
+    "origin": "Analytic positive moment-matrix proof for 1<=k<=256; not numerical sampling.",
+    "tail": {
+      "R_leading_coefficient": {
+        "numerator": "1070882386925191187186401",
+        "denominator": "50128984576723299604517347616409121654296352525610617007740254102778076373319058815847189210925470767847994198224338159392120896149717743835326396988493460811488921413573745259387712957071861602151098129791897632221178574953457491334602060191835609893676779359178382567229611397123909895020124999459143626852332345838682707257452702598881688058120873641619222061949196535191291305627580185428689899084380881762912246147069002230127033326155550716177986532879997469565600866784144775135682974809281212707753289184671903632577326676225856304975744366963167533775201189872422354944000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "Hk_leading_formula": "exp(-k*x)*alpha^k*prod_{j=0}^{k-1}(j!*(269)_j)*x^(k*(270-k))",
+      "range": "1<=k<=256",
+      "effective_cutoff": null
+    },
+    "global_signs": "UNRESOLVED: the intervening real range has no certificate.",
+    "strict_PF256": "NOT ESTABLISHED; Sra C.6 not invoked."
+  },
+  "checks": [
+    {
+      "name": "q(A) nonzero and positive",
+      "actual": {
+        "numerator": "70368744177665",
+        "denominator": "309485009821380253096869889"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "root sum equals independent quartic jet",
+      "actual": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "relation": "=",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "root curvature upper bound",
+      "actual": {
+        "numerator": "-170277282315511414008713060143186594067936298338644",
+        "denominator": "5321165072441475074137145028169664078494042230125"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "-70368744174963",
+        "denominator": "2199023255552"
+      },
+      "passed": true
+    },
+    {
+      "name": "upper bound below -31",
+      "actual": {
+        "numerator": "-70368744174963",
+        "denominator": "2199023255552"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "-31",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "weighted error bound simplification",
+      "actual": {
+        "numerator": "36893470555235155967",
+        "denominator": "649034631440316655416115200000000"
+      },
+      "relation": "<=",
+      "required": {
+        "numerator": "1",
+        "denominator": "549755813888"
+      },
+      "passed": true
+    },
+    {
+      "name": "weighted base mass lower bound",
+      "actual": {
+        "numerator": "1099512152064",
+        "denominator": "1099513724929"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "64",
+        "denominator": "81"
+      },
+      "passed": true
+    },
+    {
+      "name": "simplified error at most 1/32",
+      "actual": {
+        "numerator": "1",
+        "denominator": "549755813888"
+      },
+      "relation": "<=",
+      "required": {
+        "numerator": "1",
+        "denominator": "32"
+      },
+      "passed": true
+    },
+    {
+      "name": "elementary density ratio exceeds 1/2",
+      "actual": {
+        "numerator": "1967",
+        "denominator": "2592"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "exact density ratio exceeds 1/2",
+      "actual": {
+        "numerator": "41977733198765155386868679947546458503249921",
+        "denominator": "41977793248403718949638339179210342400000000"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "1",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "Q(1) positive",
+      "actual": {
+        "numerator": "309485009820817303143448865",
+        "denominator": "309485009821380253096869889"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "positive slow-pole leading coefficient",
+      "actual": {
+        "numerator": "1070882386925191187186401",
+        "denominator": "50128984576723299604517347616409121654296352525610617007740254102778076373319058815847189210925470767847994198224338159392120896149717743835326396988493460811488921413573745259387712957071861602151098129791897632221178574953457491334602060191835609893676779359178382567229611397123909895020124999459143626852332345838682707257452702598881688058120873641619222061949196535191291305627580185428689899084380881762912246147069002230127033326155550716177986532879997469565600866784144775135682974809281212707753289184671903632577326676225856304975744366963167533775201189872422354944000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "Fourier regularity includes required order",
+      "actual": {
+        "numerator": "542",
+        "denominator": "1"
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": "510",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "smallest factor in (269)_255",
+      "actual": {
+        "numerator": "15",
+        "denominator": "1"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    }
+  ],
+  "failures": []
+}

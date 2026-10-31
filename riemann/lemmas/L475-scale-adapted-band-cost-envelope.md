@@ -38,7 +38,8 @@ with one simple selected pair the residual-factor compensation is
 exactly absent. No additional actual-Xi compensation is proved.
 The calculation is a specialization of known tools, with no claim
 of progress beyond the inspected literature or a resolution of RH.
-It has not received a separate critical audit.
+The separate critical application audit in Section 6 verifies this
+statement without changing its bound or extending the obstruction.
 
 ## Proof
 
@@ -217,6 +218,124 @@ a smaller selected norm would insert the missing estimate.
 Fixed-u annuli, d_j>1/16 and full B(T)=o(TL^3) remain open.
 Even that mass estimate would not give individual signs, all
 higher signs or global mixed positivity.
+
+### 6. Separate critical application audit, 29 October 2026
+
+This is the first separate audit of Sections 1--5, under the unchanged
+SPECIALIZE assessment
+`drafts/literature/2026-10-29-l475-first-critical-audit-coverage.md`.
+The primary results in Section 1 are reused in their inspected scope;
+this is not an independent proof of those source theorems. No repair
+to (1)--(7), new bound, or actual-Xi lower mass estimate is obtained.
+
+**Finite sets, domains and uniform onset.** The entire nonzero Xi has
+only finitely many zeros in each compact rectangle. P_T is finite
+because 0<d_j<1/2 and its selected ordinates lie in [T-1/2,2T+1/2].
+For this band d_j<=2h, giving the sharper center bounds in Section 1.
+The outer real padding is (19/2)h<19/32, independent of T,u; its
+containment in [T/2,3T] therefore needs only a fixed onset. The full
+closed real-part interval [1/16,15/16] is compactly inside Re s>0.
+Gamma arguments have real parts in [1/32,15/32], imaginary parts
+x/2 comparable to T, and lie in a fixed closed sector avoiding the
+negative axis. The polynomial completion factors are nonzero at
+these heights. Choose T_0 once to cover these domains and the uniform
+gamma/chi remainders, and enlarge it so log T_0>16. No step requires
+an onset depending on u, h^(-1), multiplicity or the zero set.
+
+**Finite division and multiplicities.** Half-open cells assign a
+boundary center to exactly one cell. In disk coordinates,
+|a|<=sqrt(17)/12<25/72 and |w|<=5/12. Thus
+1-|a||w|>=739/864 and |w-a|<=55/72, giving
+|b_a(w)|<=660/739<9/10. Selected roots are strictly interior;
+finite Blaschke division applies to f, holomorphic beyond the closed
+unit disk and bounded there. Its quotient is holomorphic after
+removing the selected zeros, and has boundary modulus at most S,
+so the finite supremum statement applies also with repeated roots.
+Unselected zeros, even boundary zeros, create no division issue.
+
+In (4), q_j=R^2(w-a_+)(w-a_-); the two denominator factors
+1-conj(a_+)w and 1-conj(a_-)w remain after cancelling precisely
+one numerator copy at each root. There are exactly 2M-2 residual
+Blaschke factors, even when m_j>1. Squaring therefore gives
+R^(-4)rho^(4M-4), not R^(-2) or a multiplicity-free quotient.
+After d_j^3 and the dv integral the scale is h^(-1), with the full
+sum of multiplicities M. The bound
+M(rho^4)^(M-1)<=(1-rho^4)^(-2) is uniform for every integer M>=1.
+Empty cells are omitted and singleton clipped windows have integral
+zero. Extending J_j to [-1,1] uses only nonnegativity.
+
+**Horizontal versus vertical normalization.** Set a=log A on the real
+axis. L465's digamma formula (4), applied at 1/2+ix, gives
+
+    a'(x)=2x/(x^2+1/4)-Im g'(1/2+ix)=-pi/4+O(1/x).
+
+Here g=log(pi^(-s/2)Gamma(s/2)), and the derivative is taken before
+restricting to real x. This verifies the derivative assertion without
+differentiating a bare vertical Stirling equivalence. Integrating over
+|x-c_k|<=7h<7/16 gives both horizontal A ratios bounded by absolute
+constants. A itself is used only on the real axis.
+
+For the vertical comparison, the squared polynomial prefactor ratio
+is 1+O(x^(-2)); the pi power contributes pi^y, and the squared gamma
+ratio contributes (x/2)^(-y)(1+O(x^(-1))). These give (6), uniformly
+on the entire bounded y interval, including y=0. The relative error
+comes from sector Stirling with remainder, not solely from 5.11.9's
+leading equivalence. For y=-b<=0 the completed factor is
+(x/(2pi))^b times |zeta(1/2+b+ix)|^2. For y=b>=0, reflection and
+conjugation produce the same right-side zeta value, and multiplication
+of (x/(2pi))^(-b) by the chi square (x/(2pi))^(2b) again leaves
+(x/(2pi))^b, up to a uniform bounded relative factor. Hence both
+directions, rather than only one, obey (7).
+
+Theorem 7.2(A) is used on [1,3T] with real part 1/2+b in
+[1/2,15/16]. Replacing log(3T) by log T changes an absolute constant
+only: min(log(3T),1/b)<=C min(log T,1/b), including b=0 by the
+stated convention. Also (x/(2pi))^b<=C T^b uniformly for
+x in [T/2,3T] and 0<=b<=7/16. This validates the cumulative-interval
+enlargement and (7) without a short-interval or discrete mean theorem.
+
+**Submean, overlap and all scale powers.** A maximum on the closed
+radius-6h disk exists. The open radius-h disk about a maximizing point
+is contained in the open radius-7h disk, even if the point lies on
+the inner boundary. The area submean inequality therefore gives the
+factor 1/(pi h^2) as written. At a fixed point, eligible centers lie
+in a real interval of length 14h on an h-spaced lattice; at most 15
+can occur. The horizontal A comparison is uniform on each disk.
+No assumption on how many cells are occupied enters this bound.
+
+With v=bL, min(L,1/b)db=min(1,1/v)dv, including its continuous
+value at zero. Thus the two-sided area rectangle contributes
+2CT E(7u). The factors h^(-1) and h^(-2) give precisely
+T h^(-3)E(7u)=T L^3 K(u). Every zero sum and disk union here is finite;
+all integrands are continuous on their compact domains after the
+specified entire divisions. Tonelli for nonnegative integrands or
+finite additivity suffices; no singular zero-conditioned interchange
+or u-dependent constant has entered the calculation.
+
+**Tail quantifiers and the obstruction's scope.** For X>1,
+E'(X)=exp(X)/X and (exp(X)/X)'=exp(X)(1-1/X)/X. Both original
+functions tend to infinity, so their ratio tends to one. Consequently
+K(u)~exp(7u)/(7u^4). More explicitly, for every fixed U>=1 and every
+integer r>=0, take T with log T>16*2^r U. The dyadic term
+K(2^r U) is then admissible. These terms are unbounded as r grows;
+in particular the supremum over T of the finite admissible envelope
+tail is infinite for each U. The assertion concerns this majorant,
+not the sum of true B_u(T), and it does not exchange two actual-mass
+limits or assert that all these bands contain zeros.
+
+For the local polynomial test, |w^2+1/16|<=17/16 on |w|<=1,
+with equality at w=1; the stated supremum is exactly one. Its only
+zeros are the simple roots +/-i/4. Scaling by R=6h gives d=3h/2,
+and dL=3u/2 is in the selected band when u<=L/24. The quotient is
+exactly 16/(17R^2). For arbitrarily large u this condition can be met
+by increasing T, so the normalized local division estimate cannot
+gain a factor tending to zero with u for all such disk functions.
+This model imposes no actual-Xi global structure or zeta mean-square
+constraint. It establishes neither a lower bound for the global norm
+cost nor impossibility of a sharper actual-Xi estimate. The parked
+method and its unresolved arithmetic compensation remain exactly as
+qualified in Section 5. No repeated audit of this unchanged statement
+is warranted.
 
 ## Mathlib
 

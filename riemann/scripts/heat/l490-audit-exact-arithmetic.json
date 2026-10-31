@@ -1,0 +1,55 @@
+{
+  "scope": "Exact rational checks only; uniform analytic reductions are proved in L490. No numerical evaluation of H_t, no height sampling, no source saddle audit.",
+  "checks": [
+    {
+      "name": "exponent_margin",
+      "actual": "1262/25",
+      "relation": ">",
+      "required": "50",
+      "passed": true
+    },
+    {
+      "name": "gamma_factor",
+      "actual": "150/49",
+      "relation": "<",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "error_exponent",
+      "actual": "49/100000000",
+      "relation": "<",
+      "required": "1/1000000",
+      "passed": true
+    },
+    {
+      "name": "C_last_exponent",
+      "actual": "21/125000000000",
+      "relation": "<",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "C_Taylor_lower",
+      "actual": "3112513",
+      "relation": ">",
+      "required": "10000",
+      "passed": true
+    },
+    {
+      "name": "finite_tail_upper",
+      "actual": "13/562949953421312",
+      "relation": "<",
+      "required": "1/1000000",
+      "passed": true
+    },
+    {
+      "name": "combined_upper",
+      "actual": "153/1000000",
+      "relation": "<",
+      "required": "1/100",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

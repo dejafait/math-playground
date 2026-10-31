@@ -1,0 +1,55 @@
+{
+  "lemma": "L528",
+  "scope": "Exact rational assembly only; analytic inequalities and Fourier-series Parseval are proved in the lemma.",
+  "atan_lower": "284663/362880",
+  "atan_margin": "407/362880",
+  "cosine_upper": "1969/6144",
+  "mean_upper_strict": "147/188",
+  "threshold_lower_strict": "47/60",
+  "uniform_gap_lower_strict": "1/705",
+  "checks": [
+    {
+      "name": "atan lower sum exceeds quarter-pi comparator",
+      "actual": "284663/362880",
+      "relation": ">",
+      "required": "47/60",
+      "passed": true
+    },
+    {
+      "name": "cosine upper polynomial",
+      "actual": "1969/6144",
+      "relation": "<",
+      "required": "1/3",
+      "passed": true
+    },
+    {
+      "name": "exponential lower bound exceeds square-root requirement",
+      "actual": "8/3",
+      "relation": ">",
+      "required": "13/5",
+      "passed": true
+    },
+    {
+      "name": "cosine argument within half-pi",
+      "actual": "5/4",
+      "relation": "<",
+      "required": "47/30",
+      "passed": true
+    },
+    {
+      "name": "majorant mean bound below threshold lower bound",
+      "actual": "147/188",
+      "relation": "<",
+      "required": "47/60",
+      "passed": true
+    },
+    {
+      "name": "strict uniform gap positive",
+      "actual": "1/705",
+      "relation": ">",
+      "required": "0",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

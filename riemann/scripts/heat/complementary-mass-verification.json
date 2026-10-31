@@ -1,0 +1,148 @@
+{
+  "scope": "Complete fixed-corner majorant, known-method reproduction; not charges or RH",
+  "Q": "72057594037927936",
+  "target_threshold": "301408572679396256667379418689/1000000000000000000000000000000",
+  "actual_complement_upper": "10844166340907849/36028797018963968",
+  "strict_pass": true,
+  "margin_lower": "14176540015048665224252705167939023/33554432000000000000000000000000000000",
+  "combined_prefix_upper": "33540255459984951334775747294832060977/33554432000000000000000000000000000000",
+  "combined_coarse_upper": ".999577507",
+  "combined_margin_strict_lower": ".00042249",
+  "edge_decimal": [
+    "0.27493295503516357314",
+    "0.27493295917728508005"
+  ],
+  "tail_decimal": [
+    "0.02605311329056149427",
+    "0.02605311968624063335"
+  ],
+  "majorant_decimal": [
+    "0.30098606832572506741",
+    "0.30098607886352571339"
+  ],
+  "enclosure_width": "759328561/72057594037927936",
+  "complete_evidence": {
+    "seed_rows": 691004,
+    "edge_rows": 109869636,
+    "blocks": 110,
+    "edge_divisors": 1189963,
+    "moment_divisors": 25983188,
+    "channel_updates": 297341182,
+    "edge_depth_counts": [
+      1,
+      63,
+      1953,
+      39711,
+      324946,
+      533910,
+      255254,
+      33503,
+      622,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "qualifications": [
+    "L497 proof/code critical audit pending",
+    "Full moment enumeration not independently replayed",
+    "Producer proof/code and binary format require separate critical audit",
+    "Majorant enclosure lower endpoint is not a lower bound for C_N",
+    "Base-phase/saddle imports retain their qualifications; strict charges and uniform transport open"
+  ],
+  "evidence": [
+    {
+      "path": "complementary-mass-seeds.py",
+      "sha256": "b2fb4d1f8fd0562e0ed85c51f953d8d533e928e4440f2e547b8f8f764679ec8d"
+    },
+    {
+      "path": "complementary-mass.cpp",
+      "sha256": "8a50f2822d73e7050e7318321457119364b97d99aba86e210fce4bc3ec7404f7"
+    },
+    {
+      "path": "complementary-mass-report.py",
+      "sha256": "bc4a585b1696d637943be7984015bb291b5e405f68644d943eb031d1d1f71e33"
+    },
+    {
+      "path": "complementary-mass-seeds.json",
+      "sha256": "2237c605df2b6c277d2715701414c3de606ba63cf7d0cbd31a09cbaaf636fd5a"
+    },
+    {
+      "path": "complementary-mass-seeds.bin",
+      "sha256": "b0449ace0af54727be23a1f36eaa72ee697a92f5c5ac0b6ca8a69286c7fead72"
+    },
+    {
+      "path": "complementary-mass-config.txt",
+      "sha256": "d35835a0b689480ac7c9ad0bd83feafdbb4e8ae100a05962d0394b2e38da2aa7"
+    },
+    {
+      "path": "complementary-mass-divisors.bin",
+      "sha256": "138d4a9b2a6147e874728952cc5af4d117e07de611199c926a60ff48f8d1c380"
+    },
+    {
+      "path": "complementary-mass-blocks.tsv",
+      "sha256": "323839f7c9a6f439c19d8b56758831bcb888de5f000c8b2f3a89add27716f2ed"
+    },
+    {
+      "path": "complementary-mass-moments.json",
+      "sha256": "a69c6aa48d97e29a331eedb4b5e529d12a2ae933518f2b69683029061ff89475"
+    },
+    {
+      "path": "complementary-mass-result.json",
+      "sha256": "762ade5dafd7f8af7c230ae1936bf3d3d6cafcf84b87a9f70884af352a8092ef"
+    }
+  ],
+  "failures": []
+}

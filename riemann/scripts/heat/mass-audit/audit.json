@@ -1,0 +1,75 @@
+{
+  "complete": true,
+  "checks": 41,
+  "failures": [],
+  "task": "Independent numerical replay after mathematical code audit; fixed corner only",
+  "prefix_upper": "698591427320603743332620581311/1000000000000000000000000000000",
+  "complement_upper": "10844166340907849/36028797018963968",
+  "required_complement_strict_upper": "301408572679396256667379418689/1000000000000000000000000000000",
+  "full_upper": "33540255459984951334775747294832060977/33554432000000000000000000000000000000",
+  "required_full_strict_upper": ".999577507",
+  "reserve_lower": "14176540015048665224252705167939023/33554432000000000000000000000000000000",
+  "required_reserve_strict_lower": ".00042249",
+  "prefix_comparisons": 4146045,
+  "seed_rows": 691004,
+  "divisor_rows": 25983188,
+  "edge_rows": 109869636,
+  "channel_updates": 297341182,
+  "blocks": 110,
+  "qualifications": [
+    "No charge/transport/collision/RH conclusion",
+    "No historical binary build provenance inferred",
+    "Coefficient checksums record traversal; enclosure validity follows from audited algorithms",
+    "Source and base-phase/saddle imports are not audited"
+  ],
+  "evidence": [
+    {
+      "path": "l497-l498-audit.py",
+      "sha256": "b06a46005b05f1a5f94a0a810d36c4ae55b61677f431446786923b09b5e6941d"
+    },
+    {
+      "path": "l497-l498-replay.cpp",
+      "sha256": "04acf3c934b38a1e3d645e44a725bf6f21a146b7a3e01c22572a6686b1f4fb12"
+    },
+    {
+      "path": "mass-audit/build.json",
+      "sha256": "0dd80e2c8d3f41d30568a9f7ac2fce8c68d1c2453018812fdf708e8db4b5104f"
+    },
+    {
+      "path": "mass-audit/coefficient-blocks.tsv",
+      "sha256": "bb1610d41b7bd3d69319be215ca930983a2a0e92fc88f3c0744b008847812628"
+    },
+    {
+      "path": "mass-audit/expected-moments.txt",
+      "sha256": "7830208ac790f5cfe392f587bc1f685b39adfa9f2e3f6c18f27549e039e1d9c5"
+    },
+    {
+      "path": "mass-audit/finite-prefix-verification.json",
+      "sha256": "2d615b7d66bdd31f6938d887fdbec665805abd13b1b9141147c85f08fc4ac874"
+    },
+    {
+      "path": "mass-audit/machine.json",
+      "sha256": "e4472c497591cbf49272345c6d3a1817135ea37dce6016017c629f93c0258c01"
+    },
+    {
+      "path": "mass-audit/original-artifacts.json",
+      "sha256": "2bdb68d47c2785db4d0a18fb7f82f584909eac11766f9b430c14148fd1884457"
+    },
+    {
+      "path": "mass-audit/preparation.json",
+      "sha256": "55b8d6c48bf0eb0b82f9b02b1b4181f5339743d4faa759019108511baf109817"
+    },
+    {
+      "path": "mass-audit/replay-moments.json",
+      "sha256": "220c1e56f3d74759fead274d5519325f637a1f2f1ff553251666f4da45619cd9"
+    },
+    {
+      "path": "mass-audit/replay.json",
+      "sha256": "a3639762e17edac9341c11893a8a9575134515490f7e34405b6f8040583b585a"
+    },
+    {
+      "path": "mass-audit/replay.log",
+      "sha256": "4a5704a7ed5e35d688db2dad1351d86d0b0d31211dc89809bf5385fdebd1bbda"
+    }
+  ]
+}

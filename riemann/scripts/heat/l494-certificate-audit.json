@@ -1,0 +1,799 @@
+{
+  "result": "PASS",
+  "scope": "Complete L494 scalar certificate; independent exact Taylor consumption and producer replay. Analytic reduction and imported saddle theorem are not proved by this script.",
+  "source": "scripts/heat/frozen-cutoff-cauchy-certificate.json",
+  "source_sha256": "fe741a9790dd09d9fe1d703055644d9de5d5a38e8bc006f6a699d1bbb9357cb1",
+  "replay_sha256": "fe741a9790dd09d9fe1d703055644d9de5d5a38e8bc006f6a699d1bbb9357cb1",
+  "independent_method": "Unrounded rational Taylor terms through 220, geometric tail with first omitted term 221 and later ratio <= abs(argument)/222; invert for negative arguments; outward 10^-70 endpoints.",
+  "exponential_evaluations": [
+    {
+      "index": 0,
+      "argument": {
+        "numerator": "2689",
+        "denominator": "100"
+      },
+      "independent_terms_through": 220,
+      "grid_denominator": "10000000000000000000000000000000000000000000000000000000000000000000000",
+      "independent_lower": {
+        "numerator": "2383134877777757386412154577817126058471731845374464017877458975969497945111028991",
+        "denominator": "5000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent_upper": {
+        "numerator": "4766269755555514772824309155634252116943463690748928035754917951938995890222057983",
+        "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "stored_lower": {
+        "numerator": "47662697555555147728243091556342521169434636907489280254031177",
+        "denominator": "100000000000000000000000000000000000000000000000000"
+      },
+      "stored_upper": {
+        "numerator": "23831348777777573864121545778171260584717318453744640204827749",
+        "denominator": "50000000000000000000000000000000000000000000000000"
+      },
+      "contained": true
+    },
+    {
+      "index": 1,
+      "argument": {
+        "numerator": "129250000000004209",
+        "denominator": "4209000000000000"
+      },
+      "independent_terms_through": 220,
+      "grid_denominator": "10000000000000000000000000000000000000000000000000000000000000000000000",
+      "independent_lower": {
+        "numerator": "13558069528713047797882267917597522966091092580886902259946333482499872011619691473",
+        "denominator": "625000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent_upper": {
+        "numerator": "216929112459408764766116286681560367457457481294190436159141335719997952185915063569",
+        "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "stored_lower": {
+        "numerator": "2169291124594087647661162866815603674574574812941904064752236207",
+        "denominator": "100000000000000000000000000000000000000000000000000"
+      },
+      "stored_upper": {
+        "numerator": "2169291124594087647661162866815603674574574812941904807225476627",
+        "denominator": "100000000000000000000000000000000000000000000000000"
+      },
+      "contained": true
+    },
+    {
+      "index": 2,
+      "argument": {
+        "numerator": "1537",
+        "denominator": "100"
+      },
+      "independent_terms_through": 220,
+      "grid_denominator": "10000000000000000000000000000000000000000000000000000000000000000000000",
+      "independent_lower": {
+        "numerator": "23663348030318122553306144576954104155396340049553183277828034666685743406447",
+        "denominator": "5000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent_upper": {
+        "numerator": "9465339212127249021322457830781641662158536019821273311131213866674297362579",
+        "denominator": "2000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "stored_lower": {
+        "numerator": "236633480303181225533061445769541041553963400495531829831",
+        "denominator": "50000000000000000000000000000000000000000000000000"
+      },
+      "stored_upper": {
+        "numerator": "14789592518948826595816340360596315097122712530970739653",
+        "denominator": "3125000000000000000000000000000000000000000000000"
+      },
+      "contained": true
+    },
+    {
+      "index": 3,
+      "argument": {
+        "numerator": "22209650001537",
+        "denominator": "100000000000000"
+      },
+      "independent_terms_through": 220,
+      "grid_denominator": "10000000000000000000000000000000000000000000000000000000000000000000000",
+      "independent_lower": {
+        "numerator": "6243459354175655783289454018053787226928945195121321053403362241956077",
+        "denominator": "5000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent_upper": {
+        "numerator": "2497383741670262313315781607221514890771578078048528421361344896782431",
+        "denominator": "2000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "stored_lower": {
+        "numerator": "62434593541756557832894540180537872269289451951207",
+        "denominator": "50000000000000000000000000000000000000000000000000"
+      },
+      "stored_upper": {
+        "numerator": "124869187083513115665789080361075744538578903902593",
+        "denominator": "100000000000000000000000000000000000000000000000000"
+      },
+      "contained": true
+    },
+    {
+      "index": 4,
+      "argument": {
+        "numerator": "-665924664661515045931878967882325209",
+        "denominator": "46467351581907065296836000000000000"
+      },
+      "independent_terms_through": 220,
+      "grid_denominator": "10000000000000000000000000000000000000000000000000000000000000000000000",
+      "independent_lower": {
+        "numerator": "1194389481267127287266181753468327738640695689765196477877983913",
+        "denominator": "2000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent_upper": {
+        "numerator": "2985973703167818218165454383670819346601739224412991194694959783",
+        "denominator": "5000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "stored_lower": {
+        "numerator": "1866233564479886386353408989794262091626087",
+        "denominator": "3125000000000000000000000000000000000000000000000"
+      },
+      "stored_upper": {
+        "numerator": "11943894812671272872661817534683277386406957",
+        "denominator": "20000000000000000000000000000000000000000000000000"
+      },
+      "contained": true
+    },
+    {
+      "index": 5,
+      "argument": {
+        "numerator": "18278534999983215292827349413285026567",
+        "denominator": "8417999999991582000000000000000000000"
+      },
+      "independent_terms_through": 220,
+      "grid_denominator": "10000000000000000000000000000000000000000000000000000000000000000000000",
+      "independent_lower": {
+        "numerator": "87702310399943087281854416903118059090366211447777400464438748007901257",
+        "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent_upper": {
+        "numerator": "43851155199971543640927208451559029545183105723888700232219374003950629",
+        "denominator": "5000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "stored_lower": {
+        "numerator": "877023103999430872818544169031180590903662114477743",
+        "denominator": "100000000000000000000000000000000000000000000000000"
+      },
+      "stored_upper": {
+        "numerator": "54813943999964429551159010564448786931478882154871",
+        "denominator": "6250000000000000000000000000000000000000000000000"
+      },
+      "contained": true
+    },
+    {
+      "index": 6,
+      "argument": {
+        "numerator": "-286620523443",
+        "denominator": "20000000000"
+      },
+      "independent_terms_through": 220,
+      "grid_denominator": "10000000000000000000000000000000000000000000000000000000000000000000000",
+      "independent_lower": {
+        "numerator": "2985962971235883139857923462419484856606089398284489555082658369",
+        "denominator": "5000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent_upper": {
+        "numerator": "5971925942471766279715846924838969713212178796568979110165316739",
+        "denominator": "10000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "stored_lower": {
+        "numerator": "59719259424717662797158469248389697132121787",
+        "denominator": "100000000000000000000000000000000000000000000000000"
+      },
+      "stored_upper": {
+        "numerator": "14929814856179415699289617312097424283030447",
+        "denominator": "25000000000000000000000000000000000000000000000000"
+      },
+      "contained": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "24 scalar comparisons present",
+      "passed": true
+    },
+    {
+      "name": "disk real-part lower bound",
+      "passed": true
+    },
+    {
+      "name": "log displacement",
+      "passed": true
+    },
+    {
+      "name": "L lower bound: exp(l) < X/(4*pi_hi)",
+      "passed": true
+    },
+    {
+      "name": "local cutoff lower bound",
+      "passed": true
+    },
+    {
+      "name": "local cutoff upper bound",
+      "passed": true
+    },
+    {
+      "name": "log(4700000) < 15.37",
+      "passed": true
+    },
+    {
+      "name": "local log-cutoff displacement",
+      "passed": true
+    },
+    {
+      "name": "source real-part correction",
+      "passed": true
+    },
+    {
+      "name": "saddle floor",
+      "passed": true
+    },
+    {
+      "name": "second chirality exponent correction",
+      "passed": true
+    },
+    {
+      "name": "second chirality exponent nonpositive",
+      "passed": true
+    },
+    {
+      "name": "primitive coefficient sum",
+      "passed": true
+    },
+    {
+      "name": "Gaussian error upper",
+      "passed": true
+    },
+    {
+      "name": "C-error y derivative negative",
+      "passed": true
+    },
+    {
+      "name": "sqrt(L^2+pi^2/4) < U+1",
+      "passed": true
+    },
+    {
+      "name": "C-error upper",
+      "passed": true
+    },
+    {
+      "name": "E_global upper",
+      "passed": true
+    },
+    {
+      "name": "prefactor real-part constant",
+      "passed": true
+    },
+    {
+      "name": "reflection G",
+      "passed": true
+    },
+    {
+      "name": "entering log-index displacement",
+      "passed": true
+    },
+    {
+      "name": "real entering-pair exponent correction",
+      "passed": true
+    },
+    {
+      "name": "unmollified real entering pair P",
+      "passed": true
+    },
+    {
+      "name": "each chirality vertical logarithmic growth",
+      "passed": true
+    },
+    {
+      "name": "Cauchy derivative upper",
+      "passed": true
+    },
+    {
+      "name": "all seven exponential evaluations present",
+      "passed": true
+    },
+    {
+      "name": "exp 0: tail ratio domain",
+      "passed": true
+    },
+    {
+      "name": "exp 0: producer degree",
+      "passed": true
+    },
+    {
+      "name": "exp 0: full stored positive sum",
+      "passed": true
+    },
+    {
+      "name": "exp 0: full stored last term",
+      "passed": true
+    },
+    {
+      "name": "exp 0: full stored tail",
+      "passed": true
+    },
+    {
+      "name": "exp 0: sign and endpoint construction",
+      "passed": true
+    },
+    {
+      "name": "exp 0: independent degree-220 enclosure contained",
+      "passed": true
+    },
+    {
+      "name": "exp 1: tail ratio domain",
+      "passed": true
+    },
+    {
+      "name": "exp 1: producer degree",
+      "passed": true
+    },
+    {
+      "name": "exp 1: full stored positive sum",
+      "passed": true
+    },
+    {
+      "name": "exp 1: full stored last term",
+      "passed": true
+    },
+    {
+      "name": "exp 1: full stored tail",
+      "passed": true
+    },
+    {
+      "name": "exp 1: sign and endpoint construction",
+      "passed": true
+    },
+    {
+      "name": "exp 1: independent degree-220 enclosure contained",
+      "passed": true
+    },
+    {
+      "name": "exp 2: tail ratio domain",
+      "passed": true
+    },
+    {
+      "name": "exp 2: producer degree",
+      "passed": true
+    },
+    {
+      "name": "exp 2: full stored positive sum",
+      "passed": true
+    },
+    {
+      "name": "exp 2: full stored last term",
+      "passed": true
+    },
+    {
+      "name": "exp 2: full stored tail",
+      "passed": true
+    },
+    {
+      "name": "exp 2: sign and endpoint construction",
+      "passed": true
+    },
+    {
+      "name": "exp 2: independent degree-220 enclosure contained",
+      "passed": true
+    },
+    {
+      "name": "exp 3: tail ratio domain",
+      "passed": true
+    },
+    {
+      "name": "exp 3: producer degree",
+      "passed": true
+    },
+    {
+      "name": "exp 3: full stored positive sum",
+      "passed": true
+    },
+    {
+      "name": "exp 3: full stored last term",
+      "passed": true
+    },
+    {
+      "name": "exp 3: full stored tail",
+      "passed": true
+    },
+    {
+      "name": "exp 3: sign and endpoint construction",
+      "passed": true
+    },
+    {
+      "name": "exp 3: independent degree-220 enclosure contained",
+      "passed": true
+    },
+    {
+      "name": "exp 4: tail ratio domain",
+      "passed": true
+    },
+    {
+      "name": "exp 4: producer degree",
+      "passed": true
+    },
+    {
+      "name": "exp 4: full stored positive sum",
+      "passed": true
+    },
+    {
+      "name": "exp 4: full stored last term",
+      "passed": true
+    },
+    {
+      "name": "exp 4: full stored tail",
+      "passed": true
+    },
+    {
+      "name": "exp 4: sign and endpoint construction",
+      "passed": true
+    },
+    {
+      "name": "exp 4: independent degree-220 enclosure contained",
+      "passed": true
+    },
+    {
+      "name": "exp 5: tail ratio domain",
+      "passed": true
+    },
+    {
+      "name": "exp 5: producer degree",
+      "passed": true
+    },
+    {
+      "name": "exp 5: full stored positive sum",
+      "passed": true
+    },
+    {
+      "name": "exp 5: full stored last term",
+      "passed": true
+    },
+    {
+      "name": "exp 5: full stored tail",
+      "passed": true
+    },
+    {
+      "name": "exp 5: sign and endpoint construction",
+      "passed": true
+    },
+    {
+      "name": "exp 5: independent degree-220 enclosure contained",
+      "passed": true
+    },
+    {
+      "name": "exp 6: tail ratio domain",
+      "passed": true
+    },
+    {
+      "name": "exp 6: producer degree",
+      "passed": true
+    },
+    {
+      "name": "exp 6: full stored positive sum",
+      "passed": true
+    },
+    {
+      "name": "exp 6: full stored last term",
+      "passed": true
+    },
+    {
+      "name": "exp 6: full stored tail",
+      "passed": true
+    },
+    {
+      "name": "exp 6: sign and endpoint construction",
+      "passed": true
+    },
+    {
+      "name": "exp 6: independent degree-220 enclosure contained",
+      "passed": true
+    },
+    {
+      "name": "producer replay succeeds",
+      "passed": true
+    },
+    {
+      "name": "producer replay byte-identical to original evidence",
+      "passed": true
+    },
+    {
+      "name": "original status agrees with validated comparisons",
+      "passed": true
+    }
+  ],
+  "scalar_comparisons": [
+    {
+      "name": "disk real-part lower bound",
+      "actual_upper": {
+        "numerator": "300000000000007071",
+        "denominator": "50000"
+      },
+      "required_strict_upper": {
+        "numerator": "12000569122843",
+        "denominator": "2"
+      },
+      "passed": true
+    },
+    {
+      "name": "log displacement",
+      "actual_upper": {
+        "numerator": "2357",
+        "denominator": "100000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "1",
+        "denominator": "1000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "L lower bound: exp(l) < X/(4*pi_hi)",
+      "actual_upper": {
+        "numerator": "23831348777777573864121545778171260584717318453744640204827749",
+        "denominator": "50000000000000000000000000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "5250000000000",
+        "denominator": "11"
+      },
+      "passed": true
+    },
+    {
+      "name": "local cutoff lower bound",
+      "actual_upper": {
+        "numerator": "476100000000",
+        "denominator": "1"
+      },
+      "required_strict_upper": {
+        "numerator": "5250000000000",
+        "denominator": "11"
+      },
+      "passed": true
+    },
+    {
+      "name": "local cutoff upper bound",
+      "actual_upper": {
+        "numerator": "2169291124594088721411162866815603674574574812941904807225476627",
+        "denominator": "100000000000000000000000000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "22090000000000",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "log(4700000) < 15.37",
+      "actual_upper": {
+        "numerator": "4700000",
+        "denominator": "1"
+      },
+      "required_strict_upper": {
+        "numerator": "236633480303181225533061445769541041553963400495531829831",
+        "denominator": "50000000000000000000000000000000000000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "local log-cutoff displacement",
+      "actual_upper": {
+        "numerator": "9449",
+        "denominator": "840000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "1",
+        "denominator": "1000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "source real-part correction",
+      "actual_upper": {
+        "numerator": "859",
+        "denominator": "180000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "1",
+        "denominator": "1000000000000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "saddle floor",
+      "actual_upper": {
+        "numerator": "1631800000000000000000001",
+        "denominator": "1000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "16318001",
+        "denominator": "10000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "second chirality exponent correction",
+      "actual_upper": {
+        "numerator": "363565749999758306593",
+        "denominator": "505079999999494920000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "1",
+        "denominator": "1000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "second chirality exponent nonpositive",
+      "actual_upper": {
+        "numerator": "-6702499999999",
+        "denominator": "1000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "primitive coefficient sum",
+      "actual_upper": {
+        "numerator": "8771395694537705221929693453691914846192967967531",
+        "denominator": "481666666700000000000000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "20",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "Gaussian error upper",
+      "actual_upper": {
+        "numerator": "489932000000137866666666680",
+        "denominator": "31999999999952231699999996553333333333"
+      },
+      "required_strict_upper": {
+        "numerator": "1",
+        "denominator": "62500000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "C-error y derivative negative",
+      "actual_upper": {
+        "numerator": "1488",
+        "denominator": "137999975"
+      },
+      "required_strict_upper": {
+        "numerator": "2689",
+        "denominator": "400"
+      },
+      "passed": true
+    },
+    {
+      "name": "sqrt(L^2+pi^2/4) < U+1",
+      "actual_upper": {
+        "numerator": "820716159901053313298500000868068369",
+        "denominator": "868068369000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "17811304681001123457862000017715681",
+        "denominator": "17715681000000000000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "C-error upper",
+      "actual_upper": {
+        "numerator": "11943894812671272872661817534683277386406957",
+        "denominator": "20000000000000000000000000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "1493",
+        "denominator": "2500000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "E_global upper",
+      "actual_upper": {
+        "numerator": "382214432644910195131931328112877583855512146755534702723353569005793780871197681",
+        "denominator": "639999999999044633999999931066666666660000000000000000000000000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "3",
+        "denominator": "5000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "prefactor real-part constant",
+      "actual_upper": {
+        "numerator": "77300819999926850321597218651603339313533",
+        "denominator": "25200000000000000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "321",
+        "denominator": "100"
+      },
+      "passed": true
+    },
+    {
+      "name": "reflection G",
+      "actual_upper": {
+        "numerator": "54813943999964429551159010564448786931478882154871",
+        "denominator": "6250000000000000000000000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "1096279",
+        "denominator": "125000"
+      },
+      "passed": true
+    },
+    {
+      "name": "entering log-index displacement",
+      "actual_upper": {
+        "numerator": "150953",
+        "denominator": "4199999999999698094"
+      },
+      "required_strict_upper": {
+        "numerator": "1",
+        "denominator": "1000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "real entering-pair exponent correction",
+      "actual_upper": {
+        "numerator": "35137035000003615599763851341078427658417313",
+        "denominator": "30304800000000000000000000000000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "1",
+        "denominator": "10000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "unmollified real entering pair P",
+      "actual_upper": {
+        "numerator": "14929814856179415699289617312097424283030447",
+        "denominator": "12500000000000000000000000000000000000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "13",
+        "denominator": "10000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "each chirality vertical logarithmic growth",
+      "actual_upper": {
+        "numerator": "39769230769199364783846150053629",
+        "denominator": "5180307692302512000000000000000"
+      },
+      "required_strict_upper": {
+        "numerator": "7754999999992878783549999751075531",
+        "denominator": "505079999999494920000000000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "Cauchy derivative upper",
+      "actual_upper": {
+        "numerator": "20829301",
+        "denominator": "176775000000"
+      },
+      "required_strict_upper": {
+        "numerator": "59",
+        "denominator": "500000"
+      },
+      "passed": true
+    }
+  ],
+  "producer_replay_stdout": "PASS disk real-part lower bound: actual upper 6000000000000.14142; required < 6000284561421.5\nPASS log displacement: actual upper 2.357E-14; required < 1E-12\nPASS L lower bound: exp(l) < X/(4*pi_hi): actual upper 476626975555.5514773; required < 477272727272.7272728\nPASS local cutoff lower bound: actual upper 476100000000; required < 477272727272.7272728\nPASS local cutoff upper bound: actual upper 21692911245940.88722; required < 22090000000000\nPASS log(4700000) < 15.37: actual upper 4700000; required < 4732669.606063624511\nPASS local log-cutoff displacement: actual upper 1.124880952380952381E-14; required < 1E-12\nPASS source real-part correction: actual upper 4.772222222222222223E-27; required < 1E-24\nPASS saddle floor: actual upper 1.631800000000000001; required < 1.6318001\nPASS second chirality exponent correction: actual upper 7.198181476204202747E-13; required < 1E-12\nPASS second chirality exponent nonpositive: actual upper -6.702499999999; required < 0\nPASS primitive coefficient sum: actual upper 18.21051009120558108; required < 20\nPASS Gaussian error upper: actual upper 1.531037500002716304E-11; required < 1.6E-11\nPASS C-error y derivative negative: actual upper 0.00001078261064902366831; required < 6.7225\nPASS sqrt(L^2+pi^2/4) < U+1: actual upper 945.4510603197123444; required < 1005.397685869435302\nPASS C-error upper: actual upper 5.971947406335636437E-7; required < 5.972E-7\nPASS E_global upper: actual upper 5.972100510085636708E-7; required < 6E-7\nPASS prefactor real-part constant: actual upper 3.067492857139954378; required < 3.21\nPASS reflection G: actual upper 8.770231039994308729; required < 8.770232\nPASS entering log-index displacement: actual upper 3.594119047619305973E-14; required < 1E-12\nPASS real entering-pair exponent correction: actual upper 1.159454442860656253E-12; required < 1E-10\nPASS unmollified real entering pair P: actual upper 0.000001194385188494353256; required < 0.0000013\nPASS each chirality vertical logarithmic growth: actual upper 7.677001663104489520; required < 15.35400332620700441\nPASS Cauchy derivative upper: actual upper 0.0001178294498656484232; required < 0.000118\nPASS: 24 checks; failures=[]; certificate=/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/heat/frozen-cutoff-cauchy-certificate.json\n",
+  "producer_replay_stderr": "",
+  "failures": []
+}

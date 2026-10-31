@@ -1,0 +1,662 @@
+{
+  "source_sha256": "fc7895ca762c180ef8bffa7ffa0331f48feabc4879b60c3de2215b6d148296ae",
+  "method": "Independent stdlib Fraction polynomial construction and triangular Bernstein inversion; generator never imported or executed",
+  "checks": [
+    {
+      "name": "fixed parameters",
+      "passed": true
+    },
+    {
+      "name": "aggregate numerator even",
+      "passed": true
+    },
+    {
+      "name": "individual reflection numerator",
+      "passed": true
+    },
+    {
+      "name": "individual saved numerator",
+      "passed": true
+    },
+    {
+      "name": "individual printed numerator",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y saved numerator",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y printed numerator",
+      "passed": true
+    },
+    {
+      "name": "printed table/tail counts",
+      "passed": true
+    },
+    {
+      "name": "individual interval count",
+      "passed": true
+    },
+    {
+      "name": "individual interval 0 endpoints",
+      "passed": true
+    },
+    {
+      "name": "individual interval 0 identity",
+      "passed": true
+    },
+    {
+      "name": "individual interval 0 saved coefficients",
+      "passed": true
+    },
+    {
+      "name": "individual interval 0 printed endpoints",
+      "passed": true
+    },
+    {
+      "name": "individual interval 0 printed coefficients",
+      "passed": true
+    },
+    {
+      "name": "individual interval 0 strict bound",
+      "passed": true
+    },
+    {
+      "name": "individual interval 1 endpoints",
+      "passed": true
+    },
+    {
+      "name": "individual interval 1 identity",
+      "passed": true
+    },
+    {
+      "name": "individual interval 1 saved coefficients",
+      "passed": true
+    },
+    {
+      "name": "individual interval 1 printed endpoints",
+      "passed": true
+    },
+    {
+      "name": "individual interval 1 printed coefficients",
+      "passed": true
+    },
+    {
+      "name": "individual interval 1 strict bound",
+      "passed": true
+    },
+    {
+      "name": "individual interval 2 endpoints",
+      "passed": true
+    },
+    {
+      "name": "individual interval 2 identity",
+      "passed": true
+    },
+    {
+      "name": "individual interval 2 saved coefficients",
+      "passed": true
+    },
+    {
+      "name": "individual interval 2 printed endpoints",
+      "passed": true
+    },
+    {
+      "name": "individual interval 2 printed coefficients",
+      "passed": true
+    },
+    {
+      "name": "individual interval 2 strict bound",
+      "passed": true
+    },
+    {
+      "name": "individual interval 3 endpoints",
+      "passed": true
+    },
+    {
+      "name": "individual interval 3 identity",
+      "passed": true
+    },
+    {
+      "name": "individual interval 3 saved coefficients",
+      "passed": true
+    },
+    {
+      "name": "individual interval 3 printed endpoints",
+      "passed": true
+    },
+    {
+      "name": "individual interval 3 printed coefficients",
+      "passed": true
+    },
+    {
+      "name": "individual interval 3 strict bound",
+      "passed": true
+    },
+    {
+      "name": "individual right saved tail",
+      "passed": true
+    },
+    {
+      "name": "individual right printed tail",
+      "passed": true
+    },
+    {
+      "name": "individual right strict tail",
+      "passed": true
+    },
+    {
+      "name": "individual left saved tail",
+      "passed": true
+    },
+    {
+      "name": "individual left printed tail",
+      "passed": true
+    },
+    {
+      "name": "individual left strict tail",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval count",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 0 endpoints",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 0 identity",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 0 saved coefficients",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 0 printed endpoints",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 0 printed coefficients",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 0 strict bound",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 1 endpoints",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 1 identity",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 1 saved coefficients",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 1 printed endpoints",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 1 printed coefficients",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 1 strict bound",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 2 endpoints",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 2 identity",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 2 saved coefficients",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 2 printed endpoints",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 2 printed coefficients",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 2 strict bound",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 3 endpoints",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 3 identity",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 3 saved coefficients",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 3 printed endpoints",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 3 printed coefficients",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y interval 3 strict bound",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y right saved tail",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y right printed tail",
+      "passed": true
+    },
+    {
+      "name": "aggregate_y right strict tail",
+      "passed": true
+    },
+    {
+      "name": "reflected evaluation and excluded poles",
+      "passed": true
+    },
+    {
+      "name": "evaluation scalars",
+      "passed": true
+    },
+    {
+      "name": "row and variable order",
+      "passed": true
+    },
+    {
+      "name": "original eight rows",
+      "passed": true
+    },
+    {
+      "name": "original rhs",
+      "passed": true
+    },
+    {
+      "name": "multipliers",
+      "passed": true
+    },
+    {
+      "name": "annihilation",
+      "passed": true
+    },
+    {
+      "name": "strict contradiction",
+      "passed": true
+    },
+    {
+      "name": "printed k+b",
+      "passed": true
+    },
+    {
+      "name": "individual at selected point",
+      "passed": true
+    },
+    {
+      "name": "individual infinity limit",
+      "passed": true
+    },
+    {
+      "name": "aggregate infinity limit",
+      "passed": true
+    }
+  ],
+  "evidence": {
+    "individual": {
+      "numerator": [
+        "2203225/524288",
+        "-158675/8192",
+        "905329/32768",
+        "-4147/512",
+        "703/128",
+        "-33/4",
+        "4"
+      ],
+      "intervals": [
+        {
+          "lo": "-2",
+          "hi": "0",
+          "power": [
+            "433128473/524288",
+            "-3749537/1024",
+            "59901169/8192",
+            "-523283/64",
+            "41983/8",
+            "-1800",
+            "256"
+          ],
+          "bernstein": [
+            "433128473/524288",
+            "339503947/1572864",
+            "731787191/7864320",
+            "128226237/2621440",
+            "64180477/2621440",
+            "16764875/1572864",
+            "2203225/524288"
+          ],
+          "lower_bound": "2203225/524288"
+        },
+        {
+          "lo": "0",
+          "hi": "1/2",
+          "power": [
+            "2203225/524288",
+            "-158675/16384",
+            "905329/131072",
+            "-4147/4096",
+            "703/2048",
+            "-33/128",
+            "1/16"
+          ],
+          "bernstein": [
+            "2203225/524288",
+            "4070875/1572864",
+            "11281691/7864320",
+            "1810737/2621440",
+            "862597/2621440",
+            "474467/1572864",
+            "293693/524288"
+          ],
+          "lower_bound": "474467/1572864"
+        },
+        {
+          "lo": "1/2",
+          "hi": "1",
+          "power": [
+            "293693/524288",
+            "101653/65536",
+            "562129/131072",
+            "-3963/4096",
+            "-17/2048",
+            "15/128",
+            "1/16"
+          ],
+          "bernstein": [
+            "293693/524288",
+            "1287691/1572864",
+            "10720031/7864320",
+            "1124645/524288",
+            "8167529/2621440",
+            "6676643/1572864",
+            "2938025/524288"
+          ],
+          "lower_bound": "293693/524288"
+        },
+        {
+          "lo": "1",
+          "hi": "2",
+          "power": [
+            "2938025/524288",
+            "267179/16384",
+            "451633/32768",
+            "5821/512",
+            "3103/128",
+            "63/4",
+            "4"
+          ],
+          "bernstein": [
+            "2938025/524288",
+            "13088939/1572864",
+            "31348381/2621440",
+            "44780749/2621440",
+            "203516423/7864320",
+            "70420363/1572864",
+            "47739161/524288"
+          ],
+          "lower_bound": "2938025/524288"
+        }
+      ],
+      "tails": {
+        "right": {
+          "offset": "2",
+          "slope": "1",
+          "coefficients": [
+            "47739161/524288",
+            "1137455/4096",
+            "13462513/32768",
+            "177069/512",
+            "20863/128",
+            "159/4",
+            "4"
+          ],
+          "lower_bound": "47739161/524288"
+        },
+        "left": {
+          "offset": "-2",
+          "slope": "-1",
+          "coefficients": [
+            "433128473/524288",
+            "3749537/2048",
+            "59901169/32768",
+            "523283/512",
+            "41983/128",
+            "225/4",
+            "4"
+          ],
+          "lower_bound": "433128473/524288"
+        }
+      }
+    },
+    "aggregate_y": {
+      "numerator": [
+        "121268016025/34359738368",
+        "-43179459359/2147483648",
+        "424168615/4194304",
+        "-25679/8192",
+        "-195/64",
+        "6"
+      ],
+      "intervals": [
+        {
+          "lo": "0",
+          "hi": "1/2",
+          "power": [
+            "121268016025/34359738368",
+            "-43179459359/4294967296",
+            "424168615/16777216",
+            "-25679/65536",
+            "-195/1024",
+            "3/16"
+          ],
+          "bernstein": [
+            "121268016025/34359738368",
+            "260904405253/171798691840",
+            "349817392141/171798691840",
+            "866347445013/171798691840",
+            "1797219853853/171798691840",
+            "630965809825/34359738368"
+          ],
+          "lower_bound": "260904405253/171798691840"
+        },
+        {
+          "lo": "1/2",
+          "hi": "1",
+          "power": [
+            "630965809825/34359738368",
+            "169701149409/4294967296",
+            "416735143/16777216",
+            "47281/65536",
+            "765/1024",
+            "3/16"
+          ],
+          "bernstein": [
+            "630965809825/34359738368",
+            "4512438244397/171798691840",
+            "6296784226101/171798691840",
+            "8520261424701/171798691840",
+            "11220933411141/171798691840",
+            "2898949030313/34359738368"
+          ],
+          "lower_bound": "630965809825/34359738368"
+        },
+        {
+          "lo": "1",
+          "hi": "2",
+          "power": [
+            "2898949030313/34359738368",
+            "409226467553/2147483648",
+            "559706791/4194304",
+            "366001/8192",
+            "1725/64",
+            "6"
+          ],
+          "bernstein": [
+            "2898949030313/34359738368",
+            "21042368632413/171798691840",
+            "29882551129197/171798691840",
+            "41782852371069/171798691840",
+            "58436934410381/171798691840",
+            "16699070754745/34359738368"
+          ],
+          "lower_bound": "2898949030313/34359738368"
+        },
+        {
+          "lo": "2",
+          "hi": "4",
+          "power": [
+            "16699070754745/34359738368",
+            "1566151210209/1073741824",
+            "2051840167/1048576",
+            "1740721/1024",
+            "3645/4",
+            "192"
+          ],
+          "bernstein": [
+            "16699070754745/34359738368",
+            "133612192500413/171798691840",
+            "217346380523229/171798691840",
+            "363902370054909/171798691840",
+            "633794924896029/171798691840",
+            "230366893853657/34359738368"
+          ],
+          "lower_bound": "16699070754745/34359738368"
+        }
+      ],
+      "tails": {
+        "right": {
+          "offset": "4",
+          "slope": "1",
+          "coefficients": [
+            "230366893853657/34359738368",
+            "16188735761633/2147483648",
+            "15145690279/4194304",
+            "7439281/8192",
+            "7485/64",
+            "6"
+          ],
+          "lower_bound": "230366893853657/34359738368"
+        }
+      }
+    },
+    "dual": {
+      "s": "9/32",
+      "a": "1024/2401",
+      "b": "1024/961",
+      "k": "-1751040/1423249",
+      "matrix": [
+        [
+          "-1024/2401",
+          0,
+          "-1024/961",
+          0
+        ],
+        [
+          0,
+          "-1024/961",
+          0,
+          "-1024/2401"
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1
+        ]
+      ],
+      "rhs": [
+        "-1751040/1423249",
+        "-1751040/1423249",
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "multipliers": [
+        1,
+        1,
+        "1024/961",
+        "1024/961",
+        "1474560/2307361",
+        0,
+        0,
+        "1474560/2307361"
+      ],
+      "transpose": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "value": "-450684928/1367742289"
+    }
+  },
+  "failures": [],
+  "passed": true,
+  "required": {
+    "bernstein_minimum": ">0",
+    "tail_constant": ">0",
+    "other_tail_coefficients": ">=0",
+    "dual_value": "<0"
+  },
+  "limitations": "Finite first-sign theorem only. Analytic domain/reflection and dual logical applicability reviewed in L511. No Xi realization, higher signs or novelty certification."
+}

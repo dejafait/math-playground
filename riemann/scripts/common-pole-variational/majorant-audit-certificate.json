@@ -1,0 +1,117 @@
+{
+  "lemma": "L528",
+  "scope": "Exact arithmetic and full original-generator replay only; analytic audit is in L528.",
+  "original_sha256": "7e6601799a3640e66adc4730df67ed0cfd4885b9c077609d82c30a3ee22b345b",
+  "replay_sha256": "7e6601799a3640e66adc4730df67ed0cfd4885b9c077609d82c30a3ee22b345b",
+  "original_generator": "scripts/common-pole-variational/majorant_certificate.py",
+  "replay_exit_code": 0,
+  "replay_byte_identical": true,
+  "replay_stdout": "L528: actual uniform upper <147/188; required <pi/4; pi/4>47/60\nStrict gap >1/705; checks=6; failures=[]\nFull certificate: scripts/common-pole-variational/majorant-certificate.json\n",
+  "replay_stderr": "",
+  "scalar_checks": [
+    {
+      "field": "atan_lower",
+      "recorded": "284663/362880",
+      "recomputed": "284663/362880",
+      "passed": true
+    },
+    {
+      "field": "atan_margin",
+      "recorded": "407/362880",
+      "recomputed": "407/362880",
+      "passed": true
+    },
+    {
+      "field": "cosine_upper",
+      "recorded": "1969/6144",
+      "recomputed": "1969/6144",
+      "passed": true
+    },
+    {
+      "field": "mean_upper_strict",
+      "recorded": "147/188",
+      "recomputed": "147/188",
+      "passed": true
+    },
+    {
+      "field": "threshold_lower_strict",
+      "recorded": "47/60",
+      "recomputed": "47/60",
+      "passed": true
+    },
+    {
+      "field": "uniform_gap_lower_strict",
+      "recorded": "1/705",
+      "recomputed": "1/705",
+      "passed": true
+    }
+  ],
+  "checks": [
+    {
+      "index": 0,
+      "name": "atan lower sum exceeds quarter-pi comparator",
+      "actual": "284663/362880",
+      "relation": ">",
+      "required": "47/60",
+      "cross_product_margin": 24420,
+      "saved_record_matches": true,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "name": "cosine upper polynomial",
+      "actual": "1969/6144",
+      "relation": "<",
+      "required": "1/3",
+      "cross_product_margin": 237,
+      "saved_record_matches": true,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "name": "exponential lower bound exceeds square-root requirement",
+      "actual": "8/3",
+      "relation": ">",
+      "required": "13/5",
+      "cross_product_margin": 1,
+      "saved_record_matches": true,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "name": "cosine argument within half-pi",
+      "actual": "5/4",
+      "relation": "<",
+      "required": "47/30",
+      "cross_product_margin": 38,
+      "saved_record_matches": true,
+      "passed": true
+    },
+    {
+      "index": 4,
+      "name": "majorant mean bound below threshold lower bound",
+      "actual": "147/188",
+      "relation": "<",
+      "required": "47/60",
+      "cross_product_margin": 16,
+      "saved_record_matches": true,
+      "passed": true
+    },
+    {
+      "index": 5,
+      "name": "strict uniform gap positive",
+      "actual": "1/705",
+      "relation": ">",
+      "required": "0",
+      "cross_product_margin": 1,
+      "saved_record_matches": true,
+      "passed": true
+    }
+  ],
+  "square_root_difference_strict_lower": "2/75",
+  "actual_mean_upper_strict": "147/188",
+  "required_threshold": "pi/4",
+  "threshold_lower_strict": "47/60",
+  "uniform_gap_lower_strict": "1/705",
+  "failures": []
+}

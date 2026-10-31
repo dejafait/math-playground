@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "input": "scripts/hermite-gram/global-dual-pairing-certificate.json",
+  "all_node_intervals_ordered": 32769,
+  "all_moment_error_formulas_checked": 257,
+  "all_coefficient_enclosures_checked": 257,
+  "complete_derivative_pairings_checked": 3,
+  "coarse_rational_bounds_checked": {
+    "64": [
+      "-341/1250000000000000000000000",
+      "-1363/5000000000000000000000000"
+    ],
+    "128": [
+      "-4113/50000000000000000000000000000000000000000",
+      "-257/3125000000000000000000000000000000000000"
+    ],
+    "256": [
+      "-1003/500000000000000000000000000000000000000000000000000000000000000000000000",
+      "-501/250000000000000000000000000000000000000000000000000000000000000000000000"
+    ]
+  },
+  "required": "All complete D upper bounds strictly below zero",
+  "failures": [],
+  "scope": "Exact postprocessing replay only; analytic bounds and raw node quadrature are not independently audited."
+}

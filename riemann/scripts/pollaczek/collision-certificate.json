@@ -1,0 +1,132 @@
+{
+  "result": "EXACT_FINITE_FAMILY_COUNTEREXAMPLE",
+  "parameters": {
+    "q": "12/25",
+    "u": "0",
+    "v": "1",
+    "m1": "12/25",
+    "m2": "12/25",
+    "m3": "12/25"
+  },
+  "additional_grid_or_random_tuples": 0,
+  "required_additional_sample_bound": 0,
+  "analytic_witnesses": 1,
+  "failed_analytic_selection_evaluations": [
+    {
+      "q": "12/13",
+      "radius": "2/7",
+      "discriminant": "-145528520684316416/13190829628163361496972138125",
+      "sign": -1
+    },
+    {
+      "q": "12/13",
+      "radius": "9/32",
+      "discriminant": "-112645110047775376935168134712365157/12148505852036154318721802703573414859243520000",
+      "sign": -1
+    },
+    {
+      "q": "12/13",
+      "radius": "1/3",
+      "discriminant": "-1295441772733/23231433575329462080000",
+      "sign": -1
+    }
+  ],
+  "endpoints": [
+    {
+      "radius": "9/32",
+      "integer_coefficients_ascending": [
+        4426352279635,
+        -91525040694,
+        626050620,
+        -1417176
+      ],
+      "positive_scale_from_original": "4294967296000",
+      "integer_discriminant": "1593895952528326541214254588811264",
+      "original_discriminant": "778269508070471943952272748443/166153499473114484112975882535043072000000000000",
+      "sturm_chain": [
+        [
+          "4426352279635",
+          "-91525040694",
+          "626050620",
+          "-1417176"
+        ],
+        [
+          "-91525040694",
+          "1252101240",
+          "-4251528"
+        ],
+        [
+          "16523990665/110474226",
+          "-1"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "signs_at_zero": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "signs_at_positive_infinity": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "positive_distinct_roots": 3,
+      "squarefree": true,
+      "real_t_roots": 6
+    },
+    {
+      "radius": "1/3",
+      "integer_coefficients_ascending": [
+        9135405,
+        -274802,
+        2660,
+        -8
+      ],
+      "positive_scale_from_original": "8748000",
+      "integer_discriminant": "-112042936313856",
+      "original_discriminant": "-6078718333/317733228541125000000000",
+      "sturm_chain": [
+        [
+          "9135405",
+          "-274802",
+          "2660",
+          "-8"
+        ],
+        [
+          "-274802",
+          "5320",
+          "-24"
+        ],
+        [
+          "2288255/30022",
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "signs_at_zero": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "signs_at_positive_infinity": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "positive_distinct_roots": 1,
+      "squarefree": true,
+      "real_t_roots": 2
+    }
+  ],
+  "failures": [],
+  "limitation": "Not actual Xi; no statement about the actual theta measure or RH."
+}

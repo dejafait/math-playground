@@ -1,0 +1,12 @@
+# Approved joint-only slice attempt
+
+Gate at invocation: `drafts/literature/2026-10-30-genuine-shared-budget-competition.md` (EXPLORE).
+Exact target: seek an exact rational symmetric two-pair block with all-real positive aggregate and individually feasible full budgets, but no conserved four-constant allocation.
+
+Main gap is actual-Xi all-degree positivity. This finite test can distinguish joint resource loss from L510's single-pair deficit; it cannot establish Xi geometry, unmatched-pair control, convergent assembly or higher signs. L510 supplies the definitions and audited contrast; L509 is only an isolated-pair contrast, not an input to shifted-pair feasibility. The prior assessment supplies adequate finite-linear certificate coverage; no new browsing is needed.
+
+Before calculation: fix h=11/16, start r=5/4 and use at most eight rational r in [1,21/16), denominator <=4096, each with at most 32 added pair-evaluation rows. Later nominations must follow constraint conflicts or individual failures, without a grid. Require exact full-domain individual and aggregate positivity and an original four-variable joint contradiction. Reject one-pair deficits. Stop at success or cap. A numerical screen is not a certificate or a global feasibility claim. Full rational evidence will be saved under `scripts/signed-allocation/`.
+
+Completed: the first candidate r=5/4 succeeds. L511 is the canonical full proof: positive individual and aggregate numerators have exact Bernstein certificates on closed intervals and positive-coefficient translated tails; two reflected pair rows and the original budgets give an exact four-variable dual value -450684928/1367742289<0. The full certificate is `scripts/signed-allocation/genuine-shared-budget-certificate.json`; every load-bearing value was inspected in full. One candidate and two added evaluation rows were used; no further candidate was nominated. This is a finite allocation obstruction, with independent audit pending, not an actual-Xi result or originality certification.
+
+The numerical diagnostic only nominated s=9/32; individual and aggregate sign proofs cover the full punctured real line, poles and both tails as qualified in L511. No symmetry reduction is used in the contradiction. Existing unfinished work is preserved. Mathlib coverage unchecked; no cross-notebook input. Stop this successful bounded search; next perform separate coverage approval and critical audit, rather than another parameter test.

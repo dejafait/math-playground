@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "retained": "scripts/hermite-gram/global-dual-pairing-certificate.json",
+  "fresh": "scripts/hermite-gram/c567a-audit-fresh-replay.json",
+  "retained_sha256": "431d77c0fe35350ae5730c2fd5cee4cfe5fd12ae9fd130bd001b168e78ad7e0b",
+  "fresh_sha256": "88259880dd813495102c6221b7fb5d788f91d26ab2597cc8b8399ea76e0636c7",
+  "fresh_node_values_reused": false,
+  "node_intervals_compared": 32769,
+  "all_mathematical_fields_equal": {
+    "absolute_weight_norm": true,
+    "certified_negative_pairings": true,
+    "moments": true,
+    "remainders": true,
+    "node_base_fixedpoint": true,
+    "integral_totals_fixedpoint": true,
+    "failures": true,
+    "parameters": true,
+    "scope": true,
+    "panel_rule_moment_checks": true,
+    "pairings": true,
+    "pi_bounds": true,
+    "required": true,
+    "status": true,
+    "coefficients_b_even": true,
+    "weights": true
+  },
+  "ignored_runtime_metadata": {
+    "elapsed_seconds": {
+      "retained": 2.245305061340332,
+      "fresh": 741.8720080852509
+    },
+    "node_values_reused": {
+      "retained": true,
+      "fresh": false
+    },
+    "software": {
+      "retained": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+      "fresh": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]"
+    }
+  },
+  "certified_negative_pairings": 3,
+  "complete_constraint_certificate": "scripts/hermite-gram/c567a-audit-constraints-replay.json",
+  "independent_contractions": "scripts/hermite-gram/c567a-audit-independent-arithmetic.json",
+  "analytic_constants": "scripts/hermite-gram/c567a-audit-analytic-checks.json",
+  "failures": []
+}

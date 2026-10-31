@@ -1,0 +1,12 @@
+{
+  "command": "clang++ -O3 -std=c++17 -Wall -Wextra -fsanitize=undefined -fno-sanitize-recover=all scripts/heat/l497-l498-replay.cpp -o /tmp/riemann-l497-l498-replay",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.4.1.1)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "source_sha256": "04acf3c934b38a1e3d645e44a725bf6f21a146b7a3e01c22572a6686b1f4fb12",
+  "binary_sha256": "54b393a4a6c412a46736c1dd97b5f494dc05f2b93e77fbd5778797917b8559c8",
+  "build_exit_code": 0,
+  "replay_exit_code": 0,
+  "ndebug": false,
+  "undefined_behavior_sanitizer": true,
+  "byteorder": "little",
+  "historical_producer_binary_provenance": "unrecorded; not inferred"
+}
