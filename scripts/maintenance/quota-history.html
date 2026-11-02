@@ -1,0 +1,123 @@
+<div id="rh-quota-history">
+  <h3>Subscription allowance remaining</h3>
+  <div class="viz-controls">
+    <label class="form-label" for="rh-quota-range">Period</label>
+    <select id="rh-quota-range" class="form-select">
+      <option value="all">All recorded history</option>
+      <option value="7">Last seven days</option>
+    </select>
+  </div>
+  <div id="rh-quota-plot"></div>
+  <div id="rh-quota-detail" class="text-small" aria-live="polite"></div>
+  <div class="viz-row text-small">
+    <span>Line: observed remaining allowance</span>
+    <span>○ Last observation before counter change</span>
+    <span>△ Quota rejection, possibly a different limit</span>
+  </div>
+  <div class="text-small">0% remaining = fully used · Times UTC · Gaps and changed counters are not joined</div>
+  <div class="text-small" id="rh-quota-coverage"></div>
+  <div id="rh-quota-tooltip" class="tooltip" role="tooltip" hidden></div>
+  <style>
+    #rh-quota-history {position:relative}
+    #rh-quota-history .quota-svg {display:block;width:100%;height:auto}
+    #rh-quota-history .quota-svg text {fill:var(--foreground);font-size:12px}
+    #rh-quota-history .quota-line {fill:none;stroke:var(--viz-series-1);stroke-width:2}
+    #rh-quota-history .quota-terminal {fill:var(--background);stroke:var(--viz-series-2);stroke-width:2}
+    #rh-quota-history .quota-stop {fill:var(--viz-series-3)}
+    #rh-quota-history .quota-frame {fill:none;stroke:var(--border);stroke-width:1}
+    #rh-quota-history .quota-guide {stroke:var(--foreground);stroke-width:1;opacity:.4}
+    #rh-quota-history .quota-marker {fill:var(--viz-series-1)}
+    #rh-quota-tooltip {position:absolute;pointer-events:none;background:var(--popover);color:var(--popover-foreground);padding:8px;z-index:2}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script>
+  (() => {
+    const root = document.getElementById('rh-quota-history');
+    const data = /*QUOTA_DATA*/null;
+    if (!data) {root.querySelector('#rh-quota-detail').textContent = 'Generate this view with quota_history.py.';return;}
+    const plot = root.querySelector('#rh-quota-plot');
+    const select = root.querySelector('#rh-quota-range');
+    const detail = root.querySelector('#rh-quota-detail');
+    const tooltip = root.querySelector('#rh-quota-tooltip');
+    const date = value => d3.utcFormat('%d %b %H:%M')(new Date(value * 1000));
+    root.querySelector('#rh-quota-coverage').textContent =
+      `${data.samples.toLocaleString()} logged observations · ${data.episodes.length} observed counter episodes · Monthly billing and activity before these logs are not reconstructed`;
+    function draw() {
+      plot.replaceChildren(); tooltip.hidden = true;
+      const end = data.points[data.points.length - 1][0];
+      const start = select.value === '7' ? end - 7 * 86400 : data.points[0][0];
+      const points = data.points.filter(p => p[0] >= start);
+      if (!points.length) return;
+      const width = Math.max(280, plot.getBoundingClientRect().width);
+      const margin = {left:68,right:16,top:36,bottom:58};
+      const height = 320;
+      const x = d3.scaleUtc().domain(d3.extent(points,p=>new Date(p[0]*1000)))
+        .range([margin.left+5,width-margin.right-5]);
+      const y = d3.scaleLinear().domain([-5,105]).range([height-margin.bottom,margin.top]);
+      const svg = d3.select(plot).append('svg').attr('class','quota-svg')
+        .attr('viewBox',`0 0 ${width} ${height}`).attr('role','img')
+        .attr('aria-label','Recorded remaining subscription allowance over time; zero means fully used.');
+      svg.append('title').text('Recorded subscription allowance remaining');
+      svg.append('desc').text('Each line segment belongs to one observed counter episode. Missing intervals over three hours and counter changes are not interpolated.');
+      svg.append('rect').attr('data-chart-frame','').attr('class','quota-frame')
+        .attr('x',margin.left).attr('y',margin.top).attr('width',width-margin.left-margin.right)
+        .attr('height',height-margin.top-margin.bottom);
+      svg.append('g').attr('transform',`translate(0,${height-margin.bottom})`)
+        .call(d3.axisBottom(x).ticks(width<450?3:6).tickFormat(d3.utcFormat('%d %b')));
+      svg.append('g').attr('transform',`translate(${margin.left},0)`)
+        .call(d3.axisLeft(y).tickValues([0,25,50,75,100]).tickFormat(v=>`${v}%`));
+      svg.append('text').attr('class','axis-title').attr('data-axis','y')
+        .attr('x',margin.left).attr('y',20).text('Remaining (%)');
+      svg.append('text').attr('class','axis-title').attr('data-axis','x')
+        .attr('x',(margin.left+width-margin.right)/2).attr('y',height-12)
+        .attr('text-anchor','middle').text('Observation date (UTC)');
+      const line = d3.line().x(p=>x(new Date(p[0]*1000))).y(p=>y(100-p[1]));
+      let part=[];
+      function flush(){if(part.length)svg.append('path').attr('class','quota-line').attr('d',line(part));part=[];}
+      points.forEach((p,i)=>{
+        const prev=points[i-1];
+        if(prev && (p[2]!==prev[2] || p[0]-prev[0]>10800)) flush();
+        part.push(p);
+      });flush();
+      data.episodes.slice(0,-1).filter(e=>e.end>=start).forEach(e=>{
+        svg.append('circle').attr('class','quota-terminal').attr('cx',x(new Date(e.end*1000)))
+          .attr('cy',y(100-e.last_used)).attr('r',4);
+      });
+      const stopSymbol=d3.symbol().type(d3.symbolTriangle).size(42);
+      data.stops.filter(s=>s.time>=points[0][0] && s.time<=end).forEach(s=>{
+        svg.append('path').attr('class','quota-stop').attr('d',stopSymbol())
+          .attr('transform',`translate(${x(new Date(s.time*1000))},${y(-2)})`);
+      });
+      const guide=svg.append('line').attr('class','quota-guide').attr('y1',margin.top)
+        .attr('y2',height-margin.bottom).attr('visibility','hidden');
+      const marker=svg.append('circle').attr('class','quota-marker').attr('r',4).attr('visibility','hidden');
+      const latest=points[points.length-1];
+      detail.textContent=`Latest observation: ${date(latest[0])} UTC · ${100-latest[1]}% remaining (${latest[1]}% used)`;
+      const bisect=d3.bisector(p=>p[0]).center;
+      function inspect(event){
+        const [px]=d3.pointer(event,svg.node());
+        const p=points[bisect(points,x.invert(px).getTime()/1000)];
+        const e=data.episodes[p[2]];
+        const sx=x(new Date(p[0]*1000)),sy=y(100-p[1]);
+        guide.attr('x1',sx).attr('x2',sx).attr('visibility','visible');
+        marker.attr('cx',sx).attr('cy',sy).attr('visibility','visible');
+        tooltip.textContent=`${date(p[0])} UTC · ${100-p[1]}% remaining · ${p[1]}% used · ${e.plan} · reported reset ${date(e.reset)} UTC`;
+        tooltip.hidden=false;
+        tooltip.style.left='0px';tooltip.style.top='0px';
+        const box=root.getBoundingClientRect();
+        const tw=tooltip.getBoundingClientRect().width;
+        tooltip.style.left=`${Math.max(0,Math.min(event.clientX-box.left+8,width-tw))}px`;
+        tooltip.style.top=`${event.clientY-box.top+14}px`;
+        detail.textContent=`${date(p[0])} UTC · ${100-p[1]}% remaining · Episode peak: ${e.max_used}% used · ${e.samples} observations`;
+      }
+      svg.append('rect').attr('data-chart-hit','').attr('fill','transparent')
+        .attr('x',margin.left).attr('y',margin.top).attr('width',width-margin.left-margin.right)
+        .attr('height',height-margin.top-margin.bottom).on('pointermove',inspect).on('click',inspect)
+        .on('pointerleave',()=>{tooltip.hidden=true;guide.attr('visibility','hidden');marker.attr('visibility','hidden');});
+    }
+    select.addEventListener('change',draw);
+    new ResizeObserver(draw).observe(plot);
+    draw();
+  })();
+  </script>
+</div>
