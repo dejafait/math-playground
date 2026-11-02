@@ -1,0 +1,3 @@
+# Normalized-overlap direct-source recovery — 31 October 2026
+
+Repaired direct primary URLs in the [saved assessment](../drafts/literature/2026-10-31-normalized-overlap-fourth-jet-test.md). Reopened Buescu-Paixao Proposition 2.5 and Csordas Section 3, confirming existing conditional-necessity and overlap scope; reused the prior Durrett proof assessment. No theorem, jet computation, new mathematical evidence or PROOF/DAG change. STALLED records process repair only. Preserve unfinished work and prior failures. Continue with the unchanged actual-theta fourth-jet calculation; quotient regularity and complete-tail certification remain unresolved. No justified creative all-frequency mechanism is ready.

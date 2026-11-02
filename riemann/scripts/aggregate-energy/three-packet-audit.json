@@ -1,0 +1,912 @@
+{
+  "scope": "independent finite and rational replay of L615, not formal verification",
+  "audit_script_sha256": "3b235cac514633b5808c37a517da585e785e361ec15cfdfea9bdb9165129c443",
+  "original_certificate_sha256": "fcd47fb557ea74feee8cd669b03b9906186769cec5f15a10ef1975d7e583a700",
+  "checks": {
+    "no duplicate recorded differences": true,
+    "entire original difference table": true,
+    "all indexed pairs distinct and present": true,
+    "all energy terms classified": true,
+    "energy polynomial": true,
+    "complete certificate energy categories": true,
+    "charge counts and recorded totals": true,
+    "exact admitted packet parameters": true,
+    "conjugation-invariant occurrence multiset": true,
+    "universal coefficient ratio polynomial": true,
+    "positive denominators for k nonnegative": true,
+    "initial power-series coefficient": true,
+    "strict rational square bound": true,
+    "valid geometric-series range": true,
+    "negative multiplier for sinh lower bound": true,
+    "exact strict rational margin": true,
+    "every original rational bound": true,
+    "original has no reported failures": true,
+    "original generator hash": true
+  },
+  "failures": [],
+  "indexed_ordered_pairs": [
+    {
+      "i": 0,
+      "j": 0,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "dx": "-1",
+      "dy": "1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "dx": "-1",
+      "dy": "-1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 0,
+      "j": 6,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 0,
+      "j": 7,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 0,
+      "j": 9,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "dx": "-1",
+      "dy": "1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "dx": "-1",
+      "dy": "-1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 1,
+      "j": 7,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 1,
+      "j": 8,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 1,
+      "j": 9,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "dx": "-1",
+      "dy": "1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "dx": "-1",
+      "dy": "-1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 2,
+      "j": 9,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "dx": "-1",
+      "dy": "1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "dx": "-1",
+      "dy": "-1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 3,
+      "j": 9,
+      "dx": "-2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "dx": "1",
+      "dy": "-1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "dx": "1",
+      "dy": "-1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "dx": "1",
+      "dy": "-1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "dx": "1",
+      "dy": "-1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "dx": "0",
+      "dy": "-1/5",
+      "energy_symbol": "H",
+      "charged": true
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "dx": "-1",
+      "dy": "-1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 4,
+      "j": 7,
+      "dx": "-1",
+      "dy": "-1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 4,
+      "j": 8,
+      "dx": "-1",
+      "dy": "-1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 4,
+      "j": 9,
+      "dx": "-1",
+      "dy": "-1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "dx": "1",
+      "dy": "1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "dx": "1",
+      "dy": "1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "dx": "1",
+      "dy": "1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "dx": "1",
+      "dy": "1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "dx": "0",
+      "dy": "1/5",
+      "energy_symbol": "H",
+      "charged": true
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "dx": "-1",
+      "dy": "1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 5,
+      "j": 7,
+      "dx": "-1",
+      "dy": "1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 5,
+      "j": 8,
+      "dx": "-1",
+      "dy": "1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 5,
+      "j": 9,
+      "dx": "-1",
+      "dy": "1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 6,
+      "j": 0,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 6,
+      "j": 1,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 6,
+      "j": 2,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 6,
+      "j": 3,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 6,
+      "j": 4,
+      "dx": "1",
+      "dy": "1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 6,
+      "j": 5,
+      "dx": "1",
+      "dy": "-1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 6,
+      "j": 6,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 7,
+      "j": 0,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 7,
+      "j": 1,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 7,
+      "j": 2,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 7,
+      "j": 3,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 7,
+      "j": 4,
+      "dx": "1",
+      "dy": "1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 7,
+      "j": 5,
+      "dx": "1",
+      "dy": "-1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 7,
+      "j": 6,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 7,
+      "j": 7,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 7,
+      "j": 9,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 8,
+      "j": 0,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 8,
+      "j": 1,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 8,
+      "j": 2,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 8,
+      "j": 3,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 8,
+      "j": 4,
+      "dx": "1",
+      "dy": "1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 8,
+      "j": 5,
+      "dx": "1",
+      "dy": "-1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 8,
+      "j": 6,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 8,
+      "j": 7,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 8,
+      "j": 8,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 9,
+      "j": 0,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 9,
+      "j": 1,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 9,
+      "j": 2,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 9,
+      "j": 3,
+      "dx": "2",
+      "dy": "0",
+      "energy_symbol": "zero",
+      "charged": false
+    },
+    {
+      "i": 9,
+      "j": 4,
+      "dx": "1",
+      "dy": "1/10",
+      "energy_symbol": "A",
+      "charged": false
+    },
+    {
+      "i": 9,
+      "j": 5,
+      "dx": "1",
+      "dy": "-1/10",
+      "energy_symbol": "A_conjugate",
+      "charged": false
+    },
+    {
+      "i": 9,
+      "j": 6,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 9,
+      "j": 7,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 9,
+      "j": 8,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    },
+    {
+      "i": 9,
+      "j": 9,
+      "dx": "0",
+      "dy": "0",
+      "energy_symbol": "one",
+      "charged": true
+    }
+  ],
+  "ordered_differences": [
+    {
+      "dx": "-2",
+      "dy": "0",
+      "count": 16
+    },
+    {
+      "dx": "-1",
+      "dy": "-1/10",
+      "count": 8
+    },
+    {
+      "dx": "-1",
+      "dy": "1/10",
+      "count": 8
+    },
+    {
+      "dx": "0",
+      "dy": "-1/5",
+      "count": 1
+    },
+    {
+      "dx": "0",
+      "dy": "0",
+      "count": 34
+    },
+    {
+      "dx": "0",
+      "dy": "1/5",
+      "count": 1
+    },
+    {
+      "dx": "1",
+      "dy": "-1/10",
+      "count": 8
+    },
+    {
+      "dx": "1",
+      "dy": "1/10",
+      "count": 8
+    },
+    {
+      "dx": "2",
+      "dy": "0",
+      "count": 16
+    }
+  ],
+  "energy_polynomial": {
+    "one": 34,
+    "A_conjugate": 16,
+    "A": 16,
+    "zero": 32,
+    "H": 2
+  },
+  "M": 36,
+  "ratio_denominator_minus_12_coefficients": [
+    0,
+    14,
+    4
+  ],
+  "bounds": {
+    "pi_upper_standard_input": "22/7",
+    "y_square_strict_upper": "2/5",
+    "geometric_ratio_strict_upper": "2/15",
+    "H_strict_upper": "15/13",
+    "F_upper": "-99/10201",
+    "E_minus_M_strict_upper": "-380/132613",
+    "E_strict_upper": "4773688/132613"
+  },
+  "self_surplus_strict_upper": "4/13",
+  "cross_contribution_upper": "-3168/10201",
+  "required": "E-M<0 for one admitted family",
+  "analytic_inputs_reviewed_in_L615": [
+    "sinc evenness, reality, integer zeros and sin(pi+iy) identity",
+    "absolutely convergent sinh/cosh power series and double-angle identity",
+    "all-k coefficient comparison with nonnegative geometric series",
+    "standard Archimedean pi<22/7 bound and strictness propagation"
+  ],
+  "limitations": [
+    "analytic inputs are reviewed in prose, not verified by this code",
+    "same-session independent replay, not an external referee or Lean proof",
+    "no actual zeta realization or Xi sign is established"
+  ]
+}

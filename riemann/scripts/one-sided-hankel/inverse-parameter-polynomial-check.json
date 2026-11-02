@@ -1,0 +1,170 @@
+{
+  "result": "PASS",
+  "scope": "Exact rational support for L675; no verification of analytic interchanges or a higher-degree cost bound.",
+  "checks": [
+    {
+      "name": "expanded cubic",
+      "actual": [
+        "0",
+        "-30",
+        "53",
+        "-22"
+      ],
+      "relation": "=",
+      "required": [
+        "0",
+        "-30",
+        "53",
+        "-22"
+      ],
+      "passed": true
+    },
+    {
+      "name": "P(0)",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "P(1)",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "P(10/11)",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "full real-part numerator",
+      "actual": [
+        "1",
+        "6",
+        "-83"
+      ],
+      "relation": "=",
+      "required": [
+        "1",
+        "6",
+        "-83"
+      ],
+      "passed": true
+    },
+    {
+      "name": "closed-segment endpoint numerator",
+      "actual": "149812/390625",
+      "relation": "=",
+      "required": "149812/390625",
+      "passed": true
+    },
+    {
+      "name": "endpoint positivity",
+      "actual": "149812/390625",
+      "relation": ">",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "angular minimum at grid mean",
+      "actual": "23/22",
+      "relation": "=",
+      "required": "23/22",
+      "passed": true
+    },
+    {
+      "name": "angular maximum factor",
+      "actual": "41/22",
+      "relation": "=",
+      "required": "41/22",
+      "passed": true
+    },
+    {
+      "name": "half-circle coefficient factor",
+      "actual": "19/26",
+      "relation": "=",
+      "required": "19/26",
+      "passed": true
+    },
+    {
+      "name": "combined cost base",
+      "actual": "299/209",
+      "relation": "=",
+      "required": "299/209",
+      "passed": true
+    },
+    {
+      "name": "cost prefactor",
+      "actual": "1254/1495",
+      "relation": "=",
+      "required": "1254/1495",
+      "passed": true
+    },
+    {
+      "name": "logarithm upper constant",
+      "actual": "87/110",
+      "relation": "=",
+      "required": "87/110",
+      "passed": true
+    },
+    {
+      "name": "lower cost exponent",
+      "actual": "1503/97790",
+      "relation": "=",
+      "required": "1503/97790",
+      "passed": true
+    },
+    {
+      "name": "required cost exponent exceeded",
+      "actual": "1503/97790",
+      "relation": ">",
+      "required": "1/100",
+      "passed": true
+    },
+    {
+      "name": "rate excess",
+      "actual": "5251/977900",
+      "relation": "=",
+      "required": "5251/977900",
+      "passed": true
+    },
+    {
+      "name": "beta2 bracket at J=14",
+      "actual": "26749/7744",
+      "relation": "=",
+      "required": "26749/7744",
+      "passed": true
+    },
+    {
+      "name": "beta2 bracket positivity",
+      "actual": "26749/7744",
+      "relation": ">",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "cubic inverse base",
+      "actual": "23/8",
+      "relation": "=",
+      "required": "23/8",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "degree_obstruction": {
+    "degree_fraction_at_most": "3/7",
+    "actual_proved_rate_lower_bound": "1503/97790",
+    "required_rate": "1/100",
+    "prefactor": "1254/1495"
+  },
+  "unresolved": [
+    "Degrees greater than 3n/7",
+    "higher coefficient zeros and inverse costs",
+    "a budget-feasible continuum-positive polynomial",
+    "original H and Xi realization"
+  ]
+}

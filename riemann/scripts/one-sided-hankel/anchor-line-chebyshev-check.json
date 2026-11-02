@@ -1,0 +1,313 @@
+{
+  "purpose": "Exact arithmetic only; not an independent analytic audit or Xi certificate.",
+  "family": "m odd >=3, n=3m, a_k=-5/4+(i/2)cos((2k-1)pi/(2m)), residues 1",
+  "parameters": {
+    "d": {
+      "numerator": 5,
+      "denominator": 4
+    },
+    "R": {
+      "numerator": 11,
+      "denominator": 8
+    },
+    "eta": {
+      "numerator": 1,
+      "denominator": 100
+    },
+    "r": {
+      "numerator": 1,
+      "denominator": 2
+    },
+    "s": {
+      "numerator": 1,
+      "denominator": 10
+    },
+    "u": {
+      "numerator": 23,
+      "denominator": 20
+    },
+    "p": {
+      "numerator": 100,
+      "denominator": 121
+    },
+    "H": {
+      "numerator": 2116,
+      "denominator": 3025
+    }
+  },
+  "geometry": {
+    "circle_radius_squared": {
+      "numerator": 29,
+      "denominator": 16
+    },
+    "node_clearance_squared_margin": {
+      "numerator": 2029,
+      "denominator": 40000
+    },
+    "ellipse_radius_squared": {
+      "numerator": 377,
+      "denominator": 200
+    },
+    "ellipse_squared_margin": {
+      "numerator": 9,
+      "denominator": 1600
+    },
+    "circle_distance_lower": {
+      "numerator": 5,
+      "denominator": 176
+    },
+    "ellipse_distance_lower": {
+      "numerator": 9,
+      "denominator": 4400
+    }
+  },
+  "factor_polynomial_coefficient_margins": [
+    {
+      "numerator": 2631,
+      "denominator": 12100
+    },
+    {
+      "numerator": 4307991,
+      "denominator": 9150625
+    },
+    {
+      "numerator": 443136,
+      "denominator": 1890625
+    }
+  ],
+  "gain_table": [
+    {
+      "interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1,
+          "denominator": 4
+        }
+      ],
+      "quadratic_minimizer": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "quadratic_minimum": {
+        "numerator": 13,
+        "denominator": 16
+      },
+      "numerator_lower": {
+        "numerator": 1521,
+        "denominator": 2048
+      },
+      "denominator_upper": {
+        "numerator": 436189,
+        "denominator": 65536
+      },
+      "actual_lower": {
+        "numerator": 288,
+        "denominator": 2581
+      },
+      "required_lower": {
+        "numerator": 11,
+        "denominator": 100
+      },
+      "margin": {
+        "numerator": 409,
+        "denominator": 258100
+      },
+      "passed": true
+    },
+    {
+      "interval": [
+        {
+          "numerator": 1,
+          "denominator": 4
+        },
+        {
+          "numerator": 1,
+          "denominator": 2
+        }
+      ],
+      "quadratic_minimizer": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "quadratic_minimum": {
+        "numerator": 95,
+        "denominator": 128
+      },
+      "numerator_lower": {
+        "numerator": 9975,
+        "denominator": 16384
+      },
+      "denominator_upper": {
+        "numerator": 211133,
+        "denominator": 32768
+      },
+      "actual_lower": {
+        "numerator": 19950,
+        "denominator": 211133
+      },
+      "required_lower": {
+        "numerator": 9,
+        "denominator": 100
+      },
+      "margin": {
+        "numerator": 94803,
+        "denominator": 21113300
+      },
+      "passed": true
+    },
+    {
+      "interval": [
+        {
+          "numerator": 1,
+          "denominator": 2
+        },
+        {
+          "numerator": 3,
+          "denominator": 4
+        }
+      ],
+      "quadratic_minimizer": {
+        "numerator": 21,
+        "denominator": 32
+      },
+      "quadratic_minimum": {
+        "numerator": 1495,
+        "denominator": 2048
+      },
+      "numerator_lower": {
+        "numerator": 127075,
+        "denominator": 262144
+      },
+      "denominator_upper": {
+        "numerator": 237133,
+        "denominator": 32768
+      },
+      "actual_lower": {
+        "numerator": 575,
+        "denominator": 8584
+      },
+      "required_lower": {
+        "numerator": 13,
+        "denominator": 200
+      },
+      "margin": {
+        "numerator": 213,
+        "denominator": 107300
+      },
+      "passed": true
+    },
+    {
+      "interval": [
+        {
+          "numerator": 3,
+          "denominator": 4
+        },
+        {
+          "numerator": 1,
+          "denominator": 1
+        }
+      ],
+      "quadratic_minimizer": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "quadratic_minimum": {
+        "numerator": 47,
+        "denominator": 64
+      },
+      "numerator_lower": {
+        "numerator": 2679,
+        "denominator": 8192
+      },
+      "denominator_upper": {
+        "numerator": 610189,
+        "denominator": 65536
+      },
+      "actual_lower": {
+        "numerator": 21432,
+        "denominator": 610189
+      },
+      "required_lower": {
+        "numerator": 7,
+        "denominator": 200
+      },
+      "margin": {
+        "numerator": 15077,
+        "denominator": 122037800
+      },
+      "passed": true
+    }
+  ],
+  "bounds": {
+    "quarter_lower_sum": {
+      "numerator": 3,
+      "denominator": 10
+    },
+    "continuous_decay": {
+      "numerator": 3,
+      "denominator": 80
+    },
+    "finite_grid_log_constant": {
+      "numerator": 3,
+      "denominator": 20
+    },
+    "rho_log_lower": {
+      "numerator": 5,
+      "denominator": 26
+    },
+    "ellipse_growth_upper": {
+      "numerator": 2,
+      "denominator": 23
+    },
+    "quadrature_decay": {
+      "numerator": 37,
+      "denominator": 897
+    },
+    "quadrature_margin_over_continuous": {
+      "numerator": 269,
+      "denominator": 71760
+    },
+    "actual_full_boundary_decay": {
+      "numerator": 3,
+      "denominator": 80
+    },
+    "required_decay": {
+      "numerator": 1,
+      "denominator": 32
+    },
+    "final_decay_margin": {
+      "numerator": 1,
+      "denominator": 160
+    },
+    "full_boundary_prefactor": 720
+  },
+  "checks": {
+    "node_clearance_squared": true,
+    "ellipse_vertex_is_in_range": true,
+    "ellipse_maximum": true,
+    "ellipse_inside_boundary": true,
+    "circle_distance": true,
+    "ellipse_distance": true,
+    "normalized_parameters": true,
+    "all_three_factor_coefficients": true,
+    "quadratic_vertex": true,
+    "all_four_gain_entries": true,
+    "gain_sum": true,
+    "continuous_rate": true,
+    "finite_grid_constant": true,
+    "exponential_constant_below_two": true,
+    "sqrt26_comparison": true,
+    "ellipse_growth_log_bound": true,
+    "geometric_denominator_for_m_ge_three": true,
+    "quadrature_rate": true,
+    "continuous_prefactor": true,
+    "ellipse_prefactor": true,
+    "total_prefactor": true,
+    "final_rate_margin": true
+  },
+  "failures": [],
+  "passed": true
+}

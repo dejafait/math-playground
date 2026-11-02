@@ -1,0 +1,3743 @@
+{
+  "result": "PASS",
+  "scope": "Complete recorded leaf dimensions, ordering, provenance, threshold and counter checks only; no independent enclosure audit",
+  "mathematical_enclosure_evaluations": 0,
+  "scalar_interval_arithmetic_operations": 0,
+  "manifest_sha256": "ec10293adf38cc8405e6822b9f9a5fabcf3860de67b693266fffe357e3f74947",
+  "completed_roots": 82,
+  "completed_through": 691086,
+  "complete_final_leaves": 18208,
+  "all_recorded_leaves": 50973,
+  "evaluations": 50975,
+  "uncompleted_evaluations": 2,
+  "empty_initial_case_evaluations": 2,
+  "total_case_evaluations": 50977,
+  "operations": 268435456,
+  "partial_records": [
+    {
+      "path": "pre-normalization-partial-cell.json",
+      "q": 691028,
+      "recorded_leaves": 27886,
+      "depths": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "path": "partial-cell.json",
+      "q": 691087,
+      "recorded_leaves": 271,
+      "depths": [
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "maximum_recorded_cost_upper": "0.00041324640051515739150849692",
+  "reserve_lower": "0.00042249381587054327798642829",
+  "max_complete_depth": 9,
+  "charges": {
+    "saddle": "1.2548861463378415320704542E-11",
+    "remainder": "0.000020830477230728159125102344"
+  },
+  "checks": [
+    {
+      "name": "producer unchanged",
+      "passed": true
+    },
+    {
+      "name": "input finite-euler-phase-floor-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input l496-certificate-audit.json",
+      "passed": true
+    },
+    {
+      "name": "input mass-audit/audit.json",
+      "passed": true
+    },
+    {
+      "name": "input fixed-corner-two-charge.json",
+      "passed": true
+    },
+    {
+      "name": "input phase-sensitive-256-block-certificate.json",
+      "passed": true
+    },
+    {
+      "name": "input l499-certificate-audit.json",
+      "passed": true
+    },
+    {
+      "name": "exact operation cap",
+      "passed": true
+    },
+    {
+      "name": "evaluation cap respected",
+      "passed": true
+    },
+    {
+      "name": "full case cap including repeated empty cell",
+      "passed": true
+    },
+    {
+      "name": "outcome inconclusive",
+      "passed": true
+    },
+    {
+      "name": "no producer implementation failure",
+      "passed": true
+    },
+    {
+      "name": "canonical consecutive completed roots",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691005.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691005",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691005",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691005",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691005",
+      "passed": true
+    },
+    {
+      "name": "indices 691005",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691005",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691005",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691005",
+      "passed": true
+    },
+    {
+      "name": "root max 691005",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691005",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691006.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691006",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691006",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691006",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691006",
+      "passed": true
+    },
+    {
+      "name": "indices 691006",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691006",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691006",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691006",
+      "passed": true
+    },
+    {
+      "name": "root max 691006",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691006",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691007.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691007",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691007",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691007",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691007",
+      "passed": true
+    },
+    {
+      "name": "indices 691007",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691007",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691007",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691007",
+      "passed": true
+    },
+    {
+      "name": "root max 691007",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691007",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691008.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691008",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691008",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691008",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691008",
+      "passed": true
+    },
+    {
+      "name": "indices 691008",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691008",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691008",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691008",
+      "passed": true
+    },
+    {
+      "name": "root max 691008",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691008",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691009.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691009",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691009",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691009",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691009",
+      "passed": true
+    },
+    {
+      "name": "indices 691009",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691009",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691009",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691009",
+      "passed": true
+    },
+    {
+      "name": "root max 691009",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691009",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691010.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691010",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691010",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691010",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691010",
+      "passed": true
+    },
+    {
+      "name": "indices 691010",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691010",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691010",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691010",
+      "passed": true
+    },
+    {
+      "name": "root max 691010",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691010",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691011.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691011",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691011",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691011",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691011",
+      "passed": true
+    },
+    {
+      "name": "indices 691011",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691011",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691011",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691011",
+      "passed": true
+    },
+    {
+      "name": "root max 691011",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691011",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691012.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691012",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691012",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691012",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691012",
+      "passed": true
+    },
+    {
+      "name": "indices 691012",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691012",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691012",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691012",
+      "passed": true
+    },
+    {
+      "name": "root max 691012",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691012",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691013.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691013",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691013",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691013",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691013",
+      "passed": true
+    },
+    {
+      "name": "indices 691013",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691013",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691013",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691013",
+      "passed": true
+    },
+    {
+      "name": "root max 691013",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691013",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691014.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691014",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691014",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691014",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691014",
+      "passed": true
+    },
+    {
+      "name": "indices 691014",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691014",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691014",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691014",
+      "passed": true
+    },
+    {
+      "name": "root max 691014",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691014",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691015.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691015",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691015",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691015",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691015",
+      "passed": true
+    },
+    {
+      "name": "indices 691015",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691015",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691015",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691015",
+      "passed": true
+    },
+    {
+      "name": "root max 691015",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691015",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691016.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691016",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691016",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691016",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691016",
+      "passed": true
+    },
+    {
+      "name": "indices 691016",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691016",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691016",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691016",
+      "passed": true
+    },
+    {
+      "name": "root max 691016",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691016",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691017.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691017",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691017",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691017",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691017",
+      "passed": true
+    },
+    {
+      "name": "indices 691017",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691017",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691017",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691017",
+      "passed": true
+    },
+    {
+      "name": "root max 691017",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691017",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691018.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691018",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691018",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691018",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691018",
+      "passed": true
+    },
+    {
+      "name": "indices 691018",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691018",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691018",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691018",
+      "passed": true
+    },
+    {
+      "name": "root max 691018",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691018",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691019.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691019",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691019",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691019",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691019",
+      "passed": true
+    },
+    {
+      "name": "indices 691019",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691019",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691019",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691019",
+      "passed": true
+    },
+    {
+      "name": "root max 691019",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691019",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691020.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691020",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691020",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691020",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691020",
+      "passed": true
+    },
+    {
+      "name": "indices 691020",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691020",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691020",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691020",
+      "passed": true
+    },
+    {
+      "name": "root max 691020",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691020",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691021.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691021",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691021",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691021",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691021",
+      "passed": true
+    },
+    {
+      "name": "indices 691021",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691021",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691021",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691021",
+      "passed": true
+    },
+    {
+      "name": "root max 691021",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691021",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691022.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691022",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691022",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691022",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691022",
+      "passed": true
+    },
+    {
+      "name": "indices 691022",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691022",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691022",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691022",
+      "passed": true
+    },
+    {
+      "name": "root max 691022",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691022",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691023.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691023",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691023",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691023",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691023",
+      "passed": true
+    },
+    {
+      "name": "indices 691023",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691023",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691023",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691023",
+      "passed": true
+    },
+    {
+      "name": "root max 691023",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691023",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691024.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691024",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691024",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691024",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691024",
+      "passed": true
+    },
+    {
+      "name": "indices 691024",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691024",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691024",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691024",
+      "passed": true
+    },
+    {
+      "name": "root max 691024",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691024",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691025.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691025",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691025",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691025",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691025",
+      "passed": true
+    },
+    {
+      "name": "indices 691025",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691025",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691025",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691025",
+      "passed": true
+    },
+    {
+      "name": "root max 691025",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691025",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691026.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691026",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691026",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691026",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691026",
+      "passed": true
+    },
+    {
+      "name": "indices 691026",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691026",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691026",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691026",
+      "passed": true
+    },
+    {
+      "name": "root max 691026",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691026",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691027.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691027",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691027",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691027",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691027",
+      "passed": true
+    },
+    {
+      "name": "indices 691027",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691027",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691027",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691027",
+      "passed": true
+    },
+    {
+      "name": "root max 691027",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691027",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691028.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691028",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691028",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691028",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691028",
+      "passed": true
+    },
+    {
+      "name": "indices 691028",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691028",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691028",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691028",
+      "passed": true
+    },
+    {
+      "name": "root max 691028",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691028",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691029.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691029",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691029",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691029",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691029",
+      "passed": true
+    },
+    {
+      "name": "indices 691029",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691029",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691029",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691029",
+      "passed": true
+    },
+    {
+      "name": "root max 691029",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691029",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691030.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691030",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691030",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691030",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691030",
+      "passed": true
+    },
+    {
+      "name": "indices 691030",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691030",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691030",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691030",
+      "passed": true
+    },
+    {
+      "name": "root max 691030",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691030",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691031.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691031",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691031",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691031",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691031",
+      "passed": true
+    },
+    {
+      "name": "indices 691031",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691031",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691031",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691031",
+      "passed": true
+    },
+    {
+      "name": "root max 691031",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691031",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691032.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691032",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691032",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691032",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691032",
+      "passed": true
+    },
+    {
+      "name": "indices 691032",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691032",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691032",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691032",
+      "passed": true
+    },
+    {
+      "name": "root max 691032",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691032",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691033.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691033",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691033",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691033",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691033",
+      "passed": true
+    },
+    {
+      "name": "indices 691033",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691033",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691033",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691033",
+      "passed": true
+    },
+    {
+      "name": "root max 691033",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691033",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691034.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691034",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691034",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691034",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691034",
+      "passed": true
+    },
+    {
+      "name": "indices 691034",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691034",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691034",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691034",
+      "passed": true
+    },
+    {
+      "name": "root max 691034",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691034",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691035.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691035",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691035",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691035",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691035",
+      "passed": true
+    },
+    {
+      "name": "indices 691035",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691035",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691035",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691035",
+      "passed": true
+    },
+    {
+      "name": "root max 691035",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691035",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691036.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691036",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691036",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691036",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691036",
+      "passed": true
+    },
+    {
+      "name": "indices 691036",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691036",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691036",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691036",
+      "passed": true
+    },
+    {
+      "name": "root max 691036",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691036",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691037.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691037",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691037",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691037",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691037",
+      "passed": true
+    },
+    {
+      "name": "indices 691037",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691037",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691037",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691037",
+      "passed": true
+    },
+    {
+      "name": "root max 691037",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691037",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691038.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691038",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691038",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691038",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691038",
+      "passed": true
+    },
+    {
+      "name": "indices 691038",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691038",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691038",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691038",
+      "passed": true
+    },
+    {
+      "name": "root max 691038",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691038",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691039.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691039",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691039",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691039",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691039",
+      "passed": true
+    },
+    {
+      "name": "indices 691039",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691039",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691039",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691039",
+      "passed": true
+    },
+    {
+      "name": "root max 691039",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691039",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691040.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691040",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691040",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691040",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691040",
+      "passed": true
+    },
+    {
+      "name": "indices 691040",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691040",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691040",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691040",
+      "passed": true
+    },
+    {
+      "name": "root max 691040",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691040",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691041.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691041",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691041",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691041",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691041",
+      "passed": true
+    },
+    {
+      "name": "indices 691041",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691041",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691041",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691041",
+      "passed": true
+    },
+    {
+      "name": "root max 691041",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691041",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691042.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691042",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691042",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691042",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691042",
+      "passed": true
+    },
+    {
+      "name": "indices 691042",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691042",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691042",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691042",
+      "passed": true
+    },
+    {
+      "name": "root max 691042",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691042",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691043.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691043",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691043",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691043",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691043",
+      "passed": true
+    },
+    {
+      "name": "indices 691043",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691043",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691043",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691043",
+      "passed": true
+    },
+    {
+      "name": "root max 691043",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691043",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691044.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691044",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691044",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691044",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691044",
+      "passed": true
+    },
+    {
+      "name": "indices 691044",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691044",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691044",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691044",
+      "passed": true
+    },
+    {
+      "name": "root max 691044",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691044",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691045.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691045",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691045",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691045",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691045",
+      "passed": true
+    },
+    {
+      "name": "indices 691045",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691045",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691045",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691045",
+      "passed": true
+    },
+    {
+      "name": "root max 691045",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691045",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691046.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691046",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691046",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691046",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691046",
+      "passed": true
+    },
+    {
+      "name": "indices 691046",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691046",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691046",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691046",
+      "passed": true
+    },
+    {
+      "name": "root max 691046",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691046",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691047.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691047",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691047",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691047",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691047",
+      "passed": true
+    },
+    {
+      "name": "indices 691047",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691047",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691047",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691047",
+      "passed": true
+    },
+    {
+      "name": "root max 691047",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691047",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691048.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691048",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691048",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691048",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691048",
+      "passed": true
+    },
+    {
+      "name": "indices 691048",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691048",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691048",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691048",
+      "passed": true
+    },
+    {
+      "name": "root max 691048",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691048",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691049.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691049",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691049",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691049",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691049",
+      "passed": true
+    },
+    {
+      "name": "indices 691049",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691049",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691049",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691049",
+      "passed": true
+    },
+    {
+      "name": "root max 691049",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691049",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691050.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691050",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691050",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691050",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691050",
+      "passed": true
+    },
+    {
+      "name": "indices 691050",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691050",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691050",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691050",
+      "passed": true
+    },
+    {
+      "name": "root max 691050",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691050",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691051.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691051",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691051",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691051",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691051",
+      "passed": true
+    },
+    {
+      "name": "indices 691051",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691051",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691051",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691051",
+      "passed": true
+    },
+    {
+      "name": "root max 691051",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691051",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691052.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691052",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691052",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691052",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691052",
+      "passed": true
+    },
+    {
+      "name": "indices 691052",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691052",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691052",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691052",
+      "passed": true
+    },
+    {
+      "name": "root max 691052",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691052",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691053.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691053",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691053",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691053",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691053",
+      "passed": true
+    },
+    {
+      "name": "indices 691053",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691053",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691053",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691053",
+      "passed": true
+    },
+    {
+      "name": "root max 691053",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691053",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691054.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691054",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691054",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691054",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691054",
+      "passed": true
+    },
+    {
+      "name": "indices 691054",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691054",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691054",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691054",
+      "passed": true
+    },
+    {
+      "name": "root max 691054",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691054",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691055.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691055",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691055",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691055",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691055",
+      "passed": true
+    },
+    {
+      "name": "indices 691055",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691055",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691055",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691055",
+      "passed": true
+    },
+    {
+      "name": "root max 691055",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691055",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691056.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691056",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691056",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691056",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691056",
+      "passed": true
+    },
+    {
+      "name": "indices 691056",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691056",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691056",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691056",
+      "passed": true
+    },
+    {
+      "name": "root max 691056",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691056",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691057.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691057",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691057",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691057",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691057",
+      "passed": true
+    },
+    {
+      "name": "indices 691057",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691057",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691057",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691057",
+      "passed": true
+    },
+    {
+      "name": "root max 691057",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691057",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691058.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691058",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691058",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691058",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691058",
+      "passed": true
+    },
+    {
+      "name": "indices 691058",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691058",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691058",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691058",
+      "passed": true
+    },
+    {
+      "name": "root max 691058",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691058",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691059.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691059",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691059",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691059",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691059",
+      "passed": true
+    },
+    {
+      "name": "indices 691059",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691059",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691059",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691059",
+      "passed": true
+    },
+    {
+      "name": "root max 691059",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691059",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691060.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691060",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691060",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691060",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691060",
+      "passed": true
+    },
+    {
+      "name": "indices 691060",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691060",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691060",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691060",
+      "passed": true
+    },
+    {
+      "name": "root max 691060",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691060",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691061.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691061",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691061",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691061",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691061",
+      "passed": true
+    },
+    {
+      "name": "indices 691061",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691061",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691061",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691061",
+      "passed": true
+    },
+    {
+      "name": "root max 691061",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691061",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691062.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691062",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691062",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691062",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691062",
+      "passed": true
+    },
+    {
+      "name": "indices 691062",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691062",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691062",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691062",
+      "passed": true
+    },
+    {
+      "name": "root max 691062",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691062",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691063.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691063",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691063",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691063",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691063",
+      "passed": true
+    },
+    {
+      "name": "indices 691063",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691063",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691063",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691063",
+      "passed": true
+    },
+    {
+      "name": "root max 691063",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691063",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691064.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691064",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691064",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691064",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691064",
+      "passed": true
+    },
+    {
+      "name": "indices 691064",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691064",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691064",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691064",
+      "passed": true
+    },
+    {
+      "name": "root max 691064",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691064",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691065.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691065",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691065",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691065",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691065",
+      "passed": true
+    },
+    {
+      "name": "indices 691065",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691065",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691065",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691065",
+      "passed": true
+    },
+    {
+      "name": "root max 691065",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691065",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691066.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691066",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691066",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691066",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691066",
+      "passed": true
+    },
+    {
+      "name": "indices 691066",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691066",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691066",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691066",
+      "passed": true
+    },
+    {
+      "name": "root max 691066",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691066",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691067.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691067",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691067",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691067",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691067",
+      "passed": true
+    },
+    {
+      "name": "indices 691067",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691067",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691067",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691067",
+      "passed": true
+    },
+    {
+      "name": "root max 691067",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691067",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691068.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691068",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691068",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691068",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691068",
+      "passed": true
+    },
+    {
+      "name": "indices 691068",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691068",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691068",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691068",
+      "passed": true
+    },
+    {
+      "name": "root max 691068",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691068",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691069.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691069",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691069",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691069",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691069",
+      "passed": true
+    },
+    {
+      "name": "indices 691069",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691069",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691069",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691069",
+      "passed": true
+    },
+    {
+      "name": "root max 691069",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691069",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691070.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691070",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691070",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691070",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691070",
+      "passed": true
+    },
+    {
+      "name": "indices 691070",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691070",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691070",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691070",
+      "passed": true
+    },
+    {
+      "name": "root max 691070",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691070",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691071.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691071",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691071",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691071",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691071",
+      "passed": true
+    },
+    {
+      "name": "indices 691071",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691071",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691071",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691071",
+      "passed": true
+    },
+    {
+      "name": "root max 691071",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691071",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691072.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691072",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691072",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691072",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691072",
+      "passed": true
+    },
+    {
+      "name": "indices 691072",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691072",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691072",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691072",
+      "passed": true
+    },
+    {
+      "name": "root max 691072",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691072",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691073.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691073",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691073",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691073",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691073",
+      "passed": true
+    },
+    {
+      "name": "indices 691073",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691073",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691073",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691073",
+      "passed": true
+    },
+    {
+      "name": "root max 691073",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691073",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691074.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691074",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691074",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691074",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691074",
+      "passed": true
+    },
+    {
+      "name": "indices 691074",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691074",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691074",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691074",
+      "passed": true
+    },
+    {
+      "name": "root max 691074",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691074",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691075.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691075",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691075",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691075",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691075",
+      "passed": true
+    },
+    {
+      "name": "indices 691075",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691075",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691075",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691075",
+      "passed": true
+    },
+    {
+      "name": "root max 691075",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691075",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691076.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691076",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691076",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691076",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691076",
+      "passed": true
+    },
+    {
+      "name": "indices 691076",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691076",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691076",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691076",
+      "passed": true
+    },
+    {
+      "name": "root max 691076",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691076",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691077.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691077",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691077",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691077",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691077",
+      "passed": true
+    },
+    {
+      "name": "indices 691077",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691077",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691077",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691077",
+      "passed": true
+    },
+    {
+      "name": "root max 691077",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691077",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691078.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691078",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691078",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691078",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691078",
+      "passed": true
+    },
+    {
+      "name": "indices 691078",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691078",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691078",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691078",
+      "passed": true
+    },
+    {
+      "name": "root max 691078",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691078",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691079.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691079",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691079",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691079",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691079",
+      "passed": true
+    },
+    {
+      "name": "indices 691079",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691079",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691079",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691079",
+      "passed": true
+    },
+    {
+      "name": "root max 691079",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691079",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691080.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691080",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691080",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691080",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691080",
+      "passed": true
+    },
+    {
+      "name": "indices 691080",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691080",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691080",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691080",
+      "passed": true
+    },
+    {
+      "name": "root max 691080",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691080",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691081.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691081",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691081",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691081",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691081",
+      "passed": true
+    },
+    {
+      "name": "indices 691081",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691081",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691081",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691081",
+      "passed": true
+    },
+    {
+      "name": "root max 691081",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691081",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691082.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691082",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691082",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691082",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691082",
+      "passed": true
+    },
+    {
+      "name": "indices 691082",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691082",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691082",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691082",
+      "passed": true
+    },
+    {
+      "name": "root max 691082",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691082",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691083.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691083",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691083",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691083",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691083",
+      "passed": true
+    },
+    {
+      "name": "indices 691083",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691083",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691083",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691083",
+      "passed": true
+    },
+    {
+      "name": "root max 691083",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691083",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691084.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691084",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691084",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691084",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691084",
+      "passed": true
+    },
+    {
+      "name": "indices 691084",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691084",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691084",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691084",
+      "passed": true
+    },
+    {
+      "name": "root max 691084",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691084",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691085.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691085",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691085",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691085",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691085",
+      "passed": true
+    },
+    {
+      "name": "indices 691085",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691085",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691085",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691085",
+      "passed": true
+    },
+    {
+      "name": "root max 691085",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691085",
+      "passed": true
+    },
+    {
+      "name": "hash cell-691086.json",
+      "passed": true
+    },
+    {
+      "name": "ordered intervals 691086",
+      "passed": true
+    },
+    {
+      "name": "canonical left entry 691086",
+      "passed": true
+    },
+    {
+      "name": "right closure comparison 691086",
+      "passed": true
+    },
+    {
+      "name": "full final partition 691086",
+      "passed": true
+    },
+    {
+      "name": "indices 691086",
+      "passed": true
+    },
+    {
+      "name": "depth cap 691086",
+      "passed": true
+    },
+    {
+      "name": "all complete dimensions 691086",
+      "passed": true
+    },
+    {
+      "name": "strict final thresholds 691086",
+      "passed": true
+    },
+    {
+      "name": "root max 691086",
+      "passed": true
+    },
+    {
+      "name": "root evaluation count 691086",
+      "passed": true
+    },
+    {
+      "name": "prior interrupted manifest hash",
+      "passed": true
+    },
+    {
+      "name": "prior producer hash",
+      "passed": true
+    },
+    {
+      "name": "partial hash pre-normalization-partial-cell.json",
+      "passed": true
+    },
+    {
+      "name": "partial ordered intervals pre-normalization-partial-cell.json",
+      "passed": true
+    },
+    {
+      "name": "partial hash partial-cell.json",
+      "passed": true
+    },
+    {
+      "name": "partial ordered intervals partial-cell.json",
+      "passed": true
+    },
+    {
+      "name": "incomplete interrupted and capped evaluations counted",
+      "passed": true
+    },
+    {
+      "name": "final maximum matches every complete cell",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

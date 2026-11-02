@@ -1,0 +1,144 @@
+{
+  "lemma": "L656",
+  "scope": "Exact scalar witnesses only; the canonical lemma proves the analytic claims.",
+  "required_squared_rate": "1/16",
+  "actual_squared_rate": "1/16 on the stated two-cloud subfamily only",
+  "squared_prefactor": "1/4",
+  "proved_subfamily": "n>=32768; two centers in Z; distance to their union <=2^(-34); original M<=n/3",
+  "checks": [
+    {
+      "name": "general contour radius ceiling",
+      "actual": "1/48",
+      "relation": "<",
+      "required": "1/16",
+      "passed": true
+    },
+    {
+      "name": "center ordinate squared",
+      "actual": "12029/40000",
+      "relation": "<",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "kernel factor bound",
+      "actual": "33/16",
+      "relation": "<",
+      "required": "11/4",
+      "passed": true
+    },
+    {
+      "name": "contour analytic clearance",
+      "actual": "571/400",
+      "relation": "<",
+      "required": "3/2",
+      "passed": true
+    },
+    {
+      "name": "product logarithm coefficient",
+      "actual": "22/3",
+      "relation": "<",
+      "required": "8",
+      "passed": true
+    },
+    {
+      "name": "minimum chosen order",
+      "actual": "16",
+      "relation": ">=",
+      "required": "16",
+      "passed": true
+    },
+    {
+      "name": "ceiling density",
+      "actual": "17/32768",
+      "relation": "<=",
+      "required": "17/32768",
+      "passed": true
+    },
+    {
+      "name": "pole radius over contour radius",
+      "actual": "1/1048576",
+      "relation": "<=",
+      "required": "1/1048576",
+      "passed": true
+    },
+    {
+      "name": "Cauchy prefactor",
+      "actual": "2097152/1048575",
+      "relation": "<",
+      "required": "3",
+      "passed": true
+    },
+    {
+      "name": "two-center numerator ratio",
+      "actual": "3/64",
+      "relation": "<=",
+      "required": "3/64",
+      "passed": true
+    },
+    {
+      "name": "error exponential base",
+      "actual": "9/64",
+      "relation": "<",
+      "required": "1/4",
+      "passed": true
+    },
+    {
+      "name": "weighted error at minimum order",
+      "actual": "3/131072",
+      "relation": "<",
+      "required": "1/4",
+      "passed": true
+    },
+    {
+      "name": "norm-base exponential witness",
+      "actual": "8589934592/177147",
+      "relation": ">",
+      "required": "45056",
+      "passed": true
+    },
+    {
+      "name": "norm exponent",
+      "actual": "425/32768",
+      "relation": "<",
+      "required": "1/64",
+      "passed": true
+    },
+    {
+      "name": "original diagonal prefactor squared",
+      "actual": "3699/1250",
+      "relation": ">",
+      "required": "121/64",
+      "passed": true
+    },
+    {
+      "name": "square-root cost absorption",
+      "actual": "8192",
+      "relation": ">=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "correction coefficient squared",
+      "actual": "21",
+      "relation": "<",
+      "required": "39456/625",
+      "passed": true
+    },
+    {
+      "name": "correction at onset",
+      "actual": "3/8192",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true
+    },
+    {
+      "name": "small-mass density for L654",
+      "actual": "17/16384",
+      "relation": "<",
+      "required": "1/384",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

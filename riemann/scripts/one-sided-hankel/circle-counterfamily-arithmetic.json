@@ -1,0 +1,192 @@
+{
+  "scope": "Exact rational arithmetic; analytic proof is separate.",
+  "parameters": {
+    "delta": {
+      "numerator": 2,
+      "denominator": 5
+    },
+    "eta": {
+      "numerator": 1,
+      "denominator": 100
+    },
+    "d": {
+      "numerator": 11,
+      "denominator": 10
+    },
+    "R": {
+      "numerator": 13,
+      "denominator": 10
+    },
+    "u": {
+      "numerator": 239,
+      "denominator": 200
+    },
+    "r": {
+      "numerator": 19,
+      "denominator": 200
+    },
+    "s": {
+      "numerator": 1,
+      "denominator": 10
+    },
+    "C": {
+      "numerator": 10,
+      "denominator": 1
+    }
+  },
+  "derivative_rectangle_terms": [
+    {
+      "k": 1,
+      "t": {
+        "numerator": 1,
+        "denominator": 8
+      },
+      "derivative": {
+        "numerator": 174732684900,
+        "denominator": 212757543401
+      },
+      "lower_thousandths": 821,
+      "cross_product_margin": 58741767779
+    },
+    {
+      "k": 2,
+      "t": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "derivative": {
+        "numerator": 3490172448,
+        "denominator": 4495483021
+      },
+      "lower_thousandths": 776,
+      "cross_product_margin": 1677623704
+    },
+    {
+      "k": 3,
+      "t": {
+        "numerator": 3,
+        "denominator": 8
+      },
+      "derivative": {
+        "numerator": 34707536980,
+        "denominator": 49103168593
+      },
+      "lower_thousandths": 706,
+      "cross_product_margin": 40699953342
+    },
+    {
+      "k": 4,
+      "t": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "derivative": {
+        "numerator": 21365452800,
+        "denominator": 34506704737
+      },
+      "lower_thousandths": 619,
+      "cross_product_margin": 5802567797
+    },
+    {
+      "k": 5,
+      "t": {
+        "numerator": 5,
+        "denominator": 8
+      },
+      "derivative": {
+        "numerator": 165411684900,
+        "denominator": 317886962093
+      },
+      "lower_thousandths": 520,
+      "cross_product_margin": 110464611640
+    },
+    {
+      "k": 6,
+      "t": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "derivative": {
+        "numerator": 77694311200,
+        "denominator": 186471824653
+      },
+      "lower_thousandths": 416,
+      "cross_product_margin": 122032144352
+    },
+    {
+      "k": 7,
+      "t": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "derivative": {
+        "numerator": 27776536980,
+        "denominator": 88715988157
+      },
+      "lower_thousandths": 313,
+      "cross_product_margin": 8432686859
+    },
+    {
+      "k": 8,
+      "t": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "derivative": {
+        "numerator": 709772640,
+        "denominator": 3328628033
+      },
+      "lower_thousandths": 213,
+      "cross_product_margin": 774868971
+    }
+  ],
+  "rectangle_average": {
+    "numerator": 6679334924025304795138980926695974382321376708080177266043795584141137447929200986,
+    "denominator": 12180298818068594525362851891178614326122924477429719042310237270610463319428463841
+  },
+  "required_rectangle_threshold": {
+    "numerator": 27,
+    "denominator": 50
+  },
+  "rectangle_margin": {
+    "numerator": 5098678113413187572152045272976132310749874513406449159813372900574362771891525593,
+    "denominator": 609014940903429726268142594558930716306146223871485952115511863530523165971423192050
+  },
+  "table_lower_average": {
+    "numerator": 137,
+    "denominator": 250
+  },
+  "factor_constant": {
+    "numerator": 55700,
+    "denominator": 37011
+  },
+  "product_exponent_lower_bound": {
+    "numerator": 513,
+    "denominator": 10000
+  },
+  "required_exponent": {
+    "numerator": 1,
+    "denominator": 20
+  },
+  "strict_exponent_gap": {
+    "numerator": 13,
+    "denominator": 10000
+  },
+  "checks": {
+    "parameter_range": true,
+    "anchor": true,
+    "clearance": true,
+    "taylor_boundary_clearance": true,
+    "monotone_v_first_term": true,
+    "monotone_v_second_term": true,
+    "factor_constant_below_two": true,
+    "eight_rectangle_threshold": true,
+    "all_table_cross_products_positive": true,
+    "table_lower_average": true,
+    "product_exponent": true,
+    "strict_exponent_gap": true,
+    "geometric_denominator_at_n5": true,
+    "final_prefactor": true
+  },
+  "failures": []
+}

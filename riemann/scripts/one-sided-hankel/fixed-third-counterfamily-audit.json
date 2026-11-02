@@ -1,0 +1,1563 @@
+{
+  "purpose": "Independent arithmetic audit; analytic proof remains canonical in C645k.",
+  "summary": {
+    "passed": true,
+    "failures": [],
+    "table_rows_checked": 64,
+    "table_checks_per_row": 8,
+    "mean_lower": "176969/320000",
+    "mean_required": ">11/20",
+    "gamma": "5008250/108585927",
+    "gamma_required": "<7/150",
+    "K": "536000/36195309",
+    "K_required": "<1/50",
+    "operator_prefactor": "216400/81",
+    "prefactor_required": "<2700",
+    "product_rate": "253/8000",
+    "required_rate": ">1/32",
+    "strict_rate_margin": "3/8000",
+    "quadrature_error_rate": "1/1675"
+  },
+  "checks": {
+    "literal_table_length": {
+      "actual": 64,
+      "required": 64,
+      "passed": true
+    },
+    "stored_table_length": {
+      "actual": 64,
+      "required": 64,
+      "passed": true
+    },
+    "literal_integer_sum": {
+      "actual": 353938,
+      "required": 353938,
+      "passed": true
+    },
+    "right_rectangle_average": {
+      "actual": "176969/320000",
+      "required": "> 11/20",
+      "passed": true
+    },
+    "anchor": {
+      "actual": "5/4",
+      "required": "5/4",
+      "passed": true
+    },
+    "pole_clearance": {
+      "actual": "273/200",
+      "required": "273/200",
+      "passed": true
+    },
+    "auxiliary_disk_margin": {
+      "actual": "1/2000",
+      "required": "1/2000 > 0",
+      "passed": true
+    },
+    "auxiliary_circle_encloses_roots": {
+      "actual": "19/2000",
+      "required": "> 0",
+      "passed": true
+    },
+    "disk_denominator_lower_bounds": {
+      "actual": [
+        "2481/2000",
+        "14589/8000"
+      ],
+      "required": "both > 0",
+      "passed": true
+    },
+    "product_monotonicity_parameters": {
+      "actual": [
+        "5/4",
+        "933/1600"
+      ],
+      "required": "d>1 and R^2-u>0",
+      "passed": true
+    },
+    "gamma": {
+      "actual": "5008250/108585927",
+      "required": "5008250/108585927 < 7/150",
+      "passed": true
+    },
+    "K": {
+      "actual": "536000/36195309",
+      "required": "536000/36195309 < 1/50",
+      "passed": true
+    },
+    "gamma_cross_product": {
+      "actual": 8863989,
+      "required": 8863989,
+      "passed": true
+    },
+    "K_cross_product": {
+      "actual": 9395309,
+      "required": 9395309,
+      "passed": true
+    },
+    "radius_ratio": {
+      "actual": "115/134",
+      "required": "115/134",
+      "passed": true
+    },
+    "m8_geometric_threshold": {
+      "actual": "76/67",
+      "required": "76/67 > 1",
+      "passed": true
+    },
+    "quadrature_error_rate": {
+      "actual": "1/1675",
+      "required": "1/1675 > 0",
+      "passed": true
+    },
+    "operator_prefactor": {
+      "actual": "216400/81",
+      "required": "< 2700",
+      "passed": true
+    },
+    "product_rate": {
+      "actual": "253/8000",
+      "required": "253/8000 > 1/32",
+      "passed": true
+    },
+    "strict_rate_margin": {
+      "actual": "3/8000",
+      "required": "3/8000 > 0",
+      "passed": true
+    },
+    "stored_bound_gamma": {
+      "actual": "5008250/108585927",
+      "required": "5008250/108585927",
+      "passed": true
+    },
+    "stored_bound_gamma_required_upper": {
+      "actual": "7/150",
+      "required": "7/150",
+      "passed": true
+    },
+    "stored_bound_K": {
+      "actual": "536000/36195309",
+      "required": "536000/36195309",
+      "passed": true
+    },
+    "stored_bound_K_required_upper": {
+      "actual": "1/50",
+      "required": "1/50",
+      "passed": true
+    },
+    "stored_bound_right_sum_lower": {
+      "actual": "176969/320000",
+      "required": "176969/320000",
+      "passed": true
+    },
+    "stored_bound_mean_required_lower": {
+      "actual": "11/20",
+      "required": "11/20",
+      "passed": true
+    },
+    "stored_bound_beta": {
+      "actual": "253/8000",
+      "required": "253/8000",
+      "passed": true
+    },
+    "stored_bound_target_rate": {
+      "actual": "1/32",
+      "required": "1/32",
+      "passed": true
+    },
+    "stored_bound_rate_margin": {
+      "actual": "3/8000",
+      "required": "3/8000",
+      "passed": true
+    },
+    "stored_bound_quadrature_error_rate": {
+      "actual": "1/1675",
+      "required": "1/1675",
+      "passed": true
+    },
+    "stored_integer_sum": {
+      "actual": 353938,
+      "required": 353938,
+      "passed": true
+    },
+    "stored_literal_integers": {
+      "actual": [
+        7646,
+        7640,
+        7630,
+        7616,
+        7598,
+        7577,
+        7551,
+        7522,
+        7489,
+        7452,
+        7411,
+        7367,
+        7319,
+        7268,
+        7214,
+        7156,
+        7095,
+        7031,
+        6963,
+        6893,
+        6820,
+        6744,
+        6666,
+        6584,
+        6501,
+        6415,
+        6327,
+        6236,
+        6144,
+        6049,
+        5953,
+        5855,
+        5756,
+        5654,
+        5552,
+        5448,
+        5343,
+        5237,
+        5129,
+        5021,
+        4912,
+        4802,
+        4692,
+        4581,
+        4469,
+        4358,
+        4245,
+        4133,
+        4020,
+        3907,
+        3795,
+        3682,
+        3569,
+        3456,
+        3344,
+        3232,
+        3120,
+        3009,
+        2898,
+        2787,
+        2677,
+        2568,
+        2459,
+        2351
+      ],
+      "required": [
+        7646,
+        7640,
+        7630,
+        7616,
+        7598,
+        7577,
+        7551,
+        7522,
+        7489,
+        7452,
+        7411,
+        7367,
+        7319,
+        7268,
+        7214,
+        7156,
+        7095,
+        7031,
+        6963,
+        6893,
+        6820,
+        6744,
+        6666,
+        6584,
+        6501,
+        6415,
+        6327,
+        6236,
+        6144,
+        6049,
+        5953,
+        5855,
+        5756,
+        5654,
+        5552,
+        5448,
+        5343,
+        5237,
+        5129,
+        5021,
+        4912,
+        4802,
+        4692,
+        4581,
+        4469,
+        4358,
+        4245,
+        4133,
+        4020,
+        3907,
+        3795,
+        3682,
+        3569,
+        3456,
+        3344,
+        3232,
+        3120,
+        3009,
+        2898,
+        2787,
+        2677,
+        2568,
+        2459,
+        2351
+      ],
+      "passed": true
+    },
+    "original_checks": {
+      "actual": {
+        "anchor": true,
+        "clearance": true,
+        "auxiliary_radii": true,
+        "left_half_plane": true,
+        "factor_denominators": true,
+        "derivative_monotonicity_rectangle": true,
+        "gamma_bound": true,
+        "constant_bound": true,
+        "all_64_lower_entries": true,
+        "mean_gain": true,
+        "product_rate": true,
+        "error_rate": true,
+        "geometric_denominator_for_m_ge_8": true,
+        "boundary_kernel_constant": true,
+        "full_boundary_prefactor": true
+      },
+      "required": "all true",
+      "passed": true
+    },
+    "original_failures": {
+      "actual": [],
+      "required": [],
+      "passed": true
+    }
+  },
+  "table": [
+    {
+      "k": 1,
+      "b": 7646,
+      "value": {
+        "numerator": 7841016701250000,
+        "denominator": 10254790868617081
+      },
+      "integer_cross_product": 2036031053798674,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 2,
+      "b": 7640,
+      "value": {
+        "numerator": 490063421250000,
+        "denominator": 641423562650989
+      },
+      "integer_cross_product": 158193846444040,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 3,
+      "b": 7630,
+      "value": {
+        "numerator": 7841006241250000,
+        "denominator": 10276094063638729
+      },
+      "integer_cross_product": 3464706936497730,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 4,
+      "b": 7616,
+      "value": {
+        "numerator": 15314420625000,
+        "denominator": 20106938104733
+      },
+      "integer_cross_product": 9765644353472,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 5,
+      "b": 7598,
+      "value": {
+        "numerator": 313637404530000,
+        "denominator": 412750644025681
+      },
+      "integer_cross_product": 294651992875762,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 6,
+      "b": 7577,
+      "value": {
+        "numerator": 490052961250000,
+        "denominator": 646759618743901
+      },
+      "integer_cross_product": 31981277462123,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 7,
+      "b": 7551,
+      "value": {
+        "numerator": 7840702901250000,
+        "denominator": 10382938273546969
+      },
+      "integer_cross_product": 5462108946837081,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 8,
+      "b": 7522,
+      "value": {
+        "numerator": 7656720000000,
+        "denominator": 10178853408841
+      },
+      "integer_cross_product": 1864658697998,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 9,
+      "b": 7489,
+      "value": {
+        "numerator": 7840158981250000,
+        "denominator": 10468807523233561
+      },
+      "integer_cross_product": 690271003861671,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 10,
+      "b": 7452,
+      "value": {
+        "numerator": 529710090000,
+        "denominator": 710807976097
+      },
+      "integer_cross_product": 159862125156,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 11,
+      "b": 7411,
+      "value": {
+        "numerator": 64785971250000,
+        "denominator": 87410218492081
+      },
+      "integer_cross_product": 62583255187709,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 12,
+      "b": 7367,
+      "value": {
+        "numerator": 527903125000,
+        "denominator": 716519785693
+      },
+      "integer_cross_product": 429988799669,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 13,
+      "b": 7319,
+      "value": {
+        "numerator": 7837282481250000,
+        "denominator": 10706753251271689
+      },
+      "integer_cross_product": 10097766442508209,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 14,
+      "b": 7268,
+      "value": {
+        "numerator": 489749621250000,
+        "denominator": 673768134008461
+      },
+      "integer_cross_product": 549414526505452,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 15,
+      "b": 7214,
+      "value": {
+        "numerator": 313375904530000,
+        "denominator": 434382073847329
+      },
+      "integer_cross_product": 126764565368594,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 16,
+      "b": 7156,
+      "value": {
+        "numerator": 956109375000,
+        "denominator": 1336010479733
+      },
+      "integer_cross_product": 602757030652,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 17,
+      "b": 7095,
+      "value": {
+        "numerator": 270003326250000,
+        "denominator": 380534198310221
+      },
+      "integer_cross_product": 143125488982005,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 18,
+      "b": 7031,
+      "value": {
+        "numerator": 489205701250000,
+        "denominator": 695768827980109
+      },
+      "integer_cross_product": 106382971853621,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 19,
+      "b": 6963,
+      "value": {
+        "numerator": 7823977361250000,
+        "denominator": 11235098141391241
+      },
+      "integer_cross_product": 9785253992788917,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 20,
+      "b": 6893,
+      "value": {
+        "numerator": 610945065000,
+        "denominator": 886246745033
+      },
+      "integer_cross_product": 551836487531,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 21,
+      "b": 6820,
+      "value": {
+        "numerator": 7815588441250000,
+        "denominator": 11458961840007721
+      },
+      "integer_cross_product": 5764663647342780,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 22,
+      "b": 6744,
+      "value": {
+        "numerator": 4034291250000,
+        "denominator": 5981504525989
+      },
+      "integer_cross_product": 3645976730184,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 23,
+      "b": 6666,
+      "value": {
+        "numerator": 7804427621250000,
+        "denominator": 11707739316445849
+      },
+      "integer_cross_product": 485929071970566,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 24,
+      "b": 6584,
+      "value": {
+        "numerator": 7614880000000,
+        "denominator": 11564154119569
+      },
+      "integer_cross_product": 10409276757704,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 25,
+      "b": 6501,
+      "value": {
+        "numerator": 498556327248,
+        "denominator": 766857771985
+      },
+      "integer_cross_product": 220896805515,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 26,
+      "b": 6415,
+      "value": {
+        "numerator": 486329201250000,
+        "denominator": 758076027802141
+      },
+      "integer_cross_product": 234294149265485,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 27,
+      "b": 6327,
+      "value": {
+        "numerator": 210041376250000,
+        "denominator": 331972695026677
+      },
+      "integer_cross_product": 22521066214621,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 28,
+      "b": 6236,
+      "value": {
+        "numerator": 15157520625000,
+        "denominator": 24303869586917
+      },
+      "integer_cross_product": 16275505985588,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 29,
+      "b": 6144,
+      "value": {
+        "numerator": 7748539841250000,
+        "denominator": 12611103813090121
+      },
+      "integer_cross_product": 2776584874296576,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 30,
+      "b": 6049,
+      "value": {
+        "numerator": 19337773330000,
+        "denominator": 31964186008501
+      },
+      "integer_cross_product": 26372134577451,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 31,
+      "b": 5953,
+      "value": {
+        "numerator": 7720266461250000,
+        "denominator": 12967414036014841
+      },
+      "integer_cross_product": 7648856103651527,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 32,
+      "b": 5855,
+      "value": {
+        "numerator": 1880838750000,
+        "denominator": 3212023400989
+      },
+      "integer_cross_product": 1990487209405,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 33,
+      "b": 5756,
+      "value": {
+        "numerator": 63520311250000,
+        "denominator": 110354587513729
+      },
+      "integer_cross_product": 2106770975876,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 34,
+      "b": 5654,
+      "value": {
+        "numerator": 479143181250000,
+        "denominator": 847307443595821
+      },
+      "integer_cross_product": 755526409228066,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 35,
+      "b": 5552,
+      "value": {
+        "numerator": 305792404530000,
+        "denominator": 550745092955569
+      },
+      "integer_cross_product": 187289210680912,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 36,
+      "b": 5448,
+      "value": {
+        "numerator": 14885560625000,
+        "denominator": 27320647108373
+      },
+      "integer_cross_product": 12720803583896,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 37,
+      "b": 5343,
+      "value": {
+        "numerator": 7595970281250000,
+        "denominator": 14215696738518889
+      },
+      "integer_cross_product": 5235138593576073,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 38,
+      "b": 5237,
+      "value": {
+        "numerator": 473024081250000,
+        "denominator": 903209583632029
+      },
+      "integer_cross_product": 132223019064127,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 39,
+      "b": 5129,
+      "value": {
+        "numerator": 7538534421250000,
+        "denominator": 14695294978330201
+      },
+      "integer_cross_product": 13176268644399071,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 40,
+      "b": 5021,
+      "value": {
+        "numerator": 293214720000,
+        "denominator": 583893735241
+      },
+      "integer_cross_product": 416755354939,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 41,
+      "b": 4912,
+      "value": {
+        "numerator": 257639606250000,
+        "denominator": 524436873640109
+      },
+      "integer_cross_product": 362139179784592,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 42,
+      "b": 4802,
+      "value": {
+        "numerator": 464635161250000,
+        "denominator": 967401892961149
+      },
+      "integer_cross_product": 887722500562502,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 43,
+      "b": 4692,
+      "value": {
+        "numerator": 7394008601250000,
+        "denominator": 15757132749417769
+      },
+      "integer_cross_product": 7619152231827852,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 44,
+      "b": 4581,
+      "value": {
+        "numerator": 118655625000,
+        "denominator": 258990042233
+      },
+      "integer_cross_product": 122866530627,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 45,
+      "b": 4469,
+      "value": {
+        "numerator": 292194404530000,
+        "denominator": 653682552242161
+      },
+      "integer_cross_product": 636719329782491,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 46,
+      "b": 4358,
+      "value": {
+        "numerator": 15637046250000,
+        "denominator": 35880718661489
+      },
+      "integer_cross_product": 2290573230938,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 47,
+      "b": 4245,
+      "value": {
+        "numerator": 194675636250000,
+        "denominator": 458510992934917
+      },
+      "integer_cross_product": 377197491277335,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 48,
+      "b": 4133,
+      "value": {
+        "numerator": 872429375000,
+        "denominator": 2110719535097
+      },
+      "integer_cross_product": 689911444099,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 49,
+      "b": 4020,
+      "value": {
+        "numerator": 7087269101250000,
+        "denominator": 17627171427111481
+      },
+      "integer_cross_product": 11461875511846380,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 50,
+      "b": 3907,
+      "value": {
+        "numerator": 702382933200,
+        "denominator": 1797357671773
+      },
+      "integer_cross_product": 1552908382889,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 51,
+      "b": 3795,
+      "value": {
+        "numerator": 6956466801250000,
+        "denominator": 18330433398652681
+      },
+      "integer_cross_product": 673264613075605,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 52,
+      "b": 3682,
+      "value": {
+        "numerator": 13447310625000,
+        "denominator": 36519430992377
+      },
+      "integer_cross_product": 8561336067886,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 53,
+      "b": 3569,
+      "value": {
+        "numerator": 6809336441250000,
+        "denominator": 19076333827215529
+      },
+      "integer_cross_product": 9928983167776999,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 54,
+      "b": 3456,
+      "value": {
+        "numerator": 420577641250000,
+        "denominator": 1216612767505981
+      },
+      "integer_cross_product": 1162687999329664,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 55,
+      "b": 3344,
+      "value": {
+        "numerator": 2196552930000,
+        "denominator": 6567464308681
+      },
+      "integer_cross_product": 3928651770736,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 56,
+      "b": 3232,
+      "value": {
+        "numerator": 6401520000000,
+        "denominator": 19803596873209
+      },
+      "integer_cross_product": 9974905788512,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 57,
+      "b": 3120,
+      "value": {
+        "numerator": 6460819701250000,
+        "denominator": 20702942986206169
+      },
+      "integer_cross_product": 15014895536752720,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 58,
+      "b": 3009,
+      "value": {
+        "numerator": 397586561250000,
+        "denominator": 1321186919606749
+      },
+      "integer_cross_product": 414171403292259,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 59,
+      "b": 2898,
+      "value": {
+        "numerator": 6256671881250000,
+        "denominator": 21587262299433961
+      },
+      "integer_cross_product": 6832668740381022,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 60,
+      "b": 2787,
+      "value": {
+        "numerator": 480195065000,
+        "denominator": 1722499825397
+      },
+      "integer_cross_product": 1343636618561,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 61,
+      "b": 2677,
+      "value": {
+        "numerator": 6030673121250000,
+        "denominator": 22521441235283401
+      },
+      "integer_cross_product": 16833025646335523,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 62,
+      "b": 2568,
+      "value": {
+        "numerator": 369313181250000,
+        "denominator": 1437990058600429
+      },
+      "integer_cross_product": 373342014098328,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 63,
+      "b": 2459,
+      "value": {
+        "numerator": 5781317181250000,
+        "denominator": 23507449202554489
+      },
+      "integer_cross_product": 8354223418511549,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    },
+    {
+      "k": 64,
+      "b": 2351,
+      "value": {
+        "numerator": 37263750000,
+        "denominator": 158496901813
+      },
+      "integer_cross_product": 11283837637,
+      "checks": {
+        "literal_lower_bound": true,
+        "saved_k": true,
+        "saved_t": true,
+        "saved_value": true,
+        "saved_integer": true,
+        "saved_scale": true,
+        "saved_difference": true,
+        "saved_pass": true
+      }
+    }
+  ]
+}

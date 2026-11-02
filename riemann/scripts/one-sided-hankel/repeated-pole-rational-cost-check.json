@@ -1,0 +1,5307 @@
+{
+  "scope": "Exact arithmetic only; full analytic proof and separate critical audit remain necessary.",
+  "parameters": {
+    "bins": 200,
+    "scale": 100000000,
+    "U": {
+      "numerator": 121,
+      "denominator": 64
+    },
+    "d": {
+      "numerator": 5,
+      "denominator": 4
+    },
+    "y0": {
+      "numerator": 9,
+      "denominator": 20
+    },
+    "Delta": {
+      "numerator": 21,
+      "denominator": 64
+    },
+    "K_upper": {
+      "numerator": 29,
+      "denominator": 20
+    },
+    "radius_lower": {
+      "numerator": 53,
+      "denominator": 40
+    },
+    "radius_upper": {
+      "numerator": 133,
+      "denominator": 100
+    }
+  },
+  "square_margins": {
+    "K_upper": {
+      "numerator": 479,
+      "denominator": 57600
+    },
+    "radius_lower": {
+      "numerator": 3,
+      "denominator": 320
+    },
+    "radius_upper": {
+      "numerator": 39,
+      "denominator": 10000
+    }
+  },
+  "rows": [
+    {
+      "i": 1,
+      "lo": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 37523,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 204310033344,
+        "denominator": 1824052830625
+      },
+      "units": 11200883,
+      "bound": {
+        "numerator": 11200883,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 2,
+      "lo": {
+        "numerator": 1,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 74469,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 7240397463,
+        "denominator": 66066857500
+      },
+      "units": 10959197,
+      "bound": {
+        "numerator": 10959197,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 3,
+      "lo": {
+        "numerator": 1,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 36947,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1810372260096,
+        "denominator": 16883675550625
+      },
+      "units": 10722619,
+      "bound": {
+        "numerator": 10722619,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 4,
+      "lo": {
+        "numerator": 3,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 73321,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 615969721,
+        "denominator": 5871390625
+      },
+      "units": 10491036,
+      "bound": {
+        "numerator": 2622759,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 5,
+      "lo": {
+        "numerator": 1,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 291,
+        "denominator": 160
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 63358848,
+        "denominator": 617271605
+      },
+      "units": 10264338,
+      "bound": {
+        "numerator": 5132169,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 6,
+      "lo": {
+        "numerator": 1,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 72181,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 441943258329,
+        "denominator": 4400764840000
+      },
+      "units": 10042419,
+      "bound": {
+        "numerator": 10042419,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 7,
+      "lo": {
+        "numerator": 3,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 7,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 35807,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 194842787904,
+        "denominator": 1983097650625
+      },
+      "units": 9825173,
+      "bound": {
+        "numerator": 9825173,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 8,
+      "lo": {
+        "numerator": 7,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 71049,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 596503721,
+        "denominator": 6205500625
+      },
+      "units": 9612499,
+      "bound": {
+        "numerator": 9612499,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 9,
+      "lo": {
+        "numerator": 1,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 9,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 35243,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 246461911488,
+        "denominator": 2620737109375
+      },
+      "units": 9404297,
+      "bound": {
+        "numerator": 9404297,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 10,
+      "lo": {
+        "numerator": 9,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 20
+      },
+      "g_hi": {
+        "numerator": 2797,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 76047633,
+        "denominator": 826562500
+      },
+      "units": 9200469,
+      "bound": {
+        "numerator": 9200469,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 11,
+      "lo": {
+        "numerator": 1,
+        "denominator": 20
+      },
+      "hi": {
+        "numerator": 11,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 34683,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1558237824,
+        "denominator": 17311980625
+      },
+      "units": 9000921,
+      "bound": {
+        "numerator": 9000921,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 12,
+      "lo": {
+        "numerator": 11,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 68809,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 420695542449,
+        "denominator": 4777612350625
+      },
+      "units": 8805560,
+      "bound": {
+        "numerator": 220139,
+        "denominator": 2500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 13,
+      "lo": {
+        "numerator": 3,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 13,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 34127,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 20600695296,
+        "denominator": 239145450625
+      },
+      "units": 8614295,
+      "bound": {
+        "numerator": 1722859,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 14,
+      "lo": {
+        "numerator": 13,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 7,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 67701,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 45959568561,
+        "denominator": 545382250000
+      },
+      "units": 8427037,
+      "bound": {
+        "numerator": 8427037,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 15,
+      "lo": {
+        "numerator": 7,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 1343,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 2624716224,
+        "denominator": 31839049225
+      },
+      "units": 8243701,
+      "bound": {
+        "numerator": 8243701,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 16,
+      "lo": {
+        "numerator": 3,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 2,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 66601,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 6453836703,
+        "denominator": 80030689375
+      },
+      "units": 8064202,
+      "bound": {
+        "numerator": 4032101,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 17,
+      "lo": {
+        "numerator": 2,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 17,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 33027,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 19904976576,
+        "denominator": 252330405625
+      },
+      "units": 7888457,
+      "bound": {
+        "numerator": 7888457,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 18,
+      "lo": {
+        "numerator": 17,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 9,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 65509,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 399564349929,
+        "denominator": 5178127802500
+      },
+      "units": 7716386,
+      "bound": {
+        "numerator": 3858193,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 19,
+      "lo": {
+        "numerator": 9,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 19,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 32483,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 176025636864,
+        "denominator": 2332110765625
+      },
+      "units": 7547910,
+      "bound": {
+        "numerator": 754791,
+        "denominator": 10000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 20,
+      "lo": {
+        "numerator": 19,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 10
+      },
+      "g_hi": {
+        "numerator": 2577,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 69787737,
+        "denominator": 945255025
+      },
+      "units": 7382953,
+      "bound": {
+        "numerator": 7382953,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 21,
+      "lo": {
+        "numerator": 1,
+        "denominator": 10
+      },
+      "hi": {
+        "numerator": 21,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 31943,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1556238427776,
+        "denominator": 21550252950625
+      },
+      "units": 7221439,
+      "bound": {
+        "numerator": 7221439,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 22,
+      "lo": {
+        "numerator": 21,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 11,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 63349,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 39339729,
+        "denominator": 556960000
+      },
+      "units": 7063295,
+      "bound": {
+        "numerator": 1412659,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 23,
+      "lo": {
+        "numerator": 11,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 23,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 31407,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 24259269312,
+        "denominator": 351153604375
+      },
+      "units": 6908449,
+      "bound": {
+        "numerator": 6908449,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 24,
+      "lo": {
+        "numerator": 23,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 62281,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 378604268289,
+        "denominator": 5603280765625
+      },
+      "units": 6756832,
+      "bound": {
+        "numerator": 211151,
+        "denominator": 3125000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 25,
+      "lo": {
+        "numerator": 3,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 8
+      },
+      "g_hi": {
+        "numerator": 247,
+        "denominator": 160
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 10670400,
+        "denominator": 161467849
+      },
+      "units": 6608374,
+      "bound": {
+        "numerator": 3304187,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 26,
+      "lo": {
+        "numerator": 1,
+        "denominator": 8
+      },
+      "hi": {
+        "numerator": 13,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 61221,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 4588452729,
+        "denominator": 70995602500
+      },
+      "units": 6463009,
+      "bound": {
+        "numerator": 6463009,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 27,
+      "lo": {
+        "numerator": 13,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 27,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 30347,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1472819054976,
+        "denominator": 23301618480625
+      },
+      "units": 6320672,
+      "bound": {
+        "numerator": 197521,
+        "denominator": 3125000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 28,
+      "lo": {
+        "numerator": 27,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 7,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 60169,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 40527973161,
+        "denominator": 655654575625
+      },
+      "units": 6181299,
+      "bound": {
+        "numerator": 6181299,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 29,
+      "lo": {
+        "numerator": 7,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 29,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 29823,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 160580392704,
+        "denominator": 2656492515625
+      },
+      "units": 6044827,
+      "bound": {
+        "numerator": 6044827,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 30,
+      "lo": {
+        "numerator": 29,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 20
+      },
+      "g_hi": {
+        "numerator": 473,
+        "denominator": 320
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 2337093,
+        "denominator": 39536720
+      },
+      "units": 5911195,
+      "bound": {
+        "numerator": 1182239,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 31,
+      "lo": {
+        "numerator": 3,
+        "denominator": 20
+      },
+      "hi": {
+        "numerator": 31,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 29303,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1944781504,
+        "denominator": 33644730625
+      },
+      "units": 5780344,
+      "bound": {
+        "numerator": 722543,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 32,
+      "lo": {
+        "numerator": 31,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 4,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 58089,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 39001477401,
+        "denominator": 690020955625
+      },
+      "units": 5652216,
+      "bound": {
+        "numerator": 706527,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 33,
+      "lo": {
+        "numerator": 4,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 33,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 28787,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 11490849216,
+        "denominator": 207913200625
+      },
+      "units": 5526753,
+      "bound": {
+        "numerator": 5526753,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 34,
+      "lo": {
+        "numerator": 33,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 17,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 57061,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 38243480481,
+        "denominator": 707701562500
+      },
+      "units": 5403899,
+      "bound": {
+        "numerator": 5403899,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 35,
+      "lo": {
+        "numerator": 17,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 7,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 1131,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 2991872,
+        "denominator": 56625625
+      },
+      "units": 5283600,
+      "bound": {
+        "numerator": 13209,
+        "denominator": 250000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 36,
+      "lo": {
+        "numerator": 7,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 9,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 56041,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 337403190609,
+        "denominator": 6531474705625
+      },
+      "units": 5165804,
+      "bound": {
+        "numerator": 1291451,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 37,
+      "lo": {
+        "numerator": 9,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 37,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 27767,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 21207768192,
+        "denominator": 419917789375
+      },
+      "units": 5050457,
+      "bound": {
+        "numerator": 5050457,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 38,
+      "lo": {
+        "numerator": 37,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 19,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 55029,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 36738956241,
+        "denominator": 744078760000
+      },
+      "units": 4937509,
+      "bound": {
+        "numerator": 4937509,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 39,
+      "lo": {
+        "numerator": 19,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 39,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 27263,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1309152684096,
+        "denominator": 27121962015625
+      },
+      "units": 4826909,
+      "bound": {
+        "numerator": 4826909,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 40,
+      "lo": {
+        "numerator": 39,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "g_hi": {
+        "numerator": 2161,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 6398721,
+        "denominator": 135606025
+      },
+      "units": 4718611,
+      "bound": {
+        "numerator": 4718611,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 41,
+      "lo": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "hi": {
+        "numerator": 41,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 26763,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 142485355584,
+        "denominator": 3089069880625
+      },
+      "units": 4612564,
+      "bound": {
+        "numerator": 1153141,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 42,
+      "lo": {
+        "numerator": 41,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 21,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 53029,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 317258772489,
+        "denominator": 7036552022500
+      },
+      "units": 4508724,
+      "bound": {
+        "numerator": 1127181,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 43,
+      "lo": {
+        "numerator": 21,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 43,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 26267,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 139526941824,
+        "denominator": 3165997455625
+      },
+      "units": 4407045,
+      "bound": {
+        "numerator": 881409,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 44,
+      "lo": {
+        "numerator": 43,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 11,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 52041,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 4527567,
+        "denominator": 105109375
+      },
+      "units": 4307481,
+      "bound": {
+        "numerator": 4307481,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 45,
+      "lo": {
+        "numerator": 11,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 9,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 1031,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1966851072,
+        "denominator": 46718661025
+      },
+      "units": 4209990,
+      "bound": {
+        "numerator": 420999,
+        "denominator": 10000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 46,
+      "lo": {
+        "numerator": 9,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 23,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 51061,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 33780987441,
+        "denominator": 821017210000
+      },
+      "units": 4114528,
+      "bound": {
+        "numerator": 128579,
+        "denominator": 3125000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 47,
+      "lo": {
+        "numerator": 23,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 47,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 25287,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 133665868224,
+        "denominator": 3324149400625
+      },
+      "units": 4021054,
+      "bound": {
+        "numerator": 2010527,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 48,
+      "lo": {
+        "numerator": 47,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 6,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 50089,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 297478621089,
+        "denominator": 7570339530625
+      },
+      "units": 3929528,
+      "bound": {
+        "numerator": 491191,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 49,
+      "lo": {
+        "numerator": 6,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 49,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 24803,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 14529398976,
+        "denominator": 378378765625
+      },
+      "units": 3839908,
+      "bound": {
+        "numerator": 959977,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 50,
+      "lo": {
+        "numerator": 49,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "g_hi": {
+        "numerator": 393,
+        "denominator": 320
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 2069145,
+        "denominator": 55145476
+      },
+      "units": 3752157,
+      "bound": {
+        "numerator": 3752157,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 51,
+      "lo": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "hi": {
+        "numerator": 51,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 24323,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 164421923328,
+        "denominator": 4484761264375
+      },
+      "units": 3666235,
+      "bound": {
+        "numerator": 733247,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 52,
+      "lo": {
+        "numerator": 51,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 13,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 48169,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 31612784841,
+        "denominator": 882519330625
+      },
+      "units": 3582106,
+      "bound": {
+        "numerator": 1791053,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 53,
+      "lo": {
+        "numerator": 13,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 53,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 23847,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 13891545216,
+        "denominator": 396931500625
+      },
+      "units": 3499733,
+      "bound": {
+        "numerator": 3499733,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 54,
+      "lo": {
+        "numerator": 53,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 27,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 47221,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 278104726809,
+        "denominator": 8133904000000
+      },
+      "units": 3419080,
+      "bound": {
+        "numerator": 85477,
+        "denominator": 2500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 55,
+      "lo": {
+        "numerator": 27,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 11,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 187,
+        "denominator": 160
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 323136,
+        "denominator": 9674405
+      },
+      "units": 3340112,
+      "bound": {
+        "numerator": 208757,
+        "denominator": 6250000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 56,
+      "lo": {
+        "numerator": 11,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 7,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 46281,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 30193770681,
+        "denominator": 925395900625
+      },
+      "units": 3262794,
+      "bound": {
+        "numerator": 1631397,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 57,
+      "lo": {
+        "numerator": 7,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 57,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 22907,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1074330236736,
+        "denominator": 33708765105625
+      },
+      "units": 3187094,
+      "bound": {
+        "numerator": 1593547,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 58,
+      "lo": {
+        "numerator": 57,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 29,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 45349,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 52015303,
+        "denominator": 1670917500
+      },
+      "units": 3112978,
+      "bound": {
+        "numerator": 1556489,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 59,
+      "lo": {
+        "numerator": 29,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 59,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 22443,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 116577201024,
+        "denominator": 3834253515625
+      },
+      "units": 3040414,
+      "bound": {
+        "numerator": 1520207,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 60,
+      "lo": {
+        "numerator": 59,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 10
+      },
+      "g_hi": {
+        "numerator": 1777,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 414682497,
+        "denominator": 13965330625
+      },
+      "units": 2969371,
+      "bound": {
+        "numerator": 2969371,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 61,
+      "lo": {
+        "numerator": 3,
+        "denominator": 10
+      },
+      "hi": {
+        "numerator": 61,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 21983,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 113807925504,
+        "denominator": 3924658155625
+      },
+      "units": 2899817,
+      "bound": {
+        "numerator": 2899817,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 62,
+      "lo": {
+        "numerator": 61,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 31,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 43509,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 347013281,
+        "denominator": 12254490000
+      },
+      "units": 2831723,
+      "bound": {
+        "numerator": 2831723,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 63,
+      "lo": {
+        "numerator": 31,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 63,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 21527,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 999565085376,
+        "denominator": 36149855625625
+      },
+      "units": 2765059,
+      "bound": {
+        "numerator": 2765059,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 64,
+      "lo": {
+        "numerator": 63,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 8,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 42601,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 27424862361,
+        "denominator": 1015812015625
+      },
+      "units": 2699797,
+      "bound": {
+        "numerator": 2699797,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 65,
+      "lo": {
+        "numerator": 8,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 13,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 843,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 24763968,
+        "denominator": 939485575
+      },
+      "units": 2635907,
+      "bound": {
+        "numerator": 2635907,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 66,
+      "lo": {
+        "numerator": 13,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 33,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 41701,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1989513009,
+        "denominator": 77311802500
+      },
+      "units": 2573362,
+      "bound": {
+        "numerator": 1286681,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 67,
+      "lo": {
+        "numerator": 33,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 67,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 20627,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 11738578176,
+        "denominator": 467274780625
+      },
+      "units": 2512136,
+      "bound": {
+        "numerator": 314017,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 68,
+      "lo": {
+        "numerator": 67,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 17,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 40809,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 26077318281,
+        "denominator": 1063425000625
+      },
+      "units": 2452200,
+      "bound": {
+        "numerator": 12261,
+        "denominator": 500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 69,
+      "lo": {
+        "numerator": 17,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 69,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 20183,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 926800776576,
+        "denominator": 38721061890625
+      },
+      "units": 2393531,
+      "bound": {
+        "numerator": 2393531,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 70,
+      "lo": {
+        "numerator": 69,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 7,
+        "denominator": 20
+      },
+      "g_hi": {
+        "numerator": 1597,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 40661217,
+        "denominator": 1740558400
+      },
+      "units": 2336101,
+      "bound": {
+        "numerator": 2336101,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 71,
+      "lo": {
+        "numerator": 7,
+        "denominator": 20
+      },
+      "hi": {
+        "numerator": 71,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 19743,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 11148319296,
+        "denominator": 488985525625
+      },
+      "units": 2279887,
+      "bound": {
+        "numerator": 2279887,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 72,
+      "lo": {
+        "numerator": 71,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 9,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 39049,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 31828957047,
+        "denominator": 1430602639375
+      },
+      "units": 2224863,
+      "bound": {
+        "numerator": 2224863,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 73,
+      "lo": {
+        "numerator": 9,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 73,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 19307,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 97718750784,
+        "denominator": 4501080480625
+      },
+      "units": 2171006,
+      "bound": {
+        "numerator": 1085503,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 74,
+      "lo": {
+        "numerator": 73,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 37,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 38181,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 24105230721,
+        "denominator": 1137955562500
+      },
+      "units": 2118292,
+      "bound": {
+        "numerator": 529573,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 75,
+      "lo": {
+        "numerator": 37,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 8
+      },
+      "g_hi": {
+        "numerator": 151,
+        "denominator": 160
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 362880,
+        "denominator": 17558431
+      },
+      "units": 2066699,
+      "bound": {
+        "numerator": 2066699,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 76,
+      "lo": {
+        "numerator": 3,
+        "denominator": 8
+      },
+      "hi": {
+        "numerator": 19,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 37321,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 2606834529,
+        "denominator": 129294180625
+      },
+      "units": 2016204,
+      "bound": {
+        "numerator": 504051,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 77,
+      "lo": {
+        "numerator": 19,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 77,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 18447,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 765033984,
+        "denominator": 38897700625
+      },
+      "units": 1966784,
+      "bound": {
+        "numerator": 30731,
+        "denominator": 1562500
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 78,
+      "lo": {
+        "numerator": 77,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 39,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 36469,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 205423349049,
+        "denominator": 10707947290000
+      },
+      "units": 1918419,
+      "bound": {
+        "numerator": 1918419,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 79,
+      "lo": {
+        "numerator": 39,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 79,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 18023,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1837480896,
+        "denominator": 98203890625
+      },
+      "units": 1871087,
+      "bound": {
+        "numerator": 1871087,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 80,
+      "lo": {
+        "numerator": 79,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "g_hi": {
+        "numerator": 57,
+        "denominator": 64
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 157833,
+        "denominator": 8649481
+      },
+      "units": 1824768,
+      "bound": {
+        "numerator": 7128,
+        "denominator": 390625
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 81,
+      "lo": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "hi": {
+        "numerator": 81,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 17603,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 787795367616,
+        "denominator": 44272056375625
+      },
+      "units": 1779441,
+      "bound": {
+        "numerator": 1779441,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 82,
+      "lo": {
+        "numerator": 81,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 41,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 34789,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 21572972001,
+        "denominator": 1243336502500
+      },
+      "units": 1735087,
+      "bound": {
+        "numerator": 1735087,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 83,
+      "lo": {
+        "numerator": 41,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 83,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 17187,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 85058325504,
+        "denominator": 5028021405625
+      },
+      "units": 1691685,
+      "bound": {
+        "numerator": 338337,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 84,
+      "lo": {
+        "numerator": 83,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 21,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 33961,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 188622416529,
+        "denominator": 11437078515625
+      },
+      "units": 1649218,
+      "bound": {
+        "numerator": 824609,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 85,
+      "lo": {
+        "numerator": 21,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 17,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 671,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1631872,
+        "denominator": 101505625
+      },
+      "units": 1607666,
+      "bound": {
+        "numerator": 803833,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 86,
+      "lo": {
+        "numerator": 17,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 43,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 33141,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 2907227943,
+        "denominator": 185526880000
+      },
+      "units": 1567011,
+      "bound": {
+        "numerator": 1567011,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 87,
+      "lo": {
+        "numerator": 43,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 87,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 16367,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 721789413696,
+        "denominator": 47261156355625
+      },
+      "units": 1527236,
+      "bound": {
+        "numerator": 381809,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 88,
+      "lo": {
+        "numerator": 87,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 11,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 32329,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 163229121,
+        "denominator": 10967325625
+      },
+      "units": 1488322,
+      "bound": {
+        "numerator": 744161,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 89,
+      "lo": {
+        "numerator": 11,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 89,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 15963,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 960674624,
+        "denominator": 66241890625
+      },
+      "units": 1450252,
+      "bound": {
+        "numerator": 362563,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 90,
+      "lo": {
+        "numerator": 89,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 9,
+        "denominator": 20
+      },
+      "g_hi": {
+        "numerator": 1261,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 275882841,
+        "denominator": 19524472900
+      },
+      "units": 1413010,
+      "bound": {
+        "numerator": 141301,
+        "denominator": 10000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 91,
+      "lo": {
+        "numerator": 9,
+        "denominator": 20
+      },
+      "hi": {
+        "numerator": 91,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 15563,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 75461376384,
+        "denominator": 5481802755625
+      },
+      "units": 1376579,
+      "bound": {
+        "numerator": 1376579,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 92,
+      "lo": {
+        "numerator": 91,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 23,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 30729,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 18574113321,
+        "denominator": 1385152455625
+      },
+      "units": 1340943,
+      "bound": {
+        "numerator": 1340943,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 93,
+      "lo": {
+        "numerator": 23,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 93,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 15167,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 94036370688,
+        "denominator": 7199856514375
+      },
+      "units": 1306086,
+      "bound": {
+        "numerator": 653043,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 94,
+      "lo": {
+        "numerator": 93,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 47,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 29941,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1999729449,
+        "denominator": 157212250000
+      },
+      "units": 1271993,
+      "bound": {
+        "numerator": 1271993,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 95,
+      "lo": {
+        "numerator": 47,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 19,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 591,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 113358528,
+        "denominator": 9151792225
+      },
+      "units": 1238648,
+      "bound": {
+        "numerator": 154831,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 96,
+      "lo": {
+        "numerator": 19,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 12,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 29161,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 156860780769,
+        "denominator": 13006301280625
+      },
+      "units": 1206036,
+      "bound": {
+        "numerator": 301509,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 97,
+      "lo": {
+        "numerator": 12,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 97,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 14387,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 68590770624,
+        "denominator": 5841768150625
+      },
+      "units": 1174144,
+      "bound": {
+        "numerator": 9173,
+        "denominator": 781250
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 98,
+      "lo": {
+        "numerator": 97,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 49,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 28389,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1874270169,
+        "denominator": 163984502500
+      },
+      "units": 1142955,
+      "bound": {
+        "numerator": 228591,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 99,
+      "lo": {
+        "numerator": 49,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 99,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 14003,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 4936225536,
+        "denominator": 443722515625
+      },
+      "units": 1112457,
+      "bound": {
+        "numerator": 1112457,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 100,
+      "lo": {
+        "numerator": 99,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "g_hi": {
+        "numerator": 221,
+        "denominator": 320
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 149175,
+        "denominator": 13778863
+      },
+      "units": 1082636,
+      "bound": {
+        "numerator": 270659,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 101,
+      "lo": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "hi": {
+        "numerator": 101,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 13623,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 64171522944,
+        "denominator": 6091394205625
+      },
+      "units": 1053478,
+      "bound": {
+        "numerator": 526739,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 102,
+      "lo": {
+        "numerator": 101,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 51,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 26869,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 141946266969,
+        "denominator": 13848817960000
+      },
+      "units": 1024970,
+      "bound": {
+        "numerator": 102497,
+        "denominator": 10000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 103,
+      "lo": {
+        "numerator": 51,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 103,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 13247,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 6890135616,
+        "denominator": 691018125625
+      },
+      "units": 997099,
+      "bound": {
+        "numerator": 997099,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 104,
+      "lo": {
+        "numerator": 103,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 13,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 26121,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 15235883001,
+        "denominator": 1570948890625
+      },
+      "units": 969852,
+      "bound": {
+        "numerator": 242463,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 105,
+      "lo": {
+        "numerator": 13,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 21,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 103,
+        "denominator": 160
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 172466496,
+        "denominator": 18284918645
+      },
+      "units": 943217,
+      "bound": {
+        "numerator": 943217,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 106,
+      "lo": {
+        "numerator": 21,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 53,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 25381,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 14708314881,
+        "denominator": 1603642322500
+      },
+      "units": 917181,
+      "bound": {
+        "numerator": 917181,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 107,
+      "lo": {
+        "numerator": 53,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 107,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 12507,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 917313408,
+        "denominator": 102868504375
+      },
+      "units": 891733,
+      "bound": {
+        "numerator": 891733,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 108,
+      "lo": {
+        "numerator": 107,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 27,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 24649,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 127702549809,
+        "denominator": 14731587330625
+      },
+      "units": 866862,
+      "bound": {
+        "numerator": 433431,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 109,
+      "lo": {
+        "numerator": 27,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 109,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 12143,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 55731124224,
+        "denominator": 6614541015625
+      },
+      "units": 842554,
+      "bound": {
+        "numerator": 421277,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 110,
+      "lo": {
+        "numerator": 109,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 11,
+        "denominator": 20
+      },
+      "g_hi": {
+        "numerator": 957,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 180873,
+        "denominator": 22090000
+      },
+      "units": 818800,
+      "bound": {
+        "numerator": 2047,
+        "denominator": 250000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 111,
+      "lo": {
+        "numerator": 11,
+        "denominator": 20
+      },
+      "hi": {
+        "numerator": 111,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 11783,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 483350348736,
+        "denominator": 60753840525625
+      },
+      "units": 795588,
+      "bound": {
+        "numerator": 198897,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 112,
+      "lo": {
+        "numerator": 111,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 14,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 23209,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 162671881,
+        "denominator": 21046755625
+      },
+      "units": 772907,
+      "bound": {
+        "numerator": 772907,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 113,
+      "lo": {
+        "numerator": 14,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 113,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 11427,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 51714396864,
+        "denominator": 6888393930625
+      },
+      "units": 750746,
+      "bound": {
+        "numerator": 375373,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 114,
+      "lo": {
+        "numerator": 113,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 57,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 22501,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 16306632207,
+        "denominator": 2236552937500
+      },
+      "units": 729096,
+      "bound": {
+        "numerator": 91137,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 115,
+      "lo": {
+        "numerator": 57,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 23,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 443,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 79612416,
+        "denominator": 11245542025
+      },
+      "units": 707946,
+      "bound": {
+        "numerator": 353973,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 116,
+      "lo": {
+        "numerator": 23,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 29,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 21801,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 150594041,
+        "denominator": 21911400625
+      },
+      "units": 687286,
+      "bound": {
+        "numerator": 343643,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 117,
+      "lo": {
+        "numerator": 29,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 117,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 10727,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 430523081856,
+        "denominator": 64535917230625
+      },
+      "units": 667106,
+      "bound": {
+        "numerator": 333553,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 118,
+      "lo": {
+        "numerator": 117,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 59,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 21109,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 11722017681,
+        "denominator": 1810639360000
+      },
+      "units": 647396,
+      "bound": {
+        "numerator": 161849,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 119,
+      "lo": {
+        "numerator": 59,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 119,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 10383,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 45949011264,
+        "denominator": 7314996390625
+      },
+      "units": 628148,
+      "bound": {
+        "numerator": 157037,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 120,
+      "lo": {
+        "numerator": 119,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 5
+      },
+      "g_hi": {
+        "numerator": 817,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 162067473,
+        "denominator": 26596717225
+      },
+      "units": 609351,
+      "bound": {
+        "numerator": 609351,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 121,
+      "lo": {
+        "numerator": 3,
+        "denominator": 5
+      },
+      "hi": {
+        "numerator": 121,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 10043,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 47808,
+        "denominator": 8089375
+      },
+      "units": 590997,
+      "bound": {
+        "numerator": 590997,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 122,
+      "lo": {
+        "numerator": 121,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 61,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 19749,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 10796166081,
+        "denominator": 1883893502500
+      },
+      "units": 573077,
+      "bound": {
+        "numerator": 573077,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 123,
+      "lo": {
+        "numerator": 61,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 123,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 9707,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 380528067456,
+        "denominator": 68491762200625
+      },
+      "units": 555582,
+      "bound": {
+        "numerator": 277791,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 124,
+      "lo": {
+        "numerator": 123,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 31,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 19081,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 10346500521,
+        "denominator": 1921342515625
+      },
+      "units": 538503,
+      "bound": {
+        "numerator": 538503,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 125,
+      "lo": {
+        "numerator": 31,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 5,
+        "denominator": 8
+      },
+      "g_hi": {
+        "numerator": 15,
+        "denominator": 32
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 288000,
+        "denominator": 55190041
+      },
+      "units": 521833,
+      "bound": {
+        "numerator": 521833,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 126,
+      "lo": {
+        "numerator": 5,
+        "denominator": 8
+      },
+      "hi": {
+        "numerator": 63,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 18421,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 89151542649,
+        "denominator": 17634120490000
+      },
+      "units": 505562,
+      "bound": {
+        "numerator": 252781,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 127,
+      "lo": {
+        "numerator": 63,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 127,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 9047,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 38754742464,
+        "denominator": 7914234900625
+      },
+      "units": 489684,
+      "bound": {
+        "numerator": 122421,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 128,
+      "lo": {
+        "numerator": 127,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 16,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 17769,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 193344489,
+        "denominator": 40773705625
+      },
+      "units": 474189,
+      "bound": {
+        "numerator": 474189,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 129,
+      "lo": {
+        "numerator": 16,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 129,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 8723,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 333407295936,
+        "denominator": 72626614515625
+      },
+      "units": 459070,
+      "bound": {
+        "numerator": 45907,
+        "denominator": 10000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 130,
+      "lo": {
+        "numerator": 129,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 13,
+        "denominator": 20
+      },
+      "g_hi": {
+        "numerator": 137,
+        "denominator": 320
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 321813,
+        "denominator": 72428180
+      },
+      "units": 444320,
+      "bound": {
+        "numerator": 2777,
+        "denominator": 625000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 131,
+      "lo": {
+        "numerator": 13,
+        "denominator": 20
+      },
+      "hi": {
+        "numerator": 131,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 8403,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 35371655424,
+        "denominator": 8227288305625
+      },
+      "units": 429930,
+      "bound": {
+        "numerator": 42993,
+        "denominator": 10000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 132,
+      "lo": {
+        "numerator": 131,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 33,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 16489,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 642427929,
+        "denominator": 154468650625
+      },
+      "units": 415895,
+      "bound": {
+        "numerator": 83179,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 133,
+      "lo": {
+        "numerator": 33,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 133,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 8087,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 33734047104,
+        "denominator": 8387250405625
+      },
+      "units": 402206,
+      "bound": {
+        "numerator": 201103,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 134,
+      "lo": {
+        "numerator": 133,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 67,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 15861,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 914688009,
+        "denominator": 235225000000
+      },
+      "units": 388856,
+      "bound": {
+        "numerator": 48607,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 135,
+      "lo": {
+        "numerator": 67,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 27,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 311,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 66101184,
+        "denominator": 17587609375
+      },
+      "units": 375839,
+      "bound": {
+        "numerator": 375839,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 136,
+      "lo": {
+        "numerator": 27,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 17,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 15241,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 7836327801,
+        "denominator": 2157887550625
+      },
+      "units": 363148,
+      "bound": {
+        "numerator": 90787,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 137,
+      "lo": {
+        "numerator": 17,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 137,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 7467,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 30567150144,
+        "denominator": 8714156400625
+      },
+      "units": 350775,
+      "bound": {
+        "numerator": 14031,
+        "denominator": 4000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 138,
+      "lo": {
+        "numerator": 137,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 69,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 14629,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 67045599369,
+        "denominator": 19794045902500
+      },
+      "units": 338715,
+      "bound": {
+        "numerator": 67743,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 139,
+      "lo": {
+        "numerator": 69,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 139,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 7163,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 358493824,
+        "denominator": 109643765625
+      },
+      "units": 326962,
+      "bound": {
+        "numerator": 163481,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 140,
+      "lo": {
+        "numerator": 139,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 7,
+        "denominator": 10
+      },
+      "g_hi": {
+        "numerator": 561,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 11314809,
+        "denominator": 3586213225
+      },
+      "units": 315508,
+      "bound": {
+        "numerator": 78877,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 141,
+      "lo": {
+        "numerator": 7,
+        "denominator": 10
+      },
+      "hi": {
+        "numerator": 141,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 6863,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 247906054656,
+        "denominator": 81454686300625
+      },
+      "units": 304348,
+      "bound": {
+        "numerator": 76087,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 142,
+      "lo": {
+        "numerator": 141,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 71,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 13429,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 957581703,
+        "denominator": 326289670000
+      },
+      "units": 293475,
+      "bound": {
+        "numerator": 11739,
+        "denominator": 4000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 143,
+      "lo": {
+        "numerator": 71,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 143,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 6567,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 2661824,
+        "denominator": 940955625
+      },
+      "units": 282885,
+      "bound": {
+        "numerator": 56577,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 144,
+      "lo": {
+        "numerator": 143,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 18,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 12841,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 57091201569,
+        "denominator": 20945496390625
+      },
+      "units": 272570,
+      "bound": {
+        "numerator": 27257,
+        "denominator": 10000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 145,
+      "lo": {
+        "numerator": 18,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 29,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 251,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 39469248,
+        "denominator": 15034438225
+      },
+      "units": 262525,
+      "bound": {
+        "numerator": 10501,
+        "denominator": 4000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 146,
+      "lo": {
+        "numerator": 29,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 73,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 12261,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 5992943841,
+        "denominator": 2371138022500
+      },
+      "units": 252745,
+      "bound": {
+        "numerator": 50549,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 147,
+      "lo": {
+        "numerator": 73,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 147,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 5987,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 209559177216,
+        "denominator": 86158772730625
+      },
+      "units": 243224,
+      "bound": {
+        "numerator": 30403,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 148,
+      "lo": {
+        "numerator": 147,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 37,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 11689,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 627944769,
+        "denominator": 268401705625
+      },
+      "units": 233957,
+      "bound": {
+        "numerator": 233957,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 149,
+      "lo": {
+        "numerator": 37,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 149,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 5703,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 3133821312,
+        "denominator": 1393192609375
+      },
+      "units": 224938,
+      "bound": {
+        "numerator": 112469,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 150,
+      "lo": {
+        "numerator": 149,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "g_hi": {
+        "numerator": 89,
+        "denominator": 320
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 3063825,
+        "denominator": 1417371904
+      },
+      "units": 216162,
+      "bound": {
+        "numerator": 108081,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 151,
+      "lo": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "hi": {
+        "numerator": 151,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 5423,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 20625447744,
+        "denominator": 9934000830625
+      },
+      "units": 207624,
+      "bound": {
+        "numerator": 25953,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 152,
+      "lo": {
+        "numerator": 151,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 19,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 10569,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 555094449,
+        "denominator": 278493675625
+      },
+      "units": 199320,
+      "bound": {
+        "numerator": 4983,
+        "denominator": 2500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 153,
+      "lo": {
+        "numerator": 19,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 153,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 5147,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 174153727296,
+        "denominator": 91063600425625
+      },
+      "units": 191244,
+      "bound": {
+        "numerator": 47811,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 154,
+      "lo": {
+        "numerator": 153,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 77,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 10021,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 38691081,
+        "denominator": 21097562500
+      },
+      "units": 183391,
+      "bound": {
+        "numerator": 183391,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 155,
+      "lo": {
+        "numerator": 77,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 31,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 39,
+        "denominator": 160
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 5795712,
+        "denominator": 3297568805
+      },
+      "units": 175757,
+      "bound": {
+        "numerator": 175757,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 156,
+      "lo": {
+        "numerator": 31,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 39,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 9481,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 5626850247,
+        "denominator": 3342608854375
+      },
+      "units": 168337,
+      "bound": {
+        "numerator": 168337,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 157,
+      "lo": {
+        "numerator": 39,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 157,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 4607,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1878771456,
+        "denominator": 1166022030625
+      },
+      "units": 161126,
+      "bound": {
+        "numerator": 80563,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 158,
+      "lo": {
+        "numerator": 157,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 79,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 8949,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 4080287601,
+        "denominator": 2647454410000
+      },
+      "units": 154121,
+      "bound": {
+        "numerator": 154121,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 159,
+      "lo": {
+        "numerator": 79,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 159,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 4343,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 141681306816,
+        "denominator": 96174797265625
+      },
+      "units": 147316,
+      "bound": {
+        "numerator": 36829,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 160,
+      "lo": {
+        "numerator": 159,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 4,
+        "denominator": 5
+      },
+      "g_hi": {
+        "numerator": 337,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 6069033,
+        "denominator": 4313205625
+      },
+      "units": 140708,
+      "bound": {
+        "numerator": 35177,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 161,
+      "lo": {
+        "numerator": 4,
+        "denominator": 5
+      },
+      "hi": {
+        "numerator": 161,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 4083,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1623531456,
+        "denominator": 1208955225625
+      },
+      "units": 134292,
+      "bound": {
+        "numerator": 33573,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 162,
+      "lo": {
+        "numerator": 161,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 81,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 7909,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 31634900649,
+        "denominator": 24702391022500
+      },
+      "units": 128064,
+      "bound": {
+        "numerator": 2001,
+        "denominator": 1562500
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 163,
+      "lo": {
+        "numerator": 81,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 163,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 3827,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1931012352,
+        "denominator": 1582535329375
+      },
+      "units": 122020,
+      "bound": {
+        "numerator": 6101,
+        "denominator": 5000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 164,
+      "lo": {
+        "numerator": 163,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 41,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 7401,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 3245789961,
+        "denominator": 2794330140625
+      },
+      "units": 116156,
+      "bound": {
+        "numerator": 29039,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 165,
+      "lo": {
+        "numerator": 41,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 33,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 143,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1482624,
+        "denominator": 1342123225
+      },
+      "units": 110468,
+      "bound": {
+        "numerator": 27617,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 166,
+      "lo": {
+        "numerator": 33,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 83,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 6901,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 36858241,
+        "denominator": 35118760000
+      },
+      "units": 104953,
+      "bound": {
+        "numerator": 104953,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 167,
+      "lo": {
+        "numerator": 83,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 167,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 3327,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 11434872384,
+        "denominator": 11480068650625
+      },
+      "units": 99606,
+      "bound": {
+        "numerator": 49803,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 168,
+      "lo": {
+        "numerator": 167,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 21,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 6409,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 24607233729,
+        "denominator": 26060259255625
+      },
+      "units": 94424,
+      "bound": {
+        "numerator": 11803,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 169,
+      "lo": {
+        "numerator": 21,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 169,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 3083,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 10447078464,
+        "denominator": 11685287640625
+      },
+      "units": 89403,
+      "bound": {
+        "numerator": 89403,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 170,
+      "lo": {
+        "numerator": 169,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 17,
+        "denominator": 20
+      },
+      "g_hi": {
+        "numerator": 237,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 7031,
+        "denominator": 8316700
+      },
+      "units": 84540,
+      "bound": {
+        "numerator": 4227,
+        "denominator": 5000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 171,
+      "lo": {
+        "numerator": 17,
+        "denominator": 20
+      },
+      "hi": {
+        "numerator": 171,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 2843,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 85451573376,
+        "denominator": 107039198700625
+      },
+      "units": 79832,
+      "bound": {
+        "numerator": 9979,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 172,
+      "lo": {
+        "numerator": 171,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 43,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 5449,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 2257896681,
+        "denominator": 2999564205625
+      },
+      "units": 75274,
+      "bound": {
+        "numerator": 37637,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 173,
+      "lo": {
+        "numerator": 43,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 173,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 2607,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 8577321984,
+        "denominator": 12103962855625
+      },
+      "units": 70863,
+      "bound": {
+        "numerator": 70863,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 174,
+      "lo": {
+        "numerator": 173,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 87,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 4981,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 18296552889,
+        "denominator": 27473322250000
+      },
+      "units": 66597,
+      "bound": {
+        "numerator": 66597,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 175,
+      "lo": {
+        "numerator": 87,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "g_hi": {
+        "numerator": 19,
+        "denominator": 160
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 54720,
+        "denominator": 87590881
+      },
+      "units": 62472,
+      "bound": {
+        "numerator": 7809,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 176,
+      "lo": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "hi": {
+        "numerator": 22,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 4521,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 15014241,
+        "denominator": 25672050625
+      },
+      "units": 58484,
+      "bound": {
+        "numerator": 14621,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 177,
+      "lo": {
+        "numerator": 22,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 177,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 2147,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1257695424,
+        "denominator": 2302123425625
+      },
+      "units": 54631,
+      "bound": {
+        "numerator": 54631,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 178,
+      "lo": {
+        "numerator": 177,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 89,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 4069,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1609163361,
+        "denominator": 3160750622500
+      },
+      "units": 50910,
+      "bound": {
+        "numerator": 5091,
+        "denominator": 10000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 179,
+      "lo": {
+        "numerator": 89,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 179,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 1923,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 670496256,
+        "denominator": 1416992640625
+      },
+      "units": 47318,
+      "bound": {
+        "numerator": 23659,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 180,
+      "lo": {
+        "numerator": 179,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 9,
+        "denominator": 10
+      },
+      "g_hi": {
+        "numerator": 29,
+        "denominator": 320
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 4061421,
+        "denominator": 9261777605
+      },
+      "units": 43851,
+      "bound": {
+        "numerator": 43851,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 181,
+      "lo": {
+        "numerator": 9,
+        "denominator": 10
+      },
+      "hi": {
+        "numerator": 181,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 1703,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 5255812224,
+        "denominator": 12974944305625
+      },
+      "units": 40507,
+      "bound": {
+        "numerator": 40507,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 182,
+      "lo": {
+        "numerator": 181,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 91,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 3189,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 1219821201,
+        "denominator": 3271757440000
+      },
+      "units": 37283,
+      "bound": {
+        "numerator": 37283,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 183,
+      "lo": {
+        "numerator": 91,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 183,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 1487,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 40601238336,
+        "denominator": 118798555275625
+      },
+      "units": 34176,
+      "bound": {
+        "numerator": 267,
+        "denominator": 781250
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 184,
+      "lo": {
+        "numerator": 183,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 23,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 2761,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 16474887,
+        "denominator": 52830859375
+      },
+      "units": 31184,
+      "bound": {
+        "numerator": 1949,
+        "denominator": 6250000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 185,
+      "lo": {
+        "numerator": 23,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 37,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 51,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 6080832,
+        "denominator": 21484230625
+      },
+      "units": 28303,
+      "bound": {
+        "numerator": 28303,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 186,
+      "lo": {
+        "numerator": 37,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 93,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 2341,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 7779960009,
+        "denominator": 30470952002500
+      },
+      "units": 25532,
+      "bound": {
+        "numerator": 6383,
+        "denominator": 25000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 187,
+      "lo": {
+        "numerator": 93,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 187,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 1067,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 25812864,
+        "denominator": 112879200625
+      },
+      "units": 22867,
+      "bound": {
+        "numerator": 22867,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 188,
+      "lo": {
+        "numerator": 187,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 47,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 1929,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 77702049,
+        "denominator": 382635030625
+      },
+      "units": 20307,
+      "bound": {
+        "numerator": 20307,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 189,
+      "lo": {
+        "numerator": 47,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 189,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 863,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 22315274496,
+        "denominator": 125028737640625
+      },
+      "units": 17848,
+      "bound": {
+        "numerator": 2231,
+        "denominator": 12500000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 190,
+      "lo": {
+        "numerator": 189,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 19,
+        "denominator": 20
+      },
+      "g_hi": {
+        "numerator": 61,
+        "denominator": 1600
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 867969,
+        "denominator": 5604019600
+      },
+      "units": 15488,
+      "bound": {
+        "numerator": 121,
+        "denominator": 781250
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 191,
+      "lo": {
+        "numerator": 19,
+        "denominator": 20
+      },
+      "hi": {
+        "numerator": 191,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 663,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 266939712,
+        "denominator": 2018395054375
+      },
+      "units": 13225,
+      "bound": {
+        "numerator": 529,
+        "denominator": 4000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 192,
+      "lo": {
+        "numerator": 191,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 24,
+        "denominator": 25
+      },
+      "g_hi": {
+        "numerator": 1129,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 3544654689,
+        "denominator": 32058527100625
+      },
+      "units": 11056,
+      "bound": {
+        "numerator": 691,
+        "denominator": 6250000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 193,
+      "lo": {
+        "numerator": 24,
+        "denominator": 25
+      },
+      "hi": {
+        "numerator": 193,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 467,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 15930304,
+        "denominator": 177388380625
+      },
+      "units": 8980,
+      "bound": {
+        "numerator": 449,
+        "denominator": 5000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 194,
+      "lo": {
+        "numerator": 193,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 97,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": 741,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 253348641,
+        "denominator": 3622360562500
+      },
+      "units": 6994,
+      "bound": {
+        "numerator": 3497,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 195,
+      "lo": {
+        "numerator": 97,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 39,
+        "denominator": 40
+      },
+      "g_hi": {
+        "numerator": 11,
+        "denominator": 800
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 10720512,
+        "denominator": 210401103025
+      },
+      "units": 5095,
+      "bound": {
+        "numerator": 1019,
+        "denominator": 20000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 196,
+      "lo": {
+        "numerator": 39,
+        "denominator": 40
+      },
+      "hi": {
+        "numerator": 49,
+        "denominator": 50
+      },
+      "g_hi": {
+        "numerator": 361,
+        "denominator": 40000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 120892041,
+        "denominator": 3683424600625
+      },
+      "units": 3282,
+      "bound": {
+        "numerator": 1641,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 197,
+      "lo": {
+        "numerator": 49,
+        "denominator": 50
+      },
+      "hi": {
+        "numerator": 197,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": 87,
+        "denominator": 20000
+      },
+      "kind": "contraction",
+      "exact": {
+        "numerator": 2847104,
+        "denominator": 183419475625
+      },
+      "units": 1552,
+      "bound": {
+        "numerator": 97,
+        "denominator": 6250000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 198,
+      "lo": {
+        "numerator": 197,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 99,
+        "denominator": 100
+      },
+      "g_hi": {
+        "numerator": -11,
+        "denominator": 40000
+      },
+      "kind": "excess",
+      "exact": {
+        "numerator": 773136,
+        "denominator": 445645475
+      },
+      "units": 173487,
+      "bound": {
+        "numerator": 173487,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 199,
+      "lo": {
+        "numerator": 99,
+        "denominator": 100
+      },
+      "hi": {
+        "numerator": 199,
+        "denominator": 200
+      },
+      "g_hi": {
+        "numerator": -97,
+        "denominator": 20000
+      },
+      "kind": "excess",
+      "exact": {
+        "numerator": 204379,
+        "denominator": 6427350
+      },
+      "units": 3179834,
+      "bound": {
+        "numerator": 1589917,
+        "denominator": 50000000
+      },
+      "rounding_valid": true
+    },
+    {
+      "i": 200,
+      "lo": {
+        "numerator": 199,
+        "denominator": 200
+      },
+      "hi": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "g_hi": {
+        "numerator": -3,
+        "denominator": 320
+      },
+      "kind": "excess",
+      "exact": {
+        "numerator": 2269512,
+        "denominator": 35511125
+      },
+      "units": 6390989,
+      "bound": {
+        "numerator": 6390989,
+        "denominator": 100000000
+      },
+      "rounding_valid": true
+    }
+  ],
+  "aggregate": {
+    "contraction_units": 482257365,
+    "excess_units": 9744310,
+    "gamma": {
+      "numerator": 94502611,
+      "denominator": 8000000000
+    },
+    "required_gamma": {
+      "numerator": 1,
+      "denominator": 100
+    },
+    "margin": {
+      "numerator": 14502611,
+      "denominator": 8000000000
+    },
+    "B": {
+      "numerator": 19680067,
+      "denominator": 8000000
+    },
+    "pointwise_bound": "|W_(-d+iy)(u)| <= exp(B-gamma*n), |y|>=y0, |u|=1"
+  },
+  "checks": [
+    {
+      "name": "Delta equals 21/64",
+      "passed": true
+    },
+    {
+      "name": "K upper square margin positive",
+      "passed": true
+    },
+    {
+      "name": "radius lower square margin positive",
+      "passed": true
+    },
+    {
+      "name": "radius upper square margin positive",
+      "passed": true
+    },
+    {
+      "name": "g decreasing on [0,1]",
+      "passed": true
+    },
+    {
+      "name": "all denominator lower bounds positive",
+      "passed": true
+    },
+    {
+      "name": "all interval constants and roundings valid",
+      "passed": true
+    },
+    {
+      "name": "full-product exponent exceeds required 1/100",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

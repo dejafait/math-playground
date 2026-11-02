@@ -1,0 +1,107 @@
+{
+  "lemma": "L655",
+  "scope": "Exact scalar witnesses only; analytic argument is in the lemma.",
+  "required_squared_rate": "1/16",
+  "proved_subfamily": "n>=8192; every |a-x|<=1/16384; original mass M<=n/3",
+  "checks": [
+    {
+      "name": "upper product logarithm coefficient",
+      "actual": "22/3",
+      "relation": "<",
+      "required": "8",
+      "passed": true
+    },
+    {
+      "name": "lower product logarithm coefficient",
+      "actual": "44/7",
+      "relation": "<",
+      "required": "8",
+      "passed": true
+    },
+    {
+      "name": "adaptive radius ceiling",
+      "actual": "1/24",
+      "relation": "<",
+      "required": "1/16",
+      "passed": true
+    },
+    {
+      "name": "minimum Taylor order",
+      "actual": "16",
+      "relation": ">=",
+      "required": "16",
+      "passed": true
+    },
+    {
+      "name": "ceiling degree density at onset",
+      "actual": "17/8192",
+      "relation": "<=",
+      "required": "17/8192",
+      "passed": true
+    },
+    {
+      "name": "pole radius / Taylor circle",
+      "actual": "1/4",
+      "relation": "<=",
+      "required": "1/4",
+      "passed": true
+    },
+    {
+      "name": "relative error logarithm witness",
+      "actual": "112/81",
+      "relation": ">",
+      "required": "11/8",
+      "passed": true
+    },
+    {
+      "name": "relative error exponential witness",
+      "actual": "19/3",
+      "relation": ">",
+      "required": "16/3",
+      "passed": true
+    },
+    {
+      "name": "logarithm of norm base witness",
+      "actual": "2097152",
+      "relation": ">",
+      "required": "1240029",
+      "passed": true
+    },
+    {
+      "name": "norm exponent",
+      "actual": "187/8192",
+      "relation": "<",
+      "required": "3/128",
+      "passed": true
+    },
+    {
+      "name": "original diagonal prefactor",
+      "actual": "411/6250",
+      "relation": ">",
+      "required": "1/16",
+      "passed": true
+    },
+    {
+      "name": "polynomial cost absorption at onset",
+      "actual": "16/3",
+      "relation": ">=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "correction coefficient squared",
+      "actual": "21",
+      "relation": "<",
+      "required": "39456/625",
+      "passed": true
+    },
+    {
+      "name": "correction at onset",
+      "actual": "3/512",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

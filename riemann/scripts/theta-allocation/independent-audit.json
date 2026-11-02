@@ -1,0 +1,191 @@
+{
+  "status": "AUDIT_REPLAY_PASS",
+  "scope": "existing x=11, a=7/16 certificate only; no new candidate",
+  "runtime": {
+    "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "implementation": "CPython",
+    "decimal_module": "/opt/homebrew/Cellar/python@3.15/3.15.0_1/Frameworks/Python.framework/Versions/3.15/lib/python3.15/decimal.py",
+    "decimal_class_module": "decimal",
+    "decimal_version": "1.70",
+    "libmpdec_version": "4.0.1",
+    "c_backend_identity": true,
+    "contexts": {
+      "DN": "Context(prec=45, rounding=ROUND_FLOOR, Emin=-999999999, Emax=999999999, capitals=1, clamp=0, flags=[Inexact, Rounded], traps=[InvalidOperation, DivisionByZero, Overflow])",
+      "UP": "Context(prec=45, rounding=ROUND_CEILING, Emin=-999999999, Emax=999999999, capitals=1, clamp=0, flags=[Inexact, Rounded], traps=[InvalidOperation, DivisionByZero, Overflow])",
+      "RN": "Context(prec=45, rounding=ROUND_HALF_EVEN, Emin=-999999999, Emax=999999999, capitals=1, clamp=0, flags=[Inexact, Rounded], traps=[InvalidOperation, DivisionByZero, Overflow])"
+    },
+    "signals": {
+      "DN": {
+        "InvalidOperation": false,
+        "FloatOperation": false,
+        "DivisionByZero": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false,
+        "Inexact": true,
+        "Rounded": true,
+        "Clamped": false
+      },
+      "UP": {
+        "InvalidOperation": false,
+        "FloatOperation": false,
+        "DivisionByZero": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false,
+        "Inexact": true,
+        "Rounded": true,
+        "Clamped": false
+      },
+      "RN": {
+        "InvalidOperation": false,
+        "FloatOperation": false,
+        "DivisionByZero": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false,
+        "Inexact": true,
+        "Rounded": true,
+        "Clamped": false
+      }
+    },
+    "elapsed_seconds": 6.632801249972545
+  },
+  "telemetry": {
+    "intervals_constructed": 3108873,
+    "zero_straddling_intervals": 220995,
+    "smallest_nonzero_adjusted_exponent": -303099977,
+    "largest_nonzero_adjusted_exponent": 157,
+    "division_calls": 26935,
+    "smallest_denominator_magnitude": "0.0583581473194319893953050183665117204599052411",
+    "exponential_calls": 143369,
+    "exponential_input_min": "-697913488.255362660138543923210874727652360159",
+    "exponential_input_max": "16.000000000000000",
+    "kernel_calls_by_order": [
+      18432,
+      1,
+      2048
+    ]
+  },
+  "complete_certificate_identical": true,
+  "original_sha256": "caed9986860a976bd1015ad3d153a62090942439ecea20e67f2b0b8a86f64fbf",
+  "replayed_sha256": "4f79b89cdd58730b9f8a8f15408080f93eeb379f2850874e6536eb90f732b69a",
+  "executable_sha256": "2055dd86fc83bd4e49fd0cd775d56a06f4500cf3720503c2e8f9aa8ee307da66",
+  "preserved_certificate": "certificate-before-independent-audit.json",
+  "complete_replayed_certificate": {
+    "status": "CERTIFIED_NEGATIVE",
+    "point": {
+      "x": 11,
+      "a_numerator": 7,
+      "a_denominator": 16
+    },
+    "arithmetic": {
+      "precision": 45,
+      "method": "Decimal directed endpoints; nearest exp widened one ulp",
+      "derivative_polynomials_ascending": [
+        [
+          0,
+          -12,
+          8
+        ],
+        [
+          0,
+          -30,
+          60,
+          -16
+        ],
+        [
+          0,
+          -75,
+          330,
+          -224,
+          32
+        ]
+      ],
+      "coefficient_bounds": [
+        20,
+        106,
+        661
+      ],
+      "pi": [
+        "3.14159265358979323846264338327950288419716845",
+        "3.14159265358979323846264338327950288419717038"
+      ],
+      "theta_terms": 5,
+      "theta_uniform_tails_j0_j1_j2": [
+        "5.65143657006253239896958053194012576705465470E-40",
+        "4.31317639027172472689358386197670398541611247E-37",
+        "3.87306963709079100381734798413576030328157783E-34"
+      ]
+    },
+    "quadrature": {
+      "cutoff": 8,
+      "tail_midpoint_cells": 2048,
+      "head_real_box_cells": 16384,
+      "H_midpoint_error_upper": "5.26271068968315206113842802306021402251577617E-7",
+      "one_side_mass_midpoint_error_upper": "0.00000146224352287185355946367440829151087517742697",
+      "H_spatial_tail_upper": "1.60381089054863785297608703414233538099836385E-24",
+      "one_side_mass_spatial_tail_upper": "2.00476361318579731622010879267791922624795482E-25"
+    },
+    "enclosures": {
+      "k_a": [
+        "0.241574310139617265958064906431703542245585138",
+        "0.241574310139617265958064906431703542246151766"
+      ],
+      "k_prime_a": [
+        "-2.43400226259182267761566227509330340668883123",
+        "-2.43400226259182267761566227509330340582617859"
+      ],
+      "H_a": [
+        "0.00978067495246230578783828508936941937108035787",
+        "0.00978172749460024241825211658586458006976843669"
+      ],
+      "q_a": [
+        "0.029523600002362687907910085349181016874636616",
+        "0.029567499441650712380674595144897071013207526"
+      ],
+      "S": [
+        "0.00846067768165558057368059039385087687549969885",
+        "0.00871905158438853995167194639736575423279990768"
+      ],
+      "positive_layer": [
+        "0.00000845355932846358848229051146135057314256461575",
+        "0.00000899110527524136539951173153182426673104128208"
+      ],
+      "integrated_remainder": [
+        "-0.00259235446950362320561357515198884310635632309",
+        "-0.00252421437554565889973279626935388462038150864"
+      ],
+      "Z": [
+        "0.994050691064506336837513975063570628468629708",
+        "0.994426923299315968553747177435759344712792824"
+      ],
+      "Z_squared_G": [
+        "-0.00258390091017515961713128464052749253321375848",
+        "-0.00251522327027041753433328453782206035365046735"
+      ],
+      "G": [
+        "-0.00261492231831877998532257189736068072246413487",
+        "-0.00254349445073187978085041497223350674919322775"
+      ]
+    },
+    "test": {
+      "required_upper_bound": "0",
+      "actual_upper_bound": "-0.00251522327027041753433328453782206035365046735",
+      "radius": "0.000034338819952371041399000051352716089781645565",
+      "denominators_separated": true,
+      "failures": []
+    },
+    "distinct_rational_candidates_attempted": 1,
+    "certificate_evaluation_runs_including_corrected_versions": 3,
+    "preview_is_not_evidence": true
+  },
+  "normalized_G_radius_upper": "0.00003571393379345010223607846256358698663545356",
+  "required_upper_bound": "0",
+  "actual_upper_bound": "-0.00254349445073187978085041497223350674919322775",
+  "failures": [],
+  "complete_certificate_byte_identical": false,
+  "serialization_difference": "Only top-level key ordering differs: preview_is_not_evidence moved after candidate/run counters. Complete JSON values are identical; verified by full diff.",
+  "independent_replay_runs": 1,
+  "historical_run_counter_scope": "Original calculation counter retained verbatim; it excludes this independent audit replay."
+}

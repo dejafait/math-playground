@@ -1,0 +1,128 @@
+{
+  "result": "PASS",
+  "scope": "Exact constants only; this certificate does not establish L677's analytic inequalities or its L675 input. See L677 Section 7 for the separate analytic audit.",
+  "checks": [
+    {
+      "name": "segment endpoint y",
+      "actual": "9/20",
+      "relation": "=",
+      "required": "9/20",
+      "passed": true
+    },
+    {
+      "name": "rho squared",
+      "actual": "625/706",
+      "relation": "=",
+      "required": "625/706",
+      "passed": true
+    },
+    {
+      "name": "sigma squared",
+      "actual": "81/706",
+      "relation": "=",
+      "required": "81/706",
+      "passed": true
+    },
+    {
+      "name": "squared sine cosine sum",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "cos theta0",
+      "actual": "272/353",
+      "relation": "=",
+      "required": "272/353",
+      "passed": true
+    },
+    {
+      "name": "s rho exceeds one, squared",
+      "actual": "3025/2824",
+      "relation": ">",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "kappa squared",
+      "actual": "373474/366025",
+      "relation": "=",
+      "required": "373474/366025",
+      "passed": true
+    },
+    {
+      "name": "kappa squared exceeds one",
+      "actual": "373474/366025",
+      "relation": ">",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "prescribed zero under circle map",
+      "actual": "10/11",
+      "relation": "=",
+      "required": "10/11",
+      "passed": true
+    },
+    {
+      "name": "kernel minimum",
+      "actual": "1/10",
+      "relation": "=",
+      "required": "1/10",
+      "passed": true
+    },
+    {
+      "name": "kernel maximum",
+      "actual": "10",
+      "relation": "=",
+      "required": "10",
+      "passed": true
+    },
+    {
+      "name": "norm lower-bound prefactor",
+      "actual": "9/2500",
+      "relation": "=",
+      "required": "9/2500",
+      "passed": true
+    },
+    {
+      "name": "logarithm series variable",
+      "actual": "7449/739499",
+      "relation": "=",
+      "required": "7449/739499",
+      "passed": true
+    },
+    {
+      "name": "rate lower bound exceeds required rate",
+      "actual": "7449/739499",
+      "relation": ">",
+      "required": "1/100",
+      "passed": true
+    },
+    {
+      "name": "strict rate margin",
+      "actual": "5401/73949900",
+      "relation": "=",
+      "required": "5401/73949900",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "cost_bound": {
+    "norm_lower_bound": "9*kappa^(n-1)/(2500*(2*n+3))",
+    "allowed_n": "n=12q+3, integer q>=1",
+    "kappa_squared": "373474/366025",
+    "proved_rate_strict_lower_bound": "7449/739499",
+    "required_rate": "1/100",
+    "strict_margin": "5401/73949900",
+    "prefactor": "9/2500",
+    "uniform_consequence": "Exceeds exp(n/100)*n^C eventually for every fixed real C, under all L677 hypotheses."
+  },
+  "limitations": [
+    "Constants do not verify the all-preimage coefficient bound",
+    "Constants do not verify the positive-arc mass or Poisson argument",
+    "Nonpolynomial and differently constrained actions remain open",
+    "No positive-cone, H, support, Xi or RH conclusion"
+  ]
+}

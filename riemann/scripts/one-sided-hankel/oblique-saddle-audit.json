@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "passed": true,
+    "checks": 20,
+    "saddle_cells": 1024,
+    "local_cells": 32,
+    "tail_cells": 512,
+    "log_invariants": {
+      "log_calls": 9289,
+      "midpoint_in_rectangle": 9289,
+      "midpoint_in_q_disk": 9289
+    },
+    "limitations": "Arithmetic replay and cell checks only; analytic audit is in C645v/w."
+  },
+  "checks": [
+    {
+      "name": "complete saddle certificate replay",
+      "passed": true,
+      "actual": "553fdef0f914b797ac4a834fee7c6e133b5d01df085bf3d31dfec791b4bf2f3f",
+      "required": "553fdef0f914b797ac4a834fee7c6e133b5d01df085bf3d31dfec791b4bf2f3f"
+    },
+    {
+      "name": "saddle failures",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "name": "all original saddle comparisons",
+      "passed": true,
+      "actual": 12,
+      "required": "every saved strict comparison passes"
+    },
+    {
+      "name": "logarithm midpoint domains",
+      "passed": true,
+      "actual": {
+        "log_calls": 9289,
+        "midpoint_in_rectangle": 9289,
+        "midpoint_in_q_disk": 9289
+      },
+      "required": "every midpoint in its rectangle and certified q disk"
+    },
+    {
+      "name": "global indices",
+      "passed": true,
+      "actual": 1024,
+      "required": 1024
+    },
+    {
+      "name": "global continuous cover",
+      "passed": true,
+      "actual": 1024,
+      "required": "closed cells cover the full interval without gaps"
+    },
+    {
+      "name": "local continuous cover",
+      "passed": true,
+      "actual": 32,
+      "required": "closed cells cover the full interval without gaps"
+    },
+    {
+      "name": "all unexcluded cells covered locally",
+      "passed": true,
+      "actual": 66,
+      "required": "every non-complementary cell is inside the local curvature interval"
+    },
+    {
+      "name": "all complementary phases",
+      "passed": true,
+      "actual": "267089442056769701285141335094127364318443/100000000000000000000000000000000000000000000",
+      "required": "1/250"
+    },
+    {
+      "name": "all b0 phases",
+      "passed": true,
+      "actual": "-69102721691902721566782929228246151440457/1000000000000000000000000000000000000000000",
+      "required": "-3/50"
+    },
+    {
+      "name": "all local curvatures",
+      "passed": true,
+      "actual": "-68746276284907142744375753691448257220831/500000000000000000000000000000000000000000",
+      "required": "-1/20"
+    },
+    {
+      "name": "tail failures",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "name": "tail original strict comparisons",
+      "passed": true,
+      "actual": 16,
+      "required": "all pass"
+    },
+    {
+      "name": "tail cell indices",
+      "passed": true,
+      "actual": 512,
+      "required": 512
+    },
+    {
+      "name": "tail closed-cell cover",
+      "passed": true,
+      "actual": 512,
+      "required": "closed cells cover the full interval without gaps"
+    },
+    {
+      "name": "tail monotone envelope",
+      "passed": true,
+      "actual": "31883/8192",
+      "required": "1 <= K_j < 4, nondecreasing"
+    },
+    {
+      "name": "all tail margins",
+      "passed": true,
+      "actual": 2560,
+      "required": "all 2560 margins strictly positive"
+    },
+    {
+      "name": "all rational logarithm tails and upward roundings",
+      "passed": true,
+      "actual": 512,
+      "required": 512
+    },
+    {
+      "name": "tail product rate",
+      "passed": true,
+      "actual": "7722432503711/25600000000000",
+      "required": "< 31/100 and agrees with summary"
+    },
+    {
+      "name": "whole alias decay",
+      "passed": true,
+      "actual": "21/250",
+      "required": "21/250 > 1/32"
+    }
+  ],
+  "failures": [],
+  "saddle_replay": "oblique-leading-saddle-audit-replay.json",
+  "tail_certificate": "oblique-alias-tail-certificate.json"
+}

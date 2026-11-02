@@ -1,0 +1,2727 @@
+{
+  "task": "p=1, degree<=1 six-term normalization audit",
+  "arithmetic": "exact rational polynomial identities, not numerical evidence",
+  "definitions": {
+    "Delta": "product_(j<k)(r_j-r_k)",
+    "U_S": "sum_(j in S)r_j-sum_(j not in S)r_j",
+    "D_S": "product_(j in S,k not in S)(r_j-r_k)",
+    "H": "sum_(|S|=2) exp(U_S/2)/D_S",
+    "G": "6/pi^2 H(i*a)"
+  },
+  "six_terms": [
+    {
+      "subset": [
+        0,
+        1
+      ],
+      "U_S": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      "Delta_over_D_S": [
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ]
+    },
+    {
+      "subset": [
+        0,
+        2
+      ],
+      "U_S": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      "Delta_over_D_S": [
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "subset": [
+        0,
+        3
+      ],
+      "U_S": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      "Delta_over_D_S": [
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ]
+    },
+    {
+      "subset": [
+        1,
+        2
+      ],
+      "U_S": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "Delta_over_D_S": [
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ]
+    },
+    {
+      "subset": [
+        1,
+        3
+      ],
+      "U_S": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "Delta_over_D_S": [
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "subset": [
+        2,
+        3
+      ],
+      "U_S": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ],
+      "Delta_over_D_S": [
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ]
+    }
+  ],
+  "taylor_identity_evidence": [
+    {
+      "exponential_degree": 0,
+      "numerator": [],
+      "quotient": [],
+      "identity_checked": true
+    },
+    {
+      "exponential_degree": 1,
+      "numerator": [],
+      "quotient": [],
+      "identity_checked": true
+    },
+    {
+      "exponential_degree": 2,
+      "numerator": [],
+      "quotient": [],
+      "identity_checked": true
+    },
+    {
+      "exponential_degree": 3,
+      "numerator": [],
+      "quotient": [],
+      "identity_checked": true
+    },
+    {
+      "exponential_degree": 4,
+      "numerator": [
+        {
+          "powers": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "powers": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "coefficient": "1/12"
+        }
+      ],
+      "quotient": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/12"
+        }
+      ],
+      "identity_checked": true
+    },
+    {
+      "exponential_degree": 5,
+      "numerator": [],
+      "quotient": [],
+      "identity_checked": true
+    },
+    {
+      "exponential_degree": 6,
+      "numerator": [
+        {
+          "powers": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            4,
+            3
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            5,
+            2
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            1,
+            5
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            5,
+            1
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            1,
+            4
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            4,
+            1
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            0,
+            4,
+            1,
+            3
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            0,
+            4,
+            3,
+            1
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            0,
+            5,
+            1,
+            2
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            0,
+            5,
+            2,
+            1
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            2,
+            5
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            3,
+            4
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            4,
+            3
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            5,
+            2
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            0,
+            5
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            5,
+            0
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            0,
+            4
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            4,
+            0
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            1,
+            4,
+            0,
+            3
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            1,
+            4,
+            3,
+            0
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            1,
+            5,
+            0,
+            2
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            1,
+            5,
+            2,
+            0
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            1,
+            5
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            5,
+            1
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            0,
+            5
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            5,
+            0
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            2,
+            5,
+            0,
+            1
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            2,
+            5,
+            1,
+            0
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            1,
+            4
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            4,
+            1
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            0,
+            4
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            4,
+            0
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            3,
+            4,
+            0,
+            1
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            3,
+            4,
+            1,
+            0
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            4,
+            0,
+            1,
+            3
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            4,
+            0,
+            3,
+            1
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            4,
+            1,
+            0,
+            3
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            4,
+            1,
+            3,
+            0
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            4,
+            3,
+            0,
+            1
+          ],
+          "coefficient": "1/288"
+        },
+        {
+          "powers": [
+            4,
+            3,
+            1,
+            0
+          ],
+          "coefficient": "-1/288"
+        },
+        {
+          "powers": [
+            5,
+            0,
+            1,
+            2
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            5,
+            0,
+            2,
+            1
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            5,
+            1,
+            0,
+            2
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            5,
+            1,
+            2,
+            0
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            5,
+            2,
+            0,
+            1
+          ],
+          "coefficient": "-1/480"
+        },
+        {
+          "powers": [
+            5,
+            2,
+            1,
+            0
+          ],
+          "coefficient": "1/480"
+        }
+      ],
+      "quotient": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "-1/720"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "coefficient": "-1/720"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1/720"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": "1/480"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1/720"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/720"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1/720"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/480"
+        }
+      ],
+      "identity_checked": true
+    },
+    {
+      "exponential_degree": 7,
+      "numerator": [],
+      "quotient": [],
+      "identity_checked": true
+    },
+    {
+      "exponential_degree": 8,
+      "numerator": [
+        {
+          "powers": [
+            0,
+            1,
+            2,
+            7
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            3,
+            6
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            5,
+            4
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            6,
+            3
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            7,
+            2
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            1,
+            7
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            5,
+            3
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            7,
+            1
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            1,
+            6
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            2,
+            5
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            5,
+            2
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            6,
+            1
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            0,
+            4,
+            1,
+            5
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            0,
+            4,
+            5,
+            1
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            0,
+            5,
+            1,
+            4
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            0,
+            5,
+            2,
+            3
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            0,
+            5,
+            3,
+            2
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            0,
+            5,
+            4,
+            1
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            0,
+            6,
+            1,
+            3
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            0,
+            6,
+            3,
+            1
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            0,
+            7,
+            1,
+            2
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            0,
+            7,
+            2,
+            1
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            2,
+            7
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            3,
+            6
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            4,
+            5
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            5,
+            4
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            6,
+            3
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            7,
+            2
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            0,
+            7
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            7,
+            0
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            0,
+            6
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            4,
+            2
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            6,
+            0
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            1,
+            4,
+            0,
+            5
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            1,
+            4,
+            2,
+            3
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            1,
+            4,
+            3,
+            2
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            1,
+            4,
+            5,
+            0
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            1,
+            5,
+            0,
+            4
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            1,
+            5,
+            4,
+            0
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            1,
+            6,
+            0,
+            3
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            1,
+            6,
+            3,
+            0
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            1,
+            7,
+            0,
+            2
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            1,
+            7,
+            2,
+            0
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            1,
+            7
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            3,
+            5
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            5,
+            3
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            7,
+            1
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            0,
+            7
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            7,
+            0
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            2,
+            3,
+            0,
+            5
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            2,
+            3,
+            1,
+            4
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            2,
+            3,
+            4,
+            1
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            2,
+            3,
+            5,
+            0
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            2,
+            5,
+            0,
+            3
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            2,
+            5,
+            3,
+            0
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            2,
+            7,
+            0,
+            1
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            2,
+            7,
+            1,
+            0
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            1,
+            6
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            2,
+            5
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            5,
+            2
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            6,
+            1
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            0,
+            6
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            2,
+            4
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            6,
+            0
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            3,
+            2,
+            0,
+            5
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            3,
+            2,
+            5,
+            0
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            3,
+            4,
+            1,
+            2
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            3,
+            5,
+            0,
+            2
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            3,
+            5,
+            2,
+            0
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            3,
+            6,
+            0,
+            1
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            3,
+            6,
+            1,
+            0
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            4,
+            0,
+            1,
+            5
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            4,
+            0,
+            5,
+            1
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            4,
+            1,
+            0,
+            5
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            4,
+            1,
+            2,
+            3
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            4,
+            1,
+            5,
+            0
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            4,
+            2,
+            3,
+            1
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            4,
+            3,
+            1,
+            2
+          ],
+          "coefficient": "-1/4608"
+        },
+        {
+          "powers": [
+            4,
+            3,
+            2,
+            1
+          ],
+          "coefficient": "1/4608"
+        },
+        {
+          "powers": [
+            4,
+            5,
+            0,
+            1
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            4,
+            5,
+            1,
+            0
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            5,
+            0,
+            1,
+            4
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            5,
+            0,
+            2,
+            3
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            5,
+            0,
+            3,
+            2
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            5,
+            0,
+            4,
+            1
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            5,
+            1,
+            0,
+            4
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            5,
+            1,
+            4,
+            0
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            5,
+            2,
+            0,
+            3
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            5,
+            2,
+            3,
+            0
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            5,
+            3,
+            0,
+            2
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            5,
+            3,
+            2,
+            0
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            5,
+            4,
+            0,
+            1
+          ],
+          "coefficient": "-1/11520"
+        },
+        {
+          "powers": [
+            5,
+            4,
+            1,
+            0
+          ],
+          "coefficient": "1/11520"
+        },
+        {
+          "powers": [
+            6,
+            0,
+            1,
+            3
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            6,
+            0,
+            3,
+            1
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            6,
+            1,
+            0,
+            3
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            6,
+            1,
+            3,
+            0
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            6,
+            3,
+            0,
+            1
+          ],
+          "coefficient": "1/23040"
+        },
+        {
+          "powers": [
+            6,
+            3,
+            1,
+            0
+          ],
+          "coefficient": "-1/23040"
+        },
+        {
+          "powers": [
+            7,
+            0,
+            1,
+            2
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            7,
+            0,
+            2,
+            1
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            7,
+            1,
+            0,
+            2
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            7,
+            1,
+            2,
+            0
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            7,
+            2,
+            0,
+            1
+          ],
+          "coefficient": "-1/53760"
+        },
+        {
+          "powers": [
+            7,
+            2,
+            1,
+            0
+          ],
+          "coefficient": "1/53760"
+        }
+      ],
+      "quotient": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            4
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            3
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "coefficient": "1/16128"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            3,
+            1
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            4,
+            0
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            3
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            0,
+            1,
+            3,
+            0
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            0,
+            2
+          ],
+          "coefficient": "1/16128"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            1,
+            1
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "coefficient": "1/16128"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            0,
+            1
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            0,
+            3,
+            1,
+            0
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "coefficient": "1/53760"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            3
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            1,
+            0,
+            3,
+            0
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            0,
+            2
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "1/6720"
+        },
+        {
+          "powers": [
+            1,
+            1,
+            2,
+            0
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            1,
+            3,
+            0,
+            0
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            0,
+            2
+          ],
+          "coefficient": "1/16128"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            1,
+            1
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            2,
+            0,
+            2,
+            0
+          ],
+          "coefficient": "1/16128"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "coefficient": "1/16128"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            3,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            3,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1/40320"
+        },
+        {
+          "powers": [
+            4,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1/53760"
+        }
+      ],
+      "identity_checked": true
+    }
+  ],
+  "B1_pi_squared": {
+    "c0_squared": "1/30",
+    "c0_c1": "0",
+    "c1_squared": "1/840"
+  },
+  "kernel_integrals": {
+    "I00": "4/15",
+    "I11": "1/105"
+  },
+  "actual_relative_coercivity": "B1 >= (c0^2+c1^2)/(840*pi^2)",
+  "required_relative_coercivity": "fixed positive multiple of c0^2+c1^2",
+  "scope_limits": [
+    "No proof of Hughes-Young arithmetic",
+    "No numerical or effective onset",
+    "Analytic uniformity and completion proved in L619"
+  ],
+  "failures": [],
+  "passed": true
+}

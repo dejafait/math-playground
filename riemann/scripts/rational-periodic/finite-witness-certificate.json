@@ -1,0 +1,143 @@
+{
+  "scope": "Complete reduced finite tables; signs are proved irrelevant in L590.",
+  "old_law": {
+    "rows": [
+      {
+        "q": "0",
+        "k": "1/12",
+        "probability": "1/12",
+        "DR": "1/12",
+        "Q": "1/12"
+      },
+      {
+        "q": "0",
+        "k": "-7/60",
+        "probability": "5/12",
+        "DR": "-7/60",
+        "Q": "0"
+      },
+      {
+        "q": "1/6",
+        "k": "1/12",
+        "probability": "1/12",
+        "DR": "23/98",
+        "Q": "0"
+      },
+      {
+        "q": "1/6",
+        "k": "-7/60",
+        "probability": "5/12",
+        "DR": "11/98",
+        "Q": "0"
+      }
+    ],
+    "totals": {
+      "mass": "1",
+      "q": "1/12",
+      "k": "-1/12",
+      "k2": "1/80",
+      "DR": "29/1176",
+      "Q": "1/144"
+    }
+  },
+  "new_law": {
+    "rows": [
+      {
+        "q": "0",
+        "k": "1/12",
+        "probability": "625/4032",
+        "DR": "1/12",
+        "Q": "1/12"
+      },
+      {
+        "q": "0",
+        "k": "-7/60",
+        "probability": "3125/4032",
+        "DR": "-7/60",
+        "Q": "0"
+      },
+      {
+        "q": "1",
+        "k": "1/12",
+        "probability": "19/2016",
+        "DR": "1",
+        "Q": "0"
+      },
+      {
+        "q": "1",
+        "k": "-7/60",
+        "probability": "95/2016",
+        "DR": "1",
+        "Q": "0"
+      },
+      {
+        "q": "2",
+        "k": "1/12",
+        "probability": "1/448",
+        "DR": "167/108",
+        "Q": "0"
+      },
+      {
+        "q": "2",
+        "k": "-7/60",
+        "probability": "5/448",
+        "DR": "847/540",
+        "Q": "0"
+      }
+    ],
+    "totals": {
+      "mass": "1",
+      "q": "1/12",
+      "k": "-1/12",
+      "k2": "1/80",
+      "DR": "0",
+      "Q": "625/48384"
+    },
+    "conditionals": [
+      {
+        "q": "0",
+        "probability": "625/672",
+        "conditional_mean_DR": "-1/12"
+      },
+      {
+        "q": "1",
+        "probability": "19/336",
+        "conditional_mean_DR": "1"
+      },
+      {
+        "q": "2",
+        "probability": "3/224",
+        "conditional_mean_DR": "169/108"
+      }
+    ],
+    "K0": [
+      [
+        "1",
+        "0",
+        "-1/12"
+      ],
+      [
+        "0",
+        "1/12",
+        "0"
+      ],
+      [
+        "-1/12",
+        "0",
+        "1/80"
+      ]
+    ]
+  },
+  "actual_bound": "625/48384",
+  "required_strict_upper_cost": "1/288",
+  "margin_above_threshold": "457/48384",
+  "analytic_obligations": [
+    "C1 extension and growth at the origin",
+    "Periodic chain rule and zero endpoint flux for every P>0 and lag one",
+    "Full six-coordinate covariance by the symbolic Schur extension",
+    "All quadratic derivatives cancel by L589",
+    "Both global branches imply the clipped inequality at every atom"
+  ],
+  "failures": [],
+  "result": "PASS"
+}

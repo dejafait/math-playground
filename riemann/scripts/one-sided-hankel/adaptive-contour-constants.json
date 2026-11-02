@@ -1,0 +1,180 @@
+{
+  "lemma": "L654",
+  "arithmetic": "exact fractions",
+  "scope": "Arithmetic witnesses only; the contour and uniform proof are in the lemma.",
+  "checks": [
+    {
+      "name": "radial_margin",
+      "actual": "137/5000",
+      "relation": "==",
+      "required": "137/5000",
+      "passed": true,
+      "purpose": "Original squared diagonal margin."
+    },
+    {
+      "name": "ordinate_square",
+      "actual": "12029/40000",
+      "relation": "==",
+      "required": "12029/40000",
+      "passed": true,
+      "purpose": "Common-line geometry for the polynomial kernel."
+    },
+    {
+      "name": "ordinate_less_than_one",
+      "actual": "12029/40000",
+      "relation": "<",
+      "required": "1",
+      "passed": true,
+      "purpose": "Every node ordinate has modulus less than one."
+    },
+    {
+      "name": "contour_holomorphic",
+      "actual": "571/400",
+      "relation": "<",
+      "required": "3/2",
+      "passed": true,
+      "purpose": "The entire union of disks avoids all possible poles of f_u."
+    },
+    {
+      "name": "kernel_factor",
+      "actual": "33/16",
+      "relation": "<",
+      "required": "11/4",
+      "passed": true,
+      "purpose": "Every boundary-to-node factor is smaller than 2R."
+    },
+    {
+      "name": "adaptive_radius",
+      "actual": "1/24",
+      "relation": "<",
+      "required": "1/16",
+      "passed": true,
+      "purpose": "r_0=N/(8n) has room for regular-radius approximation."
+    },
+    {
+      "name": "log_ratio_coefficient",
+      "actual": "22/3",
+      "relation": "<",
+      "required": "8",
+      "passed": true,
+      "purpose": "Scalar logarithm bound in the reflected-weight ratio."
+    },
+    {
+      "name": "R_over_sigma_squared",
+      "actual": "121/64",
+      "relation": "<",
+      "required": "11097/5000",
+      "passed": true,
+      "purpose": "R/sigma<9."
+    },
+    {
+      "name": "density_log_argument",
+      "actual": "8448",
+      "relation": "<",
+      "required": "16384",
+      "passed": true,
+      "purpose": "log(8448)<14 log(2)."
+    },
+    {
+      "name": "log_two_witness",
+      "actual": "12013/6000",
+      "relation": ">",
+      "required": "2",
+      "passed": true,
+      "purpose": "The positive exponential series proves log(2)<7/10."
+    },
+    {
+      "name": "density_rate",
+      "actual": "9/320",
+      "relation": "==",
+      "required": "9/320",
+      "passed": true,
+      "purpose": "Upper envelope for phi(1/384)."
+    },
+    {
+      "name": "log_nine_witness",
+      "actual": "13",
+      "relation": ">",
+      "required": "9",
+      "passed": true,
+      "purpose": "The positive exponential series proves log(9)<3."
+    },
+    {
+      "name": "onset_polynomial_cost",
+      "actual": "106/5",
+      "relation": "<",
+      "required": "128/5",
+      "passed": true,
+      "purpose": "3+2 log(n)<=n/320 starts at n=8192."
+    },
+    {
+      "name": "onset_monotonicity",
+      "actual": "59/20480",
+      "relation": ">",
+      "required": "0",
+      "passed": true,
+      "purpose": "Derivative stays positive for every n>=8192."
+    },
+    {
+      "name": "total_amplitude_rate",
+      "actual": "1/32",
+      "relation": "==",
+      "required": "1/32",
+      "passed": true,
+      "purpose": "Contour and polynomial costs meet the required amplitude rate."
+    },
+    {
+      "name": "anchor_diagonal",
+      "actual": "64/21",
+      "relation": "==",
+      "required": "64/21",
+      "passed": true,
+      "purpose": "r_x>=1 and W_x=1."
+    },
+    {
+      "name": "correction_coefficient_squared",
+      "actual": "21",
+      "relation": "<",
+      "required": "39456/625",
+      "passed": true,
+      "purpose": "sqrt(21)/(24 sigma)<2."
+    },
+    {
+      "name": "correction_series_constant",
+      "actual": "393216",
+      "relation": "==",
+      "required": "393216",
+      "passed": true,
+      "purpose": "2n exp(-n/32)<=12*32^3/n^2."
+    },
+    {
+      "name": "correction_at_onset",
+      "actual": "3/512",
+      "relation": "==",
+      "required": "3/512",
+      "passed": true,
+      "purpose": "Uniform correction-to-guaranteed-response bound at the onset."
+    },
+    {
+      "name": "correction_budget",
+      "actual": "3/512",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true,
+      "purpose": "At least one half of the guaranteed response remains."
+    },
+    {
+      "name": "squared_rate",
+      "actual": "1/16",
+      "relation": "==",
+      "required": "1/16",
+      "passed": true,
+      "purpose": "Required squared exponent."
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "passed": 21,
+    "total": 21
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "kind": "exact_rational_rate_certificate",
+  "claim": "Rate of the full inner-function test, not an upper bound on the Hankel operator norm",
+  "parameters": {
+    "d": {
+      "numerator": "5",
+      "denominator": "4"
+    },
+    "R": {
+      "numerator": "11",
+      "denominator": "8"
+    },
+    "eta": {
+      "numerator": "1",
+      "denominator": "100"
+    }
+  },
+  "log_series_inputs": [
+    {
+      "argument": {
+        "numerator": "11",
+        "denominator": "10"
+      },
+      "u": {
+        "numerator": "1",
+        "denominator": "21"
+      },
+      "terms": 16,
+      "lower": {
+        "numerator": "221770370393959565723032470669064506994650054271616",
+        "denominator": "2326827741268161592489855208381911080420805198970325"
+      },
+      "upper": {
+        "numerator": "29273688892002662675440286128316514923293807597966927",
+        "denominator": "307141261847397330208660887506412262615546286264082900"
+      },
+      "tail_upper": {
+        "numerator": "1",
+        "denominator": "707513543078802838765287026315477948360468460"
+      }
+    },
+    {
+      "argument": {
+        "numerator": "201",
+        "denominator": "121"
+      },
+      "u": {
+        "numerator": "40",
+        "denominator": "161"
+      },
+      "terms": 16,
+      "lower": {
+        "numerator": "146795421334598182695498347116276583031038281769715455293659355742263191807760",
+        "denominator": "289243876020341494824468336114350867098024606921536063564896839299685651434717"
+      },
+      "upper": {
+        "numerator": "1190070480759587467114076331255268424875142310691083196065696397002527695985510320",
+        "denominator": "2344900102896908498541964800879042479563685488312892867320618676202551576181250719"
+      },
+      "tail_upper": {
+        "numerator": "147573952589676412928000000000000000000000000000000000",
+        "denominator": "207060626923011446617360720266045165119446001216357980189027356938416095873"
+      }
+    },
+    {
+      "argument": {
+        "numerator": "9",
+        "denominator": "5"
+      },
+      "u": {
+        "numerator": "2",
+        "denominator": "7"
+      },
+      "terms": 16,
+      "lower": {
+        "numerator": "59784531443137357544394919469633555356",
+        "denominator": "101711275557932159079711971036720228325"
+      },
+      "upper": {
+        "numerator": "59784531443137357551852934586326895516",
+        "denominator": "101711275557932159079711971036720228325"
+      },
+      "tail_upper": {
+        "numerator": "17179869184",
+        "denominator": "234296442321746022823338473355"
+      }
+    }
+  ],
+  "readable_log_bounds": [
+    {
+      "argument": {
+        "numerator": "11",
+        "denominator": "10"
+      },
+      "lower_numerator": 95310179804,
+      "upper_numerator": 95310179805,
+      "denominator": 1000000000000
+    },
+    {
+      "argument": {
+        "numerator": "201",
+        "denominator": "121"
+      },
+      "lower_numerator": 507514362462,
+      "upper_numerator": 507514362463,
+      "denominator": 1000000000000
+    },
+    {
+      "argument": {
+        "numerator": "9",
+        "denominator": "5"
+      },
+      "lower_numerator": 587786664902,
+      "upper_numerator": 587786664903,
+      "denominator": 1000000000000
+    }
+  ],
+  "lambda": {
+    "formula": "log(11/10)+(201/80)*log(201/121)-(9/4)*log(9/5)",
+    "lower": {
+      "numerator": "1585427163962556877655378673222763853299460294533495868703839723384628307656661699067566006",
+      "denominator": "33084860602929116120795127313545158342711686946050570181509462548326826089404030251271405185"
+    },
+    "upper": {
+      "numerator": "460408048414726518873448200953856383778208097283651436206304693665453761213983392307312657925",
+      "denominator": "9607843519090615321478904971853513982723473889133085580710347924034110296362930384969216065724"
+    },
+    "decimal_preview": [
+      0.047920019461172934,
+      0.047920019461172934
+    ]
+  },
+  "required_rate": {
+    "numerator": "1",
+    "denominator": "32"
+  },
+  "positive_margin_lower": {
+    "numerator": "17648808643872703964176990229583284962871042479021297617013408599981279755609144118890707007",
+    "denominator": "1058715539293731715865444074033445066966773982273618245808302801546458434860928968040684965920"
+  },
+  "finite_grid_factor": {
+    "numerator": "335",
+    "denominator": "363"
+  },
+  "clearance_rho": {
+    "numerator": "273",
+    "denominator": "275"
+  },
+  "clearance_squared_gap": {
+    "numerator": "1096",
+    "denominator": "75625"
+  },
+  "checks": {
+    "lambda_exceeds_47_over_1000": true,
+    "lambda_below_49_over_1000": true,
+    "lambda_strictly_above_required_1_over_32": true,
+    "finite_grid_endpoint_factor": true,
+    "clearance_rho": true,
+    "clearance_squared_gap": true,
+    "strict_radial_order": true
+  },
+  "failures": [],
+  "limits": [
+    "No finite angular sampling is used.",
+    "The analytic proof, not this arithmetic certificate alone, establishes the uniform angular bounds.",
+    "An upper bound on this particular input response does not upper-bound the largest Hankel norm.",
+    "The target at exponent 1/32 and all Xi realization/sign claims remain unresolved."
+  ]
+}

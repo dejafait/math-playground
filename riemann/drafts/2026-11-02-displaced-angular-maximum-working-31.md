@@ -1,0 +1,36 @@
+# Full-angular displaced family: bounded attempt, step 31
+
+Invocation-start gate: `drafts/literature/2026-11-02-displaced-angular-maximum-linear-rate.md`, unchanged EXPLORE target. Main gap: actual-Xi mixed positivity; the local target is the uniform full-angular bound H>=-n/100-C log n for L666's exact family. L658/L661 provide a plausible paid-localization use, with support, realization and signs independent.
+
+Inputs inspected: L649 definitions; L658 full statement and logarithmic/root hypotheses; L661 general diagonal envelope; L664 benchmark and Jensen bridge; L666 family, exact product continuation and parked scalar-energy route; L669 accepted fixed-angle obstruction. The source assessment and the zero-evaluation, inverse-data and signed-flow stops are reused. No new external theorem is needed for the finite algebra/root diagnostic.
+
+Plan saved before calculation: test the signed full spatial mean directly, rather than repeat the parked scalar-energy differential estimate. For n=15,27,51,99, keep all M moments and all grid factors, optimize a sampled angular maximum over independent allowed displacements with a bounded evaluation budget, then evaluate all spatial roots at a finer angular mesh. Keep actual leading factors, all roots, rational shift descriptions and every observed failure in a disk artifact. This floating-point test is not an interval certificate, a global angular extremum or an asymptotic result.
+
+Discriminator: a proof with absolute constants/onset, or an admissible full-angular sequence with (-H-n/100)/log n unbounded above, decides the target. A finite screen can only inform a subsequent mechanism; scalar cancellation, a small mesh maximum or large absolute costs do not decide it. Do not infer RH or a uniform bound from positive sampled values. One coherent bounded attempt is authorized; no new theorem or novelty claim is presumed.
+
+## Completed bounded calculation
+
+Run `OPENBLAS_NUM_THREADS=1 python3 scripts/one-sided-hankel/displaced-angular-maximum-screen.py`. The complete floating-point diagnostic is `scripts/one-sided-hankel/displaced-angular-maximum-screen.json`; inspect `/summary` and `/failures` with `python3 ../scripts/loop/inspect_json.py <path> --pointer <pointer> --full`. All eight summary entries and the complete empty failure list were inspected. This is a diagnostic, not a proof certificate.
+
+There are two starts per n (zero and seeded independent random shifts), each with 80 bounded two-sided search directions and 64 angular observations. Every coordinate is free in [-1/8,1/8]; symmetry is not imposed. Final shifts are rational with denominator 10^8. For each selected vector, retain the full coefficient vector, actual degree, leading factor, every computed root and residual at 512 angular observations, plus four local peak refinements. A local ternary refinement does not certify unimodality or a global maximum. The j=0 product factor is x/a, and every j=1,...,n-1 factor is multiplied explicitly. The spatial vector contains exactly M=n/3 coefficients. No original residue is optimized or changed.
+
+The evaluated mean uses the already covered Brunault--Zudilin root formula (Propositions 1.4--1.5, pp.6--7, citation in L669): log|c_degree|+sum log max(1,|root|), at the actual nonzero degree. No tolerance discards small leading coefficients or near-circle roots. The script records a failure if a numerical degree differs from the prescribed maximum; no such case occurred. The formula handles degree loss mathematically, but this finite screen gives no uniform conditioning estimate at such a loss. This is an implementation of an imported identity, not a new proof of Jensen's formula or a formalization.
+
+| n | observed maximum, zero start | observed maximum, independent start | -n/100 |
+|---|---:|---:|---:|
+| 15 | 0.673113914 | 0.673113914 | -0.15 |
+| 27 | 0.449880487 | 0.446858447 | -0.27 |
+| 51 | -0.031849363 | -0.364284863 | -0.51 |
+| 99 | 0.149856773 | 0.431394843 | -0.99 |
+
+These are observed lower samples of H, with numerical error unbounded rigorously, not upper bounds on H or minima over the displacement cube. Every listed observed value is above -n/100 even before the unknown C log n allowance. The smallest observed maximum is -0.364284863 at n=51; that family's sampled value at -1 is -0.481781172. It supplies neither an asymptotic lower bound nor an admissible violating sequence. Growth across these four n is not monotone and no rate is fitted.
+
+Important sensitivity evidence: replacing the optimization mesh by the finer observations and local refinement raises the observed maximum by as much as 0.096764533 (n=99, independent start), and by 0.033643787 at n=51, zero start. These changes are retained in each record's summary field `coarse_refined_peak_difference`; a small coarse objective is not an angular upper bound. At n=27, the full spatial mean at the observed maximizing angle exceeds log|c_0| at that angle by 2.76 or 2.97, illustrating the information discarded by optimizing only c_0. This numerical comparison establishes no uniform benefit from the other moments.
+
+Across every retained mesh root, the maximum normalized polynomial residual is below 3.80e-14. Jensen's c_0 inequality has only rounding-size negative defects. At each of the eight observed peaks, independent shifted trapezoidal spatial quadrature at 4096 and 16384 points agrees with the root value to within 1e-14 at the finer size. These checks detect implementation errors in the retained finite calculations; they do not enclose root errors, missed angular peaks, missed displacement minima or growing-n behavior. All prescribed moments and all roots were retained, rather than replacing the full mean by an L2 norm. The initially unavailable SciPy package was unnecessary: the bounded search uses NumPy alone, with no installation or network action.
+
+## Outcome and continuation
+
+EXPLORATION: one new bounded direct full-angular attempt, no lemma, no source theorem added to the RH argument, and no asymptotic mathematical advance or informative counterexample. The source comparison does not establish originality of the diagnostic. The full matching Mathlib statement remains unchecked; the supporting root formula coverage recorded in the assessment is unchanged. PROOF.md and DAG.md need no mathematical change.
+
+Retain the exact approved target and unchanged EXPLORE assessment. Continue with an analytic signed estimate using the exact angular rational dependence and all M spatial moments; do not repeat this finite search at more n as the next step. One concrete possible discriminator is whether an exposed coefficient of the complete cleared joint numerator can pay its actual angular denominator charge with loss at most n/100+O(log n); retain the support order and binomial factor if this route is chosen. No favorable coefficient or cost estimate has been derived here. The saved assessment explicitly covers this coefficient test within the same full-angular target. A verified excess cost stops that coefficient mechanism alone; an H bound or admissible full-angular violating sequence is still required to decide the target. L669's fixed-angle stop and all inverse/absolute-cost stops remain intact. Actual-Xi support, realization and signs remain independent gaps.

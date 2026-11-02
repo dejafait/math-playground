@@ -1,0 +1,4376 @@
+{
+  "summary": {
+    "cases": 6,
+    "checks": 126,
+    "actual_identity_error": "0",
+    "required_identity_error": "0",
+    "failures": [],
+    "proved_rate_gap_lower_bound": {
+      "numerator": "85",
+      "denominator": "176"
+    },
+    "required_squared_rate": {
+      "numerator": "1",
+      "denominator": "16"
+    },
+    "scope": "Exact finite normalization checks; uniform proof is L650, not these cases."
+  },
+  "cases": [
+    {
+      "n": 6,
+      "u": {
+        "real": {
+          "numerator": "1",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "poles": [
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "64"
+          }
+        }
+      ],
+      "residues": [
+        1,
+        1
+      ],
+      "epsilon": {
+        "numerator": "1",
+        "denominator": "64"
+      },
+      "weights": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "384516411801049555864658434064384000",
+            "denominator": "384975408490437296025781145549662361"
+          },
+          "imaginary": {
+            "numerator": "16586183251567759324450671296512000",
+            "denominator": "384975408490437296025781145549662361"
+          }
+        }
+      ],
+      "beta1": {
+        "real": {
+          "numerator": "-40960",
+          "denominator": "13045131"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "p_n": {
+        "numerator": "40960",
+        "denominator": "13045131"
+      },
+      "grid_residues": [
+        {
+          "real": {
+            "numerator": "-43433846753700811815",
+            "denominator": "86140353285099776"
+          },
+          "imaginary": {
+            "numerator": "-16965020995899075",
+            "denominator": "5383772080318736"
+          }
+        },
+        {
+          "real": {
+            "numerator": "143046438061546005153125",
+            "denominator": "80655590690606999808"
+          },
+          "imaginary": {
+            "numerator": "16433563641959778125",
+            "denominator": "1680324806054312496"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-162263742862676842625",
+            "denominator": "64998240631998336"
+          },
+          "imaginary": {
+            "numerator": "-16679260090514875",
+            "denominator": "1354130013166632"
+          }
+        },
+        {
+          "real": {
+            "numerator": "2271898274357291625",
+            "denominator": "1298632103110784"
+          },
+          "imaginary": {
+            "numerator": "633874922097375",
+            "denominator": "81164506444424"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-222591973374883240625",
+            "denominator": "366322245625910016"
+          },
+          "imaginary": {
+            "numerator": "-18901543573259375",
+            "denominator": "7631713450539792"
+          }
+        },
+        {
+          "real": {
+            "numerator": "1117532700865104624637",
+            "denominator": "13416674977376587008"
+          },
+          "imaginary": {
+            "numerator": "87304786807957325",
+            "denominator": "279514062028678896"
+          }
+        }
+      ],
+      "dual_checks": [
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "80",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "88",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "327680",
+              "denominator": "1185921"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "-40960",
+                "denominator": "13045131"
+              },
+              "imaginary": {
+                "numerator": "-58068992",
+                "denominator": "13045131"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-81920",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-40960",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-81920",
+                "denominator": "107811"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-20480",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-16384",
+                "denominator": "35937"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "-13045131",
+                "denominator": "40960"
+              },
+              "imaginary": {
+                "numerator": "13045131",
+                "denominator": "512"
+              }
+            },
+            {
+              "real": {
+                "numerator": "407023248098075",
+                "denominator": "320597139456"
+              },
+              "imaginary": {
+                "numerator": "-6919395217667275",
+                "denominator": "60111963648"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-320159172016075",
+                "denominator": "160298569728"
+              },
+              "imaginary": {
+                "numerator": "6083024268305425",
+                "denominator": "30055981824"
+              }
+            },
+            {
+              "real": {
+                "numerator": "1020479750745",
+                "denominator": "659664896"
+              },
+              "imaginary": {
+                "numerator": "-7143358255215",
+                "denominator": "41229056"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-188664323468075",
+                "denominator": "320597139456"
+              },
+              "imaginary": {
+                "numerator": "4339279439765725",
+                "denominator": "60111963648"
+              }
+            },
+            {
+              "real": {
+                "numerator": "140552597957083",
+                "denominator": "1602985697280"
+              },
+              "imaginary": {
+                "numerator": "-702762989785415",
+                "denominator": "60111963648"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "19893542530836545",
+              "denominator": "1406408618241"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "19893542530836545",
+            "denominator": "1406408618241"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-8",
+              "denominator": "11"
+            },
+            "imaginary": {
+              "numerator": "-13547601920000",
+              "denominator": "46837807799211"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-8",
+              "denominator": "11"
+            },
+            "imaginary": {
+              "numerator": "-13547601920000",
+              "denominator": "46837807799211"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "2380772643617913036641985915517504",
+            "denominator": "54973050742523726735029203468782261345"
+          },
+          "required_upper": {
+            "numerator": "3235931440021504",
+            "denominator": "9493745839581025"
+          }
+        },
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-80",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-88",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "-327680",
+              "denominator": "1185921"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "58068992",
+                "denominator": "13045131"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "81920",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "40960",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "81920",
+                "denominator": "107811"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "20480",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "16384",
+                "denominator": "35937"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-13045131",
+                "denominator": "512"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "6919395217667275",
+                "denominator": "60111963648"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-6083024268305425",
+                "denominator": "30055981824"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "7143358255215",
+                "denominator": "41229056"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-4339279439765725",
+                "denominator": "60111963648"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "702762989785415",
+                "denominator": "60111963648"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "19892136122218304",
+              "denominator": "1406408618241"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "19892136122218304",
+            "denominator": "1406408618241"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-3076131294408396446917267472515072000",
+              "denominator": "4234729493394810256283592601046285971"
+            },
+            "imaginary": {
+              "numerator": "8042452332561177074023597976059904000",
+              "denominator": "31183008087725420978088272789522651241"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-3076131294408396446917267472515072000",
+              "denominator": "4234729493394810256283592601046285971"
+            },
+            "imaginary": {
+              "numerator": "8042452332561177074023597976059904000",
+              "denominator": "31183008087725420978088272789522651241"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "264243249589183720190396596628252244091048338391040000000",
+            "denominator": "6290038345751652714710344244891762699060364409885272160557541"
+          },
+          "required_upper": {
+            "numerator": "3235931440021504",
+            "denominator": "9493745839581025"
+          }
+        }
+      ],
+      "combined_pairing": {
+        "real": {
+          "numerator": "-6155934562331894815123516636912370888",
+          "denominator": "4234729493394810256283592601046285971"
+        },
+        "imaginary": {
+          "numerator": "-132689466012542074595605370372096000",
+          "denominator": "4234729493394810256283592601046285971"
+        }
+      },
+      "full_retained_energy": {
+        "real": {
+          "numerator": "26841777456886013591828773474198968569663713088",
+          "denominator": "4569705272513120896540965308818724444046729857"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "checks": {
+        "base_admissible": true,
+        "base_energy_split": true,
+        "base_all_grid_residues_match_orthogonal_energy": true,
+        "base_inverse_gram_energy": true,
+        "base_polynomial_identity_every_coefficient": true,
+        "base_proper_rational_sum": true,
+        "base_all_prefixes": true,
+        "dual_0_norm_difference_zero": true,
+        "dual_0_pairing_difference_zero": true,
+        "dual_0_bound": true,
+        "dual_0_nonzero": true,
+        "dual_1_norm_difference_zero": true,
+        "dual_1_pairing_difference_zero": true,
+        "dual_1_bound": true,
+        "dual_1_nonzero": true,
+        "beta1_modulus": true,
+        "dual_sum_s_is_one": true,
+        "dual_sum_negative_zero": true,
+        "combined_pairing": true,
+        "combined_coercivity": true
+      }
+    },
+    {
+      "n": 6,
+      "u": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "1",
+          "denominator": "1"
+        }
+      },
+      "poles": [
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "64"
+          }
+        }
+      ],
+      "residues": [
+        1,
+        1
+      ],
+      "epsilon": {
+        "numerator": "1",
+        "denominator": "64"
+      },
+      "weights": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "51363538289537132851108819442148968528504422400",
+            "denominator": "51346812256828385369690061138291499046198964689"
+          },
+          "imaginary": {
+            "numerator": "3027725008188475324371291427454082429327769600",
+            "denominator": "51346812256828385369690061138291499046198964689"
+          }
+        }
+      ],
+      "beta1": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "-40960",
+          "denominator": "13045131"
+        }
+      },
+      "p_n": {
+        "numerator": "40960",
+        "denominator": "13045131"
+      },
+      "grid_residues": [
+        {
+          "real": {
+            "numerator": "3721004984416477496413988593467",
+            "denominator": "29992161857018375748963730048"
+          },
+          "imaginary": {
+            "numerator": "-25788049065038439777083146886511",
+            "denominator": "59984323714036751497927460096"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-322184808161342447301722159018125",
+            "denominator": "1232225228852843155312193729856"
+          },
+          "imaginary": {
+            "numerator": "77633930479172852716322909801486875",
+            "denominator": "44360108238702353591238974274816"
+          }
+        },
+        {
+          "real": {
+            "numerator": "210237191896522114763789223584375",
+            "denominator": "3878849605165133816681731919808"
+          },
+          "imaginary": {
+            "numerator": "-63187308490236753142541604365696875",
+            "denominator": "23273097630990802900090391518848"
+          }
+        },
+        {
+          "real": {
+            "numerator": "436884226518554633569800265125",
+            "denominator": "2155642706505939149040404008"
+          },
+          "imaginary": {
+            "numerator": "69400887770347295882781606874875",
+            "denominator": "34490283304095026384646464128"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-1989265475738485576861331375",
+            "denominator": "13024950291133650063186816"
+          },
+          "imaginary": {
+            "numerator": "-503113798358386123809863109875",
+            "denominator": "703347315721217103412088064"
+          }
+        },
+        {
+          "real": {
+            "numerator": "162613577705338996086045609763315",
+            "denominator": "5202646747039792098763160559552"
+          },
+          "imaginary": {
+            "numerator": "6114135714905605077391145503790159",
+            "denominator": "62431760964477505185157926714624"
+          }
+        }
+      ],
+      "dual_checks": [
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "80",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "88",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "-327680",
+              "denominator": "1185921"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "-3276800",
+                "denominator": "13045131"
+              },
+              "imaginary": {
+                "numerator": "-61386752",
+                "denominator": "13045131"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-81920",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-40960",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-81920",
+                "denominator": "107811"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-20480",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-16384",
+                "denominator": "35937"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "-13045131",
+                "denominator": "512"
+              },
+              "imaginary": {
+                "numerator": "-13045131",
+                "denominator": "40960"
+              }
+            },
+            {
+              "real": {
+                "numerator": "2035116240490375",
+                "denominator": "20037321216"
+              },
+              "imaginary": {
+                "numerator": "-11803674194844175",
+                "denominator": "961791418368"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-1600795860080375",
+                "denominator": "10018660608"
+              },
+              "imaginary": {
+                "numerator": "19529709492980575",
+                "denominator": "480895709184"
+              }
+            },
+            {
+              "real": {
+                "numerator": "5102398753725",
+                "denominator": "41229056"
+              },
+              "imaginary": {
+                "numerator": "-31634872273095",
+                "denominator": "659664896"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-943321617340375",
+                "denominator": "20037321216"
+              },
+              "imaginary": {
+                "numerator": "23583040433509375",
+                "denominator": "961791418368"
+              }
+            },
+            {
+              "real": {
+                "numerator": "140552597957083",
+                "denominator": "20037321216"
+              },
+              "imaginary": {
+                "numerator": "-22066757879262031",
+                "denominator": "4808957091840"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "19893542530836545",
+              "denominator": "1406408618241"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "19893542530836545",
+            "denominator": "1406408618241"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-5220910120282845014400056",
+              "denominator": "10871924396010459300112077"
+            },
+            "imaginary": {
+              "numerator": "2270905648496584425472000",
+              "denominator": "32615773188031377900336231"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-5220910120282845014400056",
+              "denominator": "10871924396010459300112077"
+            },
+            "imaginary": {
+              "numerator": "2270905648496584425472000",
+              "denominator": "32615773188031377900336231"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "12122046825845736294330478989392704",
+            "denominator": "728219159474994910456142111923727499845"
+          },
+          "required_upper": {
+            "numerator": "3235931440021504",
+            "denominator": "9493745839581025"
+          }
+        },
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-80",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-88",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "327680",
+              "denominator": "1185921"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "3276800",
+                "denominator": "13045131"
+              },
+              "imaginary": {
+                "numerator": "61345792",
+                "denominator": "13045131"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "81920",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "40960",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "81920",
+                "denominator": "107811"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "20480",
+                "denominator": "35937"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "16384",
+                "denominator": "35937"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "13045131",
+                "denominator": "512"
+              },
+              "imaginary": {
+                "numerator": "0",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-2035116240490375",
+                "denominator": "20037321216"
+              },
+              "imaginary": {
+                "numerator": "407023248098075",
+                "denominator": "30055981824"
+              }
+            },
+            {
+              "real": {
+                "numerator": "1600795860080375",
+                "denominator": "10018660608"
+              },
+              "imaginary": {
+                "numerator": "-320159172016075",
+                "denominator": "7513995456"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-5102398753725",
+                "denominator": "41229056"
+              },
+              "imaginary": {
+                "numerator": "1020479750745",
+                "denominator": "20614528"
+              }
+            },
+            {
+              "real": {
+                "numerator": "943321617340375",
+                "denominator": "20037321216"
+              },
+              "imaginary": {
+                "numerator": "-188664323468075",
+                "denominator": "7513995456"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-140552597957083",
+                "denominator": "20037321216"
+              },
+              "imaginary": {
+                "numerator": "140552597957083",
+                "denominator": "30055981824"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "19892136122218304",
+              "denominator": "1406408618241"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "19892136122218304",
+            "denominator": "1406408618241"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-14862086754998749675432607816748451763115681382400",
+              "denominator": "15250003240278030454797948158072575216721092512633"
+            },
+            "imaginary": {
+              "numerator": "-5147355735965219128294141979830505004942019788800",
+              "denominator": "45750009720834091364393844474217725650163277537899"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-14862086754998749675432607816748451763115681382400",
+              "denominator": "15250003240278030454797948158072575216721092512633"
+            },
+            "imaginary": {
+              "numerator": "-5147355735965219128294141979830505004942019788800",
+              "denominator": "45750009720834091364393844474217725650163277537899"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "63880143441280233400426623830788381944392422197821440000",
+            "denominator": "938784723212148419366050232493696309420180661486066925409437"
+          },
+          "required_upper": {
+            "numerator": "3235931440021504",
+            "denominator": "9493745839581025"
+          }
+        }
+      ],
+      "combined_pairing": {
+        "real": {
+          "numerator": "-821682804370924145766391044643523740597627096712",
+          "denominator": "564814934825112239066590672521206489508188611579"
+        },
+        "imaginary": {
+          "numerator": "-24221800065507802594970331419632659434622156800",
+          "denominator": "564814934825112239066590672521206489508188611579"
+        }
+      },
+      "full_retained_energy": {
+        "real": {
+          "numerator": "371891182364719170358500989977612176793654227776",
+          "denominator": "51346812256828385369690061138291499046198964689"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "checks": {
+        "base_admissible": true,
+        "base_energy_split": true,
+        "base_all_grid_residues_match_orthogonal_energy": true,
+        "base_inverse_gram_energy": true,
+        "base_polynomial_identity_every_coefficient": true,
+        "base_proper_rational_sum": true,
+        "base_all_prefixes": true,
+        "dual_0_norm_difference_zero": true,
+        "dual_0_pairing_difference_zero": true,
+        "dual_0_bound": true,
+        "dual_0_nonzero": true,
+        "dual_1_norm_difference_zero": true,
+        "dual_1_pairing_difference_zero": true,
+        "dual_1_bound": true,
+        "dual_1_nonzero": true,
+        "beta1_modulus": true,
+        "dual_sum_s_is_one": true,
+        "dual_sum_negative_zero": true,
+        "combined_pairing": true,
+        "combined_coercivity": true
+      }
+    },
+    {
+      "n": 6,
+      "u": {
+        "real": {
+          "numerator": "3",
+          "denominator": "5"
+        },
+        "imaginary": {
+          "numerator": "4",
+          "denominator": "5"
+        }
+      },
+      "poles": [
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "64"
+          }
+        }
+      ],
+      "residues": [
+        1,
+        1
+      ],
+      "epsilon": {
+        "numerator": "1",
+        "denominator": "64"
+      },
+      "weights": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "44972881330338062422954808162561713788698509526958080",
+            "denominator": "44990919035475457758566703123725042881022879103708413"
+          },
+          "imaginary": {
+            "numerator": "2150796435241646224953030458583012687450780718858240",
+            "denominator": "44990919035475457758566703123725042881022879103708413"
+          }
+        }
+      ],
+      "beta1": {
+        "real": {
+          "numerator": "647168",
+          "denominator": "2717735625"
+        },
+        "imaginary": {
+          "numerator": "25526272",
+          "denominator": "8153206875"
+        }
+      },
+      "p_n": {
+        "numerator": "40960",
+        "denominator": "13045131"
+      },
+      "grid_residues": [
+        {
+          "real": {
+            "numerator": "524940211076833992030395886684207",
+            "denominator": "1497644443726799088396863499520"
+          },
+          "imaginary": {
+            "numerator": "126462961524107628658743697066941",
+            "denominator": "374411110931699772099215874880"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-66739284486630964249728960120593795",
+            "denominator": "47516156698576701300731620065024"
+          },
+          "imaginary": {
+            "numerator": "-355385166016555059628330124193494345",
+            "denominator": "320734057715392733779938435438912"
+          }
+        },
+        {
+          "real": {
+            "numerator": "20164287170470498660217945928668099825",
+            "denominator": "9329565673910936122561867666004352"
+          },
+          "imaginary": {
+            "numerator": "9994577555386227264328679757728833925",
+            "denominator": "6997174255433202091921400749503264"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-5602273548090818134804046963770005",
+            "denominator": "3478011189480079572604703588992"
+          },
+          "imaginary": {
+            "numerator": "-788615769939602817189963932863665",
+            "denominator": "869502797370019893151175897248"
+          }
+        },
+        {
+          "real": {
+            "numerator": "613424295232554097084239138118175",
+            "denominator": "1050414178898775142347314635008"
+          },
+          "imaginary": {
+            "numerator": "670643083580655455743022416031725",
+            "denominator": "2363431902522244070281457928768"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-190629830735773594264955796312056191",
+            "denominator": "2310772148470307928980008418492160"
+          },
+          "imaginary": {
+            "numerator": "-60543757950041863188926962796470909",
+            "denominator": "1733079111352730946735006313869120"
+          }
+        }
+      ],
+      "dual_checks": [
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "80",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "88",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "204210176",
+              "denominator": "741200625"
+            },
+            "imaginary": {
+              "numerator": "-5177344",
+              "denominator": "247066875"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "-18568142848",
+                "denominator": "8153206875"
+              },
+              "imaginary": {
+                "numerator": "10733146112",
+                "denominator": "2717735625"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-1835008",
+                "denominator": "1497375"
+              },
+              "imaginary": {
+                "numerator": "8634368",
+                "denominator": "4492125"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-917504",
+                "denominator": "1497375"
+              },
+              "imaginary": {
+                "numerator": "4317184",
+                "denominator": "4492125"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-1835008",
+                "denominator": "4492125"
+              },
+              "imaginary": {
+                "numerator": "8634368",
+                "denominator": "13476375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-458752",
+                "denominator": "1497375"
+              },
+              "imaginary": {
+                "numerator": "2158592",
+                "denominator": "4492125"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-1835008",
+                "denominator": "7486875"
+              },
+              "imaginary": {
+                "numerator": "8634368",
+                "denominator": "22460625"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "3254981951727",
+                "denominator": "128000000"
+              },
+              "imaginary": {
+                "numerator": "-51671763891",
+                "denominator": "32000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-4354123056064195351",
+                "denominator": "40074642432000"
+              },
+              "imaginary": {
+                "numerator": "536668293082273849",
+                "denominator": "30055981824000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "1218128811319881517",
+                "denominator": "6679107072000"
+              },
+              "imaginary": {
+                "numerator": "-62917680484599059",
+                "denominator": "1366180992000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-61897607473338273",
+                "denominator": "412290560000"
+              },
+              "imaginary": {
+                "numerator": "5110766687681109",
+                "denominator": "103072640000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "2423936588199011431",
+                "denominator": "40074642432000"
+              },
+              "imaginary": {
+                "numerator": "-726002956423968769",
+                "denominator": "30055981824000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-15887925120470705237",
+                "denominator": "1669776768000000"
+              },
+              "imaginary": {
+                "numerator": "16484430346200565489",
+                "denominator": "3756997728000000"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "19893542530836545",
+              "denominator": "1406408618241"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "19893542530836545",
+            "denominator": "1406408618241"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-205278783034883317259310392",
+              "denominator": "223185813958563809235442989"
+            },
+            "imaginary": {
+              "numerator": "1218895076288492602812006400",
+              "denominator": "6026016976881222849356960703"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-205278783034883317259310392",
+              "denominator": "223185813958563809235442989"
+            },
+            "imaginary": {
+              "numerator": "1218895076288492602812006400",
+              "denominator": "6026016976881222849356960703"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "8435891384989888399334167268642450752",
+            "denominator": "134544135826183690105516928692687449249485"
+          },
+          "required_upper": {
+            "numerator": "3235931440021504",
+            "denominator": "9493745839581025"
+          }
+        },
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-80",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-88",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "-204210176",
+              "denominator": "741200625"
+            },
+            "imaginary": {
+              "numerator": "5177344",
+              "denominator": "247066875"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "18570084352",
+                "denominator": "8153206875"
+              },
+              "imaginary": {
+                "numerator": "-32173912064",
+                "denominator": "8153206875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "1835008",
+                "denominator": "1497375"
+              },
+              "imaginary": {
+                "numerator": "-8634368",
+                "denominator": "4492125"
+              }
+            },
+            {
+              "real": {
+                "numerator": "917504",
+                "denominator": "1497375"
+              },
+              "imaginary": {
+                "numerator": "-4317184",
+                "denominator": "4492125"
+              }
+            },
+            {
+              "real": {
+                "numerator": "1835008",
+                "denominator": "4492125"
+              },
+              "imaginary": {
+                "numerator": "-8634368",
+                "denominator": "13476375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "458752",
+                "denominator": "1497375"
+              },
+              "imaginary": {
+                "numerator": "-2158592",
+                "denominator": "4492125"
+              }
+            },
+            {
+              "real": {
+                "numerator": "1835008",
+                "denominator": "7486875"
+              },
+              "imaginary": {
+                "numerator": "-8634368",
+                "denominator": "22460625"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "-10162157049",
+                "denominator": "400000"
+              },
+              "imaginary": {
+                "numerator": "3091696047",
+                "denominator": "1600000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "2718915297295141",
+                "denominator": "25046651520"
+              },
+              "imaginary": {
+                "numerator": "-5747168263144819",
+                "denominator": "300559818240"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-12806366880643",
+                "denominator": "70276800"
+              },
+              "imaginary": {
+                "numerator": "36101148236532617",
+                "denominator": "751399545600"
+              }
+            },
+            {
+              "real": {
+                "numerator": "193278864791103",
+                "denominator": "1288408000"
+              },
+              "imaginary": {
+                "numerator": "-263487871642359",
+                "denominator": "5153632000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-7569212657539169",
+                "denominator": "125233257600"
+              },
+              "imaginary": {
+                "numerator": "37181964869088221",
+                "denominator": "1502799091200"
+              }
+            },
+            {
+              "real": {
+                "numerator": "49615067078850299",
+                "denominator": "5218052400000"
+              },
+              "imaginary": {
+                "numerator": "-840645088381313423",
+                "denominator": "187849886400000"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "19892136122218304",
+              "denominator": "1406408618241"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "19892136122218304",
+            "denominator": "1406408618241"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-793553929773093213344956914129157467177131536044523520",
+              "denominator": "1484700328170690106032701203082926415073755010422377629"
+            },
+            "imaginary": {
+              "numerator": "-9502179113170965448953714700789043833143140282185809920",
+              "denominator": "40086908860608632862882932483239013206991385281404195983"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-793553929773093213344956914129157467177131536044523520",
+              "denominator": "1484700328170690106032701203082926415073755010422377629"
+            },
+            "imaginary": {
+              "numerator": "-9502179113170965448953714700789043833143140282185809920",
+              "denominator": "40086908860608632862882932483239013206991385281404195983"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "123820065918866004469301698025866075053767836688401939038208000",
+            "denominator": "5122791301290698740961206879010490459651560309262281748873864921641"
+          },
+          "required_upper": {
+            "numerator": "3235931440021504",
+            "denominator": "9493745839581025"
+          }
+        }
+      ],
+      "combined_pairing": {
+        "real": {
+          "numerator": "-719710402926508161452172090290294053357771109045331944",
+          "denominator": "494900109390230035344233734360975471691251670140792543"
+        },
+        "imaginary": {
+          "numerator": "-17206371481933169799624243668664101499606245750865920",
+          "denominator": "494900109390230035344233734360975471691251670140792543"
+        }
+      },
+      "full_retained_energy": {
+        "real": {
+          "numerator": "10513381866971111696897321146522310296753118545871921984",
+          "denominator": "1664664004312591937066968015577826586597846526837211281"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "checks": {
+        "base_admissible": true,
+        "base_energy_split": true,
+        "base_all_grid_residues_match_orthogonal_energy": true,
+        "base_inverse_gram_energy": true,
+        "base_polynomial_identity_every_coefficient": true,
+        "base_proper_rational_sum": true,
+        "base_all_prefixes": true,
+        "dual_0_norm_difference_zero": true,
+        "dual_0_pairing_difference_zero": true,
+        "dual_0_bound": true,
+        "dual_0_nonzero": true,
+        "dual_1_norm_difference_zero": true,
+        "dual_1_pairing_difference_zero": true,
+        "dual_1_bound": true,
+        "dual_1_nonzero": true,
+        "beta1_modulus": true,
+        "dual_sum_s_is_one": true,
+        "dual_sum_negative_zero": true,
+        "combined_pairing": true,
+        "combined_coercivity": true
+      }
+    },
+    {
+      "n": 10,
+      "u": {
+        "real": {
+          "numerator": "1",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "poles": [
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "1024"
+          }
+        }
+      ],
+      "residues": [
+        1,
+        1
+      ],
+      "epsilon": {
+        "numerator": "1",
+        "denominator": "1024"
+      },
+      "weights": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "51039922117730598983520491261313899214229362034614231405567120338295251746877865984",
+            "denominator": "51040468154114151133381662507689523290488137680850657640728928087660822076517578125"
+          },
+          "imaginary": {
+            "numerator": "217432596535809082299893866240195071761573692625559432905631018388541180253044736",
+            "denominator": "51040468154114151133381662507689523290488137680850657640728928087660822076517578125"
+          }
+        }
+      ],
+      "beta1": {
+        "real": {
+          "numerator": "-19025362944",
+          "denominator": "921073316796875"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "p_n": {
+        "numerator": "19025362944",
+        "denominator": "921073316796875"
+      },
+      "grid_residues": [
+        {
+          "real": {
+            "numerator": "-229407748272002963137541",
+            "denominator": "3623292470055731200"
+          },
+          "imaginary": {
+            "numerator": "-1895931803900850935021",
+            "denominator": "76658112016858794240"
+          }
+        },
+        {
+          "real": {
+            "numerator": "601674368647175587601045257294532089",
+            "denominator": "1452724974348350000000000000000"
+          },
+          "imaginary": {
+            "numerator": "170015182841466266109551001531",
+            "denominator": "1134941386209648437500000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-12773518159789025483331610670452983",
+            "denominator": "10641299103987500000000000000"
+          },
+          "imaginary": {
+            "numerator": "-3360489223826324638507319091",
+            "denominator": "8313514924990234375000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "7443005321897059507447843705012330111",
+            "denominator": "3684381951836212500000000000000"
+          },
+          "imaginary": {
+            "numerator": "5495381886619221481594061278619",
+            "denominator": "8635270199616123046875000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-2364369576086778960899111789999341572759",
+            "denominator": "1088315003478193525000000000000000"
+          },
+          "imaginary": {
+            "numerator": "-546627428916027274426818990572559",
+            "denominator": "850246096467338691406250000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "29641608803040003219422086454637",
+            "denominator": "19172872829394752000000000"
+          },
+          "imaginary": {
+            "numerator": "32306784698252047213170171",
+            "denominator": "74894034489823250000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-3815333866741435850187819852973010909",
+            "denominator": "5248614251151412500000000000000"
+          },
+          "imaginary": {
+            "numerator": "-2360163509372862460158212240843",
+            "denominator": "12301439651136123046875000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "884491623371030970661362273293473251069",
+            "denominator": "4068350698415181587500000000000000"
+          },
+          "imaginary": {
+            "numerator": "13309930390652453509312561792911",
+            "denominator": "244492229472066201171875000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-188706297364856298507547562437653579",
+            "denominator": "5037308605088350000000000000000"
+          },
+          "imaginary": {
+            "numerator": "-35114990970011722982323221627",
+            "denominator": "3935397347725273437500000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "80178831361042766420554306916244919",
+            "denominator": "28355550177853650000000000000000"
+          },
+          "imaginary": {
+            "numerator": "128033555108229430933731035501",
+            "denominator": "199374962188033476562500000000"
+          }
+        }
+      ],
+      "dual_checks": [
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "1280",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "1408",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "2435246456832",
+              "denominator": "83733937890625"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "-19025362944",
+                "denominator": "921073316796875"
+              },
+              "imaginary": {
+                "numerator": "-929975444176896",
+                "denominator": "921073316796875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-608811614208",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-304405807104",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-202937204736",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-152202903552",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-608811614208",
+                "denominator": "7612176171875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-101468602368",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-86973087744",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-76101451776",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-67645734912",
+                "denominator": "1522435234375"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "-921073316796875",
+                "denominator": "19025362944"
+              },
+              "imaginary": {
+                "numerator": "4605366583984375",
+                "denominator": "74317824"
+              }
+            },
+            {
+              "real": {
+                "numerator": "52853347854704685973879682163",
+                "denominator": "154530459877376000000000"
+              },
+              "imaginary": {
+                "numerator": "-1427040392077026521294751418401",
+                "denominator": "3018173044480000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-41132442581494648019712538371",
+                "denominator": "38632614969344000000000"
+              },
+              "imaginary": {
+                "numerator": "1192840834863344792571663612759",
+                "denominator": "754543261120000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "1997927625326192889703355516717",
+                "denominator": "1043080604172288000000000"
+              },
+              "imaginary": {
+                "numerator": "-61935756385111979580804021018227",
+                "denominator": "20372668050240000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-169424136945577440038830004469",
+                "denominator": "77265229938688000000000"
+              },
+              "imaginary": {
+                "numerator": "508272410836732320116490013407",
+                "denominator": "137189683840000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "65471632914942279119745",
+                "denominator": "39559797728608256"
+              },
+              "imaginary": {
+                "numerator": "-458301430404595953838215",
+                "denominator": "154530459877376"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-858072463925488869536098477949",
+                "denominator": "1043080604172288000000000"
+              },
+              "imaginary": {
+                "numerator": "31748681165243088172835643684113",
+                "denominator": "20372668050240000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "70130763568037389446584082117",
+                "denominator": "270428304785408000000000"
+              },
+              "imaginary": {
+                "numerator": "-2735099779153458188416779202563",
+                "denominator": "5281802827840000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-7259425570440160455373355619",
+                "denominator": "154530459877376000000000"
+              },
+              "imaginary": {
+                "numerator": "297636448388046578670307580379",
+                "denominator": "3018173044480000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "46548498720773206311147618443",
+                "denominator": "12516967250067456000000000"
+              },
+              "imaginary": {
+                "numerator": "-2001585444993247871379347593049",
+                "denominator": "244472016602880000000000"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "25387232755065548318032264423414401",
+              "denominator": "7011372354671045074462890625"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "25387232755065548318032264423414401",
+            "denominator": "7011372354671045074462890625"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-8",
+              "denominator": "11"
+            },
+            "imaginary": {
+              "numerator": "-152135184218528415744",
+              "denominator": "6049786817169189453125"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-8",
+              "denominator": "11"
+            },
+            "imaginary": {
+              "numerator": "-152135184218528415744",
+              "denominator": "6049786817169189453125"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "890587590573678888460242627240224522487202074405300894431296",
+            "denominator": "6089413108649831179539826296261761707915819868383081546783447265625"
+          },
+          "required_upper": {
+            "numerator": "54289920730431817252864",
+            "denominator": "2035068734670994027833025"
+          }
+        },
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-1280",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-1408",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "-2435246456832",
+              "denominator": "83733937890625"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "929975444176896",
+                "denominator": "921073316796875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "608811614208",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "304405807104",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "202937204736",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "152202903552",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "608811614208",
+                "denominator": "7612176171875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "101468602368",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "86973087744",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "76101451776",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "67645734912",
+                "denominator": "1522435234375"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-4605366583984375",
+                "denominator": "74317824"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "1427040392077026521294751418401",
+                "denominator": "3018173044480000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-1192840834863344792571663612759",
+                "denominator": "754543261120000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "61935756385111979580804021018227",
+                "denominator": "20372668050240000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-508272410836732320116490013407",
+                "denominator": "137189683840000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "458301430404595953838215",
+                "denominator": "154530459877376"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-31748681165243088172835643684113",
+                "denominator": "20372668050240000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "2735099779153458188416779202563",
+                "denominator": "5281802827840000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-297636448388046578670307580379",
+                "denominator": "3018173044480000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "2001585444993247871379347593049",
+                "denominator": "244472016602880000000000"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "25387225743693193646987189960523776",
+              "denominator": "7011372354671045074462890625"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "25387225743693193646987189960523776",
+            "denominator": "7011372354671045074462890625"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-37119943358349526533469448190046472155803172388810350113139723882396546725002084352",
+              "denominator": "51040468154114151133381662507689523290488137680850657640728928087660822076517578125"
+            },
+            "imaginary": {
+              "numerator": "439606225846144753906937977211785795216544782502685245258381687509192407697846324690944",
+              "denominator": "19937682872700840286477211917066220035346928781582288140909737534242508623639678955078125"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-37119943358349526533469448190046472155803172388810350113139723882396546725002084352",
+              "denominator": "51040468154114151133381662507689523290488137680850657640728928087660822076517578125"
+            },
+            "imaginary": {
+              "numerator": "439606225846144753906937977211785795216544782502685245258381687509192407697846324690944",
+              "denominator": "19937682872700840286477211917066220035346928781582288140909737534242508623639678955078125"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "179086188798728271175293564300475970078594440173619329668678723609325761664921640131225008310314989842892378929027920953344",
+            "denominator": "1224869981208841245912627927892482828319379951800480944912073833195501823144503892402831690123282307319410677612734149932861328125"
+          },
+          "required_upper": {
+            "numerator": "54289920730431817252864",
+            "denominator": "2035068734670994027833025"
+          }
+        }
+      ],
+      "combined_pairing": {
+        "real": {
+          "numerator": "-816643122174758000935217230152027380037739997723719112370368387407648590587163552872",
+          "denominator": "561445149695255662467198287584584756195369514489357234048018208964269042841693359375"
+        },
+        "imaginary": {
+          "numerator": "-158132797480588423490831902720141870372053594636770496658640740646211767456759808",
+          "denominator": "51040468154114151133381662507689523290488137680850657640728928087660822076517578125"
+        }
+      },
+      "full_retained_energy": {
+        "real": {
+          "numerator": "2224494313116342353177806943263897941667620595935373398252041297523569688162141445888748364022097513536",
+          "denominator": "282203828846035440717003789989372913436133986585549878956797573447603630298224666513027393341064453125"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "checks": {
+        "base_admissible": true,
+        "base_energy_split": true,
+        "base_all_grid_residues_match_orthogonal_energy": true,
+        "base_inverse_gram_energy": true,
+        "base_polynomial_identity_every_coefficient": true,
+        "base_proper_rational_sum": true,
+        "base_all_prefixes": true,
+        "dual_0_norm_difference_zero": true,
+        "dual_0_pairing_difference_zero": true,
+        "dual_0_bound": true,
+        "dual_0_nonzero": true,
+        "dual_1_norm_difference_zero": true,
+        "dual_1_pairing_difference_zero": true,
+        "dual_1_bound": true,
+        "dual_1_nonzero": true,
+        "beta1_modulus": true,
+        "dual_sum_s_is_one": true,
+        "dual_sum_negative_zero": true,
+        "combined_pairing": true,
+        "combined_coercivity": true,
+        "retained_energy_lower_bound": true,
+        "combined_lower_bound": true
+      }
+    },
+    {
+      "n": 10,
+      "u": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "1",
+          "denominator": "1"
+        }
+      },
+      "poles": [
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "1024"
+          }
+        }
+      ],
+      "residues": [
+        1,
+        1
+      ],
+      "epsilon": {
+        "numerator": "1",
+        "denominator": "1024"
+      },
+      "weights": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "8878464129742726624281538919013949585471039335930517072870964918964878457908858665210075653716961289780068352",
+            "denominator": "8876326238765738382258360394506938892463463816400649147866109672895117962570690568196089355190533033916015625"
+          },
+          "imaginary": {
+            "numerator": "52793930726303344962145717044161512936400319086809048933033064204073228835603959797564981920740413018210304",
+            "denominator": "8876326238765738382258360394506938892463463816400649147866109672895117962570690568196089355190533033916015625"
+          }
+        }
+      ],
+      "beta1": {
+        "real": {
+          "numerator": "0",
+          "denominator": "1"
+        },
+        "imaginary": {
+          "numerator": "-19025362944",
+          "denominator": "921073316796875"
+        }
+      },
+      "p_n": {
+        "numerator": "19025362944",
+        "denominator": "921073316796875"
+      },
+      "grid_residues": [
+        {
+          "real": {
+            "numerator": "280490116889496846858848563194789074575529680751",
+            "denominator": "33825565047105803579740368493981651070976000"
+          },
+          "imaginary": {
+            "numerator": "382084346419287758837526487166037533685444096161",
+            "denominator": "7516792232690178573275637443107033571328000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-31043908508019325943843378724114422302291446882993166473",
+            "denominator": "357815201091451450557643316848479352539062500000000"
+          },
+          "imaginary": {
+            "numerator": "-32259677371615865924799404392245908140188929098817101770051",
+            "denominator": "91600691479411571342756689113210714250000000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "4109646914284733182297947779209197102597418143460957578651",
+            "denominator": "11667134723188064849179129019345227281250000000000000"
+          },
+          "imaginary": {
+            "numerator": "24771414461517244577269157041403245234212535803688965713979",
+            "denominator": "23334269446376129698358258038690454562500000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-5104972433050634710648248274057625121161467854887943248925289",
+            "denominator": "6658510956741772658402271231131343700171875000000000000"
+          },
+          "imaginary": {
+            "numerator": "-16222245245868779041361548441222493264602749443810409954746479",
+            "denominator": "8878014608989030211203028308175124933562500000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "1037561016275226591899171637903905444236635232080437023392543",
+            "denominator": "1028130148756048057099533094043192221062500000000000000"
+          },
+          "imaginary": {
+            "numerator": "4070540598990004255808467641315884641422002767119222875596797",
+            "denominator": "2056260297512096114199066188086384442125000000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-4673215076680090341444955821209305907797984574758293",
+            "denominator": "5538597327734897076208358872699786184000000000"
+          },
+          "imaginary": {
+            "numerator": "-62048963536747099427463281795821680648505331137955313",
+            "denominator": "44308778621879176609666870981598289472000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "114664775060526904100085363870728075965418944857058287914357",
+            "denominator": "253916740279985138602454563813812631218750000000000000"
+          },
+          "imaginary": {
+            "numerator": "109535991351704144179132103821822794007695257561362523235851",
+            "denominator": "169277826853323425734969709209208420812500000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-321379871528255571004400160056042846809626868198287884684931",
+            "denominator": "2143471323677760051709559999234656834859375000000000000"
+          },
+          "imaginary": {
+            "numerator": "-1614993159578137417737169243779807529881409220461432557807573",
+            "denominator": "8573885294711040206838239996938627339437500000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "1211355702221064331240504796994450371561517200855409288921",
+            "denominator": "43091707553579895178529182012370596625000000000000000"
+          },
+          "imaginary": {
+            "numerator": "2701005664479325660555548207708310911673650493698633875559",
+            "denominator": "86183415107159790357058364024741193250000000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-65124765563455656401098531887366165338233680708471626287327",
+            "denominator": "28667853418430032380267125022417651996515625000000000000"
+          },
+          "imaginary": {
+            "numerator": "-12852112801005129394013448309198347327200266708411117162819",
+            "denominator": "5662785860430623680052765436526943604250000000000000000"
+          }
+        }
+      ],
+      "dual_checks": [
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "1280",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "1408",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "-2435246456832",
+              "denominator": "83733937890625"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "-4870492913664",
+                "denominator": "184214663359375"
+              },
+              "imaginary": {
+                "numerator": "-190869386821632",
+                "denominator": "184214663359375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-608811614208",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-304405807104",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-202937204736",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-152202903552",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-608811614208",
+                "denominator": "7612176171875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-101468602368",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-86973087744",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-76101451776",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-67645734912",
+                "denominator": "1522435234375"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "-4605366583984375",
+                "denominator": "74317824"
+              },
+              "imaginary": {
+                "numerator": "-921073316796875",
+                "denominator": "19025362944"
+              }
+            },
+            {
+              "real": {
+                "numerator": "52853347854704685973879682163",
+                "denominator": "120726921779200000000"
+              },
+              "imaginary": {
+                "numerator": "-26796647362335275788756998856641",
+                "denominator": "772652299386880000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-41132442581494648019712538371",
+                "denominator": "30181730444800000000"
+              },
+              "imaginary": {
+                "numerator": "41913958990543046332087076600049",
+                "denominator": "193163074846720000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "1997927625326192889703355516717",
+                "denominator": "814906722009600000000"
+              },
+              "imaginary": {
+                "numerator": "-3058827194374401314135837296093727",
+                "denominator": "5215403020861440000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-169424136945577440038830004469",
+                "denominator": "60363460889600000000"
+              },
+              "imaginary": {
+                "numerator": "346133511779814709999329699130167",
+                "denominator": "386326149693440000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "327358164574711395598725",
+                "denominator": "154530459877376"
+              },
+              "imaginary": {
+                "numerator": "-33456004419535504630189695",
+                "denominator": "39559797728608256"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-858072463925488869536098477949",
+                "denominator": "814906722009600000000"
+              },
+              "imaginary": {
+                "numerator": "2631708246859474362867214031869583",
+                "denominator": "5215403020861440000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "70130763568037389446584082117",
+                "denominator": "211272113113600000000"
+              },
+              "imaginary": {
+                "numerator": "-250998002810005816829324429896743",
+                "denominator": "1352141523927040000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-7259425570440160455373355619",
+                "denominator": "120726921779200000000"
+              },
+              "imaginary": {
+                "numerator": "29698310008670696422932397837329",
+                "denominator": "772652299386880000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "46548498720773206311147618443",
+                "denominator": "9778880664115200000000"
+              },
+              "imaginary": {
+                "numerator": "-214262739611719068650212487693129",
+                "denominator": "62584836250337280000000000"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "25387232755065548318032264423414401",
+              "denominator": "7011372354671045074462890625"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "25387232755065548318032264423414401",
+            "denominator": "7011372354671045074462890625"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-11431588767532229180657359100653807450991752",
+              "denominator": "15293907838909827949160023249217987060546875"
+            },
+            "imaginary": {
+              "numerator": "50491059262129981044581388331273993322496",
+              "denominator": "15293907838909827949160023249217987060546875"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-11431588767532229180657359100653807450991752",
+              "denominator": "15293907838909827949160023249217987060546875"
+            },
+            "imaginary": {
+              "numerator": "50491059262129981044581388331273993322496",
+              "denominator": "15293907838909827949160023249217987060546875"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "27232250952024100729935362024904352511661980515426123537702014491422528",
+            "denominator": "176486362745875153426050372846827568875304509171280774165743383655548095703125"
+          },
+          "required_upper": {
+            "numerator": "54289920730431817252864",
+            "denominator": "2035068734670994027833025"
+          }
+        },
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-1280",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-1408",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "2435246456832",
+              "denominator": "83733937890625"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "4870492913664",
+                "denominator": "184214663359375"
+              },
+              "imaginary": {
+                "numerator": "954327908745216",
+                "denominator": "921073316796875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "608811614208",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "304405807104",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "202937204736",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "152202903552",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "608811614208",
+                "denominator": "7612176171875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "101468602368",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "86973087744",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "76101451776",
+                "denominator": "1522435234375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "67645734912",
+                "denominator": "1522435234375"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "4605366583984375",
+                "denominator": "74317824"
+              },
+              "imaginary": {
+                "numerator": "0",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-52853347854704685973879682163",
+                "denominator": "120726921779200000000"
+              },
+              "imaginary": {
+                "numerator": "52853347854704685973879682163",
+                "denominator": "1509086522240000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "41132442581494648019712538371",
+                "denominator": "30181730444800000000"
+              },
+              "imaginary": {
+                "numerator": "-41132442581494648019712538371",
+                "denominator": "188635815280000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-1997927625326192889703355516717",
+                "denominator": "814906722009600000000"
+              },
+              "imaginary": {
+                "numerator": "1997927625326192889703355516717",
+                "denominator": "3395444675040000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "169424136945577440038830004469",
+                "denominator": "60363460889600000000"
+              },
+              "imaginary": {
+                "numerator": "-169424136945577440038830004469",
+                "denominator": "188635815280000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-327358164574711395598725",
+                "denominator": "154530459877376"
+              },
+              "imaginary": {
+                "numerator": "65471632914942279119745",
+                "denominator": "77265229938688"
+              }
+            },
+            {
+              "real": {
+                "numerator": "858072463925488869536098477949",
+                "denominator": "814906722009600000000"
+              },
+              "imaginary": {
+                "numerator": "-858072463925488869536098477949",
+                "denominator": "1697722337520000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-70130763568037389446584082117",
+                "denominator": "211272113113600000000"
+              },
+              "imaginary": {
+                "numerator": "70130763568037389446584082117",
+                "denominator": "377271630560000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "7259425570440160455373355619",
+                "denominator": "120726921779200000000"
+              },
+              "imaginary": {
+                "numerator": "-7259425570440160455373355619",
+                "denominator": "188635815280000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-46548498720773206311147618443",
+                "denominator": "9778880664115200000000"
+              },
+              "imaginary": {
+                "numerator": "46548498720773206311147618443",
+                "denominator": "13581778700160000000000"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "25387225743693193646987189960523776",
+              "denominator": "7011372354671045074462890625"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "25387225743693193646987189960523776",
+            "denominator": "7011372354671045074462890625"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-26975237442099323279731426106368704588522355508411341221197807895933565080905518428250973258279875653380355399876608",
+              "denominator": "38140464307196532111266392320147003053553946086096539307237190000721209995420936035217571448084321630107879638671875"
+            },
+            "imaginary": {
+              "numerator": "-26445213065459374522655044070275580730965367909077589704116769935489394484468766055890181787499584430305397702656",
+              "denominator": "3467314937017866555569672029104273004868540553281503573385199090974655454129176003201597404371301966373443603515625"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-26975237442099323279731426106368704588522355508411341221197807895933565080905518428250973258279875653380355399876608",
+              "denominator": "38140464307196532111266392320147003053553946086096539307237190000721209995420936035217571448084321630107879638671875"
+            },
+            "imaginary": {
+              "numerator": "-26445213065459374522655044070275580730965367909077589704116769935489394484468766055890181787499584430305397702656",
+              "denominator": "3467314937017866555569672029104273004868540553281503573385199090974655454129176003201597404371301966373443603515625"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "5247365905126019122669915477894671299939651797029882252748213854449730847678775886633984681069273296630858515377071413960029378229439561728",
+            "denominator": "37979081655069590311348849102840645340896037777929114433579719960308096259479680749691810123921814321758464915618990363355218316076526641845703125"
+          },
+          "required_upper": {
+            "numerator": "54289920730431817252864",
+            "denominator": "2035068734670994027833025"
+          }
+        }
+      ],
+      "combined_pairing": {
+        "real": {
+          "numerator": "-142038322948067720052319194508167107823476025218649329765896596734879971363836393867249320071259954589568671816",
+          "denominator": "97639588626423122204841964339576327817098101980407140626527206401846297588277596250156982907095863373076171875"
+        },
+        "imaginary": {
+          "numerator": "-422351445810426759697165736353292103491202552694472391464264513632585830684831678380519855365923304145682432",
+          "denominator": "97639588626423122204841964339576327817098101980407140626527206401846297588277596250156982907095863373076171875"
+        }
+      },
+      "full_retained_energy": {
+        "real": {
+          "numerator": "161978207427832601605944233015031405967931600748150623003893493943522468904472328031871935514274311933123415678395968",
+          "denominator": "17336574685089332777848360145521365024342702766407517866925995454873277270645880016007987021856509831867218017578125"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "checks": {
+        "base_admissible": true,
+        "base_energy_split": true,
+        "base_all_grid_residues_match_orthogonal_energy": true,
+        "base_inverse_gram_energy": true,
+        "base_polynomial_identity_every_coefficient": true,
+        "base_proper_rational_sum": true,
+        "base_all_prefixes": true,
+        "dual_0_norm_difference_zero": true,
+        "dual_0_pairing_difference_zero": true,
+        "dual_0_bound": true,
+        "dual_0_nonzero": true,
+        "dual_1_norm_difference_zero": true,
+        "dual_1_pairing_difference_zero": true,
+        "dual_1_bound": true,
+        "dual_1_nonzero": true,
+        "beta1_modulus": true,
+        "dual_sum_s_is_one": true,
+        "dual_sum_negative_zero": true,
+        "combined_pairing": true,
+        "combined_coercivity": true,
+        "retained_energy_lower_bound": true,
+        "combined_lower_bound": true
+      }
+    },
+    {
+      "n": 10,
+      "u": {
+        "real": {
+          "numerator": "3",
+          "denominator": "5"
+        },
+        "imaginary": {
+          "numerator": "4",
+          "denominator": "5"
+        }
+      },
+      "poles": [
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-5",
+            "denominator": "4"
+          },
+          "imaginary": {
+            "numerator": "1",
+            "denominator": "1024"
+          }
+        }
+      ],
+      "residues": [
+        1,
+        1
+      ],
+      "epsilon": {
+        "numerator": "1",
+        "denominator": "1024"
+      },
+      "weights": [
+        {
+          "real": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "imaginary": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        },
+        {
+          "real": {
+            "numerator": "10161801677078564588346369786081776999809809918359080051911655176363736822645268023852402308625728962694057052199714816",
+            "denominator": "10160803655490252366646144790546503703752988565807995310688852070684574379154310683581477503223763673434798149626953125"
+          },
+          "imaginary": {
+            "numerator": "48351331154798160360625181791129081196866844290451853114727630224527387304747601305614699233162618047870204496576512",
+            "denominator": "10160803655490252366646144790546503703752988565807995310688852070684574379154310683581477503223763673434798149626953125"
+          }
+        }
+      ],
+      "beta1": {
+        "real": {
+          "numerator": "17542849587314688",
+          "denominator": "1798971321868896484375"
+        },
+        "imaginary": {
+          "numerator": "-2977925909446656",
+          "denominator": "163542847442626953125"
+        }
+      },
+      "p_n": {
+        "numerator": "19025362944",
+        "denominator": "921073316796875"
+      },
+      "grid_residues": [
+        {
+          "real": {
+            "numerator": "101918722624718501440657864063436983502036739048845212821859",
+            "denominator": "4465342877011994520823904861619180127086567570641190912"
+          },
+          "imaginary": {
+            "numerator": "-6825308363462307639217693940492450010779183686799919493183",
+            "denominator": "124037302139222070022886246156088336863515765851144192"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-4223231168758490703510586960181703708676240614548805047911705717851",
+            "denominator": "32307827018784099164024489822566113424094890205200000000000000"
+          },
+          "imaginary": {
+            "numerator": "3060650054788656253069260362718364532291004414289281765479854740033",
+            "denominator": "8076956754696024791006122455641528356023722551300000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "2895373157512339664480159538222167022944677603854749911358232726873",
+            "denominator": "8920336240958861797696635000563105236221891536900000000000000"
+          },
+          "imaginary": {
+            "numerator": "-2547027501183576632839578274119881839654163583859480426826398112409",
+            "denominator": "2230084060239715449424158750140776309055472884225000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-4986937189773827379652375844327725408077863232062741916566517594278953",
+            "denominator": "10912259113410179874892731208233999886210247443745100000000000000"
+          },
+          "imaginary": {
+            "numerator": "1800411390138793779948902243012703381082437010706467697177620191016933",
+            "denominator": "909354926117514989574394267352833323850853953645425000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "5489591509314387207616587488851771743887977153918974198481307196771",
+            "denominator": "13736218588552317992218172474332876420804673961800000000000000"
+          },
+          "imaginary": {
+            "numerator": "-7475562876072014388153645365213185144551406542009104911277034412143",
+            "denominator": "3434054647138079498054543118583219105201168490450000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-48746211552587586844878264090335436471983700754061806734489",
+            "denominator": "218812524148532096728265317718857857090229621657600000"
+          },
+          "imaginary": {
+            "numerator": "86139284740830781076784900861969927741493623855233265485187",
+            "denominator": "54703131037133024182066329429714464272557405414400000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "87539932340924380130539604540665213423356916776754157911671714203251",
+            "denominator": "1126734970590068866156719480643128288872886973304700000000000000"
+          },
+          "imaginary": {
+            "numerator": "-70345293814578024899423291025768978586402129257364225348262156223161",
+            "denominator": "93894580882505738846393290053594024072740581108725000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-2264381377491398021318933755974776509101199984268949766101540441549",
+            "denominator": "143936313002424733372122369204991010151662505270700000000000000"
+          },
+          "imaginary": {
+            "numerator": "8130009360634561406749193331278030248756127260632486807894564887667",
+            "denominator": "35984078250606183343030592301247752537915626317675000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "3967002218041142557198052396215014721685635003700770163861590850541",
+            "denominator": "2615834168502247211207095652151713123669914323821200000000000000"
+          },
+          "imaginary": {
+            "numerator": "-25600337380351537586819765136145533645826177632458470388782564280553",
+            "denominator": "653958542125561802801773913037928280917478580955300000000000000"
+          }
+        },
+        {
+          "real": {
+            "numerator": "-3162046292771012798299222378682521793769373345025760293524606459",
+            "denominator": "100567196628096022548064582213949397003821142925200000000000000"
+          },
+          "imaginary": {
+            "numerator": "8282315829852515662298998662331858391158623700031038100507714633",
+            "denominator": "2793533239669333959668460617054149916772809525700000000000000"
+          }
+        }
+      ],
+      "dual_checks": [
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "1280",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "1408",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "-381174516409171968",
+              "denominator": "14867531585693359375"
+            },
+            "imaginary": {
+              "numerator": "-2245484747176280064",
+              "denominator": "163542847442626953125"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "1647935860617907273728",
+                "denominator": "1798971321868896484375"
+              },
+              "imaginary": {
+                "numerator": "-809011265567767658496",
+                "denominator": "1798971321868896484375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "215606980302077952",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "-100352244804747264",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "107803490151038976",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "-50176122402373632",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "71868993434025984",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "-33450748268249088",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "53901745075519488",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "-25088061201186816",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "215606980302077952",
+                "denominator": "2973506317138671875"
+              },
+              "imaginary": {
+                "numerator": "-100352244804747264",
+                "denominator": "2973506317138671875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "35934496717012992",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "-16725374134124544",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "30800997186011136",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "-14336034972106752",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "26950872537759744",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "-12544030600593408",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "23956331144675328",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "-11150249422749696",
+                "denominator": "594701263427734375"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "-5194407484422988513",
+                "denominator": "95126814720"
+              },
+              "imaginary": {
+                "numerator": "-99537420563686853",
+                "denominator": "3397386240"
+              }
+            },
+            {
+              "real": {
+                "numerator": "126015994775276255502400140440206406073",
+                "denominator": "301817304448000000000000000000"
+              },
+              "imaginary": {
+                "numerator": "14502771391919516612530179329813296491",
+                "denominator": "75454326112000000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-105528543204388789438665832375380781929",
+                "denominator": "75454326112000000000000000000"
+              },
+              "imaginary": {
+                "numerator": "-10418758571889520244490927252303650043",
+                "denominator": "18863581528000000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "5488109445880190458726244994216042968359",
+                "denominator": "2037266805024000000000000000000"
+              },
+              "imaginary": {
+                "numerator": "42174292203635486906413035966133970623",
+                "denominator": "46301518296000000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-99222322610055211307270020532575498419",
+                "denominator": "30181730444800000000000000000"
+              },
+              "imaginary": {
+                "numerator": "-7153106884466302150999887331791702873",
+                "denominator": "7545432611200000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "40717390984731994460049832223367",
+                "denominator": "15453045987737600000000"
+              },
+              "imaginary": {
+                "numerator": "2487947728742235846912180763989",
+                "denominator": "3863261496934400000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-2823801678121907742412933725850892681239",
+                "denominator": "2037266805024000000000000000000"
+              },
+              "imaginary": {
+                "numerator": "-144931302544827189421004674886207015813",
+                "denominator": "509316701256000000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "22137017401254548139770466788730271533",
+                "denominator": "48016389344000000000000000000"
+              },
+              "imaginary": {
+                "numerator": "1480808197377803188631655583953088203",
+                "denominator": "18863581528000000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-26522381498470115668737676848245268873",
+                "denominator": "301817304448000000000000000000"
+              },
+              "imaginary": {
+                "numerator": "-919813422417066739832816925289664091",
+                "denominator": "75454326112000000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "35701128856907686047360205136939483597",
+                "denominator": "4889440332057600000000000000000"
+              },
+              "imaginary": {
+                "numerator": "983173789891320231688460244910495399",
+                "denominator": "1222360083014400000000000000000"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "25387232755065548318032264423414401",
+              "denominator": "7011372354671045074462890625"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "25387232755065548318032264423414401",
+            "denominator": "7011372354671045074462890625"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-17368344880219760863723864089986092613398169853893416",
+              "denominator": "24621492120966631806993383371112191615558197021484375"
+            },
+            "imaginary": {
+              "numerator": "222991947176810937244698296570707185671184121331712",
+              "denominator": "24621492120966631806993383371112191615558197021484375"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-17368344880219760863723864089986092613398169853893416",
+              "denominator": "24621492120966631806993383371112191615558197021484375"
+            },
+            "imaginary": {
+              "numerator": "222991947176810937244698296570707185671184121331712",
+              "denominator": "24621492120966631806993383371112191615558197021484375"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "3999027499205297548012292505464768403997022218062264499844911175793480256",
+            "denominator": "29094239476456373279115695657115027745204027720098988262850919424559881046890625"
+          },
+          "required_upper": {
+            "numerator": "54289920730431817252864",
+            "denominator": "2035068734670994027833025"
+          }
+        },
+        {
+          "s_coefficients": [
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-1280",
+                "denominator": "1"
+              }
+            },
+            {
+              "real": {
+                "numerator": "0",
+                "denominator": "1"
+              },
+              "imaginary": {
+                "numerator": "-1408",
+                "denominator": "1"
+              }
+            }
+          ],
+          "negative_coefficient": {
+            "real": {
+              "numerator": "381174516409171968",
+              "denominator": "14867531585693359375"
+            },
+            "imaginary": {
+              "numerator": "2245484747176280064",
+              "denominator": "163542847442626953125"
+            }
+          },
+          "all_grid_values": [
+            {
+              "real": {
+                "numerator": "-329583663553663991808",
+                "denominator": "359794264373779296875"
+              },
+              "imaginary": {
+                "numerator": "161795701676552749056",
+                "denominator": "359794264373779296875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-215606980302077952",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "100352244804747264",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-107803490151038976",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "50176122402373632",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-71868993434025984",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "33450748268249088",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-53901745075519488",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "25088061201186816",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-215606980302077952",
+                "denominator": "2973506317138671875"
+              },
+              "imaginary": {
+                "numerator": "100352244804747264",
+                "denominator": "2973506317138671875"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-35934496717012992",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "16725374134124544",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-30800997186011136",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "14336034972106752",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-26950872537759744",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "12544030600593408",
+                "denominator": "594701263427734375"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-23956331144675328",
+                "denominator": "594701263427734375"
+              },
+              "imaginary": {
+                "numerator": "11150249422749696",
+                "denominator": "594701263427734375"
+              }
+            }
+          ],
+          "all_gram_coefficients": [
+            {
+              "real": {
+                "numerator": "1014957362061731",
+                "denominator": "18579456"
+              },
+              "imaginary": {
+                "numerator": "80526271595341",
+                "denominator": "2752512"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-123110087530962966831180544429586151",
+                "denominator": "294743461375000000000000000"
+              },
+              "imaginary": {
+                "numerator": "-226250330375243588637420259149115197",
+                "denominator": "1178973845500000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "103092256331686529569558500833617479",
+                "denominator": "73685865343750000000000000"
+              },
+              "imaginary": {
+                "numerator": "162516460658942173542229283868354663",
+                "denominator": "294743461375000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-5361280946280437850280667964024248857",
+                "denominator": "1989518364281250000000000000"
+              },
+              "imaginary": {
+                "numerator": "-219250579675671081523156531049006863",
+                "denominator": "241153741125000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "484636557763865648188992955973543217",
+                "denominator": "147371730687500000000000000"
+              },
+              "imaginary": {
+                "numerator": "557696989490633116502057541140701149",
+                "denominator": "589486922750000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-7954973625411065762974728837",
+                "denominator": "3018173044480000000"
+              },
+              "imaginary": {
+                "numerator": "-7757223105354774103121451039",
+                "denominator": "12072692177920000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "2758391491216041763098915002858539513",
+                "denominator": "1989518364281250000000000000"
+              },
+              "imaginary": {
+                "numerator": "752926838413451239929753578756563387",
+                "denominator": "2652691152375000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-237863141970584526122484250572967953",
+                "denominator": "515801057406250000000000000"
+              },
+              "imaginary": {
+                "numerator": "-161491722275681761538606437324704591",
+                "denominator": "2063204229625000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "25907300046701006270087779439330439",
+                "denominator": "294743461375000000000000000"
+              },
+              "imaginary": {
+                "numerator": "14323260437735951667597586917557283",
+                "denominator": "1178973845500000000000000000"
+              }
+            },
+            {
+              "real": {
+                "numerator": "-174363833578704477180231239987566879",
+                "denominator": "23874220371375000000000000000"
+              },
+              "imaginary": {
+                "numerator": "-8499709317914466699209243980073357",
+                "denominator": "10610764609500000000000000000"
+              }
+            }
+          ],
+          "actual_norm_squared": {
+            "real": {
+              "numerator": "25387225743693193646987189960523776",
+              "denominator": "7011372354671045074462890625"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "required_norm_squared": {
+            "numerator": "25387225743693193646987189960523776",
+            "denominator": "7011372354671045074462890625"
+          },
+          "norm_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_pairing": {
+            "real": {
+              "numerator": "-12003661075014328729324308655612889192926524697750770864195127706013844450648288287563528600085486374389786501836055773184",
+              "denominator": "16021909433829239683645010420873213982408668896772928385547215134393680930432542648996022439142975975886292953826904296875"
+            },
+            "imaginary": {
+              "numerator": "-200556014901191500658136820852641156780521753765319377594873014686312537768086852274445348469730872846740770856749760512",
+              "denominator": "16021909433829239683645010420873213982408668896772928385547215134393680930432542648996022439142975975886292953826904296875"
+            }
+          },
+          "required_pairing": {
+            "real": {
+              "numerator": "-12003661075014328729324308655612889192926524697750770864195127706013844450648288287563528600085486374389786501836055773184",
+              "denominator": "16021909433829239683645010420873213982408668896772928385547215134393680930432542648996022439142975975886292953826904296875"
+            },
+            "imaginary": {
+              "numerator": "-200556014901191500658136820852641156780521753765319377594873014686312537768086852274445348469730872846740770856749760512",
+              "denominator": "16021909433829239683645010420873213982408668896772928385547215134393680930432542648996022439142975975886292953826904296875"
+            }
+          },
+          "pairing_difference": {
+            "real": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "imaginary": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          },
+          "actual_response_squared": {
+            "numerator": "109257413526902062049486863985815359628304916984326375980124695110576997970775384815253999013202374414031806565892652336605405656979079168",
+            "denominator": "704600595277214721789918824780880846906955515872442146695172630512440104004727916733242640007834864831827344166827397731967845388635203253515625"
+          },
+          "required_upper": {
+            "numerator": "54289920730431817252864",
+            "denominator": "2035068734670994027833025"
+          }
+        }
+      ],
+      "combined_pairing": {
+        "real": {
+          "numerator": "-162580842660550535639940116613026245628502387873336602900804057976386489614396629659471038494795941089030841614613343528",
+          "denominator": "111768840210392776033107592696011540741282874223887948417577372777530318170697417519396252535461400407782779645896484375"
+        },
+        "imaginary": {
+          "numerator": "-386810649238385282885001454329032649574934754323614824917821041796219098437980810444917593865300944382961635972612096",
+          "denominator": "111768840210392776033107592696011540741282874223887948417577372777530318170697417519396252535461400407782779645896484375"
+        }
+      },
+      "full_retained_energy": {
+        "real": {
+          "numerator": "85128831270072866399407731632005621125378658757089039955795990010903080588133773154746230307978435436573732900366111808",
+          "denominator": "10160803655490252366646144790546503703752988565807995310688852070684574379154310683581477503223763673434798149626953125"
+        },
+        "imaginary": {
+          "numerator": "0",
+          "denominator": "1"
+        }
+      },
+      "checks": {
+        "base_admissible": true,
+        "base_energy_split": true,
+        "base_all_grid_residues_match_orthogonal_energy": true,
+        "base_inverse_gram_energy": true,
+        "base_polynomial_identity_every_coefficient": true,
+        "base_proper_rational_sum": true,
+        "base_all_prefixes": true,
+        "dual_0_norm_difference_zero": true,
+        "dual_0_pairing_difference_zero": true,
+        "dual_0_bound": true,
+        "dual_0_nonzero": true,
+        "dual_1_norm_difference_zero": true,
+        "dual_1_pairing_difference_zero": true,
+        "dual_1_bound": true,
+        "dual_1_nonzero": true,
+        "beta1_modulus": true,
+        "dual_sum_s_is_one": true,
+        "dual_sum_negative_zero": true,
+        "combined_pairing": true,
+        "combined_coercivity": true,
+        "retained_energy_lower_bound": true,
+        "combined_lower_bound": true
+      }
+    }
+  ]
+}

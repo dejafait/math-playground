@@ -1,0 +1,261 @@
+{
+  "lemma": "L646",
+  "scope": "Exact constant comparisons only; not an independent verification of the Fourier and projection proof.",
+  "onset": 2540160000000000,
+  "actual_phase_bound": "190000/617463",
+  "required_phase_bound": "5/16",
+  "actual_rate_lower_bound": "47/1000 (imported from C645n)",
+  "required_rate": "1/32",
+  "checks": [
+    {
+      "name": "grid radius below anchor",
+      "actual": "8/11",
+      "relation": "<",
+      "required": "10/11",
+      "margin": "2/11",
+      "passed": true
+    },
+    {
+      "name": "angular derivative at minus one",
+      "actual": "1/21",
+      "relation": "=",
+      "required": "1/21",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "single transformed phase at minus one",
+      "actual": "19/63",
+      "relation": "=",
+      "required": "19/63",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "arc phase bound",
+      "actual": "190000/617463",
+      "relation": "<",
+      "required": "5/16",
+      "margin": "47315/9879408",
+      "passed": true
+    },
+    {
+      "name": "arc phase derivative bound",
+      "actual": "200000000/96059601",
+      "relation": "<",
+      "required": "3",
+      "margin": "88178803/96059601",
+      "passed": true
+    },
+    {
+      "name": "sqrt21 less than five squared",
+      "actual": "21",
+      "relation": "<",
+      "required": "25",
+      "margin": "4",
+      "passed": true
+    },
+    {
+      "name": "amplitude derivative L1 bound",
+      "actual": "11",
+      "relation": "=",
+      "required": "11",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "amplitude L1 bound",
+      "actual": "1/10",
+      "relation": "=",
+      "required": "1/10",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "overlap from pi less than four",
+      "actual": "1/15750",
+      "relation": "=",
+      "required": "1/15750",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "floor cutoff gap at n=96",
+      "actual": "1/96",
+      "relation": ">=",
+      "required": "1/96",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "Fourier tail sum constant",
+      "actual": "2405760",
+      "relation": "=",
+      "required": "2405760",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "Fourier tail square bound",
+      "actual": "2405760",
+      "relation": "<",
+      "required": "2560000",
+      "margin": "154240",
+      "passed": true
+    },
+    {
+      "name": "onset square",
+      "actual": "2540160000000000",
+      "relation": "=",
+      "required": "2540160000000000",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "onset tail amplitude",
+      "actual": "1/31500",
+      "relation": "=",
+      "required": "1/31500",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "confluent projection residual",
+      "actual": "1/31500",
+      "relation": "=",
+      "required": "1/31500",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "cluster displacement for n>=5",
+      "actual": "2/125",
+      "relation": "<",
+      "required": "1/16",
+      "margin": "93/2000",
+      "passed": true
+    },
+    {
+      "name": "cluster physical radius",
+      "actual": "21/16",
+      "relation": "=",
+      "required": "21/16",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "cluster required clearance",
+      "actual": "21/16",
+      "relation": "<",
+      "required": "273/200",
+      "margin": "21/400",
+      "passed": true
+    },
+    {
+      "name": "cluster normalized radius",
+      "actual": "21/22",
+      "relation": "=",
+      "required": "21/22",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "Blaschke difference constant",
+      "actual": "968",
+      "relation": "<=",
+      "required": "1000",
+      "margin": "32",
+      "passed": true
+    },
+    {
+      "name": "projection perturbation at n>=200",
+      "actual": "3/400000",
+      "relation": "<=",
+      "required": "1/63000",
+      "margin": "211/25200000",
+      "passed": true
+    },
+    {
+      "name": "distinct projection residual",
+      "actual": "1/63000",
+      "relation": "=",
+      "required": "1/63000",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "onset exceeds perturbation threshold",
+      "actual": "2540160000000000",
+      "relation": ">=",
+      "required": "200",
+      "margin": "2540159999999800",
+      "passed": true
+    },
+    {
+      "name": "resolvent squared denominator",
+      "actual": "43/256",
+      "relation": "=",
+      "required": "43/256",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "resolvent norm less than three squared",
+      "actual": "256/43",
+      "relation": "<",
+      "required": "9",
+      "margin": "131/43",
+      "passed": true
+    },
+    {
+      "name": "anchor rate gap",
+      "actual": "63/4000",
+      "relation": "=",
+      "required": "63/4000",
+      "margin": "0",
+      "passed": true
+    },
+    {
+      "name": "logarithmic derivative bound",
+      "actual": "212/37",
+      "relation": "<",
+      "required": "6",
+      "margin": "10/37",
+      "passed": true
+    },
+    {
+      "name": "log ratio bound at n>=5",
+      "actual": "144/15625",
+      "relation": "<",
+      "required": "1/2",
+      "margin": "15337/31250",
+      "passed": true
+    },
+    {
+      "name": "resolvent perturbation coefficient",
+      "actual": "1088/5",
+      "relation": "<=",
+      "required": "220",
+      "margin": "12/5",
+      "passed": true
+    },
+    {
+      "name": "full response error at n>=5",
+      "actual": "1056/15625",
+      "relation": "<",
+      "required": "1/2",
+      "margin": "13513/31250",
+      "passed": true
+    },
+    {
+      "name": "anchor resolvent exceeds three halves squared",
+      "actual": "64/21",
+      "relation": ">",
+      "required": "9/4",
+      "margin": "67/84",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

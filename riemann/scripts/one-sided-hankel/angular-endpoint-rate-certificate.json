@@ -1,0 +1,89 @@
+{
+  "kind": "exact rational upper bound, not sampled quadrature",
+  "formula": "g(t)=(A-A^2/2+A^3/3-B+B^2/2)/2; A=r^2/(d+t)^2; B=r^2*t^2/(U+d*t)^2",
+  "parameters": {
+    "d": "5/4",
+    "U": "121/64",
+    "r": "9/20"
+  },
+  "justification": "f(t)<=g(t); g decreasing; integral_0^1 g <= left Riemann sum. Each rational summand is rounded upward at scale.",
+  "subintervals": 512,
+  "upward_rounding_scale": 1000000000000,
+  "rounded_numerator_sum": 15559465959309,
+  "upper_bound": {
+    "numerator": 15559465959309,
+    "denominator": 512000000000000
+  },
+  "required_upper_bound": "61/2000",
+  "strict_margin": {
+    "numerator": 56534040691,
+    "denominator": 512000000000000
+  },
+  "auxiliary_rational_checks": [
+    {
+      "name": "horizontal numerator lower bound",
+      "actual": "788253/409600",
+      "relation": ">",
+      "required": "19/10",
+      "passed": true
+    },
+    {
+      "name": "horizontal denominator upper bound",
+      "actual": "2139973433/20480000",
+      "relation": "<",
+      "required": "105",
+      "passed": true
+    },
+    {
+      "name": "angular single-factor logarithmic derivative",
+      "actual": "5364/2783",
+      "relation": "<",
+      "required": "2",
+      "passed": true
+    },
+    {
+      "name": "angular p derivative",
+      "actual": "82256/64009",
+      "relation": "<",
+      "required": "2",
+      "passed": true
+    },
+    {
+      "name": "real p after angular perturbation",
+      "actual": "189979/10500000",
+      "relation": ">",
+      "required": "1/100",
+      "passed": true
+    },
+    {
+      "name": "vertical connecting rate",
+      "actual": "8749469/132750000",
+      "relation": ">",
+      "required": "3/50",
+      "passed": true
+    },
+    {
+      "name": "finite-node remainder rate",
+      "actual": "36497447/638250000",
+      "relation": ">",
+      "required": "11/200",
+      "passed": true
+    },
+    {
+      "name": "endpoint rate after angular perturbation",
+      "actual": "3813/125000",
+      "relation": "<",
+      "required": "31/1000",
+      "passed": true
+    },
+    {
+      "name": "desired compact-band rate",
+      "actual": "31/1000",
+      "relation": "<",
+      "required": "1/32",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "scope": "Exact endpoint modulus rate and stated rational margins only; contour errors, phases, and angular integration require the analytic proof."
+}

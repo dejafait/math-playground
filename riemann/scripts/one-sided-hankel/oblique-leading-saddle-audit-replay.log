@@ -1,0 +1,23 @@
+enclosed contour cells 0 / 1024
+enclosed contour cells 128 / 1024
+enclosed contour cells 256 / 1024
+enclosed contour cells 384 / 1024
+enclosed contour cells 512 / 1024
+enclosed contour cells 640 / 1024
+enclosed contour cells 768 / 1024
+enclosed contour cells 896 / 1024
+Saddle/contour certificate: PASS
+{'name': 'saddle contraction', 'actual': '0.0207106578490376189137786051868369749744297', 'required': '0.5', 'relation': '<', 'passed': True}
+{'name': 'saddle disk maps strictly inside itself', 'actual': '0.000175027326375578907011191483610274771077596', 'required': '0.0002', 'relation': '<', 'passed': True}
+{'name': 'saddle real phase lower', 'actual': '0.00563939537940957802125451000610158920516257', 'required': '0.005', 'relation': '>', 'passed': True}
+{'name': 'contour height upper', 'actual': '0.115873915359644257501349689990344944200240', 'required': '0.117', 'relation': '<', 'passed': True}
+{'name': 'Gaussian real part lower', 'actual': '0.192399317193588969774417031766922880281460', 'required': '0.18', 'relation': '>', 'passed': True}
+{'name': 'Gaussian imaginary absolute upper', 'actual': '0.181417364921528078077395755552323951992757', 'required': '0.20', 'relation': '<', 'passed': True}
+{'name': 'Gaussian real part upper', 'actual': '0.198233088813060544436233801443961250631724', 'required': '0.22', 'relation': '<', 'passed': True}
+{'name': 'local real curvature upper', 'actual': '-0.137492552569814285488751507382896514441662', 'required': '-0.05', 'relation': '<', 'passed': True}
+{'name': 'complementary contour real phase upper', 'actual': '0.00267089442056769701285141335094127364318443', 'required': '0.004', 'relation': '<', 'passed': True}
+{'name': 'b0 real phase upper', 'actual': '-0.0691027216919027215667829292282461514404570', 'required': '-0.06', 'relation': '<', 'passed': True}
+{'name': 'left overlap', 'actual': '4.67557344147543446818073097277144765187029', 'required': '4.666972288459421', 'relation': '>', 'passed': True}
+{'name': 'right overlap', 'actual': '5.08054436947724375282630609639732107053900', 'required': '5.086972288459421', 'relation': '<', 'passed': True}
+Failures: []
+Full certificate: /Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/one-sided-hankel/oblique-leading-saddle-audit-replay.json

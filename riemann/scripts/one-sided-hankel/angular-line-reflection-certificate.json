@@ -1,0 +1,125 @@
+{
+  "kind": "EXACT_RATIONAL_CONSTANT_CHECK",
+  "lemma": "L648",
+  "parameters": {
+    "R": "11/8",
+    "d": "5/4",
+    "r": "9/8",
+    "U": "121/64"
+  },
+  "boxes": [
+    {
+      "t": "1/4",
+      "integrand_lower": "26/47",
+      "integral_lower": "13/752"
+    },
+    {
+      "t": "1/2",
+      "integrand_lower": "60/161",
+      "integral_lower": "15/1288"
+    },
+    {
+      "t": "3/4",
+      "integrand_lower": "85/362",
+      "integral_lower": "85/11584"
+    },
+    {
+      "t": "1",
+      "integrand_lower": "76/603",
+      "integral_lower": "19/4824"
+    }
+  ],
+  "gamma_lower": "2125341605/52856645184",
+  "gamma_lower_preview": 0.04020954409046287,
+  "required_root_rate": "1/32",
+  "proved_root_rate": "1/25",
+  "exact_margin": "7/800",
+  "checks": [
+    {
+      "name": "reflected-zero clearance",
+      "actual": "3/2",
+      "relation": ">",
+      "required": "11/8",
+      "passed": true
+    },
+    {
+      "name": "inner evaluation base radius",
+      "actual": "9/8",
+      "relation": "=",
+      "required": "9/8",
+      "passed": true
+    },
+    {
+      "name": "integration strip is outside grid",
+      "actual": "9/8",
+      "relation": ">",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "integration strip stays inside disk",
+      "actual": "5/4",
+      "relation": "<",
+      "required": "11/8",
+      "passed": true
+    },
+    {
+      "name": "radial denominator margin",
+      "actual": "41/64",
+      "relation": ">",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "n>=11 evaluation stays in strip",
+      "actual": "5/4",
+      "relation": "=",
+      "required": "5/4",
+      "passed": true
+    },
+    {
+      "name": "logarithmic derivative bound",
+      "actual": "392/41",
+      "relation": "<",
+      "required": "10",
+      "passed": true
+    },
+    {
+      "name": "four-box exponent lower bound",
+      "actual": "2125341605/52856645184",
+      "relation": ">",
+      "required": "1/25",
+      "passed": true
+    },
+    {
+      "name": "proved input decay exceeds target decay",
+      "actual": "1/25",
+      "relation": ">",
+      "required": "1/32",
+      "passed": true
+    },
+    {
+      "name": "strict exponent margin",
+      "actual": "7/800",
+      "relation": "=",
+      "required": "7/800",
+      "passed": true
+    },
+    {
+      "name": "anchor squared kernel norm",
+      "actual": "64/21",
+      "relation": "=",
+      "required": "64/21",
+      "passed": true
+    },
+    {
+      "name": "anchor census at smallest allowed n",
+      "actual": "1",
+      "relation": "<=",
+      "required": "5/3",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "qualification": "Does not independently verify the analytic proof or the exploratory quadrature."
+}

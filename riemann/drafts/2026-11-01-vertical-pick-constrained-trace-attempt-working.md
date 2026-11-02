@@ -1,0 +1,19 @@
+# Constrained exterior trace — bounded attempt, 1 November 2026
+
+Invocation target: Test whether the signed exterior-zero trace on L641's local-zero interpolation nullspace is o(ell_X dim U_T) along suitable heights, retaining the complete zero tail and using the constraint-sensitive orthogonal projection.
+
+Gate: `drafts/literature/2026-11-01-vertical-pick-constrained-exterior-trace.md`, saved EXPLORE before invocation. One mathematical attempt; no renewed literature search. Main gap is actual-Xi initial signs at unbounded heights/all-degree mixed positivity. A small signed trace would test a small normalized Rayleigh quotient, not alone an eigenvalue near zero or positivity.
+
+Read the supplied full overview/DAG and the exact L640 definitions/Gram identification, L641 concentration, nullspace and pair identity, and the specific boundary-transfer failure. Preserve all inherited edits. L641 remains separately unaudited; its local rank/concentration proof is a stated input, not silently certified by this attempt. L018 and L467 supply the actual-zero strip/symmetries and multiplicity-counted shells.
+
+Work in orthonormal coordinates of E_N. If D is its actual evaluation matrix, the intersection projection must be I-D^dagger D, including dependent/repeated constraints. The signed trace uses kernel values at (w, conjugate(w)), not diagonal positive evaluations. Need a tail estimate uniform in N and X before using a growing cutoff. This is a specialization of Penrose (1955), Theorem 1, pp.406--407 and p.408's lemma, already inspected in the gate.
+
+Continuation/abandonment test: obtain |trace|=o(ell_X dim U_T), or a quantitative obstruction on this actual constrained subspace. Exact projection identities and old unconstrained test pairs alone do not pass. If no additional quantitative input survives, park this mechanism and preserve the exact unresolved estimate.
+
+Intermediate checkpoint: the projection is finite and exact, but does not sign the mixed kernel. A bound from the explicit L641 orthonormal basis appears to remove the distant tail uniformly: for z=x+iy, |y|<=1/2, d=|x|-1/2, |k_U(z,bar z)|<=3N exp(3N/[2(d^2+1)])/(d^2+1). At |x|>=sqrt(N), L467's two-sided shell count should give O(N^(3/2)), smaller than ell_X dim U_T~N^2. Constants, endpoints, both ordinate signs and shell summation are still being checked. This does not estimate the remaining 1<|x|<sqrt(N) annulus.
+
+Potential continuation, not approved mathematics: average the exterior complex-evaluation majorant on the fixed E_N over X, using actual horizontal-zero distribution rather than boundary leakage alone. That requires a separate source comparison of quantitative zero-density estimates, including their dependence as the displacement tends to zero. No zero-density theorem has been imported or assumed. This would supply genuinely additional input to the unresolved near annulus; merely redoing the projection would not.
+
+Completed: L642 is the canonical proof of the exact E_N projection, absolutely convergent signed trace and uniform full distant-tail bound. Its constants and shell endpoints were checked algebraically, including a finite possible zero-ordinate contribution rather than assuming it absent. No numerical script was needed. The near annulus remains uncontrolled; the whole target is therefore EXPLORATION, not a full-trace advance or obstruction. PROOF.md is unchanged. The previous paragraphs preserve the unfinished reasoning checkpoints; the canonical lemma controls the final claims.
+
+The next nomination is `drafts/literature/2026-11-01-vertical-pick-density-weighted-annulus.md` (REVIEW_REQUIRED). Its source comparison should reuse both the fixed-displacement assessment and the restricted Maples--Rodgers local-count assessment; their narrower scopes do not yet approve the new E_N weight. The deterministic envelope attempt is parked pending materially different input.

@@ -1,0 +1,126 @@
+{
+  "status": "EXACT_RATIONAL_CHECKS_ONLY",
+  "checks": [
+    {
+      "name": "f_prime_numerator",
+      "actual": "47709/62500",
+      "required": "3/4",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "f_prime_denominator",
+      "actual": "6168688681/3906250000",
+      "required": "15/8",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "f_prime_ratio",
+      "actual": "2981812500/6168688681",
+      "required": "2/5",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "right_bin_1_A_minus_b",
+      "actual": "26/47",
+      "required": "11/20",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "right_bin_2_A_minus_b",
+      "actual": "60/161",
+      "required": "37/100",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "right_bin_3_A_minus_b",
+      "actual": "85/362",
+      "required": "23/100",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "right_bin_4_A_minus_b",
+      "actual": "76/603",
+      "required": "1/8",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "four_bin_mean",
+      "actual": "51/160",
+      "required": "3/10",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "vertical_log_derivative_upper",
+      "actual": "8/9",
+      "required": "1",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "phase_factor_endpoint_4/5",
+      "actual": "50000/78541",
+      "required": "3/5",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "phase_factor_endpoint_4",
+      "actual": "10000/8541",
+      "required": "3/5",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "horizontal_vs_endpoint_rate",
+      "actual": "3/200",
+      "required": "81/6250",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "bottom_vs_endpoint_rate",
+      "actual": "1/40",
+      "required": "81/6250",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "paid_exponential_margin",
+      "actual": "9/50000",
+      "required": "0",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "limiting_beta_real_parameter_upper",
+      "actual": "1",
+      "required": "6/5",
+      "relation": "<",
+      "passed": true
+    }
+  ],
+  "comparisons": {
+    "endpoint_rate": "81/6250",
+    "diagonal_half_rate": "91/5000",
+    "horizontal_rate": "3/200",
+    "bottom_rate": "1/40",
+    "horizontal_surplus": "51/25000",
+    "paid_margin": "9/50000",
+    "paid_margin_required": "0",
+    "paid_logarithmic_loss": "5 log n + an absolute constant"
+  },
+  "failures": [],
+  "limitations": [
+    "Checks rational inequalities, not the analytic contour proof.",
+    "No finite numerical H, D, endpoint integral or effective onset computed.",
+    "L661's prior exact certificates and analytic hypotheses are inherited."
+  ]
+}

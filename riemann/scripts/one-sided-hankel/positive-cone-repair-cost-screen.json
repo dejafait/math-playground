@@ -1,0 +1,57 @@
+{
+  "status": "FLOATING CONTINUUM DIAGNOSTIC ONLY",
+  "y": "0.05",
+  "rows": [
+    {
+      "chart_parameter": "0.08333333333333333",
+      "u": "(-0.9862068965517242+0.16551724137931034j)",
+      "F": "0.005531812565498126",
+      "beta": "-0.0005618679875406614",
+      "correction_rate": "0.009969944577957465"
+    },
+    {
+      "chart_parameter": "0.1",
+      "u": "(-0.9801980198019802+0.19801980198019803j)",
+      "F": "0.006340440320666307",
+      "beta": "-0.0005618679875406614",
+      "correction_rate": "0.010778572333125645"
+    },
+    {
+      "chart_parameter": "0.125",
+      "u": "(-0.9692307692307692+0.24615384615384617j)",
+      "F": "0.006990013000303319",
+      "beta": "-0.0005618679875406614",
+      "correction_rate": "0.011428145012762656"
+    },
+    {
+      "chart_parameter": "0.14285714285714285",
+      "u": "(-0.96+0.27999999999999997j)",
+      "F": "0.007143140183352348",
+      "beta": "-0.0005618679875406614",
+      "correction_rate": "0.011581272195811686"
+    },
+    {
+      "chart_parameter": "0.16666666666666666",
+      "u": "(-0.945945945945946+0.32432432432432434j)",
+      "F": "0.007078725766802267",
+      "beta": "-0.0005618679875406614",
+      "correction_rate": "0.011516857779261605"
+    },
+    {
+      "chart_parameter": "0.2",
+      "u": "(-0.923076923076923+0.38461538461538464j)",
+      "F": "0.006687464202782513",
+      "beta": "-0.0005618679875406614",
+      "correction_rate": "0.01112559621524185"
+    }
+  ],
+  "required_correction_rate": "greater than 1/100",
+  "failures": [],
+  "execution_history": [
+    "Initial mpmath import failed; replaced by standard-library midpoint diagnostic"
+  ],
+  "limitations": [
+    "No roundoff or integration enclosure",
+    "Asymptotic weight and projection bounds still require proof"
+  ]
+}

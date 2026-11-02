@@ -1,0 +1,35 @@
+{
+  "scope": "Complete exact saved-data/mesh check and inherited helper comparison; no independent source or analytic audit",
+  "rows": 218,
+  "samples": 98978,
+  "inherited_helpers": [
+    "add",
+    "neg",
+    "mul",
+    "log_unit",
+    "logq",
+    "atan_small",
+    "atanq",
+    "primitive",
+    "kernel",
+    "floor_scaled",
+    "ceil_scaled",
+    "complex_mul",
+    "series_fixed",
+    "circle_points"
+  ],
+  "maximum": "-49171680019/9000000000000",
+  "required": "-1/200",
+  "strict_margin": "4171680019/9000000000000",
+  "fixed_contour_point": {
+    "s": "3/50",
+    "y": "1/25",
+    "u_real": "-6391/6409",
+    "u_imag": "480/6409",
+    "exponent_lower": "-736652441/125000000000",
+    "exponent_upper": "-5893033891/1000000000000",
+    "target_upper": "-1/100",
+    "meaning": "This absolute contour exponent cannot be <=-1/100 everywhere; this is not a lower bound on kappa."
+  },
+  "failures": []
+}

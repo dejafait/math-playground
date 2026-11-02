@@ -1,0 +1,1313 @@
+{
+  "purpose": "Rational arithmetic only; analytic proof is separate.",
+  "parameters": {
+    "R": {
+      "numerator": 11,
+      "denominator": 8
+    },
+    "d": {
+      "numerator": 5,
+      "denominator": 4
+    },
+    "u": {
+      "numerator": 523,
+      "denominator": 400
+    },
+    "r": {
+      "numerator": 23,
+      "denominator": 400
+    },
+    "s": {
+      "numerator": 67,
+      "denominator": 1000
+    },
+    "eta": {
+      "numerator": 1,
+      "denominator": 100
+    }
+  },
+  "bounds": {
+    "gamma": {
+      "numerator": 5008250,
+      "denominator": 108585927
+    },
+    "gamma_required_upper": {
+      "numerator": 7,
+      "denominator": 150
+    },
+    "K": {
+      "numerator": 536000,
+      "denominator": 36195309
+    },
+    "K_required_upper": {
+      "numerator": 1,
+      "denominator": 50
+    },
+    "right_sum_lower": {
+      "numerator": 176969,
+      "denominator": 320000
+    },
+    "mean_required_lower": {
+      "numerator": 11,
+      "denominator": 20
+    },
+    "beta": {
+      "numerator": 253,
+      "denominator": 8000
+    },
+    "target_rate": {
+      "numerator": 1,
+      "denominator": 32
+    },
+    "rate_margin": {
+      "numerator": 3,
+      "denominator": 8000
+    },
+    "quadrature_error_rate": {
+      "numerator": 1,
+      "denominator": 1675
+    },
+    "lower_integer_sum": 353938
+  },
+  "grid_count": 64,
+  "rounding_scale": 10000,
+  "lower_integers": [
+    7646,
+    7640,
+    7630,
+    7616,
+    7598,
+    7577,
+    7551,
+    7522,
+    7489,
+    7452,
+    7411,
+    7367,
+    7319,
+    7268,
+    7214,
+    7156,
+    7095,
+    7031,
+    6963,
+    6893,
+    6820,
+    6744,
+    6666,
+    6584,
+    6501,
+    6415,
+    6327,
+    6236,
+    6144,
+    6049,
+    5953,
+    5855,
+    5756,
+    5654,
+    5552,
+    5448,
+    5343,
+    5237,
+    5129,
+    5021,
+    4912,
+    4802,
+    4692,
+    4581,
+    4469,
+    4358,
+    4245,
+    4133,
+    4020,
+    3907,
+    3795,
+    3682,
+    3569,
+    3456,
+    3344,
+    3232,
+    3120,
+    3009,
+    2898,
+    2787,
+    2677,
+    2568,
+    2459,
+    2351
+  ],
+  "derivative_lower_table": [
+    {
+      "k": 1,
+      "t": {
+        "numerator": 1,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7841016701250000,
+        "denominator": 10254790868617081
+      },
+      "lower_integer": 7646,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 1018015526899337,
+        "denominator": 51273954343085405000
+      },
+      "passed": true
+    },
+    {
+      "k": 2,
+      "t": {
+        "numerator": 1,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 490063421250000,
+        "denominator": 641423562650989
+      },
+      "lower_integer": 7640,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 3954846161101,
+        "denominator": 160355890662747250
+      },
+      "passed": true
+    },
+    {
+      "k": 3,
+      "t": {
+        "numerator": 3,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7841006241250000,
+        "denominator": 10276094063638729
+      },
+      "lower_integer": 7630,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 346470693649773,
+        "denominator": 10276094063638729000
+      },
+      "passed": true
+    },
+    {
+      "k": 4,
+      "t": {
+        "numerator": 1,
+        "denominator": 16
+      },
+      "value": {
+        "numerator": 15314420625000,
+        "denominator": 20106938104733
+      },
+      "lower_integer": 7616,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 610352772092,
+        "denominator": 12566836315458125
+      },
+      "passed": true
+    },
+    {
+      "k": 5,
+      "t": {
+        "numerator": 5,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 313637404530000,
+        "denominator": 412750644025681
+      },
+      "lower_integer": 7598,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 147325996437881,
+        "denominator": 2063753220128405000
+      },
+      "passed": true
+    },
+    {
+      "k": 6,
+      "t": {
+        "numerator": 3,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 490052961250000,
+        "denominator": 646759618743901
+      },
+      "lower_integer": 7577,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 31981277462123,
+        "denominator": 6467596187439010000
+      },
+      "passed": true
+    },
+    {
+      "k": 7,
+      "t": {
+        "numerator": 7,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7840702901250000,
+        "denominator": 10382938273546969
+      },
+      "lower_integer": 7551,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 5462108946837081,
+        "denominator": 103829382735469690000
+      },
+      "passed": true
+    },
+    {
+      "k": 8,
+      "t": {
+        "numerator": 1,
+        "denominator": 8
+      },
+      "value": {
+        "numerator": 7656720000000,
+        "denominator": 10178853408841
+      },
+      "lower_integer": 7522,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 932329348999,
+        "denominator": 50894267044205000
+      },
+      "passed": true
+    },
+    {
+      "k": 9,
+      "t": {
+        "numerator": 9,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7840158981250000,
+        "denominator": 10468807523233561
+      },
+      "lower_integer": 7489,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 690271003861671,
+        "denominator": 104688075232335610000
+      },
+      "passed": true
+    },
+    {
+      "k": 10,
+      "t": {
+        "numerator": 5,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 529710090000,
+        "denominator": 710807976097
+      },
+      "lower_integer": 7452,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 39965531289,
+        "denominator": 1777019940242500
+      },
+      "passed": true
+    },
+    {
+      "k": 11,
+      "t": {
+        "numerator": 11,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 64785971250000,
+        "denominator": 87410218492081
+      },
+      "lower_integer": 7411,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 62583255187709,
+        "denominator": 874102184920810000
+      },
+      "passed": true
+    },
+    {
+      "k": 12,
+      "t": {
+        "numerator": 3,
+        "denominator": 16
+      },
+      "value": {
+        "numerator": 527903125000,
+        "denominator": 716519785693
+      },
+      "lower_integer": 7367,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 429988799669,
+        "denominator": 7165197856930000
+      },
+      "passed": true
+    },
+    {
+      "k": 13,
+      "t": {
+        "numerator": 13,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7837282481250000,
+        "denominator": 10706753251271689
+      },
+      "lower_integer": 7319,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 10097766442508209,
+        "denominator": 107067532512716890000
+      },
+      "passed": true
+    },
+    {
+      "k": 14,
+      "t": {
+        "numerator": 7,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 489749621250000,
+        "denominator": 673768134008461
+      },
+      "lower_integer": 7268,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 137353631626363,
+        "denominator": 1684420335021152500
+      },
+      "passed": true
+    },
+    {
+      "k": 15,
+      "t": {
+        "numerator": 15,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 313375904530000,
+        "denominator": 434382073847329
+      },
+      "lower_integer": 7214,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 63382282684297,
+        "denominator": 2171910369236645000
+      },
+      "passed": true
+    },
+    {
+      "k": 16,
+      "t": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "value": {
+        "numerator": 956109375000,
+        "denominator": 1336010479733
+      },
+      "lower_integer": 7156,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 150689257663,
+        "denominator": 3340026199332500
+      },
+      "passed": true
+    },
+    {
+      "k": 17,
+      "t": {
+        "numerator": 17,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 270003326250000,
+        "denominator": 380534198310221
+      },
+      "lower_integer": 7095,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 28625097796401,
+        "denominator": 761068396620442000
+      },
+      "passed": true
+    },
+    {
+      "k": 18,
+      "t": {
+        "numerator": 9,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 489205701250000,
+        "denominator": 695768827980109
+      },
+      "lower_integer": 7031,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 106382971853621,
+        "denominator": 6957688279801090000
+      },
+      "passed": true
+    },
+    {
+      "k": 19,
+      "t": {
+        "numerator": 19,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7823977361250000,
+        "denominator": 11235098141391241
+      },
+      "lower_integer": 6963,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 9785253992788917,
+        "denominator": 112350981413912410000
+      },
+      "passed": true
+    },
+    {
+      "k": 20,
+      "t": {
+        "numerator": 5,
+        "denominator": 16
+      },
+      "value": {
+        "numerator": 610945065000,
+        "denominator": 886246745033
+      },
+      "lower_integer": 6893,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 551836487531,
+        "denominator": 8862467450330000
+      },
+      "passed": true
+    },
+    {
+      "k": 21,
+      "t": {
+        "numerator": 21,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7815588441250000,
+        "denominator": 11458961840007721
+      },
+      "lower_integer": 6820,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 288233182367139,
+        "denominator": 5729480920003860500
+      },
+      "passed": true
+    },
+    {
+      "k": 22,
+      "t": {
+        "numerator": 11,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 4034291250000,
+        "denominator": 5981504525989
+      },
+      "lower_integer": 6744,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 455747091273,
+        "denominator": 7476880657486250
+      },
+      "passed": true
+    },
+    {
+      "k": 23,
+      "t": {
+        "numerator": 23,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7804427621250000,
+        "denominator": 11707739316445849
+      },
+      "lower_integer": 6666,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 242964535985283,
+        "denominator": 58538696582229245000
+      },
+      "passed": true
+    },
+    {
+      "k": 24,
+      "t": {
+        "numerator": 3,
+        "denominator": 8
+      },
+      "value": {
+        "numerator": 7614880000000,
+        "denominator": 11564154119569
+      },
+      "lower_integer": 6584,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 1301159594713,
+        "denominator": 14455192649461250
+      },
+      "passed": true
+    },
+    {
+      "k": 25,
+      "t": {
+        "numerator": 25,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 498556327248,
+        "denominator": 766857771985
+      },
+      "lower_integer": 6501,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 44179361103,
+        "denominator": 1533715543970000
+      },
+      "passed": true
+    },
+    {
+      "k": 26,
+      "t": {
+        "numerator": 13,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 486329201250000,
+        "denominator": 758076027802141
+      },
+      "lower_integer": 6415,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 46858829853097,
+        "denominator": 1516152055604282000
+      },
+      "passed": true
+    },
+    {
+      "k": 27,
+      "t": {
+        "numerator": 27,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 210041376250000,
+        "denominator": 331972695026677
+      },
+      "lower_integer": 6327,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 22521066214621,
+        "denominator": 3319726950266770000
+      },
+      "passed": true
+    },
+    {
+      "k": 28,
+      "t": {
+        "numerator": 7,
+        "denominator": 16
+      },
+      "value": {
+        "numerator": 15157520625000,
+        "denominator": 24303869586917
+      },
+      "lower_integer": 6236,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 4068876496397,
+        "denominator": 60759673967292500
+      },
+      "passed": true
+    },
+    {
+      "k": 29,
+      "t": {
+        "numerator": 29,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7748539841250000,
+        "denominator": 12611103813090121
+      },
+      "lower_integer": 6144,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 173536554643536,
+        "denominator": 7881939883181325625
+      },
+      "passed": true
+    },
+    {
+      "k": 30,
+      "t": {
+        "numerator": 15,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 19337773330000,
+        "denominator": 31964186008501
+      },
+      "lower_integer": 6049,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 26372134577451,
+        "denominator": 319641860085010000
+      },
+      "passed": true
+    },
+    {
+      "k": 31,
+      "t": {
+        "numerator": 31,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7720266461250000,
+        "denominator": 12967414036014841
+      },
+      "lower_integer": 5953,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 7648856103651527,
+        "denominator": 129674140360148410000
+      },
+      "passed": true
+    },
+    {
+      "k": 32,
+      "t": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "value": {
+        "numerator": 1880838750000,
+        "denominator": 3212023400989
+      },
+      "lower_integer": 5855,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 398097441881,
+        "denominator": 6424046801978000
+      },
+      "passed": true
+    },
+    {
+      "k": 33,
+      "t": {
+        "numerator": 33,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 63520311250000,
+        "denominator": 110354587513729
+      },
+      "lower_integer": 5756,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 526692743969,
+        "denominator": 275886468784322500
+      },
+      "passed": true
+    },
+    {
+      "k": 34,
+      "t": {
+        "numerator": 17,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 479143181250000,
+        "denominator": 847307443595821
+      },
+      "lower_integer": 5654,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 377763204614033,
+        "denominator": 4236537217979105000
+      },
+      "passed": true
+    },
+    {
+      "k": 35,
+      "t": {
+        "numerator": 35,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 305792404530000,
+        "denominator": 550745092955569
+      },
+      "lower_integer": 5552,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 11705575667557,
+        "denominator": 344215683097230625
+      },
+      "passed": true
+    },
+    {
+      "k": 36,
+      "t": {
+        "numerator": 9,
+        "denominator": 16
+      },
+      "value": {
+        "numerator": 14885560625000,
+        "denominator": 27320647108373
+      },
+      "lower_integer": 5448,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 1590100447987,
+        "denominator": 34150808885466250
+      },
+      "passed": true
+    },
+    {
+      "k": 37,
+      "t": {
+        "numerator": 37,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7595970281250000,
+        "denominator": 14215696738518889
+      },
+      "lower_integer": 5343,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 5235138593576073,
+        "denominator": 142156967385188890000
+      },
+      "passed": true
+    },
+    {
+      "k": 38,
+      "t": {
+        "numerator": 19,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 473024081250000,
+        "denominator": 903209583632029
+      },
+      "lower_integer": 5237,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 132223019064127,
+        "denominator": 9032095836320290000
+      },
+      "passed": true
+    },
+    {
+      "k": 39,
+      "t": {
+        "numerator": 39,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7538534421250000,
+        "denominator": 14695294978330201
+      },
+      "lower_integer": 5129,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 13176268644399071,
+        "denominator": 146952949783302010000
+      },
+      "passed": true
+    },
+    {
+      "k": 40,
+      "t": {
+        "numerator": 5,
+        "denominator": 8
+      },
+      "value": {
+        "numerator": 293214720000,
+        "denominator": 583893735241
+      },
+      "lower_integer": 5021,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 416755354939,
+        "denominator": 5838937352410000
+      },
+      "passed": true
+    },
+    {
+      "k": 41,
+      "t": {
+        "numerator": 41,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 257639606250000,
+        "denominator": 524436873640109
+      },
+      "lower_integer": 4912,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 22633698736537,
+        "denominator": 327773046025068125
+      },
+      "passed": true
+    },
+    {
+      "k": 42,
+      "t": {
+        "numerator": 21,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 464635161250000,
+        "denominator": 967401892961149
+      },
+      "lower_integer": 4802,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 443861250281251,
+        "denominator": 4837009464805745000
+      },
+      "passed": true
+    },
+    {
+      "k": 43,
+      "t": {
+        "numerator": 43,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7394008601250000,
+        "denominator": 15757132749417769
+      },
+      "lower_integer": 4692,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 1904788057956963,
+        "denominator": 39392831873544422500
+      },
+      "passed": true
+    },
+    {
+      "k": 44,
+      "t": {
+        "numerator": 11,
+        "denominator": 16
+      },
+      "value": {
+        "numerator": 118655625000,
+        "denominator": 258990042233
+      },
+      "lower_integer": 4581,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 122866530627,
+        "denominator": 2589900422330000
+      },
+      "passed": true
+    },
+    {
+      "k": 45,
+      "t": {
+        "numerator": 45,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 292194404530000,
+        "denominator": 653682552242161
+      },
+      "lower_integer": 4469,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 636719329782491,
+        "denominator": 6536825522421610000
+      },
+      "passed": true
+    },
+    {
+      "k": 46,
+      "t": {
+        "numerator": 23,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 15637046250000,
+        "denominator": 35880718661489
+      },
+      "lower_integer": 4358,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 1145286615469,
+        "denominator": 179403593307445000
+      },
+      "passed": true
+    },
+    {
+      "k": 47,
+      "t": {
+        "numerator": 47,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 194675636250000,
+        "denominator": 458510992934917
+      },
+      "lower_integer": 4245,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 75439498255467,
+        "denominator": 917021985869834000
+      },
+      "passed": true
+    },
+    {
+      "k": 48,
+      "t": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "value": {
+        "numerator": 872429375000,
+        "denominator": 2110719535097
+      },
+      "lower_integer": 4133,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 689911444099,
+        "denominator": 21107195350970000
+      },
+      "passed": true
+    },
+    {
+      "k": 49,
+      "t": {
+        "numerator": 49,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 7087269101250000,
+        "denominator": 17627171427111481
+      },
+      "lower_integer": 4020,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 573093775592319,
+        "denominator": 8813585713555740500
+      },
+      "passed": true
+    },
+    {
+      "k": 50,
+      "t": {
+        "numerator": 25,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 702382933200,
+        "denominator": 1797357671773
+      },
+      "lower_integer": 3907,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 1552908382889,
+        "denominator": 17973576717730000
+      },
+      "passed": true
+    },
+    {
+      "k": 51,
+      "t": {
+        "numerator": 51,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 6956466801250000,
+        "denominator": 18330433398652681
+      },
+      "lower_integer": 3795,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 134652922615121,
+        "denominator": 36660866797305362000
+      },
+      "passed": true
+    },
+    {
+      "k": 52,
+      "t": {
+        "numerator": 13,
+        "denominator": 16
+      },
+      "value": {
+        "numerator": 13447310625000,
+        "denominator": 36519430992377
+      },
+      "lower_integer": 3682,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 4280668033943,
+        "denominator": 182597154961885000
+      },
+      "passed": true
+    },
+    {
+      "k": 53,
+      "t": {
+        "numerator": 53,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 6809336441250000,
+        "denominator": 19076333827215529
+      },
+      "lower_integer": 3569,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 9928983167776999,
+        "denominator": 190763338272155290000
+      },
+      "passed": true
+    },
+    {
+      "k": 54,
+      "t": {
+        "numerator": 27,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 420577641250000,
+        "denominator": 1216612767505981
+      },
+      "lower_integer": 3456,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 72667999958104,
+        "denominator": 760382979691238125
+      },
+      "passed": true
+    },
+    {
+      "k": 55,
+      "t": {
+        "numerator": 55,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 2196552930000,
+        "denominator": 6567464308681
+      },
+      "lower_integer": 3344,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 245540735671,
+        "denominator": 4104665192925625
+      },
+      "passed": true
+    },
+    {
+      "k": 56,
+      "t": {
+        "numerator": 7,
+        "denominator": 8
+      },
+      "value": {
+        "numerator": 6401520000000,
+        "denominator": 19803596873209
+      },
+      "lower_integer": 3232,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 623431611782,
+        "denominator": 12377248045755625
+      },
+      "passed": true
+    },
+    {
+      "k": 57,
+      "t": {
+        "numerator": 57,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 6460819701250000,
+        "denominator": 20702942986206169
+      },
+      "lower_integer": 3120,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 187686194209409,
+        "denominator": 2587867873275771125
+      },
+      "passed": true
+    },
+    {
+      "k": 58,
+      "t": {
+        "numerator": 29,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 397586561250000,
+        "denominator": 1321186919606749
+      },
+      "lower_integer": 3009,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 414171403292259,
+        "denominator": 13211869196067490000
+      },
+      "passed": true
+    },
+    {
+      "k": 59,
+      "t": {
+        "numerator": 59,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 6256671881250000,
+        "denominator": 21587262299433961
+      },
+      "lower_integer": 2898,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 3416334370190511,
+        "denominator": 107936311497169805000
+      },
+      "passed": true
+    },
+    {
+      "k": 60,
+      "t": {
+        "numerator": 15,
+        "denominator": 16
+      },
+      "value": {
+        "numerator": 480195065000,
+        "denominator": 1722499825397
+      },
+      "lower_integer": 2787,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 1343636618561,
+        "denominator": 17224998253970000
+      },
+      "passed": true
+    },
+    {
+      "k": 61,
+      "t": {
+        "numerator": 61,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 6030673121250000,
+        "denominator": 22521441235283401
+      },
+      "lower_integer": 2677,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 16833025646335523,
+        "denominator": 225214412352834010000
+      },
+      "passed": true
+    },
+    {
+      "k": 62,
+      "t": {
+        "numerator": 31,
+        "denominator": 32
+      },
+      "value": {
+        "numerator": 369313181250000,
+        "denominator": 1437990058600429
+      },
+      "lower_integer": 2568,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 46667751762291,
+        "denominator": 1797487573250536250
+      },
+      "passed": true
+    },
+    {
+      "k": 63,
+      "t": {
+        "numerator": 63,
+        "denominator": 64
+      },
+      "value": {
+        "numerator": 5781317181250000,
+        "denominator": 23507449202554489
+      },
+      "lower_integer": 2459,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 8354223418511549,
+        "denominator": 235074492025544890000
+      },
+      "passed": true
+    },
+    {
+      "k": 64,
+      "t": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "value": {
+        "numerator": 37263750000,
+        "denominator": 158496901813
+      },
+      "lower_integer": 2351,
+      "rounding_scale": 10000,
+      "difference": {
+        "numerator": 11283837637,
+        "denominator": 1584969018130000
+      },
+      "passed": true
+    }
+  ],
+  "checks": {
+    "anchor": true,
+    "clearance": true,
+    "auxiliary_radii": true,
+    "left_half_plane": true,
+    "factor_denominators": true,
+    "derivative_monotonicity_rectangle": true,
+    "gamma_bound": true,
+    "constant_bound": true,
+    "all_64_lower_entries": true,
+    "mean_gain": true,
+    "product_rate": true,
+    "error_rate": true,
+    "geometric_denominator_for_m_ge_8": true,
+    "boundary_kernel_constant": true,
+    "full_boundary_prefactor": true
+  },
+  "failures": [],
+  "passed": true
+}

@@ -1,0 +1,344 @@
+{
+  "lemma": "L647",
+  "scope": "Exact rational constants only; the analytic proof is in the canonical lemma.",
+  "checks": [
+    {
+      "name": "strip_radius",
+      "actual": {
+        "numerator": 63,
+        "denominator": 50
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 63,
+        "denominator": 50
+      },
+      "passed": true
+    },
+    {
+      "name": "grid_distance",
+      "actual": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "relation": ">=",
+      "required": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "passed": true
+    },
+    {
+      "name": "denominator_clearance",
+      "actual": {
+        "numerator": 1009,
+        "denominator": 1600
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 5,
+        "denominator": 8
+      },
+      "passed": true
+    },
+    {
+      "name": "logarithmic_derivative_bound",
+      "actual": {
+        "numerator": 28,
+        "denominator": 5
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 6,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "second_derivative_bound",
+      "actual": {
+        "numerator": 464,
+        "denominator": 25
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 20,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "first_real_part_bound",
+      "actual": {
+        "numerator": -4,
+        "denominator": 9
+      },
+      "relation": "=",
+      "required": {
+        "numerator": -4,
+        "denominator": 9
+      },
+      "passed": true
+    },
+    {
+      "name": "second_real_part_bound",
+      "actual": {
+        "numerator": 16,
+        "denominator": 101
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 16,
+        "denominator": 101
+      },
+      "passed": true
+    },
+    {
+      "name": "short_interval_real_part",
+      "actual": {
+        "numerator": -260,
+        "denominator": 909
+      },
+      "relation": "<",
+      "required": {
+        "numerator": -1,
+        "denominator": 4
+      },
+      "passed": true
+    },
+    {
+      "name": "integrated_real_part",
+      "actual": {
+        "numerator": -1,
+        "denominator": 16
+      },
+      "relation": "=",
+      "required": {
+        "numerator": -1,
+        "denominator": 16
+      },
+      "passed": true
+    },
+    {
+      "name": "phase_derivative_sign",
+      "actual": {
+        "numerator": -121,
+        "denominator": 2000
+      },
+      "relation": "<",
+      "required": {
+        "numerator": -1,
+        "denominator": 32
+      },
+      "passed": true
+    },
+    {
+      "name": "positive_imaginary_numerator_1",
+      "actual": {
+        "numerator": 21,
+        "denominator": 64
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "passed": true
+    },
+    {
+      "name": "positive_imaginary_numerator_2",
+      "actual": {
+        "numerator": 105,
+        "denominator": 64
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 3,
+        "denominator": 2
+      },
+      "passed": true
+    },
+    {
+      "name": "positive_imaginary_denominator_1",
+      "actual": {
+        "numerator": 29,
+        "denominator": 16
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "positive_imaginary_denominator_2",
+      "actual": {
+        "numerator": 16241,
+        "denominator": 4096
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 5,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "imaginary_integrand_lower",
+      "actual": {
+        "numerator": 3,
+        "denominator": 320
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 3,
+        "denominator": 320
+      },
+      "passed": true
+    },
+    {
+      "name": "imaginary_integral_lower",
+      "actual": {
+        "numerator": 3,
+        "denominator": 1280
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 3,
+        "denominator": 1280
+      },
+      "passed": true
+    },
+    {
+      "name": "profile_lower_exact",
+      "actual": {
+        "numerator": 43,
+        "denominator": 320000000
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 43,
+        "denominator": 320000000
+      },
+      "passed": true
+    },
+    {
+      "name": "positive_profile_threshold",
+      "actual": {
+        "numerator": 43,
+        "denominator": 320000000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 10000000
+      },
+      "passed": true
+    },
+    {
+      "name": "holomorphic_inner_radius",
+      "actual": {
+        "numerator": 2016,
+        "denominator": 3025
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 3,
+        "denominator": 4
+      },
+      "passed": true
+    },
+    {
+      "name": "holomorphic_outer_radius",
+      "actual": {
+        "numerator": 5,
+        "denominator": 4
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 6,
+        "denominator": 5
+      },
+      "passed": true
+    },
+    {
+      "name": "pole_clearance",
+      "actual": {
+        "numerator": 63,
+        "denominator": 50
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 273,
+        "denominator": 200
+      },
+      "passed": true
+    },
+    {
+      "name": "spatial_kernel_clearance",
+      "actual": {
+        "numerator": 23,
+        "denominator": 200
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 10
+      },
+      "passed": true
+    },
+    {
+      "name": "census_onset_at_six",
+      "actual": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "relation": "<=",
+      "required": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "anchor_squared_norm",
+      "actual": {
+        "numerator": 64,
+        "denominator": 21
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 64,
+        "denominator": 21
+      },
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "passed": 24,
+    "total": 24,
+    "profile_lower_bound": {
+      "numerator": 43,
+      "denominator": 320000000
+    },
+    "required_positive_profile_bound": {
+      "numerator": 1,
+      "denominator": 10000000
+    },
+    "operator_target_exponent": {
+      "numerator": 1,
+      "denominator": 32
+    },
+    "full_energy_target_exponent": {
+      "numerator": 1,
+      "denominator": 16
+    },
+    "analytic_claims_not_computationally_verified": [
+      "Finite maximizer set and positive exponential-polynomial construction.",
+      "Uniform response limits, angular concentration, and integerized admissibility.",
+      "E_n/D_n tends to zero while both root energies have positive rate F_*."
+    ]
+  }
+}
