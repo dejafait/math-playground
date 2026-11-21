@@ -1,5 +1,12 @@
 # Riemann hypothesis research
 
+## Research archived on 22 November 2026
+
+Levent Alpöge announced a Claude-assisted proof of RH on 20 November 2026.
+The [joint statement of the Lean and Mathlib communities](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/), published on 21 November and endorsed by the Lean FRO and Mathlib Initiative, certifies the statement and formal proof after independent checks. [Andrew Sutherland's verification records](https://math.mit.edu/~drew/grh/) document the checks. This repository did not prove RH; its notebooks retain their original exploratory status and unresolved gaps.
+
+The local loop was stopped for a final snapshot. The [archive and restoration instructions](scripts/maintenance/research-archive.md) explain how to recover **all research files**, including large evidence, logs and pre-rewrite history backups that are not ordinary Git blobs. Download and verify the release assets as well as cloning Git to restore the complete workspace. The setup instructions below are retained for reproducibility.
+
 This repository focuses exclusively on the Riemann hypothesis. [GOAL.md](GOAL.md) defines the research standards and [PROMPT.md](PROMPT.md) defines one step. The [Riemann notebook](riemann/GOAL.md) retains its checkpoints, proof overview, canonical DAG, lemmas, sources and mathematical evidence.
 
 The other nine notebooks were removed after their complete tracked progress was committed at `40a7e3f9`. Their files remain recoverable from Git history.
