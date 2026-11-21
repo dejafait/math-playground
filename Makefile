@@ -1,3 +1,8 @@
 # Reusable maintenance commands; research is started separately with loop-codex.sh.
 .DEFAULT_GOAL := help
-include scripts/maintenance/Makefile
+ROOT := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
+PYTHON ?= python3
+include mk/help.mk
+include mk/diagnostics.mk
+include mk/verification.mk
+include mk/archive.mk
