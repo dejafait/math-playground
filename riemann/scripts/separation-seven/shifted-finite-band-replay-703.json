@@ -1,0 +1,6455 @@
+{
+  "target": "Test a 10^-6 X*X lower saving from modes512:1023 of the full frozen C998a residual under the fixed shifted reference R-2delta I, paying all coefficient and projection errors.",
+  "result": "CONDITIONAL_FIXED_BAND_SAVING_CERTIFIED",
+  "certified": true,
+  "checks": [
+    {
+      "check": "pin frozen-reference-proposal-652.npz",
+      "passed": true
+    },
+    {
+      "check": "entire audited96-integer witness",
+      "passed": true
+    },
+    {
+      "check": "exact support and scale",
+      "passed": true
+    },
+    {
+      "check": "all762 frozen free dyadics",
+      "passed": true
+    },
+    {
+      "check": "coefficient L1 norms below20",
+      "passed": true
+    },
+    {
+      "check": "frozen exact-neutral middle norms below1",
+      "passed": true
+    },
+    {
+      "check": "entire new arithmetic fits fixed1e-5 allocation",
+      "passed": true
+    },
+    {
+      "check": "all original band entries below400",
+      "passed": true
+    },
+    {
+      "check": "smooth scalar bound grid286",
+      "passed": true
+    },
+    {
+      "check": "smooth scalar bound grid4096",
+      "passed": true
+    },
+    {
+      "check": "all1536 complete band centers formed",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row512",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row513",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row514",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row515",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row516",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row517",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row518",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row519",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row520",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row521",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row522",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row523",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row524",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row525",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row526",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row527",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row528",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row529",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row530",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row531",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row532",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row533",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row534",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row535",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row536",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row537",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row538",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row539",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row540",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row541",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row542",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row543",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row544",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row545",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row546",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row547",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row548",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row549",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row550",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row551",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row552",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row553",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row554",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row555",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row556",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row557",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row558",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row559",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row560",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row561",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row562",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row563",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row564",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row565",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row566",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row567",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row568",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row569",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row570",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row571",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row572",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row573",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row574",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row575",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row576",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row577",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row578",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row579",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row580",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row581",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row582",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row583",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row584",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row585",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row586",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row587",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row588",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row589",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row590",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row591",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row592",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row593",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row594",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row595",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row596",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row597",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row598",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row599",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row600",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row601",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row602",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row603",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row604",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row605",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row606",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row607",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row608",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row609",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row610",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row611",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row612",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row613",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row614",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row615",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row616",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row617",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row618",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row619",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row620",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row621",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row622",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row623",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row624",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row625",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row626",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row627",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row628",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row629",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row630",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row631",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row632",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row633",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row634",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row635",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row636",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row637",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row638",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row639",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row640",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row641",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row642",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row643",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row644",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row645",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row646",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row647",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row648",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row649",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row650",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row651",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row652",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row653",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row654",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row655",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row656",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row657",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row658",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row659",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row660",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row661",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row662",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row663",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row664",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row665",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row666",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row667",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row668",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row669",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row670",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row671",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row672",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row673",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row674",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row675",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row676",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row677",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row678",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row679",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row680",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row681",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row682",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row683",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row684",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row685",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row686",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row687",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row688",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row689",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row690",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row691",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row692",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row693",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row694",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row695",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row696",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row697",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row698",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row699",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row700",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row701",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row702",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row703",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row704",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row705",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row706",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row707",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row708",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row709",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row710",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row711",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row712",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row713",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row714",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row715",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row716",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row717",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row718",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row719",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row720",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row721",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row722",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row723",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row724",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row725",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row726",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row727",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row728",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row729",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row730",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row731",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row732",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row733",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row734",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row735",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row736",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row737",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row738",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row739",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row740",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row741",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row742",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row743",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row744",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row745",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row746",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row747",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row748",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row749",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row750",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row751",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row752",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row753",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row754",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row755",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row756",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row757",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row758",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row759",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row760",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row761",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row762",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row763",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row764",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row765",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row766",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row767",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row768",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row769",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row770",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row771",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row772",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row773",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row774",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row775",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row776",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row777",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row778",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row779",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row780",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row781",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row782",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row783",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row784",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row785",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row786",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row787",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row788",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row789",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row790",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row791",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row792",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row793",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row794",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row795",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row796",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row797",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row798",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row799",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row800",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row801",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row802",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row803",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row804",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row805",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row806",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row807",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row808",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row809",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row810",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row811",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row812",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row813",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row814",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row815",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row816",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row817",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row818",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row819",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row820",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row821",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row822",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row823",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row824",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row825",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row826",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row827",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row828",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row829",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row830",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row831",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row832",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row833",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row834",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row835",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row836",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row837",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row838",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row839",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row840",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row841",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row842",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row843",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row844",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row845",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row846",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row847",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row848",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row849",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row850",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row851",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row852",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row853",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row854",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row855",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row856",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row857",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row858",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row859",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row860",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row861",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row862",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row863",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row864",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row865",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row866",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row867",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row868",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row869",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row870",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row871",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row872",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row873",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row874",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row875",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row876",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row877",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row878",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row879",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row880",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row881",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row882",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row883",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row884",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row885",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row886",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row887",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row888",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row889",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row890",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row891",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row892",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row893",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row894",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row895",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row896",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row897",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row898",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row899",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row900",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row901",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row902",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row903",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row904",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row905",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row906",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row907",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row908",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row909",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row910",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row911",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row912",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row913",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row914",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row915",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row916",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row917",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row918",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row919",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row920",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row921",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row922",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row923",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row924",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row925",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row926",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row927",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row928",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row929",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row930",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row931",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row932",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row933",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row934",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row935",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row936",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row937",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row938",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row939",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row940",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row941",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row942",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row943",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row944",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row945",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row946",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row947",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row948",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row949",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row950",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row951",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row952",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row953",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row954",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row955",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row956",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row957",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row958",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row959",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row960",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row961",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row962",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row963",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row964",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row965",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row966",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row967",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row968",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row969",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row970",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row971",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row972",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row973",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row974",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row975",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row976",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row977",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row978",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row979",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row980",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row981",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row982",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row983",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row984",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row985",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row986",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row987",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row988",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row989",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row990",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row991",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row992",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row993",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row994",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row995",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row996",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row997",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row998",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row999",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1000",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1001",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1002",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1003",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1004",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1005",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1006",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1007",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1008",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1009",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1010",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1011",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1012",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1013",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1014",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1015",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1016",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1017",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1018",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1019",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1020",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1021",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1022",
+      "passed": true
+    },
+    {
+      "check": "positive moment projection norm row1023",
+      "passed": true
+    },
+    {
+      "check": "all512 weight errors below1e-8",
+      "passed": true
+    },
+    {
+      "check": "all band weight centers inside(4,5)",
+      "passed": true
+    },
+    {
+      "check": "fixed complete band column allocation1/200",
+      "passed": true
+    },
+    {
+      "check": "exact center singular lower bound1/125",
+      "passed": true
+    },
+    {
+      "check": "complete coefficient operator error below singular lower bound",
+      "passed": true
+    },
+    {
+      "check": "exact PSD certificate for saving minus1e-6 XstarX",
+      "passed": true
+    },
+    {
+      "check": "all source artifacts preserved",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "input_sha256": {
+    "frozen-reference-proposal-652.npz": "2b770a8a689a972ae487b9dd718e2e6d47b6769a5530e7fec244a102c5c317c6",
+    "neutral-reference-rank-obstruction-640.json": "de151288e46751a1ce2a36df803e8322ad912247d21784ac5b488bc8c87293a6",
+    "neutral-reference-rank-audit-642.json": "d48575c1eb3bc902e13178d556763a2a8e6ad5408eaaacebbadd486df0938ee6",
+    "residual-certificate-532.py": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5"
+  },
+  "fixed": {
+    "band": [
+      512,
+      1023
+    ],
+    "delta": "1/100",
+    "beta": "219999/1000000",
+    "reference_m": 286,
+    "reference_J": 14,
+    "quadrature_m": 4096,
+    "E_first": 14,
+    "E_stop": 80,
+    "column_error_limit": "1/200",
+    "new_arithmetic_reserve": "1/100000",
+    "center_singular_test": "1/125",
+    "threshold": "1/1000000"
+  },
+  "qualification": "Conditional on C744v/w and C999/C998a retained analytic, arithmetic, source, core and unreplayed c_star contracts. No full Gamma/E, S3 or RH conclusion.",
+  "new_arithmetic_ledger": {
+    "smooth_band_errors": [
+      "868227/2500000000000",
+      "12172497/2500000000000"
+    ],
+    "E_band_error": "759/1000000000",
+    "assembly_band_error": "1/100000000",
+    "entire_bound": "1870403/312500000000",
+    "reserved": "1/100000"
+  },
+  "coefficient_norm_upper": {
+    "sf": [
+      "1093009916571356148439749437/562949953421312000000000000",
+      "1940253096079248694584576999/1125899906842624000000000000",
+      "633804508618761182136161477369/288230376151711744000000000000"
+    ],
+    "sh": [
+      "2185959408210952538334576999/1125899906842624000000000000",
+      "1940147674187712990483014499/1125899906842624000000000000",
+      "316909770807357383202968433997/144115188075855872000000000000"
+    ],
+    "sq": [
+      "517284872892468519926299714153981/295147905179352825856000000000000",
+      "92273878457809135700500160472089/73786976294838206464000000000000",
+      "21988932077937993039987449983786767/9444732965739290427392000000000000"
+    ],
+    "nf": [
+      "176839468749/250000000000",
+      "14173908529/20000000000",
+      "709236035727/1000000000000"
+    ],
+    "nh": [
+      "707306452799/1000000000000",
+      "354325002861/500000000000",
+      "44332774677/62500000000"
+    ],
+    "nq": [
+      "44432371497/62500000000",
+      "287472515129/500000000000",
+      "947265391089/1000000000000"
+    ]
+  },
+  "projection": {
+    "ambient_Pband_PW_norm_upper": "412151/12500000000",
+    "each_basis_projection_norm_upper": [
+      "41233/1000000000000",
+      "950177/250000000000",
+      "40913/1000000000000",
+      "754249/200000000000",
+      "10149/250000000000",
+      "935531/250000000000",
+      "10071/250000000000",
+      "1856669/500000000000",
+      "19987/500000000000",
+      "921221/250000000000",
+      "39669/1000000000000",
+      "731351/200000000000",
+      "19683/500000000000",
+      "3628947/1000000000000",
+      "9767/250000000000",
+      "720291/200000000000",
+      "9693/250000000000",
+      "142971/40000000000",
+      "481/12500000000",
+      "17737/5000000000",
+      "38191/1000000000000",
+      "880207/250000000000",
+      "18953/500000000000",
+      "1747277/500000000000",
+      "37623/1000000000000",
+      "867143/250000000000",
+      "1167/31250000000",
+      "3442879/1000000000000",
+      "9267/250000000000",
+      "341747/100000000000",
+      "7359/200000000000",
+      "1696171/500000000000",
+      "1461/40000000000",
+      "336749/100000000000",
+      "18129/500000000000",
+      "3342909/1000000000000",
+      "17997/500000000000",
+      "3318597/1000000000000",
+      "8933/250000000000",
+      "65891/20000000000",
+      "17737/500000000000",
+      "1635381/500000000000",
+      "17609/500000000000",
+      "25369/7812500000",
+      "6993/200000000000",
+      "1611977/500000000000",
+      "6943/200000000000",
+      "1600463/500000000000",
+      "8617/250000000000",
+      "99317/31250000000",
+      "34223/1000000000000",
+      "788901/250000000000",
+      "33981/1000000000000",
+      "3133303/1000000000000",
+      "33741/1000000000000",
+      "3111237/1000000000000",
+      "1047/31250000000",
+      "772351/250000000000",
+      "33269/1000000000000",
+      "15339/5000000000",
+      "33037/1000000000000",
+      "1523211/500000000000",
+      "32807/1000000000000",
+      "1512633/500000000000",
+      "32579/1000000000000",
+      "300433/100000000000",
+      "16177/500000000000",
+      "2983611/1000000000000",
+      "8033/250000000000",
+      "592621/200000000000",
+      "31911/1000000000000",
+      "294281/100000000000",
+      "31693/1000000000000",
+      "1461361/500000000000",
+      "31477/1000000000000",
+      "72571/25000000000",
+      "31263/1000000000000",
+      "72079/25000000000",
+      "7763/250000000000",
+      "2863679/1000000000000",
+      "15421/500000000000",
+      "568879/200000000000",
+      "6127/200000000000",
+      "565061/200000000000",
+      "3043/100000000000",
+      "2806407/1000000000000",
+      "15113/500000000000",
+      "2787697/1000000000000",
+      "1201/40000000000",
+      "110767/40000000000",
+      "14913/500000000000",
+      "687709/250000000000",
+      "29629/1000000000000",
+      "1366339/500000000000",
+      "14717/500000000000",
+      "27147/10000000000",
+      "731/25000000000",
+      "2696899/1000000000000",
+      "29049/1000000000000",
+      "334909/125000000000",
+      "28859/1000000000000",
+      "1330909/500000000000",
+      "7/244140625",
+      "2644533/1000000000000",
+      "14243/500000000000",
+      "2627417/1000000000000",
+      "14151/500000000000",
+      "1305233/500000000000",
+      "28119/1000000000000",
+      "1296839/500000000000",
+      "27939/1000000000000",
+      "644263/250000000000",
+      "347/12500000000",
+      "512117/200000000000",
+      "27583/1000000000000",
+      "636069/250000000000",
+      "1713/62500000000",
+      "1264061/500000000000",
+      "13617/500000000000",
+      "2512121/1000000000000",
+      "13531/500000000000",
+      "156017/62500000000",
+      "26891/1000000000000",
+      "620143/250000000000",
+      "13361/500000000000",
+      "123251/50000000000",
+      "5311/200000000000",
+      "1224807/500000000000",
+      "26389/1000000000000",
+      "2434351/1000000000000",
+      "1049/40000000000",
+      "2419231/1000000000000",
+      "26063/1000000000000",
+      "2404251/1000000000000",
+      "12951/500000000000",
+      "238941/100000000000",
+      "12871/500000000000",
+      "1187353/500000000000",
+      "1599/62500000000",
+      "1180069/500000000000",
+      "25427/1000000000000",
+      "1172851/500000000000",
+      "3159/125000000000",
+      "2331399/1000000000000",
+      "12559/500000000000",
+      "2317227/1000000000000",
+      "4993/200000000000",
+      "2303183/1000000000000",
+      "12407/500000000000",
+      "2289267/1000000000000",
+      "4933/200000000000",
+      "568869/250000000000",
+      "6129/250000000000",
+      "2261809/1000000000000",
+      "24369/1000000000000",
+      "1124133/500000000000",
+      "757/31250000000",
+      "2234843/1000000000000",
+      "24079/1000000000000",
+      "2221541/1000000000000",
+      "187/7812500000",
+      "552089/250000000000",
+      "11897/500000000000",
+      "2195289/1000000000000",
+      "11827/500000000000",
+      "1091169/500000000000",
+      "11757/500000000000",
+      "4339/2000000000",
+      "1461/62500000000",
+      "269597/125000000000",
+      "23239/1000000000000",
+      "2144163/1000000000000",
+      "361/15625000000",
+      "2131661/1000000000000",
+      "22969/1000000000000",
+      "529817/250000000000",
+      "5709/250000000000",
+      "1053491/500000000000",
+      "1419/62500000000",
+      "2094803/1000000000000",
+      "22573/1000000000000",
+      "2082729/1000000000000",
+      "22443/1000000000000",
+      "51769/25000000000",
+      "11157/500000000000",
+      "2058893/1000000000000",
+      "11093/500000000000",
+      "255891/125000000000",
+      "1103/50000000000",
+      "2035463/1000000000000",
+      "10967/500000000000",
+      "1011949/500000000000",
+      "2181/100000000000",
+      "2012431/1000000000000",
+      "10843/500000000000",
+      "1000531/500000000000",
+      "5391/250000000000",
+      "497447/250000000000",
+      "21443/1000000000000",
+      "197861/100000000000",
+      "10661/500000000000",
+      "78701/40000000000",
+      "21203/1000000000000",
+      "1956533/1000000000000",
+      "4217/200000000000",
+      "1945633/1000000000000",
+      "20967/1000000000000",
+      "241853/125000000000",
+      "20851/1000000000000",
+      "384821/200000000000",
+      "81/3906250000",
+      "76539/40000000000",
+      "20621/1000000000000",
+      "475733/250000000000",
+      "5127/250000000000",
+      "473119/250000000000",
+      "4079/200000000000",
+      "1882107/1000000000000",
+      "5071/250000000000",
+      "935911/500000000000",
+      "20173/1000000000000",
+      "1861621/1000000000000",
+      "20063/1000000000000",
+      "115719/62500000000",
+      "9977/500000000000",
+      "1841469/1000000000000",
+      "9923/500000000000",
+      "366303/200000000000",
+      "19739/1000000000000",
+      "1821641/1000000000000",
+      "19633/1000000000000",
+      "226481/125000000000",
+      "2441/125000000000",
+      "1802133/1000000000000",
+      "19423/1000000000000",
+      "112031/62500000000",
+      "19319/1000000000000",
+      "222867/125000000000",
+      "1201/62500000000",
+      "443363/250000000000",
+      "9557/500000000000",
+      "441011/250000000000",
+      "19013/1000000000000",
+      "175471/100000000000",
+      "18913/1000000000000",
+      "1745451/1000000000000",
+      "18813/1000000000000",
+      "217033/125000000000",
+      "9357/500000000000",
+      "34543/20000000000",
+      "2327/125000000000",
+      "1718107/1000000000000",
+      "18519/1000000000000",
+      "341827/200000000000",
+      "9211/500000000000",
+      "850117/500000000000",
+      "9163/500000000000",
+      "1691401/1000000000000",
+      "18231/1000000000000",
+      "841319/500000000000",
+      "18137/1000000000000",
+      "836971/500000000000",
+      "18043/1000000000000",
+      "1665313/1000000000000",
+      "359/20000000000",
+      "1656751/1000000000000",
+      "8929/500000000000",
+      "329651/200000000000",
+      "17767/1000000000000",
+      "102489/62500000000",
+      "4419/250000000000",
+      "815729/500000000000",
+      "8793/500000000000",
+      "324631/200000000000",
+      "2187/125000000000",
+      "403729/250000000000",
+      "17/976562500",
+      "1606739/1000000000000",
+      "433/25000000000",
+      "49957/31250000000",
+      "1077/62500000000",
+      "1590571/1000000000000",
+      "8573/500000000000",
+      "791289/500000000000",
+      "853/50000000000",
+      "314929/200000000000",
+      "8487/500000000000",
+      "391693/250000000000",
+      "16889/1000000000000",
+      "779479/500000000000",
+      "3361/200000000000",
+      "775601/500000000000",
+      "8361/500000000000",
+      "1543503/1000000000000",
+      "16639/1000000000000",
+      "767931/500000000000",
+      "16557/1000000000000",
+      "764139/500000000000",
+      "659/40000000000",
+      "1520749/1000000000000",
+      "8197/500000000000",
+      "378319/250000000000",
+      "16313/1000000000000",
+      "752929/500000000000",
+      "8117/500000000000",
+      "299699/200000000000",
+      "8077/500000000000",
+      "298237/200000000000",
+      "4019/250000000000",
+      "1483929/1000000000000",
+      "7999/500000000000",
+      "59069/40000000000",
+      "199/12500000000",
+      "734787/500000000000",
+      "15843/1000000000000",
+      "58499/40000000000",
+      "15767/1000000000000",
+      "1455427/1000000000000",
+      "15691/1000000000000",
+      "1448429/1000000000000",
+      "3123/200000000000",
+      "720741/500000000000",
+      "777/50000000000",
+      "286917/200000000000",
+      "7733/500000000000",
+      "713869/500000000000",
+      "481/31250000000",
+      "1420939/1000000000000",
+      "15319/1000000000000",
+      "1414189/1000000000000",
+      "15247/1000000000000",
+      "703743/500000000000",
+      "7587/500000000000",
+      "342/244140625",
+      "15103/1000000000000",
+      "87139/62500000000",
+      "1879/125000000000",
+      "1387663/1000000000000",
+      "14961/1000000000000",
+      "345287/250000000000",
+      "14891/1000000000000",
+      "1374679/1000000000000",
+      "14821/1000000000000",
+      "273651/200000000000",
+      "461/31250000000",
+      "340469/250000000000",
+      "14683/1000000000000",
+      "677771/500000000000",
+      "2923/200000000000",
+      "337313/250000000000",
+      "14547/1000000000000",
+      "268601/200000000000",
+      "181/12500000000",
+      "668401/500000000000",
+      "14413/1000000000000",
+      "665321/500000000000",
+      "14347/1000000000000",
+      "331131/250000000000",
+      "14281/1000000000000",
+      "82403/62500000000",
+      "1777/125000000000",
+      "656207/500000000000",
+      "14151/1000000000000",
+      "1306421/1000000000000",
+      "7043/500000000000",
+      "130047/100000000000",
+      "7011/500000000000",
+      "647279/500000000000",
+      "6979/500000000000",
+      "1288687/1000000000000",
+      "2779/200000000000",
+      "160357/125000000000",
+      "1729/125000000000",
+      "255413/200000000000",
+      "1377/100000000000",
+      "79457/62500000000",
+      "3427/250000000000",
+      "632799/500000000000",
+      "6823/500000000000",
+      "1259923/1000000000000",
+      "2717/200000000000",
+      "627143/500000000000",
+      "541/40000000000",
+      "624343/500000000000",
+      "1683/125000000000",
+      "310781/250000000000",
+      "3351/250000000000",
+      "1237599/1000000000000",
+      "2669/200000000000",
+      "1232111/1000000000000",
+      "6643/500000000000",
+      "1226659/1000000000000",
+      "13227/1000000000000",
+      "1221243/1000000000000",
+      "13169/1000000000000",
+      "1215863/1000000000000",
+      "13111/1000000000000",
+      "1210519/1000000000000",
+      "13053/1000000000000",
+      "120521/100000000000",
+      "3249/250000000000",
+      "239987/200000000000",
+      "12939/1000000000000",
+      "238939/200000000000",
+      "12883/1000000000000",
+      "118949/100000000000",
+      "12827/1000000000000",
+      "592159/500000000000",
+      "12771/1000000000000",
+      "58959/50000000000",
+      "3179/250000000000",
+      "46963/40000000000",
+      "12661/1000000000000",
+      "292251/250000000000",
+      "6303/500000000000",
+      "232793/200000000000",
+      "1569/125000000000",
+      "1158959/1000000000000",
+      "6249/500000000000",
+      "230797/200000000000",
+      "3111/250000000000",
+      "1149043/1000000000000",
+      "12391/1000000000000",
+      "286033/250000000000",
+      "6169/500000000000",
+      "1139253/1000000000000",
+      "6143/500000000000",
+      "226881/200000000000",
+      "12233/1000000000000",
+      "282397/250000000000",
+      "12181/1000000000000",
+      "562401/500000000000",
+      "1213/100000000000",
+      "560023/500000000000",
+      "12079/1000000000000",
+      "27883/25000000000",
+      "3007/250000000000",
+      "34707/31250000000",
+      "11977/1000000000000",
+      "1105957/1000000000000",
+      "11927/1000000000000",
+      "27533/25000000000",
+      "11877/1000000000000",
+      "137089/125000000000",
+      "11827/1000000000000",
+      "1092133/1000000000000",
+      "5889/500000000000",
+      "543791/500000000000",
+      "11729/1000000000000",
+      "54153/50000000000",
+      "73/6250000000",
+      "539283/500000000000",
+      "727/62500000000",
+      "10741/10000000000",
+      "181/15625000000",
+      "534831/500000000000",
+      "721/62500000000",
+      "1065251/1000000000000",
+      "359/31250000000",
+      "1060867/1000000000000",
+      "11441/1000000000000",
+      "105651/100000000000",
+      "5697/500000000000",
+      "52609/50000000000",
+      "2837/250000000000",
+      "1047877/1000000000000",
+      "11301/1000000000000",
+      "2609/2500000000",
+      "2251/200000000000",
+      "1039349/1000000000000",
+      "11209/1000000000000",
+      "258781/250000000000",
+      "2791/250000000000",
+      "41237/40000000000",
+      "11119/1000000000000",
+      "1026751/1000000000000",
+      "5537/500000000000",
+      "511301/500000000000",
+      "11029/1000000000000",
+      "1018479/1000000000000",
+      "1373/125000000000",
+      "1014381/1000000000000",
+      "547/50000000000",
+      "1010307/1000000000000",
+      "681/62500000000",
+      "1006257/1000000000000",
+      "10853/1000000000000",
+      "125279/125000000000",
+      "10809/1000000000000",
+      "998231/1000000000000",
+      "5383/500000000000",
+      "497127/500000000000",
+      "10723/1000000000000",
+      "990301/1000000000000",
+      "10681/1000000000000",
+      "986371/1000000000000",
+      "10639/1000000000000",
+      "196493/200000000000",
+      "2649/250000000000",
+      "489291/500000000000",
+      "2111/200000000000",
+      "974721/1000000000000",
+      "10513/1000000000000",
+      "242721/250000000000",
+      "1309/125000000000",
+      "967069/1000000000000",
+      "10431/1000000000000",
+      "963277/1000000000000",
+      "1039/100000000000",
+      "959507/1000000000000",
+      "10349/1000000000000",
+      "477879/500000000000"
+    ]
+  },
+  "error_ledger": [
+    {
+      "column": 0,
+      "original_entry_and_action_error": "1764695601497152197127003142968118083/73786976294838206464000000000000000000000",
+      "smooth_quadrature_error": "121167077072319/409600000000000000",
+      "E_suffix_error": "139883961274563575173019082948608/1336523703471733247577430647844177676513671875",
+      "full_unprojected_norm_upper": "7812925823363/200000000000",
+      "full_projection_error": "3220105191024883813/2500000000000000000000",
+      "new_arithmetic_error": "1/100000",
+      "complete_band_error": "3267418616390560622505316551558510946870818154589810116512292698424201211677/2019697517067430900646435516238039349910999134223109980160000000000000000000000"
+    },
+    {
+      "column": 1,
+      "original_entry_and_action_error": "380516760727045166574801443176305703/18446744073709551616000000000000000000000",
+      "smooth_quadrature_error": "783937548756783/3276800000000000000",
+      "E_suffix_error": "339387642547856650757271449501696/4009571110415199742732291943532533029541015625",
+      "full_unprojected_norm_upper": "3295925352247/100000000000",
+      "full_projection_error": "1358418929853953297/1250000000000000000000",
+      "new_arithmetic_error": "1/100000",
+      "complete_band_error": "2054943893824371661240575616611516775955631822985134852779040374878610018347/1514773137800573175484826637178529512433249350667332485120000000000000000000000"
+    },
+    {
+      "column": 2,
+      "original_entry_and_action_error": "65568554266896759875012748993993065137/2361183241434822606848000000000000000000000",
+      "smooth_quadrature_error": "2583192721499703/6553600000000000000",
+      "E_suffix_error": "62129643517515276282755811377152/445507901157244415859143549281392558837890625",
+      "full_unprojected_norm_upper": "248598723759/5000000000",
+      "full_projection_error": "102460212595995609/62500000000000000000",
+      "new_arithmetic_error": "1/100000",
+      "complete_band_error": "8924571281032422562002899758923570893887505079031054419385173864935486804129/4308688036410519254712395767974483946476798153009301291008000000000000000000000"
+    }
+  ],
+  "coefficients": {
+    "first": 512,
+    "last": 1023,
+    "centers_as_exact_binary64": [
+      [
+        -0.0011417757421121476,
+        -4.733638155434155e-09,
+        0.0002827899153686646
+      ],
+      [
+        4.197917996944927e-09,
+        -0.002103574133079915,
+        4.4174584824092584e-07
+      ],
+      [
+        -0.0021419489497559677,
+        -9.643491878676872e-08,
+        -0.00041401746656336637
+      ],
+      [
+        -4.859714595931193e-08,
+        0.0016517243238006363,
+        -1.317351497525437e-07
+      ],
+      [
+        -0.001193124098892721,
+        -6.2274093651805145e-09,
+        0.00028105787480605277
+      ],
+      [
+        -5.69456450913278e-08,
+        0.0002909499147596561,
+        1.2975863102104072e-07
+      ],
+      [
+        -0.0010609601845846905,
+        -2.5400376329148313e-09,
+        0.0002823858220966483
+      ],
+      [
+        -6.166760248046465e-08,
+        0.0005533810996709387,
+        9.145284595696029e-08
+      ],
+      [
+        -0.0009502618271714351,
+        -2.199720177700925e-09,
+        0.0002539625776179894
+      ],
+      [
+        -8.194949945592534e-08,
+        0.0006753199635282609,
+        1.0910180580996423e-07
+      ],
+      [
+        -0.002085405412358979,
+        -7.964409186692802e-08,
+        -0.0002509661106725505
+      ],
+      [
+        -7.349386276841627e-08,
+        0.0015676560429439376,
+        -6.869575201070478e-08
+      ],
+      [
+        -0.00027298400488586633,
+        4.530475306454295e-08,
+        0.0005685736621730302
+      ],
+      [
+        -2.117332977974041e-08,
+        -0.0004581601559882737,
+        1.933477411005241e-07
+      ],
+      [
+        -0.0024128887624037224,
+        -1.3284372661759984e-07,
+        -0.0007282432382358921
+      ],
+      [
+        6.871743133440641e-09,
+        -0.003118334447072506,
+        6.175186225420248e-07
+      ],
+      [
+        0.0006311546682386969,
+        1.460467236777162e-07,
+        0.001389399733673683
+      ],
+      [
+        -5.815741509506645e-08,
+        -0.00022674431229164347,
+        2.2385616904179893e-07
+      ],
+      [
+        -0.0017339990276325243,
+        -5.7737111478072895e-08,
+        -0.00011777860331828208
+      ],
+      [
+        -7.18042944234826e-08,
+        0.000929827951914327,
+        4.191186207588423e-08
+      ],
+      [
+        0.0003127428186636229,
+        1.1394459030688591e-07,
+        0.0011360007115943569
+      ],
+      [
+        -8.372882740418216e-08,
+        0.0023726108464002314,
+        -1.9501361971606365e-07
+      ],
+      [
+        0.0008130187186375428,
+        1.4125342383289951e-07,
+        0.0012849855447777659
+      ],
+      [
+        -6.377472787406816e-08,
+        0.00016199614437102246,
+        1.6403049616890636e-07
+      ],
+      [
+        -0.0005632813174298803,
+        5.94031648868831e-08,
+        0.000802201172011343
+      ],
+      [
+        -3.14331184986594e-08,
+        -0.0003554266911412189,
+        1.9343436843227566e-07
+      ],
+      [
+        -0.000850656869893913,
+        1.909393508957948e-08,
+        0.00045198237024529853
+      ],
+      [
+        -6.792421871612456e-08,
+        0.0004187231777918983,
+        1.2539425832062855e-07
+      ],
+      [
+        4.0441783856822715e-06,
+        9.506410612863362e-08,
+        0.0010213609826460839
+      ],
+      [
+        -2.349522471242377e-08,
+        -0.0011287124607115518,
+        3.167280876049388e-07
+      ],
+      [
+        0.0009154329703901044,
+        1.4498222741230628e-07,
+        0.0012947437853777525
+      ],
+      [
+        -3.308116132287931e-08,
+        -0.0007482283823306493,
+        2.6673223202872877e-07
+      ],
+      [
+        0.00021061786361150617,
+        9.206759687662451e-08,
+        0.0009293505586131364
+      ],
+      [
+        -4.1969671353778625e-08,
+        -0.0009010609490010551,
+        3.115302631246044e-07
+      ],
+      [
+        -0.0012031768119065821,
+        -1.0072989171981275e-08,
+        0.00023956189874785834
+      ],
+      [
+        -9.708154472542953e-08,
+        0.0024083537477148256,
+        -1.7696677924088054e-07
+      ],
+      [
+        -0.0015148384218166438,
+        -5.910969073150195e-08,
+        -0.0001973621999856786
+      ],
+      [
+        -5.709165911993271e-08,
+        0.0013587499535049853,
+        -6.665005290947392e-08
+      ],
+      [
+        -0.00073866567765278,
+        2.4185597260765194e-08,
+        0.00047327992710458365
+      ],
+      [
+        -4.383265123611802e-08,
+        -0.0005680396496296555,
+        2.544096155705297e-07
+      ],
+      [
+        0.0015234535722013396,
+        2.2749028005215194e-07,
+        0.0020045947117488176
+      ],
+      [
+        -2.9266098250415434e-08,
+        -0.0005295247443925418,
+        2.1856603566227073e-07
+      ],
+      [
+        -0.0018652830012181145,
+        -4.844363649004006e-08,
+        1.749878464260489e-05
+      ],
+      [
+        -2.9568782926908027e-08,
+        -0.0006500570341162314,
+        2.406482196982551e-07
+      ],
+      [
+        -0.0010833432759792586,
+        -2.519871967721049e-08,
+        4.1772798700014816e-05
+      ],
+      [
+        -2.6222994568204148e-08,
+        0.0005519705712331227,
+        1.7106359114966412e-08
+      ],
+      [
+        -0.00015705547192505648,
+        2.5638876468000502e-08,
+        0.00032073059722800455
+      ],
+      [
+        -1.1550116015169648e-08,
+        -0.0009960541853085564,
+        2.6710070663343635e-07
+      ],
+      [
+        -0.00014986618868273506,
+        6.126241513462348e-08,
+        0.0007009636119557064
+      ],
+      [
+        -3.33696424165351e-08,
+        0.0006095926946504394,
+        2.030535745053844e-08
+      ],
+      [
+        0.0006959125755916113,
+        1.5749962605788948e-07,
+        0.0014905470791342855
+      ],
+      [
+        -7.237263253546747e-08,
+        0.0007243406742136459,
+        7.61208937728208e-08
+      ],
+      [
+        -0.0018104298537185998,
+        -5.281092043154645e-08,
+        -4.601880993411054e-05
+      ],
+      [
+        -2.8906885785455973e-08,
+        0.000244162593699041,
+        7.69442268274638e-08
+      ],
+      [
+        -0.0006648640662615248,
+        1.3739941272418545e-08,
+        0.00033851270980790485
+      ],
+      [
+        -3.085382469235995e-08,
+        0.00021033245231843973,
+        8.663976720590715e-08
+      ],
+      [
+        -0.0008058013549510967,
+        2.4330944338204973e-08,
+        0.0004926518419762786
+      ],
+      [
+        -1.9613333578525235e-08,
+        -0.000988448995809406,
+        2.804363275030598e-07
+      ],
+      [
+        0.0006192819858127287,
+        1.4639828858011224e-07,
+        0.001392780602129506
+      ],
+      [
+        -5.37144536227798e-08,
+        0.0007482075585324782,
+        3.418617975270348e-08
+      ],
+      [
+        -0.0012247609556379688,
+        -4.947286098678178e-08,
+        -0.00017946263600392392
+      ],
+      [
+        -4.35726365282112e-08,
+        -0.0002304081165705892,
+        1.904522444716003e-07
+      ],
+      [
+        0.0005062877939752293,
+        9.781509494757219e-08,
+        0.0009033578356131679
+      ],
+      [
+        -5.164651079190967e-08,
+        0.0002080164001269038,
+        1.2706311074380174e-07
+      ],
+      [
+        0.0008490671636699107,
+        1.3868670720078715e-07,
+        0.0012433453878396114
+      ],
+      [
+        -1.6862911772475282e-08,
+        -0.0005194676311587819,
+        1.8956711448642223e-07
+      ],
+      [
+        -0.00016644032195658358,
+        1.109278797825783e-07,
+        0.0012375999012331032
+      ],
+      [
+        -3.511543349232641e-08,
+        -8.40998923537847e-05,
+        1.4676027812736162e-07
+      ],
+      [
+        0.00015809622005481168,
+        1.1540892802918029e-07,
+        0.0011921037430132357
+      ],
+      [
+        -5.797224347904587e-08,
+        0.0009899044678308975,
+        -2.1230330755359225e-09
+      ],
+      [
+        8.823686487555015e-05,
+        8.381370575748297e-08,
+        0.0008728185132758859
+      ],
+      [
+        -3.975252975194659e-08,
+        -0.0002033236688004002,
+        1.769429074705295e-07
+      ],
+      [
+        0.000847198209232244,
+        1.3925348478235694e-07,
+        0.0012493816684499201
+      ],
+      [
+        -6.004552745379274e-08,
+        0.001094349302099993,
+        -1.7309304398612316e-08
+      ],
+      [
+        0.002414502386239273,
+        2.9675558942845484e-07,
+        0.0024890617468217484
+      ],
+      [
+        -3.288163877529176e-08,
+        -0.0004201906508021045,
+        2.0209270434634343e-07
+      ],
+      [
+        -0.0009101097715885035,
+        -7.034375371496306e-10,
+        0.0002524076868304904
+      ],
+      [
+        -1.1195674748147487e-08,
+        -0.0005308062467807475,
+        1.7915577868847741e-07
+      ],
+      [
+        -9.894854955208751e-05,
+        3.556176374758344e-08,
+        0.0004080378505679482
+      ],
+      [
+        -2.1142903249253343e-08,
+        -0.0007834942138298416,
+        2.4407237954139507e-07
+      ],
+      [
+        -0.0006915937559915918,
+        2.777934630032348e-08,
+        0.0004950467290040336
+      ],
+      [
+        -4.944397355712232e-08,
+        -0.0001182257114551568,
+        1.7960582400044e-07
+      ],
+      [
+        0.0012951263586696076,
+        2.218362617289806e-07,
+        0.002006466518959519
+      ],
+      [
+        -4.3986796690242705e-08,
+        0.0009957581512840994,
+        -3.2196191231304724e-08
+      ],
+      [
+        -0.000768111956346332,
+        3.026100514334227e-08,
+        0.0005434763344566077
+      ],
+      [
+        -4.2991821655006804e-08,
+        2.7687562776768757e-05,
+        1.401849357879503e-07
+      ],
+      [
+        -0.00024679931453733397,
+        3.557143285914955e-08,
+        0.00045019367283756105
+      ],
+      [
+        -4.768760306893314e-08,
+        0.001518496564748605,
+        -1.1957787844299103e-07
+      ],
+      [
+        -0.0013272572088834102,
+        -6.682855402733983e-08,
+        -0.0003383069172828611
+      ],
+      [
+        -2.805309489096104e-08,
+        -6.921635074809964e-05,
+        1.2785023427581857e-07
+      ],
+      [
+        0.00012151330914936434,
+        1.0214670417407278e-07,
+        0.0010587630123002094
+      ],
+      [
+        -7.297616361894354e-09,
+        -0.0008309515719647245,
+        2.2414265300709174e-07
+      ],
+      [
+        0.0013870345255687603,
+        1.999560788033956e-07,
+        0.0017443969639044743
+      ],
+      [
+        4.516292918627882e-09,
+        -0.0014915971527692485,
+        3.198119647376663e-07
+      ],
+      [
+        -0.0008322064627564448,
+        2.4718702960445023e-09,
+        0.00026289556092543937
+      ],
+      [
+        -2.7694953525621508e-09,
+        -0.0007191962060820494,
+        1.9467976965913934e-07
+      ],
+      [
+        -0.0004563460086132423,
+        2.1143709360821223e-08,
+        0.00035499845872884796
+      ],
+      [
+        -6.500146885541827e-08,
+        0.001584417432000714,
+        -9.840178581139837e-08
+      ],
+      [
+        -8.339783557301387e-05,
+        8.704523115195092e-08,
+        0.0009551464296375725
+      ],
+      [
+        -3.642875003381291e-08,
+        0.0006267467919086053,
+        1.7840798438761474e-08
+      ],
+      [
+        -0.0002984732319806487,
+        6.436755253771837e-08,
+        0.0007734607259687486
+      ],
+      [
+        -4.41924669455282e-08,
+        0.0010666058430021967,
+        -4.638208074605284e-08
+      ],
+      [
+        0.0005861790881635941,
+        1.1004437213212295e-07,
+        0.0010089770292509366
+      ],
+      [
+        -2.8816727084120028e-08,
+        -0.00046826689575857984,
+        1.9990108228178406e-07
+      ],
+      [
+        -0.0004179347616185679,
+        3.155913439488687e-08,
+        0.00045531351496487656
+      ],
+      [
+        -4.981166970534407e-08,
+        -2.4132277883832195e-05,
+        1.609458049521308e-07
+      ],
+      [
+        -4.172077022547525e-05,
+        7.253088922044599e-08,
+        0.0007868067266274328
+      ],
+      [
+        -9.651624675628859e-09,
+        -0.0008540992836578455,
+        2.3136715875608638e-07
+      ],
+      [
+        7.464595794722944e-05,
+        1.0182264639938821e-07,
+        0.0010677432928377002
+      ],
+      [
+        -8.951478187957245e-09,
+        -0.0016886338189292143,
+        3.802683141858736e-07
+      ],
+      [
+        0.0005816017091823594,
+        1.045241707183025e-07,
+        0.0009505588346567246
+      ],
+      [
+        -2.8783609428951867e-08,
+        0.0007371007342510707,
+        -1.826214589537743e-08
+      ],
+      [
+        -0.00013986975725403076,
+        4.8902468532784624e-08,
+        0.0005609996802944727
+      ],
+      [
+        -8.916968258530693e-08,
+        0.0015759260953065717,
+        -5.086220757520897e-08
+      ],
+      [
+        0.0005028358217101749,
+        1.3376704557327292e-07,
+        0.001287103134965693
+      ],
+      [
+        -8.330011912220076e-08,
+        0.0018249003105333603,
+        -1.0749396544788244e-07
+      ],
+      [
+        0.0016455656824522422,
+        2.3338653307887777e-07,
+        0.0020275755454650206
+      ],
+      [
+        -5.72769609061549e-09,
+        -0.0012181778833960692,
+        2.8834629434570206e-07
+      ],
+      [
+        -0.0006326424274827477,
+        2.6068402359354163e-08,
+        0.00045746057505154325
+      ],
+      [
+        2.178720360217572e-09,
+        -0.0008367812933615795,
+        2.0383270133437816e-07
+      ],
+      [
+        0.0008659590039670715,
+        1.3555024989587016e-07,
+        0.001201293556919686
+      ],
+      [
+        -4.13309370199999e-08,
+        0.00022564596762314335,
+        9.771330953313772e-08
+      ],
+      [
+        -0.0008157366240624361,
+        6.242208714174317e-09,
+        0.0002970923568092416
+      ],
+      [
+        -3.235693399616343e-08,
+        -0.0006366248321316566,
+        2.3533570988356213e-07
+      ],
+      [
+        0.0008570396184967534,
+        1.3972968124800744e-07,
+        0.001248550141702412
+      ],
+      [
+        -3.676031328398499e-08,
+        -5.4740325084921684e-05,
+        1.3890784654505415e-07
+      ],
+      [
+        0.00045384609794065726,
+        1.0210156651912193e-07,
+        0.0009605257683748922
+      ],
+      [
+        -3.027879200549106e-08,
+        -6.929359987138404e-05,
+        1.2859295535995913e-07
+      ],
+      [
+        -0.0007115274369403976,
+        4.420500177255034e-09,
+        0.0002471957021023622
+      ],
+      [
+        -6.145361746411518e-08,
+        0.0020637308287722246,
+        -1.9482373648523195e-07
+      ],
+      [
+        -0.0016998473365961433,
+        -7.315397416487264e-08,
+        -0.0003012125525913329
+      ],
+      [
+        -4.590745704672576e-08,
+        0.00031454417568740466,
+        8.97825031160237e-08
+      ],
+      [
+        -0.0006124313170568839,
+        5.019109145835453e-08,
+        0.0007100400228927464
+      ],
+      [
+        -2.1823432293068485e-08,
+        -0.001089035030353348,
+        2.9528251585255507e-07
+      ],
+      [
+        -0.00025690307870265404,
+        4.2894668757050766e-08,
+        0.0005291006624592207
+      ],
+      [
+        5.026079795302366e-09,
+        -0.0009017458037301596,
+        2.084989228456076e-07
+      ],
+      [
+        -9.967046337010375e-05,
+        5.265038640345047e-08,
+        0.0005884676157489703
+      ],
+      [
+        -3.544953925533839e-08,
+        0.0001829481806035273,
+        9.240442170261516e-08
+      ],
+      [
+        -0.0004751624506361966,
+        7.89848677558837e-09,
+        0.00021594894088881926
+      ],
+      [
+        -5.645163806689379e-08,
+        0.0013589443721213526,
+        -7.847834943508033e-08
+      ],
+      [
+        -0.00046854665236329855,
+        2.213445861691425e-08,
+        0.00036685623548970975
+      ],
+      [
+        -2.4413876131963904e-09,
+        -0.0012322401124711213,
+        2.82262836959921e-07
+      ],
+      [
+        -0.0011492312621206968,
+        -3.1640403507593894e-08,
+        -1.459713309548074e-05
+      ],
+      [
+        -2.699553458464994e-08,
+        -5.424821340966352e-05,
+        1.180122803802875e-07
+      ],
+      [
+        0.0009779772733418692,
+        1.6173352233796302e-07,
+        0.0014491006789238401
+      ],
+      [
+        -4.065842625091199e-08,
+        0.0008424182853078376,
+        -1.6939139204618383e-08
+      ],
+      [
+        -0.0013406061138240273,
+        -2.0068311052757832e-08,
+        0.00016469598574139063
+      ],
+      [
+        -6.448471676828768e-08,
+        0.0008758249447240845,
+        2.3750810182399378e-08
+      ],
+      [
+        0.00019160563046675396,
+        8.804792305852812e-08,
+        0.0008841734255383273
+      ],
+      [
+        -2.9445608369231153e-08,
+        -0.0006304576890659989,
+        2.262187772369793e-07
+      ],
+      [
+        -0.0007226474993200771,
+        1.3328770342232826e-09,
+        0.00021624834266284492
+      ],
+      [
+        -2.2370964975972082e-08,
+        -0.0010713897410912154,
+        2.9162641467577727e-07
+      ],
+      [
+        -0.0005777220053020348,
+        -4.385001292659957e-09,
+        0.00011296577826129462
+      ],
+      [
+        -4.522608291746871e-08,
+        0.001432867952360189,
+        -1.1508327870496756e-07
+      ],
+      [
+        5.600209223145904e-05,
+        5.9534783007374246e-08,
+        0.0006167551622407926
+      ],
+      [
+        -6.179586829316163e-08,
+        2.0821877389633043e-05,
+        1.7194907709680908e-07
+      ],
+      [
+        0.0002767276144323692,
+        9.588970178908924e-08,
+        0.0009435362456459574
+      ],
+      [
+        -3.939525255179083e-08,
+        -0.0006193205918767212,
+        2.431251194605506e-07
+      ],
+      [
+        -0.0002818485052925796,
+        4.939497201829788e-08,
+        0.0006050872057169076
+      ],
+      [
+        -2.4778229537637456e-08,
+        -0.0009139566060974596,
+        2.6731694312467257e-07
+      ],
+      [
+        -0.0007165082451732071,
+        3.2219650966818945e-08,
+        0.0005458443311525299
+      ],
+      [
+        -5.134709815153882e-08,
+        0.0010241869656531957,
+        -3.0009225869368534e-08
+      ],
+      [
+        -1.3623780919216683e-06,
+        6.65026804493647e-08,
+        0.0007078231578791571
+      ],
+      [
+        -6.249922594950935e-08,
+        0.0017206046825461489,
+        -1.337938271547437e-07
+      ],
+      [
+        -0.00030048678715513115,
+        3.968771762004915e-08,
+        0.0005059594476232869
+      ],
+      [
+        -3.6229308600920846e-08,
+        -0.0005594954180817991,
+        2.2545917300635868e-07
+      ],
+      [
+        0.00035063755669450055,
+        8.299462947912732e-08,
+        0.000783326937998339
+      ],
+      [
+        -4.810438268263782e-08,
+        -0.00035348140444493544,
+        2.1152004714804361e-07
+      ],
+      [
+        0.0001041391083060515,
+        6.613372589741123e-08,
+        0.0006732135668454629
+      ],
+      [
+        -9.290527025771439e-09,
+        -0.0006571222630140802,
+        1.8973006170055917e-07
+      ],
+      [
+        -0.0013276311836917382,
+        -4.783164158323725e-08,
+        -0.00013819858497902043
+      ],
+      [
+        -4.340537218402457e-08,
+        0.0006401496640280065,
+        2.280223511935371e-08
+      ],
+      [
+        -0.00038909240533218005,
+        2.8889305840393674e-08,
+        0.0004152200119603264
+      ],
+      [
+        -1.6156432043899075e-08,
+        -0.0008683272020722257,
+        2.410070088257836e-07
+      ],
+      [
+        -0.0012994247813249281,
+        -3.3194207987343474e-08,
+        1.0758463549163683e-05
+      ],
+      [
+        -4.2961524549947634e-08,
+        -0.0004985656937005816,
+        2.2692856187458992e-07
+      ],
+      [
+        -0.0016550644840786601,
+        -7.977211905862409e-08,
+        -0.00038709542956990927
+      ],
+      [
+        -6.663370404706017e-08,
+        0.0018802969297571886,
+        -1.5555306036580033e-07
+      ],
+      [
+        -0.00039460410021587624,
+        3.905954423031668e-08,
+        0.0005258476421547649
+      ],
+      [
+        -7.062149562163349e-08,
+        0.0012844852183942345,
+        -4.0436745255207356e-08
+      ],
+      [
+        -0.0011270757328741164,
+        -5.177986156450823e-08,
+        -0.00023879819910575497
+      ],
+      [
+        -1.8996268485219316e-08,
+        -7.117723281853351e-05,
+        1.0224835162810483e-07
+      ],
+      [
+        -0.000664356201388981,
+        -7.005809274079466e-09,
+        0.00010866316494694456
+      ],
+      [
+        2.7302943855397363e-09,
+        -0.002187697239395365,
+        4.409501571869538e-07
+      ],
+      [
+        -0.0018599546763779526,
+        -8.79935509816167e-08,
+        -0.00041659683822115864
+      ],
+      [
+        -3.187903789748299e-08,
+        -0.00016161934309862172,
+        1.4360334488605117e-07
+      ],
+      [
+        -0.0004557584736648733,
+        2.3384993683827812e-08,
+        0.0003748377102520498
+      ],
+      [
+        -2.7852120361611572e-08,
+        0.00031046449964390404,
+        5.040678748617468e-08
+      ],
+      [
+        -0.0006670143029836681,
+        6.0019120083786835e-09,
+        0.0002489633032700695
+      ],
+      [
+        -4.5606009778545335e-08,
+        9.539087705352322e-05,
+        1.2397683399660385e-07
+      ],
+      [
+        0.0007766238150746056,
+        1.2451328172184827e-07,
+        0.0011056470228342935
+      ],
+      [
+        -5.7636628565866616e-08,
+        0.0008202582405239608,
+        1.6804603324001415e-08
+      ],
+      [
+        -0.0016231233313339383,
+        -6.474966860860937e-08,
+        -0.00023546065265980532
+      ],
+      [
+        -4.920893128403197e-08,
+        0.0006176543015305224,
+        3.6604600175817974e-08
+      ],
+      [
+        -0.0014358725814513954,
+        -5.965842397546187e-08,
+        -0.0002348347239479907
+      ],
+      [
+        -6.1395038336565e-08,
+        0.0012688741247564121,
+        -5.698105407320219e-08
+      ],
+      [
+        1.7906078234557014e-05,
+        5.5132766574545895e-08,
+        0.0005789615968103968
+      ],
+      [
+        -1.7075483438506407e-08,
+        -0.0013083607695453556,
+        3.2033995335219424e-07
+      ],
+      [
+        0.00012004051436103232,
+        7.61795728683923e-08,
+        0.0007755409267835876
+      ],
+      [
+        -2.554052457959929e-08,
+        -0.001337191687166849,
+        3.420481774019481e-07
+      ],
+      [
+        -0.0005636885455932101,
+        1.070790347404082e-08,
+        0.00026934532673744
+      ],
+      [
+        -4.411929121808631e-08,
+        -0.00036714719805041674,
+        2.035669011635516e-07
+      ],
+      [
+        -0.0007747709715191186,
+        4.201263264507491e-09,
+        0.00026026990749501353
+      ],
+      [
+        -6.303578892344634e-08,
+        0.001013825662301134,
+        -8.346787887997706e-09
+      ],
+      [
+        -0.001428985754200254,
+        -8.511091604032631e-08,
+        -0.0005105512352792963
+      ],
+      [
+        -5.541215364694079e-08,
+        0.001355843399103787,
+        -8.515645550195668e-08
+      ],
+      [
+        0.0007415509770868794,
+        1.2731944424112683e-07,
+        0.0011454268339339876
+      ],
+      [
+        -4.3124357913455604e-08,
+        -0.0003640079145769492,
+        2.0061044286330899e-07
+      ],
+      [
+        -0.0003649646010516796,
+        4.825943609478509e-08,
+        0.0006152047344760667
+      ],
+      [
+        -6.530111605355364e-08,
+        0.0007440239071541818,
+        4.433364935280524e-08
+      ],
+      [
+        -0.0005962444097431693,
+        2.7240341599637716e-08,
+        0.00045605535132353864
+      ],
+      [
+        -2.1460016792780183e-08,
+        -0.00033751570226134097,
+        1.5291703144131838e-07
+      ],
+      [
+        -0.0012060802170221977,
+        -4.6482432026131024e-08,
+        -0.0001600939033213706
+      ],
+      [
+        -2.8774205548497984e-08,
+        -0.00056651394421454,
+        2.0846334244321772e-07
+      ],
+      [
+        0.0004804602034046047,
+        7.734163192987959e-08,
+        0.0006836050790897915
+      ],
+      [
+        1.7421719287645256e-09,
+        -0.0008899945770607112,
+        2.0659034013602117e-07
+      ],
+      [
+        -0.0009819515267802947,
+        -1.9419471945173713e-08,
+        6.588504833714346e-05
+      ],
+      [
+        -4.921104949341572e-08,
+        0.00017041205903895848,
+        1.15534867588832e-07
+      ],
+      [
+        -0.0009257530228965859,
+        -2.314526945053837e-08,
+        9.594327313357617e-06
+      ],
+      [
+        -6.498492895853724e-08,
+        0.0014195659729911974,
+        -7.878961210444668e-08
+      ],
+      [
+        -0.0008873546915814045,
+        -2.3513252535858345e-08,
+        -5.4885222993230064e-06
+      ],
+      [
+        -3.888342091697967e-08,
+        -3.5388820123780994e-05,
+        1.3204246966881255e-07
+      ],
+      [
+        -0.001310515868812885,
+        -5.532381669314549e-08,
+        -0.00022521813710452718
+      ],
+      [
+        -3.258065504595824e-08,
+        0.00039036653438262545,
+        4.2734512531426805e-08
+      ],
+      [
+        -0.000517344946535189,
+        3.6663236159828134e-08,
+        0.000534162619595272
+      ],
+      [
+        -2.5617306215589653e-08,
+        -0.0005676213674110199,
+        2.0162680782193615e-07
+      ],
+      [
+        -0.0018573577134880755,
+        -8.099222070844194e-08,
+        -0.00034333006525091235
+      ],
+      [
+        -2.877174241392765e-08,
+        2.371784000443623e-05,
+        1.0107660259590364e-07
+      ],
+      [
+        -0.001484386640270526,
+        -9.876515053229951e-08,
+        -0.000641917923342048
+      ],
+      [
+        -3.46085099644697e-08,
+        1.9408355727938792e-05,
+        1.1320948505105546e-07
+      ],
+      [
+        0.0002339727400952375,
+        6.138672021055795e-08,
+        0.0005828847590219591
+      ],
+      [
+        -3.3418056519753253e-08,
+        -0.00029499398565643035,
+        1.6741828843586194e-07
+      ],
+      [
+        0.00024239720192564118,
+        7.272668679180841e-08,
+        0.0007022360051694721
+      ],
+      [
+        -3.677094103726442e-08,
+        0.0004616322695832633,
+        3.746509923520079e-08
+      ],
+      [
+        -0.0007790105493856187,
+        8.40775249022597e-09,
+        0.0003058498379277411
+      ],
+      [
+        -1.7708285091910076e-08,
+        -0.00032069420723257133,
+        1.4087125559833353e-07
+      ],
+      [
+        -0.0011903321791317727,
+        -3.687248742067739e-08,
+        -6.200165365425157e-05
+      ],
+      [
+        -5.416326905170279e-08,
+        0.0006696435199996065,
+        3.392534463158846e-08
+      ],
+      [
+        -0.0004549990422608311,
+        1.5861049562433786e-08,
+        0.0002923541805782628
+      ],
+      [
+        -1.884283754896323e-08,
+        -0.00029726812617624155,
+        1.3861893808176633e-07
+      ],
+      [
+        0.0004326523677516348,
+        1.1843693300222151e-07,
+        0.0011382544772562718
+      ],
+      [
+        -6.103022580894269e-08,
+        0.0004331746466446233,
+        8.981593362197266e-08
+      ],
+      [
+        0.0004171906659111344,
+        9.901339445652883e-08,
+        0.0009339904089871381
+      ],
+      [
+        -3.887270464389402e-08,
+        0.00033171798381694754,
+        6.437093202240346e-08
+      ],
+      [
+        -0.00044761570304627636,
+        7.123072113352824e-09,
+        0.0001962091565270249
+      ],
+      [
+        -2.87054368879376e-08,
+        -0.00048099644823003255,
+        1.9077179771503767e-07
+      ],
+      [
+        -0.0013983735969553999,
+        -1.0072320472483167e-07,
+        -0.0006882018490499778
+      ],
+      [
+        -3.9613594517887296e-08,
+        0.00019359764686274837,
+        9.047693941944423e-08
+      ],
+      [
+        0.0009659509938253377,
+        1.5371074209621038e-07,
+        0.001363189187434706
+      ],
+      [
+        -3.0918081124738964e-08,
+        -0.0005915987823790474,
+        2.1481400036661405e-07
+      ],
+      [
+        -0.0005853787729859687,
+        3.7421275443440065e-08,
+        0.0005613480211518926
+      ],
+      [
+        -3.939886781108189e-08,
+        0.00025759861204390687,
+        7.826180245539322e-08
+      ],
+      [
+        0.00020044975257122613,
+        8.103820940234178e-08,
+        0.0008031877929796874
+      ],
+      [
+        -3.3665553921099564e-08,
+        -0.00010281051466155055,
+        1.3183912869904394e-07
+      ],
+      [
+        -0.0007392381825968098,
+        -9.32398201358979e-09,
+        0.0001034299789755087
+      ],
+      [
+        -5.906115159677497e-08,
+        0.0010735839475394186,
+        -3.04178608985026e-08
+      ],
+      [
+        -0.00020687284092170286,
+        3.220653648705933e-08,
+        0.00039598536337848313
+      ],
+      [
+        -3.3281842312055497e-08,
+        0.0008369537724352856,
+        -3.860806261188376e-08
+      ],
+      [
+        6.154317414850401e-05,
+        7.503752997406493e-08,
+        0.0007786750623402622
+      ],
+      [
+        -1.216320914752729e-08,
+        -0.0008346991236582266,
+        2.2110881444328642e-07
+      ],
+      [
+        0.0003311302512533646,
+        7.266798890461938e-08,
+        0.0006753880600734273
+      ],
+      [
+        -1.3893235085864214e-08,
+        -0.0004504664024623746,
+        1.5511497260069734e-07
+      ],
+      [
+        -0.0007410404956919966,
+        -2.1389283372857076e-08,
+        -2.5842830334038496e-05
+      ],
+      [
+        -1.134224620709147e-08,
+        -0.0008101726745897757,
+        2.1482581047308362e-07
+      ],
+      [
+        -0.00035756470635380086,
+        3.6269872033240047e-08,
+        0.0004829662163440333
+      ],
+      [
+        -4.4009605501207465e-08,
+        0.0004983812292646168,
+        4.306026101370826e-08
+      ],
+      [
+        -0.000380355480732692,
+        3.884016698949806e-08,
+        0.0005171210573902785
+      ],
+      [
+        -1.1670866635692305e-08,
+        -8.049743344037796e-05,
+        8.366665942605564e-08
+      ],
+      [
+        -0.000824772453287755,
+        -3.487494184275811e-09,
+        0.00019054445753473586
+      ],
+      [
+        -3.167023362321672e-08,
+        0.0006618412025167715,
+        -1.0937841342420584e-08
+      ],
+      [
+        -0.0011521715634601783,
+        -6.796674311804501e-08,
+        -0.00040780323947531445
+      ],
+      [
+        -6.037953703429731e-08,
+        0.00119543637239219,
+        -5.076865802323599e-08
+      ],
+      [
+        0.0002311919231559164,
+        7.908843585960804e-08,
+        0.0007729803096882096
+      ],
+      [
+        -3.2024613117157034e-08,
+        -4.648530488057154e-05,
+        1.1723491701235173e-07
+      ],
+      [
+        -0.0007858017561920491,
+        -6.6499692032099845e-09,
+        0.00014521102592475157
+      ],
+      [
+        -1.3936406878679189e-08,
+        -0.0005859994656030235,
+        1.787917266324681e-07
+      ],
+      [
+        0.0005867678537716897,
+        1.1227528541723981e-07,
+        0.0010268731517571374
+      ],
+      [
+        2.83301342637109e-08,
+        -0.0019335139078519384,
+        3.384564454129811e-07
+      ],
+      [
+        -0.0008027387825013341,
+        -2.4430598027970798e-08,
+        -4.101596589670946e-05
+      ],
+      [
+        -3.373399542939281e-08,
+        0.00036464317302509474,
+        4.611448887746475e-08
+      ],
+      [
+        -0.0003389289624001518,
+        1.8831668535031477e-08,
+        0.0002899345939644604
+      ],
+      [
+        -4.465870027625153e-08,
+        0.000988175003325576,
+        -4.4924266449452395e-08
+      ],
+      [
+        0.0008002455775124031,
+        1.4966539192525167e-07,
+        0.0013669048230064776
+      ],
+      [
+        -6.050537895910064e-08,
+        0.0007088217169773045,
+        3.651256318472839e-08
+      ],
+      [
+        0.0008261595733710181,
+        1.2654407734370473e-07,
+        0.0011109635060130253
+      ],
+      [
+        -1.305000702877128e-08,
+        0.0001828812450685615,
+        3.783430578228372e-08
+      ],
+      [
+        0.00020805848436506933,
+        7.423857678337329e-08,
+        0.0007273048535156644
+      ],
+      [
+        -2.779066525742078e-08,
+        -6.862205809632991e-06,
+        1.0093861607691119e-07
+      ],
+      [
+        -0.0003822520652649152,
+        2.2189635761131278e-08,
+        0.0003383825753273135
+      ],
+      [
+        -4.449400811202947e-08,
+        0.0005569136949042744,
+        3.204918740112676e-08
+      ],
+      [
+        0.00026017235691130073,
+        8.835094313465885e-08,
+        0.0008638335865290103
+      ],
+      [
+        1.6741821032114528e-09,
+        -0.0016828699108968838,
+        3.449132428589365e-07
+      ],
+      [
+        0.0002532119715615168,
+        7.980521407336355e-08,
+        0.0007739886877238001
+      ],
+      [
+        -1.4803988767490756e-08,
+        -0.0007206836171068675,
+        2.0374670294809884e-07
+      ],
+      [
+        0.0010099214054923465,
+        1.2708917081330247e-07,
+        0.001063624676114691
+      ],
+      [
+        -4.342501881458444e-08,
+        0.0006584433501395632,
+        1.129689961550145e-08
+      ],
+      [
+        -0.00016518432428210006,
+        4.2250378167606266e-08,
+        0.0004911579723210322
+      ],
+      [
+        -5.693789674943077e-08,
+        0.0014740440453786725,
+        -1.0927435318720479e-07
+      ],
+      [
+        -0.0006037021912044458,
+        2.087952333016438e-09,
+        0.0001861480928674778
+      ],
+      [
+        -4.576869992602238e-08,
+        0.0005932919940354799,
+        2.7433085139131493e-08
+      ],
+      [
+        0.0003533440357411654,
+        1.0568205553318349e-07,
+        0.001023011407816731
+      ],
+      [
+        6.684815539521321e-09,
+        -0.0011122249027871673,
+        2.3160472915871816e-07
+      ],
+      [
+        -1.9300721212717522e-05,
+        5.7150616208146485e-08,
+        0.0006090659122544144
+      ],
+      [
+        -2.0748390333670508e-08,
+        0.00020919096124063887,
+        4.722508580585114e-08
+      ],
+      [
+        0.0001554218689095632,
+        6.687201406723024e-08,
+        0.0006630643867631238
+      ],
+      [
+        -1.641555942440171e-08,
+        -0.00021076204773810004,
+        1.1431009627092036e-07
+      ],
+      [
+        0.0005736265469268454,
+        1.0837948722446868e-07,
+        0.000988331293444118
+      ],
+      [
+        -3.386603813611278e-08,
+        -2.581183093580144e-05,
+        1.1519468177381819e-07
+      ],
+      [
+        -0.000620813918917038,
+        -1.710130905774666e-08,
+        -1.525015177807503e-05
+      ],
+      [
+        1.515964537881132e-08,
+        -0.0008539683389037284,
+        1.6792241673975682e-07
+      ],
+      [
+        0.00023669370467798042,
+        7.125031862884455e-08,
+        0.0006865670439110028
+      ],
+      [
+        -2.2463011826715265e-08,
+        0.00035658371110194897,
+        2.358801240915205e-08
+      ],
+      [
+        -0.0005581922436842176,
+        -1.4992615734401898e-09,
+        0.0001342643902221308
+      ],
+      [
+        -5.110751036547462e-08,
+        0.0015849487929407693,
+        -1.4162184784929693e-07
+      ],
+      [
+        8.463562858514718e-05,
+        8.369356962147466e-08,
+        0.0008641064027452569
+      ],
+      [
+        -2.2952883419988495e-08,
+        -0.00036080388180289083,
+        1.5368562180150264e-07
+      ],
+      [
+        -0.000806206932355375,
+        -5.534953966999664e-09,
+        0.00016243195523624193
+      ],
+      [
+        -2.0212633547575337e-08,
+        -0.0006359005954633193,
+        1.9778991195345808e-07
+      ],
+      [
+        0.0002863327098370341,
+        8.009055274219329e-08,
+        0.0007671210446366945
+      ],
+      [
+        4.5701089687129295e-09,
+        -0.0005334838318933045,
+        1.3044009664943437e-07
+      ],
+      [
+        -0.0010000251127137273,
+        -3.807881289077227e-08,
+        -0.00013136861757773427
+      ],
+      [
+        -4.103652424948336e-08,
+        0.0011983770683618945,
+        -9.216716008382887e-08
+      ],
+      [
+        0.0003347234959000209,
+        6.325892630919506e-08,
+        0.0005722402116062272
+      ],
+      [
+        -2.9656193059070516e-08,
+        -0.00010821073716522251,
+        1.2091140234605456e-07
+      ],
+      [
+        0.000562926454810596,
+        9.990455385448588e-08,
+        0.0009001134188759717
+      ],
+      [
+        -1.3367672787035614e-08,
+        -0.0010756839008762699,
+        2.631921323166534e-07
+      ],
+      [
+        0.00010708904739942509,
+        6.024146722005923e-08,
+        0.0006054722882242314
+      ],
+      [
+        -2.343414374126859e-08,
+        0.00032053329599312396,
+        3.115262948286131e-08
+      ],
+      [
+        0.00036659825129704924,
+        1.0576915600325644e-07,
+        0.0010197527289821401
+      ],
+      [
+        -2.8615518855892063e-08,
+        0.00048038966430423186,
+        1.2426402148907432e-08
+      ],
+      [
+        0.00035207458214736863,
+        9.641455080740053e-08,
+        0.0009234022919876299
+      ],
+      [
+        -3.723978096604431e-08,
+        0.0006904931389900709,
+        -8.588530634107224e-09
+      ],
+      [
+        -0.00021036107518977772,
+        3.515656704684822e-08,
+        0.00042748517304626814
+      ],
+      [
+        -1.4447177525148956e-08,
+        -0.000839713162105853,
+        2.2235690331560035e-07
+      ],
+      [
+        0.0008451170122751578,
+        1.3118778168395806e-07,
+        0.0011546884162365652
+      ],
+      [
+        -4.085883163669768e-08,
+        0.0003200465131282312,
+        6.512291645395368e-08
+      ],
+      [
+        0.00023020091235910616,
+        5.577271551869997e-08,
+        0.0005217945237879602
+      ],
+      [
+        -3.457829510792714e-08,
+        0.0006277646428908986,
+        -2.8198353312390774e-09
+      ],
+      [
+        0.0006770970534299768,
+        1.0940181011226376e-07,
+        0.0009690420228345248
+      ],
+      [
+        -1.7015274886092815e-08,
+        -0.0003504117348653517,
+        1.388803980784249e-07
+      ],
+      [
+        -0.000227188811413828,
+        2.4413422677034312e-08,
+        0.0003168088840904598
+      ],
+      [
+        -2.5306067268235006e-08,
+        -0.0007878481784842501,
+        2.3397164227799825e-07
+      ],
+      [
+        -0.0002812416338785904,
+        4.1847437361307814e-08,
+        0.0005197301850851056
+      ],
+      [
+        9.006092530974903e-10,
+        -0.0008122872540059023,
+        1.8669754670087798e-07
+      ],
+      [
+        -0.000967239765169553,
+        -1.9369685114058154e-08,
+        5.9921173282649424e-05
+      ],
+      [
+        -6.586492110036086e-08,
+        0.0017207918699952793,
+        -1.387237102706342e-07
+      ],
+      [
+        0.0005964184813141017,
+        1.0695904248155862e-07,
+        0.0009659948746324132
+      ],
+      [
+        -3.353276144534975e-08,
+        0.0006663626761394455,
+        -1.234025186204346e-08
+      ],
+      [
+        0.0004056018157024751,
+        8.491191184820756e-08,
+        0.0007841462356197856
+      ],
+      [
+        -2.724696158167227e-08,
+        -0.00017758242622825928,
+        1.2735998697320629e-07
+      ],
+      [
+        -0.0007831617528531159,
+        -3.27618359242764e-08,
+        -0.0001371912020369137
+      ],
+      [
+        -5.965561630912518e-09,
+        -0.00046466609824365396,
+        1.371373004104507e-07
+      ],
+      [
+        -0.0002600980599693494,
+        3.752941621207247e-08,
+        0.0004671212490879996
+      ],
+      [
+        -1.4467065746627219e-08,
+        -0.00012018828855944294,
+        9.166305705650512e-08
+      ],
+      [
+        -0.0007114375834477164,
+        -1.968228376144913e-08,
+        -1.7388640669447876e-05
+      ],
+      [
+        -7.478727720981919e-09,
+        -0.00010208548745636199,
+        7.45451222740521e-08
+      ],
+      [
+        0.000529086618296338,
+        9.71304208143556e-08,
+        0.0008797135213435097
+      ],
+      [
+        -5.464603629023153e-09,
+        -0.0012635063027670514,
+        2.7989688319050526e-07
+      ],
+      [
+        -0.0001316579717773038,
+        4.85501600382491e-08,
+        0.000548409857853526
+      ],
+      [
+        -4.612320566394113e-08,
+        0.0007572336470149006,
+        -4.530444942396437e-09
+      ],
+      [
+        -0.0011836436630060833,
+        -4.61474091184973e-08,
+        -0.00016551617339162958
+      ],
+      [
+        -3.851854281350956e-08,
+        0.0011366157968883558,
+        -8.799535187719405e-08
+      ],
+      [
+        -0.0009523112478532287,
+        -3.206003826758758e-08,
+        -8.093857228950543e-05
+      ],
+      [
+        -3.8904286750139605e-08,
+        0.0009678089940965279,
+        -5.689753938473386e-08
+      ],
+      [
+        0.00013645815886208392,
+        4.481679258262206e-08,
+        0.000430828272518142
+      ],
+      [
+        -2.2606109162953273e-08,
+        -0.0004901384754413236,
+        1.7380842278391765e-07
+      ],
+      [
+        -0.00021269550080849333,
+        4.074548047427827e-08,
+        0.0004878618277886392
+      ],
+      [
+        -3.2704425144733005e-09,
+        -0.0012576583535459996,
+        2.7404376417606504e-07
+      ],
+      [
+        -0.0005406242272338516,
+        7.039648721488868e-09,
+        0.00022031490791109043
+      ],
+      [
+        -4.1306684126460496e-08,
+        2.7126599504549476e-05,
+        1.1715931883570715e-07
+      ],
+      [
+        -0.00031588779532802956,
+        2.145180072907321e-08,
+        0.0003102874863047017
+      ],
+      [
+        -9.114915445417649e-09,
+        -0.0003393016750963274,
+        1.197739663206038e-07
+      ],
+      [
+        0.00014148347567158605,
+        5.335063829330291e-08,
+        0.0005210085961584143
+      ],
+      [
+        -3.792187632752209e-08,
+        0.0005670279810535692,
+        1.2963372879253589e-08
+      ],
+      [
+        -6.822853114940576e-05,
+        3.988410195416168e-08,
+        0.0004368251310746582
+      ],
+      [
+        -3.730662661517842e-08,
+        0.00024251016042331301,
+        7.016928266839234e-08
+      ],
+      [
+        0.0004701547691482429,
+        1.1220495411361124e-07,
+        0.0010585382180322096
+      ],
+      [
+        -5.75398394560709e-08,
+        0.0010929426873522389,
+        -4.3436227279681176e-08
+      ],
+      [
+        -0.0010261281710093652,
+        -4.292144114823348e-08,
+        -0.0001764880388155908
+      ],
+      [
+        -3.784158667788512e-08,
+        0.0004497581514595117,
+        3.3669697006690874e-08
+      ],
+      [
+        0.0010237375359376417,
+        1.4203508657131804e-07,
+        0.001219235223978077
+      ],
+      [
+        -4.618497872136188e-09,
+        -0.001210834381621278,
+        2.676062994310575e-07
+      ],
+      [
+        -0.00011228623231187776,
+        3.436275263022253e-08,
+        0.00039014451711853206
+      ],
+      [
+        -1.9545815953679675e-08,
+        -0.0005680022407949536,
+        1.8098564084090341e-07
+      ],
+      [
+        -0.0006019562209062221,
+        5.019513183405842e-09,
+        0.00021617869391659902
+      ],
+      [
+        -1.800489120168434e-08,
+        -0.0003399109729953437,
+        1.3673847329189876e-07
+      ],
+      [
+        -0.0009797023614964084,
+        -4.212422232830487e-08,
+        -0.00018139093109860978
+      ],
+      [
+        -6.192420229892849e-08,
+        0.0009834229227940147,
+        -1.551874987554471e-08
+      ],
+      [
+        7.775975900063124e-05,
+        3.319519113013331e-08,
+        0.00032267701365495477
+      ],
+      [
+        -3.008942311114816e-08,
+        0.00016400940980249154,
+        6.948267746457828e-08
+      ],
+      [
+        -0.00017291082865447143,
+        4.1849911338146864e-08,
+        0.00048804520098256517
+      ],
+      [
+        -4.1259510401655436e-08,
+        0.0004541563541548403,
+        3.9059973739759515e-08
+      ],
+      [
+        -0.0006517856497342069,
+        8.619504702500204e-09,
+        0.00026919207391279425
+      ],
+      [
+        -3.571193970682957e-08,
+        0.00035440608330777966,
+        4.604030015195118e-08
+      ],
+      [
+        -0.0015478432843256992,
+        -7.242910910577432e-08,
+        -0.00034307708182050475
+      ],
+      [
+        -5.600097245773981e-09,
+        -0.0006066943799886463,
+        1.5997573858366677e-07
+      ],
+      [
+        -0.0010262456956590235,
+        -5.853466102380565e-08,
+        -0.00034438245689030636
+      ],
+      [
+        -2.418364669321494e-08,
+        -4.6679910036380174e-05,
+        9.549154523760352e-08
+      ],
+      [
+        0.00027499588134620147,
+        6.460670488129248e-08,
+        0.0006032122328684805
+      ],
+      [
+        -1.7871267972351615e-08,
+        -0.0005834312073121174,
+        1.7975646544074725e-07
+      ],
+      [
+        0.00021922378708062913,
+        7.19637680024855e-08,
+        0.0006983642117314981
+      ],
+      [
+        -2.972949597781488e-08,
+        0.00046240490991468676,
+        1.4440207923706244e-08
+      ],
+      [
+        -0.0015136189014535223,
+        -9.701903114336134e-08,
+        -0.0006172711434869769
+      ],
+      [
+        -2.9015604865409148e-08,
+        0.0001363691382360163,
+        7.173149288607876e-08
+      ],
+      [
+        -0.0006413998229999757,
+        -1.0740726121733433e-08,
+        5.805469897118327e-05
+      ],
+      [
+        -2.6185965910325594e-08,
+        0.0002724791974392715,
+        4.153649830849184e-08
+      ],
+      [
+        -0.0010348619966655018,
+        -4.3715515156163805e-08,
+        -0.0001827113637960034
+      ],
+      [
+        -3.526574097918021e-08,
+        0.00022739412609077897,
+        6.744718323510651e-08
+      ],
+      [
+        -0.00023847508654158608,
+        5.635407242844433e-08,
+        0.0006627220448108468
+      ],
+      [
+        -1.9069878567110117e-08,
+        -0.00035360053376698306,
+        1.4024393562446194e-07
+      ],
+      [
+        -0.0005312913671274045,
+        7.817482872185299e-09,
+        0.00022565849778662542
+      ],
+      [
+        -5.4245355456385386e-08,
+        0.0004767720508145848,
+        5.966631173179704e-08
+      ],
+      [
+        -0.0010883075337345188,
+        -6.902184224761438e-08,
+        -0.00043927599894921625
+      ],
+      [
+        -1.3318452875356742e-08,
+        -0.0004104472310987549,
+        1.3900283861614692e-07
+      ],
+      [
+        -0.00035594697690421626,
+        -1.649391861535132e-09,
+        7.326367447910106e-05
+      ],
+      [
+        -4.7160818112593307e-08,
+        0.0003996495487056385,
+        5.945808271806155e-08
+      ],
+      [
+        -0.00014129035509023168,
+        3.305822989451256e-08,
+        0.0003842579500414871
+      ],
+      [
+        -2.2149102424250796e-08,
+        -0.00021034599203948658,
+        1.201341360070215e-07
+      ],
+      [
+        -0.00019703942369279757,
+        4.735735606367535e-08,
+        0.0005540130463294323
+      ],
+      [
+        -2.4760530253978576e-08,
+        -0.0003011642365201677,
+        1.415622751148684e-07
+      ],
+      [
+        -0.0007831924615989477,
+        -2.966538328474098e-08,
+        -0.00010448063841583676
+      ],
+      [
+        -4.532932687419918e-08,
+        0.0002436116767220339,
+        8.373771875267196e-08
+      ],
+      [
+        0.0003433442199623494,
+        8.822715622834789e-08,
+        0.000837162651901245
+      ],
+      [
+        -3.910790992361716e-08,
+        0.00027862725138385805,
+        6.509342855341585e-08
+      ],
+      [
+        -0.0003955378186437314,
+        2.584425606576728e-08,
+        0.0003801027966398417
+      ],
+      [
+        -3.9891800785159506e-08,
+        0.0008330498664357037,
+        -3.341003496264622e-08
+      ],
+      [
+        -0.00011740712744962206,
+        3.754328738244814e-08,
+        0.0004255028934566946
+      ],
+      [
+        -1.7201542926483103e-08,
+        -0.0005352689525379757,
+        1.6856197705854265e-07
+      ],
+      [
+        -0.0003279742961515711,
+        5.064657024860583e-11,
+        8.337078603265133e-05
+      ],
+      [
+        -3.4438166971165884e-08,
+        0.0001755128563912586,
+        7.42487475022234e-08
+      ],
+      [
+        -0.000598540597315749,
+        -2.6443542681845152e-08,
+        -0.00012323637398757023
+      ],
+      [
+        -3.7848453668295103e-08,
+        -9.056836173965635e-05,
+        1.2885235857145114e-07
+      ],
+      [
+        -7.795012181405004e-05,
+        5.6784916095115826e-08,
+        0.0006208633454746973
+      ],
+      [
+        -1.9602916144198012e-08,
+        -0.0005246807975617439,
+        1.7113541505341824e-07
+      ],
+      [
+        -0.0002992407707481711,
+        2.8743691520660843e-08,
+        0.0003834015628324471
+      ],
+      [
+        -2.063252551212417e-08,
+        -0.0002257971412342939,
+        1.1918764449653494e-07
+      ],
+      [
+        -0.0017286877238325198,
+        -1.0294098771669885e-07,
+        -0.0006190156367192619
+      ],
+      [
+        -1.9965280306355846e-08,
+        0.00015466531513192545,
+        4.9196128220293464e-08
+      ],
+      [
+        -0.0007585608529073004,
+        -2.6734326363499747e-08,
+        -8.019358953807067e-05
+      ],
+      [
+        -7.32668553608428e-08,
+        0.0015875154109114909,
+        -1.0433050848015178e-07
+      ],
+      [
+        -0.0007514585923509481,
+        -1.922677153539658e-08,
+        -1.5714742287750868e-06
+      ],
+      [
+        -2.7662804997841437e-08,
+        7.332837851685408e-05,
+        7.885084716412377e-08
+      ],
+      [
+        0.00013003103572500703,
+        6.493292428587104e-08,
+        0.00064831940384571
+      ],
+      [
+        -1.0907830769792476e-08,
+        -0.00037374869176792053,
+        1.2640207299920582e-07
+      ],
+      [
+        -0.0008489141027028799,
+        -4.520232398939395e-08,
+        -0.00025260638981466975
+      ],
+      [
+        -5.824454451684395e-09,
+        -0.0008358169567070003,
+        1.9963335117161303e-07
+      ],
+      [
+        -0.0005416532460948213,
+        -4.5843873769363964e-09,
+        9.517239754106923e-05
+      ],
+      [
+        -9.096128121931424e-09,
+        -0.0002949671838491867,
+        1.0847252050041897e-07
+      ],
+      [
+        -0.0013796750376774789,
+        -7.567605653589494e-08,
+        -0.00042684845592016405
+      ],
+      [
+        -3.919717249444658e-08,
+        0.0003639645470373398,
+        4.8831395098587845e-08
+      ],
+      [
+        0.00028843258077883353,
+        8.811215906753264e-08,
+        0.0008516468430976566
+      ],
+      [
+        -1.3041980059571556e-08,
+        -0.00037488485422643646,
+        1.3049072474376124e-07
+      ],
+      [
+        -0.0002298135718264396,
+        2.0804965457287673e-08,
+        0.0002779485691321224
+      ],
+      [
+        -4.510083859573254e-08,
+        0.0009807151099147679,
+        -5.090978274440516e-08
+      ],
+      [
+        -0.0007019065262425414,
+        -2.6474828571707222e-08,
+        -9.384191156100635e-05
+      ],
+      [
+        -4.4823070206582706e-08,
+        0.0008334496914691455,
+        -2.4983971387981008e-08
+      ],
+      [
+        -0.0005402032001315639,
+        7.413965758553813e-09,
+        0.00022365707665990324
+      ],
+      [
+        -4.4850061293940825e-08,
+        0.00040318315399465036,
+        5.2573496645966546e-08
+      ],
+      [
+        -0.0005481649749053114,
+        -2.4962096805767403e-09,
+        0.00011944225098937883
+      ],
+      [
+        7.011196376563657e-09,
+        -0.0014115837742428555,
+        2.7763371241238053e-07
+      ],
+      [
+        -0.00030703828575428177,
+        1.9989260696073155e-08,
+        0.00029145107063472493
+      ],
+      [
+        -3.3864541903015663e-09,
+        -0.0010816054757241103,
+        2.385266388626268e-07
+      ],
+      [
+        0.00032562366235748395,
+        6.280861111336567e-08,
+        0.0005689154011425701
+      ],
+      [
+        -5.4996845776440526e-08,
+        0.0008702049295493376,
+        -1.1895727488991649e-08
+      ],
+      [
+        -0.00037890711972101516,
+        1.4597221777882843e-08,
+        0.0002542422160527565
+      ],
+      [
+        -4.089357968230148e-08,
+        0.00038111048214731273,
+        4.8458777760275726e-08
+      ],
+      [
+        7.680112667233739e-05,
+        5.4557687067146135e-08,
+        0.0005520873201129834
+      ],
+      [
+        -3.5365439321390866e-08,
+        0.00047135441129638817,
+        2.122833611201607e-08
+      ],
+      [
+        -6.313895827055785e-05,
+        3.8651538685358524e-08,
+        0.00042154817109381354
+      ],
+      [
+        -1.960088373362897e-08,
+        -6.979827227143632e-05,
+        8.77000755711337e-08
+      ],
+      [
+        -1.405509444371369e-06,
+        5.304879375548547e-08,
+        0.0005584433910035574
+      ],
+      [
+        -2.874119355781818e-08,
+        0.0007302894637227183,
+        -3.864834181263112e-08
+      ],
+      [
+        -0.00017234459537000414,
+        2.9655544167496042e-08,
+        0.0003563911765157963
+      ],
+      [
+        -4.241740231315462e-08,
+        -0.00013208251862574402,
+        1.4368751325914744e-07
+      ],
+      [
+        0.00044050255620187655,
+        9.515604398745182e-08,
+        0.0008833401780302412
+      ],
+      [
+        5.080094338670315e-09,
+        -0.0012870530687292695,
+        2.583734666844214e-07
+      ],
+      [
+        -0.00020160589012537626,
+        1.619546233285508e-08,
+        0.00022016820790387364
+      ],
+      [
+        -1.3584091577326642e-08,
+        -0.0002802336753211802,
+        1.1350060818619425e-07
+      ],
+      [
+        -0.0005734480299644022,
+        -1.6191939142970083e-08,
+        -2.0522568524861555e-05
+      ],
+      [
+        -1.9816894931714005e-08,
+        0.0004208663928165503,
+        -7.210820447390393e-10
+      ],
+      [
+        -5.188424271372682e-05,
+        3.5952949874055566e-08,
+        0.0003892534084495073
+      ],
+      [
+        -6.146363693338286e-08,
+        0.0014218753329926787,
+        -9.931097340557662e-08
+      ],
+      [
+        -0.000980404759150592,
+        -3.9672951748567016e-08,
+        -0.00015535745054106765
+      ],
+      [
+        -1.697167381439885e-08,
+        -0.00044689137231615825,
+        1.499935082903135e-07
+      ],
+      [
+        1.798170724791177e-05,
+        6.114523434615715e-08,
+        0.0006398143781303686
+      ],
+      [
+        -1.4982137056266293e-08,
+        -0.00040341839738174926,
+        1.381681786789659e-07
+      ],
+      [
+        -0.0005522524629556206,
+        -3.6640254726495973e-09,
+        0.00010797286811402816
+      ],
+      [
+        -1.731979939288416e-08,
+        0.00032347606716640065,
+        1.1630305546747463e-08
+      ],
+      [
+        -0.0006166070306715888,
+        -1.937130457569182e-09,
+        0.00014511388261245273
+      ],
+      [
+        -1.4809130132275473e-08,
+        0.0001223622412156829,
+        4.288037496472273e-08
+      ],
+      [
+        -0.00038405576895462313,
+        -2.207790406329915e-09,
+        7.50316895845923e-05
+      ],
+      [
+        -2.1001374813449895e-08,
+        -0.0003402922953251709,
+        1.3841293380121398e-07
+      ],
+      [
+        0.00013751501472691053,
+        4.5413802591830445e-08,
+        0.00043619325444238386
+      ],
+      [
+        2.1072919685634755e-09,
+        -0.0008989853692216752,
+        1.9359588957439718e-07
+      ],
+      [
+        -0.00011965183770395478,
+        2.9019788843885846e-08,
+        0.0003342710508263846
+      ],
+      [
+        -3.223598577016072e-08,
+        0.0010664477133502316,
+        -9.326288657610688e-08
+      ],
+      [
+        0.00034756602135757624,
+        7.707538527599793e-08,
+        0.0007157967661235734
+      ],
+      [
+        -3.319455369374317e-08,
+        0.00042705853653594904,
+        2.384040753614178e-08
+      ],
+      [
+        -0.00016569898636393862,
+        4.317389250065987e-08,
+        0.0004996829097732766
+      ],
+      [
+        -8.800483614388264e-09,
+        -0.00037507599344263636,
+        1.2038375192789383e-07
+      ],
+      [
+        -0.0004647445581885144,
+        6.62953004139844e-09,
+        0.00019328946037616357
+      ],
+      [
+        -1.818347509823644e-08,
+        -0.0003804072338214786,
+        1.397441409769136e-07
+      ],
+      [
+        -0.000337463186344555,
+        2.5927816474929272e-08,
+        0.00036393159999524826
+      ],
+      [
+        -2.432452724569151e-08,
+        0.0003089920248527054,
+        2.7455135102705964e-08
+      ],
+      [
+        0.0008185345169225726,
+        1.0642755520049399e-07,
+        0.0008952082325906409
+      ],
+      [
+        -4.393437634611569e-08,
+        0.0009358953598827559,
+        -4.705100088000216e-08
+      ],
+      [
+        -2.548539772713798e-05,
+        2.699028553120396e-08,
+        0.00028522883463318006
+      ],
+      [
+        -1.4812371225566614e-08,
+        -0.0007685922954227025,
+        2.0288780638047277e-07
+      ],
+      [
+        0.0007696608467981955,
+        1.0700621417042308e-07,
+        0.0009155350136388055
+      ],
+      [
+        -1.859175563961594e-08,
+        -0.000415452639771548,
+        1.4658553965813828e-07
+      ],
+      [
+        -0.0007989173904621614,
+        -2.6093639039670172e-08,
+        -6.190723015101617e-05
+      ],
+      [
+        -1.3016707835243037e-08,
+        -0.0001611283054256558,
+        8.968442732648584e-08
+      ]
+    ],
+    "column_L2_error_upper": [
+      "3267418616390560622505316551558510946870818154589810116512292698424201211677/2019697517067430900646435516238039349910999134223109980160000000000000000000000",
+      "2054943893824371661240575616611516775955631822985134852779040374878610018347/1514773137800573175484826637178529512433249350667332485120000000000000000000000",
+      "8924571281032422562002899758923570893887505079031054419385173864935486804129/4308688036410519254712395767974483946476798153009301291008000000000000000000000"
+    ],
+    "individual_entry_radius": [
+      "3267418616390560622505316551558510946870818154589810116512292698424201211677/2019697517067430900646435516238039349910999134223109980160000000000000000000000",
+      "2054943893824371661240575616611516775955631822985134852779040374878610018347/1514773137800573175484826637178529512433249350667332485120000000000000000000000",
+      "8924571281032422562002899758923570893887505079031054419385173864935486804129/4308688036410519254712395767974483946476798153009301291008000000000000000000000"
+    ],
+    "warning": "Column L2 bounds are stronger than separate entry radii; all projection errors retained."
+  },
+  "weights": {
+    "centers_as_exact_binary64": [
+      4.217836064407735,
+      4.217940760162328,
+      4.218045185336579,
+      4.21814934117533,
+      4.218253228915231,
+      4.2183568497848025,
+      4.2184602050045115,
+      4.218563295786835,
+      4.21866612333633,
+      4.2187686888497025,
+      4.218870993515869,
+      4.218973038516027,
+      4.219074825023717,
+      4.219176354204891,
+      4.219277627217971,
+      4.219378645213915,
+      4.21947940933628,
+      4.219579920721283,
+      4.219680180497861,
+      4.219780189787734,
+      4.219879949705462,
+      4.219979461358508,
+      4.2200787258472925,
+      4.220177744265255,
+      4.22027651769891,
+      4.220375047227903,
+      4.220473333925072,
+      4.220571378856494,
+      4.22066918308155,
+      4.220766747652973,
+      4.220864073616905,
+      4.220961162012952,
+      4.221058013874233,
+      4.221154630227433,
+      4.221251012092861,
+      4.221347160484495,
+      4.221443076410034,
+      4.221538760870952,
+      4.2216342148625445,
+      4.22172943937398,
+      4.221824435388346,
+      4.221919203882701,
+      4.2220137458281215,
+      4.22210806218975,
+      4.2222021539268395,
+      4.222296021992803,
+      4.222389667335259,
+      4.222483090896076,
+      4.222576293611421,
+      4.222669276411798,
+      4.222762040222102,
+      4.222854585961653,
+      4.222946914544247,
+      4.223039026878194,
+      4.223130923866366,
+      4.223222606406233,
+      4.223314075389911,
+      4.223405331704201,
+      4.223496376230626,
+      4.2235872098454825,
+      4.223677833419868,
+      4.22376824781973,
+      4.223858453905901,
+      4.223948452534143,
+      4.224038244555179,
+      4.224127830814736,
+      4.224217212153584,
+      4.2243063894075705,
+      4.22439536340766,
+      4.2244841349799716,
+      4.224572704945814,
+      4.224661074121721,
+      4.2247492433194935,
+      4.224837213346226,
+      4.224924985004349,
+      4.225012559091663,
+      4.225099936401372,
+      4.225187117722115,
+      4.2252741038380055,
+      4.225360895528664,
+      4.2254474935692485,
+      4.22553389873049,
+      4.225620111778724,
+      4.225706133475927,
+      4.2257919645797415,
+      4.2258776058435155,
+      4.22596305801633,
+      4.226048321843029,
+      4.226133398064256,
+      4.226218287416481,
+      4.226302990632031,
+      4.22638750843912,
+      4.2264718415618825,
+      4.2265559907203984,
+      4.226639956630726,
+      4.226723740004931,
+      4.226807341551111,
+      4.226890761973432,
+      4.226974001972149,
+      4.227057062243639,
+      4.227139943480428,
+      4.227222646371219,
+      4.227305171600915,
+      4.227387519850654,
+      4.227469691797831,
+      4.227551688116122,
+      4.2276335094755195,
+      4.227715156542349,
+      4.227796629979302,
+      4.227877930445457,
+      4.2279590585963085,
+      4.228040015083791,
+      4.228120800556304,
+      4.228201415658736,
+      4.228281861032492,
+      4.228362137315515,
+      4.228442245142313,
+      4.228522185143978,
+      4.228601957948219,
+      4.228681564179374,
+      4.228761004458444,
+      4.22884027940311,
+      4.228919389627758,
+      4.228998335743501,
+      4.229077118358204,
+      4.2291557380765035,
+      4.2292341954998305,
+      4.229312491226434,
+      4.229390625851401,
+      4.2294685999666815,
+      4.229546414161105,
+      4.229624069020408,
+      4.229701565127247,
+      4.229778903061228,
+      4.229856083398922,
+      4.2299331067138874,
+      4.230009973576691,
+      4.2300866845549265,
+      4.230163240213236,
+      4.23023964111333,
+      4.2303158878140055,
+      4.230391980871169,
+      4.230467920837853,
+      4.230543708264235,
+      4.23061934369766,
+      4.230694827682655,
+      4.230770160760951,
+      4.230845343471503,
+      4.230920376350503,
+      4.2309952599314045,
+      4.231069994744936,
+      4.231144581319121,
+      4.231219020179298,
+      4.231293311848133,
+      4.2313674568456445,
+      4.231441455689213,
+      4.231515308893604,
+      4.231589016970983,
+      4.231662580430934,
+      4.231735999780473,
+      4.2318092755240695,
+      4.231882408163659,
+      4.2319553981986635,
+      4.232028246126004,
+      4.232100952440119,
+      4.2321735176329796,
+      4.232245942194107,
+      4.232318226610588,
+      4.232390371367089,
+      4.232462376945872,
+      4.232534243826813,
+      4.232605972487413,
+      4.2326775634028175,
+      4.232749017045829,
+      4.232820333886921,
+      4.232891514394258,
+      4.232962559033704,
+      4.233033468268841,
+      4.233104242560982,
+      4.2331748823691875,
+      4.233245388150276,
+      4.233315760358842,
+      4.233385999447268,
+      4.2334561058657405,
+      4.23352608006226,
+      4.23359592248266,
+      4.233665633570617,
+      4.233735213767662,
+      4.233804663513201,
+      4.233873983244522,
+      4.2339431733968125,
+      4.234012234403169,
+      4.234081166694611,
+      4.234149970700096,
+      4.234218646846531,
+      4.234287195558785,
+      4.234355617259703,
+      4.234423912370114,
+      4.234492081308851,
+      4.234560124492756,
+      4.2346280423366975,
+      4.23469583525358,
+      4.234763503654358,
+      4.234831047948045,
+      4.2348984685417275,
+      4.2349657658405775,
+      4.235032940247862,
+      4.235099992164957,
+      4.235166921991357,
+      4.235233730124687,
+      4.235300416960716,
+      4.235366982893366,
+      4.235433428314721,
+      4.235499753615044,
+      4.235565959182783,
+      4.235632045404587,
+      4.235698012665308,
+      4.2357638613480235,
+      4.235829591834038,
+      4.235895204502896,
+      4.235960699732396,
+      4.236026077898597,
+      4.23609133937583,
+      4.236156484536709,
+      4.236221513752141,
+      4.236286427391335,
+      4.236351225821816,
+      4.23641590940943,
+      4.236480478518353,
+      4.2365449335111105,
+      4.236609274748576,
+      4.236673502589988,
+      4.236737617392955,
+      4.236801619513469,
+      4.236865509305912,
+      4.236929287123068,
+      4.236992953316132,
+      4.237056508234715,
+      4.237119952226859,
+      4.237183285639044,
+      4.237246508816197,
+      4.2373096221017015,
+      4.237372625837404,
+      4.237435520363626,
+      4.237498306019173,
+      4.237560983141341,
+      4.237623552065927,
+      4.237686013127237,
+      4.237748366658094,
+      4.237810612989846,
+      4.23787275245238,
+      4.237934785374122,
+      4.237996712082051,
+      4.2380585329017055,
+      4.238120248157193,
+      4.238181858171195,
+      4.238243363264981,
+      4.238304763758411,
+      4.238366059969943,
+      4.238427252216648,
+      4.23848834081421,
+      4.23854932607694,
+      4.238610208317777,
+      4.238670987848304,
+      4.23873166497875,
+      4.2387922400179985,
+      4.238852713273595,
+      4.238913085051757,
+      4.23897335565738,
+      4.239033525394041,
+      4.239093594564014,
+      4.23915356346827,
+      4.239213432406488,
+      4.2392732016770625,
+      4.239332871577107,
+      4.2393924424024645,
+      4.239451914447716,
+      4.239511288006181,
+      4.239570563369933,
+      4.2396297408298,
+      4.239688820675374,
+      4.239747803195016,
+      4.239806688675865,
+      4.239865477403847,
+      4.239924169663674,
+      4.239982765738857,
+      4.240041265911711,
+      4.240099670463362,
+      4.240157979673753,
+      4.240216193821649,
+      4.240274313184646,
+      4.240332338039176,
+      4.240390268660515,
+      4.240448105322785,
+      4.240505848298965,
+      4.240563497860896,
+      4.240621054279286,
+      4.240678517823715,
+      4.240735888762647,
+      4.240793167363427,
+      4.240850353892295,
+      4.240907448614388,
+      4.240964451793747,
+      4.2410213636933225,
+      4.241078184574981,
+      4.241134914699509,
+      4.241191554326622,
+      4.241248103714967,
+      4.241304563122131,
+      4.2413609328046435,
+      4.241417213017986,
+      4.241473404016594,
+      4.241529506053864,
+      4.241585519382159,
+      4.241641444252817,
+      4.241697280916149,
+      4.241753029621452,
+      4.2418086906170105,
+      4.241864264150101,
+      4.241919750467003,
+      4.241975149812996,
+      4.242030462432371,
+      4.242085688568434,
+      4.2421408284635085,
+      4.2421958823589465,
+      4.242250850495127,
+      4.242305733111467,
+      4.242360530446421,
+      4.24241524273749,
+      4.242469870221225,
+      4.242524413133232,
+      4.242578871708178,
+      4.2426332461797935,
+      4.242687536780879,
+      4.242741743743312,
+      4.242795867298045,
+      4.242849907675119,
+      4.242903865103659,
+      4.24295773981189,
+      4.243011532027129,
+      4.2430652419758,
+      4.243118869883432,
+      4.2431724159746675,
+      4.243225880473265,
+      4.243279263602104,
+      4.243332565583191,
+      4.24338578663766,
+      4.243438926985782,
+      4.243491986846965,
+      4.243544966439761,
+      4.2435978659818705,
+      4.243650685690145,
+      4.243703425780594,
+      4.243756086468384,
+      4.243808667967849,
+      4.243861170492492,
+      4.243913594254988,
+      4.243965939467191,
+      4.244018206340135,
+      4.24407039508404,
+      4.244122505908316,
+      4.244174539021568,
+      4.2442264946315955,
+      4.244278372945402,
+      4.244330174169199,
+      4.244381898508403,
+      4.244433546167649,
+      4.244485117350786,
+      4.244536612260886,
+      4.244588031100247,
+      4.244639374070395,
+      4.244690641372091,
+      4.244741833205331,
+      4.2447929497693515,
+      4.244843991262636,
+      4.244894957882913,
+      4.244945849827165,
+      4.244996667291629,
+      4.245047410471801,
+      4.245098079562441,
+      4.245148674757575,
+      4.245199196250499,
+      4.245249644233781,
+      4.24530001889927,
+      4.245350320438092,
+      4.245400549040658,
+      4.245450704896669,
+      4.245500788195115,
+      4.24555079912428,
+      4.245600737871749,
+      4.245650604624406,
+      4.24570039956844,
+      4.2457501228893495,
+      4.2457997747719425,
+      4.245849355400345,
+      4.245898864957999,
+      4.245948303627668,
+      4.24599767159144,
+      4.246046969030733,
+      4.246096196126294,
+      4.246145353058206,
+      4.246194440005889,
+      4.246243457148102,
+      4.2462924046629515,
+      4.246341282727889,
+      4.246390091519716,
+      4.246438831214588,
+      4.2464875019880175,
+      4.246536104014874,
+      4.246584637469392,
+      4.246633102525171,
+      4.246681499355177,
+      4.246729828131752,
+      4.2467780890266065,
+      4.246826282210833,
+      4.246874407854903,
+      4.246922466128671,
+      4.246970457201378,
+      4.247018381241654,
+      4.2470662384175215,
+      4.247114028896396,
+      4.247161752845093,
+      4.247209410429827,
+      4.247257001816216,
+      4.247304527169284,
+      4.247351986653466,
+      4.247399380432604,
+      4.247446708669959,
+      4.247493971528207,
+      4.247541169169443,
+      4.247588301755185,
+      4.247635369446378,
+      4.247682372403393,
+      4.24772931078603,
+      4.247776184753526,
+      4.247822994464551,
+      4.2478697400772125,
+      4.247916421749063,
+      4.247963039637094,
+      4.248009593897744,
+      4.248056084686904,
+      4.248102512159909,
+      4.248148876471555,
+      4.24819517777609,
+      4.24824141622722,
+      4.248287591978115,
+      4.248333705181406,
+      4.248379755989192,
+      4.24842574455304,
+      4.248471671023986,
+      4.248517535552541,
+      4.248563338288691,
+      4.248609079381902,
+      4.248654758981116,
+      4.248700377234764,
+      4.2487459342907545,
+      4.248791430296491,
+      4.248836865398861,
+      4.248882239744247,
+      4.248927553478524,
+      4.248972806747066,
+      4.249017999694744,
+      4.249063132465931,
+      4.249108205204502,
+      4.249153218053839,
+      4.249198171156831,
+      4.249243064655877,
+      4.249287898692889,
+      4.249332673409292,
+      4.249377388946029,
+      4.24942204544356,
+      4.249466643041868,
+      4.249511181880456,
+      4.249555662098355,
+      4.249600083834121,
+      4.2496444472258394,
+      4.24968875241113,
+      4.249732999527141,
+      4.249777188710559,
+      4.249821320097609,
+      4.249865393824053,
+      4.2499094100251975,
+      4.249953368835889,
+      4.249997270390523,
+      4.2500411148230395,
+      4.250084902266931,
+      4.2501286328552395,
+      4.250172306720562,
+      4.25021592399505,
+      4.250259484810412,
+      4.250302989297917,
+      4.2503464375883935,
+      4.250389829812236,
+      4.250433166099401,
+      4.250476446579414,
+      4.250519671381369,
+      4.25056284063393,
+      4.250605954465333,
+      4.2506490130033905,
+      4.250692016375488,
+      4.250734964708594,
+      4.250777858129253,
+      4.250820696763592,
+      4.250863480737321,
+      4.250906210175736,
+      4.250948885203721,
+      4.2509915059457475,
+      4.251034072525878,
+      4.251076585067768,
+      4.251119043694666,
+      4.251161448529417,
+      4.251203799694462
+    ],
+    "individual_absolute_error": [
+      "5891/1000000000000",
+      "733/125000000000",
+      "2919/500000000000",
+      "5811/1000000000000",
+      "1157/200000000000",
+      "5759/1000000000000",
+      "2867/500000000000",
+      "1427/250000000000",
+      "2841/500000000000",
+      "5657/1000000000000",
+      "11/1953125000",
+      "5607/1000000000000",
+      "2791/500000000000",
+      "2779/500000000000",
+      "5533/1000000000000",
+      "5509/1000000000000",
+      "1371/250000000000",
+      "273/50000000000",
+      "5437/1000000000000",
+      "5413/1000000000000",
+      "5389/1000000000000",
+      "2683/500000000000",
+      "2671/500000000000",
+      "5319/1000000000000",
+      "331/62500000000",
+      "5273/1000000000000",
+      "5251/1000000000000",
+      "1307/250000000000",
+      "2603/500000000000",
+      "5183/1000000000000",
+      "5161/1000000000000",
+      "5139/1000000000000",
+      "5117/1000000000000",
+      "1019/200000000000",
+      "2537/500000000000",
+      "1263/250000000000",
+      "5031/1000000000000",
+      "501/100000000000",
+      "4989/1000000000000",
+      "621/125000000000",
+      "4947/1000000000000",
+      "2463/500000000000",
+      "981/200000000000",
+      "977/200000000000",
+      "973/200000000000",
+      "1211/250000000000",
+      "603/125000000000",
+      "1201/250000000000",
+      "299/62500000000",
+      "953/200000000000",
+      "949/200000000000",
+      "189/40000000000",
+      "2353/500000000000",
+      "4687/1000000000000",
+      "1167/250000000000",
+      "4649/1000000000000",
+      "463/100000000000",
+      "4611/1000000000000",
+      "287/62500000000",
+      "4573/1000000000000",
+      "911/200000000000",
+      "567/125000000000",
+      "2259/500000000000",
+      "9/2000000000",
+      "2241/500000000000",
+      "279/62500000000",
+      "2223/500000000000",
+      "1107/250000000000",
+      "4411/1000000000000",
+      "4393/1000000000000",
+      "7/1600000000",
+      "2179/500000000000",
+      "4341/1000000000000",
+      "1081/250000000000",
+      "4307/1000000000000",
+      "429/100000000000",
+      "4273/1000000000000",
+      "133/31250000000",
+      "4239/1000000000000",
+      "4223/1000000000000",
+      "2103/500000000000",
+      "419/100000000000",
+      "4173/1000000000000",
+      "4157/1000000000000",
+      "4141/1000000000000",
+      "33/8000000000",
+      "4109/1000000000000",
+      "4093/1000000000000",
+      "4077/1000000000000",
+      "2031/500000000000",
+      "2023/500000000000",
+      "4031/1000000000000",
+      "803/200000000000",
+      "1/250000000",
+      "249/62500000000",
+      "3969/1000000000000",
+      "1977/500000000000",
+      "3939/1000000000000",
+      "981/250000000000",
+      "3909/1000000000000",
+      "779/200000000000",
+      "97/25000000000",
+      "773/200000000000",
+      "3851/1000000000000",
+      "959/250000000000",
+      "1911/500000000000",
+      "119/31250000000",
+      "3793/1000000000000",
+      "3779/1000000000000",
+      "753/200000000000",
+      "3751/1000000000000",
+      "3737/1000000000000",
+      "3723/1000000000000",
+      "371/100000000000",
+      "231/62500000000",
+      "1841/500000000000",
+      "3669/1000000000000",
+      "731/200000000000",
+      "1821/500000000000",
+      "907/250000000000",
+      "723/200000000000",
+      "1801/500000000000",
+      "3589/1000000000000",
+      "447/125000000000",
+      "3563/1000000000000",
+      "71/20000000000",
+      "3537/1000000000000",
+      "881/250000000000",
+      "439/125000000000",
+      "3499/1000000000000",
+      "1743/500000000000",
+      "1737/500000000000",
+      "3461/1000000000000",
+      "3449/1000000000000",
+      "3437/1000000000000",
+      "107/31250000000",
+      "853/250000000000",
+      "17/5000000000",
+      "847/250000000000",
+      "211/62500000000",
+      "841/250000000000",
+      "419/125000000000",
+      "167/50000000000",
+      "13/3906250000",
+      "3317/1000000000000",
+      "661/200000000000",
+      "3293/1000000000000",
+      "1641/500000000000",
+      "327/100000000000",
+      "3259/1000000000000",
+      "203/62500000000",
+      "809/250000000000",
+      "129/40000000000",
+      "1607/500000000000",
+      "3203/1000000000000",
+      "399/125000000000",
+      "3181/1000000000000",
+      "317/100000000000",
+      "3159/1000000000000",
+      "787/250000000000",
+      "3137/1000000000000",
+      "1563/500000000000",
+      "623/200000000000",
+      "621/200000000000",
+      "1547/500000000000",
+      "771/250000000000",
+      "3073/1000000000000",
+      "3063/1000000000000",
+      "763/250000000000",
+      "1521/500000000000",
+      "379/125000000000",
+      "3021/1000000000000",
+      "3011/1000000000000",
+      "3001/1000000000000",
+      "2991/1000000000000",
+      "2981/1000000000000",
+      "2971/1000000000000",
+      "2961/1000000000000",
+      "2951/1000000000000",
+      "2941/1000000000000",
+      "2931/1000000000000",
+      "1461/500000000000",
+      "91/31250000000",
+      "1451/500000000000",
+      "2893/1000000000000",
+      "2883/1000000000000",
+      "1437/500000000000",
+      "179/62500000000",
+      "571/200000000000",
+      "569/200000000000",
+      "709/250000000000",
+      "2827/1000000000000",
+      "2817/1000000000000",
+      "351/125000000000",
+      "2799/1000000000000",
+      "279/100000000000",
+      "2781/1000000000000",
+      "693/250000000000",
+      "2763/1000000000000",
+      "1377/500000000000",
+      "549/200000000000",
+      "171/62500000000",
+      "2727/1000000000000",
+      "1359/500000000000",
+      "2709/1000000000000",
+      "2701/1000000000000",
+      "673/250000000000",
+      "2683/1000000000000",
+      "107/40000000000",
+      "1333/500000000000",
+      "1329/500000000000",
+      "2649/1000000000000",
+      "2641/1000000000000",
+      "329/125000000000",
+      "41/15625000000",
+      "327/125000000000",
+      "163/62500000000",
+      "2599/1000000000000",
+      "2591/1000000000000",
+      "2583/1000000000000",
+      "103/40000000000",
+      "2567/1000000000000",
+      "2559/1000000000000",
+      "2551/1000000000000",
+      "2543/1000000000000",
+      "507/200000000000",
+      "2527/1000000000000",
+      "2519/1000000000000",
+      "2511/1000000000000",
+      "2503/1000000000000",
+      "499/200000000000",
+      "311/125000000000",
+      "31/12500000000",
+      "309/125000000000",
+      "493/200000000000",
+      "2457/1000000000000",
+      "2449/1000000000000",
+      "1221/500000000000",
+      "1217/500000000000",
+      "2427/1000000000000",
+      "121/50000000000",
+      "603/250000000000",
+      "481/200000000000",
+      "2397/1000000000000",
+      "239/100000000000",
+      "2383/1000000000000",
+      "297/125000000000",
+      "37/15625000000",
+      "2361/1000000000000",
+      "1177/500000000000",
+      "2347/1000000000000",
+      "117/50000000000",
+      "2333/1000000000000",
+      "1163/500000000000",
+      "2319/1000000000000",
+      "289/125000000000",
+      "461/200000000000",
+      "1149/500000000000",
+      "2291/1000000000000",
+      "571/250000000000",
+      "2277/1000000000000",
+      "2271/1000000000000",
+      "283/125000000000",
+      "2257/1000000000000",
+      "2251/1000000000000",
+      "561/250000000000",
+      "2237/1000000000000",
+      "2231/1000000000000",
+      "139/62500000000",
+      "2217/1000000000000",
+      "2211/1000000000000",
+      "551/250000000000",
+      "1099/500000000000",
+      "137/62500000000",
+      "437/200000000000",
+      "2179/1000000000000",
+      "543/250000000000",
+      "1083/500000000000",
+      "27/12500000000",
+      "2153/1000000000000",
+      "2147/1000000000000",
+      "2141/1000000000000",
+      "427/200000000000",
+      "2129/1000000000000",
+      "1061/500000000000",
+      "529/250000000000",
+      "211/100000000000",
+      "263/125000000000",
+      "1049/500000000000",
+      "523/250000000000",
+      "1043/500000000000",
+      "13/6250000000",
+      "1037/500000000000",
+      "517/250000000000",
+      "1031/500000000000",
+      "257/125000000000",
+      "41/20000000000",
+      "409/200000000000",
+      "2039/1000000000000",
+      "2033/1000000000000",
+      "2027/1000000000000",
+      "1011/500000000000",
+      "63/31250000000",
+      "201/100000000000",
+      "501/250000000000",
+      "1999/1000000000000",
+      "1993/1000000000000",
+      "497/250000000000",
+      "991/500000000000",
+      "247/125000000000",
+      "1971/1000000000000",
+      "393/200000000000",
+      "49/25000000000",
+      "391/200000000000",
+      "1949/1000000000000",
+      "243/125000000000",
+      "969/500000000000",
+      "1933/1000000000000",
+      "241/125000000000",
+      "961/500000000000",
+      "1917/1000000000000",
+      "239/125000000000",
+      "953/500000000000",
+      "1901/1000000000000",
+      "237/125000000000",
+      "1891/1000000000000",
+      "377/200000000000",
+      "47/25000000000",
+      "3/1600000000",
+      "187/100000000000",
+      "373/200000000000",
+      "93/50000000000",
+      "371/200000000000",
+      "37/20000000000",
+      "369/200000000000",
+      "23/12500000000",
+      "367/200000000000",
+      "183/100000000000",
+      "73/40000000000",
+      "91/50000000000",
+      "363/200000000000",
+      "181/100000000000",
+      "361/200000000000",
+      "9/5000000000",
+      "359/200000000000",
+      "1791/1000000000000",
+      "893/500000000000",
+      "1781/1000000000000",
+      "111/62500000000",
+      "443/250000000000",
+      "1767/1000000000000",
+      "881/500000000000",
+      "1757/1000000000000",
+      "1753/1000000000000",
+      "437/250000000000",
+      "1743/1000000000000",
+      "1739/1000000000000",
+      "867/500000000000",
+      "173/100000000000",
+      "69/40000000000",
+      "1721/1000000000000",
+      "429/250000000000",
+      "107/62500000000",
+      "1707/1000000000000",
+      "1703/1000000000000",
+      "849/500000000000",
+      "847/500000000000",
+      "1689/1000000000000",
+      "337/200000000000",
+      "21/12500000000",
+      "419/250000000000",
+      "209/125000000000",
+      "1667/1000000000000",
+      "1663/1000000000000",
+      "1659/1000000000000",
+      "827/500000000000",
+      "33/20000000000",
+      "823/500000000000",
+      "821/500000000000",
+      "1637/1000000000000",
+      "1633/1000000000000",
+      "1629/1000000000000",
+      "13/8000000000",
+      "1621/1000000000000",
+      "101/62500000000",
+      "403/250000000000",
+      "201/125000000000",
+      "401/250000000000",
+      "1/625000000",
+      "399/250000000000",
+      "199/125000000000",
+      "397/250000000000",
+      "99/62500000000",
+      "79/50000000000",
+      "197/125000000000",
+      "393/250000000000",
+      "49/31250000000",
+      "391/250000000000",
+      "39/25000000000",
+      "389/250000000000",
+      "97/62500000000",
+      "387/250000000000",
+      "193/125000000000",
+      "77/50000000000",
+      "1537/1000000000000",
+      "1533/1000000000000",
+      "1529/1000000000000",
+      "61/40000000000",
+      "1521/1000000000000",
+      "1517/1000000000000",
+      "757/500000000000",
+      "151/100000000000",
+      "753/500000000000",
+      "751/500000000000",
+      "1499/1000000000000",
+      "299/200000000000",
+      "1491/1000000000000",
+      "93/62500000000",
+      "371/250000000000",
+      "37/25000000000",
+      "1477/1000000000000",
+      "1473/1000000000000",
+      "1469/1000000000000",
+      "733/500000000000",
+      "731/500000000000",
+      "1459/1000000000000",
+      "291/200000000000",
+      "1451/1000000000000",
+      "181/125000000000",
+      "361/250000000000",
+      "1441/1000000000000",
+      "1437/1000000000000",
+      "717/500000000000",
+      "143/100000000000",
+      "1427/1000000000000",
+      "1423/1000000000000",
+      "71/50000000000",
+      "1417/1000000000000",
+      "1413/1000000000000",
+      "141/100000000000",
+      "703/500000000000",
+      "1403/1000000000000",
+      "7/5000000000",
+      "349/250000000000",
+      "1393/1000000000000",
+      "139/100000000000",
+      "693/500000000000",
+      "1383/1000000000000",
+      "69/50000000000",
+      "43/31250000000",
+      "1373/1000000000000",
+      "137/100000000000",
+      "1367/1000000000000",
+      "1363/1000000000000",
+      "17/12500000000",
+      "1357/1000000000000",
+      "677/500000000000",
+      "27/20000000000",
+      "1347/1000000000000",
+      "21/15625000000",
+      "1341/1000000000000",
+      "669/500000000000",
+      "267/200000000000",
+      "1331/1000000000000",
+      "83/62500000000",
+      "53/40000000000",
+      "661/500000000000",
+      "1319/1000000000000",
+      "329/250000000000",
+      "1313/1000000000000",
+      "131/100000000000",
+      "1307/1000000000000",
+      "163/125000000000",
+      "1301/1000000000000",
+      "649/500000000000",
+      "259/200000000000",
+      "323/250000000000",
+      "1289/1000000000000",
+      "643/500000000000",
+      "1283/1000000000000",
+      "1/781250000",
+      "1277/1000000000000",
+      "637/500000000000",
+      "1271/1000000000000",
+      "317/250000000000",
+      "253/200000000000",
+      "631/500000000000",
+      "1259/1000000000000",
+      "157/125000000000",
+      "1253/1000000000000",
+      "1251/1000000000000",
+      "39/31250000000",
+      "249/200000000000",
+      "621/500000000000",
+      "1239/1000000000000",
+      "309/250000000000",
+      "617/500000000000",
+      "1231/1000000000000",
+      "307/250000000000",
+      "49/40000000000",
+      "611/500000000000",
+      "61/50000000000",
+      "1217/1000000000000",
+      "607/500000000000",
+      "1211/1000000000000",
+      "1209/1000000000000",
+      "603/500000000000",
+      "1203/1000000000000",
+      "1201/1000000000000",
+      "599/500000000000",
+      "239/200000000000",
+      "149/125000000000"
+    ],
+    "analytic_lower": "4",
+    "analytic_upper": "5"
+  },
+  "matrix": {
+    "K_center": [
+      [
+        "9103333904117430335661379553234339878194018994231653705825267/13164036458569648337239753460458804039861886925068638906788872192",
+        "9105868393097316067088189016398221243481921156944475/401734511064747568885490523085290650630550748445698208825344",
+        "95122398899729066281863129785357538596703734796885174137953/411376139330301510538742295639337626245683966408394965837152256"
+      ],
+      [
+        "9105868393097316067088189016398221243481921156944475/401734511064747568885490523085290650630550748445698208825344",
+        "21065398027342111010519883473735880302420561247160806238057703799/26959946667150639794667015087019630673637144422540572481103610249216",
+        "-39982749216023715503012193607056737709805700165503897/803469022129495137770981046170581301261101496891396417650688"
+      ],
+      [
+        "95122398899729066281863129785357538596703734796885174137953/411376139330301510538742295639337626245683966408394965837152256",
+        "-39982749216023715503012193607056737709805700165503897/803469022129495137770981046170581301261101496891396417650688",
+        "13539299526306774326370114062839958491863105162030884428235871/26328072917139296674479506920917608079723773850137277813577744384"
+      ]
+    ],
+    "K_entry_radius": [
+      [
+        "179381252157147044680302948649739385246120114462727468526165798427841790580948934910352824310312974124036000122059870634767947097896856038230954961152329/815835612089669066842781188091030393929749667322579504193323605976506337965788717708126917030962485225399118725120000000000000000000000000000000000000000000",
+        "127007984452289624033254490669454333979176255533236738217366123968744833111565757829331953776358602673595823243975771480959731563461980468605228600637919/611876709067251800132085891068272795447312250491934628144992704482379753474341538281095187773221863919049339043840000000000000000000000000000000000000000000",
+        "414736537046353835683897855894594072030512794590588200862720670530573155764454882761938220602437323905497999517132488107716507517553027477248054166614333/1740449305791294009264599867927531507050132623621502942279090359416546854327015931110670756332719968480851453280256000000000000000000000000000000000000000000"
+      ],
+      [
+        "127007984452289624033254490669454333979176255533236738217366123968744833111565757829331953776358602673595823243975771480959731563461980468605228600637919/611876709067251800132085891068272795447312250491934628144992704482379753474341538281095187773221863919049339043840000000000000000000000000000000000000000000",
+        "88803188116413698348377587131268536588185902432698734016036610362302460973952185113500298189474673765985450183124781159386418715346231557806755676612409/458907531800438850099064418301204596585484187868950971108744528361784815105756153710821390829916397939287004282880000000000000000000000000000000000000000000",
+        "299598621094925815984181551233669384093846893658852418939400320669539791455882642771162405419678943398412181789904092986233618427662992178738885085354763/1305336979343470506948449900945648630287599467716127206709317769562410140745261948333003067249539976360638589960192000000000000000000000000000000000000000000"
+      ],
+      [
+        "414736537046353835683897855894594072030512794590588200862720670530573155764454882761938220602437323905497999517132488107716507517553027477248054166614333/1740449305791294009264599867927531507050132623621502942279090359416546854327015931110670756332719968480851453280256000000000000000000000000000000000000000000",
+        "299598621094925815984181551233669384093846893658852418939400320669539791455882642771162405419678943398412181789904092986233618427662992178738885085354763/1305336979343470506948449900945648630287599467716127206709317769562410140745261948333003067249539976360638589960192000000000000000000000000000000000000000000",
+        "927343254741498620776120465077612363997358682772581212017405066413813234840616170404302798606839048170926124843606187883596250464769122972564194011448641/3712958519021427219764479718245400548373616263725872943528726100088633289230967319702764280176469266092483100331212800000000000000000000000000000000000000000"
+      ]
+    ],
+    "coefficient_center_gram": [
+      [
+        "3820622685741757113669977614370349281680030789/23384026197294446691258957323460528314494920687616",
+        "1911257314595985248606229992097471673/356811923176489970264571492362373784095686656",
+        "19960601552113523759547323425763083784369079/365375409332725729550921208179070754913983135744"
+      ],
+      [
+        "1911257314595985248606229992097471673/356811923176489970264571492362373784095686656",
+        "4419809210674958320606373272485012966434897211633/23945242826029513411849172299223580994042798784118784",
+        "-8388714721931800763911885905676963233/713623846352979940529142984724747568191373312"
+      ],
+      [
+        "19960601552113523759547323425763083784369079/365375409332725729550921208179070754913983135744",
+        "-8388714721931800763911885905676963233/713623846352979940529142984724747568191373312",
+        "2841018083996272912885260440081222583090848657/23384026197294446691258957323460528314494920687616"
+      ]
+    ],
+    "XstarX": [
+      [
+        "281474966912887/281474976710656",
+        "-5093407/281474976710656",
+        "-6596715/281474976710656"
+      ],
+      [
+        "-5093407/281474976710656",
+        "281474969304579/281474976710656",
+        "631877/70368744177664"
+      ],
+      [
+        "-6596715/281474976710656",
+        "631877/70368744177664",
+        "140737487031099/140737488355328"
+      ]
+    ]
+  },
+  "exact_PSD_certificate": {
+    "center_singular_lower": "1/125",
+    "center_gram_shifted_leading_minors": [
+      "36313203267420508209834442901076179211755560390509/365375409332725729550921208179070754913983135744000000",
+      "1638243874024264253216355240016809178051558363215124631156591071990102354128932794680865117073380232069/136703170298938245273281389194851335334573089430825777276610662900622062449960995201469573563940864000000000000",
+      "16439710513058236514244688441341908095569794559921236891937040364756791961927718270323783916708625317168620877366560264763285343431053542749754198970621/49947976805055875702105555676690660891977570282639538413746511354005947821116249921924897649015871538557230897942505966327167610868612564900642816000000000000000000"
+    ],
+    "complete_operator_error_upper": "147883723/50000000000",
+    "K_isotropic_lower": "63562617128340729/625000000000000000000",
+    "threshold_matrix": [
+      [
+        "4325040117565306757337796169/42949672960000000000000000000000",
+        "5093407/281474976710656000000",
+        "1319343/56294995342131200000"
+      ],
+      [
+        "5093407/281474976710656000000",
+        "4325040117200363520033108669/42949672960000000000000000000000",
+        "-631877/70368744177664000000"
+      ],
+      [
+        "1319343/56294995342131200000",
+        "-631877/70368744177664000000",
+        "2162520058237204236212843397/21474836480000000000000000000000"
+      ]
+    ],
+    "threshold_leading_minors": [
+      "4325040117565306757337796169/42949672960000000000000000000000",
+      "4676493004242732088633229950504146761913688355802749609/461168601842738790400000000000000000000000000000000000000000000",
+      "80904079391046969543900132667595903128179898588680334006371174198514221316554776059/79228162514264337593543950336000000000000000000000000000000000000000000000000000000000000000000"
+    ]
+  },
+  "script_sha256": "ed0c1114bf0fca648e0720edbd7f13c59da786a68664a64d44dd488cd5c368e9"
+}

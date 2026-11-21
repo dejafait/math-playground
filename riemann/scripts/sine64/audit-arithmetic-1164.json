@@ -1,0 +1,118 @@
+{
+  "scope": "Exact rational and finite-integer replay only. Section 7 of C750m independently audits all analytic claims; these booleans do not verify them.",
+  "active_prime_powers": {
+    "2": 2,
+    "3": 3,
+    "4": 2,
+    "5": 5,
+    "7": 7,
+    "8": 2,
+    "9": 3,
+    "11": 11,
+    "13": 13,
+    "16": 2,
+    "17": 17,
+    "19": 19,
+    "23": 23,
+    "25": 5,
+    "27": 3,
+    "29": 29,
+    "31": 31,
+    "32": 2,
+    "37": 37,
+    "41": 41,
+    "43": 43,
+    "47": 47,
+    "49": 7,
+    "53": 53,
+    "59": 59,
+    "61": 61,
+    "64": 2,
+    "67": 67,
+    "71": 71,
+    "73": 73,
+    "79": 79,
+    "81": 3,
+    "83": 83,
+    "89": 89,
+    "97": 97
+  },
+  "subset": [
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89,
+    97
+  ],
+  "values": {
+    "T_lower": {
+      "numerator": 732421875,
+      "denominator": 2048
+    },
+    "A_lower": {
+      "numerator": 51,
+      "denominator": 5
+    },
+    "d_lower": {
+      "numerator": 153,
+      "denominator": 25
+    },
+    "exp_point7_partial": {
+      "numerator": 482921,
+      "denominator": 240000
+    },
+    "error_coefficient": {
+      "numerator": 1462,
+      "denominator": 1
+    },
+    "witness_lower_strict": {
+      "numerator": 200269,
+      "denominator": 50000
+    },
+    "witness_margin_over4": {
+      "numerator": 269,
+      "denominator": 50000
+    },
+    "required_norm_upper_strict": 2,
+    "resource_upper_strict": {
+      "numerator": -100269,
+      "denominator": 50000
+    }
+  },
+  "checks": {
+    "all_primes": true,
+    "all_prime_powers": true,
+    "35_terms": true,
+    "17_term_lower_subset": true,
+    "e_upper": true,
+    "L_lower_and_upper": true,
+    "log23_lower": true,
+    "log4pi_below3": true,
+    "log3_below2": true,
+    "A_lower": true,
+    "d_lower": true,
+    "T_lower": true,
+    "log2_upper": true,
+    "low_leakage_coefficient": true,
+    "low_leakage_below_one": true,
+    "high_leakage_coefficient": true,
+    "high_leakage_below_one": true,
+    "envelope_positive": true,
+    "complete_error_coefficient": true,
+    "strict_witness_threshold": true,
+    "norm_budget_stop": true
+  },
+  "failures": []
+}

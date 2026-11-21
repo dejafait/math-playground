@@ -1,0 +1,197 @@
+{
+  "coefficient_order": "ascending powers; exact rational strings",
+  "symbol_q": [
+    "1",
+    "0",
+    "-1",
+    "0",
+    "3/2"
+  ],
+  "input_p": [
+    "-1",
+    "0",
+    "15",
+    "0",
+    "1"
+  ],
+  "appell_h": [
+    "36",
+    "0",
+    "-12",
+    "0",
+    "1"
+  ],
+  "output": [
+    "5",
+    "0",
+    "3",
+    "0",
+    "1"
+  ],
+  "walsh_basis_identity": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "sturm": {
+    "input": {
+      "sequence_low_to_high": [
+        [
+          "-1",
+          "0",
+          "15",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "30",
+          "0",
+          "4"
+        ],
+        [
+          "1",
+          "0",
+          "-15/2"
+        ],
+        [
+          "0",
+          "-458/15"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "signs_at_minus_infinity": [
+        1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "signs_at_plus_infinity": [
+        1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "variations_minus": 3,
+      "variations_plus": 1,
+      "distinct_real_roots": 2,
+      "gcd_with_derivative_degree": 0
+    },
+    "output": {
+      "sequence_low_to_high": [
+        [
+          "5",
+          "0",
+          "3",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "6",
+          "0",
+          "4"
+        ],
+        [
+          "-5",
+          "0",
+          "-3/2"
+        ],
+        [
+          "0",
+          "22/3"
+        ],
+        [
+          "5"
+        ]
+      ],
+      "signs_at_minus_infinity": [
+        1,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "signs_at_plus_infinity": [
+        1,
+        1,
+        -1,
+        1,
+        1
+      ],
+      "variations_minus": 2,
+      "variations_plus": 2,
+      "distinct_real_roots": 0,
+      "gcd_with_derivative_degree": 0
+    },
+    "appell": {
+      "sequence_low_to_high": [
+        [
+          "36",
+          "0",
+          "-12",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-24",
+          "0",
+          "4"
+        ],
+        [
+          "-36",
+          "0",
+          "6"
+        ]
+      ],
+      "signs_at_minus_infinity": [
+        1,
+        -1,
+        1
+      ],
+      "signs_at_plus_infinity": [
+        1,
+        1,
+        1
+      ],
+      "variations_minus": 2,
+      "variations_plus": 0,
+      "distinct_real_roots": 2,
+      "gcd_with_derivative_degree": 2
+    }
+  },
+  "actual": {
+    "input_nonreal_multiplicity_count": 2,
+    "output_nonreal_multiplicity_count": 4
+  },
+  "required": {
+    "input_nonreal_multiplicity_count": 2,
+    "output_nonreal_multiplicity_count": 4
+  },
+  "universal_preservation": {
+    "input": "Craven--Csordas1983 Theorem3.3 and remarks(1),(3), pp.257--258",
+    "proof": "C020m: closed-half-plane Walsh specialization; no simplicity assumption",
+    "limitation": "the script checks the exact map and root counts, not the imported theorem"
+  },
+  "checks": {
+    "rational_symbol_q0_one_degree_at_most_four": true,
+    "monic_rational_quartic": true,
+    "appell_identity": true,
+    "appell_square_factorization": true,
+    "walsh_normalization_on_entire_quartic_basis": true,
+    "output_identity": true,
+    "input_squarefree": true,
+    "output_squarefree": true,
+    "input_exactly_two_nonreal_counted_with_multiplicity": true,
+    "output_exactly_four_nonreal_counted_with_multiplicity": true,
+    "appell_two_distinct_real_roots": true
+  },
+  "failures": []
+}

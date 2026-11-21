@@ -1,0 +1,209 @@
+{
+  "status": "passed",
+  "checks": {
+    "unit_distinct_nonreal_conjugates": true,
+    "base_denominators_w_and_conjugate": true,
+    "base_denominator_norms_one": true,
+    "both_base_values_one": true,
+    "radial_spatial_derivative_minus_i_sqrt3": true,
+    "normalized_scalar_jacobian_minus_one": true,
+    "parameter_partials_minus_powers": true,
+    "H_tau_coefficients": true,
+    "squared_radius_derivative_coefficients": true,
+    "tangent_substitution": true,
+    "fixed_boxes_unchanged": true,
+    "positive_ordered_boxes": true,
+    "v_positive": true,
+    "strict_inward_bound": true
+  },
+  "failures": [],
+  "scope": "C031c, u=400, fixed angle pi/3, first order, fixed1307 boxes only",
+  "field_convention": "pair (x,y) means x+y*i*sqrt(3); H=Im(f)/sqrt(3)",
+  "base": {
+    "w": [
+      "1/2",
+      "1/2"
+    ],
+    "w_conjugate": [
+      "1/2",
+      "-1/2"
+    ],
+    "P": [
+      "1/2",
+      "1/2"
+    ],
+    "P_conjugate": [
+      "1/2",
+      "-1/2"
+    ],
+    "f": [
+      "1",
+      "0"
+    ],
+    "f_conjugate": [
+      "1",
+      "0"
+    ],
+    "f_radial_derivative": [
+      "0",
+      "-1"
+    ]
+  },
+  "derivatives": {
+    "H_r": "-1",
+    "f_tau_a_coefficients": [
+      [
+        "-1/2",
+        "-1/2"
+      ],
+      [
+        "1/2",
+        "-1/2"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "-1/2",
+        "1/2"
+      ]
+    ],
+    "H_tau_a_coefficients": [
+      "-1/2",
+      "-1/2",
+      "0",
+      "1/2",
+      "1/2"
+    ],
+    "squared_radius_a_coefficients": [
+      "-1",
+      "-1",
+      "0",
+      "1",
+      "1"
+    ],
+    "tangent_basis": [
+      "A",
+      "B",
+      "v0*C",
+      "v0*D",
+      "v0^2*E"
+    ],
+    "tangent_matrix": [
+      [
+        "-1/2",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-200",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "200",
+        "0",
+        "-200",
+        "0"
+      ],
+      [
+        "1/2",
+        "0",
+        "1/2",
+        "0",
+        "-1/2"
+      ]
+    ],
+    "reduced_coefficients": [
+      "1",
+      "400",
+      "1/2",
+      "-200",
+      "-1/2"
+    ]
+  },
+  "bounds": {
+    "boxes": {
+      "A": {
+        "lower": "7434519857/200000000000000",
+        "upper": "18586299643/500000000000000"
+      },
+      "B": {
+        "lower": "14417393139/100000000000000000",
+        "upper": "14417393141/100000000000000000"
+      },
+      "C": {
+        "lower": "3315158401/5000000000000000000",
+        "upper": "66303168031/100000000000000000000"
+      },
+      "D": {
+        "lower": "6427328297/2000000000000000000000",
+        "upper": "32136641527/10000000000000000000000"
+      },
+      "E": {
+        "lower": "3175386887/200000000000000000000000",
+        "upper": "3175386919/200000000000000000000000"
+      }
+    },
+    "v0": {
+      "lower": "344562347730000/3315158401",
+      "upper": "6891246956460000/66303168031"
+    },
+    "components": [
+      {
+        "lower": "7434519857/200000000000000",
+        "upper": "18586299643/500000000000000"
+      },
+      {
+        "lower": "14417393139/100000000000000000",
+        "upper": "14417393141/100000000000000000"
+      },
+      {
+        "lower": "34456234773/500000000000000",
+        "upper": "344562347823/5000000000000000"
+      },
+      {
+        "lower": "221461532764578271581/663031680200000000000000000",
+        "upper": "11073076655689239845721/33151584015500000000000000000"
+      },
+      {
+        "lower": "3769921288945571953645823870223/21980550447441753602000000000000000",
+        "upper": "376992132897206054082437735337351/2198055045473510208480500000000000000"
+      }
+    ],
+    "squared_radius_derivative": {
+      "lower": "-511270638434762842611272634477187/21980550454735102084805000000000000000",
+      "upper": "-5112706164033352348297561245289/219805504474417536020000000000000000"
+    },
+    "strict_simple_enclosure": {
+      "lower": "-3/125000",
+      "upper": "-11/500000"
+    },
+    "required_upper_bound": "0"
+  },
+  "input_hashes": {
+    "scripts/grunsky/conjugate-collision-1322.py": "9ba0c33b3edb684723beda6d67edcb7a923200ca1b1e674357cac1488b22171d",
+    "scripts/grunsky/quadratic-tangent-certificate-1316.json": "8763d198982268f592aa5931fc1ed6b927b508e0482696c59119fbe5a33314fa",
+    "lemmas/C031c-quadratic-grunsky-local-positive-branch.md": "2034b89ec052dd72411f50bccef4219670385f148fcf92e330b145110e041cb9",
+    "lemmas/C030z-positive-diagonal-grunsky-finite-scalar-reduction.md": "b6c4bf2747bbb70a24077444c8653a42ee95e1c47db5b67ba11e0ed16505680c"
+  },
+  "inherited_contracts": "C031c; fixed1307 inclusion; L019,L021,L025,L027,L036,L037,L917; conditional Decimal contracts",
+  "conclusion": "Strict inward first variation; qualitative scalar IFT gives distinct interior conjugate points with equal finite values for all sufficiently small positive tau. No effective interval or RH conclusion."
+}

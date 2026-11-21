@@ -1,0 +1,98 @@
+{
+  "summary": {
+    "lemma": "L790",
+    "scope": "integer k>=10^9, integer d>=3; monotonicity proved in lemma",
+    "checks": 11,
+    "all_passed": true,
+    "failures": [],
+    "actual_normalized_upper": "32033666667883/64000000000000",
+    "required_normalized_upper": "3",
+    "audit_margin": "2503/5000",
+    "qualification": "Exact scalar verification only; not an analytic proof or source ancillary replay"
+  },
+  "components_at_d3_k1e9": {
+    "saddle_action": "1/1920",
+    "curvature_log": "1/2",
+    "relative_error_log": "19/1000000000000",
+    "gamma": "1000000001/192000000000000"
+  },
+  "checks": [
+    {
+      "name": "Cauchy radius / k inside analytic radius / k",
+      "actual": "1/40",
+      "relation": "<",
+      "required": "1/20",
+      "passed": true
+    },
+    {
+      "name": "drift fraction versus permitted relative loss",
+      "actual": "3/200",
+      "relation": "<",
+      "required": "1/25",
+      "passed": true
+    },
+    {
+      "name": "saddle action normalized upper",
+      "actual": "625/864",
+      "relation": "<",
+      "required": "5",
+      "passed": true
+    },
+    {
+      "name": "curvature lower exceeds one",
+      "actual": "1",
+      "relation": "<",
+      "required": "1512",
+      "passed": true
+    },
+    {
+      "name": "curvature upper below coarse twenty",
+      "actual": "2837/200",
+      "relation": "<",
+      "required": "20",
+      "passed": true
+    },
+    {
+      "name": "exponential partial sum implies log(20)<4",
+      "actual": "20",
+      "relation": "<",
+      "required": "103/3",
+      "passed": true
+    },
+    {
+      "name": "exponential partial sum implies log(10)<3",
+      "actual": "10",
+      "relation": "<",
+      "required": "13",
+      "passed": true
+    },
+    {
+      "name": "curvature logarithm coarse base-height upper",
+      "actual": "33",
+      "relation": "<",
+      "required": "1000000000",
+      "passed": true
+    },
+    {
+      "name": "relative-error logarithm upper",
+      "actual": "9/491",
+      "relation": "<",
+      "required": "19/1000",
+      "passed": true
+    },
+    {
+      "name": "uniform normalized total versus audit margin",
+      "actual": "32033666667883/64000000000000",
+      "relation": "<",
+      "required": "2503/5000",
+      "passed": true
+    },
+    {
+      "name": "uniform normalized total versus requested threshold",
+      "actual": "32033666667883/64000000000000",
+      "relation": "<",
+      "required": "3",
+      "passed": true
+    }
+  ]
+}

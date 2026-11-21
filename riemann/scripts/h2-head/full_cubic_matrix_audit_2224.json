@@ -1,0 +1,2291 @@
+{
+  "assessment": "drafts/literature/2026-11-21-full-cubic-matrix-audit-2222.md",
+  "method": "Exact signed interval polynomial multiplication; no original-generator execution",
+  "arithmetic": {
+    "implementation": "CPython",
+    "version": "3.15.2",
+    "trust": "correct integer/Fraction arithmetic; Decimal displays only"
+  },
+  "original_hashes": {
+    "certificate_sha256": "ab61cd44991ac9c88581df345877046e61bed15518d932101a5aba6003a22a3d",
+    "generator_sha256": "7c8366d98ecff6f45a57bcdc3212639b823520f2262dc68b7a46d6ec582ef8ce"
+  },
+  "inverse_rows": [
+    {
+      "node": 1,
+      "polynomial_coefficients": [
+        [
+          {
+            "numerator": "-12800",
+            "denominator": "4036081"
+          },
+          {
+            "numerator": "-3200",
+            "denominator": "4809249"
+          }
+        ],
+        [
+          {
+            "numerator": "657800",
+            "denominator": "4809249"
+          },
+          {
+            "numerator": "705312",
+            "denominator": "4036081"
+          }
+        ],
+        [
+          {
+            "numerator": "-167316081",
+            "denominator": "201804050"
+          },
+          {
+            "numerator": "-716809249",
+            "denominator": "961849800"
+          }
+        ],
+        [
+          {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          {
+            "numerator": "1",
+            "denominator": "1"
+          }
+        ]
+      ],
+      "signed_denominator": [
+        {
+          "numerator": "30746617262899200000000000000",
+          "denominator": "144287862534035715405955220743"
+        },
+        {
+          "numerator": "8357738652343750000",
+          "denominator": "17758382012102559961"
+        }
+      ],
+      "weighted_signed_denominator": [
+        {
+          "numerator": "96083178946560000",
+          "denominator": "144287862534035715405955220743"
+        },
+        {
+          "numerator": "53489527375",
+          "denominator": "36369166360786042800128"
+        }
+      ],
+      "inverse_inclusions": [
+        [
+          {
+            "numerator": "-250246473680347348787521",
+            "denominator": "52545488486400"
+          },
+          {
+            "numerator": "-8711813351237484544",
+            "denominator": "19256229855"
+          }
+        ],
+        [
+          {
+            "numerator": "77861831826685018112",
+            "denominator": "837227385"
+          },
+          {
+            "numerator": "612853614043170657180638929",
+            "denominator": "2335355043840000"
+          }
+        ],
+        [
+          {
+            "numerator": "-13956753086755121705956038475067",
+            "denominator": "11209704210432000000"
+          },
+          {
+            "numerator": "-196720904288328960327424",
+            "denominator": "388230440625"
+          }
+        ],
+        [
+          {
+            "numerator": "36369166360786042800128",
+            "denominator": "53489527375"
+          },
+          {
+            "numerator": "144287862534035715405955220743",
+            "denominator": "96083178946560000"
+          }
+        ]
+      ],
+      "absolute_uppers": [
+        {
+          "numerator": "250246473680347348787521",
+          "denominator": "52545488486400"
+        },
+        {
+          "numerator": "612853614043170657180638929",
+          "denominator": "2335355043840000"
+        },
+        {
+          "numerator": "13956753086755121705956038475067",
+          "denominator": "11209704210432000000"
+        },
+        {
+          "numerator": "144287862534035715405955220743",
+          "denominator": "96083178946560000"
+        }
+      ],
+      "row_square": {
+        "numerator": "625907493103101527424806578183924556487688149058122951510521843",
+        "denominator": "161559602338341739548377088000000000000"
+      }
+    },
+    {
+      "node": 2,
+      "polynomial_coefficients": [
+        [
+          {
+            "numerator": "-800",
+            "denominator": "117649"
+          },
+          {
+            "numerator": "-3200",
+            "denominator": "2187441"
+          }
+        ],
+        [
+          {
+            "numerator": "653768",
+            "denominator": "2187441"
+          },
+          {
+            "numerator": "43185",
+            "denominator": "117649"
+          }
+        ],
+        [
+          {
+            "numerator": "-164901",
+            "denominator": "120050"
+          },
+          {
+            "numerator": "-552907441",
+            "denominator": "437488200"
+          }
+        ],
+        [
+          {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          {
+            "numerator": "1",
+            "denominator": "1"
+          }
+        ]
+      ],
+      "signed_denominator": [
+        {
+          "numerator": "-23052170035200000000000000",
+          "denominator": "20267899773102272917081554121"
+        },
+        {
+          "numerator": "-10599518919720960000000000000",
+          "denominator": "35827475475580100580855453725047"
+        }
+      ],
+      "weighted_signed_denominator": [
+        {
+          "numerator": "-72038031360000",
+          "denominator": "20267899773102272917081554121"
+        },
+        {
+          "numerator": "-33123496624128000",
+          "denominator": "35827475475580100580855453725047"
+        }
+      ],
+      "inverse_inclusions": [
+        [
+          {
+            "numerator": "70131141083398868225195689",
+            "denominator": "170392456051200"
+          },
+          {
+            "numerator": "104453281269912829681794325729",
+            "denominator": "14201699177594880"
+          }
+        ],
+        [
+          {
+            "numerator": "-300720996776079036653885863773791",
+            "denominator": "757423956138393600"
+          },
+          {
+            "numerator": "-80720943386992097327200238039",
+            "denominator": "959957498880000"
+          }
+        ],
+        [
+          {
+            "numerator": "38776029750832035812689160129221849",
+            "denominator": "109051171872768000000"
+          },
+          {
+            "numerator": "5741483511563298509119188702345943",
+            "denominator": "3864407939481600000"
+          }
+        ],
+        [
+          {
+            "numerator": "-35827475475580100580855453725047",
+            "denominator": "33123496624128000"
+          },
+          {
+            "numerator": "-20267899773102272917081554121",
+            "denominator": "72038031360000"
+          }
+        ]
+      ],
+      "absolute_uppers": [
+        {
+          "numerator": "104453281269912829681794325729",
+          "denominator": "14201699177594880"
+        },
+        {
+          "numerator": "300720996776079036653885863773791",
+          "denominator": "757423956138393600"
+        },
+        {
+          "numerator": "5741483511563298509119188702345943",
+          "denominator": "3864407939481600000"
+        },
+        {
+          "numerator": "35827475475580100580855453725047",
+          "denominator": "33123496624128000"
+        }
+      ],
+      "row_square": {
+        "numerator": "1140756831901734789733472821634001470613954826785456258304124307728976641",
+        "denominator": "322701215249438545507490243543040000000000"
+      }
+    },
+    {
+      "node": 3,
+      "polynomial_coefficients": [
+        [
+          {
+            "numerator": "-800",
+            "denominator": "82369"
+          },
+          {
+            "numerator": "-3200",
+            "denominator": "1555009"
+          }
+        ],
+        [
+          {
+            "numerator": "22440",
+            "denominator": "53621"
+          },
+          {
+            "numerator": "42465",
+            "denominator": "82369"
+          }
+        ],
+        [
+          {
+            "numerator": "-6244869",
+            "denominator": "4118450"
+          },
+          {
+            "numerator": "-431955009",
+            "denominator": "311001800"
+          }
+        ],
+        [
+          {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          {
+            "numerator": "1",
+            "denominator": "1"
+          }
+        ]
+      ],
+      "signed_denominator": [
+        {
+          "numerator": "15008630340321280000000000000",
+          "denominator": "308401747907511423436977158455401"
+        },
+        {
+          "numerator": "639458520596480000000000000",
+          "denominator": "3953972951450459594567121380547"
+        }
+      ],
+      "weighted_signed_denominator": [
+        {
+          "numerator": "46901969813504000",
+          "denominator": "308401747907511423436977158455401"
+        },
+        {
+          "numerator": "1998307876864000",
+          "denominator": "3953972951450459594567121380547"
+        }
+      ],
+      "inverse_inclusions": [
+        [
+          {
+            "numerator": "-6293913222602273947693411397049",
+            "denominator": "98552764070625280"
+          },
+          {
+            "numerator": "-3953972951450459594567121380547",
+            "denominator": "971058354154503680"
+          }
+        ],
+        [
+          {
+            "numerator": "2218178825763707832552155094486867",
+            "denominator": "2678781666633113600"
+          },
+          {
+            "numerator": "358753053688329615018524449631793",
+            "denominator": "105828471485235200"
+          }
+        ],
+        [
+          {
+            "numerator": "-39304663572519039905458206337677991581",
+            "denominator": "3942110562825011200000"
+          },
+          {
+            "numerator": "-1707938421829539837225377267038271809923",
+            "denominator": "621477346658882355200000"
+          }
+        ],
+        [
+          {
+            "numerator": "3953972951450459594567121380547",
+            "denominator": "1998307876864000"
+          },
+          {
+            "numerator": "308401747907511423436977158455401",
+            "denominator": "46901969813504000"
+          }
+        ]
+      ],
+      "absolute_uppers": [
+        {
+          "numerator": "6293913222602273947693411397049",
+          "denominator": "98552764070625280"
+        },
+        {
+          "numerator": "358753053688329615018524449631793",
+          "denominator": "105828471485235200"
+        },
+        {
+          "numerator": "39304663572519039905458206337677991581",
+          "denominator": "3942110562825011200000"
+        },
+        {
+          "numerator": "308401747907511423436977158455401",
+          "denominator": "46901969813504000"
+        }
+      ],
+      "row_square": {
+        "numerator": "2395411355967586986247430080610727754240387988449180133180346848078933844561",
+        "denominator": "15540235689536526575257232280125440000000000"
+      }
+    },
+    {
+      "node": 4,
+      "polynomial_coefficients": [
+        [
+          {
+            "numerator": "-32000000",
+            "denominator": "197767969"
+          },
+          {
+            "numerator": "-512000000",
+            "denominator": "4044578409"
+          }
+        ],
+        [
+          {
+            "numerator": "3386240000",
+            "denominator": "4044578409"
+          },
+          {
+            "numerator": "194640000",
+            "denominator": "197767969"
+          }
+        ],
+        [
+          {
+            "numerator": "-7384050",
+            "denominator": "4036081"
+          },
+          {
+            "numerator": "-6841359200",
+            "denominator": "4044578409"
+          }
+        ],
+        [
+          {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          {
+            "numerator": "1",
+            "denominator": "1"
+          }
+        ]
+      ],
+      "signed_denominator": [
+        {
+          "numerator": "-5067072773919",
+          "denominator": "10090202500000000000000"
+        },
+        {
+          "numerator": "-6208047042399",
+          "denominator": "17975904040000000000000000"
+        }
+      ],
+      "weighted_signed_denominator": [
+        {
+          "numerator": "-5067072773919",
+          "denominator": "3228864800000000000000000000000000"
+        },
+        {
+          "numerator": "-6208047042399",
+          "denominator": "5752289292800000000000000000000000000"
+        }
+      ],
+      "inverse_inclusions": [
+        [
+          {
+            "numerator": "1653178777600000000000000000000000000000000",
+            "denominator": "20494173138224525714871"
+          },
+          {
+            "numerator": "184073257369600000000000000000000000000000000",
+            "denominator": "1227752855031707117631"
+          }
+        ],
+        [
+          {
+            "numerator": "-373208529316864000000000000000000000000000000",
+            "denominator": "409250951677235705877"
+          },
+          {
+            "numerator": "-841054703104000000000000000000000000000000",
+            "denominator": "1576474856786501978067"
+          }
+        ],
+        [
+          {
+            "numerator": "1699217223464320000000000000000000000000000",
+            "denominator": "1576474856786501978067"
+          },
+          {
+            "numerator": "4719465750277760000000000000000000000000000",
+            "denominator": "2784020079436977591"
+          }
+        ],
+        [
+          {
+            "numerator": "-5752289292800000000000000000000000000",
+            "denominator": "6208047042399"
+          },
+          {
+            "numerator": "-3228864800000000000000000000000000",
+            "denominator": "5067072773919"
+          }
+        ]
+      ],
+      "absolute_uppers": [
+        {
+          "numerator": "184073257369600000000000000000000000000000000",
+          "denominator": "1227752855031707117631"
+        },
+        {
+          "numerator": "373208529316864000000000000000000000000000000",
+          "denominator": "409250951677235705877"
+        },
+        {
+          "numerator": "4719465750277760000000000000000000000000000",
+          "denominator": "2784020079436977591"
+        },
+        {
+          "numerator": "5752289292800000000000000000000000000",
+          "denominator": "6208047042399"
+        }
+      ],
+      "row_square": {
+        "numerator": "6913365169806478631976398675170862858240000000000000000000000000000000000000000000000000000",
+        "denominator": "1507377073038508033391567514318466071052161"
+      }
+    }
+  ],
+  "comparisons": {
+    "/box_evidence/x/0/0": {
+      "saved": {
+        "numerator": "14",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "14",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/x/0/1": {
+      "saved": {
+        "numerator": "29",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "29",
+        "denominator": "2"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/y/0/0": {
+      "saved": {
+        "numerator": "800",
+        "denominator": "841"
+      },
+      "independent": {
+        "numerator": "800",
+        "denominator": "841"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/y/0/1": {
+      "saved": {
+        "numerator": "50",
+        "denominator": "49"
+      },
+      "independent": {
+        "numerator": "50",
+        "denominator": "49"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/x/1/0": {
+      "saved": {
+        "numerator": "41",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "41",
+        "denominator": "2"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/x/1/1": {
+      "saved": {
+        "numerator": "43",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "43",
+        "denominator": "2"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/y/1/0": {
+      "saved": {
+        "numerator": "800",
+        "denominator": "1849"
+      },
+      "independent": {
+        "numerator": "800",
+        "denominator": "1849"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/y/1/1": {
+      "saved": {
+        "numerator": "800",
+        "denominator": "1681"
+      },
+      "independent": {
+        "numerator": "800",
+        "denominator": "1681"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/x/2/0": {
+      "saved": {
+        "numerator": "49",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "49",
+        "denominator": "2"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/x/2/1": {
+      "saved": {
+        "numerator": "51",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "51",
+        "denominator": "2"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/y/2/0": {
+      "saved": {
+        "numerator": "800",
+        "denominator": "2601"
+      },
+      "independent": {
+        "numerator": "800",
+        "denominator": "2601"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/y/2/1": {
+      "saved": {
+        "numerator": "800",
+        "denominator": "2401"
+      },
+      "independent": {
+        "numerator": "800",
+        "denominator": "2401"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/x/3/0": {
+      "saved": {
+        "numerator": "100",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "100",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/x/3/1": {
+      "saved": {
+        "numerator": "200",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "200",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/y/3/0": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "200"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "200"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/y/3/1": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "50"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "50"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/gaps/1-2": {
+      "saved": {
+        "numerator": "672000",
+        "denominator": "1413721"
+      },
+      "independent": {
+        "numerator": "672000",
+        "denominator": "1413721"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/gaps/1-3": {
+      "saved": {
+        "numerator": "1248000",
+        "denominator": "2019241"
+      },
+      "independent": {
+        "numerator": "1248000",
+        "denominator": "2019241"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/gaps/1-4": {
+      "saved": {
+        "numerator": "39159",
+        "denominator": "42050"
+      },
+      "independent": {
+        "numerator": "39159",
+        "denominator": "42050"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/gaps/2-3": {
+      "saved": {
+        "numerator": "441600",
+        "denominator": "4439449"
+      },
+      "independent": {
+        "numerator": "441600",
+        "denominator": "4439449"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/gaps/2-4": {
+      "saved": {
+        "numerator": "38151",
+        "denominator": "92450"
+      },
+      "independent": {
+        "numerator": "38151",
+        "denominator": "92450"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/box_evidence/gaps/3-4": {
+      "saved": {
+        "numerator": "37399",
+        "denominator": "130050"
+      },
+      "independent": {
+        "numerator": "37399",
+        "denominator": "130050"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/y_lower_fifth": {
+      "saved": {
+        "numerator": "327680000000000",
+        "denominator": "420707233300201"
+      },
+      "independent": {
+        "numerator": "327680000000000",
+        "denominator": "420707233300201"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/gap_lower_factors/0": {
+      "saved": {
+        "numerator": "672000",
+        "denominator": "1413721"
+      },
+      "independent": {
+        "numerator": "672000",
+        "denominator": "1413721"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/gap_lower_factors/1": {
+      "saved": {
+        "numerator": "1248000",
+        "denominator": "2019241"
+      },
+      "independent": {
+        "numerator": "1248000",
+        "denominator": "2019241"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/gap_lower_factors/2": {
+      "saved": {
+        "numerator": "39159",
+        "denominator": "42050"
+      },
+      "independent": {
+        "numerator": "39159",
+        "denominator": "42050"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/denominator_lower": {
+      "saved": {
+        "numerator": "30746617262899200000000000000",
+        "denominator": "144287862534035715405955220743"
+      },
+      "independent": {
+        "numerator": "30746617262899200000000000000",
+        "denominator": "144287862534035715405955220743"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/numerator_absolute_uppers/0": {
+      "saved": {
+        "numerator": "4096000000000000",
+        "denominator": "4036081"
+      },
+      "independent": {
+        "numerator": "4096000000000000",
+        "denominator": "4036081"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_absolute_uppers/0": {
+      "saved": {
+        "numerator": "250246473680347348787521",
+        "denominator": "52545488486400"
+      },
+      "independent": {
+        "numerator": "250246473680347348787521",
+        "denominator": "52545488486400"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_signed_enclosures/0/0": {
+      "saved": {
+        "numerator": "-250246473680347348787521",
+        "denominator": "52545488486400"
+      },
+      "independent": {
+        "numerator": "-250246473680347348787521",
+        "denominator": "52545488486400"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_signed_enclosures/0/1": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/numerator_absolute_uppers/1": {
+      "saved": {
+        "numerator": "225699840000000000",
+        "denominator": "4036081"
+      },
+      "independent": {
+        "numerator": "225699840000000000",
+        "denominator": "4036081"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_absolute_uppers/1": {
+      "saved": {
+        "numerator": "612853614043170657180638929",
+        "denominator": "2335355043840000"
+      },
+      "independent": {
+        "numerator": "612853614043170657180638929",
+        "denominator": "2335355043840000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_signed_enclosures/1/0": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_signed_enclosures/1/1": {
+      "saved": {
+        "numerator": "612853614043170657180638929",
+        "denominator": "2335355043840000"
+      },
+      "independent": {
+        "numerator": "612853614043170657180638929",
+        "denominator": "2335355043840000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/numerator_absolute_uppers/2": {
+      "saved": {
+        "numerator": "1070822918400000000",
+        "denominator": "4036081"
+      },
+      "independent": {
+        "numerator": "1070822918400000000",
+        "denominator": "4036081"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_absolute_uppers/2": {
+      "saved": {
+        "numerator": "13956753086755121705956038475067",
+        "denominator": "11209704210432000000"
+      },
+      "independent": {
+        "numerator": "13956753086755121705956038475067",
+        "denominator": "11209704210432000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_signed_enclosures/2/0": {
+      "saved": {
+        "numerator": "-13956753086755121705956038475067",
+        "denominator": "11209704210432000000"
+      },
+      "independent": {
+        "numerator": "-13956753086755121705956038475067",
+        "denominator": "11209704210432000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_signed_enclosures/2/1": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/numerator_absolute_uppers/3": {
+      "saved": {
+        "numerator": "320000000000",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "320000000000",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_absolute_uppers/3": {
+      "saved": {
+        "numerator": "144287862534035715405955220743",
+        "denominator": "96083178946560000"
+      },
+      "independent": {
+        "numerator": "144287862534035715405955220743",
+        "denominator": "96083178946560000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_signed_enclosures/3/0": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/inverse_entry_signed_enclosures/3/1": {
+      "saved": {
+        "numerator": "144287862534035715405955220743",
+        "denominator": "96083178946560000"
+      },
+      "independent": {
+        "numerator": "144287862534035715405955220743",
+        "denominator": "96083178946560000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/0/row_square_upper": {
+      "saved": {
+        "numerator": "625907493103101527424806578183924556487688149058122951510521843",
+        "denominator": "161559602338341739548377088000000000000"
+      },
+      "independent": {
+        "numerator": "625907493103101527424806578183924556487688149058122951510521843",
+        "denominator": "161559602338341739548377088000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/y_lower_fifth": {
+      "saved": {
+        "numerator": "327680000000000",
+        "denominator": "21611482313284249"
+      },
+      "independent": {
+        "numerator": "327680000000000",
+        "denominator": "21611482313284249"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/gap_lower_factors/0": {
+      "saved": {
+        "numerator": "672000",
+        "denominator": "1413721"
+      },
+      "independent": {
+        "numerator": "672000",
+        "denominator": "1413721"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/gap_lower_factors/1": {
+      "saved": {
+        "numerator": "441600",
+        "denominator": "4439449"
+      },
+      "independent": {
+        "numerator": "441600",
+        "denominator": "4439449"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/gap_lower_factors/2": {
+      "saved": {
+        "numerator": "38151",
+        "denominator": "92450"
+      },
+      "independent": {
+        "numerator": "38151",
+        "denominator": "92450"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/denominator_lower": {
+      "saved": {
+        "numerator": "10599518919720960000000000000",
+        "denominator": "35827475475580100580855453725047"
+      },
+      "independent": {
+        "numerator": "10599518919720960000000000000",
+        "denominator": "35827475475580100580855453725047"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/numerator_absolute_uppers/0": {
+      "saved": {
+        "numerator": "256000000000000",
+        "denominator": "117649"
+      },
+      "independent": {
+        "numerator": "256000000000000",
+        "denominator": "117649"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_absolute_uppers/0": {
+      "saved": {
+        "numerator": "104453281269912829681794325729",
+        "denominator": "14201699177594880"
+      },
+      "independent": {
+        "numerator": "104453281269912829681794325729",
+        "denominator": "14201699177594880"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_signed_enclosures/0/0": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_signed_enclosures/0/1": {
+      "saved": {
+        "numerator": "104453281269912829681794325729",
+        "denominator": "14201699177594880"
+      },
+      "independent": {
+        "numerator": "104453281269912829681794325729",
+        "denominator": "14201699177594880"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/numerator_absolute_uppers/1": {
+      "saved": {
+        "numerator": "13819200000000000",
+        "denominator": "117649"
+      },
+      "independent": {
+        "numerator": "13819200000000000",
+        "denominator": "117649"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_absolute_uppers/1": {
+      "saved": {
+        "numerator": "300720996776079036653885863773791",
+        "denominator": "757423956138393600"
+      },
+      "independent": {
+        "numerator": "300720996776079036653885863773791",
+        "denominator": "757423956138393600"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_signed_enclosures/1/0": {
+      "saved": {
+        "numerator": "-300720996776079036653885863773791",
+        "denominator": "757423956138393600"
+      },
+      "independent": {
+        "numerator": "-300720996776079036653885863773791",
+        "denominator": "757423956138393600"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_signed_enclosures/1/1": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/numerator_absolute_uppers/2": {
+      "saved": {
+        "numerator": "1055366400000000",
+        "denominator": "2401"
+      },
+      "independent": {
+        "numerator": "1055366400000000",
+        "denominator": "2401"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_absolute_uppers/2": {
+      "saved": {
+        "numerator": "5741483511563298509119188702345943",
+        "denominator": "3864407939481600000"
+      },
+      "independent": {
+        "numerator": "5741483511563298509119188702345943",
+        "denominator": "3864407939481600000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_signed_enclosures/2/0": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_signed_enclosures/2/1": {
+      "saved": {
+        "numerator": "5741483511563298509119188702345943",
+        "denominator": "3864407939481600000"
+      },
+      "independent": {
+        "numerator": "5741483511563298509119188702345943",
+        "denominator": "3864407939481600000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/numerator_absolute_uppers/3": {
+      "saved": {
+        "numerator": "320000000000",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "320000000000",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_absolute_uppers/3": {
+      "saved": {
+        "numerator": "35827475475580100580855453725047",
+        "denominator": "33123496624128000"
+      },
+      "independent": {
+        "numerator": "35827475475580100580855453725047",
+        "denominator": "33123496624128000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_signed_enclosures/3/0": {
+      "saved": {
+        "numerator": "-35827475475580100580855453725047",
+        "denominator": "33123496624128000"
+      },
+      "independent": {
+        "numerator": "-35827475475580100580855453725047",
+        "denominator": "33123496624128000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/inverse_entry_signed_enclosures/3/1": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/1/row_square_upper": {
+      "saved": {
+        "numerator": "1140756831901734789733472821634001470613954826785456258304124307728976641",
+        "denominator": "322701215249438545507490243543040000000000"
+      },
+      "independent": {
+        "numerator": "1140756831901734789733472821634001470613954826785456258304124307728976641",
+        "denominator": "322701215249438545507490243543040000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/y_lower_fifth": {
+      "saved": {
+        "numerator": "327680000000000",
+        "denominator": "119042423827613001"
+      },
+      "independent": {
+        "numerator": "327680000000000",
+        "denominator": "119042423827613001"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/gap_lower_factors/0": {
+      "saved": {
+        "numerator": "1248000",
+        "denominator": "2019241"
+      },
+      "independent": {
+        "numerator": "1248000",
+        "denominator": "2019241"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/gap_lower_factors/1": {
+      "saved": {
+        "numerator": "441600",
+        "denominator": "4439449"
+      },
+      "independent": {
+        "numerator": "441600",
+        "denominator": "4439449"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/gap_lower_factors/2": {
+      "saved": {
+        "numerator": "37399",
+        "denominator": "130050"
+      },
+      "independent": {
+        "numerator": "37399",
+        "denominator": "130050"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/denominator_lower": {
+      "saved": {
+        "numerator": "15008630340321280000000000000",
+        "denominator": "308401747907511423436977158455401"
+      },
+      "independent": {
+        "numerator": "15008630340321280000000000000",
+        "denominator": "308401747907511423436977158455401"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/numerator_absolute_uppers/0": {
+      "saved": {
+        "numerator": "256000000000000",
+        "denominator": "82369"
+      },
+      "independent": {
+        "numerator": "256000000000000",
+        "denominator": "82369"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_absolute_uppers/0": {
+      "saved": {
+        "numerator": "6293913222602273947693411397049",
+        "denominator": "98552764070625280"
+      },
+      "independent": {
+        "numerator": "6293913222602273947693411397049",
+        "denominator": "98552764070625280"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_signed_enclosures/0/0": {
+      "saved": {
+        "numerator": "-6293913222602273947693411397049",
+        "denominator": "98552764070625280"
+      },
+      "independent": {
+        "numerator": "-6293913222602273947693411397049",
+        "denominator": "98552764070625280"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_signed_enclosures/0/1": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/numerator_absolute_uppers/1": {
+      "saved": {
+        "numerator": "13588800000000000",
+        "denominator": "82369"
+      },
+      "independent": {
+        "numerator": "13588800000000000",
+        "denominator": "82369"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_absolute_uppers/1": {
+      "saved": {
+        "numerator": "358753053688329615018524449631793",
+        "denominator": "105828471485235200"
+      },
+      "independent": {
+        "numerator": "358753053688329615018524449631793",
+        "denominator": "105828471485235200"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_signed_enclosures/1/0": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_signed_enclosures/1/1": {
+      "saved": {
+        "numerator": "358753053688329615018524449631793",
+        "denominator": "105828471485235200"
+      },
+      "independent": {
+        "numerator": "358753053688329615018524449631793",
+        "denominator": "105828471485235200"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/numerator_absolute_uppers/2": {
+      "saved": {
+        "numerator": "39967161600000000",
+        "denominator": "82369"
+      },
+      "independent": {
+        "numerator": "39967161600000000",
+        "denominator": "82369"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_absolute_uppers/2": {
+      "saved": {
+        "numerator": "39304663572519039905458206337677991581",
+        "denominator": "3942110562825011200000"
+      },
+      "independent": {
+        "numerator": "39304663572519039905458206337677991581",
+        "denominator": "3942110562825011200000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_signed_enclosures/2/0": {
+      "saved": {
+        "numerator": "-39304663572519039905458206337677991581",
+        "denominator": "3942110562825011200000"
+      },
+      "independent": {
+        "numerator": "-39304663572519039905458206337677991581",
+        "denominator": "3942110562825011200000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_signed_enclosures/2/1": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/numerator_absolute_uppers/3": {
+      "saved": {
+        "numerator": "320000000000",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "320000000000",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_absolute_uppers/3": {
+      "saved": {
+        "numerator": "308401747907511423436977158455401",
+        "denominator": "46901969813504000"
+      },
+      "independent": {
+        "numerator": "308401747907511423436977158455401",
+        "denominator": "46901969813504000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_signed_enclosures/3/0": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/inverse_entry_signed_enclosures/3/1": {
+      "saved": {
+        "numerator": "308401747907511423436977158455401",
+        "denominator": "46901969813504000"
+      },
+      "independent": {
+        "numerator": "308401747907511423436977158455401",
+        "denominator": "46901969813504000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/2/row_square_upper": {
+      "saved": {
+        "numerator": "2395411355967586986247430080610727754240387988449180133180346848078933844561",
+        "denominator": "15540235689536526575257232280125440000000000"
+      },
+      "independent": {
+        "numerator": "2395411355967586986247430080610727754240387988449180133180346848078933844561",
+        "denominator": "15540235689536526575257232280125440000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/y_lower_fifth": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "320000000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "320000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/gap_lower_factors/0": {
+      "saved": {
+        "numerator": "39159",
+        "denominator": "42050"
+      },
+      "independent": {
+        "numerator": "39159",
+        "denominator": "42050"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/gap_lower_factors/1": {
+      "saved": {
+        "numerator": "38151",
+        "denominator": "92450"
+      },
+      "independent": {
+        "numerator": "38151",
+        "denominator": "92450"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/gap_lower_factors/2": {
+      "saved": {
+        "numerator": "37399",
+        "denominator": "130050"
+      },
+      "independent": {
+        "numerator": "37399",
+        "denominator": "130050"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/denominator_lower": {
+      "saved": {
+        "numerator": "6208047042399",
+        "denominator": "17975904040000000000000000"
+      },
+      "independent": {
+        "numerator": "6208047042399",
+        "denominator": "17975904040000000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/numerator_absolute_uppers/0": {
+      "saved": {
+        "numerator": "10240000000000000000",
+        "denominator": "197767969"
+      },
+      "independent": {
+        "numerator": "10240000000000000000",
+        "denominator": "197767969"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_absolute_uppers/0": {
+      "saved": {
+        "numerator": "184073257369600000000000000000000000000000000",
+        "denominator": "1227752855031707117631"
+      },
+      "independent": {
+        "numerator": "184073257369600000000000000000000000000000000",
+        "denominator": "1227752855031707117631"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_signed_enclosures/0/0": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_signed_enclosures/0/1": {
+      "saved": {
+        "numerator": "184073257369600000000000000000000000000000000",
+        "denominator": "1227752855031707117631"
+      },
+      "independent": {
+        "numerator": "184073257369600000000000000000000000000000000",
+        "denominator": "1227752855031707117631"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/numerator_absolute_uppers/1": {
+      "saved": {
+        "numerator": "62284800000000000000",
+        "denominator": "197767969"
+      },
+      "independent": {
+        "numerator": "62284800000000000000",
+        "denominator": "197767969"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_absolute_uppers/1": {
+      "saved": {
+        "numerator": "373208529316864000000000000000000000000000000",
+        "denominator": "409250951677235705877"
+      },
+      "independent": {
+        "numerator": "373208529316864000000000000000000000000000000",
+        "denominator": "409250951677235705877"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_signed_enclosures/1/0": {
+      "saved": {
+        "numerator": "-373208529316864000000000000000000000000000000",
+        "denominator": "409250951677235705877"
+      },
+      "independent": {
+        "numerator": "-373208529316864000000000000000000000000000000",
+        "denominator": "409250951677235705877"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_signed_enclosures/1/1": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/numerator_absolute_uppers/2": {
+      "saved": {
+        "numerator": "2362896000000000000",
+        "denominator": "4036081"
+      },
+      "independent": {
+        "numerator": "2362896000000000000",
+        "denominator": "4036081"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_absolute_uppers/2": {
+      "saved": {
+        "numerator": "4719465750277760000000000000000000000000000",
+        "denominator": "2784020079436977591"
+      },
+      "independent": {
+        "numerator": "4719465750277760000000000000000000000000000",
+        "denominator": "2784020079436977591"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_signed_enclosures/2/0": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_signed_enclosures/2/1": {
+      "saved": {
+        "numerator": "4719465750277760000000000000000000000000000",
+        "denominator": "2784020079436977591"
+      },
+      "independent": {
+        "numerator": "4719465750277760000000000000000000000000000",
+        "denominator": "2784020079436977591"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/numerator_absolute_uppers/3": {
+      "saved": {
+        "numerator": "320000000000",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "320000000000",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_absolute_uppers/3": {
+      "saved": {
+        "numerator": "5752289292800000000000000000000000000",
+        "denominator": "6208047042399"
+      },
+      "independent": {
+        "numerator": "5752289292800000000000000000000000000",
+        "denominator": "6208047042399"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_signed_enclosures/3/0": {
+      "saved": {
+        "numerator": "-5752289292800000000000000000000000000",
+        "denominator": "6208047042399"
+      },
+      "independent": {
+        "numerator": "-5752289292800000000000000000000000000",
+        "denominator": "6208047042399"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/inverse_entry_signed_enclosures/3/1": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/inverse_rows/3/row_square_upper": {
+      "saved": {
+        "numerator": "6913365169806478631976398675170862858240000000000000000000000000000000000000000000000000000",
+        "denominator": "1507377073038508033391567514318466071052161"
+      },
+      "independent": {
+        "numerator": "6913365169806478631976398675170862858240000000000000000000000000000000000000000000000000000",
+        "denominator": "1507377073038508033391567514318466071052161"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/tail_components/0": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/tail_components/1": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "25000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "25000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/tail_components/2": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "625000000000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "625000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/tail_components/3": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "15625000000000000000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "15625000000000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/B": {
+      "saved": {
+        "numerator": "55044853395654549140820213578367951043403504391013321572165680339806783432529630521310214442670151084252781180078812111551",
+        "denominator": "12001875781096364510863055158897268634103072275607649796489216000000000000"
+      },
+      "independent": {
+        "numerator": "55044853395654549140820213578367951043403504391013321572165680339806783432529630521310214442670151084252781180078812111551",
+        "denominator": "12001875781096364510863055158897268634103072275607649796489216000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/head_lower_r4": {
+      "saved": {
+        "numerator": "12001875781096364510863055158897268634103072275607649796489216000000000000",
+        "denominator": "55044853395654549140820213578367951043403504391013321572165680339806783432529630521310214442670151084252781180078812111551"
+      },
+      "independent": {
+        "numerator": "12001875781096364510863055158897268634103072275607649796489216000000000000",
+        "denominator": "55044853395654549140820213578367951043403504391013321572165680339806783432529630521310214442670151084252781180078812111551"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/tail_vector_factor": {
+      "saved": {
+        "numerator": "15625000625000025000001",
+        "denominator": "15625000000000000000000"
+      },
+      "independent": {
+        "numerator": "15625000625000025000001",
+        "denominator": "15625000000000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/first_shell": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "1000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "1000000000000000000000000000000000000000000000000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/integral": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "18000000000000000000000000000000000000000000000000000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "18000000000000000000000000000000000000000000000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/tail_upper_r4": {
+      "saved": {
+        "numerator": "7953125318125012725000509",
+        "denominator": "7812500000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent": {
+        "numerator": "7953125318125012725000509",
+        "denominator": "7812500000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/required_head_minus_tail": {
+      "saved": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/actual_head_minus_tail": {
+      "saved": {
+        "numerator": "93764216761198174281344544452200837799669889049801000628997883582430374015085823167246414103850576511443829196156122445818289206448969333345398160220541",
+        "denominator": "430037917153551165162657918580999617526589878054791574782544377654740495566637738447736050333360555345724852969365719621492187500000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent": {
+        "numerator": "93764216761198174281344544452200837799669889049801000628997883582430374015085823167246414103850576511443829196156122445818289206448969333345398160220541",
+        "denominator": "430037917153551165162657918580999617526589878054791574782544377654740495566637738447736050333360555345724852969365719621492187500000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/comparison/head_over_tail": {
+      "saved": {
+        "numerator": "554820441063996140479985907863224326650474864811744165888000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "denominator": "2590406018777868479727672686824877280255049608067491562819038873526537953709069547845539345701115716987004993358308767519488467637080796460590411"
+      },
+      "independent": {
+        "numerator": "554820441063996140479985907863224326650474864811744165888000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "denominator": "2590406018777868479727672686824877280255049608067491562819038873526537953709069547845539345701115716987004993358308767519488467637080796460590411"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/all_r/head_step": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "1600000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "1600000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/all_r/tail_step": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "1000000000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "1000000000000"
+      },
+      "positive_denominator": true,
+      "matches": true
+    },
+    "/all_r/relative_step": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "625"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "625"
+      },
+      "positive_denominator": true,
+      "matches": true
+    }
+  },
+  "bounds": {
+    "h4": {
+      "numerator": "12001875781096364510863055158897268634103072275607649796489216000000000000",
+      "denominator": "55044853395654549140820213578367951043403504391013321572165680339806783432529630521310214442670151084252781180078812111551"
+    },
+    "t4": {
+      "numerator": "7953125318125012725000509",
+      "denominator": "7812500000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "actual_margin": {
+      "numerator": "93764216761198174281344544452200837799669889049801000628997883582430374015085823167246414103850576511443829196156122445818289206448969333345398160220541",
+      "denominator": "430037917153551165162657918580999617526589878054791574782544377654740495566637738447736050333360555345724852969365719621492187500000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "required_margin": {
+      "numerator": "0",
+      "denominator": "1"
+    },
+    "ratio": {
+      "numerator": "554820441063996140479985907863224326650474864811744165888000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "denominator": "2590406018777868479727672686824877280255049608067491562819038873526537953709069547845539345701115716987004993358308767519488467637080796460590411"
+    },
+    "cross_product": "93764216761198174281344544452200837799669889049801000628997883582430374015085823167246414103850576511443829196156122445818289206448969333345398160220541",
+    "head_step": {
+      "numerator": "1",
+      "denominator": "1600000000"
+    },
+    "tail_step": {
+      "numerator": "1",
+      "denominator": "1000000000000"
+    },
+    "relative_step": {
+      "numerator": "1",
+      "denominator": "625"
+    }
+  },
+  "checks": {
+    "exact:/box_evidence/x/0/0": true,
+    "exact:/box_evidence/x/0/1": true,
+    "exact:/box_evidence/y/0/0": true,
+    "exact:/box_evidence/y/0/1": true,
+    "positive_interval_1": true,
+    "exact:/box_evidence/x/1/0": true,
+    "exact:/box_evidence/x/1/1": true,
+    "exact:/box_evidence/y/1/0": true,
+    "exact:/box_evidence/y/1/1": true,
+    "positive_interval_2": true,
+    "exact:/box_evidence/x/2/0": true,
+    "exact:/box_evidence/x/2/1": true,
+    "exact:/box_evidence/y/2/0": true,
+    "exact:/box_evidence/y/2/1": true,
+    "positive_interval_3": true,
+    "exact:/box_evidence/x/3/0": true,
+    "exact:/box_evidence/x/3/1": true,
+    "exact:/box_evidence/y/3/0": true,
+    "exact:/box_evidence/y/3/1": true,
+    "positive_interval_4": true,
+    "exact:/box_evidence/gaps/1-2": true,
+    "strict_order_1_2": true,
+    "exact:/box_evidence/gaps/1-3": true,
+    "strict_order_1_3": true,
+    "exact:/box_evidence/gaps/1-4": true,
+    "strict_order_1_4": true,
+    "exact:/box_evidence/gaps/2-3": true,
+    "strict_order_2_3": true,
+    "exact:/box_evidence/gaps/2-4": true,
+    "strict_order_2_4": true,
+    "exact:/box_evidence/gaps/3-4": true,
+    "strict_order_3_4": true,
+    "/inverse_rows/0:node": true,
+    "/inverse_rows/0:other_nodes": true,
+    "exact:/inverse_rows/0/y_lower_fifth": true,
+    "/inverse_rows/0:separated_from_2": true,
+    "exact:/inverse_rows/0/gap_lower_factors/0": true,
+    "/inverse_rows/0:separated_from_3": true,
+    "exact:/inverse_rows/0/gap_lower_factors/1": true,
+    "/inverse_rows/0:separated_from_4": true,
+    "exact:/inverse_rows/0/gap_lower_factors/2": true,
+    "exact:/inverse_rows/0/denominator_lower": true,
+    "exact:/inverse_rows/0/numerator_absolute_uppers/0": true,
+    "exact:/inverse_rows/0/inverse_entry_absolute_uppers/0": true,
+    "/inverse_rows/0:strict_entry_sign_0": true,
+    "exact:/inverse_rows/0/inverse_entry_signed_enclosures/0/0": true,
+    "exact:/inverse_rows/0/inverse_entry_signed_enclosures/0/1": true,
+    "/inverse_rows/0:inclusion_0": true,
+    "exact:/inverse_rows/0/numerator_absolute_uppers/1": true,
+    "exact:/inverse_rows/0/inverse_entry_absolute_uppers/1": true,
+    "/inverse_rows/0:strict_entry_sign_1": true,
+    "exact:/inverse_rows/0/inverse_entry_signed_enclosures/1/0": true,
+    "exact:/inverse_rows/0/inverse_entry_signed_enclosures/1/1": true,
+    "/inverse_rows/0:inclusion_1": true,
+    "exact:/inverse_rows/0/numerator_absolute_uppers/2": true,
+    "exact:/inverse_rows/0/inverse_entry_absolute_uppers/2": true,
+    "/inverse_rows/0:strict_entry_sign_2": true,
+    "exact:/inverse_rows/0/inverse_entry_signed_enclosures/2/0": true,
+    "exact:/inverse_rows/0/inverse_entry_signed_enclosures/2/1": true,
+    "/inverse_rows/0:inclusion_2": true,
+    "exact:/inverse_rows/0/numerator_absolute_uppers/3": true,
+    "exact:/inverse_rows/0/inverse_entry_absolute_uppers/3": true,
+    "/inverse_rows/0:strict_entry_sign_3": true,
+    "exact:/inverse_rows/0/inverse_entry_signed_enclosures/3/0": true,
+    "exact:/inverse_rows/0/inverse_entry_signed_enclosures/3/1": true,
+    "/inverse_rows/0:inclusion_3": true,
+    "exact:/inverse_rows/0/row_square_upper": true,
+    "/inverse_rows/1:node": true,
+    "/inverse_rows/1:other_nodes": true,
+    "exact:/inverse_rows/1/y_lower_fifth": true,
+    "/inverse_rows/1:separated_from_1": true,
+    "exact:/inverse_rows/1/gap_lower_factors/0": true,
+    "/inverse_rows/1:separated_from_3": true,
+    "exact:/inverse_rows/1/gap_lower_factors/1": true,
+    "/inverse_rows/1:separated_from_4": true,
+    "exact:/inverse_rows/1/gap_lower_factors/2": true,
+    "exact:/inverse_rows/1/denominator_lower": true,
+    "exact:/inverse_rows/1/numerator_absolute_uppers/0": true,
+    "exact:/inverse_rows/1/inverse_entry_absolute_uppers/0": true,
+    "/inverse_rows/1:strict_entry_sign_0": true,
+    "exact:/inverse_rows/1/inverse_entry_signed_enclosures/0/0": true,
+    "exact:/inverse_rows/1/inverse_entry_signed_enclosures/0/1": true,
+    "/inverse_rows/1:inclusion_0": true,
+    "exact:/inverse_rows/1/numerator_absolute_uppers/1": true,
+    "exact:/inverse_rows/1/inverse_entry_absolute_uppers/1": true,
+    "/inverse_rows/1:strict_entry_sign_1": true,
+    "exact:/inverse_rows/1/inverse_entry_signed_enclosures/1/0": true,
+    "exact:/inverse_rows/1/inverse_entry_signed_enclosures/1/1": true,
+    "/inverse_rows/1:inclusion_1": true,
+    "exact:/inverse_rows/1/numerator_absolute_uppers/2": true,
+    "exact:/inverse_rows/1/inverse_entry_absolute_uppers/2": true,
+    "/inverse_rows/1:strict_entry_sign_2": true,
+    "exact:/inverse_rows/1/inverse_entry_signed_enclosures/2/0": true,
+    "exact:/inverse_rows/1/inverse_entry_signed_enclosures/2/1": true,
+    "/inverse_rows/1:inclusion_2": true,
+    "exact:/inverse_rows/1/numerator_absolute_uppers/3": true,
+    "exact:/inverse_rows/1/inverse_entry_absolute_uppers/3": true,
+    "/inverse_rows/1:strict_entry_sign_3": true,
+    "exact:/inverse_rows/1/inverse_entry_signed_enclosures/3/0": true,
+    "exact:/inverse_rows/1/inverse_entry_signed_enclosures/3/1": true,
+    "/inverse_rows/1:inclusion_3": true,
+    "exact:/inverse_rows/1/row_square_upper": true,
+    "/inverse_rows/2:node": true,
+    "/inverse_rows/2:other_nodes": true,
+    "exact:/inverse_rows/2/y_lower_fifth": true,
+    "/inverse_rows/2:separated_from_1": true,
+    "exact:/inverse_rows/2/gap_lower_factors/0": true,
+    "/inverse_rows/2:separated_from_2": true,
+    "exact:/inverse_rows/2/gap_lower_factors/1": true,
+    "/inverse_rows/2:separated_from_4": true,
+    "exact:/inverse_rows/2/gap_lower_factors/2": true,
+    "exact:/inverse_rows/2/denominator_lower": true,
+    "exact:/inverse_rows/2/numerator_absolute_uppers/0": true,
+    "exact:/inverse_rows/2/inverse_entry_absolute_uppers/0": true,
+    "/inverse_rows/2:strict_entry_sign_0": true,
+    "exact:/inverse_rows/2/inverse_entry_signed_enclosures/0/0": true,
+    "exact:/inverse_rows/2/inverse_entry_signed_enclosures/0/1": true,
+    "/inverse_rows/2:inclusion_0": true,
+    "exact:/inverse_rows/2/numerator_absolute_uppers/1": true,
+    "exact:/inverse_rows/2/inverse_entry_absolute_uppers/1": true,
+    "/inverse_rows/2:strict_entry_sign_1": true,
+    "exact:/inverse_rows/2/inverse_entry_signed_enclosures/1/0": true,
+    "exact:/inverse_rows/2/inverse_entry_signed_enclosures/1/1": true,
+    "/inverse_rows/2:inclusion_1": true,
+    "exact:/inverse_rows/2/numerator_absolute_uppers/2": true,
+    "exact:/inverse_rows/2/inverse_entry_absolute_uppers/2": true,
+    "/inverse_rows/2:strict_entry_sign_2": true,
+    "exact:/inverse_rows/2/inverse_entry_signed_enclosures/2/0": true,
+    "exact:/inverse_rows/2/inverse_entry_signed_enclosures/2/1": true,
+    "/inverse_rows/2:inclusion_2": true,
+    "exact:/inverse_rows/2/numerator_absolute_uppers/3": true,
+    "exact:/inverse_rows/2/inverse_entry_absolute_uppers/3": true,
+    "/inverse_rows/2:strict_entry_sign_3": true,
+    "exact:/inverse_rows/2/inverse_entry_signed_enclosures/3/0": true,
+    "exact:/inverse_rows/2/inverse_entry_signed_enclosures/3/1": true,
+    "/inverse_rows/2:inclusion_3": true,
+    "exact:/inverse_rows/2/row_square_upper": true,
+    "/inverse_rows/3:node": true,
+    "/inverse_rows/3:other_nodes": true,
+    "exact:/inverse_rows/3/y_lower_fifth": true,
+    "/inverse_rows/3:separated_from_1": true,
+    "exact:/inverse_rows/3/gap_lower_factors/0": true,
+    "/inverse_rows/3:separated_from_2": true,
+    "exact:/inverse_rows/3/gap_lower_factors/1": true,
+    "/inverse_rows/3:separated_from_3": true,
+    "exact:/inverse_rows/3/gap_lower_factors/2": true,
+    "exact:/inverse_rows/3/denominator_lower": true,
+    "exact:/inverse_rows/3/numerator_absolute_uppers/0": true,
+    "exact:/inverse_rows/3/inverse_entry_absolute_uppers/0": true,
+    "/inverse_rows/3:strict_entry_sign_0": true,
+    "exact:/inverse_rows/3/inverse_entry_signed_enclosures/0/0": true,
+    "exact:/inverse_rows/3/inverse_entry_signed_enclosures/0/1": true,
+    "/inverse_rows/3:inclusion_0": true,
+    "exact:/inverse_rows/3/numerator_absolute_uppers/1": true,
+    "exact:/inverse_rows/3/inverse_entry_absolute_uppers/1": true,
+    "/inverse_rows/3:strict_entry_sign_1": true,
+    "exact:/inverse_rows/3/inverse_entry_signed_enclosures/1/0": true,
+    "exact:/inverse_rows/3/inverse_entry_signed_enclosures/1/1": true,
+    "/inverse_rows/3:inclusion_1": true,
+    "exact:/inverse_rows/3/numerator_absolute_uppers/2": true,
+    "exact:/inverse_rows/3/inverse_entry_absolute_uppers/2": true,
+    "/inverse_rows/3:strict_entry_sign_2": true,
+    "exact:/inverse_rows/3/inverse_entry_signed_enclosures/2/0": true,
+    "exact:/inverse_rows/3/inverse_entry_signed_enclosures/2/1": true,
+    "/inverse_rows/3:inclusion_2": true,
+    "exact:/inverse_rows/3/numerator_absolute_uppers/3": true,
+    "exact:/inverse_rows/3/inverse_entry_absolute_uppers/3": true,
+    "/inverse_rows/3:strict_entry_sign_3": true,
+    "exact:/inverse_rows/3/inverse_entry_signed_enclosures/3/0": true,
+    "exact:/inverse_rows/3/inverse_entry_signed_enclosures/3/1": true,
+    "/inverse_rows/3:inclusion_3": true,
+    "exact:/inverse_rows/3/row_square_upper": true,
+    "exact:/comparison/tail_components/0": true,
+    "exact:/comparison/tail_components/1": true,
+    "exact:/comparison/tail_components/2": true,
+    "exact:/comparison/tail_components/3": true,
+    "exact:/comparison/B": true,
+    "exact:/comparison/head_lower_r4": true,
+    "exact:/comparison/tail_vector_factor": true,
+    "exact:/comparison/first_shell": true,
+    "exact:/comparison/integral": true,
+    "exact:/comparison/tail_upper_r4": true,
+    "exact:/comparison/required_head_minus_tail": true,
+    "exact:/comparison/actual_head_minus_tail": true,
+    "exact:/comparison/head_over_tail": true,
+    "exact:/all_r/head_step": true,
+    "exact:/all_r/tail_step": true,
+    "exact:/all_r/relative_step": true,
+    "strict_cross_product": true,
+    "strict_head_exceeds_tail": true,
+    "every_shift_relative_factor": true,
+    "frozen_parameters": true,
+    "target": true,
+    "assessment": true,
+    "array_dimensions": true,
+    "all_original_booleans_reconstructed": true,
+    "original_failures_empty": true,
+    "every_rational_operand_compared": true,
+    "original_certificate_unchanged": true,
+    "original_generator_unchanged": true
+  },
+  "failures": [],
+  "summary": {
+    "rational_operands": 126,
+    "inverse_inclusions": 16,
+    "checks": 200,
+    "passed": 200,
+    "failures": []
+  },
+  "limits": "Finite certificate audit only; analytic proof is in C919l, source computations and backend correctness are imported."
+}

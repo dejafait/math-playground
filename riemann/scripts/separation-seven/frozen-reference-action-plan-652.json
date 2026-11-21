@@ -1,0 +1,142 @@
+{
+  "result": "CONSERVATIVE_UNIFORM_PLAN_NOT_EXECUTED",
+  "certified_action": false,
+  "source_archive_sha256": "2b770a8a689a972ae487b9dd718e2e6d47b6769a5530e7fec244a102c5c317c6",
+  "script_sha256": "e7e3ae0a2eea6e7a5882e4a9dbc7309dba7c114b27b8a8e5cb0d4d5ae3dba5ef",
+  "requested_action_tolerance_per_parity": {
+    "numerator": "1",
+    "denominator": "10000"
+  },
+  "records": [
+    {
+      "column": 0,
+      "M_upper": {
+        "numerator": "6955852757871473384015303",
+        "denominator": "604462909807314587353088"
+      },
+      "L_upper": {
+        "numerator": "24391413643978363562293707",
+        "denominator": "37778931862957161709568"
+      },
+      "input_intervals": 23242873,
+      "input_scalar_error": {
+        "numerator": "1",
+        "denominator": "240000"
+      },
+      "endpoint_tau_over_a": {
+        "numerator": "1",
+        "denominator": "140737488355328"
+      },
+      "endpoint_squared_bound": {
+        "numerator": "174327146983845020219684234020493756250718550269057827",
+        "denominator": "257110087081438444086713934774586016403552479005246853648220160"
+      },
+      "output_intervals": 48586070243302779627,
+      "output_scalar_error": {
+        "numerator": "1",
+        "denominator": "60000"
+      },
+      "input_error_upper": {
+        "numerator": "54880681454674618821828917527",
+        "denominator": "1646420466311937588854909829120000"
+      },
+      "output_error_upper": {
+        "numerator": "8694815947339341730089982679",
+        "denominator": "260844478420180251904825098240000"
+      },
+      "allocated_each_term": {
+        "numerator": "1",
+        "denominator": "30000"
+      },
+      "checks_pass": true
+    },
+    {
+      "column": 1,
+      "M_upper": {
+        "numerator": "1243324995485461734106391",
+        "denominator": "151115727451828646838272"
+      },
+      "L_upper": {
+        "numerator": "35167043408402678416635867",
+        "denominator": "75557863725914323419136"
+      },
+      "input_intervals": 16755550,
+      "input_scalar_error": {
+        "numerator": "1",
+        "denominator": "240000"
+      },
+      "endpoint_tau_over_a": {
+        "numerator": "1",
+        "denominator": "70368744177664"
+      },
+      "endpoint_squared_bound": {
+        "numerator": "2137920292403711119589953988230493521903609643070423",
+        "denominator": "3213876088517980551083924184682325205044405987565585670602752"
+      },
+      "output_intervals": 17369049538189476367,
+      "output_scalar_error": {
+        "numerator": "1",
+        "denominator": "60000"
+      },
+      "input_error_upper": {
+        "numerator": "3165033907819050205955494271",
+        "denominator": "94951017266455780632412815360000"
+      },
+      "output_error_upper": {
+        "numerator": "4662468733070481502937917301",
+        "denominator": "139874061992114445089306050560000"
+      },
+      "allocated_each_term": {
+        "numerator": "1",
+        "denominator": "30000"
+      },
+      "checks_pass": true
+    },
+    {
+      "column": 2,
+      "M_upper": {
+        "numerator": "289316305864449481546764829",
+        "denominator": "19342813113834066795298816"
+      },
+      "L_upper": {
+        "numerator": "1852271812000871725674295599",
+        "denominator": "2417851639229258349412352"
+      },
+      "input_intervals": 27578940,
+      "input_scalar_error": {
+        "numerator": "1",
+        "denominator": "240000"
+      },
+      "endpoint_tau_over_a": {
+        "numerator": "1",
+        "denominator": "281474976710656"
+      },
+      "endpoint_squared_bound": {
+        "numerator": "628030548067404796065085544380702307203540049564188505223",
+        "denominator": "1053122916685571866979180276836704323188950954005491112543109775360"
+      },
+      "output_intervals": 126303190713711729716,
+      "output_scalar_error": {
+        "numerator": "1",
+        "denominator": "60000"
+      },
+      "input_error_upper": {
+        "numerator": "277840771915076550806701942981",
+        "denominator": "8335223160900670282867786383360000"
+      },
+      "output_error_upper": {
+        "numerator": "1084936146991685555801995422311",
+        "denominator": "32548084409750566674108682076160000"
+      },
+      "allocated_each_term": {
+        "numerator": "1",
+        "denominator": "30000"
+      },
+      "checks_pass": true
+    }
+  ],
+  "failures": [
+    "No step arrays, Carleman actions or complete residuals evaluated"
+  ],
+  "qualification": "Counts are sufficient for this deliberately coarse uniform prescription, not necessary complexity bounds or a mathematical obstruction to another solver."
+}

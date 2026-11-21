@@ -1,0 +1,143 @@
+{
+  "scope": "C744y scalar full-covariance/energy-metric extraction only; fixed tau-window=1/4",
+  "classification": "REPRODUCTION; local specialization of imported block/form methods",
+  "inherited_audit_sha256": "d5077c2fe2061f260f7647b0989a044cb852d164e13bf52949b0d1788bfcacd1",
+  "inherited_artifacts": [
+    {
+      "path": "certificate-audit-534.json",
+      "sha256": "99efabcd92296cb5814c7ff7e18f969bfd060665ae5c80ef821c74d04e79c301",
+      "passed": true
+    },
+    {
+      "path": "complete-covariance-532.npz",
+      "sha256": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "passed": true
+    },
+    {
+      "path": "complete-residual-certificate-532.json",
+      "sha256": "551869d972416d67966319e9d99a171123096e238a08a9340f44c08e74df4c70",
+      "passed": true
+    },
+    {
+      "path": "matrix-tail-matrices-539.npz",
+      "sha256": "edfd9eff9d682bc9d498ad2a1f774829c1c1d324fbf1e39fd2d30cdc530167b5",
+      "passed": true
+    },
+    {
+      "path": "matrix-tail-factor-539.npz",
+      "sha256": "d8424f06c6696ca0fc0568d4c8e272f78c6a1727ea1124df0f8eb91c7ac1f9a6",
+      "passed": true
+    },
+    {
+      "path": "complete-schur-531.py",
+      "sha256": "0ca836a6b0a4c9511e1495420b060496718acc083579a7f306e630fd951a83fc",
+      "passed": true
+    },
+    {
+      "path": "residual-certificate-532.py",
+      "sha256": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5",
+      "passed": true
+    }
+  ],
+  "exact_inputs": {
+    "tau": "143/100",
+    "paid_head_floor": "13999/500000",
+    "T_norm_upper": "471/100",
+    "finite_factor_norm_sum_upper": "1581/500",
+    "eQ_upper": ".000000181",
+    "Z_norm_squared": 256
+  },
+  "exact_extraction": {
+    "eF_upper": "1731181/1000000000",
+    "finite_factor_upper": "3163731181/1000000000",
+    "U_norm": "6401/125000",
+    "full_factor_squared_upper": "10060402985631654761/1000000000000000000",
+    "rounded_full_factor_squared_upper": "10061/1000",
+    "L2_floor_lower": "943277/200000000",
+    "scalar_optimum_upper": "2358193/500000000",
+    "lower_condition_numerator": "15172162647/4000000000000000000",
+    "upper_condition_numerator": "-208485190393/25000000000000000000",
+    "relative_energy_margin_lower": "943277/942943277",
+    "R_norm_upper": "942000000/942943277",
+    "R_norm_squared_upper": "887364000000000000/889142023639498729",
+    "scalar_method_norm_squared_lower_endpoint": "5546025000000000000/5557137650104225249",
+    "defect_floor_lower": "1778023639498729/889142023639498729"
+  },
+  "window_test": {
+    "required_strict_norm_squared_upper": "3/4",
+    "upper_bound_crosses_required_threshold": false,
+    "interpretation": "Threshold missed by this scalarized comparison; actual windows neither empty nor nonempty certified."
+  },
+  "checks": [
+    {
+      "label": "inherited audit failures empty",
+      "passed": true
+    },
+    {
+      "label": "inherited paid floor",
+      "passed": true
+    },
+    {
+      "label": "unchanged certificate-audit-534.json",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete-residual-certificate-532.json",
+      "passed": true
+    },
+    {
+      "label": "unchanged matrix-tail-matrices-539.npz",
+      "passed": true
+    },
+    {
+      "label": "unchanged matrix-tail-factor-539.npz",
+      "passed": true
+    },
+    {
+      "label": "unchanged complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "label": "unchanged residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "label": "finite rectangle square-root upper",
+      "passed": true
+    },
+    {
+      "label": "orthogonal finite/high covariance bound",
+      "passed": true
+    },
+    {
+      "label": "positive full L2 floor",
+      "passed": true
+    },
+    {
+      "label": "admissible lower root bracket",
+      "passed": true
+    },
+    {
+      "label": "inadmissible upper root bracket",
+      "passed": true
+    },
+    {
+      "label": "strict normalized contraction",
+      "passed": true
+    },
+    {
+      "label": "reported outward norm square",
+      "passed": true
+    },
+    {
+      "label": "scalar method cannot reach window threshold",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "qualifications": "Inherits C744v/w/y analytic and IEEE754/Decimal contracts and C744z restricted-form/core setup; no upstream replay, sharp projector, full S3 sign, H2 or Xi transfer. c_* source certificate remains unreplayed."
+}

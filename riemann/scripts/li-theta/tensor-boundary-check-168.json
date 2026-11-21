@@ -1,0 +1,2110 @@
+{
+  "summary": {
+    "cases": [
+      2,
+      3
+    ],
+    "tensor_strata_including_interiors_and_intersections": 24,
+    "max_exact_residual": "0",
+    "required_residual": "0",
+    "actual_ray_limit_sign": "negative at both orders for every kappa>0",
+    "required_sign_for_pointwise_payment": "nonnegative everywhere",
+    "failures": [],
+    "scope": "Refutes only this boundary-spreading pointwise rule; integrated L966(16) remains open."
+  },
+  "cases": [
+    {
+      "n": 2,
+      "h": "5184",
+      "delta": "20735/4",
+      "sqrt_h": "72",
+      "D": [
+        "1",
+        "4"
+      ],
+      "d": [
+        "1719926784/429940225",
+        "20736/20735"
+      ],
+      "coefficient_residuals": [
+        "0",
+        "0"
+      ],
+      "raw_tensor": [
+        {
+          "coefficient": "1719926784/429940225",
+          "factors": [
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              1
+            ],
+            [
+              "h",
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": "20736/20735",
+          "factors": [
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              2
+            ],
+            [
+              "h",
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": "-20736/20735",
+          "factors": [
+            [
+              "b",
+              1
+            ],
+            [
+              "b",
+              1
+            ],
+            [
+              "h",
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": "-1719926784/429940225",
+          "factors": [
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              0
+            ],
+            [
+              "h",
+              1
+            ]
+          ]
+        }
+      ],
+      "bell_tensor_matches": true,
+      "all_faces": [
+        {
+          "live_coordinates": [],
+          "integrated_polynomial": []
+        },
+        {
+          "live_coordinates": [
+            3
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": "-71663616/20735"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-286654464/429940225"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "6912/20735"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "286654464/429940225"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            2
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": "-71663616/20735"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-286654464/429940225"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "6912/20735"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "286654464/429940225"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            2,
+            3
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "6912"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "286654464/20735"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-13824/20735"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": "-71663616/20735"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-286654464/429940225"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "6912/20735"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "286654464/429940225"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            3
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "6912"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "286654464/20735"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-13824/20735"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            2
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "6912"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "286654464/20735"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-13824/20735"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            2,
+            3
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-41472"
+            }
+          ]
+        }
+      ],
+      "stratum_checks": [
+        {
+          "dimension": 0,
+          "summed_face_polynomial": [],
+          "residual": []
+        },
+        {
+          "dimension": 1,
+          "summed_face_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": "-214990848/20735"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-859963392/429940225"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "20736/20735"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "859963392/429940225"
+            }
+          ],
+          "residual": []
+        },
+        {
+          "dimension": 2,
+          "summed_face_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "20736"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "859963392/20735"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-41472/20735"
+            }
+          ],
+          "residual": []
+        },
+        {
+          "dimension": 3,
+          "summed_face_polynomial": [
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-41472"
+            }
+          ],
+          "residual": []
+        }
+      ],
+      "unequal_symmetry_faces": [],
+      "derivative_checks": [
+        {
+          "q": "1/2",
+          "r": 0,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        },
+        {
+          "q": "1/2",
+          "r": 1,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        },
+        {
+          "q": "1/2",
+          "r": 2,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        },
+        {
+          "q": "72",
+          "r": 0,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        },
+        {
+          "q": "72",
+          "r": 1,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        }
+      ],
+      "ray_check": {
+        "variables": "exponents=(exponential_rate,t_degree,kappa_power); kappa>0",
+        "full_ray_exponential_polynomial": [
+          {
+            "exponents": [
+              "-72",
+              "0",
+              "0"
+            ],
+            "coefficient": "-6912"
+          },
+          {
+            "exponents": [
+              "-72",
+              "0",
+              "1"
+            ],
+            "coefficient": "286654464/20735"
+          },
+          {
+            "exponents": [
+              "-72",
+              "0",
+              "2"
+            ],
+            "coefficient": "-573308928/429940225"
+          },
+          {
+            "exponents": [
+              "-72",
+              "1",
+              "2"
+            ],
+            "coefficient": "995328/20735"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "0",
+              "0"
+            ],
+            "coefficient": "-13824"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "0",
+              "1"
+            ],
+            "coefficient": "573267456/20735"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "0",
+              "2"
+            ],
+            "coefficient": "573308928/429940225"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "1",
+              "1"
+            ],
+            "coefficient": "-6912"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "1",
+              "2"
+            ],
+            "coefficient": "-13824/20735"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "0",
+              "0"
+            ],
+            "coefficient": "-13824"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "0",
+              "1"
+            ],
+            "coefficient": "573267456/20735"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "0",
+              "2"
+            ],
+            "coefficient": "573308928/429940225"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "1",
+              "1"
+            ],
+            "coefficient": "6912"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "1",
+              "2"
+            ],
+            "coefficient": "13824/20735"
+          },
+          {
+            "exponents": [
+              "72",
+              "0",
+              "0"
+            ],
+            "coefficient": "-6912"
+          },
+          {
+            "exponents": [
+              "72",
+              "0",
+              "1"
+            ],
+            "coefficient": "286654464/20735"
+          },
+          {
+            "exponents": [
+              "72",
+              "0",
+              "2"
+            ],
+            "coefficient": "-573308928/429940225"
+          },
+          {
+            "exponents": [
+              "72",
+              "1",
+              "2"
+            ],
+            "coefficient": "-995328/20735"
+          }
+        ],
+        "dominant_coefficient_of_t_exp_sqrt_h_t": [
+          {
+            "exponents": [
+              "72",
+              "1",
+              "2"
+            ],
+            "coefficient": "-995328/20735"
+          }
+        ],
+        "expected_dominant_coefficient": [
+          {
+            "exponents": [
+              "72",
+              "1",
+              "2"
+            ],
+            "coefficient": "-995328/20735"
+          }
+        ],
+        "dominant_residual": [],
+        "other_exponential_rates": [
+          "-72",
+          "-1/2",
+          "1/2"
+        ],
+        "required_dominant_sign": "strictly negative for every kappa>0",
+        "actual_dominant_sign": "strictly negative for every kappa>0"
+      },
+      "failures": []
+    },
+    {
+      "n": 3,
+      "h": "46656",
+      "delta": "186623/4",
+      "sqrt_h": "216",
+      "D": [
+        "1",
+        "6",
+        "9"
+      ],
+      "d": [
+        "58498744012298496/6499732741786367",
+        "208970731008/34828144129",
+        "186624/186623"
+      ],
+      "coefficient_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "raw_tensor": [
+        {
+          "coefficient": "58498744012298496/6499732741786367",
+          "factors": [
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              1
+            ],
+            [
+              "h",
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": "208970731008/34828144129",
+          "factors": [
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              2
+            ],
+            [
+              "h",
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": "-208970731008/34828144129",
+          "factors": [
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              1
+            ],
+            [
+              "b",
+              1
+            ],
+            [
+              "h",
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": "93312/186623",
+          "factors": [
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              3
+            ],
+            [
+              "h",
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": "-279936/186623",
+          "factors": [
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              1
+            ],
+            [
+              "b",
+              2
+            ],
+            [
+              "h",
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": "186624/186623",
+          "factors": [
+            [
+              "b",
+              1
+            ],
+            [
+              "b",
+              1
+            ],
+            [
+              "b",
+              1
+            ],
+            [
+              "h",
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": "-58498744012298496/6499732741786367",
+          "factors": [
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              0
+            ],
+            [
+              "b",
+              0
+            ],
+            [
+              "h",
+              1
+            ]
+          ]
+        }
+      ],
+      "bell_tensor_matches": true,
+      "all_faces": [
+        {
+          "live_coordinates": [],
+          "integrated_polynomial": []
+        },
+        {
+          "live_coordinates": [
+            4
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": "-914042875192164/34828144129"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-3656171500768656/6499732741786367"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "coefficient": "17496/186623"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "26121341376/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "3656171500768656/6499732741786367"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            3
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": "-914042875192164/34828144129"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-3656171500768656/6499732741786367"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "coefficient": "17496/186623"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "26121341376/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "3656171500768656/6499732741786367"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            3,
+            4
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            2
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": "-914042875192164/34828144129"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-3656171500768656/6499732741786367"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "coefficient": "17496/186623"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "26121341376/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "3656171500768656/6499732741786367"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            2,
+            4
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            2,
+            3
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            2,
+            3,
+            4
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-139968"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-52242682752/186623"
+            },
+            {
+              "exponents": [
+                "3",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "186624/186623"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": "-914042875192164/34828144129"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-3656171500768656/6499732741786367"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "coefficient": "17496/186623"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "26121341376/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "3656171500768656/6499732741786367"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            4
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            3
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            3,
+            4
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-139968"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-52242682752/186623"
+            },
+            {
+              "exponents": [
+                "3",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "186624/186623"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            2
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            2,
+            4
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-139968"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-52242682752/186623"
+            },
+            {
+              "exponents": [
+                "3",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "186624/186623"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            2,
+            3
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-139968"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-52242682752/186623"
+            },
+            {
+              "exponents": [
+                "3",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "186624/186623"
+            }
+          ]
+        },
+        {
+          "live_coordinates": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "integrated_polynomial": [
+            {
+              "exponents": [
+                "3",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "746496"
+            }
+          ]
+        }
+      ],
+      "stratum_checks": [
+        {
+          "dimension": 0,
+          "summed_face_polynomial": [],
+          "residual": []
+        },
+        {
+          "dimension": 1,
+          "summed_face_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "0",
+                "1"
+              ],
+              "coefficient": "-3656171500768656/34828144129"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-14624686003074624/6499732741786367"
+            },
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ],
+              "coefficient": "69984/186623"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "104485365504/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "14624686003074624/6499732741786367"
+            }
+          ],
+          "residual": []
+        },
+        {
+          "dimension": 2,
+          "summed_face_polynomial": [
+            {
+              "exponents": [
+                "0",
+                "0",
+                "1",
+                "1",
+                "0"
+              ],
+              "coefficient": "69984"
+            },
+            {
+              "exponents": [
+                "0",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "104485365504/186623"
+            },
+            {
+              "exponents": [
+                "1",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "14624686003074624/34828144129"
+            },
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-559872/186623"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "-208970731008/34828144129"
+            }
+          ],
+          "residual": []
+        },
+        {
+          "dimension": 3,
+          "summed_face_polynomial": [
+            {
+              "exponents": [
+                "1",
+                "1",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-559872"
+            },
+            {
+              "exponents": [
+                "2",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "-208970731008/186623"
+            },
+            {
+              "exponents": [
+                "3",
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              "coefficient": "746496/186623"
+            }
+          ],
+          "residual": []
+        },
+        {
+          "dimension": 4,
+          "summed_face_polynomial": [
+            {
+              "exponents": [
+                "3",
+                "0",
+                "0",
+                "1",
+                "0"
+              ],
+              "coefficient": "746496"
+            }
+          ],
+          "residual": []
+        }
+      ],
+      "unequal_symmetry_faces": [],
+      "derivative_checks": [
+        {
+          "q": "1/2",
+          "r": 0,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        },
+        {
+          "q": "1/2",
+          "r": 1,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        },
+        {
+          "q": "1/2",
+          "r": 2,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        },
+        {
+          "q": "1/2",
+          "r": 3,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        },
+        {
+          "q": "216",
+          "r": 0,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        },
+        {
+          "q": "216",
+          "r": 1,
+          "operator_residual": [],
+          "origin_value_residual": [],
+          "origin_normal_derivative": []
+        }
+      ],
+      "ray_check": {
+        "variables": "exponents=(exponential_rate,t_degree,kappa_power); kappa>0",
+        "full_ray_exponential_polynomial": [
+          {
+            "exponents": [
+              "-216",
+              "0",
+              "0"
+            ],
+            "coefficient": "93312"
+          },
+          {
+            "exponents": [
+              "-216",
+              "0",
+              "1"
+            ],
+            "coefficient": "-52242682752/186623"
+          },
+          {
+            "exponents": [
+              "-216",
+              "0",
+              "2"
+            ],
+            "coefficient": "7312343001537312/34828144129"
+          },
+          {
+            "exponents": [
+              "-216",
+              "0",
+              "3"
+            ],
+            "coefficient": "-14624686003074624/6499732741786367"
+          },
+          {
+            "exponents": [
+              "-216",
+              "1",
+              "3"
+            ],
+            "coefficient": "8463359955483/34828144129"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "0",
+              "0"
+            ],
+            "coefficient": "279936"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "0",
+              "1"
+            ],
+            "coefficient": "-156727301760/186623"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "0",
+              "2"
+            ],
+            "coefficient": "21936611063149920/34828144129"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "0",
+              "3"
+            ],
+            "coefficient": "14624686003074624/6499732741786367"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "1",
+              "1"
+            ],
+            "coefficient": "139968"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "1",
+              "2"
+            ],
+            "coefficient": "-39181778784/186623"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "1",
+              "3"
+            ],
+            "coefficient": "-78364117440/34828144129"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "2",
+              "2"
+            ],
+            "coefficient": "34992"
+          },
+          {
+            "exponents": [
+              "-1/2",
+              "2",
+              "3"
+            ],
+            "coefficient": "69984/186623"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "0",
+              "0"
+            ],
+            "coefficient": "279936"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "0",
+              "1"
+            ],
+            "coefficient": "-156727301760/186623"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "0",
+              "2"
+            ],
+            "coefficient": "21936611063149920/34828144129"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "0",
+              "3"
+            ],
+            "coefficient": "14624686003074624/6499732741786367"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "1",
+              "1"
+            ],
+            "coefficient": "-139968"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "1",
+              "2"
+            ],
+            "coefficient": "39181778784/186623"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "1",
+              "3"
+            ],
+            "coefficient": "78364117440/34828144129"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "2",
+              "2"
+            ],
+            "coefficient": "34992"
+          },
+          {
+            "exponents": [
+              "1/2",
+              "2",
+              "3"
+            ],
+            "coefficient": "69984/186623"
+          },
+          {
+            "exponents": [
+              "216",
+              "0",
+              "0"
+            ],
+            "coefficient": "93312"
+          },
+          {
+            "exponents": [
+              "216",
+              "0",
+              "1"
+            ],
+            "coefficient": "-52242682752/186623"
+          },
+          {
+            "exponents": [
+              "216",
+              "0",
+              "2"
+            ],
+            "coefficient": "7312343001537312/34828144129"
+          },
+          {
+            "exponents": [
+              "216",
+              "0",
+              "3"
+            ],
+            "coefficient": "-14624686003074624/6499732741786367"
+          },
+          {
+            "exponents": [
+              "216",
+              "1",
+              "3"
+            ],
+            "coefficient": "-8463359955483/34828144129"
+          }
+        ],
+        "dominant_coefficient_of_t_exp_sqrt_h_t": [
+          {
+            "exponents": [
+              "216",
+              "1",
+              "3"
+            ],
+            "coefficient": "-8463359955483/34828144129"
+          }
+        ],
+        "expected_dominant_coefficient": [
+          {
+            "exponents": [
+              "216",
+              "1",
+              "3"
+            ],
+            "coefficient": "-8463359955483/34828144129"
+          }
+        ],
+        "dominant_residual": [],
+        "other_exponential_rates": [
+          "-216",
+          "-1/2",
+          "1/2"
+        ],
+        "required_dominant_sign": "strictly negative for every kappa>0",
+        "actual_dominant_sign": "strictly negative for every kappa>0"
+      },
+      "failures": []
+    }
+  ]
+}

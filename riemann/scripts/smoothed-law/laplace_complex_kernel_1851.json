@@ -1,0 +1,487 @@
+{
+  "scope": "Exact rational complex-strip sign target only; no contour or C034c(20).",
+  "identity": "-K(z,w)=96 P(z^2,w^2)/(H(z^2)H(w^2)); H(t)=t^2(t+1)^4(t+2)^4",
+  "coefficient_order": "matrix[i][j] is the coefficient of t^i u^j; shifted substitutes t=T+1,u=U+1",
+  "factors": {
+    "a1": [
+      0,
+      16,
+      112,
+      296,
+      400,
+      305,
+      133,
+      31,
+      3
+    ],
+    "a2": [
+      0,
+      8,
+      52,
+      142,
+      211,
+      184,
+      94,
+      26,
+      3
+    ],
+    "b1": [
+      16,
+      96,
+      232,
+      424,
+      473,
+      284,
+      85,
+      10
+    ],
+    "b2": [
+      8,
+      48,
+      122,
+      178,
+      172,
+      116,
+      50,
+      10
+    ]
+  },
+  "raw_coefficients": [
+    [
+      0,
+      0,
+      -64,
+      -96,
+      176,
+      504,
+      440,
+      168,
+      24
+    ],
+    [
+      0,
+      0,
+      -480,
+      -32,
+      2088,
+      3440,
+      2520,
+      928,
+      144
+    ],
+    [
+      -64,
+      -480,
+      -3200,
+      -1056,
+      5484,
+      7254,
+      4402,
+      1650,
+      330
+    ],
+    [
+      -96,
+      -32,
+      -1056,
+      15040,
+      34518,
+      29718,
+      13452,
+      3966,
+      738
+    ],
+    [
+      176,
+      2088,
+      5484,
+      34518,
+      62006,
+      48096,
+      19521,
+      5076,
+      903
+    ],
+    [
+      504,
+      3440,
+      7254,
+      29718,
+      48096,
+      33752,
+      11658,
+      2578,
+      504
+    ],
+    [
+      440,
+      2520,
+      4402,
+      13452,
+      19521,
+      11658,
+      2680,
+      270,
+      105
+    ],
+    [
+      168,
+      928,
+      1650,
+      3966,
+      5076,
+      2578,
+      270,
+      -100,
+      0
+    ],
+    [
+      24,
+      144,
+      330,
+      738,
+      903,
+      504,
+      105,
+      0,
+      0
+    ]
+  ],
+  "shifted_coefficients": [
+    [
+      508032,
+      2179008,
+      3953232,
+      3946368,
+      2392228,
+      926936,
+      233744,
+      36520,
+      2748
+    ],
+    [
+      2179008,
+      9089280,
+      16045344,
+      15550080,
+      9112316,
+      3404176,
+      832384,
+      128480,
+      9780
+    ],
+    [
+      3953232,
+      16045344,
+      27571536,
+      25929720,
+      14655039,
+      5251994,
+      1237568,
+      188350,
+      14577
+    ],
+    [
+      3946368,
+      15550080,
+      25929720,
+      23543040,
+      12716570,
+      4307902,
+      962416,
+      143870,
+      11490
+    ],
+    [
+      2392228,
+      9112316,
+      14655039,
+      12716570,
+      6442436,
+      1994826,
+      404367,
+      58500,
+      4998
+    ],
+    [
+      926936,
+      3404176,
+      5251994,
+      4307902,
+      1994826,
+      529352,
+      85726,
+      11170,
+      1134
+    ],
+    [
+      233744,
+      832384,
+      1237568,
+      962416,
+      404367,
+      85726,
+      7440,
+      410,
+      105
+    ],
+    [
+      36520,
+      128480,
+      188350,
+      143870,
+      58500,
+      11170,
+      410,
+      -100,
+      0
+    ],
+    [
+      2748,
+      9780,
+      14577,
+      11490,
+      4998,
+      1134,
+      105,
+      0,
+      0
+    ]
+  ],
+  "negative_raw": [
+    [
+      0,
+      2,
+      -64
+    ],
+    [
+      0,
+      3,
+      -96
+    ],
+    [
+      1,
+      2,
+      -480
+    ],
+    [
+      1,
+      3,
+      -32
+    ],
+    [
+      2,
+      0,
+      -64
+    ],
+    [
+      2,
+      1,
+      -480
+    ],
+    [
+      2,
+      2,
+      -3200
+    ],
+    [
+      2,
+      3,
+      -1056
+    ],
+    [
+      3,
+      0,
+      -96
+    ],
+    [
+      3,
+      1,
+      -32
+    ],
+    [
+      3,
+      2,
+      -1056
+    ],
+    [
+      7,
+      7,
+      -100
+    ]
+  ],
+  "negative_shifted": [
+    [
+      7,
+      7,
+      -100
+    ]
+  ],
+  "identity_difference_numerators": {
+    "Q1_second_formula": [
+      0
+    ],
+    "Q1_cleared": [
+      0
+    ],
+    "Q1_second_cleared": [
+      0
+    ],
+    "Q2_second_formula": [
+      0
+    ],
+    "Q2_cleared": [
+      0
+    ],
+    "Q2_second_cleared": [
+      0
+    ]
+  },
+  "independent_shift_difference": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "exact_bounds": {
+    "Re_T_min": "671/4",
+    "tan_theta_max": "52/671",
+    "shift_argument_scale_min": "671/683",
+    "shift_argument_scale_used": "4/5",
+    "all_term_angle_upper": "1040/671",
+    "all_term_angle_threshold": "31/20",
+    "cosine_lower_at_threshold": "921148319/46080000000",
+    "exceptional_block_angle_upper": "312/671",
+    "exceptional_block_angle_threshold": "1/2",
+    "exceptional_block_cosine_lower": "7/8",
+    "block_margin": "335/4",
+    "kernel_margin": "8040"
+  },
+  "checks": {
+    "Q1_second_formula": true,
+    "Q1_cleared": true,
+    "Q1_second_cleared": true,
+    "Q2_second_formula": true,
+    "Q2_cleared": true,
+    "Q2_second_cleared": true,
+    "independent_binomial_shift": true,
+    "symmetric_shifted_matrix": true,
+    "only_negative_coefficient": true,
+    "exceptional_positive_pair": true,
+    "strictly_positive_constant": true,
+    "degree_at_most_eight_each": true,
+    "shift_angle_scale": true,
+    "all_term_angle": true,
+    "cosine_polynomial_decreasing": true,
+    "positive_cosine_lower": true,
+    "exceptional_block_angle": true,
+    "positive_block_margin": true,
+    "kernel_margin": true,
+    "real_corner_normalization": true
+  },
+  "algebra_and_scalar_checks_pass": true,
+  "analytic_proof": "lemmas/C034e-complex-strip-rational-kernel-sign.md; separate audit pending",
+  "actual_bound": "Re K < -8040 |z^2-1|^7 |w^2-1|^7 / (|H(z^2)| |H(w^2)|) < 0, via the lemma's domain/argument proof",
+  "required_bound": "Re K(z,w)<0 for Re z,Re w>=13 and |Im z|,|Im w|<=1/2",
+  "remaining_threshold": "C034c(20) and the contour/cutoff/origin estimates are NOT certified",
+  "failed_simple_tests": {
+    "unshifted_all_nonnegative": false,
+    "shifted_all_nonnegative": false
+  },
+  "failures": []
+}

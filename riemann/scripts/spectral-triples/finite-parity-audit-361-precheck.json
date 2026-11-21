@@ -1,0 +1,75 @@
+{
+  "kind": "independent fixed-cell certificate audit",
+  "failures": [
+    "even_matrix interval symmetry failure"
+  ],
+  "input_sha256": "92d8898787851903d04df6f20af4acbaedd91b55c84915bed34588372a36c383",
+  "source_sha256": "76f6a6aa1dc0daf2ce29a36cae22e386d4a9ee6ae11e6f09a54b8209a3837379",
+  "audit_script_sha256": "3578afa5af5b1232bbd1c5f37eb82b9d1c8dbe225ed6655028dd5a47ecbbd26f",
+  "python": "3.15.0",
+  "scale_digits": 220,
+  "checks": {
+    "original_hash_and_parameters": true,
+    "complete_replay_matched_fields": [
+      "kind",
+      "parameters",
+      "source_url",
+      "script_sha256",
+      "constants",
+      "inverse_power_tails",
+      "frequencies",
+      "full_matrix",
+      "even_matrix",
+      "odd_matrix",
+      "max_entry_width",
+      "prime_powers",
+      "inertia",
+      "failures",
+      "outcome",
+      "gap_lower",
+      "even_min_upper",
+      "even_second_lower",
+      "odd_min_lower"
+    ],
+    "decimal_contexts": {
+      "LO": {
+        "precision": 170,
+        "Emin": -999999,
+        "Emax": 999999,
+        "flags": {
+          "InvalidOperation": false,
+          "FloatOperation": false,
+          "DivisionByZero": false,
+          "Overflow": false,
+          "Underflow": false,
+          "Subnormal": false,
+          "Inexact": true,
+          "Rounded": true,
+          "Clamped": false
+        }
+      },
+      "HI": {
+        "precision": 170,
+        "Emin": -999999,
+        "Emax": 999999,
+        "flags": {
+          "InvalidOperation": false,
+          "FloatOperation": false,
+          "DivisionByZero": false,
+          "Overflow": false,
+          "Underflow": false,
+          "Subnormal": false,
+          "Inexact": true,
+          "Rounded": true,
+          "Clamped": false
+        }
+      }
+    },
+    "all_even_bernoulli_numbers_through_160": true,
+    "no_binary_float_literals": true
+  },
+  "inertia": [],
+  "outcome": "AUDIT_INCOMPLETE_OR_FAILED",
+  "elapsed_seconds": 23.164544541039504,
+  "replay_sha256": "4cd29b1cc880b55738e28821ab7654f86913316e91a8719cf503e97a983ba48a"
+}

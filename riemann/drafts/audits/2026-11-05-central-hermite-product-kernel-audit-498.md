@@ -1,0 +1,17 @@
+# Fixed degree-six Hermite product-kernel audit — step498
+
+Invocation-start coverage: `drafts/literature/2026-11-05-central-hermite-product-kernel-audit.md`, SPECIALIZE, exact unchanged target. This is an independent finite proof audit, not a new hyperbolicity result.
+
+Main gap: actual-Xi all-degree mixed positivity. Intermediate target: check all fixed claims of L794, including denominator minimality, absolute theta-product integration, permutation normalization and the integer one-outlier witness. A verified obstruction would retire only direct pointwise signing of this prescribed kernel. Confirm every claim or identify and repair a concrete defect; do not change the kernel or infer its integral's sign.
+
+Inputs read: L018, L019, L021 and only L776's defining normalization; L794's complete proof and the full generating script. Existing step496 stop and source comparisons are retained. No real-root, Fredholm, L793 or Gram-PSD premise is admissible. The saved source approval distinguishes Newton's identities from Nathanson's interpolation Lemmas 1–2; the citation in L794 needs that precision repair.
+
+The initial unfinished checkpoint above is now resolved. Canonical proof and audit details are in L794; no second lemma or dependency index was created.
+
+Completed checks: monic normalization and all six constants; formal weighted-degree induction, the uncancellable m_5^10/m_6^10 term and the fact that H includes s_10; all absolute monomial integrals and the 10! permutation normalization; the five printed one-outlier polynomials, integer quadratic, exact t=4 value and t>=4 bound; and perturbation to a positive distinct ordered open set. No evaluator, zero-location or PSD premise entered. The displayed recurrence was correct; only its citation needed precision repair.
+
+Independent arithmetic uses the finite formal-log partition formula rather than importing or rerunning the step496 recurrence. All saved coefficients through s_10 and b_10, every outlier coefficient, the complete leading matrix and every negative-witness field agree. The 27 checks and complete actual/required data are saved in `scripts/central-hermite/product-kernel-audit-498.json`; the adjacent `product_kernel_audit_498.py` is the reproduction command's script. The canonical proof contains the generating-identity justification and analytic checks, so neither a JSON preview nor execution success is being used as a mathematical proof.
+
+Verdict: L794 is audited at exactly its fixed hypotheses. This establishes a reliable local obstruction to this pointwise representation; it confirms step496 rather than discovering a new obstruction. The full integral, alternative representations, degree-uniform signs and RH remain open. The main assembly and DAG do not change.
+
+Continuation selection: unchanged primary coverage was reused without browsing. Narrow local comparison read the completed central-growing-mechanism and actual-Jensen discovery records and the universal-preserver, wedge, generic-Turan and fixed-grid stops. A targeted phrase search in literature/ATTEMPTS/foundations found no assessed shared-scalar Laguerre-mixture/mixed-characteristic mechanism; this is incomplete source coverage, not novelty evidence. Nominate one separate source review of dependence and common-interlacing hypotheses, not another kernel calculation or routine audit. No representation or sign is established by that nomination. Creative work remains blocked until an actual-theta coupling or signed estimate is independently specified and covered.

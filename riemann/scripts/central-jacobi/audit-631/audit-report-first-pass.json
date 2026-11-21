@@ -1,0 +1,230 @@
+{
+  "scope": "Independent finite L825 audit; inherited L778/L791 contracts",
+  "method": "exact Fraction endpoints, sparse rational coefficient expansion, separate same-code replay",
+  "status": "FAIL",
+  "checks": [
+    {
+      "name": "quadratic convolution coefficient y^0",
+      "passed": true
+    },
+    {
+      "name": "quadratic convolution coefficient y^1",
+      "passed": true
+    },
+    {
+      "name": "quadratic convolution coefficient y^2",
+      "passed": true
+    },
+    {
+      "name": "cubic convolution coefficient y^0",
+      "passed": true
+    },
+    {
+      "name": "cubic convolution coefficient y^1",
+      "passed": true
+    },
+    {
+      "name": "cubic convolution coefficient y^2",
+      "passed": true
+    },
+    {
+      "name": "cubic convolution coefficient y^3",
+      "passed": true
+    },
+    {
+      "name": "quadratic translation coefficient y^0",
+      "passed": true
+    },
+    {
+      "name": "quadratic translation coefficient y^1",
+      "passed": true
+    },
+    {
+      "name": "quadratic translation coefficient y^2",
+      "passed": true
+    },
+    {
+      "name": "cubic translation coefficient y^0",
+      "passed": true
+    },
+    {
+      "name": "cubic translation coefficient y^1",
+      "passed": true
+    },
+    {
+      "name": "cubic translation coefficient y^2",
+      "passed": true
+    },
+    {
+      "name": "cubic translation coefficient y^3",
+      "passed": true
+    },
+    {
+      "name": "factor existence degree 2 coefficient 0",
+      "passed": true
+    },
+    {
+      "name": "factor existence degree 2 coefficient 1",
+      "passed": true
+    },
+    {
+      "name": "factor existence degree 2 coefficient 2",
+      "passed": true
+    },
+    {
+      "name": "factor existence degree 3 coefficient 0",
+      "passed": true
+    },
+    {
+      "name": "factor existence degree 3 coefficient 1",
+      "passed": true
+    },
+    {
+      "name": "factor existence degree 3 coefficient 2",
+      "passed": true
+    },
+    {
+      "name": "factor existence degree 3 coefficient 3",
+      "passed": true
+    },
+    {
+      "name": "entire derivative defect coefficient 0",
+      "passed": true
+    },
+    {
+      "name": "entire derivative defect coefficient 1",
+      "passed": true
+    },
+    {
+      "name": "entire derivative defect coefficient 2",
+      "passed": true
+    },
+    {
+      "name": "step629 hash scripts/central-jacobi/fixed-model-certificate-476.json",
+      "passed": true
+    },
+    {
+      "name": "step629 hash scripts/actual-fredholm/fixed-pair-certificate-431.json",
+      "passed": true
+    },
+    {
+      "name": "step629 hash scripts/central-jacobi/audit-478/audit-report.json",
+      "passed": true
+    },
+    {
+      "name": "step629 hash scripts/actual-fredholm/audit-433/audit-report.json",
+      "passed": true
+    },
+    {
+      "name": "step629 hash scripts/central-jacobi/audit_478.py",
+      "passed": true
+    },
+    {
+      "name": "step629 hash scripts/central-jacobi/centered_appell_629.py",
+      "passed": true
+    },
+    {
+      "name": "step478 hash scripts/central-jacobi/fixed-model-certificate-476.json",
+      "passed": true
+    },
+    {
+      "name": "step478 hash scripts/actual-fredholm/fixed-pair-certificate-431.json",
+      "passed": true
+    },
+    {
+      "name": "source hash L791",
+      "passed": true
+    },
+    {
+      "name": "source hash step433",
+      "passed": true
+    },
+    {
+      "name": "complete evaluator equals audited replay",
+      "passed": true
+    },
+    {
+      "name": "saved report passes 629",
+      "passed": true
+    },
+    {
+      "name": "saved report passes 478",
+      "passed": true
+    }
+  ],
+  "failures": [
+    "TypeError: string indices must be integers, not 'str'"
+  ],
+  "evidence": {
+    "quadratic convolution": [
+      {
+        "a*a": "1/2",
+        "b": "2"
+      },
+      {
+        "a": "2"
+      },
+      {
+        "1": "1"
+      }
+    ],
+    "cubic convolution": [
+      {
+        "a*b": "2/3",
+        "c": "2"
+      },
+      {
+        "a*a": "2/3",
+        "b": "2"
+      },
+      {
+        "a": "2"
+      },
+      {
+        "1": "1"
+      }
+    ],
+    "quadratic translation": [
+      {
+        "h*h": "-1",
+        "s": "1"
+      },
+      {},
+      {
+        "1": "1"
+      }
+    ],
+    "cubic translation": [
+      {
+        "h*h*h": "-2",
+        "h*t": "3",
+        "w": "-1"
+      },
+      {
+        "h*h": "-3",
+        "t": "3"
+      },
+      {},
+      {
+        "1": "1"
+      }
+    ],
+    "symbolic_defect_ascending": [
+      {
+        "u": "-3/2",
+        "v": "1/2"
+      },
+      {},
+      {}
+    ],
+    "original_hashes": {
+      "scripts/central-jacobi/fixed-model-certificate-476.json": "2b429e4029fd7f50b30ea61b43d1be5aa22155b4c680c69440a716ff26643b2e",
+      "scripts/actual-fredholm/fixed-pair-certificate-431.json": "2c0aae858cc1e15b17e46dff0e1b81fa41582b4c84f5d74e3477fb72399335de",
+      "scripts/central-jacobi/audit-478/audit-report.json": "dd43b6cf7ffb7bc96f82adda4b5cba6cf05fb7224abd70852df05adb1d88cc62",
+      "scripts/actual-fredholm/audit-433/audit-report.json": "5703ed8c5540b7612ce700deb4ba3685b4ad9df5b4a87f92695684fe235ec392",
+      "scripts/central-jacobi/audit_478.py": "0ed2c0cc51a54c38f498cd36c1c9f3d06a70f66efa3eb7b06798c7a1e7cdc3fd",
+      "scripts/central-jacobi/centered_appell_629.py": "7b892fd2440f7554432c8381eba1173047a85755b2f1b1c1482e72cecdcc5b32",
+      "scripts/central-jacobi/centered-appell-629.json": "d75d44d1b816d0134df4982dbaa5b657d4219baaef9ed4ea4df80b8540facf90"
+    }
+  }
+}

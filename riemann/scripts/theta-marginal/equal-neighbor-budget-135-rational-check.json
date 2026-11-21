@@ -1,0 +1,22 @@
+{
+  "certificate": "scripts/theta-marginal/equal-neighbor-budget-135-m32.json",
+  "checks": {
+    "complete_numerator": true,
+    "positive_normalizer_A0": true,
+    "J": true,
+    "theta_density_bound": true,
+    "spatial_density_bound": true,
+    "weighted_tail_bound": true,
+    "positive_normalizer": true,
+    "negative_threshold": true,
+    "mesh_and_counts": true,
+    "no_recorded_failures": true
+  },
+  "all_passed": true,
+  "required": "J>=0",
+  "outcome": "NEGATIVE",
+  "actual_J": {
+    "lower": "-0.03132412068199981598262340539307677129779344658735378460501629908535977",
+    "upper": "-0.002261298745803898642231199247228697224880539553963731117832510035400581"
+  }
+}

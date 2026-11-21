@@ -1,0 +1,44 @@
+con = old.constants()
+el, pif = con['ell'], con['pi']
+indices = np.arange(K)
+k = indices*pif/el
+nu = np.full(K, np.sqrt(2/el)); nu[0] = 1/np.sqrt(el)
+parity = np.where(indices % 2 == 0, 1., -1.)
+imag, _ = old.psi_imag(k, pif)
+bpsi = k*imag/2
+moments = np.array([nu*c*(parity*(con['fourth'] if c > 0 else 1/con['fourth'])-1)
+                    /(c*c+k*k) for c in [.5, -.5]])
+
+def translation(rows, delta):
+    kn, km = k[rows, None], k[None, :N]
+    sn, _ = old.sincos(k[rows]*delta, pif)
+    sm, _ = old.sincos(k[:N]*delta, pif)
+    signs = parity[rows, None]*parity[None, :N]
+    if delta > 0:
+        numerator = -signs*kn*sn[:, None]+km*sm[None, :]
+    else:
+        numerator = kn*sn[:, None]-signs*km*sm[None, :]
+    return numerator/(kn*kn-km*km)*np.outer(nu[rows], nu[:N])
+
+    kn, km = k[rows, None], k[None, :N]
+    same = parity[rows, None] == parity[None, :N]
+    response = (bpsi[rows, None]-bpsi[None, :N])/(kn*kn-km*km)
+    for j in range(64):
+        c = 2*j+.5
+        response -= ((3.**(-j)/con['fourth'])*parity[rows, None]*c*c
+                     /((c*c+kn*kn)*(c*c+km*km)))
+    response *= 2*np.outer(nu[rows], nu[:N])*same
+    tt, ts = np.zeros_like(response), np.zeros_like(response)
+    for delta, weight in zip(con['deltas'], con['weights']):
+        tt += weight*translation(rows, delta)
+        ts += weight*translation(rows, -delta)
+    for j in range(1, 8):
+        c = 2*j+.5
+        decay = 3.**(-j)/con['fourth']
+        minus = nu*c*(1-parity*decay)/(c*c+k*k)
+        plus = nu*c*(parity-decay)/(c*c+k*k)
+        prefactor = 3.**(-6*j)/(3*np.sqrt(3.))
+        tt += prefactor*np.outer(minus[rows], plus[:N])
+        ts += prefactor*np.outer(plus[rows], minus[:N])
+    w0 = response+256*moments[:, rows].T@moments[:, :N]
+    rho = np.hstack((tt@z, ts@z))-w0@gg

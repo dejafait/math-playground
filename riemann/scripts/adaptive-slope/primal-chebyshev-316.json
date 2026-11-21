@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "scope": "Exact rational inequalities used in C997b for integer n>=20, k=2n. This checks constants only; the coefficient identity, quartet decomposition and all-n proof are in the canonical lemma.",
+  "kernel_samples": false,
+  "checks": {
+    "root_distance": {
+      "actual": "171/496",
+      "required": "7/20",
+      "relation": "<",
+      "pass": true
+    },
+    "root_denominator": {
+      "actual": "19/10",
+      "required": "999/512",
+      "relation": "<",
+      "pass": true
+    },
+    "exponent_abs": {
+      "actual": "129/160",
+      "required": "129/160",
+      "relation": "<=",
+      "pass": true
+    },
+    "exponent_real": {
+      "actual": "-19/480",
+      "required": "-19/480",
+      "relation": "<=",
+      "pass": true
+    },
+    "root_ratio": {
+      "actual": "30448/51615",
+      "required": "3/5",
+      "relation": "<",
+      "pass": true
+    },
+    "polynomial_derivative_factor": {
+      "actual": "26099/19980",
+      "required": "2",
+      "relation": "<",
+      "pass": true
+    },
+    "main_constant": {
+      "actual": "5120/17",
+      "required": "320",
+      "relation": "<",
+      "pass": true
+    },
+    "upper_base": {
+      "actual": "18/25",
+      "required": "1",
+      "relation": "<",
+      "pass": true
+    },
+    "main_decay_comparison": {
+      "actual": "3/16",
+      "required": "7/24",
+      "relation": "<",
+      "pass": true
+    },
+    "reflected_decay_comparison": {
+      "actual": "3/16",
+      "required": "7/8",
+      "relation": "<",
+      "pass": true
+    },
+    "total_constant": {
+      "actual": "3347/66",
+      "required": "64",
+      "relation": "<",
+      "pass": true
+    }
+  },
+  "failures": [],
+  "conclusion": {
+    "selected_response_upper_bound": "64*(n+2)*exp(-3*n/16)*raw_TV",
+    "normalized_TV_lower_bound": "exp(3*n/16)/(64*(n+2))",
+    "required_TV": "For every epsilon>0, C_epsilon*exp(epsilon*n)",
+    "qualification": "This Chebyshev atomic family only; not all measures."
+  }
+}

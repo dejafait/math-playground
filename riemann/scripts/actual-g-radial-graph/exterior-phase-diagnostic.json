@@ -1,0 +1,33 @@
+{
+  "status": "NONRIGOROUS_DIAGNOSTIC",
+  "input_path": "scripts/actual-fredholm/fixed-pair-certificate-431.json",
+  "input_sha256": "2c0aae858cc1e15b17e46dff0e1b81fa41582b4c84f5d74e3477fb72399335de",
+  "radius": 184.8283751865784,
+  "saddle_float_bracket": [
+    184.8283751865784,
+    184.82837518657843
+  ],
+  "scaled_first_twelve": [
+    0.062140097273539266,
+    0.06634167410382637,
+    0.032947731295352965,
+    0.010264665939068407,
+    0.0022748868963215546,
+    0.0003848421077014491,
+    5.200574583880472e-05,
+    5.79580159283443e-06,
+    5.454449618936426e-07,
+    4.414853402164934e-08,
+    3.118556671249113e-09,
+    1.945573707163463e-10
+  ],
+  "truncated_B": {
+    "1": -0.0007990115053454943,
+    "2": 0.001686430454034835,
+    "3": 0.0011578628805352204
+  },
+  "quadratic_margin": 0.0002733463058688275,
+  "required_margin": "> 0",
+  "failures": [],
+  "limitation": "Floating-point midpoints and truncated series; no proof, root enclosure or zero-set certificate."
+}

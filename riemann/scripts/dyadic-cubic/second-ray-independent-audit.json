@@ -1,0 +1,2641 @@
+{
+  "scope": "L842 finite arithmetic audit only; analytic audit in canonical lemma.",
+  "original_sha256": "abf75c5bfc8d02a1645236e9b5c2584177fa58ebabab2f9ee8f2068558525c86",
+  "power_sums_1_through_6": [
+    "4",
+    "0",
+    "-8/7",
+    "0",
+    "64/31",
+    "64/21"
+  ],
+  "independent_a": [
+    "1",
+    "4",
+    "8",
+    "72/7",
+    "64/7",
+    "1280/217",
+    "38848/13671"
+  ],
+  "independent_h": [
+    "1",
+    "4",
+    "8",
+    "72/7",
+    "64/7",
+    "1280/217",
+    "52736/13671"
+  ],
+  "elementary_recurrence_residuals": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "reciprocal_recurrence_residuals": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "reciprocity_residuals": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "ranks": [
+    {
+      "rank": 1,
+      "matrix": [
+        [
+          "8"
+        ]
+      ],
+      "elimination_determinant": "8",
+      "rectangular_expression": "8",
+      "recomputed_leibniz_sum": "8",
+      "terms": [
+        {
+          "permutation": [
+            0
+          ],
+          "recomputed_term": "8",
+          "stored_term_matches": true
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "matrix": [
+        [
+          "8",
+          "72/7"
+        ],
+        [
+          "4",
+          "8"
+        ]
+      ],
+      "elimination_determinant": "160/7",
+      "rectangular_expression": "160/7",
+      "recomputed_leibniz_sum": "160/7",
+      "terms": [
+        {
+          "permutation": [
+            0,
+            1
+          ],
+          "recomputed_term": "64",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0
+          ],
+          "recomputed_term": "-288/7",
+          "stored_term_matches": true
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "matrix": [
+        [
+          "8",
+          "72/7",
+          "64/7"
+        ],
+        [
+          "4",
+          "8",
+          "72/7"
+        ],
+        [
+          "1",
+          "4",
+          "8"
+        ]
+      ],
+      "elimination_determinant": "1600/49",
+      "rectangular_expression": "1600/49",
+      "recomputed_leibniz_sum": "1600/49",
+      "terms": [
+        {
+          "permutation": [
+            0,
+            1,
+            2
+          ],
+          "recomputed_term": "512",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            1
+          ],
+          "recomputed_term": "-2304/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            2
+          ],
+          "recomputed_term": "-2304/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0
+          ],
+          "recomputed_term": "5184/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1
+          ],
+          "recomputed_term": "1024/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            0
+          ],
+          "recomputed_term": "-512/7",
+          "stored_term_matches": true
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "matrix": [
+        [
+          "8",
+          "72/7",
+          "64/7",
+          "1280/217"
+        ],
+        [
+          "4",
+          "8",
+          "72/7",
+          "64/7"
+        ],
+        [
+          "1",
+          "4",
+          "8",
+          "72/7"
+        ],
+        [
+          "0",
+          "1",
+          "4",
+          "8"
+        ]
+      ],
+      "elimination_determinant": "34816/1519",
+      "rectangular_expression": "34816/1519",
+      "recomputed_leibniz_sum": "34816/1519",
+      "terms": [
+        {
+          "permutation": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "recomputed_term": "4096",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "recomputed_term": "-18432/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "recomputed_term": "-18432/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "recomputed_term": "41472/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "recomputed_term": "8192/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "recomputed_term": "-4096/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "recomputed_term": "-18432/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "recomputed_term": "82944/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "recomputed_term": "41472/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "recomputed_term": "-18432/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "recomputed_term": "8192/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "recomputed_term": "-18432/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "recomputed_term": "-4096/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "recomputed_term": "4096/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "recomputed_term": "-81920/217",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "recomputed_term": "40960/217",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "recomputed_term": "40960/217",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "recomputed_term": "-92160/1519",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "matrix": [
+        [
+          "8",
+          "72/7",
+          "64/7",
+          "1280/217",
+          "38848/13671"
+        ],
+        [
+          "4",
+          "8",
+          "72/7",
+          "64/7",
+          "1280/217"
+        ],
+        [
+          "1",
+          "4",
+          "8",
+          "72/7",
+          "64/7"
+        ],
+        [
+          "0",
+          "1",
+          "4",
+          "8",
+          "72/7"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "4",
+          "8"
+        ]
+      ],
+      "elimination_determinant": "-1409024/2966607",
+      "rectangular_expression": "-1409024/2966607",
+      "recomputed_leibniz_sum": "-1409024/2966607",
+      "terms": [
+        {
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "recomputed_term": "32768",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            2,
+            4,
+            3
+          ],
+          "recomputed_term": "-147456/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            3,
+            2,
+            4
+          ],
+          "recomputed_term": "-147456/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            3,
+            4,
+            2
+          ],
+          "recomputed_term": "331776/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            4,
+            2,
+            3
+          ],
+          "recomputed_term": "65536/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2
+          ],
+          "recomputed_term": "-32768/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            1,
+            3,
+            4
+          ],
+          "recomputed_term": "-147456/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            1,
+            4,
+            3
+          ],
+          "recomputed_term": "663552/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            3,
+            1,
+            4
+          ],
+          "recomputed_term": "331776/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            3,
+            4,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            4,
+            1,
+            3
+          ],
+          "recomputed_term": "-147456/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            4,
+            3,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            1,
+            2,
+            4
+          ],
+          "recomputed_term": "65536/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            1,
+            4,
+            2
+          ],
+          "recomputed_term": "-147456/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            4
+          ],
+          "recomputed_term": "-32768/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            2,
+            4,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            4,
+            1,
+            2
+          ],
+          "recomputed_term": "32768/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            4,
+            2,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            1,
+            2,
+            3
+          ],
+          "recomputed_term": "-655360/217",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            1,
+            3,
+            2
+          ],
+          "recomputed_term": "327680/217",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            2,
+            1,
+            3
+          ],
+          "recomputed_term": "327680/217",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            2,
+            3,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            3,
+            1,
+            2
+          ],
+          "recomputed_term": "-737280/1519",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            3,
+            2,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            4
+          ],
+          "recomputed_term": "-147456/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            2,
+            4,
+            3
+          ],
+          "recomputed_term": "663552/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2,
+            4
+          ],
+          "recomputed_term": "663552/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            4,
+            2
+          ],
+          "recomputed_term": "-1492992/343",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            4,
+            2,
+            3
+          ],
+          "recomputed_term": "-294912/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            2
+          ],
+          "recomputed_term": "147456/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0,
+            3,
+            4
+          ],
+          "recomputed_term": "331776/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0,
+            4,
+            3
+          ],
+          "recomputed_term": "-1492992/343",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0,
+            4
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            4,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            4,
+            0,
+            3
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            4,
+            3,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2,
+            4
+          ],
+          "recomputed_term": "-147456/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          "recomputed_term": "331776/343",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            2,
+            0,
+            4
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            2,
+            4,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            4,
+            0,
+            2
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            4,
+            2,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            3
+          ],
+          "recomputed_term": "1474560/1519",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            0,
+            3,
+            2
+          ],
+          "recomputed_term": "-737280/1519",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            2,
+            0,
+            3
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            2,
+            3,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            3,
+            0,
+            2
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1,
+            3,
+            4
+          ],
+          "recomputed_term": "65536/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1,
+            4,
+            3
+          ],
+          "recomputed_term": "-294912/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1,
+            4
+          ],
+          "recomputed_term": "-147456/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            4,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            4,
+            1,
+            3
+          ],
+          "recomputed_term": "65536/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            4,
+            3,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            0,
+            3,
+            4
+          ],
+          "recomputed_term": "-32768/7",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3
+          ],
+          "recomputed_term": "147456/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            3,
+            0,
+            4
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            4,
+            0,
+            3
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            4,
+            3,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1,
+            4
+          ],
+          "recomputed_term": "32768/49",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            4,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0,
+            4
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            4,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            4,
+            0,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            4,
+            1,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            0,
+            1,
+            3
+          ],
+          "recomputed_term": "-327680/1519",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            0,
+            3,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            1,
+            0,
+            3
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            1,
+            3,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            3,
+            0,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            3,
+            1,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2,
+            4
+          ],
+          "recomputed_term": "-655360/217",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            4,
+            2
+          ],
+          "recomputed_term": "1474560/1519",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            2,
+            1,
+            4
+          ],
+          "recomputed_term": "327680/217",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            2,
+            4,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            4,
+            1,
+            2
+          ],
+          "recomputed_term": "-327680/1519",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            4,
+            2,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            0,
+            2,
+            4
+          ],
+          "recomputed_term": "327680/217",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            0,
+            4,
+            2
+          ],
+          "recomputed_term": "-737280/1519",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            2,
+            4,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            4,
+            2,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1,
+            4
+          ],
+          "recomputed_term": "-737280/1519",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            4,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0,
+            4
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            4,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            4,
+            0,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            4,
+            1,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            0,
+            1,
+            2
+          ],
+          "recomputed_term": "1638400/47089",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            0,
+            2,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            1,
+            0,
+            2
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            1,
+            2,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            2,
+            0,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            2,
+            1,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ],
+          "recomputed_term": "9945088/13671",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            1,
+            3,
+            2
+          ],
+          "recomputed_term": "-4972544/13671",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            2,
+            1,
+            3
+          ],
+          "recomputed_term": "-4972544/13671",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            2,
+            3,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            3,
+            1,
+            2
+          ],
+          "recomputed_term": "1243136/10633",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            3,
+            2,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            0,
+            2,
+            3
+          ],
+          "recomputed_term": "-4972544/13671",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            0,
+            3,
+            2
+          ],
+          "recomputed_term": "2486272/13671",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            2,
+            0,
+            3
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            2,
+            3,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            3,
+            0,
+            2
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            3,
+            2,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            0,
+            1,
+            3
+          ],
+          "recomputed_term": "1243136/10633",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            0,
+            3,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            1,
+            0,
+            3
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            1,
+            3,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            3,
+            0,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            3,
+            1,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            0,
+            1,
+            2
+          ],
+          "recomputed_term": "-2486272/95697",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            0,
+            2,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            1,
+            0,
+            2
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            1,
+            2,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            2,
+            0,
+            1
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "recomputed_term": "0",
+          "stored_term_matches": true
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "polynomial and scale",
+      "passed": true
+    },
+    {
+      "name": "all seven elementary coefficients",
+      "passed": true
+    },
+    {
+      "name": "all seven reciprocal coefficients",
+      "passed": true
+    },
+    {
+      "name": "displayed elementary values",
+      "passed": true
+    },
+    {
+      "name": "displayed reciprocal values",
+      "passed": true
+    },
+    {
+      "name": "all six elementary recurrence equations",
+      "passed": true
+    },
+    {
+      "name": "all six reciprocal recurrence equations",
+      "passed": true
+    },
+    {
+      "name": "all seven inverse-series equations",
+      "passed": true
+    },
+    {
+      "name": "ranks exactly 1 through 5",
+      "passed": true
+    },
+    {
+      "name": "rank 1 full matrix",
+      "passed": true
+    },
+    {
+      "name": "rank 1 independent elimination and rectangle",
+      "passed": true
+    },
+    {
+      "name": "rank 1 both reported values",
+      "passed": true
+    },
+    {
+      "name": "rank 1 flags",
+      "passed": true
+    },
+    {
+      "name": "rank 1 exhaustive nonduplicated permutation set",
+      "passed": true
+    },
+    {
+      "name": "rank 1 term 0",
+      "passed": true
+    },
+    {
+      "name": "rank 1 complete sum",
+      "passed": true
+    },
+    {
+      "name": "rank 2 full matrix",
+      "passed": true
+    },
+    {
+      "name": "rank 2 independent elimination and rectangle",
+      "passed": true
+    },
+    {
+      "name": "rank 2 both reported values",
+      "passed": true
+    },
+    {
+      "name": "rank 2 flags",
+      "passed": true
+    },
+    {
+      "name": "rank 2 exhaustive nonduplicated permutation set",
+      "passed": true
+    },
+    {
+      "name": "rank 2 term 0",
+      "passed": true
+    },
+    {
+      "name": "rank 2 term 1",
+      "passed": true
+    },
+    {
+      "name": "rank 2 complete sum",
+      "passed": true
+    },
+    {
+      "name": "rank 3 full matrix",
+      "passed": true
+    },
+    {
+      "name": "rank 3 independent elimination and rectangle",
+      "passed": true
+    },
+    {
+      "name": "rank 3 both reported values",
+      "passed": true
+    },
+    {
+      "name": "rank 3 flags",
+      "passed": true
+    },
+    {
+      "name": "rank 3 exhaustive nonduplicated permutation set",
+      "passed": true
+    },
+    {
+      "name": "rank 3 term 0",
+      "passed": true
+    },
+    {
+      "name": "rank 3 term 1",
+      "passed": true
+    },
+    {
+      "name": "rank 3 term 2",
+      "passed": true
+    },
+    {
+      "name": "rank 3 term 3",
+      "passed": true
+    },
+    {
+      "name": "rank 3 term 4",
+      "passed": true
+    },
+    {
+      "name": "rank 3 term 5",
+      "passed": true
+    },
+    {
+      "name": "rank 3 complete sum",
+      "passed": true
+    },
+    {
+      "name": "rank 4 full matrix",
+      "passed": true
+    },
+    {
+      "name": "rank 4 independent elimination and rectangle",
+      "passed": true
+    },
+    {
+      "name": "rank 4 both reported values",
+      "passed": true
+    },
+    {
+      "name": "rank 4 flags",
+      "passed": true
+    },
+    {
+      "name": "rank 4 exhaustive nonduplicated permutation set",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 0",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 1",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 2",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 3",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 4",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 5",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 6",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 7",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 8",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 9",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 10",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 11",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 12",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 13",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 14",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 15",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 16",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 17",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 18",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 19",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 20",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 21",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 22",
+      "passed": true
+    },
+    {
+      "name": "rank 4 term 23",
+      "passed": true
+    },
+    {
+      "name": "rank 4 complete sum",
+      "passed": true
+    },
+    {
+      "name": "rank 5 full matrix",
+      "passed": true
+    },
+    {
+      "name": "rank 5 independent elimination and rectangle",
+      "passed": true
+    },
+    {
+      "name": "rank 5 both reported values",
+      "passed": true
+    },
+    {
+      "name": "rank 5 flags",
+      "passed": true
+    },
+    {
+      "name": "rank 5 exhaustive nonduplicated permutation set",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 0",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 1",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 2",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 3",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 4",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 5",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 6",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 7",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 8",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 9",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 10",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 11",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 12",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 13",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 14",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 15",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 16",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 17",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 18",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 19",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 20",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 21",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 22",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 23",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 24",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 25",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 26",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 27",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 28",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 29",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 30",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 31",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 32",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 33",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 34",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 35",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 36",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 37",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 38",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 39",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 40",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 41",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 42",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 43",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 44",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 45",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 46",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 47",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 48",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 49",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 50",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 51",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 52",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 53",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 54",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 55",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 56",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 57",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 58",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 59",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 60",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 61",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 62",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 63",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 64",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 65",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 66",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 67",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 68",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 69",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 70",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 71",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 72",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 73",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 74",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 75",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 76",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 77",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 78",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 79",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 80",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 81",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 82",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 83",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 84",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 85",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 86",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 87",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 88",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 89",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 90",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 91",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 92",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 93",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 94",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 95",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 96",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 97",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 98",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 99",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 100",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 101",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 102",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 103",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 104",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 105",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 106",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 107",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 108",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 109",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 110",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 111",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 112",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 113",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 114",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 115",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 116",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 117",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 118",
+      "passed": true
+    },
+    {
+      "name": "rank 5 term 119",
+      "passed": true
+    },
+    {
+      "name": "rank 5 complete sum",
+      "passed": true
+    },
+    {
+      "name": "all displayed smaller-rank values",
+      "passed": true
+    },
+    {
+      "name": "rank5 duplicate record",
+      "passed": true
+    },
+    {
+      "name": "required lower bound",
+      "passed": true
+    },
+    {
+      "name": "negative exact value",
+      "passed": true
+    },
+    {
+      "name": "all original grouped checks true",
+      "passed": true
+    },
+    {
+      "name": "original failures empty",
+      "passed": true
+    },
+    {
+      "name": "generator exits successfully",
+      "passed": true
+    },
+    {
+      "name": "generator reproduces original bytes",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "generator_replay": {
+    "exit_code": 0,
+    "stdout": "rank=5; actual determinant=-1409024/2966607; required lower bound=0\nchecks=5; passed=5; failures=[]\ncertificate=scripts/dyadic-cubic/second-ray-exact-certificate.json\n",
+    "stderr": ""
+  },
+  "actual_determinant": "-1409024/2966607",
+  "required_lower_bound": "0",
+  "rank5_terms_inspected": 120,
+  "total_terms_inspected": 153
+}

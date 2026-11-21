@@ -1,0 +1,96 @@
+{
+  "certified": false,
+  "parameters": {
+    "N": 512,
+    "K": 4096,
+    "penalty": 256,
+    "tau": 1.43
+  },
+  "samples": [
+    {
+      "theta": 0.0,
+      "minimum_eigenvalue": 0.8731472459416877
+    },
+    {
+      "theta": 0.19634954084936207,
+      "minimum_eigenvalue": 0.8553997932796165
+    },
+    {
+      "theta": 0.39269908169872414,
+      "minimum_eigenvalue": 0.7765846411397461
+    },
+    {
+      "theta": 0.5890486225480862,
+      "minimum_eigenvalue": 0.687325593839014
+    },
+    {
+      "theta": 0.7853981633974483,
+      "minimum_eigenvalue": 0.5973644188269087
+    },
+    {
+      "theta": 0.9817477042468103,
+      "minimum_eigenvalue": 0.5124976287261319
+    },
+    {
+      "theta": 1.1780972450961724,
+      "minimum_eigenvalue": 0.43703744588234916
+    },
+    {
+      "theta": 1.3744467859455345,
+      "minimum_eigenvalue": 0.3743419656698268
+    },
+    {
+      "theta": 1.5707963267948966,
+      "minimum_eigenvalue": 0.3269397519626471
+    },
+    {
+      "theta": 1.7671458676442586,
+      "minimum_eigenvalue": 0.2964438493879929
+    },
+    {
+      "theta": 1.9634954084936207,
+      "minimum_eigenvalue": 0.28318550866496783
+    },
+    {
+      "theta": 2.1598449493429825,
+      "minimum_eigenvalue": 0.28497576713401934
+    },
+    {
+      "theta": 2.356194490192345,
+      "minimum_eigenvalue": 0.2909899734903397
+    },
+    {
+      "theta": 2.552544031041707,
+      "minimum_eigenvalue": 0.2725034137223525
+    },
+    {
+      "theta": 2.748893571891069,
+      "minimum_eigenvalue": 0.2625010753267252
+    },
+    {
+      "theta": 2.945243112740431,
+      "minimum_eigenvalue": 0.3009265393905761
+    },
+    {
+      "theta": 3.141592653589793,
+      "minimum_eigenvalue": 0.3517686303144752
+    }
+  ],
+  "least_sampled_value": 0.2625010753267252,
+  "required_full_uniform_lower_bound": 0,
+  "finite_covariance_frobenius_norms": {
+    "f0": 0.5364121048194431,
+    "fc": 1.4677413442519782,
+    "fg": 1.06784541279856
+  },
+  "files": [
+    "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/separation-seven/residual-matrices-532.npz",
+    "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/separation-seven/residual-least-vector-532.npz"
+  ],
+  "failures": [
+    "infinite covariance beyond K omitted",
+    "floating arithmetic and special functions",
+    "phase gaps unbounded"
+  ],
+  "full_inequality_certified": false
+}

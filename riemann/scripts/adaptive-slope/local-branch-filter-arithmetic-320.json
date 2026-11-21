@@ -1,0 +1,116 @@
+{
+  "result": "PASS",
+  "scope": "Exact scalar arithmetic only; no sampling or independent proof audit.",
+  "canonical_proof": "lemmas/C997c-local-positive-branch-recovery.md",
+  "checks": {
+    "left_angle_radius": {
+      "actual": "29/112",
+      "relation": "=",
+      "required": "29/112",
+      "passed": true
+    },
+    "right_angle_radius": {
+      "actual": "33/128",
+      "relation": "<",
+      "required": "29/112",
+      "passed": true
+    },
+    "upper_angle_n48": {
+      "actual": "225/128",
+      "relation": "=",
+      "required": "225/128",
+      "passed": true
+    },
+    "sine_floor": {
+      "actual": "24247/25088",
+      "relation": ">",
+      "required": "24/25",
+      "passed": true
+    },
+    "sine_floor_value": {
+      "actual": "24247/25088",
+      "relation": "=",
+      "required": "24247/25088",
+      "passed": true
+    },
+    "polynomial_gap_endpoint": {
+      "actual": "-1/1",
+      "relation": "=",
+      "required": "-1/1",
+      "passed": true
+    },
+    "polynomial_unit_endpoint": {
+      "actual": "1/1",
+      "relation": "=",
+      "required": "1/1",
+      "passed": true
+    },
+    "factor_constant": {
+      "actual": "0/1",
+      "relation": "=",
+      "required": "0/1",
+      "passed": true
+    },
+    "factor_quadratic_coefficient": {
+      "actual": "1/1",
+      "relation": "=",
+      "required": "1/1",
+      "passed": true
+    },
+    "root_discriminant_square": {
+      "actual": "1440000/2401",
+      "relation": "=",
+      "required": "1440000/2401",
+      "passed": true
+    },
+    "maximum_root_modulus": {
+      "actual": "49/1",
+      "relation": "=",
+      "required": "49/1",
+      "passed": true
+    },
+    "sign_tail_constant": {
+      "actual": "25/24",
+      "relation": "=",
+      "required": "25/24",
+      "passed": true
+    },
+    "upper_error_constant": {
+      "actual": "525/4",
+      "relation": "=",
+      "required": "525/4",
+      "passed": true
+    },
+    "log7_series_lower": {
+      "actual": "4803/2560",
+      "relation": "=",
+      "required": "4803/2560",
+      "passed": true
+    },
+    "rho_lower_value": {
+      "actual": "161/5120",
+      "relation": "=",
+      "required": "161/5120",
+      "passed": true
+    },
+    "rho_vs_required": {
+      "actual": "161/5120",
+      "relation": ">",
+      "required": "1/32",
+      "passed": true
+    },
+    "remaining_margin": {
+      "actual": "1/5120",
+      "relation": "=",
+      "required": "1/5120",
+      "passed": true
+    },
+    "norm_bound_n48_margin": {
+      "actual": "218543/98",
+      "relation": ">",
+      "required": "0/1",
+      "passed": true
+    }
+  },
+  "failures": []
+}

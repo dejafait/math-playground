@@ -1,0 +1,864 @@
+{
+  "status": "EXACT_IDENTITIES_SUPPORT_C020S_UNIFORM_PROOF",
+  "variables": [
+    "W",
+    "t",
+    "H"
+  ],
+  "qualifications": [
+    "H denotes h^2, not the residual polynomial.",
+    "In upper_shift_s and lower_shift_s the first variable denotes s=r-2>0.",
+    "Pair-root locations, r>2, sign arguments and multiplicity claims require the proof in C020s, not these algebra checks."
+  ],
+  "polynomials": {
+    "V": [
+      {
+        "powers": [
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-4"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0
+        ],
+        "coefficient": "12"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    "denominator_factor": [
+      {
+        "powers": [
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-4"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0
+        ],
+        "coefficient": "8"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    "inner": [
+      {
+        "powers": [
+          0,
+          1,
+          0
+        ],
+        "coefficient": "-192"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0
+        ],
+        "coefficient": "1088"
+      },
+      {
+        "powers": [
+          0,
+          3,
+          0
+        ],
+        "coefficient": "-1536"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0
+        ],
+        "coefficient": "96"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0
+        ],
+        "coefficient": "-480"
+      },
+      {
+        "powers": [
+          1,
+          3,
+          0
+        ],
+        "coefficient": "384"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0
+        ],
+        "coefficient": "48"
+      },
+      {
+        "powers": [
+          2,
+          2,
+          0
+        ],
+        "coefficient": "-192"
+      },
+      {
+        "powers": [
+          3,
+          1,
+          0
+        ],
+        "coefficient": "-24"
+      },
+      {
+        "powers": [
+          3,
+          2,
+          0
+        ],
+        "coefficient": "80"
+      }
+    ],
+    "reduced": [
+      {
+        "powers": [
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-24"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0
+        ],
+        "coefficient": "136"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0
+        ],
+        "coefficient": "-192"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0
+        ],
+        "coefficient": "12"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0
+        ],
+        "coefficient": "-60"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0
+        ],
+        "coefficient": "48"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0
+        ],
+        "coefficient": "-24"
+      },
+      {
+        "powers": [
+          3,
+          0,
+          0
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          3,
+          1,
+          0
+        ],
+        "coefficient": "10"
+      }
+    ],
+    "cleared_E": [
+      {
+        "powers": [
+          0,
+          1,
+          0
+        ],
+        "coefficient": "-1536"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0
+        ],
+        "coefficient": "13312"
+      },
+      {
+        "powers": [
+          0,
+          3,
+          0
+        ],
+        "coefficient": "-38400"
+      },
+      {
+        "powers": [
+          0,
+          4,
+          0
+        ],
+        "coefficient": "36864"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0
+        ],
+        "coefficient": "1536"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0
+        ],
+        "coefficient": "-12800"
+      },
+      {
+        "powers": [
+          1,
+          3,
+          0
+        ],
+        "coefficient": "33792"
+      },
+      {
+        "powers": [
+          1,
+          4,
+          0
+        ],
+        "coefficient": "-27648"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0
+        ],
+        "coefficient": "384"
+      },
+      {
+        "powers": [
+          2,
+          2,
+          0
+        ],
+        "coefficient": "-1792"
+      },
+      {
+        "powers": [
+          2,
+          3,
+          0
+        ],
+        "coefficient": "384"
+      },
+      {
+        "powers": [
+          2,
+          4,
+          0
+        ],
+        "coefficient": "4608"
+      },
+      {
+        "powers": [
+          3,
+          1,
+          0
+        ],
+        "coefficient": "-768"
+      },
+      {
+        "powers": [
+          3,
+          2,
+          0
+        ],
+        "coefficient": "4608"
+      },
+      {
+        "powers": [
+          3,
+          3,
+          0
+        ],
+        "coefficient": "-6528"
+      },
+      {
+        "powers": [
+          4,
+          1,
+          0
+        ],
+        "coefficient": "96"
+      },
+      {
+        "powers": [
+          4,
+          2,
+          0
+        ],
+        "coefficient": "-704"
+      },
+      {
+        "powers": [
+          4,
+          3,
+          0
+        ],
+        "coefficient": "1344"
+      },
+      {
+        "powers": [
+          5,
+          1,
+          0
+        ],
+        "coefficient": "96"
+      },
+      {
+        "powers": [
+          5,
+          2,
+          0
+        ],
+        "coefficient": "-352"
+      },
+      {
+        "powers": [
+          6,
+          1,
+          0
+        ],
+        "coefficient": "-24"
+      },
+      {
+        "powers": [
+          6,
+          2,
+          0
+        ],
+        "coefficient": "80"
+      }
+    ],
+    "factored_E": [
+      {
+        "powers": [
+          0,
+          1,
+          0
+        ],
+        "coefficient": "-1536"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0
+        ],
+        "coefficient": "13312"
+      },
+      {
+        "powers": [
+          0,
+          3,
+          0
+        ],
+        "coefficient": "-38400"
+      },
+      {
+        "powers": [
+          0,
+          4,
+          0
+        ],
+        "coefficient": "36864"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0
+        ],
+        "coefficient": "1536"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0
+        ],
+        "coefficient": "-12800"
+      },
+      {
+        "powers": [
+          1,
+          3,
+          0
+        ],
+        "coefficient": "33792"
+      },
+      {
+        "powers": [
+          1,
+          4,
+          0
+        ],
+        "coefficient": "-27648"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0
+        ],
+        "coefficient": "384"
+      },
+      {
+        "powers": [
+          2,
+          2,
+          0
+        ],
+        "coefficient": "-1792"
+      },
+      {
+        "powers": [
+          2,
+          3,
+          0
+        ],
+        "coefficient": "384"
+      },
+      {
+        "powers": [
+          2,
+          4,
+          0
+        ],
+        "coefficient": "4608"
+      },
+      {
+        "powers": [
+          3,
+          1,
+          0
+        ],
+        "coefficient": "-768"
+      },
+      {
+        "powers": [
+          3,
+          2,
+          0
+        ],
+        "coefficient": "4608"
+      },
+      {
+        "powers": [
+          3,
+          3,
+          0
+        ],
+        "coefficient": "-6528"
+      },
+      {
+        "powers": [
+          4,
+          1,
+          0
+        ],
+        "coefficient": "96"
+      },
+      {
+        "powers": [
+          4,
+          2,
+          0
+        ],
+        "coefficient": "-704"
+      },
+      {
+        "powers": [
+          4,
+          3,
+          0
+        ],
+        "coefficient": "1344"
+      },
+      {
+        "powers": [
+          5,
+          1,
+          0
+        ],
+        "coefficient": "96"
+      },
+      {
+        "powers": [
+          5,
+          2,
+          0
+        ],
+        "coefficient": "-352"
+      },
+      {
+        "powers": [
+          6,
+          1,
+          0
+        ],
+        "coefficient": "-24"
+      },
+      {
+        "powers": [
+          6,
+          2,
+          0
+        ],
+        "coefficient": "80"
+      }
+    ],
+    "upper_shift_s": [
+      {
+        "powers": [
+          0,
+          2,
+          0
+        ],
+        "coefficient": "-96"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0
+        ],
+        "coefficient": "-36"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0
+        ],
+        "coefficient": "48"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0
+        ],
+        "coefficient": "-12"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0
+        ],
+        "coefficient": "36"
+      },
+      {
+        "powers": [
+          3,
+          0,
+          0
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          3,
+          1,
+          0
+        ],
+        "coefficient": "10"
+      }
+    ],
+    "lower_shift_s": [
+      {
+        "powers": [
+          0,
+          1,
+          0
+        ],
+        "coefficient": "80"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0
+        ],
+        "coefficient": "-288"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0
+        ],
+        "coefficient": "48"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0
+        ],
+        "coefficient": "-156"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0
+        ],
+        "coefficient": "-48"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0
+        ],
+        "coefficient": "24"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0
+        ],
+        "coefficient": "-84"
+      },
+      {
+        "powers": [
+          3,
+          0,
+          0
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          3,
+          1,
+          0
+        ],
+        "coefficient": "-10"
+      }
+    ],
+    "pair_relation": [
+      {
+        "powers": [
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-64"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0
+        ],
+        "coefficient": "384"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0
+        ],
+        "coefficient": "-576"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0
+        ],
+        "coefficient": "48"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          1
+        ],
+        "coefficient": "16"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0
+        ],
+        "coefficient": "-192"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          1
+        ],
+        "coefficient": "-32"
+      },
+      {
+        "powers": [
+          2,
+          2,
+          0
+        ],
+        "coefficient": "144"
+      },
+      {
+        "powers": [
+          4,
+          0,
+          0
+        ],
+        "coefficient": "-12"
+      },
+      {
+        "powers": [
+          4,
+          0,
+          1
+        ],
+        "coefficient": "-4"
+      },
+      {
+        "powers": [
+          4,
+          1,
+          0
+        ],
+        "coefficient": "24"
+      },
+      {
+        "powers": [
+          6,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ]
+  },
+  "formulas": {
+    "V": "1*W^2 + 12*t + -4",
+    "denominator_factor": "1*W^2 + 8*t + -4",
+    "inner": "80*W^3*t^2 + -24*W^3*t + -192*W^2*t^2 + 48*W^2*t + 384*W*t^3 + -480*W*t^2 + 96*W*t + -1536*t^3 + 1088*t^2 + -192*t",
+    "reduced": "10*W^3*t + -3*W^3 + -24*W^2*t + 6*W^2 + 48*W*t^2 + -60*W*t + 12*W + -192*t^2 + 136*t + -24",
+    "cleared_E": "80*W^6*t^2 + -24*W^6*t + -352*W^5*t^2 + 96*W^5*t + 1344*W^4*t^3 + -704*W^4*t^2 + 96*W^4*t + -6528*W^3*t^3 + 4608*W^3*t^2 + -768*W^3*t + 4608*W^2*t^4 + 384*W^2*t^3 + -1792*W^2*t^2 + 384*W^2*t + -27648*W*t^4 + 33792*W*t^3 + -12800*W*t^2 + 1536*W*t + 36864*t^4 + -38400*t^3 + 13312*t^2 + -1536*t",
+    "factored_E": "80*W^6*t^2 + -24*W^6*t + -352*W^5*t^2 + 96*W^5*t + 1344*W^4*t^3 + -704*W^4*t^2 + 96*W^4*t + -6528*W^3*t^3 + 4608*W^3*t^2 + -768*W^3*t + 4608*W^2*t^4 + 384*W^2*t^3 + -1792*W^2*t^2 + 384*W^2*t + -27648*W*t^4 + 33792*W*t^3 + -12800*W*t^2 + 1536*W*t + 36864*t^4 + -38400*t^3 + 13312*t^2 + -1536*t",
+    "upper_shift_s": "10*W^3*t + -3*W^3 + 36*W^2*t + -12*W^2 + 48*W*t^2 + -36*W*t + -96*t^2",
+    "lower_shift_s": "-10*W^3*t + 3*W^3 + -84*W^2*t + 24*W^2 + -48*W*t^2 + -156*W*t + 48*W + -288*t^2 + 80*t",
+    "pair_relation": "1*W^6 + 24*W^4*t + -4*W^4*H + -12*W^4 + 144*W^2*t^2 + -32*W^2*t*H + -192*W^2*t + 16*W^2*H + 48*W^2 + -576*t^2 + 384*t + -64"
+  },
+  "checks": {
+    "odd_reference_difference": true,
+    "rational_difference": true,
+    "A_product_symmetric_expansion": true,
+    "E_symmetric_expansion": true,
+    "pair_sum_product_lower": true,
+    "pair_product_difference": true,
+    "pair_constant_relation": true,
+    "pair_factor_constant_coefficient": true,
+    "pair_factor_linear_coefficient": true,
+    "inner_reduction": true,
+    "cleared_E_factorization": true,
+    "upper_branch_shift": true,
+    "lower_branch_shift": true,
+    "lower_branch_endpoint_bounds": true,
+    "upper_branch_endpoint_bounds": true
+  },
+  "failures": [],
+  "actual_bounds": {
+    "lower_branch": "B_t(-r)>=(2/9)s^3+(2/3)s^2+(26/27)s>0 for s=r-2>0; omitted constant 16t(5-18t)>=0.",
+    "upper_branch": "B_t(r)<=-96t^2<=-6<0.",
+    "outer_comparisons": "E<0 for both outer pairs; therefore b_1>b_2 and b_3>b_4 (analytic proof in C020s).",
+    "family_count": "T((y^2-h^2)^2 Q) has at least four distinct real roots for every monic real quadratic Q; a double-collision residual has four simple real roots."
+  },
+  "required_bounds": {
+    "intermediate": "E<0 for both W=-r and W=r, r>2, 1/4<=t<=5/18.",
+    "full_target": "An exact (2,4) witness or impossibility for the entire nominated rational sector-sextic class; unresolved."
+  },
+  "limitations": [
+    "C020s is unaudited; the script is not an independent proof audit.",
+    "No general four-real-root-input, higher-symbol-degree, product or deformation result.",
+    "No actual-Xi transfer or RH conclusion."
+  ],
+  "development_failures": [
+    "An initial assertion guessed divisibility of inner by t^2; exact expansion rejected it. The correct reduction divides by 8t only. No output theorem used the failed guess."
+  ]
+}

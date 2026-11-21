@@ -1,0 +1,442 @@
+{
+  "result": "PASS_FINITE_REPLAY_ANALYTIC_AUDIT_SEPARATE",
+  "checks": [
+    {
+      "name": "entire frozen652 archive pin",
+      "pass": true
+    },
+    {
+      "name": "654 input hash: frozen-reference-proposal-652.json",
+      "pass": true
+    },
+    {
+      "name": "654 input hash: frozen-reference-proposal-652.npz",
+      "pass": true
+    },
+    {
+      "name": "654 input hash: neutral-reference-rank-obstruction-640.json",
+      "pass": true
+    },
+    {
+      "name": "654 input hash: neutral-reference-rank-audit-642.json",
+      "pass": true
+    },
+    {
+      "name": "654 executed generator hash",
+      "pass": true
+    },
+    {
+      "name": "642 source pin for640",
+      "pass": true
+    },
+    {
+      "name": "all four complete witness records agree",
+      "pass": true
+    },
+    {
+      "name": "witness support and omitted coordinates",
+      "pass": true
+    },
+    {
+      "name": "all96 witness values are integers",
+      "pass": true
+    },
+    {
+      "name": "all762 free trials finite binary64",
+      "pass": true
+    },
+    {
+      "name": "exact ledger shape",
+      "pass": true
+    },
+    {
+      "name": "column0: every exact trial dyadic",
+      "pass": true
+    },
+    {
+      "name": "column0: every rational ledger entry",
+      "pass": true
+    },
+    {
+      "name": "column0: independent ledger expansion",
+      "pass": true
+    },
+    {
+      "name": "column0: exact ceiling",
+      "pass": true
+    },
+    {
+      "name": "column1: every exact trial dyadic",
+      "pass": true
+    },
+    {
+      "name": "column1: every rational ledger entry",
+      "pass": true
+    },
+    {
+      "name": "column1: independent ledger expansion",
+      "pass": true
+    },
+    {
+      "name": "column1: exact ceiling",
+      "pass": true
+    },
+    {
+      "name": "column2: every exact trial dyadic",
+      "pass": true
+    },
+    {
+      "name": "column2: every rational ledger entry",
+      "pass": true
+    },
+    {
+      "name": "column2: independent ledger expansion",
+      "pass": true
+    },
+    {
+      "name": "column2: exact ceiling",
+      "pass": true
+    },
+    {
+      "name": "uniform H1 ceiling",
+      "pass": true
+    },
+    {
+      "name": "printed final exact bound",
+      "pass": true
+    },
+    {
+      "name": "complete prime-power set and delay signs",
+      "pass": true
+    },
+    {
+      "name": "no powers divisible by3 or zero delays",
+      "pass": true
+    },
+    {
+      "name": "all603 candidate interfaces",
+      "pass": true
+    },
+    {
+      "name": "1/4<a<3/10 from positive log series",
+      "pass": true
+    },
+    {
+      "name": "d>1/5 and exp(-2a)<2/3 by integer powers",
+      "pass": true
+    },
+    {
+      "name": "e>5/2, e^5>79, e^8>1021",
+      "pass": true
+    },
+    {
+      "name": "exp(.6) Taylor upper<2",
+      "pass": true
+    },
+    {
+      "name": "forcing bound<1",
+      "pass": true
+    },
+    {
+      "name": "h_m operator<3.5",
+      "pass": true
+    },
+    {
+      "name": "E operator<=18 and derivative<=81",
+      "pass": true
+    },
+    {
+      "name": "grid<7V and midpoint<=33V",
+      "pass": true
+    },
+    {
+      "name": "projection derivative<=384G",
+      "pass": true
+    },
+    {
+      "name": "digamma bound<20",
+      "pass": true
+    },
+    {
+      "name": "all original twelve checks passed",
+      "pass": true
+    },
+    {
+      "name": "every input preserved",
+      "pass": true
+    }
+  ],
+  "columns": [
+    {
+      "column": 0,
+      "all_bounds": {
+        "F": {
+          "numerator": "96755403",
+          "denominator": "8388608"
+        },
+        "LF": {
+          "numerator": "330052635",
+          "denominator": "1048576"
+        },
+        "H": {
+          "numerator": "48376359",
+          "denominator": "4194304"
+        },
+        "LH": {
+          "numerator": "330048681",
+          "denominator": "1048576"
+        },
+        "V": {
+          "numerator": "6351389848064158796662215",
+          "denominator": "604462909807314587353088"
+        },
+        "LV": {
+          "numerator": "24391413643978363562293707",
+          "denominator": "37778931862957161709568"
+        },
+        "unprojected_l2": {
+          "numerator": "355531191293188333993640955",
+          "denominator": "604462909807314587353088"
+        },
+        "total_absolute_jumps": {
+          "numerator": "59644408492441269240847587",
+          "denominator": "75557863725914323419136"
+        },
+        "remainder_l2": {
+          "numerator": "419518924540391323358541933",
+          "denominator": "302231454903657293676544"
+        },
+        "remainder_derivative": {
+          "numerator": "152129486784069181473979706325",
+          "denominator": "604462909807314587353088"
+        },
+        "remainder_h1": {
+          "numerator": "152968524633149964120696790191",
+          "denominator": "604462909807314587353088"
+        }
+      },
+      "ceil_h1": 253066,
+      "ceiling_slack": {
+        "numerator": "486100147909242399777617",
+        "denominator": "604462909807314587353088"
+      }
+    },
+    {
+      "column": 1,
+      "all_bounds": {
+        "F": {
+          "numerator": "84294981",
+          "denominator": "8388608"
+        },
+        "LF": {
+          "numerator": "274767801",
+          "denominator": "1048576"
+        },
+        "H": {
+          "numerator": "42145389",
+          "denominator": "4194304"
+        },
+        "LH": {
+          "numerator": "549506103",
+          "denominator": "2097152"
+        },
+        "V": {
+          "numerator": "1092209268033633087268119",
+          "denominator": "151115727451828646838272"
+        },
+        "LV": {
+          "numerator": "35167043408402678416635867",
+          "denominator": "75557863725914323419136"
+        },
+        "unprojected_l2": {
+          "numerator": "64334272289760933774394635",
+          "denominator": "151115727451828646838272"
+        },
+        "total_absolute_jumps": {
+          "numerator": "11534988431467143375272307",
+          "denominator": "18889465931478580854784"
+        },
+        "remainder_l2": {
+          "numerator": "78853194504765856931920605",
+          "denominator": "75557863725914323419136"
+        },
+        "remainder_derivative": {
+          "numerator": "27682843712501437266922643535",
+          "denominator": "151115727451828646838272"
+        },
+        "remainder_h1": {
+          "numerator": "27840550101510968980786484745",
+          "denominator": "151115727451828646838272"
+        }
+      },
+      "ceil_h1": 184234,
+      "ceiling_slack": {
+        "numerator": "104829849229940815718903",
+        "denominator": "151115727451828646838272"
+      }
+    },
+    {
+      "column": 2,
+      "all_bounds": {
+        "F": {
+          "numerator": "53942181",
+          "denominator": "4194304"
+        },
+        "LF": {
+          "numerator": "896496993",
+          "denominator": "2097152"
+        },
+        "H": {
+          "numerator": "53943009",
+          "denominator": "4194304"
+        },
+        "LH": {
+          "numerator": "896511717",
+          "denominator": "2097152"
+        },
+        "V": {
+          "numerator": "269973492750615414751466013",
+          "denominator": "19342813113834066795298816"
+        },
+        "LV": {
+          "numerator": "1852271812000871725674295599",
+          "denominator": "2417851639229258349412352"
+        },
+        "unprojected_l2": {
+          "numerator": "14636470285369604889949679385",
+          "denominator": "19342813113834066795298816"
+        },
+        "total_absolute_jumps": {
+          "numerator": "2344932708389841564210813585",
+          "denominator": "2417851639229258349412352"
+        },
+        "remainder_l2": {
+          "numerator": "16832952722619476409193827039",
+          "denominator": "9671406556917033397649408"
+        },
+        "remainder_derivative": {
+          "numerator": "6248729317873125001395806297775",
+          "denominator": "19342813113834066795298816"
+        },
+        "remainder_h1": {
+          "numerator": "6282395223318363954214193951853",
+          "denominator": "19342813113834066795298816"
+        }
+      },
+      "ceil_h1": 324793,
+      "ceiling_slack": {
+        "numerator": "15076363144102431294393235",
+        "denominator": "19342813113834066795298816"
+      }
+    }
+  ],
+  "scope": "all finite inputs/ledger entries; analytic proof separately audited in C998a",
+  "not_verified": [
+    "scalar jump/log/projection evaluations",
+    "actual residual norms",
+    "inverse pairings",
+    "signed comparison",
+    "source/core/c_* contracts"
+  ],
+  "event_inventory": {
+    "prime_powers": [
+      29,
+      31,
+      32,
+      37,
+      41,
+      43,
+      47,
+      49,
+      53,
+      59,
+      61,
+      64,
+      67,
+      71,
+      73,
+      79
+    ],
+    "positive_delta": [
+      29,
+      31,
+      32,
+      37,
+      41,
+      43
+    ],
+    "negative_delta": [
+      47,
+      49,
+      53,
+      59,
+      61,
+      64,
+      67,
+      71,
+      73,
+      79
+    ],
+    "translations": 32,
+    "grid": 570,
+    "midpoint": 1,
+    "total_distinct_candidate_interfaces": 603,
+    "zero_coefficients_may_remove_actual_jumps": true,
+    "coincidence_proof": "C998a Section2, prime factorization; no numerical location test"
+  },
+  "elementary_constants": {
+    "K_derivative_majorant": {
+      "numerator": "64",
+      "denominator": "1323"
+    },
+    "h_m_operator_majorant": {
+      "numerator": "2787",
+      "denominator": "800"
+    },
+    "E_operator_majorant": {
+      "numerator": "18",
+      "denominator": "1"
+    },
+    "E_derivative_majorant": {
+      "numerator": "81",
+      "denominator": "1"
+    },
+    "grid_jump_majorant": {
+      "numerator": "171",
+      "denominator": "25"
+    },
+    "midpoint_jump_majorant": {
+      "numerator": "33",
+      "denominator": "1"
+    },
+    "projection_derivative_majorant": {
+      "numerator": "384",
+      "denominator": "1"
+    },
+    "digamma_real_majorant": {
+      "numerator": "364",
+      "denominator": "25"
+    }
+  },
+  "failures": [],
+  "input_sha256": {
+    "jump-log-h1-bounds-654.json": "d1c94a53ea68385443833941af2173833425b1b23661f14c5117a404858142f0",
+    "frozen-reference-proposal-652.json": "c584f49e3dd97be97e115dd71368a1082f3323a490e723bbd05edee1fd8b30a8",
+    "neutral-reference-rank-obstruction-640.json": "de151288e46751a1ce2a36df803e8322ad912247d21784ac5b488bc8c87293a6",
+    "neutral-reference-rank-audit-642.json": "d48575c1eb3bc902e13178d556763a2a8e6ad5408eaaacebbadd486df0938ee6",
+    "frozen-reference-proposal-652.npz": "2b770a8a689a972ae487b9dd718e2e6d47b6769a5530e7fec244a102c5c317c6",
+    "jump-log-h1-bounds-654.py": "0d86ae5f4debea1dbebbf0565b249c6b66b550ac0cb5663209c9574ff388da13"
+  },
+  "script_sha256": "c269917f3e259abc42c051a1dd7c1313a736bca19b9b95decaaf59557fda45cb",
+  "summary": {
+    "checks_passed": 41,
+    "checks_total": 41,
+    "H1_upper_bounds": [
+      253066,
+      184234,
+      324793
+    ],
+    "required": "finite ordinary-interval H1 bound; no small residual threshold",
+    "failures": []
+  }
+}

@@ -1,0 +1,5 @@
+# 14 November 2026 — source URL recovery926
+
+Literature-only recovery repaired direct source URLs in [test925](../drafts/literature/2026-11-14-reciprocal-common-contour-phase-test-925.md). All four primary PDFs were accessible; exact determinant/integrability, symmetry/uniqueness and closed-form deformation locators were checked. The full-proof and duplicate/failure assessment in review925 is reused. The unchanged SPECIALIZE scope is separately approved for the next research turn.
+
+STALLED is deliberate: attribution and gate readiness improved, but no mathematical evidence or new source comparison changed the route. No counters are claimed reset. The single next action remains the scalar/pair compatibility test; no compatibility calculation was performed here. A creative central mechanism remains due, but none is justified before this prerequisite is settled; routine specialization is not creative. No lemma, mathematical script, DAG, PROOF or shared/runtime state was edited; unfinished work is preserved.

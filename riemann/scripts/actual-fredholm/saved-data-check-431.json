@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all 128 quadrature-cell records complete; no independent exp/quadrature replay",
+    "inner_contour: all 512 segments, endpoint inclusions, nonzero boxes and exact winding=1",
+    "outer_contour: all 512 segments, endpoint inclusions, nonzero boxes and exact winding=1",
+    "all 1024 DFT sample denominators exclude zero; all 192 coefficient error records included",
+    "192-mode finite Gram/norm arithmetic checked with exact integers/rationals, including every U row",
+    "complete L777 upper error and reverse-triangle lower error verified rationally"
+  ],
+  "actual_norm": [
+    "0.842289983712912250413294695808658473846271790481566549699239546179433336335",
+    "0.842289983712969454107260030740997964832615889870340887145351394354599413654"
+  ],
+  "required_upper": "1",
+  "failures": [],
+  "limitations": "Does not independently audit theta jets, analytic truncation, Cauchy contour enclosure or Fourier alias theorem; separate critical review required",
+  "input": "scripts/actual-fredholm/fixed-pair-certificate-431.json"
+}

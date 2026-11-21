@@ -1,0 +1,179 @@
+{
+  "step": "2217",
+  "classification": "REPRODUCTION",
+  "frozen_parameters": {
+    "onset": 4,
+    "surviving_band": "(100,200]",
+    "complete_real_head_cutoff": 1000,
+    "boxes": [
+      [
+        {
+          "numerator": "14",
+          "denominator": "1",
+          "display_only": "14"
+        },
+        {
+          "numerator": "29",
+          "denominator": "2",
+          "display_only": "14.5"
+        }
+      ],
+      [
+        {
+          "numerator": "41",
+          "denominator": "2",
+          "display_only": "20.5"
+        },
+        {
+          "numerator": "43",
+          "denominator": "2",
+          "display_only": "21.5"
+        }
+      ],
+      [
+        {
+          "numerator": "49",
+          "denominator": "2",
+          "display_only": "24.5"
+        },
+        {
+          "numerator": "51",
+          "denominator": "2",
+          "display_only": "25.5"
+        }
+      ]
+    ]
+  },
+  "count": {
+    "strict_main_lower": {
+      "numerator": "350",
+      "denominator": "11",
+      "display_only": "31.818181818181818181818181818181818"
+    },
+    "strict_error_upper_per_endpoint": {
+      "numerator": "22943",
+      "denominator": "2500",
+      "display_only": "9.1772"
+    },
+    "strict_count_lower": {
+      "numerator": "185127",
+      "denominator": "13750",
+      "display_only": "13.463781818181818181818181818181818"
+    },
+    "required_count": 1,
+    "integer_count_lower": 14
+  },
+  "bounds": {
+    "survivor_gaps": [
+      {
+        "numerator": "39159",
+        "denominator": "8410000",
+        "display_only": "0.0046562425683709869203329369797859691"
+      },
+      {
+        "numerator": "38151",
+        "denominator": "18490000",
+        "display_only": "0.0020633315305570578691184424012979989"
+      },
+      {
+        "numerator": "37399",
+        "denominator": "26010000",
+        "display_only": "0.0014378700499807766243752402921953095"
+      }
+    ],
+    "gap_product": {
+      "numerator": "6208047042399",
+      "denominator": "449397601000000000000",
+      "display_only": "1.3814152609147995874593019912449421E-8"
+    },
+    "exterior_factors": [
+      {
+        "numerator": "250049",
+        "denominator": "49000000",
+        "display_only": "0.0051030408163265306122448979591836735"
+      },
+      {
+        "numerator": "4001681",
+        "denominator": "1681000000",
+        "display_only": "0.0023805359904818560380725758477096966"
+      },
+      {
+        "numerator": "4002401",
+        "denominator": "2401000000",
+        "display_only": "0.0016669725114535610162432319866722199"
+      }
+    ],
+    "exterior_product": {
+      "numerator": "4004867809290017969",
+      "denominator": "197767969000000000000000000",
+      "display_only": "2.0250335934278710062497532145865340E-8"
+    },
+    "complete_shell_series_upper": {
+      "numerator": "509",
+      "denominator": "9000000000000000000000000000000000000000000000000000000000",
+      "display_only": "5.6555555555555555555555555555555556E-56"
+    },
+    "head_lower_at_4": {
+      "numerator": "38539848080638971303675201",
+      "denominator": "2117685254915937544437760000000000000000000000000000000000000000000000000000000000000000",
+      "display_only": "1.8199044447787321288612624020805436E-62"
+    },
+    "tail_upper_at_4": {
+      "numerator": "8163833780472700718256906004550528445149",
+      "denominator": "19556084781192480500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "display_only": "4.1745747534926010989218480132178282E-70"
+    },
+    "strict_margin_at_4": {
+      "numerator": "71877338336069450016413729712216765914761886647167954125408830051",
+      "denominator": "3949511755468109585174049058366080500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "display_only": "1.8199044030329845939352514128620634E-62"
+    },
+    "head_tail_ratio": {
+      "numerator": "2916034726959416459749081500163916668367385864257812500000000",
+      "denominator": "66889253369302664618658915819863921762380740240459701",
+      "display_only": "43594966.008361303555017895279029541"
+    },
+    "comparison_cross_product": "753688519230823596204110430467174075358373600529407846650046893795573760000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "all_r": {
+    "head_extra_shift_lower": {
+      "numerator": "1",
+      "denominator": "1600000000",
+      "display_only": "6.25E-10"
+    },
+    "tail_extra_shift_upper": {
+      "numerator": "1",
+      "denominator": "1000000000000",
+      "display_only": "1E-12"
+    },
+    "relative_extra_shift_upper": {
+      "numerator": "1",
+      "denominator": "625",
+      "display_only": "0.0016"
+    },
+    "statement": "Q(X^(4+k) P_3) >= 200^(-4k)*(h4-t4*(1/625)^k) > 0, integer k>=0"
+  },
+  "checks": {
+    "exp6_lower_exceeds_200": true,
+    "exp2_lower_exceeds_6": true,
+    "exp2_upper_below_log_argument_lower": true,
+    "error_per_endpoint_is_9_17720": true,
+    "strict_count_exceeds_13": true,
+    "integer_count_lower_is_14": true,
+    "cancelled_boxes_disjoint_below_surviving_band": true,
+    "all_survivor_gaps_positive": true,
+    "head_positive": true,
+    "tail_positive": true,
+    "strict_head_tail_margin": true,
+    "head_tail_ratio_exceeds_ten_million": true,
+    "relative_shift_is_1_over_625": true,
+    "relative_shift_strictly_between_zero_and_one": true
+  },
+  "failures": [],
+  "qualifications": [
+    "The complete analytic proof is C919k.",
+    "Platt/Bellotti-Wong computations and C919f backend remain imported.",
+    "Decimal output is explanatory only; proof values are exact fractions.",
+    "No arbitrary-degree, unshifted, heat-time or RH conclusion."
+  ]
+}

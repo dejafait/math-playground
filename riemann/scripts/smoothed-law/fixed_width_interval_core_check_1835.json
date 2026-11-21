@@ -1,0 +1,107 @@
+{
+  "status": "PASS_COMPLETE_EVIDENCE_REPLAY_APPLICATION_AUDIT_PENDING",
+  "failures": [],
+  "checks": {
+    "trace_hash": 1,
+    "conversion_format": 19755,
+    "conversion_all_branches_cell": 19755,
+    "conversion_tie_and_containment": 19755,
+    "retained_grid": 19755,
+    "conversion_count": 19755,
+    "interval_unrounded_formula": 9795,
+    "interval_round_association": 9795,
+    "interval_count": 9795,
+    "clamp": 48,
+    "complete_event_count": 1,
+    "every_coefficient": 1,
+    "input_node_weight_association": 48,
+    "input_conversion": 48,
+    "complete_gaussian_expression": 48,
+    "gaussian_input_radius": 48,
+    "all_inputs": 1,
+    "q_all_branches": 64,
+    "q_full_contract": 1,
+    "all_contributions": 2,
+    "full_core_expression_z": 96,
+    "full_core_expression_S10": 96,
+    "full_core_expression_divisor": 96,
+    "full_core_expression_A": 96,
+    "full_core_expression_term": 96,
+    "full_core_expression_prefix": 96,
+    "every_core_divisor": 96,
+    "final_width_sum": 2,
+    "all_error_allowances": 1,
+    "complete_final_enclosure": 1,
+    "every_saved_interval_divisor": 1,
+    "local_count_trace_consistency": 8,
+    "ledger_addition": 1
+  },
+  "total_checks": 129157,
+  "events_checked": {
+    "round": 19755,
+    "interval": 9795,
+    "clamp": 48
+  },
+  "minimum_core_divisor": "115792909457653099564482533485532314586713404798486833123099867695689966258387/57896044618658097711785492504343953926634992332820282019728792003956564819968",
+  "radius": "3435180372627223330741753663252244039108293142035124014518684762387305/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+  "required_radius": "1/16777216",
+  "ledger_total": 20921533,
+  "untraced_constructor_and_error_counts": {
+    "constants": {
+      "+": 255,
+      "/": 484,
+      "comparison": 484,
+      "-": 1
+    },
+    "reference_construction": {
+      "*": 14440,
+      "-": 1024,
+      "/": 1273,
+      "comparison": 3327,
+      "+": 14184
+    },
+    "coefficients": {
+      "*": 73,
+      "/": 67,
+      "comparison": 67,
+      "+": 0,
+      "-": 1
+    },
+    "q_construction": {
+      "+": 65,
+      "/": 65,
+      "comparison": 131,
+      "*": 128
+    },
+    "input_gaussians": {
+      "/": 98,
+      "comparison": 482,
+      "+": 192,
+      "*": 48,
+      "-": 48
+    },
+    "core_W1": {
+      "*": 0,
+      "comparison": 0,
+      "+": 0,
+      "/": 0,
+      "-": 0
+    },
+    "core_W2": {
+      "*": 0,
+      "comparison": 0,
+      "+": 0,
+      "/": 0,
+      "-": 0
+    },
+    "final_error": {
+      "-": 3,
+      "comparison": 33,
+      "+": 5,
+      "/": 32,
+      "*": 43
+    }
+  },
+  "scope": "complete conversions/interval expressions,48 inputs,96 contributions,144 interval divisors; ordinary evidence replay, not independent audit of imported bounds or all constructor counts",
+  "certificate_sha256": "a4cea80dd609a40b1f90e35a75f347036b3b4e2efbb6c6e63f0bc7fc932fe58e"
+}

@@ -1,0 +1,20 @@
+{
+  "certified": false,
+  "scope": "unchanged assessment562; finite input subset512:1023; inverse output head only",
+  "input_first": 512,
+  "input_last": 1023,
+  "required_final_output_K": 65536,
+  "diagnostic_generalized_ratio": 0.06200741326770295,
+  "required_ratio_upper": 0.25,
+  "head_quarter": 0.8466002119054842,
+  "mixed_pairing": 0.45823788238053087,
+  "mixed_pairing_square_diagnostic": 0.20998195684859325,
+  "failures": [
+    "Complementary inverse-action outputs512:infinity unpaid",
+    "All entry, predictor, solve and arithmetic enclosures unpaid",
+    "No full input covariance or quarter-budget conclusion"
+  ],
+  "archive": "scripts/separation-seven/signed-mixed-diagnostic-564.npz",
+  "archive_sha256": "39dc6340fcd93c1ef86a3ca477f8e089d8cc24247cc6e0aec88f067836ca39cf",
+  "source_sha256": "9c41453e9d135f5e1f3b39bcc95e20f3ed33870a79f76e1f6353cc9179cd978f"
+}

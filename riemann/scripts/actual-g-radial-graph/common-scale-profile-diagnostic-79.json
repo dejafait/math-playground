@@ -1,0 +1,44 @@
+{
+  "status": "NONRIGOROUS_DIAGNOSTIC_NOT_A_CERTIFICATE_OF_SIGN",
+  "profile": "eta(t)=exp(1-1/(1-t^2)); chi=eta(X)*eta(Y); V=(chi,-Y*chi)",
+  "conditional_slopes": {
+    "p": 1,
+    "k": 1,
+    "n": 0
+  },
+  "required_full_mass_coefficient": "< 0",
+  "records": [
+    {
+      "order_per_unsplit_axis": 64,
+      "full_mass_coefficient": 0.5905340158780661,
+      "nonnegative_phase_cost": 0.7330119258494614,
+      "signed_interface_coefficient": -0.14247791012882827,
+      "identity_residual": 1.5743295556092107e-10,
+      "sampled_minimum_jacobian_modulus": 0.9593338426800786,
+      "sampled_maximum_abs_chi_chix": 0.9541573758310707
+    },
+    {
+      "order_per_unsplit_axis": 128,
+      "full_mass_coefficient": 0.5905340160094155,
+      "nonnegative_phase_cost": 0.7330119261382408,
+      "signed_interface_coefficient": -0.1424779101288267,
+      "identity_residual": 1.3322676295501878e-15,
+      "sampled_minimum_jacobian_modulus": 0.958996544114455,
+      "sampled_maximum_abs_chi_chix": 0.9554660968834436
+    },
+    {
+      "order_per_unsplit_axis": 256,
+      "full_mass_coefficient": 0.5905340160024144,
+      "nonnegative_phase_cost": 0.7330119261312428,
+      "signed_interface_coefficient": -0.14247791012882793,
+      "identity_residual": -4.440892098500626e-16,
+      "sampled_minimum_jacobian_modulus": 0.9590382108856453,
+      "sampled_maximum_abs_chi_chix": 0.9556967636151494
+    }
+  ],
+  "limitations": [
+    "Floating quadrature and sampled J do not verify any sign or nonvanishing.",
+    "No actual stationary graph or slope triple is asserted to exist.",
+    "Actual-G remainder and all finite endpoint checks need analytic proof."
+  ]
+}

@@ -1,0 +1,8 @@
+Direct inverse rows through 16895
+Direct inverse rows through 33279
+Direct inverse rows through 49663
+Traceback (most recent call last):
+  File "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/separation-seven/signed-mixed-inverse-input-569.py", line 178, in <module>
+    rdiag=I(2).sqrt()/(6*(I('64.25')**2+(I(N)*pi/(2*ell))**2))
+                          ~~~~~~~~~~^^~
+TypeError: unsupported operand type(s) for ** or pow(): 'I' and 'int'

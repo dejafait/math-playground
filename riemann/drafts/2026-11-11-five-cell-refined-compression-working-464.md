@@ -1,0 +1,17 @@
+# Refined complete compression — step464 working record
+
+Approved unchanged target: Certify or refute positivity of the complete five-cell penalty-256 form on span(e_0^+,...,e_63^+), retaining every physical response and all ten moments, without inferring a complement or neutral-space sign.
+
+Prior ready SPECIALIZE coverage: drafts/literature/2026-11-11-five-cell-complete-compression-461.md. Task calculation, classification REPRODUCTION. Inputs L744 (6)/(8), C744b formulas and accepted arithmetic, C744c accepted closure audit, C744d matrix normalization/coarse-box obstruction (separate audit pending). No source numerical certificate, L742 or cross-notebook input.
+
+Main gap L030-L032/C032a actual-Xi positivity. Finite-compression sign is only a feasibility input; no complement or all-window transfer follows. Bounded test: tighten the complete diagonal/response matrix with explicit convergent-series remainders; certify a positive congruence or an exact negative complete direction. If no sign is paid, preserve evidence and stop without parameter retuning. C744d's unchanged independent box is not retried.
+
+Planned elementary series implementation: rational prefix plus geometric expansion in k^2/c_N^2 for the complete rational response tail and digamma difference; exponentially small response correction retained by an explicit bound. Sum inverse powers over dyadic blocks using centered finite binomial expansions and exact integer moments, with a geometric Taylor remainder and integral-comparison final tail. Evaluate Euler's constant through its convergent logarithmic series with the same inverse-power enclosures. No floating special-function values certify a matrix entry. Equal/zero frequencies use the same product expansion, with no divided-by-frequency subtraction. This is the covered elementary-series option, algebraically equivalent to the complete divided-difference response evaluation.
+
+Unfinished: implement and verify these bounds, preserve exact output and sign-test residual. Neither a refined margin nor a positive physical matrix is asserted.
+
+Implementation check: the first run completed the inverse sums/diagonal stage but stopped at a moment-entry equality assertion for mirrored indices, where reversing the old interval operation order changes last rounded digits. No sign/certificate was produced. Corrected the equality test to the original upper-triangle order; the matrix itself is unchanged.
+
+The next run wrote the full matrix (maximum entry width <5.850e-55), then stopped because optional mpmath was unavailable. No mpmath result was used. Replaced only the untrusted point proposal with 100-digit standard-library Decimal Cholesky and split proposal/checking into sign-464.py. Directed residual norm <1.774e-14; exact integer verification passed 4455 checks before adding matrix-assembly/hash checks. Full analytic justification and a later separate audit remain necessary.
+
+Completed final implementation: refined-464.py writes the complete enclosure; sign-464.py proposes exact finite-decimal B and certifies a residual norm below 1.774e-14; check-refined-464.py independently verifies 6538 exact checks with no failures, including all component assembly and congruence entries. The exact lower bound exceeds 1e-43. Canonical statement/proof is C744e; inherited C744d normalization and new analytic series remain separately unaudited. All old artifacts retained. Next target is a conceptual audit under the new REVIEW_REQUIRED nomination, not larger operator work or a renewed unchanged calculation.

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": 97255,
+  "failures": [],
+  "complete_records_consumed": {
+    "spatial_cells": 1280,
+    "coefficient_intervals": 288,
+    "parameter_jets": 512,
+    "closed_cells": 16384
+  },
+  "uniform": {
+    "J": {
+      "lower": "0.23259130360944383940449600446832131383013934147170406968476615730844062117228228",
+      "upper": "0.27796018329312833944934059443021466422514768284240289776888719664473821490700755"
+    },
+    "I": {
+      "lower": "9.8245961371364386344931786244888403059375761630046610746068024977359748854380675E-9",
+      "upper": "0.033154597090478708995194338518473404312164629333775204704874797370312814131517462"
+    }
+  },
+  "required": {
+    "J": "0.01",
+    "I": "1E-12"
+  },
+  "hashes": {
+    "two_region_preflight_2251.json": "6ec2299c6bb04e0bd954a1a820b854ada011db6a477ac7055887eced5b8bbe24",
+    "two_region_2251.json": "096a9d8fa0064d6b26bc5de98a290214902b532a5712e1dd0fa3fa74659eee3e"
+  },
+  "qualification": "Internal exact-rational reconstruction consumes all relevant records; it does not independently recompute exp/node quadrature or verify the backend, and is not the separate conceptual audit."
+}

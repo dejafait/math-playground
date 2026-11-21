@@ -1,0 +1,3969 @@
+{
+  "status": "PASS",
+  "scope": "C919s fixed quartic first zero and curvature at u=1 only",
+  "original_source_sha256": "ba71ea037e9b53b9e1058099b0970b902306bb0bdfb5676a8273c354e3e7f576",
+  "original_certificate_sha256": "c2e4e4c267fcd1251cccc90dfbae78a512163d40d3c3b81049ae4a0c98265689",
+  "replay_runtime": {
+    "python": "3.15.2",
+    "libmpdec": "4.0.1",
+    "precision": 70
+  },
+  "backend_qualification": "CPython integers/Fraction and libmpdec rounding/exp/neighbor contracts remain assumptions; same-code replay is not independent verification of them",
+  "analytic_review": "See C919s Proof, Audit2259 subsection; no generic curvature theorem checked",
+  "census_cells_checked": 148,
+  "signed_bisections_checked": 10,
+  "checks": [
+    {
+      "check": "original source hash",
+      "passed": true
+    },
+    {
+      "check": "original status and empty failures",
+      "passed": true
+    },
+    {
+      "check": "fixed setup",
+      "passed": true
+    },
+    {
+      "check": "polynomial P0",
+      "passed": true
+    },
+    {
+      "check": "polynomial P1",
+      "passed": true
+    },
+    {
+      "check": "polynomial P2",
+      "passed": true
+    },
+    {
+      "check": "polynomial P3",
+      "passed": true
+    },
+    {
+      "check": "polynomial P4",
+      "passed": true
+    },
+    {
+      "check": "all K derivative bounds",
+      "passed": true
+    },
+    {
+      "check": "all tK derivative bounds",
+      "passed": true
+    },
+    {
+      "check": "complete fourth derivative bounds",
+      "passed": true
+    },
+    {
+      "check": "simpson_F exact error and displayed upper",
+      "passed": true
+    },
+    {
+      "check": "simpson_Fprime exact error and displayed upper",
+      "passed": true
+    },
+    {
+      "check": "simpson_shift exact error and displayed upper",
+      "passed": true
+    },
+    {
+      "check": "148 cells",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell0 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell0 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell0 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell1 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell1 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell1 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell1 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell2 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell2 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell2 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell2 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell3 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell3 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell3 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell3 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell4 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell4 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell4 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell4 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell5 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell5 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell5 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell5 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell6 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell6 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell6 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell6 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell7 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell7 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell7 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell7 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell8 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell8 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell8 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell8 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell9 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell9 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell9 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell9 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell10 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell10 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell10 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell10 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell11 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell11 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell11 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell11 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell12 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell12 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell12 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell12 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell13 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell13 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell13 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell13 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell14 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell14 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell14 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell14 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell15 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell15 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell15 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell15 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell16 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell16 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell16 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell16 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell17 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell17 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell17 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell17 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell18 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell18 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell18 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell18 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell19 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell19 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell19 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell19 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell20 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell20 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell20 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell20 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell21 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell21 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell21 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell21 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell22 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell22 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell22 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell22 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell23 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell23 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell23 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell23 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell24 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell24 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell24 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell24 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell25 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell25 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell25 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell25 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell26 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell26 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell26 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell26 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell27 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell27 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell27 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell27 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell28 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell28 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell28 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell28 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell29 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell29 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell29 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell29 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell30 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell30 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell30 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell30 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell31 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell31 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell31 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell31 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell32 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell32 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell32 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell32 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell33 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell33 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell33 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell33 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell34 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell34 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell34 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell34 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell35 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell35 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell35 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell35 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell36 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell36 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell36 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell36 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell37 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell37 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell37 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell37 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell38 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell38 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell38 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell38 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell39 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell39 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell39 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell39 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell40 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell40 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell40 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell40 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell41 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell41 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell41 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell41 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell42 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell42 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell42 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell42 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell43 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell43 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell43 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell43 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell44 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell44 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell44 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell44 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell45 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell45 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell45 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell45 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell46 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell46 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell46 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell46 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell47 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell47 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell47 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell47 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell48 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell48 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell48 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell48 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell49 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell49 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell49 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell49 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell50 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell50 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell50 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell50 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell51 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell51 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell51 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell51 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell52 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell52 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell52 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell52 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell53 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell53 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell53 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell53 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell54 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell54 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell54 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell54 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell55 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell55 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell55 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell55 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell56 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell56 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell56 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell56 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell57 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell57 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell57 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell57 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell58 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell58 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell58 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell58 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell59 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell59 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell59 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell59 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell60 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell60 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell60 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell60 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell61 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell61 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell61 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell61 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell62 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell62 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell62 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell62 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell63 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell63 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell63 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell63 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell64 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell64 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell64 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell64 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell65 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell65 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell65 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell65 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell66 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell66 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell66 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell66 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell67 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell67 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell67 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell67 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell68 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell68 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell68 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell68 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell69 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell69 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell69 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell69 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell70 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell70 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell70 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell70 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell71 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell71 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell71 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell71 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell72 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell72 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell72 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell72 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell73 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell73 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell73 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell73 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell74 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell74 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell74 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell74 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell75 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell75 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell75 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell75 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell76 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell76 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell76 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell76 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell77 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell77 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell77 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell77 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell78 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell78 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell78 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell78 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell79 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell79 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell79 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell79 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell80 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell80 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell80 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell80 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell81 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell81 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell81 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell81 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell82 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell82 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell82 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell82 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell83 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell83 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell83 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell83 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell84 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell84 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell84 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell84 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell85 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell85 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell85 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell85 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell86 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell86 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell86 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell86 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell87 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell87 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell87 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell87 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell88 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell88 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell88 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell88 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell89 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell89 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell89 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell89 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell90 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell90 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell90 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell90 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell91 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell91 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell91 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell91 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell92 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell92 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell92 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell92 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell93 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell93 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell93 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell93 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell94 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell94 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell94 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell94 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell95 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell95 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell95 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell95 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell96 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell96 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell96 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell96 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell97 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell97 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell97 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell97 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell98 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell98 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell98 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell98 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell99 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell99 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell99 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell99 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell100 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell100 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell100 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell100 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell101 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell101 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell101 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell101 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell102 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell102 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell102 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell102 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell103 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell103 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell103 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell103 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell104 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell104 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell104 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell104 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell105 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell105 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell105 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell105 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell106 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell106 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell106 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell106 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell107 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell107 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell107 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell107 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell108 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell108 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell108 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell108 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell109 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell109 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell109 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell109 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell110 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell110 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell110 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell110 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell111 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell111 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell111 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell111 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell112 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell112 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell112 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell112 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell113 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell113 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell113 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell113 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell114 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell114 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell114 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell114 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell115 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell115 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell115 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell115 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell116 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell116 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell116 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell116 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell117 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell117 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell117 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell117 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell118 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell118 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell118 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell118 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell119 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell119 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell119 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell119 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell120 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell120 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell120 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell120 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell121 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell121 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell121 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell121 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell122 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell122 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell122 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell122 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell123 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell123 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell123 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell123 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell124 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell124 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell124 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell124 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell125 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell125 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell125 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell125 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell126 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell126 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell126 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell126 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell127 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell127 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell127 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell127 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell128 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell128 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell128 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell128 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell129 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell129 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell129 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell129 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell130 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell130 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell130 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell130 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell131 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell131 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell131 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell131 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell132 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell132 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell132 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell132 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell133 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell133 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell133 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell133 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell134 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell134 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell134 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell134 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell135 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell135 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell135 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell135 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell136 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell136 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell136 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell136 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell137 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell137 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell137 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell137 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell138 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell138 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell138 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell138 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell139 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell139 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell139 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell139 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell140 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell140 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell140 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell140 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell141 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell141 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell141 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell141 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell142 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell142 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell142 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell142 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell143 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell143 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell143 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell143 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell144 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell144 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell144 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell144 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell145 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell145 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell145 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell145 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell146 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell146 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell146 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "cell146 strictly positive",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "cell147 endpoints",
+      "passed": true
+    },
+    {
+      "check": "cell147 shared endpoint",
+      "passed": true
+    },
+    {
+      "check": "cell147 outward interpolation",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "crossing signs and label",
+      "passed": true
+    },
+    {
+      "check": "whole crossing cell strict decrease",
+      "passed": true
+    },
+    {
+      "check": "displayed crossing margins",
+      "passed": true
+    },
+    {
+      "check": "displayed derivative bounds",
+      "passed": true
+    },
+    {
+      "check": "displayed interpolation margin",
+      "passed": true
+    },
+    {
+      "check": "ten bisections",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection0 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection0 negative sign",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection1 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection1 negative sign",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection2 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection2 positive sign",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection3 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection3 positive sign",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection4 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection4 positive sign",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection5 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection5 negative sign",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection6 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection6 positive sign",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection7 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection7 negative sign",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection8 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection8 negative sign",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "bisection9 midpoint",
+      "passed": true
+    },
+    {
+      "check": "bisection9 positive sign",
+      "passed": true
+    },
+    {
+      "check": "final first simple root",
+      "passed": true
+    },
+    {
+      "check": "final endpoint evidence",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "displayed root signs",
+      "passed": true
+    },
+    {
+      "check": "root center and radius",
+      "passed": true
+    },
+    {
+      "check": "only unique OUT assignment redirected",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: status",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: script_sha256",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: contracts",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: setup",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: bounds",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: census",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: bisection",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: failures",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: root",
+      "passed": true
+    },
+    {
+      "check": "complete replay equality: curvature",
+      "passed": true
+    },
+    {
+      "check": "original certificate preserved",
+      "passed": true
+    },
+    {
+      "check": "original source preserved",
+      "passed": true
+    },
+    {
+      "check": "tail F complete tangent bound",
+      "passed": true
+    },
+    {
+      "check": "tail Fprime complete tangent bound",
+      "passed": true
+    },
+    {
+      "check": "all trig increments within Taylor scope",
+      "passed": true
+    },
+    {
+      "check": "positive even panel counts and complete shifted range",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "A_sine full root-radius inflation",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "B_cosine full root-radius inflation",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "interval endpoints ordered",
+      "passed": true
+    },
+    {
+      "check": "G product",
+      "passed": true
+    },
+    {
+      "check": "Gprime product",
+      "passed": true
+    },
+    {
+      "check": "Gsecond ODE enclosure",
+      "passed": true
+    },
+    {
+      "check": "Delta complete outward enclosure",
+      "passed": true
+    },
+    {
+      "check": "displayed G",
+      "passed": true
+    },
+    {
+      "check": "displayed Gprime",
+      "passed": true
+    },
+    {
+      "check": "displayed Gsecond",
+      "passed": true
+    },
+    {
+      "check": "displayed Delta detailed",
+      "passed": true
+    },
+    {
+      "check": "displayed Delta conclusion",
+      "passed": true
+    },
+    {
+      "check": "negative determinant and positive inverse at1",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "result": {
+    "root": {
+      "lower": "150761/32768",
+      "upper": "75381/16384",
+      "center": "301523/65536",
+      "radius": "1/65536",
+      "F_lower": {
+        "lower": "9.857915851411896403919267847742719700022560091829212657097056255887848E-7",
+        "upper": "0.000001020713594682118375065320881996494192224478231405143487931928287630963"
+      },
+      "F_upper": {
+        "lower": "-8.912383756157632230395552627101539528759391985820710664563277077872981E-7",
+        "upper": "-8.563163660748344883661611654879317306537169763598488442341050473472233E-7"
+      },
+      "simple": true
+    },
+    "Delta": {
+      "lower": "-0.01710853313686295084488784174910522499516269946180200287563189549891634",
+      "upper": "-0.01670952582070510711355803927913191664219101898694070429930200566598450"
+    },
+    "required_for_refutation": "Delta.lower>0",
+    "actual": "Delta.upper<0"
+  },
+  "artifacts": {
+    "replay": "quartic_first_zero_replay_2259.json",
+    "replay_log": "quartic_first_zero_replay_2259.log"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "parameters": {
+    "N": 512,
+    "K": 65536,
+    "endpoint_dimension": 1020,
+    "recurrence_shift": 4096,
+    "diagonal_cutoff": 65536
+  },
+  "scope": "Complete head inverse error relative to unchanged dyadic Xhat, exact proxy ZYhat; both mixed T orientations and all free input modes",
+  "certified_head_contribution_under_inherited_contracts": true,
+  "exact_finite_covariance_certified": false,
+  "actual_quarter_decided": false,
+  "input_hashes": {
+    "neutral-head-covariance-559.npz": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+    "complete-schur-531.py": "0ca836a6b0a4c9511e1495420b060496718acc083579a7f306e630fd951a83fc",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "residual-certificate-532.py": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5"
+  },
+  "script_sha256": "2c864b278be1f9bed53f291dc447acae63f32fa8b22b0cf24d6c90801805d234",
+  "archive": {
+    "path": "scripts/separation-seven/signed-mixed-head-defect-573.npz",
+    "sha256": "22cf08ea3181ae57b6a7651d1ebb4af606d7e9d7c8eba652d47a834a7a829d7a"
+  },
+  "complete_interval_entry_counts": {
+    "m": 262144,
+    "t": 262144,
+    "h": 262144
+  },
+  "complete_matrix_norms": {
+    "m": 316.0454089537613,
+    "t": 32.13316713708048,
+    "h": 316.027152116391,
+    "z": 22.58350922059095,
+    "y": 9.38258057525562,
+    "xhat": 0.2936832251936019,
+    "g": 9.383138156891924,
+    "rho": 0.589344977692136,
+    "defect": 4.4378631870020026e-05
+  },
+  "factor": {
+    "proposed": true,
+    "residual_fro": 2.4017507288809597e-14,
+    "factor_squared_fro": 4837.165096034576,
+    "maximum_entry": 6.009206725922788,
+    "scaled_correction_fro": 0.0773542780956452
+  },
+  "scalars": {
+    "head_matrix_error": {
+      "lo": "4.2546556515402782279686188550427150545374388457275927066802978515625E-7",
+      "hi": "4.2546556515402782279686188550427150545374388457275927066802978515625E-7"
+    },
+    "cross_matrix_error": {
+      "lo": "8.441073819226444159809065639397496032259038400979989091865718364715576171875E-11",
+      "hi": "8.441073819226444159809065639397496032259038400979989091865718364715576171875E-11"
+    },
+    "reference_matrix_error": {
+      "lo": "1.2000515675066804598860047042495394120013678385117117386471363715827465057373046875E-13",
+      "hi": "1.2000515675066804598860047042495394120013678385117117386471363715827465057373046875E-13"
+    },
+    "complete_matrix_arithmetic": {
+      "lo": "3.0962584645915137584658722145974753686821838285404925724373321053086792616655756E-8",
+      "hi": "3.0962584645915137584658722145974753686821838285404925724373321053086792616655763E-8"
+    },
+    "exact_basis_error": {
+      "lo": "4.2384120230476611341068745442406928092135383067144155680458897160700633440959167E-12",
+      "hi": "4.2384120230476611341068745442406928092135383067144155680458897160700633440959169E-12"
+    },
+    "complete_defect_error": {
+      "lo": "5.9719507935132011117137617834097678069070794548750761446606462884673112231235735E-7",
+      "hi": "5.9719507935132011117137617834097678069070794548750761446606462884673112231235740E-7"
+    },
+    "correction_residual_norm": {
+      "lo": "5.6511897478244034923003280839669997965306784359253568054970440215356575208716094493865966796875E-20",
+      "hi": "5.6511897478244034923003280839669997965306784359253568054970440215356575208716094493865966796875E-20"
+    },
+    "correction_arithmetic": {
+      "lo": "2.3016296034652287294933928334356671191995392213416377219046959462458508498202284E-13",
+      "hi": "2.3016296034652287294933928334356671191995392213416377219046959462458508498202290E-13"
+    },
+    "complete_correction_solve_error": {
+      "lo": "9.5903590562691699768656323774744053403604109626863402216198353165802555827456567E-13",
+      "hi": "9.5903590562691699768656323774744053403604109626863402216198353165802555827456600E-13"
+    },
+    "normalized_inverse_error": {
+      "lo": "0.00057872709234286071295461371991354974817025747532196780987758912514126609616828829",
+      "hi": "0.00057872709234286071295461371991354974817025747532196780987758912514126609616828832"
+    },
+    "mixed_head_contribution": {
+      "lo": "0.0015556988666481006961175371133106265549065574923851157880120448738492315558934858",
+      "hi": "0.0015556988666481006961175371133106265549065574923851157880120448738492315558934865"
+    },
+    "full_factor_error": {
+      "lo": "3.2276010491187270420253113859512325942400710192928818448807062126990969559785068E-7",
+      "hi": "3.2276010491187270420253113859512325942400710192928818448807062126990969559785071E-7"
+    }
+  },
+  "required_total_exact_map_error": ".004204",
+  "sought_head_component_upper": ".002",
+  "checks": [
+    {
+      "label": "inherited complete audit561 check list",
+      "passed": true
+    },
+    {
+      "label": "unchanged audited neutral-head-covariance-559.npz",
+      "passed": true
+    },
+    {
+      "label": "unchanged audited complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "label": "unchanged audited complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "label": "unchanged audited residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "label": "all complete head interval endpoints finite",
+      "passed": true
+    },
+    {
+      "label": "all complete head interval orders",
+      "passed": true
+    },
+    {
+      "label": "complete saved-factor Frobenius magnitudes",
+      "passed": true
+    },
+    {
+      "label": "whole defect matrix arithmetic below1e-7",
+      "passed": true
+    },
+    {
+      "label": "complete normalized-correction factor and magnitudes",
+      "passed": true
+    },
+    {
+      "label": "restored factor margin pays Gram/scaling/reconstruction",
+      "passed": true
+    },
+    {
+      "label": "complete head-inverse contribution below .002",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "unresolved": [
+    "Other finite direct-entry/basis errors",
+    "Complementary inverse diagonal/entry errors",
+    "FFT proposal connection",
+    "Section12/13 and new result audit",
+    "Complement sign and all global qualifications"
+  ]
+}

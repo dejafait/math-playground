@@ -1,0 +1,210 @@
+{
+  "scope": "lambda=1/40, x=1, full L019 theta kernel, inverse at y0=h(1); no contact or flux sign",
+  "analytic_contracts": [
+    "Elementary 3<pi<4 and e<3; strict positive exp-series bounds as recorded.",
+    "Uniform convergence through three derivatives near u=1, p_j recurrence, positive K1.",
+    "For n=2+k, n<=2(3/2)^k and n^2-1>=3+5k; the geometric bound covers all n>=2.",
+    "0<=tail K/K1<=E0, absolute tail derivative ratios<=Ej; rational perturbation bounds.",
+    "Log derivative formulas and the inverse function chain rule.",
+    "L915's source-qualified global h'>19/10 supplies invertibility, not inverse convexity."
+  ],
+  "derivative_polynomials": [
+    [
+      "0",
+      "-12",
+      "8"
+    ],
+    [
+      "0",
+      "-30",
+      "60",
+      "-16"
+    ],
+    [
+      "0",
+      "-75",
+      "330",
+      "-224",
+      "32"
+    ],
+    [
+      "0",
+      "-375/2",
+      "1635",
+      "-2116",
+      "720",
+      "-64"
+    ]
+  ],
+  "coefficient_absolute_sums": [
+    "20",
+    "106",
+    "661",
+    "9445/2"
+  ],
+  "bounds": {
+    "v_interval": [
+      "21",
+      "36"
+    ],
+    "head_ratio_bounds": {
+      "1": "3816/7",
+      "2": "856656/7",
+      "3": "220332960/7"
+    },
+    "tail_ratio_bounds": {
+      "0": "1/22937600000000000000000000",
+      "1": "477/14336000000000000000000000",
+      "2": "53541/1792000000000000000000000",
+      "3": "1377081/44800000000000000000000"
+    },
+    "geometric_ratio_bounds": {
+      "0": "81/54975581388800000000000000000000000000000000000",
+      "1": "729/219902325555200000000000000000000000000000000000",
+      "2": "6561/879609302220800000000000000000000000000000000000",
+      "3": "59049/3518437208883200000000000000000000000000000000000"
+    },
+    "normalized_ratio_errors": {
+      "1": "1431/25088000000000000000000000",
+      "2": "1766853/50176000000000000000000000",
+      "3": "161118477/5017600000000000000000000"
+    },
+    "log_derivative_errors": {
+      "1": "1431/25088000000000000000000000",
+      "2": "61305672960000000000000002047761/629407744000000000000000000000000000000000000000000",
+      "3": "1676535154489294848000000131592627008640000000000002930345991/7895290740736000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "sum_log_derivative_errors": "1677304623192145920000000131618314122624000000000002930345991/7895290740736000000000000000000000000000000000000000000000000000000000000000",
+    "head_curvature_numerator_lower": "932913/4394",
+    "full_curvature_numerator_lower": "3682809685406121980314961742846855413759999710834563872595071999999993562029857773/17345953757396992000000000000000000000000000000000000000000000000000000000000000",
+    "h_second_lower": "3682809685406121980314961742846855413759999710834563872595071999999993562029857773/69383815029587968000000000000000000000000000000000000000000000000000000000000000",
+    "h_first_lower": "992072486092799999999202559539455999999999999973379107/16364601344000000000000000000000000000000000000000000",
+    "h_first_upper": "22547021850214400000010366725987072000000000000346071609/212739817472000000000000000000000000000000000000000000",
+    "inverse_second_upper": "-1/26620"
+  },
+  "checks": [
+    {
+      "name": "third_derivative_coefficients",
+      "actual": [
+        "0",
+        "-375/2",
+        "1635",
+        "-2116",
+        "720",
+        "-64"
+      ],
+      "relation": "==",
+      "required": [
+        "0",
+        "-375/2",
+        "1635",
+        "-2116",
+        "720",
+        "-64"
+      ],
+      "passed": true
+    },
+    {
+      "name": "exp_two_positive_partial",
+      "actual": "7",
+      "relation": "==",
+      "required": "7",
+      "passed": true
+    },
+    {
+      "name": "exp_three_positive_partial",
+      "actual": "89641/4480",
+      "relation": ">",
+      "required": "20",
+      "passed": true
+    },
+    {
+      "name": "p0_coefficient_lower",
+      "actual": "52/7",
+      "relation": ">",
+      "required": "7",
+      "passed": true
+    },
+    {
+      "name": "tail_geometric_ratio_j0",
+      "actual": "81/54975581388800000000000000000000000000000000000",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true
+    },
+    {
+      "name": "tail_geometric_ratio_j1",
+      "actual": "729/219902325555200000000000000000000000000000000000",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true
+    },
+    {
+      "name": "tail_geometric_ratio_j2",
+      "actual": "6561/879609302220800000000000000000000000000000000000",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true
+    },
+    {
+      "name": "tail_geometric_ratio_j3",
+      "actual": "59049/3518437208883200000000000000000000000000000000000",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true
+    },
+    {
+      "name": "sum_three_log_derivative_errors",
+      "actual": "1677304623192145920000000131618314122624000000000002930345991/7895290740736000000000000000000000000000000000000000000000000000000000000000",
+      "relation": "<",
+      "required": "1/100",
+      "passed": true
+    },
+    {
+      "name": "head_curvature_numerator_lower",
+      "actual": "932913/4394",
+      "relation": ">",
+      "required": "212",
+      "passed": true
+    },
+    {
+      "name": "full_h_second_lower",
+      "actual": "3682809685406121980314961742846855413759999710834563872595071999999993562029857773/69383815029587968000000000000000000000000000000000000000000000000000000000000000",
+      "relation": ">",
+      "required": "50",
+      "passed": true
+    },
+    {
+      "name": "full_h_first_lower",
+      "actual": "992072486092799999999202559539455999999999999973379107/16364601344000000000000000000000000000000000000000000",
+      "relation": ">",
+      "required": "50",
+      "passed": true
+    },
+    {
+      "name": "full_h_first_upper",
+      "actual": "22547021850214400000010366725987072000000000000346071609/212739817472000000000000000000000000000000000000000000",
+      "relation": "<",
+      "required": "110",
+      "passed": true
+    },
+    {
+      "name": "negative_inverse_threshold",
+      "actual": "-1/26620",
+      "relation": "==",
+      "required": "-1/26620",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "checks": 14,
+    "passed": 14,
+    "failures": [],
+    "required_h_second_lower": "50",
+    "required_h_first_interval": "(50,110)",
+    "certified_inverse_second_upper": "-1/26620 (strict)",
+    "global_inverse_convexity": false,
+    "contact_or_flux_certified": false,
+    "analytic_contracts_independently_audited_by_script": false
+  }
+}

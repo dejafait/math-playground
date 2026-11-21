@@ -1,0 +1,145 @@
+{
+  "scope": "Correctness audit/replay of fixed C750i only; original supported inequality unresolved.",
+  "abi": {
+    "version": "4.2.2",
+    "header_version": "4.2.2",
+    "sizes": [
+      32,
+      8,
+      4,
+      8,
+      8
+    ],
+    "offsets": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "rounding": [
+      3,
+      2
+    ],
+    "precision": 384,
+    "long_size": 8,
+    "int_size": 4,
+    "ulong_size": 8
+  },
+  "ctypes_sizes": [
+    32,
+    8,
+    4,
+    8,
+    8
+  ],
+  "ctypes_offsets": [
+    0,
+    8,
+    16,
+    24
+  ],
+  "checks": {
+    "all_replayed_fields_identical": true,
+    "original_certificate_preserved": true,
+    "initial_certificate_preserved": true,
+    "no_verification_failures": true,
+    "all_claims_true": true,
+    "allocation_failure_retained": true,
+    "both_failed_tests_retained": true,
+    "initial_upper_failure_retained": true,
+    "abi_sizes_match": true,
+    "abi_offsets_match": true,
+    "abi_rounding_match": true,
+    "abi_versions_and_precision_match": true,
+    "fixed_grid_match": true,
+    "all_cumulative_blocks_match_initial": true,
+    "simpson_error_ordered": true,
+    "simpson_error_display_upper": true,
+    "inverse_rayleigh_enclosure_ordered": true,
+    "inverse_rayleigh_enclosure_display_lower": true,
+    "inverse_rayleigh_enclosure_display_upper": true,
+    "uniform_kernel_error_ordered": true,
+    "uniform_kernel_error_display_upper": true,
+    "frequency_tail_norm_ordered": true,
+    "frequency_tail_norm_display_upper": true,
+    "norm_upper_ordered": true,
+    "norm_upper_display_upper": true,
+    "threshold_ordered": true,
+    "threshold_display_upper": true,
+    "threshold_miss_ordered": true,
+    "threshold_miss_display_lower": true,
+    "allocation_norm_lower_ordered": true,
+    "allocation_norm_lower_display_lower": true,
+    "decisive_exact_comparison": true,
+    "strict_miss_over_02344876": true,
+    "all_numeric_enclosures_match_initial": true,
+    "script_sha256_matches_current_source": true,
+    "backend_sha256_matches_current_source": true
+  },
+  "failures": [],
+  "original_sha256": "ece0d3f430e9d7b3dcbed1e437ca0760a9e10e016ea83d8eb14034f3fc2aaafa",
+  "initial_sha256": "e48e1a44177422761673d25e0bc8961aef2c3917c5e635b13b4e76dc921afd2c",
+  "replay_sha256": "ece0d3f430e9d7b3dcbed1e437ca0760a9e10e016ea83d8eb14034f3fc2aaafa",
+  "replay_path": "scripts/prime-collar/certificate-1144-replay-1146.json",
+  "abi_source_sha256": "307be2d61d35c57d29edad170bbf74f6e2cef1a744030f8f15a8157511b688bc",
+  "audit_source_sha256": "23d0fcc9eeee9f8d87a56208d834ffa2782af8df93b98139bd07bcac9a9ede42",
+  "display_bounds_checked": {
+    "simpson_error": [
+      null,
+      "2.657925e-8"
+    ],
+    "inverse_rayleigh_enclosure": [
+      "0.2925602441470644",
+      "0.3152920166028328"
+    ],
+    "uniform_kernel_error": [
+      null,
+      "0.675793334"
+    ],
+    "frequency_tail_norm": [
+      null,
+      "0.180084149"
+    ],
+    "norm_upper": [
+      null,
+      "1.014419622"
+    ],
+    "threshold": [
+      null,
+      "0.2691114763335869"
+    ],
+    "threshold_miss": [
+      "0.0234487678134775",
+      null
+    ],
+    "allocation_norm_lower": [
+      "0.1358917539178126",
+      null
+    ]
+  },
+  "initial_changed_shared_fields": [
+    "claims",
+    "failures",
+    "script_sha256"
+  ],
+  "decisive_lower": [
+    "292560244147064445048672185061324944927254282539490879699180197854000054336629827100740490998686121632456e-105",
+    "292560244147064445048672185061324944927254282539490879699180197854000054336629827100740490998686121632457e-105"
+  ],
+  "required_threshold": [
+    "269111476333586859396449095688159936600626791838939201555501875262445982733214282197483125949055184972856e-105",
+    "269111476333586859396449095688159936600626791838939201555501875262445982733214282197483125949055184972857e-105"
+  ],
+  "full_upper": [
+    "101441962116954021953754276517083857515089789383860472735633843498734794878845214050127206027047525558195e-104",
+    "101441962116954021953754276517083857515089789383860472735633843498734794878845214050127206027047525558196e-104"
+  ],
+  "threshold_miss": [
+    "234487678134775856522230893731650083266274907005516781436783225915540716034155449032573650496309366596002e-106",
+    "234487678134775856522230893731650083266274907005516781436783225915540716034155449032573650496309366596003e-106"
+  ],
+  "failed_mathematical_tests": [
+    "required norm upper <= 1/(4k)",
+    "nonessential initial expectation norm upper < 1"
+  ]
+}

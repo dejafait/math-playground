@@ -1,0 +1,159 @@
+{
+  "step": "1014",
+  "scope": "Exact rational arithmetic only; C467e and all analytic arguments require proof review.",
+  "unresolved": [
+    "Coefficient projection invertibility",
+    "Scaled momentum-graph derivative norm <= 1/5"
+  ],
+  "checks": [
+    {
+      "name": "centroid_squared_comparison",
+      "actual": "360000",
+      "required": "368640",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "centered_radius_squared",
+      "actual": "1/80",
+      "required": "81/6400",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "interpolated_real_part",
+      "actual": "227/19200",
+      "required": "1/80",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "interpolated_modulus_squared",
+      "actual": "121/6400",
+      "required": "9/400",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "interpolated_derivative_squared",
+      "actual": "25961/25600",
+      "required": "10201/10000",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "background_second_derivative",
+      "actual": "10951/250",
+      "required": "44",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "background_third_derivative",
+      "actual": "1181801/2500",
+      "required": "475",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "arctangent_argument",
+      "actual": "29/320",
+      "required": "1/10",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "singular_b_derivative",
+      "actual": "73/2560",
+      "required": "1/32",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "U_derivative_identity",
+      "actual": "295/4",
+      "required": "295/4",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "U_derivative",
+      "actual": "295/4",
+      "required": "75",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "V_derivative_identity",
+      "actual": "7601/32",
+      "required": "7601/32",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "V_derivative",
+      "actual": "7601/32",
+      "required": "238",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "U_bootstrap",
+      "actual": "5/128",
+      "required": "1/16",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "V_bootstrap",
+      "actual": "119/960",
+      "required": "1/4",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "secant_identity",
+      "actual": "1357/25600",
+      "required": "1357/25600",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "secant_cone",
+      "actual": "1357/25600",
+      "required": "1/16",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "scaled_coordinate_frobenius",
+      "actual": "133/75",
+      "required": "133/75",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "graph_hessian_offset",
+      "actual": "857/12800",
+      "required": "857/12800",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "conditional_phase_identity",
+      "actual": "95951/64000",
+      "required": "95951/64000",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "conditional_phase_threshold",
+      "actual": "95951/64000",
+      "required": "3/2",
+      "relation": "<",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

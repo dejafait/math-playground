@@ -1,0 +1,25 @@
+{
+  "certified": false,
+  "N": 512,
+  "K": 65536,
+  "input_first": 512,
+  "input_last": 65535,
+  "inverse_output_first": 0,
+  "inverse_output_last": 65535,
+  "diagnostic_generalized_ratio": 0.08290021465524387,
+  "required_ratio_upper": 0.25,
+  "algebra_replay_fro_discrepancy": 7.534455660963772e-15,
+  "combined_columns_sha256": "78504495c348ffa12a6b8501c4b932a71c434145f251a937578ed7a4619110f1",
+  "failures": [
+    "Input covariance n>=65536 unpaid",
+    "Inverse outputs n>=65536 unpaid",
+    "FFT and finite-entry arithmetic unpaid",
+    "Exact-predictor and head-solve errors unpaid"
+  ],
+  "arrays": [
+    "scripts/separation-seven/signed-mixed-complete-locator-565.npz",
+    "scripts/separation-seven/signed-mixed-inverse-output-565.npy",
+    "scripts/separation-seven/signed-mixed-columns-565.npy"
+  ],
+  "source_sha256": "f7ba020d2bb4a3c2110ececd753d13507eb5bf62eaec6ded0cfc94eb8f69da61"
+}

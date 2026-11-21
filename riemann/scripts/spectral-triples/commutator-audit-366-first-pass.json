@@ -1,0 +1,52 @@
+{
+  "kind": "independent integer-interval L760 audit",
+  "python": "3.15.0",
+  "scale_digits": 240,
+  "checks": {
+    "complete_replay": [
+      "kind",
+      "cell",
+      "script_sha256",
+      "entry_certificate_sha256",
+      "generator_sha256",
+      "screen_sha256",
+      "precision",
+      "checks",
+      "failures",
+      "outcome",
+      "ground",
+      "even_inertia",
+      "odd_inertia",
+      "gap",
+      "row",
+      "preimage",
+      "ratio",
+      "commutator_ansatz",
+      "ansatz_decision",
+      "second_commutator",
+      "arithmetic_flags"
+    ],
+    "select_ground": {
+      "actual": [
+        "34839881993312774991981449396917996125624116158168230912842483927534761108618875897283009861726262636896339332972372645993479929247787526150933678423319311009790000000000000000000000e-240",
+        "34839881993312774991981449396917996125624116158168230912842494927534761108618875897283009861726262636896339332972372645993479929247787526150933678423319311009790000000000000000000000e-240"
+      ],
+      "required_upper": "5e-56"
+    }
+  },
+  "failures": [
+    "unit_ground_error",
+    "ArithmeticError('unit_ground_error')"
+  ],
+  "outcome": "FAILED",
+  "hashes": {
+    "finite-parity-359.py": "76f6a6aa1dc0daf2ce29a36cae22e386d4a9ee6ae11e6f09a54b8209a3837379",
+    "finite-parity-359.json": "92d8898787851903d04df6f20af4acbaedd91b55c84915bed34588372a36c383",
+    "commutator-screen-364.json": "918be04300bb645340a958b435aea65c09898c9d86789ee6091379aafcaf0a67",
+    "commutator-certificate-364.py": "d1d7ea59dc9de360d3a820a95cfe54056fe774fbbcd50290a0500245092d3984",
+    "commutator-certificate-364.json": "a8571da3f7c940cdbca5752623395ac1ed70a2f7938a4382e0377b01dbce6baa"
+  },
+  "script_sha256": "d8a96603e2af8fba9efd2eb9d2f155c03b5aafd1b579de7b71e9aa9819485f3c",
+  "replay_sha256": "892fb7bd401f22cd349dc835d015ae05b1cdbf79ce9d4b9f42b4546e0a1b8521",
+  "elapsed_seconds": 3.5858627499546856
+}

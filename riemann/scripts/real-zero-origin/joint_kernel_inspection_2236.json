@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "checks": 464918,
+  "categories": {
+    "hash": 3,
+    "coverage": 2,
+    "settings": 1,
+    "runtime": 13,
+    "spatial_coverage": 1024,
+    "positive_bounds": 1024,
+    "fourth_bound": 18432,
+    "moment_part": 1024,
+    "suffix_moments": 256,
+    "suffix_maxima": 256,
+    "u_coverage": 256,
+    "quadrature_error": 4608,
+    "integral_enlargement": 9216,
+    "shifted_moment": 9216,
+    "frequency_remainder": 512,
+    "frequency_coverage": 12800,
+    "family_value": 12288,
+    "spatial_majorants": 256,
+    "u_remainder": 256,
+    "joint_coverage": 131072,
+    "joint_enclosure": 131072,
+    "joint_margin": 131072,
+    "local_minimum": 256,
+    "global_minimum": 1,
+    "positive_claim": 1,
+    "status": 1
+  },
+  "failures": [],
+  "minimum": "17278866468890879207158039979026697479476189041549490347348390281049371695881227/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "required": "1/10000000000",
+  "displayed_rational_lower": "69/10000000000",
+  "minimum_cell": [
+    255,
+    0,
+    0
+  ],
+  "records_consumed": {
+    "spatial": 1024,
+    "suffix": 256,
+    "node_snapshots": 256,
+    "u": 256,
+    "joint": 131072
+  },
+  "certificate_sha256": "70bdc2a7444c3ed636548124e07670879ba4c018a212caef55d67c9a35fe4fbf",
+  "inspection_sha256": "1b8a2c7698a509d7efd8c5b8b35fc41dfe70d4c43acfb7b4fd6b768078d353e6",
+  "qualification": "Internal exact rational reconstruction from all saved evidence; not independent exponential recomputation, node replay, backend verification or critical mathematical audit.",
+  "elapsed_seconds": 26.117195375001756
+}

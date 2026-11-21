@@ -1,0 +1,1152 @@
+{
+  "status": "PASS",
+  "scope": "Exact finite constants/recurrences only; analytic proof and infinite quantifiers are in L770.",
+  "parameters": {
+    "r": 4,
+    "M4": 16000,
+    "A": 128,
+    "p_at_onset": 15996
+  },
+  "q_coefficients": [
+    [
+      "-3/2",
+      "1"
+    ],
+    [
+      "0",
+      "5/2",
+      "-1"
+    ],
+    [
+      "0",
+      "5/2",
+      "-9/2",
+      "1"
+    ],
+    [
+      "0",
+      "5/2",
+      "-23/2",
+      "15/2",
+      "-1"
+    ]
+  ],
+  "derivative_tables": [
+    {
+      "b": 0,
+      "k": 0,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 0,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "k": 1,
+      "terms": [
+        {
+          "a_power": 1,
+          "y_power": -2,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "k": 2,
+      "terms": [
+        {
+          "a_power": 1,
+          "y_power": -3,
+          "coefficient": -2
+        },
+        {
+          "a_power": 2,
+          "y_power": -4,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "k": 3,
+      "terms": [
+        {
+          "a_power": 1,
+          "y_power": -4,
+          "coefficient": 6
+        },
+        {
+          "a_power": 2,
+          "y_power": -5,
+          "coefficient": -6
+        },
+        {
+          "a_power": 3,
+          "y_power": -6,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 1,
+      "k": 0,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 1,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 1,
+      "k": 1,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 0,
+          "coefficient": 1
+        },
+        {
+          "a_power": 1,
+          "y_power": -1,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 1,
+      "k": 2,
+      "terms": [
+        {
+          "a_power": 2,
+          "y_power": -3,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 1,
+      "k": 3,
+      "terms": [
+        {
+          "a_power": 2,
+          "y_power": -4,
+          "coefficient": -3
+        },
+        {
+          "a_power": 3,
+          "y_power": -5,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 2,
+      "k": 0,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 2,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 2,
+      "k": 1,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 1,
+          "coefficient": 2
+        },
+        {
+          "a_power": 1,
+          "y_power": 0,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 2,
+      "k": 2,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 0,
+          "coefficient": 2
+        },
+        {
+          "a_power": 1,
+          "y_power": -1,
+          "coefficient": 2
+        },
+        {
+          "a_power": 2,
+          "y_power": -2,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 2,
+      "k": 3,
+      "terms": [
+        {
+          "a_power": 3,
+          "y_power": -4,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 3,
+      "k": 0,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 3,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 3,
+      "k": 1,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 2,
+          "coefficient": 3
+        },
+        {
+          "a_power": 1,
+          "y_power": 1,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 3,
+      "k": 2,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 1,
+          "coefficient": 6
+        },
+        {
+          "a_power": 1,
+          "y_power": 0,
+          "coefficient": 4
+        },
+        {
+          "a_power": 2,
+          "y_power": -1,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 3,
+      "k": 3,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 0,
+          "coefficient": 6
+        },
+        {
+          "a_power": 1,
+          "y_power": -1,
+          "coefficient": 6
+        },
+        {
+          "a_power": 2,
+          "y_power": -2,
+          "coefficient": 3
+        },
+        {
+          "a_power": 3,
+          "y_power": -3,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 4,
+      "k": 0,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 4,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 4,
+      "k": 1,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 3,
+          "coefficient": 4
+        },
+        {
+          "a_power": 1,
+          "y_power": 2,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 4,
+      "k": 2,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 2,
+          "coefficient": 12
+        },
+        {
+          "a_power": 1,
+          "y_power": 1,
+          "coefficient": 6
+        },
+        {
+          "a_power": 2,
+          "y_power": 0,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "b": 4,
+      "k": 3,
+      "terms": [
+        {
+          "a_power": 0,
+          "y_power": 1,
+          "coefficient": 24
+        },
+        {
+          "a_power": 1,
+          "y_power": 0,
+          "coefficient": 18
+        },
+        {
+          "a_power": 2,
+          "y_power": -1,
+          "coefficient": 6
+        },
+        {
+          "a_power": 3,
+          "y_power": -2,
+          "coefficient": 1
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "q_0_coefficient_0",
+      "actual": "-3/2",
+      "relation": "=",
+      "required": "-3/2",
+      "passed": true
+    },
+    {
+      "name": "q_0_coefficient_1",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "q_0_absolute_coefficient_sum",
+      "actual": "5/2",
+      "relation": "<=",
+      "required": "23",
+      "passed": true
+    },
+    {
+      "name": "h_0_normalized_derivative_0",
+      "actual": "5/2",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_0_normalized_derivative_1",
+      "actual": "9",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_0_normalized_derivative_2",
+      "actual": "12",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_0_normalized_derivative_3",
+      "actual": "7",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "q_1_coefficient_0",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "q_1_coefficient_1",
+      "actual": "5/2",
+      "relation": "=",
+      "required": "5/2",
+      "passed": true
+    },
+    {
+      "name": "q_1_coefficient_2",
+      "actual": "-1",
+      "relation": "=",
+      "required": "-1",
+      "passed": true
+    },
+    {
+      "name": "q_1_absolute_coefficient_sum",
+      "actual": "7/2",
+      "relation": "<=",
+      "required": "23",
+      "passed": true
+    },
+    {
+      "name": "h_1_normalized_derivative_0",
+      "actual": "7/2",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_1_normalized_derivative_1",
+      "actual": "19/2",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_1_normalized_derivative_2",
+      "actual": "17/2",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_1_normalized_derivative_3",
+      "actual": "5/2",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "q_2_coefficient_0",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "q_2_coefficient_1",
+      "actual": "5/2",
+      "relation": "=",
+      "required": "5/2",
+      "passed": true
+    },
+    {
+      "name": "q_2_coefficient_2",
+      "actual": "-9/2",
+      "relation": "=",
+      "required": "-9/2",
+      "passed": true
+    },
+    {
+      "name": "q_2_coefficient_3",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "q_2_absolute_coefficient_sum",
+      "actual": "8",
+      "relation": "<=",
+      "required": "23",
+      "passed": true
+    },
+    {
+      "name": "h_2_normalized_derivative_0",
+      "actual": "8",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_2_normalized_derivative_1",
+      "actual": "35/2",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_2_normalized_derivative_2",
+      "actual": "12",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_2_normalized_derivative_3",
+      "actual": "5/2",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "q_3_coefficient_0",
+      "actual": "0",
+      "relation": "=",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "q_3_coefficient_1",
+      "actual": "5/2",
+      "relation": "=",
+      "required": "5/2",
+      "passed": true
+    },
+    {
+      "name": "q_3_coefficient_2",
+      "actual": "-23/2",
+      "relation": "=",
+      "required": "-23/2",
+      "passed": true
+    },
+    {
+      "name": "q_3_coefficient_3",
+      "actual": "15/2",
+      "relation": "=",
+      "required": "15/2",
+      "passed": true
+    },
+    {
+      "name": "q_3_coefficient_4",
+      "actual": "-1",
+      "relation": "=",
+      "required": "-1",
+      "passed": true
+    },
+    {
+      "name": "q_3_absolute_coefficient_sum",
+      "actual": "45/2",
+      "relation": "<=",
+      "required": "23",
+      "passed": true
+    },
+    {
+      "name": "h_3_normalized_derivative_0",
+      "actual": "45/2",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_3_normalized_derivative_1",
+      "actual": "38",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_3_normalized_derivative_2",
+      "actual": "19",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "h_3_normalized_derivative_3",
+      "actual": "5/2",
+      "relation": "<",
+      "required": "256",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b0_k0",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b0_k0",
+      "actual": "1/64",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b0_k0",
+      "actual": "0",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b0_k1",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b0_k1",
+      "actual": "1/16",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b0_k1",
+      "actual": "2",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b0_k2",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b0_k2",
+      "actual": "3/8",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b0_k2",
+      "actual": "4",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b0_k3",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b0_k3",
+      "actual": "23/8",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b0_k3",
+      "actual": "6",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b1_k0",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b1_k0",
+      "actual": "1/64",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b1_k0",
+      "actual": "-1",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b1_k1",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b1_k1",
+      "actual": "5/64",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b1_k1",
+      "actual": "1",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b1_k2",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b1_k2",
+      "actual": "1/4",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b1_k2",
+      "actual": "3",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b1_k3",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b1_k3",
+      "actual": "7/4",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b1_k3",
+      "actual": "5",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b2_k0",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b2_k0",
+      "actual": "1/64",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b2_k0",
+      "actual": "-2",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b2_k1",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b2_k1",
+      "actual": "3/32",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b2_k1",
+      "actual": "0",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b2_k2",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b2_k2",
+      "actual": "13/32",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b2_k2",
+      "actual": "2",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b2_k3",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b2_k3",
+      "actual": "1",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b2_k3",
+      "actual": "4",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b3_k0",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b3_k0",
+      "actual": "1/64",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b3_k0",
+      "actual": "-3",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b3_k1",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b3_k1",
+      "actual": "7/64",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b3_k1",
+      "actual": "-1",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b3_k2",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b3_k2",
+      "actual": "19/32",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b3_k2",
+      "actual": "1",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b3_k3",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b3_k3",
+      "actual": "71/32",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b3_k3",
+      "actual": "3",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b4_k0",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b4_k0",
+      "actual": "1/64",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b4_k0",
+      "actual": "-4",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b4_k1",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b4_k1",
+      "actual": "1/8",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b4_k1",
+      "actual": "-2",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b4_k2",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b4_k2",
+      "actual": "13/16",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b4_k2",
+      "actual": "0",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "monomial_derivative_recurrence_b4_k3",
+      "actual": "1",
+      "relation": "=",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "derivative_coefficient_bound_b4_k3",
+      "actual": "4",
+      "relation": "<=",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "derivative_minimum_power_b4_k3",
+      "actual": "2",
+      "relation": "<=",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "exponential_series_lower_through_degree_5",
+      "actual": "27/10",
+      "relation": "<",
+      "required": "163/60",
+      "passed": true
+    },
+    {
+      "name": "e_power_7_lower",
+      "actual": "1000",
+      "relation": "<",
+      "required": "10460353203/10000000",
+      "passed": true
+    },
+    {
+      "name": "e_power_6_lower",
+      "actual": "384",
+      "relation": "<",
+      "required": "387420489/1000000",
+      "passed": true
+    },
+    {
+      "name": "e_power_4_lower",
+      "actual": "128/3",
+      "relation": "<",
+      "required": "531441/10000",
+      "passed": true
+    },
+    {
+      "name": "consecutive_tail_ratio_numerator",
+      "actual": "43046721/65536",
+      "relation": "<",
+      "required": "657",
+      "passed": true
+    },
+    {
+      "name": "consecutive_tail_ratio",
+      "actual": "657/1000",
+      "relation": "<",
+      "required": "2/3",
+      "passed": true
+    },
+    {
+      "name": "complete_tail_constant",
+      "actual": "74088185856",
+      "relation": "<",
+      "required": "137438953472",
+      "passed": true
+    },
+    {
+      "name": "global_matrix_entry_sum",
+      "actual": "137438953728",
+      "relation": "<",
+      "required": "274877906944",
+      "passed": true
+    },
+    {
+      "name": "global_alternant_bound",
+      "actual": "137015778499772148581595453067151533092743675904",
+      "relation": "<",
+      "required": "1461501637330902918203684832716283019655932542976",
+      "passed": true
+    },
+    {
+      "name": "high_alternant_bound",
+      "actual": "45/340282366920938463463374607431768211456",
+      "relation": "<",
+      "required": "1/1329227995784915872903807060280344576",
+      "passed": true
+    },
+    {
+      "name": "conditional_pair_cost",
+      "actual": "8251",
+      "relation": "<",
+      "required": "16384",
+      "passed": true
+    },
+    {
+      "name": "log_weight_ratio",
+      "actual": "8/9",
+      "relation": "=",
+      "required": "8/9",
+      "passed": true
+    },
+    {
+      "name": "six_smoothing_powers",
+      "actual": "262144/531441",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true
+    },
+    {
+      "name": "onset_smoothing_exponent",
+      "actual": "15996",
+      "relation": "=",
+      "required": "15996",
+      "passed": true
+    },
+    {
+      "name": "conditional_union_exponent",
+      "actual": "2348",
+      "relation": "=",
+      "required": "2348",
+      "passed": true
+    },
+    {
+      "name": "low_coordinate_probability_exponent",
+      "actual": "-318",
+      "relation": "=",
+      "required": "-318",
+      "passed": true
+    },
+    {
+      "name": "final_relative_bound",
+      "actual": "2473901162505/867766597165223607683437869425293042920709947392",
+      "relation": "<",
+      "required": "1/166153499473114484112975882535043072",
+      "passed": true
+    },
+    {
+      "name": "required_relative_threshold",
+      "actual": "1/166153499473114484112975882535043072",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true
+    }
+  ],
+  "final_bound": {
+    "exact_upper_expression": "2473901162505/867766597165223607683437869425293042920709947392",
+    "simplified_strict_bound": "2^-117",
+    "required_strict_bound": "1/2"
+  },
+  "failures": [],
+  "limitations": [
+    "Not an independent audit of L769 or L770.",
+    "No general-order or exceptional-coefficient theorem is checked."
+  ]
+}

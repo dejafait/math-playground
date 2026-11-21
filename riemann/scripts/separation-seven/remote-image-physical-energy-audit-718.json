@@ -1,0 +1,494 @@
+{
+  "scope": "Independent exact budget/count audit plus output-redirected716 replay; no analytic proof by software",
+  "checks": [
+    {
+      "label": "independent716: witness unchanged",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: zero-extension variation includes both traces",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: cutoff variation below uniform mollified bound",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: correlation Lipschitz majorant",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: uniform cosine coefficient constant",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: difference coefficient dominated by2^27",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: delta lies inside interval ell>1/2",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: omitted diagonal bound",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: outer variation cap",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: outer midpoint error",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: product variation bound",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: uniform inner error",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: kernel mass error",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: sampled mass below128",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: scalar coefficient cap",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: external norm budget",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: inner correlations budget",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: complete ideal discretization budget",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: ideal bound below2^-24 and required1e-6",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: exact prescribed streaming h requests",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "independent716: request count exceeds2^160",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "all21 checks and labels agree",
+      "passed": true,
+      "actual": [
+        {
+          "label": "witness unchanged",
+          "passed": true
+        },
+        {
+          "label": "zero-extension variation includes both traces",
+          "passed": true
+        },
+        {
+          "label": "cutoff variation below uniform mollified bound",
+          "passed": true
+        },
+        {
+          "label": "correlation Lipschitz majorant",
+          "passed": true
+        },
+        {
+          "label": "uniform cosine coefficient constant",
+          "passed": true
+        },
+        {
+          "label": "difference coefficient dominated by2^27",
+          "passed": true
+        },
+        {
+          "label": "delta lies inside interval ell>1/2",
+          "passed": true
+        },
+        {
+          "label": "omitted diagonal bound",
+          "passed": true
+        },
+        {
+          "label": "outer variation cap",
+          "passed": true
+        },
+        {
+          "label": "outer midpoint error",
+          "passed": true
+        },
+        {
+          "label": "product variation bound",
+          "passed": true
+        },
+        {
+          "label": "uniform inner error",
+          "passed": true
+        },
+        {
+          "label": "kernel mass error",
+          "passed": true
+        },
+        {
+          "label": "sampled mass below128",
+          "passed": true
+        },
+        {
+          "label": "scalar coefficient cap",
+          "passed": true
+        },
+        {
+          "label": "external norm budget",
+          "passed": true
+        },
+        {
+          "label": "inner correlations budget",
+          "passed": true
+        },
+        {
+          "label": "complete ideal discretization budget",
+          "passed": true
+        },
+        {
+          "label": "ideal bound below2^-24 and required1e-6",
+          "passed": true
+        },
+        {
+          "label": "exact prescribed streaming h requests",
+          "passed": true
+        },
+        {
+          "label": "request count exceeds2^160",
+          "passed": true
+        }
+      ],
+      "required": [
+        {
+          "label": "witness unchanged",
+          "passed": true
+        },
+        {
+          "label": "zero-extension variation includes both traces",
+          "passed": true
+        },
+        {
+          "label": "cutoff variation below uniform mollified bound",
+          "passed": true
+        },
+        {
+          "label": "correlation Lipschitz majorant",
+          "passed": true
+        },
+        {
+          "label": "uniform cosine coefficient constant",
+          "passed": true
+        },
+        {
+          "label": "difference coefficient dominated by2^27",
+          "passed": true
+        },
+        {
+          "label": "delta lies inside interval ell>1/2",
+          "passed": true
+        },
+        {
+          "label": "omitted diagonal bound",
+          "passed": true
+        },
+        {
+          "label": "outer variation cap",
+          "passed": true
+        },
+        {
+          "label": "outer midpoint error",
+          "passed": true
+        },
+        {
+          "label": "product variation bound",
+          "passed": true
+        },
+        {
+          "label": "uniform inner error",
+          "passed": true
+        },
+        {
+          "label": "kernel mass error",
+          "passed": true
+        },
+        {
+          "label": "sampled mass below128",
+          "passed": true
+        },
+        {
+          "label": "scalar coefficient cap",
+          "passed": true
+        },
+        {
+          "label": "external norm budget",
+          "passed": true
+        },
+        {
+          "label": "inner correlations budget",
+          "passed": true
+        },
+        {
+          "label": "complete ideal discretization budget",
+          "passed": true
+        },
+        {
+          "label": "ideal bound below2^-24 and required1e-6",
+          "passed": true
+        },
+        {
+          "label": "exact prescribed streaming h requests",
+          "passed": true
+        },
+        {
+          "label": "request count exceeds2^160",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "label": "full replay equals archived certificate",
+      "passed": true,
+      "actual": null,
+      "required": null
+    },
+    {
+      "label": "archived and replayed failure lists empty",
+      "passed": true,
+      "actual": null,
+      "required": null
+    },
+    {
+      "label": "complete bounds mapping",
+      "passed": true,
+      "actual": {
+        "supremum": 1048576,
+        "full_line_variation": 8388608,
+        "uniform_approximant_variation": 16777216,
+        "correlation_lipschitz": 8796093022208,
+        "delta": "1/1180591620717411303424",
+        "outer_variation": 1284229581242368,
+        "near_error_bound": "1180591620717411303425/158456325028528675187087900672",
+        "outer_error_bound": "73/8589934592",
+        "uniform_inner_error_bound": "1/1099511627776",
+        "sampled_kernel_mass_bound": "4609/64",
+        "external_norm_error_cap": "1/1073741824",
+        "inner_correlations_error_cap": "1/4294967296",
+        "ideal_discretization_error_cap": "133/4294967296",
+        "required_total_scalar_error": "1/1000000",
+        "proved_total_finite_arithmetic_error": null
+      },
+      "required": {
+        "supremum": 1048576,
+        "full_line_variation": 8388608,
+        "uniform_approximant_variation": 16777216,
+        "correlation_lipschitz": 8796093022208,
+        "delta": "1/1180591620717411303424",
+        "outer_variation": 1284229581242368,
+        "near_error_bound": "1180591620717411303425/158456325028528675187087900672",
+        "outer_error_bound": "73/8589934592",
+        "uniform_inner_error_bound": "1/1099511627776",
+        "sampled_kernel_mass_bound": "4609/64",
+        "external_norm_error_cap": "1/1073741824",
+        "inner_correlations_error_cap": "1/4294967296",
+        "ideal_discretization_error_cap": "133/4294967296",
+        "required_total_scalar_error": "1/1000000",
+        "proved_total_finite_arithmetic_error": null
+      }
+    },
+    {
+      "label": "complete work and unpaid finite-arithmetic mapping",
+      "passed": true,
+      "actual": {
+        "outer_nodes": 75557863725914323419136,
+        "inner_nodes": 9671406556917033397649408,
+        "ideal_h_value_requests": 1461501637330902918203694504122839936689330192384,
+        "kernel_value_requests": 75557863725914323419136,
+        "inner_products": 730750818665451459101852087764698426861363920896,
+        "model": "Exact-value oracle; specified streaming loop recomputes base h values",
+        "working_storage": "Constant number of exact scalar accumulators/nodes plus fixed profile description",
+        "sufficient_precision": null,
+        "actual_byte_storage": null,
+        "total_elementary_operation_bound": null,
+        "full_batch_executed": false,
+        "scalar_evaluated": false,
+        "gram_evaluated": false
+      },
+      "required": {
+        "outer_nodes": 75557863725914323419136,
+        "inner_nodes": 9671406556917033397649408,
+        "ideal_h_value_requests": 1461501637330902918203694504122839936689330192384,
+        "kernel_value_requests": 75557863725914323419136,
+        "inner_products": 730750818665451459101852087764698426861363920896,
+        "model": "Exact-value oracle; specified streaming loop recomputes base h values",
+        "working_storage": "Constant number of exact scalar accumulators/nodes plus fixed profile description",
+        "sufficient_precision": null,
+        "actual_byte_storage": null,
+        "total_elementary_operation_bound": null,
+        "full_batch_executed": false,
+        "scalar_evaluated": false,
+        "gram_evaluated": false
+      }
+    },
+    {
+      "label": "seven unpaid obligations retained",
+      "passed": true,
+      "actual": [
+        "Enclosed nodes and all jump-boundary cases at those nodes",
+        "All334 shift weights and the exact completed cosine profile",
+        "Entire K14 image and suffix",
+        "Both exact projection moments and inverse Gram matrix",
+        "Scalar d0, exact support-tail scalar J and kernel node values",
+        "Uniform h-value error and all accumulated rounding",
+        "Sufficient arithmetic precision, actual byte storage and total elementary work"
+      ],
+      "required": "All seven obligations; prose independently reviewed718"
+    },
+    {
+      "label": "witness hash field matches actual pin",
+      "passed": true,
+      "actual": null,
+      "required": null
+    },
+    {
+      "label": "unrounded ideal subtotal below recorded cap",
+      "passed": true,
+      "actual": "2711671378835304087553/158456325028528675187087900672",
+      "required": "133/4294967296"
+    },
+    {
+      "label": "source, old certificate and witness unchanged",
+      "passed": true,
+      "actual": {
+        "remote-image-physical-energy-716.py": "de5aa0628deda5909a2f38bbcbf2f5be55b63821a55d76c29100e3a58ef7b326",
+        "remote-image-physical-energy-716.json": "e1cf41d7ab2c5522001084e48576b524321ed7a24d1f303c95daeb411ac70646",
+        "defect-window-fixed-pair-707-witness.json": "99ebc79ed3d82771ad0b5567356ba953e0d123d86aecdfe07d8e57f6fb9c634a"
+      },
+      "required": {
+        "remote-image-physical-energy-716.py": "de5aa0628deda5909a2f38bbcbf2f5be55b63821a55d76c29100e3a58ef7b326",
+        "remote-image-physical-energy-716.json": "e1cf41d7ab2c5522001084e48576b524321ed7a24d1f303c95daeb411ac70646",
+        "defect-window-fixed-pair-707-witness.json": "99ebc79ed3d82771ad0b5567356ba953e0d123d86aecdfe07d8e57f6fb9c634a"
+      }
+    }
+  ],
+  "failures": [],
+  "original_checks_recomputed": 21,
+  "audit_check_count": 30,
+  "pins_before": {
+    "remote-image-physical-energy-716.py": "de5aa0628deda5909a2f38bbcbf2f5be55b63821a55d76c29100e3a58ef7b326",
+    "remote-image-physical-energy-716.json": "e1cf41d7ab2c5522001084e48576b524321ed7a24d1f303c95daeb411ac70646",
+    "defect-window-fixed-pair-707-witness.json": "99ebc79ed3d82771ad0b5567356ba953e0d123d86aecdfe07d8e57f6fb9c634a"
+  },
+  "pins_after": {
+    "remote-image-physical-energy-716.py": "de5aa0628deda5909a2f38bbcbf2f5be55b63821a55d76c29100e3a58ef7b326",
+    "remote-image-physical-energy-716.json": "e1cf41d7ab2c5522001084e48576b524321ed7a24d1f303c95daeb411ac70646",
+    "defect-window-fixed-pair-707-witness.json": "99ebc79ed3d82771ad0b5567356ba953e0d123d86aecdfe07d8e57f6fb9c634a"
+  },
+  "replay_stdout": "Checks: 21; failures: []\nIdeal discretization cap: 133/4294967296 < required total tolerance 1/1000000\nFinite arithmetic: UNPAID; complete scalar certificate: NOT ESTABLISHED\nPrescribed h-value requests: 1461501637330902918203694504122839936689330192384 > 2^160; large batch: not run\nCertificate: scripts/separation-seven/remote-image-physical-energy-replay-718.json\n",
+  "bounds": {
+    "supremum": 1048576,
+    "full_line_variation": 8388608,
+    "uniform_approximant_variation": 16777216,
+    "correlation_lipschitz": 8796093022208,
+    "delta": "1/1180591620717411303424",
+    "outer_variation": 1284229581242368,
+    "near_error_bound": "1180591620717411303425/158456325028528675187087900672",
+    "outer_error_bound": "73/8589934592",
+    "uniform_inner_error_bound": "1/1099511627776",
+    "sampled_kernel_mass_bound": "4609/64",
+    "external_norm_error_cap": "1/1073741824",
+    "inner_correlations_error_cap": "1/4294967296",
+    "ideal_discretization_error_cap": "133/4294967296",
+    "required_total_scalar_error": "1/1000000",
+    "proved_total_finite_arithmetic_error": null
+  },
+  "work": {
+    "outer_nodes": 75557863725914323419136,
+    "inner_nodes": 9671406556917033397649408,
+    "ideal_h_value_requests": 1461501637330902918203694504122839936689330192384,
+    "kernel_value_requests": 75557863725914323419136,
+    "inner_products": 730750818665451459101852087764698426861363920896,
+    "model": "Exact-value oracle; specified streaming loop recomputes base h values",
+    "working_storage": "Constant number of exact scalar accumulators/nodes plus fixed profile description",
+    "sufficient_precision": null,
+    "actual_byte_storage": null,
+    "total_elementary_operation_bound": null,
+    "full_batch_executed": false,
+    "scalar_evaluated": false,
+    "gram_evaluated": false
+  },
+  "unpaid": [
+    "Enclosed nodes and all jump-boundary cases at those nodes",
+    "All334 shift weights and the exact completed cosine profile",
+    "Entire K14 image and suffix",
+    "Both exact projection moments and inverse Gram matrix",
+    "Scalar d0, exact support-tail scalar J and kernel node values",
+    "Uniform h-value error and all accumulated rounding",
+    "Sufficient arithmetic precision, actual byte storage and total elementary work"
+  ],
+  "decision": "Uphold the limited ideal ledger and preserve fixed prescription cost stop716",
+  "analytic_evidence": "lemmas/C998t-fixed-remote-image-compensated-physical-energy.md Section6",
+  "limitations": [
+    "No necessary complexity bound or actual-error lower bound",
+    "No complete executable absolute1e-6 scalar certificate",
+    "No sign, new general theorem or RH conclusion",
+    "No software validation of the analytic BV-to-form bridge"
+  ]
+}

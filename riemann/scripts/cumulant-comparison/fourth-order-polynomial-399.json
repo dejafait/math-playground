@@ -1,0 +1,109 @@
+{
+  "status": "exact polynomial algebra only; uniform comparison unresolved",
+  "operator": "x*d/dx-x",
+  "q_coefficients": [
+    [
+      "-3/2",
+      "1"
+    ],
+    [
+      "0",
+      "5/2",
+      "-1"
+    ],
+    [
+      "0",
+      "5/2",
+      "-9/2",
+      "1"
+    ],
+    [
+      "0",
+      "5/2",
+      "-23/2",
+      "15/2",
+      "-1"
+    ]
+  ],
+  "P_elementary_coefficients": {
+    "0": "945/16",
+    "1": "-105/8",
+    "2": "15/4",
+    "3": "-3/2",
+    "4": "1"
+  },
+  "examples": [
+    {
+      "x": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "P": "369/16"
+    },
+    {
+      "x": [
+        "22/7",
+        "22/7",
+        "22/7",
+        "22/7"
+      ],
+      "P": "1060705/38416"
+    },
+    {
+      "x": [
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      "P": "1297/16"
+    },
+    {
+      "x": [
+        "6",
+        "6",
+        "6",
+        "6"
+      ],
+      "P": "8865/16"
+    },
+    {
+      "x": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "P": "5193/16"
+    }
+  ],
+  "sample_identity_check": true,
+  "P_shifted_at_3_coefficients": {
+    "0": "369/16",
+    "1": "57/8",
+    "2": "15/4",
+    "3": "3/2",
+    "4": "1"
+  },
+  "shifted_coefficient_ratios": {
+    "0": "41/144",
+    "1": "19/72",
+    "2": "5/12",
+    "3": "1/2",
+    "4": "1"
+  },
+  "lower_relative_to_product": "19/72",
+  "P_minus_19_over_72_product_shifted_coefficients": {
+    "0": "27/16",
+    "1": "0",
+    "2": "11/8",
+    "3": "17/24",
+    "4": "53/72"
+  },
+  "required": "S_(4,m)(B)>0 and relative complete-theta error<1/2, all m>=M4,u>=0",
+  "failures": [
+    "No complete-theta relative determinant error bound uniform in m and u."
+  ]
+}

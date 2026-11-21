@@ -1,0 +1,48 @@
+{
+  "scope": "Exact arithmetic comparisons only; C033e supplies analytic proof, no parameter sampling.",
+  "rule": {
+    "nodes": 4096,
+    "h": "1/256",
+    "v_j": "(2*j+1)/512, 0<=j<4096",
+    "vmin": "1/512",
+    "vmax": "8191/512"
+  },
+  "taylor": {
+    "degree": 2336,
+    "r": 520,
+    "rho": 1040,
+    "exp_circle_upper": "2^2080",
+    "error": "1/115792089237316195423570985008687907853269984665640564039457584007913129639936"
+  },
+  "bounds": {
+    "exact_denominator_lower": "1/4325376",
+    "denominator_perturbation": "1/7237005577332262213973186563042994240829374041602535252466099000494570602496",
+    "perturbed_denominator_lower": "1/16777216",
+    "numerator_modulus": "36893488147419103232/1",
+    "numerator_error": "1/1569275433846670190958947355801916604025588861116008628224",
+    "quotient_error": "67108865/93536104789177786765035829293842113257979682750464",
+    "quotient_majorant": "1/696898287454081973172991196020261297061888",
+    "sum_error": "67108865/5846006549323611672814739330865132078623730171904",
+    "sum_majorant": "1/43556142965880123323311949751266331066368",
+    "required": "1/64"
+  },
+  "checks": {
+    "prescribed_node_count": true,
+    "prescribed_panel_width": true,
+    "first_node": true,
+    "last_node_below_16": true,
+    "total_weight_16": true,
+    "argument_radius": true,
+    "strict_circle_nesting": true,
+    "cauchy_prefactor": true,
+    "explicit_degree_error": true,
+    "exact_denominator_above_dyadic": true,
+    "perturbed_denominator_separated": true,
+    "denominator_dyadic_slack": true,
+    "numerator_product_error": true,
+    "quotient_error_majorant": true,
+    "sum_error_majorant": true,
+    "required_error": true
+  },
+  "failures": []
+}

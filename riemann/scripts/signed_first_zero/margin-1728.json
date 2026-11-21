@@ -1,0 +1,361 @@
+{
+  "step_id": "2026-11-19-signed-first-zero-margin-1728",
+  "scope": "Exact rational comparisons in C033g; all analytic and source hypotheses remain in the canonical proof.",
+  "source_assessment": "drafts/literature/2026-11-19-signed-first-zero-comparison-1726.md",
+  "canonical_proof": "lemmas/C033g-signed-first-zero-width-ratio-margin.md",
+  "all_passed": true,
+  "failures": [],
+  "checks": [
+    {
+      "name": "count_simplification",
+      "actual": {
+        "numerator": "4",
+        "denominator": "1",
+        "decimal_preview": 4.0
+      },
+      "required_strict_upper_bound": {
+        "numerator": "25",
+        "denominator": "6",
+        "decimal_preview": 4.166666666666667
+      },
+      "passed": true
+    },
+    {
+      "name": "shell_T32_ratio",
+      "actual": {
+        "numerator": "15488",
+        "denominator": "32193",
+        "decimal_preview": 0.48109837542322864
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "2",
+        "decimal_preview": 0.5
+      },
+      "passed": true
+    },
+    {
+      "name": "other_shell_ratios",
+      "actual": {
+        "numerator": "5",
+        "denominator": "64",
+        "decimal_preview": 0.078125
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "8",
+        "decimal_preview": 0.125
+      },
+      "passed": true
+    },
+    {
+      "name": "T32",
+      "actual": {
+        "numerator": "269224803",
+        "denominator": "68719476736",
+        "decimal_preview": 0.003917736510629766
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "250",
+        "decimal_preview": 0.004
+      },
+      "passed": true
+    },
+    {
+      "name": "M2",
+      "actual": {
+        "numerator": "10719972212040381558321733725",
+        "denominator": "166153499473114484112975882535043072",
+        "decimal_preview": 6.451848589427389e-08
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "decimal_preview": 1e-06
+      },
+      "passed": true
+    },
+    {
+      "name": "J2",
+      "actual": {
+        "numerator": "44523",
+        "denominator": "109375",
+        "decimal_preview": 0.4070674285714286
+      },
+      "required_strict_upper_bound": {
+        "numerator": "5",
+        "denominator": "12",
+        "decimal_preview": 0.4166666666666667
+      },
+      "passed": true
+    },
+    {
+      "name": "J4",
+      "actual": {
+        "numerator": "2103929",
+        "denominator": "434109375",
+        "decimal_preview": 0.004846541266241946
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "200",
+        "decimal_preview": 0.005
+      },
+      "passed": true
+    },
+    {
+      "name": "E_far_J4_coefficient",
+      "actual": {
+        "numerator": "784",
+        "denominator": "1125",
+        "decimal_preview": 0.6968888888888889
+      },
+      "required_strict_upper_bound": {
+        "numerator": "7",
+        "denominator": "10",
+        "decimal_preview": 0.7
+      },
+      "passed": true
+    },
+    {
+      "name": "E_total_M_coefficient",
+      "actual": {
+        "numerator": "30586496",
+        "denominator": "31255875",
+        "decimal_preview": 0.9785838982271333
+      },
+      "required_strict_upper_bound": {
+        "numerator": "2",
+        "denominator": "1",
+        "decimal_preview": 2.0
+      },
+      "passed": true
+    },
+    {
+      "name": "E_difference",
+      "actual": {
+        "numerator": "1751",
+        "denominator": "500000",
+        "decimal_preview": 0.003502
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "280",
+        "decimal_preview": 0.0035714285714285713
+      },
+      "passed": true
+    },
+    {
+      "name": "R_near_coefficient",
+      "actual": {
+        "numerator": "64",
+        "denominator": "189",
+        "decimal_preview": 0.3386243386243386
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "2",
+        "decimal_preview": 0.5
+      },
+      "passed": true
+    },
+    {
+      "name": "R_segment",
+      "actual": {
+        "numerator": "40000141",
+        "denominator": "90000000",
+        "decimal_preview": 0.4444460111111111
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "2",
+        "decimal_preview": 0.5
+      },
+      "passed": true
+    },
+    {
+      "name": "core_score_slope",
+      "actual": {
+        "numerator": "-369",
+        "denominator": "184",
+        "decimal_preview": -2.005434782608696
+      },
+      "required_strict_upper_bound": {
+        "numerator": "-2",
+        "denominator": "1",
+        "decimal_preview": -2.0
+      },
+      "passed": true
+    },
+    {
+      "name": "core_log_derivative",
+      "actual": {
+        "numerator": "3753",
+        "denominator": "64",
+        "decimal_preview": 58.640625
+      },
+      "required_strict_upper_bound": {
+        "numerator": "60",
+        "denominator": "1",
+        "decimal_preview": 60.0
+      },
+      "passed": true
+    },
+    {
+      "name": "relative_epsilon",
+      "actual": {
+        "numerator": "24407490807",
+        "denominator": "90071992547409920",
+        "decimal_preview": 2.709775826725824e-07
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "decimal_preview": 1e-06
+      },
+      "passed": true
+    },
+    {
+      "name": "relative_eta",
+      "actual": {
+        "numerator": "2953306387647",
+        "denominator": "45035996273704960",
+        "decimal_preview": 6.557657500676495e-05
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "10000",
+        "decimal_preview": 0.0001
+      },
+      "passed": true
+    },
+    {
+      "name": "relative_log_error_pair",
+      "actual": {
+        "numerator": "320",
+        "denominator": "999999",
+        "decimal_preview": 0.00032000032000032
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "3000",
+        "decimal_preview": 0.0003333333333333333
+      },
+      "passed": true
+    },
+    {
+      "name": "full_log_derivative",
+      "actual": {
+        "numerator": "60000100",
+        "denominator": "999999",
+        "decimal_preview": 60.00016000016
+      },
+      "required_strict_upper_bound": {
+        "numerator": "61",
+        "denominator": "1",
+        "decimal_preview": 61.0
+      },
+      "passed": true
+    },
+    {
+      "name": "phase_upper",
+      "actual": {
+        "numerator": "1",
+        "denominator": "500000",
+        "decimal_preview": 2e-06
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "100000",
+        "decimal_preview": 1e-05
+      },
+      "passed": true
+    },
+    {
+      "name": "sine_error_pair",
+      "actual": {
+        "numerator": "61",
+        "denominator": "5000000000",
+        "decimal_preview": 1.22e-08
+      },
+      "required_strict_upper_bound": {
+        "numerator": "1",
+        "denominator": "1000000",
+        "decimal_preview": 1e-06
+      },
+      "passed": true
+    },
+    {
+      "name": "normalization_exp_upper",
+      "actual": {
+        "numerator": "64",
+        "denominator": "61",
+        "decimal_preview": 1.0491803278688525
+      },
+      "required_strict_upper_bound": {
+        "numerator": "2",
+        "denominator": "1",
+        "decimal_preview": 2.0
+      },
+      "passed": true
+    },
+    {
+      "name": "signed_bracket",
+      "actual": {
+        "numerator": "-4559",
+        "denominator": "3500000",
+        "decimal_preview": -0.0013025714285714285
+      },
+      "required_strict_upper_bound": {
+        "numerator": "-1",
+        "denominator": "1000",
+        "decimal_preview": -0.001
+      },
+      "passed": true
+    },
+    {
+      "name": "normalized_final_bound",
+      "actual": {
+        "numerator": "-1",
+        "denominator": "2000",
+        "decimal_preview": -0.0005
+      },
+      "required_strict_upper_bound": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal_preview": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "conclusion": {
+    "conditional_on": "C033g's analytic argument and explicitly qualified source inputs; arithmetic alone does not establish the theorem.",
+    "bracket_upper": {
+      "numerator": "-4559",
+      "denominator": "3500000",
+      "decimal_preview": -0.0013025714285714285
+    },
+    "simplified_bracket_upper": {
+      "numerator": "-1",
+      "denominator": "1000",
+      "decimal_preview": -0.001
+    },
+    "ratio_lower": {
+      "numerator": "1",
+      "denominator": "2",
+      "decimal_preview": 0.5
+    },
+    "W_over_f_squared_upper": {
+      "numerator": "-1",
+      "denominator": "2000",
+      "decimal_preview": -0.0005
+    },
+    "required_strict_upper_threshold": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_preview": 0.0
+    },
+    "analytic_audit": "PENDING"
+  }
+}

@@ -1,0 +1,7 @@
+# 12 November 2026 — separation-seven complete Schur attempt, step531
+
+ADVANCE / RESEARCH / REPRODUCTION: [C744v](../lemmas/C744v-separation-seven-complete-schur-interface.md) specializes the complete cross operator, certifies its norm below4.71 and the infinite 512-mode complementary diagonal above1.43 uniformly in phase. This is a local input from known methods, not a new source-level sign theorem. Prior EXPLORE coverage529 and separate approval530 were reused unchanged.
+
+The fixed inequality remains open. The 64-mode locator gives sampled relative support0.865163 and margin0.264171 but supplies no full-space or all-phase certificate. The exact unpaid covariance is C744v(C),(8); the [attempt record](../ATTEMPTS/2026-11-12-separation-seven-covariance-unpaid-531.md) preserves this limitation. One mathematical attempt was made; no exploration/scheduler state was reset.
+
+The new complementary floor justifies one concrete continuation on the same approved target: the fixed512-mode complete Schur residual, with every mixed covariance retained. No new assessment or source approval was manufactured. No justified creative central mechanism is ready; fixed-separation covariance control remains established-method development. Independent separations, C744q margin, H2 detector data, non-neutral coverage and assembly remain unresolved. Existing changes elsewhere in the notebook were preserved; the global PROOF overview did not change.

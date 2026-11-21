@@ -1,0 +1,9 @@
+{
+  "status": "ERROR_BEFORE_MATHEMATICAL_TEST",
+  "exception": "TypeError: string indices must be integers, not 'str'",
+  "location": "audit_626.py run(): all(v['passed'] for v in record['checks'])",
+  "reason": "step433 checks are a list of completed-check strings rather than the newer list of named check objects",
+  "correction": "for step433 verify PASS, no failures, and a nonempty completed-check string list; check all Boolean outcomes in steps478/624",
+  "script": "scripts/central-jacobi/audit-626/first-run.py",
+  "mathematical_conclusion": "NONE"
+}

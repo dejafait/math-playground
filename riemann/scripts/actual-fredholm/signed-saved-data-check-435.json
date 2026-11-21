@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": [
+    "original unnecessary root-width assertion failure preserved; wider certified brackets used",
+    "all 128 quadrature-cell records complete; no independent exp/quadrature replay",
+    "inner_contour: all 1024 segments, endpoint inclusions, nonzero boxes and exact winding=2",
+    "outer_contour: all 1024 segments, endpoint inclusions, nonzero boxes and exact winding=2",
+    "all root group/error records, all 2048 denominators and 512 coefficient/alias/HS error budgets",
+    "all 509 U rows, both Gram metrics, signed pairing/determinant and two-sided norm checked with exact integers/rationals",
+    "trace-norm product error and triangle enclosures checked; exp perturbation factor relies on documented Decimal contract"
+  ],
+  "failures": [],
+  "signed_determinant": [
+    "-1.18279518910579867444187552184877278183550955505299407109198279704104679000E+15364058",
+    "1.18279518910579867444187552184877278183550955505299407109198279704104679001E+15364058"
+  ],
+  "original_norm": [
+    "0",
+    "35377032.4098277208030152982757844305390096298799801881125313978453790744412"
+  ],
+  "required_det_lower": "0",
+  "required_norm_lower": "1",
+  "decision": "INCONCLUSIVE",
+  "limitations": "Finite-data check, not independent analytic/evaluator/DFT audit or formal verification",
+  "input": "scripts/actual-fredholm/signed-pair-certificate-435.json"
+}

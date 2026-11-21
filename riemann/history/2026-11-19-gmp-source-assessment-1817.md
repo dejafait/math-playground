@@ -1,0 +1,3 @@
+# GMP backend source assessment — 19 November 2026
+
+Inspected GNU MP 6.3.0 primary manual coverage for rational arithmetic, comparisons, construction/I/O, large integer transfer, and ABI compatibility. These semantics clear the source gate for the exact GMP specialization nominated after execution1816. The implementation still must map the full prescribed sequence, canonicalize raw assignments, guard nonzero divisors, preserve Ihat rounding/sharing, use lossless I/O, verify ABI compatibility, and replay all assertions; no speed or operation-cap conclusion is established. See `drafts/literature/2026-11-19-direct-positive-real-gmp-execution-review-1816.md`. Next action is the approved bounded GMP implementation/replay; the central signed-height/actual-Xi blocker remains.

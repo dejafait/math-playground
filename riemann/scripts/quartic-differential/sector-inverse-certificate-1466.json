@@ -1,0 +1,147 @@
+{
+  "scope": "Degree at most four only; sector |Im root|<=-Re root/3; a>0.",
+  "coefficient_order": "ascending powers of t, exact rational strings",
+  "inverse_coefficients": [
+    [
+      "1"
+    ],
+    [
+      "-1"
+    ],
+    [
+      "1",
+      "-1"
+    ],
+    [
+      "-1",
+      "2"
+    ],
+    [
+      "1",
+      "-3",
+      "1"
+    ]
+  ],
+  "inverse_product_mod_D5": [
+    [
+      "1"
+    ],
+    [
+      "0"
+    ],
+    [
+      "0"
+    ],
+    [
+      "0"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "moments": [
+    [
+      "1"
+    ],
+    [
+      "-1"
+    ],
+    [
+      "2",
+      "-2"
+    ],
+    [
+      "-6",
+      "12"
+    ],
+    [
+      "24",
+      "-72",
+      "24"
+    ]
+  ],
+  "H": [
+    [
+      [
+        "1"
+      ],
+      [
+        "-1"
+      ],
+      [
+        "2",
+        "-2"
+      ]
+    ],
+    [
+      [
+        "-1"
+      ],
+      [
+        "2",
+        "-2"
+      ],
+      [
+        "-6",
+        "12"
+      ]
+    ],
+    [
+      [
+        "2",
+        "-2"
+      ],
+      [
+        "-6",
+        "12"
+      ],
+      [
+        "24",
+        "-72",
+        "24"
+      ]
+    ]
+  ],
+  "leading_minor": [
+    "1",
+    "-2"
+  ],
+  "determinant": [
+    "4",
+    "-24",
+    "48",
+    "-40"
+  ],
+  "determinant_at_t_equals_5over18_minus_delta": [
+    "131/729",
+    "178/27",
+    "44/3",
+    "40"
+  ],
+  "actual": {
+    "leading_minor_lower_bound": "4/9",
+    "determinant_lower_bound": "131/729",
+    "interval": "1/4<t<=5/18; delta=5/18-t>=0"
+  },
+  "required": {
+    "leading_minor_lower_bound": ">0",
+    "determinant_lower_bound": ">0",
+    "witness_nonreal_counts": [
+      2,
+      4
+    ],
+    "proved_count_implication": "Z_c(p)=2 implies Z_c(q(D)p)<=2, under preservation hypothesis for full contraction"
+  },
+  "checks": {
+    "inverse_identity_mod_D5": true,
+    "leading_minor_identity": true,
+    "determinant_identity": true,
+    "endpoint_shift_identity": true,
+    "all_shifted_determinant_coefficients_positive": true,
+    "leading_minor_lower_bound_positive": true,
+    "determinant_lower_bound_positive": true,
+    "sector_parameter_endpoint": true
+  },
+  "failures": [],
+  "proof_limits": "Checks finite algebra, not factorization, sums of squares, positivity composition or the imported Walsh theorem. See C020n."
+}

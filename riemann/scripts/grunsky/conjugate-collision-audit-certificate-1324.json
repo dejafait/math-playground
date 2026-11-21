@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "checks": {
+    "original_source_hashes_unchanged": true,
+    "original_report_passed": true,
+    "complete_base_field_matches_hand_algebra": true,
+    "complete_parameter_partials_match_hand_algebra": true,
+    "five_fixed_boxes_match_canonical1307_and1322": true,
+    "positive_ordered_boxes": true,
+    "v_interval_and_positive_factors": true,
+    "independent_numerator_base_zero": true,
+    "independent_numerator_radial_derivative": true,
+    "independent_H_parameter_partials": true,
+    "independent_squared_radius_tangent": true,
+    "tangent_matrix_transpose_matches_C031c": true,
+    "reduced_tangent_and_basis": true,
+    "all_five_dependency_safe_product_intervals": true,
+    "both_exact_printed_endpoints": true,
+    "strict_integer_margins": true,
+    "required_threshold_and_simple_enclosure": true
+  },
+  "failures": [],
+  "scope": "Independent fixed-u=400, pi/3 C031e audit only; no parameter sweep or branch solve.",
+  "numerator_replay": {
+    "identity": "H=N/|P(r*w)|^2; N=r/2+sum b_j*polynomial_j(r)",
+    "convention": "polynomial coefficients low to high; field pair x+y*i*sqrt(3)",
+    "b_polynomials": [
+      [
+        "0",
+        "0",
+        "0",
+        "-1/2"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1/2"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1/2"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1/2"
+      ]
+    ],
+    "base_N": [
+      "0",
+      "1/2",
+      "0",
+      "-1/2",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "N_base": "0",
+    "N_r": "-1",
+    "H_a": [
+      "-1/2",
+      "-1/2",
+      "0",
+      "1/2",
+      "1/2"
+    ],
+    "qprime_a": [
+      "-1",
+      "-1",
+      "0",
+      "1",
+      "1"
+    ],
+    "tangent_columns": [
+      [
+        "-1/2",
+        "0",
+        "0",
+        "0",
+        "1/2"
+      ],
+      [
+        "0",
+        "-200",
+        "0",
+        "200",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1/2",
+        "0",
+        "1/2"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-200",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1/2"
+      ]
+    ],
+    "reduced": [
+      "1",
+      "400",
+      "1/2",
+      "-200",
+      "-1/2"
+    ]
+  },
+  "boxes": {
+    "A": {
+      "lower": "7434519857/200000000000000",
+      "upper": "18586299643/500000000000000"
+    },
+    "B": {
+      "lower": "14417393139/100000000000000000",
+      "upper": "14417393141/100000000000000000"
+    },
+    "C": {
+      "lower": "3315158401/5000000000000000000",
+      "upper": "66303168031/100000000000000000000"
+    },
+    "D": {
+      "lower": "6427328297/2000000000000000000000",
+      "upper": "32136641527/10000000000000000000000"
+    },
+    "E": {
+      "lower": "3175386887/200000000000000000000000",
+      "upper": "3175386919/200000000000000000000000"
+    }
+  },
+  "v0": {
+    "lower": "344562347730000/3315158401",
+    "upper": "6891246956460000/66303168031"
+  },
+  "components": [
+    {
+      "lower": "7434519857/200000000000000",
+      "upper": "18586299643/500000000000000"
+    },
+    {
+      "lower": "14417393139/100000000000000000",
+      "upper": "14417393141/100000000000000000"
+    },
+    {
+      "lower": "34456234773/500000000000000",
+      "upper": "344562347823/5000000000000000"
+    },
+    {
+      "lower": "221461532764578271581/663031680200000000000000000",
+      "upper": "11073076655689239845721/33151584015500000000000000000"
+    },
+    {
+      "lower": "3769921288945571953645823870223/21980550447441753602000000000000000",
+      "upper": "376992132897206054082437735337351/2198055045473510208480500000000000000"
+    }
+  ],
+  "actual_derivative_interval": {
+    "lower": "-511270638434762842611272634477187/21980550454735102084805000000000000000",
+    "upper": "-5112706164033352348297561245289/219805504474417536020000000000000000"
+  },
+  "required_upper_bound": "0",
+  "simple_enclosure": {
+    "lower": "-3/125000",
+    "upper": "-11/500000"
+  },
+  "integer_cross_product_margins": {
+    "lower": "2032821559859950928005920690351625000",
+    "upper": "138492532798083277928780622644500000"
+  },
+  "original_input_hashes": {
+    "scripts/grunsky/conjugate-collision-1322.py": "9ba0c33b3edb684723beda6d67edcb7a923200ca1b1e674357cac1488b22171d",
+    "scripts/grunsky/quadratic-tangent-certificate-1316.json": "8763d198982268f592aa5931fc1ed6b927b508e0482696c59119fbe5a33314fa",
+    "lemmas/C031c-quadratic-grunsky-local-positive-branch.md": "2034b89ec052dd72411f50bccef4219670385f148fcf92e330b145110e041cb9",
+    "lemmas/C030z-positive-diagonal-grunsky-finite-scalar-reduction.md": "b6c4bf2747bbb70a24077444c8653a42ee95e1c47db5b67ba11e0ed16505680c"
+  },
+  "audit_input_hashes": {
+    "scripts/grunsky/conjugate-collision-audit-1324.py": "81b21b86e84c3f489ab4240b6e10829ce8a5359c59f29cf6194403e1d96b730a",
+    "scripts/grunsky/conjugate-collision-certificate-1322.json": "734073be48ca4843c7eb7f6d754a328ced4754715d574411a9415114200159b2",
+    "lemmas/C031e-quadratic-grunsky-interior-conjugate-collision.md": "6d52aa4d1ccf7b7904c6f15114a463aacdbe083315b1eee5bc39dc6bdd9f0d83"
+  },
+  "unresolved": "C031c branch/tangent and fixed1307 actual inclusion/Decimal contracts inherited; no uniform/effective tau interval, other-branch exclusion or RH conclusion."
+}

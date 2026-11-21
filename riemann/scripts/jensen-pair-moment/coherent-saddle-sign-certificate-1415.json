@@ -1,0 +1,80 @@
+{
+  "purpose": "C020a selected CA saddle plus C019z resonance only; full quotient unpaid",
+  "method": "Exact rational intervals; Machin arctangent and atanh log series; rational square-root bracket",
+  "atan_terms": 20,
+  "log_terms": 32,
+  "outward_grid": "1/1000000000000",
+  "values": {
+    "sqrt2": {
+      "lo": "1414213562373/1000000000000",
+      "hi": "707106781187/500000000000"
+    },
+    "pi": {
+      "lo": "3141592653589/1000000000000",
+      "hi": "314159265359/100000000000"
+    },
+    "log2": {
+      "lo": "693147180559/1000000000000",
+      "hi": "8664339757/12500000000"
+    },
+    "log4over3": {
+      "lo": "287682072451/1000000000000",
+      "hi": "71920518113/250000000000"
+    },
+    "log_ratio": {
+      "lo": "170638993809/500000000000",
+      "hi": "17063899381/50000000000"
+    },
+    "f_at_x0": {
+      "lo": "-102839743/250000000000",
+      "hi": "-411358971/1000000000000"
+    },
+    "early_derivative": {
+      "lo": "-681914864011/1000000000000",
+      "hi": "-85239358001/125000000000"
+    },
+    "late_derivative": {
+      "lo": "-2658193444929/62500000000",
+      "hi": "-2126554755939/50000000000"
+    },
+    "b_at_sqrt2": {
+      "lo": "22916053313/50000000000",
+      "hi": "229160533131/500000000000"
+    },
+    "f_at_sqrt2": {
+      "lo": "-105946837/3906250000",
+      "hi": "-2712239027/100000000000"
+    },
+    "C4": {
+      "lo": "3335676701/250000000000",
+      "hi": "2668541361/200000000000"
+    },
+    "integral_lower": {
+      "lo": "-11597979747/1000000000000",
+      "hi": "-5798989873/500000000000"
+    },
+    "combined_margin": {
+      "lo": "1744727057/1000000000000",
+      "hi": "1744727059/1000000000000"
+    }
+  },
+  "checks": {
+    "sqrt2_enclosed_by_squares": true,
+    "entry_inside_band": true,
+    "switch_above_one_tenth": true,
+    "switch_below_one_fifth": true,
+    "lower_count_positive_at_one_tenth": true,
+    "early_derivative_negative": true,
+    "late_derivative_negative": true,
+    "early_f_above_minus_7_over_250": true,
+    "late_f_above_minus_7_over_250": true,
+    "C4_above_13_over_1000": true,
+    "combined_margin_above_1_over_1000": true
+  },
+  "required": {
+    "C4_strict_lower": "13/1000",
+    "f_strict_lower": "-7/250",
+    "combined_margin_strict_lower": "1/1000"
+  },
+  "failures": []
+}

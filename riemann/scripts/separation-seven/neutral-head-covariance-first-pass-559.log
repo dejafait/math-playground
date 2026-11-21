@@ -1,0 +1,21 @@
+Completed residual rows through 8703
+Completed residual rows through 16895
+Completed residual rows through 25087
+Completed residual rows through 33279
+Completed residual rows through 41471
+Completed residual rows through 49663
+Completed residual rows through 57855
+Trial error upper: 0.0011305865456099343069801183437062329756168134495842518297873254809553719707734920
+Finite covariance error upper: 0.0052666423703659887273090660409025827639686269422587528823159827658395237636610365
+Tail remainder L2 upper: 0.0029789268544945367034419580587580793917894918900816358599949826256886783184079367
+Exact-predictor covariance error upper: 0.043572149306099556386025255154718913719069226706964978481981717835609537426326846
+Comparison diagnostic minimum: -0.02569563507305494
+Required >=0; certified lower if all ledgers pass: .000999
+Checks: 165 ; failures: ['factor reconstruction comparison_margin']
+Certificate: scripts/separation-seven/neutral-head-covariance-559.json
+Full matrices/factors: scripts/separation-seven/neutral-head-covariance-559.npz
+Traceback (most recent call last):
+  File "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/separation-seven/neutral-head-covariance-559.py", line 370, in <module>
+    assert not failures
+           ^^^^^^^^^^^^
+AssertionError

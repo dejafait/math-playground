@@ -1,0 +1,183 @@
+{
+  "step_id": "2026-11-03-two-half-logarithmic-homotopy-98",
+  "lemma": "lemmas/L691-two-half-displacement-complete-logarithmic-bound.md",
+  "scope": "Exact rational clearances and rate margins only; all analytic arguments remain in L691.",
+  "inherited_evidence": "L690 fixed-contour bound -1/500 and finite left-sum error 8; not replayed.",
+  "unverified_here": [
+    "split-contour identity",
+    "dominated analytic limit",
+    "nonidentity of limiting composition",
+    "singular-log convergence",
+    "absolute onset value",
+    "full independent-shift cube"
+  ],
+  "checks": [
+    {
+      "name": "angular_log_derivative",
+      "actual": {
+        "numerator": 84135910062666743600000,
+        "denominator": 4913008587950412772641,
+        "decimal_preview": 17.12512985811128
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 20,
+        "denominator": 1,
+        "decimal_preview": 20.0
+      },
+      "passed": true
+    },
+    {
+      "name": "mixed_log_derivative",
+      "actual": {
+        "numerator": 1084872241850000000000,
+        "denominator": 26005032949358286121,
+        "decimal_preview": 41.71777993754747
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 50,
+        "denominator": 1,
+        "decimal_preview": 50.0
+      },
+      "passed": true
+    },
+    {
+      "name": "outer_decay_rate",
+      "actual": {
+        "numerator": 9,
+        "denominator": 5000,
+        "decimal_preview": 0.0018
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 9,
+        "denominator": 5000,
+        "decimal_preview": 0.0018
+      },
+      "passed": true
+    },
+    {
+      "name": "central_lower_decay_rate",
+      "actual": {
+        "numerator": 49,
+        "denominator": 2000,
+        "decimal_preview": 0.0245
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 50,
+        "decimal_preview": 0.02
+      },
+      "passed": true
+    },
+    {
+      "name": "central_upper_decay_rate_using_pi_gt_3",
+      "actual": {
+        "numerator": 39991,
+        "denominator": 18000,
+        "decimal_preview": 2.221722222222222
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 2,
+        "denominator": 1,
+        "decimal_preview": 2.0
+      },
+      "passed": true
+    },
+    {
+      "name": "lower_side_convexity_margin",
+      "actual": {
+        "numerator": 25,
+        "denominator": 64,
+        "decimal_preview": 0.390625
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal_preview": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "anchor_distance_clearance",
+      "actual": {
+        "numerator": 24999,
+        "denominator": 100000,
+        "decimal_preview": 0.24999
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal_preview": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "rectangle_distance_clearance",
+      "actual": {
+        "numerator": 16999,
+        "denominator": 100000,
+        "decimal_preview": 0.16999
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal_preview": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "rectangle_denominator_clearance",
+      "actual": {
+        "numerator": 2819879,
+        "denominator": 6400000,
+        "decimal_preview": 0.44060609375
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal_preview": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "central_denominator_clearance",
+      "actual": {
+        "numerator": 3299879,
+        "denominator": 6400000,
+        "decimal_preview": 0.51560609375
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal_preview": 0.0
+      },
+      "passed": true
+    },
+    {
+      "name": "zero_frequency_minimum",
+      "actual": {
+        "numerator": 3,
+        "denominator": 4,
+        "decimal_preview": 0.75
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 3,
+        "denominator": 4,
+        "decimal_preview": 0.75
+      },
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "all_passed": true
+}

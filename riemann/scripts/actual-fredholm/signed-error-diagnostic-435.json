@@ -1,0 +1,80 @@
+{
+  "source": "scripts/actual-fredholm/signed-pair-certificate-435.json",
+  "no_new_evaluations": true,
+  "mode192_error": "3.201665199114830350367296624874019859637886691888146905882779171401367191E-15",
+  "mode512_error": "4017643.69667331566090302007164681967929253298686421433053537423626981553016",
+  "largest_error_mode": 512,
+  "first192_weighted_error_norm": [
+    "4.37509043837503919259068994514862944633536459615243322858603503352038513131E-13",
+    "4.37509043837503919259068994514862944633536459615243322858603503352038513207E-13"
+  ],
+  "all512_weighted_error_norm": [
+    "128575987.085009437898810723745032068121368680140600915422708530448129960115",
+    "128575987.085009437898810723745032068121368680140600915422708530448129960118"
+  ],
+  "infinite_tail_HS_bound": [
+    "1.72167067831812043243796873828260223701246744272471039234197894156676694302E-17",
+    "1.72167067831812043243796873828260223701246744272471039234197894156676694508E-17"
+  ],
+  "weighted_error_blocks_preview": [
+    {
+      "modes": [
+        1,
+        64
+      ],
+      "weighted_error_sum": "2.168709001783865020613298637E-26"
+    },
+    {
+      "modes": [
+        65,
+        128
+      ],
+      "weighted_error_sum": "6.373265648555961248601525022E-26"
+    },
+    {
+      "modes": [
+        129,
+        192
+      ],
+      "weighted_error_sum": "1.059944169362086634568336679E-25"
+    },
+    {
+      "modes": [
+        193,
+        256
+      ],
+      "weighted_error_sum": "1.480489108246208776904446961E-25"
+    },
+    {
+      "modes": [
+        257,
+        320
+      ],
+      "weighted_error_sum": "1.905256753641381695336964869E-25"
+    },
+    {
+      "modes": [
+        321,
+        384
+      ],
+      "weighted_error_sum": "5.254264549575452942091854476E-23"
+    },
+    {
+      "modes": [
+        385,
+        448
+      ],
+      "weighted_error_sum": "0.0009082288822540580513595609827"
+    },
+    {
+      "modes": [
+        449,
+        512
+      ],
+      "weighted_error_sum": "16531784454884513.77062796552"
+    }
+  ],
+  "diagnosis": "Recursive complex rectangular powers amplify interval widths; high-mode Fourier errors dominate. This is a certificate failure, not a negative minor or failure of signed positivity.",
+  "recovery": "Original count-phase width assertion preserved; accept unchanged wider strict root brackets. No resolution, precision or radius change.",
+  "decision": "Stop this implementation after the one fixed run; do not refine automatically."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_A_PROOF",
+  "seed": 1470,
+  "families": "20000 fourfold, 40000 two-double, 20000 simple-root samples",
+  "q_ascending": [
+    "1",
+    "1",
+    "5/18"
+  ],
+  "iterations": 80000,
+  "cap": 80000,
+  "approximate_real_count_histogram": {
+    "4": 39289,
+    "6": 40711
+  },
+  "candidates": [],
+  "required": "exact rational witness; sector; universal preservation; multiplicity-aware counts (2,4)",
+  "limits": "One quadratic endpoint and a finite input sample only; floating roots are not certification.",
+  "failures": [],
+  "execution_note": "Initial run failed JSON serialization on a numpy.int64 histogram key; corrected to int and rerun with identical seed."
+}

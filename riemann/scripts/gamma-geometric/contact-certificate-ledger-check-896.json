@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "Full saved-cell coverage and rational inequalities; not an independent analytic or arithmetic replay.",
+  "certificate_sha256": "92bebda97d9c4c6d554fcb75abd302ff3a71d2e33023acf6d39771644b1a3205",
+  "checked": [
+    {
+      "interval": [
+        "139/32",
+        "35/8"
+      ],
+      "cells": 1,
+      "all_cells_checked": true,
+      "failures": []
+    },
+    {
+      "interval": [
+        "1/32",
+        "139/32"
+      ],
+      "cells": 944,
+      "all_cells_checked": true,
+      "failures": []
+    }
+  ],
+  "proved_bounds": {
+    "prefix_Z": ">1/4000000",
+    "contact_Zprime": "<-213/1000000",
+    "required_contact_Zprime": "<-1/5000"
+  },
+  "unresolved": [
+    "No effective positive interval covering (0,1/32).",
+    "An earlier zero below 1/32 is not excluded.",
+    "C466d admissibility and endpoint proof remain unaudited."
+  ]
+}

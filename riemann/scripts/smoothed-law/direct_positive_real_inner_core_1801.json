@@ -1,0 +1,241 @@
+{
+  "status": "CONDITIONAL_INNER_CORE_PASS_AGGREGATE_PREFLIGHT_INCOMPLETE",
+  "scope": "C033y exact-node Jhat differences; qualified inputs and separate application audit remain",
+  "transforms_evaluated": false,
+  "gauss_callbacks_evaluated": false,
+  "input_contract": {
+    "absolute_radius": "1/1152921504606846976",
+    "families": [
+      "48 x",
+      "48 omega",
+      "48 exp(-x^2)",
+      "780 w^(-1/2)"
+    ],
+    "data_generated": false,
+    "generation_cost_certified": false
+  },
+  "coefficients": [
+    {
+      "k": 0,
+      "c_k": "1/4",
+      "identity_verified": true
+    },
+    {
+      "k": 1,
+      "c_k": "-1/48",
+      "identity_verified": true
+    },
+    {
+      "k": 2,
+      "c_k": "-1/32",
+      "identity_verified": true
+    },
+    {
+      "k": 3,
+      "c_k": "7/11520",
+      "identity_verified": true
+    },
+    {
+      "k": 4,
+      "c_k": "5/1536",
+      "identity_verified": true
+    },
+    {
+      "k": 5,
+      "c_k": "-31/1935360",
+      "identity_verified": true
+    },
+    {
+      "k": 6,
+      "c_k": "-61/184320",
+      "identity_verified": true
+    },
+    {
+      "k": 7,
+      "c_k": "127/309657600",
+      "identity_verified": true
+    },
+    {
+      "k": 8,
+      "c_k": "277/8257536",
+      "identity_verified": true
+    },
+    {
+      "k": 9,
+      "c_k": "-73/7007109120",
+      "identity_verified": true
+    },
+    {
+      "k": 10,
+      "c_k": "-50521/14863564800",
+      "identity_verified": true
+    },
+    {
+      "k": 11,
+      "c_k": "1414477/5356234211328000",
+      "identity_verified": true
+    },
+    {
+      "k": 12,
+      "c_k": "540553/1569592442880",
+      "identity_verified": true
+    },
+    {
+      "k": 13,
+      "c_k": "-8191/1224282105446400",
+      "identity_verified": true
+    },
+    {
+      "k": 14,
+      "c_k": "-199360981/5713316492083200",
+      "identity_verified": true
+    },
+    {
+      "k": 15,
+      "c_k": "16931177/99901419804426240000",
+      "identity_verified": true
+    },
+    {
+      "k": 16,
+      "c_k": "3878302429/1096956766479974400",
+      "identity_verified": true
+    },
+    {
+      "k": 17,
+      "c_k": "-5749691557/1339318394466059943936000",
+      "identity_verified": true
+    },
+    {
+      "k": 18,
+      "c_k": "-2404879675441/6713375410857443328000",
+      "identity_verified": true
+    },
+    {
+      "k": 19,
+      "c_k": "91546277357/841857276521523393331200000",
+      "identity_verified": true
+    },
+    {
+      "k": 20,
+      "c_k": "14814847529501/408173224980132554342400",
+      "identity_verified": true
+    },
+    {
+      "k": 21,
+      "c_k": "-3324754717/1207026536726963410698240000",
+      "identity_verified": true
+    },
+    {
+      "k": 22,
+      "c_k": "-69348874393137901/18857602994082124010618880000",
+      "identity_verified": true
+    },
+    {
+      "k": 23,
+      "c_k": "1982765468311237/28417653407961997599042227404800000",
+      "identity_verified": true
+    },
+    {
+      "k": 24,
+      "c_k": "238685140977801337/640578267860512766391484416000",
+      "identity_verified": true
+    },
+    {
+      "k": 25,
+      "c_k": "-22076500342261/12491276223279998944633946112000000",
+      "identity_verified": true
+    },
+    {
+      "k": 26,
+      "c_k": "-4087072509293123892361/108257727268426657520160866304000000",
+      "identity_verified": true
+    },
+    {
+      "k": 27,
+      "c_k": "65053034220152267/1453128007734481248656330713989120000000",
+      "identity_verified": true
+    },
+    {
+      "k": 28,
+      "c_k": "13181680435827682794403/3446014392207602235168067996876800000",
+      "identity_verified": true
+    }
+  ],
+  "bounds": {
+    "E16_remainder": "8/10854718875",
+    "S10_remainder": "33554432/47993907214828575",
+    "T10_remainder": "8388608/47993907214828575",
+    "quotient_remainder": "444945412/239969536074142875",
+    "quotient_required": "1/268435456",
+    "polynomial_remainder": "3/134217728",
+    "high_input_factor": "387",
+    "low_input_factor": "900",
+    "high_J_error": "50331649/2251799813685248",
+    "low_J_error": "2003856231652947893507227/270181678310945162358008315904000",
+    "difference_error_bound": "25165825/562949953421312",
+    "difference_required": "1/16777216",
+    "exponent_core_error_bound": "13/100663296",
+    "exponent_core_required": "1/4194304"
+  },
+  "coefficient_cost": {
+    "factorials_to_30": 30,
+    "factorial_reciprocals": 30,
+    "powers_of_two_to_29": 29,
+    "E_coefficients": 29,
+    "odd_coefficient_subtractions": 14,
+    "halvings": 29,
+    "recurrence_multiply_subtract": 392
+  },
+  "core_cost": {
+    "unit": "rational +,-,*,/ or clamp comparison; no bit-cost claim",
+    "breakdown": {
+      "coefficient_formation": 553,
+      "clamp_48_input_triples": 288,
+      "48_products_and_scaled_nodes": 96,
+      "29_shared_moments": 4128,
+      "29_moment_coefficients": 29,
+      "clamp_780_inverse_square_roots": 1560,
+      "663_high_width_horner_rules": 38454,
+      "117_remaining_and_one_fixed_rule": 328630,
+      "780_final_differences": 780
+    },
+    "total_upper": 374518,
+    "required_core_bound": 380000
+  },
+  "aggregate": {
+    "required_cap": 1000000,
+    "full_operation_count": null,
+    "full_exponent_arithmetic_radius_certified": false,
+    "final_exponential_radius_certified": false,
+    "preflight_passed": false
+  },
+  "checks": {
+    "disk_S_upper_below_15_over_8": true,
+    "disk_R_upper_below_6": true,
+    "all_29_coefficient_identities": true,
+    "all_29_coefficients_obey_cauchy_bound": true,
+    "c0_is_one_quarter": true,
+    "c1_is_minus_one_over_48": true,
+    "first_17_panel_width_exponent_above_4": true,
+    "geometric_tail_ratio_below_1": true,
+    "quotient_remainder_below_2_pow_minus_28": true,
+    "polynomial_remainder_below_2_pow_minus_25": true,
+    "quotient_derivative_below_35": true,
+    "high_input_factor_below_512": true,
+    "low_input_factor_below_1024": true,
+    "high_plus_fixed_error_below_difference_bound": true,
+    "low_plus_fixed_error_below_difference_bound": true,
+    "difference_error_below_2_pow_minus_24": true,
+    "propagated_error_below_2_pow_minus_22": true,
+    "coefficient_cost_553": true,
+    "core_operation_total_374518": true,
+    "core_operation_bound_below_380000": true,
+    "profile_count_780": true
+  },
+  "unresolved": [
+    "Certified node/weight, exp(-x^2), q input generation and complete cost",
+    "Constants, I(1), prime enumeration/evaluation and remaining profile arithmetic",
+    "Outer constants and arithmetic, final exponentials and full error/cost ledger",
+    "C033y/C033z application audits and qualified external inputs"
+  ]
+}

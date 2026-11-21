@@ -1,0 +1,64 @@
+{
+  "purpose": "Nonrigorous phase diagnostic; no fixed-bump integral is approximated.\n\nReuses the audited L716 moment enclosures to evaluate the limiting\nphase, but uses binary64 Simpson quadrature and midpoint moments. It cannot\ncertify signed rates or a lower bound for the outer integral.\n",
+  "rigorous": false,
+  "script_sha256": "5058eae6e98a9771fc643aea2a894266b761a1da06281d8da21cd1c507a2fe14",
+  "moment_source": "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/one-sided-hankel/resolvent-tail-certificate-181.json",
+  "moment_source_sha256": "a374471b94406e13957706243d219014098f66d1a16d7cbdb261510694eaccf2",
+  "prefactor_rate": {
+    "real": 1.6511738824443545,
+    "imag": -0.45956013903184045
+  },
+  "residue_product_rate": {
+    "real": -0.0500666336714964,
+    "imag": -0.008734487939486092
+  },
+  "rows": [
+    {
+      "v": 1.0847400840668355,
+      "phase": {
+        "real": 0.005701870929531783,
+        "imag": -0.0032017434371569564
+      },
+      "derivative": {
+        "real": 0.009434119107268756,
+        "imag": 0.06711707156214176
+      },
+      "phase_series_tail_bound": 6.258515100167367e-06,
+      "derivative_series_tail_bound": 9.387772650251052e-05,
+      "residue_rate_at_endpoint_v": 0.0001528146649311668
+    },
+    {
+      "v": 1.0850734174001688,
+      "phase": {
+        "real": 0.005704996462740919,
+        "imag": -0.0031793774490176396
+      },
+      "derivative": {
+        "real": 0.009319089693397871,
+        "imag": 0.06707886075841775
+      },
+      "phase_series_tail_bound": 6.237964036960396e-06,
+      "derivative_series_tail_bound": 9.356946055440594e-05,
+      "residue_rate_at_endpoint_v": 0.0001682467636965959
+    },
+    {
+      "v": 1.0854067507335021,
+      "phase": {
+        "real": 0.0057080836623566444,
+        "imag": -0.00315702419433056
+      },
+      "derivative": {
+        "real": 0.009204117543194048,
+        "imag": 0.0670406708442231
+      },
+      "phase_series_tail_bound": 6.21748104324532e-06,
+      "derivative_series_tail_bound": 9.326221564867981e-05,
+      "residue_rate_at_endpoint_v": 0.00018367886246203197
+    }
+  ],
+  "required": "Proved signed rate comparison of R_n=P_n+K_n, not a pointwise phase rate.",
+  "failures": [
+    "No signed outer integral computed; fixed chi has no supplied endpoint law.",
+    "Quadrature and midpoint arithmetic are diagnostic only."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "scope": "Exact rational algebra only; C034c(20) remains unproved.",
+  "coefficient_order": "ascending powers of t; shifted means t=u+1",
+  "ell_numerator_without_6": [
+    1,
+    4,
+    5,
+    10
+  ],
+  "ell_denominator": [
+    0,
+    1,
+    5,
+    7,
+    3
+  ],
+  "ell_derivative_numerator_without_6": [
+    -1,
+    -10,
+    -36,
+    -48,
+    -21,
+    -30,
+    -30
+  ],
+  "s_minus_r_inner_numerator": [
+    0,
+    4,
+    12,
+    -43,
+    -114,
+    -55
+  ],
+  "s_minus_r_inner_shifted": [
+    -196,
+    -832,
+    -1351,
+    -1049,
+    -389,
+    -55
+  ],
+  "r_derivative_sign_shifted": [
+    22,
+    39,
+    15
+  ],
+  "at_x_y_1": {
+    "Q1": "4",
+    "Q2": "40/9",
+    "Q1_second": "30",
+    "Q2_second": "704/27",
+    "symmetric_kernel": "-784/27"
+  },
+  "checks": {
+    "ell_derivative_strictly_negative_t_positive": true,
+    "s_minus_r_strictly_negative_t_ge_1": true,
+    "r_derivative_strictly_positive_t_ge_1": true,
+    "s_minus_r_inner_at_1": true
+  },
+  "failures": [],
+  "actual_bound": "Bulk curvature <= 2 integral integral p_+(x)p_-(y)(-K(x,y)) dx dy, x,y>=1",
+  "required_bound": "Full curvature including all origin corrections <= S4^3/5 uniformly on [1,2]",
+  "threshold_certified": false
+}

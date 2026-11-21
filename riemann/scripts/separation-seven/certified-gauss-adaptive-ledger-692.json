@@ -1,0 +1,108 @@
+{
+  "result": "PASS_SCHEDULED_COUNTER_RECONSTRUCTION",
+  "checks": [
+    {
+      "name": "degree63 complete prefix counts",
+      "pass": true
+    },
+    {
+      "name": "degree81 complete prefix counts",
+      "pass": true
+    },
+    {
+      "name": "degree117 complete prefix counts",
+      "pass": true
+    },
+    {
+      "name": "all category charges reconstructed",
+      "pass": true
+    },
+    {
+      "name": "scheduled counter meets cap",
+      "pass": true
+    },
+    {
+      "name": "all point calls accounted for",
+      "pass": true
+    },
+    {
+      "name": "all derivative calls accounted for",
+      "pass": true
+    },
+    {
+      "name": "all conversion passes accounted for",
+      "pass": true
+    },
+    {
+      "name": "construction guard outcome",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "rows": [
+    {
+      "degree": 63,
+      "adaptive_trials": 280,
+      "fallback_bisections": 249,
+      "newton_updates": 225,
+      "conversion_halvings": 17206,
+      "derivative_calls": 505,
+      "point_calls": 634,
+      "positive_outputs": 31,
+      "zero_outputs": 1
+    },
+    {
+      "degree": 81,
+      "adaptive_trials": 381,
+      "fallback_bisections": 341,
+      "newton_updates": 298,
+      "conversion_halvings": 22190,
+      "derivative_calls": 679,
+      "point_calls": 808,
+      "positive_outputs": 40,
+      "zero_outputs": 1
+    },
+    {
+      "degree": 117,
+      "adaptive_trials": 609,
+      "fallback_bisections": 551,
+      "newton_updates": 426,
+      "conversion_halvings": 32095,
+      "derivative_calls": 1035,
+      "point_calls": 1164,
+      "positive_outputs": 58,
+      "zero_outputs": 1
+    }
+  ],
+  "scheduled_by_category": {
+    "adaptive_prefix_control": 127000,
+    "binary_conversion_fixed": 37960,
+    "binary_conversion_halvings": 857892,
+    "degree_constants": 90,
+    "derivative_enclosures": 266280,
+    "final_global_guards": 100,
+    "fixed_constant_and_output_administration": 10000,
+    "grid_constant": 3840,
+    "mesh_domain_and_order": 600,
+    "mesh_evaluation_control": 4608,
+    "mesh_generation": 2560,
+    "newton_image_and_control": 85410,
+    "point_recurrence": 3169180,
+    "recurrence_constant_tables": 2340,
+    "reflection_and_exact_output": 5160,
+    "root_count_check": 60,
+    "root_initialization_and_output": 12900,
+    "sign_bracket_inventory": 4572,
+    "tolerance_cap_construction": 15184,
+    "tolerance_constant_reserve": 4000,
+    "weight_formation_and_output": 12900,
+    "zero_root_and_weight": 240
+  },
+  "scheduled_counter": 4622876,
+  "required_upper": 5000000,
+  "headroom": 377124,
+  "complete_scalar_work_upper_bound_established": false,
+  "unresolved": "Code-level domination of every operation, especially conversion parity/domain guards and assignments, remains to audit; no actual total-work claim.",
+  "source_sha256": "45dbb1cbdf71a2ce8454b717721211f7255c4c69820c756ce423e07c740b992a",
+  "script_sha256": "800038cf5aa6c4e4d25a01e1e0bbf9a656a346ecc3e6ca07837ca74fd99703a9"
+}

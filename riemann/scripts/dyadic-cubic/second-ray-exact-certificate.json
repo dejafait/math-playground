@@ -1,0 +1,1707 @@
+{
+  "scope": "Exact finite arithmetic only; see L842 for analytic justification.",
+  "polynomial_coefficients": [
+    1,
+    2,
+    2,
+    1
+  ],
+  "dyadic_ratio": "1/2",
+  "a_0_through_6": [
+    "1",
+    "4",
+    "8",
+    "72/7",
+    "64/7",
+    "1280/217",
+    "38848/13671"
+  ],
+  "h_0_through_6": [
+    "1",
+    "4",
+    "8",
+    "72/7",
+    "64/7",
+    "1280/217",
+    "52736/13671"
+  ],
+  "rays": [
+    {
+      "rank": 1,
+      "matrix": [
+        [
+          "8"
+        ]
+      ],
+      "direct_determinant": "8",
+      "rectangular_expression": "8",
+      "methods_agree": true,
+      "negative": false,
+      "leibniz_terms": [
+        {
+          "permutation": [
+            0
+          ],
+          "signed_term": "8"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "matrix": [
+        [
+          "8",
+          "72/7"
+        ],
+        [
+          "4",
+          "8"
+        ]
+      ],
+      "direct_determinant": "160/7",
+      "rectangular_expression": "160/7",
+      "methods_agree": true,
+      "negative": false,
+      "leibniz_terms": [
+        {
+          "permutation": [
+            0,
+            1
+          ],
+          "signed_term": "64"
+        },
+        {
+          "permutation": [
+            1,
+            0
+          ],
+          "signed_term": "-288/7"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "matrix": [
+        [
+          "8",
+          "72/7",
+          "64/7"
+        ],
+        [
+          "4",
+          "8",
+          "72/7"
+        ],
+        [
+          "1",
+          "4",
+          "8"
+        ]
+      ],
+      "direct_determinant": "1600/49",
+      "rectangular_expression": "1600/49",
+      "methods_agree": true,
+      "negative": false,
+      "leibniz_terms": [
+        {
+          "permutation": [
+            0,
+            1,
+            2
+          ],
+          "signed_term": "512"
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            1
+          ],
+          "signed_term": "-2304/7"
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            2
+          ],
+          "signed_term": "-2304/7"
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0
+          ],
+          "signed_term": "5184/49"
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1
+          ],
+          "signed_term": "1024/7"
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            0
+          ],
+          "signed_term": "-512/7"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "matrix": [
+        [
+          "8",
+          "72/7",
+          "64/7",
+          "1280/217"
+        ],
+        [
+          "4",
+          "8",
+          "72/7",
+          "64/7"
+        ],
+        [
+          "1",
+          "4",
+          "8",
+          "72/7"
+        ],
+        [
+          "0",
+          "1",
+          "4",
+          "8"
+        ]
+      ],
+      "direct_determinant": "34816/1519",
+      "rectangular_expression": "34816/1519",
+      "methods_agree": true,
+      "negative": false,
+      "leibniz_terms": [
+        {
+          "permutation": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "signed_term": "4096"
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            3,
+            2
+          ],
+          "signed_term": "-18432/7"
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "signed_term": "-18432/7"
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "signed_term": "41472/49"
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "signed_term": "8192/7"
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "signed_term": "-4096/7"
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "signed_term": "-18432/7"
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "signed_term": "82944/49"
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "signed_term": "41472/49"
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "signed_term": "-18432/49"
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "signed_term": "8192/7"
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "signed_term": "-18432/49"
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "signed_term": "-4096/7"
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "signed_term": "4096/49"
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "signed_term": "-81920/217"
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "signed_term": "40960/217"
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "signed_term": "40960/217"
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "signed_term": "-92160/1519"
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "signed_term": "0"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "matrix": [
+        [
+          "8",
+          "72/7",
+          "64/7",
+          "1280/217",
+          "38848/13671"
+        ],
+        [
+          "4",
+          "8",
+          "72/7",
+          "64/7",
+          "1280/217"
+        ],
+        [
+          "1",
+          "4",
+          "8",
+          "72/7",
+          "64/7"
+        ],
+        [
+          "0",
+          "1",
+          "4",
+          "8",
+          "72/7"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "4",
+          "8"
+        ]
+      ],
+      "direct_determinant": "-1409024/2966607",
+      "rectangular_expression": "-1409024/2966607",
+      "methods_agree": true,
+      "negative": true,
+      "leibniz_terms": [
+        {
+          "permutation": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "signed_term": "32768"
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            2,
+            4,
+            3
+          ],
+          "signed_term": "-147456/7"
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            3,
+            2,
+            4
+          ],
+          "signed_term": "-147456/7"
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            3,
+            4,
+            2
+          ],
+          "signed_term": "331776/49"
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            4,
+            2,
+            3
+          ],
+          "signed_term": "65536/7"
+        },
+        {
+          "permutation": [
+            0,
+            1,
+            4,
+            3,
+            2
+          ],
+          "signed_term": "-32768/7"
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            1,
+            3,
+            4
+          ],
+          "signed_term": "-147456/7"
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            1,
+            4,
+            3
+          ],
+          "signed_term": "663552/49"
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            3,
+            1,
+            4
+          ],
+          "signed_term": "331776/49"
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            3,
+            4,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            4,
+            1,
+            3
+          ],
+          "signed_term": "-147456/49"
+        },
+        {
+          "permutation": [
+            0,
+            2,
+            4,
+            3,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            1,
+            2,
+            4
+          ],
+          "signed_term": "65536/7"
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            1,
+            4,
+            2
+          ],
+          "signed_term": "-147456/49"
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            2,
+            1,
+            4
+          ],
+          "signed_term": "-32768/7"
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            2,
+            4,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            4,
+            1,
+            2
+          ],
+          "signed_term": "32768/49"
+        },
+        {
+          "permutation": [
+            0,
+            3,
+            4,
+            2,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            1,
+            2,
+            3
+          ],
+          "signed_term": "-655360/217"
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            1,
+            3,
+            2
+          ],
+          "signed_term": "327680/217"
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            2,
+            1,
+            3
+          ],
+          "signed_term": "327680/217"
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            2,
+            3,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            3,
+            1,
+            2
+          ],
+          "signed_term": "-737280/1519"
+        },
+        {
+          "permutation": [
+            0,
+            4,
+            3,
+            2,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            2,
+            3,
+            4
+          ],
+          "signed_term": "-147456/7"
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            2,
+            4,
+            3
+          ],
+          "signed_term": "663552/49"
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            2,
+            4
+          ],
+          "signed_term": "663552/49"
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            3,
+            4,
+            2
+          ],
+          "signed_term": "-1492992/343"
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            4,
+            2,
+            3
+          ],
+          "signed_term": "-294912/49"
+        },
+        {
+          "permutation": [
+            1,
+            0,
+            4,
+            3,
+            2
+          ],
+          "signed_term": "147456/49"
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0,
+            3,
+            4
+          ],
+          "signed_term": "331776/49"
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            0,
+            4,
+            3
+          ],
+          "signed_term": "-1492992/343"
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            0,
+            4
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            3,
+            4,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            4,
+            0,
+            3
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            2,
+            4,
+            3,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            2,
+            4
+          ],
+          "signed_term": "-147456/49"
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            0,
+            4,
+            2
+          ],
+          "signed_term": "331776/343"
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            2,
+            0,
+            4
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            2,
+            4,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            4,
+            0,
+            2
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            3,
+            4,
+            2,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            0,
+            2,
+            3
+          ],
+          "signed_term": "1474560/1519"
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            0,
+            3,
+            2
+          ],
+          "signed_term": "-737280/1519"
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            2,
+            0,
+            3
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            2,
+            3,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            3,
+            0,
+            2
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            1,
+            4,
+            3,
+            2,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1,
+            3,
+            4
+          ],
+          "signed_term": "65536/7"
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            1,
+            4,
+            3
+          ],
+          "signed_term": "-294912/49"
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            1,
+            4
+          ],
+          "signed_term": "-147456/49"
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            3,
+            4,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            4,
+            1,
+            3
+          ],
+          "signed_term": "65536/49"
+        },
+        {
+          "permutation": [
+            2,
+            0,
+            4,
+            3,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            0,
+            3,
+            4
+          ],
+          "signed_term": "-32768/7"
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            0,
+            4,
+            3
+          ],
+          "signed_term": "147456/49"
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            3,
+            0,
+            4
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            3,
+            4,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            4,
+            0,
+            3
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            1,
+            4,
+            3,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            1,
+            4
+          ],
+          "signed_term": "32768/49"
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            0,
+            4,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            0,
+            4
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            1,
+            4,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            4,
+            0,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            3,
+            4,
+            1,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            0,
+            1,
+            3
+          ],
+          "signed_term": "-327680/1519"
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            0,
+            3,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            1,
+            0,
+            3
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            1,
+            3,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            3,
+            0,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            2,
+            4,
+            3,
+            1,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            2,
+            4
+          ],
+          "signed_term": "-655360/217"
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            1,
+            4,
+            2
+          ],
+          "signed_term": "1474560/1519"
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            2,
+            1,
+            4
+          ],
+          "signed_term": "327680/217"
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            2,
+            4,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            4,
+            1,
+            2
+          ],
+          "signed_term": "-327680/1519"
+        },
+        {
+          "permutation": [
+            3,
+            0,
+            4,
+            2,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            0,
+            2,
+            4
+          ],
+          "signed_term": "327680/217"
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            0,
+            4,
+            2
+          ],
+          "signed_term": "-737280/1519"
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            2,
+            0,
+            4
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            2,
+            4,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            4,
+            0,
+            2
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            1,
+            4,
+            2,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            1,
+            4
+          ],
+          "signed_term": "-737280/1519"
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            0,
+            4,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            0,
+            4
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            1,
+            4,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            4,
+            0,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            2,
+            4,
+            1,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            0,
+            1,
+            2
+          ],
+          "signed_term": "1638400/47089"
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            0,
+            2,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            1,
+            0,
+            2
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            1,
+            2,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            2,
+            0,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            3,
+            4,
+            2,
+            1,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            1,
+            2,
+            3
+          ],
+          "signed_term": "9945088/13671"
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            1,
+            3,
+            2
+          ],
+          "signed_term": "-4972544/13671"
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            2,
+            1,
+            3
+          ],
+          "signed_term": "-4972544/13671"
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            2,
+            3,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            3,
+            1,
+            2
+          ],
+          "signed_term": "1243136/10633"
+        },
+        {
+          "permutation": [
+            4,
+            0,
+            3,
+            2,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            0,
+            2,
+            3
+          ],
+          "signed_term": "-4972544/13671"
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            0,
+            3,
+            2
+          ],
+          "signed_term": "2486272/13671"
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            2,
+            0,
+            3
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            2,
+            3,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            3,
+            0,
+            2
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            1,
+            3,
+            2,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            0,
+            1,
+            3
+          ],
+          "signed_term": "1243136/10633"
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            0,
+            3,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            1,
+            0,
+            3
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            1,
+            3,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            3,
+            0,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            2,
+            3,
+            1,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            0,
+            1,
+            2
+          ],
+          "signed_term": "-2486272/95697"
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            0,
+            2,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            1,
+            0,
+            2
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            1,
+            2,
+            0
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            2,
+            0,
+            1
+          ],
+          "signed_term": "0"
+        },
+        {
+          "permutation": [
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "signed_term": "0"
+        }
+      ]
+    }
+  ],
+  "rank5": {
+    "rank": 5,
+    "matrix": [
+      [
+        "8",
+        "72/7",
+        "64/7",
+        "1280/217",
+        "38848/13671"
+      ],
+      [
+        "4",
+        "8",
+        "72/7",
+        "64/7",
+        "1280/217"
+      ],
+      [
+        "1",
+        "4",
+        "8",
+        "72/7",
+        "64/7"
+      ],
+      [
+        "0",
+        "1",
+        "4",
+        "8",
+        "72/7"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "4",
+        "8"
+      ]
+    ],
+    "direct_determinant": "-1409024/2966607",
+    "rectangular_expression": "-1409024/2966607",
+    "methods_agree": true,
+    "negative": true
+  },
+  "required_lower_bound": "0",
+  "checks": {
+    "reciprocity_degrees_0_through_6": true,
+    "all_five_direct_and_rectangular_values_agree": true,
+    "ranks_1_through_4_strictly_positive": true,
+    "rank_5_exact_value": true,
+    "rank_5_below_required_zero_bound": true
+  },
+  "failures": []
+}

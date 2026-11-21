@@ -1,0 +1,39 @@
+{
+  "target": "Certify the Hermite-matrix inertia of Kuznetsov's Jensen-weighted tilted-Xi Pollaczek truncation at degree 24, testing whether its negative index is at most one.",
+  "assessment": "drafts/literature/2026-11-20-tilted-pollaczek-degree24-inertia-2000.md",
+  "method": "Kuznetsov2008 (2)/(4)/(13); Newton sums; Arb leading determinants; Coste p19 Jacobi",
+  "implementation_sha256": "1d57b9a3d3a3600abb33f51a2bb9e0e9f657f7a5532bcd0ec199f51d82cf467c",
+  "python": "3.13.18 (main, Oct 25 2026, 18:31:23) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "executable": "/opt/homebrew/opt/python@3.13/bin/python3.13",
+  "platform": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "precision_ladder_bits": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "required": {
+    "degree": 24,
+    "coefficients": 25,
+    "newton_sums": 47,
+    "nonzero_leading_determinants": 24,
+    "maximum_negative_index": 1
+  },
+  "runs": [],
+  "failures": [
+    {
+      "stage": "import",
+      "error": "No module named 'flint'"
+    }
+  ],
+  "actual": {
+    "evaluated_coefficients": 0,
+    "evaluated_determinants": 0
+  },
+  "conclusion": {
+    "degree": null,
+    "inertia_positive_negative_null": null,
+    "one_pair_test": "UNRESOLVED"
+  },
+  "status": "RUNTIME_BLOCKED"
+}

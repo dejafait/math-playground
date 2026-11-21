@@ -1,0 +1,275 @@
+{
+  "purpose": "Exact finite arithmetic only. Uniform calculus, zero-count imports, endpoint and node arguments are in lemmas/C030i-actual-zero-separated-nodes-and-count-audited.md.",
+  "log_lower_terms": [
+    {
+      "numerator": 18,
+      "denominator": 11
+    },
+    {
+      "numerator": 486,
+      "denominator": 1331
+    },
+    {
+      "numerator": 118098,
+      "denominator": 805255
+    },
+    {
+      "numerator": 9565938,
+      "denominator": 136410197
+    },
+    {
+      "numerator": 86093442,
+      "denominator": 2357947691
+    },
+    {
+      "numerator": 62762119218,
+      "denominator": 3138428376721
+    },
+    {
+      "numerator": 5083731656658,
+      "denominator": 448795257871103
+    },
+    {
+      "numerator": 137260754729766,
+      "denominator": 20886240847078255
+    },
+    {
+      "numerator": 33354363399333138,
+      "denominator": 8592599484487994107
+    },
+    {
+      "numerator": 2701703435345984178,
+      "denominator": 1162022718519876379529
+    },
+    {
+      "numerator": 72945992754341572806,
+      "denominator": 51801749609807120708477
+    },
+    {
+      "numerator": 17725876239305002191858,
+      "denominator": 20594895594870459561670213
+    },
+    {
+      "numerator": 1435795975383705177540498,
+      "denominator": 2708676485847093051045756275
+    },
+    {
+      "numerator": 4307387926151115532621494,
+      "denominator": 13109994191499930367061460371
+    },
+    {
+      "numerator": 9420257394492489669843207378,
+      "denominator": 46002969617973255658018664441839
+    },
+    {
+      "numerator": 763040848953891663257299797618,
+      "denominator": 5950246173690264895628552080046141
+    },
+    {
+      "numerator": 20602102921755074907947094535686,
+      "denominator": 255476698618765889551019445759400441
+    },
+    {
+      "numerator": 5006311009986483202631143972171698,
+      "denominator": 98358528968224867477142486617369169785
+    },
+    {
+      "numerator": 405511191808905139413122661745907538,
+      "denominator": 12581460976878363762719054645313193517927
+    },
+    {
+      "numerator": 10948802178840438764154311867139503526,
+      "denominator": 534882111260261248615056025866963605505383
+    }
+  ],
+  "exp_lower_terms": [
+    {
+      "numerator": 1,
+      "denominator": 1
+    },
+    {
+      "numerator": 46,
+      "denominator": 25
+    },
+    {
+      "numerator": 1058,
+      "denominator": 625
+    },
+    {
+      "numerator": 48668,
+      "denominator": 46875
+    },
+    {
+      "numerator": 559682,
+      "denominator": 1171875
+    },
+    {
+      "numerator": 25745372,
+      "denominator": 146484375
+    },
+    {
+      "numerator": 592143556,
+      "denominator": 10986328125
+    },
+    {
+      "numerator": 27238603576,
+      "denominator": 1922607421875
+    },
+    {
+      "numerator": 156621970562,
+      "denominator": 48065185546875
+    }
+  ],
+  "alpha": {
+    "numerator": 646,
+    "denominator": 3125
+  },
+  "checks": [
+    {
+      "name": "positive finite lower sum for log(10)",
+      "actual": {
+        "numerator": 53259458597449170162485203328822443131542187348229056,
+        "denominator": 23130653150680104641730842360580784493683965564304675
+      },
+      "required_strict_lower_bound": {
+        "numerator": 23,
+        "denominator": 10
+      },
+      "difference": {
+        "numerator": 117912701769858973008531798973277592138133100656607,
+        "denominator": 46261306301360209283461684721161568987367931128609350
+      },
+      "passed": true
+    },
+    {
+      "name": "positive finite lower sum for exp(46/25)",
+      "actual": {
+        "numerator": 302605206320587,
+        "denominator": 48065185546875
+      },
+      "required_strict_lower_bound": {
+        "numerator": 44,
+        "denominator": 7
+      },
+      "difference": {
+        "numerator": 481182883087,
+        "denominator": 48065185546875
+      },
+      "passed": true
+    },
+    {
+      "name": "25/pi lower bound from pi<22/7",
+      "actual": {
+        "numerator": 175,
+        "denominator": 22
+      },
+      "required_strict_lower_bound": {
+        "numerator": 159,
+        "denominator": 20
+      },
+      "difference": {
+        "numerator": 1,
+        "denominator": 220
+      },
+      "passed": true
+    },
+    {
+      "name": "e lower sum implies e>5/2",
+      "actual": {
+        "numerator": 8,
+        "denominator": 3
+      },
+      "required_strict_lower_bound": {
+        "numerator": 5,
+        "denominator": 2
+      },
+      "difference": {
+        "numerator": 1,
+        "denominator": 6
+      },
+      "passed": true
+    },
+    {
+      "name": "HSW uniform interval increment lower bound",
+      "actual": {
+        "numerator": 137307,
+        "denominator": 125000
+      },
+      "required_strict_lower_bound": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "difference": {
+        "numerator": 12307,
+        "denominator": 125000
+      },
+      "passed": true
+    },
+    {
+      "name": "printed quadratic envelope minus HSW envelope at 1000",
+      "actual": {
+        "numerator": 423991,
+        "denominator": 2000
+      },
+      "required_strict_lower_bound": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "difference": {
+        "numerator": 423991,
+        "denominator": 2000
+      },
+      "passed": true
+    },
+    {
+      "name": "r^2 minus printed envelope at 1000",
+      "actual": {
+        "numerator": 2498249611,
+        "denominator": 3000
+      },
+      "required_strict_lower_bound": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "difference": {
+        "numerator": 2498249611,
+        "denominator": 3000
+      },
+      "passed": true
+    },
+    {
+      "name": "derivative of last difference at 1000",
+      "actual": {
+        "numerator": 249913,
+        "denominator": 150
+      },
+      "required_strict_lower_bound": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "difference": {
+        "numerator": 249913,
+        "denominator": 150
+      },
+      "passed": true
+    },
+    {
+      "name": "Rosser-source increment at log(r)>4",
+      "actual": {
+        "numerator": 27,
+        "denominator": 5
+      },
+      "required_strict_lower_bound": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "difference": {
+        "numerator": 22,
+        "denominator": 5
+      },
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

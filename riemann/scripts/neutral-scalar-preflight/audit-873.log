@@ -1,0 +1,12 @@
+/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/neutral-scalar-preflight/instrumented-873.cpp:181:72: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+  181 |  }catch(const exception&e){cerr<<"FAILURE: "<<e.what()<<"\n";return 1;}}
+      |                                                                        ^
+1 warning generated.
+In file included from /Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/corrected-ims/constants-315.cpp:3:
+/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/corrected-ims/certificate-315.cpp:166:72: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+  166 |  }catch(const exception&e){cerr<<"FAILURE: "<<e.what()<<"\n";return 1;}}
+      |                                                                        ^
+1 warning generated.
+PASS 37 checks; actual rational upper -641/500 required < -32/25
+Failures: [] ; full evidence: scripts/neutral-scalar-preflight/audit-873.json
+Implementation domains: scripts/neutral-scalar-preflight/domains-873.json

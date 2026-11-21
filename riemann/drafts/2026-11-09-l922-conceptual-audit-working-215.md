@@ -1,0 +1,13 @@
+# L922 conceptual audit, step215
+
+Approved target: Audit L922's order-eighteen full-moment tails, degree-two shared-parameter reciprocal and determinant inclusion, and fixed-budget stop, without refinement.
+
+Prior SPECIALIZE coverage: `literature/2026-11-09-l922-shared-taylor-conceptual-audit.md`, supplied at startup. This is RESEARCH / proof_audit / conceptual_audit / REPRODUCTION. Main gap: L030-L032/C032a actual-Xi all-degree mixed positivity. The intermediate target is validity of the existing enclosure, useful for retaining reliable local bounds and an honest stop. Accept only if the analytic and implemented inclusions pass; otherwise correct or narrow the claim. Zero containment cannot authorize refinement.
+
+Inputs inspected: L019/L036/L037/L058, L874's definitions, L917's hypotheses and finite-log identities, full L922, corrected step213 producer and checker, and the actual shared interval/jet routines. Step213 failure and first-pass invalid evidence remain preserved. No cross-notebook input or new source search.
+
+Pre-replay reasoning: for k<=18, u^k<=exp(18u); the tilted positive-kernel bound transforms into 128 X^(41/4) exp(-119 X/40), enlarged to power11. The omitted theta terms use the separate n-dependent tilt bound and positive double counting. Full-moment Taylor seeds require derivatives through k+6, hence18; positivity puts their maxima at the right endpoint. Products retain degree<=2 and explicitly enclose degrees3/4 and all remainder interactions. The finite reciprocal identity requires positive a0 and full f, not geometric-series convergence. Exact interval coefficient choices can be fixed for each represented polynomial, so lost correlation widens rather than invalidates inclusion.
+
+Remaining audit work: complete fresh replay to a separate artifact, provenance and arithmetic-context checks, exact outward threshold and final-expression checks, then canonical audit documentation. No producer budget or historical evidence will be changed. Decimal correctness is still an explicit assumption; no sign/global conclusion follows.
+
+Completed: canonical L922 now contains the independent conceptual audit. All 41 provenance/inclusion/threshold/context checks passed, with a complete fresh replay equal to the previous evidence, including full rational values. Artifacts: `scripts/heat/h2-shared-taylor-audit-215.json` and `scripts/heat/h2-shared-taylor-audit-replay-215.json`. No mathematical correction or refinement was needed. Only even moments were computed, now explicit in the conclusion. The local enclosure is accepted conditionally; the determinant and constant coefficient still contain zero. The proof and limitations are in L922 rather than duplicated here.

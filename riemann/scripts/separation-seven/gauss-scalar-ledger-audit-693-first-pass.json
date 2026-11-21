@@ -1,0 +1,154 @@
+{
+  "result": "FAIL",
+  "checks_by_name": {
+    "all saved counter checks": 1,
+    "both branch costs equal": 1,
+    "complete selected-path operation inventory": 1,
+    "constructor source hash": 1,
+    "conversion loop signature": 1,
+    "ledger source hash": 1,
+    "ledger trace hash": 1,
+    "named augmented assignment": 3,
+    "recognized augmented arithmetic": 3,
+    "recognized endpoint branch": 1,
+    "recognized loop guard": 3,
+    "recognized successful-path statement": 4,
+    "replay source hash": 1,
+    "replay trace hash": 1,
+    "saved full replay check count": 1,
+    "saved full replay passed": 1,
+    "scheduled charge is12": 1,
+    "single endpoint copy per branch": 1
+  },
+  "failures": [
+    "complete selected-path operation inventory"
+  ],
+  "source_fragments": [
+    {
+      "name": "width test",
+      "line": 133,
+      "source": "h > target_width",
+      "counts": {
+        "comparisons": 1
+      }
+    },
+    {
+      "name": "failure-context depth test",
+      "line": 138,
+      "source": "depth >= BITS",
+      "counts": {
+        "comparisons": 1
+      }
+    },
+    {
+      "name": "binary conversion grid not exhausted",
+      "line": 146,
+      "source": "depth < BITS",
+      "counts": {
+        "comparisons": 1
+      }
+    },
+    {
+      "name": "mid = (ll + uu) // 2",
+      "line": 147,
+      "source": "mid = (ll+uu)//2",
+      "counts": {
+        "assignments": 1,
+        "arithmetic": 2
+      }
+    },
+    {
+      "name": "conversion midpoint exact",
+      "line": 148,
+      "source": "(ll+uu) % 2 == 0",
+      "counts": {
+        "comparisons": 1,
+        "uncharged_remainders": 1,
+        "arithmetic": 1
+      }
+    },
+    {
+      "name": "center comparison",
+      "line": 149,
+      "source": "mid <= center",
+      "counts": {
+        "comparisons": 1
+      }
+    },
+    {
+      "name": "endpoint copy",
+      "line": 150,
+      "source": "ll = mid",
+      "counts": {
+        "assignments": 1
+      }
+    },
+    {
+      "name": "conversion width halving exact",
+      "line": 153,
+      "source": "h % 2 == 0",
+      "counts": {
+        "comparisons": 1,
+        "uncharged_remainders": 1
+      }
+    },
+    {
+      "name": "h //= 2",
+      "line": 154,
+      "source": "h //= 2",
+      "counts": {
+        "arithmetic": 1,
+        "assignments": 1
+      }
+    },
+    {
+      "name": "depth += 1",
+      "line": 155,
+      "source": "depth += 1",
+      "counts": {
+        "arithmetic": 1,
+        "assignments": 1
+      }
+    },
+    {
+      "name": "steps += 1",
+      "line": 156,
+      "source": "steps += 1",
+      "counts": {
+        "arithmetic": 1,
+        "assignments": 1
+      }
+    }
+  ],
+  "conversions": [],
+  "conclusion": {
+    "source_pass_subset": {
+      "comparisons": 6,
+      "assignments": 5,
+      "arithmetic": 6,
+      "uncharged_remainders": 2
+    },
+    "scheduled_rate": 12,
+    "selected_source_rate": 17,
+    "total_passes": 71491,
+    "component_scheduled": 857892,
+    "component_selected_source": 1215347,
+    "component_shortfall": 357455,
+    "old_scheduled_total": 4622876,
+    "hybrid_sum_not_a_bound": 4980331,
+    "hybrid_headroom_not_certified": 19669,
+    "required_complete_upper": 5000000,
+    "complete_scalar_upper_established": false,
+    "total_scalar_lower_established": false,
+    "decision": "Stop fixed692 as a paid setup prescription; retain its all261 accuracy result.",
+    "unresolved": "Remainder implementation, complete other-category domination and full scalar transcript.",
+    "qualification": "Source-literal component audit only; two remainders and instrumentation given zero cost. No optimized-program or total-work lower bound. No new Gauss construction."
+  },
+  "input_sha256": {
+    "certified-gauss-adaptive-692.py": "36496452bb0465503aeaa8822be20d7753350c2ad4274172f916e8581dbaf2a1",
+    "certified-gauss-adaptive-692.json": "45dbb1cbdf71a2ce8454b717721211f7255c4c69820c756ce423e07c740b992a",
+    "certified-gauss-adaptive-replay-692.json": "41f58da6ffe157cde9775d69d6910abfee2acc2bd825f6dfac7c1bd18942d70a",
+    "certified-gauss-adaptive-ledger-692.json": "98c5a135334f9d2420da403f8690d91db86d241a352bba4961644efb04d0976e"
+  },
+  "script_sha256": "21636c682abebb62e4dad4e3ff283ce3d1228f10381e71929b340ebd847f5316"
+}

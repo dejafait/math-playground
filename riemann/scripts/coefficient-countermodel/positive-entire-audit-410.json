@@ -1,0 +1,31 @@
+{
+  "lemma": "L772",
+  "source": "scripts/coefficient-countermodel/strong-log-order-five-408.json",
+  "source_sha256": "3fb7a2d0528bca528ff608acc4d0cd8c6b27f20a07896f4a86455eb3c21fcd05",
+  "checks": {
+    "complete_prefix_and_matrix": true,
+    "all_seven_ratios": true,
+    "required_and_actual_bounds": true,
+    "junction": true,
+    "prefix_positive": true,
+    "all_120_terms_and_integer_elimination": true,
+    "stated_determinant_and_sign": true,
+    "scaled_integer_determinant": true,
+    "basis_and_exact_intertwining": true,
+    "block_determinants": true,
+    "block_product_and_signs": true,
+    "reference_determinant": true,
+    "r0_comparison": true,
+    "source_report_has_no_failures": true
+  },
+  "complete_terms_checked": 120,
+  "determinant": "-351560678441474525317585871/10000000000000000000000000000",
+  "required_ratio": "11/4",
+  "minimum_prefix_ratio": "25/9",
+  "junction_ratio": "4",
+  "basis_determinant": -4,
+  "odd_determinant": "63000119999801/100000000000000",
+  "even_determinant": "-5580317600071/100000000000000",
+  "failures": [],
+  "scope": "Complete finite evidence only; universal tail, convergence and theorem application audited in L772 prose."
+}

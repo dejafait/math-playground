@@ -1,0 +1,61 @@
+{
+  "purpose": "Exact rational arithmetic supporting the analytic L951 proof; no sampled phase or transcendental evaluation.",
+  "analytic_obligation": "DLMF1.4.35-37 gives exp(-a)>P7(-a) for a>0 because the eighth-order remainder is positive; uniform phase proof is in L951.",
+  "checks": [
+    {
+      "a": "13/8",
+      "taylor_degree": 7,
+      "terms": [
+        "1",
+        "-13/8",
+        "169/128",
+        "-2197/3072",
+        "28561/98304",
+        "-371293/3932160",
+        "4826809/188743680",
+        "-62748517/10569646080"
+      ],
+      "polynomial_lower": "2070516883/10569646080",
+      "required_lower": "25/128",
+      "gap": "6132883/10569646080",
+      "positive_gap": true
+    },
+    {
+      "a": "2",
+      "taylor_degree": 7,
+      "terms": [
+        "1",
+        "-2",
+        "2",
+        "-4/3",
+        "2/3",
+        "-4/15",
+        "4/45",
+        "-8/315"
+      ],
+      "polynomial_lower": "41/315",
+      "required_lower": "1/8",
+      "gap": "13/2520",
+      "positive_gap": true
+    },
+    {
+      "name": "lower_r_square",
+      "actual": "169/256",
+      "required_upper": "2/3",
+      "passes": true
+    },
+    {
+      "name": "upper_r_negative_case_constant",
+      "actual": "1/128",
+      "required_lower": "1/512",
+      "passes": true
+    },
+    {
+      "name": "nonnegative_case_constant",
+      "actual": "3/100",
+      "required_lower": "1/512",
+      "passes": true
+    }
+  ],
+  "failures": []
+}

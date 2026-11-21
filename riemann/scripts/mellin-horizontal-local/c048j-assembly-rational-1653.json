@@ -1,0 +1,37 @@
+{
+  "scope": "Exact rational arithmetic only; no numerical sampling or analytic verification.",
+  "proof": "lemmas/C048j-mellin-full-relative-remainder-assembly.md, equations (10)-(13)",
+  "budget": {
+    "components": {
+      "local": "659107/500000",
+      "gaussian_pair": "24819/250000",
+      "right": "48257/500000",
+      "near_left": "91191/1000000",
+      "lower_power": "1/864",
+      "higher_modes": "1/10000",
+      "distant_left": "1/10000",
+      "combined_origin": "1/10000"
+    },
+    "total": "8675923/5400000",
+    "required": "17/10",
+    "margin": "504077/5400000"
+  },
+  "scalar": {
+    "endpoint_actual_lower_numerator": 4096,
+    "endpoint_required_numerator": 4032,
+    "higher_mode_rational_cap": "49/2359296",
+    "higher_mode_required": "1/10000",
+    "allocation_cross_product_actual": 1960000,
+    "allocation_cross_product_required": 9437184
+  },
+  "checks": {
+    "radial_endpoint": true,
+    "higher_mode_prefactor": true,
+    "higher_mode_allocation": true,
+    "lower_power_scale": true,
+    "total_identity": true,
+    "total_below_required": true,
+    "margin_identity": true
+  },
+  "failures": []
+}

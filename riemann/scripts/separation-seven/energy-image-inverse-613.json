@@ -1,0 +1,362 @@
+{
+  "scope": "Fixed N512 energy-image inverse Galerkin reference comparison",
+  "source_script_sha256": "6e838701174ccc1b03d19650b3235bff33d695d370be49cda473c69081c230a1",
+  "input_hashes": {
+    "neutral-head-covariance-559.npz": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+    "neutral-head-covariance-559.json": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "fixed-block-metric-audit-557.json": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+    "neutral-head-covariance-audit-561.json": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738"
+  },
+  "arrays_sha256": "1bfcd09f6602c563b2f0d70715709b02159f286b61c47a47886e4794f9e3b287",
+  "exact_values": {
+    "M_fro_squared": "306145749395439862289416813609925524309606510128097045750897/3064991081731777716716694054300618367237478244367204352",
+    "covariance_fro_squared": "11443971208003591629886474150834327428787319761440769457/196159429230833773869868419475239575503198607639501078528",
+    "Zhat_fro_squared": "11646681170323711514243605776964676149130910939431/22835963083295358096932575511191922182123945984",
+    "Ahat_fro_squared": "27971577221806415907379587667516544798549380937167390114760577473592231811856575475163211411/1989292945639146568621528992587283360401824603189390869761855907572637988050133502132224",
+    "Hhat_fro_squared": "4897765558027282261019475580567080706130559766579734684141785/49039857307708443467467104868809893875799651909875269632",
+    "Ghat_fro_squared": "6556692870827434593395452016844135696158441586740590847030871393/12855504354071922204335696738729300820177623950262342682411008",
+    "X_fro_squared": "605247749409223700132195029839681102113807375217607563/23945242826029513411849172299223580994042798784118784",
+    "Y_fro_squared": "199963767172649223553871952584733120330889427212268113669634869136716402679374721441621177/7957171782556586274486115970349133441607298412757563479047423630290551952200534008528896",
+    "Zhat_t_X_fro_squared": "604948418235750751408842837458559530021464284396516487/23945242826029513411849172299223580994042798784118784",
+    "Ghat_Y_fro_squared": "50032229262179497915477457908075022709521229200621943323043929057738054088425014268681989/1989292945639146568621528992587283360401824603189390869761855907572637988050133502132224",
+    "Bhat_fro_squared": "31904676371697555455939826017869961949657013226577/11972621413014756705924586149611790497021399392059392",
+    "trial_fro_squared": "5393436338653589896520046151412437574865245605542300753/11972621413014756705924586149611790497021399392059392",
+    "H solve floating residual_fro_squared": "4493422873938401668564925309375141781391674164723291589655261/7957171782556586274486115970349133441607298412757563479047423630290551952200534008528896",
+    "A solve floating residual_fro_squared": "741991972651379167002113781399190919526156325716734098647621665598763628961945827785885040531/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376",
+    "factor_fro_squared": "1434669409171272901340912354312165857146714499946372657/2993155353253689176481146537402947624255349848014848",
+    "factor floating reconstruction_fro_squared": "56225721306038702334041/11972621413014756705924586149611790497021399392059392",
+    "gamma_1024": "1/8796093022207",
+    "eta_A": "1524721/6250000000",
+    "solve_rounding": "450800655793555192907/79228162514255330394289209344",
+    "gram_error": "5291775051571881381396093022207/87960930222070000000000000000000000000000",
+    "b_assembly_rounding": "3599581167013053175/2475880078570479074821537792",
+    "factor_rounding": "28284936624537584375/2475880078570479074821537792",
+    "trial_rounding": "15625/281474976710656",
+    "X_error_upper": "200000001/23999900000000",
+    "Y_error_upper": "6099159/194750000",
+    "head_matrix_error_upper": "5952684418352310837/186959221000000000000",
+    "finite_slack": "3395052467541710163/186959221000000000000",
+    "moment_tail_squared_upper": "4/400298493",
+    "head_coefficient": "1981/2000",
+    "tail_coefficient": "2003070307/6140000000"
+  },
+  "checks": [
+    {
+      "name": "audit561 failures",
+      "actual": "[]",
+      "relation": "==",
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "audit561 input pin neutral-head-covariance-559.npz",
+      "actual": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+      "relation": "==",
+      "required": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+      "passed": true
+    },
+    {
+      "name": "audit561 input pin neutral-head-covariance-559.json",
+      "actual": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "relation": "==",
+      "required": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "passed": true
+    },
+    {
+      "name": "audit561 input pin complete-covariance-532.npz",
+      "actual": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "relation": "==",
+      "required": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "passed": true
+    },
+    {
+      "name": "audit561 input pin fixed-block-metric-audit-557.json",
+      "actual": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+      "relation": "==",
+      "required": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+      "passed": true
+    },
+    {
+      "name": "audit557 failures",
+      "actual": "[]",
+      "relation": "==",
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "imported complete Z conversion",
+      "actual": "207486510976777517743881327848059496833105697903498624945241227025830897105840344052665048367/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "imported eta_A lo",
+      "actual": "1524721/6250000000",
+      "relation": "==",
+      "required": "1524721/6250000000",
+      "passed": true
+    },
+    {
+      "name": "imported eta_A hi",
+      "actual": "1524721/6250000000",
+      "relation": "==",
+      "required": "1524721/6250000000",
+      "passed": true
+    },
+    {
+      "name": "Z shape",
+      "actual": "(512, 510)",
+      "relation": "==",
+      "required": "(512, 510)",
+      "passed": true
+    },
+    {
+      "name": "A center shape",
+      "actual": "(510, 510)",
+      "relation": "==",
+      "required": "(510, 510)",
+      "passed": true
+    },
+    {
+      "name": "M exact symmetry",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "covariance exact symmetry",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "G center exact symmetry",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "M complete Frobenius bound squared",
+      "actual": "306145749395439862289416813609925524309606510128097045750897/3064991081731777716716694054300618367237478244367204352",
+      "relation": "<",
+      "required": "160000",
+      "passed": true
+    },
+    {
+      "name": "covariance complete Frobenius bound squared",
+      "actual": "11443971208003591629886474150834327428787319761440769457/196159429230833773869868419475239575503198607639501078528",
+      "relation": "<",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "Zhat complete Frobenius bound squared",
+      "actual": "11646681170323711514243605776964676149130910939431/22835963083295358096932575511191922182123945984",
+      "relation": "<",
+      "required": "529",
+      "passed": true
+    },
+    {
+      "name": "Ahat complete Frobenius bound squared",
+      "actual": "27971577221806415907379587667516544798549380937167390114760577473592231811856575475163211411/1989292945639146568621528992587283360401824603189390869761855907572637988050133502132224",
+      "relation": "<",
+      "required": "250000",
+      "passed": true
+    },
+    {
+      "name": "Hhat complete Frobenius bound squared",
+      "actual": "4897765558027282261019475580567080706130559766579734684141785/49039857307708443467467104868809893875799651909875269632",
+      "relation": "<",
+      "required": "250000",
+      "passed": true
+    },
+    {
+      "name": "Ghat complete Frobenius bound squared",
+      "actual": "6556692870827434593395452016844135696158441586740590847030871393/12855504354071922204335696738729300820177623950262342682411008",
+      "relation": "<",
+      "required": "10000",
+      "passed": true
+    },
+    {
+      "name": "X complete Frobenius bound squared",
+      "actual": "605247749409223700132195029839681102113807375217607563/23945242826029513411849172299223580994042798784118784",
+      "relation": "<",
+      "required": "10000",
+      "passed": true
+    },
+    {
+      "name": "Y complete Frobenius bound squared",
+      "actual": "199963767172649223553871952584733120330889427212268113669634869136716402679374721441621177/7957171782556586274486115970349133441607298412757563479047423630290551952200534008528896",
+      "relation": "<",
+      "required": "10000",
+      "passed": true
+    },
+    {
+      "name": "Zhat_t_X complete Frobenius bound squared",
+      "actual": "604948418235750751408842837458559530021464284396516487/23945242826029513411849172299223580994042798784118784",
+      "relation": "<",
+      "required": "5294601",
+      "passed": true
+    },
+    {
+      "name": "Ghat_Y complete Frobenius bound squared",
+      "actual": "50032229262179497915477457908075022709521229200621943323043929057738054088425014268681989/1989292945639146568621528992587283360401824603189390869761855907572637988050133502132224",
+      "relation": "<",
+      "required": "100020001",
+      "passed": true
+    },
+    {
+      "name": "Bhat complete Frobenius bound squared",
+      "actual": "31904676371697555455939826017869961949657013226577/11972621413014756705924586149611790497021399392059392",
+      "relation": "<",
+      "required": "400000000",
+      "passed": true
+    },
+    {
+      "name": "trial complete Frobenius bound squared",
+      "actual": "5393436338653589896520046151412437574865245605542300753/11972621413014756705924586149611790497021399392059392",
+      "relation": "<",
+      "required": "400040001",
+      "passed": true
+    },
+    {
+      "name": "H solve floating residual complete Frobenius bound squared",
+      "actual": "4493422873938401668564925309375141781391674164723291589655261/7957171782556586274486115970349133441607298412757563479047423630290551952200534008528896",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "A solve floating residual complete Frobenius bound squared",
+      "actual": "741991972651379167002113781399190919526156325716734098647621665598763628961945827785885040531/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "factor complete Frobenius bound squared",
+      "actual": "1434669409171272901340912354312165857146714499946372657/2993155353253689176481146537402947624255349848014848",
+      "relation": "<",
+      "required": "90000",
+      "passed": true
+    },
+    {
+      "name": "factor floating reconstruction complete Frobenius bound squared",
+      "actual": "56225721306038702334041/11972621413014756705924586149611790497021399392059392",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "factor proposed",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "rational H assembly budget",
+      "actual": "3125/1125899906842624",
+      "relation": "<",
+      "required": "1/100000000",
+      "passed": true
+    },
+    {
+      "name": "complete solve residual rounding",
+      "actual": "450800655793555192907/79228162514255330394289209344",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "complete solve residual budget",
+      "actual": "654188820876491268151243823/6189700196426197687053844480000000",
+      "relation": "<",
+      "required": "1/1000000",
+      "passed": true
+    },
+    {
+      "name": "complete G conversion budget",
+      "actual": "5291775051571881381396093022207/87960930222070000000000000000000000000000",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "complete B assembly budget",
+      "actual": "3599581167013053175/2475880078570479074821537792",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "complete factor reconstruction budget",
+      "actual": "21552573787623866551340139/193428131138318677720432640000000",
+      "relation": "<",
+      "required": "1/1000000",
+      "passed": true
+    },
+    {
+      "name": "complete trial assembly budget",
+      "actual": "15625/281474976710656",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "finite head certificate slack",
+      "actual": "3395052467541710163/186959221000000000000",
+      "relation": ">",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "reference inverse norm <5",
+      "actual": "1000000/239999",
+      "relation": "<",
+      "required": "5",
+      "passed": true
+    },
+    {
+      "name": "entire moment tail squared",
+      "actual": "4/400298493",
+      "relation": "<",
+      "required": "1/100000000",
+      "passed": true
+    },
+    {
+      "name": "complete tail coefficient",
+      "actual": "2003070307/6140000000",
+      "relation": "<",
+      "required": "1981/2000",
+      "passed": true
+    },
+    {
+      "name": "complete squared norm upper bound",
+      "actual": "1981/2000",
+      "relation": "<",
+      "required": "1",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "passed": true,
+    "head_target": "99/100",
+    "finite_slack": "3395052467541710163/186959221000000000000",
+    "squared_norm_upper": "1981/2000",
+    "required_upper": "1",
+    "norm_upper": "sqrt(1981/2000)"
+  },
+  "qualifications": [
+    "Import C999k/l and audits557/561; no large covariance replay.",
+    "Retain analytic response, IEEE754, directed Decimal, neutral-core and unreplayed c_star contracts.",
+    "Domains, projection identity, full comparison and infinite tail justified in C999t.",
+    "No mixed-block sign, Xi positivity, H2 or novelty claim."
+  ]
+}

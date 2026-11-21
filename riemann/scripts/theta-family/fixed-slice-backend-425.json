@@ -1,0 +1,44 @@
+{
+  "step_id": "2026-11-11-fixed-slice-backend-attempt-425",
+  "purpose": "Backend prerequisite for the approved fixed-w=3/2 Krawczyk calculation; this is an execution record, not a mathematical certificate.",
+  "assessment": "drafts/literature/2026-11-11-two-variable-fixed-slice-krawczyk-test-423.md",
+  "probes": [
+    {
+      "executable": "/opt/homebrew/opt/python@3.15/bin/python3.15",
+      "version": "3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)]",
+      "find_spec_flint": null
+    },
+    {
+      "executable": "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "version": "3.13.18 (main, Oct 25 2026, 18:31:23) [Clang 21.0.0 (clang-2100.3.34.2)]",
+      "find_spec_flint": null
+    }
+  ],
+  "install_attempts": [
+    {
+      "command": "python3 -m venv /private/tmp/riemann-fixed-slice-425-venv && /private/tmp/riemann-fixed-slice-425-venv/bin/python -m pip install --disable-pip-version-check --retries 0 --timeout 15 python-flint",
+      "exit_code": 1,
+      "output": "WARNING: The directory '/Users/vermeer/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\nERROR: Could not find a version that satisfies the requirement python-flint (from versions: none)\nERROR: No matching distribution found for python-flint\n"
+    },
+    {
+      "command": "/opt/homebrew/bin/python3.13 -m venv /private/tmp/riemann-fixed-slice-425-py313 && /private/tmp/riemann-fixed-slice-425-py313/bin/python -m pip install --disable-pip-version-check --no-cache-dir --retries 0 --timeout 15 --index-url https://pypi.org/simple python-flint",
+      "exit_code": 1,
+      "output": "ERROR: Could not find a version that satisfies the requirement python-flint (from versions: none)\nERROR: No matching distribution found for python-flint\n"
+    }
+  ],
+  "backend_requirement": "An accessible rigorous ball-arithmetic backend before any locator or enclosure calculation.",
+  "backend_requirement_met": false,
+  "cause_qualification": "The observed installers found no matching distribution. These logs do not distinguish interpreter/platform, index configuration and network causes, and do not establish global package unavailability.",
+  "locator_seeds_used": 0,
+  "locator_iterations_used": 0,
+  "certified_candidates": 0,
+  "enclosure_refinements_used": 0,
+  "krawczyk_test_performed": false,
+  "required_inclusion": "Strict inclusion in the interior of X, including complete integral, theta-tail and rounding errors.",
+  "actual_inclusion": null,
+  "required_geometric_margins": "All four strictly positive: Im lower/upper, off-center distance, outer real-distance boundary.",
+  "actual_geometric_margins": null,
+  "certificate_issued": false,
+  "mathematical_conclusion": "Inconclusive; no zero existence, exclusion, simplicity, branch-connectivity or w=1 transfer conclusion.",
+  "stop": "Backend prerequisite unavailable in these bounded attempts; stop before numerical substitution. Reopening needs a demonstrably accessible rigorous backend or a materially different independently assessed evaluator."
+}

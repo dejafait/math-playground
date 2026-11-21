@@ -1,0 +1,188 @@
+{
+  "status": "PASS_FIXED_INSTANCE_APPLICATION_AUDIT",
+  "failures": [],
+  "checks": {
+    "trace_hash": 1,
+    "prior_check_input_hash": 1,
+    "evaluator_source_hash": 1,
+    "all_P12_coefficients": 1,
+    "all_scan_values_seed_signs": 1,
+    "all_refinement_nonzero_midpoints": 960,
+    "all_root_brackets_and_midpoints": 1,
+    "complete_root_isolation_hypotheses": 1,
+    "root_separations": 1,
+    "every_cardinal_divisor_factor_nonzero": 132,
+    "all_cardinal_integral_weights": 1,
+    "truncation_rational_inequality": 1,
+    "Gaussian_import_inequality": 1,
+    "all_Taylor_coefficients": 1,
+    "trace_not_prematurely_exhausted": 29598,
+    "intended_trace_event_order": 29598,
+    "conversion_range": 19755,
+    "conversion_input_and_order": 19755,
+    "all_conversion_branch_decisions": 19755,
+    "conversion_endpoints_and_closed_containment": 19755,
+    "conversion_equality_convention": 19755,
+    "conversion_charge": 19755,
+    "retained_grid": 39515,
+    "complete_q_bisection_and_error_contract": 1,
+    "input_list_complete": 1,
+    "exact_input_ranges_clamp_branches": 48,
+    "complete_interval_operand_output_association": 9795,
+    "interval_charge_and_conversion_association": 9795,
+    "interval_divisor_exclusion": 144,
+    "Gaussian_clamp_count_branch": 48,
+    "Gaussian_clamp_trace": 48,
+    "Gaussian_input_original_contract": 48,
+    "all_saved_input_data": 48,
+    "maximum_Gaussian_error": 1,
+    "complete_width_contributions": 2,
+    "complete_width_row": 96,
+    "complete_width_sum": 2,
+    "approximate_difference": 1,
+    "all_R_based_enlargement_terms": 1,
+    "final_exact_enclosure_radius_center": 1,
+    "entire_trace_consumed": 1,
+    "every_interval_divisor_in_order": 1,
+    "minimum_positive_core_divisor": 1,
+    "independent_untraced_count": 8,
+    "complete_phase_primitive_ledger": 8,
+    "complete_local_count": 1,
+    "complete_event_and_retention_counts": 1,
+    "retained_bit_maxima": 1
+  },
+  "scope": "C034a fixed W=2/W=1 only; independent finite audit; no all-width or global-cap claim",
+  "final_enclosure": [
+    "-6062525147311844448914997086481546586058144467929674660064502160252413785037/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+    "-1515630428032867955422916586181970833453526339909133156235121910391912849433/28948022309329048855892746252171976963317496166410141009864396001978282409984"
+  ],
+  "radius": "3435180372627223330741753663252244039108293142035124014518684762387305/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+  "required_radius": "1/16777216",
+  "minimum_core_divisor": "115792909457653099564482533485532314586713404798486833123099867695689966258387/57896044618658097711785492504343953926634992332820282019728792003956564819968",
+  "maximum_Gaussian_input_error": "6790205595584208656094195567624593749976914141702956564281021702929/4697282986314237820370001179519685470715495174823134295720013420942417424651542097371600410793899821367296000000000",
+  "grid_denominator_exponent": 256,
+  "events_checked": {
+    "round": 19755,
+    "interval": 9795,
+    "clamp": 48
+  },
+  "untraced_counts_independently_derived": {
+    "constants": {
+      "+": 255,
+      "/": 484,
+      "comparison": 484,
+      "-": 1
+    },
+    "reference_construction": {
+      "*": 14440,
+      "-": 1024,
+      "/": 1273,
+      "comparison": 3327,
+      "+": 14184
+    },
+    "coefficients": {
+      "*": 73,
+      "/": 67,
+      "comparison": 67,
+      "-": 1
+    },
+    "q_construction": {
+      "+": 65,
+      "/": 65,
+      "*": 128,
+      "comparison": 131
+    },
+    "input_gaussians": {
+      "+": 192,
+      "-": 48,
+      "*": 48,
+      "/": 98,
+      "comparison": 482
+    },
+    "core_W1": {},
+    "core_W2": {},
+    "final_error": {
+      "-": 3,
+      "+": 5,
+      "*": 43,
+      "/": 32,
+      "comparison": 33
+    }
+  },
+  "all_phase_counts": {
+    "constants": {
+      "+": 255,
+      "/": 484,
+      "comparison": 484,
+      "-": 1
+    },
+    "reference_construction": {
+      "*": 14440,
+      "-": 1024,
+      "/": 1273,
+      "comparison": 3327,
+      "+": 14184
+    },
+    "coefficients": {
+      "+": 17621,
+      "/": 17688,
+      "comparison": 35443,
+      "*": 73,
+      "-": 1
+    },
+    "q_construction": {
+      "+": 65,
+      "/": 65,
+      "*": 128,
+      "comparison": 131
+    },
+    "input_gaussians": {
+      "+": 2200608,
+      "/": 2196866,
+      "comparison": 4423874,
+      "*": 8688,
+      "-": 48
+    },
+    "core_W1": {
+      "+": 1492654,
+      "/": 1490350,
+      "comparison": 3001158,
+      "*": 5956,
+      "-": 96
+    },
+    "core_W2": {
+      "+": 1492654,
+      "/": 1490350,
+      "comparison": 3001158,
+      "*": 5956,
+      "-": 96
+    },
+    "final_error": {
+      "+": 1057,
+      "/": 1084,
+      "comparison": 2145,
+      "-": 5,
+      "*": 43
+    }
+  },
+  "local_operations": 20921533,
+  "legacy_global_cap": 1000000,
+  "global_cap_claimed": false,
+  "analytic_proof_location": "lemmas/C034a-fixed-width-dyadic-interval-core.md, audit1837",
+  "not_certified": [
+    "all widths",
+    "runtime",
+    "temporary bit maxima",
+    "full scalar",
+    "actual-Xi positivity",
+    "source-wide correctness",
+    "finite-zero inputs",
+    "matching Mathlib theorem"
+  ],
+  "total_checks": 238447,
+  "source_hashes": {
+    "fixed_width_interval_core_1835.json": "a4cea80dd609a40b1f90e35a75f347036b3b4e2efbb6c6e63f0bc7fc932fe58e",
+    "fixed_width_interval_core_trace_1835.jsonl.gz": "f70b2fc1c1073b00d6b40d2bda7149e6ed2dd356be085addc809316f213f713d",
+    "fixed_width_interval_core_check_1835.json": "c4db6b822da9956e8178be93ff03153279ba45bead05f835cd65a15cad5a81f3"
+  }
+}

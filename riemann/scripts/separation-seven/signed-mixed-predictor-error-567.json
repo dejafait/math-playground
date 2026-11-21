@@ -1,0 +1,182 @@
+{
+  "scope": "Exact Y versus dyadic Yhat with the SAME exact neutral Z; all input n>=512; complete and K-output-truncated mixed maps",
+  "certified_under_inherited_contracts": true,
+  "parameters": {
+    "N": 512,
+    "K": 65536,
+    "reference_d0": "6.14",
+    "fraction": "1/2",
+    "penalty": 256
+  },
+  "input_hashes": {
+    "neutral-head-covariance-559.npz": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+    "neutral-head-covariance-559.json": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "complete-schur-531.py": "0ca836a6b0a4c9511e1495420b060496718acc083579a7f306e630fd951a83fc",
+    "fixed-block-metric-audit-557.json": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f"
+  },
+  "inherited_audit_sha256": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+  "head_solve": {
+    "observed_residual_fro": 1.3612137930690681e-16,
+    "magnitudes": {
+      "reference_fro": 316.02715211179213,
+      "reference_difference_fro": 0.09014061972163435,
+      "basis_fro": 22.58350922026359,
+      "proposed_defect_fro": 0.017309410429111983,
+      "maximum_entry": 292.8086722437859
+    },
+    "exact_equation_error_upper": "1e-7",
+    "arithmetic_allowance": {
+      "lo": "1.0006812115316280781397680648474624304219213314423591148923702255876588356444671E-8",
+      "hi": "1.0006812115316280781397680648474624304219213314423591148923702255876588356444672E-8"
+    },
+    "exact_dyadic_defect_fro_upper": ".0174"
+  },
+  "covariance_upper": {
+    "bound": ".172",
+    "observed_reconstruction_fro": 4.776067505132296e-16,
+    "factor_squared_fro": 87.72079318455268,
+    "maximum_entry": 0.4141369453713624,
+    "exact_reconstruction_error": {
+      "lo": "3.2273736754432837582670443416096229712688022170758060388418643483507462097687381E-7",
+      "hi": "3.2273736754432837582670443416096229712688022170758060388418643483507462097687383E-7"
+    },
+    "restored_margin": "1e-6"
+  },
+  "bounds": {
+    "exact_head_defect_error": {
+      "lo": "0.0010084635936399734998895828732619719248830203459181079921166338193075804482518677",
+      "hi": "0.0010084635936399734998895828732619719248830203459181079921166338193075804482518678"
+    },
+    "exact_head_defect": {
+      "lo": "0.018408463593639973499889582873261971924883020345918107992116633819307580448251867",
+      "hi": "0.018408463593639973499889582873261971924883020345918107992116633819307580448251868"
+    },
+    "full_complement_defect": {
+      "lo": "0.13798043387991074547165376780810042535457215045833138204248427326475310778989568",
+      "hi": "0.13798043387991074547165376780810042535457215045833138204248427326475310778989571"
+    },
+    "full_defect": {
+      "lo": "0.13920298727242454341330604592839974734825649708624986507445097657470739688975589",
+      "hi": "0.13920298727242454341330604592839974734825649708624986507445097657470739688975595"
+    },
+    "neutral_coordinate_norm": {
+      "lo": "0.40356715815196197710107270232159364774101755163188058845288241530863056109689271",
+      "hi": "0.40356715815196197710107270232159364774101755163188058845288241530863056109689276"
+    },
+    "exact_predictor_error": "0.000612",
+    "normalized_mixed_predictor_error": {
+      "lo": "0.0072455099110361837185835519620141698086530663630570082733573088156084917591464051",
+      "hi": "0.0072455099110361837185835519620141698086530663630570082733573088156084917591464116"
+    },
+    "reported_upper": ".008",
+    "intermediate_required_upper": ".01",
+    "full_mixed_required_upper": ".5"
+  },
+  "checks": [
+    {
+      "label": "unchanged audited input neutral-head-covariance-559.npz",
+      "passed": true
+    },
+    {
+      "label": "unchanged audited input neutral-head-covariance-559.json",
+      "passed": true
+    },
+    {
+      "label": "unchanged audited input complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "label": "unchanged audited input complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "label": "unchanged audited input fixed-block-metric-audit-557.json",
+      "passed": true
+    },
+    {
+      "label": "complete inherited check list 559",
+      "passed": true
+    },
+    {
+      "label": "complete inherited check list 561",
+      "passed": true
+    },
+    {
+      "label": "complete inherited check list 557",
+      "passed": true
+    },
+    {
+      "label": "fixed head and cutoff unchanged",
+      "passed": true
+    },
+    {
+      "label": "audited exact free predictor error below .000612",
+      "passed": true
+    },
+    {
+      "label": "audited exact neutral basis conversion below 1e-14",
+      "passed": true
+    },
+    {
+      "label": "all complete finite arrays have the specified dimensions",
+      "passed": true
+    },
+    {
+      "label": "exact saved covariance symmetry",
+      "passed": true
+    },
+    {
+      "label": "full head solve magnitude ledger",
+      "passed": true
+    },
+    {
+      "label": "full proposed head-defect equation residual below 1e-9",
+      "passed": true
+    },
+    {
+      "label": "full proposed head-defect Frobenius norm below .01732",
+      "passed": true
+    },
+    {
+      "label": "complete covariance upper-factor reconstruction and magnitude ledger",
+      "passed": true
+    },
+    {
+      "label": "restored factor margin pays all reconstruction errors",
+      "passed": true
+    },
+    {
+      "label": "head-defect equation arithmetic fits 1e-7",
+      "passed": true
+    },
+    {
+      "label": "norm evaluation allowance proves exact dyadic Frobenius bound .0174",
+      "passed": true
+    },
+    {
+      "label": "exact head defect below .019",
+      "passed": true
+    },
+    {
+      "label": "complete mixed-map predictor error below .008",
+      "passed": true
+    },
+    {
+      "label": "intermediate useful-error threshold .01 met",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "full_quarter_test_decided": false,
+  "qualifications": [
+    "Exact predictor retained; Yhat is only a numerical proxy",
+    "No error contract for the saved FFT locator is supplied",
+    "Complete remaining input tail and finite signed arithmetic remain unpaid",
+    "New specialization unaudited; retain whole-core, c_* and IEEE754/Decimal qualifications",
+    "No complementary coercivity or RH conclusion"
+  ],
+  "archive": "scripts/separation-seven/signed-mixed-predictor-error-567.npz",
+  "archive_sha256": "3a17df54748e6c2b1b1d706637d4542288a73b5e154ee7dcec3c379570d745fa",
+  "script_sha256": "83ac505dac0b088c1e76c36a375b1672ac53ecce9ee03d609df89d5bd17495c9"
+}

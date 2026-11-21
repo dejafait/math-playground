@@ -1,0 +1,5 @@
+# Direct-source repair — 19 November 2026
+
+Repaired the missing direct-source URLs in [the unchanged unified-adapter assessment](../drafts/literature/2026-11-19-gmp-unified-adapter-review-1819.md), opening the eight official GMP 6.3.0 manual pages and recording API hypotheses and specialization limits. Reused the 1816 API review and 1819 integration failure evidence; no new mathematical result, implementation, scalar execution or certificate was obtained. Outcome STALLED is an honest process repair, not an advance or new negative result.
+
+The SPECIALIZE decision and exact target are unchanged: build the isolated unified backend and validate serializer round trips plus one unchanged slice against Fraction. The source gate is repaired; implementation remains unpaid. Full continuation, eight assertions and operation cap remain later work. No PROOF or DAG change was warranted. A central creative target remains unjustified without an independently justified signed-height input or actual-Xi representation; the current test must not be relabeled creative. All earlier unfinished work is preserved.

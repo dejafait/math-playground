@@ -1,0 +1,322 @@
+{
+  "step": "2134",
+  "scope": "C874c degree-seven audit only; S_8 unprescribed",
+  "methods": "partition coefficients; finite log powers; fraction-free integer Bareiss",
+  "original_sha256": "480cbea51fbf784020c7969a47c829b8821a160b7ca6724d713d0215c697ab1d",
+  "cases": [
+    {
+      "name": "rank_one",
+      "S_1_through_S_7": [
+        "16",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "coefficients": [
+        "1",
+        "-16",
+        "127",
+        "-2002/3",
+        "7840/3",
+        "-122108/15",
+        "945994/45",
+        "-2084068/45"
+      ],
+      "logarithm_coefficients": [
+        "0",
+        "-16",
+        "-1",
+        "-2/3",
+        "-1/2",
+        "-2/5",
+        "-1/3",
+        "-2/7"
+      ],
+      "recovered_prefix": [
+        "16",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "moments": [
+        1,
+        32,
+        3048,
+        480480,
+        105369600,
+        29540367360,
+        10069614213120,
+        4037455266324480
+      ],
+      "comparisons": {
+        "S_1_through_S_7": true,
+        "coefficients_a_0_through_a_7": true,
+        "factor_product_coefficients": true,
+        "moments_m_0_through_m_7": true,
+        "recovered_S_1_through_S_7": true,
+        "formal_log_prefix": true,
+        "normalization": true,
+        "printed_moments": true
+      },
+      "matrices": {
+        "A_3": {
+          "matrix": [
+            [
+              1,
+              32,
+              3048,
+              480480
+            ],
+            [
+              32,
+              3048,
+              480480,
+              105369600
+            ],
+            [
+              3048,
+              480480,
+              105369600,
+              29540367360
+            ],
+            [
+              480480,
+              105369600,
+              29540367360,
+              10069614213120
+            ]
+          ],
+          "leading_minors": [
+            1,
+            2024,
+            47818387968,
+            32047441048690659164160
+          ],
+          "required_each_minor": ">0",
+          "strict_sign_checks": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "original_matrix_matches": true,
+          "original_minors_match": true,
+          "canonical_table_matches": true,
+          "symmetric": true
+        },
+        "B_3": {
+          "matrix": [
+            [
+              32,
+              3048,
+              480480,
+              105369600
+            ],
+            [
+              3048,
+              480480,
+              105369600,
+              29540367360
+            ],
+            [
+              480480,
+              105369600,
+              29540367360,
+              10069614213120
+            ],
+            [
+              105369600,
+              29540367360,
+              10069614213120,
+              4037455266324480
+            ]
+          ],
+          "leading_minors": [
+            32,
+            6085056,
+            22170797473628160,
+            3171834202320787053983721062400
+          ],
+          "required_each_minor": ">0",
+          "strict_sign_checks": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "original_matrix_matches": true,
+          "original_minors_match": true,
+          "canonical_table_matches": true,
+          "symmetric": true
+        }
+      }
+    },
+    {
+      "name": "rank_two",
+      "S_1_through_S_7": [
+        "16",
+        "3",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "coefficients": [
+        "1",
+        "-16",
+        "253/2",
+        "-1978/3",
+        "61199/24",
+        "-117133/15",
+        "14206519/720",
+        "-7618579/180"
+      ],
+      "logarithm_coefficients": [
+        "0",
+        "-16",
+        "-3/2",
+        "-2/3",
+        "-1/2",
+        "-2/5",
+        "-1/3",
+        "-2/7"
+      ],
+      "recovered_prefix": [
+        "16",
+        "3",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "moments": [
+        1,
+        32,
+        3036,
+        474720,
+        102814320,
+        28336815360,
+        9451312960320,
+        3689859436623360
+      ],
+      "comparisons": {
+        "S_1_through_S_7": true,
+        "coefficients_a_0_through_a_7": true,
+        "factor_product_coefficients": true,
+        "moments_m_0_through_m_7": true,
+        "recovered_S_1_through_S_7": true,
+        "formal_log_prefix": true,
+        "normalization": true,
+        "printed_moments": true
+      },
+      "matrices": {
+        "A_3": {
+          "matrix": [
+            [
+              1,
+              32,
+              3036,
+              474720
+            ],
+            [
+              32,
+              3036,
+              474720,
+              102814320
+            ],
+            [
+              3036,
+              474720,
+              102814320,
+              28336815360
+            ],
+            [
+              474720,
+              102814320,
+              28336815360,
+              9451312960320
+            ]
+          ],
+          "leading_minors": [
+            1,
+            2012,
+            45759617664,
+            27742027033267458785280
+          ],
+          "required_each_minor": ">0",
+          "strict_sign_checks": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "original_matrix_matches": true,
+          "original_minors_match": true,
+          "canonical_table_matches": true,
+          "symmetric": true
+        },
+        "B_3": {
+          "matrix": [
+            [
+              32,
+              3036,
+              474720,
+              102814320
+            ],
+            [
+              3036,
+              474720,
+              102814320,
+              28336815360
+            ],
+            [
+              474720,
+              102814320,
+              28336815360,
+              9451312960320
+            ],
+            [
+              102814320,
+              28336815360,
+              9451312960320,
+              3689859436623360
+            ]
+          ],
+          "leading_minors": [
+            32,
+            5973744,
+            20391579281571840,
+            2526910082682282506355690700800
+          ],
+          "required_each_minor": ">0",
+          "strict_sign_checks": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "original_matrix_matches": true,
+          "original_minors_match": true,
+          "canonical_table_matches": true,
+          "symmetric": true
+        }
+      }
+    }
+  ],
+  "original_replay_exit": 0,
+  "original_replay_stdout": "rank_one: S_1=16; m_0=1\n  A_3 leading minors=['1', '2024', '47818387968', '32047441048690659164160']; required >0\n  B_3 leading minors=['32', '6085056', '22170797473628160', '3171834202320787053983721062400']; required >0\nrank_two: S_1=16; m_0=1\n  A_3 leading minors=['1', '2012', '45759617664', '27742027033267458785280']; required >0\n  B_3 leading minors=['32', '5973744', '20391579281571840', '2526910082682282506355690700800']; required >0\nfailures=0; all_witnesses_pass=True; certificate=/Users/vermeer/SyncthingA/code/github/dejafait/math-playground/math-playground/riemann/scripts/heat/contact-ordinary-moment-2132.json\n",
+  "original_replay_stderr": "",
+  "original_replay_byte_identical": true,
+  "required_minor_count": 16,
+  "verified_strict_minor_count": 16,
+  "all_checks_pass": true,
+  "failures": []
+}

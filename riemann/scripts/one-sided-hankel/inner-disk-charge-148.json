@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "actual": "17901/10000",
+      "name": "contour_spatial_radius_squared",
+      "passed": true,
+      "relation": "<",
+      "required": "121/64"
+    },
+    {
+      "actual": "800121/121",
+      "name": "low_frequency_log_argument",
+      "passed": true,
+      "relation": "<",
+      "required": "10000/1"
+    },
+    {
+      "actual": "1073741824/59049",
+      "name": "exp10_lower_from_exp1_gt_8_over_3",
+      "passed": true,
+      "relation": ">",
+      "required": "10000/1"
+    },
+    {
+      "actual": "3267/1000000",
+      "name": "omega_upper_after_log_argument_lt_10",
+      "passed": true,
+      "relation": "<",
+      "required": "1/2"
+    },
+    {
+      "actual": "79/48",
+      "name": "exp_half_lower",
+      "passed": true,
+      "relation": ">",
+      "required": "8/5"
+    },
+    {
+      "actual": "89/50",
+      "name": "exp_three_fifths_lower",
+      "passed": true,
+      "relation": ">",
+      "required": "43/25"
+    },
+    {
+      "actual": "4853/2000",
+      "name": "exp_nine_tenths_lower",
+      "passed": true,
+      "relation": ">",
+      "required": "43/18"
+    },
+    {
+      "actual": "437/250",
+      "name": "boundary_coefficient",
+      "passed": true,
+      "relation": "<",
+      "required": "7/4"
+    },
+    {
+      "actual": "87/32",
+      "name": "exp1_geometric_tail_upper",
+      "passed": true,
+      "relation": "<",
+      "required": "11/4"
+    },
+    {
+      "actual": "214358881/65536",
+      "name": "exp8_upper_implies_log5000_gt_8",
+      "passed": true,
+      "relation": "<",
+      "required": "5000/1"
+    },
+    {
+      "actual": "2057/1600000",
+      "name": "D_lower",
+      "passed": true,
+      "relation": "=",
+      "required": "2057/1600000"
+    },
+    {
+      "actual": "4999/5001",
+      "name": "kappa",
+      "passed": true,
+      "relation": "=",
+      "required": "4999/5001"
+    },
+    {
+      "actual": "121/160",
+      "name": "pole_charge_coefficient",
+      "passed": true,
+      "relation": "=",
+      "required": "121/160"
+    },
+    {
+      "actual": "2267057/7998400000",
+      "name": "partial_charge_margin",
+      "passed": true,
+      "relation": ">",
+      "required": "1/4000"
+    },
+    {
+      "actual": "189/250",
+      "name": "permitted_deficit_coefficient",
+      "passed": true,
+      "relation": "=",
+      "required": "189/250"
+    },
+    {
+      "actual": "1/3025",
+      "name": "paid_fraction_of_pole_coefficient",
+      "passed": true,
+      "relation": "=",
+      "required": "1/3025"
+    }
+  ],
+  "constants": {
+    "D_lower": "2057/1600000",
+    "boundary_coefficient_upper": "7/4",
+    "full_target_pole_coefficient": "121/160",
+    "gamma": "2267057/7998400000",
+    "gamma_margin": "267457/7998400000",
+    "kappa": "4999/5001",
+    "positive_point": "1/10000",
+    "radius": "1/2",
+    "required_partial_charge": "1/4000"
+  },
+  "failures": [],
+  "limitations": [
+    "No effective n onset or numerical Picard profile is certified.",
+    "No contour, Fourier, integrability or Poisson-Jensen proof is verified by this script.",
+    "The positive partial charge does not establish the required o(n) deficit."
+  ],
+  "scope": "Exact rational inequalities only; analytic proof and profile remain unaudited."
+}

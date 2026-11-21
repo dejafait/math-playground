@@ -1,0 +1,27 @@
+{
+  "status": "SETUP_BLOCKED_NO_NUMERICAL_CERTIFICATE",
+  "target": "Test L836(8) at k=6002 and proposed m=9000000000000 using certified indexed endpoint intervals and a separately justified PF_m range.",
+  "parameters": {"k": 6002, "J": 6003, "m": 9000000000000, "H": 3000175332800, "exponent_m_plus_k_plus_2": 9000000006004},
+  "pf_integer_check": {"m_plus_1": 9000000000001, "three_H": 9000525998400, "positive_margin": 525998399, "required": "m+1 <= pi*H", "supporting_standard_bound": "3 < pi", "result": "PASS; applicability proof is C832a, not a numerical-overlap result"},
+  "runtime": {
+    "python": "3.13.18 (main, Oct 25 2026, 18:31:23) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "environment": "/private/tmp/riemann-overlap-flint080",
+    "required_binding": "python-flint 0.8.0",
+    "required_native": "FLINT 3.3.1",
+    "actual_binding": null,
+    "actual_native": null,
+    "importlib_find_spec_flint_after_failure": null
+  },
+  "commands": [
+    {"command": "UV_CACHE_DIR=/private/tmp/riemann-overlap-uv-cache uv venv --python /opt/homebrew/bin/python3.13 /private/tmp/riemann-overlap-flint080", "exit_code": 0, "output": "Using CPython 3.13.18 interpreter at: /opt/homebrew/opt/python@3.13/bin/python3.13\nCreating virtual environment at: /private/tmp/riemann-overlap-flint080\nActivate with: source /private/tmp/riemann-overlap-flint080/bin/activate"},
+    {"command": "UV_CACHE_DIR=/private/tmp/riemann-overlap-uv-cache uv pip install --python /private/tmp/riemann-overlap-flint080/bin/python 'python-flint==0.8.0'", "exit_code": 2, "output": "Using Python 3.13.18 environment at: /private/tmp/riemann-overlap-flint080\nerror: Request failed after 3 retries in 8.9s\n  cause: Failed to fetch: https://pypi.org/simple/python-flint/\n  cause: error sending request for url (https://pypi.org/simple/python-flint/)\n  cause: client error (Connect)\n  cause: dns error\n  cause: error resolving DNS\n  cause: failed to lookup address information: nodename nor servname provided, or not known"}
+  ],
+  "local_availability": "Exact checked python-flint uv cache paths, Homebrew libflint paths, and pip wheel glob returned no match; this is not an exhaustive filesystem search.",
+  "indexed_intervals": null,
+  "domain_checks": "NOT EXECUTED: 4<l<=u<v<=w<H, logarithms and denominators require missing indexed intervals",
+  "outward_expression": null,
+  "required_overlap_bound": "certified rational upper bound for entire L836(8) strictly less than zero",
+  "overlap_result": "NOT EVALUATED; neither success, positive-lower-bound miss nor straddling interval claimed",
+  "failures": ["Pinned arithmetic binding unavailable; PyPI DNS resolution failed. No indexed zero calls or numerical arithmetic performed."],
+  "resumption_condition": "Make reviewed python-flint0.8.0/nativeFLINT3.3.1 available in a permitted environment, or separately assess a changed implementation. Do not repeat network retries without an environment change."
+}

@@ -1,0 +1,31 @@
+{
+  "step_id": "2026-11-17-fixed-grunsky-stop-audit-1255",
+  "method": "Hand audit of complete C030y proof and replay of existing exact rational program; no independent second software implementation.",
+  "original_certificate": "scripts/grunsky/degree-six-deficit-certificate-before-audit-1255.json",
+  "replayed_certificate": "scripts/grunsky/degree-six-deficit-certificate-1253.json",
+  "sha256": "750d2c5313344d178c52901f1882a69f275afd18047492dbb5c006bb54f56c20",
+  "byte_identical_replay": true,
+  "all_nine_mixed_entries_inspected": true,
+  "verification_zero_counts": {
+    "reciprocal_mixed_residuals": 9,
+    "symmetry_residuals": 9,
+    "source_residuals": 8,
+    "elimination_residuals": 3,
+    "degenerate_sufficiency_residuals": 9
+  },
+  "total_exact_zero_residuals": 38,
+  "manual_checks": {
+    "normalization": "g(1/z)-g(1/w) divided by (1/z-1/w) equals (z/f(z))(w/f(w))(f(z)-f(w))/(z-w); extra logarithms are pure, so mixed entries agree.",
+    "truncation": "a_7 first enters at degree six; omitted interior degree >=7 and exterior degree >=7 cannot enter the positive-degree logarithm below degree seven.",
+    "all_equations": "First row fixes b_1,...,b_5. Remaining residuals are (X^2-1)/2, XY, XZ+Y^2/2, XZ+Y^2+(X^3-1)/3, for X=b_1,Y=b_2,Z=b_3.",
+    "actual_branches": "X=1 requires tau*S_2=0; X=-1 requires tau*S_2=2 and then Y=0, contrary to Y=-tau*S_3<0. No zero division.",
+    "general_elimination": "X^2=1 and XY=0 give Y=0, then XZ=0 gives Z=0, then X^3=1 gives X=1. tau>0 gives S_2=S_3=S_4=0.",
+    "sufficiency": "For S_2=S_3=S_4=0 the displayed reciprocal with arbitrary b_0 and real S_5,S_6 gives all nine entries. tau=0 is compatible but excluded.",
+    "inherited_signs": "L025 gives absolute convergence/reality. L018/L026 give |Im alpha|<1/2 and |Re alpha|>4; positive-real representatives have |arg alpha|<1/8. For k<=6, |2k arg alpha|<3/2<pi/2. L021/L024 ensure a nonempty zero multiset via nonpolynomiality. See C030y audit1255 for full reasoning and source qualifications."
+  },
+  "required": "tau*S_2=2 and S_3=0 on the only surviving degree-four branch for actual Xi",
+  "available": "tau>0 and L027 S_2,S_3>0, with convergence and localization audited locally",
+  "verdict": "PASS: retain fixed-ansatz impossibility already at mixed degree five",
+  "failures": [],
+  "limits": "Confirmation of an existing specialization; no new obstruction, analytic univalence, all-degree positivity, actual off-line zero, or RH resolution. Named foundational inputs retained; no full fresh audit of L001-L017. Mathlib full coverage unchecked."
+}

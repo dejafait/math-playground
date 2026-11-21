@@ -1,0 +1,391 @@
+{
+  "result": "PASS_UNDER_RETAINED_CONTRACTS",
+  "failures": [],
+  "checks": [
+    {
+      "check": "executed source hash",
+      "passed": true
+    },
+    {
+      "check": "full archive hash",
+      "passed": true
+    },
+    {
+      "check": "primary certificate failures empty",
+      "passed": true
+    },
+    {
+      "check": "all primary checks pass",
+      "passed": true
+    },
+    {
+      "check": "input preserved original-galerkin-586.npz",
+      "passed": true
+    },
+    {
+      "check": "input preserved original-galerkin-586.json",
+      "passed": true
+    },
+    {
+      "check": "input preserved original-minimum-audit-588.json",
+      "passed": true
+    },
+    {
+      "check": "input preserved fixed-block-metric-audit-557.json",
+      "passed": true
+    },
+    {
+      "check": "input preserved certificate-audit-534.json",
+      "passed": true
+    },
+    {
+      "check": "input preserved complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "check": "input preserved residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "check": "input preserved complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "check": "input preserved joint-galerkin-family-locator-598.npz",
+      "passed": true
+    },
+    {
+      "check": "input preserved joint-galerkin-family-locator-598.py",
+      "passed": true
+    },
+    {
+      "check": "input preserved fixed-block-metric-555.json",
+      "passed": true
+    },
+    {
+      "check": "full family dimensions",
+      "passed": true
+    },
+    {
+      "check": "free band map exact sparsity",
+      "passed": true
+    },
+    {
+      "check": "entire projected input product rebuild",
+      "passed": true
+    },
+    {
+      "check": "full rebuild A",
+      "passed": true
+    },
+    {
+      "check": "full rebuild B",
+      "passed": true
+    },
+    {
+      "check": "full rebuild G",
+      "passed": true
+    },
+    {
+      "check": "full rebuild trial",
+      "passed": true
+    },
+    {
+      "check": "magnitude Z",
+      "passed": true
+    },
+    {
+      "check": "magnitude Y",
+      "passed": true
+    },
+    {
+      "check": "magnitude G",
+      "passed": true
+    },
+    {
+      "check": "magnitude A",
+      "passed": true
+    },
+    {
+      "check": "magnitude B",
+      "passed": true
+    },
+    {
+      "check": "magnitude M",
+      "passed": true
+    },
+    {
+      "check": "magnitude T",
+      "passed": true
+    },
+    {
+      "check": "magnitude Ts",
+      "passed": true
+    },
+    {
+      "check": "magnitude U",
+      "passed": true
+    },
+    {
+      "check": "magnitude boundary",
+      "passed": true
+    },
+    {
+      "check": "magnitude head_rhs",
+      "passed": true
+    },
+    {
+      "check": "magnitude head_solution",
+      "passed": true
+    },
+    {
+      "check": "magnitude V",
+      "passed": true
+    },
+    {
+      "check": "magnitude C0",
+      "passed": true
+    },
+    {
+      "check": "magnitude ZT",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic A",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic B",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic U",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic energy",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic elimination_equation",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic projected_map",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic row_maps",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic boundary",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic head_product_nuclear",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic finite_gram_trace",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic H_assembly",
+      "passed": true
+    },
+    {
+      "check": "full radius arithmetic inflation",
+      "passed": true
+    },
+    {
+      "check": "joint norm arithmetic inflation",
+      "passed": true
+    },
+    {
+      "check": "factor cap galerkin_floor",
+      "passed": true
+    },
+    {
+      "check": "full factor reconstruction galerkin_floor",
+      "passed": true
+    },
+    {
+      "check": "factor cap predictor_norm",
+      "passed": true
+    },
+    {
+      "check": "full factor reconstruction predictor_norm",
+      "passed": true
+    },
+    {
+      "check": "factor cap elimination_norm",
+      "passed": true
+    },
+    {
+      "check": "full factor reconstruction elimination_norm",
+      "passed": true
+    },
+    {
+      "check": "factor cap local_operator_norm",
+      "passed": true
+    },
+    {
+      "check": "full factor reconstruction local_operator_norm",
+      "passed": true
+    },
+    {
+      "check": "predictor inflation pays Gram",
+      "passed": true
+    },
+    {
+      "check": "elimination norm inflation pays Gram",
+      "passed": true
+    },
+    {
+      "check": "LZ inflation pays Gram",
+      "passed": true
+    },
+    {
+      "check": "every finite higher row partition",
+      "passed": true
+    },
+    {
+      "check": "full final factor error<1e-6",
+      "passed": true
+    },
+    {
+      "check": "full final factor norm cap",
+      "passed": true
+    },
+    {
+      "check": "full reference floor factor reconstruction",
+      "passed": true
+    },
+    {
+      "check": "full projected six-row boundary rebuild",
+      "passed": true
+    }
+  ],
+  "arithmetic": {
+    "A": {
+      "actual_upper": {
+        "lo": "4.66661287307951016049313671381264300030753140299580424262010E-7",
+        "hi": "4.66661287307951016049313671381264300030753140299580424262016E-7"
+      },
+      "required": "1e-6"
+    },
+    "B": {
+      "actual_upper": {
+        "lo": "9.41322574615902032098627342762528600061506280599160848524021E-8",
+        "hi": "9.41322574615902032098627342762528600061506280599160848524032E-8"
+      },
+      "required": "2e-6"
+    },
+    "U": {
+      "actual_upper": {
+        "lo": "4.75661287307951016049313671381264300030753140299580424262010E-8",
+        "hi": "4.75661287307951016049313671381264300030753140299580424262016E-8"
+      },
+      "required": "1e-6"
+    },
+    "energy": {
+      "actual_upper": {
+        "lo": "0.00000989343894869534480628712815123721481002177698192555079776041",
+        "hi": "0.00000989343894869534480628712815123721481002177698192555079776053"
+      },
+      "required": "4e-5"
+    },
+    "elimination_equation": {
+      "actual_upper": {
+        "lo": "1.00454747350886567516534088683219245942537604434151612077683E-8",
+        "hi": "1.00454747350886567516534088683219245942537604434151612077684E-8"
+      },
+      "required": "1e-6"
+    },
+    "projected_map": {
+      "actual_upper": {
+        "lo": "1.01673470251262568460845446354246825068538384317677932445876E-8",
+        "hi": "1.01673470251262568460845446354246825068538384317677932445877E-8"
+      },
+      "required": "1e-6"
+    },
+    "row_maps": {
+      "actual_upper": {
+        "lo": "2.07283995021159008500722202145084502763471638105048321367145E-8",
+        "hi": "2.07283995021159008500722202145084502763471638105048321367147E-8"
+      },
+      "required": "1e-6"
+    },
+    "boundary": {
+      "actual_upper": {
+        "lo": "1.04547473508866709141106578822082659179987823635738090080683E-7",
+        "hi": "1.04547473508866709141106578822082659179987823635738090080684E-7"
+      },
+      "required": "1e-5"
+    },
+    "head_product_nuclear": {
+      "actual_upper": {
+        "lo": "1.00036379788070921265419664328108572097372428808295964293939E-8",
+        "hi": "1.00036379788070921265419664328108572097372428808295964293940E-8"
+      },
+      "required": "1e-6"
+    },
+    "finite_gram_trace": {
+      "actual_upper": {
+        "lo": "0.0000110012514647097753127549639758471085691852684351431323291415",
+        "hi": "0.0000110012514647097753127549639758471085691852684351431323291416"
+      },
+      "required": "1e-4"
+    },
+    "H_assembly": {
+      "actual_upper": {
+        "lo": "1.00712319092599501701668694052752253875649395724163560660350E-10",
+        "hi": "1.00712319092599501701668694052752253875649395724163560660351E-10"
+      },
+      "required": "1e-8"
+    }
+  },
+  "factor_checks": {
+    "galerkin_floor": {
+      "reconstruction_error": {
+        "lo": "2.45474759963364004040214842283987439901128559393357329494903E-7",
+        "hi": "2.45474759963364004040214842283987439901128559393357329494905E-7"
+      },
+      "required": "1e-6"
+    },
+    "predictor_norm": {
+      "reconstruction_error": {
+        "lo": "2.45474736638934523556181014776361219425780615207817892494721E-7",
+        "hi": "2.45474736638934523556181014776361219425780615207817892494722E-7"
+      },
+      "required": "1e-6"
+    },
+    "elimination_norm": {
+      "reconstruction_error": {
+        "lo": "2.45474735096679998996825116223103797878114165714561666405631E-7",
+        "hi": "2.45474735096679998996825116223103797878114165714561666405632E-7"
+      },
+      "required": "1e-6"
+    },
+    "local_operator_norm": {
+      "reconstruction_error": {
+        "lo": "2.45475038552798338356214325543586477268307219179665719863816E-7",
+        "hi": "2.45475038552798338356214325543586477268307219179665719863817E-7"
+      },
+      "required": "1e-6"
+    }
+  },
+  "final_factor_error": {
+    "lo": "2.45474763367339060869399964808639578606446117232899584580960E-7",
+    "hi": "2.45474763367339060869399964808639578606446117232899584580962E-7"
+  },
+  "certified_free_coefficient_floor": ".000999",
+  "reference_factor_error": {
+    "lo": "2.45474794386449032938208917654035345288081294665419659655258E-7",
+    "hi": "2.45474794386449032938208917654035345288081294665419659655259E-7"
+  },
+  "certificate_sha256": "86fd986e2762a4f3cd29e1c84e944c589ea3ca3229bffd097b94f84299b5f309",
+  "script_sha256": "9faf7ea1f616dae9c7f6b03ad31d88811f50beec4c11836b116bfe9f1dc6b4d7",
+  "qualification": "Local arithmetic verification only. Separate conceptual audit pending; all analytic, core, IEEE754/Decimal and unreplayed c_star qualifications remain."
+}

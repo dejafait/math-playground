@@ -1,0 +1,287 @@
+{
+  "status": "passed",
+  "failures": [],
+  "input_sha256": {
+    "scripts/grunsky/actual-sign-certificate-1309.json": "bf397052f8005f2ea457d313a2dc92ddb1c17aa75f22b488144cacb95745f9e2",
+    "scripts/grunsky/actual-sign-replay-1309.py": "c427201ddc35d1fad8a9f5b5609c6b3965c00c2a68ca8831dfebd833aa8b2764",
+    "scripts/heat/low-time-h1-uniform-180-check.py": "bde2d8bb5f8608488ab4442aa1ccb629299796f60c8130411d10f423243a2d55"
+  },
+  "checks": {
+    "cells": 29,
+    "polynomial_cell_signs": 145,
+    "full_domain_partition": true,
+    "both_tails_excluded": true,
+    "common_root_absent": true,
+    "direct_actual_witness": true,
+    "strict_rational_margins": true,
+    "coefficient_box_inclusion": true,
+    "x_in_minus1_to1_excluded": true
+  },
+  "cell_checks": [
+    {
+      "z": [
+        "0",
+        "1/256"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "1/256",
+        "3/512"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "3/512",
+        "13/2048"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "13/2048",
+        "27/4096"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "27/4096",
+        "109/16384"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "109/16384",
+        "219/32768"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "219/32768",
+        "439/65536"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "439/65536",
+        "55/8192"
+      ],
+      "status": "unresolved",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "55/8192",
+        "7/1024"
+      ],
+      "status": "feasible",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "7/1024",
+        "1/128"
+      ],
+      "status": "feasible",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "1/128",
+        "1/64"
+      ],
+      "status": "feasible",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "1/64",
+        "1/32"
+      ],
+      "status": "feasible",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "1/32",
+        "1/16"
+      ],
+      "status": "feasible",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "1/16",
+        "33/512"
+      ],
+      "status": "feasible",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "33/512",
+        "133/2048"
+      ],
+      "status": "feasible",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "133/2048",
+        "1065/16384"
+      ],
+      "status": "feasible",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "1065/16384",
+        "2131/32768"
+      ],
+      "status": "feasible",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "2131/32768",
+        "4263/65536"
+      ],
+      "status": "unresolved",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "4263/65536",
+        "533/8192"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "533/8192",
+        "267/4096"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "267/4096",
+        "67/1024"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "67/1024",
+        "17/256"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "17/256",
+        "9/128"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "9/128",
+        "5/64"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "5/64",
+        "3/32"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "3/32",
+        "1/8"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "1/8",
+        "1/4"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "1/4",
+        "1/2"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    },
+    {
+      "z": [
+        "1/2",
+        "1"
+      ],
+      "status": "excluded",
+      "five_polynomial_signs_checked": true
+    }
+  ],
+  "direct_witness": {
+    "p": {
+      "lower": "365506003553565828386890909125879652113816835055096913325000/31757808788533556144380809686052065730023601383531004111",
+      "upper": "2924473005186870132489548400012398036226299392110209387924000/254062179899076168515567057544560882630223322995836369187"
+    },
+    "V": {
+      "lower": "8559608683252160022080001717825186375671828703879371853766472861089825000/2105643332402508919122853321066142471112411524128020241669784775441",
+      "upper": "3423840979670988767747029283713504096458035775723390503899187355881429000/842256370068795692193273830097701441907559825735783427331620589987"
+    },
+    "J": {
+      "lower": "19381050298594466142976477125014109917673826251423763238417995098917785470123475000/1828873106949652238088415471689298866239176272200159398993021114475394874011",
+      "upper": "57367852406070635466146614086268245557232758671238390182968116513595373969306693000/5413458200671674389145530881256526752230160926171989667952168220891279962139"
+    },
+    "H": {
+      "lower": "98150076622112639518744539158077027493124293106882637662771351319525090076350895356913314430438330666475294420738305947089433614106434412327233301000000000/3946616477662423062364111781402799545642584925861117562787147744203718879501707622299043773675228042985646044801031344023542834396442052520067",
+      "upper": "125631975001824545163677382734971130273318359763737949660317597361039232214865447669502494499428778254684509495613540703812866778879569367478365738656000000/5051657490788956464059689368286766884860084504499333047647689577776228615206217088972078006144326747123222860793949116576372061220525589995471"
+    },
+    "tau": {
+      "lower": "8136500000000000000/2063079260373",
+      "upper": "3254600000000000000/825231704127"
+    }
+  },
+  "unresolved": [
+    [
+      "439/65536",
+      "55/8192"
+    ],
+    [
+      "2131/32768",
+      "4263/65536"
+    ]
+  ],
+  "scope": "finite evidence replay, not independent quadrature/Decimal or proof audit"
+}

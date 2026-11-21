@@ -1,0 +1,65 @@
+{
+  "target": "Certify the Hermite-matrix inertia of Kuznetsov's Jensen-weighted tilted-Xi Pollaczek truncation at degree 24, testing whether its negative index is at most one.",
+  "assessment": "drafts/literature/2026-11-20-tilted-pollaczek-degree24-inertia-2000.md",
+  "method": "Kuznetsov2008 (2)/(4)/(13); Newton sums; Arb leading determinants; Coste p19 Jacobi",
+  "implementation_sha256": "1d57b9a3d3a3600abb33f51a2bb9e0e9f657f7a5532bcd0ec199f51d82cf467c",
+  "python": "3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "executable": "/opt/homebrew/opt/python@3.15/bin/python3.15",
+  "platform": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "precision_ladder_bits": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "required": {
+    "degree": 24,
+    "coefficients": 25,
+    "newton_sums": 47,
+    "nonzero_leading_determinants": 24,
+    "maximum_negative_index": 1
+  },
+  "runs": [],
+  "failures": [
+    {
+      "stage": "import",
+      "error": "No module named 'flint'"
+    }
+  ],
+  "actual": {
+    "evaluated_coefficients": 0,
+    "evaluated_determinants": 0
+  },
+  "conclusion": {
+    "degree": null,
+    "inertia_positive_negative_null": null,
+    "one_pair_test": "UNRESOLVED"
+  },
+  "status": "RUNTIME_BLOCKED",
+  "runtime_review_2003": {
+    "preflight_exit_code": 2,
+    "anaconda": {
+      "executable": "/Users/vermeer/Applications/anaconda/bin/python",
+      "version": "2.7.6 Anaconda 1.9.0 x86_64",
+      "flint_loader_found": false,
+      "sage_loader_found": false,
+      "mpmath_loader_found": false,
+      "sympy_loader_found": true,
+      "usable_for_approved_script": false
+    },
+    "native_library_globs_without_matches": [
+      "/opt/homebrew/opt/flint*",
+      "/opt/homebrew/opt/arb*",
+      "/opt/homebrew/lib/libflint*",
+      "/opt/homebrew/lib/libarb*",
+      "/opt/homebrew/Cellar/flint*",
+      "/opt/homebrew/Cellar/arb*",
+      "/Users/vermeer/Applications/anaconda/lib/libflint*",
+      "/Users/vermeer/Applications/anaconda/lib/libarb*"
+    ],
+    "prior_isolated_install_directory": "/private/tmp/riemann-flint-2002: contains only .lock",
+    "prior_dns_failure_retried": false,
+    "scope": "Bounded additional runtime paths only; not an exhaustive machine inventory. No alternate arithmetic method approved or used.",
+    "prior_certificate_preserved": "scripts/pollaczek/tilted-degree24-inertia-2002.json"
+  }
+}

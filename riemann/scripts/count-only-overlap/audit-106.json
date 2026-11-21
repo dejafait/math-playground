@@ -1,0 +1,107 @@
+{
+  "scope": "Scalar certificate audit only; L897 contains the all-height and product audit.",
+  "original": "scripts/count-only-overlap/countermodel-104.json",
+  "original_sha256": "e574b9a664f4e3228dfe795717d0076fa29e0e226a4cbebdbc392b6b69823741",
+  "source_sha256": "b0f767fdce29ac872368f4a620d0d2820df255236d5a93219fac65d9b400ff47",
+  "replay": "scripts/count-only-overlap/audit-replay-106.json",
+  "full_rational_intervals_checked": 15,
+  "checks": {
+    "original_bytes_preserved": true,
+    "replay_matches_complete_original": true,
+    "parameters_match_statement": true,
+    "series_lengths": true,
+    "ordered_bounds/pi": true,
+    "exact_replay_bounds/pi": true,
+    "ordered_bounds/U_9999": true,
+    "exact_replay_bounds/U_9999": true,
+    "ordered_bounds/U_Hminus1_minus_K": true,
+    "exact_replay_bounds/U_Hminus1_minus_K": true,
+    "ordered_bounds/U_H_minus_K": true,
+    "exact_replay_bounds/U_H_minus_K": true,
+    "ordered_bounds/derivative_9999": true,
+    "exact_replay_bounds/derivative_9999": true,
+    "ordered_bounds/epsilon": true,
+    "exact_replay_bounds/epsilon": true,
+    "ordered_bounds/V": true,
+    "exact_replay_bounds/V": true,
+    "ordered_bounds/B": true,
+    "exact_replay_bounds/B": true,
+    "ordered_bounds/Hm": true,
+    "exact_replay_bounds/Hm": true,
+    "ordered_Hm_terms/B": true,
+    "exact_replay_Hm_terms/B": true,
+    "ordered_Hm_terms/2logk": true,
+    "exact_replay_Hm_terms/2logk": true,
+    "ordered_Hm_terms/(2k-2)log(1+q)": true,
+    "exact_replay_Hm_terms/(2k-2)log(1+q)": true,
+    "ordered_Hm_terms/klog2": true,
+    "exact_replay_Hm_terms/klog2": true,
+    "ordered_Hm_terms/-2klog(1-q)": true,
+    "exact_replay_Hm_terms/-2klog(1-q)": true,
+    "ordered_Hm_terms/(m+k+2)logs": true,
+    "exact_replay_Hm_terms/(m+k+2)logs": true,
+    "packet_boundaries": true,
+    "scalar_domains": true,
+    "epsilon_identity": true,
+    "epsilon_bound": true,
+    "rank_factor": true,
+    "U_9999_strict": true,
+    "U_Hminus1_strict": true,
+    "U_H_strict": true,
+    "derivative_uniform_witness": true,
+    "V_strict": true,
+    "all_six_terms_present": true,
+    "complete_signed_sum": true,
+    "B_term_matches": true,
+    "first_five_terms_positive": true,
+    "log2_margin": true,
+    "last_term_retained_negative": true,
+    "analytic_last_cost": true,
+    "analytic_threshold": true,
+    "full_Hm_strict": true
+  },
+  "failures": [],
+  "rational_witnesses": {
+    "U_9999": {
+      "lower": "5076090640060059/500000000000",
+      "upper": "10152181280120119/1000000000000"
+    },
+    "U_Hminus1_minus_K": {
+      "lower": "746868062299/62500000000",
+      "upper": "2389977799357/200000000000"
+    },
+    "U_H_minus_K": {
+      "lower": "16229854247851/1000000000000",
+      "upper": "4057463561963/250000000000"
+    },
+    "derivative_9999": {
+      "lower": "586674030777/500000000000",
+      "upper": "234669612311/200000000000"
+    },
+    "V": {
+      "lower": "34951433/200000000000",
+      "upper": "87378583/500000000000"
+    },
+    "B": {
+      "lower": "43689291400105999821907006516927/125000000000",
+      "upper": "349514331200847998575256052135417/1000000000000"
+    },
+    "Hm": {
+      "lower": "174757165600424226657890218898531/500000000000",
+      "upper": "349514331200848453315780437797063/1000000000000"
+    },
+    "last_term": {
+      "lower": "-450000001/1000000000000",
+      "upper": "-9/20000"
+    },
+    "klog2": {
+      "lower": "4160269377720791/1000000000000",
+      "upper": "520033672215099/125000000000"
+    },
+    "analytic_Hm_floor": "300099/100",
+    "analytic_last_cost_upper": "1/100"
+  },
+  "required_for_obstruction": "H_m >= 0",
+  "required_for_coarse_overlap": "H_m < 0",
+  "analytic_last_cost_exact": "180000000120080009000000006004/400000000000000020000000000000001"
+}

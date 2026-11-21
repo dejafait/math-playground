@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "checks": {
+    "original_and_replay_identical": true,
+    "all_statuses_and_failure_lists": true,
+    "all_replay_checks": true,
+    "all_prior_audit_checks": true,
+    "inherited_hash": true,
+    "backend_hash": true,
+    "scales_agree": true,
+    "all_derivative_records_linked": true,
+    "every_prior_derivative_replay_value_and_threshold": true,
+    "all_angular_records_linked": true,
+    "full_angular_cover": true,
+    "every_four_edge_maximum": true,
+    "outward_pointwise_chord_error": true,
+    "uniform_aggregation_and_strict_margin": true,
+    "original_D_clearance": true,
+    "original_D_rate": true,
+    "uniform_onset": true
+  },
+  "failures": [],
+  "scope": "Complete stored evidence linkage and exact rational aggregation; inherited interval backend, no independent derivative recomputation.",
+  "inputs": {
+    "original": {
+      "path": "common-displacement-full-circle-certificate-94.json",
+      "sha256": "8c09b880e8f201e27194211a5676a0244d6564960ede90f269de195795fe0e2d"
+    },
+    "replay": {
+      "path": "common-displacement-full-circle-audit-96.json",
+      "sha256": "8c09b880e8f201e27194211a5676a0244d6564960ede90f269de195795fe0e2d"
+    },
+    "inherited": {
+      "path": "full-circle-root-compensation-certificate.json",
+      "sha256": "84218d4a6e2f29a1fe9bd02b708c07fe4dad2b76220b0f1fa788c291971c1d6f"
+    },
+    "prior_audit": {
+      "path": "full-circle-root-compensation-audit.json",
+      "sha256": "4d9079b7b0e3c49d993b2e869400cc5da64281f7449515d30bb12109b6ad032b"
+    }
+  },
+  "bounds": {
+    "uniform_contour": {
+      "actual": "-1319516391354837085/590295810358705651712",
+      "required": "< -1/500",
+      "pointwise_error": "1111218667576006071/2361183241434822606848",
+      "required_error": "343905520248422219827290747869205356220228225/730750818665451459101842416358141509827966271488"
+    },
+    "original_D_rate_margin": {
+      "actual": "261/10000",
+      "required": "> 0"
+    },
+    "onset_error": {
+      "actual": "3515625/1073741824",
+      "required": "< 1/64"
+    }
+  },
+  "counts": {
+    "angular_rows": 513,
+    "inherited_derivative_rows": 8192
+  }
+}

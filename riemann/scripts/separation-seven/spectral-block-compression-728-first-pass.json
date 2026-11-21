@@ -1,0 +1,42 @@
+{
+  "scope": "C998u unchanged G; uniform kernel preparation only; not scalar or signed S3",
+  "parameters": {
+    "B": 8388608,
+    "m": 17,
+    "K": 72,
+    "precision_decimal_digits": 100,
+    "EM_order": 64
+  },
+  "blocks": [],
+  "failures": [
+    "AssertionError: ('root guess not certified by signs', -0.9843605946318761, 0, 0, ['-0.2664259747754747261064591675429006262888102466228077997051384334413207251516024386725597553245258904', '0.2664259737209641029637009464657038054414039321290650188933141617309433529865790377222265602780322550'], ['-0.2664253583150207640587285589342019784462173694641065485577917381825413753618913803964298595278299935', '0.2664253593694691088813293571854587721671529732650410984860083537691907882897018592539975969087144692'])"
+  ],
+  "full_construction_cost_certified": false,
+  "operation_counter_qualification": "subtotal of Decimal basic/comparison and high-level Fraction calls; excludes integer algorithms, numpy guesses, host control, allocation and output; not all-work bound",
+  "source_sha256": "fb107287e7488d8d9f2958c2640c46c435c8a575af8128100ec144bc7ed20729",
+  "theoretical": {
+    "rank": 1171,
+    "weighted_gaussian_bound": "422212465065984/116415321826934814453125",
+    "weighted_tail_bound": "70368744177664/18889465931478580854781",
+    "sum_upper_bound": "16167367974709495237421575724286869504/2199023255551999999999650754034519195556640625",
+    "required": "1/10000000",
+    "analytic_budget_pass": true
+  },
+  "coefficient_error_weighted_bound": "0",
+  "complete_gaussian_block_count": 0,
+  "all_67_blocks_certified": false,
+  "full_uniform_budget_pass": false,
+  "operation_subtotals": {
+    "decimal_basic": 74566,
+    "decimal_comparisons": 49030,
+    "fraction_high_level": 19395
+  },
+  "required_operation_cap": 100000000,
+  "elapsed_seconds_not_work_proof": 0.04246416699606925,
+  "unpaid": [
+    "complete finite construction operation ledger and storage bound",
+    "independent conceptual/arithmetic audit",
+    "density quadrature and signed coupling",
+    "full scalar evaluation, local term and remaining 9e-7"
+  ]
+}

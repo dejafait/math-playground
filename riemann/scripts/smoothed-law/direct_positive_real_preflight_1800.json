@@ -1,0 +1,224 @@
+{
+  "scope": "Exact-node analytic allowances only, conditional on C033y's qualified inputs.",
+  "status": "ANALYTIC_ALLOWANCES_PASS_AGGREGATE_PREFLIGHT_INCOMPLETE",
+  "transforms_evaluated": false,
+  "levy_cutoffs": {
+    "small": "1/1073741824",
+    "large": "1/4",
+    "residual_large_domain": "[1/4,infinity) minus [1,3/2]"
+  },
+  "allowances": {
+    "small_levy_tail": {
+      "proved_upper_bound": "294925/1073741824",
+      "required_strict_bound": "1/2048",
+      "passes": true
+    },
+    "large_levy_tail": {
+      "proved_upper_bound": "4347718821/140737488355328",
+      "required_strict_bound": "1/16384",
+      "passes": true
+    },
+    "outer_quadrature": {
+      "proved_upper_bound": "375/2097152",
+      "required_strict_bound": "1/4096",
+      "passes": true
+    },
+    "archimedean_propagated": {
+      "proved_upper_bound": "396131034429/2251799813685248",
+      "required_strict_bound": "1/4096",
+      "passes": true
+    },
+    "prime_tail": {
+      "proved_upper_bound": "98415/268435456",
+      "required_strict_bound": "1/2048",
+      "passes": true
+    }
+  },
+  "inner_errors": {
+    "J_upper": "80659776963/2251799813685248",
+    "I_upper": "672192321/70368744177664",
+    "profile_upper": "30471618033/2251799813685248",
+    "profile_required": "1/65536"
+  },
+  "aggregate_analytic": {
+    "proved_upper_bound": "2312415129485/2251799813685248",
+    "dyadic_allowance": "25/16384",
+    "required_strict_bound": "1/512"
+  },
+  "conditional_final": {
+    "allowance": "57/16384",
+    "required": "1/256",
+    "unpaid_exponent_arithmetic_allowance": "1/1024",
+    "unpaid_final_exponential_allowance": "1/1024"
+  },
+  "adaptive_prime_thresholds": [
+    {
+      "minimum_width": 128,
+      "cutoff": 2,
+      "decay_exponent_lower": "10051/180",
+      "required_decay_exponent": 20,
+      "monotonicity_verified": true
+    },
+    {
+      "minimum_width": 32,
+      "cutoff": 4,
+      "decay_exponent_lower": "4931/90",
+      "required_decay_exponent": 20,
+      "monotonicity_verified": true
+    },
+    {
+      "minimum_width": 8,
+      "cutoff": 8,
+      "decay_exponent_lower": "577/20",
+      "required_decay_exponent": 20,
+      "monotonicity_verified": true
+    },
+    {
+      "minimum_width": 4,
+      "cutoff": 16,
+      "decay_exponent_lower": "1091/45",
+      "required_decay_exponent": 20,
+      "monotonicity_verified": true
+    }
+  ],
+  "prime_powers": [
+    [
+      2,
+      2,
+      1
+    ],
+    [
+      3,
+      3,
+      1
+    ],
+    [
+      4,
+      2,
+      2
+    ],
+    [
+      5,
+      5,
+      1
+    ],
+    [
+      7,
+      7,
+      1
+    ],
+    [
+      8,
+      2,
+      3
+    ],
+    [
+      9,
+      3,
+      2
+    ],
+    [
+      11,
+      11,
+      1
+    ],
+    [
+      13,
+      13,
+      1
+    ],
+    [
+      16,
+      2,
+      4
+    ],
+    [
+      17,
+      17,
+      1
+    ],
+    [
+      19,
+      19,
+      1
+    ],
+    [
+      23,
+      23,
+      1
+    ],
+    [
+      25,
+      5,
+      2
+    ],
+    [
+      27,
+      3,
+      3
+    ],
+    [
+      29,
+      29,
+      1
+    ],
+    [
+      31,
+      31,
+      1
+    ],
+    [
+      32,
+      2,
+      5
+    ]
+  ],
+  "positions": {
+    "outer_nodes_shared": 260,
+    "profiles": 780,
+    "variable_inner_samples": 37440,
+    "fixed_inner_samples": 272,
+    "prime_summands_upper": 14040,
+    "outer_weighted_summands": 1560,
+    "final_exponentials": 8
+  },
+  "cost": {
+    "named_positions_only": 53320,
+    "full_elementary_term_count": null,
+    "required_cap": 1000000,
+    "full_cost_certified": false
+  },
+  "checks": {
+    "small_levy_tail": true,
+    "large_levy_tail": true,
+    "outer_quadrature": true,
+    "archimedean_propagated": true,
+    "prime_tail": true,
+    "profile_radius_below_2_pow_minus_16": true,
+    "dyadic_analytic_sum": true,
+    "analytic_allowance_below_2_pow_minus_9": true,
+    "conditional_final_sum": true,
+    "conditional_final_below_2_pow_minus_8": true,
+    "outer_length_below_20": true,
+    "weight_quadrature_error_below_1": true,
+    "log2_bounds_in_adaptive_range": true,
+    "cutoff32_decay_exponent_above_10": true,
+    "prime_power_count_18": true,
+    "independent_prime_power_lists_agree": true,
+    "named_positions_53320": true
+  },
+  "unresolved": [
+    "Certified finite Gauss nodes and weights, with propagated errors and cost.",
+    "Constants and every elementary operation/exp/log/sqrt radius and cost.",
+    "Cancellation-sensitive R(z) evaluation at enlarged widths.",
+    "Arithmetic exponent error <=2^-10 and final exponential error <=2^-10.",
+    "Full aggregate elementary-term count <=10^6; named positions are not that count."
+  ],
+  "not_verified": [
+    "Analytic proof audit",
+    "External preprints and zero data",
+    "Numerical scalar values",
+    "Conditioning/interpolation/TV",
+    "RH"
+  ]
+}

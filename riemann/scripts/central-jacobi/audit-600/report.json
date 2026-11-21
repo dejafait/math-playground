@@ -1,0 +1,100 @@
+{
+  "target": "L818 necessary inequality and d<=319 cap",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "q0 ordered positive enclosure",
+      "pass": true
+    },
+    {
+      "name": "q1 ordered positive enclosure",
+      "pass": true
+    },
+    {
+      "name": "q2 ordered positive enclosure",
+      "pass": true
+    },
+    {
+      "name": "canonical endpoint 1.07484394250019421126346157158",
+      "pass": true
+    },
+    {
+      "name": "canonical endpoint 1.07484394250019421126346157162",
+      "pass": true
+    },
+    {
+      "name": "canonical endpoint 1.06274366627144916855311401273",
+      "pass": true
+    },
+    {
+      "name": "canonical endpoint 1.06274366627144916855311401285",
+      "pass": true
+    },
+    {
+      "name": "canonical endpoint 1.05430333113463476927545484495",
+      "pass": true
+    },
+    {
+      "name": "canonical endpoint 1.05430333113463476927545484516",
+      "pass": true
+    },
+    {
+      "name": "whole q0 interval above weakened lower bound",
+      "pass": true
+    },
+    {
+      "name": "whole q1 interval below weakened upper bound",
+      "pass": true
+    },
+    {
+      "name": "right threshold",
+      "pass": true
+    },
+    {
+      "name": "strict contradiction at d=320",
+      "pass": true
+    },
+    {
+      "name": "right integer product",
+      "pass": true
+    },
+    {
+      "name": "left integer product",
+      "pass": true
+    },
+    {
+      "name": "full integer difference",
+      "pass": true
+    },
+    {
+      "name": "cross multiplication agrees",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "q_enclosures": [
+    [
+      "53742197125009710563173078579/50000000000000000000000000000",
+      "53742197125009710563173078581/50000000000000000000000000000"
+    ],
+    [
+      "106274366627144916855311401273/100000000000000000000000000000",
+      "21254873325428983371062280257/20000000000000000000000000000"
+    ],
+    [
+      "21086066622692695385509096899/20000000000000000000000000000",
+      "26357583278365869231886371129/25000000000000000000000000000"
+    ]
+  ],
+  "weakened_q0_lower": "2687/2500",
+  "weakened_q1_upper": "2657/2500",
+  "left_upper_at_320": "273779937/256000000",
+  "required_right_lower": "2874/2687",
+  "positive_margin": "97309281/687872000000",
+  "cross_multiplier": 687872000000,
+  "right_integer": 735744000000,
+  "left_integer": 735646690719,
+  "integer_difference": 97309281,
+  "input_sha256": "6c0bac99324d7de9d1c6048bc1f82e71cd190cec4d8b894c67635005022984d7",
+  "limits": "Rational arithmetic only; analytic identity, monotonicity, both pairings and inherited contracts are reviewed in L818. No evaluator, software binary, feasibility below320 or RH audit."
+}

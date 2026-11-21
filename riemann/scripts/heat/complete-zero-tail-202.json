@@ -1,0 +1,124 @@
+{
+  "scope": "Exact finite constants only; Jensen, product and full-tail integration are proved/cited in L919.",
+  "radius": "100/1",
+  "time_band": [
+    "0/1",
+    "1/20"
+  ],
+  "scaling": [
+    1,
+    200,
+    40000
+  ],
+  "checks": [
+    {
+      "name": "exp(3) finite positive-series lower bound",
+      "left": "89641/4480",
+      "relation": ">",
+      "right": "20/1",
+      "passed": true
+    },
+    {
+      "name": "exp(1) geometric-series upper bound",
+      "left": "49/18",
+      "relation": "<",
+      "right": "11/4",
+      "passed": true
+    },
+    {
+      "name": "exp(4) upper bound",
+      "left": "14641/256",
+      "relation": "<",
+      "right": "72/1",
+      "passed": true
+    },
+    {
+      "name": "pi squared upper bound",
+      "left": "484/49",
+      "relation": "<",
+      "right": "10/1",
+      "passed": true
+    },
+    {
+      "name": "v upper bound on normalizer interval",
+      "left": "55/14",
+      "relation": "<",
+      "right": "4/1",
+      "passed": true
+    },
+    {
+      "name": "normalizer lower bound",
+      "left": "1/20",
+      "relation": "=",
+      "right": "1/20",
+      "passed": true
+    },
+    {
+      "name": "kernel geometric numerator",
+      "left": "12621/8000",
+      "relation": "<",
+      "right": "8/5",
+      "passed": true
+    },
+    {
+      "name": "kernel Bernoulli denominator",
+      "left": "3/4",
+      "relation": "=",
+      "right": "3/4",
+      "passed": true
+    },
+    {
+      "name": "kernel constant",
+      "left": "512/3",
+      "relation": "<",
+      "right": "200/1",
+      "passed": true
+    },
+    {
+      "name": "count additive constant",
+      "left": "111/640",
+      "relation": "=",
+      "right": "111/640",
+      "passed": true
+    },
+    {
+      "name": "count absorption using log(r)>=4",
+      "left": "111/640",
+      "relation": "<",
+      "right": "1/4",
+      "passed": true
+    },
+    {
+      "name": "count logarithmic coefficient",
+      "left": "8/5",
+      "relation": "=",
+      "right": "8/5",
+      "passed": true
+    },
+    {
+      "name": "complete matrix budget below stated threshold",
+      "left": "74137011761/13027587890625000",
+      "relation": "<",
+      "right": "5691/1000000000",
+      "passed": true
+    }
+  ],
+  "tail": {
+    "log_radius_upper_bound": "5/1",
+    "power_budgets": {
+      "4": "4/703125",
+      "8": "9/191406250000000",
+      "12": "21/47265625000000000000000"
+    },
+    "weighted_terms": {
+      "4": "4/703125",
+      "8": "9/4785156250",
+      "12": "21/29541015625000"
+    },
+    "actual_rational_budget": "74137011761/13027587890625000",
+    "required_upper_threshold": "5691/1000000000",
+    "positive_rounding_reserve": "191419171/833765625000000000"
+  },
+  "failures": [],
+  "passed": true
+}

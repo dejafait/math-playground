@@ -1,0 +1,132 @@
+{
+  "scope": "Independent rational/hash audit of C998u Section3; analytic audit is canonical Section4.",
+  "source_hashes": {
+    "remote-image-measure-preflight-724.json": "83c3955a7ff8273b8e7f2484be00ad5b0846b7f5fdbe0447799470728b6419c7",
+    "remote-image-measure-preflight-724.py": "1bc11e3a7c6a268a2cc5a39124236f70cb42ce94690191ee976a2521628e3385",
+    "defect-window-fixed-pair-707-witness.json": "99ebc79ed3d82771ad0b5567356ba953e0d123d86aecdfe07d8e57f6fb9c634a"
+  },
+  "cases": {
+    "reserved": {
+      "N": 43980465111040000001,
+      "budget": "1/10000000",
+      "tail_majorant": "17592186044416/175921860444160000001",
+      "previous_majorant": "17592186044416/175921860444159999997",
+      "integer_margin": 1,
+      "previous_integer_margin": -3,
+      "loop_accumulations": 43980465111040000001,
+      "required_total_cap": 100000000
+    },
+    "whole": {
+      "N": 4398046511104000001,
+      "budget": "1/1000000",
+      "tail_majorant": "17592186044416/17592186044416000001",
+      "previous_majorant": "17592186044416/17592186044415999997",
+      "integer_margin": 1,
+      "previous_integer_margin": -3,
+      "loop_accumulations": 4398046511104000001,
+      "required_total_cap": 100000000
+    }
+  },
+  "checks": [
+    {
+      "name": "witness pin",
+      "passed": true
+    },
+    {
+      "name": "original witness fields",
+      "passed": true
+    },
+    {
+      "name": "A and B",
+      "passed": true
+    },
+    {
+      "name": "translation majorant beats uniform-TV majorant",
+      "passed": true
+    },
+    {
+      "name": "reserved: numerator divisible by four",
+      "passed": true
+    },
+    {
+      "name": "reserved: integer minimality margins",
+      "passed": true
+    },
+    {
+      "name": "reserved: printed cutoff",
+      "passed": true
+    },
+    {
+      "name": "reserved: exact budget bracket",
+      "passed": true
+    },
+    {
+      "name": "reserved: fixed-loop work exceeds total cap",
+      "passed": true
+    },
+    {
+      "name": "whole: numerator divisible by four",
+      "passed": true
+    },
+    {
+      "name": "whole: integer minimality margins",
+      "passed": true
+    },
+    {
+      "name": "whole: printed cutoff",
+      "passed": true
+    },
+    {
+      "name": "whole: exact budget bracket",
+      "passed": true
+    },
+    {
+      "name": "whole: fixed-loop work exceeds total cap",
+      "passed": true
+    },
+    {
+      "name": "all original cutoff fields independently match",
+      "passed": true
+    },
+    {
+      "name": "all original work fields independently match",
+      "passed": true
+    },
+    {
+      "name": "tail and remaining budgets add to total",
+      "passed": true
+    },
+    {
+      "name": "original eleven checks report success",
+      "passed": true
+    },
+    {
+      "name": "original certificate disclaims proof and scalar evaluation",
+      "passed": true
+    },
+    {
+      "name": "original artifacts unchanged",
+      "passed": true
+    }
+  ],
+  "failed_checks": [],
+  "unpaid": [
+    "density quadrature and every mixed term",
+    "512-mode and 334-shift preparation",
+    "full K14 evaluation and exact projection coefficient enclosures",
+    "location uncertainties and coincident-node handling",
+    "local scalar or linear-kernel term",
+    "sweeps and elementary evaluations",
+    "rounding and cancellation",
+    "precision",
+    "byte storage"
+  ],
+  "target_failures": [
+    "selected sufficient outer loop exceeds 1e8 before any density preparation",
+    "complete error, precision and storage ledger not obtained"
+  ],
+  "analytic_proof_verified_by_script": false,
+  "scalar_sweep_or_gram_evaluated": false,
+  "actual_small_N_error_lower_bound": false,
+  "general_complexity_lower_bound": false
+}

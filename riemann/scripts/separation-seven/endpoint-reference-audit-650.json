@@ -1,0 +1,160 @@
+{
+  "step": "2026-11-12-fixed-endpoint-conceptual-audit-650",
+  "source": "scripts/separation-seven/endpoint-reference-648.json",
+  "source_sha256": "77ff397acbfaf8d540005c69fd14b0248d461424d5a271ee8f9ae1917d80ceb2",
+  "method": "complete Fraction endpoint verification; independent120-term log enclosure",
+  "qualification": "C999k .239999 floor assumed under its original contracts, not replayed",
+  "checks": [
+    {
+      "name": "a: ordered exact rational endpoints",
+      "pass": true
+    },
+    {
+      "name": "a: outward decimal display",
+      "pass": true
+    },
+    {
+      "name": "root_3_1_8: ordered exact rational endpoints",
+      "pass": true
+    },
+    {
+      "name": "root_3_1_8: outward decimal display",
+      "pass": true
+    },
+    {
+      "name": "Ca: ordered exact rational endpoints",
+      "pass": true
+    },
+    {
+      "name": "Ca: outward decimal display",
+      "pass": true
+    },
+    {
+      "name": "m_rule: ordered exact rational endpoints",
+      "pass": true
+    },
+    {
+      "name": "m_rule: outward decimal display",
+      "pass": true
+    },
+    {
+      "name": "tail_J13: ordered exact rational endpoints",
+      "pass": true
+    },
+    {
+      "name": "tail_J13: outward decimal display",
+      "pass": true
+    },
+    {
+      "name": "tail_J14: ordered exact rational endpoints",
+      "pass": true
+    },
+    {
+      "name": "tail_J14: outward decimal display",
+      "pass": true
+    },
+    {
+      "name": "eta: ordered exact rational endpoints",
+      "pass": true
+    },
+    {
+      "name": "eta: outward decimal display",
+      "pass": true
+    },
+    {
+      "name": "inherited_floor_minus_delta_minus_eta: ordered exact rational endpoints",
+      "pass": true
+    },
+    {
+      "name": "inherited_floor_minus_delta_minus_eta: outward decimal display",
+      "pass": true
+    },
+    {
+      "name": "a: complete enclosure",
+      "pass": true
+    },
+    {
+      "name": "root: exact eighth powers straddle3",
+      "pass": true
+    },
+    {
+      "name": "Ca: complete enclosure",
+      "pass": true
+    },
+    {
+      "name": "m_rule: complete enclosure",
+      "pass": true
+    },
+    {
+      "name": "tail_J13: complete enclosure",
+      "pass": true
+    },
+    {
+      "name": "tail_J14: complete enclosure",
+      "pass": true
+    },
+    {
+      "name": "eta: complete enclosure",
+      "pass": true
+    },
+    {
+      "name": "inherited_floor_minus_delta_minus_eta: complete enclosure",
+      "pass": true
+    },
+    {
+      "name": "fixed parameters retained",
+      "pass": true
+    },
+    {
+      "name": "minimal m: 285 < rule < 286",
+      "pass": true
+    },
+    {
+      "name": "minimal J: 13 fails and14 pays",
+      "pass": true
+    },
+    {
+      "name": "eta below stated decimal and .01",
+      "pass": true
+    },
+    {
+      "name": "strict improved floor",
+      "pass": true
+    },
+    {
+      "name": "coarse floor from two delta losses",
+      "pass": true
+    },
+    {
+      "name": "inverse norm threshold",
+      "pass": true
+    },
+    {
+      "name": "six original checks and no failures",
+      "pass": true
+    },
+    {
+      "name": "input preserved",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "checks_passed": 33,
+    "checks_total": 33,
+    "m_rule": [
+      "285.707449317353390",
+      "285.707449317353391"
+    ],
+    "m_required": "(285,286)",
+    "tail_J13_lower": "0.00747183145260114838",
+    "tail_J14_upper": "0.00431386390049878553",
+    "tail_required": ".005",
+    "eta_upper": "0.00930874937807489374",
+    "eta_required": ".01",
+    "floor_lower": "0.220690250621925106",
+    "coarse_floor": ".219999",
+    "inverse_norm_upper": "4.546",
+    "failures": []
+  }
+}

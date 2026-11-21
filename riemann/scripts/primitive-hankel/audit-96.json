@@ -1,0 +1,81 @@
+{
+  "scope": "L876 fixed operator only; proof and interval-code inspection recorded in canonical lemma",
+  "source_sha256": "d234110efc71d42ddc58c076e242ebc5af8d7c91e15f60f7f51be1dacc1ff267",
+  "original_certificate_sha256": "b833403f397670650e8a2db294300f29c403ec5687a203345dfb87c28b68db02",
+  "replay_certificate": "scripts/primitive-hankel/coefficient-replay-96.json",
+  "checks": {
+    "replay_exit_success": true,
+    "original_certificate_preserved": true,
+    "complete_replay_equals_original": true,
+    "all_recorded_scalar_intervals_positive_ordered": true,
+    "S1_rational_enclosure": true,
+    "S2_positive_numerator": true,
+    "S2_rational_enclosure": true,
+    "c_rational_enclosure": true,
+    "TrA2_rational_enclosure": true,
+    "purity_lower_direction": true,
+    "residual_rational_enclosure": true,
+    "strict_claimed_residual_bounds": true,
+    "displayed_M0_outward": true,
+    "displayed_M2_outward": true,
+    "displayed_M4_outward": true,
+    "displayed_TrA_outward": true,
+    "displayed_J_outward": true,
+    "displayed_S1_outward": true,
+    "displayed_S2_outward": true,
+    "displayed_lower_fraction_exact": true,
+    "displayed_upper_fraction_exact": true,
+    "displayed_rational_margins_strict": true,
+    "pi_exact_alternating_enclosure": true,
+    "moment_0_tail_added_outward": true,
+    "moment_0_tail_cap": true,
+    "moment_2_tail_added_outward": true,
+    "moment_2_tail_cap": true,
+    "moment_4_tail_added_outward": true,
+    "moment_4_tail_cap": true,
+    "trace_tail_cap": true,
+    "mesh_and_trial_corners": true,
+    "no_certificate_failures": true
+  },
+  "exact_simple_bounds": [
+    "852706518689149/4000000000000000000",
+    "315312958861/625000000000000"
+  ],
+  "exact_simple_margins": [
+    "26518689149/4000000000000000000",
+    "5791139/625000000000000"
+  ],
+  "residual": [
+    "0.00021317713723842147890060417884109525923618063141887",
+    "0.00050450059387843903635256483520718100212857894460642"
+  ],
+  "required_threshold": "0",
+  "claimed_strict_bounds": [
+    "0.00021317",
+    "0.00050451"
+  ],
+  "failures": [],
+  "decision": "REPEATED_AUDIT_CHECKS_PASS",
+  "qualification": "Replay and rational checks complement, and do not replace, analytic and implementation audit; no RH conclusion; step26 and step31 already verified this result; no new evidence or mathematical advance",
+  "repeated_audit": true,
+  "preserved_inputs_sha256": {
+    "coefficient-test-24.py": "d234110efc71d42ddc58c076e242ebc5af8d7c91e15f60f7f51be1dacc1ff267",
+    "coefficient-test-24.json": "b833403f397670650e8a2db294300f29c403ec5687a203345dfb87c28b68db02",
+    "audit-26.py": "8cecd8e84d2bc1599a817ae8f7f767f0ffc00f4192e62606f1bdf50624fb6ad4",
+    "audit-26.json": "86cc82cbbc4cca00bafeba2e10a603aa9dbd68da0e869618f5348f050f42753a",
+    "coefficient-replay-26.json": "b833403f397670650e8a2db294300f29c403ec5687a203345dfb87c28b68db02",
+    "audit-31.py": "25b8191b12cc97fd96d3105168098c5245461847434606711ea15a87288d3831",
+    "audit-31.json": "fc6ba962c2bb5264589a6ee1fcd25d9ca9c2f2c3c0d2cb54945633f5f385ef14",
+    "coefficient-replay-31.json": "b833403f397670650e8a2db294300f29c403ec5687a203345dfb87c28b68db02"
+  },
+  "preserved_input_checks": {
+    "coefficient-test-24.py": true,
+    "coefficient-test-24.json": true,
+    "audit-26.py": true,
+    "audit-26.json": true,
+    "coefficient-replay-26.json": true,
+    "audit-31.py": true,
+    "audit-31.json": true,
+    "coefficient-replay-31.json": true
+  }
+}

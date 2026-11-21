@@ -1,0 +1,60 @@
+{
+  "method": "Exact Fraction arithmetic for C744j elementary comparisons",
+  "qualification": "Uses the named Archimedes bound pi<22/7 and standard series identities justified in C744j; certifies only the complementary floor.",
+  "checks": {
+    "log2_lower": true,
+    "log2_upper": true,
+    "h64_upper": true,
+    "gamma_upper": true,
+    "ell_upper": true,
+    "log_pi_ell_upper": true,
+    "sqrt2_upper": true,
+    "tail_constant_upper": true,
+    "h257_lower": true,
+    "moment_graph_tail_upper": true,
+    "positive_complement_floor": true
+  },
+  "values": {
+    "H64": {
+      "numerator": "623171679694215690971693339",
+      "denominator": "131362987122535807501262400"
+    },
+    "H257": {
+      "numerator": "26261600272461085793732316940604414546118054871536423020699189604989105713889682724546651510161895949551626985769",
+      "denominator": "4285344137372231566616365249206531035019473398789780525438551598725494569614018464395658307122505077932281312000"
+    },
+    "log2_partial": {
+      "numerator": "4297606",
+      "denominator": "6200145"
+    },
+    "log2_tail_upper": {
+      "numerator": "1",
+      "denominator": "866052"
+    },
+    "exp_1_1_partial": {
+      "numerator": "36015101",
+      "denominator": "12000000"
+    },
+    "exp_0_55_partial": {
+      "numerator": "79868149681",
+      "denominator": "46080000000"
+    },
+    "c_upper": {
+      "numerator": "3778857",
+      "denominator": "700000"
+    },
+    "epsilon_squared_upper": {
+      "numerator": "37080",
+      "denominator": "4900004595105023970168165329315783018995194797519941525630246128397967351561555822233049111195156200871342039423472216722364775782748549612543113089855825775534587111347742682643401694217950780431576751460691932236768436377964057769396419502689686804675563042603352644951000632100887689704421678309828540256319449468777208253982563381663306138080010315582975301591634756416466131330399649466232497698903794875327629016892028641587201"
+    },
+    "tail_floor_lower": {
+      "numerator": "36223",
+      "denominator": "50000"
+    },
+    "required_floor": {
+      "numerator": "18",
+      "denominator": "25"
+    }
+  },
+  "failed_checks": []
+}

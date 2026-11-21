@@ -1,0 +1,142 @@
+{
+  "step": "2026-11-11-centered-taylor-band-obstruction-367",
+  "scope": "Exact rational margins only; C997r supplies the all-n proof and imported uniform bulk theorem.",
+  "checks": {
+    "exp_5_06_upper": {
+      "actual": "4026275/24064",
+      "relation": "<",
+      "required": "168",
+      "passed": true
+    },
+    "rho_positive_margin": {
+      "actual": "1/400",
+      "relation": "=",
+      "required": "1/400",
+      "passed": true
+    },
+    "e_series_upper": {
+      "actual": "49/18",
+      "relation": "<",
+      "required": "11/4",
+      "passed": true
+    },
+    "window_modulus_floor": {
+      "actual": "136896555435/4398046511104",
+      "relation": ">",
+      "required": "31/1000",
+      "passed": true
+    },
+    "upper_theta": {
+      "actual": "16401/524288",
+      "relation": "<",
+      "required": "1/16",
+      "passed": true
+    },
+    "moving_c_lower": {
+      "actual": "4351/2048",
+      "relation": ">",
+      "required": "53/25",
+      "passed": true
+    },
+    "previous_term_ratio": {
+      "actual": "250/651",
+      "relation": "=",
+      "required": "250/651",
+      "passed": true
+    },
+    "tail_disk_radius": {
+      "actual": "250/401",
+      "relation": "=",
+      "required": "250/401",
+      "passed": true
+    },
+    "tail_modulus_floor": {
+      "actual": "151/401",
+      "relation": "=",
+      "required": "151/401",
+      "passed": true
+    },
+    "sine_disk_angle_margin": {
+      "actual": "3857/6000",
+      "relation": ">",
+      "required": "250/401",
+      "passed": true
+    },
+    "carrier_phase_lower": {
+      "actual": "159/20",
+      "relation": ">",
+      "required": "79/10",
+      "passed": true
+    },
+    "carrier_phase_upper": {
+      "actual": "6137/768",
+      "relation": "<",
+      "required": "8",
+      "passed": true
+    },
+    "phase_lower": {
+      "actual": "13/2",
+      "relation": "=",
+      "required": "13/2",
+      "passed": true
+    },
+    "phase_upper": {
+      "actual": "47/5",
+      "relation": "=",
+      "required": "47/5",
+      "passed": true
+    },
+    "distance_above_2pi": {
+      "actual": "3/14",
+      "relation": ">",
+      "required": "1/50",
+      "passed": true
+    },
+    "distance_below_3pi": {
+      "actual": "1/50",
+      "relation": "=",
+      "required": "1/50",
+      "passed": true
+    },
+    "phase_sine_floor": {
+      "actual": "14999/750000",
+      "relation": ">",
+      "required": "1/100",
+      "passed": true
+    },
+    "bulk_phase_derivative_squared": {
+      "actual": "15/68",
+      "relation": ">",
+      "required": "4/25",
+      "passed": true
+    },
+    "peak_phase_length": {
+      "actual": "32/5",
+      "relation": ">",
+      "required": "44/7",
+      "passed": true
+    },
+    "weighted_growth_rate": {
+      "actual": "1/64",
+      "relation": "=",
+      "required": "1/64",
+      "passed": true
+    },
+    "moving_point_exponent_loss": {
+      "actual": "2",
+      "relation": "=",
+      "required": "2",
+      "passed": true
+    }
+  },
+  "thresholds": {
+    "required_tv": "subexponential in n for the same measures",
+    "actual_high_order_tv_lower": "7 exp(rho*n)/(10 e n), rho=(log168-5)/24>1/400, m>=n/24",
+    "required_defect": "O(exp(-n/64))",
+    "actual_low_order_defect_lower": "c n^(-3/2) exp(n/64), m<n/24, eventually uniformly in m",
+    "boundary": "Retained; not estimated, since TV or complete D already violates simultaneous admissibility.",
+    "full_grid_family": "Unresolved; only the fixed centered Taylor rule is excluded."
+  },
+  "failures": [],
+  "passed": true
+}

@@ -1,0 +1,104 @@
+{
+  "scope": "Exact univariate rational identities from Q_j and sign polynomials; analytic claims audited in C034d.",
+  "method": "Integer polynomial cross multiplication; t=x^2; spatial second derivative is 2*d_t+4*t*d_t^2.",
+  "implementation_repair": "First execution stopped before any check or certificate with TypeError on int/Rat; added reflected division. No mathematical failure was inferred.",
+  "identity_difference_numerators": {
+    "Q1_partial_fractions": [
+      0
+    ],
+    "Q1_second_derivative": [
+      0
+    ],
+    "Q2_partial_fractions": [
+      0
+    ],
+    "Q2_second_derivative": [
+      0
+    ],
+    "D_primitive_derivative": [
+      0
+    ],
+    "D_regular_formula": [
+      0
+    ],
+    "r_formula": [
+      0
+    ],
+    "ell_formula": [
+      0
+    ],
+    "s_formula": [
+      0
+    ],
+    "log_r_derivative": [
+      0
+    ],
+    "ell_derivative": [
+      0
+    ],
+    "s_minus_r": [
+      0
+    ]
+  },
+  "sign_coefficients_ascending": {
+    "ell_derivative_without_6": [
+      -1,
+      -10,
+      -36,
+      -48,
+      -21,
+      -30,
+      -30
+    ],
+    "r_derivative_shifted": [
+      22,
+      39,
+      15
+    ],
+    "s_minus_r_inner": [
+      0,
+      4,
+      12,
+      -43,
+      -114,
+      -55
+    ],
+    "s_minus_r_inner_shifted": [
+      -196,
+      -832,
+      -1351,
+      -1049,
+      -389,
+      -55
+    ]
+  },
+  "corner": {
+    "Q1": "4",
+    "Q2": "40/9",
+    "Q1_second": "30",
+    "Q2_second": "704/27",
+    "K": "-784/27"
+  },
+  "checks": {
+    "Q1_partial_fractions": true,
+    "Q1_second_derivative": true,
+    "Q2_partial_fractions": true,
+    "Q2_second_derivative": true,
+    "D_primitive_derivative": true,
+    "D_regular_formula": true,
+    "r_formula": true,
+    "ell_formula": true,
+    "s_formula": true,
+    "log_r_derivative": true,
+    "ell_derivative": true,
+    "s_minus_r": true,
+    "ell_derivative_all_coefficients_negative": true,
+    "r_derivative_shift_all_coefficients_positive": true,
+    "s_minus_r_shift_all_coefficients_negative": true,
+    "kernel_corner": true
+  },
+  "failures": [],
+  "actual_bound": "K(x,y)<0 on [1,infinity)^2; C<=R+2 integral integral p_+(x)p_-(y)(-K(x,y)).",
+  "required_bound": "R+2 integral integral p_+(x)p_-(y)(-K(x,y))<=S4^3/5 for all sigma in [1,2].",
+  "threshold_certified": false
+}

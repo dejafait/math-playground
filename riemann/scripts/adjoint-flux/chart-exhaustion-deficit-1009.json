@@ -1,0 +1,364 @@
+{
+  "step_id": "2026-11-15-actual-h-chart-exhaustion-mass-deficit-1009",
+  "lemma": "lemmas/C467d-actual-h-chart-exhaustion-mass-deficit.md",
+  "scope": "Exact finite rational inequalities only; no analytic or independent proof audit.",
+  "analytic_premises_not_verified_by_script": [
+    "Audited actual background bound and radial contraction on original survivors.",
+    "Full real exterior-growth estimate, singular-force inequality and complex determinant comparison.",
+    "Full survivor phase cone and complete time-dependent representative balance.",
+    "Initial domination, homogeneity, and the elementary exponential/cosine inequalities used in the proof.",
+    "All-survivor integration and per-test almost-everywhere raw identification."
+  ],
+  "parameters": {
+    "a": {
+      "numerator": 1,
+      "denominator": 16
+    },
+    "T0": {
+      "numerator": 1,
+      "denominator": 1920
+    },
+    "k0": 1000000,
+    "inner_scale": {
+      "numerator": 999,
+      "denominator": 1000
+    },
+    "phase_budget": {
+      "numerator": 15,
+      "denominator": 64
+    }
+  },
+  "bounds": {
+    "decay_rate_actual_lower": {
+      "numerator": 1343,
+      "denominator": 4
+    },
+    "decay_rate_used": {
+      "numerator": 335,
+      "denominator": 1
+    },
+    "initial_mass_ratio_lower": {
+      "numerator": 47484119,
+      "denominator": 50000000
+    },
+    "initial_mass_ratio_required": {
+      "numerator": 47,
+      "denominator": 50
+    },
+    "capacity_ratio_upper": {
+      "numerator": 768,
+      "denominator": 835
+    },
+    "capacity_ratio_required": {
+      "numerator": 23,
+      "denominator": 25
+    },
+    "threshold_gap": {
+      "numerator": 1,
+      "denominator": 50
+    }
+  },
+  "checks": [
+    {
+      "name": "norm_squared",
+      "actual": {
+        "numerator": 3,
+        "denominator": 256
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 3,
+        "denominator": 256
+      },
+      "passed": true
+    },
+    {
+      "name": "radial_derivative_at_largest_initial_level",
+      "actual": {
+        "numerator": -177,
+        "denominator": 16
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "background_squared",
+      "actual": {
+        "numerator": 75,
+        "denominator": 4
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 75,
+        "denominator": 4
+      },
+      "passed": true
+    },
+    {
+      "name": "pair_squared_distance_sum",
+      "actual": {
+        "numerator": 9,
+        "denominator": 256
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 9,
+        "denominator": 256
+      },
+      "passed": true
+    },
+    {
+      "name": "inverse_pair_sum_floor",
+      "actual": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 256,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "weighted_decay_rate",
+      "actual": {
+        "numerator": 1343,
+        "denominator": 4
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 1343,
+        "denominator": 4
+      },
+      "passed": true
+    },
+    {
+      "name": "chosen_decay_rate",
+      "actual": {
+        "numerator": 1343,
+        "denominator": 4
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 335,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "inner_cube_inside_initial_support",
+      "actual": {
+        "numerator": 1000,
+        "denominator": 1001
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "bump_denominator_floor",
+      "actual": {
+        "numerator": 2001,
+        "denominator": 1002001
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 1000
+      },
+      "passed": true
+    },
+    {
+      "name": "bump_exponent_cap",
+      "actual": {
+        "numerator": 3,
+        "denominator": 1000
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 3,
+        "denominator": 1000
+      },
+      "passed": true
+    },
+    {
+      "name": "bump_floor",
+      "actual": {
+        "numerator": 997,
+        "denominator": 1000
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 997,
+        "denominator": 1000
+      },
+      "passed": true
+    },
+    {
+      "name": "phase_floor",
+      "actual": {
+        "numerator": 7967,
+        "denominator": 8192
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 97,
+        "denominator": 100
+      },
+      "passed": true
+    },
+    {
+      "name": "geometric_exponential_majorant_domain",
+      "actual": {
+        "numerator": 15,
+        "denominator": 32
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "geometric_exponential_majorant",
+      "actual": {
+        "numerator": 32,
+        "denominator": 17
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 32,
+        "denominator": 17
+      },
+      "passed": true
+    },
+    {
+      "name": "exponential_ratio_cap",
+      "actual": {
+        "numerator": 32,
+        "denominator": 17
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "homogeneous_boundary_loss",
+      "actual": {
+        "numerator": 8964083874125916035991001,
+        "denominator": 1000000000000000000000000000
+      },
+      "relation": "<=",
+      "required": {
+        "numerator": 9,
+        "denominator": 1000
+      },
+      "passed": true
+    },
+    {
+      "name": "initial_ratio_floor_value",
+      "actual": {
+        "numerator": 47484119,
+        "denominator": 50000000
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 47484119,
+        "denominator": 50000000
+      },
+      "passed": true
+    },
+    {
+      "name": "initial_mass_threshold",
+      "actual": {
+        "numerator": 47484119,
+        "denominator": 50000000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 47,
+        "denominator": 50
+      },
+      "passed": true
+    },
+    {
+      "name": "capacity_ratio_value",
+      "actual": {
+        "numerator": 768,
+        "denominator": 835
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 768,
+        "denominator": 835
+      },
+      "passed": true
+    },
+    {
+      "name": "capacity_threshold",
+      "actual": {
+        "numerator": 768,
+        "denominator": 835
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 23,
+        "denominator": 25
+      },
+      "passed": true
+    },
+    {
+      "name": "threshold_separation",
+      "actual": {
+        "numerator": 1,
+        "denominator": 50
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 1,
+        "denominator": 50
+      },
+      "passed": true
+    },
+    {
+      "name": "strict_separation",
+      "actual": {
+        "numerator": 249847873,
+        "denominator": 8350000000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "positive_measure_time_interval",
+      "actual": {
+        "numerator": 1,
+        "denominator": 3840
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "all_passed": true
+}

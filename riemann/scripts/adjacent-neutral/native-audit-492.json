@@ -1,0 +1,114 @@
+{
+  "scope": "Exhaustive native input/product audit and full finite-sign reconstruction; shared GMP and reviewed scalar/action formulas.",
+  "source_sha256": {
+    "reverse-gram-492.c": "c7122356ef6368f1e95fbb8fa4d5dc7a3dbcbfdba854630e25539a32765689de",
+    "interval-projection-489.c": "170fbc857a2e94f70661246babeee957b0d50f11e74cc78790634d7194340a11",
+    "native-audit-492.py": "0c427e397b10d305d452bb4c74fe08a9b85c069ddcf5737393965e09387c1123",
+    "full-matrix-enclosure-489.py": "409625f93174b0b8d1e5e2f5bcdc64c86d96a525883f64f0e5851b4237280d6e",
+    "matrix-enclosure-487.py": "171fc5945b35e169bd24a5a3b0f68fc3dd2ddcfeda702b204be0a8344dbff760",
+    "power-log-enclosure-486.py": "ad11370a04bdb542b2d7c9fc2a9a6e97ef78b9334a238e229b5d9e18bb4b05ff"
+  },
+  "prior_255_columns_bound": true,
+  "native_input_integers_compared": 3922920,
+  "fresh_midpoint_products_compared": 195840,
+  "pieces": [
+    {
+      "sign": -1,
+      "piece": 0,
+      "evidence": "native-audit-492/piece--1-0.json"
+    },
+    {
+      "sign": -1,
+      "piece": 1,
+      "evidence": "native-audit-492/piece--1-1.json"
+    },
+    {
+      "sign": -1,
+      "piece": 2,
+      "evidence": "native-audit-492/piece--1-2.json"
+    },
+    {
+      "sign": 1,
+      "piece": 0,
+      "evidence": "native-audit-492/piece-1-0.json"
+    },
+    {
+      "sign": 1,
+      "piece": 1,
+      "evidence": "native-audit-492/piece-1-1.json"
+    },
+    {
+      "sign": 1,
+      "piece": 2,
+      "evidence": "native-audit-492/piece-1-2.json"
+    }
+  ],
+  "signs": [
+    {
+      "sign": -1,
+      "checks": {
+        "indices": true,
+        "all_projection_endpoints": true,
+        "all_257_projection_rows": true,
+        "every_gram_endpoint": true,
+        "every_head_endpoint": true,
+        "every_covariance_endpoint": true,
+        "every_schur_endpoint": true,
+        "symmetric_complete_matrix": true,
+        "matrix_width_below_1e_minus_30": true,
+        "exact_old_width": true,
+        "all_255_fresh_shifted_pivots_positive": true
+      },
+      "finite_lower_bound": {
+        "numerator": 1,
+        "denominator": 25
+      },
+      "maximum_matrix_interval_width": {
+        "numerator": "29",
+        "denominator": "6703903964971298549787012499102923063739682910296196688861780721860882015036773488400937149083451713845015929093243025426876941405973284973216824503042048"
+      },
+      "minimum_fresh_pivot_lower": {
+        "numerator": "3952563219772914797304712327835863609674944789415640318045572265642892063437245757858247427037926662448946026570300890862078186086066234432116825902722789",
+        "denominator": "13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096"
+      },
+      "finite_certificate_sha256": "ff0ca3f1a283c2927eb563dd101ac382250cc7a9da3b2c126d20c347f300286c",
+      "failures": []
+    },
+    {
+      "sign": 1,
+      "checks": {
+        "indices": true,
+        "all_projection_endpoints": true,
+        "all_257_projection_rows": true,
+        "every_gram_endpoint": true,
+        "every_head_endpoint": true,
+        "every_covariance_endpoint": true,
+        "every_schur_endpoint": true,
+        "symmetric_complete_matrix": true,
+        "matrix_width_below_1e_minus_30": true,
+        "exact_old_width": true,
+        "all_255_fresh_shifted_pivots_positive": true
+      },
+      "finite_lower_bound": {
+        "numerator": 1,
+        "denominator": 25
+      },
+      "maximum_matrix_interval_width": {
+        "numerator": "59",
+        "denominator": "13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096"
+      },
+      "minimum_fresh_pivot_lower": {
+        "numerator": "8704727279784116232754406623491191114138452756680402464410916288588806003595748905176896761654086990634238664925402342898881139946183377290311818027639907",
+        "denominator": "13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096"
+      },
+      "finite_certificate_sha256": "95faf79a384822dd5e4d27a9a05cc71d34c5fbfbade31ebee56cbc7cf3587f69",
+      "failures": []
+    }
+  ],
+  "failures": [],
+  "full_finite_two_sign_bound": true,
+  "independent_integer_library": false,
+  "independent_high_level_action_evaluator": false,
+  "rh_conclusion": false,
+  "elapsed_seconds": 221.45212133298628
+}

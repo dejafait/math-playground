@@ -1,0 +1,43 @@
+{
+  "purpose": "Certified C-interface access prerequisite, not a root or Gram certificate",
+  "compile": {
+    "argv": [
+      "/usr/bin/clang",
+      "-I/opt/homebrew/include",
+      "-I/opt/homebrew/include/flint",
+      "-L/opt/homebrew/lib",
+      "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/hedenmalm/c-interface-probe-153/probe.c",
+      "-larb",
+      "-lflint",
+      "-lmpfr",
+      "-lgmp",
+      "-o",
+      "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/hedenmalm/c-interface-probe-153/probe"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/hedenmalm/c-interface-probe-153/probe.c:1:10: fatal error: 'acb.h' file not found\n    1 | #include <acb.h>\n      |          ^~~~~~~\n1 error generated.\n"
+  },
+  "source_download": {
+    "argv": [
+      "/usr/bin/curl",
+      "--fail",
+      "--location",
+      "--connect-timeout",
+      "5",
+      "--max-time",
+      "20",
+      "--output",
+      "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/hedenmalm/c-interface-probe-153/arb-2.23.0.tar.gz",
+      "https://github.com/fredrik-johansson/arb/archive/refs/tags/2.23.0.tar.gz"
+    ],
+    "exit_code": 6,
+    "stdout": "",
+    "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: github.com\n"
+  },
+  "numerical_precision_passes": 0,
+  "root_certificate": false,
+  "gram_certificate": false,
+  "required": "Working rigorous indexed-zero and ball integration implementation before a 128-bit pass",
+  "mathematical_conclusion": "None; no claim about the Gram entry or RH"
+}

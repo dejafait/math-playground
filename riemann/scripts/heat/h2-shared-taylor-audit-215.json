@@ -1,0 +1,133 @@
+{
+  "status": "passed",
+  "checks": {
+    "producer:scripts/heat/h2-shared-taylor-213.py": true,
+    "producer:scripts/heat/low-time-h2-uniform-195.py": true,
+    "producer:scripts/hankel/certify_hankel.py": true,
+    "prior_replay:scripts/heat/h2-shared-taylor-213.json": true,
+    "prior_replay:scripts/heat/h2-shared-taylor-check-213.py": true,
+    "prior_replay:scripts/heat/h2-shared-taylor-213.py": true,
+    "prior_replay:scripts/heat/low-time-h2-uniform-195.py": true,
+    "prior_replay:scripts/hankel/certify_hankel.py": true,
+    "fixed_budget": true,
+    "source_status": true,
+    "prior_status": true,
+    "complete_replay_equal_to_prior": true,
+    "all_trace_nodes_have_three_coefficients": true,
+    "seven_even_seeds": true,
+    "six_log_coefficients": true,
+    "seven_q_coefficients": true,
+    "three_minors": true,
+    "q_zero_is_one": true,
+    "minor_summary_includes_model_1": true,
+    "minor_summary_includes_model_2": true,
+    "minor_summary_includes_model_3": true,
+    "minor_1_positive": true,
+    "minor_2_positive": true,
+    "final_polynomial_summary": true,
+    "final_remainder_summary": true,
+    "mass_summary": true,
+    "mass_threshold": true,
+    "saved_final_inclusion": true,
+    "saved_final_threshold": true,
+    "saved_final_matches_minor": true,
+    "constant_coefficient_contains_zero": true,
+    "remainder_threshold": true,
+    "spatial_tail_threshold": true,
+    "total_tail_threshold": true,
+    "center_ten_even_moments": true,
+    "center_all_moments_positive": true,
+    "right_ten_even_moments": true,
+    "right_all_moments_positive": true,
+    "fresh_contexts_match_saved": true,
+    "fresh_context_contracts": true,
+    "all_preserved_artifacts_unchanged": true
+  },
+  "failures": [],
+  "python": "3.15.2",
+  "scope": "Complete L922 fixed-budget validity audit; Decimal correctness assumed",
+  "replay": "scripts/heat/h2-shared-taylor-audit-replay-215.json",
+  "fresh_arithmetic": {
+    "DOWN": {
+      "precision": 100,
+      "rounding": "ROUND_FLOOR",
+      "traps": {
+        "DivisionByZero": true,
+        "InvalidOperation": true,
+        "Overflow": true,
+        "Underflow": true,
+        "Subnormal": true
+      },
+      "exceptional_flags": {
+        "DivisionByZero": false,
+        "InvalidOperation": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false
+      }
+    },
+    "UP": {
+      "precision": 100,
+      "rounding": "ROUND_CEILING",
+      "traps": {
+        "DivisionByZero": true,
+        "InvalidOperation": true,
+        "Overflow": true,
+        "Underflow": true,
+        "Subnormal": true
+      },
+      "exceptional_flags": {
+        "DivisionByZero": false,
+        "InvalidOperation": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false
+      }
+    },
+    "NEAR": {
+      "precision": 100,
+      "rounding": "ROUND_HALF_EVEN",
+      "traps": {
+        "DivisionByZero": true,
+        "InvalidOperation": true,
+        "Overflow": true,
+        "Underflow": true,
+        "Subnormal": true
+      },
+      "exceptional_flags": {
+        "DivisionByZero": false,
+        "InvalidOperation": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false
+      }
+    }
+  },
+  "preserved_sha256": {
+    "scripts/heat/h2-shared-taylor-213.json": "0a17f04f674aa73e5c1142a7e4fb0242d35c688c1c68919157f002bb0bebe969",
+    "scripts/heat/h2-shared-taylor-check-213.json": "8bd2f30107487130a2b124ebb7703733d2af22b1001bcfdff8198da04fe1ec12",
+    "scripts/heat/h2-shared-taylor-213-first-pass.py": "ff93af4e151b53ecd103185995f128c9af3e6b2c390fbc71bec1a55c9fc3b867",
+    "scripts/heat/h2-shared-taylor-213-first-pass.json": "38c9d6e3814f5ef3ea2698cc185a1edcc6c6d98f95d5aecc2d6b19b03d930ce4"
+  },
+  "input_sha256": {
+    "scripts/heat/h2-shared-taylor-audit-215.py": "35874fcb4a0da7f5f89f9156b9686a67ad5b1fab74820487f677b0946ca454ad",
+    "scripts/heat/h2-shared-taylor-213.json": "0a17f04f674aa73e5c1142a7e4fb0242d35c688c1c68919157f002bb0bebe969",
+    "scripts/heat/h2-shared-taylor-check-213.json": "8bd2f30107487130a2b124ebb7703733d2af22b1001bcfdff8198da04fe1ec12",
+    "scripts/heat/h2-shared-taylor-check-213.py": "b1db965eec7b4c11b96e10eb65325f127ab24c995e1dfc283813c5629c74ed79"
+  },
+  "replay_sha256": "8bd2f30107487130a2b124ebb7703733d2af22b1001bcfdff8198da04fe1ec12",
+  "summary": {
+    "records_replayed": 1280,
+    "moments_replayed": 20,
+    "trace_nodes_replayed": 99,
+    "complete_prior_replay_equal": true,
+    "determinant": {
+      "lower": "-4.481403857580021614632027080489416879553097797204939114366431822557005418922869883665680637530923860E-31",
+      "upper": "1.072238754801675810149770313706688756766995469308162104903701740073199938179040766148657352235764785E-30"
+    },
+    "required": "strictly positive determinant lower endpoint",
+    "sign_test": "inconclusive; fixed-budget stop preserved",
+    "validity_failures": [],
+    "budget_refined": false
+  }
+}

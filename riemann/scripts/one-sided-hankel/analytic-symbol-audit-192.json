@@ -1,0 +1,262 @@
+{
+  "purpose": "Replay equality and exact load-bearing comparisons for the L719--L720 audit.",
+  "script_sha256": "eea7b56f114acc246b2a9f1ba515e48f902a487a576ed678bde925bcdd4c20c3",
+  "input_paths": [
+    "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/one-sided-hankel/analytic-symbol-saddle-certificate-190.json",
+    "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/one-sided-hankel/analytic-symbol-saddle-replay-192.json"
+  ],
+  "input_sha256": [
+    "cfe843397280cf4195cebb5e8bc2c7e39f5997fb996c4601817636b3b0ac19f8",
+    "cfe843397280cf4195cebb5e8bc2c7e39f5997fb996c4601817636b3b0ac19f8"
+  ],
+  "checks": {
+    "complete_certificate_equality": true,
+    "all_moment_rows_present": true,
+    "all_sum_rows_present": true,
+    "original_check_count": true,
+    "reported_failures_empty": true,
+    "all_exact_comparisons": true
+  },
+  "comparisons": [
+    {
+      "name": "x_lower",
+      "actual": {
+        "numerator": 1975643082017193681561268476133169524182715985059112467828133,
+        "denominator": 4917524852080407049777098094638623723379858020288905357346700
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "x_upper",
+      "actual": {
+        "numerator": 662247190704269019460481405513363899939852995225545912488588277,
+        "denominator": 1647370825446936361675327861703938947332252436796783294711144500
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 41,
+        "denominator": 100
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "radius_upper",
+      "actual": {
+        "numerator": 589459737259114797622980178771506571,
+        "denominator": 664613997892457936451903530140172288
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 9,
+        "denominator": 10
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "cosine_lower",
+      "actual": {
+        "numerator": 123319,
+        "denominator": 125000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 9,
+        "denominator": 10
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "s_real_lower",
+      "actual": {
+        "numerator": 1088234915788522402403911044077370112457431463109990524619497707054982419534575332130833048270556084685124722633651003464967940762619629560672923595333,
+        "denominator": 600763972748873552815231442666860140952639737806624795916608564153548800000000000000000000000000000000000000000000000000000000000000000000000000000000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 9,
+        "denominator": 5
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "s_real_upper",
+      "actual": {
+        "numerator": 137300711614589803257216758830437012662648299008822003975424168187321095956455588386757012505981364916611659000255122151382611634794255711291769560349,
+        "denominator": 75095496593609194101903930333357517619079967225828099489576070519193600000000000000000000000000000000000000000000000000000000000000000000000000000000
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 37,
+        "denominator": 20
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "s_imag_lower",
+      "actual": {
+        "numerator": -275048446834518858867643119831711776029804622055632017190942015699425111891469026605242383250153928577828708179806633466475269247084122136542279355073,
+        "denominator": 150190993187218388203807860666715035238159934451656198979152141038387200000000000000000000000000000000000000000000000000000000000000000000000000000000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": -37,
+        "denominator": 20
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "s_imag_upper",
+      "actual": {
+        "numerator": -545011505104939705908374726380395583762765065035597715322133601557811962022716118942434556867045714036310500303821223299070296315932251542192540899229,
+        "denominator": 300381986374436776407615721333430070476319868903312397958304282076774400000000000000000000000000000000000000000000000000000000000000000000000000000000
+      },
+      "relation": "<",
+      "required": {
+        "numerator": -9,
+        "denominator": 5
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "s_radius_squared_lower",
+      "actual": {
+        "numerator": 162,
+        "denominator": 25
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 25,
+        "denominator": 4
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "s_radius_squared_upper",
+      "actual": {
+        "numerator": 1369,
+        "denominator": 200
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 441,
+        "denominator": 64
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "concavity_radius_condition",
+      "actual": {
+        "numerator": 25,
+        "denominator": 4
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 121,
+        "denominator": 64
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "resolvent_radial_separation",
+      "actual": {
+        "numerator": 1,
+        "denominator": 8
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 9
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "angular_hessian_lower",
+      "actual": {
+        "numerator": 3,
+        "denominator": 8
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "lower_arc_cosine_gap",
+      "actual": {
+        "numerator": 41,
+        "denominator": 700
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 20
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "upper_arc_sine_lower_squared",
+      "actual": {
+        "numerator": 3759,
+        "denominator": 10000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 9,
+        "denominator": 25
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "complex_local_s_pole_separation",
+      "actual": {
+        "numerator": 1981,
+        "denominator": 35960
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 20
+      },
+      "passed": true,
+      "matches_report": true
+    },
+    {
+      "name": "quadratic_real_phase_coefficient",
+      "actual": {
+        "numerator": 1681,
+        "denominator": 29400
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 20
+      },
+      "passed": true,
+      "matches_report": true
+    }
+  ],
+  "failures": [],
+  "qualification": "Exact replay and scalar checks only; analytic audit is canonical in L719 Section 7 and L720 Section 5."
+}

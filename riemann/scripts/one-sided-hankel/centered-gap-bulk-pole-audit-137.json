@@ -1,0 +1,228 @@
+{
+  "kind": "L701 complete replay and rational margin audit",
+  "audit_source_sha256": "7185f64d20c8cfd275be3ad6d3224f33ca41c0b43a283eface232112ff30bb59",
+  "original_certificate": "centered-gap-bulk-pole-certificate-135.json",
+  "replay_certificate": "centered-gap-bulk-pole-certificate-replay-137.json",
+  "checks": [
+    {
+      "name": "generator exit",
+      "actual": 0,
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "complete replay",
+      "actual": "2f1a1e0469c041f9c4bcf7cf5ea4963c965dfb6bedcdf16bf1a9ea8da94f30d7",
+      "required": "2f1a1e0469c041f9c4bcf7cf5ea4963c965dfb6bedcdf16bf1a9ea8da94f30d7",
+      "passed": true
+    },
+    {
+      "name": "source hash",
+      "actual": "e218e1d12ec7ef1bfba0012d3c91402bd1e2d5fd8b351b1b6f0113ec49c56623",
+      "required": "e218e1d12ec7ef1bfba0012d3c91402bd1e2d5fd8b351b1b6f0113ec49c56623",
+      "passed": true
+    },
+    {
+      "name": "original artifacts preserved",
+      "actual": "byte comparison",
+      "required": "both unchanged",
+      "passed": true
+    },
+    {
+      "name": "generator failures",
+      "actual": [],
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "Machin tangent",
+      "actual": "1",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "log record count",
+      "actual": 4,
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "log(v) exact transform/tail",
+      "actual": {
+        "input": [
+          "625/1412",
+          "225/1412"
+        ],
+        "norm2": "949/5949",
+        "tail": "5316911983139663491615228241121378304/362397077149410294099991265617770349679180918220133306457535"
+      },
+      "required": {
+        "input": [
+          "625/1412",
+          "225/1412"
+        ],
+        "norm2": "949/5949",
+        "terms": 60,
+        "q0": "2/3"
+      },
+      "passed": true
+    },
+    {
+      "name": "log(1-v) exact transform/tail",
+      "actual": {
+        "input": [
+          "787/1412",
+          "-225/1412"
+        ],
+        "norm2": "625/6921",
+        "tail": "5316911983139663491615228241121378304/362397077149410294099991265617770349679180918220133306457535"
+      },
+      "required": {
+        "input": [
+          "787/1412",
+          "-225/1412"
+        ],
+        "norm2": "625/6921",
+        "terms": 60,
+        "q0": "2/3"
+      },
+      "passed": true
+    },
+    {
+      "name": "log(1-v/U) exact transform/tail",
+      "actual": {
+        "input": [
+          "32713/42713",
+          "-3600/42713"
+        ],
+        "norm2": "80000/4038273",
+        "tail": "5316911983139663491615228241121378304/362397077149410294099991265617770349679180918220133306457535"
+      },
+      "required": {
+        "input": [
+          "32713/42713",
+          "-3600/42713"
+        ],
+        "norm2": "80000/4038273",
+        "terms": 60,
+        "q0": "2/3"
+      },
+      "passed": true
+    },
+    {
+      "name": "log(1-1/(2U)) exact transform/tail",
+      "actual": {
+        "input": [
+          "89/121",
+          "0"
+        ],
+        "norm2": "256/11025",
+        "tail": "5316911983139663491615228241121378304/362397077149410294099991265617770349679180918220133306457535"
+      },
+      "required": {
+        "input": [
+          "89/121",
+          "0"
+        ],
+        "norm2": "256/11025",
+        "terms": 60,
+        "q0": "2/3"
+      },
+      "passed": true
+    },
+    {
+      "name": "b real enclosure",
+      "actual": [
+        "0.564657023002610626211448059671",
+        "0.564657023002610626212165526204"
+      ],
+      "required": [
+        "0.564000000000000000000000000000",
+        "0.566000000000000000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "name": "b imag enclosure",
+      "actual": [
+        "-2.176165166114707541732494307811",
+        "-2.176165166114707541731998747858"
+      ],
+      "required": [
+        "-2.177000000000000000000000000000",
+        "-2.175000000000000000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "name": "phase nonresonance",
+      "actual": [
+        "-5.256152813691894367474429990810",
+        "-5.256152813691894367473817888519"
+      ],
+      "required": "(-5.257,-5.255)",
+      "passed": true
+    },
+    {
+      "name": "coefficient degrees",
+      "actual": [
+        2,
+        3,
+        4
+      ],
+      "required": "[2,3,4]",
+      "passed": true
+    },
+    {
+      "name": "outward recombined Taylor bound",
+      "actual": "170832799175257826082521596581851/915373918302995225092080866913280",
+      "required": "<0.186627<1/5",
+      "passed": true
+    },
+    {
+      "name": "limiting linear boundary",
+      "actual": "22963/80000",
+      "required": ">7/25",
+      "passed": true
+    },
+    {
+      "name": "limiting margin",
+      "actual": "11489230237454770729980820656846201/114421739787874403136510108364160000",
+      "required": ">0.1004105",
+      "passed": true
+    },
+    {
+      "name": "positive exponential bound",
+      "actual": [
+        "1.755054656960298557244047036602",
+        "1.755054656960298557244047036603"
+      ],
+      "required": "<9/5",
+      "passed": true
+    },
+    {
+      "name": "sinc lower",
+      "actual": "178783968418553754900797044319/200000000000000000000000000000",
+      "required": ">89/100",
+      "passed": true
+    },
+    {
+      "name": "eventual actual Taylor boundary",
+      "actual": {
+        "linear_lower": "53/200",
+        "remainder_upper": "9/40",
+        "margin": "1/25"
+      },
+      "required": "53/200 > 45/200; conditional on the proved uniform error <1/100",
+      "passed": true
+    },
+    {
+      "name": "actual polynomial root exclusion",
+      "actual": "58237/80000",
+      "required": "<1",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "qualification": "Finite arithmetic only; L701 supplies the conceptual proof of uniform asymptotics, phase selection and eventual error. No effective finite-n onset or formal verification."
+}

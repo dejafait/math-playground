@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": 11019,
+  "trace_nodes": 3560,
+  "divisor_count": 99,
+  "base_orthogonality_and_norms": "checked as complete cleared rational polynomials",
+  "gram_identity": "checked in eight independent formal entries",
+  "update_divisor": {
+    "lower": "57353061649999427835432132832043829802624813700995013/100000000000000000000000000000000000000000000000000",
+    "upper": "7356944911507680245224346931478959249122343572937320367/100000000000000000000000000000000000000000000000000"
+  },
+  "failed_variance": {
+    "lower": "-1118463952817667705569661925865477998273697991324198801/50000000000000000000000000000000000000000000000000",
+    "upper": "137107526243041901040766657432250636331662276054171621/4000000000000000000000000000000000000000000000000"
+  },
+  "required": "all positive numerical divisors before any normalized collar test",
+  "failures": [],
+  "input_sha256": {
+    "scripts/heat/two-site-positive-update-1928.json": "4e7245ff3f7a88213db29c06a7fb9f85c5f6191c51e24fb8ce75c9a793e59155",
+    "scripts/heat/two-site-positive-update-check-1928.py": "e749c9301b203adb675e13b1daff0e5f7392ae0e55e104814c703389c713e987",
+    "scripts/heat/two-site-theta-jacobian-check-1921.py": "3f4be15c07ae294b7477060f04b71abb08bea06dae0f496aedad9b1b2bc0c824"
+  },
+  "qualification": "Finite arithmetic and algebra replay; not a separate proof audit or Decimal verification"
+}

@@ -1,0 +1,7 @@
+# 3 November 2026 — step 105: signed correction test
+
+Completed one calculation under the saved EXPLORE/COVERED_TARGET in `drafts/literature/2026-11-03-nonuniform-lattice-unit-residue-kernel.md`. Outcome EXPLORATION; classification REPRODUCTION. Reused L665's finite-product residue calculation, L690's rectangle, L666's product differentiation and L657's complete root/charge identities. No inequality, lemma, proof assembly or DAG edge was adopted.
+
+Signed contour, transport and direct response agree numerically. Full-spatial-root/finite-angular estimates for zero-start optimizations give losses about 0.713,1.318,1.588 at n=51,99,195; the last is below n/100. Unknown C*log n/onset and uncertified angular integration prevent an asymptotic conclusion. [The working record](../drafts/2026-11-03-signed-canonical-kernel-working-105.md) identifies the full vectors, checks, script/certificate and limitations. No progress beyond imported source identities is claimed.
+
+Park the unclosed contour/finite-screen argument; [the attempt record](../ATTEMPTS/2026-11-03-signed-canonical-correction-inconclusive.md) preserves its limitation. The infinite fixed-atom Fourier-gap model is independently testable but uncovered; [its assessment](../drafts/literature/2026-11-03-anchored-half-lattice-fourier-gap.md) is REVIEW_REQUIRED for one source-only comparison. No gap theorem or A_n transfer is assumed. One mathematical EXPLORATION attempt used; inherited counters and supervisor state untouched.

@@ -1,0 +1,5 @@
+# Exact-target source-gate repair — 19 November 2026
+
+Aligned TARGET/COVERED_TARGET in [assessment1816](../drafts/literature/2026-11-19-direct-positive-real-gmp-execution-review-1816.md) with the saved Next action, preserving all eight radius checks and the inherited 10^6 cap. Reused assessment1819 and integration/slice histories1819–1821; inspected the eight primary GMP 6.3.0 API pages and canonical C033y hypotheses/conclusion and C033z execution1816 qualifications. SPECIALIZE remains justified; no new mathematical or implementation evidence was obtained. Outcome STALLED records a process repair without renewing a mathematical exploration budget by assertion.
+
+Next is the same full unchanged GMP execution/replay, with complete operation accounting; the prior driver-only failure and unfinished prefix remain preserved. No lemma, script, PROOF, DAG or supervisor state was edited. Missing independent signed-height/actual-Xi input still blocks a justified central creative nomination. This API review does not certify scalar success, cost, interpolation or RH.

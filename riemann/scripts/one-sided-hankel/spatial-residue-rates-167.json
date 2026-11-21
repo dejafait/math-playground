@@ -1,0 +1,1740 @@
+{
+  "purpose": "L710 auxiliary exact rates; full signed-residue proof is separate",
+  "arithmetic": "Exact Fractions and integer-directed rational logarithms",
+  "helper": {
+    "path": "spatial-complex-phase-166.py",
+    "sha256": "ed0ef59d50af90f3b08e1b4d348e8cecf71a7b7be43b24cfd1d87895f21c35f7",
+    "functions": [
+      "ceildiv",
+      "derivative",
+      "fixed",
+      "log_unit",
+      "logq",
+      "q_squared",
+      "simpson"
+    ]
+  },
+  "rate_enclosures": {
+    "omega": [
+      {
+        "numerator": 1375493968859019906115705155886539,
+        "denominator": 1267650600228229401496703205376000,
+        "decimal_preview": 1.0850734174001686
+      },
+      {
+        "numerator": 687746984429509953057852629571387,
+        "denominator": 633825300114114700748351602688000,
+        "decimal_preview": 1.0850734174001686
+      }
+    ],
+    "endpoint": [
+      {
+        "numerator": 37440346558278445836364460829943,
+        "denominator": 1825416864328650338155252615741440,
+        "decimal_preview": 0.02051057338732773
+      },
+      {
+        "numerator": 74920307197814023841525718551329,
+        "denominator": 3650833728657300676310505231482880,
+        "decimal_preview": 0.020521424081772172
+      }
+    ],
+    "outer_product": [
+      {
+        "numerator": 1211364494971888801958383275193,
+        "denominator": 1825416864328650338155252615741440,
+        "decimal_preview": 0.000663609786150082
+      },
+      {
+        "numerator": 1231171535600454886356781720937,
+        "denominator": 1825416864328650338155252615741440,
+        "decimal_preview": 0.0006744604805945264
+      }
+    ],
+    "outer_centered_residue": [
+      {
+        "numerator": 947280091613643824126096352470851,
+        "denominator": 45635421608216258453881315393536000,
+        "decimal_preview": 0.02075756196022728
+      },
+      {
+        "numerator": 947775267629357976236056382451941,
+        "denominator": 45635421608216258453881315393536000,
+        "decimal_preview": 0.020768412654671723
+      }
+    ]
+  },
+  "rectangle_cells": [
+    {
+      "index": 0,
+      "midpoint": {
+        "numerator": -799,
+        "denominator": 2000,
+        "decimal_preview": -0.3995
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 8645813933768697553413486453013,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.004736350420948064
+        },
+        {
+          "numerator": 17331241948794527275623769798009,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004747201115392508
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 8827810413832921222004519935769,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.019344206983821426
+        },
+        {
+          "numerator": 8837713934147204264203712929921,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.019365908372710315
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 8027961054014554059721899594978159379,
+        "denominator": 1687597891071837237624531043252961280000,
+        "decimal_preview": 0.004757034300935152
+      }
+    },
+    {
+      "index": 1,
+      "midpoint": {
+        "numerator": -797,
+        "denominator": 2000,
+        "decimal_preview": -0.3985
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 17361677473766507718228341534651,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004755537711149548
+        },
+        {
+          "numerator": 8700645777511819943512569213137,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.004766388405593992
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 17349286241035210322052929702143,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.01900857451255761
+        },
+        {
+          "numerator": 17369093281663776406451315690447,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.0190302759014465
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 16120116556337242689890867639084099903,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.004776053774901004
+      }
+    },
+    {
+      "index": 2,
+      "midpoint": {
+        "numerator": -159,
+        "denominator": 400,
+        "decimal_preview": -0.3975
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 4357625168375692320619754837999,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.0047743890763037675
+        },
+        {
+          "numerator": 17470114754759901451275816243349,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004785239770748212
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 1065151097527020969450322637713,
+          "denominator": 57044277010270323067351644241920,
+          "decimal_preview": 0.018672356866496
+        },
+        {
+          "numerator": 533194518783153174862610880991,
+          "denominator": 28522138505135161533675822120960,
+          "decimal_preview": 0.01869405825538489
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 4045794051075745447628840439716194097,
+        "denominator": 843798945535918618812265521626480640000,
+        "decimal_preview": 0.004794737031232193
+      }
+    },
+    {
+      "index": 3,
+      "midpoint": {
+        "numerator": -793,
+        "denominator": 2000,
+        "decimal_preview": -0.3965
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 2187261916265309834173121122207,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.004792903931168048
+        },
+        {
+          "numerator": 8768854705689805421090882934527,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.004803754625612493
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 8367507331211186543406194960369,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.018335553910396415
+        },
+        {
+          "numerator": 8377410851525469585605387954521,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.018357255299285304
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 8122549538194741350942604975939196029,
+        "denominator": 1687597891071837237624531043252961280000,
+        "decimal_preview": 0.004813083484618424
+      }
+    },
+    {
+      "index": 4,
+      "midpoint": {
+        "numerator": -791,
+        "denominator": 2000,
+        "decimal_preview": -0.3955
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 17564459306513856609241579637171,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004811081690366023
+        },
+        {
+          "numerator": 17604073387770988778038376529079,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.0048219323848104675
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 8213538713201348858106864811289,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.01799816551212178
+        },
+        {
+          "numerator": 8223442233515631900306057805441,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.018019866901010668
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 8152941598306955611912204792090103359,
+        "denominator": 1687597891071837237624531043252961280000,
+        "decimal_preview": 0.004831092549617262
+      }
+    },
+    {
+      "index": 5,
+      "midpoint": {
+        "numerator": -789,
+        "denominator": 2000,
+        "decimal_preview": -0.3945
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 17629590465088393817832620263391,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004828921768390746
+        },
+        {
+          "numerator": 17669204546345525986629417155449,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.00483977246283519
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 32237211469225092263159551257251,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.017660191542648675
+        },
+        {
+          "numerator": 32276825550482224431956323233859,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.017681892931537564
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 32731053177115901765773676924648907091,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.0048487636406572485
+      }
+    },
+    {
+      "index": 6,
+      "midpoint": {
+        "numerator": -787,
+        "denominator": 2000,
+        "decimal_preview": -0.3935
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 8846743333896118880539481533123,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.004846423579607809
+        },
+        {
+          "numerator": 17733100749049369929875759957719,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004857274274052253
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 31619198944285308898995927216101,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.017321631876077895
+        },
+        {
+          "numerator": 31658813025542441067792699192709,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.017343333264966784
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 32848054550756695557395826225194050741,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.004866096172041025
+      }
+    },
+    {
+      "index": 7,
+      "midpoint": {
+        "numerator": -157,
+        "denominator": 400,
+        "decimal_preview": -0.3925
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 8878072888058808949167043749583,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.004863586538258469
+        },
+        {
+          "numerator": 17795759857374750067130884391179,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004874437232702913
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 15500058526944890142205350038923,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.016982486389645012
+        },
+        {
+          "numerator": 15519865567573456226603736027227,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.0170041877785339
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 16481383279817491049386091608841478623,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.004883089557948469
+      }
+    },
+    {
+      "index": 8,
+      "midpoint": {
+        "numerator": -783,
+        "denominator": 2000,
+        "decimal_preview": -0.3915
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 139199731649330542707356613187,
+          "denominator": 28522138505135161533675822120960,
+          "decimal_preview": 0.004880410058462792
+        },
+        {
+          "numerator": 17857179732371441635338443379439,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004891260752907236
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 7594991394920939232352112240099,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.01664275496373091
+        },
+        {
+          "numerator": 7604894915235222274551305234251,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.0166644563526198
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 8268796312107014467801140156164883049,
+        "denominator": 1687597891071837237624531043252961280000,
+        "decimal_preview": 0.004899743212439835
+      }
+    },
+    {
+      "index": 9,
+      "midpoint": {
+        "numerator": -781,
+        "denominator": 2000,
+        "decimal_preview": -0.3905
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 17877744153401135754685992303461,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.0048968935542228025
+        },
+        {
+          "numerator": 17917358234658267923482789195129,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004907744248667247
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 29758744309073246282666840456081,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.01630243748187233
+        },
+        {
+          "numerator": 29798358390330378451463612432689,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.01632413887076122
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 33185306661027040843797630803745863761,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.004916056549458916
+      }
+    },
+    {
+      "index": 10,
+      "midpoint": {
+        "numerator": -779,
+        "denominator": 2000,
+        "decimal_preview": -0.3895
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 17936679143177508849179531065241,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004913036439425643
+        },
+        {
+          "numerator": 17976293224434641017976327956339,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004923887133870088
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 113814269668922821208662294001,
+          "denominator": 7130534626283790383418955530240,
+          "decimal_preview": 0.01596153383077241
+        },
+        {
+          "numerator": 911752097390667949944197476277,
+          "denominator": 57044277010270323067351644241920,
+          "decimal_preview": 0.015983235219661298
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 4161640855069780608377715753763933667,
+        "denominator": 843798945535918618812265521626480640000,
+        "decimal_preview": 0.004932028982836207
+      }
+    },
+    {
+      "index": 11,
+      "midpoint": {
+        "numerator": -777,
+        "denominator": 2000,
+        "decimal_preview": -0.3885
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 17994368480235008826041115104171,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004928838127846747
+        },
+        {
+          "numerator": 2254247820186517624354738999523,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.004939688822291191
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 14256545778590971159289943171493,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.015620043900311206
+        },
+        {
+          "numerator": 14276352819219537243688329159797,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.015641745289200093
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 16699320914702312565851828042370723053,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.0049476599262920804
+      }
+    },
+    {
+      "index": 12,
+      "midpoint": {
+        "numerator": -31,
+        "denominator": 80,
+        "decimal_preview": -0.3875
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18050810023969001364927404118071,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004944298033153021
+        },
+        {
+          "numerator": 18090424105226133533724201009499,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004955148727597465
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 27888659679689952322355552501201,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.015277967583556214
+        },
+        {
+          "numerator": 27928273760947084491152324477809,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.015299668972445104
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 33501847669227294646601385677087420641,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.004962948793439977
+      }
+    },
+    {
+      "index": 13,
+      "midpoint": {
+        "numerator": -773,
+        "denominator": 2000,
+        "decimal_preview": -0.3865
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18106001633390293759284242217791,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004959415568906037
+        },
+        {
+          "numerator": 9072807857323712964040519554587,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.004970266263350481
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 27263157213409477730193289011731,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.014935304776772887
+        },
+        {
+          "numerator": 27302771294666609898990060988339,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.014957006165661776
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 33602740400987111686246271298194465611,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.004977894997789601
+      }
+    },
+    {
+      "index": 14,
+      "midpoint": {
+        "numerator": -771,
+        "denominator": 2000,
+        "decimal_preview": -0.3855
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18159941167136829296087621548451,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004974190148565235
+        },
+        {
+          "numerator": 2274944406049245183110552304983,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.004985040843009679
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 26636583974838501777739394411831,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.014592055379435137
+        },
+        {
+          "numerator": 26676198056095633946536166388439,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.014613756768324026
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 33701316064966338159259632429525060511,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.00499249795275013
+      }
+    },
+    {
+      "index": 15,
+      "midpoint": {
+        "numerator": -769,
+        "denominator": 2000,
+        "decimal_preview": -0.3845
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18212626483485419977843747633421,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.004988621185491139
+        },
+        {
+          "numerator": 4563060141185638036660136131291,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.004999471879935584
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 26008939786350949610103694237451,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.014248219294235833
+        },
+        {
+          "numerator": 26048553867608081778900466214059,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.014269920683124722
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 33797570700790368845868751151622331891,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.005006757071633435
+      }
+    },
+    {
+      "index": 16,
+      "midpoint": {
+        "numerator": -767,
+        "denominator": 2000,
+        "decimal_preview": -0.3835
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 9132027720181758779357550070483,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.00500270809294858
+        },
+        {
+          "numerator": 2287958690202581215938987129083,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.0050135587873930245
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 12690112238107919088745544051053,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.013903796427097296
+        },
+        {
+          "numerator": 12709919278736485173143930039357,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.013925497815986185
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 16945750173724765725930490614622789493,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.005020671767657306
+      }
+    },
+    {
+      "index": 17,
+      "midpoint": {
+        "numerator": -153,
+        "denominator": 400,
+        "decimal_preview": -0.3825
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 9157112947680511432917104601013,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005016450284109928
+        },
+        {
+          "numerator": 4588459994154538758657751523491,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.005027300978554372
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 12375218939308205729988048279463,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.013558786687181778
+        },
+        {
+          "numerator": 12395025979936771814386434267767,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.013580488076070667
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 16991550521660478712361764332112969583,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.005034241453948696
+      }
+    },
+    {
+      "index": 18,
+      "midpoint": {
+        "numerator": -763,
+        "denominator": 2000,
+        "decimal_preview": -0.3815
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18363135705742133376059155322621,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005029847172058341
+        },
+        {
+          "numerator": 18402749786999265544855952214409,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.0050406978665027856
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 12059789916834630308466029386753,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.01321318998690194
+        },
+        {
+          "numerator": 12079596957463196392864415375057,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.01323489137579083
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 17036184413095261738110332807531751293,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.00504746554354697
+      }
+    },
+    {
+      "index": 19,
+      "midpoint": {
+        "numerator": -761,
+        "denominator": 2000,
+        "decimal_preview": -0.3805
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 9205391364228614508807282121333,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.00504289816979102
+        },
+        {
+          "numerator": 18450396809714361186411361134139,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005053748864235465
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 23487650187443428655367851578661,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.012867006241931314
+        },
+        {
+          "numerator": 23527264268700560824164623555269,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.012888707630820203
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 34159299733274863754159684488541004181,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.0050603434494071635
+      }
+    },
+    {
+      "index": 20,
+      "midpoint": {
+        "numerator": -759,
+        "denominator": 2000,
+        "decimal_preview": -0.3795
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 4614291205038699041312280250139,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.005055602690222474
+        },
+        {
+          "numerator": 1156048681338245520877869868249,
+          "denominator": 228177108041081292269406576967680,
+          "decimal_preview": 0.005066453384666918
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 5713662197994874802543323341539,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.012520235371214758
+        },
+        {
+          "numerator": 5723565718309157844742516335691,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.012541936760103647
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 8560972450310863151147953798915371859,
+        "denominator": 1687597891071837237624531043252961280000,
+        "decimal_preview": 0.005072874584403259
+      }
+    },
+    {
+      "index": 21,
+      "midpoint": {
+        "numerator": -757,
+        "denominator": 2000,
+        "decimal_preview": -0.3785
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18502279837193389796725384002701,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005067960146187796
+        },
+        {
+          "numerator": 18541893918450521965522180893859,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.0050788108406322405
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 5555143876327167257007460733549,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.012172877296978916
+        },
+        {
+          "numerator": 5565047396641450299206653727701,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.012194578685867805
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 8581533766560189466046160561569917099,
+        "denominator": 1687597891071837237624531043252961280000,
+        "decimal_preview": 0.005085058361331463
+      }
+    },
+    {
+      "index": 22,
+      "midpoint": {
+        "numerator": -151,
+        "denominator": 400,
+        "decimal_preview": -0.3775
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 4636531408913408444409988643009,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.005079969950445951
+        },
+        {
+          "numerator": 18585739716910765946436751463719,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005090820644890396
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 2698178773933975468188235548817,
+          "denominator": 228177108041081292269406576967680,
+          "decimal_preview": 0.011824931944742642
+        },
+        {
+          "numerator": 2703130534091116989287832045893,
+          "denominator": 228177108041081292269406576967680,
+          "decimal_preview": 0.011846633333631531
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 268797121593034879851471065864090477,
+        "denominator": 52737434095994913675766595101655040000,
+        "decimal_preview": 0.0050968941929135
+      }
+    },
+    {
+      "index": 23,
+      "midpoint": {
+        "numerator": -753,
+        "denominator": 2000,
+        "decimal_preview": -0.3765
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 9294350035675129620375932423503,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005091631515683074
+        },
+        {
+          "numerator": 18628314152607391409548661738629,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005102482210127518
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 20949212720538476550625885040051,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.011476399243327443
+        },
+        {
+          "numerator": 20988826801795608719422657016659,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.011498100632216332
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 34483575329407769380298885410113124291,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.005108381491799915
+      }
+    },
+    {
+      "index": 24,
+      "midpoint": {
+        "numerator": -751,
+        "denominator": 2000,
+        "decimal_preview": -0.3755
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18630000999844181025174401590451,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005102944254515776
+        },
+        {
+          "numerator": 4667403770275328298492799620481,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.005113794948960221
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 5077980742156497328995026117609,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.011127279124867889
+        },
+        {
+          "numerator": 5087884262470780371194219111761,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.011148980513756778
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 8639690599360436142699823950048090289,
+        "denominator": 1687597891071837237624531043252961280000,
+        "decimal_preview": 0.005119519670573388
+      }
+    },
+    {
+      "index": 25,
+      "midpoint": {
+        "numerator": -749,
+        "denominator": 2000,
+        "decimal_preview": -0.3745
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18670026276454612139960500450061,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005113907579494466
+        },
+        {
+          "numerator": 18709640357711744308757297341879,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005124758273938911
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 9836780408959187895113200216483,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.010777571524822028
+        },
+        {
+          "numerator": 9856587449587753979511586204787,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.010799272913710916
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 17315794401138886662314836996741937063,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.005130308141752055
+      }
+    },
+    {
+      "index": 26,
+      "midpoint": {
+        "numerator": -747,
+        "denominator": 2000,
+        "decimal_preview": -0.3735
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 2338596719533902026973042432877,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.005124520903106674
+        },
+        {
+          "numerator": 9374193918764174192290568177327,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.0051353715975511185
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 19034126156685386433628101258881,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.010427276381981786
+        },
+        {
+          "numerator": 19073740237942518602424873235489,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.010448977770870675
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 34702050577770054463507602072931965961,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.005140746317792842
+      }
+    },
+    {
+      "index": 27,
+      "midpoint": {
+        "numerator": -149,
+        "denominator": 400,
+        "decimal_preview": -0.3725
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18746241294166297907591847328901,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005134783637780395
+        },
+        {
+          "numerator": 293528990240991094943572565941,
+          "denominator": 57044277010270323067351644241920,
+          "decimal_preview": 0.005145634332224839
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 9196809439650727241035988081053,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.01007639363848336
+        },
+        {
+          "numerator": 9216616480279293325434374069357,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.010098095027372248
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 17385071878691088810740628420533479493,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.005150833611094814
+      }
+    },
+    {
+      "index": 28,
+      "midpoint": {
+        "numerator": -743,
+        "denominator": 2000,
+        "decimal_preview": -0.3715
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18782426744807031210260536495811,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005144695195887436
+        },
+        {
+          "numerator": 18822040826064163379057333387389,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005155545890331881
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 17752038886264642822818114583211,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.00972492323981759
+        },
+        {
+          "numerator": 17791652967521774991614886559819,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.009746624628706478
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 34835864374209768433357702721095667131,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.0051605694340025226
+      }
+    },
+    {
+      "index": 29,
+      "midpoint": {
+        "numerator": -741,
+        "denominator": 2000,
+        "decimal_preview": -0.3705
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 9408663981333862824237194514373,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005154254989746778
+        },
+        {
+          "numerator": 9428471021962428908635592960027,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.0051651056841912225
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 17109386084215571264049104470181,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.009372865134840333
+        },
+        {
+          "numerator": 17149000165472703432845876446789,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.009394566523729221
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 34899208461003203716302952154294259661,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.005169953198809376
+      }
+    },
+    {
+      "index": 30,
+      "midpoint": {
+        "numerator": -739,
+        "denominator": 2000,
+        "decimal_preview": -0.3695
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 2356367850255266287647810017287,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.0051634624316279415
+        },
+        {
+          "numerator": 18890556883299262469979277029619,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005174313126072386
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 8232830192978161889554678924813,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.00902021927578282
+        },
+        {
+          "numerator": 8252637233606727973953064913117,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.009041920664671708
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 17480086025095198285280279512189269233,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.00517898431776101
+      }
+    },
+    {
+      "index": 31,
+      "midpoint": {
+        "numerator": -737,
+        "denominator": 2000,
+        "decimal_preview": -0.3685
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 2360408639631971952521329501867,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.005172316933754373
+        },
+        {
+          "numerator": 9461441599156453894483716453467,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005183167628198818
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 7910430855234667652578425480853,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.008666985618262003
+        },
+        {
+          "numerator": 7930237895863233736976811469157,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.008688687007150893
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 17509375586949825661840660528149104693,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.005187662203058682
+      }
+    },
+    {
+      "index": 32,
+      "midpoint": {
+        "numerator": -147,
+        "denominator": 400,
+        "decimal_preview": -0.3675
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 9457152380839176500716852643443,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005180817908306833
+        },
+        {
+          "numerator": 9476959421467742585115251089187,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005191668602751278
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 15174989982936257674789006437371,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.00831316412129089
+        },
+        {
+          "numerator": 15214604064193389843585778413979,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.008334865510179779
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 35074941863982588241098185994665273971,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.005195986266862656
+      }
+    },
+    {
+      "index": 33,
+      "midpoint": {
+        "numerator": -733,
+        "denominator": 2000,
+        "decimal_preview": -0.3665
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 2368005948717016508398999134727,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.005188964767426796
+        },
+        {
+          "numerator": 18983661670993264235988789968929,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.00519981546187124
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 14528045134756804258052027242571,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.007958754747288868
+        },
+        {
+          "numerator": 14567659216013936426848799219179,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.007980456136177757
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 35128740152037137924317713444870283771,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.005203955921295618
+      }
+    },
+    {
+      "index": 34,
+      "midpoint": {
+        "numerator": -731,
+        "denominator": 2000,
+        "decimal_preview": -0.3655
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 592890482966387987985908739973,
+          "denominator": 114088554020540646134703288483840,
+          "decimal_preview": 0.005196756923219864
+        },
+        {
+          "numerator": 9506054768090773892172938285597,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005207607617664308
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 6940013551783786445549388600133,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.00760375746209201
+        },
+        {
+          "numerator": 6959820592412352529947774588437,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.0076254588509808985
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 17590071034715302658216235006565023413,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.005211570578446087
+      }
+    },
+    {
+      "index": 35,
+      "midpoint": {
+        "numerator": -729,
+        "denominator": 2000,
+        "decimal_preview": -0.3645
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 18999646210820032193939638717691,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005204193787759187
+        },
+        {
+          "numerator": 9519630146038582181368217804507,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.0052150444822036315
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 1653866979157605833328046450747,
+          "denominator": 228177108041081292269406576967680,
+          "decimal_preview": 0.0072481722349633845
+        },
+        {
+          "numerator": 1658818739314747354427642947823,
+          "denominator": 228177108041081292269406576967680,
+          "decimal_preview": 0.007269873623852273
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 4403642955915350404135945062264423077,
+        "denominator": 843798945535918618812265521626480640000,
+        "decimal_preview": 0.005218829650371846
+      }
+    },
+    {
+      "index": 36,
+      "midpoint": {
+        "numerator": -727,
+        "denominator": 2000,
+        "decimal_preview": -0.3635
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 19025497710893866251664999063601,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005211274773088897
+        },
+        {
+          "numerator": 9532555896075499210230897977507,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005222125467533341
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 3145192818500843040020268633869,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.006891999038603335
+        },
+        {
+          "numerator": 3155096338815126082219461628021,
+          "denominator": 456354216082162584538813153935360,
+          "decimal_preview": 0.006913700427492224
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 8818935229172313833864788305396507529,
+        "denominator": 1687597891071837237624531043252961280000,
+        "decimal_preview": 0.005225732549103376
+      }
+    },
+    {
+      "index": 37,
+      "midpoint": {
+        "numerator": -29,
+        "denominator": 80,
+        "decimal_preview": -0.3625
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 9525023904261712912980538695673,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005217999291227549
+        },
+        {
+          "numerator": 19089661889780557994757874282909,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.0052288499856719935
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 5964766691127557332277488838503,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.006535237849159756
+        },
+        {
+          "numerator": 5984573731756123416675874826807,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.0065569392380486445
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 17659964954172234230111687148386287043,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.005232278686647307
+      }
+    },
+    {
+      "index": 38,
+      "midpoint": {
+        "numerator": -723,
+        "denominator": 2000,
+        "decimal_preview": -0.3615
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 9536647178502723857593980595813,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005224366754171574
+        },
+        {
+          "numerator": 19112908438262579883984758083039,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005235217448616019
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 5638611060393995003038169800123,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.006177888646238356
+        },
+        {
+          "numerator": 5658418101022561087436555788427,
+          "denominator": 912708432164325169077626307870720,
+          "decimal_preview": 0.0061995900351272445
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 17680853326482637109955177720704507423,
+        "denominator": 3375195782143674475249062086505922560000,
+        "decimal_preview": 0.005238467474989871
+      }
+    },
+    {
+      "index": 39,
+      "midpoint": {
+        "numerator": -721,
+        "denominator": 2000,
+        "decimal_preview": -0.3605
+      },
+      "midpoint_rate": [
+        {
+          "numerator": 19095235209568540091872862417081,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.005230376573898741
+        },
+        {
+          "numerator": 19134849290825672260669659309079,
+          "denominator": 3650833728657300676310505231482880,
+          "decimal_preview": 0.0052412272683431856
+        }
+      ],
+      "midpoint_derivative": [
+        {
+          "numerator": 10623837458704572510033475055951,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.005819951412912905
+        },
+        {
+          "numerator": 10663451539961704678830247032559,
+          "denominator": 1825416864328650338155252615741440,
+          "decimal_preview": 0.0058416528018017935
+        }
+      ],
+      "whole_cell_upper": {
+        "numerator": 35401067181114239785450554551814573391,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.0052442983261003755
+      }
+    }
+  ],
+  "checks": {
+    "endpoint_rate_upper": {
+      "actual": {
+        "numerator": 74920307197814023841525718551329,
+        "denominator": 3650833728657300676310505231482880,
+        "decimal_preview": 0.020521424081772172
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 2053,
+        "denominator": 100000,
+        "decimal_preview": 0.02053
+      },
+      "passed": true
+    },
+    "outer_centered_residue_rate_lower": {
+      "actual": {
+        "numerator": 947280091613643824126096352470851,
+        "denominator": 45635421608216258453881315393536000,
+        "decimal_preview": 0.02075756196022728
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 207,
+        "denominator": 10000,
+        "decimal_preview": 0.0207
+      },
+      "passed": true
+    },
+    "outer_centered_coefficient_margin": {
+      "actual": {
+        "numerator": 21552503281937052214049741158477,
+        "denominator": 91270843216432516907762630787072000,
+        "decimal_preview": 0.0002361378784551068
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 5000,
+        "decimal_preview": 0.0002
+      },
+      "passed": true
+    },
+    "outer_point_outside_unit_disk": {
+      "actual": {
+        "numerator": 75625,
+        "denominator": 73376,
+        "decimal_preview": 1.0306503488879197
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 1,
+        "decimal_preview": 1.0
+      },
+      "passed": true
+    },
+    "outer_point_inside_larger_disk": {
+      "actual": {
+        "numerator": 75625,
+        "denominator": 73376,
+        "decimal_preview": 1.0306503488879197
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 4225,
+        "denominator": 4096,
+        "decimal_preview": 1.031494140625
+      },
+      "passed": true
+    },
+    "whole_rectangle_product_rate": {
+      "actual": {
+        "numerator": 35401067181114239785450554551814573391,
+        "denominator": 6750391564287348950498124173011845120000,
+        "decimal_preview": 0.0052442983261003755
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 100,
+        "decimal_preview": 0.01
+      },
+      "passed": true
+    },
+    "negative_high_frequency_rate": {
+      "actual": {
+        "numerator": -7,
+        "denominator": 300,
+        "decimal_preview": -0.023333333333333334
+      },
+      "relation": "<",
+      "required": {
+        "numerator": -1,
+        "denominator": 50,
+        "decimal_preview": -0.02
+      },
+      "passed": true
+    },
+    "positive_contour_remainder_rate": {
+      "actual": {
+        "numerator": 29,
+        "denominator": 1500,
+        "decimal_preview": 0.019333333333333334
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 29,
+        "denominator": 1500,
+        "decimal_preview": 0.019333333333333334
+      },
+      "passed": true
+    },
+    "remainder_vs_endpoint_lower": {
+      "actual": {
+        "numerator": 2,
+        "denominator": 1875,
+        "decimal_preview": 0.0010666666666666667
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 1000,
+        "decimal_preview": 0.001
+      },
+      "passed": true
+    },
+    "upper_contour_pole_distance": {
+      "actual": {
+        "numerator": 7,
+        "denominator": 100,
+        "decimal_preview": 0.07
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 7,
+        "denominator": 100,
+        "decimal_preview": 0.07
+      },
+      "passed": true
+    },
+    "lower_contour_pole_distance": {
+      "actual": {
+        "numerator": 7,
+        "denominator": 50,
+        "decimal_preview": 0.14
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 7,
+        "denominator": 50,
+        "decimal_preview": 0.14
+      },
+      "passed": true
+    },
+    "box_spatial_denominator_lower": {
+      "actual": {
+        "numerator": 17937,
+        "denominator": 10000,
+        "decimal_preview": 1.7937
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 1,
+        "decimal_preview": 1.0
+      },
+      "passed": true
+    },
+    "finite_tail_vs_endpoint": {
+      "actual": {
+        "numerator": -199341,
+        "denominator": 77440000,
+        "decimal_preview": -0.002574134814049587
+      },
+      "relation": "<",
+      "required": {
+        "numerator": -1,
+        "denominator": 400,
+        "decimal_preview": -0.0025
+      },
+      "passed": true
+    }
+  },
+  "failures": [],
+  "qualifications": [
+    "No lower bound for the bump transform",
+    "No upper bound for the complete unit spatial maximum",
+    "Not a proof of positive B_sp/n or of sublinear B_sp",
+    "Contour, Poisson, uniformity and endpoint proofs remain analytic"
+  ]
+}

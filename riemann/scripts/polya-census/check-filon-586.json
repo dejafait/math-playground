@@ -1,0 +1,42 @@
+{
+  "scope": "exact saved arithmetic relations; no exp/trig/jet replay or independent source audit",
+  "certificate_sha256": "b67ceeda213d2dfd5eace9b6157bb7afc0beffe0fda9015a4bcde4a083c73d56",
+  "checks": {
+    "fixed_caps": true,
+    "u_node_grid": true,
+    "x_closed_cover": true,
+    "panel_cover": true,
+    "panel_errors_outward": true,
+    "total_errors_outward": true,
+    "all_finite_sums_outward": true,
+    "full_errors_added": true,
+    "normalization_and_W_Wp_outward": true,
+    "complete_classification_and_unresolved_cover": true,
+    "seven_originally_unresolved_cells": true,
+    "actual_argument_range": true,
+    "saved_inputs_unchanged": true,
+    "stated_strict_margins": true
+  },
+  "failures": [],
+  "summary": {
+    "actual_new_exclusions": 7,
+    "required_new_exclusions": 1,
+    "same_sign_cell": [
+      "6.5",
+      "7"
+    ],
+    "F_lower_greater_than": "0.14439",
+    "G_lower_greater_than": "0.01447",
+    "W_cells": [
+      "7",
+      "10"
+    ],
+    "negative_W_distance_greater_than": "0.00012224",
+    "unresolved_cells": 60,
+    "unresolved_region": [
+      "10",
+      "40"
+    ],
+    "independent_audit": "pending"
+  }
+}

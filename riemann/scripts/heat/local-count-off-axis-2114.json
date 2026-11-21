@@ -1,0 +1,214 @@
+{
+  "lemma": "C488c",
+  "kind": "exact rational scalar certificate",
+  "scope": "Scalar comparisons only; analytic reductions and cited theorems require proof audit.",
+  "checks": [
+    {
+      "name": "b squared exceeds 48 squared using pi<22/7",
+      "actual": "2304",
+      "required_strict_upper_bound": "205793/88",
+      "passed": true
+    },
+    {
+      "name": "a/b at most 1001/1000",
+      "actual": "184321/184320",
+      "required_strict_upper_bound": "1002001/1000000",
+      "passed": true
+    },
+    {
+      "name": "a/b power below 3/2",
+      "actual": "1003003001/1000000000",
+      "required_strict_upper_bound": "3/2",
+      "passed": true
+    },
+    {
+      "name": "log14000<10 from e>8/3",
+      "actual": "14000",
+      "required_strict_upper_bound": "1073741824/59049",
+      "passed": true
+    },
+    {
+      "name": "log2<7/10 by Taylor lower sum",
+      "actual": "2",
+      "required_strict_upper_bound": "12013/6000",
+      "passed": true
+    },
+    {
+      "name": "log9<11/5 by Taylor lower sum",
+      "actual": "9",
+      "required_strict_upper_bound": "319817586831401/35437500000000",
+      "passed": true
+    },
+    {
+      "name": "eta plus pi/4 below 1",
+      "actual": "154009/195958",
+      "required_strict_upper_bound": "1",
+      "passed": true
+    },
+    {
+      "name": "first sum n>=2 below 2/3",
+      "actual": "2389/3600",
+      "required_strict_upper_bound": "2/3",
+      "passed": true
+    },
+    {
+      "name": "h bound",
+      "actual": "33/139970",
+      "required_strict_upper_bound": "1/1000",
+      "passed": true
+    },
+    {
+      "name": "gamma exponential below 2",
+      "actual": "250/249",
+      "required_strict_upper_bound": "2",
+      "passed": true
+    },
+    {
+      "name": "reflected heat exponent",
+      "actual": "3/27994",
+      "required_strict_upper_bound": "1/1000",
+      "passed": true
+    },
+    {
+      "name": "r error exponent",
+      "actual": "9/55984",
+      "required_strict_upper_bound": "1/6000",
+      "passed": true
+    },
+    {
+      "name": "r relative error",
+      "actual": "1/5999",
+      "required_strict_upper_bound": "1/1000",
+      "passed": true
+    },
+    {
+      "name": "total r errors",
+      "actual": "43/24000",
+      "required_strict_upper_bound": "1/500",
+      "passed": true
+    },
+    {
+      "name": "positive remainder coefficient",
+      "actual": "121/700",
+      "required_strict_upper_bound": "1/5",
+      "passed": true
+    },
+    {
+      "name": "negative envelope exponential",
+      "actual": "461/400",
+      "required_strict_upper_bound": "6/5",
+      "passed": true
+    },
+    {
+      "name": "exp(6/5) envelope from e<3",
+      "actual": "15/4",
+      "required_strict_upper_bound": "4",
+      "passed": true
+    },
+    {
+      "name": "negative convex envelope at k=1",
+      "actual": "9/40",
+      "required_strict_upper_bound": "1/4",
+      "passed": true
+    },
+    {
+      "name": "Gaussian first square root squared",
+      "actual": "50000/49999",
+      "required_strict_upper_bound": "1002001/1000000",
+      "passed": true
+    },
+    {
+      "name": "Gaussian first exponent",
+      "actual": "125/199996",
+      "required_strict_upper_bound": "1/1000",
+      "passed": true
+    },
+    {
+      "name": "Gaussian shifted exponent",
+      "actual": "4624/6249875",
+      "required_strict_upper_bound": "1/1000",
+      "passed": true
+    },
+    {
+      "name": "Gaussian first expectation",
+      "actual": "1001/999",
+      "required_strict_upper_bound": "2",
+      "passed": true
+    },
+    {
+      "name": "Gaussian tilted expectation divided by243",
+      "actual": "500500/378621",
+      "required_strict_upper_bound": "2",
+      "passed": true
+    },
+    {
+      "name": "Gaussian last square root squared",
+      "actual": "50000/44999",
+      "required_strict_upper_bound": "100/81",
+      "passed": true
+    },
+    {
+      "name": "Gaussian last exponent",
+      "actual": "625125/179996",
+      "required_strict_upper_bound": "7/2",
+      "passed": true
+    },
+    {
+      "name": "remainder outside exponent",
+      "actual": "627/20000",
+      "required_strict_upper_bound": "1/30",
+      "passed": true
+    },
+    {
+      "name": "remainder Gaussian bracket",
+      "actual": "3157/94",
+      "required_strict_upper_bound": "34",
+      "passed": true
+    },
+    {
+      "name": "remainder bound36",
+      "actual": "1020/29",
+      "required_strict_upper_bound": "36",
+      "passed": true
+    },
+    {
+      "name": "remainder bound40",
+      "actual": "36",
+      "required_strict_upper_bound": "40",
+      "passed": true
+    },
+    {
+      "name": "M0 horizontal normalization exponent",
+      "actual": "1/78400000",
+      "required_strict_upper_bound": "1/1000",
+      "passed": true
+    },
+    {
+      "name": "M0 normalization exponential below2",
+      "actual": "1000/999",
+      "required_strict_upper_bound": "2",
+      "passed": true
+    },
+    {
+      "name": "total comparison",
+      "actual": "971/1125",
+      "required_strict_upper_bound": "9/10",
+      "passed": true
+    },
+    {
+      "name": "required C488b comparison",
+      "actual": "9/10",
+      "required_strict_upper_bound": "99/100",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "passed": 33,
+    "total_checks": 33,
+    "normalized_error_upper_bound": "971/1125",
+    "claimed_strict_threshold": "9/10",
+    "required_threshold": "99/100",
+    "uniform_domain": "x>=29399, 3<=y<=4, 0<t<=1/5; t=0 by analytic limit"
+  }
+}

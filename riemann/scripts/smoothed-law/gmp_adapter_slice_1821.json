@@ -1,0 +1,37 @@
+{
+  "status": "PASS_BOUNDED_ADAPTER_SLICE",
+  "library": "/opt/homebrew/lib/libgmp.dylib",
+  "round_trips": [
+    {
+      "numerator_bits": 0,
+      "denominator_bits": 1,
+      "passed": true
+    },
+    {
+      "numerator_bits": 3,
+      "denominator_bits": 4,
+      "passed": true
+    },
+    {
+      "numerator_bits": 4,
+      "denominator_bits": 1,
+      "passed": true
+    },
+    {
+      "numerator_bits": 681001,
+      "denominator_bits": 681000,
+      "passed": true
+    }
+  ],
+  "instruction_slice": "direct_positive_real_execution_remaining_1808.py: quotient",
+  "slice_fraction_match": true,
+  "slice_result": {
+    "numerator_hex": "0x40e62",
+    "denominator_hex": "0x1ca78d"
+  },
+  "scope": "Constructor/decode/GMP arithmetic/encode and one unchanged quotient slice only; no full evaluator replay, radius assertion, scalar or operation-cap result",
+  "source_sha256": {
+    "direct_positive_real_execution_remaining_1808.py": "afb01eaf4d769d4650a6782f0a1114c16e6e61b1e6e214053efc8f8a9c64a06a",
+    "direct_positive_real_remaining_execution_1816.py": "29fb6ce08ddd5d2b056b7f87185484ad27089a5d118f6c53fa489ec7a6a4b8e1"
+  }
+}

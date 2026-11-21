@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "saved common derivative/tail vectors",
+      "passed": true
+    },
+    {
+      "name": "index geometric ratio < 1/2",
+      "passed": true
+    },
+    {
+      "name": "spatial geometric ratio < 1/2",
+      "passed": true
+    },
+    {
+      "name": "index integrated polynomial constant < 80",
+      "passed": true
+    },
+    {
+      "name": "exponential series lower bound > 20",
+      "passed": true
+    },
+    {
+      "name": "normalization squared < 36",
+      "passed": true
+    },
+    {
+      "name": "12 pi upper squared < 120",
+      "passed": true
+    },
+    {
+      "name": "c0 independent multinomial W",
+      "passed": true
+    },
+    {
+      "name": "c0 independent M and E",
+      "passed": true
+    },
+    {
+      "name": "c0 two tail errors",
+      "passed": true
+    },
+    {
+      "name": "c0 arithmetic width",
+      "passed": true
+    },
+    {
+      "name": "c0 final outward error application",
+      "passed": true
+    },
+    {
+      "name": "c0 width and positive endpoints",
+      "passed": true
+    },
+    {
+      "name": "c0 saved pass booleans",
+      "passed": true
+    },
+    {
+      "name": "c2 independent multinomial W",
+      "passed": true
+    },
+    {
+      "name": "c2 independent M and E",
+      "passed": true
+    },
+    {
+      "name": "c2 two tail errors",
+      "passed": true
+    },
+    {
+      "name": "c2 arithmetic width",
+      "passed": true
+    },
+    {
+      "name": "c2 final outward error application",
+      "passed": true
+    },
+    {
+      "name": "c2 width and positive endpoints",
+      "passed": true
+    },
+    {
+      "name": "c2 saved pass booleans",
+      "passed": true
+    },
+    {
+      "name": "c4 independent multinomial W",
+      "passed": true
+    },
+    {
+      "name": "c4 independent M and E",
+      "passed": true
+    },
+    {
+      "name": "c4 two tail errors",
+      "passed": true
+    },
+    {
+      "name": "c4 arithmetic width",
+      "passed": true
+    },
+    {
+      "name": "c4 final outward error application",
+      "passed": true
+    },
+    {
+      "name": "c4 width and positive endpoints",
+      "passed": true
+    },
+    {
+      "name": "c4 saved pass booleans",
+      "passed": true
+    },
+    {
+      "name": "c6 independent multinomial W",
+      "passed": true
+    },
+    {
+      "name": "c6 independent M and E",
+      "passed": true
+    },
+    {
+      "name": "c6 two tail errors",
+      "passed": true
+    },
+    {
+      "name": "c6 arithmetic width",
+      "passed": true
+    },
+    {
+      "name": "c6 final outward error application",
+      "passed": true
+    },
+    {
+      "name": "c6 width and positive endpoints",
+      "passed": true
+    },
+    {
+      "name": "c6 saved pass booleans",
+      "passed": true
+    },
+    {
+      "name": "exact Machin rational endpoints",
+      "passed": true
+    },
+    {
+      "name": "pi directed conversion and comparisons",
+      "passed": true
+    },
+    {
+      "name": "sqrt2 exact square enclosure",
+      "passed": true
+    },
+    {
+      "name": "parameters and required width",
+      "passed": true
+    },
+    {
+      "name": "saved script hash",
+      "passed": true
+    },
+    {
+      "name": "saved status and failures",
+      "passed": true
+    },
+    {
+      "name": "all certificate fields except runtime replay identically",
+      "passed": true
+    },
+    {
+      "name": "original complete node/sqrt/operation counts",
+      "passed": true
+    },
+    {
+      "name": "original no unexpected Decimal signals",
+      "passed": true
+    },
+    {
+      "name": "original all contexts and traps",
+      "passed": true
+    },
+    {
+      "name": "replay complete node/sqrt/operation counts",
+      "passed": true
+    },
+    {
+      "name": "replay no unexpected Decimal signals",
+      "passed": true
+    },
+    {
+      "name": "replay all contexts and traps",
+      "passed": true
+    },
+    {
+      "name": "original certificate preserved byte-for-byte",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "coefficients": [
+    {
+      "coefficient": "c0",
+      "M": "348275260246350648164656295043/88117084160000000000000000",
+      "E": "9403432026651467500445719966161/2663175454754481443869386346594304000000000000",
+      "actual_width": "3547199297771578429015686050865061018132973207/500000000000000000000000000000000000000000000000000000000000",
+      "required_width": "1/1099511627776"
+    },
+    {
+      "coefficient": "c2",
+      "M": "733599413577687036830146134339/88117084160000000000000000",
+      "E": "19807184166597549994413945627153/2663175454754481443869386346594304000000000000",
+      "actual_width": "74537207856339716370371293889898466662394774579/5000000000000000000000000000000000000000000000000000000000000",
+      "required_width": "1/1099511627776"
+    },
+    {
+      "coefficient": "c4",
+      "M": "1351273575122199648144076286787/88117084160000000000000000",
+      "E": "36484386528299390499890059743249/2663175454754481443869386346594304000000000000",
+      "actual_width": "2743174021026941632172536803555888954225405208003/100000000000000000000000000000000000000000000000000000000000000",
+      "required_width": "1/1099511627776"
+    },
+    {
+      "coefficient": "c6",
+      "M": "2273935850403003980480296307331/88117084160000000000000000",
+      "E": "61396267960881107472968000297937/2663175454754481443869386346594304000000000000",
+      "actual_width": "2307007220552855816595767020232551310896795257329/50000000000000000000000000000000000000000000000000000000000000",
+      "required_width": "1/1099511627776"
+    }
+  ],
+  "original": "direct-theta-coefficients-2068.json",
+  "replay": "direct-theta-coefficients-replay-2070.json",
+  "original_sha256": "05affa3020a8d7104f638b2a795a5249c764c121d709d638bc008c9be45b67f9",
+  "audit_script_sha256": "07451470458d378439f22adc6e8e4672391b029eb8c4f16e54bc67a8f093b374",
+  "trust": "Correct CPython integers/Fraction and libmpdec directed basics/correctly rounded exp; replay is not a backend proof."
+}

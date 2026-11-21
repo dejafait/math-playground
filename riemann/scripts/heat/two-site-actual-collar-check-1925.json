@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": 19685,
+  "trace_nodes": 6530,
+  "full_symbolic_components": 15,
+  "failed_divisor": {
+    "lower": "-438269648433368794543018463498687592783409986321/100000000000000000000000000000000000000000000000000",
+    "upper": "332483056580617137275351700964754866217649303471/50000000000000000000000000000000000000000000000000"
+  },
+  "failures": [],
+  "input_sha256": {
+    "scripts/heat/two-site-actual-collar-1925.json": "a52cc162ccc9e6db1bccf5a67837ef3fc6d314596aa493a4a717eab9cc685f18",
+    "scripts/heat/two-site-actual-collar-check-1925.py": "9e2169a5fc161d3cca34709909a4bd8bf74e3c0b8605c83dc9bd901a91549bc1",
+    "scripts/heat/two-site-theta-jacobian-check-1921.py": "3f4be15c07ae294b7477060f04b71abb08bea06dae0f496aedad9b1b2bc0c824"
+  },
+  "qualification": "Finite arithmetic/symbolic replay, not independent Decimal verification or nonlinear inclusion"
+}

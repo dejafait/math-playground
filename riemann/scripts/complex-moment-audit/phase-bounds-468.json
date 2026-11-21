@@ -1,0 +1,171 @@
+{
+  "step_id": "2026-11-05-uniform-moment-phase-bounds-audit-468",
+  "scope": "Exact rational arithmetic only; analytic proof and conditional hypotheses are in L788.",
+  "normalization": "Second derivative and third derivative ratio both divide by H0=1/sigma^2.",
+  "checks": [
+    {
+      "name": "positive series proves exp(6/5)>33/10",
+      "actual_exact": "51799/15625",
+      "required_exact": "33/10",
+      "relation": ">",
+      "passed": true,
+      "actual_decimal_preview": 3.315136,
+      "required_decimal_preview": 3.3
+    },
+    {
+      "name": "positive series proves exp(4)>54",
+      "actual_exact": "153527/2835",
+      "required_exact": "54",
+      "relation": ">",
+      "passed": true,
+      "actual_decimal_preview": 54.15414462081129,
+      "required_decimal_preview": 54.0
+    },
+    {
+      "name": "large-tube geometric admissibility",
+      "actual_exact": "10/1223861324751",
+      "required_exact": "1",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 8.170860372628038e-12,
+      "required_decimal_preview": 1.0
+    },
+    {
+      "name": "large-tube R majorant",
+      "actual_exact": "630/57521482262827",
+      "required_exact": "11/1000000000000",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 1.0952429861271755e-11,
+      "required_decimal_preview": 1.1e-11
+    },
+    {
+      "name": "large-tube logarithm majorant",
+      "actual_exact": "630/57521482262197",
+      "required_exact": "111/10000000000000",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 1.095242986139171e-11,
+      "required_decimal_preview": 1.11e-11
+    },
+    {
+      "name": "horizontal second tail derivative",
+      "actual_exact": "504000/57521482262197",
+      "required_exact": "1/100000000",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 8.761943889113368e-09,
+      "required_decimal_preview": 1e-08
+    },
+    {
+      "name": "small-tube logarithm majorant",
+      "actual_exact": "11/999999999999989",
+      "required_exact": "3/250000000000000",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 1.100000000000012e-14,
+      "required_decimal_preview": 1.2e-14
+    },
+    {
+      "name": "horizontal power-sector angle",
+      "actual_exact": "45/133",
+      "required_exact": "17/50",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 0.3383458646616541,
+      "required_decimal_preview": 0.34
+    },
+    {
+      "name": "horizontal power curvature factor",
+      "actual_exact": "4385941/2500000",
+      "required_exact": "7/4",
+      "relation": ">",
+      "passed": true,
+      "actual_decimal_preview": 1.7543764,
+      "required_decimal_preview": 1.75
+    },
+    {
+      "name": "horizontal exponential curvature factor",
+      "actual_exact": "196/25",
+      "required_exact": "7/4",
+      "relation": ">",
+      "passed": true,
+      "actual_decimal_preview": 7.84,
+      "required_decimal_preview": 1.75
+    },
+    {
+      "name": "horizontal loss versus floor margin",
+      "actual_exact": "1/100000000",
+      "required_exact": "189/5",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 1e-08,
+      "required_decimal_preview": 37.8
+    },
+    {
+      "name": "disk power-sector angle",
+      "actual_exact": "31/228",
+      "required_exact": "1/7",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 0.13596491228070176,
+      "required_decimal_preview": 0.14285714285714285
+    },
+    {
+      "name": "exponential upper comparison",
+      "actual_exact": "25/21",
+      "required_exact": "6/5",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 1.1904761904761905,
+      "required_decimal_preview": 1.2
+    },
+    {
+      "name": "disk normalized curvature lower bound",
+      "actual_exact": "1326796799997/200000000000",
+      "required_exact": "6633/1000",
+      "relation": ">",
+      "passed": true,
+      "actual_decimal_preview": 6.633983999985,
+      "required_decimal_preview": 6.633
+    },
+    {
+      "name": "disk normalized second derivative",
+      "actual_exact": "396633882812934007/28933800000000000",
+      "required_exact": "13709/1000",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 13.7083232348649,
+      "required_decimal_preview": 13.709
+    },
+    {
+      "name": "second derivative versus requested saddle bound",
+      "actual_exact": "13709/1000",
+      "required_exact": "2837/200",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 13.709,
+      "required_decimal_preview": 14.185
+    },
+    {
+      "name": "disk normalized third derivative ratio",
+      "actual_exact": "14543876108683578229/288180648000000000",
+      "required_exact": "51",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 50.46791382287258,
+      "required_decimal_preview": 51.0
+    },
+    {
+      "name": "third derivative versus required bound",
+      "actual_exact": "51",
+      "required_exact": "100",
+      "relation": "<",
+      "passed": true,
+      "actual_decimal_preview": 51.0,
+      "required_decimal_preview": 100.0
+    }
+  ],
+  "all_passed": true,
+  "failures": []
+}

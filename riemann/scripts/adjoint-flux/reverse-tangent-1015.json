@@ -1,0 +1,175 @@
+{
+  "scope": "Exact rational majorant arithmetic only; analytic identities, ODE continuation and source hypotheses require the canonical proof.",
+  "derivative_bounds": {
+    "a": "101/100",
+    "b": "1/32",
+    "r": "9/10",
+    "eta": "1/96",
+    "d2": "40",
+    "d3": "400/9",
+    "d4": "8000/81",
+    "d5": "80000/243",
+    "d6": "3200000/2187",
+    "v1": "202/5",
+    "v2": "41929/900",
+    "v3": "8583283/81000",
+    "f4": "3609156707/32400000",
+    "f5": "367871386657/972000000",
+    "f6": "601247329663337/349920000000"
+  },
+  "background": {
+    "EE_entry_bounds": [
+      [
+        "120",
+        "5731361/60000",
+        "8583283/162000"
+      ],
+      [
+        "5731361/60000",
+        "9412992488474011/155520000000000",
+        "1362739951977337/46656000000000"
+      ],
+      [
+        "8583283/162000",
+        "1362739951977337/46656000000000",
+        "601247329663337/41990400000000"
+      ]
+    ],
+    "EP_entry_bounds": [
+      [
+        "40",
+        "76",
+        "32"
+      ],
+      [
+        "5731361/180000",
+        "137598349/600000",
+        "5706361/150000"
+      ],
+      [
+        "8583283/486000",
+        "21161983/180000",
+        "54306509/202500"
+      ]
+    ],
+    "EE_Frobenius_squared": "772953562422026189834285652813208009/17631936921600000000000000000000",
+    "EP_Frobenius_squared": "353132067172980614257/2361960000000000",
+    "PP_operator_bound": "1064/15"
+  },
+  "singular": {
+    "EE_entry_bounds": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "421201/53687091200",
+        "649/5368709120"
+      ],
+      [
+        "0",
+        "649/5368709120",
+        "1/536870912"
+      ]
+    ],
+    "EP_entry_bounds": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1307/20480",
+        "848243/204800"
+      ],
+      [
+        "0",
+        "3/2048",
+        "1947/20480"
+      ]
+    ],
+    "EE_Frobenius_squared": "177494532601/2882303761517117440000",
+    "EP_Frobenius_squared": "720066182849/41943040000",
+    "PP_operator_bound": "336/5"
+  },
+  "total": {
+    "EE_operator_bound": 211,
+    "EP_operator_bound": 392,
+    "PP_operator_bound": 139,
+    "growth_bound": "9334/25",
+    "horizon_graph_bound": "4667/24000",
+    "required_graph_bound": "1/5"
+  },
+  "checks": [
+    {
+      "name": "background_EE_Frobenius_squared",
+      "actual": "772953562422026189834285652813208009/17631936921600000000000000000000",
+      "required_strict_upper": "44100",
+      "passed": true
+    },
+    {
+      "name": "background_EP_Frobenius_squared",
+      "actual": "353132067172980614257/2361960000000000",
+      "required_strict_upper": "149769",
+      "passed": true
+    },
+    {
+      "name": "singular_EE_Frobenius_squared",
+      "actual": "177494532601/2882303761517117440000",
+      "required_strict_upper": "1",
+      "passed": true
+    },
+    {
+      "name": "singular_EP_Frobenius_squared",
+      "actual": "720066182849/41943040000",
+      "required_strict_upper": "25",
+      "passed": true
+    },
+    {
+      "name": "total_PP",
+      "actual": "2072/15",
+      "required_strict_upper": "139",
+      "passed": true
+    },
+    {
+      "name": "Riccati_growth",
+      "actual": "9334/25",
+      "required_strict_upper": "384",
+      "passed": true
+    },
+    {
+      "name": "horizon_graph_derivative",
+      "actual": "4667/24000",
+      "required_strict_upper": "1/5",
+      "passed": true
+    },
+    {
+      "name": "scaled_W",
+      "actual": "119/7680",
+      "required_strict_upper": "1/64",
+      "passed": true
+    },
+    {
+      "name": "scaled_product_squared",
+      "actual": "4/125",
+      "required_strict_upper": "81/2500",
+      "passed": true
+    },
+    {
+      "name": "sum_abs_s_squared",
+      "actual": "18/5",
+      "required_strict_upper": "361/100",
+      "passed": true
+    },
+    {
+      "name": "phase_bound",
+      "actual": "95951/64000",
+      "required_strict_upper": "3/2",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

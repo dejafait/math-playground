@@ -1,0 +1,8 @@
+First audit run, 2026-11-14: all 187 prefix, 1 contact and 1 lower-sign
+cells completed with zero failures. The output write then failed while
+converting the exact N=128 complex residue to text:
+ValueError: Exceeds the limit (4300 digits) for integer string conversion.
+
+No certificate was produced by that run. The final script sets a local
+50000-digit serialization limit and is rerun in full. No mathematical
+formula, model parameter, interval domain or acceptance threshold changes.

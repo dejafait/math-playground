@@ -1,0 +1,664 @@
+{
+  "scope": "Exact rational primitives, Laurent coefficients, finite-part counterterms and finite endpoint traces in C034g; not a contour/divisor/sign verification.",
+  "method": "Python standard-library Fraction polynomial arithmetic; no external algebra package.",
+  "checks": [
+    {
+      "name": "j1:primitive",
+      "actual": true,
+      "required": true,
+      "pass": true
+    },
+    {
+      "name": "j1:second_derivative",
+      "actual": true,
+      "required": true,
+      "pass": true
+    },
+    {
+      "name": "j1:quadratic_primitive",
+      "actual": true,
+      "required": true,
+      "pass": true
+    },
+    {
+      "name": "j1:laurent_Q",
+      "actual": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "4",
+        "-1": "0",
+        "0": "4"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "4",
+        "-1": "0",
+        "0": "4"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:laurent_Qprime",
+      "actual": {
+        "-4": "0",
+        "-3": "-8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "-8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:laurent_Qsecond",
+      "actual": {
+        "-4": "24",
+        "-3": "0",
+        "-2": "0",
+        "-1": "0",
+        "0": "-24"
+      },
+      "required": {
+        "-4": "24",
+        "-3": "0",
+        "-2": "0",
+        "-1": "0",
+        "0": "-24"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:laurent_L",
+      "actual": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-4",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-4",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:laurent_M",
+      "actual": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-24",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-24",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:boundary_p0",
+      "actual": {
+        "-4": "0",
+        "-3": "8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:boundary_p2",
+      "actual": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "8",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "8",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:Q:residue_g0",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j1:Q:counterterm_g0",
+      "actual": {
+        "-1": "8",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "8",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:Q:residue_g1",
+      "actual": "4",
+      "required": "4",
+      "pass": true
+    },
+    {
+      "name": "j1:Q:counterterm_g1",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:Q:residue_g2",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j1:Q:counterterm_g2",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:Q:residue_g3",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j1:Q:counterterm_g3",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:Qsecond:residue_g0",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j1:Qsecond:counterterm_g0",
+      "actual": {
+        "-1": "0",
+        "-3": "16"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "16"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:Qsecond:residue_g1",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j1:Qsecond:counterterm_g1",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:Qsecond:residue_g2",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j1:Qsecond:counterterm_g2",
+      "actual": {
+        "-1": "24",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "24",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j1:Qsecond:residue_g3",
+      "actual": "4",
+      "required": "4",
+      "pass": true
+    },
+    {
+      "name": "j1:Qsecond:counterterm_g3",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:primitive",
+      "actual": true,
+      "required": true,
+      "pass": true
+    },
+    {
+      "name": "j2:second_derivative",
+      "actual": true,
+      "required": true,
+      "pass": true
+    },
+    {
+      "name": "j2:quadratic_primitive",
+      "actual": true,
+      "required": true,
+      "pass": true
+    },
+    {
+      "name": "j2:laurent_Q",
+      "actual": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "4",
+        "-1": "0",
+        "0": "2"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "4",
+        "-1": "0",
+        "0": "2"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:laurent_Qprime",
+      "actual": {
+        "-4": "0",
+        "-3": "-8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "-8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:laurent_Qsecond",
+      "actual": {
+        "-4": "24",
+        "-3": "0",
+        "-2": "0",
+        "-1": "0",
+        "0": "-6"
+      },
+      "required": {
+        "-4": "24",
+        "-3": "0",
+        "-2": "0",
+        "-1": "0",
+        "0": "-6"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:laurent_L",
+      "actual": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-4",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-4",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:laurent_M",
+      "actual": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-24",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-24",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:boundary_p0",
+      "actual": {
+        "-4": "0",
+        "-3": "8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:boundary_p2",
+      "actual": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "8",
+        "0": "0"
+      },
+      "required": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "8",
+        "0": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:Q:residue_g0",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j2:Q:counterterm_g0",
+      "actual": {
+        "-1": "8",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "8",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:Q:residue_g1",
+      "actual": "4",
+      "required": "4",
+      "pass": true
+    },
+    {
+      "name": "j2:Q:counterterm_g1",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:Q:residue_g2",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j2:Q:counterterm_g2",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:Q:residue_g3",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j2:Q:counterterm_g3",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:Qsecond:residue_g0",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j2:Qsecond:counterterm_g0",
+      "actual": {
+        "-1": "0",
+        "-3": "16"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "16"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:Qsecond:residue_g1",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j2:Qsecond:counterterm_g1",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:Qsecond:residue_g2",
+      "actual": "0",
+      "required": "0",
+      "pass": true
+    },
+    {
+      "name": "j2:Qsecond:counterterm_g2",
+      "actual": {
+        "-1": "24",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "24",
+        "-3": "0"
+      },
+      "pass": true
+    },
+    {
+      "name": "j2:Qsecond:residue_g3",
+      "actual": "4",
+      "required": "4",
+      "pass": true
+    },
+    {
+      "name": "j2:Qsecond:counterterm_g3",
+      "actual": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "required": {
+        "-1": "0",
+        "-3": "0"
+      },
+      "pass": true
+    }
+  ],
+  "laurent_evidence": {
+    "1": {
+      "Q": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "4",
+        "-1": "0",
+        "0": "4"
+      },
+      "Qprime": {
+        "-4": "0",
+        "-3": "-8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "Qsecond": {
+        "-4": "24",
+        "-3": "0",
+        "-2": "0",
+        "-1": "0",
+        "0": "-24"
+      },
+      "L": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-4",
+        "0": "0"
+      },
+      "M": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-24",
+        "0": "0"
+      }
+    },
+    "2": {
+      "Q": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "4",
+        "-1": "0",
+        "0": "2"
+      },
+      "Qprime": {
+        "-4": "0",
+        "-3": "-8",
+        "-2": "0",
+        "-1": "0",
+        "0": "0"
+      },
+      "Qsecond": {
+        "-4": "24",
+        "-3": "0",
+        "-2": "0",
+        "-1": "0",
+        "0": "-6"
+      },
+      "L": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-4",
+        "0": "0"
+      },
+      "M": {
+        "-4": "0",
+        "-3": "0",
+        "-2": "0",
+        "-1": "-24",
+        "0": "0"
+      }
+    }
+  },
+  "summary": {
+    "passed": 52,
+    "required": 52,
+    "failures": [],
+    "all_pass": true
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "step": 359,
+  "claim": "C997p rational margins only",
+  "method": "exact fractions; no floating-point or sampling",
+  "analytic_proof_verified": false,
+  "checks": [
+    {
+      "name": "saddle log argument",
+      "actual": {
+        "numerator": 1,
+        "denominator": 196
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 1,
+        "denominator": 196
+      },
+      "passed": true
+    },
+    {
+      "name": "log series bound",
+      "actual": {
+        "numerator": 1,
+        "denominator": 195
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 1,
+        "denominator": 195
+      },
+      "passed": true
+    },
+    {
+      "name": "rate loss",
+      "actual": {
+        "numerator": 2651,
+        "denominator": 174720
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 64
+      },
+      "passed": true
+    },
+    {
+      "name": "whole rectangle q disk",
+      "actual": {
+        "numerator": 1,
+        "denominator": 7
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 1,
+        "denominator": 7
+      },
+      "passed": true
+    },
+    {
+      "name": "q real part squared",
+      "actual": {
+        "numerator": 4,
+        "denominator": 9
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 6,
+        "denominator": 7
+      },
+      "passed": true
+    },
+    {
+      "name": "saddle q difference",
+      "actual": {
+        "numerator": 1,
+        "denominator": 223
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 112
+      },
+      "passed": true
+    },
+    {
+      "name": "nonvanishing error",
+      "actual": {
+        "numerator": 5,
+        "denominator": 112
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 16
+      },
+      "passed": true
+    },
+    {
+      "name": "horizontal outer bound",
+      "actual": {
+        "numerator": 44,
+        "denominator": 49
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 44,
+        "denominator": 49
+      },
+      "passed": true
+    },
+    {
+      "name": "vertical bound",
+      "actual": {
+        "numerator": 29,
+        "denominator": 196
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 29,
+        "denominator": 196
+      },
+      "passed": true
+    },
+    {
+      "name": "vertical versus outer",
+      "actual": {
+        "numerator": 29,
+        "denominator": 196
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 44,
+        "denominator": 49
+      },
+      "passed": true
+    },
+    {
+      "name": "outer rate",
+      "actual": {
+        "numerator": 513,
+        "denominator": 3136
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 13,
+        "denominator": 64
+      },
+      "passed": true
+    },
+    {
+      "name": "central log argument",
+      "actual": {
+        "numerator": 25,
+        "denominator": 98
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 25,
+        "denominator": 98
+      },
+      "passed": true
+    },
+    {
+      "name": "central radius",
+      "actual": {
+        "numerator": 25,
+        "denominator": 98
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "passed": true
+    },
+    {
+      "name": "curvature numerator",
+      "actual": {
+        "numerator": 8,
+        "denominator": 27
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 8,
+        "denominator": 27
+      },
+      "passed": true
+    },
+    {
+      "name": "curvature ratio",
+      "actual": {
+        "numerator": 3,
+        "denominator": 32
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 3,
+        "denominator": 32
+      },
+      "passed": true
+    },
+    {
+      "name": "curvature lower bound",
+      "actual": {
+        "numerator": 12,
+        "denominator": 1
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 12,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "saddle inside center",
+      "actual": {
+        "numerator": 1,
+        "denominator": 112
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 16
+      },
+      "passed": true
+    },
+    {
+      "name": "correction versus chosen rho",
+      "actual": {
+        "numerator": 13,
+        "denominator": 64
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 7,
+        "denominator": 32
+      },
+      "passed": true
+    },
+    {
+      "name": "chosen rho versus rate floor",
+      "actual": {
+        "numerator": 7,
+        "denominator": 32
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 15,
+        "denominator": 64
+      },
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "all_passed": true
+}

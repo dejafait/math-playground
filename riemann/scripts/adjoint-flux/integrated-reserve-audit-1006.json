@@ -1,0 +1,65 @@
+{
+  "scope": "All accepted saved tubes and exact comparisons; analytic antecedents are audited in C467c, audit1006.",
+  "source": "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/adjoint-flux/integrated-reserve-certificate-1004.py",
+  "source_sha256": "5d601adb2b6a5b3d6b4cffefa219fdb6c0f0745f3fa1b1a343193abbe52409b4",
+  "certificate": "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/adjoint-flux/integrated-reserve-certificate-1004.json",
+  "certificate_sha256": "b8ce823fe3a3fb7665846b75313df08e30ded088c1a923fb1282d9ed477fa887",
+  "verification_failures": [],
+  "replay": {
+    "accepted_boxes": 100,
+    "rejected_boxes": 164,
+    "verified_tubes": 25600,
+    "mass_lower_over_exp_minus_H0": {
+      "numerator": 12701285019439211927675528954987981661,
+      "denominator": 31250000000000000000000000000000000000000000000000000
+    },
+    "required_initial_upper_over_exp_minus_H0": {
+      "numerator": 720032162432778189538406755762773276168177741489,
+      "denominator": 9323235920868020195334029312000000000000000000000000000000000000
+    },
+    "strict_margin": {
+      "numerator": 11708504841112574753550845650051730229021163752267713424986871,
+      "denominator": 35565322574112015515648000000000000000000000000000000000000000000000000000000
+    },
+    "ratio_lower": {
+      "numerator": 1606134395811883284561682653575445406309637151151643315666944,
+      "denominator": 305189413466041645278255359125253158640618956455230712890625
+    },
+    "chosen_reserve_floor": {
+      "numerator": 1,
+      "denominator": 2500000000000000
+    },
+    "chosen_initial_ceiling": {
+      "numerator": 1,
+      "denominator": 12500000000000000
+    },
+    "chosen_bounds_verified": true,
+    "reserve_exceeds_initial": true,
+    "verification_failures": []
+  },
+  "minimum_gap_throughout_tubes": {
+    "numerator": 84594088907682161,
+    "denominator": 18446744073709551616
+  },
+  "minimum_radius_exit_slack": {
+    "numerator": 211679363314643438736775873980700135167518816063464658021,
+    "denominator": 16996580534569519571355029453403258462562320943939584000000000
+  },
+  "minimum_shape_exit_slack": {
+    "numerator": 8012200586376416545149181074079893890829408134909073657973,
+    "denominator": 1492055706906669696491411077603755403562938602013448406942351360
+  },
+  "maximum_accumulated_loss": {
+    "numerator": 1356871025325528613,
+    "denominator": 9223372036854775808
+  },
+  "monotone_endpoint_bounds_checked": true,
+  "square_root_enclosures_checked": true,
+  "original_grid_and_constants_checked": true,
+  "original_certificate_unchanged": true,
+  "rejected_box_reasons": {
+    "positive-gap tube not certified": 150,
+    "no interior center interval": 14
+  },
+  "all_checks_passed": true
+}

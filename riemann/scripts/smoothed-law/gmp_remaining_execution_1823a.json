@@ -1,0 +1,105 @@
+{
+  "status": "GMP_EXECUTION_ERROR_INCOMPLETE",
+  "assessment": "drafts/literature/2026-11-19-direct-positive-real-gmp-execution-review-1816.md",
+  "artifacts": [
+    {
+      "path": "scripts/smoothed-law/gmp_remaining_execution_1823a/outer_inputs_000.json",
+      "bytes": 852196,
+      "sha256": "24e1c3289afa9bca25d4dea42ef0b705f8cfb8e8e6a21df608eb53d2d09d32f8",
+      "operations_completed": 66
+    },
+    {
+      "path": "scripts/smoothed-law/gmp_remaining_execution_1823a/outer_factors_000.json",
+      "bytes": 27254086,
+      "sha256": "60348e0873f90229ecf7cee8da5bc7c6250cd066607d56663425eba5a574346b",
+      "operations_completed": 160
+    },
+    {
+      "path": "scripts/smoothed-law/gmp_remaining_execution_1823a/core_000_1_1.json",
+      "bytes": 454953,
+      "sha256": "5a631a3c92761077adfbbb95d459bce591854e2d1f5360755f3b19e0ba46e8e9",
+      "operations_completed": 544
+    }
+  ],
+  "inputs_sha256": {
+    "scripts/smoothed-law/direct_positive_real_remaining_execution_1816.json": "0c8e5c700b9ac07a42c8a260ae07b47d8a803fa401ac9c752e021910e38cc00a",
+    "scripts/smoothed-law/direct_positive_real_remaining_replay_1816.json": "5d2b4220823a69892cc72401a4e00d223431562361183501042c8dfd4f44b444",
+    "scripts/smoothed-law/direct_positive_real_remaining_lineage_1816.json": "11d9882b4c6aea67cf8784f1d2293dfc956c97abbc6820ef5f57202bccc88cb9",
+    "scripts/smoothed-law/direct_positive_real_remaining_execution_1816/constants.json": "8845c3b7579573ef886856b3e60ac9e357cfaa9d25ff98e053e37045da24dd53",
+    "scripts/smoothed-law/direct_positive_real_remaining_execution_1816/prime_constants.json": "56926d49e153a29383ef5c9257b8b323e41bf4eb761d9c2150c095044db5afc0",
+    "scripts/smoothed-law/direct_positive_real_remaining_execution_1816/shared_core.json": "11d6848304808ce230e47bf67bdc126ebfebae4cced11f152af1f4664589c15a",
+    "scripts/smoothed-law/direct_positive_real_execution_1808/inner_nodes.json": "86120ba586f663f736e4170f3acc836a7ca102b129fd1b1756a05b16e9d994b5",
+    "scripts/smoothed-law/direct_positive_real_execution_1808/moment_inputs.json": "edcff219dc4ea7efe428b258460246afb1b594ffd2bad74af776240438d9bde4",
+    "scripts/smoothed-law/direct_positive_real_execution_1808/reference_rules.json": "66e51c3c79eba5b78c856a85a6d03eb68dc4bc9bb303cf141f687800eac14870",
+    "scripts/smoothed-law/direct_positive_real_remaining_execution_1816/outer_inputs_000.json": "24e1c3289afa9bca25d4dea42ef0b705f8cfb8e8e6a21df608eb53d2d09d32f8"
+  },
+  "failures": [
+    "NameError: name 'ac' is not defined"
+  ],
+  "profiles_evaluated": 0,
+  "scalars_evaluated": 0,
+  "required_scalar_radius": "1/256",
+  "required_operation_cap": 1000000,
+  "inherited_full_operation_upper": 997104,
+  "actual_complete_operation_count_verified": false,
+  "reserved_exponent_allowance": "1/1024",
+  "reserved_final_exponential_allowance": "1/1024",
+  "arithmetic": "Exact GMP mpq throughout tail/helpers/encoder; only reused Ihat is rounded",
+  "time_limit_seconds": 300,
+  "pending": "Prime/profile assembly panel1/20 node1/13 width1/1",
+  "limitations": [
+    "No scalar, radius, full executed-cost or runtime theorem from a partial run",
+    "Reused constructor costs remain in the inherited ledger; fresh operator counts exclude validation/I/O/hash/serialization",
+    "No source-wide validity, interpolation, TV or Xi positivity claim"
+  ],
+  "elapsed_seconds": 4.009,
+  "fresh_completed_operations": {
+    "mul": 235,
+    "div": 80,
+    "comparison": 97,
+    "sub": 5,
+    "add": 135
+  },
+  "fresh_completed_operation_total": 552,
+  "interrupted_operation": null,
+  "abi": {
+    "passed": true,
+    "header": "/opt/homebrew/include/gmp.h",
+    "header_sha256": "920496a9867a23dec3410e19da39ac446743694d539651bd78015240b0704e4b",
+    "library": "/opt/homebrew/lib/libgmp.dylib",
+    "library_sha256": "1bb9184824b82f40bd50279634290d6cbdf9c1a371c045c7b10815e7955cd696",
+    "version": "6.3.0",
+    "sizes_offsets_limb_bits": [
+      16,
+      32,
+      0,
+      4,
+      8,
+      0,
+      16,
+      64
+    ],
+    "compiler_command": [
+      "cc",
+      "-dynamiclib",
+      "-I/opt/homebrew/include",
+      "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/smoothed-law/gmp_remaining_execution_1823a/abi_probe.c",
+      "/opt/homebrew/lib/libgmp.dylib",
+      "-o",
+      "/var/folders/80/344nd_k1067fqqp5fqs5fq8m0000gq/T/riemann-gmp1823-db45j637/probe.dylib"
+    ],
+    "compiler_stderr": "",
+    "linked_objects": "/var/folders/80/344nd_k1067fqqp5fqs5fq8m0000gq/T/riemann-gmp1823-db45j637/probe.dylib:\n\t/var/folders/80/344nd_k1067fqqp5fqs5fq8m0000gq/T/riemann-gmp1823-db45j637/probe.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/opt/homebrew/opt/gmp/lib/libgmp.10.dylib (compatibility version 16.0.0, current version 16.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n",
+    "scope": "Generated header, compiled probe and ctypes layout/version agree; exact arithmetic replay remains required"
+  },
+  "original_tail_ast_sha256": "53f796d26dc0384690af8dc7455867ce6d97b5207792690a44442b529ba33304",
+  "source_sha256": {
+    "scripts/smoothed-law/gmp_remaining_execution_1823a.py": "ec1a00b6bbc7e311bea9ed009e3a9be95d0a7b2e011003f77759303d067ef8e0",
+    "scripts/smoothed-law/gmp_adapter_slice_1821.py": "3351e0a5272d2c1e41d2950dacf76b0775ce29c16b11c80b87b4ff8175d40fa4",
+    "scripts/smoothed-law/direct_positive_real_remaining_execution_1816.py": "29fb6ce08ddd5d2b056b7f87185484ad27089a5d118f6c53fa489ec7a6a4b8e1",
+    "scripts/smoothed-law/direct_positive_real_execution_1808.py": "914e7e6c5149ba785af41e53247fb3a71ae32e15dc32f7a6a1e4b931700c5c8d",
+    "scripts/smoothed-law/direct_positive_real_execution_remaining_1808.py": "afb01eaf4d769d4650a6782f0a1114c16e6e61b1e6e214053efc8f8a9c64a06a"
+  },
+  "prefix_lineage_passed": true,
+  "last_completed_artifact": "scripts/smoothed-law/gmp_remaining_execution_1823a/core_000_1_1.json"
+}

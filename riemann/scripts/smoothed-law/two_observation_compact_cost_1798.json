@@ -1,0 +1,107 @@
+{
+  "scope": "C033m prescribed compact D=0 allowance, beta=epsilon/4; not actual-error or complexity lower bounds for other evaluators",
+  "scalar_entries_required": 8,
+  "scalar_entries_evaluated": 0,
+  "matrix_certified": false,
+  "TV_certified": false,
+  "analytic_proof": "lemmas/C033x-compact-excision-scalar-preflight-cost-stop.md",
+  "rows": [
+    {
+      "bits": 8,
+      "epsilon": "1/256",
+      "required_profile_d_strict_upper": "1/3072",
+      "small_cutoff_strict_upper": "1/192",
+      "J_strict_lower_bound": "3502176",
+      "minimum_integer_J": 3502177,
+      "total_operational_cap": 1000000,
+      "one_profile_exceeds_total_cap": true,
+      "outer": {
+        "1": {
+          "K_s": "2651/2",
+          "n_squared_strict_lower_bound": "21208",
+          "minimum_n": 146,
+          "literal_nested_node_lower_bound": 511317842
+        },
+        "2": {
+          "K_s": "3555/2",
+          "n_squared_strict_lower_bound": "28440",
+          "minimum_n": 169,
+          "literal_nested_node_lower_bound": 591867913
+        }
+      }
+    },
+    {
+      "bits": 16,
+      "epsilon": "1/65536",
+      "required_profile_d_strict_upper": "1/786432",
+      "small_cutoff_strict_upper": "1/49152",
+      "J_strict_lower_bound": "59371212005376",
+      "minimum_integer_J": 59371212005377,
+      "total_operational_cap": 1000000,
+      "one_profile_exceeds_total_cap": true,
+      "outer": {
+        "1": {
+          "K_s": "2651/2",
+          "n_squared_strict_lower_bound": "5429248",
+          "minimum_n": 2331,
+          "literal_nested_node_lower_bound": 138394295184533787
+        },
+        "2": {
+          "K_s": "3555/2",
+          "n_squared_strict_lower_bound": "7280640",
+          "minimum_n": 2699,
+          "literal_nested_node_lower_bound": 160242901202512523
+        }
+      }
+    },
+    {
+      "bits": 32,
+      "epsilon": "1/4294967296",
+      "required_profile_d_strict_upper": "1/51539607552",
+      "small_cutoff_strict_upper": "1/3221225472",
+      "J_strict_lower_bound": "16712190519976340171287166976",
+      "minimum_integer_J": 16712190519976340171287166977,
+      "total_operational_cap": 1000000,
+      "one_profile_exceeds_total_cap": true,
+      "outer": {
+        "1": {
+          "K_s": "2651/2",
+          "n_squared_strict_lower_bound": "355811196928",
+          "minimum_n": 596500,
+          "literal_nested_node_lower_bound": 9968821645165886912172795101780500
+        },
+        "2": {
+          "K_s": "3555/2",
+          "n_squared_strict_lower_bound": "477144023040",
+          "minimum_n": 690757,
+          "literal_nested_node_lower_bound": 11544062587007296807697809599531589
+        }
+      }
+    },
+    {
+      "bits": 64,
+      "epsilon": "1/18446744073709551616",
+      "required_profile_d_strict_upper": "1/221360928884514619392",
+      "small_cutoff_strict_upper": "1/13835058055282163712",
+      "J_strict_lower_bound": "1324076147308127973430203000064839248955359913913903742976",
+      "minimum_integer_J": 1324076147308127973430203000064839248955359913913903742977,
+      "total_operational_cap": 1000000,
+      "one_profile_exceeds_total_cap": true,
+      "outer": {
+        "1": {
+          "K_s": "2651/2",
+          "n_squared_strict_lower_bound": "1528197454356375666688",
+          "minimum_n": 39092166151,
+          "literal_nested_node_lower_bound": 51761004747145290130104409080193359693268982936727381829477683371527
+        },
+        "2": {
+          "K_s": "3555/2",
+          "n_squared_strict_lower_bound": "2049317974438670499840",
+          "minimum_n": 45269393352,
+          "literal_nested_node_lower_bound": 59940123940492341175966464327145689465608443031701366402690920488904
+        }
+      }
+    }
+  ],
+  "failures": []
+}

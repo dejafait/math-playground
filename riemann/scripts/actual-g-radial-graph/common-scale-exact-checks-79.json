@@ -1,0 +1,35 @@
+{
+  "status": "EXACT_ARITHMETIC_PASS",
+  "scope": "Finite rational inequalities in L891 only; analytic steps are in the lemma.",
+  "values": {
+    "e_series_upper": "1631/600",
+    "exp_11_over_10_partial_sum": "36015101/12000000",
+    "k1_lower": "349/320",
+    "k3_upper": "32/35",
+    "model_mass_lower_bound": "1/1260",
+    "required_for_descent": "full mass < 0",
+    "finite_mass_lower_bound_factor": "epsilon^3 * (abs(h_alpha)+abs(h_beta)) / (2520*(2*pi)^2)"
+  },
+  "checks": {
+    "e_upper_less_than_11_over_4": true,
+    "exp_11_over_10_partial_sum_exceeds_3": true,
+    "exp_4_over_5_upper_below_5_over_2": true,
+    "exp_9_over_7_upper_below_4": true,
+    "last_interval_exponent_below_2": true,
+    "e_squared_upper_below_8": true,
+    "k1_lower_equals_349_over_320": true,
+    "k1_lower_exceeds_13_over_12": true,
+    "k3_upper_equals_32_over_35": true,
+    "squared_jacobian_auxiliary_constant_below_1": true,
+    "full_mass_lower_bound_equals_1_over_1260": true,
+    "full_mass_lower_bound_positive": true,
+    "finite_remainder_allocation": true,
+    "signed_change_remainder_allocation": true
+  },
+  "failures": [],
+  "unverified": [
+    "Independent audit of L891's algebra, integration, compact Taylor bound and actual endpoint transfer.",
+    "Existence of stationary actual-G data satisfying the clean strip and slope restrictions.",
+    "Numerical values of the data-dependent constants in L891(23)."
+  ]
+}

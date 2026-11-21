@@ -1,0 +1,41 @@
+{
+  "certified": false,
+  "parameters": {
+    "modes": 512,
+    "neutral_dimension": 510,
+    "separation": 7,
+    "remote_separation": 14,
+    "continuous_terms": 7
+  },
+  "input_hash": {
+    "path": "complete-covariance-532.npz",
+    "actual": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "expected": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402"
+  },
+  "single_cell_min_eigenvalue": 0.7805858235607276,
+  "relative_seven_norm": 0.9217719501651007,
+  "relative_fourteen_norm": 0.8909569232937092,
+  "left_diagonal_min": 0.15033647188882737,
+  "right_diagonal_min": 0.15033647188882712,
+  "full_endpoint_residual_min": 0.019327887069150607,
+  "required_residual_min": 0,
+  "least_direction_components": {
+    "endpoint_diagonal_energy": 0.9999999999999989,
+    "middle_elimination_debt": 0.7316238335294353,
+    "actual_remote_cross": -0.24904827940141427,
+    "residual_value": 0.019327887069150347
+  },
+  "maximum_neutrality_residual": 2.6450056328355072e-18,
+  "failures": [],
+  "limitations": [
+    "finite neutral inverse is not full neutral inverse",
+    "moment projection, new remote entries, eigensolve and arithmetic unverified",
+    "entire omitted middle and endpoint covariance unpaid",
+    "no exactly neutral compact smooth witness or full-space positivity"
+  ],
+  "full_sign_certified": false,
+  "matrices": {
+    "path": "shared-middle-diagnostic-matrices-543.npz",
+    "sha256": "5e45e90a8a6342ffb88a171a873a4c613898dda8c76bbf52c0ca401d8c4f44b4"
+  }
+}

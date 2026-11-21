@@ -1,0 +1,138 @@
+{
+  "scope": "Exact auxiliary rational comparisons only; no proof of uniform analytic limits or B_sp=o(n).",
+  "parameters": {
+    "s": "65/64",
+    "outer_radius": "33/32",
+    "rho_squared": "2824/3025"
+  },
+  "checks": [
+    {
+      "name": "outer_spatial_poles_excluded",
+      "actual": {
+        "exact": "3177/3200",
+        "decimal_diagnostic": 0.9928125
+      },
+      "relation": "<",
+      "required": {
+        "exact": "1",
+        "decimal_diagnostic": 1.0
+      },
+      "passed": true
+    },
+    {
+      "name": "target_spatial_poles_excluded",
+      "actual": {
+        "exact": "59657/61952",
+        "decimal_diagnostic": 0.9629551911157025
+      },
+      "relation": "=",
+      "required": {
+        "exact": "59657/61952",
+        "decimal_diagnostic": 0.9629551911157025
+      },
+      "passed": true
+    },
+    {
+      "name": "target_spatial_radius_margin",
+      "actual": {
+        "exact": "59657/61952",
+        "decimal_diagnostic": 0.9629551911157025
+      },
+      "relation": "<",
+      "required": {
+        "exact": "1",
+        "decimal_diagnostic": 1.0
+      },
+      "passed": true
+    },
+    {
+      "name": "anchor_outer_denominator",
+      "actual": {
+        "exact": "11/128",
+        "decimal_diagnostic": 0.0859375
+      },
+      "relation": "=",
+      "required": {
+        "exact": "11/128",
+        "decimal_diagnostic": 0.0859375
+      },
+      "passed": true
+    },
+    {
+      "name": "anchor_target_denominator",
+      "actual": {
+        "exact": "27/256",
+        "decimal_diagnostic": 0.10546875
+      },
+      "relation": "=",
+      "required": {
+        "exact": "27/256",
+        "decimal_diagnostic": 0.10546875
+      },
+      "passed": true
+    },
+    {
+      "name": "anchor_growth_ratio",
+      "actual": {
+        "exact": "32/27",
+        "decimal_diagnostic": 1.1851851851851851
+      },
+      "relation": "=",
+      "required": {
+        "exact": "32/27",
+        "decimal_diagnostic": 1.1851851851851851
+      },
+      "passed": true
+    },
+    {
+      "name": "three_circles_weight_gt_one_third",
+      "actual": {
+        "exact": "287496/274625",
+        "decimal_diagnostic": 1.046867546654529
+      },
+      "relation": ">",
+      "required": {
+        "exact": "33/32",
+        "decimal_diagnostic": 1.03125
+      },
+      "passed": true
+    },
+    {
+      "name": "interpolated_rate_fraction",
+      "actual": {
+        "exact": "1/4",
+        "decimal_diagnostic": 0.25
+      },
+      "relation": "=",
+      "required": {
+        "exact": "1/4",
+        "decimal_diagnostic": 0.25
+      },
+      "passed": true
+    },
+    {
+      "name": "offcenter_full_target_reaches_pole_limit",
+      "actual": {
+        "exact": "9409/4096",
+        "decimal_diagnostic": 2.297119140625
+      },
+      "relation": ">",
+      "required": {
+        "exact": "6481/2824",
+        "decimal_diagnostic": 2.294971671388102
+      },
+      "passed": true
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "total": 9,
+    "failures": []
+  },
+  "unresolved": [
+    "complementary angular growth",
+    "effective arc widths and onsets",
+    "full B_sp=o(n)",
+    "amplitude/full charge/H/support/Xi realization"
+  ]
+}

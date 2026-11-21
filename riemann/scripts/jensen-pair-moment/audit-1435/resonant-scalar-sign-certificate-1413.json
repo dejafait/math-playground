@@ -1,0 +1,64 @@
+{
+  "purpose": "C019z scalar integral sign only; not the full witness quotient",
+  "method": "Exact Fraction arithmetic; alternating arctangent and positive atanh log series",
+  "atan_terms": 20,
+  "log_terms": 32,
+  "outward_base_grid": "1/1000000000000",
+  "values": {
+    "pi": {
+      "lo": "3141592653589/1000000000000",
+      "hi": "314159265359/100000000000"
+    },
+    "log2": {
+      "lo": "693147180559/1000000000000",
+      "hi": "8664339757/12500000000"
+    },
+    "log4over3": {
+      "lo": "287682072451/1000000000000",
+      "hi": "71920518113/250000000000"
+    },
+    "x0": {
+      "lo": "3141592653589/3125000000000",
+      "hi": "314159265359/312500000000"
+    },
+    "b_at_6over5": {
+      "lo": "376195049517/1000000000000",
+      "hi": "376195049519/1000000000000"
+    },
+    "f_at_x0": {
+      "lo": "-117648665919948881284063/286000000000000000000000000",
+      "hi": "-334229164038691247653/812500000000000000000000"
+    },
+    "early_derivative": {
+      "lo": "-97513825553449/143000000000000",
+      "hi": "-3750531752047/5500000000000"
+    },
+    "early_upper_enclosure": {
+      "lo": "-117648665919948881284063/286000000000000000000000000",
+      "hi": "26898893431027208775817/8937500000000000000000000"
+    },
+    "f_at_6over5": {
+      "lo": "-4058487734211794174980727/286000000000000000000000000",
+      "hi": "-4058487734011779843343367/286000000000000000000000000"
+    },
+    "late_derivative_numerator": {
+      "lo": "-2658193444929/62500000000",
+      "hi": "-2126554755939/50000000000"
+    }
+  },
+  "checks": {
+    "entry_above_1": true,
+    "entry_below_101_over_100": true,
+    "late_start_negative": true,
+    "late_decreasing": true,
+    "early_upper_below_1_over_100": true,
+    "late_at_6_over_5_below_minus_1_over_100": true,
+    "sqrt2_above_7_over_5": true,
+    "integral_upper_below_minus_1_over_1000": true
+  },
+  "integral": {
+    "strict_upper": "-19/10000",
+    "required_strict_upper": "-1/1000"
+  },
+  "failures": []
+}

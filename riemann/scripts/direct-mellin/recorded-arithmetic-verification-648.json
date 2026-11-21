@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "stages": [
+    {
+      "boxes": 8192,
+      "all_cells_checked": 8192,
+      "exact_width_sums_and_propagation": true,
+      "scalar": [
+        "-0.449921201469539197293089771290589591962",
+        "0.631754954748839424757459778107485095786"
+      ],
+      "decision": "INCONCLUSIVE"
+    },
+    {
+      "boxes": 131072,
+      "all_cells_checked": 131072,
+      "exact_width_sums_and_propagation": true,
+      "scalar": [
+        "0.05483050444395944555729961932487534328353652685202958368407",
+        "0.12250047081840447956054443873929538459571947302593165526828"
+      ],
+      "decision": "PASS_NECESSARY_ONLY"
+    }
+  ],
+  "scope": "Exact recorded-cell widths/sums and final propagation; exp backend and analytic bounds require their stated contracts",
+  "source_sha256": "6750df197faa75f41bd27f2c659376c5b64e1b150ac946c3d224cc4a7d537ac2"
+}

@@ -1,0 +1,137 @@
+{
+  "status": "passed",
+  "qualification": "C028t fixed reference audit only; inherited L917/L037 containment and Decimal correctness remain conditional",
+  "checks": {
+    "producer field names": true,
+    "producer complete field status": true,
+    "producer complete field qualification": true,
+    "producer complete field fixed_sites": true,
+    "producer complete field degree": true,
+    "producer complete field empirical_divisor": true,
+    "producer complete field source": true,
+    "producer complete field input_sha256": true,
+    "producer complete field prior_hash_checks": true,
+    "producer complete field selected_inputs": true,
+    "producer complete field base_probability_moments": true,
+    "producer complete field arithmetic": true,
+    "producer complete field polynomials": true,
+    "producer complete field results": true,
+    "producer complete field divisors": true,
+    "producer complete field trace": true,
+    "producer complete field required_determinant_excludes_zero": true,
+    "producer complete field rank_certified_subject_to_input_contracts": true,
+    "producer complete field failures": true,
+    "summary field names": true,
+    "summary field status": true,
+    "summary field actual_gram_det": true,
+    "summary field actual_variance": true,
+    "summary field actual_rank_numerator": true,
+    "summary field actual_jacobian_determinant": true,
+    "summary field required": true,
+    "summary field nonzero": true,
+    "summary field failures": true,
+    "checker field names": true,
+    "checker complete field status": true,
+    "checker complete field qualification": true,
+    "checker complete field trace_records_checked": true,
+    "checker complete field divisors_checked": true,
+    "checker complete field polynomial_checks": true,
+    "checker complete field independent_centered_formula": true,
+    "checker complete field independent_rank_numerator": true,
+    "checker complete field primary_determinant": true,
+    "checker complete field required": true,
+    "checker complete field failures": true,
+    "original checker provenance": true,
+    "replayed checker producer provenance": true,
+    "strict quoted bound gram_determinant": true,
+    "strict quoted bound variance": true,
+    "strict quoted bound rank_numerator": true,
+    "strict quoted bound determinant": true,
+    "strict quoted bound independent_rank_numerator": true,
+    "printed complete determinant endpoint equality": true,
+    "closed panel contains zero": true,
+    "base zeroth moment exactly one": true,
+    "all odd base moments exactly zero": true,
+    "empirical division exactly four": true,
+    "all twelve divisors strictly positive": true,
+    "divisor multiplicities": true,
+    "all traces checked": true,
+    "all symbolic components checked": true,
+    "both certificates have no failures": true
+  },
+  "bounds": {
+    "gram_determinant": {
+      "actual": {
+        "lower": "38609724140322280299080224890412376406602536241/100000000000000000000000000000000000000000000000000",
+        "upper": "7723821932275871767509001168099587461894856127/20000000000000000000000000000000000000000000000000"
+      },
+      "required_outer": {
+        "lower": "193/500000",
+        "upper": "387/1000000"
+      }
+    },
+    "variance": {
+      "actual": {
+        "lower": "1344235507896818644611130822972276077594917951413/5000000000000000000000000000000000000000000000000",
+        "upper": "13456380547437517438398514050433471354596682289853/50000000000000000000000000000000000000000000000000"
+      },
+      "required_outer": {
+        "lower": "168/625",
+        "upper": "673/2500"
+      }
+    },
+    "rank_numerator": {
+      "actual": {
+        "lower": "-2194231854113272170985677879852265231041761671/5000000000000000000000000000000000000000000000000",
+        "upper": "-25597282889033149295679765715425482115720891767/100000000000000000000000000000000000000000000000000"
+      },
+      "required_outer": {
+        "lower": "-439/1000000",
+        "upper": "-51/200000"
+      }
+    },
+    "determinant": {
+      "actual": {
+        "lower": "-60260542634616891377496411143313853498905414870639/100000000000000000000000000000000000000000000000000",
+        "upper": "-6989618220286959911416477650126957777667399682899/20000000000000000000000000000000000000000000000000"
+      },
+      "required_outer": {
+        "lower": "-603/1000",
+        "upper": "-349/1000"
+      }
+    },
+    "independent_rank_numerator": {
+      "actual": {
+        "lower": "-1885179567220263993628557963356830842348775861/5000000000000000000000000000000000000000000000000",
+        "upper": "-31773876868073477574462821049403633832565807253/100000000000000000000000000000000000000000000000000"
+      },
+      "required_outer": {
+        "lower": "-189/500000",
+        "upper": "-317/1000000"
+      }
+    }
+  },
+  "positive_divisor_multiplicities": {
+    "0": 3,
+    "140": 4,
+    "1607": 2,
+    "1611": 2,
+    "1626": 1
+  },
+  "trace_records": 1633,
+  "symbolic_components": 15,
+  "producer_replay": "scripts/heat/two-site-theta-jacobian-replay-1923.json",
+  "checker_replay": "scripts/heat/two-site-theta-jacobian-check-replay-1923.json",
+  "input_sha256": {
+    "scripts/heat/two-site-theta-jacobian-1921.json": "736947eeeca8e8eff036805678acf70e01ac61ec68d489f38dee5d0450e0d5dd",
+    "scripts/heat/two-site-theta-jacobian-check-1921.json": "cb0a8cdaad1b36071f9df94d63717ad079a72d6df9d90beb82e444c14777e42e",
+    "scripts/heat/low-time-h2-uniform-195.json": "f0afdc26fd2463272ee7918073b5abed7e3170a64cbf8226bf16291820acc792",
+    "scripts/heat/low-time-h2-audit-197.json": "c4913751f8be8b267d1e82f69f279ef68b9cb22ac3aa79c4ba10a45269c44285",
+    "scripts/heat/two-site-theta-jacobian-1921.py": "37390e40227d75b4607b5f99fcf8cf1a1497b138f0a3eacdf9a71d42890f5ff6",
+    "scripts/heat/two-site-theta-jacobian-check-1921.py": "3f4be15c07ae294b7477060f04b71abb08bea06dae0f496aedad9b1b2bc0c824",
+    "scripts/heat/two-site-theta-jacobian-replay-1923.json": "16aa2abe550b67098afd98db4ff4fcaa9f481d70f1fc79f8cc833c0d487474da",
+    "scripts/heat/two-site-theta-jacobian-check-replay-1923.json": "b534335f539f070e7d6eb597b11dcdc0189062c81c6fb4cf8decbe0e7adcd7ee",
+    "scripts/heat/two-site-theta-jacobian-audit-1923.py": "a6cf9cc201243fa6c86fa712495cd362494e70edff1dbc19ee5cdaf409d4ad4b"
+  },
+  "failures": []
+}

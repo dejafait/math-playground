@@ -1,0 +1,20 @@
+Independent LDL row 2/3
+Independent LDL row 2/3
+Provenance: all255 prior coefficient/column hashes match; signed native and interval/LDL regressions pass.
+Native +1/1: 653820 input integers, 32640/32640 exact products; failures=[]; 93.2s
+Native -1/0: 653820 input integers, 32640/32640 exact products; failures=[]; 93.5s
+Native -1/1: 653820 input integers, 32640/32640 exact products; failures=[]; 93.5s
+Native +1/0: 653820 input integers, 32640/32640 exact products; failures=[]; 93.8s
+Native +1/2: 653820 input integers, 32640/32640 exact products; failures=[]; 99.9s
+Native -1/2: 653820 input integers, 32640/32640 exact products; failures=[]; 100.4s
+Independent LDL row 2/256
+Independent LDL row 66/256
+Independent LDL row 130/256
+Independent LDL row 194/256
+Sign -1: all255 independent shifted pivots positive, minimum>0.294795632547; matrix width<=4.325837624097E-153, required<1e-30; finite bound1/25; failures=[]
+Independent LDL row 2/256
+Independent LDL row 66/256
+Independent LDL row 130/256
+Independent LDL row 194/256
+Sign +1: all255 independent shifted pivots positive, minimum>0.649228220248; matrix width<=4.400421031409E-153, required<1e-30; finite bound1/25; failures=[]
+Complete: 3922920 input integers, 195840/195840 fresh products; both finite bounds>=I/25; failures=[]; evidence scripts/adjacent-neutral/native-audit-492.json

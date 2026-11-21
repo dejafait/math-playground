@@ -1,0 +1,138 @@
+{
+  "status": "PASSED_CONDITIONAL_NEW_ARITHMETIC_REPLAY",
+  "checks": [
+    {
+      "name": "same input l938-signed-response-complete-90.json",
+      "passed": true
+    },
+    {
+      "name": "same input c948a-complete-budget-audit-92.json",
+      "passed": true
+    },
+    {
+      "name": "same input actual-h2-energy-cell-polynomial-48.json",
+      "passed": true
+    },
+    {
+      "name": "same input actual-h2-energy-cell-48.json",
+      "passed": true
+    },
+    {
+      "name": "pointwise prefix",
+      "passed": true
+    },
+    {
+      "name": "pointwise complement",
+      "passed": true
+    },
+    {
+      "name": "uncancelled complement beta 0",
+      "passed": true
+    },
+    {
+      "name": "uncancelled complement beta 1",
+      "passed": true
+    },
+    {
+      "name": "uncancelled complement beta 2",
+      "passed": true
+    },
+    {
+      "name": "uncancelled complement beta 3",
+      "passed": true
+    },
+    {
+      "name": "uncancelled complement beta 4",
+      "passed": true
+    },
+    {
+      "name": "uncancelled complement beta 5",
+      "passed": true
+    },
+    {
+      "name": "uncancelled complement beta 6",
+      "passed": true
+    },
+    {
+      "name": "all higher replacement terms paid",
+      "passed": true
+    },
+    {
+      "name": "total pointwise error",
+      "passed": true
+    },
+    {
+      "name": "all3073 terms independent nested endpoint",
+      "passed": true
+    },
+    {
+      "name": "new exact density enclosures",
+      "passed": true
+    },
+    {
+      "name": "strict threshold fails",
+      "passed": true
+    },
+    {
+      "name": "complete enclosure contains zero",
+      "passed": true
+    },
+    {
+      "name": "ratio",
+      "passed": true
+    },
+    {
+      "name": "complete outward display prefix_norm",
+      "passed": true
+    },
+    {
+      "name": "complete outward display complement_norm",
+      "passed": true
+    },
+    {
+      "name": "complete outward display first_order_upper",
+      "passed": true
+    },
+    {
+      "name": "complete outward display second_order_upper",
+      "passed": true
+    },
+    {
+      "name": "complete outward display total_error_upper",
+      "passed": true
+    },
+    {
+      "name": "complete outward display polynomial_endpoint_lower",
+      "passed": true
+    },
+    {
+      "name": "complete outward display polynomial_endpoint_upper",
+      "passed": true
+    },
+    {
+      "name": "complete outward display actual_endpoint_lower",
+      "passed": true
+    },
+    {
+      "name": "complete outward display actual_endpoint_upper",
+      "passed": true
+    },
+    {
+      "name": "complete outward display required_strict_error_upper",
+      "passed": true
+    },
+    {
+      "name": "complete outward display error_to_required_ratio",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "inputs_sha256": {
+    "l938-pointwise-signed-response-104.json": "ec83ae995977563d2668c6e966d3d33ce2d376ff7b682a56f8f93c1b727ef42d",
+    "l938-signed-response-complete-90.json": "1ae07a31d3667d3a070b5cd9182f4df4d74c27f25fea2c96cea007cfb76f1765",
+    "c948a-complete-budget-audit-92.json": "6f48125b6443e2eec04a9f7b9096718b64e45ba0625ea71a5fbfad2d26994ed8",
+    "actual-h2-energy-cell-polynomial-48.json": "3985fe6558c385f18cd6a13109ec17d89f2d49451c923a5df9abe49f53221b66",
+    "actual-h2-energy-cell-48.json": "758ae0346f5fc1e8d23ecc612456919fdc1213c9b3235a30b6968cf105da0e5f"
+  },
+  "qualification": "Complete new scalar/endpoint replay, not a theta, signed-prefix or original full-polynomial production audit."
+}

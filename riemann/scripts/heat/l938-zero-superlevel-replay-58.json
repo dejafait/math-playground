@@ -1,0 +1,3810 @@
+{
+  "input_sha256": "c2845c0c6e281a6bb4738953a55e3d7d41b65db00dc6d7597e51c2416cb48270",
+  "replay_script_sha256": "71b01c5ba3867fba3c413d5139456ee5089a01bf1d819fda73df36122bcba7dc",
+  "complete_tables": [
+    {
+      "m": 1,
+      "B": "160",
+      "V_0_1_B": [
+        3,
+        3,
+        2
+      ],
+      "root_endpoint_variations": [
+        [
+          3,
+          2
+        ]
+      ],
+      "interval_signs": [
+        1,
+        -1
+      ],
+      "simple_roots": 1,
+      "inward_exits": 0
+    },
+    {
+      "m": 2,
+      "B": "25737",
+      "V_0_1_B": [
+        5,
+        5,
+        4
+      ],
+      "root_endpoint_variations": [
+        [
+          5,
+          4
+        ]
+      ],
+      "interval_signs": [
+        1,
+        -1
+      ],
+      "simple_roots": 1,
+      "inward_exits": 0
+    },
+    {
+      "m": 3,
+      "B": "85664",
+      "V_0_1_B": [
+        6,
+        6,
+        4
+      ],
+      "root_endpoint_variations": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "interval_signs": [
+        1,
+        -1,
+        1
+      ],
+      "simple_roots": 2,
+      "inward_exits": 1
+    },
+    {
+      "m": 4,
+      "B": "42412",
+      "V_0_1_B": [
+        8,
+        5,
+        2
+      ],
+      "root_endpoint_variations": [
+        [
+          8,
+          7
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "interval_signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "simple_roots": 6,
+      "inward_exits": 2
+    },
+    {
+      "m": 5,
+      "B": "15635",
+      "V_0_1_B": [
+        7,
+        6,
+        3
+      ],
+      "root_endpoint_variations": [
+        [
+          7,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "interval_signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "simple_roots": 4,
+      "inward_exits": 1
+    },
+    {
+      "m": 6,
+      "B": "8310",
+      "V_0_1_B": [
+        6,
+        5,
+        4
+      ],
+      "root_endpoint_variations": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "interval_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "simple_roots": 2,
+      "inward_exits": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "producer failure list empty",
+      "ok": true
+    },
+    {
+      "name": "input hash lemmas/L938-actual-h2-fixed-energy-density-and-cell-test.md",
+      "ok": true
+    },
+    {
+      "name": "input hash lemmas/L939-actual-h2-balanced-energy-tail-asymptotic.md",
+      "ok": true
+    },
+    {
+      "name": "input hash lemmas/L940-symmetrized-h2-polynomial-schur-concavity-obstruction.md",
+      "ok": true
+    },
+    {
+      "name": "input hash scripts/heat/l938-schur-obstruction-56.json",
+      "ok": true
+    },
+    {
+      "name": "input hash drafts/literature/2026-11-09-l938-zero-superlevel-balancing-scope-56.md",
+      "ok": true
+    },
+    {
+      "name": "input hash scripts/heat/l938-zero-superlevel-58.py",
+      "ok": true
+    },
+    {
+      "name": "original 34 rows match certificate",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=1: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=2: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=3: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=4: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=5: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=6: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=7: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=8: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=9: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=10: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=11: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=12: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=13: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=14: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=15: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=16: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=17: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=18: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=19: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=20: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=21: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=22: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=23: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=24: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=25: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=26: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=27: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=28: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=29: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=30: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=31: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=32: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=33: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1, row=34: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=1: full coefficients and positive normalization",
+      "ok": true
+    },
+    {
+      "name": "m=1: zero/constant/excluded-zero cases",
+      "ok": true
+    },
+    {
+      "name": "m=1: Sturm initial positive rescaling",
+      "ok": true
+    },
+    {
+      "name": "m=1: division count",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=0: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=0, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=0, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=0, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=0, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=0, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=0, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=0, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=1: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=1, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=1, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=1, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=1, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=1, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=1, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=2: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=2, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=2, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=2, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=2, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=2, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=3: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=3, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=3, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=3, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=3, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=4: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=4, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=4, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=4, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=5: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=5, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=1, division=5, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=1: constant gcd rules out ALL multiple roots",
+      "ok": true
+    },
+    {
+      "name": "m=1: complete outer bound",
+      "ok": true
+    },
+    {
+      "name": "endpoint 0: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 160: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=1: global count",
+      "ok": true
+    },
+    {
+      "name": "m=1, root=1: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 955019/524288: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1910197/1048576: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=1, root=1: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=1, interval=0: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=1, interval=1: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=1: sign at one",
+      "ok": true
+    },
+    {
+      "name": "m=1, root=1: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=1: complete exit classification",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=1: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=2: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=3: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=4: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=5: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=6: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=7: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=8: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=9: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=10: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=11: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=12: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=13: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=14: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=15: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=16: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=17: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=18: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=19: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=20: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=21: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=22: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=23: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=24: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=25: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=26: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=27: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=28: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=29: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=30: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=31: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=32: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=33: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2, row=34: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=2: full coefficients and positive normalization",
+      "ok": true
+    },
+    {
+      "name": "m=2: zero/constant/excluded-zero cases",
+      "ok": true
+    },
+    {
+      "name": "m=2: Sturm initial positive rescaling",
+      "ok": true
+    },
+    {
+      "name": "m=2: division count",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=0, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=1, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=2, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=3: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=3, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=3, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=3, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=3, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=3, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=3, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=3, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=3, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=4: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=4, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=4, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=4, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=4, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=4, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=4, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=4, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=5: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=5, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=5, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=5, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=5, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=5, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=5, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=6: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=6, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=6, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=6, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=6, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=6, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=7: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=7, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=7, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=7, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=7, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=8: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=8, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=8, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=8, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=9: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=9, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=2, division=9, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=2: constant gcd rules out ALL multiple roots",
+      "ok": true
+    },
+    {
+      "name": "m=2: complete outer bound",
+      "ok": true
+    },
+    {
+      "name": "endpoint 0: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 25737: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=2: global count",
+      "ok": true
+    },
+    {
+      "name": "m=2, root=1: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 20115237/4194304: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 80464165/16777216: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=2, root=1: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=2, interval=0: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=2, interval=1: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=2: sign at one",
+      "ok": true
+    },
+    {
+      "name": "m=2, root=1: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=2: complete exit classification",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=1: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=2: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=3: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=4: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=5: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=6: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=7: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=8: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=9: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=10: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=11: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=12: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=13: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=14: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=15: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=16: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=17: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=18: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=19: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=20: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=21: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=22: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=23: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=24: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=25: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=26: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=27: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=28: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=29: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=30: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=31: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=32: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=33: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3, row=34: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=3: full coefficients and positive normalization",
+      "ok": true
+    },
+    {
+      "name": "m=3: zero/constant/excluded-zero cases",
+      "ok": true
+    },
+    {
+      "name": "m=3: Sturm initial positive rescaling",
+      "ok": true
+    },
+    {
+      "name": "m=3: division count",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=11",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=0, coefficient=12",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=1, coefficient=11",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=2, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=3, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=4, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=5: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=5, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=5, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=5, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=5, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=5, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=5, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=5, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=5, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=6: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=6, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=6, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=6, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=6, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=6, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=6, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=6, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=7: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=7, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=7, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=7, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=7, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=7, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=7, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=8: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=8, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=8, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=8, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=8, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=8, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=9: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=9, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=9, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=9, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=9, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=10: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=10, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=10, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=10, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=11: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=11, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=3, division=11, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=3: constant gcd rules out ALL multiple roots",
+      "ok": true
+    },
+    {
+      "name": "m=3: complete outer bound",
+      "ok": true
+    },
+    {
+      "name": "endpoint 0: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 85664: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=3: global count",
+      "ok": true
+    },
+    {
+      "name": "m=3, root=1: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1649376293/536870912: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 412365489/134217728: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=3, root=1: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=3, root=2: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 24172234905/536870912: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 3021540071/67108864: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=3, root=2: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=3, interval=0: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=3, interval=1: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=3, interval=2: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=3: sign at one",
+      "ok": true
+    },
+    {
+      "name": "m=3, root=1: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=3, root=2: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=3: complete exit classification",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=1: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=2: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=3: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=4: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=5: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=6: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=7: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=8: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=9: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=10: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=11: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=12: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=13: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=14: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=15: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=16: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=17: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=18: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=19: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=20: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=21: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=22: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=23: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=24: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=25: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=26: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=27: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=28: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=29: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=30: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=31: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=32: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=33: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4, row=34: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=4: full coefficients and positive normalization",
+      "ok": true
+    },
+    {
+      "name": "m=4: zero/constant/excluded-zero cases",
+      "ok": true
+    },
+    {
+      "name": "m=4: Sturm initial positive rescaling",
+      "ok": true
+    },
+    {
+      "name": "m=4: division count",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=11",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=0, coefficient=12",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=1, coefficient=11",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=2, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=3, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=4, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=5: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=5, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=5, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=5, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=5, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=5, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=5, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=5, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=5, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=6: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=6, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=6, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=6, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=6, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=6, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=6, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=6, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=7: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=7, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=7, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=7, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=7, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=7, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=7, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=8: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=8, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=8, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=8, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=8, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=8, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=9: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=9, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=9, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=9, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=9, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=10: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=10, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=10, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=10, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=11: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=11, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=4, division=11, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=4: constant gcd rules out ALL multiple roots",
+      "ok": true
+    },
+    {
+      "name": "m=4: complete outer bound",
+      "ok": true
+    },
+    {
+      "name": "endpoint 0: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 42412: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=4: global count",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=1: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 63/4096: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1/64: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=1: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=2: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 541/4096: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 271/2048: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=2: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=3: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1183/4096: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 37/128: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=3: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=4: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 715404985/268435456: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 178861849/67108864: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=4: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=5: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1696201771/268435456: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 848122091/134217728: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=5: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=6: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1863611075/134217728: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 3727264561/268435456: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=6: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=4, interval=0: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=4, interval=1: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=4, interval=2: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=4, interval=3: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=4, interval=4: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=4, interval=5: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=4, interval=6: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=4: sign at one",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=1: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=2: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=3: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=4: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=5: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=4, root=6: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=4: complete exit classification",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=1: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=2: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=3: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=4: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=5: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=6: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=7: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=8: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=9: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=10: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=11: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=12: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=13: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=14: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=15: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=16: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=17: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=18: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=19: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=20: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=21: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=22: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=23: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=24: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=25: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=26: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=27: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=28: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=29: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=30: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=31: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=32: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=33: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5, row=34: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=5: full coefficients and positive normalization",
+      "ok": true
+    },
+    {
+      "name": "m=5: zero/constant/excluded-zero cases",
+      "ok": true
+    },
+    {
+      "name": "m=5: Sturm initial positive rescaling",
+      "ok": true
+    },
+    {
+      "name": "m=5: division count",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=11",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=0, coefficient=12",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=1, coefficient=11",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=2, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=3, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=4, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=5: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=5, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=5, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=5, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=5, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=5, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=5, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=5, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=5, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=6: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=6, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=6, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=6, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=6, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=6, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=6, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=6, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=7: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=7, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=7, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=7, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=7, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=7, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=7, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=8: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=8, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=8, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=8, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=8, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=8, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=9: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=9, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=9, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=9, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=9, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=10: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=10, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=10, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=10, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=11: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=11, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=5, division=11, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=5: constant gcd rules out ALL multiple roots",
+      "ok": true
+    },
+    {
+      "name": "m=5: complete outer bound",
+      "ok": true
+    },
+    {
+      "name": "endpoint 0: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 15635: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=5: global count",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=1: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1533/4096: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 767/2048: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=1: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=2: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 83372173/33554432: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 41689995/16777216: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=2: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=3: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 102740765/16777216: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 205489347/33554432: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=3: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=4: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 388719827/33554432: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 97181911/8388608: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=4: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=5, interval=0: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=5, interval=1: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=5, interval=2: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=5, interval=3: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=5, interval=4: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=5: sign at one",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=1: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=2: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=3: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=5, root=4: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=5: complete exit classification",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=1: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=2: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=3: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=4: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=5: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=6: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=7: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=8: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=9: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=10: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=11: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=12: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=13: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=14: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=15: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=16: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=17: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=18: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=19: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=20: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=21: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=22: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=23: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=24: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=25: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=26: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=27: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=28: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=29: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=30: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=31: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=32: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=33: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6, row=34: independent coefficient reconstruction",
+      "ok": true
+    },
+    {
+      "name": "m=6: full coefficients and positive normalization",
+      "ok": true
+    },
+    {
+      "name": "m=6: zero/constant/excluded-zero cases",
+      "ok": true
+    },
+    {
+      "name": "m=6: Sturm initial positive rescaling",
+      "ok": true
+    },
+    {
+      "name": "m=6: division count",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=11",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=0, coefficient=12",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=1, coefficient=11",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=2, coefficient=10",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=3, coefficient=9",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=4, coefficient=8",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=5: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=5, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=5, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=5, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=5, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=5, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=5, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=5, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=5, coefficient=7",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=6: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=6, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=6, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=6, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=6, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=6, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=6, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=6, coefficient=6",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=7: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=7, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=7, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=7, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=7, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=7, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=7, coefficient=5",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=8: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=8, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=8, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=8, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=8, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=8, coefficient=4",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=9: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=9, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=9, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=9, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=9, coefficient=3",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=10: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=10, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=10, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=10, coefficient=2",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=11: positive factor and strict degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=11, coefficient=0",
+      "ok": true
+    },
+    {
+      "name": "m=6, division=11, coefficient=1",
+      "ok": true
+    },
+    {
+      "name": "m=6: constant gcd rules out ALL multiple roots",
+      "ok": true
+    },
+    {
+      "name": "m=6: complete outer bound",
+      "ok": true
+    },
+    {
+      "name": "endpoint 0: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 8310: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=6: global count",
+      "ok": true
+    },
+    {
+      "name": "m=6, root=1: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 825/2048: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 1651/4096: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=6, root=1: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=6, root=2: ordered nonroot isolator",
+      "ok": true
+    },
+    {
+      "name": "endpoint 166559285/67108864: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "endpoint 83283797/33554432: every value/sign/variation",
+      "ok": true
+    },
+    {
+      "name": "m=6, root=2: exactly one simple root",
+      "ok": true
+    },
+    {
+      "name": "m=6, interval=0: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=6, interval=1: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=6, interval=2: entire sign via complete root table",
+      "ok": true
+    },
+    {
+      "name": "m=6: sign at one",
+      "ok": true
+    },
+    {
+      "name": "m=6, root=1: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=6, root=2: closed-set inward test",
+      "ok": true
+    },
+    {
+      "name": "m=6: complete exit classification",
+      "ok": true
+    },
+    {
+      "name": "witness exact integer evaluations",
+      "ok": true
+    },
+    {
+      "name": "witness normalized positive simplex and inward majorization",
+      "ok": true
+    },
+    {
+      "name": "witness 0: actual normalized value",
+      "ok": true
+    },
+    {
+      "name": "witness 1: actual normalized value",
+      "ok": true
+    }
+  ],
+  "failures": [],
+  "checks_count": 906
+}

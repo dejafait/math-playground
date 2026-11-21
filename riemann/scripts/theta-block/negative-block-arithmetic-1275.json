@@ -1,0 +1,70 @@
+{
+  "scope": "Finite rational arithmetic only; see L559 for analytic proof.",
+  "checks": [
+    {
+      "name": "second derivative coefficients, ascending powers",
+      "actual": "[Fraction(0, 1), Fraction(-75, 4), Fraction(165, 2), Fraction(-56, 1), Fraction(8, 1)]",
+      "required": "[Fraction(0, 1), Fraction(-75, 4), Fraction(165, 2), Fraction(-56, 1), Fraction(8, 1)]",
+      "relation": "equals",
+      "passed": true
+    },
+    {
+      "name": "P_prime_at_22_over_7",
+      "actual": "-6358/49",
+      "required": "-6358/49",
+      "relation": "equals",
+      "passed": true
+    },
+    {
+      "name": "P_prime_negative",
+      "actual": "-6358/49",
+      "required": "0",
+      "relation": "less_than",
+      "passed": true
+    },
+    {
+      "name": "pi_fourth_rational_majorant",
+      "actual": "234256/2401",
+      "required": "100",
+      "relation": "less_than",
+      "passed": true
+    },
+    {
+      "name": "e_cubed_rational_minorant",
+      "actual": "512/27",
+      "required": "18",
+      "relation": "greater_than",
+      "passed": true
+    },
+    {
+      "name": "ratio_polynomial_factor",
+      "actual": "6561/256",
+      "required": "26",
+      "relation": "less_than",
+      "passed": true
+    },
+    {
+      "name": "tail_ratio_majorant",
+      "actual": "13/944784",
+      "required": "1/100",
+      "relation": "less_than",
+      "passed": true
+    },
+    {
+      "name": "tail_upper_bound",
+      "actual": "1280000/649539",
+      "required": "2",
+      "relation": "less_than",
+      "passed": true
+    },
+    {
+      "name": "coarse_curvature_upper_bound",
+      "actual": "-7/36",
+      "required": "-7/36",
+      "relation": "equals",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

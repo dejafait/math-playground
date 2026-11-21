@@ -1,0 +1,321 @@
+{
+  "scope": "Scalar bridge and provenance only; conceptual proof in C999s Section5",
+  "source_script_sha256": "39925a945fd67ee5791cf04c131215bee0077dfeb32c61f02ac6dbe0e969b89e",
+  "input_hashes": {
+    "energy-image-margin-610.py": "7eb48fa43c6287c0b198a9f9e3fa61594c9f266dec12e269632a96d7f78b65e5",
+    "energy-image-margin-610.json": "3ba7bf4605663c0af4c732979f5281233c782888c3dc3d1e5cc02ac448bda266",
+    "neutral-head-covariance-audit-561.json": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+    "neutral-head-covariance-559.json": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9"
+  },
+  "exact_values": {
+    "gamma_1024": "1/8796093022207",
+    "first_product_error_upper": "9200/8796093022207",
+    "second_product_error_upper": "211623/8796093022207",
+    "Ahat_vs_exact_dyadic_assembly_upper": "1104529/43980465111035",
+    "eta_A": "1524721/6250000000",
+    "full_metric_upper": "156148876609/25000000000",
+    "coarse_normalized_lower": "999/7000000"
+  },
+  "imported_selected_values": {
+    "basis_conversion_upper": "207486510976777517743881327848059496833105697903498624945241227025830897105840344052665048367/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "head_factor_error_upper": "222737406423315401596209434160962297126880221707580603884186434835074620976873819613723952402236529/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "checks": [
+    {
+      "name": "610 source hash",
+      "actual": "7eb48fa43c6287c0b198a9f9e3fa61594c9f266dec12e269632a96d7f78b65e5",
+      "relation": "==",
+      "required": "7eb48fa43c6287c0b198a9f9e3fa61594c9f266dec12e269632a96d7f78b65e5",
+      "passed": true
+    },
+    {
+      "name": "610 input hash: scripts/separation-seven/neutral-head-covariance-audit-561.json",
+      "actual": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+      "relation": "==",
+      "required": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+      "passed": true
+    },
+    {
+      "name": "610 input hash: scripts/separation-seven/neutral-head-covariance-559.json",
+      "actual": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "relation": "==",
+      "required": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "passed": true
+    },
+    {
+      "name": "610 input hash: lemmas/C999l-neutral-head-family-covariance.md",
+      "actual": "432562cc8f760bf11f126764b4aabab92bd7c0661921163b70e1e78d2d3ccc7e",
+      "relation": "==",
+      "required": "432562cc8f760bf11f126764b4aabab92bd7c0661921163b70e1e78d2d3ccc7e",
+      "passed": true
+    },
+    {
+      "name": "610 input hash: lemmas/C744z-neutral-shared-middle-completion.md",
+      "actual": "bff1135192d9a4d880b00acb8059a9f6b931d292af6dd12c36634f38dd46f238",
+      "relation": "==",
+      "required": "bff1135192d9a4d880b00acb8059a9f6b931d292af6dd12c36634f38dd46f238",
+      "passed": true
+    },
+    {
+      "name": "559 certificate remains pinned by audit561",
+      "actual": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "relation": "==",
+      "required": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "passed": true
+    },
+    {
+      "name": "imported exact-neutral conversion",
+      "actual": "207486510976777517743881327848059496833105697903498624945241227025830897105840344052665048367/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "imported complete factor allowance",
+      "actual": "222737406423315401596209434160962297126880221707580603884186434835074620976873819613723952402236529/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "relation": "<",
+      "required": "1/1000000",
+      "passed": true
+    },
+    {
+      "name": "enlarged exact Mhat Zhat norm squared",
+      "actual": "38316112380001/1000000000000",
+      "relation": ">",
+      "required": "38316101/1000000",
+      "passed": true
+    },
+    {
+      "name": "imported eta_A endpoint lo",
+      "actual": "1524721/6250000000",
+      "relation": "==",
+      "required": "1524721/6250000000",
+      "passed": true
+    },
+    {
+      "name": "imported eta_A endpoint hi",
+      "actual": "1524721/6250000000",
+      "relation": "==",
+      "required": "1524721/6250000000",
+      "passed": true
+    },
+    {
+      "name": "all stored rational value keys",
+      "actual": "['Ahat_vs_exact_dyadic_assembly_upper', 'coarse_normalized_lower', 'eta_A', 'first_product_error_upper', 'full_metric_upper', 'gamma_1024', 'second_product_error_upper']",
+      "relation": "==",
+      "required": "['Ahat_vs_exact_dyadic_assembly_upper', 'coarse_normalized_lower', 'eta_A', 'first_product_error_upper', 'full_metric_upper', 'gamma_1024', 'second_product_error_upper']",
+      "passed": true
+    },
+    {
+      "name": "independent rational identity: gamma_1024",
+      "actual": "1/8796093022207",
+      "relation": "==",
+      "required": "1/8796093022207",
+      "passed": true
+    },
+    {
+      "name": "independent rational identity: first_product_error_upper",
+      "actual": "9200/8796093022207",
+      "relation": "==",
+      "required": "9200/8796093022207",
+      "passed": true
+    },
+    {
+      "name": "independent rational identity: second_product_error_upper",
+      "actual": "211623/8796093022207",
+      "relation": "==",
+      "required": "211623/8796093022207",
+      "passed": true
+    },
+    {
+      "name": "independent rational identity: Ahat_vs_exact_dyadic_assembly_upper",
+      "actual": "1104529/43980465111035",
+      "relation": "==",
+      "required": "1104529/43980465111035",
+      "passed": true
+    },
+    {
+      "name": "independent rational identity: eta_A",
+      "actual": "1524721/6250000000",
+      "relation": "==",
+      "required": "1524721/6250000000",
+      "passed": true
+    },
+    {
+      "name": "independent rational identity: full_metric_upper",
+      "actual": "156148876609/25000000000",
+      "relation": "==",
+      "required": "156148876609/25000000000",
+      "passed": true
+    },
+    {
+      "name": "independent rational identity: coarse_normalized_lower",
+      "actual": "999/7000000",
+      "relation": "==",
+      "required": "999/7000000",
+      "passed": true
+    },
+    {
+      "name": "complete original check count",
+      "actual": "8",
+      "relation": "==",
+      "required": "8",
+      "passed": true
+    },
+    {
+      "name": "original check identity 0",
+      "actual": "('100800000000001/100000000000000', '<', '1009/1000')",
+      "relation": "==",
+      "required": "('100800000000001/100000000000000', '<', '1009/1000')",
+      "passed": true
+    },
+    {
+      "name": "independent bound enlarged exact dyadic basis norm",
+      "actual": "100800000000001/100000000000000",
+      "relation": "<",
+      "required": "1009/1000",
+      "passed": true
+    },
+    {
+      "name": "original check identity 1",
+      "actual": "('1/8796093022207', '<', '3/25000000000000')",
+      "relation": "==",
+      "required": "('1/8796093022207', '<', '3/25000000000000')",
+      "passed": true
+    },
+    {
+      "name": "independent bound inherited gamma upper bound",
+      "actual": "1/8796093022207",
+      "relation": "<",
+      "required": "3/25000000000000",
+      "passed": true
+    },
+    {
+      "name": "original check identity 2",
+      "actual": "('80924055804313600/8796093022207', '<', '9201')",
+      "relation": "==",
+      "required": "('80924055804313600/8796093022207', '<', '9201')",
+      "passed": true
+    },
+    {
+      "name": "independent bound first intermediate Frobenius bound",
+      "actual": "80924055804313600/8796093022207",
+      "relation": "<",
+      "required": "9201",
+      "passed": true
+    },
+    {
+      "name": "original check identity 3",
+      "actual": "('1104529/43980465111035', '<', '1/10000000')",
+      "relation": "==",
+      "required": "('1104529/43980465111035', '<', '1/10000000')",
+      "passed": true
+    },
+    {
+      "name": "independent bound whole Ahat assembly error",
+      "actual": "1104529/43980465111035",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "original check identity 4",
+      "actual": "('1524721/6250000000', '==', '1524721/6250000000')",
+      "relation": "==",
+      "required": "('1524721/6250000000', '==', '1524721/6250000000')",
+      "passed": true
+    },
+    {
+      "name": "independent bound full inherited head error value",
+      "actual": "1524721/6250000000",
+      "relation": "==",
+      "required": "1524721/6250000000",
+      "passed": true
+    },
+    {
+      "name": "original check identity 5",
+      "actual": "('156148876609/25000000000', '<', '7')",
+      "relation": "==",
+      "required": "('156148876609/25000000000', '<', '7')",
+      "passed": true
+    },
+    {
+      "name": "independent bound full energy metric norm",
+      "actual": "156148876609/25000000000",
+      "relation": "<",
+      "required": "7",
+      "passed": true
+    },
+    {
+      "name": "original check identity 6",
+      "actual": "('49/50000', '<', '999/1000000')",
+      "relation": "==",
+      "required": "('49/50000', '<', '999/1000000')",
+      "passed": true
+    },
+    {
+      "name": "independent bound normalized constant fits coefficient margin",
+      "actual": "49/50000",
+      "relation": "<",
+      "required": "999/1000000",
+      "passed": true
+    },
+    {
+      "name": "original check identity 7",
+      "actual": "('7/50000', '>', '0')",
+      "relation": "==",
+      "required": "('7/50000', '>', '0')",
+      "passed": true
+    },
+    {
+      "name": "independent bound positive claimed normalized margin",
+      "actual": "7/50000",
+      "relation": ">",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "original certificate failures",
+      "actual": "[]",
+      "relation": "==",
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "exact two-product expression",
+      "actual": "1104529/43980465111035",
+      "relation": "==",
+      "required": "1104529/43980465111035",
+      "passed": true
+    },
+    {
+      "name": "full metric decimal identity",
+      "actual": "156148876609/25000000000",
+      "relation": "==",
+      "required": "156148876609/25000000000",
+      "passed": true
+    },
+    {
+      "name": "normalized slack",
+      "actual": "19/1000000",
+      "relation": ">",
+      "required": "0",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "passed": true,
+    "metric_actual": "156148876609/25000000000",
+    "metric_required": "7",
+    "assembly_actual": "1104529/43980465111035",
+    "assembly_required": "1/10000000",
+    "margin_actual": "7/50000",
+    "margin_required": "0",
+    "coefficient_slack": "19/1000000"
+  },
+  "qualifications": [
+    "Import C999l/audit561; no large covariance or factor replay.",
+    "Inherited analytic/arithmetic/core/c_star contracts remain.",
+    "No complement, mixed-block, global sign or novelty claim."
+  ]
+}

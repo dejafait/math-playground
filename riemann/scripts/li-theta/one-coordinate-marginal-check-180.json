@@ -1,0 +1,897 @@
+{
+  "scope": "Fixed n=2 marginal of complete L969(5); exact finite algebra only.",
+  "parameters": {
+    "b": "1/4",
+    "h": "5184",
+    "q": "72",
+    "Delta": "20735/4",
+    "d1": "1719926784/429940225",
+    "d2": "20736/20735"
+  },
+  "polynomial_variables": [
+    "a0",
+    "a1",
+    "c0",
+    "c1",
+    "s"
+  ],
+  "scaling": "raw_bracket = 3 lim[J_2(t,t)/(t exp(qt))^2] / (d1 g^2), g=gamma/(4q)",
+  "actual_moments": {
+    "B0": [
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "1/2"
+      }
+    ],
+    "B1": [
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "2"
+      }
+    ],
+    "B2": [
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "4"
+      }
+    ],
+    "C0": [
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "1/2"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "20735/2"
+      }
+    ],
+    "C1": [
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "20735/2"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "2"
+      }
+    ]
+  },
+  "placements": [
+    {
+      "tensor": "positive_first",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "u": "B1",
+      "v": "B0",
+      "integrated": "C0",
+      "coefficient": "286654464/429940225",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "positive_first",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "u": "B1",
+      "v": "C0",
+      "integrated": "B0",
+      "coefficient": "286654464/429940225",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "positive_first",
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "u": "B0",
+      "v": "B1",
+      "integrated": "C0",
+      "coefficient": "286654464/429940225",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "positive_first",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "u": "B0",
+      "v": "C0",
+      "integrated": "B1",
+      "coefficient": "286654464/429940225",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ]
+    },
+    {
+      "tensor": "positive_first",
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "u": "C0",
+      "v": "B1",
+      "integrated": "B0",
+      "coefficient": "286654464/429940225",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "positive_first",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "u": "C0",
+      "v": "B0",
+      "integrated": "B1",
+      "coefficient": "286654464/429940225",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ]
+    },
+    {
+      "tensor": "positive_second",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "u": "B2",
+      "v": "B0",
+      "integrated": "C0",
+      "coefficient": "3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "positive_second",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "u": "B2",
+      "v": "C0",
+      "integrated": "B0",
+      "coefficient": "3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "positive_second",
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "u": "B0",
+      "v": "B2",
+      "integrated": "C0",
+      "coefficient": "3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "positive_second",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "u": "B0",
+      "v": "C0",
+      "integrated": "B2",
+      "coefficient": "3456/20735",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "20735/41472"
+        }
+      ]
+    },
+    {
+      "tensor": "positive_second",
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "u": "C0",
+      "v": "B2",
+      "integrated": "B0",
+      "coefficient": "3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "positive_second",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "u": "C0",
+      "v": "B0",
+      "integrated": "B2",
+      "coefficient": "3456/20735",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "20735/41472"
+        }
+      ]
+    },
+    {
+      "tensor": "even_block",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "u": "B1",
+      "v": "B1",
+      "integrated": "C0",
+      "coefficient": "-3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "even_block",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "u": "B1",
+      "v": "C0",
+      "integrated": "B1",
+      "coefficient": "-3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "even_block",
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "u": "B1",
+      "v": "B1",
+      "integrated": "C0",
+      "coefficient": "-3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "even_block",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "u": "B1",
+      "v": "C0",
+      "integrated": "B1",
+      "coefficient": "-3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "even_block",
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "u": "C0",
+      "v": "B1",
+      "integrated": "B1",
+      "coefficient": "-3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "even_block",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "u": "C0",
+      "v": "B1",
+      "integrated": "B1",
+      "coefficient": "-3456/20735",
+      "scaled_limit_contribution": []
+    },
+    {
+      "tensor": "distant_derivative",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "u": "B0",
+      "v": "B0",
+      "integrated": "C1",
+      "coefficient": "-286654464/429940225",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-20735/4"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "tensor": "distant_derivative",
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "u": "B0",
+      "v": "C1",
+      "integrated": "B0",
+      "coefficient": "-286654464/429940225",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-20735/8"
+        }
+      ]
+    },
+    {
+      "tensor": "distant_derivative",
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "u": "B0",
+      "v": "B0",
+      "integrated": "C1",
+      "coefficient": "-286654464/429940225",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "-20735/4"
+        },
+        {
+          "powers": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "tensor": "distant_derivative",
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "u": "B0",
+      "v": "C1",
+      "integrated": "B0",
+      "coefficient": "-286654464/429940225",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-20735/8"
+        }
+      ]
+    },
+    {
+      "tensor": "distant_derivative",
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "u": "C1",
+      "v": "B0",
+      "integrated": "B0",
+      "coefficient": "-286654464/429940225",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-20735/8"
+        }
+      ]
+    },
+    {
+      "tensor": "distant_derivative",
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "u": "C1",
+      "v": "B0",
+      "integrated": "B0",
+      "coefficient": "-286654464/429940225",
+      "scaled_limit_contribution": [
+        {
+          "powers": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "-20735/8"
+        }
+      ]
+    }
+  ],
+  "contracted_coefficients": [
+    {
+      "moment": "m0",
+      "u": "B0",
+      "v": "C1",
+      "coefficient": "-573308928/429940225"
+    },
+    {
+      "moment": "m0",
+      "u": "B1",
+      "v": "C0",
+      "coefficient": "286654464/429940225"
+    },
+    {
+      "moment": "m0",
+      "u": "B2",
+      "v": "C0",
+      "coefficient": "3456/20735"
+    },
+    {
+      "moment": "m0",
+      "u": "C0",
+      "v": "B1",
+      "coefficient": "286654464/429940225"
+    },
+    {
+      "moment": "m0",
+      "u": "C0",
+      "v": "B2",
+      "coefficient": "3456/20735"
+    },
+    {
+      "moment": "m0",
+      "u": "C1",
+      "v": "B0",
+      "coefficient": "-573308928/429940225"
+    },
+    {
+      "moment": "m1",
+      "u": "B0",
+      "v": "C0",
+      "coefficient": "286654464/429940225"
+    },
+    {
+      "moment": "m1",
+      "u": "B1",
+      "v": "C0",
+      "coefficient": "-6912/20735"
+    },
+    {
+      "moment": "m1",
+      "u": "C0",
+      "v": "B0",
+      "coefficient": "286654464/429940225"
+    },
+    {
+      "moment": "m1",
+      "u": "C0",
+      "v": "B1",
+      "coefficient": "-6912/20735"
+    },
+    {
+      "moment": "m2",
+      "u": "B0",
+      "v": "C0",
+      "coefficient": "3456/20735"
+    },
+    {
+      "moment": "m2",
+      "u": "C0",
+      "v": "B0",
+      "coefficient": "3456/20735"
+    },
+    {
+      "moment": "v0",
+      "u": "B0",
+      "v": "B1",
+      "coefficient": "286654464/429940225"
+    },
+    {
+      "moment": "v0",
+      "u": "B0",
+      "v": "B2",
+      "coefficient": "3456/20735"
+    },
+    {
+      "moment": "v0",
+      "u": "B1",
+      "v": "B0",
+      "coefficient": "286654464/429940225"
+    },
+    {
+      "moment": "v0",
+      "u": "B1",
+      "v": "B1",
+      "coefficient": "-6912/20735"
+    },
+    {
+      "moment": "v0",
+      "u": "B2",
+      "v": "B0",
+      "coefficient": "3456/20735"
+    },
+    {
+      "moment": "v1",
+      "u": "B0",
+      "v": "B0",
+      "coefficient": "-573308928/429940225"
+    }
+  ],
+  "per_tensor_scaled_limits": {
+    "positive_first": [
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "2"
+      }
+    ],
+    "positive_second": [
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "20735/20736"
+      }
+    ],
+    "even_block": [],
+    "distant_derivative": [
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "-20735/2"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "-20735/2"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "-2"
+      }
+    ]
+  },
+  "raw_bracket": [
+    {
+      "powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": "-20735/2"
+    },
+    {
+      "powers": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "-20735/2"
+    },
+    {
+      "powers": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "-2"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "20735/20736"
+    },
+    {
+      "powers": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "2"
+    }
+  ],
+  "normalization": "s=2(c0+c1)",
+  "normalized_bracket": [
+    {
+      "powers": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "-62205/2"
+    },
+    {
+      "powers": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "-20737"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "20735/20736"
+    },
+    {
+      "powers": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "2"
+    }
+  ],
+  "upper_bound": [
+    {
+      "powers": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "-644920705/20736"
+    },
+    {
+      "powers": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "-20735"
+    }
+  ],
+  "upper_minus_bracket": [
+    {
+      "powers": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": "20735/20736"
+    },
+    {
+      "powers": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "2"
+    },
+    {
+      "powers": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-20735/20736"
+    },
+    {
+      "powers": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-2"
+    }
+  ],
+  "residuals": {
+    "contraction": [],
+    "normalization": [],
+    "domination": []
+  },
+  "analytic_requirements": [
+    "All slices absolutely integrable; factor moments are those of the actual A.",
+    "g>0 and the factor limits in L969(7)-(8) hold with fixed gamma.",
+    "c0>=a0>0 and c1>=a1>0 by the nonnegative H_r series, h>b and A>0.",
+    "Continuity gives an open negative region from the negative diagonal limit."
+  ],
+  "actual_bound": "limit <= -h*gamma^2/[12*Delta] * [4*c0+(6-1/h)*c1] < 0",
+  "required_threshold": "Global pointwise nonnegativity would require a nonnegative diagonal limit.",
+  "checks": {
+    "exactly_24_labeled_placements": true,
+    "complete_contraction_residual_zero": true,
+    "normalization_residual_zero": true,
+    "moment_domination_residual_zero": true,
+    "positive_delta": true,
+    "positive_domination_c1_coefficient": true,
+    "d2_over_d1": true,
+    "positive_limit_prefactor": true
+  },
+  "failures": []
+}

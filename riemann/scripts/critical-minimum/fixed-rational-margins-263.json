@@ -1,0 +1,107 @@
+{
+  "lemma": "L738",
+  "scope": "Scalar rational comparisons only; no sampling, quadrature, or parameter search.",
+  "analytic_assumptions": "L738 proves Gaussian comparison, differentiation, all admissibility conditions, and sqrt(pi)>1 is standard.",
+  "delta": "1/100000000",
+  "normalized_error_budget": "1/10000000",
+  "checks": [
+    {
+      "name": "e lower finite series",
+      "actual": "8/3",
+      "required": "5/2",
+      "sense": ">",
+      "slack": "1/6",
+      "passed": true
+    },
+    {
+      "name": "e upper series and geometric tail",
+      "actual": "1631/600",
+      "required": "11/4",
+      "sense": "<",
+      "slack": "19/600",
+      "passed": true
+    },
+    {
+      "name": "e fifth-power upper bound",
+      "actual": "161051/1024",
+      "required": "200",
+      "sense": "<",
+      "slack": "43749/1024",
+      "passed": true
+    },
+    {
+      "name": "e tenth-power lower bound",
+      "actual": "9765625/1024",
+      "required": "9000",
+      "sense": ">",
+      "slack": "549625/1024",
+      "passed": true
+    },
+    {
+      "name": "normalized value damping error",
+      "actual": "303/40000000000",
+      "required": "1/10000000",
+      "sense": "<",
+      "slack": "3697/40000000000",
+      "passed": true
+    },
+    {
+      "name": "normalized first-derivative error upper bound",
+      "actual": "101/5000000000",
+      "required": "1/10000000",
+      "sense": "<",
+      "slack": "399/5000000000",
+      "passed": true
+    },
+    {
+      "name": "normalized second-derivative damping error",
+      "actual": "303/16000000000",
+      "required": "1/10000000",
+      "sense": "<",
+      "slack": "1297/16000000000",
+      "passed": true
+    },
+    {
+      "name": "normalized interval F lower bound",
+      "actual": "49919/810000000",
+      "required": "1/20000",
+      "sense": ">",
+      "slack": "9419/810000000",
+      "passed": true
+    },
+    {
+      "name": "normalized interval F second-derivative lower bound",
+      "actual": "87419/810000000",
+      "required": "1/10000",
+      "sense": ">",
+      "slack": "6419/810000000",
+      "passed": true
+    },
+    {
+      "name": "normalized F prime at 6 upper bound",
+      "actual": "-9980317/196830000000",
+      "required": "-1/20000",
+      "sense": "<",
+      "slack": "138817/196830000000",
+      "passed": true
+    },
+    {
+      "name": "endpoint 7 bracket lower bound",
+      "actual": "25583/3600000",
+      "required": "7/1000",
+      "sense": ">",
+      "slack": "383/3600000",
+      "passed": true
+    },
+    {
+      "name": "normalized F prime at 7 lower bound",
+      "actual": "69973/270000000",
+      "required": "1/4000",
+      "sense": ">",
+      "slack": "2473/270000000",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

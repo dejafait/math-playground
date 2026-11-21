@@ -1,0 +1,420 @@
+{
+  "step": 140,
+  "scope": "Audit of existing L702 constants only; same Fraction backend, independent recurrence and formula assembly. Analytic proof audited separately in L702.",
+  "original_sha256": "125585080425b11731829866a541fdf98f662eacf184a910dbdc725cf0c31505",
+  "replay_path": "centered-gap-global-endpoint-replay-140.json",
+  "log_reassembly": {
+    "log_5": {
+      "terms": [
+        "4/3",
+        "16/81",
+        "64/1215",
+        "256/15309",
+        "1024/177147",
+        "4096/1948617",
+        "16384/20726199",
+        "65536/215233605",
+        "262144/2195382771",
+        "1048576/22082967873",
+        "4194304/219667417263",
+        "16777216/2165293113021"
+      ],
+      "lower": "5633730525313887572/3500445325906443915",
+      "upper": "140843762183149595956/87511133147661097875",
+      "tail_upper": "67108864/11767897353375"
+    },
+    "log_121_over_41": {
+      "terms": [
+        "80/81",
+        "128000/1594323",
+        "40960000/3486784401",
+        "327680000000/160137547184727",
+        "524288000000000/1350851717672992089",
+        "838860800000000000/10832479924019723561691",
+        "1342177280000000000000/83994064559946752886119133",
+        "429496729600000000000000/127173474825648610542883299603",
+        "3435973836800000000000000000/4728182620542789691373858195939937",
+        "5497558138880000000000000000000/34671206899661389419821987579275094499",
+        "8796093022208000000000000000000000/251422818833802415560657540561057989219301",
+        "14073748835532800000000000000000000000/1806688458594156472159519278251682559388579943"
+      ],
+      "lower": "632171356763015842631638860145687960409278174549520/584143932498038453048032251602168760149193832910589",
+      "upper": "285109282509041942724453674994505270144584456721833520/263448913556615342324662545472578110827286418642675639",
+      "tail_upper": "900719925474099200000000000000000000000/389694845351548272103625006061156399005510656401"
+    }
+  },
+  "comparisons": [
+    {
+      "name": "frequency_lower",
+      "actual": "3094381085560033439836673138485211839663750466552558/540874011572257826896326158890897000138142437880175",
+      "relation": ">",
+      "required": "11/2",
+      "passed": true
+    },
+    {
+      "name": "frequency_upper",
+      "actual": "3171749153088868509716866991010274956019894387403946734/554395861861564272568734312863169425141595998827179375",
+      "relation": "<",
+      "required": "6/1",
+      "passed": true
+    },
+    {
+      "name": "seven_pi_over_four_upper_uses_pi_lt_22_over_7",
+      "actual": "11/2",
+      "relation": "==",
+      "required": "11/2",
+      "passed": true
+    },
+    {
+      "name": "two_pi_lower_uses_pi_gt_3",
+      "actual": "6/1",
+      "relation": "==",
+      "required": "6/1",
+      "passed": true
+    },
+    {
+      "name": "positive_factor_numerator",
+      "actual": "25/64",
+      "relation": "==",
+      "required": "25/64",
+      "passed": true
+    },
+    {
+      "name": "beta_minus_alpha_lower",
+      "actual": "20/121",
+      "relation": "==",
+      "required": "20/121",
+      "passed": true
+    },
+    {
+      "name": "beta_square_minus_alpha_square_lower",
+      "actual": "16/121",
+      "relation": "==",
+      "required": "16/121",
+      "passed": true
+    },
+    {
+      "name": "factor_square_denominator_upper",
+      "actual": "106/25",
+      "relation": "==",
+      "required": "106/25",
+      "passed": true
+    },
+    {
+      "name": "factor_square_loss",
+      "actual": "32/6413",
+      "relation": "==",
+      "required": "32/6413",
+      "passed": true
+    },
+    {
+      "name": "product_decay_rate",
+      "actual": "16/6413",
+      "relation": "==",
+      "required": "16/6413",
+      "passed": true
+    },
+    {
+      "name": "uniform_real_kernel_derivative_upper",
+      "actual": "3078/205",
+      "relation": "<",
+      "required": "16/1",
+      "passed": true
+    },
+    {
+      "name": "actual_outer_endpoint_at_n_63",
+      "actual": "45/112",
+      "relation": ">",
+      "required": "2/5",
+      "passed": true
+    }
+  ],
+  "audit_checks": [
+    {
+      "name": "replay_exit",
+      "actual": 0,
+      "required": 0,
+      "passed": true
+    },
+    {
+      "name": "replay_byte_identical",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "original_preserved",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "step",
+      "actual": 138,
+      "required": 138,
+      "passed": true
+    },
+    {
+      "name": "scope",
+      "actual": "Exact constants only; analytic limits and profile selection are proved in L702.",
+      "required": "Exact constants only; analytic limits and profile selection are proved in L702.",
+      "passed": true
+    },
+    {
+      "name": "log_5",
+      "actual": {
+        "argument": "5/1",
+        "z": "2/3",
+        "terms": 12,
+        "lower": "5633730525313887572/3500445325906443915",
+        "upper": "140843762183149595956/87511133147661097875",
+        "tail_upper": "67108864/11767897353375",
+        "strict": true
+      },
+      "required": {
+        "argument": "5/1",
+        "z": "2/3",
+        "terms": 12,
+        "lower": "5633730525313887572/3500445325906443915",
+        "upper": "140843762183149595956/87511133147661097875",
+        "tail_upper": "67108864/11767897353375",
+        "strict": true
+      },
+      "passed": true
+    },
+    {
+      "name": "log_121_over_41",
+      "actual": {
+        "argument": "121/41",
+        "z": "40/81",
+        "terms": 12,
+        "lower": "632171356763015842631638860145687960409278174549520/584143932498038453048032251602168760149193832910589",
+        "upper": "285109282509041942724453674994505270144584456721833520/263448913556615342324662545472578110827286418642675639",
+        "tail_upper": "900719925474099200000000000000000000000/389694845351548272103625006061156399005510656401",
+        "strict": true
+      },
+      "required": {
+        "argument": "121/41",
+        "z": "40/81",
+        "terms": 12,
+        "lower": "632171356763015842631638860145687960409278174549520/584143932498038453048032251602168760149193832910589",
+        "upper": "285109282509041942724453674994505270144584456721833520/263448913556615342324662545472578110827286418642675639",
+        "tail_upper": "900719925474099200000000000000000000000/389694845351548272103625006061156399005510656401",
+        "strict": true
+      },
+      "passed": true
+    },
+    {
+      "name": "omega_bounds",
+      "actual": {
+        "lower": "3094381085560033439836673138485211839663750466552558/540874011572257826896326158890897000138142437880175",
+        "upper": "3171749153088868509716866991010274956019894387403946734/554395861861564272568734312863169425141595998827179375",
+        "required_lower": "11/2",
+        "required_upper": "6/1"
+      },
+      "required": {
+        "lower": "3094381085560033439836673138485211839663750466552558/540874011572257826896326158890897000138142437880175",
+        "upper": "3171749153088868509716866991010274956019894387403946734/554395861861564272568734312863169425141595998827179375",
+        "required_lower": "11/2",
+        "required_upper": "6/1"
+      },
+      "passed": true
+    },
+    {
+      "name": "complete_comparison_array",
+      "actual": [
+        {
+          "name": "frequency_lower",
+          "actual": "3094381085560033439836673138485211839663750466552558/540874011572257826896326158890897000138142437880175",
+          "relation": ">",
+          "required": "11/2",
+          "passed": true
+        },
+        {
+          "name": "frequency_upper",
+          "actual": "3171749153088868509716866991010274956019894387403946734/554395861861564272568734312863169425141595998827179375",
+          "relation": "<",
+          "required": "6/1",
+          "passed": true
+        },
+        {
+          "name": "seven_pi_over_four_upper_uses_pi_lt_22_over_7",
+          "actual": "11/2",
+          "relation": "==",
+          "required": "11/2",
+          "passed": true
+        },
+        {
+          "name": "two_pi_lower_uses_pi_gt_3",
+          "actual": "6/1",
+          "relation": "==",
+          "required": "6/1",
+          "passed": true
+        },
+        {
+          "name": "positive_factor_numerator",
+          "actual": "25/64",
+          "relation": "==",
+          "required": "25/64",
+          "passed": true
+        },
+        {
+          "name": "beta_minus_alpha_lower",
+          "actual": "20/121",
+          "relation": "==",
+          "required": "20/121",
+          "passed": true
+        },
+        {
+          "name": "beta_square_minus_alpha_square_lower",
+          "actual": "16/121",
+          "relation": "==",
+          "required": "16/121",
+          "passed": true
+        },
+        {
+          "name": "factor_square_denominator_upper",
+          "actual": "106/25",
+          "relation": "==",
+          "required": "106/25",
+          "passed": true
+        },
+        {
+          "name": "factor_square_loss",
+          "actual": "32/6413",
+          "relation": "==",
+          "required": "32/6413",
+          "passed": true
+        },
+        {
+          "name": "product_decay_rate",
+          "actual": "16/6413",
+          "relation": "==",
+          "required": "16/6413",
+          "passed": true
+        },
+        {
+          "name": "uniform_real_kernel_derivative_upper",
+          "actual": "3078/205",
+          "relation": "<",
+          "required": "16/1",
+          "passed": true
+        },
+        {
+          "name": "actual_outer_endpoint_at_n_63",
+          "actual": "45/112",
+          "relation": ">",
+          "required": "2/5",
+          "passed": true
+        }
+      ],
+      "required": [
+        {
+          "name": "frequency_lower",
+          "actual": "3094381085560033439836673138485211839663750466552558/540874011572257826896326158890897000138142437880175",
+          "relation": ">",
+          "required": "11/2",
+          "passed": true
+        },
+        {
+          "name": "frequency_upper",
+          "actual": "3171749153088868509716866991010274956019894387403946734/554395861861564272568734312863169425141595998827179375",
+          "relation": "<",
+          "required": "6/1",
+          "passed": true
+        },
+        {
+          "name": "seven_pi_over_four_upper_uses_pi_lt_22_over_7",
+          "actual": "11/2",
+          "relation": "==",
+          "required": "11/2",
+          "passed": true
+        },
+        {
+          "name": "two_pi_lower_uses_pi_gt_3",
+          "actual": "6/1",
+          "relation": "==",
+          "required": "6/1",
+          "passed": true
+        },
+        {
+          "name": "positive_factor_numerator",
+          "actual": "25/64",
+          "relation": "==",
+          "required": "25/64",
+          "passed": true
+        },
+        {
+          "name": "beta_minus_alpha_lower",
+          "actual": "20/121",
+          "relation": "==",
+          "required": "20/121",
+          "passed": true
+        },
+        {
+          "name": "beta_square_minus_alpha_square_lower",
+          "actual": "16/121",
+          "relation": "==",
+          "required": "16/121",
+          "passed": true
+        },
+        {
+          "name": "factor_square_denominator_upper",
+          "actual": "106/25",
+          "relation": "==",
+          "required": "106/25",
+          "passed": true
+        },
+        {
+          "name": "factor_square_loss",
+          "actual": "32/6413",
+          "relation": "==",
+          "required": "32/6413",
+          "passed": true
+        },
+        {
+          "name": "product_decay_rate",
+          "actual": "16/6413",
+          "relation": "==",
+          "required": "16/6413",
+          "passed": true
+        },
+        {
+          "name": "uniform_real_kernel_derivative_upper",
+          "actual": "3078/205",
+          "relation": "<",
+          "required": "16/1",
+          "passed": true
+        },
+        {
+          "name": "actual_outer_endpoint_at_n_63",
+          "actual": "45/112",
+          "relation": ">",
+          "required": "2/5",
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "all_reassembled_comparisons_pass",
+      "actual": true,
+      "required": true,
+      "passed": true
+    },
+    {
+      "name": "failures",
+      "actual": [],
+      "required": [],
+      "passed": true
+    },
+    {
+      "name": "passed",
+      "actual": true,
+      "required": true,
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

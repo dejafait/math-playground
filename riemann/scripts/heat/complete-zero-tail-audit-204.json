@@ -1,0 +1,726 @@
+{
+  "scope": "Exact finite audit only; analytic audit is canonical in L919 step204.",
+  "original_source_sha256": "75993a1e713751bd0d97e3155f9c1a32e03b798022ec6bf4fb2894a4f1df4f06",
+  "original_certificate_sha256": "db1775c0efce20bffad67618eb950b74c37fed7f685523aa045ec72fffef3484",
+  "replay_certificate": "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/heat/complete-zero-tail-replay-204.json",
+  "checks": [
+    {
+      "name": "replay normal completion",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "name": "replay equals entire original certificate",
+      "actual": {
+        "scope": "Exact finite constants only; Jensen, product and full-tail integration are proved/cited in L919.",
+        "radius": "100/1",
+        "time_band": [
+          "0/1",
+          "1/20"
+        ],
+        "scaling": [
+          1,
+          200,
+          40000
+        ],
+        "checks": [
+          {
+            "name": "exp(3) finite positive-series lower bound",
+            "left": "89641/4480",
+            "relation": ">",
+            "right": "20/1",
+            "passed": true
+          },
+          {
+            "name": "exp(1) geometric-series upper bound",
+            "left": "49/18",
+            "relation": "<",
+            "right": "11/4",
+            "passed": true
+          },
+          {
+            "name": "exp(4) upper bound",
+            "left": "14641/256",
+            "relation": "<",
+            "right": "72/1",
+            "passed": true
+          },
+          {
+            "name": "pi squared upper bound",
+            "left": "484/49",
+            "relation": "<",
+            "right": "10/1",
+            "passed": true
+          },
+          {
+            "name": "v upper bound on normalizer interval",
+            "left": "55/14",
+            "relation": "<",
+            "right": "4/1",
+            "passed": true
+          },
+          {
+            "name": "normalizer lower bound",
+            "left": "1/20",
+            "relation": "=",
+            "right": "1/20",
+            "passed": true
+          },
+          {
+            "name": "kernel geometric numerator",
+            "left": "12621/8000",
+            "relation": "<",
+            "right": "8/5",
+            "passed": true
+          },
+          {
+            "name": "kernel Bernoulli denominator",
+            "left": "3/4",
+            "relation": "=",
+            "right": "3/4",
+            "passed": true
+          },
+          {
+            "name": "kernel constant",
+            "left": "512/3",
+            "relation": "<",
+            "right": "200/1",
+            "passed": true
+          },
+          {
+            "name": "count additive constant",
+            "left": "111/640",
+            "relation": "=",
+            "right": "111/640",
+            "passed": true
+          },
+          {
+            "name": "count absorption using log(r)>=4",
+            "left": "111/640",
+            "relation": "<",
+            "right": "1/4",
+            "passed": true
+          },
+          {
+            "name": "count logarithmic coefficient",
+            "left": "8/5",
+            "relation": "=",
+            "right": "8/5",
+            "passed": true
+          },
+          {
+            "name": "complete matrix budget below stated threshold",
+            "left": "74137011761/13027587890625000",
+            "relation": "<",
+            "right": "5691/1000000000",
+            "passed": true
+          }
+        ],
+        "tail": {
+          "log_radius_upper_bound": "5/1",
+          "power_budgets": {
+            "4": "4/703125",
+            "8": "9/191406250000000",
+            "12": "21/47265625000000000000000"
+          },
+          "weighted_terms": {
+            "4": "4/703125",
+            "8": "9/4785156250",
+            "12": "21/29541015625000"
+          },
+          "actual_rational_budget": "74137011761/13027587890625000",
+          "required_upper_threshold": "5691/1000000000",
+          "positive_rounding_reserve": "191419171/833765625000000000"
+        },
+        "failures": [],
+        "passed": true
+      },
+      "expected": {
+        "scope": "Exact finite constants only; Jensen, product and full-tail integration are proved/cited in L919.",
+        "radius": "100/1",
+        "time_band": [
+          "0/1",
+          "1/20"
+        ],
+        "scaling": [
+          1,
+          200,
+          40000
+        ],
+        "checks": [
+          {
+            "name": "exp(3) finite positive-series lower bound",
+            "left": "89641/4480",
+            "relation": ">",
+            "right": "20/1",
+            "passed": true
+          },
+          {
+            "name": "exp(1) geometric-series upper bound",
+            "left": "49/18",
+            "relation": "<",
+            "right": "11/4",
+            "passed": true
+          },
+          {
+            "name": "exp(4) upper bound",
+            "left": "14641/256",
+            "relation": "<",
+            "right": "72/1",
+            "passed": true
+          },
+          {
+            "name": "pi squared upper bound",
+            "left": "484/49",
+            "relation": "<",
+            "right": "10/1",
+            "passed": true
+          },
+          {
+            "name": "v upper bound on normalizer interval",
+            "left": "55/14",
+            "relation": "<",
+            "right": "4/1",
+            "passed": true
+          },
+          {
+            "name": "normalizer lower bound",
+            "left": "1/20",
+            "relation": "=",
+            "right": "1/20",
+            "passed": true
+          },
+          {
+            "name": "kernel geometric numerator",
+            "left": "12621/8000",
+            "relation": "<",
+            "right": "8/5",
+            "passed": true
+          },
+          {
+            "name": "kernel Bernoulli denominator",
+            "left": "3/4",
+            "relation": "=",
+            "right": "3/4",
+            "passed": true
+          },
+          {
+            "name": "kernel constant",
+            "left": "512/3",
+            "relation": "<",
+            "right": "200/1",
+            "passed": true
+          },
+          {
+            "name": "count additive constant",
+            "left": "111/640",
+            "relation": "=",
+            "right": "111/640",
+            "passed": true
+          },
+          {
+            "name": "count absorption using log(r)>=4",
+            "left": "111/640",
+            "relation": "<",
+            "right": "1/4",
+            "passed": true
+          },
+          {
+            "name": "count logarithmic coefficient",
+            "left": "8/5",
+            "relation": "=",
+            "right": "8/5",
+            "passed": true
+          },
+          {
+            "name": "complete matrix budget below stated threshold",
+            "left": "74137011761/13027587890625000",
+            "relation": "<",
+            "right": "5691/1000000000",
+            "passed": true
+          }
+        ],
+        "tail": {
+          "log_radius_upper_bound": "5/1",
+          "power_budgets": {
+            "4": "4/703125",
+            "8": "9/191406250000000",
+            "12": "21/47265625000000000000000"
+          },
+          "weighted_terms": {
+            "4": "4/703125",
+            "8": "9/4785156250",
+            "12": "21/29541015625000"
+          },
+          "actual_rational_budget": "74137011761/13027587890625000",
+          "required_upper_threshold": "5691/1000000000",
+          "positive_rounding_reserve": "191419171/833765625000000000"
+        },
+        "failures": [],
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "name": "original source unchanged",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "original certificate unchanged",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "radius",
+      "actual": "100/1",
+      "expected": "100/1",
+      "passed": true
+    },
+    {
+      "name": "time interval",
+      "actual": [
+        "0/1",
+        "1/20"
+      ],
+      "expected": [
+        "0/1",
+        "1/20"
+      ],
+      "passed": true
+    },
+    {
+      "name": "diagonal scaling",
+      "actual": [
+        1,
+        200,
+        40000
+      ],
+      "expected": [
+        1,
+        200,
+        40000
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check count",
+      "actual": 13,
+      "expected": 13,
+      "passed": true
+    },
+    {
+      "name": "finite check 1 operands",
+      "actual": [
+        "89641/4480",
+        ">",
+        "20/1"
+      ],
+      "expected": [
+        "89641/4480",
+        ">",
+        "20/1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 1 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 1 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 2 operands",
+      "actual": [
+        "49/18",
+        "<",
+        "11/4"
+      ],
+      "expected": [
+        "49/18",
+        "<",
+        "11/4"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 2 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 2 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 3 operands",
+      "actual": [
+        "14641/256",
+        "<",
+        "72/1"
+      ],
+      "expected": [
+        "14641/256",
+        "<",
+        "72/1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 3 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 3 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 4 operands",
+      "actual": [
+        "484/49",
+        "<",
+        "10/1"
+      ],
+      "expected": [
+        "484/49",
+        "<",
+        "10/1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 4 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 4 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 5 operands",
+      "actual": [
+        "55/14",
+        "<",
+        "4/1"
+      ],
+      "expected": [
+        "55/14",
+        "<",
+        "4/1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 5 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 5 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 6 operands",
+      "actual": [
+        "1/20",
+        "=",
+        "1/20"
+      ],
+      "expected": [
+        "1/20",
+        "=",
+        "1/20"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 6 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 6 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 7 operands",
+      "actual": [
+        "12621/8000",
+        "<",
+        "8/5"
+      ],
+      "expected": [
+        "12621/8000",
+        "<",
+        "8/5"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 7 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 7 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 8 operands",
+      "actual": [
+        "3/4",
+        "=",
+        "3/4"
+      ],
+      "expected": [
+        "3/4",
+        "=",
+        "3/4"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 8 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 8 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 9 operands",
+      "actual": [
+        "512/3",
+        "<",
+        "200/1"
+      ],
+      "expected": [
+        "512/3",
+        "<",
+        "200/1"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 9 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 9 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 10 operands",
+      "actual": [
+        "111/640",
+        "=",
+        "111/640"
+      ],
+      "expected": [
+        "111/640",
+        "=",
+        "111/640"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 10 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 10 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 11 operands",
+      "actual": [
+        "111/640",
+        "<",
+        "1/4"
+      ],
+      "expected": [
+        "111/640",
+        "<",
+        "1/4"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 11 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 11 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 12 operands",
+      "actual": [
+        "8/5",
+        "=",
+        "8/5"
+      ],
+      "expected": [
+        "8/5",
+        "=",
+        "8/5"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 12 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 12 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 13 operands",
+      "actual": [
+        "74137011761/13027587890625000",
+        "<",
+        "5691/1000000000"
+      ],
+      "expected": [
+        "74137011761/13027587890625000",
+        "<",
+        "5691/1000000000"
+      ],
+      "passed": true
+    },
+    {
+      "name": "finite check 13 independent truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "finite check 13 stored truth",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "complete tail data",
+      "actual": {
+        "log_radius_upper_bound": "5/1",
+        "power_budgets": {
+          "4": "4/703125",
+          "8": "9/191406250000000",
+          "12": "21/47265625000000000000000"
+        },
+        "weighted_terms": {
+          "4": "4/703125",
+          "8": "9/4785156250",
+          "12": "21/29541015625000"
+        },
+        "actual_rational_budget": "74137011761/13027587890625000",
+        "required_upper_threshold": "5691/1000000000",
+        "positive_rounding_reserve": "191419171/833765625000000000"
+      },
+      "expected": {
+        "log_radius_upper_bound": "5/1",
+        "power_budgets": {
+          "4": "4/703125",
+          "8": "9/191406250000000",
+          "12": "21/47265625000000000000000"
+        },
+        "weighted_terms": {
+          "4": "4/703125",
+          "8": "9/4785156250",
+          "12": "21/29541015625000"
+        },
+        "actual_rational_budget": "74137011761/13027587890625000",
+        "required_upper_threshold": "5691/1000000000",
+        "positive_rounding_reserve": "191419171/833765625000000000"
+      },
+      "passed": true
+    },
+    {
+      "name": "printed lemma budget",
+      "actual": "74137011761/13027587890625000",
+      "expected": "74137011761/13027587890625000",
+      "passed": true
+    },
+    {
+      "name": "original failure list",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "name": "original pass flag",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "tail": {
+    "log_radius_upper_bound": "5/1",
+    "power_budgets": {
+      "4": "4/703125",
+      "8": "9/191406250000000",
+      "12": "21/47265625000000000000000"
+    },
+    "weighted_terms": {
+      "4": "4/703125",
+      "8": "9/4785156250",
+      "12": "21/29541015625000"
+    },
+    "actual_rational_budget": "74137011761/13027587890625000",
+    "required_upper_threshold": "5691/1000000000",
+    "positive_rounding_reserve": "191419171/833765625000000000"
+  },
+  "failures": [],
+  "passed": true
+}

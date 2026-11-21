@@ -1,0 +1,75 @@
+{
+  "scope": "Exact scalar reserve only; proof and conditional premises are in L960.",
+  "values": {
+    "p": {
+      "numerator": 101,
+      "denominator": 200000000
+    },
+    "q": {
+      "numerator": 3550001,
+      "denominator": 250000000000
+    },
+    "modulus_floor": {
+      "numerator": 1,
+      "denominator": 790
+    },
+    "positive_base": {
+      "numerator": 13,
+      "denominator": 624100
+    },
+    "error_p_times_25m": {
+      "numerator": 101,
+      "denominator": 6320000000
+    },
+    "error_q_times_m": {
+      "numerator": 3550001,
+      "denominator": 197500000000000
+    },
+    "error_p_times_81_over_2": {
+      "numerator": 8181,
+      "denominator": 400000000
+    },
+    "error_product_pq": {
+      "numerator": 358550101,
+      "denominator": 50000000000000000000
+    },
+    "linear_coefficient": {
+      "numerator": 6706251,
+      "denominator": 250000000000
+    },
+    "constant_charge": {
+      "numerator": 1022625358550101,
+      "denominator": 50000000000000000000
+    },
+    "reserve": {
+      "numerator": 107199260708819659,
+      "denominator": 312050000000000000000000
+    },
+    "required_reserve": {
+      "numerator": 3,
+      "denominator": 10000000
+    },
+    "reserve_minus_required": {
+      "numerator": 13584260708819659,
+      "denominator": 312050000000000000000000
+    },
+    "derivative_at_modulus_floor": {
+      "numerator": 649470206171,
+      "denominator": 19750000000000
+    },
+    "second_derivative": {
+      "numerator": 26,
+      "denominator": 1
+    }
+  },
+  "checks": {
+    "q_includes_companion_error": true,
+    "p_is_half_remainder": true,
+    "reserve_matches_source": true,
+    "derivative_matches_source": true,
+    "reserve_exceeds_required_threshold": true,
+    "derivative_at_modulus_floor_positive": true,
+    "second_derivative_positive": true
+  },
+  "failures": []
+}

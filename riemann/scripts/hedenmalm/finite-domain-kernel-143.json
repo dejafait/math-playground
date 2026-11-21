@@ -1,0 +1,72 @@
+{
+  "scope": "Exact rational subchecks only; series, inversion and operator reasoning are in L906.",
+  "polynomials": {
+    "P0": [
+      "0",
+      "-3",
+      "2"
+    ],
+    "P1": [
+      "0",
+      "-15/2",
+      "15",
+      "-4"
+    ],
+    "P2": [
+      "0",
+      "-75/4",
+      "165/2",
+      "-56",
+      "8"
+    ]
+  },
+  "bounds": {
+    "first_term_bracket_upper": {
+      "actual": "-20737/1372",
+      "required_threshold": "-15",
+      "passed": true
+    },
+    "e_upper": {
+      "actual": "87/32",
+      "required_threshold": "11/4",
+      "passed": true
+    },
+    "exp_pi_upper": {
+      "actual": "9317/384",
+      "required_threshold": "27",
+      "passed": true
+    },
+    "exp3_lower": {
+      "actual": "89641/4480",
+      "required_threshold": "20",
+      "passed": true
+    },
+    "positive_tail_polynomial_factor": {
+      "actual": "823/96",
+      "required_threshold": "9",
+      "passed": true
+    },
+    "pi_fourth_upper": {
+      "actual": "234256/2401",
+      "required_threshold": "100",
+      "passed": true
+    },
+    "series_ratio_upper": {
+      "actual": "6561/819200000",
+      "required_threshold": "1/100000",
+      "passed": true
+    },
+    "tail_upper": {
+      "actual": "16000/11111",
+      "required_threshold": "3/2",
+      "passed": true
+    },
+    "delta2_w_upper": {
+      "actual": "-7555/33333",
+      "required_threshold": "-1/6",
+      "passed": true
+    }
+  },
+  "all_passed": true,
+  "failures": []
+}

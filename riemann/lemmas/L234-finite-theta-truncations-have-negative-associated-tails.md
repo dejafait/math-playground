@@ -14,9 +14,25 @@ F_N'(x)=4d_N x^(−3)+O_N(x^(−5)),
 F_N''(x)=−12d_N x^(−4)+O_N(x^(−6)),
 Â_N(2x)=−2d_N² x^(−6)+O_N(x^(−8)).
 
-In particular A_N is not positive definite for any finite N. This is not an assertion about the sign for the infinite actual theta kernel.
+In particular A_N is not positive definite for any finite N. Also F_N extends to an entire function with infinitely many zeros, only finitely many of them real (Pólya's finite-sum assertion cited below). This includes N=1. Neither statement concerns zeros or spectral signs of the infinite actual theta kernel.
 
-**Proof.** First verify the exact cancellation for the infinite series. With ψ and its transformation from L016, define A(u)=e^(u/2)ψ(e^(2u)) for every real u. The theta transformation gives
+**Proof.** The zero assertion is imported from G. Pólya, *Bemerkung über die Integraldarstellung der Riemannschen ξ-Funktion*, Acta Mathematica **48** (1926), 305–317, [DOI 10.1007/BF02565336](https://doi.org/10.1007/BF02565336), [primary text](https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/5376-11511_2007_Article_BF02565336.pdf), formula (3), p.305, and Section 4, Hilfssatz I, pp.315–316, especially its following finite-sum paragraph on p.316. That paragraph explicitly asserts infinitely many zeros and only finitely many real zeros for the half-line cosine transform of a finite sum of the full summands in (3). Its infinitude assertion uses Hadamard theory; it is used here as a cited result, without claiming an independent audit of that argument.
+
+Here is the exact normalization check. Write Pólya's finite kernel as
+
+Φ_N(u)=2πe^(5u/2) Σ_{n=1}^N (2πn²e^(2u)−3)n² exp(−πn²e^(2u)),
+T_N(z)=∫_0^∞ Φ_N(u)cos(zu)du.
+
+Termwise expansion gives f_N=2Φ_N, with no change of u or frequency. If C_N(z)=∫_0^∞ f_N(u)cos(zu)du, then C_N=2T_N and F_N=2C_N=4T_N. The last equality holds for complex z too: the even extension cancels the sine integral, and all these integrals converge locally uniformly by the finite superexponential bound. These nonzero scalar factors preserve zeros and multiplicities. Thus the stated finite-sum result applies to the exact N=1 reference, not to a leading-exponential or cosh-modified kernel. Hilfssatz I requires analyticity and reality on u≥0, u²Φ_N^(j)(u)→0 for every fixed j≥0, and non-evenness. The finite exponential formula gives the first two properties, and the existing d_N>0 proof below gives Φ_N'(0)=d_N/2>0. No endpoint proof is repeated for this import.
+
+For comparison with L021/L776's ordinary-coefficient convention, put m_(2j)^(1)=∫_0^∞ u^(2j)f_1(u)du. The reference substitution into that convention is
+
+G_1(w)=Σ_{j≥0} m_(2j)^(1)w^j/[8·4^j(2j)!]
+      =C_1(i√w/2)/8=T_1(i√w/2)/4.
+
+The expression is independent of the square-root choice because C_1 is even; the cosine-series interchange uses the same superexponential majorant as L021. This records only the normalization of the proposed reference, not an identification with actual Xi or a sign theorem for any coefficient minor.
+
+The remaining proof is the existing, independent endpoint and associated-spectrum argument. First verify the exact cancellation for the infinite series. With ψ and its transformation from L016, define A(u)=e^(u/2)ψ(e^(2u)) for every real u. The theta transformation gives
 
 A(u)−A(−u)=−sinh(u/2).
 
@@ -56,4 +72,4 @@ L233 applies because k_N is continuous, even, and superexponentially decaying; i
 
 The required threshold for this approximation strategy was Â_N(ξ)≥0 for every real ξ. Instead every N has an eventually strictly negative spectrum. There is no uniform-in-N assertion about the onset frequency: d_N→0, and the infinite kernel cancels the cusp exactly. In fact the same integration by parts with the smooth even infinite K makes its Fourier transform decay faster than every inverse power, since all odd boundary derivatives vanish and all derivatives are integrable by L016. Thus the finite-N leading tail cannot be passed to N=∞. No negative value for the actual theta spectrum, all-degree mixed bound, or RH disproof follows.
 
-**Mathlib.** Not checked for the full statement or supporting Fourier asymptotics and integration-by-parts results. The theta transformation is supplied mathematically by L016; its existing supporting Mathlib references are not a match for this full statement. General documentation: https://leanprover-community.github.io/mathlib4_docs/
+**Mathlib.** Not checked for the full statement, Pólya's finite-sum zero theorem, or supporting Fourier asymptotics and integration-by-parts results. The theta transformation is supplied mathematically by L016; its existing supporting Mathlib references are not a match for this full statement. General documentation: https://leanprover-community.github.io/mathlib4_docs/

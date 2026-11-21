@@ -1,0 +1,157 @@
+{
+  "scope": "Fixed admissible sextic preserver; failure of strict inverse positivity only.",
+  "coefficient_order": "Ascending powers; exact rational strings.",
+  "q": [
+    "1",
+    "1",
+    "5/18"
+  ],
+  "inverse": [
+    "1",
+    "-1",
+    "13/18",
+    "-4/9",
+    "79/324",
+    "-13/108",
+    "307/5832"
+  ],
+  "product_mod_D7": [
+    "1",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "moments": [
+    "1",
+    "-1",
+    "13/9",
+    "-8/3",
+    "158/27",
+    "-130/9",
+    "3070/81"
+  ],
+  "moment_matrix": [
+    [
+      "1",
+      "-1",
+      "13/9",
+      "-8/3"
+    ],
+    [
+      "-1",
+      "13/9",
+      "-8/3",
+      "158/27"
+    ],
+    [
+      "13/9",
+      "-8/3",
+      "158/27",
+      "-130/9"
+    ],
+    [
+      "-8/3",
+      "158/27",
+      "-130/9",
+      "3070/81"
+    ]
+  ],
+  "leading_minors": [
+    "1",
+    "4/9",
+    "131/729",
+    "-1238/19683"
+  ],
+  "h": [
+    "558",
+    "2084",
+    "1782",
+    "393"
+  ],
+  "f_equals_h_squared_plus_one": [
+    "311365",
+    "2325744",
+    "6331768",
+    "7865964",
+    "4813548",
+    "1400652",
+    "154449"
+  ],
+  "inverse_f": [
+    "-162175/3",
+    "0",
+    "657762",
+    "606132",
+    "1156683",
+    "473958",
+    "154449"
+  ],
+  "qD_inverse_f": [
+    "311365",
+    "2325744",
+    "6331768",
+    "7865964",
+    "4813548",
+    "1400652",
+    "154449"
+  ],
+  "quadratic_form": "-162178/3",
+  "appell": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "25/3",
+    "6",
+    "1"
+  ],
+  "walsh_coefficients": [
+    "1",
+    "1",
+    "5/18",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "walsh_basis_checks": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "actual": {
+    "f_real_lower_bound": 1,
+    "inverse_f_at_zero": "-162175/3",
+    "moment_determinant": "-1238/19683",
+    "appell_discriminant": "8/3"
+  },
+  "required": {
+    "inverse_positivity": "inverse_f_at_zero > 0 for every f strictly positive on R",
+    "main_test": "Nonreal counts (2,4), or an impossibility proof for the whole class"
+  },
+  "main_test_status": "UNRESOLVED; this obstruction is not a (2,4) witness.",
+  "checks": {
+    "inverse_product_mod_D7": true,
+    "inverse_coefficients": true,
+    "moment_minors": true,
+    "quadratic_form": true,
+    "negative_inverse_value": true,
+    "operator_image_identity": true,
+    "strictly_positive_input_representation": true,
+    "sector_root_sum": true,
+    "sector_root_product": true,
+    "sector_boundary": true,
+    "appell_factorization": true,
+    "appell_quadratic_discriminant": true,
+    "walsh_identity_all_basis_vectors": true
+  },
+  "failures": [],
+  "limits": "Finite algebra only. See C020o for sector roots, Walsh applicability and strict positivity. No root counts for f or inverse_f are asserted here."
+}

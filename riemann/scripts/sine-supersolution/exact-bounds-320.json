@@ -1,0 +1,28 @@
+{
+  "scope": "Exact arithmetic replay, not verification of analytic hypotheses",
+  "canonical_proof": "lemmas/L751-fixed-sine-complete-neutral-supersolution-obstruction.md",
+  "analytic_requirements": [
+    "L751 equations (11)-(15), including full zero-extension residual",
+    "all surviving von Mangoldt weights/cosines nonnegative",
+    "pi in (3,4), e<3, gamma>=0, log2>2/3"
+  ],
+  "values": {
+    "integral_u2_exp_minus_u_over_2": 16,
+    "integral_u_exp_minus_u_over_2": 4,
+    "quadratic_coefficient": "18",
+    "continuous_increment_strict_upper": "328/81",
+    "scalar_strict_upper": "-9/2",
+    "full_residual_strict_upper": "-73/162",
+    "required_pointwise_lower_threshold": "0"
+  },
+  "checks": {
+    "gamma_integrals": true,
+    "quadratic_coefficient": true,
+    "window_prime_cutoff": true,
+    "midpoint_prime_cutoff_squared": true,
+    "continuous_increment": true,
+    "residual_arithmetic": true,
+    "strict_negative_threshold": true
+  },
+  "failures": []
+}

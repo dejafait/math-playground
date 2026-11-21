@@ -1,0 +1,1548 @@
+{
+  "parameters": {
+    "N": 512,
+    "J": 32768,
+    "K": 65536,
+    "endpoint_dimension": 1020
+  },
+  "scope": "A_R^K=(-T*P_<K R^-1 rho_tilde,-T P_<K R^-1 rho_tilde); exact Z and fixed Yhat",
+  "certified_under_inherited_contracts": true,
+  "input_hashes": {
+    "neutral-head-covariance-559.npz": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+    "neutral-head-covariance-559.json": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+    "complete-schur-531.py": "0ca836a6b0a4c9511e1495420b060496718acc083579a7f306e630fd951a83fc",
+    "residual-certificate-532.py": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "signed-mixed-local-trial-input-568.json": "41e7b289e5ed0846db0291dfcc6d62c8729e11efcaed36b045ba2992e3cbe28e"
+  },
+  "script_sha256": "6f84d99ed11a0fc0816dd6a1244e8ab3f8be6d2b550d561072567dd660586d56",
+  "full_residual_digest": "5ba7e4613fa8b602d7ab8e7a22120afa43a8f7ca5433be216dc93e1f4017a171",
+  "row_blocks": [
+    {
+      "first": 512,
+      "last": 1023,
+      "raw_fro_squared": 6.031072981262611,
+      "residual_fro": 2.450499862993358
+    },
+    {
+      "first": 1024,
+      "last": 1535,
+      "raw_fro_squared": 0.3961703117188219,
+      "residual_fro": 0.594152939246204
+    },
+    {
+      "first": 1536,
+      "last": 2047,
+      "raw_fro_squared": 0.18265539908282685,
+      "residual_fro": 0.3957583722941791
+    },
+    {
+      "first": 2048,
+      "last": 2559,
+      "raw_fro_squared": 0.10709627931993722,
+      "residual_fro": 0.2999493827560259
+    },
+    {
+      "first": 2560,
+      "last": 3071,
+      "raw_fro_squared": 0.07166008628297732,
+      "residual_fro": 0.24407575844905535
+    },
+    {
+      "first": 3072,
+      "last": 3583,
+      "raw_fro_squared": 0.05035410923064335,
+      "residual_fro": 0.2034320028407995
+    },
+    {
+      "first": 3584,
+      "last": 4095,
+      "raw_fro_squared": 0.03784575431850446,
+      "residual_fro": 0.17585512240056145
+    },
+    {
+      "first": 4096,
+      "last": 4607,
+      "raw_fro_squared": 0.029503709853109517,
+      "residual_fro": 0.15492153602522818
+    },
+    {
+      "first": 4608,
+      "last": 5119,
+      "raw_fro_squared": 0.023637493939808508,
+      "residual_fro": 0.138415782278653
+    },
+    {
+      "first": 5120,
+      "last": 5631,
+      "raw_fro_squared": 0.019205799300053217,
+      "residual_fro": 0.1244679863430407
+    },
+    {
+      "first": 5632,
+      "last": 6143,
+      "raw_fro_squared": 0.01615555380335166,
+      "residual_fro": 0.11412720400483052
+    },
+    {
+      "first": 6144,
+      "last": 6655,
+      "raw_fro_squared": 0.013592508065598124,
+      "residual_fro": 0.10450327673944394
+    },
+    {
+      "first": 6656,
+      "last": 7167,
+      "raw_fro_squared": 0.011625990337818746,
+      "residual_fro": 0.09653736964581255
+    },
+    {
+      "first": 7168,
+      "last": 7679,
+      "raw_fro_squared": 0.010155154134316939,
+      "residual_fro": 0.09023550320263514
+    },
+    {
+      "first": 7680,
+      "last": 8191,
+      "raw_fro_squared": 0.008867997505777702,
+      "residual_fro": 0.08424857210565055
+    },
+    {
+      "first": 8192,
+      "last": 8703,
+      "raw_fro_squared": 0.00779142325124268,
+      "residual_fro": 0.07887703155520792
+    },
+    {
+      "first": 8704,
+      "last": 9215,
+      "raw_fro_squared": 0.006953611068863505,
+      "residual_fro": 0.07450246361661127
+    },
+    {
+      "first": 9216,
+      "last": 9727,
+      "raw_fro_squared": 0.006223452019808106,
+      "residual_fro": 0.07044880726068584
+    },
+    {
+      "first": 9728,
+      "last": 10239,
+      "raw_fro_squared": 0.005575790000517781,
+      "residual_fro": 0.06660726745072393
+    },
+    {
+      "first": 10240,
+      "last": 10751,
+      "raw_fro_squared": 0.0050939611908983546,
+      "residual_fro": 0.06370783005483364
+    },
+    {
+      "first": 10752,
+      "last": 11263,
+      "raw_fro_squared": 0.004616016781577788,
+      "residual_fro": 0.060600096011262136
+    },
+    {
+      "first": 11264,
+      "last": 11775,
+      "raw_fro_squared": 0.004201848364778586,
+      "residual_fro": 0.05777431819542758
+    },
+    {
+      "first": 11776,
+      "last": 12287,
+      "raw_fro_squared": 0.003858562087390821,
+      "residual_fro": 0.05535935178113697
+    },
+    {
+      "first": 12288,
+      "last": 12799,
+      "raw_fro_squared": 0.003570862422539669,
+      "residual_fro": 0.05328615734618539
+    },
+    {
+      "first": 12800,
+      "last": 13311,
+      "raw_fro_squared": 0.0032622263564210537,
+      "residual_fro": 0.050852657684549316
+    },
+    {
+      "first": 13312,
+      "last": 13823,
+      "raw_fro_squared": 0.003061765535574299,
+      "residual_fro": 0.04933816825805288
+    },
+    {
+      "first": 13824,
+      "last": 14335,
+      "raw_fro_squared": 0.002820683808168848,
+      "residual_fro": 0.047299338896511674
+    },
+    {
+      "first": 14336,
+      "last": 14847,
+      "raw_fro_squared": 0.0026200032749732075,
+      "residual_fro": 0.045559619355871446
+    },
+    {
+      "first": 14848,
+      "last": 15359,
+      "raw_fro_squared": 0.002459606348281956,
+      "residual_fro": 0.04416273411735747
+    },
+    {
+      "first": 15360,
+      "last": 15871,
+      "raw_fro_squared": 0.0023008631467421052,
+      "residual_fro": 0.0427037409290207
+    },
+    {
+      "first": 15872,
+      "last": 16383,
+      "raw_fro_squared": 0.002152745437630984,
+      "residual_fro": 0.041285709561832924
+    },
+    {
+      "first": 16384,
+      "last": 16895,
+      "raw_fro_squared": 0.002013190055674032,
+      "residual_fro": 0.03989270170342398
+    },
+    {
+      "first": 16896,
+      "last": 17407,
+      "raw_fro_squared": 0.0019071258623549535,
+      "residual_fro": 0.03885673659816214
+    },
+    {
+      "first": 17408,
+      "last": 17919,
+      "raw_fro_squared": 0.001790157233388932,
+      "residual_fro": 0.03762044907718935
+    },
+    {
+      "first": 17920,
+      "last": 18431,
+      "raw_fro_squared": 0.0017060809088472087,
+      "residual_fro": 0.03676528989163746
+    },
+    {
+      "first": 18432,
+      "last": 18943,
+      "raw_fro_squared": 0.001594041253469849,
+      "residual_fro": 0.035480728423215036
+    },
+    {
+      "first": 18944,
+      "last": 19455,
+      "raw_fro_squared": 0.0015208787682755424,
+      "residual_fro": 0.03468442724543077
+    },
+    {
+      "first": 19456,
+      "last": 19967,
+      "raw_fro_squared": 0.0014456872660182744,
+      "residual_fro": 0.03381938671229488
+    },
+    {
+      "first": 19968,
+      "last": 20479,
+      "raw_fro_squared": 0.001369728389211568,
+      "residual_fro": 0.03290412182496269
+    },
+    {
+      "first": 20480,
+      "last": 20991,
+      "raw_fro_squared": 0.0013028374344096435,
+      "residual_fro": 0.032083813005148946
+    },
+    {
+      "first": 20992,
+      "last": 21503,
+      "raw_fro_squared": 0.0012444114075669355,
+      "residual_fro": 0.031361376839362055
+    },
+    {
+      "first": 21504,
+      "last": 22015,
+      "raw_fro_squared": 0.0011838107663729868,
+      "residual_fro": 0.03057655065456026
+    },
+    {
+      "first": 22016,
+      "last": 22527,
+      "raw_fro_squared": 0.0011260006661819645,
+      "residual_fro": 0.02980214009926922
+    },
+    {
+      "first": 22528,
+      "last": 23039,
+      "raw_fro_squared": 0.0010838446409791706,
+      "residual_fro": 0.02926468532104046
+    },
+    {
+      "first": 23040,
+      "last": 23551,
+      "raw_fro_squared": 0.0010345975806512928,
+      "residual_fro": 0.028585295544537075
+    },
+    {
+      "first": 23552,
+      "last": 24063,
+      "raw_fro_squared": 0.0009886073802566433,
+      "residual_fro": 0.02793373807542711
+    },
+    {
+      "first": 24064,
+      "last": 24575,
+      "raw_fro_squared": 0.0009509621004104483,
+      "residual_fro": 0.027409932542582
+    },
+    {
+      "first": 24576,
+      "last": 25087,
+      "raw_fro_squared": 0.0009112201661531706,
+      "residual_fro": 0.02682710135964052
+    },
+    {
+      "first": 25088,
+      "last": 25599,
+      "raw_fro_squared": 0.0008669932919002437,
+      "residual_fro": 0.02613369377822135
+    },
+    {
+      "first": 25600,
+      "last": 26111,
+      "raw_fro_squared": 0.0008457324233568575,
+      "residual_fro": 0.025860153933786267
+    },
+    {
+      "first": 26112,
+      "last": 26623,
+      "raw_fro_squared": 0.0008053766279121859,
+      "residual_fro": 0.02520036318878931
+    },
+    {
+      "first": 26624,
+      "last": 27135,
+      "raw_fro_squared": 0.000777266340864195,
+      "residual_fro": 0.02476200549501137
+    },
+    {
+      "first": 27136,
+      "last": 27647,
+      "raw_fro_squared": 0.0007471923315145616,
+      "residual_fro": 0.02427108302396528
+    },
+    {
+      "first": 27648,
+      "last": 28159,
+      "raw_fro_squared": 0.0007210654944446394,
+      "residual_fro": 0.023845637192496848
+    },
+    {
+      "first": 28160,
+      "last": 28671,
+      "raw_fro_squared": 0.0006927455655216372,
+      "residual_fro": 0.023360847064307824
+    },
+    {
+      "first": 28672,
+      "last": 29183,
+      "raw_fro_squared": 0.0006737790847432978,
+      "residual_fro": 0.02306310011819109
+    },
+    {
+      "first": 29184,
+      "last": 29695,
+      "raw_fro_squared": 0.0006478136908531223,
+      "residual_fro": 0.02260227788441654
+    },
+    {
+      "first": 29696,
+      "last": 30207,
+      "raw_fro_squared": 0.0006201422453406453,
+      "residual_fro": 0.02208754513063948
+    },
+    {
+      "first": 30208,
+      "last": 30719,
+      "raw_fro_squared": 0.0006082371813372891,
+      "residual_fro": 0.021915522399286277
+    },
+    {
+      "first": 30720,
+      "last": 31231,
+      "raw_fro_squared": 0.0005847677452474288,
+      "residual_fro": 0.021470268591256718
+    },
+    {
+      "first": 31232,
+      "last": 31743,
+      "raw_fro_squared": 0.0005678655868055039,
+      "residual_fro": 0.021165333233450517
+    },
+    {
+      "first": 31744,
+      "last": 32255,
+      "raw_fro_squared": 0.0005468838394037086,
+      "residual_fro": 0.020753213226088953
+    },
+    {
+      "first": 32256,
+      "last": 32767,
+      "raw_fro_squared": 0.0005323893519199995,
+      "residual_fro": 0.02048720117669576
+    },
+    {
+      "first": 32768,
+      "last": 33279,
+      "raw_fro_squared": 0.0005120302461501298,
+      "residual_fro": 0.020069835550151162
+    },
+    {
+      "first": 33280,
+      "last": 33791,
+      "raw_fro_squared": 0.0005022869090369707,
+      "residual_fro": 0.01990692653573624
+    },
+    {
+      "first": 33792,
+      "last": 34303,
+      "raw_fro_squared": 0.000485287645451938,
+      "residual_fro": 0.019557060655457738
+    },
+    {
+      "first": 34304,
+      "last": 34815,
+      "raw_fro_squared": 0.0004690257059402715,
+      "residual_fro": 0.019216186350353555
+    },
+    {
+      "first": 34816,
+      "last": 35327,
+      "raw_fro_squared": 0.0004566525581063376,
+      "residual_fro": 0.01896848849406925
+    },
+    {
+      "first": 35328,
+      "last": 35839,
+      "raw_fro_squared": 0.00044193052306273954,
+      "residual_fro": 0.018651028479520305
+    },
+    {
+      "first": 35840,
+      "last": 36351,
+      "raw_fro_squared": 0.00043070498252525925,
+      "residual_fro": 0.018419246781437824
+    },
+    {
+      "first": 36352,
+      "last": 36863,
+      "raw_fro_squared": 0.00042121818463020365,
+      "residual_fro": 0.018228171692955483
+    },
+    {
+      "first": 36864,
+      "last": 37375,
+      "raw_fro_squared": 0.00040656955410724237,
+      "residual_fro": 0.017888733211909008
+    },
+    {
+      "first": 37376,
+      "last": 37887,
+      "raw_fro_squared": 0.00039535284771833213,
+      "residual_fro": 0.017637073699084734
+    },
+    {
+      "first": 37888,
+      "last": 38399,
+      "raw_fro_squared": 0.0003881167469409027,
+      "residual_fro": 0.017492975326338152
+    },
+    {
+      "first": 38400,
+      "last": 38911,
+      "raw_fro_squared": 0.0003742461967793891,
+      "residual_fro": 0.01715452961762323
+    },
+    {
+      "first": 38912,
+      "last": 39423,
+      "raw_fro_squared": 0.0003675037844928043,
+      "residual_fro": 0.01701716345693969
+    },
+    {
+      "first": 39424,
+      "last": 39935,
+      "raw_fro_squared": 0.0003578926674253825,
+      "residual_fro": 0.016792432384308303
+    },
+    {
+      "first": 39936,
+      "last": 40447,
+      "raw_fro_squared": 0.00034758582306188793,
+      "residual_fro": 0.016541199371845422
+    },
+    {
+      "first": 40448,
+      "last": 40959,
+      "raw_fro_squared": 0.000336305471595752,
+      "residual_fro": 0.016255457065753397
+    },
+    {
+      "first": 40960,
+      "last": 41471,
+      "raw_fro_squared": 0.0003331197142695068,
+      "residual_fro": 0.016211126069772135
+    },
+    {
+      "first": 41472,
+      "last": 41983,
+      "raw_fro_squared": 0.00032268048932865924,
+      "residual_fro": 0.015939845321727566
+    },
+    {
+      "first": 41984,
+      "last": 42495,
+      "raw_fro_squared": 0.00031354336570789426,
+      "residual_fro": 0.015703189078687375
+    },
+    {
+      "first": 42496,
+      "last": 43007,
+      "raw_fro_squared": 0.00030902368772041204,
+      "residual_fro": 0.015606862328319308
+    },
+    {
+      "first": 43008,
+      "last": 43519,
+      "raw_fro_squared": 0.0002991153967788358,
+      "residual_fro": 0.01533576316785881
+    },
+    {
+      "first": 43520,
+      "last": 44031,
+      "raw_fro_squared": 0.00029449212773130203,
+      "residual_fro": 0.01523200489735645
+    },
+    {
+      "first": 44032,
+      "last": 44543,
+      "raw_fro_squared": 0.0002863879915593971,
+      "residual_fro": 0.015010083736489297
+    },
+    {
+      "first": 44544,
+      "last": 45055,
+      "raw_fro_squared": 0.00028115368116776946,
+      "residual_fro": 0.014881876174996358
+    },
+    {
+      "first": 45056,
+      "last": 45567,
+      "raw_fro_squared": 0.0002724629270065142,
+      "residual_fro": 0.014633903718781215
+    },
+    {
+      "first": 45568,
+      "last": 46079,
+      "raw_fro_squared": 0.0002688525519085687,
+      "residual_fro": 0.014554014282089425
+    },
+    {
+      "first": 46080,
+      "last": 46591,
+      "raw_fro_squared": 0.00026071989376648494,
+      "residual_fro": 0.014317610268863416
+    },
+    {
+      "first": 46592,
+      "last": 47103,
+      "raw_fro_squared": 0.0002560425047836023,
+      "residual_fro": 0.014195971028795195
+    },
+    {
+      "first": 47104,
+      "last": 47615,
+      "raw_fro_squared": 0.00025129959299100945,
+      "residual_fro": 0.014068564663558755
+    },
+    {
+      "first": 47616,
+      "last": 48127,
+      "raw_fro_squared": 0.0002444273063130747,
+      "residual_fro": 0.013863209657363273
+    },
+    {
+      "first": 48128,
+      "last": 48639,
+      "raw_fro_squared": 0.00023915198731257772,
+      "residual_fro": 0.013710693088397341
+    },
+    {
+      "first": 48640,
+      "last": 49151,
+      "raw_fro_squared": 0.00023562310683894515,
+      "residual_fro": 0.013618346242266086
+    },
+    {
+      "first": 49152,
+      "last": 49663,
+      "raw_fro_squared": 0.00023023898165127843,
+      "residual_fro": 0.013457491306117576
+    },
+    {
+      "first": 49664,
+      "last": 50175,
+      "raw_fro_squared": 0.00022524715847327303,
+      "residual_fro": 0.013307977138888837
+    },
+    {
+      "first": 50176,
+      "last": 50687,
+      "raw_fro_squared": 0.00022187231136556914,
+      "residual_fro": 0.013216850039002134
+    },
+    {
+      "first": 50688,
+      "last": 51199,
+      "raw_fro_squared": 0.00021617143006233533,
+      "residual_fro": 0.013036828782700743
+    },
+    {
+      "first": 51200,
+      "last": 51711,
+      "raw_fro_squared": 0.00021235392215294564,
+      "residual_fro": 0.012925607264049408
+    },
+    {
+      "first": 51712,
+      "last": 52223,
+      "raw_fro_squared": 0.00020859469069513565,
+      "residual_fro": 0.012814275019512645
+    },
+    {
+      "first": 52224,
+      "last": 52735,
+      "raw_fro_squared": 0.00020431723707518886,
+      "residual_fro": 0.01268078045268792
+    },
+    {
+      "first": 52736,
+      "last": 53247,
+      "raw_fro_squared": 0.00019907327958047316,
+      "residual_fro": 0.012505869686142309
+    },
+    {
+      "first": 53248,
+      "last": 53759,
+      "raw_fro_squared": 0.0001976236300524155,
+      "residual_fro": 0.012478637694797184
+    },
+    {
+      "first": 53760,
+      "last": 54271,
+      "raw_fro_squared": 0.0001915122328861422,
+      "residual_fro": 0.01226345436949099
+    },
+    {
+      "first": 54272,
+      "last": 54783,
+      "raw_fro_squared": 0.00018942770818318003,
+      "residual_fro": 0.012208339340516005
+    },
+    {
+      "first": 54784,
+      "last": 55295,
+      "raw_fro_squared": 0.00018558654065188975,
+      "residual_fro": 0.012079895785691026
+    },
+    {
+      "first": 55296,
+      "last": 55807,
+      "raw_fro_squared": 0.00018213710193996062,
+      "residual_fro": 0.011966776636248214
+    },
+    {
+      "first": 55808,
+      "last": 56319,
+      "raw_fro_squared": 0.00017878780730087415,
+      "residual_fro": 0.011856282956687565
+    },
+    {
+      "first": 56320,
+      "last": 56831,
+      "raw_fro_squared": 0.0001761672516830922,
+      "residual_fro": 0.011774318598051451
+    },
+    {
+      "first": 56832,
+      "last": 57343,
+      "raw_fro_squared": 0.00017187300051961415,
+      "residual_fro": 0.011620999002292505
+    },
+    {
+      "first": 57344,
+      "last": 57855,
+      "raw_fro_squared": 0.00016924563599462602,
+      "residual_fro": 0.011535868603934117
+    },
+    {
+      "first": 57856,
+      "last": 58367,
+      "raw_fro_squared": 0.00016768060669933389,
+      "residual_fro": 0.011495062836307962
+    },
+    {
+      "first": 58368,
+      "last": 58879,
+      "raw_fro_squared": 0.0001625363122032104,
+      "residual_fro": 0.01129701068523987
+    },
+    {
+      "first": 58880,
+      "last": 59391,
+      "raw_fro_squared": 0.0001606741596409288,
+      "residual_fro": 0.011239888743628287
+    },
+    {
+      "first": 59392,
+      "last": 59903,
+      "raw_fro_squared": 0.00015848442485523804,
+      "residual_fro": 0.011167253226303523
+    },
+    {
+      "first": 59904,
+      "last": 60415,
+      "raw_fro_squared": 0.00015545745634667482,
+      "residual_fro": 0.011056147407287577
+    },
+    {
+      "first": 60416,
+      "last": 60927,
+      "raw_fro_squared": 0.0001522749005882942,
+      "residual_fro": 0.010936209798059293
+    },
+    {
+      "first": 60928,
+      "last": 61439,
+      "raw_fro_squared": 0.00015067211275602646,
+      "residual_fro": 0.01088743457797288
+    },
+    {
+      "first": 61440,
+      "last": 61951,
+      "raw_fro_squared": 0.00014722858470781616,
+      "residual_fro": 0.010753336992543435
+    },
+    {
+      "first": 61952,
+      "last": 62463,
+      "raw_fro_squared": 0.0001459334542502675,
+      "residual_fro": 0.010717495911406832
+    },
+    {
+      "first": 62464,
+      "last": 62975,
+      "raw_fro_squared": 0.0001430771079640359,
+      "residual_fro": 0.010608059150120003
+    },
+    {
+      "first": 62976,
+      "last": 63487,
+      "raw_fro_squared": 0.0001405029793378304,
+      "residual_fro": 0.01050990648647523
+    },
+    {
+      "first": 63488,
+      "last": 63999,
+      "raw_fro_squared": 0.00013864970175632543,
+      "residual_fro": 0.010444560556752728
+    },
+    {
+      "first": 64000,
+      "last": 64511,
+      "raw_fro_squared": 0.00013659017477381377,
+      "residual_fro": 0.010367565164652268
+    },
+    {
+      "first": 64512,
+      "last": 65023,
+      "raw_fro_squared": 0.00013370054600564044,
+      "residual_fro": 0.010249089408389103
+    },
+    {
+      "first": 65024,
+      "last": 65535,
+      "raw_fro_squared": 0.00013191048078728038,
+      "residual_fro": 0.010182536556526409
+    }
+  ],
+  "raw_factor_fro_squared": 7.126320391028111,
+  "residual_center_fro_squared": 6.936129986692583,
+  "normalized_gram_fro_squared": {
+    "boundary_plus": 2.382306133570249,
+    "boundary_minus": 2.3823162569304537,
+    "low_norm": 6.271007636009855,
+    "moment1": 11.49289793851157,
+    "moment2": 9.878314505758263,
+    "band_norm": 9.56808764381115
+  },
+  "factors": {
+    "boundary_plus": {
+      "norm_proposal": 5.0,
+      "residual_fro": 2.531946687051136e-14,
+      "factor_fro_squared": 4834.788773026609,
+      "maximum_entry": 6.009206725922788
+    },
+    "boundary_minus": {
+      "norm_proposal": 5.0,
+      "residual_fro": 2.436962178838096e-14,
+      "factor_fro_squared": 4834.788762903248,
+      "maximum_entry": 6.009206725922788
+    },
+    "low_norm": {
+      "norm_proposal": 0.35,
+      "residual_fro": 2.4490229902766994e-14,
+      "factor_fro_squared": 4830.900071524171,
+      "maximum_entry": 6.009206725922788
+    },
+    "moment1": {
+      "norm_proposal": 0.011,
+      "residual_fro": 2.3965129206032934e-14,
+      "factor_fro_squared": 4825.67818122167,
+      "maximum_entry": 6.009206725922788
+    },
+    "moment2": {
+      "norm_proposal": 0.006,
+      "residual_fro": 2.419177286864175e-14,
+      "factor_fro_squared": 4827.292764654423,
+      "maximum_entry": 6.009206725922788
+    },
+    "band_norm": {
+      "norm_proposal": 0.007,
+      "residual_fro": 2.486683826890397e-14,
+      "factor_fro_squared": 4827.602991516369,
+      "maximum_entry": 6.009206725922788
+    }
+  },
+  "scalars": {
+    "dJ": {
+      "lo": "10.303159880720032913216733593453290995399509982217289228989383841413299742049664",
+      "hi": "10.303159880720032913216733593453290995399509982217289228989383841413299742049667"
+    },
+    "dK": {
+      "lo": "10.9963070613268",
+      "hi": "10.9963070613268"
+    },
+    "diagonal_error_bound": {
+      "lo": "2.0974315849393573504960556843220360080191473860814530763132635018316875431620198E-7",
+      "hi": "2.0974315849393573504960556843220360080191473860814530763132635018316875431620297E-7"
+    },
+    "head_inverse_error": {
+      "lo": "0.0019700510040338488200027249096873026608738936787272184154208153295313466494982050",
+      "hi": "0.0019700510040338488200027249096873026608738936787272184154208153295313466494982052"
+    },
+    "low_complement_inverse_error": {
+      "lo": "0.00057277652772632567250115837676863878117485137307363504990503272872708747305714286",
+      "hi": "0.00057277652772632567250115837676863878117485137307363504990503272872708747305714311"
+    },
+    "band_inverse_error": {
+      "lo": "0.00034403552096284108638657864839448673716306300924574238510248041955950038823519060",
+      "hi": "0.00034403552096284108638657864839448673716306300924574238510248041955950038823519086"
+    },
+    "boundary_norm": {
+      "lo": "9.6650379837017372247392203408095466218489640967771188480574448478086510269639369",
+      "hi": "9.6650379837017372247392203408095466218489640967771188480574448478086510269639399"
+    },
+    "low_norm": {
+      "lo": "0.41491377390569029311649661720298187183611823526683828169038236893193032171593944",
+      "hi": "0.41491377390569029311649661720298187183611823526683828169038236893193032171593947"
+    },
+    "moment1_norm": {
+      "lo": "0.030097039608730950812194576454957178776664947639489034769316009187697129831970060",
+      "hi": "0.030097039608730950812194576454957178776664947639489034769316009187697129831970071"
+    },
+    "moment2_norm": {
+      "lo": "0.024140169971101521353101777097441700594938417748475702284901686742649335285347432",
+      "hi": "0.024140169971101521353101777097441700594938417748475702284901686742649335285347443"
+    },
+    "band_norm": {
+      "lo": "0.017887966044811078294920072134091824875319355262215202669731525450862659247053592",
+      "hi": "0.017887966044811078294920072134091824875319355262215202669731525450862659247053602"
+    },
+    "raw_leading": {
+      "lo": "0.068520517158440934662490563415951377296915181124445443917473150752397043860762392",
+      "hi": "0.068520517158440934662490563415951377296915181124445443917473150752397043860762708"
+    },
+    "raw_prime_remainder": {
+      "lo": "0.073978308411499539322154271584656217019251768361488237231537297128911530604943591",
+      "hi": "0.073978308411499539322154271584656217019251768361488237231537297128911530604943991"
+    },
+    "raw_continuous": {
+      "lo": "0.000062046827431101772208861300972170859229267673526528137927751141262853984896337585",
+      "hi": "0.000062046827431101772208861300972170859229267673526528137927751141262853984896337623"
+    },
+    "raw_band": {
+      "lo": "0.11915077370589223200193596189023138039301795998343682033369160947798030139022537",
+      "hi": "0.11915077370589223200193596189023138039301795998343682033369160947798030139022547"
+    },
+    "low_correction": {
+      "lo": "5.7416005491470705923234356107825596412135447956550541493466112125128566654474528E-8",
+      "hi": "5.7416005491470705923234356107825596412135447956550541493466112125128566654474558E-8"
+    },
+    "inverse_input_tail": {
+      "lo": "0.078922336797158767327653785846576527281720095142213073353855791461330818113363114",
+      "hi": "0.078922336797158767327653785846576527281720095142213073353855791461330818113363374"
+    },
+    "factor_error": {
+      "lo": "4.7825651983011447626127724988774374756773681272655760541213615140388196057193424E-7",
+      "hi": "4.7825651983011447626127724988774374756773681272655760541213615140388196057193428E-7"
+    },
+    "gram_error": {
+      "lo": "1.5551915228578610043457281572678145044085659101897700152794971656880733959506043E-7",
+      "hi": "1.5551915228578610043457281572678145044085659101897700152794971656880733959506045E-7"
+    }
+  },
+  "checks": [
+    {
+      "label": "audited input unchanged neutral-head-covariance-559.npz",
+      "passed": true
+    },
+    {
+      "label": "audited input unchanged neutral-head-covariance-559.json",
+      "passed": true
+    },
+    {
+      "label": "audited input unchanged complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "label": "entry input unchanged residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "label": "entry input unchanged complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "label": "complete inherited check list 559",
+      "passed": true
+    },
+    {
+      "label": "complete inherited check list 561",
+      "passed": true
+    },
+    {
+      "label": "audit561 source unchanged",
+      "passed": true
+    },
+    {
+      "label": "fixed target parameters",
+      "passed": true
+    },
+    {
+      "label": "exact comparison symmetry",
+      "passed": true
+    },
+    {
+      "label": "full head dimensions",
+      "passed": true
+    },
+    {
+      "label": "all inverse diagonal centers above6.14",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 512",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 1024",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 1536",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 2048",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 2560",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 3072",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 3584",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 4096",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 4608",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 5120",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 5632",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 6144",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 6656",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 7168",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 7680",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 8192",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 8704",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 9216",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 9728",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 10240",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 10752",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 11264",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 11776",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 12288",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 12800",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 13312",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 13824",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 14336",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 14848",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 15360",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 15872",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 16384",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 16896",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 17408",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 17920",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 18432",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 18944",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 19456",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 19968",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 20480",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 20992",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 21504",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 22016",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 22528",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 23040",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 23552",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 24064",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 24576",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 25088",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 25600",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 26112",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 26624",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 27136",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 27648",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 28160",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 28672",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 29184",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 29696",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 30208",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 30720",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 31232",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 31744",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 32256",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 32768",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 33280",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 33792",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 34304",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 34816",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 35328",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 35840",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 36352",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 36864",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 37376",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 37888",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 38400",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 38912",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 39424",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 39936",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 40448",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 40960",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 41472",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 41984",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 42496",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 43008",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 43520",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 44032",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 44544",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 45056",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 45568",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 46080",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 46592",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 47104",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 47616",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 48128",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 48640",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 49152",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 49664",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 50176",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 50688",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 51200",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 51712",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 52224",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 52736",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 53248",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 53760",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 54272",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 54784",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 55296",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 55808",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 56320",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 56832",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 57344",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 57856",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 58368",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 58880",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 59392",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 59904",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 60416",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 60928",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 61440",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 61952",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 62464",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 62976",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 63488",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 64000",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 64512",
+      "passed": true
+    },
+    {
+      "label": "complete direct entry magnitude 65024",
+      "passed": true
+    },
+    {
+      "label": "all65024 direct residual rows agree with audited559 digest",
+      "passed": true
+    },
+    {
+      "label": "complete direct row magnitude ledger",
+      "passed": true
+    },
+    {
+      "label": "every normalized Gram row Frobenius below100",
+      "passed": true
+    },
+    {
+      "label": "complete finite inverse and boundary magnitudes",
+      "passed": true
+    },
+    {
+      "label": "complete Gram/factor error below restored margin",
+      "passed": true
+    },
+    {
+      "label": "full factor boundary_plus",
+      "passed": true
+    },
+    {
+      "label": "full factor boundary_minus",
+      "passed": true
+    },
+    {
+      "label": "full factor low_norm",
+      "passed": true
+    },
+    {
+      "label": "full factor moment1",
+      "passed": true
+    },
+    {
+      "label": "full factor moment2",
+      "passed": true
+    },
+    {
+      "label": "full factor band_norm",
+      "passed": true
+    },
+    {
+      "label": "all inverse diagonal errors below1e-6",
+      "passed": true
+    },
+    {
+      "label": "all inherited568 checks; unaudited quantitative input retained",
+      "passed": true
+    },
+    {
+      "label": "568 source unchanged",
+      "passed": true
+    },
+    {
+      "label": "complete inverse-input component below .1",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "component_required_upper": ".1",
+  "full_mixed_required_upper": ".5",
+  "full_quarter_test_decided": false,
+  "artifacts": {
+    "signed-mixed-inverse-input-569.npz": {
+      "path": "scripts/separation-seven/signed-mixed-inverse-input-569.npz",
+      "sha256": "31ec71e62acb623dd07c5b717804ab038e44d52e685821bc2875566c64137645"
+    },
+    "signed-mixed-inverse-centers-569.npy": {
+      "path": "scripts/separation-seven/signed-mixed-inverse-centers-569.npy",
+      "sha256": "f6a5c31de5c2ee707c95dc9503f727b7924e246e52a4f5cad670fa602b890a6e"
+    }
+  },
+  "qualifications": [
+    "Unaudited specialization under inherited analytic/whole-core/c_star/IEEE754/Decimal contracts",
+    "All within-column cross products must still be paid; scalar component norms are not covariance increments",
+    "Finite mixed locator FFT and signed arithmetic remain uncertified; no quarter decision",
+    "Predictor allowance is paid once for the whole map; complementary positivity and RH remain open"
+  ]
+}

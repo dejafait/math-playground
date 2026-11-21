@@ -48,7 +48,8 @@ strictly below the required 1/100. It proves neither the requested
 strictly faster rate nor an obstruction for arbitrary nonnegative
 weights. The constant is absolute and the onset is q=1.
 
-This family-specific result is not yet independently audited. The saved
+The separate conceptual audit in Section 6 verifies this family-specific
+partial result, including the complete arithmetic replay. The saved
 EXPLORE comparison did not identify a matching theorem; originality is
 not certified. No actual unit-residue H estimate, support/realization
 bridge, mixed positivity, or RH candidate follows from (2).
@@ -62,7 +63,10 @@ The invocation-start assessment was
 It permits a direct finite-node construction with the anchor and entire
 remainder paid. The standard named input is Cauchy's residue theorem
 for a meromorphic function on and inside a positively oriented simple
-closed contour with finitely many interior poles and no boundary pole.
+closed contour with finitely many interior poles and no boundary pole:
+[NIST DLMF Section 1.10(iv), equation (1.10.8)](https://dlmf.nist.gov/1.10#E8),
+with its analytic, continuity and positive-orientation hypotheses, as
+inspected in the saved audit assessment on 2 November 2026.
 We specialize it to the following kernel; no positive-discretization or
 constant-exactness theorem is presumed. L673 supplies the exact nodes,
 L666 the exact rational family, L672 the audited series/derivative bounds
@@ -297,12 +301,128 @@ right-edge exponent near -0.006234 is not an optimality theorem, a lower
 bound for the residual, or an obstruction for other weights or estimates.
 The older fixed-gauge and continuum-sign stops remain as qualified.
 
-The next substantive task is independent scrutiny of (1)--(11), especially
-the complete nodal census, residue signs, height shift, continuous mesh
-coverage and finite-product costs. A successful audit would verify this
-partial construction only. Any stronger rate needs a materially new
-estimate or construction; H/support/realization and actual-Xi signs
-remain independent gaps.
+The separate audit below verifies (1)--(11) at the stated partial rate.
+Any stronger rate needs a materially new estimate or construction;
+H/support/realization and actual-Xi signs remain independent gaps.
+
+### 6. Separate conceptual audit — 2 November 2026, step 68
+
+The invocation-start SPECIALIZE assessment was
+`drafts/literature/2026-11-02-discrete-robin-quadrature-audit.md`.
+This is a REPRODUCTION audit of the existing formula and estimate,
+not a stronger rate or a claim of originality. It uses only L666 (6),
+L672's series/derivative/finite-product arguments, L673's exact node
+definition, and the point attenuation verified in L680 Section 3.
+The other claims of those lemmas are not audited here. The fixed-gauge
+crossing and finite-polar stops retain their original restricted scopes.
+
+**Poles, weights and exact contour.** Independently substituting the
+exponential form of D_n gives the modulus contradiction for every
+Re z nonzero. The exceptional points z=+-rho are nonzeros by direct
+substitution. On the imaginary axis, tan(pi*s)+10*s is strictly
+increasing on each (k+1/2,k+1), from minus infinity to a positive
+limit; on (k,k+1/2) it is positive for s>0. Neither endpoint is a
+zero. The defining phase equation selects the unique root already
+in L673's smaller interval. Since Y/h=2q, the rectangle contains
+exactly those 2q positive roots, their negatives, and zero. At each
+nonzero root, the displayed derivative in Section 1 is nonzero and
+the numerator/derivative quotient equals (1). At zero it is
+C_n*rho/(1+rho*lambda)=1. Formula (4) then proves both strict
+weight inequalities. These are residues of the meromorphic kernel,
+not signs inferred from a numerical root computation.
+
+The full W is analytic near the closed rectangle: Re(x+z)<=-59/50
+excludes every parameter pole t_j*u, including zero, and
+|U*u-t_j*x|>=U-d=41/64. Its anchor value is exactly W_x=1.
+The positively oriented rectangle has no boundary pole; the finite
+DLMF residue theorem therefore yields (5) for each circle point.
+There is no infinite contour limit, constant-exactness premise or
+unsigned replacement of a complex residue in this use.
+
+**All edge estimates.** For r=(z-rho)/(z+rho), its modulus is less
+than one on the right and greater than one on the left. Applying
+the reverse triangle inequality to exp(2*lambda*z)+r gives the two
+distinct vertical bounds in Section 2, including the left edge's
+lack of exponential damping. At n=15 the right exponent already
+exceeds 2, and exp(2)>19/3>6 makes both prefactors at most 12*n.
+On the horizontal edges lambda*Y=2q*pi is exact: cosh(lambda*z)
+=cosh(lambda*s) and sinh(lambda*z)=sinh(lambda*s). Thus the
+imaginary part of D_n/cosh(lambda*s) has magnitude Y. The worst
+rho and Y occur at q=1 and give respectively 9/500 and 9/25;
+the numerator ratio squared is at most 150049/129600<(6/5)^2.
+Combining with C_n<5*n verifies (6) on the entire contour.
+
+**Series and complete continuous coverage.** On the height-b rectangle,
+|a|>=59/50>29/25 and |a|^2<=3349/1600<9/4. Hence all four
+series arguments have modulus below 9/10, with the same nonzero
+denominator margins used in L672. Uniform absolute convergence
+justifies the integrated logarithm series. The preserved helper prefix
+was read in full: it performs signed interval multiplication, 32-term
+atanh logarithms with their positive tails, 60-term arctangent
+enclosures for Machin's pi, and 100-term integer fixed-point sums.
+Its read boundary excludes the old mesh and output code. Coordinate
+flooring, summand flooring and all four tails obey L672's error proof;
+negative signs in the four-series combination do not cancel errors.
+
+The parameter second-derivative bound is 1647011/217500<8; the
+angular-chart bound is 35359/435<100. Their proofs depend only on
+the verified compact margins, not on the old contour's shape. The
+right-edge subtraction is constant in y, and the top subtraction is
+linear separately on s<=0 and s>=0. Every top cell lies wholly in
+one such interval, including the two cells adjacent to zero. Each of
+the two circle charts has |u'|<=2, |u''|<=4 and includes its endpoints.
+Tensor-product linear interpolation uses convex weights on the four
+corners and adds the two one-dimensional errors; no mixed-derivative
+bound is needed. Conjugation supplies the omitted negative heights.
+
+Reproduce the independent replay and arithmetic checks with
+
+    python3 scripts/one-sided-hankel/discrete-robin-quadrature-audit.py
+
+The complete evidence is in
+`scripts/one-sided-hankel/discrete-robin-quadrature-audit.json` and
+`scripts/one-sided-hankel/discrete-robin-quadrature-audit-replay.json`.
+The original certificate and generator are preserved. The replay
+matches the entire original certificate, including all 117,462
+sample bounds in 262 rows and all 14 auxiliary checks. The independent
+cell census checks 108,000 right-edge and 7,800 top-edge cells,
+retaining all four corner upper bounds for each cell in the audit
+artifact. All 115,800 cells and all 16 audit checks pass, with no
+failures. The reconstructed maximum and strict margin are exactly (9).
+
+As an additional check of implementation, seven selected points use
+100-term exact rational complex powers without fixed-point flooring.
+They include the maximum (s=y=7/100, epsilon=-1, v=17/300), both
+charts at s=0, and boundary/chart endpoints. At each point all four
+exact sums lie within the proved fixed-point error, and the complete
+series enclosure lies below the stored upward-rounded sample bound.
+The exact rational values are retained in the audit certificate. These
+spot checks supplement the complete replay and analytic error proof;
+they are not substituted for them or for continuous interpolation.
+
+**Finite n and the final norm.** The full left Riemann sum contains
+f(0)=log|x/a|. Its error is at most 17/2 because on each cell the
+integrated distance to its left endpoint is 1/(2*n^2). All four
+t-derivative terms sum to 65769/4100<17. The vertical shift
+b-Y=27/(20*n) has |F_y|<=1826/225<9 throughout the intervening
+strip. Using the looser product error 9 gives total exponent cost
+9+243/20=423/20<22, uniformly down to q=1.
+
+On the left edge, expansion of the squared moduli in Section 4 gives
+(U-|a|^2)*(U-t^2)<=0. Thus each inverse disk factor has modulus at
+most one, including its rationally continued value if its numerator
+vanishes. L680's verified 10/11 and 66/67 factor bounds then give
+(11), independently of any segment-sign assumption. The same estimate
+holds at a=-R; its rate 1/67 exceeds 3/500. The perimeter factor is
+strictly below 219/50<5 using pi>3. Finally the triangle inequality
+adds at most one further exp(22)*n*exp(-3*n/500), and normalized
+angular L2 is at most the uniform norm. This proves both bounds in
+(2), with no loss of an edge, anchor, endpoint or finite-n case.
+
+No load-bearing defect was found. The audit verifies the existing
+partial construction for every q>=1 and no stronger conclusion.
+In particular it neither bounds the best achievable rate from above
+nor converts these auxiliary weights to original unit residues.
 
 ## Mathlib
 
@@ -311,4 +431,5 @@ and its evaluated exponential bound was not checked; no absence claim
 is made. Cauchy's residue theorem, elementary hyperbolic identities,
 uniform power-series bounds and norm comparisons are supporting
 mathematics. Such support alone does not verify the node specialization,
-the exact arithmetic certificate, or the finite-n costs above.
+the exact arithmetic certificate, or the finite-n costs above. Section 6
+is an independent informal audit, not a claim of formal verification.

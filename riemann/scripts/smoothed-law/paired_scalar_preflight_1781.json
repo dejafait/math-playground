@@ -1,0 +1,81 @@
+{
+  "step": "2026-11-19-paired-scalar-preflight-1781",
+  "scope": "Conditional scalar error allocation; explicit midpoint-bound failure only.",
+  "analytic_inputs": "C033j/m/r/s; all external and unaudited-C033s qualifications retained.",
+  "checks": {
+    "coefficient_bound_below_9": true,
+    "exp50_integer_majorant": true,
+    "exp44_integer_majorant": true,
+    "input_error_below_reserve": true,
+    "omitted_below_2^-44": true,
+    "conditional_combined_error_passes": true,
+    "curvature_identity": true,
+    "certificate_fails_at_term_budget": true,
+    "least_accepted_cells_exceeds_10^17": true,
+    "factor32_relaxation_still_exceeds_10^16": true
+  },
+  "error": {
+    "uniform_scalar_tolerance": {
+      "numerator": "1",
+      "denominator": "5192296858534827628530496329220096"
+    },
+    "m_quadrature_allocation": {
+      "numerator": "1",
+      "denominator": "10384593717069655257060992658440192"
+    },
+    "coefficient_sum_upper_bound": {
+      "numerator": "2048",
+      "denominator": "255"
+    },
+    "scalar_propagation_upper_bound": {
+      "numerator": "171",
+      "denominator": "22817013760"
+    },
+    "final_arithmetic_allocation_unimplemented": {
+      "numerator": "1",
+      "denominator": "33554432"
+    },
+    "omitted_part_upper_bound": {
+      "numerator": "151615844681707307447693453471038049802693999482781136041151963657038885031722998564584980070586107972168739801135147193770777490463715120726369081537558763841324067938913151",
+      "denominator": "5389923015756557819152543706484053887552152671609459843054612370234264573760514352762356157076309529337207368923868363271963970213642875822326858136328245084160000000000000000000000000000"
+    },
+    "conditional_combined_upper_bound": {
+      "numerator": "201026654674272547777841591694334761574944404783227934315342203942539068089967192011828801485882014446177918103426916700284203998526508892882257989559097537558763841324067938913151",
+      "denominator": "5389923015756557819152543706484053887552152671609459843054612370234264573760514352762356157076309529337207368923868363271963970213642875822326858136328245084160000000000000000000000000000"
+    },
+    "required_combined_upper_bound": {
+      "numerator": "1",
+      "denominator": "1048576"
+    }
+  },
+  "midpoint_branch": {
+    "second_derivative_upper_bound": {
+      "numerator": "1021",
+      "denominator": "2"
+    },
+    "error_bound_at_budget": {
+      "numerator": "1021",
+      "denominator": "38400000000000000"
+    },
+    "error_bound_over_allocation_at_budget": {
+      "numerator": "5055747120441493042688023330816",
+      "denominator": "18310546875"
+    },
+    "least_accepted_cells": 166165941979008264,
+    "least_accepted_cells_factor32_relaxation": 29374266093901787,
+    "aggregate_term_budget": 10000000,
+    "normalization_counted_once": true,
+    "nested_costs_omitted_only_because_outer_branch_already_fails": true,
+    "actual_error_lower_bound_claimed": false,
+    "universal_algorithmic_lower_bound_claimed": false
+  },
+  "precision": {
+    "declared_bit_ceiling": 512,
+    "numerical_implementation_verified": false
+  },
+  "observable_evaluated": false,
+  "failures": {
+    "midpoint_bound_exceeds_allocated_error_with_10^7_nodes": true,
+    "overall_cost_precision_preflight_passed": false
+  }
+}

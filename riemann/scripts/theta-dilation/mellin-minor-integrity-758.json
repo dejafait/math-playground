@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "program_digest_matches": true,
+    "cell_count": true,
+    "all_cell_bounds_nonnegative_ordered": true,
+    "complete_partition": true,
+    "all_analytic_checks": true,
+    "no_final_failures": true,
+    "claimed_D_coarsening": true,
+    "PROOF_unchanged_from_startup": true
+  },
+  "failures": [],
+  "certificate_sha256": "f9b74f64effaae714a2bebdb33eb677695ea68b7ae2fb195b60e90be88cf4a1f",
+  "scope": "Persisted certificate integrity and claimed bounds; not an independent mathematical audit",
+  "local_arithmetic_contract": {
+    "exp": "Return the value of the (natural) exponential function e**x.\n\nThe function always uses the ROUND_HALF_EVEN mode and the result is\ncorrectly rounded.",
+    "next_minus": "Returns the largest representable number smaller than itself.",
+    "next_plus": "Returns the smallest representable number larger than itself."
+  }
+}

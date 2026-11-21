@@ -1,0 +1,470 @@
+{
+  "scope": "Exact formal algebra for k=1,...,5 and d=0,1 checks; no actual contacts or theta sign certified.",
+  "method": "Sparse multivariate polynomials over Fraction, normalized heat coefficient differentiation, finite reciprocal-series response.",
+  "variables_for_series": [
+    "q_1",
+    "q_2",
+    "q_3",
+    "q_4",
+    "q_5",
+    "q_6"
+  ],
+  "logarithmic_coefficients": {
+    "S_1": [
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      }
+    ],
+    "S_2": [
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    "S_3": [
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-3"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      }
+    ],
+    "S_4": [
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "-4"
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "2"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "4"
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-4"
+      },
+      {
+        "powers": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ],
+    "S_5": [
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "-5"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "5"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "5"
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-5"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-5"
+      },
+      {
+        "powers": [
+          3,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "5"
+      },
+      {
+        "powers": [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-1"
+      }
+    ],
+    "S_6": [
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": "-6"
+      },
+      {
+        "powers": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "3"
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-2"
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-12"
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": "-6"
+      },
+      {
+        "powers": [
+          2,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "9"
+      },
+      {
+        "powers": [
+          3,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "6"
+      },
+      {
+        "powers": [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "-6"
+      },
+      {
+        "powers": [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient": "1"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "coefficient_flow_k1",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_mean_k1",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_dilation_k1",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_time_k1",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "coefficient_flow_k2",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_mean_k2",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_dilation_k2",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_time_k2",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "coefficient_flow_k3",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_mean_k3",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_dilation_k3",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_time_k3",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "coefficient_flow_k4",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_mean_k4",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_dilation_k4",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_time_k4",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "coefficient_flow_k5",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_mean_k5",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_dilation_k5",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "response_time_k5",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "scalar_contact_flux",
+      "passed": true,
+      "exact_residual": []
+    },
+    {
+      "name": "rank_one_contact_flux_scaled_by_a_squared",
+      "passed": true,
+      "exact_residual": []
+    }
+  ],
+  "scalar_bound_comparison": {
+    "premise": "m_4=3m_2^2, m_2>0 (hypothetical actual-theta scalar contact)",
+    "actual_available_cauchy_schwarz_constant": 9,
+    "required_constant_for_nonpositive_flux": 15,
+    "certifies_requested_sign": false,
+    "is_actual_contact_or_counterexample": false
+  },
+  "summary": {
+    "checks": 22,
+    "passed": 22,
+    "failures": [],
+    "actual_theta_sign_proved": false
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "target": "Audit whether 635's failed saved-Y recentering comparison is a mathematical input failure or a verifier overestimate, without modifying or resuming the parked point prescription.",
+  "checks": [
+    {
+      "label": "pin original-galerkin-586.npz",
+      "passed": true
+    },
+    {
+      "label": "pin original-galerkin-586.json",
+      "passed": true
+    },
+    {
+      "label": "pin original-minimum-audit-588.json",
+      "passed": true
+    },
+    {
+      "label": "pin certificate-audit-534.json",
+      "passed": true
+    },
+    {
+      "label": "pin fixed-block-metric-audit-557.json",
+      "passed": true
+    },
+    {
+      "label": "pin fixed-block-metric-555.json",
+      "passed": true
+    },
+    {
+      "label": "pin complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "label": "pin joint-galerkin-family-locator-598.npz",
+      "passed": true
+    },
+    {
+      "label": "pin joint-galerkin-family-certificate-598.json",
+      "passed": true
+    },
+    {
+      "label": "pin joint-galerkin-family-certificate-598.npz",
+      "passed": true
+    },
+    {
+      "label": "pin joint-galerkin-family-ledger-598.json",
+      "passed": true
+    },
+    {
+      "label": "pin complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "label": "pin joint-entrywise-600.py",
+      "passed": true
+    },
+    {
+      "label": "pin joint-entrywise-600.npz",
+      "passed": true
+    },
+    {
+      "label": "pin common-residual-center-repair-635.npz",
+      "passed": true
+    },
+    {
+      "label": "pin common-residual-center-repair-executed-635.py",
+      "passed": true
+    },
+    {
+      "label": "pin common-residual-center-repair-635.py",
+      "passed": true
+    },
+    {
+      "label": "pin joint-entrywise-600.json",
+      "passed": true
+    },
+    {
+      "label": "pin common-residual-center-repair-635.json",
+      "passed": true
+    },
+    {
+      "label": "executed635 identity",
+      "passed": true
+    },
+    {
+      "label": "600 script identity",
+      "passed": true
+    },
+    {
+      "label": "600 archive identity",
+      "passed": true
+    },
+    {
+      "label": "635 sole failure",
+      "passed": true
+    },
+    {
+      "label": "600 recorded arithmetic checks",
+      "passed": true
+    },
+    {
+      "label": "all1050 recorded635 checks inspected",
+      "passed": true
+    },
+    {
+      "label": "complete635 ratio metadata inspected",
+      "passed": true
+    },
+    {
+      "label": "exact four stopped arrays",
+      "passed": true
+    },
+    {
+      "label": "all stopped entries finite/dimensioned K_reenclosure_margin",
+      "passed": true
+    },
+    {
+      "label": "complete recorded summary matches K_reenclosure_margin",
+      "passed": true
+    },
+    {
+      "label": "all stopped entries finite/dimensioned z_reenclosure_margin",
+      "passed": true
+    },
+    {
+      "label": "complete recorded summary matches z_reenclosure_margin",
+      "passed": true
+    },
+    {
+      "label": "all stopped entries finite/dimensioned strict_inclusion_margin",
+      "passed": true
+    },
+    {
+      "label": "complete recorded summary matches strict_inclusion_margin",
+      "passed": true
+    },
+    {
+      "label": "all stopped entries finite/dimensioned Y_recenter_margin",
+      "passed": true
+    },
+    {
+      "label": "complete recorded summary matches Y_recenter_margin",
+      "passed": true
+    },
+    {
+      "label": "all saved entries finite/dimensioned galerkin_proposal",
+      "passed": true
+    },
+    {
+      "label": "all saved entries finite/dimensioned galerkin_z_center",
+      "passed": true
+    },
+    {
+      "label": "all saved entries finite/dimensioned galerkin_solution_center",
+      "passed": true
+    },
+    {
+      "label": "all saved entries finite/dimensioned galerkin_inclusion_image_radius",
+      "passed": true
+    },
+    {
+      "label": "all saved entries finite/dimensioned galerkin_solution_radius",
+      "passed": true
+    },
+    {
+      "label": "all saved radii nonnegative",
+      "passed": true
+    },
+    {
+      "label": "600 all center bits reproduced",
+      "passed": true
+    },
+    {
+      "label": "600 all radius bits reproduced",
+      "passed": true
+    },
+    {
+      "label": "635 every stopped recentering bit reproduced",
+      "passed": true
+    },
+    {
+      "label": "all exact margins/slacks nonnegative at every entry",
+      "passed": true
+    },
+    {
+      "label": "all inputs unchanged",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "result": "SAVED_IMAGE_CONTAINED_VERIFIER_EXCESS",
+  "input_hashes": {
+    "original-galerkin-586.npz": "44f97e4dfd0b51ee97e907abb6f6cd9432d288f65165b255319f7a16a87c407d",
+    "original-galerkin-586.json": "e7b9a340f836ab3f9b2c7d784cba98dd34f57283becd7558c8df9d942e473de2",
+    "original-minimum-audit-588.json": "781186abc5d9d22ad656e3dd16f29c2df12d8c32ab099186072454164a580b27",
+    "certificate-audit-534.json": "99efabcd92296cb5814c7ff7e18f969bfd060665ae5c80ef821c74d04e79c301",
+    "fixed-block-metric-audit-557.json": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+    "fixed-block-metric-555.json": "144b5d3dffbcf8e5f822b876dd12c32793f4dcdf8b92e95f10a41295a7626b71",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "joint-galerkin-family-locator-598.npz": "f9a34f9a2633a461ee4bd833ff98cba9a65cfce2fb21e8dfd91faf1a31ee58f8",
+    "joint-galerkin-family-certificate-598.json": "42a2b96a000ec519cb926a752e32bf364c3e880cfb06436d59a6ecc4cdbfb290",
+    "joint-galerkin-family-certificate-598.npz": "f5035b5e28bf85b7b8329a6675f910a8545208ad931bb983938ee14f30970876",
+    "joint-galerkin-family-ledger-598.json": "d531db86b4b1c98ae9e41a9c973d8d5528336c7e6e6b0649c921b16df587dce2",
+    "complete-schur-531.py": "0ca836a6b0a4c9511e1495420b060496718acc083579a7f306e630fd951a83fc",
+    "joint-entrywise-600.py": "6cff87855ea56d0e4514ab59a63748c9c0886c27a817a20a32fcbcbc1d9febdd",
+    "joint-entrywise-600.npz": "2d0a7c757e02b9833974046d0eaba5f9d476e480cd189fd969887fbe63ba54be",
+    "common-residual-center-repair-635.npz": "bed0d1998a8c9b8cb8bbc4b1b9651d375327719175f15e567f8c6749e62c45f2",
+    "common-residual-center-repair-executed-635.py": "3858becaedaa8c231c9cb5873d7042ba2381b8a8611194188ff1ec0f98ee62b9",
+    "common-residual-center-repair-635.py": "32ddc0f44ce78ae6e2d1f1ba8edbafb2ca8c83b47a225949e7fbd0359ff4fefe",
+    "joint-entrywise-600.json": "547dd6c65ac6556672405e33780b3da8d3959611640f2457432b3e62bfab1e95",
+    "common-residual-center-repair-635.json": "88303369de689b38ae9af506cdc624278d0930e9109a0a39667d71b41a98ae8b"
+  },
+  "stopped_arrays": {
+    "K_reenclosure_margin": {
+      "shape": [
+        1022,
+        1022
+      ],
+      "count": 1044484,
+      "minimum": 4.165681564817047e-19,
+      "maximum": 2.9657089555424475e-11,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "z_reenclosure_margin": {
+      "shape": [
+        1022,
+        2044
+      ],
+      "count": 2088968,
+      "minimum": 1.5969069273542368e-15,
+      "maximum": 3.5509438380161567e-11,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "strict_inclusion_margin": {
+      "shape": [
+        1022,
+        2044
+      ],
+      "count": 2088968,
+      "minimum": 1.623752440332078e-08,
+      "maximum": 5.998782384712049e-06,
+      "negative_count": 0,
+      "zero_count": 0
+    },
+    "Y_recenter_margin": {
+      "shape": [
+        1022,
+        2044
+      ],
+      "count": 2088968,
+      "minimum": -1.4863971327643696e-15,
+      "maximum": 5.2939559203393765e-23,
+      "negative_count": 2088934,
+      "zero_count": 0
+    }
+  },
+  "common_denominator_power": 1126,
+  "entry_count": 2088968,
+  "exact_statistics": {
+    "exact_margin": {
+      "negative_count": 0,
+      "zero_count": 0,
+      "minimum": {
+        "numerator": "541770495279",
+        "denominator": "10384593717069655257060992658440192",
+        "position": [
+          358,
+          415
+        ],
+        "approximate": 5.2170600992166485e-23
+      },
+      "required_minimum": 0
+    },
+    "addition_error_slack": {
+      "negative_count": 0,
+      "zero_count": 0,
+      "minimum": {
+        "numerator": "7237180290236885",
+        "denominator": "87112285931760246646623899502532662132736",
+        "position": [
+          982,
+          148
+        ],
+        "approximate": 8.30787553423424e-26
+      },
+      "required_minimum": 0
+    },
+    "radius_assembly_slack": {
+      "negative_count": 0,
+      "zero_count": 0,
+      "minimum": {
+        "numerator": "3298535501781",
+        "denominator": "83076749736557242056487941267521536",
+        "position": [
+          406,
+          960
+        ],
+        "approximate": 3.970467684690253e-23
+      },
+      "required_minimum": 0
+    },
+    "verifier_shift_excess": {
+      "negative_count": 0,
+      "zero_count": 0,
+      "minimum": {
+        "numerator": "2831833247498417",
+        "denominator": "10889035741470030830827987437816582766592",
+        "position": [
+          982,
+          148
+        ],
+        "approximate": 2.6006281132071265e-25
+      },
+      "required_minimum": 0
+    },
+    "margin_minus635": {
+      "negative_count": 0,
+      "zero_count": 0,
+      "minimum": {
+        "numerator": "8966757698417025",
+        "denominator": "340282366920938463463374607431768211456",
+        "position": [
+          540,
+          1019
+        ],
+        "approximate": 2.6350932549203674e-23
+      },
+      "required_minimum": 0
+    }
+  },
+  "failure_entries": [],
+  "exact_evidence": {
+    "path": "scripts/separation-seven/exact-recentering-audit-637.jsonl.gz",
+    "sha256": "dfec18fb191abd39a810ba201429744d884c7360595c7566b70fb5e062bfec8d"
+  },
+  "qualifications": [
+    "Original solve inclusion, arithmetic and analytic hypotheses retained",
+    "No resumed635, JY/head repair, scalar objective, floor or RH result"
+  ],
+  "script_sha256": "dc82a9833f0111704ffdb6097d79890179a8d549c959cc062e2a43ec2045711c"
+}

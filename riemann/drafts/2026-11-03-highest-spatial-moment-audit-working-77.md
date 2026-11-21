@@ -1,0 +1,11 @@
+# L682 conceptual audit — step 77
+
+Approved target: Critically audit L682's undisplaced highest-moment countersequence, checking the lattice residue identity, complete angular contour certificate, finite-n charges and original-D normalization.
+
+Reuse the invocation-start SPECIALIZE assessment `drafts/literature/2026-11-03-highest-spatial-moment-countersequence-audit.md`; completed work will be REPRODUCTION. Main gap: actual-Xi all-degree mixed positivity. Intermediate purpose: retain or correct the highest-coefficient stop on the proposed sufficient H certificate. Other spatial coefficients, H/support and realization remain independent.
+
+Saved before certificate replay: the full L682 proof and full certificate program have been read. L666's definitions, admissibility and rational continuation were checked; its quadrature and signed-energy claims are not needed here. The residue is -h/(2*pi), giving i/h times the positively oriented integral; the separate anchor yields D>=64/21. These checks do not yet accept the uniform estimate. Existing uncommitted work is preserved.
+
+Remaining audit obligations: exact sample reconstruction and all stored values; logarithm/tail/fixed-point errors; full mesh and successive interpolation; angular and spatial derivative bounds; moving height and finite-product charges; uniform ratio limit for the same e_m=0 sequence. Continue only if every item verifies, or record a correction/withdrawal. A sampled maximum or aggregate PASS is insufficient. No new mechanism will be attempted in this turn.
+
+Completion: every audit item passes. The original certificate replay matches all fields, and an independent directed complex-interval calculation encloses every one of the 12,558 samples below its original saved upper bound. Full proof, imported citations, qualifications and independent-arithmetic justification are canonical in `lemmas/L682-highest-spatial-moment-countersequence.md`, Section 6; complete evidence is `scripts/one-sided-hankel/highest-spatial-contour-audit.json`. The target-specific stop is retained. No full-H or Xi conclusion follows. A different full-polynomial target will be nominated with REVIEW_REQUIRED, without deriving or approving it here.

@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "failures": [],
+  "panels_checked": 256,
+  "python_version": "3.15.2",
+  "source_hashes": {
+    "scripts/heat/low-time-h1-uniform-180.py": "0576c2858a89df30f6ed9471cc2a9745f08bc4080d306a0dc64fbffed1873f83",
+    "scripts/heat/low-time-h1-uniform-180.json": "af5770b94767d0725e243dbfaadbc68a67d484bfb5ac9aed6a09d827bd2c24ea",
+    "scripts/heat/low-time-h1-uniform-180-check.py": "bde2d8bb5f8608488ab4442aa1ccb629299796f60c8130411d10f423243a2d55",
+    "scripts/heat/low-time-h1-uniform-180-check.json": "a60d7dcce976ec1a8316f6c91fe5c4f3457430c4d2f21bcd986a20b349727aeb",
+    "scripts/hankel/certify_hankel.py": "04b1500aaed36ac705b2a30f5b79c64687db44d88d2f802a8857a6f4e42d91a6"
+  },
+  "full_replay_identical": true,
+  "replay_path": "scripts/heat/low-time-h1-uniform-replay-182.json",
+  "rational_checker_report": "scripts/heat/low-time-h1-uniform-180-check.json",
+  "all_rational_report_entries_verified": true,
+  "exact_rational_tail_and_pi_enclosure_checks": true,
+  "rational_exp_method": "1000-term positive series plus geometric remainder, reciprocated",
+  "contexts": [
+    {
+      "precision": 100,
+      "rounding": "ROUND_FLOOR",
+      "mandatory_traps": {
+        "DivisionByZero": true,
+        "InvalidOperation": true,
+        "Overflow": true,
+        "Underflow": true,
+        "Subnormal": true
+      },
+      "forbidden_flags": {
+        "DivisionByZero": false,
+        "InvalidOperation": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false
+      },
+      "other_set_flags": [
+        "Inexact",
+        "Rounded"
+      ]
+    },
+    {
+      "precision": 100,
+      "rounding": "ROUND_CEILING",
+      "mandatory_traps": {
+        "DivisionByZero": true,
+        "InvalidOperation": true,
+        "Overflow": true,
+        "Underflow": true,
+        "Subnormal": true
+      },
+      "forbidden_flags": {
+        "DivisionByZero": false,
+        "InvalidOperation": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false
+      },
+      "other_set_flags": [
+        "Inexact",
+        "Rounded"
+      ]
+    },
+    {
+      "precision": 100,
+      "rounding": "ROUND_HALF_EVEN",
+      "mandatory_traps": {
+        "DivisionByZero": true,
+        "InvalidOperation": true,
+        "Overflow": true,
+        "Underflow": true,
+        "Subnormal": true
+      },
+      "forbidden_flags": {
+        "DivisionByZero": false,
+        "InvalidOperation": false,
+        "Overflow": false,
+        "Underflow": false,
+        "Subnormal": false
+      },
+      "other_set_flags": [
+        "Inexact",
+        "Rounded"
+      ]
+    }
+  ],
+  "summary": {
+    "required_lower_bound": ">0 for both S2 and determinant on every closed panel",
+    "certified_panel_count": 256,
+    "failed_panel_count": 0,
+    "minimum_mass_lower": "0.4971207619018124551802052812941774693682595409553705234902895003613756076289482885539439110072380486",
+    "minimum_S2_lower": "0.0000371431673113708933924355688137052767120945555124824851016186544683250135520297169127708194792680410",
+    "minimum_determinant_lower": "9.7189185051398989110255510050364086356279811034496821990473159093919906026722584041122170304114142E-16",
+    "maximum_determinant_upper": "7.02539037254001365776519529590630090652083462110321410647640341829557936970530100614305231112628913E-15",
+    "determinant_zero_containing_panels": 0,
+    "exceptional_arithmetic": false
+  },
+  "required_bounds": {
+    "M0": ">0.49712",
+    "S2": ">3.714e-5",
+    "D": ">9.7e-16 and <7.026e-15",
+    "tail": "<7.836e-25"
+  },
+  "qualification": "Analytic/code audit in L914; Decimal contracts assumed, library unverified"
+}

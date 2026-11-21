@@ -1,0 +1,99 @@
+{
+  "scope": "Fixed W_512=A0^(1/2)H_512; independent complex endpoints",
+  "source_script_sha256": "7eb48fa43c6287c0b198a9f9e3fa61594c9f266dec12e269632a96d7f78b65e5",
+  "input_hashes": {
+    "scripts/separation-seven/neutral-head-covariance-audit-561.json": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+    "scripts/separation-seven/neutral-head-covariance-559.json": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+    "lemmas/C999l-neutral-head-family-covariance.md": "432562cc8f760bf11f126764b4aabab92bd7c0661921163b70e1e78d2d3ccc7e",
+    "lemmas/C744z-neutral-shared-middle-completion.md": "bff1135192d9a4d880b00acb8059a9f6b931d292af6dd12c36634f38dd46f238"
+  },
+  "imported_bounds": {
+    "basis_norm": "126/125",
+    "basis_conversion": "1/100000000000000",
+    "dyadic_basis_norm_upper": "1009/1000",
+    "Mhat_Zhat_norm": "6190001/1000000",
+    "Mhat_frobenius_upper": "400",
+    "Zhat_frobenius_upper": "23",
+    "free_coordinate_margin": "999/1000000"
+  },
+  "rational_values": {
+    "gamma_1024": "1/8796093022207",
+    "first_product_error_upper": "9200/8796093022207",
+    "second_product_error_upper": "211623/8796093022207",
+    "Ahat_vs_exact_dyadic_assembly_upper": "1104529/43980465111035",
+    "eta_A": "1524721/6250000000",
+    "full_metric_upper": "156148876609/25000000000",
+    "coarse_normalized_lower": "999/7000000"
+  },
+  "checks": [
+    {
+      "name": "enlarged exact dyadic basis norm",
+      "actual": "100800000000001/100000000000000",
+      "relation": "<",
+      "required": "1009/1000",
+      "passed": true
+    },
+    {
+      "name": "inherited gamma upper bound",
+      "actual": "1/8796093022207",
+      "relation": "<",
+      "required": "3/25000000000000",
+      "passed": true
+    },
+    {
+      "name": "first intermediate Frobenius bound",
+      "actual": "80924055804313600/8796093022207",
+      "relation": "<",
+      "required": "9201",
+      "passed": true
+    },
+    {
+      "name": "whole Ahat assembly error",
+      "actual": "1104529/43980465111035",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "full inherited head error value",
+      "actual": "1524721/6250000000",
+      "relation": "==",
+      "required": "1524721/6250000000",
+      "passed": true
+    },
+    {
+      "name": "full energy metric norm",
+      "actual": "156148876609/25000000000",
+      "relation": "<",
+      "required": "7",
+      "passed": true
+    },
+    {
+      "name": "normalized constant fits coefficient margin",
+      "actual": "49/50000",
+      "relation": "<",
+      "required": "999/1000000",
+      "passed": true
+    },
+    {
+      "name": "positive claimed normalized margin",
+      "actual": "7/50000",
+      "relation": ">",
+      "required": "0",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "passed": true,
+    "required_normalized_lower": "0",
+    "proposed_normalized_lower": "7/50000",
+    "metric_upper_required": "7",
+    "metric_upper_actual": "156148876609/25000000000"
+  },
+  "qualifications": [
+    "C999l and audit561 imported, not replayed.",
+    "Inherited analytic, IEEE754/Decimal, neutral-core and unreplayed c_star contracts remain.",
+    "No complement or mixed-block bound, finite inverse square root, or RH claim."
+  ]
+}

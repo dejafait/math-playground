@@ -1,0 +1,63 @@
+{
+  "canonical_result": "C033s",
+  "scope": "Omitted jump measures and convolution orders only; exact compact integrals.",
+  "parameters": {
+    "n": 1,
+    "delta": "1/16",
+    "max_order": 128,
+    "lower_cut_power_of_two": -256,
+    "upper_cut_power_of_two": 256,
+    "width_TV_cap": 2,
+    "Q_norm_upper": 24,
+    "P_mass_upper": 21
+  },
+  "bounds": {
+    "jump_omission": {
+      "numerator": "15",
+      "denominator": "170141183460469231731687303715884105728"
+    },
+    "R_spatial": {
+      "numerator": "1196496646153087647950415",
+      "denominator": "85070591730234615865843651857942052864"
+    },
+    "R_orders": {
+      "numerator": "48510198544130739110368035172779143064317881747195403567076733389534437350714079790663698305086219396730072241312913948672",
+      "denominator": "624863381708075746410947611503456087950113240147044128479001892277887247321016110541338511440459779621781646841539671578234766519628465175628662109375"
+    },
+    "lambda_orders": {
+      "numerator": "126577576682212004780233543199042167553446738961440747805644069471512466928264070877590982833809500652604273950882639543633511921470727",
+      "denominator": "1370106594259282870812380232741093111742650152355285500684306666447019775677158794130017340352876952562743232927572968669505989980646407143424000000000000000000000000000000"
+    }
+  },
+  "combined": {
+    "upper": {
+      "numerator": "151615844681707307447693453471038049802693999482781136041151963657038885031722998564584980070586107972168739801135147193770777490463715120726369081537558763841324067938913151",
+      "denominator": "5389923015756557819152543706484053887552152671609459843054612370234264573760514352762356157076309529337207368923868363271963970213642875822326858136328245084160000000000000000000000000000"
+    },
+    "required": {
+      "numerator": "1",
+      "denominator": "1048576"
+    },
+    "stronger_threshold": {
+      "numerator": "1",
+      "denominator": "17592186044416"
+    }
+  },
+  "verification": {
+    "checks": {
+      "heat_constant_below_3": true,
+      "q_series_ratio_below_1": true,
+      "lambda_series_ratio_below_1": true,
+      "maximum_retained_order_at_most_128": true,
+      "cutoffs_in_declared_range": true,
+      "combined_below_2^-44": true,
+      "combined_below_required_2^-20": true
+    },
+    "failures": []
+  },
+  "qualifications": [
+    "Analytic inequalities are proved in C033s, not checked by this script.",
+    "Both fixed-v1 inputs and finite-zero data remain qualified.",
+    "No compact quadrature, runtime, positive separation or RH claim."
+  ]
+}

@@ -74,7 +74,10 @@ This is a specialization of a known quadrature theorem and a reduction
 of the approved test, not a new coercivity bound or progress beyond that
 source theorem. The finite diagnostic below proves neither (5) nor its
 failure. General support, Xi realization and all-degree signs remain
-open. The specialization has not received a separate critical audit.
+open. A separate conceptual audit on 3 November 2026, step 218, checks
+(1)--(4) and the conditional localization implication for the fixed
+L703/L708 profile. It does not establish the uniform-family inequality
+(5) or audit the subsequent signed-flow attempt in Section 6.
 
 The subsequent analytic test in Section 6 keeps (5) unresolved. It
 proves only that along any allowed straight displacement path the

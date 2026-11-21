@@ -1,0 +1,131 @@
+{
+  "step": "2026-11-19-paired-scalar-critical-audit-1789",
+  "scope": "Exact arithmetic audit only; analytic proof and source qualifications remain canonical in C033t.",
+  "source_certificate": "scripts/smoothed-law/paired_scalar_preflight_1781.json",
+  "checks": {
+    "complete_saved_error_key_set": true,
+    "saved_error_uniform_scalar_tolerance": true,
+    "saved_error_m_quadrature_allocation": true,
+    "saved_error_coefficient_sum_upper_bound": true,
+    "saved_error_scalar_propagation_upper_bound": true,
+    "saved_error_final_arithmetic_allocation_unimplemented": true,
+    "saved_error_omitted_part_upper_bound": true,
+    "saved_error_conditional_combined_upper_bound": true,
+    "saved_error_required_combined_upper_bound": true,
+    "complete_saved_midpoint_key_set": true,
+    "saved_midpoint_second_derivative_upper_bound": true,
+    "saved_midpoint_error_bound_at_budget": true,
+    "saved_midpoint_error_bound_over_allocation_at_budget": true,
+    "saved_midpoint_least_accepted_cells": true,
+    "saved_midpoint_least_accepted_cells_factor32_relaxation": true,
+    "saved_midpoint_aggregate_term_budget": true,
+    "saved_midpoint_normalization_counted_once": true,
+    "saved_midpoint_nested_costs_omitted_only_because_outer_branch_already_fails": true,
+    "saved_midpoint_actual_error_lower_bound_claimed": true,
+    "saved_midpoint_universal_algorithmic_lower_bound_claimed": true,
+    "complete_saved_check_key_set": true,
+    "recomputed_coefficient_bound_below_9": true,
+    "saved_assertion_coefficient_bound_below_9": true,
+    "recomputed_exp50_integer_majorant": true,
+    "saved_assertion_exp50_integer_majorant": true,
+    "recomputed_exp44_integer_majorant": true,
+    "saved_assertion_exp44_integer_majorant": true,
+    "recomputed_input_error_below_reserve": true,
+    "saved_assertion_input_error_below_reserve": true,
+    "recomputed_omitted_below_2^-44": true,
+    "saved_assertion_omitted_below_2^-44": true,
+    "recomputed_conditional_combined_error_passes": true,
+    "saved_assertion_conditional_combined_error_passes": true,
+    "recomputed_curvature_identity": true,
+    "saved_assertion_curvature_identity": true,
+    "recomputed_certificate_fails_at_term_budget": true,
+    "saved_assertion_certificate_fails_at_term_budget": true,
+    "recomputed_least_accepted_cells_exceeds_10^17": true,
+    "saved_assertion_least_accepted_cells_exceeds_10^17": true,
+    "recomputed_factor32_relaxation_still_exceeds_10^16": true,
+    "saved_assertion_factor32_relaxation_still_exceeds_10^16": true,
+    "loose_coefficient_scalar_bound": true,
+    "statement_total_below_2^-23": true,
+    "statement_total_below_required": true,
+    "midpoint_coefficient": true,
+    "previous_integer_fails": true,
+    "accepted_integer_passes": true,
+    "10^17_integer_fails": true,
+    "budget_integer_fails": true,
+    "relaxed_previous_fails": true,
+    "relaxed_accepted_passes": true,
+    "saved_precision_scope": true,
+    "saved_no_evaluation": true,
+    "saved_failure_scope": true
+  },
+  "audit_failures": [],
+  "reconstructed_error": {
+    "uniform_scalar_tolerance": {
+      "numerator": "1",
+      "denominator": "5192296858534827628530496329220096"
+    },
+    "m_quadrature_allocation": {
+      "numerator": "1",
+      "denominator": "10384593717069655257060992658440192"
+    },
+    "coefficient_sum_upper_bound": {
+      "numerator": "2048",
+      "denominator": "255"
+    },
+    "scalar_propagation_upper_bound": {
+      "numerator": "171",
+      "denominator": "22817013760"
+    },
+    "final_arithmetic_allocation_unimplemented": {
+      "numerator": "1",
+      "denominator": "33554432"
+    },
+    "omitted_part_upper_bound": {
+      "numerator": "151615844681707307447693453471038049802693999482781136041151963657038885031722998564584980070586107972168739801135147193770777490463715120726369081537558763841324067938913151",
+      "denominator": "5389923015756557819152543706484053887552152671609459843054612370234264573760514352762356157076309529337207368923868363271963970213642875822326858136328245084160000000000000000000000000000"
+    },
+    "conditional_combined_upper_bound": {
+      "numerator": "201026654674272547777841591694334761574944404783227934315342203942539068089967192011828801485882014446177918103426916700284203998526508892882257989559097537558763841324067938913151",
+      "denominator": "5389923015756557819152543706484053887552152671609459843054612370234264573760514352762356157076309529337207368923868363271963970213642875822326858136328245084160000000000000000000000000000"
+    },
+    "required_combined_upper_bound": {
+      "numerator": "1",
+      "denominator": "1048576"
+    }
+  },
+  "statement_total": {
+    "numerator": "321264598336716477072673412254203829592898990521673623893380907656290988448370035239813044238595398024057591993856695575319149011363465861679053367894841537558763841324067938913151",
+    "denominator": "5389923015756557819152543706484053887552152671609459843054612370234264573760514352762356157076309529337207368923868363271963970213642875822326858136328245084160000000000000000000000000000"
+  },
+  "midpoint": {
+    "second_derivative_upper_bound": {
+      "numerator": "1021",
+      "denominator": "2"
+    },
+    "error_bound_at_budget": {
+      "numerator": "1021",
+      "denominator": "38400000000000000"
+    },
+    "error_bound_over_allocation_at_budget": {
+      "numerator": "5055747120441493042688023330816",
+      "denominator": "18310546875"
+    },
+    "least_accepted_cells": 166165941979008264,
+    "least_accepted_cells_factor32_relaxation": 29374266093901787,
+    "aggregate_term_budget": 10000000,
+    "normalization_counted_once": true,
+    "nested_costs_omitted_only_because_outer_branch_already_fails": true,
+    "actual_error_lower_bound_claimed": false,
+    "universal_algorithmic_lower_bound_claimed": false
+  },
+  "integer_bracket": {
+    "least_accepted_cells": 166165941979008264,
+    "previous_integer_deficit": 67456785815713003136,
+    "accepted_integer_surplus": 60158657624165343232,
+    "deficit_at_10^17": 6762670185128118017459273504267436032,
+    "budget_deficit": 10602670185128118017420873504267436032
+  },
+  "claimed_numeric_failure": "The specified sufficient midpoint allowance fails the declared term budget.",
+  "observable_evaluated": false,
+  "precision_verified": false
+}

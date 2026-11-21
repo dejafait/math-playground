@@ -1,0 +1,3032 @@
+{
+  "status": "PASS_PENDING_INDEPENDENT_AUDIT",
+  "certificate_sha256": "70992d423782bf07e1171bc14600825a761b39a5f7554aeab258bdadedb10b45",
+  "program_sha256": "e7f685d6d0477c5d7b4f69d21ba0aa4818b2e3d3f0594e10b002a79de01cfaae",
+  "checks": [
+    {
+      "name": "generator hash matches",
+      "pass": true
+    },
+    {
+      "name": "input hash scripts/actual-fredholm/fixed-pair-certificate-431.json",
+      "pass": true
+    },
+    {
+      "name": "input hash scripts/actual-fredholm/fixed_pair_431.py",
+      "pass": true
+    },
+    {
+      "name": "all coefficient intervals match audited input",
+      "pass": true
+    },
+    {
+      "name": "uniform error matches audited input",
+      "pass": true
+    },
+    {
+      "name": "global polynomial bound rounded outward",
+      "pass": true
+    },
+    {
+      "name": "all saved arcs satisfy exact consistency and coarse bounds",
+      "pass": true,
+      "inspected_arcs": 261,
+      "required": "sector margin > 14/10^9, exact outward inequalities"
+    },
+    {
+      "name": "exact full coverage quadrant 0",
+      "pass": true
+    },
+    {
+      "name": "exact full coverage quadrant 1",
+      "pass": true
+    },
+    {
+      "name": "exact full coverage quadrant 2",
+      "pass": true
+    },
+    {
+      "name": "exact full coverage quadrant 3",
+      "pass": true
+    },
+    {
+      "name": "refinements retained",
+      "pass": true
+    },
+    {
+      "name": "original claim has no failures",
+      "pass": true
+    },
+    {
+      "name": "extension antipodal point has negative density",
+      "pass": true,
+      "actual": [
+        "-4.54557726828626685158130878893815366270185188004518114298997649999244061444E-8",
+        "-4.54557726828626685158130875162126452554473114034841066941512419570654096464E-8"
+      ],
+      "required": "q(0,pi)/C < 0"
+    },
+    {
+      "name": "coarse extension negative interval",
+      "pass": true,
+      "actual": [
+        "-4.54557726828626685158130878893815366270185188004518114298997649999244061444E-8",
+        "-4.54557726828626685158130875162126452554473114034841066941512419570654096464E-8"
+      ],
+      "required": "-4.546e-8 < q(0,pi)/C < -4.545e-8"
+    },
+    {
+      "name": "both real G values are positive",
+      "pass": true,
+      "G_positive": [
+        "0.684892799764297544781049745217090006527976967460487781621747419248440460425",
+        "0.684892799764297544781049745244201513834198587500865212672091445267315626613"
+      ],
+      "G_negative": [
+        "0.00331845893974254415498490644292030899361939871385575853190243801468840997723",
+        "0.00331845893974254415498490647003181629984101875423318958224646403356357614797"
+      ],
+      "required": "both > 0"
+    },
+    {
+      "name": "stronger right-half-plane condition actually fails",
+      "pass": true,
+      "z": [
+        [
+          "-682.352941176470588235294117647058823529411764705882352941176470588235294118",
+          "-682.352941176470588235294117647058823529411764705882352941176470588235294117"
+        ],
+        [
+          "529.411764705882352941176470588235294117647058823529411764705882352941176469",
+          "529.411764705882352941176470588235294117647058823529411764705882352941176471"
+        ]
+      ],
+      "actual_real_f": [
+        "-7.20578235756436519365817625398496557924412570167804004455934780669359812719E-8",
+        "-7.20578235756436519365758655488728823306937016609094069387911569571087994421E-8"
+      ],
+      "required": "<0"
+    }
+  ],
+  "arc_checks": [
+    {
+      "arc": 0,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 1,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 2,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 3,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 4,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 5,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 6,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 7,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 8,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 9,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 10,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 11,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 12,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 13,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 14,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 15,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 16,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 17,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 18,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 19,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 20,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 21,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 22,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 23,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 24,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 25,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 26,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 27,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 28,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 29,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 30,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 31,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 32,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 33,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 34,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 35,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 36,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 37,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 38,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 39,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 40,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 41,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 42,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 43,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 44,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 45,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 46,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 47,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 48,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 49,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 50,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 51,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 52,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 53,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 54,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 55,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 56,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 57,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 58,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 59,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 60,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 61,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 62,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 63,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 64,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 65,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 66,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 67,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 68,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 69,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 70,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 71,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 72,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 73,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 74,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 75,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 76,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 77,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 78,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 79,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 80,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 81,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 82,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 83,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 84,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 85,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 86,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 87,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 88,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 89,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 90,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 91,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 92,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 93,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 94,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 95,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 96,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 97,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 98,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 99,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 100,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 101,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 102,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 103,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 104,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 105,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 106,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 107,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 108,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 109,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 110,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 111,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 112,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 113,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 114,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 115,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 116,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 117,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 118,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 119,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 120,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 121,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 122,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 123,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 124,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 125,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 126,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 127,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 128,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 129,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 130,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 131,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 132,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 133,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 134,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 135,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 136,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 137,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 138,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 139,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 140,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 141,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 142,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 143,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 144,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 145,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 146,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 147,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 148,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 149,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 150,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 151,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 152,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 153,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 154,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 155,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 156,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 157,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 158,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 159,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 160,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 161,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 162,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 163,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 164,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 165,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 166,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 167,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 168,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 169,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 170,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 171,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 172,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 173,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 174,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 175,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 176,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 177,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 178,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 179,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 180,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 181,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 182,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 183,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 184,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 185,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 186,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 187,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 188,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 189,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 190,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 191,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 192,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 193,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 194,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 195,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 196,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 197,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 198,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 199,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 200,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 201,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 202,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 203,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 204,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 205,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 206,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 207,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 208,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 209,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 210,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 211,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 212,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 213,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 214,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 215,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 216,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 217,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 218,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 219,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 220,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 221,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 222,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 223,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 224,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 225,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 226,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 227,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 228,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 229,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 230,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 231,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 232,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 233,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 234,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 235,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 236,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 237,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 238,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 239,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 240,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 241,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 242,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 243,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 244,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 245,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 246,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 247,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 248,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 249,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 250,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 251,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 252,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 253,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 254,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 255,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 256,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 257,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 258,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 259,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    },
+    {
+      "arc": 260,
+      "sector_margin_rounded_outward": true,
+      "coarse_sector_threshold": true,
+      "Cauchy_ratio": true,
+      "complete_Taylor_tail": true,
+      "complete_G_error": true,
+      "finite_ordered_f_intervals": true,
+      "division_rectangle_excludes_zero": true,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "extension_point": {
+    "radius": [
+      "447.213595499957939281834733746255247088123671922305144854179449082104185127",
+      "447.213595499957939281834733746255247088123671922305144854179449082104185129"
+    ],
+    "G_positive": [
+      "0.684892799764297544781049745217090006527976967460487781621747419248440460425",
+      "0.684892799764297544781049745244201513834198587500865212672091445267315626613"
+    ],
+    "G_negative": [
+      "0.00331845893974254415498490644292030899361939871385575853190243801468840997723",
+      "0.00331845893974254415498490647003181629984101875423318958224646403356357614797"
+    ],
+    "q_over_C": [
+      "-4.54557726828626685158130878893815366270185188004518114298997649999244061444E-8",
+      "-4.54557726828626685158130875162126452554473114034841066941512419570654096464E-8"
+    ]
+  },
+  "stronger_condition_counterexample": {
+    "quadrant": 1,
+    "t": "1/4",
+    "z_box": [
+      [
+        "-682.352941176470588235294117647058823529411764705882352941176470588235294118",
+        "-682.352941176470588235294117647058823529411764705882352941176470588235294117"
+      ],
+      [
+        "529.411764705882352941176470588235294117647058823529411764705882352941176469",
+        "529.411764705882352941176470588235294117647058823529411764705882352941176471"
+      ]
+    ],
+    "f_box": [
+      [
+        "-7.20578235756436519365817625398496557924412570167804004455934780669359812719E-8",
+        "-7.20578235756436519365758655488728823306937016609094069387911569571087994421E-8"
+      ],
+      [
+        "0.00000218057406202759404755557763878536744575998551187195911090008038459414377281",
+        "0.00000218057406202759404755558353552916077779887161129590537339413739116490974533"
+      ]
+    ]
+  },
+  "limitations": [
+    "No independent regeneration of the 261 Taylor-jet enclosures.",
+    "New point evaluations reuse the audited L778 interval backend.",
+    "New mathematical application still awaits a separate conceptual audit."
+  ]
+}

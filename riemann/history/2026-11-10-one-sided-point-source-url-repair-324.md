@@ -1,0 +1,5 @@
+# Source URL repair and separate approval — 10 November 2026, step324
+
+Completed one literature-only recovery step for the unchanged point-continuation target. Added accessible primary PDF URLs to SOURCE_EVIDENCE in [assessment323](../drafts/literature/2026-11-10-one-sided-point-paid-continuation-test-323.md) and checked the cited theorem premises. Reused review322 for proof cases, duplicate comparison and recorded failures. EXPLORE coverage is approved for one bounded mathematical test. This repairs traceability; it establishes no mathematical estimate and is honestly STALLED as mathematical progress. PROOF.md, DAG.md, lemmas and scripts were unchanged; pre-existing unfinished work was preserved.
+
+The next step is the same paid upper-half-plane point test, with original-TV global costs and both rate quantifiers. Stop a certificate retaining a positive exponential amplification rate; that alone is not an impossibility result on slope measures. No exploration budget was spent or reset by this literature repair.

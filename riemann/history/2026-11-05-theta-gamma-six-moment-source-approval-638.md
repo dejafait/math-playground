@@ -1,0 +1,5 @@
+# 2026-11-05 — six-moment source approval and URL repair (638)
+
+Supervisor recovery identified missing direct URLs in the nominated assessment. Added accessible primary PDF URLs to SOURCE_EVIDENCE in [the unchanged six-moment assessment](../drafts/literature/2026-11-05-theta-gamma-six-moment-test.md), reopened the primary theorem statements, and reused step637’s exact scope/proof-case comparison. No new theorem, data, script or lemma; outcome STALLED honestly records a valid process repair rather than mathematical progress.
+
+The gate-approved target remains the single six-moment representability test, with all singular compatibility and actual coefficient-error contracts retained. Next perform that calculation; a negative certificate rejects only the representation premise, while a complete pass supplies finite feasibility only. Creative discovery is not manufactured to satisfy routing balance: the independent lower-oscillation interface remains missing. Existing unfinished work and all prior stops are preserved.

@@ -1,0 +1,48 @@
+{
+  "scope": "Current-step complete exact-rational output/sum check; independent conceptual audit remains pending.",
+  "certificate_sha256": "de4f8a9341c721f7e33c1bfe28dc520073df519318d35e7e4a6bec473c05764f",
+  "check_script_sha256": "c79ff8bc54db5d372a14dbb284ee3eef3dd3c6dcc179a102c33c5d32d1a32f8a",
+  "checked_nodes": 57345,
+  "checked_panels": 57344,
+  "checked_integrand_intervals": 229380,
+  "checked_cumulative_blocks": 28,
+  "checks": {
+    "expected_mesh": true,
+    "complete_node_count": true,
+    "no_original_verification_failure": true,
+    "all_original_claims": true,
+    "decision_positive": true,
+    "all_mesh_nodes_exact": true,
+    "all_node_intervals_ordered": true,
+    "all_node_values_positive": true,
+    "all_28_cumulative_blocks_valid": false,
+    "matrix_symmetric": true,
+    "response_strict_positive": true,
+    "cross_strict_negative": true,
+    "exact_minimum_lower_gt_00083852": true,
+    "exact_minimum_upper_lt_00092782": true,
+    "minimum_dump_lower_gt_00083852": true,
+    "minimum_dump_upper_lt_00092782": true,
+    "small_domain_w": true,
+    "small_domain_middle": true,
+    "EE_display_bound": true,
+    "EM_display_bound": true,
+    "MM_display_bound": true,
+    "threshold_display_bound": true,
+    "amplitude_display_bound": true
+  },
+  "failures": [
+    "all_28_cumulative_blocks_valid"
+  ],
+  "independent_exact_rational_minimum_bounds": {
+    "lower_numerator": "3573344576523576832644499255288304479181495077851035012735306833890428432738937100751372516803777134242643249483021610018245928162634357349909612637353458926859969657475437246305519788726117606616994038123279",
+    "lower_denominator": "4261449692941095920606750584277085161903189629830313815643527096297085497893358451027294204946021535110200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "upper_numerator": "158168957810865547085436202771095893418113644375989478771589609404593557955004591282817651655405616137800399051610190077859440355633155397294658274859081063768884655631633026921658092799068081970815900072719",
+    "upper_denominator": "170474885308612627895299539347620989820157580241870856540524690740714246327501059603065625430502325643321200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "display_minimum": [
+    "0.00083852",
+    "0.00092782"
+  ],
+  "required_allocation_margin": ">=0"
+}

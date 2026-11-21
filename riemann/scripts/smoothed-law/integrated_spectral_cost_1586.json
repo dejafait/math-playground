@@ -1,0 +1,189 @@
+{
+  "assessment": "drafts/literature/2026-11-18-bounded-variation-continuum-dual-test-1570.md",
+  "canonical_proof": "lemmas/C032z-direct-integrated-spectral-explicit-formula.md#literal-series-cost-preflight1586",
+  "scope": "Literal uniform errors C032z(8)-(9), R>=1, K>=1; no sharper digamma or integrated-remainder method",
+  "retained_assumptions": [
+    "C032m/q/w/z actual complex divisor and multiplicity",
+    "zero-ordinate exclusion, strip/counting qualifications",
+    "finite-zero, heat, fixed-v1 probability qualifications for the cone interpretation"
+  ],
+  "exact_evidence": {
+    "C_Taylor_lower_degree": 24,
+    "C_Taylor_lower": "3290038293613723794190024948623640724060210555066236205237603/106497596271155498924797840283600582127814121556541440000",
+    "C_simplified_strict_lower": "30000",
+    "pi_strict_upper": "4",
+    "e_strict_upper": "3",
+    "e_ninth_strict_upper": "19683",
+    "R_necessary_strict_lower": "45000/epsilon",
+    "joint_allowance_squared_strict_lower": "1181250000/K when R>45000",
+    "cost_bounds": [
+      {
+        "requested_E_allowance_strict_upper": "1",
+        "necessary_R_strict_lower": "45000",
+        "necessary_K_strict_lower": "1181250000",
+        "minimum_integer_K": 1181250001,
+        "meaning": "Necessary for the literal sum T_G+T_psi, not for actual errors"
+      },
+      {
+        "requested_E_allowance_strict_upper": "1/2",
+        "necessary_R_strict_lower": "90000",
+        "necessary_K_strict_lower": "4725000000",
+        "minimum_integer_K": 4725000001,
+        "meaning": "Necessary for the literal sum T_G+T_psi, not for actual errors"
+      },
+      {
+        "requested_E_allowance_strict_upper": "1/8",
+        "necessary_R_strict_lower": "360000",
+        "necessary_K_strict_lower": "75600000000",
+        "minimum_integer_K": 75600000001,
+        "meaning": "Necessary for the literal sum T_G+T_psi, not for actual errors"
+      },
+      {
+        "requested_E_allowance_strict_upper": "1/16",
+        "necessary_R_strict_lower": "720000",
+        "necessary_K_strict_lower": "302400000000",
+        "minimum_integer_K": 302400000001,
+        "meaning": "Necessary for the literal sum T_G+T_psi, not for actual errors"
+      }
+    ]
+  },
+  "finite_work_decision": {
+    "literal_digamma_series_term_cap": 10000000,
+    "E_allowance_cannot_be_below": "1",
+    "proof_cases": [
+      "R<=45000: T_G>45000/R>=1",
+      "R>45000: (T_G+T_psi)^2>1181250000/K>=118.125"
+    ],
+    "caching_qualification": "psi values can be reused across widths/w; no repeated 129*K lower bound is claimed",
+    "alternative_methods": "asymptotic/recurrence digamma or tighter integrated errors are not ruled out"
+  },
+  "candidate": {
+    "description": "q=0; retained trivial candidate only",
+    "coefficients": {
+      "Re_kappa_real_1/4": "0",
+      "Im_kappa_real_1/4": "0",
+      "Re_kappa_real_1/2": "0",
+      "Im_kappa_real_1/2": "0",
+      "Re_kappa_real_1": "0",
+      "Im_kappa_real_1": "0",
+      "Re_kappa_real_2": "0",
+      "Im_kappa_real_2": "0",
+      "Re_kappa_imaginary_1/4": "0",
+      "Im_kappa_imaginary_1/4": "0",
+      "Re_kappa_imaginary_1/2": "0",
+      "Im_kappa_imaginary_1/2": "0",
+      "Re_kappa_imaginary_1": "0",
+      "Im_kappa_imaginary_1": "0",
+      "Re_kappa_imaginary_2": "0",
+      "Im_kappa_imaginary_2": "0",
+      "L_1/16": "0",
+      "L_1/4": "0",
+      "L_1": "0",
+      "L_4": "0"
+    },
+    "exact_uniform_residual": "1",
+    "nonnegative_L_coefficients": true
+  },
+  "validation": {
+    "closed_width_cells": [
+      {
+        "left": "1",
+        "right": "2",
+        "endpoints_included": true,
+        "exact_residual": "1",
+        "kernel_error_contribution": "0"
+      }
+    ],
+    "maximum_allowed_width_cells": 4096,
+    "rounding_allowance": "0; exact rational comparisons, no evaluated kernels",
+    "coefficient_amplification": "0 for q=0; absent for nonzero candidates, not waived"
+  },
+  "execution": {
+    "initial_solves": 0,
+    "refinement_solves": 0,
+    "kernel_samples": 0,
+    "prime_powers_enumerated": 0,
+    "gamma_quadrature_nodes": 0,
+    "finite_zero_coordinates_used": 0,
+    "huge_series_allocated": false
+  },
+  "results": {
+    "required_strict_uniform_residual": "1/2",
+    "actual_certified_residual": "1",
+    "certificate_succeeded": false,
+    "actual_dictionary_lower_bound": false,
+    "outcome": "NEGATIVE: new cost barrier for this literal direct-E scheme",
+    "decision": "Park literal C032z(8)-(9) series evaluation; dictionary result inconclusive",
+    "dominant_unpaid_cost": "More than 1181250000 digamma summands for even a common E allowance below1",
+    "residual_qualification": "E allowance<1 is a preflight benchmark; no necessary coefficient size or actual-error lower bound is asserted"
+  },
+  "failures": [
+    {
+      "name": "nontrivial_uniform_residual",
+      "actual": "1",
+      "required": "<1/2"
+    },
+    {
+      "name": "literal_unit_E_allowance_with_term_cap",
+      "actual": "unattainable with K<=10000000",
+      "required": "T_G+T_psi<1"
+    },
+    {
+      "name": "remaining_finite_evaluator",
+      "actual": "not implemented",
+      "required": "pole/h quadrature, O enclosure, rounding and nonzero-coefficient amplification"
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "name": "C_positive_Taylor_lower",
+      "actual": "3290038293613723794190024948623640724060210555066236205237603/106497596271155498924797840283600582127814121556541440000",
+      "required": "30000",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "e_power_nine_upper",
+      "actual": "19683",
+      "required": "45000",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "error_allowance_exceeds_ten_at_term_cap_when_R_gt_45000",
+      "actual": "945/8",
+      "required": "100",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "series_term_cap_fails_epsilon_1",
+      "actual": "1181250000",
+      "required": "10000000",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "series_term_cap_fails_epsilon_1/2",
+      "actual": "4725000000",
+      "required": "10000000",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "series_term_cap_fails_epsilon_1/8",
+      "actual": "75600000000",
+      "required": "10000000",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "series_term_cap_fails_epsilon_1/16",
+      "actual": "302400000000",
+      "required": "10000000",
+      "relation": ">",
+      "passed": true
+    }
+  ],
+  "arithmetic_failures": []
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "unmodified_replay_identical": true,
+    "instrumentation_result_identical": true,
+    "constants_replay_identical": true,
+    "all_fourteen_constants_pass": true,
+    "all_prime_powers_exactly_once": true,
+    "all_local_prime_powers_exactly_once": true,
+    "all_delay_calls_accounted": true,
+    "all_five_moments_simpson_checked": true,
+    "strict_negative_defect": true,
+    "global_and_local_energies_positive": true
+  },
+  "prime_power_count": 892,
+  "local_prime_power_count": 151,
+  "Delta": [
+    -0.04018430362622672,
+    -0.03606073089581196
+  ],
+  "required_upper": 0,
+  "failures": [],
+  "scope": "Fixed L750 witness only; analytic proof audited separately in L750."
+}

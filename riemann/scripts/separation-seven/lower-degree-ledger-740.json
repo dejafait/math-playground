@@ -1,0 +1,64 @@
+{
+  "script_sha256": "f3abbe5b518faae93a7ec4715cb453b9a435c9a81b95d357d3eae27605fe4ead",
+  "input_hashes": {
+    "lower-degree-fixed-740.json": "bc02704a2a01905e3ce74c5087e639ee272d7545d360ae06906948877669e1ba",
+    "lower-degree-replay-740.json": "3ba9790efa504073fac714b141bebb918738209356366fd1b38a5e8f1a9ffeaa",
+    "support-grid-nnls-731-k8.json": "88cf2593b6ceaef8ffbd718e4bd7632fba108b25971b1e4ff574dca1df461cdf",
+    "support-grid-nnls-731-k9.json": "bc3ea00f7c7ba4d93f1ea162e8c021690030b9682545f3cd370bd167de7b28b9",
+    "support-grid-nnls-731-k10.json": "78fd4a21f5fe88a14a0a3cf08173ecc7cceef614da1026bf0b2a24c1e4e80fe3"
+  },
+  "work": {
+    "new_constructor_disjoint_lower": 24472346,
+    "new_independent_replay_disjoint_lower": 19340477,
+    "old_three_rules_production_disjoint_lower": 7733295,
+    "mandatory_disjoint_lower_subtotal": 51546118,
+    "required_upper_cap": 100000000,
+    "complete_upper_bound": null,
+    "decision": "UNRESOLVED: a lower subtotal below cap is neither a pass nor a stop",
+    "unpriced": [
+      "all original moment and Bernoulli preparation",
+      "remaining NNLS/Gram/inverse/residual arithmetic and control",
+      "integer/Fraction/Decimal internals",
+      "256 retained atoms and all earlier coefficient production outside the displayed old subtotal",
+      "allocation, copying, output, source binding, replay and ledger work",
+      "all byte-storage peak bounds"
+    ]
+  },
+  "storage": {
+    "certificate_file_bytes": {
+      "lower-degree-fixed-740.json": 35557173,
+      "lower-degree-replay-740.json": 156705,
+      "support-grid-nnls-731-k8.json": 582967,
+      "support-grid-nnls-731-k9.json": 860061,
+      "support-grid-nnls-731-k10.json": 1418297
+    },
+    "these_file_bytes_sum": 38575203,
+    "new_constructor_retained_gram_error_endpoints": 102602,
+    "new_constructor_retained_moment_endpoints": 6954,
+    "new_rule_weights": 2135,
+    "peak_entries_upper": null,
+    "peak_working_bytes_upper": null,
+    "qualification": "actual certificate sizes and retained entry subinventory only; no complete working-memory bound"
+  },
+  "result_summary": {
+    "blocks": 61,
+    "positive_nodes_each": 29,
+    "kernel_rank": 2130,
+    "uniform_B2_error_upper": "7.291e-8",
+    "required_uniform_B2_error": "1e-7",
+    "epsilon_squared_max": "1.819150080838025E-445",
+    "required_epsilon_squared": "2.5e-37",
+    "contraction_max": "0.1485846829724826",
+    "required_contraction": "<1",
+    "checks": {
+      "constructor_source_binding": true,
+      "all61_blocks_present": true,
+      "analytic_complete_sum_exact": true,
+      "analytic_below_7.291e-8": true,
+      "all61_finite_checks": true,
+      "all1487729_product_terms": true,
+      "rank2130_inventory": true
+    },
+    "replay_failures": []
+  }
+}

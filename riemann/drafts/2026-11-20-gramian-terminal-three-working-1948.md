@@ -1,0 +1,13 @@
+# Dynamical Gramian attempt1948: working record
+
+Approved target: assessment1947's exact r_d, with C_d=d^(-1)D_d A_d D_d^(-1), D_d=diag(1,d,...,d^(d-1)), T_d=d^2. Read the supplied full PROOF/DAG before the targeted C028b/d/h inputs and source-notes1947/1523. Existing changes are preserved. No new literature review or numerical coefficient contract is invoked.
+
+Main gap: actual H_d=o(d), equivalent to RH by C028b. One intermediate target is r_d=o(1), or a positive liminf. The former would remove only this compression obstruction and leave the full k_d=o(1) payment open; the latter would stop only this metric schedule. C028h/i/o/p and C029a are scoped contrasts, not lower bounds for this new metric.
+
+Partial reasoning saved before further work: for X(t)=cos(t C_d), Y(t)=sin(t C_d), the realification exponential is [X -Y; Y X]. Its energy matrix has equal diagonal blocks X^T X+Y^T Y and opposite skew off-diagonal blocks. The finite-horizon endpoint identity from Stillfjord-Tronarp, as recorded in source-notes1947, should express G_d C_d-C_d^T G_d using the off-diagonal endpoint block divided by T_d. The signs, normalized compression and complete trace-norm scale must be checked explicitly. A positive energy integral alone supplies no degree-uniform inverse or endpoint estimate.
+
+Initial bounded plan: retain the full matrix and derive the exact three-column endpoint/energy expression, then seek an all-degree bound at this fixed horizon. The plan excluded replacing the horizon, invoking real spectrum, applying the old Euclidean terminal formula, or inferring a full-cost bound from a compression. No estimate had yet been claimed when this initial checkpoint was saved.
+
+Completed attempt: the full finite proof and precise imports are now canonical in [C029b](../lemmas/C029b-dynamical-gramian-endpoint-reduction.md). The endpoint sign and normalized isometry are checked there. The uniform coefficient/energy estimate is only O(1); neither target alternative is proved. The explicit factor 1/T cancels in the normalized formula, so it is not an escape bound.
+
+Unfinished reasoning retained: the first two terminal columns form a Krylov chain, making the three signed endpoint entries derivatives of a two by two energy block. The resulting exact numerator a^T*B*a must be o(det B) for escape, or uniformly separated from zero relative to det B for the floor. No degree-uniform cancellation, inverse-energy lower bound or dominant-mode decomposition has been proved. This is the refined signed mechanism available for continuation, not an assumed estimate. The current task and routing remain solely in PROGRESS.md.

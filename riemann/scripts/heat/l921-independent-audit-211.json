@@ -1,0 +1,469 @@
+{
+  "scope": "Independent audit of the single L921 finite tuple only; no theta realization.",
+  "method": "Literal raw moments; finite log and geometric inverse; pivoted Gaussian determinants. No original program imported.",
+  "y": [
+    "1",
+    "2",
+    "2999997/250000",
+    "2999997/25000",
+    "20999790000063/12500000000",
+    "37802645999811/1250000000",
+    "415386279060290993763/625000000000000"
+  ],
+  "g": [
+    "1",
+    "-1",
+    "999999/2000000",
+    "-333333/2000000",
+    "333330000001/8000000000000",
+    "-66671333333/8000000000000",
+    "22200111114333333/16000000000000000000"
+  ],
+  "S": [
+    "1",
+    "1/1000000",
+    "1/1000000",
+    "1/500000",
+    "1/200000",
+    "13/1000000"
+  ],
+  "inverse": [
+    "1",
+    "1",
+    "1000001/2000000",
+    "66667/400000",
+    "333342000001/8000000000000",
+    "66680666669/8000000000000",
+    "22278111119666667/16000000000000000000"
+  ],
+  "inverse_product": [
+    "1",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "matrices": {
+    "M3": [
+      [
+        "1",
+        "2",
+        "2999997/250000",
+        "2999997/25000"
+      ],
+      [
+        "2",
+        "2999997/250000",
+        "2999997/25000",
+        "20999790000063/12500000000"
+      ],
+      [
+        "2999997/250000",
+        "2999997/25000",
+        "20999790000063/12500000000",
+        "37802645999811/1250000000"
+      ],
+      [
+        "2999997/25000",
+        "20999790000063/12500000000",
+        "37802645999811/1250000000",
+        "415386279060290993763/625000000000000"
+      ]
+    ],
+    "N2": [
+      [
+        "2",
+        "2999997/250000",
+        "2999997/25000"
+      ],
+      [
+        "2999997/250000",
+        "2999997/25000",
+        "20999790000063/12500000000"
+      ],
+      [
+        "2999997/25000",
+        "20999790000063/12500000000",
+        "37802645999811/1250000000"
+      ]
+    ],
+    "H2": [
+      [
+        "1/1000000",
+        "1/1000000",
+        "1/500000"
+      ],
+      [
+        "1/1000000",
+        "1/500000",
+        "1/200000"
+      ],
+      [
+        "1/500000",
+        "1/200000",
+        "13/1000000"
+      ]
+    ]
+  },
+  "principal_minors": {
+    "M3": [
+      {
+        "indices": [
+          0
+        ],
+        "determinant": "1"
+      },
+      {
+        "indices": [
+          1
+        ],
+        "determinant": "2999997/250000"
+      },
+      {
+        "indices": [
+          2
+        ],
+        "determinant": "20999790000063/12500000000"
+      },
+      {
+        "indices": [
+          3
+        ],
+        "determinant": "415386279060290993763/625000000000000"
+      },
+      {
+        "indices": [
+          0,
+          1
+        ],
+        "determinant": "1999997/250000"
+      },
+      {
+        "indices": [
+          0,
+          2
+        ],
+        "determinant": "47999484000153/31250000000"
+      },
+      {
+        "indices": [
+          0,
+          3
+        ],
+        "determinant": "406386297060281993763/625000000000000"
+      },
+      {
+        "indices": [
+          1,
+          2
+        ],
+        "determinant": "17999397000773999811/3125000000000000"
+      },
+      {
+        "indices": [
+          1,
+          3
+        ],
+        "determinant": "402583205487644913438007371/78125000000000000000"
+      },
+      {
+        "indices": [
+          2,
+          3
+        ],
+        "determinant": "1577824406238544544434929497607069/7812500000000000000000000"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "determinant": "23998968001781999541/7812500000000000"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          3
+        ],
+        "determinant": "244389413458277916381007371/78125000000000000000"
+      },
+      {
+        "indices": [
+          0,
+          2,
+          3
+        ],
+        "determinant": "3303947836043410337156986379045739/19531250000000000000000000"
+      },
+      {
+        "indices": [
+          1,
+          2,
+          3
+        ],
+        "determinant": "297903073633930039500373484585529464373/976562500000000000000000000000"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "determinant": "339515649023856448018032344670589127763/2441406250000000000000000000000"
+      }
+    ],
+    "N2": [
+      {
+        "indices": [
+          0
+        ],
+        "determinant": "2"
+      },
+      {
+        "indices": [
+          1
+        ],
+        "determinant": "2999997/25000"
+      },
+      {
+        "indices": [
+          2
+        ],
+        "determinant": "37802645999811/1250000000"
+      },
+      {
+        "indices": [
+          0,
+          1
+        ],
+        "determinant": "6000002999991/62500000000"
+      },
+      {
+        "indices": [
+          0,
+          2
+        ],
+        "determinant": "14401331999901/312500000"
+      },
+      {
+        "indices": [
+          1,
+          2
+        ],
+        "determinant": "126047942910729029294996031/156250000000000000000"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "determinant": "14410339184192398082999433/39062500000000000000"
+      }
+    ],
+    "H2": [
+      {
+        "indices": [
+          0
+        ],
+        "determinant": "1/1000000"
+      },
+      {
+        "indices": [
+          1
+        ],
+        "determinant": "1/500000"
+      },
+      {
+        "indices": [
+          2
+        ],
+        "determinant": "13/1000000"
+      },
+      {
+        "indices": [
+          0,
+          1
+        ],
+        "determinant": "1/1000000000000"
+      },
+      {
+        "indices": [
+          0,
+          2
+        ],
+        "determinant": "9/1000000000000"
+      },
+      {
+        "indices": [
+          1,
+          2
+        ],
+        "determinant": "1/1000000000000"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2
+        ],
+        "determinant": "0"
+      }
+    ]
+  },
+  "minor_counts": {
+    "M3": {
+      "total": 15,
+      "positive": 15,
+      "zero": 0
+    },
+    "N2": {
+      "total": 7,
+      "positive": 7,
+      "zero": 0
+    },
+    "H2": {
+      "total": 7,
+      "positive": 6,
+      "zero": 1
+    }
+  },
+  "normalization": {
+    "numerator": [
+      "1",
+      "-3",
+      "1"
+    ],
+    "squared_norm": "11",
+    "products": [
+      [
+        "1/11",
+        "-3/11",
+        "1/11"
+      ],
+      [
+        "-3/11",
+        "9/11",
+        "-3/11"
+      ],
+      [
+        "1/11",
+        "-3/11",
+        "1/11"
+      ]
+    ]
+  },
+  "null_rows": [
+    "0",
+    "0",
+    "0"
+  ],
+  "congruence_residual": [
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "J": {
+    "direct": "-6533305000003999999/88000000000000000000",
+    "reduced": "-6533305000003999999/88000000000000000000",
+    "terms": [
+      [
+        "2000001/11000000",
+        "-3000009/11000000",
+        "666677000001/22000000000000"
+      ],
+      [
+        "-3000009/11000000",
+        "6000093000009/22000000000000",
+        "-1000118000019/44000000000000"
+      ],
+      [
+        "666677000001/22000000000000",
+        "-1000118000019/44000000000000",
+        "133515000028000001/88000000000000000000"
+      ]
+    ],
+    "lower": "-3/40",
+    "upper": "-7/100",
+    "required": "0"
+  },
+  "checks": {
+    "literal_moment_normalization": true,
+    "independent_finite_log": true,
+    "independent_geometric_inverse": true,
+    "inverse_product": true,
+    "inverse_log_derivative": true,
+    "M3_minor_0": true,
+    "M3_minor_1": true,
+    "M3_minor_2": true,
+    "M3_minor_3": true,
+    "M3_minor_01": true,
+    "M3_minor_02": true,
+    "M3_minor_03": true,
+    "M3_minor_12": true,
+    "M3_minor_13": true,
+    "M3_minor_23": true,
+    "M3_minor_012": true,
+    "M3_minor_013": true,
+    "M3_minor_023": true,
+    "M3_minor_123": true,
+    "M3_minor_0123": true,
+    "M3_complete_original_minor_values": true,
+    "M3_complete_original_matrix": true,
+    "M3_every_printed_table_entry": true,
+    "N2_minor_0": true,
+    "N2_minor_1": true,
+    "N2_minor_2": true,
+    "N2_minor_01": true,
+    "N2_minor_02": true,
+    "N2_minor_12": true,
+    "N2_minor_012": true,
+    "N2_complete_original_minor_values": true,
+    "N2_complete_original_matrix": true,
+    "N2_every_printed_table_entry": true,
+    "H2_minor_0": true,
+    "H2_minor_1": true,
+    "H2_minor_2": true,
+    "H2_minor_01": true,
+    "H2_minor_02": true,
+    "H2_minor_12": true,
+    "H2_minor_012": true,
+    "H2_complete_original_minor_values": true,
+    "H2_complete_original_matrix": true,
+    "three_normalized_null_rows": true,
+    "normalization_and_nonzero_c2": true,
+    "rank_exactly_two": true,
+    "three_joint_row_formulas": true,
+    "congruence": true,
+    "direct_and_reduced_J": true,
+    "strict_bounds_and_required_threshold": true,
+    "original_y0_through_y6": true,
+    "original_g_coefficients": true,
+    "original_S1_through_S6": true,
+    "original_inverse_coefficients": true,
+    "original_log_residual_complete": true,
+    "original_inverse_residual_complete": true,
+    "original_normalization_complete": true,
+    "original_joint_rows_complete": true,
+    "original_J_all_values": true
+  },
+  "failures": [],
+  "passed": true
+}

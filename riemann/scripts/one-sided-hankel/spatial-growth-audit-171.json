@@ -1,0 +1,428 @@
+{
+  "purpose": "Complete arithmetic replay for the L709--L712 conceptual audit",
+  "certificates": {
+    "spatial-complex-phase-166": {
+      "source": "spatial-complex-phase-166.py",
+      "source_sha256": "ed0ef59d50af90f3b08e1b4d348e8cecf71a7b7be43b24cfd1d87895f21c35f7",
+      "original_sha256": "adfef79066c03482669ec98107ec8c1bda748f5ec786dee7ceff8472fb2f6863",
+      "replay": "spatial-complex-phase-166-replay-171.json",
+      "full_certificate_equal": true,
+      "exact_fraction_records": 4067,
+      "complete_partition_counts": {
+        "upper_contour": 200,
+        "lower_contour": 200,
+        "real_line": 200,
+        "negative_tail_derivative": 200
+      },
+      "comparisons": {
+        "upper_contour_rate": {
+          "actual": "-163636918862370779766905650043382011/3975352282315727403093661252059136000",
+          "relation": "<",
+          "required": "-41/1000",
+          "passed": true
+        },
+        "lower_contour_rate": {
+          "actual": "4733978187465054600716221383200734261/64376368081990401925608575581814784000",
+          "relation": "<",
+          "required": "37/500",
+          "passed": true
+        },
+        "real_line_rate": {
+          "actual": "719652029019137449091362766293388971/30423614405477505635920876929024000000",
+          "relation": "<",
+          "required": "3/125",
+          "passed": true
+        },
+        "negative_endpoint_rate": {
+          "actual": "37440346558278445836364460829943/1825416864328650338155252615741440",
+          "relation": ">",
+          "required": "51/2500",
+          "passed": true
+        },
+        "positive_endpoint_rate": {
+          "actual": "-476843074089626948722062051204341/3650833728657300676310505231482880",
+          "relation": "<",
+          "required": "-1/10",
+          "passed": true
+        },
+        "negative_tail_derivative": {
+          "actual": "51184071121858375077755401952722541/1140885540205406461347032884838400000",
+          "relation": ">",
+          "required": "1/25",
+          "passed": true
+        },
+        "omega_star_upper": {
+          "actual": "687746984429509953057852629571387/633825300114114700748351602688000",
+          "relation": "<",
+          "required": "10851/10000",
+          "passed": true
+        },
+        "positive_bump_endpoint": {
+          "actual": "2063874778588643973874306240316849/1901475900342344102245054808064000",
+          "relation": "<",
+          "required": "543/500",
+          "passed": true
+        },
+        "bump_density_rate": {
+          "actual": "29/1500",
+          "relation": "=",
+          "required": "29/1500",
+          "passed": true
+        },
+        "bump_vs_endpoint_gap": {
+          "actual": "2/1875",
+          "relation": ">",
+          "required": "1/1000",
+          "passed": true
+        },
+        "high_frequency_rate": {
+          "actual": "-7/750",
+          "relation": "<",
+          "required": "-9/1000",
+          "passed": true
+        },
+        "relative_finite_tail_rate": {
+          "actual": "-33673/15488000",
+          "relation": "<",
+          "required": "-1/500",
+          "passed": true
+        },
+        "far_factor_limit_squared": {
+          "actual": "29696/40241",
+          "relation": "<",
+          "required": "81/100",
+          "passed": true
+        },
+        "negative_halfline_monotonicity": {
+          "actual": "729/256",
+          "relation": ">",
+          "required": "49/25",
+          "passed": true
+        },
+        "positive_tail_endpoint_comparison": {
+          "actual": "11/8",
+          "relation": ">",
+          "required": "9/10",
+          "passed": true
+        },
+        "numerator_minimum_squared": {
+          "actual": "7745089/9994240",
+          "relation": ">",
+          "required": "16/25",
+          "passed": true
+        },
+        "log_fourth_derivative_bound": {
+          "actual": "176426700407065220187/1199728072358420000",
+          "relation": "<",
+          "required": "256",
+          "passed": true
+        },
+        "slope_modulus_squared": {
+          "actual": "74/25",
+          "relation": "<",
+          "required": "49/16",
+          "passed": true
+        },
+        "derivative_fourth_derivative_bound": {
+          "actual": "2509353885384375/6748994797568",
+          "relation": "<",
+          "required": "512",
+          "passed": true
+        },
+        "crossed_resolvent_spatial_radius_squared": {
+          "actual": "75625/76096",
+          "relation": "<",
+          "required": "1",
+          "passed": true
+        },
+        "crossed_resolvent_height": {
+          "actual": "7/100",
+          "relation": "<",
+          "required": "3/20",
+          "passed": true
+        }
+      },
+      "failures": []
+    },
+    "spatial-residue-rates-167": {
+      "source": "spatial-residue-rates-167.py",
+      "source_sha256": "750d2b053fcd390b437e32a2d97510b4ac5de00cdc0c0aa47ce618ce3f79cca4",
+      "original_sha256": "3d224fcad6ad8e0ec2c33cdedf2e6116e34a11dccb47987c8c5773d1b3d4ad93",
+      "replay": "spatial-residue-rates-167-replay-171.json",
+      "full_certificate_equal": true,
+      "exact_fraction_records": 274,
+      "complete_partition_counts": {
+        "rectangle": 40
+      },
+      "comparisons": {
+        "endpoint_rate_upper": {
+          "actual": "74920307197814023841525718551329/3650833728657300676310505231482880",
+          "relation": "<",
+          "required": "2053/100000",
+          "passed": true
+        },
+        "outer_centered_residue_rate_lower": {
+          "actual": "947280091613643824126096352470851/45635421608216258453881315393536000",
+          "relation": ">",
+          "required": "207/10000",
+          "passed": true
+        },
+        "outer_centered_coefficient_margin": {
+          "actual": "21552503281937052214049741158477/91270843216432516907762630787072000",
+          "relation": ">",
+          "required": "1/5000",
+          "passed": true
+        },
+        "outer_point_outside_unit_disk": {
+          "actual": "75625/73376",
+          "relation": ">",
+          "required": "1",
+          "passed": true
+        },
+        "outer_point_inside_larger_disk": {
+          "actual": "75625/73376",
+          "relation": "<",
+          "required": "4225/4096",
+          "passed": true
+        },
+        "whole_rectangle_product_rate": {
+          "actual": "35401067181114239785450554551814573391/6750391564287348950498124173011845120000",
+          "relation": "<",
+          "required": "1/100",
+          "passed": true
+        },
+        "negative_high_frequency_rate": {
+          "actual": "-7/300",
+          "relation": "<",
+          "required": "-1/50",
+          "passed": true
+        },
+        "positive_contour_remainder_rate": {
+          "actual": "29/1500",
+          "relation": "=",
+          "required": "29/1500",
+          "passed": true
+        },
+        "remainder_vs_endpoint_lower": {
+          "actual": "2/1875",
+          "relation": ">",
+          "required": "1/1000",
+          "passed": true
+        },
+        "upper_contour_pole_distance": {
+          "actual": "7/100",
+          "relation": "=",
+          "required": "7/100",
+          "passed": true
+        },
+        "lower_contour_pole_distance": {
+          "actual": "7/50",
+          "relation": "=",
+          "required": "7/50",
+          "passed": true
+        },
+        "box_spatial_denominator_lower": {
+          "actual": "17937/10000",
+          "relation": ">",
+          "required": "1",
+          "passed": true
+        },
+        "finite_tail_vs_endpoint": {
+          "actual": "-199341/77440000",
+          "relation": "<",
+          "required": "-1/400",
+          "passed": true
+        }
+      },
+      "failures": []
+    },
+    "spatial-unit-contour-rates-168": {
+      "source": "spatial-unit-contour-rates-168.py",
+      "source_sha256": "4dd7f5f9c8d34fdccab6acaaf653597ad6e88769d8f5720dd0fecbe505d0acad",
+      "original_sha256": "bbd12a3aa8ef72b56cdf96e9e03aef8b98bee22ce06499366f58a6035c0fd2fc",
+      "replay": "spatial-unit-contour-rates-168-replay-171.json",
+      "full_certificate_equal": true,
+      "exact_fraction_records": 4500,
+      "complete_partition_counts": {
+        "top_segments": 100,
+        "left_real_cells": 20,
+        "left_c_derivative_cells": 160,
+        "bottom_density": 200,
+        "side_lower_density": 200
+      },
+      "comparisons": {
+        "bump_frequency_upper": {
+          "actual": "2063874778588643973874306240316849/1901475900342344102245054808064000",
+          "relation": "<",
+          "required": "543/500",
+          "passed": true
+        },
+        "frequency_over_A": {
+          "actual": "2063874778588643973874306240316849/5133984930924329076061647981772800",
+          "relation": "<",
+          "required": "403/1000",
+          "passed": true
+        },
+        "third_affine_factor_min_squared": {
+          "actual": "5285401/7098368",
+          "relation": ">",
+          "required": "16/25",
+          "passed": true
+        },
+        "log_fourth_t_derivative": {
+          "actual": "2218470442761707613769/15085150414632540000",
+          "relation": "<",
+          "required": "256",
+          "passed": true
+        },
+        "affine_slope_squared": {
+          "actual": "74/25",
+          "relation": "<",
+          "required": "49/16",
+          "passed": true
+        },
+        "both_gradient_fourth_t_derivatives": {
+          "actual": "78201419505221875/210306616786944",
+          "relation": "<",
+          "required": "512",
+          "passed": true
+        },
+        "real_halfline_reduction": {
+          "actual": "729/256",
+          "relation": ">",
+          "required": "49/25",
+          "passed": true
+        },
+        "top_minimum_height": {
+          "actual": "1533/50000",
+          "relation": ">",
+          "required": "3/100",
+          "passed": true
+        },
+        "top_maximum_height": {
+          "actual": "78/625",
+          "relation": "<",
+          "required": "1/8",
+          "passed": true
+        },
+        "top_endpoint_height": {
+          "actual": "1533/50000",
+          "relation": "<",
+          "required": "31/1000",
+          "passed": true
+        },
+        "polygon_vertices_radius_squared": {
+          "actual": "18901016249/10000000000",
+          "relation": "<",
+          "required": "121/64",
+          "passed": true
+        },
+        "top_full_bump_rate": {
+          "actual": "2860937088118937229014112929435496334300360108633/142116342988642098390676056298846654530846720000000",
+          "relation": "<",
+          "required": "203/10000",
+          "passed": true
+        },
+        "bottom_density_global_rate": {
+          "actual": "1091587303069253510014911841612937/22817710804108129226940657696768000",
+          "relation": "<",
+          "required": "49/1000",
+          "passed": true
+        },
+        "side_lower_density_global_rate": {
+          "actual": "41574167453694605067589927501849204703/527180390418114217659236955426127872000",
+          "relation": "<",
+          "required": "2/25",
+          "passed": true
+        },
+        "left_strip_real_rate": {
+          "actual": "10510093585435764674335336795348237697/570442770102703230673516442419200000000",
+          "relation": "<",
+          "required": "37/2000",
+          "passed": true
+        },
+        "left_positive_height_c_derivative": {
+          "actual": "-930741097187271641765555509328731339/2281771080410812922694065769676800000",
+          "relation": "<",
+          "required": "-39/100",
+          "passed": true
+        },
+        "left_positive_height_bump_rate": {
+          "actual": "18903/1000000",
+          "relation": "<",
+          "required": "19/1000",
+          "passed": true
+        },
+        "right_strip_all_height_rate": {
+          "actual": "-755150482379496013896617080314427/7301667457314601352621010462965760",
+          "relation": "<",
+          "required": "-1/10",
+          "passed": true
+        },
+        "right_positive_height_bump_rate": {
+          "actual": "-87507/1000000",
+          "relation": "<",
+          "required": "0",
+          "passed": true
+        },
+        "negative_height_tail_rate_monotonicity": {
+          "actual": "4565/46878",
+          "relation": ">",
+          "required": "0",
+          "passed": true
+        },
+        "bottom_high_frequency_rate": {
+          "actual": "11/1500",
+          "relation": "<",
+          "required": "1/100",
+          "passed": true
+        },
+        "side_lower_high_frequency_rate": {
+          "actual": "-7/600",
+          "relation": "<",
+          "required": "0",
+          "passed": true
+        },
+        "upper_bump_remainder_rate": {
+          "actual": "29/1500",
+          "relation": "<",
+          "required": "1/50",
+          "passed": true
+        },
+        "top_rate_vs_endpoint": {
+          "actual": "203/10000",
+          "relation": "<",
+          "required": "51/2500",
+          "passed": true
+        },
+        "real_envelope_vs_endpoint": {
+          "actual": "9/2500",
+          "relation": "<",
+          "required": "1/250",
+          "passed": true
+        },
+        "bridge_vertical_distance": {
+          "actual": "1/25",
+          "relation": ">",
+          "required": "0",
+          "passed": true
+        },
+        "bridge_center_barrier": {
+          "actual": "14/30357",
+          "relation": "<",
+          "required": "1/1000",
+          "passed": true
+        },
+        "final_unit_exponent": {
+          "actual": "1/250000",
+          "relation": "<",
+          "required": "1/100000",
+          "passed": true
+        }
+      },
+      "failures": []
+    }
+  },
+  "failures": [],
+  "qualification": "Analytic proof and source applicability are checked in canonical lemma audit sections; this is auxiliary arithmetic evidence."
+}

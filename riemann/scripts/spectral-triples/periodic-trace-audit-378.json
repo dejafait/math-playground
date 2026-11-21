@@ -1,0 +1,82 @@
+{
+  "step_id": "2026-11-04-ccm-periodic-trace-conceptual-audit-378",
+  "outcome": "PASS",
+  "scope": "Exact rational arithmetic only; not a Fourier or spectral proof.",
+  "analytic_proof": "lemmas/L762-effective-ccm-periodic-boundary-trace.md, section5",
+  "inherited_inputs": "L760 row convention; L761 certified scalar data and trust assumptions",
+  "script_sha256": "1c0591aef52937ee9220beb633719f221cf97ea0cdbca91eadc5481b70396ab4",
+  "lemma_sha256": "5e5a9de1521f5e475ce8e14d5f3b6729261c4f05458289926a457104d0b04030",
+  "checks": [
+    {
+      "name": "local_derivative_energy_upper",
+      "actual": "968",
+      "relation": "=",
+      "required": "968",
+      "passed": true
+    },
+    {
+      "name": "segment_energy_upper",
+      "actual": "484",
+      "relation": "=",
+      "required": "484",
+      "passed": true
+    },
+    {
+      "name": "finite_Fourier_eigenvalue_lower",
+      "actual": "7/460",
+      "relation": ">",
+      "required": "1/100",
+      "passed": true
+    },
+    {
+      "name": "G1",
+      "actual": "66000",
+      "relation": "=",
+      "required": "66000",
+      "passed": true
+    },
+    {
+      "name": "G2",
+      "actual": "5510600",
+      "relation": "=",
+      "required": "5510600",
+      "passed": true
+    },
+    {
+      "name": "V_expression",
+      "actual": "199965600",
+      "relation": "=",
+      "required": "199965600",
+      "passed": true
+    },
+    {
+      "name": "V_upper",
+      "actual": "199965600",
+      "relation": "<",
+      "required": "200000000",
+      "passed": true
+    },
+    {
+      "name": "A_upper",
+      "actual": "57200",
+      "relation": "=",
+      "required": "57200",
+      "passed": true
+    },
+    {
+      "name": "all_N_coefficient_upper",
+      "actual": "100171600/3",
+      "relation": "<",
+      "required": "34000000",
+      "passed": true
+    },
+    {
+      "name": "all_N_slack",
+      "actual": "1828400/3",
+      "relation": "=",
+      "required": "1828400/3",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

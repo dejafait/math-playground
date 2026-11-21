@@ -1,0 +1,332 @@
+{
+  "status": "INCONCLUSIVE_NOT_A_SIGN_CERTIFICATE",
+  "scope": {
+    "dimension": 256,
+    "t": 1,
+    "polynomial_even_degrees": [
+      0,
+      508
+    ],
+    "prime_powers": [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "both_poles": true,
+    "pair": "C759i(2)",
+    "space": "assessment847/848 W",
+    "space_time_or_pair_sweep": false
+  },
+  "exact_candidate": {
+    "data": "even-time-one-pair-849.npz",
+    "sha256": "f74832d1420ec849848f3392e740a87b1bf9ddd53cb39a7ec9d7662c265548fa",
+    "data_interpretation": "Each stored binary64 lambda/modal entry is its exact dyadic value.",
+    "basis_order": "v, (1-x^2)P_0, (1-x^2)P_2, ..., (1-x^2)P_508",
+    "definition": "w(t)=v+sum_j (exp(-lambda_j*t)-1)*f_j; f_j has modal_coefficients[:,j]",
+    "initial_identity": "w(0)=v exactly",
+    "regularity": "Finite real analytic time coefficients in W subset D(A_e); A_e w is continuous.",
+    "not_claimed": "Stored approximate eigendata need not exactly diagonalize the assembled Galerkin matrix."
+  },
+  "defect_identity": {
+    "source": "Jacob-Zwart ISEM2010-11 Lemma10.1.2, p120, via assessment847/848",
+    "exact_error_bound": "|B_1-<u,w(1)>| <= sqrt(64/1575)*integral_0^1 exp(10*(1-t))*||w'(t)+A_e w(t)||_2 dt",
+    "initial_error": 0,
+    "required_for_negative_upper_endpoint": "A certified center upper bound b<0 and a complete error upper bound E<-b."
+  },
+  "diagnostic_NOT_CERTIFIED": {
+    "pair_center": -0.0018642353578662493,
+    "matrix_asymmetry_before_symmetrizing": 4.0732693422825164e-05,
+    "mass_min_eigenvalue": 8.220962687381295e-12,
+    "compressed_eigenvalue_range": [
+      -0.012686315476673324,
+      8.392114910366526
+    ],
+    "initial_reconstruction_L2_sample": 2.2750578413236462e-15,
+    "combined_defect_samples": [
+      {
+        "t": 0.0003474791321139148,
+        "L2_norm_NOT_CERTIFIED": 0.0009355429109495222
+      },
+      {
+        "t": 0.00182994161402239,
+        "L2_norm_NOT_CERTIFIED": 0.0009367002322246512
+      },
+      {
+        "t": 0.0044933142616278565,
+        "L2_norm_NOT_CERTIFIED": 0.00096327523828853
+      },
+      {
+        "t": 0.008331873057687011,
+        "L2_norm_NOT_CERTIFIED": 0.0010500536964882987
+      },
+      {
+        "t": 0.013336586105044512,
+        "L2_norm_NOT_CERTIFIED": 0.0012258877421691095
+      },
+      {
+        "t": 0.01949560017397317,
+        "L2_norm_NOT_CERTIFIED": 0.001498956574078243
+      },
+      {
+        "t": 0.026794312570798617,
+        "L2_norm_NOT_CERTIFIED": 0.0018603742883777517
+      },
+      {
+        "t": 0.035215413934030215,
+        "L2_norm_NOT_CERTIFIED": 0.002295506008374531
+      },
+      {
+        "t": 0.04473893146074859,
+        "L2_norm_NOT_CERTIFIED": 0.002790133300031035
+      },
+      {
+        "t": 0.05534227700244293,
+        "L2_norm_NOT_CERTIFIED": 0.0033318165795730983
+      },
+      {
+        "t": 0.06700030092295362,
+        "L2_norm_NOT_CERTIFIED": 0.003909676664281101
+      },
+      {
+        "t": 0.07968535187370984,
+        "L2_norm_NOT_CERTIFIED": 0.004514002521180331
+      },
+      {
+        "t": 0.09336734243860123,
+        "L2_norm_NOT_CERTIFIED": 0.005135992246007588
+      },
+      {
+        "t": 0.10801382052832931,
+        "L2_norm_NOT_CERTIFIED": 0.005767623805989266
+      },
+      {
+        "t": 0.12359004636973403,
+        "L2_norm_NOT_CERTIFIED": 0.006401605368540893
+      },
+      {
+        "t": 0.14005907491419461,
+        "L2_norm_NOT_CERTIFIED": 0.0070313652812181455
+      },
+      {
+        "t": 0.15738184347288336,
+        "L2_norm_NOT_CERTIFIED": 0.007651056823366337
+      },
+      {
+        "t": 0.17551726437267134,
+        "L2_norm_NOT_CERTIFIED": 0.008255563680425643
+      },
+      {
+        "t": 0.19442232241380336,
+        "L2_norm_NOT_CERTIFIED": 0.008840498860152509
+      },
+      {
+        "t": 0.214052176898683,
+        "L2_norm_NOT_CERTIFIED": 0.00940219382197628
+      },
+      {
+        "t": 0.23436026799005272,
+        "L2_norm_NOT_CERTIFIED": 0.0099376769745222
+      },
+      {
+        "t": 0.25529842714647355,
+        "L2_norm_NOT_CERTIFIED": 0.010444642072819614
+      },
+      {
+        "t": 0.276816991373268,
+        "L2_norm_NOT_CERTIFIED": 0.010921407810882577
+      },
+      {
+        "t": 0.2988649210180042,
+        "L2_norm_NOT_CERTIFIED": 0.011366870291806554
+      },
+      {
+        "t": 0.3213899208311659,
+        "L2_norm_NOT_CERTIFIED": 0.011780450207126928
+      },
+      {
+        "t": 0.3443385640048945,
+        "L2_norm_NOT_CERTIFIED": 0.012162036555954815
+      },
+      {
+        "t": 0.3676564188956163,
+        "L2_norm_NOT_CERTIFIED": 0.012511928636149514
+      },
+      {
+        "t": 0.39128817812999644,
+        "L2_norm_NOT_CERTIFIED": 0.012830777879287584
+      },
+      {
+        "t": 0.41517778978800357,
+        "L2_norm_NOT_CERTIFIED": 0.013119530902075497
+      },
+      {
+        "t": 0.4392685903519397,
+        "L2_norm_NOT_CERTIFIED": 0.013379374926202196
+      },
+      {
+        "t": 0.4635034391061005,
+        "L2_norm_NOT_CERTIFIED": 0.013611686489557916
+      },
+      {
+        "t": 0.48782485366828776,
+        "L2_norm_NOT_CERTIFIED": 0.013817984144770815
+      },
+      {
+        "t": 0.5121751463317122,
+        "L2_norm_NOT_CERTIFIED": 0.01399988562467506
+      },
+      {
+        "t": 0.5364965608938995,
+        "L2_norm_NOT_CERTIFIED": 0.014159069755339348
+      },
+      {
+        "t": 0.5607314096480602,
+        "L2_norm_NOT_CERTIFIED": 0.014297243220678673
+      },
+      {
+        "t": 0.5848222102119964,
+        "L2_norm_NOT_CERTIFIED": 0.014416112131667783
+      },
+      {
+        "t": 0.6087118218700035,
+        "L2_norm_NOT_CERTIFIED": 0.014517358229413848
+      },
+      {
+        "t": 0.6323435811043837,
+        "L2_norm_NOT_CERTIFIED": 0.014602619454905109
+      },
+      {
+        "t": 0.6556614359951055,
+        "L2_norm_NOT_CERTIFIED": 0.014673474547970286
+      },
+      {
+        "t": 0.6786100791688341,
+        "L2_norm_NOT_CERTIFIED": 0.01473143129169696
+      },
+      {
+        "t": 0.7011350789819958,
+        "L2_norm_NOT_CERTIFIED": 0.01477791799340137
+      },
+      {
+        "t": 0.723183008626732,
+        "L2_norm_NOT_CERTIFIED": 0.014814277785981347
+      },
+      {
+        "t": 0.7447015728535265,
+        "L2_norm_NOT_CERTIFIED": 0.014841765340682402
+      },
+      {
+        "t": 0.7656397320099473,
+        "L2_norm_NOT_CERTIFIED": 0.014861545600694508
+      },
+      {
+        "t": 0.7859478231013171,
+        "L2_norm_NOT_CERTIFIED": 0.014874694171423451
+      },
+      {
+        "t": 0.8055776775861967,
+        "L2_norm_NOT_CERTIFIED": 0.014882199035043625
+      },
+      {
+        "t": 0.8244827356273287,
+        "L2_norm_NOT_CERTIFIED": 0.014884963291661774
+      },
+      {
+        "t": 0.8426181565271167,
+        "L2_norm_NOT_CERTIFIED": 0.01488380866519119
+      },
+      {
+        "t": 0.8599409250858054,
+        "L2_norm_NOT_CERTIFIED": 0.014879479547348317
+      },
+      {
+        "t": 0.876409953630266,
+        "L2_norm_NOT_CERTIFIED": 0.014872647386900868
+      },
+      {
+        "t": 0.8919861794716707,
+        "L2_norm_NOT_CERTIFIED": 0.014863915262641844
+      },
+      {
+        "t": 0.9066326575613988,
+        "L2_norm_NOT_CERTIFIED": 0.014853822507042948
+      },
+      {
+        "t": 0.9203146481262902,
+        "L2_norm_NOT_CERTIFIED": 0.014842849272872037
+      },
+      {
+        "t": 0.9329996990770464,
+        "L2_norm_NOT_CERTIFIED": 0.01483142095718962
+      },
+      {
+        "t": 0.944657722997557,
+        "L2_norm_NOT_CERTIFIED": 0.014819912416106201
+      },
+      {
+        "t": 0.9552610685392514,
+        "L2_norm_NOT_CERTIFIED": 0.014808651919653726
+      },
+      {
+        "t": 0.9647845860659698,
+        "L2_norm_NOT_CERTIFIED": 0.01479792480931985
+      },
+      {
+        "t": 0.9732056874292014,
+        "L2_norm_NOT_CERTIFIED": 0.014787976831468973
+      },
+      {
+        "t": 0.9805043998260268,
+        "L2_norm_NOT_CERTIFIED": 0.014779017128254825
+      },
+      {
+        "t": 0.9866634138949555,
+        "L2_norm_NOT_CERTIFIED": 0.014771220873912683
+      },
+      {
+        "t": 0.991668126942313,
+        "L2_norm_NOT_CERTIFIED": 0.014764731548194842
+      },
+      {
+        "t": 0.9955066857383721,
+        "L2_norm_NOT_CERTIFIED": 0.014759662837379058
+      },
+      {
+        "t": 0.9981700583859776,
+        "L2_norm_NOT_CERTIFIED": 0.014756100121641769
+      },
+      {
+        "t": 0.9996525208678861,
+        "L2_norm_NOT_CERTIFIED": 0.01475410102659553
+      }
+    ],
+    "floor_weighted_error_radius_sample": 2.136074339567056,
+    "sample_interval_NOT_AN_ENCLOSURE": [
+      -2.1379385749249225,
+      2.1342101042091897
+    ]
+  },
+  "certification": {
+    "B1_enclosure": null,
+    "full_defect_bound": null,
+    "finite_spatial_quadrature_validated": false,
+    "complete_action_identity_for_quartic_independently_validated": false,
+    "fourier_or_spatial_tail_bound_evaluated": false,
+    "time_quadrature_validated": false,
+    "roundoff_enclosure": false,
+    "all_error_terms_paid": false,
+    "failure": "The complete sampled defect is not a bound. No rigorously negative center or paid full error radius is available."
+  },
+  "data_integrity": {
+    "finite_exact_dyadic_constants": true,
+    "eigenvalue_count": 256,
+    "modal_shape": [
+      256,
+      256
+    ],
+    "dimension_check": "one quartic plus 255 even endpoint-vanishing polynomials"
+  },
+  "script_sha256": "cb6a6ba1328fd70f05f9945e9345be23cd8e22c24f5710e68dc01ab0a127f1c1"
+}

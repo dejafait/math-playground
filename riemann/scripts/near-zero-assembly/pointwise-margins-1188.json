@@ -1,0 +1,216 @@
+{
+  "step_id": "2026-11-16-archimedean-pointwise-audit-1188",
+  "scope": "Exact rational comparisons in C030f. Analytic identities, convergence and universal quantifiers are justified in the canonical proof, not by this script.",
+  "checks": {
+    "pi_lower": {
+      "actual": {
+        "numerator": 1231847548,
+        "denominator": 392109375
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 3,
+        "denominator": 1
+      },
+      "positive_gap": {
+        "numerator": 55519423,
+        "denominator": 392109375
+      },
+      "passed": true
+    },
+    "pi_upper": {
+      "actual": {
+        "numerator": 670143059704,
+        "denominator": 213311234375
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 22,
+        "denominator": 7
+      },
+      "positive_gap": {
+        "numerator": 1845738322,
+        "denominator": 1493178640625
+      },
+      "passed": true
+    },
+    "exp_log2_upper": {
+      "actual": {
+        "numerator": 12013,
+        "denominator": 6000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "positive_gap": {
+        "numerator": 13,
+        "denominator": 6000
+      },
+      "passed": true
+    },
+    "exp_logpi_upper": {
+      "actual": {
+        "numerator": 2059,
+        "denominator": 625
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 22,
+        "denominator": 7
+      },
+      "positive_gap": {
+        "numerator": 663,
+        "denominator": 4375
+      },
+      "passed": true
+    },
+    "exp3_lower": {
+      "actual": {
+        "numerator": 89641,
+        "denominator": 4480
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 20,
+        "denominator": 1
+      },
+      "positive_gap": {
+        "numerator": 41,
+        "denominator": 4480
+      },
+      "passed": true
+    },
+    "exp_log_endpoint_upper": {
+      "actual": {
+        "numerator": 29,
+        "denominator": 8
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 10,
+        "denominator": 3
+      },
+      "positive_gap": {
+        "numerator": 7,
+        "denominator": 24
+      },
+      "passed": true
+    },
+    "global_floor": {
+      "actual": {
+        "numerator": -411,
+        "denominator": 70
+      },
+      "relation": ">",
+      "required": {
+        "numerator": -6,
+        "denominator": 1
+      },
+      "positive_gap": {
+        "numerator": 9,
+        "denominator": 70
+      },
+      "passed": true
+    },
+    "head_denominator": {
+      "actual": {
+        "numerator": 1199,
+        "denominator": 16
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 74,
+        "denominator": 1
+      },
+      "positive_gap": {
+        "numerator": 15,
+        "denominator": 16
+      },
+      "passed": true
+    },
+    "tail_budget": {
+      "actual": {
+        "numerator": 31,
+        "denominator": 921599999999910
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 100000000000
+      },
+      "positive_gap": {
+        "numerator": 91849999999991,
+        "denominator": 9215999999999100000000000
+      },
+      "passed": true
+    },
+    "total_binet_budget": {
+      "actual": {
+        "numerator": 47765968927711,
+        "denominator": 17771100000000000
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 3,
+        "denominator": 1000
+      },
+      "positive_gap": {
+        "numerator": 5547331072289,
+        "denominator": 17771100000000000
+      },
+      "passed": true
+    },
+    "endpoint_log_argument": {
+      "actual": {
+        "numerator": 35,
+        "denominator": 11
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 3,
+        "denominator": 1
+      },
+      "positive_gap": {
+        "numerator": 2,
+        "denominator": 11
+      },
+      "passed": true
+    },
+    "endpoint_lower": {
+      "actual": {
+        "numerator": 3241,
+        "denominator": 3000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "positive_gap": {
+        "numerator": 241,
+        "denominator": 3000
+      },
+      "passed": true
+    },
+    "endpoint_upper": {
+      "actual": {
+        "numerator": 1503,
+        "denominator": 1000
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 2,
+        "denominator": 1
+      },
+      "positive_gap": {
+        "numerator": 497,
+        "denominator": 1000
+      },
+      "passed": true
+    }
+  },
+  "failures": [],
+  "all_passed": true
+}

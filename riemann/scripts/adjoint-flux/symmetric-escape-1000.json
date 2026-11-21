@@ -1,0 +1,153 @@
+{
+  "step_id": "2026-11-15-actual-h-compact-adjoint-symmetric-escape-1000",
+  "scope": "Exact rational arithmetic only; analytic proof and continuation are in C467b and await independent conceptual audit.",
+  "parameters": {
+    "a": {
+      "numerator": 1,
+      "denominator": 16
+    },
+    "T_0": {
+      "numerator": 1,
+      "denominator": 1920
+    },
+    "r_0": {
+      "numerator": 31,
+      "denominator": 1000
+    },
+    "contraction": {
+      "numerator": 1137,
+      "denominator": 200
+    },
+    "image_speed": {
+      "numerator": 1,
+      "denominator": 5
+    }
+  },
+  "lower_q": {
+    "numerator": 1483,
+    "denominator": 48000
+  },
+  "upper_q_squared": {
+    "numerator": 121,
+    "denominator": 128000
+  },
+  "final_gap": {
+    "numerator": 21289,
+    "denominator": 2304000000
+  },
+  "checks": [
+    {
+      "name": "positive_bump_start",
+      "actual": {
+        "numerator": 124,
+        "denominator": 125
+      },
+      "required_upper_bound": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "positive_margin": {
+        "numerator": 1,
+        "denominator": 125
+      },
+      "passed": true
+    },
+    {
+      "name": "tangent_envelope",
+      "actual": {
+        "numerator": 96,
+        "denominator": 4607
+      },
+      "required_upper_bound": {
+        "numerator": 1,
+        "denominator": 47
+      },
+      "positive_margin": {
+        "numerator": 95,
+        "denominator": 216529
+      },
+      "passed": true
+    },
+    {
+      "name": "raw_norm_barrier",
+      "actual": {
+        "numerator": 5,
+        "denominator": 8
+      },
+      "required_upper_bound": {
+        "numerator": 12,
+        "denominator": 1
+      },
+      "positive_margin": {
+        "numerator": 91,
+        "denominator": 8
+      },
+      "passed": true
+    },
+    {
+      "name": "raw_squared_contraction",
+      "actual": {
+        "numerator": -200955,
+        "denominator": 35344
+      },
+      "required_upper_bound": {
+        "numerator": -1137,
+        "denominator": 200
+      },
+      "positive_margin": {
+        "numerator": 609,
+        "denominator": 883600
+      },
+      "passed": true
+    },
+    {
+      "name": "characteristic_image_speed",
+      "actual": {
+        "numerator": 380,
+        "denominator": 2209
+      },
+      "required_upper_bound": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "positive_margin": {
+        "numerator": 309,
+        "denominator": 11045
+      },
+      "passed": true
+    },
+    {
+      "name": "no_collision_barrier",
+      "actual": {
+        "numerator": 1,
+        "denominator": 40
+      },
+      "required_upper_bound": {
+        "numerator": 1483,
+        "denominator": 48000
+      },
+      "positive_margin": {
+        "numerator": 283,
+        "denominator": 48000
+      },
+      "passed": true
+    },
+    {
+      "name": "endpoint_incompatibility",
+      "actual": {
+        "numerator": 121,
+        "denominator": 128000
+      },
+      "required_upper_bound": {
+        "numerator": 2199289,
+        "denominator": 2304000000
+      },
+      "positive_margin": {
+        "numerator": 21289,
+        "denominator": 2304000000
+      },
+      "passed": true
+    }
+  ],
+  "failures": []
+}

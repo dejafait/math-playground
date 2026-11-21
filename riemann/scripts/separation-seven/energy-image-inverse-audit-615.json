@@ -1,0 +1,991 @@
+{
+  "scope": "C999t fixed conceptual audit615; complete exact integer finite products",
+  "source_script_sha256": "500e66ed87d69a06039734ca2723ef7957bbc77f86b1dee94a849714b73d194c",
+  "input_hashes": {
+    "energy-image-inverse-613.json": "3d76e31333906b1df7282435b5376bf7e10e55d20a8a4ef1bfa54fcfb116ae6e",
+    "neutral-head-covariance-audit-561.json": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+    "fixed-block-metric-audit-557.json": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+    "neutral-head-covariance-559.npz": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+    "neutral-head-covariance-559.json": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "energy-image-inverse-613.npz": "1bfcd09f6602c563b2f0d70715709b02159f286b61c47a47886e4794f9e3b287",
+    "energy-image-inverse-613.py": "6e838701174ccc1b03d19650b3235bff33d695d370be49cda473c69081c230a1"
+  },
+  "checks": [
+    {
+      "name": "original failures",
+      "actual": "[]",
+      "relation": "==",
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "audit561 failures (qualified import)",
+      "actual": "[]",
+      "relation": "==",
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "audit557 failures (qualified import)",
+      "actual": "[]",
+      "relation": "==",
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "original complete check count",
+      "actual": "43",
+      "relation": "==",
+      "required": "43",
+      "passed": true
+    },
+    {
+      "name": "original all check flags",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "original pin neutral-head-covariance-559.npz",
+      "actual": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+      "relation": "==",
+      "required": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+      "passed": true
+    },
+    {
+      "name": "original pin neutral-head-covariance-559.json",
+      "actual": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "relation": "==",
+      "required": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "passed": true
+    },
+    {
+      "name": "original pin complete-covariance-532.npz",
+      "actual": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "relation": "==",
+      "required": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "passed": true
+    },
+    {
+      "name": "original pin fixed-block-metric-audit-557.json",
+      "actual": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+      "relation": "==",
+      "required": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+      "passed": true
+    },
+    {
+      "name": "original pin neutral-head-covariance-audit-561.json",
+      "actual": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+      "relation": "==",
+      "required": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+      "passed": true
+    },
+    {
+      "name": "audit561 pin neutral-head-covariance-559.npz",
+      "actual": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+      "relation": "==",
+      "required": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+      "passed": true
+    },
+    {
+      "name": "audit561 pin neutral-head-covariance-559.json",
+      "actual": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "relation": "==",
+      "required": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "passed": true
+    },
+    {
+      "name": "audit561 pin complete-covariance-532.npz",
+      "actual": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "relation": "==",
+      "required": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "passed": true
+    },
+    {
+      "name": "audit561 pin fixed-block-metric-audit-557.json",
+      "actual": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+      "relation": "==",
+      "required": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+      "passed": true
+    },
+    {
+      "name": "saved proposal pin energy-image-inverse-613.npz",
+      "actual": "1bfcd09f6602c563b2f0d70715709b02159f286b61c47a47886e4794f9e3b287",
+      "relation": "==",
+      "required": "1bfcd09f6602c563b2f0d70715709b02159f286b61c47a47886e4794f9e3b287",
+      "passed": true
+    },
+    {
+      "name": "saved proposal pin energy-image-inverse-613.py",
+      "actual": "6e838701174ccc1b03d19650b3235bff33d695d370be49cda473c69081c230a1",
+      "relation": "==",
+      "required": "6e838701174ccc1b03d19650b3235bff33d695d370be49cda473c69081c230a1",
+      "passed": true
+    },
+    {
+      "name": "full inherited array z",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "full inherited array a",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape z",
+      "actual": "(512, 510)",
+      "relation": "==",
+      "required": "(512, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 z",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape a",
+      "actual": "(510, 510)",
+      "relation": "==",
+      "required": "(510, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 a",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape h",
+      "actual": "(512, 512)",
+      "relation": "==",
+      "required": "(512, 512)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 h",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape g",
+      "actual": "(510, 510)",
+      "relation": "==",
+      "required": "(510, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 g",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape x",
+      "actual": "(512, 510)",
+      "relation": "==",
+      "required": "(512, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 x",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape y",
+      "actual": "(510, 510)",
+      "relation": "==",
+      "required": "(510, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 y",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape head_inverse_remainder",
+      "actual": "(510, 510)",
+      "relation": "==",
+      "required": "(510, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 head_inverse_remainder",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape residual_H",
+      "actual": "(512, 510)",
+      "relation": "==",
+      "required": "(512, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 residual_H",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape residual_A",
+      "actual": "(510, 510)",
+      "relation": "==",
+      "required": "(510, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 residual_A",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape trial",
+      "actual": "(510, 510)",
+      "relation": "==",
+      "required": "(510, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 trial",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape factor",
+      "actual": "(510, 510)",
+      "relation": "==",
+      "required": "(510, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 factor",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape factor_reconstruction",
+      "actual": "(510, 510)",
+      "relation": "==",
+      "required": "(510, 510)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 factor_reconstruction",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape m",
+      "actual": "(512, 512)",
+      "relation": "==",
+      "required": "(512, 512)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 m",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "shape cov",
+      "actual": "(512, 512)",
+      "relation": "==",
+      "required": "(512, 512)",
+      "passed": true
+    },
+    {
+      "name": "finite real binary64 cov",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "exact symmetry m",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "exact symmetry cov",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "exact symmetry h",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "exact symmetry g",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "exact symmetry head_inverse_remainder",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "exact symmetry trial",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "Z free block is identity",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "Z parity zeros 0",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "Z parity zeros 1",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude m",
+      "actual": "306145749395439862289416813609925524309606510128097045750897/3064991081731777716716694054300618367237478244367204352",
+      "relation": "<",
+      "required": "160000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude cov",
+      "actual": "11443971208003591629886474150834327428787319761440769457/196159429230833773869868419475239575503198607639501078528",
+      "relation": "<",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude z",
+      "actual": "11646681170323711514243605776964676149130910939431/22835963083295358096932575511191922182123945984",
+      "relation": "<",
+      "required": "529",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude a",
+      "actual": "27971577221806415907379587667516544798549380937167390114760577473592231811856575475163211411/1989292945639146568621528992587283360401824603189390869761855907572637988050133502132224",
+      "relation": "<",
+      "required": "250000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude h",
+      "actual": "4897765558027282261019475580567080706130559766579734684141785/49039857307708443467467104868809893875799651909875269632",
+      "relation": "<",
+      "required": "250000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude g",
+      "actual": "6556692870827434593395452016844135696158441586740590847030871393/12855504354071922204335696738729300820177623950262342682411008",
+      "relation": "<",
+      "required": "10000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude x",
+      "actual": "605247749409223700132195029839681102113807375217607563/23945242826029513411849172299223580994042798784118784",
+      "relation": "<",
+      "required": "10000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude y",
+      "actual": "199963767172649223553871952584733120330889427212268113669634869136716402679374721441621177/7957171782556586274486115970349133441607298412757563479047423630290551952200534008528896",
+      "relation": "<",
+      "required": "10000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude head_inverse_remainder",
+      "actual": "31904676371697555455939826017869961949657013226577/11972621413014756705924586149611790497021399392059392",
+      "relation": "<",
+      "required": "400000000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude trial",
+      "actual": "5393436338653589896520046151412437574865245605542300753/11972621413014756705924586149611790497021399392059392",
+      "relation": "<",
+      "required": "400040001",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude factor",
+      "actual": "1434669409171272901340912354312165857146714499946372657/2993155353253689176481146537402947624255349848014848",
+      "relation": "<",
+      "required": "90000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude residual_H",
+      "actual": "4493422873938401668564925309375141781391674164723291589655261/7957171782556586274486115970349133441607298412757563479047423630290551952200534008528896",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude residual_A",
+      "actual": "741991972651379167002113781399190919526156325716734098647621665598763628961945827785885040531/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "complete stored magnitude factor_reconstruction",
+      "actual": "56225721306038702334041/11972621413014756705924586149611790497021399392059392",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "exact H assembly error",
+      "actual": "4469260360348092503976326951255776353109/45136303822209112191067452800590465702150794852088225464320000000000",
+      "relation": "<",
+      "required": "1/10000000000000000",
+      "passed": true
+    },
+    {
+      "name": "exact Gram assembly error",
+      "actual": "1064232639900828183967831287937434360067749360846082230546359281/521481209941628438084722096232800809229175908778479680162851955034721612739414196782949728256",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "exact H solve residual",
+      "actual": "7606706913347184483514723027435629386263682196043483683299574018393288838647927/293567822846729153486185074598667128421960318613539983838411371441526128139326055432962374798096087878991872",
+      "relation": "<",
+      "required": "1/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "exact A solve residual",
+      "actual": "213569761585619773545731935195259113524054065066997670562696547681702303298231594306325943231361930955750465682898914489180842490657406354980151/15458150092069033378781407563727949377195709318825739994628941005806076569158241698144775066327690311849854464126008708709460314644171950622971634693868322994787923259293696",
+      "relation": "<",
+      "required": "1/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "exact Zhat transpose X magnitude",
+      "actual": "51463319905584769655503114054569995570435198470284049305072994315547120490082857456774100647/2037035976334486086268445688409378161051468393665936250636140449354381299763336706183397376",
+      "relation": "<",
+      "required": "5294601",
+      "passed": true
+    },
+    {
+      "name": "exact Ghat Y magnitude",
+      "actual": "1256229572507564100823751087179973754240353792012751441739924436069536466187949727433876527162648507091541390312821726223189533327393186567869245927/49947976805055875702105555676690660891977570282639538413746511354005947821116249921924897649015871538557230897942505966327167610868612564900642816",
+      "relation": "<",
+      "required": "100020001",
+      "passed": true
+    },
+    {
+      "name": "exact B assembly error",
+      "actual": "2697220503580324069125079035546037849619321606720515332567278415720632354873722260924360174666540130136229593558624743/99895953610111751404211111353381321783955140565279076827493022708011895642232499843849795298031743077114461795885011932654335221737225129801285632",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "exact trial assembly error",
+      "actual": "321496190665557605513992011432472233/128555043540719222043356967387293008201776239502623426824110080000",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "exact full factor reconstruction",
+      "actual": "75027491723258677641072046374369759766787866597266904961766734709163214837/17917957937422433684459538244547554224973163977877196279199912807710334969441287563047019946172856926208",
+      "relation": "<",
+      "required": "1/1000000000000",
+      "passed": true
+    },
+    {
+      "name": "qualified exact basis conversion",
+      "actual": "207486510976777517743881327848059496833105697903498624945241227025830897105840344052665048367/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "relation": "<",
+      "required": "1/100000000000000",
+      "passed": true
+    },
+    {
+      "name": "qualified eta_A lo",
+      "actual": "1524721/6250000000",
+      "relation": "==",
+      "required": "1524721/6250000000",
+      "passed": true
+    },
+    {
+      "name": "qualified eta_A hi",
+      "actual": "1524721/6250000000",
+      "relation": "==",
+      "required": "1524721/6250000000",
+      "passed": true
+    },
+    {
+      "name": "original ledger H assembly",
+      "actual": "3125/1125899906842624",
+      "relation": "<",
+      "required": "1/100000000",
+      "passed": true
+    },
+    {
+      "name": "original ledger solve product and subtraction",
+      "actual": "450800655793555192907/79228162514255330394289209344",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "original ledger solve total",
+      "actual": "654188820876491268151243823/6189700196426197687053844480000000",
+      "relation": "<",
+      "required": "1/1000000",
+      "passed": true
+    },
+    {
+      "name": "original ledger Gram total including exact-neutral conversion",
+      "actual": "5291775051571881381396093022207/87960930222070000000000000000000000000000",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "original ledger B products subtraction and symmetrization",
+      "actual": "3599581167013053175/2475880078570479074821537792",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "original ledger factor product and subtraction total",
+      "actual": "21552573787623866551340139/193428131138318677720432640000000",
+      "relation": "<",
+      "required": "1/1000000",
+      "passed": true
+    },
+    {
+      "name": "original ledger trial conversion and assembly",
+      "actual": "15625/281474976710656",
+      "relation": "<",
+      "required": "1/10000000",
+      "passed": true
+    },
+    {
+      "name": "exact claimed e_B",
+      "actual": "5952684418352310837/186959221000000000000",
+      "relation": "==",
+      "required": "5952684418352310837/186959221000000000000",
+      "passed": true
+    },
+    {
+      "name": "exact claimed finite slack",
+      "actual": "3395052467541710163/186959221000000000000",
+      "relation": "==",
+      "required": "3395052467541710163/186959221000000000000",
+      "passed": true
+    },
+    {
+      "name": "finite slack threshold",
+      "actual": "3395052467541710163/186959221000000000000",
+      "relation": ">",
+      "required": "363/20000",
+      "passed": true
+    },
+    {
+      "name": "reference inverse norm bound",
+      "actual": "1000000/239999",
+      "relation": "<",
+      "required": "5",
+      "passed": true
+    },
+    {
+      "name": "entire parity moment tail",
+      "actual": "4/400298493",
+      "relation": "<",
+      "required": "1/100000000",
+      "passed": true
+    },
+    {
+      "name": "exact tail coefficient",
+      "actual": "2003070307/6140000000",
+      "relation": "==",
+      "required": "2003070307/6140000000",
+      "passed": true
+    },
+    {
+      "name": "tail coefficient below head",
+      "actual": "2003070307/6140000000",
+      "relation": "<",
+      "required": "1981/2000",
+      "passed": true
+    },
+    {
+      "name": "head bound unchanged",
+      "actual": "1981/2000",
+      "relation": "==",
+      "required": "1981/2000",
+      "passed": true
+    },
+    {
+      "name": "threshold one",
+      "actual": "1981/2000",
+      "relation": "<",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "input preserved energy-image-inverse-613.json",
+      "actual": "3d76e31333906b1df7282435b5376bf7e10e55d20a8a4ef1bfa54fcfb116ae6e",
+      "relation": "==",
+      "required": "3d76e31333906b1df7282435b5376bf7e10e55d20a8a4ef1bfa54fcfb116ae6e",
+      "passed": true
+    },
+    {
+      "name": "input preserved neutral-head-covariance-audit-561.json",
+      "actual": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+      "relation": "==",
+      "required": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+      "passed": true
+    },
+    {
+      "name": "input preserved fixed-block-metric-audit-557.json",
+      "actual": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+      "relation": "==",
+      "required": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+      "passed": true
+    },
+    {
+      "name": "input preserved neutral-head-covariance-559.npz",
+      "actual": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+      "relation": "==",
+      "required": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+      "passed": true
+    },
+    {
+      "name": "input preserved neutral-head-covariance-559.json",
+      "actual": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "relation": "==",
+      "required": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+      "passed": true
+    },
+    {
+      "name": "input preserved complete-covariance-532.npz",
+      "actual": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "relation": "==",
+      "required": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "passed": true
+    },
+    {
+      "name": "input preserved energy-image-inverse-613.npz",
+      "actual": "1bfcd09f6602c563b2f0d70715709b02159f286b61c47a47886e4794f9e3b287",
+      "relation": "==",
+      "required": "1bfcd09f6602c563b2f0d70715709b02159f286b61c47a47886e4794f9e3b287",
+      "passed": true
+    },
+    {
+      "name": "input preserved energy-image-inverse-613.py",
+      "actual": "6e838701174ccc1b03d19650b3235bff33d695d370be49cda473c69081c230a1",
+      "relation": "==",
+      "required": "6e838701174ccc1b03d19650b3235bff33d695d370be49cda473c69081c230a1",
+      "passed": true
+    }
+  ],
+  "evidence": {
+    "complete stored magnitude m": {
+      "exact_squared_frobenius": "306145749395439862289416813609925524309606510128097045750897/3064991081731777716716694054300618367237478244367204352",
+      "required_norm": "400",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "complete stored magnitude cov": {
+      "exact_squared_frobenius": "11443971208003591629886474150834327428787319761440769457/196159429230833773869868419475239575503198607639501078528",
+      "required_norm": "1",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "complete stored magnitude z": {
+      "exact_squared_frobenius": "11646681170323711514243605776964676149130910939431/22835963083295358096932575511191922182123945984",
+      "required_norm": "23",
+      "shape": [
+        512,
+        510
+      ]
+    },
+    "complete stored magnitude a": {
+      "exact_squared_frobenius": "27971577221806415907379587667516544798549380937167390114760577473592231811856575475163211411/1989292945639146568621528992587283360401824603189390869761855907572637988050133502132224",
+      "required_norm": "500",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "complete stored magnitude h": {
+      "exact_squared_frobenius": "4897765558027282261019475580567080706130559766579734684141785/49039857307708443467467104868809893875799651909875269632",
+      "required_norm": "500",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "complete stored magnitude g": {
+      "exact_squared_frobenius": "6556692870827434593395452016844135696158441586740590847030871393/12855504354071922204335696738729300820177623950262342682411008",
+      "required_norm": "100",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "complete stored magnitude x": {
+      "exact_squared_frobenius": "605247749409223700132195029839681102113807375217607563/23945242826029513411849172299223580994042798784118784",
+      "required_norm": "100",
+      "shape": [
+        512,
+        510
+      ]
+    },
+    "complete stored magnitude y": {
+      "exact_squared_frobenius": "199963767172649223553871952584733120330889427212268113669634869136716402679374721441621177/7957171782556586274486115970349133441607298412757563479047423630290551952200534008528896",
+      "required_norm": "100",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "complete stored magnitude head_inverse_remainder": {
+      "exact_squared_frobenius": "31904676371697555455939826017869961949657013226577/11972621413014756705924586149611790497021399392059392",
+      "required_norm": "20000",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "complete stored magnitude trial": {
+      "exact_squared_frobenius": "5393436338653589896520046151412437574865245605542300753/11972621413014756705924586149611790497021399392059392",
+      "required_norm": "20001",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "complete stored magnitude factor": {
+      "exact_squared_frobenius": "1434669409171272901340912354312165857146714499946372657/2993155353253689176481146537402947624255349848014848",
+      "required_norm": "300",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "complete stored magnitude residual_H": {
+      "exact_squared_frobenius": "4493422873938401668564925309375141781391674164723291589655261/7957171782556586274486115970349133441607298412757563479047423630290551952200534008528896",
+      "required_norm": "1/10000000",
+      "shape": [
+        512,
+        510
+      ]
+    },
+    "complete stored magnitude residual_A": {
+      "exact_squared_frobenius": "741991972651379167002113781399190919526156325716734098647621665598763628961945827785885040531/2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747493376",
+      "required_norm": "1/10000000",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "complete stored magnitude factor_reconstruction": {
+      "exact_squared_frobenius": "56225721306038702334041/11972621413014756705924586149611790497021399392059392",
+      "required_norm": "1/10000000",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "exact H assembly error": {
+      "exact_squared_frobenius": "4469260360348092503976326951255776353109/45136303822209112191067452800590465702150794852088225464320000000000",
+      "required_norm": "1/100000000",
+      "shape": [
+        512,
+        512
+      ]
+    },
+    "exact Gram assembly error": {
+      "exact_squared_frobenius": "1064232639900828183967831287937434360067749360846082230546359281/521481209941628438084722096232800809229175908778479680162851955034721612739414196782949728256",
+      "required_norm": "1/10000000",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "exact H solve residual": {
+      "exact_squared_frobenius": "7606706913347184483514723027435629386263682196043483683299574018393288838647927/293567822846729153486185074598667128421960318613539983838411371441526128139326055432962374798096087878991872",
+      "required_norm": "1/1000000",
+      "shape": [
+        512,
+        510
+      ]
+    },
+    "exact A solve residual": {
+      "exact_squared_frobenius": "213569761585619773545731935195259113524054065066997670562696547681702303298231594306325943231361930955750465682898914489180842490657406354980151/15458150092069033378781407563727949377195709318825739994628941005806076569158241698144775066327690311849854464126008708709460314644171950622971634693868322994787923259293696",
+      "required_norm": "1/1000000",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "exact Zhat transpose X magnitude": {
+      "exact_squared_frobenius": "51463319905584769655503114054569995570435198470284049305072994315547120490082857456774100647/2037035976334486086268445688409378161051468393665936250636140449354381299763336706183397376",
+      "required_norm": "2301",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "exact Ghat Y magnitude": {
+      "exact_squared_frobenius": "1256229572507564100823751087179973754240353792012751441739924436069536466187949727433876527162648507091541390312821726223189533327393186567869245927/49947976805055875702105555676690660891977570282639538413746511354005947821116249921924897649015871538557230897942505966327167610868612564900642816",
+      "required_norm": "10001",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "exact B assembly error": {
+      "exact_squared_frobenius": "2697220503580324069125079035546037849619321606720515332567278415720632354873722260924360174666540130136229593558624743/99895953610111751404211111353381321783955140565279076827493022708011895642232499843849795298031743077114461795885011932654335221737225129801285632",
+      "required_norm": "1/10000000",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "exact trial assembly error": {
+      "exact_squared_frobenius": "321496190665557605513992011432472233/128555043540719222043356967387293008201776239502623426824110080000",
+      "required_norm": "1/10000000",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "exact full factor reconstruction": {
+      "exact_squared_frobenius": "75027491723258677641072046374369759766787866597266904961766734709163214837/17917957937422433684459538244547554224973163977877196279199912807710334969441287563047019946172856926208",
+      "required_norm": "1/1000000",
+      "shape": [
+        510,
+        510
+      ]
+    },
+    "rounding_ledger": {
+      "H assembly": {
+        "actual": "3125/1125899906842624",
+        "required": "1/100000000"
+      },
+      "solve product and subtraction": {
+        "actual": "450800655793555192907/79228162514255330394289209344",
+        "required": "1/10000000"
+      },
+      "solve total": {
+        "actual": "654188820876491268151243823/6189700196426197687053844480000000",
+        "required": "1/1000000"
+      },
+      "Gram total including exact-neutral conversion": {
+        "actual": "5291775051571881381396093022207/87960930222070000000000000000000000000000",
+        "required": "1/10000000"
+      },
+      "B products subtraction and symmetrization": {
+        "actual": "3599581167013053175/2475880078570479074821537792",
+        "required": "1/10000000"
+      },
+      "factor product and subtraction total": {
+        "actual": "21552573787623866551340139/193428131138318677720432640000000",
+        "required": "1/1000000"
+      },
+      "trial conversion and assembly": {
+        "actual": "15625/281474976710656",
+        "required": "1/10000000"
+      }
+    },
+    "analytic_scalar_bounds": {
+      "eta_A": "1524721/6250000000",
+      "e_X": "200000001/23999900000000",
+      "e_Y": "6099159/194750000",
+      "e_B": "5952684418352310837/186959221000000000000",
+      "finite_slack": "3395052467541710163/186959221000000000000",
+      "entire_moment_tail_squared": "4/400298493",
+      "head": "1981/2000",
+      "tail": "2003070307/6140000000"
+    }
+  },
+  "failures": [],
+  "summary": {
+    "passed": true,
+    "check_count": 105,
+    "finite_slack": "3395052467541710163/186959221000000000000",
+    "squared_norm_upper": "1981/2000",
+    "required_upper": "1"
+  },
+  "qualifications": [
+    "C999k/l/s and audits557/561/611 remain qualified inputs.",
+    "No validation of analytic response, original core or c_star source.",
+    "Exact finite integer checks do not remove inherited IEEE754/Decimal contracts.",
+    "Full projection and infinite-neutral argument is in C999t Section7."
+  ]
+}

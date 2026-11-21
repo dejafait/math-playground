@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "independent_exact_polynomial_rows_checked": 993,
+  "exact_rational_interval_inclusions_checked": 993,
+  "summary": {
+    "complete_through_requested_horizon": true,
+    "upper_envelope_base2_rate_required": 4,
+    "lower_endpoint_base2_rate_required": "1/100",
+    "upper_envelope_failures": [],
+    "sections": [
+      {
+        "last_row": 64,
+        "endpoint_index": 66,
+        "endpoint_log2_abs_lower_floor": 5,
+        "endpoint_log2_abs_upper_ceiling": 6,
+        "required_lower_power_ceiling": 1,
+        "lower_threshold_pass": true,
+        "max_upper_log2_per_step_so_far": "7/32",
+        "max_upper_rate_index": 64
+      },
+      {
+        "last_row": 128,
+        "endpoint_index": 130,
+        "endpoint_log2_abs_lower_floor": 21,
+        "endpoint_log2_abs_upper_ceiling": 22,
+        "required_lower_power_ceiling": 1,
+        "lower_threshold_pass": true,
+        "max_upper_log2_per_step_so_far": "11/47",
+        "max_upper_rate_index": 126
+      },
+      {
+        "last_row": 256,
+        "endpoint_index": 258,
+        "endpoint_log2_abs_lower_floor": 36,
+        "endpoint_log2_abs_upper_ceiling": 37,
+        "required_lower_power_ceiling": 3,
+        "lower_threshold_pass": true,
+        "max_upper_log2_per_step_so_far": "8/33",
+        "max_upper_rate_index": 131
+      },
+      {
+        "last_row": 512,
+        "endpoint_index": 514,
+        "endpoint_log2_abs_lower_floor": 98,
+        "endpoint_log2_abs_upper_ceiling": 99,
+        "required_lower_power_ceiling": 5,
+        "lower_threshold_pass": true,
+        "max_upper_log2_per_step_so_far": "8/33",
+        "max_upper_rate_index": 131
+      },
+      {
+        "last_row": 1024,
+        "endpoint_index": 1026,
+        "endpoint_log2_abs_lower_floor": 227,
+        "endpoint_log2_abs_upper_ceiling": 228,
+        "required_lower_power_ceiling": 10,
+        "lower_threshold_pass": true,
+        "max_upper_log2_per_step_so_far": "8/33",
+        "max_upper_rate_index": 131
+      }
+    ],
+    "infinite_horizon_verified": false,
+    "unpaid": [
+      "eventual nonzero forward pivots or singular-row treatment",
+      "section-independent finite exponential upper bound",
+      "positive infinite exponential limsup"
+    ]
+  },
+  "scope": "all stored finite rows and bounds; no infinite inference"
+}

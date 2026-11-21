@@ -1,0 +1,2311 @@
+{
+  "method": "Q(u), u^2=-3; derivative/Vandermonde denominators; integer Bareiss",
+  "original_certificate": "adjacent-degree-five-exact.json",
+  "coefficients": [
+    1,
+    10,
+    36,
+    59,
+    50,
+    24
+  ],
+  "terms": [
+    {
+      "shift": 3,
+      "subset": [
+        "4",
+        "3",
+        "2"
+      ],
+      "base": {
+        "u_coordinates": [
+          "24",
+          "0"
+        ],
+        "norm_squared": "576"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "273",
+          "0"
+        ],
+        "norm_squared": "74529"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "192/91",
+          "0"
+        ],
+        "norm_squared": "36864/8281"
+      }
+    },
+    {
+      "shift": 3,
+      "subset": [
+        "4",
+        "3",
+        "w"
+      ],
+      "base": {
+        "u_coordinates": [
+          "6",
+          "6"
+        ],
+        "norm_squared": "144"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "3",
+          "-33"
+        ],
+        "norm_squared": "3276"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "-204/91",
+          "-60/91"
+        ],
+        "norm_squared": "576/91"
+      }
+    },
+    {
+      "shift": 3,
+      "subset": [
+        "4",
+        "3",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "6",
+          "-6"
+        ],
+        "norm_squared": "144"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "3",
+          "33"
+        ],
+        "norm_squared": "3276"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "-204/91",
+          "60/91"
+        ],
+        "norm_squared": "576/91"
+      }
+    },
+    {
+      "shift": 3,
+      "subset": [
+        "4",
+        "2",
+        "w"
+      ],
+      "base": {
+        "u_coordinates": [
+          "4",
+          "4"
+        ],
+        "norm_squared": "64"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "-12",
+          "15"
+        ],
+        "norm_squared": "819"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "608/273",
+          "32/273"
+        ],
+        "norm_squared": "4096/819"
+      }
+    },
+    {
+      "shift": 3,
+      "subset": [
+        "4",
+        "2",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "4",
+          "-4"
+        ],
+        "norm_squared": "64"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "-12",
+          "-15"
+        ],
+        "norm_squared": "819"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "608/273",
+          "-32/273"
+        ],
+        "norm_squared": "4096/819"
+      }
+    },
+    {
+      "shift": 3,
+      "subset": [
+        "4",
+        "w",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "4",
+          "0"
+        ],
+        "norm_squared": "16"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "42",
+          "0"
+        ],
+        "norm_squared": "1764"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "8/21",
+          "0"
+        ],
+        "norm_squared": "64/441"
+      }
+    },
+    {
+      "shift": 3,
+      "subset": [
+        "3",
+        "2",
+        "w"
+      ],
+      "base": {
+        "u_coordinates": [
+          "3",
+          "3"
+        ],
+        "norm_squared": "36"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "33",
+          "-27"
+        ],
+        "norm_squared": "3276"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "-57/91",
+          "3/91"
+        ],
+        "norm_squared": "36/91"
+      }
+    },
+    {
+      "shift": 3,
+      "subset": [
+        "3",
+        "2",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "3",
+          "-3"
+        ],
+        "norm_squared": "36"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "33",
+          "27"
+        ],
+        "norm_squared": "3276"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "-57/91",
+          "-3/91"
+        ],
+        "norm_squared": "36/91"
+      }
+    },
+    {
+      "shift": 3,
+      "subset": [
+        "3",
+        "w",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "3",
+          "0"
+        ],
+        "norm_squared": "9"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "-39",
+          "0"
+        ],
+        "norm_squared": "1521"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "-3/13",
+          "0"
+        ],
+        "norm_squared": "9/169"
+      }
+    },
+    {
+      "shift": 3,
+      "subset": [
+        "2",
+        "w",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "2",
+          "0"
+        ],
+        "norm_squared": "4"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "182",
+          "0"
+        ],
+        "norm_squared": "33124"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "2/91",
+          "0"
+        ],
+        "norm_squared": "4/8281"
+      }
+    },
+    {
+      "shift": 4,
+      "subset": [
+        "4",
+        "3",
+        "2",
+        "w"
+      ],
+      "base": {
+        "u_coordinates": [
+          "12",
+          "12"
+        ],
+        "norm_squared": "576"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "-51/2",
+          "15/2"
+        ],
+        "norm_squared": "819"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "-4/91",
+          "-44/91"
+        ],
+        "norm_squared": "64/91"
+      }
+    },
+    {
+      "shift": 4,
+      "subset": [
+        "4",
+        "3",
+        "2",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "12",
+          "-12"
+        ],
+        "norm_squared": "576"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "-51/2",
+          "-15/2"
+        ],
+        "norm_squared": "819"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "-4/91",
+          "44/91"
+        ],
+        "norm_squared": "64/91"
+      }
+    },
+    {
+      "shift": 4,
+      "subset": [
+        "4",
+        "3",
+        "w",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "12",
+          "0"
+        ],
+        "norm_squared": "144"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "6",
+          "0"
+        ],
+        "norm_squared": "36"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "2",
+          "0"
+        ],
+        "norm_squared": "4"
+      }
+    },
+    {
+      "shift": 4,
+      "subset": [
+        "4",
+        "2",
+        "w",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "8",
+          "0"
+        ],
+        "norm_squared": "64"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "-7",
+          "0"
+        ],
+        "norm_squared": "49"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "-8/7",
+          "0"
+        ],
+        "norm_squared": "64/49"
+      }
+    },
+    {
+      "shift": 4,
+      "subset": [
+        "3",
+        "2",
+        "w",
+        "wbar"
+      ],
+      "base": {
+        "u_coordinates": [
+          "6",
+          "0"
+        ],
+        "norm_squared": "36"
+      },
+      "cross_denominator": {
+        "u_coordinates": [
+          "26",
+          "0"
+        ],
+        "norm_squared": "676"
+      },
+      "coefficient": {
+        "u_coordinates": [
+          "3/13",
+          "0"
+        ],
+        "norm_squared": "9/169"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "all polynomial coefficients",
+      "actual": "['1', '10', '36', '59', '50', '24']",
+      "required": "['1', '10', '36', '59', '50', '24']",
+      "passed": true
+    },
+    {
+      "name": "variable 4",
+      "actual": "(Fraction(4, 1), Fraction(0, 1))",
+      "required": "(Fraction(4, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "characteristic root 4",
+      "actual": "(Fraction(0, 1), Fraction(0, 1))",
+      "required": "(Fraction(0, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "variable 3",
+      "actual": "(Fraction(3, 1), Fraction(0, 1))",
+      "required": "(Fraction(3, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "characteristic root 3",
+      "actual": "(Fraction(0, 1), Fraction(0, 1))",
+      "required": "(Fraction(0, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "variable 2",
+      "actual": "(Fraction(2, 1), Fraction(0, 1))",
+      "required": "(Fraction(2, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "characteristic root 2",
+      "actual": "(Fraction(0, 1), Fraction(0, 1))",
+      "required": "(Fraction(0, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "variable w",
+      "actual": "(Fraction(1, 2), Fraction(1, 2))",
+      "required": "(Fraction(1, 2), Fraction(1, 2))",
+      "passed": true
+    },
+    {
+      "name": "characteristic root w",
+      "actual": "(Fraction(0, 1), Fraction(0, 1))",
+      "required": "(Fraction(0, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "variable wbar",
+      "actual": "(Fraction(1, 2), Fraction(-1, 2))",
+      "required": "(Fraction(1, 2), Fraction(-1, 2))",
+      "passed": true
+    },
+    {
+      "name": "characteristic root wbar",
+      "actual": "(Fraction(0, 1), Fraction(0, 1))",
+      "required": "(Fraction(0, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "difference 4/3",
+      "actual": "(Fraction(1, 1), Fraction(0, 1))",
+      "required": "(Fraction(1, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "difference norm 4/3",
+      "actual": "1",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "distinct 4/3",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "difference 4/2",
+      "actual": "(Fraction(2, 1), Fraction(0, 1))",
+      "required": "(Fraction(2, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "difference norm 4/2",
+      "actual": "4",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "distinct 4/2",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "difference 4/w",
+      "actual": "(Fraction(7, 2), Fraction(-1, 2))",
+      "required": "(Fraction(7, 2), Fraction(-1, 2))",
+      "passed": true
+    },
+    {
+      "name": "difference norm 4/w",
+      "actual": "13",
+      "required": "13",
+      "passed": true
+    },
+    {
+      "name": "distinct 4/w",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "difference 4/wbar",
+      "actual": "(Fraction(7, 2), Fraction(1, 2))",
+      "required": "(Fraction(7, 2), Fraction(1, 2))",
+      "passed": true
+    },
+    {
+      "name": "difference norm 4/wbar",
+      "actual": "13",
+      "required": "13",
+      "passed": true
+    },
+    {
+      "name": "distinct 4/wbar",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "difference 3/2",
+      "actual": "(Fraction(1, 1), Fraction(0, 1))",
+      "required": "(Fraction(1, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "difference norm 3/2",
+      "actual": "1",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "distinct 3/2",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "difference 3/w",
+      "actual": "(Fraction(5, 2), Fraction(-1, 2))",
+      "required": "(Fraction(5, 2), Fraction(-1, 2))",
+      "passed": true
+    },
+    {
+      "name": "difference norm 3/w",
+      "actual": "7",
+      "required": "7",
+      "passed": true
+    },
+    {
+      "name": "distinct 3/w",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "difference 3/wbar",
+      "actual": "(Fraction(5, 2), Fraction(1, 2))",
+      "required": "(Fraction(5, 2), Fraction(1, 2))",
+      "passed": true
+    },
+    {
+      "name": "difference norm 3/wbar",
+      "actual": "7",
+      "required": "7",
+      "passed": true
+    },
+    {
+      "name": "distinct 3/wbar",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "difference 2/w",
+      "actual": "(Fraction(3, 2), Fraction(-1, 2))",
+      "required": "(Fraction(3, 2), Fraction(-1, 2))",
+      "passed": true
+    },
+    {
+      "name": "difference norm 2/w",
+      "actual": "3",
+      "required": "3",
+      "passed": true
+    },
+    {
+      "name": "distinct 2/w",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "difference 2/wbar",
+      "actual": "(Fraction(3, 2), Fraction(1, 2))",
+      "required": "(Fraction(3, 2), Fraction(1, 2))",
+      "passed": true
+    },
+    {
+      "name": "difference norm 2/wbar",
+      "actual": "3",
+      "required": "3",
+      "passed": true
+    },
+    {
+      "name": "distinct 2/wbar",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "difference w/wbar",
+      "actual": "(Fraction(0, 1), Fraction(1, 1))",
+      "required": "(Fraction(0, 1), Fraction(1, 1))",
+      "passed": true
+    },
+    {
+      "name": "difference norm w/wbar",
+      "actual": "3",
+      "required": "3",
+      "passed": true
+    },
+    {
+      "name": "distinct w/wbar",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "complete subset list shift3",
+      "actual": "[['4', '3', '2'], ['4', '3', 'w'], ['4', '3', 'wbar'], ['4', '2', 'w'], ['4', '2', 'wbar'], ['4', 'w', 'wbar'], ['3', '2', 'w'], ['3', '2', 'wbar'], ['3', 'w', 'wbar'], ['2', 'w', 'wbar']]",
+      "required": "[['4', '3', '2'], ['4', '3', 'w'], ['4', '3', 'wbar'], ['4', '2', 'w'], ['4', '2', 'wbar'], ['4', 'w', 'wbar'], ['3', '2', 'w'], ['3', '2', 'wbar'], ['3', 'w', 'wbar'], ['2', 'w', 'wbar']]",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/base",
+      "actual": "(Fraction(24, 1), Fraction(0, 1))",
+      "required": "(Fraction(24, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/base/norm",
+      "actual": "576",
+      "required": "576",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/base/upper",
+      "actual": "24",
+      "required": "24",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/cross_denominator",
+      "actual": "(Fraction(273, 1), Fraction(0, 1))",
+      "required": "(Fraction(273, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/cross_denominator/norm",
+      "actual": "74529",
+      "required": "74529",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/cross_denominator/upper",
+      "actual": "273",
+      "required": "273",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/coefficient",
+      "actual": "(Fraction(192, 91), Fraction(0, 1))",
+      "required": "(Fraction(192, 91), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/coefficient/norm",
+      "actual": "36864/8281",
+      "required": "36864/8281",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/coefficient/upper",
+      "actual": "192/91",
+      "required": "192/91",
+      "passed": true
+    },
+    {
+      "name": "4,3,2/conjugation",
+      "actual": "(Fraction(192, 91), Fraction(0, 1))",
+      "required": "(Fraction(192, 91), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/base",
+      "actual": "(Fraction(6, 1), Fraction(6, 1))",
+      "required": "(Fraction(6, 1), Fraction(6, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/base/norm",
+      "actual": "144",
+      "required": "144",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/base/upper",
+      "actual": "12",
+      "required": "12",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/cross_denominator",
+      "actual": "(Fraction(3, 1), Fraction(-33, 1))",
+      "required": "(Fraction(3, 1), Fraction(-33, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/cross_denominator/norm",
+      "actual": "3276",
+      "required": "3276",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/cross_denominator/upper",
+      "actual": "102",
+      "required": "102",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/coefficient",
+      "actual": "(Fraction(-204, 91), Fraction(-60, 91))",
+      "required": "(Fraction(-204, 91), Fraction(-60, 91))",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/coefficient/norm",
+      "actual": "576/91",
+      "required": "576/91",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/coefficient/upper",
+      "actual": "264/91",
+      "required": "264/91",
+      "passed": true
+    },
+    {
+      "name": "4,3,w/conjugation",
+      "actual": "(Fraction(-204, 91), Fraction(60, 91))",
+      "required": "(Fraction(-204, 91), Fraction(60, 91))",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/base",
+      "actual": "(Fraction(6, 1), Fraction(-6, 1))",
+      "required": "(Fraction(6, 1), Fraction(-6, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/base/norm",
+      "actual": "144",
+      "required": "144",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/base/upper",
+      "actual": "24",
+      "required": "24",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/cross_denominator",
+      "actual": "(Fraction(3, 1), Fraction(33, 1))",
+      "required": "(Fraction(3, 1), Fraction(33, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/cross_denominator/norm",
+      "actual": "3276",
+      "required": "3276",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/cross_denominator/upper",
+      "actual": "96",
+      "required": "96",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/coefficient",
+      "actual": "(Fraction(-204, 91), Fraction(60, 91))",
+      "required": "(Fraction(-204, 91), Fraction(60, 91))",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/coefficient/norm",
+      "actual": "576/91",
+      "required": "576/91",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/coefficient/upper",
+      "actual": "384/91",
+      "required": "384/91",
+      "passed": true
+    },
+    {
+      "name": "4,3,wbar/conjugation",
+      "actual": "(Fraction(-204, 91), Fraction(-60, 91))",
+      "required": "(Fraction(-204, 91), Fraction(-60, 91))",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/base",
+      "actual": "(Fraction(4, 1), Fraction(4, 1))",
+      "required": "(Fraction(4, 1), Fraction(4, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/base/norm",
+      "actual": "64",
+      "required": "64",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/base/upper",
+      "actual": "8",
+      "required": "8",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/cross_denominator",
+      "actual": "(Fraction(-12, 1), Fraction(15, 1))",
+      "required": "(Fraction(-12, 1), Fraction(15, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/cross_denominator/norm",
+      "actual": "819",
+      "required": "819",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/cross_denominator/upper",
+      "actual": "57",
+      "required": "57",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/coefficient",
+      "actual": "(Fraction(608, 273), Fraction(32, 273))",
+      "required": "(Fraction(608, 273), Fraction(32, 273))",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/coefficient/norm",
+      "actual": "4096/819",
+      "required": "4096/819",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/coefficient/upper",
+      "actual": "640/273",
+      "required": "640/273",
+      "passed": true
+    },
+    {
+      "name": "4,2,w/conjugation",
+      "actual": "(Fraction(608, 273), Fraction(-32, 273))",
+      "required": "(Fraction(608, 273), Fraction(-32, 273))",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/base",
+      "actual": "(Fraction(4, 1), Fraction(-4, 1))",
+      "required": "(Fraction(4, 1), Fraction(-4, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/base/norm",
+      "actual": "64",
+      "required": "64",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/base/upper",
+      "actual": "16",
+      "required": "16",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/cross_denominator",
+      "actual": "(Fraction(-12, 1), Fraction(-15, 1))",
+      "required": "(Fraction(-12, 1), Fraction(-15, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/cross_denominator/norm",
+      "actual": "819",
+      "required": "819",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/cross_denominator/upper",
+      "actual": "33",
+      "required": "33",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/coefficient",
+      "actual": "(Fraction(608, 273), Fraction(-32, 273))",
+      "required": "(Fraction(608, 273), Fraction(-32, 273))",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/coefficient/norm",
+      "actual": "4096/819",
+      "required": "4096/819",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/coefficient/upper",
+      "actual": "704/273",
+      "required": "704/273",
+      "passed": true
+    },
+    {
+      "name": "4,2,wbar/conjugation",
+      "actual": "(Fraction(608, 273), Fraction(32, 273))",
+      "required": "(Fraction(608, 273), Fraction(32, 273))",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/base",
+      "actual": "(Fraction(4, 1), Fraction(0, 1))",
+      "required": "(Fraction(4, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/base/norm",
+      "actual": "16",
+      "required": "16",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/base/upper",
+      "actual": "4",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/cross_denominator",
+      "actual": "(Fraction(42, 1), Fraction(0, 1))",
+      "required": "(Fraction(42, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/cross_denominator/norm",
+      "actual": "1764",
+      "required": "1764",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/cross_denominator/upper",
+      "actual": "42",
+      "required": "42",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/coefficient",
+      "actual": "(Fraction(8, 21), Fraction(0, 1))",
+      "required": "(Fraction(8, 21), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/coefficient/norm",
+      "actual": "64/441",
+      "required": "64/441",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/coefficient/upper",
+      "actual": "8/21",
+      "required": "8/21",
+      "passed": true
+    },
+    {
+      "name": "4,w,wbar/conjugation",
+      "actual": "(Fraction(8, 21), Fraction(0, 1))",
+      "required": "(Fraction(8, 21), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/base",
+      "actual": "(Fraction(3, 1), Fraction(3, 1))",
+      "required": "(Fraction(3, 1), Fraction(3, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/base/norm",
+      "actual": "36",
+      "required": "36",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/base/upper",
+      "actual": "6",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/cross_denominator",
+      "actual": "(Fraction(33, 1), Fraction(-27, 1))",
+      "required": "(Fraction(33, 1), Fraction(-27, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/cross_denominator/norm",
+      "actual": "3276",
+      "required": "3276",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/cross_denominator/upper",
+      "actual": "114",
+      "required": "114",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/coefficient",
+      "actual": "(Fraction(-57, 91), Fraction(3, 91))",
+      "required": "(Fraction(-57, 91), Fraction(3, 91))",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/coefficient/norm",
+      "actual": "36/91",
+      "required": "36/91",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/coefficient/upper",
+      "actual": "66/91",
+      "required": "66/91",
+      "passed": true
+    },
+    {
+      "name": "3,2,w/conjugation",
+      "actual": "(Fraction(-57, 91), Fraction(-3, 91))",
+      "required": "(Fraction(-57, 91), Fraction(-3, 91))",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/base",
+      "actual": "(Fraction(3, 1), Fraction(-3, 1))",
+      "required": "(Fraction(3, 1), Fraction(-3, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/base/norm",
+      "actual": "36",
+      "required": "36",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/base/upper",
+      "actual": "12",
+      "required": "12",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/cross_denominator",
+      "actual": "(Fraction(33, 1), Fraction(27, 1))",
+      "required": "(Fraction(33, 1), Fraction(27, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/cross_denominator/norm",
+      "actual": "3276",
+      "required": "3276",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/cross_denominator/upper",
+      "actual": "60",
+      "required": "60",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/coefficient",
+      "actual": "(Fraction(-57, 91), Fraction(-3, 91))",
+      "required": "(Fraction(-57, 91), Fraction(-3, 91))",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/coefficient/norm",
+      "actual": "36/91",
+      "required": "36/91",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/coefficient/upper",
+      "actual": "60/91",
+      "required": "60/91",
+      "passed": true
+    },
+    {
+      "name": "3,2,wbar/conjugation",
+      "actual": "(Fraction(-57, 91), Fraction(3, 91))",
+      "required": "(Fraction(-57, 91), Fraction(3, 91))",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/base",
+      "actual": "(Fraction(3, 1), Fraction(0, 1))",
+      "required": "(Fraction(3, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/base/norm",
+      "actual": "9",
+      "required": "9",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/base/upper",
+      "actual": "3",
+      "required": "3",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/cross_denominator",
+      "actual": "(Fraction(-39, 1), Fraction(0, 1))",
+      "required": "(Fraction(-39, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/cross_denominator/norm",
+      "actual": "1521",
+      "required": "1521",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/cross_denominator/upper",
+      "actual": "39",
+      "required": "39",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/coefficient",
+      "actual": "(Fraction(-3, 13), Fraction(0, 1))",
+      "required": "(Fraction(-3, 13), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/coefficient/norm",
+      "actual": "9/169",
+      "required": "9/169",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/coefficient/upper",
+      "actual": "3/13",
+      "required": "3/13",
+      "passed": true
+    },
+    {
+      "name": "3,w,wbar/conjugation",
+      "actual": "(Fraction(-3, 13), Fraction(0, 1))",
+      "required": "(Fraction(-3, 13), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/base",
+      "actual": "(Fraction(2, 1), Fraction(0, 1))",
+      "required": "(Fraction(2, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/base/norm",
+      "actual": "4",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/base/upper",
+      "actual": "2",
+      "required": "2",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/cross_denominator",
+      "actual": "(Fraction(182, 1), Fraction(0, 1))",
+      "required": "(Fraction(182, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/cross_denominator/norm",
+      "actual": "33124",
+      "required": "33124",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/cross_denominator/upper",
+      "actual": "182",
+      "required": "182",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/coefficient",
+      "actual": "(Fraction(2, 91), Fraction(0, 1))",
+      "required": "(Fraction(2, 91), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/coefficient/norm",
+      "actual": "4/8281",
+      "required": "4/8281",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/coefficient/upper",
+      "actual": "2/91",
+      "required": "2/91",
+      "passed": true
+    },
+    {
+      "name": "2,w,wbar/conjugation",
+      "actual": "(Fraction(2, 91), Fraction(0, 1))",
+      "required": "(Fraction(2, 91), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "complete subset list shift4",
+      "actual": "[['4', '3', '2', 'w'], ['4', '3', '2', 'wbar'], ['4', '3', 'w', 'wbar'], ['4', '2', 'w', 'wbar'], ['3', '2', 'w', 'wbar']]",
+      "required": "[['4', '3', '2', 'w'], ['4', '3', '2', 'wbar'], ['4', '3', 'w', 'wbar'], ['4', '2', 'w', 'wbar'], ['3', '2', 'w', 'wbar']]",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/base",
+      "actual": "(Fraction(12, 1), Fraction(12, 1))",
+      "required": "(Fraction(12, 1), Fraction(12, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/base/norm",
+      "actual": "576",
+      "required": "576",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/base/upper",
+      "actual": "24",
+      "required": "24",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/cross_denominator",
+      "actual": "(Fraction(-51, 2), Fraction(15, 2))",
+      "required": "(Fraction(-51, 2), Fraction(15, 2))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/cross_denominator/norm",
+      "actual": "819",
+      "required": "819",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/cross_denominator/upper",
+      "actual": "48",
+      "required": "48",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/coefficient",
+      "actual": "(Fraction(-4, 91), Fraction(-44, 91))",
+      "required": "(Fraction(-4, 91), Fraction(-44, 91))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/coefficient/norm",
+      "actual": "64/91",
+      "required": "64/91",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/coefficient/upper",
+      "actual": "128/91",
+      "required": "128/91",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,w/conjugation",
+      "actual": "(Fraction(-4, 91), Fraction(44, 91))",
+      "required": "(Fraction(-4, 91), Fraction(44, 91))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/base",
+      "actual": "(Fraction(12, 1), Fraction(-12, 1))",
+      "required": "(Fraction(12, 1), Fraction(-12, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/base/norm",
+      "actual": "576",
+      "required": "576",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/base/upper",
+      "actual": "48",
+      "required": "48",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/cross_denominator",
+      "actual": "(Fraction(-51, 2), Fraction(-15, 2))",
+      "required": "(Fraction(-51, 2), Fraction(-15, 2))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/cross_denominator/norm",
+      "actual": "819",
+      "required": "819",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/cross_denominator/upper",
+      "actual": "33",
+      "required": "33",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/coefficient",
+      "actual": "(Fraction(-4, 91), Fraction(44, 91))",
+      "required": "(Fraction(-4, 91), Fraction(44, 91))",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/coefficient/norm",
+      "actual": "64/91",
+      "required": "64/91",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/coefficient/upper",
+      "actual": "136/91",
+      "required": "136/91",
+      "passed": true
+    },
+    {
+      "name": "4,3,2,wbar/conjugation",
+      "actual": "(Fraction(-4, 91), Fraction(-44, 91))",
+      "required": "(Fraction(-4, 91), Fraction(-44, 91))",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/base",
+      "actual": "(Fraction(12, 1), Fraction(0, 1))",
+      "required": "(Fraction(12, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/base/norm",
+      "actual": "144",
+      "required": "144",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/base/upper",
+      "actual": "12",
+      "required": "12",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/cross_denominator",
+      "actual": "(Fraction(6, 1), Fraction(0, 1))",
+      "required": "(Fraction(6, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/cross_denominator/norm",
+      "actual": "36",
+      "required": "36",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/cross_denominator/upper",
+      "actual": "6",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/coefficient",
+      "actual": "(Fraction(2, 1), Fraction(0, 1))",
+      "required": "(Fraction(2, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/coefficient/norm",
+      "actual": "4",
+      "required": "4",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/coefficient/upper",
+      "actual": "2",
+      "required": "2",
+      "passed": true
+    },
+    {
+      "name": "4,3,w,wbar/conjugation",
+      "actual": "(Fraction(2, 1), Fraction(0, 1))",
+      "required": "(Fraction(2, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/base",
+      "actual": "(Fraction(8, 1), Fraction(0, 1))",
+      "required": "(Fraction(8, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/base/norm",
+      "actual": "64",
+      "required": "64",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/base/upper",
+      "actual": "8",
+      "required": "8",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/cross_denominator",
+      "actual": "(Fraction(-7, 1), Fraction(0, 1))",
+      "required": "(Fraction(-7, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/cross_denominator/norm",
+      "actual": "49",
+      "required": "49",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/cross_denominator/upper",
+      "actual": "7",
+      "required": "7",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/coefficient",
+      "actual": "(Fraction(-8, 7), Fraction(0, 1))",
+      "required": "(Fraction(-8, 7), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/coefficient/norm",
+      "actual": "64/49",
+      "required": "64/49",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/coefficient/upper",
+      "actual": "8/7",
+      "required": "8/7",
+      "passed": true
+    },
+    {
+      "name": "4,2,w,wbar/conjugation",
+      "actual": "(Fraction(-8, 7), Fraction(0, 1))",
+      "required": "(Fraction(-8, 7), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/base",
+      "actual": "(Fraction(6, 1), Fraction(0, 1))",
+      "required": "(Fraction(6, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/base/norm",
+      "actual": "36",
+      "required": "36",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/base/upper",
+      "actual": "6",
+      "required": "6",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/cross_denominator",
+      "actual": "(Fraction(26, 1), Fraction(0, 1))",
+      "required": "(Fraction(26, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/cross_denominator/norm",
+      "actual": "676",
+      "required": "676",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/cross_denominator/upper",
+      "actual": "26",
+      "required": "26",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/coefficient",
+      "actual": "(Fraction(3, 13), Fraction(0, 1))",
+      "required": "(Fraction(3, 13), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/coefficient/norm",
+      "actual": "9/169",
+      "required": "9/169",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/coefficient/upper",
+      "actual": "3/13",
+      "required": "3/13",
+      "passed": true
+    },
+    {
+      "name": "3,2,w,wbar/conjugation",
+      "actual": "(Fraction(3, 13), Fraction(0, 1))",
+      "required": "(Fraction(3, 13), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "all remainder base norms shift3",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "all remainder base norms shift4",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "period six",
+      "actual": "(Fraction(1, 1), Fraction(0, 1))",
+      "required": "(Fraction(1, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "all six leading phases",
+      "actual": "['-8/91', '128/91', '136/91', '8/91', '-128/91', '-136/91']",
+      "required": "['-8/91', '128/91', '136/91', '8/91', '-128/91', '-136/91']",
+      "passed": true
+    },
+    {
+      "name": "shift3_remainder_coefficient_sum_upper",
+      "actual": "3839/273",
+      "required": "3839/273",
+      "passed": true
+    },
+    {
+      "name": "shift4_remainder_coefficient_sum_upper",
+      "actual": "307/91",
+      "required": "307/91",
+      "passed": true
+    },
+    {
+      "name": "shift3_normalized_error_at_onset",
+      "actual": "3839/17891328",
+      "required": "3839/17891328",
+      "passed": true
+    },
+    {
+      "name": "shift4_normalized_error_at_onset",
+      "actual": "307/5963776",
+      "required": "307/5963776",
+      "passed": true
+    },
+    {
+      "name": "shift3_actual_margin",
+      "actual": "37744897/17891328",
+      "required": "37744897/17891328",
+      "passed": true
+    },
+    {
+      "name": "shift4_actual_negative_margin",
+      "actual": "1273227/851968",
+      "required": "1273227/851968",
+      "passed": true
+    },
+    {
+      "name": "strict all-rank shift3 margin at onset16",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "strict residue5 margin at onset16",
+      "actual": "True",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank1",
+      "actual": "(Fraction(59, 1), Fraction(0, 1))",
+      "required": "(Fraction(59, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank2",
+      "actual": "(Fraction(1681, 1), Fraction(0, 1))",
+      "required": "(Fraction(1681, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank3",
+      "actual": "(Fraction(34923, 1), Fraction(0, 1))",
+      "required": "(Fraction(34923, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank4",
+      "actual": "(Fraction(698817, 1), Fraction(0, 1))",
+      "required": "(Fraction(698817, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank5",
+      "actual": "(Fraction(15830979, 1), Fraction(0, 1))",
+      "required": "(Fraction(15830979, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank6",
+      "actual": "(Fraction(390929161, 1), Fraction(0, 1))",
+      "required": "(Fraction(390929161, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank7",
+      "actual": "(Fraction(9671236379, 1), Fraction(0, 1))",
+      "required": "(Fraction(9671236379, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank8",
+      "actual": "(Fraction(234018890065, 1), Fraction(0, 1))",
+      "required": "(Fraction(234018890065, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank9",
+      "actual": "(Fraction(5596472447475, 1), Fraction(0, 1))",
+      "required": "(Fraction(5596472447475, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank10",
+      "actual": "(Fraction(133788526769625, 1), Fraction(0, 1))",
+      "required": "(Fraction(133788526769625, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank11",
+      "actual": "(Fraction(3207466623877515, 1), Fraction(0, 1))",
+      "required": "(Fraction(3207466623877515, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank12",
+      "actual": "(Fraction(77014247752217761, 1), Fraction(0, 1))",
+      "required": "(Fraction(77014247752217761, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank13",
+      "actual": "(Fraction(1849266880370318819, 1), Fraction(0, 1))",
+      "required": "(Fraction(1849266880370318819, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank14",
+      "actual": "(Fraction(44388464395983804841, 1), Fraction(0, 1))",
+      "required": "(Fraction(44388464395983804841, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank15",
+      "actual": "(Fraction(1065262309720906304763, 1), Fraction(0, 1))",
+      "required": "(Fraction(1065262309720906304763, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank16",
+      "actual": "(Fraction(25564689551995814913777, 1), Fraction(0, 1))",
+      "required": "(Fraction(25564689551995814913777, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift3 rank17",
+      "actual": "(Fraction(613542035358467386569939, 1), Fraction(0, 1))",
+      "required": "(Fraction(613542035358467386569939, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank1",
+      "actual": "(Fraction(50, 1), Fraction(0, 1))",
+      "required": "(Fraction(50, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank2",
+      "actual": "(Fraction(1084, 1), Fraction(0, 1))",
+      "required": "(Fraction(1084, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank3",
+      "actual": "(Fraction(4136, 1), Fraction(0, 1))",
+      "required": "(Fraction(4136, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank4",
+      "actual": "(Fraction(-429584, 1), Fraction(0, 1))",
+      "required": "(Fraction(-429584, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank5",
+      "actual": "(Fraction(-11438176, 1), Fraction(0, 1))",
+      "required": "(Fraction(-11438176, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank6",
+      "actual": "(Fraction(-11117120, 1), Fraction(0, 1))",
+      "required": "(Fraction(-11117120, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank7",
+      "actual": "(Fraction(6520631936, 1), Fraction(0, 1))",
+      "required": "(Fraction(6520631936, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank8",
+      "actual": "(Fraction(165349338880, 1), Fraction(0, 1))",
+      "required": "(Fraction(165349338880, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank9",
+      "actual": "(Fraction(242415311360, 1), Fraction(0, 1))",
+      "required": "(Fraction(242415311360, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank10",
+      "actual": "(Fraction(-89060156072960, 1), Fraction(0, 1))",
+      "required": "(Fraction(-89060156072960, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank11",
+      "actual": "(Fraction(-2272684545955840, 1), Fraction(0, 1))",
+      "required": "(Fraction(-2272684545955840, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank12",
+      "actual": "(Fraction(-3192825827692544, 1), Fraction(0, 1))",
+      "required": "(Fraction(-3192825827692544, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank13",
+      "actual": "(Fraction(1233076078973788160, 1), Fraction(0, 1))",
+      "required": "(Fraction(1233076078973788160, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank14",
+      "actual": "(Fraction(31440562133629517824, 1), Fraction(0, 1))",
+      "required": "(Fraction(31440562133629517824, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank15",
+      "actual": "(Fraction(44413831783232208896, 1), Fraction(0, 1))",
+      "required": "(Fraction(44413831783232208896, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank16",
+      "actual": "(Fraction(-17042724763956142997504, 1), Fraction(0, 1))",
+      "required": "(Fraction(-17042724763956142997504, 1), Fraction(0, 1))",
+      "passed": true
+    },
+    {
+      "name": "Bareiss/formula shift4 rank17",
+      "actual": "(Fraction(-434594467739067272790016, 1), Fraction(0, 1))",
+      "required": "(Fraction(-434594467739067272790016, 1), Fraction(0, 1))",
+      "passed": true
+    }
+  ],
+  "replays": [
+    {
+      "shift": 3,
+      "rank": 1,
+      "determinant": "59",
+      "formula": {
+        "u_coordinates": [
+          "59",
+          "0"
+        ],
+        "norm_squared": "3481"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 2,
+      "determinant": "1681",
+      "formula": {
+        "u_coordinates": [
+          "1681",
+          "0"
+        ],
+        "norm_squared": "2825761"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 3,
+      "determinant": "34923",
+      "formula": {
+        "u_coordinates": [
+          "34923",
+          "0"
+        ],
+        "norm_squared": "1219615929"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 4,
+      "determinant": "698817",
+      "formula": {
+        "u_coordinates": [
+          "698817",
+          "0"
+        ],
+        "norm_squared": "488345199489"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 5,
+      "determinant": "15830979",
+      "formula": {
+        "u_coordinates": [
+          "15830979",
+          "0"
+        ],
+        "norm_squared": "250619896098441"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 6,
+      "determinant": "390929161",
+      "formula": {
+        "u_coordinates": [
+          "390929161",
+          "0"
+        ],
+        "norm_squared": "152825608920163921"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 7,
+      "determinant": "9671236379",
+      "formula": {
+        "u_coordinates": [
+          "9671236379",
+          "0"
+        ],
+        "norm_squared": "93532813098493031641"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 8,
+      "determinant": "234018890065",
+      "formula": {
+        "u_coordinates": [
+          "234018890065",
+          "0"
+        ],
+        "norm_squared": "54764840907254555704225"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 9,
+      "determinant": "5596472447475",
+      "formula": {
+        "u_coordinates": [
+          "5596472447475",
+          "0"
+        ],
+        "norm_squared": "31320503855346816633875625"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 10,
+      "determinant": "133788526769625",
+      "formula": {
+        "u_coordinates": [
+          "133788526769625",
+          "0"
+        ],
+        "norm_squared": "17899369895186665237822640625"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 11,
+      "determinant": "3207466623877515",
+      "formula": {
+        "u_coordinates": [
+          "3207466623877515",
+          "0"
+        ],
+        "norm_squared": "10287842143288224277133722575225"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 12,
+      "determinant": "77014247752217761",
+      "formula": {
+        "u_coordinates": [
+          "77014247752217761",
+          "0"
+        ],
+        "norm_squared": "5931194356839978452713493963853121"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 13,
+      "determinant": "1849266880370318819",
+      "formula": {
+        "u_coordinates": [
+          "1849266880370318819",
+          "0"
+        ],
+        "norm_squared": "3419787994834571054171965467705554761"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 14,
+      "determinant": "44388464395983804841",
+      "formula": {
+        "u_coordinates": [
+          "44388464395983804841",
+          "0"
+        ],
+        "norm_squared": "1970335771433521888338682144355175035281"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 15,
+      "determinant": "1065262309720906304763",
+      "formula": {
+        "u_coordinates": [
+          "1065262309720906304763",
+          "0"
+        ],
+        "norm_squared": "1134783788511920111088688055781043436486169"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 16,
+      "determinant": "25564689551995814913777",
+      "formula": {
+        "u_coordinates": [
+          "25564689551995814913777",
+          "0"
+        ],
+        "norm_squared": "653553351889923979843921323030754693944405729"
+      }
+    },
+    {
+      "shift": 3,
+      "rank": 17,
+      "determinant": "613542035358467386569939",
+      "formula": {
+        "u_coordinates": [
+          "613542035358467386569939",
+          "0"
+        ],
+        "norm_squared": "376433829151810844803002955006012083343738463721"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 1,
+      "determinant": "50",
+      "formula": {
+        "u_coordinates": [
+          "50",
+          "0"
+        ],
+        "norm_squared": "2500"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 2,
+      "determinant": "1084",
+      "formula": {
+        "u_coordinates": [
+          "1084",
+          "0"
+        ],
+        "norm_squared": "1175056"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 3,
+      "determinant": "4136",
+      "formula": {
+        "u_coordinates": [
+          "4136",
+          "0"
+        ],
+        "norm_squared": "17106496"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 4,
+      "determinant": "-429584",
+      "formula": {
+        "u_coordinates": [
+          "-429584",
+          "0"
+        ],
+        "norm_squared": "184542413056"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 5,
+      "determinant": "-11438176",
+      "formula": {
+        "u_coordinates": [
+          "-11438176",
+          "0"
+        ],
+        "norm_squared": "130831870206976"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 6,
+      "determinant": "-11117120",
+      "formula": {
+        "u_coordinates": [
+          "-11117120",
+          "0"
+        ],
+        "norm_squared": "123590357094400"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 7,
+      "determinant": "6520631936",
+      "formula": {
+        "u_coordinates": [
+          "6520631936",
+          "0"
+        ],
+        "norm_squared": "42518640844783108096"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 8,
+      "determinant": "165349338880",
+      "formula": {
+        "u_coordinates": [
+          "165349338880",
+          "0"
+        ],
+        "norm_squared": "27340403868053079654400"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 9,
+      "determinant": "242415311360",
+      "formula": {
+        "u_coordinates": [
+          "242415311360",
+          "0"
+        ],
+        "norm_squared": "58765183181765745049600"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 10,
+      "determinant": "-89060156072960",
+      "formula": {
+        "u_coordinates": [
+          "-89060156072960",
+          "0"
+        ],
+        "norm_squared": "7931711399739993968843161600"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 11,
+      "determinant": "-2272684545955840",
+      "formula": {
+        "u_coordinates": [
+          "-2272684545955840",
+          "0"
+        ],
+        "norm_squared": "5165095045426502616899230105600"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 12,
+      "determinant": "-3192825827692544",
+      "formula": {
+        "u_coordinates": [
+          "-3192825827692544",
+          "0"
+        ],
+        "norm_squared": "10194136765980578668547393191936"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 13,
+      "determinant": "1233076078973788160",
+      "formula": {
+        "u_coordinates": [
+          "1233076078973788160",
+          "0"
+        ],
+        "norm_squared": "1520476616537371855219536340556185600"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 14,
+      "determinant": "31440562133629517824",
+      "formula": {
+        "u_coordinates": [
+          "31440562133629517824",
+          "0"
+        ],
+        "norm_squared": "988508947278618298208002209874733694976"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 15,
+      "determinant": "44413831783232208896",
+      "formula": {
+        "u_coordinates": [
+          "44413831783232208896",
+          "0"
+        ],
+        "norm_squared": "1972588453669247532779974204107381538816"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 16,
+      "determinant": "-17042724763956142997504",
+      "formula": {
+        "u_coordinates": [
+          "-17042724763956142997504",
+          "0"
+        ],
+        "norm_squared": "290454467379963970050975145414779934150230016"
+      }
+    },
+    {
+      "shift": 4,
+      "rank": 17,
+      "determinant": "-434594467739067272790016",
+      "formula": {
+        "u_coordinates": [
+          "-434594467739067272790016",
+          "0"
+        ],
+        "norm_squared": "188872351389403184536861646592215924536829280256"
+      }
+    }
+  ],
+  "bounds": {
+    "shift3_remainder_coefficient_sum_upper": "3839/273",
+    "shift4_remainder_coefficient_sum_upper": "307/91",
+    "shift3_normalized_error_at_onset": "3839/17891328",
+    "shift4_normalized_error_at_onset": "307/5963776",
+    "shift3_actual_margin": "37744897/17891328",
+    "shift4_actual_negative_margin": "1273227/851968"
+  },
+  "required": "both margins >0; every exact identity holds",
+  "failures": [],
+  "passed": true
+}

@@ -1,0 +1,19 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_PROOF",
+  "seed": 1471,
+  "iterations": 60000,
+  "cap": 60000,
+  "counts": {
+    "singular_or_ill_conditioned": 5,
+    "nonreal_input_pair": 59995,
+    "remaining_quartic_two_real": 0,
+    "other_remaining_counts": {
+      "4": 59995
+    }
+  },
+  "candidates": [],
+  "required": "Exact (2,4) witness including sector and universal preservation, or whole-class impossibility",
+  "limits": "Floating direct-collision screen for one quadratic factor; no exhaustiveness or exact count claim.",
+  "failures": [],
+  "rejected_preliminary_candidate": "Seed1471 iteration2 had an exact retained double root numerically split by imaginary parts of size 9.32e-7. It was NOT a witness. Fourfold-input branches now remove that factor before screening; the same seed is replayed."
+}

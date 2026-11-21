@@ -1,0 +1,55 @@
+{
+  "scope": "Exact rational bounds used in L932; no matrix or coherent-defect verification.",
+  "spectral_enclosure": {
+    "a": {
+      "numerator": 19,
+      "denominator": 100
+    },
+    "b": {
+      "numerator": 221,
+      "denominator": 100
+    },
+    "status": "Analytic eventual enclosure in L932, not checked by this program."
+  },
+  "degree": 16,
+  "q_upper": {
+    "numerator": 11,
+    "denominator": 20
+  },
+  "scalar_error_upper": {
+    "numerator": 45949729863572161,
+    "denominator": 262144000000000000000
+  },
+  "relative_error": {
+    "actual_upper": {
+      "numerator": 10154890299849447581,
+      "denominator": 26214400000000000000000
+    },
+    "required_upper": {
+      "numerator": 1,
+      "denominator": 2500
+    }
+  },
+  "conditional_thresholds": {
+    "required_surrogate_deficit": {
+      "numerator": 1,
+      "denominator": 1000
+    },
+    "resulting_square_deficit": {
+      "numerator": 1,
+      "denominator": 1666
+    }
+  },
+  "checks": {
+    "q_upper_via_squared_endpoint_ratio": true,
+    "error_prefactor": true,
+    "relative_error_below_required": true,
+    "conditional_square_deficit": true,
+    "conditional_deficit_exceeds_three_over_5000": true
+  },
+  "failures": [],
+  "coherent_deficit": {
+    "established": false,
+    "reason": "The full four-term endpoint quadratic form has not been bounded below the required metric."
+  }
+}

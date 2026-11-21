@@ -1,0 +1,7 @@
+# Historical source checkpoint2087
+
+Literature-only review in progress. Main gap: L030-L032/C032a all-degree actual-Xi mixed positivity. The approved intermediate target is review2086's exact signed GC12 diagonal Mellin test. C034s(1)-(18), C034r's hypotheses/conclusion, and stops2076/2077/2079/2084 were inspected; existing local pole noncancellation remains strictly local. No lemma or mathematical script has been changed.
+
+Primary leads retrieved: Landau1905, *Über einen Satz von Tschebyschef*, Math. Ann.61,527-550 (digitized original located, not yet read); Kaczorowski--Pintz1986, *Oscillatory properties of arithmetical functions I*, introduction p173, named Landau/Pólya statements; Bhowmik--Ramaré--Schlage-Puchta, *Tauberian Oscillation Theorems and the Distribution of Goldbach numbers*, JTNB28(2016),291-299, author working PDF pp1-5 (publisher version still to compare). The latter requires nonreal boundary blowup, real-axis bounds and a dyadic mean-square estimate, none supplied for GC12 by C034s. No one-variable identity or new obstruction has been derived.
+
+The proposed source work is now completed or access-qualified in source-notes2087. Landau's original and the publisher2016 PDF were unavailable; accessible primary statements and the author working proof were compared without claiming unavailable readings. This file preserves the earlier unfinished checkpoint; PROGRESS.md alone records current state. The local double residue still cannot count as a full-transform test.

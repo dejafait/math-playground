@@ -1,0 +1,87 @@
+{
+  "step": 2173,
+  "scope": "C919g exact assembly scalars and fixed units only",
+  "scalars": {
+    "B": "9038116652331572962135737621217329139050385873/13463243595254160685006848000000000000",
+    "inverse_B": "13463243595254160685006848000000000000/9038116652331572962135737621217329139050385873",
+    "epsilon_star": "133662268399/267363281250000000000",
+    "head_required_strict_lower": "1/700000000",
+    "tail_required_strict_upper": "1/2000000000",
+    "head_surplus": "386153864346339517369055978782670860949614127/6326681656632101073495016334852130397335270111100000000",
+    "tail_surplus": "9686113/133681640625000000000",
+    "mu": "2391521810089785254051340133803007555506323731458556072673/2416460524487634810130392818297734737977748676083925781250000000000",
+    "required_strict_reserve": "13/14000000000",
+    "surplus_over_reserve": "516829630729435256255913808842888545844449862832187465293/8457611835706721835456374864042071582922120366293740234375000000000"
+  },
+  "D_inverse_squared": [
+    "1",
+    "1/40000",
+    "1/1600000000"
+  ],
+  "boxes": [
+    [
+      "14",
+      "29/2"
+    ],
+    [
+      "41/2",
+      "43/2"
+    ],
+    [
+      "49/2",
+      "51/2"
+    ]
+  ],
+  "checks": [
+    {
+      "name": "B_positive",
+      "passed": true
+    },
+    {
+      "name": "inverse_B_strictly_above_head_threshold",
+      "passed": true
+    },
+    {
+      "name": "epsilon_nonnegative",
+      "passed": true
+    },
+    {
+      "name": "epsilon_strictly_below_tail_threshold",
+      "passed": true
+    },
+    {
+      "name": "threshold_difference_is_claimed_reserve",
+      "passed": true
+    },
+    {
+      "name": "reserve_positive",
+      "passed": true
+    },
+    {
+      "name": "mu_strictly_above_reserve",
+      "passed": true
+    },
+    {
+      "name": "strict_margin_decomposition",
+      "passed": true
+    },
+    {
+      "name": "positive_nonempty_boxes_inside_rectangle",
+      "passed": true
+    },
+    {
+      "name": "distinct_positive_opposite_classes",
+      "passed": true
+    },
+    {
+      "name": "D_real_invertible",
+      "passed": true
+    },
+    {
+      "name": "weights_match_H2_indices",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "qualification": "No verification or replay of component analytic proofs, numerical certificates, or arithmetic backends."
+}

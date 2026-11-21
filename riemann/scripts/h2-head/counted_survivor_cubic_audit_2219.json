@@ -1,0 +1,402 @@
+{
+  "step": "2219",
+  "task": "proof_audit",
+  "classification": "REPRODUCTION",
+  "original_certificate_sha256": "e672a97d3170cc615ad42a749c9abd862098f9a57a9cb1235f874bac539febcf",
+  "original_generator_sha256": "1f767c36bccc6984f72d736bb564a542e43c43046b598229ae08bb0e4cbecfd5",
+  "comparison_count": 25,
+  "comparisons": {
+    "/count/strict_main_lower": {
+      "saved": {
+        "numerator": "350",
+        "denominator": "11"
+      },
+      "independent": {
+        "numerator": "350",
+        "denominator": "11"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/count/strict_error_upper_per_endpoint": {
+      "saved": {
+        "numerator": "22943",
+        "denominator": "2500"
+      },
+      "independent": {
+        "numerator": "22943",
+        "denominator": "2500"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/count/strict_count_lower": {
+      "saved": {
+        "numerator": "185127",
+        "denominator": "13750"
+      },
+      "independent": {
+        "numerator": "185127",
+        "denominator": "13750"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/gap_product": {
+      "saved": {
+        "numerator": "6208047042399",
+        "denominator": "449397601000000000000"
+      },
+      "independent": {
+        "numerator": "6208047042399",
+        "denominator": "449397601000000000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/exterior_product": {
+      "saved": {
+        "numerator": "4004867809290017969",
+        "denominator": "197767969000000000000000000"
+      },
+      "independent": {
+        "numerator": "4004867809290017969",
+        "denominator": "197767969000000000000000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/complete_shell_series_upper": {
+      "saved": {
+        "numerator": "509",
+        "denominator": "9000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent": {
+        "numerator": "509",
+        "denominator": "9000000000000000000000000000000000000000000000000000000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/head_lower_at_4": {
+      "saved": {
+        "numerator": "38539848080638971303675201",
+        "denominator": "2117685254915937544437760000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent": {
+        "numerator": "38539848080638971303675201",
+        "denominator": "2117685254915937544437760000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/tail_upper_at_4": {
+      "saved": {
+        "numerator": "8163833780472700718256906004550528445149",
+        "denominator": "19556084781192480500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent": {
+        "numerator": "8163833780472700718256906004550528445149",
+        "denominator": "19556084781192480500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/strict_margin_at_4": {
+      "saved": {
+        "numerator": "71877338336069450016413729712216765914761886647167954125408830051",
+        "denominator": "3949511755468109585174049058366080500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "independent": {
+        "numerator": "71877338336069450016413729712216765914761886647167954125408830051",
+        "denominator": "3949511755468109585174049058366080500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/head_tail_ratio": {
+      "saved": {
+        "numerator": "2916034726959416459749081500163916668367385864257812500000000",
+        "denominator": "66889253369302664618658915819863921762380740240459701"
+      },
+      "independent": {
+        "numerator": "2916034726959416459749081500163916668367385864257812500000000",
+        "denominator": "66889253369302664618658915819863921762380740240459701"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/all_r/head_extra_shift_lower": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "1600000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "1600000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/all_r/tail_extra_shift_upper": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "1000000000000"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "1000000000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/all_r/relative_extra_shift_upper": {
+      "saved": {
+        "numerator": "1",
+        "denominator": "625"
+      },
+      "independent": {
+        "numerator": "1",
+        "denominator": "625"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/survivor_gaps/0": {
+      "saved": {
+        "numerator": "39159",
+        "denominator": "8410000"
+      },
+      "independent": {
+        "numerator": "39159",
+        "denominator": "8410000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/exterior_factors/0": {
+      "saved": {
+        "numerator": "250049",
+        "denominator": "49000000"
+      },
+      "independent": {
+        "numerator": "250049",
+        "denominator": "49000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/frozen_parameters/boxes/0/0": {
+      "saved": {
+        "numerator": "14",
+        "denominator": "1"
+      },
+      "independent": {
+        "numerator": "14",
+        "denominator": "1"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/frozen_parameters/boxes/0/1": {
+      "saved": {
+        "numerator": "29",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "29",
+        "denominator": "2"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/survivor_gaps/1": {
+      "saved": {
+        "numerator": "38151",
+        "denominator": "18490000"
+      },
+      "independent": {
+        "numerator": "38151",
+        "denominator": "18490000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/exterior_factors/1": {
+      "saved": {
+        "numerator": "4001681",
+        "denominator": "1681000000"
+      },
+      "independent": {
+        "numerator": "4001681",
+        "denominator": "1681000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/frozen_parameters/boxes/1/0": {
+      "saved": {
+        "numerator": "41",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "41",
+        "denominator": "2"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/frozen_parameters/boxes/1/1": {
+      "saved": {
+        "numerator": "43",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "43",
+        "denominator": "2"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/survivor_gaps/2": {
+      "saved": {
+        "numerator": "37399",
+        "denominator": "26010000"
+      },
+      "independent": {
+        "numerator": "37399",
+        "denominator": "26010000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/bounds/exterior_factors/2": {
+      "saved": {
+        "numerator": "4002401",
+        "denominator": "2401000000"
+      },
+      "independent": {
+        "numerator": "4002401",
+        "denominator": "2401000000"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/frozen_parameters/boxes/2/0": {
+      "saved": {
+        "numerator": "49",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "49",
+        "denominator": "2"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    },
+    "/frozen_parameters/boxes/2/1": {
+      "saved": {
+        "numerator": "51",
+        "denominator": "2"
+      },
+      "independent": {
+        "numerator": "51",
+        "denominator": "2"
+      },
+      "saved_denominator_positive": true,
+      "matches": true
+    }
+  },
+  "integer_count_lower": 14,
+  "required_count": 1,
+  "comparison_cross_product": "753688519230823596204110430467174075358373600529407846650046893795573760000000000000000000000000000000000000000000000000000000000000000",
+  "ratio_minus_ten_million_cross_product": "580804232314337283428863167557555966531374578466500468937955737600000000000000000000000000000000000000000000000000000000000000000000000",
+  "original_checks_recomputed": {
+    "exp6_lower_exceeds_200": true,
+    "exp2_lower_exceeds_6": true,
+    "exp2_upper_below_log_argument_lower": true,
+    "error_per_endpoint_is_9_17720": true,
+    "strict_count_exceeds_13": true,
+    "integer_count_lower_is_14": true,
+    "cancelled_boxes_disjoint_below_surviving_band": true,
+    "all_survivor_gaps_positive": true,
+    "head_positive": true,
+    "tail_positive": true,
+    "strict_head_tail_margin": true,
+    "head_tail_ratio_exceeds_ten_million": true,
+    "relative_shift_is_1_over_625": true,
+    "relative_shift_strictly_between_zero_and_one": true
+  },
+  "checks": {
+    "exact:/count/strict_main_lower": true,
+    "exact:/count/strict_error_upper_per_endpoint": true,
+    "exact:/count/strict_count_lower": true,
+    "exact:/bounds/gap_product": true,
+    "exact:/bounds/exterior_product": true,
+    "exact:/bounds/complete_shell_series_upper": true,
+    "exact:/bounds/head_lower_at_4": true,
+    "exact:/bounds/tail_upper_at_4": true,
+    "exact:/bounds/strict_margin_at_4": true,
+    "exact:/bounds/head_tail_ratio": true,
+    "exact:/all_r/head_extra_shift_lower": true,
+    "exact:/all_r/tail_extra_shift_upper": true,
+    "exact:/all_r/relative_extra_shift_upper": true,
+    "exact:/bounds/survivor_gaps/0": true,
+    "exact:/bounds/exterior_factors/0": true,
+    "exact:/frozen_parameters/boxes/0/0": true,
+    "exact:/frozen_parameters/boxes/0/1": true,
+    "exact:/bounds/survivor_gaps/1": true,
+    "exact:/bounds/exterior_factors/1": true,
+    "exact:/frozen_parameters/boxes/1/0": true,
+    "exact:/frozen_parameters/boxes/1/1": true,
+    "exact:/bounds/survivor_gaps/2": true,
+    "exact:/bounds/exterior_factors/2": true,
+    "exact:/frozen_parameters/boxes/2/0": true,
+    "exact:/frozen_parameters/boxes/2/1": true,
+    "frozen_onset_four": true,
+    "frozen_band": true,
+    "frozen_cutoff": true,
+    "box_count_three": true,
+    "gap_factor_count_three": true,
+    "exterior_factor_count_three": true,
+    "count_integer_matches": true,
+    "count_requirement_one": true,
+    "saved_cross_matches": true,
+    "count_strict_fraction": true,
+    "count_integer_is_fourteen": true,
+    "head_exponent_is_twenty": true,
+    "tail_shell_integral_identity": true,
+    "tail_assembled_identity": true,
+    "strict_margin_positive": true,
+    "ratio_exceeds_ten_million_by_integer_comparison": true,
+    "extra_shift_base_one_over_625": true,
+    "extra_shift_base_less_than_one": true,
+    "finite_reality_covers_head": true,
+    "original_check_names_complete": true,
+    "original_check_recomputed:exp6_lower_exceeds_200": true,
+    "original_check_recomputed:exp2_lower_exceeds_6": true,
+    "original_check_recomputed:exp2_upper_below_log_argument_lower": true,
+    "original_check_recomputed:error_per_endpoint_is_9_17720": true,
+    "original_check_recomputed:strict_count_exceeds_13": true,
+    "original_check_recomputed:integer_count_lower_is_14": true,
+    "original_check_recomputed:cancelled_boxes_disjoint_below_surviving_band": true,
+    "original_check_recomputed:all_survivor_gaps_positive": true,
+    "original_check_recomputed:head_positive": true,
+    "original_check_recomputed:tail_positive": true,
+    "original_check_recomputed:strict_head_tail_margin": true,
+    "original_check_recomputed:head_tail_ratio_exceeds_ten_million": true,
+    "original_check_recomputed:relative_shift_is_1_over_625": true,
+    "original_check_recomputed:relative_shift_strictly_between_zero_and_one": true,
+    "original_failures_empty": true,
+    "original_certificate_unchanged": true,
+    "original_generator_unchanged": true
+  },
+  "failures": [],
+  "analytic_scope": "C919k audit2219 proves complete occurrence/tail accounting and every integer r>=4; no finite sampling substitutes for that proof.",
+  "qualifications": [
+    "Correct integer/Fraction arithmetic assumed.",
+    "Platt/Bellotti-Wong source computations remain imported.",
+    "C919f's separate Decimal/libmpdec contract remains.",
+    "No arbitrary-degree, unshifted or RH conclusion."
+  ]
+}

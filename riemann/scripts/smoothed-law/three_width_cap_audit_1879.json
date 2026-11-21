@@ -1,0 +1,172 @@
+{
+  "scope": "Exact rational arithmetic only; analytic inequalities and imported HSW theorem are justified in C034k audit1879.",
+  "all_passed": true,
+  "failures": [],
+  "checks": [
+    {
+      "name": "exp(3/4) partial degree3",
+      "actual": "269/128",
+      "relation": ">",
+      "required": "2",
+      "passed": true
+    },
+    {
+      "name": "exp(11/4) partial degree5",
+      "actual": "1805231/122880",
+      "relation": ">",
+      "required": "14",
+      "passed": true
+    },
+    {
+      "name": "weighted Gaussian quadratic maximum",
+      "actual": "256/441",
+      "relation": "<",
+      "required": "2/3",
+      "passed": true
+    },
+    {
+      "name": "weighted Gaussian middle endpoint",
+      "actual": "-1/16",
+      "relation": "<",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "weighted Gaussian endpoint1",
+      "actual": "7/16",
+      "relation": "<",
+      "required": "2/3",
+      "passed": true
+    },
+    {
+      "name": "inverse sqrt2 comparison, squared",
+      "actual": "1/2",
+      "relation": "<",
+      "required": "9/16",
+      "passed": true
+    },
+    {
+      "name": "absolute member derivative coefficient",
+      "actual": "192161/10000",
+      "relation": "<",
+      "required": "20",
+      "passed": true
+    },
+    {
+      "name": "determinant denominator",
+      "actual": "512000",
+      "relation": "=",
+      "required": "512000",
+      "passed": true
+    },
+    {
+      "name": "exp(3) partial degree8",
+      "actual": "89641/4480",
+      "relation": ">",
+      "required": "20",
+      "passed": true
+    },
+    {
+      "name": "compact excision coefficient",
+      "actual": "2401/19200000000000000",
+      "relation": "<",
+      "required": "1/5000000000000",
+      "passed": true
+    },
+    {
+      "name": "cofactor multiplier",
+      "actual": "92160000",
+      "relation": "=",
+      "required": "92160000",
+      "passed": true
+    },
+    {
+      "name": "sqrt10 comparison, squared",
+      "actual": "10",
+      "relation": ">",
+      "required": "9",
+      "passed": true
+    },
+    {
+      "name": "e upper series bound",
+      "actual": "1631/600",
+      "relation": "<",
+      "required": "11/4",
+      "passed": true
+    },
+    {
+      "name": "exponent bound at S=1/100",
+      "actual": "500000000000001/500000000000000",
+      "relation": "<",
+      "required": "21/20",
+      "passed": true
+    },
+    {
+      "name": "exp(21/20) upper bound",
+      "actual": "55/19",
+      "relation": "<",
+      "required": "3",
+      "passed": true
+    },
+    {
+      "name": "variation excess constant",
+      "actual": "1458/3125",
+      "relation": "=",
+      "required": "1458/3125",
+      "passed": true
+    },
+    {
+      "name": "variation excess threshold",
+      "actual": "1458/3125",
+      "relation": "<",
+      "required": "1/2",
+      "passed": true
+    },
+    {
+      "name": "e lower partial degree3",
+      "actual": "8/3",
+      "relation": "=",
+      "required": "8/3",
+      "passed": true
+    },
+    {
+      "name": "exp(5) lower comparison",
+      "actual": "32768/243",
+      "relation": ">",
+      "required": "100",
+      "passed": true
+    },
+    {
+      "name": "HSW B(100) upper allowance",
+      "actual": "11173/1000",
+      "relation": "=",
+      "required": "11173/1000",
+      "passed": true
+    },
+    {
+      "name": "HSW total upper allowance",
+      "actual": "283519/3000",
+      "relation": "=",
+      "required": "283519/3000",
+      "passed": true
+    },
+    {
+      "name": "inclusive count sufficient threshold",
+      "actual": "283519/3000",
+      "relation": "<",
+      "required": "100",
+      "passed": true
+    },
+    {
+      "name": "S4 sufficient threshold",
+      "actual": "64901/24010000",
+      "relation": "<",
+      "required": "1/100",
+      "passed": true
+    }
+  ],
+  "count_upper": "283519/3000",
+  "S4_upper": "64901/24010000",
+  "TV_upper": "4583/3125",
+  "limitations": "No zero coordinates, transform evaluations, source-wide proof validation, full-observation match or Xi realization. All inherited C034k qualifications remain."
+}

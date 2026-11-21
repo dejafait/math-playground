@@ -1,0 +1,309 @@
+{
+  "step_id": "2026-11-03-centered-gap-complete-spatial-124",
+  "scope": "Exact rational margins only; no verification of the analytic proof or effective gap, arc, rate or onset.",
+  "constants": {
+    "d": {
+      "numerator": 5,
+      "denominator": 4
+    },
+    "R": {
+      "numerator": 11,
+      "denominator": 8
+    },
+    "U": {
+      "numerator": 121,
+      "denominator": 64
+    },
+    "A": {
+      "numerator": 27,
+      "denominator": 10
+    },
+    "K_squared": {
+      "numerator": 353,
+      "denominator": 200
+    }
+  },
+  "checks": [
+    {
+      "name": "rho_squared_identity",
+      "actual": {
+        "numerator": 2824,
+        "denominator": 3025
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 2824,
+        "denominator": 3025
+      },
+      "passed": true
+    },
+    {
+      "name": "rho_squared_strictly_below_one",
+      "actual": {
+        "numerator": 2824,
+        "denominator": 3025
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "beta_real_part_lower_bound",
+      "actual": {
+        "numerator": 67,
+        "denominator": 36
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 67,
+        "denominator": 36
+      },
+      "passed": true
+    },
+    {
+      "name": "beta_modulus_upper_bound",
+      "actual": {
+        "numerator": 27,
+        "denominator": 4
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 27,
+        "denominator": 4
+      },
+      "passed": true
+    },
+    {
+      "name": "extra_variation_mass_upper_bound",
+      "actual": {
+        "numerator": 243,
+        "denominator": 67
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 6,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "small_disk_prefactor_denominator",
+      "actual": {
+        "numerator": 27,
+        "denominator": 16
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 27,
+        "denominator": 16
+      },
+      "passed": true
+    },
+    {
+      "name": "positive_second_moment_upper_bound",
+      "actual": {
+        "numerator": 93312,
+        "denominator": 15625
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 6,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "resolvent_inverse_y_coefficient",
+      "actual": {
+        "numerator": 189,
+        "denominator": 4
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 48,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "two_factor_tail_coefficient",
+      "actual": {
+        "numerator": 60,
+        "denominator": 1
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 60,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "omitted_shifted_ordinate_lower_bound",
+      "actual": {
+        "numerator": 171,
+        "denominator": 400
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "passed": true
+    },
+    {
+      "name": "complete_tail_coefficient",
+      "actual": {
+        "numerator": 640000,
+        "denominator": 2187
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 300,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "endpoint_index_margin_at_q_one",
+      "actual": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "endpoint_index_margin_slope",
+      "actual": {
+        "numerator": 4,
+        "denominator": 5
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "passed": true
+    },
+    {
+      "name": "pole_radius_squared_identity",
+      "actual": {
+        "numerator": 6481,
+        "denominator": 2824
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 6481,
+        "denominator": 2824
+      },
+      "passed": true
+    },
+    {
+      "name": "all_spatial_poles_outside_151_over_100",
+      "actual": {
+        "numerator": 6481,
+        "denominator": 2824
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 22801,
+        "denominator": 10000
+      },
+      "passed": true
+    },
+    {
+      "name": "outer_denominator_lower_bound",
+      "actual": {
+        "numerator": 1,
+        "denominator": 160
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 1,
+        "denominator": 160
+      },
+      "passed": true
+    },
+    {
+      "name": "interpolation_inner_target_order",
+      "actual": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 3,
+        "denominator": 2
+      },
+      "passed": true
+    },
+    {
+      "name": "interpolation_target_outer_order",
+      "actual": {
+        "numerator": 3,
+        "denominator": 2
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 301,
+        "denominator": 200
+      },
+      "passed": true
+    },
+    {
+      "name": "interpolation_weight_numerator_ratio",
+      "actual": {
+        "numerator": 301,
+        "denominator": 300
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 301,
+        "denominator": 300
+      },
+      "passed": true
+    },
+    {
+      "name": "interpolation_weight_denominator_ratio",
+      "actual": {
+        "numerator": 301,
+        "denominator": 50
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 301,
+        "denominator": 50
+      },
+      "passed": true
+    },
+    {
+      "name": "retained_positive_comb_rate",
+      "actual": {
+        "numerator": 3,
+        "denominator": 20
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 3,
+        "denominator": 20
+      },
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true,
+  "unchecked": [
+    "The assumed fixed centered-gap profile and its local existence proofs.",
+    "Complex measure domination, concentration, comb limits and interval pairing.",
+    "Uniform arc choice and applicability of Hadamard's three-circles theorem.",
+    "The symbolic positive-rate allocation and the final full-polynomial argument."
+  ]
+}

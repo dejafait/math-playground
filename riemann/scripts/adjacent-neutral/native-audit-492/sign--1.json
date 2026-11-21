@@ -1,0 +1,30 @@
+{
+  "sign": -1,
+  "checks": {
+    "indices": true,
+    "all_projection_endpoints": true,
+    "all_257_projection_rows": true,
+    "every_gram_endpoint": true,
+    "every_head_endpoint": true,
+    "every_covariance_endpoint": true,
+    "every_schur_endpoint": true,
+    "symmetric_complete_matrix": true,
+    "matrix_width_below_1e_minus_30": true,
+    "exact_old_width": true,
+    "all_255_fresh_shifted_pivots_positive": true
+  },
+  "finite_lower_bound": {
+    "numerator": 1,
+    "denominator": 25
+  },
+  "maximum_matrix_interval_width": {
+    "numerator": "29",
+    "denominator": "6703903964971298549787012499102923063739682910296196688861780721860882015036773488400937149083451713845015929093243025426876941405973284973216824503042048"
+  },
+  "minimum_fresh_pivot_lower": {
+    "numerator": "3952563219772914797304712327835863609674944789415640318045572265642892063437245757858247427037926662448946026570300890862078186086066234432116825902722789",
+    "denominator": "13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096"
+  },
+  "finite_certificate_sha256": "ff0ca3f1a283c2927eb563dd101ac382250cc7a9da3b2c126d20c347f300286c",
+  "failures": []
+}

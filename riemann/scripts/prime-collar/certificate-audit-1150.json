@@ -1,0 +1,279 @@
+{
+  "scope": "Fixed C750j conceptual and arithmetic audit only; original J allocation unresolved.",
+  "independence": "Original quadrature and reviewed MPFR backend replayed; exact rational full-sum/output checks and fresh C ABI probe. Not a second quadrature implementation or formal library verification.",
+  "abi": {
+    "version": "4.2.2",
+    "header_version": "4.2.2",
+    "sizes": [
+      32,
+      8,
+      4,
+      8,
+      8
+    ],
+    "offsets": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "rounding": [
+      3,
+      2
+    ],
+    "precision": 384,
+    "long_size": 8,
+    "int_size": 4,
+    "ulong_size": 8
+  },
+  "ctypes_sizes": [
+    32,
+    8,
+    4,
+    8,
+    8
+  ],
+  "ctypes_offsets": [
+    0,
+    8,
+    16,
+    24
+  ],
+  "backend_library": "/opt/homebrew/lib/libmpfr.dylib",
+  "decimal_checks": {
+    "endpoints_checked": 65630,
+    "failures": []
+  },
+  "node_failure_indices": [],
+  "full_node_count": 8192,
+  "full_cumulative_block_checks": [
+    {
+      "panels_completed": 256,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 512,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 768,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 1024,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 1280,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 1536,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 1792,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 2048,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 2304,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 2560,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 2816,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 3072,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 3328,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 3584,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 3840,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    },
+    {
+      "panels_completed": 4096,
+      "recorded_index_correct": true,
+      "sum_intersection": true,
+      "sum_discrepancy_below_1e_minus_100": true
+    }
+  ],
+  "checks": {
+    "all_replayed_fields_identical": true,
+    "original_certificate_byte_preserved": true,
+    "all_original_claims_true": true,
+    "original_verification_failures_empty": true,
+    "three_failed_mathematical_tests_preserved": true,
+    "all_dump_endpoints_outward": true,
+    "abi_sizes_match": true,
+    "abi_offsets_match": true,
+    "abi_rounding_match": true,
+    "abi_version_and_precision_match": true,
+    "frozen_parameters": true,
+    "every_node_panel_geometry_and_sign": true,
+    "every_cumulative_sum_checked": true,
+    "all_signed_features_counted": true,
+    "sum_endpoint_width_below_1e_minus_100": true,
+    "capped_energy_ordered": true,
+    "capped_energy_display_lower": true,
+    "capped_energy_display_upper": true,
+    "required_capped_energy_ordered": true,
+    "required_capped_energy_display_lower": true,
+    "required_capped_energy_display_upper": true,
+    "capped_form_ordered": true,
+    "capped_form_display_lower": true,
+    "capped_form_display_upper": true,
+    "kernel_fourth_derivative_majorant_ordered": true,
+    "kernel_fourth_derivative_majorant_display_upper": true,
+    "supported_operator_error_ordered": true,
+    "supported_operator_error_display_upper": true,
+    "phase_cover_error_ordered": true,
+    "phase_cover_error_display_upper": true,
+    "quadratic_error_ordered": true,
+    "quadratic_error_display_upper": true,
+    "base_coercivity_ordered": true,
+    "base_coercivity_display_lower": true,
+    "paid_base_coercivity_ordered": true,
+    "paid_base_coercivity_display_lower": true,
+    "gram_norm_lower_quotient_ordered": true,
+    "gram_norm_lower_quotient_display_lower": true,
+    "gram_norm_lower_quotient_display_upper": true,
+    "paid_gram_norm_lower_quotient_ordered": true,
+    "paid_gram_norm_lower_quotient_display_lower": true,
+    "paid_gram_norm_lower_quotient_display_upper": true,
+    "scalar_arithmetic_width_ordered": true,
+    "scalar_arithmetic_width_display_upper": true,
+    "independent_exact_sum_paid_residual_negative": true,
+    "independent_exact_sum_gram_lower_over_one": true,
+    "independent_exact_sum_paid_gram_lower_over_one": true,
+    "positive_denominators": true,
+    "script_sha256_matches_current_file": true,
+    "backend_sha256_matches_current_file": true
+  },
+  "failures": [],
+  "display_bounds_checked": {
+    "capped_energy": [
+      ".29186289",
+      ".29231410"
+    ],
+    "required_capped_energy": [
+      ".29282701",
+      ".29282702"
+    ],
+    "capped_form": [
+      "-.00096412",
+      "-.00051291155"
+    ],
+    "kernel_fourth_derivative_majorant": [
+      null,
+      "2210.326825"
+    ],
+    "supported_operator_error": [
+      null,
+      ".002862830"
+    ],
+    "phase_cover_error": [
+      null,
+      ".002850085"
+    ],
+    "quadratic_error": [
+      null,
+      ".000225599834"
+    ],
+    "base_coercivity": [
+      "1.83702738",
+      null
+    ],
+    "paid_base_coercivity": [
+      "1.83131447",
+      null
+    ],
+    "gram_norm_lower_quotient": [
+      "1.00510150",
+      "1.00510151"
+    ],
+    "paid_gram_norm_lower_quotient": [
+      "1.00823698",
+      "1.00823700"
+    ],
+    "scalar_arithmetic_width": [
+      null,
+      "7.188e-113"
+    ]
+  },
+  "independent_sum_bounds_exact_rational": [
+    "363754951723586572563233669341557424673764847832009459514910618431847191346513261798282736901959960808366435358825183/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "14550198068943462902529346773662296986950593913280378380596424737273887653860530471931309476078398432334721283244545131/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "independent_paid_residual_upper_exact_rational": "-1282278892263362487964519502164084612986775515822226187899871958760521702821827426018946482261194846067775358825183/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "original_sha256": "963942f3ed7dd02e6a631b48696c64817e9fea18b7d7f4c0c1329d90b8bdb4ef",
+  "replay_sha256": "963942f3ed7dd02e6a631b48696c64817e9fea18b7d7f4c0c1329d90b8bdb4ef",
+  "audit_source_sha256": "a7778a39cbde52f9e316791ca0784778910799297c7302b6e6b6cf2485d59df5",
+  "abi_source_sha256": "307be2d61d35c57d29edad170bbf74f6e2cef1a744030f8f15a8157511b688bc",
+  "replay_path": "scripts/prime-collar/certificate-1148-replay-1150.json",
+  "capped_form": [
+    "-964111224133578230327447417456290505021559448841073840566285445126059228651166544215600173589282879827086e-108",
+    "-512911556905344995185807800865633845194710206328890475159948783504208681128730970407578592904477938428159e-108"
+  ],
+  "required_residual": ">=0",
+  "gram_norm_lower_quotient": [
+    "100510150381236404846465880929463299332361273051605232782395707480332205175038126518259447615104658804761e-104",
+    "100510150381236404846465880929463299332361273051605232782395707480332205175038126518259447615104658804762e-104"
+  ],
+  "required_gram_norm": "<=1",
+  "paid_gram_norm_lower_quotient": [
+    "100823698815279926231553910412966652086292046776280914084499362857661773876320609622870186428025326134334e-104",
+    "100823698815279926231553910412966652086292046776280914084499362857661773876320609622870186428025326134335e-104"
+  ],
+  "failed_mathematical_tests": [
+    "J_T[f]>=8k|C_f(r)| for all supported f",
+    "phase-zero finite Gram norm <=1",
+    "error-paid all-phase sufficient certificate"
+  ]
+}

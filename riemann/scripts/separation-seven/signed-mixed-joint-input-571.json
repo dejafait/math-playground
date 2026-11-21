@@ -1,0 +1,509 @@
+{
+  "parameters": {
+    "N": 512,
+    "J": 32768,
+    "K": 65536,
+    "endpoint_dimension": 1020
+  },
+  "scope": "Complete n>=65536 input tail of B_tilde^(K), fixed562 quarter test",
+  "certified_under_inherited_contracts": true,
+  "script_sha256": "50b506e235a14d35949bfc179207862b910e3d8332c557ec56cda136dc3e1831",
+  "input_hashes": {
+    "signed-mixed-audit-570.json": "57cdbec7ba683e54e58604e507673071d62e786cc9f3db1701126636c0fca167",
+    "signed-mixed-output-tail-565.py": "cb8bbedbc308831471db0675a9c627e434be3c032b6f624ab94952e41668149d",
+    "signed-mixed-output-tail-565.json": "988f6d675ddaea0cde1d24a0008408c91443f63613553c9066cc04b6f8d9dc8a",
+    "signed-mixed-output-tail-565.npz": "40160225acb02138356bf04f8af239b230fae465f6a38864014f6be91bb1a6ae",
+    "signed-mixed-remote-input-tail-566.py": "e69e6caae188fdcf2250e2dd4cc1803d1fb449a953545aa5e1344c59e5ea638f",
+    "signed-mixed-remote-input-tail-566.json": "d69753f4a6ad936d560b6c38838a0acc506994297a33b35b53abb04be3b6c301",
+    "signed-mixed-remote-input-tail-566.npz": "62d18a0351eeaef01dc9f61dccbef41db0131c95b76e08a268af6209884e7ed4",
+    "signed-mixed-predictor-error-567.py": "83ac505dac0b088c1e76c36a375b1672ac53ecce9ee03d609df89d5bd17495c9",
+    "signed-mixed-predictor-error-567.json": "83e62c5710bfdab4b4f29de67361168012bfb80d3b51fbd8936bbf988e0032c2",
+    "signed-mixed-predictor-error-567.npz": "3a17df54748e6c2b1b1d706637d4542288a73b5e154ee7dcec3c379570d745fa",
+    "signed-mixed-local-trial-input-568.py": "a3e329c0706699deb1a1b8d86bd090bbd6e3ef2a1bcef988f9706417164d2ce2",
+    "signed-mixed-local-trial-input-568.json": "41e7b289e5ed0846db0291dfcc6d62c8729e11efcaed36b045ba2992e3cbe28e",
+    "signed-mixed-local-trial-input-568.npz": "c8da0de99e0affd661e06a62b98ee432d0aab4d347ec5d7c053dc96e5f5f9737",
+    "signed-mixed-inverse-input-569.py": "6f84d99ed11a0fc0816dd6a1244e8ab3f8be6d2b550d561072567dd660586d56",
+    "signed-mixed-inverse-input-569.json": "1ea870cce986bedaacf48b329b5700fc0b8dfd1b10b2570620cc47d0fb47731e",
+    "signed-mixed-inverse-input-569.npz": "31ec71e62acb623dd07c5b717804ab038e44d52e685821bc2875566c64137645",
+    "neutral-head-covariance-559.npz": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+    "neutral-head-covariance-559.json": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+    "response-prefix-stop-546.json": "3b577968bea69a054f5d359c875e7a3def42d3ad87018dc5586c983dc7cb14ff",
+    "complete-schur-531.py": "0ca836a6b0a4c9511e1495420b060496718acc083579a7f306e630fd951a83fc",
+    "neutral-head-covariance-audit-561.json": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+    "residual-certificate-532.py": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "signed-mixed-inverse-centers-569.npy": "f6a5c31de5c2ee707c95dc9503f727b7924e246e52a4f5cad670fa602b890a6e"
+  },
+  "coefficient_enclosures": {
+    "local_leading": {
+      "lo": "0.0011779939922888764260320728644415484580637415370711497960998251688278130877643076",
+      "hi": "0.0011779939922888764260320728644415484580637415370711497960998251688278130877643079"
+    },
+    "remote_positive": {
+      "lo": "0.0010777301598097397119070723092486568490943308344113426949581914454849906018416310",
+      "hi": "0.0010777301598097397119070723092486568490943308344113426949581914454849906018416357"
+    },
+    "remote_negative": {
+      "lo": "0.0011314270921220031539828817536442489372339653115122222110926954918078104863471189",
+      "hi": "0.0011314270921220031539828817536442489372339653115122222110926954918078104863471237"
+    },
+    "endpoint_remainders": {
+      "lo": "0.0025917984508858150184996239761765127792813010769712973905784915700043282033696671",
+      "hi": "0.0025917984508858150184996239761765127792813010769712973905784915700043282033696676"
+    },
+    "combined_trial_inverse_boundary": {
+      "lo": "0.0015117453445510111474967528452976504171275510400407440069025260739901018013143767",
+      "hi": "0.0015117453445510111474967528452976504171275510400407440069025260739901018013143832"
+    },
+    "trial_remainder": {
+      "lo": "0.00052499048063676730800426273308177631808692545575139652068076224433448934681902035",
+      "hi": "0.00052499048063676730800426273308177631808692545575139652068076224433448934681902059"
+    },
+    "inverse_moment1": {
+      "lo": "0.56555416249470093015611135581926715407080597357857035201742310463409392485486789",
+      "hi": "0.56555416249470093015611135581926715407080597357857035201742310463409392485487064"
+    },
+    "inverse_moment2": {
+      "lo": "0.21903484296356072136060835126356050143926774510328162736037606512517619916989235",
+      "hi": "0.21903484296356072136060835126356050143926774510328162736037606512517619916989341"
+    },
+    "inverse_continuous": {
+      "lo": "0.000045096028727294704343602832574479741434882881060723576095731033030194135799913729",
+      "hi": "0.000045096028727294704343602832574479741434882881060723576095731033030194135799913746"
+    },
+    "inverse_band": {
+      "lo": "2.0086879564395734339261609463497731151788307635679982879891753677884392043550309",
+      "hi": "2.0086879564395734339261609463497731151788307635679982879891753677884392043550316"
+    }
+  },
+  "exact_dyadic_coefficients": {
+    "local_leading": "0.00117799399228887672654020324358725702040828764438629150390625",
+    "remote_positive": "0.001077730159809739927945226867223027511499822139739990234375",
+    "remote_negative": "0.00113142709212200333855624645451598553336225450038909912109375",
+    "endpoint_remainders": "0.0025917984508858154212018742867940090945921838283538818359375",
+    "combined_trial_inverse_boundary": "0.00151174534455101130560328304142103661433793604373931884765625",
+    "trial_remainder": "0.000524990480636767392098873674655123977572657167911529541015625",
+    "inverse_moment1": "0.56555416249470102929564063742873258888721466064453125",
+    "inverse_moment2": "0.219034842963560738571260344542679376900196075439453125",
+    "inverse_continuous": "0.0000450960287272947094538121104445593800846836529672145843505859375",
+    "inverse_band": "2.00868795643957387397904312820173799991607666015625"
+  },
+  "cauchy_weights": {
+    "local_leading": "12",
+    "remote_positive": "17",
+    "remote_negative": "17",
+    "endpoint_remainders": "32",
+    "combined_trial_inverse_boundary": "16",
+    "trial_remainder": "43",
+    "inverse_moment1": ".011",
+    "inverse_moment2": ".006",
+    "inverse_continuous": ".35",
+    "inverse_band": ".007"
+  },
+  "cauchy_sum": {
+    "lo": "0.203003571949204074497213304457965410421138585661537945270538330078125",
+    "hi": "0.203003571949204074497213304457965410421138585661537945270538330078125"
+  },
+  "gram_scales": {
+    "local_leading": "1",
+    "remote_positive": "1",
+    "remote_negative": "1",
+    "endpoint_remainders": "1",
+    "combined_trial_inverse_boundary": "1",
+    "trial_remainder": "1",
+    "inverse_moment1": ".011",
+    "inverse_moment2": ".006",
+    "inverse_continuous": ".35",
+    "inverse_band": ".007"
+  },
+  "exact_dyadic_gram_weights": {
+    "local_leading": "0.00001992808234744543118845648554948724040514207445085048675537109375",
+    "remote_positive": "0.000012869592472868458010487775766694795720468391664326190948486328125",
+    "remote_negative": "0.00001351080830005105186766324598668376211207942105829715728759765625",
+    "endpoint_remainders": "0.000016442010728194824602070578389856336798402480781078338623046875",
+    "combined_trial_inverse_boundary": "0.0000191806065513397224126836138058393999017425812780857086181640625",
+    "trial_remainder": "0.000002478487042060308187378138422563011999955051578581333160400390625",
+    "inverse_moment1": "0.0012629046662888140754865684556307314778678119182586669921875",
+    "inverse_moment2": "0.000266789133017614958458263441087865430745296180248260498046875",
+    "inverse_continuous": "0.00000320412921932766131308235012242757733247344731353223323822021484375",
+    "inverse_band": "0.0028543958106200654524509108256324907415546476840972900390625"
+  },
+  "diagnostic_only_largest_generalized_eigenvalue": 0.01022474088014413,
+  "proposed_center_norm": "0.104",
+  "reconstruction": {
+    "residual_fro": 2.112691797361831e-16,
+    "factor_squared_fro": 52.19810572490213,
+    "maximum_entry": 0.254574272558898
+  },
+  "weighted_gram_magnitude": 0.05746936157179744,
+  "exact_map_errors": {
+    "local_leading": {
+      "lo": "1E-7",
+      "hi": "1E-7"
+    },
+    "remote_positive": {
+      "lo": "1.4142135623730950488016887242096980785696718753769480731766797379907324784621069E-7",
+      "hi": "1.4142135623730950488016887242096980785696718753769480731766797379907324784621071E-7"
+    },
+    "remote_negative": {
+      "lo": "1.4142135623730950488016887242096980785696718753769480731766797379907324784621069E-7",
+      "hi": "1.4142135623730950488016887242096980785696718753769480731766797379907324784621071E-7"
+    },
+    "endpoint_remainders": {
+      "lo": "1E-14",
+      "hi": "1E-14"
+    },
+    "combined_trial_inverse_boundary": {
+      "lo": "0.20852274289297483411198062666651364945274595522589695651009812836368611786100753",
+      "hi": "0.20852274289297483411198062666651364945274595522589695651009812836368611786100763"
+    },
+    "trial_remainder": {
+      "lo": "1E-7",
+      "hi": "1E-7"
+    },
+    "inverse_moment1": {
+      "lo": "0.00060359939106631092434055143774004939733460233196000269449501767191354086024222513",
+      "hi": "0.00060359939106631092434055143774004939733460233196000269449501767191354086024222515"
+    },
+    "inverse_moment2": {
+      "lo": "0.00057335564950026690800303312435481972007245056555359763013469923179322955749732917",
+      "hi": "0.00057335564950026690800303312435481972007245056555359763013469923179322955749732918"
+    },
+    "inverse_continuous": {
+      "lo": "0.0020517271369839603828855745523822772840092131074462263525432291791144454270741856",
+      "hi": "0.0020517271369839603828855745523822772840092131074462263525432291791144454270741858"
+    },
+    "inverse_band": {
+      "lo": "0.00034413552096284108638657864839448673716306300924574238510248041955950038823519086",
+      "hi": "0.00034413552096284108638657864839448673716306300924574238510248041955950038823519086"
+    }
+  },
+  "scalars": {
+    "new_gram_error": {
+      "lo": "1.2273736754432837582670443416096229712688022170758060388418643483507462097687381E-8",
+      "hi": "1.2273736754432837582670443416096229712688022170758060388418643483507462097687383E-8"
+    },
+    "inherited_gram_error": {
+      "lo": "1.5551915228578610043457281572678145044085659101897700152794971656880733959506043E-7",
+      "hi": "1.5551915228578610043457281572678145044085659101897700152794971656880733959506045E-7"
+    },
+    "weighted_gram_error": {
+      "lo": "6.8334422419650792836103222622149856136629319048693541050283490530109655724792895E-10",
+      "hi": "6.8334422419650792836103222622149856136629319048693541050283490530109655724792908E-10"
+    },
+    "factor_error": {
+      "lo": "3.2342071176852488375506546638718379568824651489806753929468926974037571753412173E-7",
+      "hi": "3.2342071176852488375506546638718379568824651489806753929468926974037571753412176E-7"
+    },
+    "conversion_norm": {
+      "lo": "0.046620748204871082898162436682784987974149835564575609856314304151254204027000005",
+      "hi": "0.046620748204871082898162436682784987974149835564575609856314304151254204027000020"
+    },
+    "neutral_low_correction": {
+      "lo": "0.000029677260584915209340860961208101227677554971129297089289245711515158422240653033",
+      "hi": "0.000029677260584915209340860961208101227677554971129297089289245711515158422240653034"
+    },
+    "complete_input_tail": {
+      "lo": "0.15065042546545599810750329764399308920182739053570490694560354986276936244924065",
+      "hi": "0.15065042546545599810750329764399308920182739053570490694560354986276936244924068"
+    },
+    "required_finite_covariance": {
+      "lo": "0.085440",
+      "hi": "0.085440"
+    }
+  },
+  "rounded_input_bound": "0.151",
+  "previous_complete_input_bound": ".25",
+  "full_mixed_required_norm": ".5",
+  "full_quarter_test_decided": false,
+  "checks": [
+    {
+      "label": "all conceptual-audit570 checks",
+      "passed": true
+    },
+    {
+      "label": "audit570 source",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-output-tail-565.py",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-output-tail-565.json",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-output-tail-565.npz",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-remote-input-tail-566.py",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-remote-input-tail-566.json",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-remote-input-tail-566.npz",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-predictor-error-567.py",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-predictor-error-567.json",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-predictor-error-567.npz",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-local-trial-input-568.py",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-local-trial-input-568.json",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-local-trial-input-568.npz",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-inverse-input-569.py",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-inverse-input-569.json",
+      "passed": true
+    },
+    {
+      "label": "audited input signed-mixed-inverse-input-569.npz",
+      "passed": true
+    },
+    {
+      "label": "complete inherited component checks",
+      "passed": true
+    },
+    {
+      "label": "component input neutral-head-covariance-559.npz",
+      "passed": true
+    },
+    {
+      "label": "component input neutral-head-covariance-559.json",
+      "passed": true
+    },
+    {
+      "label": "component input response-prefix-stop-546.json",
+      "passed": true
+    },
+    {
+      "label": "component input complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "label": "complete inherited component checks",
+      "passed": true
+    },
+    {
+      "label": "component input neutral-head-covariance-559.npz",
+      "passed": true
+    },
+    {
+      "label": "component input neutral-head-covariance-559.json",
+      "passed": true
+    },
+    {
+      "label": "component input complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "label": "component input neutral-head-covariance-audit-561.json",
+      "passed": true
+    },
+    {
+      "label": "complete inherited component checks",
+      "passed": true
+    },
+    {
+      "label": "component input neutral-head-covariance-559.npz",
+      "passed": true
+    },
+    {
+      "label": "component input neutral-head-covariance-559.json",
+      "passed": true
+    },
+    {
+      "label": "component input complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "label": "component input residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "label": "component input complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "label": "component input signed-mixed-local-trial-input-568.json",
+      "passed": true
+    },
+    {
+      "label": "complete inverse artifact signed-mixed-inverse-input-569.npz",
+      "passed": true
+    },
+    {
+      "label": "complete inverse artifact signed-mixed-inverse-centers-569.npy",
+      "passed": true
+    },
+    {
+      "label": "same566 comparison",
+      "passed": true
+    },
+    {
+      "label": "same568 comparison",
+      "passed": true
+    },
+    {
+      "label": "same569 comparison",
+      "passed": true
+    },
+    {
+      "label": "complete symmetric M_cert",
+      "passed": true
+    },
+    {
+      "label": "M_cert Frobenius below400",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "complete basis/trial/combined row magnitudes",
+      "passed": true
+    },
+    {
+      "label": "both full boundary operands below100",
+      "passed": true
+    },
+    {
+      "label": "all new Gram row maps below100",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "directed dyadic coefficient",
+      "passed": true
+    },
+    {
+      "label": "entire joint factor reconstruction",
+      "passed": true
+    },
+    {
+      "label": "weighted Gram assembly magnitude below10000",
+      "passed": true
+    },
+    {
+      "label": "all full stored Grams below10000",
+      "passed": true
+    },
+    {
+      "label": "full joint Gram/factor error below restored margin",
+      "passed": true
+    },
+    {
+      "label": "improves previous complete scalar input allowance .25",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "archive": {
+    "path": "scripts/separation-seven/signed-mixed-joint-input-571.npz",
+    "sha256": "2acf41fecd2f840dfaca10726a55ef9412db29686ec6c071e4ff147a9ff74697"
+  },
+  "qualifications": [
+    "Audited analytic/whole-core/c_star/IEEE754/Decimal contracts retained",
+    "New quantitative specialization not independently audited; no novelty claim",
+    "Finite signed covariance and its arithmetic are still unpaid; locator is not a certificate",
+    "Predictor and inverse-output allowances remain .008 and .163, paid once",
+    "Complement coercivity, C744q, H2, non-neutral coverage and actual-Xi assembly remain open"
+  ]
+}

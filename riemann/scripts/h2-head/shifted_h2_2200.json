@@ -1,0 +1,120 @@
+{
+  "target": "H_(2,r) positive definite for every integer r>=4",
+  "parameters": {
+    "cutoff": 100,
+    "onset": 4,
+    "D": [
+      1,
+      200,
+      40000
+    ]
+  },
+  "arithmetic": {
+    "python": "3.15.2",
+    "proof_values": "CPython int/Fraction; Decimal display only"
+  },
+  "inputs": [
+    "L018",
+    "L024",
+    "L025",
+    "L030",
+    "L467",
+    "L058",
+    "C919e",
+    "C919f",
+    "Platt2017 Theorem5.1"
+  ],
+  "selected_x_upper": {
+    "numerator": "51",
+    "denominator": "2"
+  },
+  "beta_lower": {
+    "numerator": "4",
+    "denominator": "2601"
+  },
+  "head_lower_r4": {
+    "numerator": "256",
+    "denominator": "5727708301326206498092619377734375"
+  },
+  "tail_vector_component_bounds": [
+    {
+      "numerator": "1",
+      "denominator": "1"
+    },
+    {
+      "numerator": "1",
+      "denominator": "2500"
+    },
+    {
+      "numerator": "1",
+      "denominator": "6250000"
+    }
+  ],
+  "tail_vector_factor": {
+    "numerator": "6252501",
+    "denominator": "6250000"
+  },
+  "shell_exponents": {
+    "zero_power": 20,
+    "after_log_bound": 19
+  },
+  "first_shell_after_log": {
+    "numerator": "1",
+    "denominator": "100000000000000000000000000000000000000"
+  },
+  "integral_after_log": {
+    "numerator": "1",
+    "denominator": "18000000000000000000000000000000000000"
+  },
+  "shell_sum_upper": {
+    "numerator": "59",
+    "denominator": "900000000000000000000000000000000000000"
+  },
+  "complete_tail_upper_r4": {
+    "numerator": "368897559",
+    "denominator": "312500000000000000000000000000000000000000000"
+  },
+  "required_head_minus_tail": {
+    "numerator": "0",
+    "denominator": "1"
+  },
+  "actual_head_minus_tail": {
+    "numerator": "204794590879715780418457916658062432486687",
+    "denominator": "4582166641060965198474095502187500000000000000000000000000000000000000000"
+  },
+  "strict_integer_cross_product": "79997887062388976725960123694555637690112109375",
+  "head_over_tail": {
+    "numerator": "204800000000000000000000000000000000000000",
+    "denominator": "5409120284219581542083341937567513313"
+  },
+  "all_r": {
+    "k": "arbitrary integer r-4>=0; not a finite sample",
+    "head_multiplier": "head_step^k",
+    "tail_multiplier": "tail_step^k",
+    "head_step": {
+      "numerator": "16",
+      "denominator": "6765201"
+    },
+    "tail_step": {
+      "numerator": "1",
+      "denominator": "100000000"
+    },
+    "relative_step": {
+      "numerator": "6765201",
+      "denominator": "1600000000"
+    },
+    "conclusion": "h_r-t_r >= head_step^k * (h4-t4)>0; requires analytic bounds in C919h"
+  },
+  "checks": {
+    "frozen_parameters": true,
+    "gram_weights_positive": true,
+    "summation_exponent_gt_one": true,
+    "component_identity": true,
+    "complete_tail_budget_positive": true,
+    "strict_onset_separation": true,
+    "all_integer_shifts_ratio": true,
+    "ratio_identity": true
+  },
+  "failures": [],
+  "limits": "Rational specialization only; no independent source/placement audit, no all-degree or RH conclusion."
+}

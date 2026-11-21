@@ -1,0 +1,116 @@
+{
+  "scope": "Only inverse-output truncation at K65536 in C999m(10)",
+  "certified_under_inherited_contracts": true,
+  "input_hashes": {
+    "neutral-head-covariance-559.npz": "f9e5288f6bc3465f690fca70d1a71537c4df5b405029e9785cd9706a9c0dcf6a",
+    "neutral-head-covariance-559.json": "46b0be409af527bba77ddc848cfeaa433fafb5be246786f3b4c62170ad73e4b9",
+    "neutral-head-covariance-audit-561.json": "711f4d7f3227acdc514c5ffcc9bfc40fabd9a8e554f8f67685c63957f3b9e738",
+    "neutral-head-covariance-audit-561.py": "b0feae39f8adede91f0d152e2ae1e9d9059fee762ef23679591f5883ca4bb4e6",
+    "complete-schur-531.py": "0ca836a6b0a4c9511e1495420b060496718acc083579a7f306e630fd951a83fc"
+  },
+  "source_sha256": "cb8bbedbc308831471db0675a9c627e434be3c032b6f624ab94952e41668149d",
+  "factor": {
+    "target": ".02 M_cert-C_tail",
+    "subtracted_margin": "1e-6",
+    "observed_reconstruction_fro": 4.1740666970602455e-16,
+    "factor_squared_fro": 96.53700126491559,
+    "maximum_entry": 6.009206725922788,
+    "exact_reconstruction_allowance": {
+      "lo": "3.2273736754432837582670443416096229712688022170758060388418643483507462097687381E-7",
+      "hi": "3.2273736754432837582670443416096229712688022170758060388418643483507462097687383E-7"
+    }
+  },
+  "scalar": {
+    "zeta_upper": {
+      "lo": "0.40356715815196197710107270232159364774101755163188058845288241530863056109689271",
+      "hi": "0.40356715815196197710107270232159364774101755163188058845288241530863056109689276"
+    },
+    "exact_predictor_weighted_tail": {
+      "lo": "0.00052025233736051205112283579942626052895468804110731128496093445168353520841036524",
+      "hi": "0.00052025233736051205112283579942626052895468804110731128496093445168353520841036543"
+    },
+    "full_weighted_residual_tail": {
+      "lo": "0.14194160857467001693129170822039606838592187557880211860262890825075678305462105",
+      "hi": "0.14194160857467001693129170822039606838592187557880211860262890825075678305462108"
+    },
+    "normalized_output_error": {
+      "lo": "0.16272452508639563918457559026943915289489778897319985662799332517222249872341573",
+      "hi": "0.16272452508639563918457559026943915289489778897319985662799332517222249872341585"
+    }
+  },
+  "achieved_upper": ".163",
+  "quarter_test_requires_total_mixed_norm_at_most": ".5",
+  "checks": [
+    {
+      "label": "audited full input hash neutral-head-covariance-559.npz",
+      "passed": true
+    },
+    {
+      "label": "audited full input hash neutral-head-covariance-559.json",
+      "passed": true
+    },
+    {
+      "label": "audited source script unchanged",
+      "passed": true
+    },
+    {
+      "label": "all inherited audit561 checks passed",
+      "passed": true
+    },
+    {
+      "label": "all original559 checks passed",
+      "passed": true
+    },
+    {
+      "label": "unchanged reference and family",
+      "passed": true
+    },
+    {
+      "label": "audited exact-predictor free error <.000612",
+      "passed": true
+    },
+    {
+      "label": "audited complete output lower weight",
+      "passed": true
+    },
+    {
+      "label": "complete matrices",
+      "passed": true
+    },
+    {
+      "label": "exact dyadic comparison symmetry",
+      "passed": true
+    },
+    {
+      "label": "entire factor reconstruction below1e-7",
+      "passed": true
+    },
+    {
+      "label": "full inherited factor magnitude ledger",
+      "passed": true
+    },
+    {
+      "label": "exact factor error fits positive margin1e-6",
+      "passed": true
+    },
+    {
+      "label": "complete normalized inverse-output error <.163",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "remaining": [
+    "Complete input covariance beyond65535",
+    "Finite signed covariance arithmetic, exact predictor and finite inverse action",
+    "Independent complementary coercivity and global actual-Xi assembly"
+  ],
+  "archive": {
+    "path": "scripts/separation-seven/signed-mixed-output-tail-565.npz",
+    "sha256": "40160225acb02138356bf04f8af239b230fae465f6a38864014f6be91bb1a6ae"
+  },
+  "qualifications": [
+    "Inherited analytic response and IEEE754/Decimal contracts",
+    "Whole-neutral-core and unreplayed c_star qualifications",
+    "New allowance has no separate independent conceptual audit"
+  ]
+}

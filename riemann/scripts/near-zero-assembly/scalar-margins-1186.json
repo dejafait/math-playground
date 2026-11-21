@@ -1,0 +1,200 @@
+{
+  "step_id": "2026-11-16-near-zero-assembly-audit-1186",
+  "scope": "Exact rational comparisons in C030e. Analytic identities and imported theorems are not certified by this script.",
+  "checks": {
+    "pi_lower": {
+      "actual": {
+        "numerator": 1231847548,
+        "denominator": 392109375
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 3141,
+        "denominator": 1000
+      },
+      "positive_gap": {
+        "numerator": 1856009,
+        "denominator": 3136875000
+      },
+      "passed": true
+    },
+    "pi_upper": {
+      "actual": {
+        "numerator": 670143059704,
+        "denominator": 213311234375
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 22,
+        "denominator": 7
+      },
+      "positive_gap": {
+        "numerator": 1845738322,
+        "denominator": 1493178640625
+      },
+      "passed": true
+    },
+    "log2_lower": {
+      "actual": {
+        "numerator": 842,
+        "denominator": 1215
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 693,
+        "denominator": 1000
+      },
+      "positive_gap": {
+        "numerator": 1,
+        "denominator": 243000
+      },
+      "passed": true
+    },
+    "beta_lower": {
+      "actual": {
+        "numerator": 160083,
+        "denominator": 8000000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 50
+      },
+      "positive_gap": {
+        "numerator": 83,
+        "denominator": 8000000
+      },
+      "passed": true
+    },
+    "time_domain": {
+      "actual": {
+        "numerator": 1,
+        "denominator": 1000000
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 77,
+        "denominator": 20000
+      },
+      "positive_gap": {
+        "numerator": 3849,
+        "denominator": 1000000
+      },
+      "passed": true
+    },
+    "C3_squared": {
+      "actual": {
+        "numerator": 1934917632,
+        "denominator": 299921875
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 16129,
+        "denominator": 2500
+      },
+      "positive_gap": {
+        "numerator": 233347,
+        "denominator": 1199687500
+      },
+      "passed": true
+    },
+    "uniform_polar": {
+      "actual": {
+        "numerator": 352000,
+        "denominator": 27999993
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 13,
+        "denominator": 1000
+      },
+      "positive_gap": {
+        "numerator": 11999909,
+        "denominator": 27999993000
+      },
+      "passed": true
+    },
+    "uniform_prime": {
+      "actual": {
+        "numerator": 1,
+        "denominator": 960012
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 1000
+      },
+      "positive_gap": {
+        "numerator": 239753,
+        "denominator": 240003000
+      },
+      "passed": true
+    },
+    "special_polar": {
+      "actual": {
+        "numerator": 894080,
+        "denominator": 27999923
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 4,
+        "denominator": 125
+      },
+      "positive_gap": {
+        "numerator": 239692,
+        "denominator": 3499990375
+      },
+      "passed": true
+    },
+    "special_prime": {
+      "actual": {
+        "numerator": 4,
+        "denominator": 60003
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 1000
+      },
+      "positive_gap": {
+        "numerator": 56003,
+        "denominator": 60003000
+      },
+      "passed": true
+    },
+    "uniform_margin": {
+      "actual": {
+        "numerator": 353,
+        "denominator": 500
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 7,
+        "denominator": 10
+      },
+      "positive_gap": {
+        "numerator": 3,
+        "denominator": 500
+      },
+      "passed": true
+    },
+    "special_margin": {
+      "actual": {
+        "numerator": 1279,
+        "denominator": 5000
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 4
+      },
+      "positive_gap": {
+        "numerator": 29,
+        "denominator": 5000
+      },
+      "passed": true
+    }
+  },
+  "failures": [],
+  "all_passed": true
+}

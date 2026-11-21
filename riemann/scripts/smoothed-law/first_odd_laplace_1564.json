@@ -1,0 +1,146 @@
+{
+  "scope": "mass-one widths 1,2; first odd jet zero; Laplace derivatives 1 and 2 near positive zero",
+  "assumptions": [
+    "C032j/m/q/s/t/u qualified actual-zero and fixed-v1 inputs",
+    "zeros through 100 on the line; gamma>14; one gamma in (14,15)",
+    "N(100)<40 and sum_gamma_gt_100 gamma^-2<3/25"
+  ],
+  "elementary_constants": [
+    "3<pi<4",
+    "8/3<e<3",
+    "exp(1/16)<16/15"
+  ],
+  "analytic_proof": "drafts/2026-11-18-first-odd-laplace-calculation-1564.md",
+  "checks": [
+    {
+      "name": "universal_high_zero_tail",
+      "actual_exact": "2923649069346999788017871307467061982604063499341923569952413825208915984640532036236729012329020652501013764370974736051105003384361100185310978388671875/135243399970730303066198984938628251268824915465247109664757941510828519054521564025450817507240240101036645118273824941793880975232687497536137978486512531688546991103745301547195268525165168909574203624502064231461895242944399805142629606084361337981321876709820927574016",
+      "required_exact": "1/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "relation": "<",
+      "actual_decimal_preview": 2.1617683894221403e-119,
+      "passed": true
+    },
+    {
+      "name": "P1_lower_tail_absorption",
+      "actual_exact": "1/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "1/31400857981641632232810691260",
+      "relation": "<",
+      "actual_decimal_preview": 1e-100,
+      "passed": true
+    },
+    {
+      "name": "P2_lower_tail_absorption",
+      "actual_exact": "1/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "1/2882475849325086",
+      "relation": "<",
+      "actual_decimal_preview": 1e-100,
+      "passed": true
+    },
+    {
+      "name": "P1_upper_tail_absorption",
+      "actual_exact": "1/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "1/239299329230617529590083",
+      "relation": "<",
+      "actual_decimal_preview": 1e-100,
+      "passed": true
+    },
+    {
+      "name": "P2_upper_tail_absorption",
+      "actual_exact": "1/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "1/847288609443",
+      "relation": "<",
+      "actual_decimal_preview": 1e-100,
+      "passed": true
+    },
+    {
+      "name": "width_ratio_r",
+      "actual_exact": "1000707123087/1152921504606846976",
+      "required_exact": "1/1000000",
+      "relation": "<",
+      "actual_decimal_preview": 8.679750694981156e-07,
+      "passed": true
+    },
+    {
+      "name": "T1_exceeds_48",
+      "actual_exact": "49/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "1/12560343192656652893124276504",
+      "relation": "<",
+      "actual_decimal_preview": 4.9e-99,
+      "passed": true
+    },
+    {
+      "name": "T2_correction_to_24_75",
+      "actual_exact": "39693981836804066720691963610079255886375904083251953125000000000000000000000006245364340204353/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "1/4",
+      "relation": "<",
+      "actual_decimal_preview": 7.938796367360813e-06,
+      "passed": true
+    },
+    {
+      "name": "profile_second_derivative_on_0_1",
+      "actual_exact": "189684307870807700169279996771365404129028320312500000000000000000000000000000000000000000000001/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "1/1000",
+      "relation": "<",
+      "actual_decimal_preview": 1.896843078708077e-05,
+      "passed": true
+    },
+    {
+      "name": "profile_origin_uniform",
+      "actual_exact": "11579610995721/4722366482869645213696",
+      "required_exact": "1/1000",
+      "relation": "<",
+      "actual_decimal_preview": 2.4520780074409655e-09,
+      "passed": true
+    },
+    {
+      "name": "absolute_quadratic_exponent_coefficient",
+      "actual_exact": "124264994303385416666666666666666666666666666666666666666666666666666666666666666666666666666666666683/76562500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "2",
+      "relation": "<",
+      "actual_decimal_preview": 1.6230529868197279,
+      "passed": true
+    },
+    {
+      "name": "negative_high_zero_spatial_integral",
+      "actual_exact": "41713714599609375000000000000000000000000000000000000000000000000000000000000000000000000000001/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "1/100000",
+      "relation": "<",
+      "actual_decimal_preview": 8.342742919921874e-06,
+      "passed": true
+    },
+    {
+      "name": "P1_for_spatial_lower_bound",
+      "actual_exact": "9811272498455318713193403/178405961588244985132285746181186892047843328",
+      "required_exact": "1/1000000000",
+      "relation": "<",
+      "actual_decimal_preview": 5.4994084340631e-20,
+      "passed": true
+    },
+    {
+      "name": "R1_lower_bound",
+      "actual_exact": "7124198749999999999999999999999999999999999999999999999999999999999999999999999999999999999999999/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "required_exact": "1/4000",
+      "relation": ">",
+      "actual_decimal_preview": 0.0003562099375,
+      "passed": true
+    },
+    {
+      "name": "quadratic_output_negative_margin",
+      "actual_exact": "249/500000",
+      "required_exact": "0",
+      "relation": ">",
+      "actual_decimal_preview": 0.000498,
+      "passed": true
+    },
+    {
+      "name": "cubic_output_positive_bracket",
+      "actual_exact": "11003/6000",
+      "required_exact": "11/6",
+      "relation": ">",
+      "actual_decimal_preview": 1.8338333333333334,
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "conclusion": "Both necessary signs hold for sufficiently small positive s; output positivity unresolved."
+}

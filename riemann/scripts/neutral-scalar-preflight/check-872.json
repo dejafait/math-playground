@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checks": {
+    "v_energy_accounting": true,
+    "v_positive_norm_and_errors": true,
+    "z_energy_accounting": true,
+    "z_positive_norm_and_errors": true,
+    "y_energy_accounting": true,
+    "y_positive_norm_and_errors": true,
+    "v_plus_y_energy_accounting": true,
+    "v_plus_y_positive_norm_and_errors": true,
+    "cross_polarization": true,
+    "rayleigh_upper_enclosure": true,
+    "norm_z_gt_99_100": true,
+    "norm_y_lt_1": true,
+    "retained_energy_lt_7_500": true,
+    "floor_energy_lt_253_500000": true,
+    "cross_gt_9_250": true,
+    "rayleigh_upper_lt_1_1000": true,
+    "all_31_prime_powers": true,
+    "retained_even_gram_det_positive": true,
+    "rational_upper_lt_minus_32_25": true
+  },
+  "actual_rational_upper": "-641/500",
+  "required_upper": "-32/25",
+  "retained_gram_determinant_enclosure": [
+    "101806087102862215742473161182336242342410394331294316615968991189317713671669513071311178336023592433199612485219163882824680803565901285923046836898156657228919/16145414138669234868124659456432198315329907551703050404574710462024801056734179116012578440076298357472068435498964247217895511804966283930168846549925232640000",
+    "101806105293392789744536584572531622910571445993052607768987493959887610054902490922793479651032788765268516984552461982715572579659192781239278027189720463827431/16145414138669234868124659456432198315329907551703050404574710462024801056734179116012578440076298357472068435498964247217895511804966283930168846549925232640000"
+  ],
+  "failures": [],
+  "scope": "Exact dyadic endpoint accounting and rational comparison only; not an independent FFT replay."
+}

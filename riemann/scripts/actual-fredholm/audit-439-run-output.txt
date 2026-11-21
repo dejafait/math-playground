@@ -1,0 +1,46 @@
+/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/actual-fredholm/audit_439.py:29: DeprecationWarning: '__version__' is deprecated and slated for removal in Python 3.20
+  decimal=m.decimal.__version__,
+coefficient cells 32 / 128
+coefficient cells 64 / 128
+coefficient cells 96 / 128
+coefficient cells 128 / 128
+contour radius 2048 quadrants 1 /4
+contour radius 2048 quadrants 2 /4
+contour radius 2048 quadrants 3 /4
+contour radius 2048 quadrants 4 /4
+contour radius 2304 quadrants 1 /4
+contour radius 2304 quadrants 2 /4
+contour radius 2304 quadrants 3 /4
+contour radius 2304 quadrants 4 /4
+independent-phase samples 256 / 2048
+independent-phase samples 512 / 2048
+independent-phase samples 768 / 2048
+independent-phase samples 1024 / 2048
+independent-phase samples 1280 / 2048
+independent-phase samples 1536 / 2048
+independent-phase samples 1792 / 2048
+independent-phase samples 2048 / 2048
+{
+  "status": "PASS",
+  "signed_determinant": [
+    "0.00915280651930207196282725395775497936476759789197369684364455588247808962161",
+    "0.00915280748409747595461091628060857910485874229531567211469761412043632530595"
+  ],
+  "original_norm": [
+    "1.29740587671843660390743107863532844169433989418464005766731906009482722528",
+    "1.29740587679062901147422419812081562412316366271015511743463889853815022873"
+  ],
+  "required_det_lower": "0",
+  "required_norm_lower": "1",
+  "actual_counts": [
+    2,
+    2
+  ],
+  "required_counts": [
+    2,
+    2
+  ],
+  "failures": []
+}
+Full audit report: /Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/actual-fredholm/audit-439/audit-report.json
+Full replay evidence: /Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/actual-fredholm/audit-439/independent-phase-certificate-437.json

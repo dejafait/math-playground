@@ -1,0 +1,726 @@
+{
+  "arithmetic": "Q(w), w^2=w-1, w=(1+i sqrt(3))/2; all fractions exact",
+  "polynomial": "(1+4z)(1+3z)(1+2z)(1+z+z^2)",
+  "coefficients": [
+    "1",
+    "10",
+    "36",
+    "59",
+    "50",
+    "24"
+  ],
+  "pf2": {
+    "theorem": "Katkova math/0505174v1 Theorem B, printed p.5",
+    "roots": [
+      "-1/4",
+      "-1/3",
+      "-1/2",
+      "exp(2pi i/3)",
+      "exp(-2pi i/3)"
+    ],
+    "required": "no zeros in open |arg(z)|<2pi/3; P(0)>0",
+    "boundary_allowed": true
+  },
+  "variables": {
+    "4": {
+      "a": "4",
+      "b": "0",
+      "norm_squared": "16",
+      "absolute_upper": "4"
+    },
+    "3": {
+      "a": "3",
+      "b": "0",
+      "norm_squared": "9",
+      "absolute_upper": "3"
+    },
+    "2": {
+      "a": "2",
+      "b": "0",
+      "norm_squared": "4",
+      "absolute_upper": "2"
+    },
+    "w": {
+      "a": "0",
+      "b": "1",
+      "norm_squared": "1",
+      "absolute_upper": "1"
+    },
+    "wbar": {
+      "a": "1",
+      "b": "-1",
+      "norm_squared": "1",
+      "absolute_upper": "2"
+    }
+  },
+  "pairwise_differences": [
+    {
+      "i": "4",
+      "j": "3",
+      "difference": {
+        "a": "1",
+        "b": "0",
+        "norm_squared": "1",
+        "absolute_upper": "1"
+      }
+    },
+    {
+      "i": "4",
+      "j": "2",
+      "difference": {
+        "a": "2",
+        "b": "0",
+        "norm_squared": "4",
+        "absolute_upper": "2"
+      }
+    },
+    {
+      "i": "4",
+      "j": "w",
+      "difference": {
+        "a": "4",
+        "b": "-1",
+        "norm_squared": "13",
+        "absolute_upper": "5"
+      }
+    },
+    {
+      "i": "4",
+      "j": "wbar",
+      "difference": {
+        "a": "3",
+        "b": "1",
+        "norm_squared": "13",
+        "absolute_upper": "4"
+      }
+    },
+    {
+      "i": "3",
+      "j": "2",
+      "difference": {
+        "a": "1",
+        "b": "0",
+        "norm_squared": "1",
+        "absolute_upper": "1"
+      }
+    },
+    {
+      "i": "3",
+      "j": "w",
+      "difference": {
+        "a": "3",
+        "b": "-1",
+        "norm_squared": "7",
+        "absolute_upper": "4"
+      }
+    },
+    {
+      "i": "3",
+      "j": "wbar",
+      "difference": {
+        "a": "2",
+        "b": "1",
+        "norm_squared": "7",
+        "absolute_upper": "3"
+      }
+    },
+    {
+      "i": "2",
+      "j": "w",
+      "difference": {
+        "a": "2",
+        "b": "-1",
+        "norm_squared": "3",
+        "absolute_upper": "3"
+      }
+    },
+    {
+      "i": "2",
+      "j": "wbar",
+      "difference": {
+        "a": "1",
+        "b": "1",
+        "norm_squared": "3",
+        "absolute_upper": "2"
+      }
+    },
+    {
+      "i": "w",
+      "j": "wbar",
+      "difference": {
+        "a": "-1",
+        "b": "2",
+        "norm_squared": "3",
+        "absolute_upper": "3"
+      }
+    }
+  ],
+  "terms": {
+    "3": [
+      {
+        "subset": [
+          "4",
+          "3",
+          "2"
+        ],
+        "base": {
+          "a": "24",
+          "b": "0",
+          "norm_squared": "576",
+          "absolute_upper": "24"
+        },
+        "coefficient": {
+          "a": "192/91",
+          "b": "0",
+          "norm_squared": "36864/8281",
+          "absolute_upper": "192/91"
+        },
+        "cross_denominator": {
+          "a": "273",
+          "b": "0",
+          "norm_squared": "74529",
+          "absolute_upper": "273"
+        }
+      },
+      {
+        "subset": [
+          "4",
+          "3",
+          "w"
+        ],
+        "base": {
+          "a": "0",
+          "b": "12",
+          "norm_squared": "144",
+          "absolute_upper": "12"
+        },
+        "coefficient": {
+          "a": "-144/91",
+          "b": "-120/91",
+          "norm_squared": "576/91",
+          "absolute_upper": "264/91"
+        },
+        "cross_denominator": {
+          "a": "36",
+          "b": "-66",
+          "norm_squared": "3276",
+          "absolute_upper": "102"
+        }
+      },
+      {
+        "subset": [
+          "4",
+          "3",
+          "wbar"
+        ],
+        "base": {
+          "a": "12",
+          "b": "-12",
+          "norm_squared": "144",
+          "absolute_upper": "24"
+        },
+        "coefficient": {
+          "a": "-264/91",
+          "b": "120/91",
+          "norm_squared": "576/91",
+          "absolute_upper": "384/91"
+        },
+        "cross_denominator": {
+          "a": "-30",
+          "b": "66",
+          "norm_squared": "3276",
+          "absolute_upper": "96"
+        }
+      },
+      {
+        "subset": [
+          "4",
+          "2",
+          "w"
+        ],
+        "base": {
+          "a": "0",
+          "b": "8",
+          "norm_squared": "64",
+          "absolute_upper": "8"
+        },
+        "coefficient": {
+          "a": "192/91",
+          "b": "64/273",
+          "norm_squared": "4096/819",
+          "absolute_upper": "640/273"
+        },
+        "cross_denominator": {
+          "a": "-27",
+          "b": "30",
+          "norm_squared": "819",
+          "absolute_upper": "57"
+        }
+      },
+      {
+        "subset": [
+          "4",
+          "2",
+          "wbar"
+        ],
+        "base": {
+          "a": "8",
+          "b": "-8",
+          "norm_squared": "64",
+          "absolute_upper": "16"
+        },
+        "coefficient": {
+          "a": "640/273",
+          "b": "-64/273",
+          "norm_squared": "4096/819",
+          "absolute_upper": "704/273"
+        },
+        "cross_denominator": {
+          "a": "3",
+          "b": "-30",
+          "norm_squared": "819",
+          "absolute_upper": "33"
+        }
+      },
+      {
+        "subset": [
+          "4",
+          "w",
+          "wbar"
+        ],
+        "base": {
+          "a": "4",
+          "b": "0",
+          "norm_squared": "16",
+          "absolute_upper": "4"
+        },
+        "coefficient": {
+          "a": "8/21",
+          "b": "0",
+          "norm_squared": "64/441",
+          "absolute_upper": "8/21"
+        },
+        "cross_denominator": {
+          "a": "42",
+          "b": "0",
+          "norm_squared": "1764",
+          "absolute_upper": "42"
+        }
+      },
+      {
+        "subset": [
+          "3",
+          "2",
+          "w"
+        ],
+        "base": {
+          "a": "0",
+          "b": "6",
+          "norm_squared": "36",
+          "absolute_upper": "6"
+        },
+        "coefficient": {
+          "a": "-60/91",
+          "b": "6/91",
+          "norm_squared": "36/91",
+          "absolute_upper": "66/91"
+        },
+        "cross_denominator": {
+          "a": "60",
+          "b": "-54",
+          "norm_squared": "3276",
+          "absolute_upper": "114"
+        }
+      },
+      {
+        "subset": [
+          "3",
+          "2",
+          "wbar"
+        ],
+        "base": {
+          "a": "6",
+          "b": "-6",
+          "norm_squared": "36",
+          "absolute_upper": "12"
+        },
+        "coefficient": {
+          "a": "-54/91",
+          "b": "-6/91",
+          "norm_squared": "36/91",
+          "absolute_upper": "60/91"
+        },
+        "cross_denominator": {
+          "a": "6",
+          "b": "54",
+          "norm_squared": "3276",
+          "absolute_upper": "60"
+        }
+      },
+      {
+        "subset": [
+          "3",
+          "w",
+          "wbar"
+        ],
+        "base": {
+          "a": "3",
+          "b": "0",
+          "norm_squared": "9",
+          "absolute_upper": "3"
+        },
+        "coefficient": {
+          "a": "-3/13",
+          "b": "0",
+          "norm_squared": "9/169",
+          "absolute_upper": "3/13"
+        },
+        "cross_denominator": {
+          "a": "-39",
+          "b": "0",
+          "norm_squared": "1521",
+          "absolute_upper": "39"
+        }
+      },
+      {
+        "subset": [
+          "2",
+          "w",
+          "wbar"
+        ],
+        "base": {
+          "a": "2",
+          "b": "0",
+          "norm_squared": "4",
+          "absolute_upper": "2"
+        },
+        "coefficient": {
+          "a": "2/91",
+          "b": "0",
+          "norm_squared": "4/8281",
+          "absolute_upper": "2/91"
+        },
+        "cross_denominator": {
+          "a": "182",
+          "b": "0",
+          "norm_squared": "33124",
+          "absolute_upper": "182"
+        }
+      }
+    ],
+    "4": [
+      {
+        "subset": [
+          "4",
+          "3",
+          "2",
+          "w"
+        ],
+        "base": {
+          "a": "0",
+          "b": "24",
+          "norm_squared": "576",
+          "absolute_upper": "24"
+        },
+        "coefficient": {
+          "a": "40/91",
+          "b": "-88/91",
+          "norm_squared": "64/91",
+          "absolute_upper": "128/91"
+        },
+        "cross_denominator": {
+          "a": "-33",
+          "b": "15",
+          "norm_squared": "819",
+          "absolute_upper": "48"
+        }
+      },
+      {
+        "subset": [
+          "4",
+          "3",
+          "2",
+          "wbar"
+        ],
+        "base": {
+          "a": "24",
+          "b": "-24",
+          "norm_squared": "576",
+          "absolute_upper": "48"
+        },
+        "coefficient": {
+          "a": "-48/91",
+          "b": "88/91",
+          "norm_squared": "64/91",
+          "absolute_upper": "136/91"
+        },
+        "cross_denominator": {
+          "a": "-18",
+          "b": "-15",
+          "norm_squared": "819",
+          "absolute_upper": "33"
+        }
+      },
+      {
+        "subset": [
+          "4",
+          "3",
+          "w",
+          "wbar"
+        ],
+        "base": {
+          "a": "12",
+          "b": "0",
+          "norm_squared": "144",
+          "absolute_upper": "12"
+        },
+        "coefficient": {
+          "a": "2",
+          "b": "0",
+          "norm_squared": "4",
+          "absolute_upper": "2"
+        },
+        "cross_denominator": {
+          "a": "6",
+          "b": "0",
+          "norm_squared": "36",
+          "absolute_upper": "6"
+        }
+      },
+      {
+        "subset": [
+          "4",
+          "2",
+          "w",
+          "wbar"
+        ],
+        "base": {
+          "a": "8",
+          "b": "0",
+          "norm_squared": "64",
+          "absolute_upper": "8"
+        },
+        "coefficient": {
+          "a": "-8/7",
+          "b": "0",
+          "norm_squared": "64/49",
+          "absolute_upper": "8/7"
+        },
+        "cross_denominator": {
+          "a": "-7",
+          "b": "0",
+          "norm_squared": "49",
+          "absolute_upper": "7"
+        }
+      },
+      {
+        "subset": [
+          "3",
+          "2",
+          "w",
+          "wbar"
+        ],
+        "base": {
+          "a": "6",
+          "b": "0",
+          "norm_squared": "36",
+          "absolute_upper": "6"
+        },
+        "coefficient": {
+          "a": "3/13",
+          "b": "0",
+          "norm_squared": "9/169",
+          "absolute_upper": "3/13"
+        },
+        "cross_denominator": {
+          "a": "26",
+          "b": "0",
+          "norm_squared": "676",
+          "absolute_upper": "26"
+        }
+      }
+    ]
+  },
+  "proof_bounds": {
+    "onset": 16,
+    "dominant_base_modulus": 24,
+    "remainder_base_modulus_at_most": 12,
+    "shift3_leading_coefficient": {
+      "a": "192/91",
+      "b": "0",
+      "norm_squared": "36864/8281",
+      "absolute_upper": "192/91"
+    },
+    "shift3_remainder_coefficient_sum_upper": "3839/273",
+    "shift3_normalized_error_at_onset": "3839/17891328",
+    "shift3_required_margin": ">0",
+    "shift3_actual_margin": "37744897/17891328",
+    "shift4_leading_coefficient_for_24w": {
+      "a": "40/91",
+      "b": "-88/91",
+      "norm_squared": "64/91",
+      "absolute_upper": "128/91"
+    },
+    "shift4_period6_normalized_leading": [
+      "-8/91",
+      "128/91",
+      "136/91",
+      "8/91",
+      "-128/91",
+      "-136/91"
+    ],
+    "shift4_negative_residue": 5,
+    "shift4_remainder_coefficient_sum_upper": "307/91",
+    "shift4_normalized_error_at_onset": "307/5963776",
+    "shift4_required_negative_margin": ">0",
+    "shift4_actual_negative_margin": "1273227/851968"
+  },
+  "finite_orientation_replays_not_infinite_sign_proofs": [
+    {
+      "shift": 3,
+      "rank": 1,
+      "determinant": "59",
+      "formula": {
+        "a": "59",
+        "b": "0",
+        "norm_squared": "3481",
+        "absolute_upper": "59"
+      },
+      "equal": true
+    },
+    {
+      "shift": 3,
+      "rank": 2,
+      "determinant": "1681",
+      "formula": {
+        "a": "1681",
+        "b": "0",
+        "norm_squared": "2825761",
+        "absolute_upper": "1681"
+      },
+      "equal": true
+    },
+    {
+      "shift": 3,
+      "rank": 3,
+      "determinant": "34923",
+      "formula": {
+        "a": "34923",
+        "b": "0",
+        "norm_squared": "1219615929",
+        "absolute_upper": "34923"
+      },
+      "equal": true
+    },
+    {
+      "shift": 3,
+      "rank": 4,
+      "determinant": "698817",
+      "formula": {
+        "a": "698817",
+        "b": "0",
+        "norm_squared": "488345199489",
+        "absolute_upper": "698817"
+      },
+      "equal": true
+    },
+    {
+      "shift": 3,
+      "rank": 5,
+      "determinant": "15830979",
+      "formula": {
+        "a": "15830979",
+        "b": "0",
+        "norm_squared": "250619896098441",
+        "absolute_upper": "15830979"
+      },
+      "equal": true
+    },
+    {
+      "shift": 3,
+      "rank": 6,
+      "determinant": "390929161",
+      "formula": {
+        "a": "390929161",
+        "b": "0",
+        "norm_squared": "152825608920163921",
+        "absolute_upper": "390929161"
+      },
+      "equal": true
+    },
+    {
+      "shift": 4,
+      "rank": 1,
+      "determinant": "50",
+      "formula": {
+        "a": "50",
+        "b": "0",
+        "norm_squared": "2500",
+        "absolute_upper": "50"
+      },
+      "equal": true
+    },
+    {
+      "shift": 4,
+      "rank": 2,
+      "determinant": "1084",
+      "formula": {
+        "a": "1084",
+        "b": "0",
+        "norm_squared": "1175056",
+        "absolute_upper": "1084"
+      },
+      "equal": true
+    },
+    {
+      "shift": 4,
+      "rank": 3,
+      "determinant": "4136",
+      "formula": {
+        "a": "4136",
+        "b": "0",
+        "norm_squared": "17106496",
+        "absolute_upper": "4136"
+      },
+      "equal": true
+    },
+    {
+      "shift": 4,
+      "rank": 4,
+      "determinant": "-429584",
+      "formula": {
+        "a": "-429584",
+        "b": "0",
+        "norm_squared": "184542413056",
+        "absolute_upper": "429584"
+      },
+      "equal": true
+    },
+    {
+      "shift": 4,
+      "rank": 5,
+      "determinant": "-11438176",
+      "formula": {
+        "a": "-11438176",
+        "b": "0",
+        "norm_squared": "130831870206976",
+        "absolute_upper": "11438176"
+      },
+      "equal": true
+    },
+    {
+      "shift": 4,
+      "rank": 6,
+      "determinant": "-11117120",
+      "formula": {
+        "a": "-11117120",
+        "b": "0",
+        "norm_squared": "123590357094400",
+        "absolute_upper": "11117120"
+      },
+      "equal": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

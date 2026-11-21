@@ -1,0 +1,198 @@
+{
+  "target_assessment": "drafts/literature/2026-11-18-bounded-variation-continuum-dual-test-1570.md",
+  "complete_analytic_record": "lemmas/C032x-common-disk-effective-evaluator-cost-stop.md",
+  "working_record": "drafts/2026-11-18-bounded-variation-effective-cost-1576.md",
+  "canonical_evaluator": "lemmas/C032w-effective-shifted-gaussian-primitive-evaluation.md",
+  "canonical_cost_result": "lemmas/C032x-common-disk-effective-evaluator-cost-stop.md",
+  "scope": "Literal common-M=2 implementation of C032w(6)-(13), raw independent symmetric E errors; no actual-dictionary obstruction",
+  "assumptions": [
+    "C032j/m/q qualified actual divisor, multiplicities, zero-ordinate exclusion, strip/counting, finite-zero, heat and fixed-v1 inputs",
+    "C032w audited explicit-formula normalization and uniform bounds",
+    "M=2, T>=5, D=sqrt(T^2+1), R=T^2+1, r=T^2/R, H=P_D+d",
+    "0<a<=1, A>=2D, N>=2, integer J>=1 and K>=1",
+    "primitive radius Delta_E=8*(T*(d+d_K)+tau_2(T)), plus nonnegative arithmetic allowances"
+  ],
+  "exact_values": {
+    "P2_lower": "24488282430895510389434557453479034263155780276021102881008076359928349953/116284135067123023662001067101566642994810705886103536147468648448000000",
+    "P2_simplified_lower": "210",
+    "P2_Taylor_lower_degree": 32,
+    "E_tail_radius_strict_lower": "2240/T",
+    "polynomial_degree_necessary_strict_lower": "T^4/2",
+    "midpoint_cells_necessary_strict_lower": "exp(2*T^2)*T^3/8",
+    "independent_error_box_residual_lower": "3/5"
+  },
+  "cost_bounds": [
+    {
+      "requested_primitive_error_strict_upper": "1",
+      "necessary_spatial_cutoff_strict_lower": "2240",
+      "integer_spatial_cutoff_at_least": 2241,
+      "necessary_Taylor_degree_strict_lower": "12588154880000",
+      "necessary_midpoint_cell_count_strict_lower": "10^3345066",
+      "decimal_power_exponent": 3345066,
+      "arithmetic_rounding_allowance": "0; exact rational inequalities",
+      "omitted_allowances": "prime/small/large/profile-Taylor/coefficient errors are nonnegative"
+    },
+    {
+      "requested_primitive_error_strict_upper": "1/8",
+      "necessary_spatial_cutoff_strict_lower": "17920",
+      "integer_spatial_cutoff_at_least": 17921,
+      "necessary_Taylor_degree_strict_lower": "51561082388480000",
+      "necessary_midpoint_cell_count_strict_lower": "10^214084266",
+      "decimal_power_exponent": 214084266,
+      "arithmetic_rounding_allowance": "0; exact rational inequalities",
+      "omitted_allowances": "prime/small/large/profile-Taylor/coefficient errors are nonnegative"
+    }
+  ],
+  "preflight_rows": [
+    {
+      "integer_T": 5,
+      "E_tail_allowance_strict_lower": "448",
+      "necessary_K_if_full_E_error_below_one_strict_lower": "625/2",
+      "necessary_J_if_full_E_error_below_one_strict_lower": "exp(50)*125/8",
+      "required_E_error_strict_upper": "1"
+    },
+    {
+      "integer_T": 128,
+      "E_tail_allowance_strict_lower": "35/2",
+      "necessary_K_if_full_E_error_below_one_strict_lower": "134217728",
+      "necessary_J_if_full_E_error_below_one_strict_lower": "exp(32768)*2097152/8",
+      "required_E_error_strict_upper": "1"
+    },
+    {
+      "integer_T": 512,
+      "E_tail_allowance_strict_lower": "35/8",
+      "necessary_K_if_full_E_error_below_one_strict_lower": "34359738368",
+      "necessary_J_if_full_E_error_below_one_strict_lower": "exp(524288)*134217728/8",
+      "required_E_error_strict_upper": "1"
+    },
+    {
+      "integer_T": 1024,
+      "E_tail_allowance_strict_lower": "35/16",
+      "necessary_K_if_full_E_error_below_one_strict_lower": "549755813888",
+      "necessary_J_if_full_E_error_below_one_strict_lower": "exp(2097152)*1073741824/8",
+      "required_E_error_strict_upper": "1"
+    },
+    {
+      "integer_T": 2048,
+      "E_tail_allowance_strict_lower": "35/32",
+      "necessary_K_if_full_E_error_below_one_strict_lower": "8796093022208",
+      "necessary_J_if_full_E_error_below_one_strict_lower": "exp(8388608)*8589934592/8",
+      "required_E_error_strict_upper": "1"
+    },
+    {
+      "integer_T": 4096,
+      "E_tail_allowance_strict_lower": "35/64",
+      "necessary_K_if_full_E_error_below_one_strict_lower": "140737488355328",
+      "necessary_J_if_full_E_error_below_one_strict_lower": "exp(33554432)*68719476736/8",
+      "required_E_error_strict_upper": "1"
+    }
+  ],
+  "candidate": {
+    "coefficients": {
+      "Re_kappa_real_1/4": "0",
+      "Im_kappa_real_1/4": "0",
+      "Re_kappa_real_1/2": "0",
+      "Im_kappa_real_1/2": "0",
+      "Re_kappa_real_1": "0",
+      "Im_kappa_real_1": "0",
+      "Re_kappa_real_2": "0",
+      "Im_kappa_real_2": "0",
+      "Re_kappa_imaginary_1/4": "0",
+      "Im_kappa_imaginary_1/4": "0",
+      "Re_kappa_imaginary_1/2": "0",
+      "Im_kappa_imaginary_1/2": "0",
+      "Re_kappa_imaginary_1": "0",
+      "Im_kappa_imaginary_1": "0",
+      "Re_kappa_imaginary_2": "0",
+      "Im_kappa_imaginary_2": "0",
+      "L_1/16": "0",
+      "L_1/4": "0",
+      "L_1": "0",
+      "L_4": "0"
+    },
+    "exact_uniform_residual": "1"
+  },
+  "validation": {
+    "subinterval_count": 1,
+    "maximum_allowed": 4096,
+    "cells": [
+      {
+        "left": "1",
+        "right": "2",
+        "endpoints_included": true,
+        "candidate": "q=0",
+        "exact_residual": "1",
+        "tail_and_rounding_allowance": "0: no evaluated kernel is used"
+      }
+    ],
+    "coefficient_amplification": "All coefficients0; kernel uncertainties contribute0 for this trivial candidate"
+  },
+  "execution": {
+    "initial_optimizer_solves": 0,
+    "refinement_optimizer_solves": 0,
+    "reason": "Cost preflight stopped numerical data generation; no fictitious sampled-kernel solve is reported",
+    "prime_powers_enumerated": 0,
+    "finite_zero_coordinates_used": 0,
+    "large_sums_allocated": false
+  },
+  "results": {
+    "required_strict_uniform_residual": "1/2",
+    "certified_uniform_residual_upper": "1",
+    "uniform_target_certified": false,
+    "actual_dictionary_lower_bound_certified": false,
+    "independent_box_lower_bound_scope": "Only when raw common E radius>=1 in the selected independent interval model",
+    "dominant_error": "C032w common expanding-disk E tail, then its midpoint constant and Taylor degree",
+    "decision": "Stop this bounded implementation inconclusively; park literal expanding-disk/midpoint evaluation",
+    "evidence": "New exact cost barrier for a specific evaluator; no lower bound on actual residual or on better evaluators"
+  },
+  "failures": [
+    {
+      "name": "requested_strict_uniform_residual",
+      "actual": "1",
+      "required": "<1/2"
+    },
+    {
+      "name": "executable_common_disk_E_enclosure",
+      "actual": "Delta_E<1 requires K>12588154880000 and J>10^3345066",
+      "required": "Finite sums explicitly evaluated with full errors before a nontrivial kernel certificate"
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "name": "P2_lower_exceeds_210",
+      "actual_exact": "24488282430895510389434557453479034263155780276021102881008076359928349953/116284135067123023662001067101566642994810705886103536147468648448000000",
+      "required_exact": "210",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "e_cubed_exceeds_10_using_retained_e_bound",
+      "actual_exact": "512/27",
+      "required_exact": "10",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "T_prefactor_exceeds_one_tolerance_1",
+      "actual_exact": "1404928000",
+      "required_exact": "1",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "T_prefactor_exceeds_one_tolerance_1/8",
+      "actual_exact": "5754585088000",
+      "required_exact": "1",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "independent_E_radius_one_box_barrier_exceeds_half",
+      "actual_exact": "3/5",
+      "required_exact": "1/2",
+      "relation": ">",
+      "passed": true
+    }
+  ],
+  "arithmetic_failures": []
+}

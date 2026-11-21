@@ -1,0 +1,37 @@
+{
+  "scope": "Replay and rational comparisons only; analytic uniform limit and strict integration audited in C019z audit1435",
+  "original_script_sha256": "e4c0a485c9878d5ab146848066445f07e64360adb33048eba7a29b763edf55b8",
+  "original_certificate_sha256": "9da3a56c46f06ba401938d451fdd0a7281c9c306520af3619842fea6726defe5",
+  "replay_certificate_sha256": "9da3a56c46f06ba401938d451fdd0a7281c9c306520af3619842fea6726defe5",
+  "replay_path": "scripts/jensen-pair-moment/audit-1435/resonant-scalar-sign-certificate-1413.json",
+  "checks": {
+    "full_payload_matches": true,
+    "byte_identical_certificate": true,
+    "all_original_checks": true,
+    "no_original_failures": true,
+    "f_at_x0_loose_upper": true,
+    "early_upper_enclosure_loose_upper": true,
+    "f_at_6over5_loose_upper": true,
+    "late_interval_positive_length": true,
+    "split_bound_arithmetic": true,
+    "early_negative_argument_range": true,
+    "log_argument_above_one": true,
+    "delta_positive": true
+  },
+  "actual_upper_enclosures": {
+    "f_at_x0": "-334229164038691247653/812500000000000000000000",
+    "early_upper_enclosure": "26898893431027208775817/8937500000000000000000000",
+    "f_at_6over5": "-4058487734011779843343367/286000000000000000000000000"
+  },
+  "required_upper_thresholds": {
+    "f_at_x0": "0",
+    "early_upper_enclosure": "1/100",
+    "f_at_6over5": "-1/100"
+  },
+  "integral": {
+    "required_strict_upper": "-19/10000",
+    "rational_split_bound": "-19/10000",
+    "strictness_source": "Analytic interval proof in canonical C019z audit1435; not inferred from equality of these rational bounds"
+  },
+  "failures": []
+}

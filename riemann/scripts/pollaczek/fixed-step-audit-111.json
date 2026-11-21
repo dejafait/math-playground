@@ -1,0 +1,2097 @@
+{
+  "scope": "lambda=3/4; symbolic A,Q; Q>0,Q!=1 fixed before A grows",
+  "checks": [
+    {
+      "name": "recurrence_vs_generating_function_degree_0",
+      "passed": true
+    },
+    {
+      "name": "recurrence_vs_generating_function_degree_1",
+      "passed": true
+    },
+    {
+      "name": "recurrence_vs_generating_function_degree_2",
+      "passed": true
+    },
+    {
+      "name": "recurrence_vs_generating_function_degree_3",
+      "passed": true
+    },
+    {
+      "name": "recurrence_vs_generating_function_degree_4",
+      "passed": true
+    },
+    {
+      "name": "recurrence_vs_generating_function_degree_5",
+      "passed": true
+    },
+    {
+      "name": "recurrence_vs_generating_function_degree_6",
+      "passed": true
+    },
+    {
+      "name": "triangular_zero_remainder",
+      "passed": true
+    },
+    {
+      "name": "full_triangular_coefficient_0",
+      "passed": true
+    },
+    {
+      "name": "full_triangular_coefficient_1",
+      "passed": true
+    },
+    {
+      "name": "full_triangular_coefficient_2",
+      "passed": true
+    },
+    {
+      "name": "full_triangular_coefficient_3",
+      "passed": true
+    },
+    {
+      "name": "full_triangular_coefficient_4",
+      "passed": true
+    },
+    {
+      "name": "full_triangular_coefficient_5",
+      "passed": true
+    },
+    {
+      "name": "full_triangular_coefficient_6",
+      "passed": true
+    },
+    {
+      "name": "image_odd_coefficient_1_zero",
+      "passed": true
+    },
+    {
+      "name": "image_odd_coefficient_3_zero",
+      "passed": true
+    },
+    {
+      "name": "image_odd_coefficient_5_zero",
+      "passed": true
+    },
+    {
+      "name": "image_equals_F_Qx_squared",
+      "passed": true
+    },
+    {
+      "name": "F_monic",
+      "passed": true
+    },
+    {
+      "name": "depressed_cubic_identity",
+      "passed": true
+    },
+    {
+      "name": "discriminant_A_degree_4",
+      "passed": true
+    },
+    {
+      "name": "leading_A4_exact",
+      "passed": true
+    },
+    {
+      "name": "depressed_p_A_degree_1",
+      "passed": true
+    },
+    {
+      "name": "depressed_p_A1",
+      "passed": true
+    },
+    {
+      "name": "depressed_q_A_degree_2",
+      "passed": true
+    },
+    {
+      "name": "depressed_q_A2",
+      "passed": true
+    },
+    {
+      "name": "F_at_A_A2",
+      "passed": true
+    },
+    {
+      "name": "discriminant_equals_negative_full_resultant",
+      "passed": true
+    },
+    {
+      "name": "source_exact_witness",
+      "passed": true
+    },
+    {
+      "name": "triangular_zero_remainder",
+      "passed": true
+    },
+    {
+      "name": "image_odd_coefficient_1_zero",
+      "passed": true
+    },
+    {
+      "name": "image_odd_coefficient_3_zero",
+      "passed": true
+    },
+    {
+      "name": "image_odd_coefficient_5_zero",
+      "passed": true
+    },
+    {
+      "name": "image_equals_F_Qx_squared",
+      "passed": true
+    },
+    {
+      "name": "F_monic",
+      "passed": true
+    },
+    {
+      "name": "perturbation_limit",
+      "passed": true
+    },
+    {
+      "name": "perturbed_witness_discriminant_negative",
+      "passed": true
+    },
+    {
+      "name": "perturbed_witness_strict_alternation",
+      "passed": true
+    },
+    {
+      "name": "perturbed_squared_roots_positive_distinct",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "basis": {
+    "0": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1"
+      }
+    ],
+    "1": [
+      {
+        "powers": {
+          "x": 1,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1"
+      }
+    ],
+    "2": [
+      {
+        "powers": {
+          "x": 2,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-3/8"
+      }
+    ],
+    "3": [
+      {
+        "powers": {
+          "x": 3,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1"
+      },
+      {
+        "powers": {
+          "x": 1,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-13/8"
+      }
+    ],
+    "4": [
+      {
+        "powers": {
+          "x": 4,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1"
+      },
+      {
+        "powers": {
+          "x": 2,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-17/4"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "63/64"
+      }
+    ],
+    "5": [
+      {
+        "powers": {
+          "x": 5,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1"
+      },
+      {
+        "powers": {
+          "x": 3,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-35/4"
+      },
+      {
+        "powers": {
+          "x": 1,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "531/64"
+      }
+    ],
+    "6": [
+      {
+        "powers": {
+          "x": 6,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1"
+      },
+      {
+        "powers": {
+          "x": 4,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-125/8"
+      },
+      {
+        "powers": {
+          "x": 2,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "2401/64"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-3465/512"
+      }
+    ]
+  },
+  "triangular_coefficients": {
+    "0": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 3,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-1"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 2,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "9/8"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 1,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-117/64"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1137/512"
+      }
+    ],
+    "1": [],
+    "2": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 2,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "3"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 1,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-51/4"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1849/64"
+      }
+    ],
+    "3": [],
+    "4": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 1,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-3"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "125/8"
+      }
+    ],
+    "5": [],
+    "6": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "1"
+      }
+    ]
+  },
+  "F": [
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-1"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-9/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 0,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "3"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "9/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-189/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "51/4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "153/32"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 2,
+        "epsilon": 0
+      },
+      "coefficient": "-3"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "-51/4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-117/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-3465/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "2401/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "7875/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 2,
+        "epsilon": 0
+      },
+      "coefficient": "-125/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "-2125/32"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-5547/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 3,
+        "epsilon": 0
+      },
+      "coefficient": "1"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 2,
+        "epsilon": 0
+      },
+      "coefficient": "125/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "1849/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "1137/512"
+    }
+  ],
+  "F_at_A": [
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "553/16"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-493/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "433/16"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-3465/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "7875/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-5547/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "1137/512"
+    }
+  ],
+  "depressed_p": [
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-37/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "37/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-4211/96"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "4625/48"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-5039/96"
+    }
+  ],
+  "depressed_q": [
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-1483/24"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "1573/12"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-1663/24"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-162335/1728"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "185375/576"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-208631/576"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "232103/1728"
+    }
+  ],
+  "discriminant_coefficients_in_A": {
+    "0": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 6,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "813568203/8192"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 5,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-2425245375/4096"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 4,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "12000229281/8192"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 3,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-3945440685/2048"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 2,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "11645265885/8192"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 1,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-2287558071/4096"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "748306263/8192"
+      }
+    ],
+    "1": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 5,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "58205889/512"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 4,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-289218069/512"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 3,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "287166933/256"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 2,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-284837157/256"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 1,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "282189861/512"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-55837233/512"
+      }
+    ],
+    "2": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 4,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "3633171/64"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 3,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-3661287/16"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 2,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "11017017/32"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 1,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-3666327/16"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "3643251/64"
+      }
+    ],
+    "3": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 3,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "23959/2"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 2,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-68637/2"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 1,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "65397/2"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-20719/2"
+      }
+    ],
+    "4": [
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 2,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-432"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 1,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "864"
+      },
+      {
+        "powers": {
+          "x": 0,
+          "A": 0,
+          "Q": 0,
+          "Y": 0,
+          "epsilon": 0
+        },
+        "coefficient": "-432"
+      }
+    ]
+  },
+  "full_resultant": [
+    {
+      "powers": {
+        "x": 0,
+        "A": 4,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "432"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 4,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-864"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 4,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "432"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-23959/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "68637/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-65397/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "20719/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 4,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-3633171/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "3661287/16"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-11017017/32"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "3666327/16"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-3643251/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 5,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-58205889/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 4,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "289218069/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-287166933/256"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "284837157/256"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-282189861/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "55837233/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 6,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-813568203/8192"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 5,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "2425245375/4096"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 4,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-12000229281/8192"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "3945440685/2048"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-11645265885/8192"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "2287558071/4096"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-748306263/8192"
+    }
+  ],
+  "perturbed_F": [
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-1"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-9/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 0,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "3"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "9/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-189/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "51/4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "153/32"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 2,
+        "epsilon": 0
+      },
+      "coefficient": "-3"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "-51/4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "1"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-117/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-3465/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "2401/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "7875/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 2,
+        "epsilon": 0
+      },
+      "coefficient": "-125/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "-2125/32"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "3/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-5547/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 3,
+        "epsilon": 0
+      },
+      "coefficient": "1"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 2,
+        "epsilon": 0
+      },
+      "coefficient": "125/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 1,
+        "epsilon": 2
+      },
+      "coefficient": "-1"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 1,
+        "epsilon": 0
+      },
+      "coefficient": "1849/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "-3/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "1137/512"
+    }
+  ],
+  "perturbed_discriminant": [
+    {
+      "powers": {
+        "x": 0,
+        "A": 4,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-432"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 4,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "864"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 4,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-432"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "23959/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-68637/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "65397/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 3,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-20719/2"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 4,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "3633171/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-3661287/16"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "3063"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "11017017/32"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "-6126"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-3666327/16"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "3063"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 2,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "3643251/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 5,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "58205889/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 4,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-289218069/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "13393/4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "287166933/256"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "-47667/4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-284837157/256"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 4
+      },
+      "coefficient": "222"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "55155/4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "282189861/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 4
+      },
+      "coefficient": "-222"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "-20881/4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 1,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-55837233/512"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 6,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "813568203/8192"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 5,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-2425245375/4096"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 4,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "-366113/256"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 4,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "12000229281/8192"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "453155/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 3,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-3945440685/2048"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 4
+      },
+      "coefficient": "-835/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "-1518855/128"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 2,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "11645265885/8192"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 4
+      },
+      "coefficient": "421/4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "525503/64"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 1,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "-2287558071/4096"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 6
+      },
+      "coefficient": "4"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 4
+      },
+      "coefficient": "-7/8"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 2
+      },
+      "coefficient": "-510809/256"
+    },
+    {
+      "powers": {
+        "x": 0,
+        "A": 0,
+        "Q": 0,
+        "Y": 0,
+        "epsilon": 0
+      },
+      "coefficient": "748306263/8192"
+    }
+  ],
+  "witness": {
+    "A": "1000",
+    "Q": "4",
+    "epsilon": "1/10",
+    "unperturbed_discriminant": "-29043991764668664081/8192",
+    "perturbed_discriminant": "-453812335943121404308513/128000000",
+    "perturbed_basis_coefficients": {
+      "0": "-12785623243623/12800",
+      "2": "4779646209/1600",
+      "4": "-23875/8",
+      "6": "1"
+    }
+  },
+  "required_bound": "disc(F)<0 for all sufficiently large A at each fixed Q>0,Q!=1",
+  "actual_bound": "disc(F)=-432(Q-1)^2 A^4 + polynomial_in_A_of_degree_at_most_3",
+  "perturbation_qualification": "epsilon chosen after fixed Q and suitable A; no uniform epsilon claimed"
+}

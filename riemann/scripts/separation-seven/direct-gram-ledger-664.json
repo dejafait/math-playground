@@ -1,0 +1,539 @@
+{
+  "result": "LOCAL_LEDGER_CHECKS_PASS_DIRECT_FIRST_ORDER_DIAGONAL_STOP",
+  "scope": "Exact finite bounds and prescribed recurrence cost; analytic proof in C998e, no Gram computation",
+  "checks": [
+    {
+      "name": "655 pins complete654",
+      "pass": true
+    },
+    {
+      "name": "655 reports no finite failures",
+      "pass": true
+    },
+    {
+      "name": "pinned652 archive",
+      "pass": true
+    },
+    {
+      "name": "exact trial shape and finite binary64",
+      "pass": true
+    },
+    {
+      "name": "exact witness shape/denominator",
+      "pass": true
+    },
+    {
+      "name": "all254 exact trial coefficients column0",
+      "pass": true
+    },
+    {
+      "name": "654/655 envelopes column0",
+      "pass": true
+    },
+    {
+      "name": "common amplitude/forcing/norm bounds column0",
+      "pass": true
+    },
+    {
+      "name": "all254 exact trial coefficients column1",
+      "pass": true
+    },
+    {
+      "name": "654/655 envelopes column1",
+      "pass": true
+    },
+    {
+      "name": "common amplitude/forcing/norm bounds column1",
+      "pass": true
+    },
+    {
+      "name": "all254 exact trial coefficients column2",
+      "pass": true
+    },
+    {
+      "name": "654/655 envelopes column2",
+      "pass": true
+    },
+    {
+      "name": "common amplitude/forcing/norm bounds column2",
+      "pass": true
+    },
+    {
+      "name": "all254 free diagonal modes are used",
+      "pass": true
+    },
+    {
+      "name": "bounded parity action",
+      "pass": true
+    },
+    {
+      "name": "complete output-edge and projection loss below1e-14",
+      "pass": true
+    },
+    {
+      "name": "complete forcing suffix including products below1e-14",
+      "pass": true
+    },
+    {
+      "name": "conditional integration/moment/inverse error below2e-9",
+      "pass": true
+    },
+    {
+      "name": "prescribed diagonal contribution below1e-9",
+      "pass": true
+    },
+    {
+      "name": "moment norm bound survives diagonal perturbation",
+      "pass": true
+    },
+    {
+      "name": "every shift through2800000 fails declared remainder budget",
+      "pass": true
+    },
+    {
+      "name": "shift3000000 suffices for analytic remainder only",
+      "pass": true
+    },
+    {
+      "name": "shared diagonal reciprocal count alone exceeds total ceiling",
+      "pass": true
+    },
+    {
+      "name": "conditional numerical inverse-upper radius below1e-4",
+      "pass": true
+    },
+    {
+      "name": "outward padding excess below1e-6",
+      "pass": true
+    },
+    {
+      "name": "conditional full entry allocation below1e-8",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "columns": [
+    {
+      "column": 0,
+      "F": {
+        "numerator": "96755403",
+        "denominator": "8388608"
+      },
+      "H": {
+        "numerator": "48376359",
+        "denominator": "4194304"
+      },
+      "V": {
+        "numerator": "6351389848064158796662215",
+        "denominator": "604462909807314587353088"
+      },
+      "raw_norm_bound": {
+        "numerator": "355531191293188333993640955",
+        "denominator": "604462909807314587353088"
+      }
+    },
+    {
+      "column": 1,
+      "F": {
+        "numerator": "84294981",
+        "denominator": "8388608"
+      },
+      "H": {
+        "numerator": "42145389",
+        "denominator": "4194304"
+      },
+      "V": {
+        "numerator": "1092209268033633087268119",
+        "denominator": "151115727451828646838272"
+      },
+      "raw_norm_bound": {
+        "numerator": "64334272289760933774394635",
+        "denominator": "151115727451828646838272"
+      }
+    },
+    {
+      "column": 2,
+      "F": {
+        "numerator": "53942181",
+        "denominator": "4194304"
+      },
+      "H": {
+        "numerator": "53943009",
+        "denominator": "4194304"
+      },
+      "V": {
+        "numerator": "269973492750615414751466013",
+        "denominator": "19342813113834066795298816"
+      },
+      "raw_norm_bound": {
+        "numerator": "14636470285369604889949679385",
+        "denominator": "19342813113834066795298816"
+      }
+    }
+  ],
+  "active_shared_diagonal_modes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255
+  ],
+  "endpoint": {
+    "tau_upper": {
+      "numerator": "3",
+      "denominator": "12089258196146291747061760"
+    },
+    "log_majorant": 81,
+    "raw": {
+      "numerator": "2580915",
+      "denominator": "1208925819614629174706176"
+    },
+    "moment_component": {
+      "numerator": "9333",
+      "denominator": "3022314549036572936765440"
+    },
+    "projected_gram": {
+      "numerator": "128701288454451605537727918069867",
+      "denominator": "35681192317648997026457149236237378409568665600"
+    }
+  },
+  "forcing_suffix": {
+    "first_omitted_index": 12,
+    "bound": {
+      "numerator": "757",
+      "denominator": "97620169638070947151872"
+    },
+    "action": {
+      "numerator": "9841",
+      "denominator": "48810084819035473575936"
+    },
+    "gram": {
+      "numerator": "730116867950274705100491832801",
+      "denominator": "2382424380041437199261540053005757687158276096"
+    }
+  },
+  "conditional_moment_solve_error": {
+    "numerator": "1198122500000000000025340000000000000001",
+    "denominator": "1000000000000000000000000000000000000000000000000"
+  },
+  "diagonal": {
+    "analytic_allowance": {
+      "numerator": "1",
+      "denominator": "35184372088832"
+    },
+    "rounding_allowance": {
+      "numerator": "1",
+      "denominator": "140737488355328"
+    },
+    "gram_contribution": {
+      "numerator": "3743617190251726025",
+      "denominator": "4951760157141521099596496896"
+    },
+    "excluded_shifts_through": 2800000,
+    "remainder_lower_at_excluded_shift": {
+      "numerator": "56",
+      "denominator": "1881600585696015"
+    },
+    "sufficient_shift_for_analytic_bound_only": 3000000,
+    "remainder_upper_at_sufficient_shift": {
+      "numerator": "4",
+      "denominator": "144000024000001"
+    },
+    "required_divisions_lower_bound": 711200254,
+    "total_work_ceiling": 100000000,
+    "excess_lower_bound": 611200254
+  },
+  "conditional_inverse_pairing": {
+    "beta": {
+      "numerator": "219999",
+      "denominator": "1000000"
+    },
+    "forcing_column_norm_bound": 130,
+    "trial_column_norm_bound": 14,
+    "B0_trial_column_norm_bound": 630,
+    "trial_entry_error": {
+      "numerator": "9620000000003",
+      "denominator": "100000000000000000000"
+    },
+    "operator_radius": {
+      "numerator": "3116390380000659997",
+      "denominator": "7333300000000000000000000"
+    },
+    "required_radius": {
+      "numerator": "1",
+      "denominator": "10000"
+    },
+    "padding_excess": {
+      "numerator": "3116390380000659997",
+      "denominator": "3666650000000000000000000"
+    }
+  },
+  "conditional_total_entry_allocation": {
+    "numerator": "43969128922216125804454854198891778078971943564393363169364080787918142071691",
+    "denominator": "8875222429787506160369292099050274816000000000000000000000000000000000000000000000000"
+  },
+  "unpaid": [
+    "analytic/rounded quadrature nodes and weights",
+    "interior product-kernel evaluator",
+    "interface strip setup",
+    "all actual scalar enclosures and moment solve",
+    "complete quadrature work ledger",
+    "actual residual Gram and inverse remainder size",
+    "signed S3 comparison and inherited source/core contracts"
+  ],
+  "input_sha256": {
+    "jump-log-h1-bounds-654.json": "d1c94a53ea68385443833941af2173833425b1b23661f14c5117a404858142f0",
+    "jump-log-h1-audit-655.json": "92b07c3481bc265de888ff81ee0aa4b90e8d5f127b32a400bdffe809c6b5227d",
+    "frozen-reference-proposal-652.npz": "2b770a8a689a972ae487b9dd718e2e6d47b6769a5530e7fec244a102c5c317c6"
+  },
+  "script_sha256": "8dd3510ab4946399ddd15f3f52816997329fbd33f577ee28b8d3021ea92da23f"
+}

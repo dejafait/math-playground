@@ -1,0 +1,286 @@
+{
+  "scope": "Exact coefficient comparisons only; analytic uniform proof is C048c.",
+  "roots": {
+    "sqrt6": {
+      "radicand": {
+        "numerator": "6",
+        "denominator": "1"
+      },
+      "lower": {
+        "numerator": "1224744871391589",
+        "denominator": "500000000000000"
+      },
+      "upper": {
+        "numerator": "2449489742783179",
+        "denominator": "1000000000000000"
+      },
+      "lower_square_le_radicand": true,
+      "upper_square_gt_radicand": true
+    },
+    "sqrt39_over10": {
+      "radicand": {
+        "numerator": "39",
+        "denominator": "10"
+      },
+      "lower": {
+        "numerator": "1974841765813149",
+        "denominator": "1000000000000000"
+      },
+      "upper": {
+        "numerator": "39496835316263",
+        "denominator": "20000000000000"
+      },
+      "lower_square_le_radicand": true,
+      "upper_square_gt_radicand": true
+    },
+    "sqrt799_over300": {
+      "radicand": {
+        "numerator": "799",
+        "denominator": "300"
+      },
+      "lower": {
+        "numerator": "1631972221985819",
+        "denominator": "1000000000000000"
+      },
+      "upper": {
+        "numerator": "81598611099291",
+        "denominator": "50000000000000"
+      },
+      "lower_square_le_radicand": true,
+      "upper_square_gt_radicand": true
+    }
+  },
+  "checks": [
+    {
+      "name": "small_V_cos_clearance",
+      "actual": {
+        "numerator": "1",
+        "denominator": "9"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "1",
+        "denominator": "12"
+      },
+      "passed": true
+    },
+    {
+      "name": "arcsine_clearance_squared",
+      "actual": {
+        "numerator": "144",
+        "denominator": "2303"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "169",
+        "denominator": "2500"
+      },
+      "passed": true
+    },
+    {
+      "name": "large_V_delta_coefficient",
+      "actual": {
+        "numerator": "38923",
+        "denominator": "36450"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "16",
+        "denominator": "15"
+      },
+      "passed": true
+    },
+    {
+      "name": "sine_clearance_coefficient",
+      "actual": {
+        "numerator": "97072",
+        "denominator": "91125"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "segment_modulus",
+      "actual": {
+        "numerator": "161",
+        "denominator": "36"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "40",
+        "denominator": "9"
+      },
+      "passed": true
+    },
+    {
+      "name": "segment_modulus_over_L",
+      "actual": {
+        "numerator": "161",
+        "denominator": "432"
+      },
+      "relation": ">",
+      "required": {
+        "numerator": "1",
+        "denominator": "3"
+      },
+      "passed": true
+    },
+    {
+      "name": "curvature_upper",
+      "actual": {
+        "numerator": "160",
+        "denominator": "27"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "6",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "amplitude_modulus",
+      "actual": {
+        "numerator": "1296",
+        "denominator": "1127"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "29",
+        "denominator": "25"
+      },
+      "passed": true
+    },
+    {
+      "name": "linear_amplitude",
+      "actual": {
+        "numerator": "85",
+        "denominator": "18"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "19",
+        "denominator": "4"
+      },
+      "passed": true
+    },
+    {
+      "name": "quadratic_amplitude",
+      "actual": {
+        "numerator": "519129",
+        "denominator": "40000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "13",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "cubic_phase",
+      "actual": {
+        "numerator": "2656",
+        "denominator": "729"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "73",
+        "denominator": "20"
+      },
+      "passed": true
+    },
+    {
+      "name": "quartic_phase",
+      "actual": {
+        "numerator": "4147",
+        "denominator": "2176"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "Z_coefficient",
+      "actual": {
+        "numerator": "667",
+        "denominator": "180"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "371",
+        "denominator": "100"
+      },
+      "passed": true
+    },
+    {
+      "name": "quartic_residual",
+      "actual": {
+        "numerator": "9439",
+        "denominator": "450"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "22",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "sextic_residual",
+      "actual": {
+        "numerator": "3991589",
+        "denominator": "500000"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "8",
+        "denominator": "1"
+      },
+      "passed": true
+    },
+    {
+      "name": "A_loc_upper",
+      "actual": {
+        "numerator": "158212820190997081754813978176295886164383555",
+        "denominator": "120020617036279594242302593726638503586299952"
+      },
+      "relation": "<",
+      "required": {
+        "numerator": "659107",
+        "denominator": "500000"
+      },
+      "passed": true
+    }
+  ],
+  "A_loc": {
+    "lower": {
+      "numerator": "520094740930299470394128672202988139609",
+      "denominator": "394545092163970179357005201635067920080"
+    },
+    "upper": {
+      "numerator": "158212820190997081754813978176295886164383555",
+      "denominator": "120020617036279594242302593726638503586299952"
+    },
+    "required_strict_upper": {
+      "numerator": "659107",
+      "denominator": "500000"
+    },
+    "upper_slack": {
+      "numerator": "1171089537102803396659702223818816476560179",
+      "denominator": "3750644282383737320071956053957453237071873500000"
+    }
+  },
+  "absorbed_curvature_coefficient": {
+    "numerator": "799",
+    "denominator": "300"
+  },
+  "failures": []
+}

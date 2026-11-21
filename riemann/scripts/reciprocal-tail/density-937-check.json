@@ -1,0 +1,107 @@
+{
+  "scope": "Exact aggregate replay of all stored node enclosures; special-function enclosures and analytic bounds require the canonical proof and independent audit.",
+  "source_sha256": "182908def89105d84fb5b38f05593b5b51ac819f6e673f09eaa773b9843be732",
+  "checks": [
+    {
+      "name": "no_reported_failures",
+      "actual": "0",
+      "relation": "==",
+      "required": "0",
+      "passed": true
+    },
+    {
+      "name": "script_hash_matches",
+      "actual": "0dc28b1a5d26e6d546a6282990092deacf875f7040307b35093609cf1b257afe",
+      "relation": "==",
+      "required": "0dc28b1a5d26e6d546a6282990092deacf875f7040307b35093609cf1b257afe",
+      "passed": true
+    },
+    {
+      "name": "complete_node_count",
+      "actual": "8193",
+      "relation": "==",
+      "required": "8193",
+      "passed": true
+    },
+    {
+      "name": "simpson_lower_encloses_exact_sum",
+      "actual": "20541474234238139500250826568318423656469/696898287454081973172991196020261297061888",
+      "relation": "<=",
+      "required": "176449920095358905258926167815791078956053777934725/5986310706507378352962293074805895248510699696029696",
+      "passed": true
+    },
+    {
+      "name": "simpson_upper_encloses_exact_sum",
+      "actual": "10270737117119069750126416699931342205697/348449143727040986586495598010130648530944",
+      "relation": ">=",
+      "required": "1058699520572153431553660438204960643267274935369023/35917864239044270117773758448835371491064198176178176",
+      "passed": true
+    },
+    {
+      "name": "S_lower",
+      "actual": "6028509235395205208152929012285026630367/87112285931760246646623899502532662132736",
+      "relation": ">",
+      "required": "1/100",
+      "passed": true
+    },
+    {
+      "name": "S_upper",
+      "actual": "3014254617697602604076464508972100526449/43556142965880123323311949751266331066368",
+      "relation": "<",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "fourth_derivative_upper",
+      "actual": "65191008724406915611518336842913149625145/356811923176489970264571492362373784095686656",
+      "relation": "<",
+      "required": "183/1000000",
+      "passed": true
+    },
+    {
+      "name": "simpson_error_upper",
+      "actual": "46358050648467139990413039532738239733437/178405961588244985132285746181186892047843328",
+      "relation": "<",
+      "required": "13/50000",
+      "passed": true
+    },
+    {
+      "name": "tail_error_upper",
+      "actual": "83031475502867968758894928915434451211255/1427247692705959881058285969449495136382746624",
+      "relation": "<",
+      "required": "59/1000000",
+      "passed": true
+    },
+    {
+      "name": "unscaled_integral_positive_margin",
+      "actual": "317486932508441989856385037137311879729785277/10889035741470030830827987437816582766592000000",
+      "relation": ">",
+      "required": "1/250",
+      "passed": true
+    },
+    {
+      "name": "conservative_density_lower_bound",
+      "actual": "317486932508441989856385037137311879729785277/43556142965880123323311949751266331066368000000",
+      "relation": ">",
+      "required": "1/1000",
+      "passed": true
+    },
+    {
+      "name": "reported_density_lower",
+      "actual": "55451765992037955043588043454956320808439/5575186299632655785383929568162090376495104",
+      "relation": ">",
+      "required": "4973/500000",
+      "passed": true
+    },
+    {
+      "name": "reported_density_upper",
+      "actual": "28330696211002279859315749252784044441697/2787593149816327892691964784081045188247552",
+      "relation": "<",
+      "required": "2541/250000",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "all_nodes_replayed": 8193,
+  "conservative_density_lower_bound": "317486932508441989856385037137311879729785277/43556142965880123323311949751266331066368000000"
+}

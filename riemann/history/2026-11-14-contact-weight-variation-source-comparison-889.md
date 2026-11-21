@@ -1,0 +1,6 @@
+# 2026-11-14: contact-weight source comparison (step889)
+
+- Completed the saved target in [assessment888](../drafts/literature/2026-11-14-contact-weight-variation-bound-888.md): primary Nahmias--Proschan Theorem2.2 requires global PF_(2m-1); the bell-shape characterisation supplies no verified actual-density premise or arbitrary-combination bound. Kwasnicki's inspected smooth self-decomposable obstruction changes the generic shortcut from an unread lead to a documented stop.
+- Outcome NEGATIVE, LITERATURE, KNOWN_IMPORTED: useful source evidence changes the route; no new mathematical discovery or refutation of the actual contact-weight bound. C466a/C466b and L874/L611 retain their hypotheses and results; no lemma, script, DAG or PROOF change.
+- Parked this source route in [the attempt record](../ATTEMPTS/2026-11-14-contact-weight-bell-shape-source-stop-889.md). Nominated a different finite Hankel-jet root-geometry diagnostic in [assessment889](../drafts/literature/2026-11-14-contact-kernel-polynomial-root-test-889.md), REVIEW_REQUIRED. Actual-density realization and strict weighted forcing remain independent gaps.
+- This was the required first source coverage of target888. No mathematical exploration calculation was used; cumulative balance and scheduling remain with the supervisor. Prior unfinished work and source-access qualifications were preserved.

@@ -1,0 +1,200 @@
+{
+  "result": "PRESET_HEAD_ERROR_ALLOWANCE_EXCEEDED",
+  "actual_target_sign": "UNDECIDED",
+  "required_gate": "computed head matrix/nuclear error upper <1e-5",
+  "bounds": {
+    "predictor_norm": {
+      "lo": "1.3151009999999999356958824137109331786632537841796875",
+      "hi": "1.3151009999999999356958824137109331786632537841796875"
+    },
+    "free_predictor_fro": {
+      "lo": "11.760591581290510928573720406120628467760980129241943359375000000000000000000000",
+      "hi": "11.760591581290510928573720406120628467760980129241943359375000000000000000000001"
+    },
+    "raw_predictor_fro": {
+      "lo": "11.761084643304456881255717348722100723534822463989257812500000000000000000000000",
+      "hi": "11.761084643304456881255717348722100723534822463989257812500000000000000000000001"
+    },
+    "head_rhs_fro": {
+      "lo": "7.4911147525789722377497703575954801635816693305969238281250000000000000000000000",
+      "hi": "7.4911147525789722377497703575954801635816693305969238281250000000000000000000001"
+    },
+    "head_solution_fro": {
+      "lo": "1.5357444296272705837978178600167211698135361075401306152343750000000000000000000",
+      "hi": "1.5357444296272705837978178600167211698135361075401306152343750000000000000000001"
+    },
+    "head_equation_observed": {
+      "lo": "7.1173304052893396981741703454981270829433320379445258169193166963850671891123056E-15",
+      "hi": "7.1173304052893396981741703454981270829433320379445258169193166963850671891123058E-15"
+    },
+    "head_inverse_solution_error": {
+      "lo": "0.0000042306736753636603116151228829050852595063414598341382426463008884175213079432293",
+      "hi": "0.0000042306736753636603116151228829050852595063414598341382426463008884175213079432299"
+    },
+    "head_inverse_matrix_nuclear_error": {
+      "lo": "0.000032692461982864217330071307887994173530783765600559467358744433494619352882757919",
+      "hi": "0.000032692461982864217330071307887994173530783765600559467358744433494619352882757924"
+    }
+  },
+  "ledger": {
+    "new predictor factor": {
+      "full_reconstruction_error": {
+        "lo": "1.0840723533433614603728641074720689845639247105754055573931665042295956484681707E-8",
+        "hi": "1.0840723533433614603728641074720689845639247105754055573931665042295956484681708E-8"
+      },
+      "required": "1e-6"
+    },
+    "unchanged reference factor": {
+      "full_reconstruction_error": {
+        "lo": "1.1560457219453562178866170633701415922385603534714705104300733372259431253059602E-8",
+        "hi": "1.1560457219453562178866170633701415922385603534714705104300733372259431253059603E-8"
+      },
+      "required": "1e-6"
+    }
+  },
+  "arithmetic": {
+    "H_assembly": {
+      "actual": {
+        "lo": "1.0071231909259950170166869405275225387564939572416356066035043455208725822280256E-10",
+        "hi": "1.0071231909259950170166869405275225387564939572416356066035043455208725822280257E-10"
+      },
+      "required": "1e-8"
+    },
+    "G_product": {
+      "actual": {
+        "lo": "2.7097316906482456628055073917809167134896478922884918796822949782979191563789603E-10",
+        "hi": "2.7097316906482456628055073917809167134896478922884918796822949782979191563789609E-10"
+      },
+      "required": "1e-6"
+    },
+    "row_map": {
+      "actual": {
+        "lo": "1.2334102349814252840792210088780837617384060114175577620742364635477105521319974E-8",
+        "hi": "1.2334102349814252840792210088780837617384060114175577620742364635477105521319975E-8"
+      },
+      "required": "1e-6"
+    },
+    "head_equation": {
+      "actual": {
+        "lo": "1.0224112253851138739312740786409421232323587550506617923143921636392308785998912E-8",
+        "hi": "1.0224112253851138739312740786409421232323587550506617923143921636392308785998913E-8"
+      },
+      "required": "1e-6"
+    },
+    "head_product_matrix_and_nuclear": {
+      "actual": {
+        "lo": "1.0236524439563547746103781050740118797669221166817346974185211805039401355448349E-8",
+        "hi": "1.0236524439563547746103781050740118797669221166817346974185211805039401355448350E-8"
+      },
+      "required": "1e-6"
+    }
+  },
+  "checks": [
+    {
+      "label": "executed603 source pin",
+      "passed": true
+    },
+    {
+      "label": "603 factor archive pin",
+      "passed": true
+    },
+    {
+      "label": "single saved proposal pin",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved original-galerkin-586.npz",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved original-galerkin-586.json",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved original-minimum-audit-588.json",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved fixed-block-metric-audit-557.json",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved certificate-audit-534.json",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved fixed-block-metric-555.json",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved joint-galerkin-family-ledger-598.json",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved joint-galerkin-family-certificate-598.json",
+      "passed": true
+    },
+    {
+      "label": "inherited input preserved joint-galerkin-family-certificate-598.npz",
+      "passed": true
+    },
+    {
+      "label": "predictor inflation pays factor and Gram error",
+      "passed": true
+    },
+    {
+      "label": "new predictor factor full reconstruction",
+      "passed": true
+    },
+    {
+      "label": "unchanged reference factor full reconstruction",
+      "passed": true
+    },
+    {
+      "label": "replay arithmetic budget H_assembly",
+      "passed": true
+    },
+    {
+      "label": "replay arithmetic budget G_product",
+      "passed": true
+    },
+    {
+      "label": "replay arithmetic budget row_map",
+      "passed": true
+    },
+    {
+      "label": "replay arithmetic budget head_equation",
+      "passed": true
+    },
+    {
+      "label": "replay arithmetic budget head_product_matrix_and_nuclear",
+      "passed": true
+    },
+    {
+      "label": "original preset head allowance is insufficient",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "script_sha256": "b4ad02fb8d702c2d82b9c60817fecf42fdda3070281b3171a953184d57bcdf6a",
+  "first_pass_sha256": "9ad3d33a1a79add6df0b4fb655acc5e16d91e812d392546cd8e71ea524591b28",
+  "proposal_sha256": "f61fc5dddfad8bceb77000939596570c2c3496b8f15a6327891a17f38d3e5a7a",
+  "archive": {
+    "path": "scripts/separation-seven/residual-stationary-head-stop-replay-603.npz",
+    "sha256": "2749f1888ab3ef99058b1174055a6c2131d1198b0b6fd426a1a9aa94bf849edd"
+  },
+  "uncomputed_outputs": "1024:65535 and all n>=65536",
+  "qualification": "An upper estimate exceeding a chosen allowance is inconclusive; no new solve proposal, no actual sign, no full comparison."
+}

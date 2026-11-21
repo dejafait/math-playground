@@ -1,0 +1,110 @@
+{
+  "scope": "Exact rational arithmetic supporting the thresholds in C466m; analytic implications, inherited inputs and p(S) are not machine-verified.",
+  "summary": {
+    "checks": 14,
+    "passed": 14,
+    "failures": [],
+    "density_lower_bound_certified": false,
+    "requested_m_R_pair_complete": false
+  },
+  "checks": [
+    {
+      "name": "gamma_shift",
+      "actual_upper_bound": "23/112",
+      "required_strict_upper_bound": "1/4",
+      "passed": true,
+      "justification": "|q|>=4 and |1/(2q)|<=1/8 in the logarithmic power-series bound."
+    },
+    {
+      "name": "whole_completion_remainder",
+      "actual_upper_bound": "8/3",
+      "required_strict_upper_bound": "3",
+      "passed": true,
+      "justification": "Sum of Gamma, fixed shift, polynomial and Euler-logarithm bounds, in units 1/|q|."
+    },
+    {
+      "name": "horizontal_G_derivative",
+      "actual_upper_bound": "137/256",
+      "required_strict_upper_bound": "1",
+      "passed": true,
+      "justification": "Coefficient of log(v)/sqrt(v), using log(v)>=8/3 and sqrt(v)>=4."
+    },
+    {
+      "name": "growth_envelope",
+      "actual_upper_bound": "27021598720524289/576460752303423488",
+      "required_strict_upper_bound": "1/10",
+      "passed": true,
+      "justification": "v>=exp(256); weaker rational lower bounds sqrt(v)>2^32 and v>2^64 suffice."
+    },
+    {
+      "name": "second_derivative",
+      "actual_upper_bound": "453395605058679428087815/2417851639229258349412352",
+      "required_strict_upper_bound": "2",
+      "passed": true,
+      "justification": "Coefficient of log(r)/r^(3/2) on [r/2,3r/2]; 2^(3/2)<3, sqrt(r)>2^64."
+    },
+    {
+      "name": "second_difference_remainder_coefficient",
+      "actual_upper_bound": "327683/16384",
+      "required_strict_upper_bound": "24",
+      "passed": true,
+      "justification": "Coefficient of log(r)/sqrt(r); sqrt(2)<3/2."
+    },
+    {
+      "name": "second_difference_remainder",
+      "actual_upper_bound": "3/35184372088832",
+      "required_strict_upper_bound": "1",
+      "passed": true,
+      "justification": "At log(r)=65536 use exp(L/2)>2^64; L exp(-L/2) decreases thereafter."
+    },
+    {
+      "name": "compact_second_difference",
+      "actual_upper_bound": "1/140737488355328",
+      "required_strict_upper_bound": "1",
+      "passed": true,
+      "justification": "2T^2 L exp(-3L/2), T=exp(256); exp(3L/2-512)>2^64 at L=65536, decreasing thereafter."
+    },
+    {
+      "name": "small_range_deficit",
+      "actual_upper_bound": "1/2048",
+      "required_strict_upper_bound": "1/32",
+      "passed": true,
+      "justification": "epsilon=2^-10, log(1/epsilon)<7, and kappa/4>1/32."
+    },
+    {
+      "name": "comparable_error",
+      "actual_upper_bound": "92233720368548003865/37778931862957161709568",
+      "required_strict_upper_bound": "1/128",
+      "passed": true,
+      "justification": "Uniform error divided by kappa*sqrt(r)*log(r); all three terms decrease for r>=R0."
+    },
+    {
+      "name": "comparable_endpoint",
+      "actual_upper_bound": "1/64",
+      "required_strict_upper_bound": "31/1024",
+      "passed": true,
+      "justification": "f(epsilon)>=sqrt(epsilon)-epsilon=31/1024; the stated minimum uses concavity."
+    },
+    {
+      "name": "far_range_squared_comparison",
+      "actual_upper_bound": "121",
+      "required_strict_upper_bound": "128",
+      "passed": true,
+      "justification": "8*sqrt(2)>11; hence 9/5-11/(5sqrt(2))>1/5."
+    },
+    {
+      "name": "local_integral_log_threshold",
+      "actual_upper_bound": "56",
+      "required_strict_upper_bound": "448",
+      "passed": true,
+      "justification": "At L=1024, log(40)+5log(L)<6+50; logarithmic difference has positive derivative."
+    },
+    {
+      "name": "tail_integral_log_threshold",
+      "actual_upper_bound": "19",
+      "required_strict_upper_bound": "64",
+      "passed": true,
+      "justification": "At L=1024, log(256(L+8))<log(512L)<19; difference has positive derivative."
+    }
+  ]
+}

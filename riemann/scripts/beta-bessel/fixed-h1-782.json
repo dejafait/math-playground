@@ -1,0 +1,175 @@
+{
+  "target": "1F2(3/2;1,100;-t^2/4), H_1 only",
+  "arithmetic": "exact fractions; no floating-point inputs",
+  "e_0_to_4": [
+    {
+      "numerator": 1,
+      "denominator": 1
+    },
+    {
+      "numerator": 3,
+      "denominator": 800
+    },
+    {
+      "numerator": 3,
+      "denominator": 517120
+    },
+    {
+      "numerator": 7,
+      "denominator": 1265909760
+    },
+    {
+      "numerator": 7,
+      "denominator": 1854417141760
+    }
+  ],
+  "gamma_0_to_4": [
+    {
+      "numerator": 1,
+      "denominator": 1
+    },
+    {
+      "numerator": 3,
+      "denominator": 800
+    },
+    {
+      "numerator": 3,
+      "denominator": 258560
+    },
+    {
+      "numerator": 7,
+      "denominator": 210984960
+    },
+    {
+      "numerator": 21,
+      "denominator": 231802142720
+    }
+  ],
+  "S_1_to_4": [
+    {
+      "numerator": 3,
+      "denominator": 800
+    },
+    {
+      "numerator": 159,
+      "denominator": 64640000
+    },
+    {
+      "numerator": 5351,
+      "denominator": 1318656000000
+    },
+    {
+      "numerator": 144513593,
+      "denominator": 21948765388800000000
+    }
+  ],
+  "log_coefficients_1_to_4": [
+    {
+      "numerator": -3,
+      "denominator": 800
+    },
+    {
+      "numerator": -159,
+      "denominator": 129280000
+    },
+    {
+      "numerator": -5351,
+      "denominator": 3955968000000
+    },
+    {
+      "numerator": -144513593,
+      "denominator": 87795061555200000000
+    }
+  ],
+  "H_1": [
+    [
+      {
+        "numerator": 159,
+        "denominator": 64640000
+      },
+      {
+        "numerator": 5351,
+        "denominator": 1318656000000
+      }
+    ],
+    [
+      {
+        "numerator": 5351,
+        "denominator": 1318656000000
+      },
+      {
+        "numerator": 144513593,
+        "denominator": 21948765388800000000
+      }
+    ]
+  ],
+  "determinant": {
+    "numerator": -6279691,
+    "denominator": 23154296938026762240000000
+  },
+  "required_determinant_upper_threshold": {
+    "numerator": 0,
+    "denominator": 1
+  },
+  "witness": [
+    {
+      "numerator": 5351,
+      "denominator": 1318656000000
+    },
+    {
+      "numerator": -159,
+      "denominator": 64640000
+    }
+  ],
+  "witness_quadratic_form": {
+    "numerator": -332823623,
+    "denominator": 498897918024683303731200000000000
+  },
+  "recurrence_residuals": [
+    {
+      "numerator": 0,
+      "denominator": 1
+    },
+    {
+      "numerator": 0,
+      "denominator": 1
+    },
+    {
+      "numerator": 0,
+      "denominator": 1
+    },
+    {
+      "numerator": 0,
+      "denominator": 1
+    }
+  ],
+  "formal_log_residuals": [
+    {
+      "numerator": 0,
+      "denominator": 1
+    },
+    {
+      "numerator": 0,
+      "denominator": 1
+    },
+    {
+      "numerator": 0,
+      "denominator": 1
+    },
+    {
+      "numerator": 0,
+      "denominator": 1
+    }
+  ],
+  "checks": {
+    "normalization": true,
+    "factorial_normalization": true,
+    "recurrence_exact": true,
+    "independent_formal_log_agreement": true,
+    "S2_positive": true,
+    "determinant_negative": true,
+    "witness_identity": true,
+    "witness_negative": true
+  },
+  "failures": []
+}

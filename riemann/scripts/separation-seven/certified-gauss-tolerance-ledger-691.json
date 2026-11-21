@@ -1,0 +1,89 @@
+{
+  "result": "PASS_EXACT_COUNTER_RECONSTRUCTION",
+  "checks": [
+    {
+      "name": "all category counters reconstructed",
+      "pass": true
+    },
+    {
+      "name": "unique counter stop",
+      "pass": true
+    },
+    {
+      "name": "last prefix location",
+      "pass": true
+    },
+    {
+      "name": "last payment crosses cap",
+      "pass": true
+    },
+    {
+      "name": "recorded and aborted point calls distinguished",
+      "pass": true
+    },
+    {
+      "name": "failed evaluation not recorded",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "rows": [
+    {
+      "degree": 63,
+      "recorded_bisections": 496,
+      "accepted_newton_updates": 185,
+      "positive_outputs": 31,
+      "zero_outputs": 1,
+      "completed_point_evaluations": 841,
+      "aborted_upfront_point_payments": 0
+    },
+    {
+      "degree": 81,
+      "recorded_bisections": 640,
+      "accepted_newton_updates": 239,
+      "positive_outputs": 40,
+      "zero_outputs": 1,
+      "completed_point_evaluations": 1048,
+      "aborted_upfront_point_payments": 0
+    },
+    {
+      "degree": 117,
+      "recorded_bisections": 834,
+      "accepted_newton_updates": 311,
+      "positive_outputs": 52,
+      "zero_outputs": 0,
+      "completed_point_evaluations": 1325,
+      "aborted_upfront_point_payments": 1
+    }
+  ],
+  "counter_by_category": {
+    "binary_conversion_fixed": 29400,
+    "binary_conversion_halvings": 804396,
+    "bisection_overhead": 78840,
+    "degree_constants": 90,
+    "derivative_enclosures": 102960,
+    "fixed_constant_and_output_administration": 10000,
+    "grid_constant": 3840,
+    "mesh_domain_and_order": 600,
+    "mesh_evaluation_control": 4608,
+    "mesh_generation": 2560,
+    "newton_image_and_control": 66150,
+    "point_recurrence": 3844534,
+    "recurrence_constant_tables": 2340,
+    "reflection_and_exact_output": 4920,
+    "root_count_check": 60,
+    "root_initialization_and_output": 12400,
+    "sign_bracket_inventory": 4572,
+    "tolerance_cap_construction": 11760,
+    "tolerance_constant_reserve": 4000,
+    "weight_formation_and_output": 12300,
+    "zero_root_and_weight": 160
+  },
+  "actual_counter": 5000490,
+  "required_cap": 5000000,
+  "prefix_before_last_payment": 4998958,
+  "last_upfront_payment": 1532,
+  "qualification": "A conservative scheduled charge exceeding a cap is not an actual work lower bound; no full setup upper bound is asserted.",
+  "source_sha256": "68b920ed70d407d4b6b82c955406b32991c07048ab3862458958a40a36344d0c",
+  "script_sha256": "dc1c832d3b5fc4cf1b2bf0643c8e475d52c52ca7ac7fec2d208044182d7a9f00"
+}

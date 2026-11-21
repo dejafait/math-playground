@@ -1,0 +1,17 @@
+# L938 conceptual audit — work in progress
+
+Target: Independently audit L938's fixed-energy representation and corrected 32-cell certificate, including singular endpoints, root-node interpolation and exact-integer production, without refining the test.
+
+Prior gate: drafts/literature/2026-11-09-l938-energy-certificate-audit-48.md (SPECIALIZE, exact COVERED_TARGET). REPRODUCTION proof_audit/conceptual_audit. Main gap L030–L032/C032a; a validated density could support a later crossing argument only with global variation and independent endpoint signs.
+
+Reviewed L019, L037, L058 domination, L874 conventions, L917 finite coefficients, full L938 and producer/checker/interval primitives. Reused source comparison and fixed-test failure; no new source coverage or normalization. Singular factors have beta parameters k+1/2>0; twelve-factor simplex exponent 17 is correct and yields continuity at zero. Tonelli bounds all absolute exponential moments. Ellipse, theta and interpolation bounds appear consistent; final approval awaits full arithmetic/code checks.
+
+Pending: independent exact finite algebra and basis conversion; fixed-budget node replay with complete record comparison; deterministic validation of all signed polynomial coefficients, all primitive numerators and endpoints. Preserve every original and failed artifact. No new signs, degree, precision or cells. Any defect must qualify the existing conclusion instead of prompting a replacement experiment.
+
+Independent finite-log extraction plus a Leibniz determinant reproduces every one of the 34 table rows. The fixed-budget node producer replays all fields identically. A closed-form Chebyshev expansion independently reproduces all 257 power coefficients. The original rational checker passes all 969 checks into a separate step50 record. The invalid first-pass cell1 lower endpoint is independently reproduced as strictly too large; source comparison confirms exactly two copy_negate repairs.
+
+Analytic audit details are being incorporated into canonical L938: the convex root-coordinate bounds cover the filled ellipse; Laurent coefficients use an annulus, not analyticity at zero; m=2qn+r proves the signed/zero root-grid alias. The signed digit recovery has a quarter-base coefficient bound and a unique centered-digit induction. No nonnegative-coefficient theorem is imported for signed data.
+
+The independent degree3072 polynomial check is running: its coefficient majorant fixes base 2^32471, and exact evaluation plus that bound will certify every coefficient if the residual is zero. The complete primitive and cell endpoint verification follows this equality. Do not treat the PENDING checkpoint as a completed audit. The full audit script and incremental certificate are scripts/heat/audit-actual-h2-energy-cell-50.py and scripts/heat/actual-h2-energy-cell-audit-50.json.
+
+Completion: The exact integer residual is zero. All 5101 audit checks pass, including every coefficient, all 33 primitive endpoints and all 32 complete enclosures. Every saved check is true and all input hashes remain unchanged. The full summary and exact residual were inspected. The final proof, qualifications, citations and detailed audit evidence are canonical in lemmas/L938-actual-h2-fixed-energy-density-and-cell-test.md. Earlier PENDING text above preserves the unfinished checkpoint only and is superseded by this completion. No new sign or global crossing claim is made. The next source-only target is recorded solely in PROGRESS.md and its matching REVIEW_REQUIRED assessment.

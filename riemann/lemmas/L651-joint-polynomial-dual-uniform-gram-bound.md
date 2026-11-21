@@ -97,11 +97,13 @@ The subscripts x,a on the left denote L650's pole-isolating duals;
 the subscript 0 denotes the monomial dual defined here. Thus its
 separate-column obstruction has not been imported into this joint span.
 
-The rate-1/16 response bound, matching detector upper bounds, Xi
-realization and all-degree signs remain unresolved. This specialization
-has not received a separate critical audit. The checked literature did
-not supply this exact quantitative bound; no certified novelty or RH
-resolution candidate is claimed.
+The general rate-1/16 response bound, matching detector upper bounds,
+Xi realization and all-degree signs remain unresolved. The separate
+conceptual audit in Section 6 accepts (1)--(4) and the inherited
+component/response identities used there. C651a records the fixed-profile
+application; it does not give a uniform-family onset. The checked
+literature did not supply this exact quantitative bound; no certified
+novelty or RH resolution candidate is claimed.
 
 ## Proof
 
@@ -307,9 +309,95 @@ relative to D_single,n has been proved. Discarding phases, appealing
 only to dimension or nonvanishing, or substituting a grid prefix would
 not supply it. L650 identifies ||F_u||=||kappa_u||, so a successful
 lower bound for J_n would have the intended sufficient-detector use;
-actual-Xi realization and signs are still independent. Separate
-critical audits of this result and its previously unaudited inputs
-remain outstanding.
+actual-Xi realization and signs are still independent. The separate
+audit below checks the present transfer and its exact inherited inputs;
+other conclusions of those input files remain outside that audit.
+
+### 6. Separate conceptual audit — 3 November 2026, step 220
+
+The invocation-start SPECIALIZE assessment
+`drafts/literature/2026-11-03-fixed-profile-joint-projection-audit.md`
+covers (1)--(4), the full component and polynomial response actually
+used, and application to one fixed L703/L708 profile. These checks
+accept the transfer without a mathematical correction; other conclusions
+of C645y, L649 and L650 are not independently audited here.
+
+**Framework and complete component.** Reuse Baratchart--Chevillard--
+Qian, preprint v2, Section 2 (1)--(4), printed pp.2--3, for the
+orthogonal Hardy splitting with normalized measure. The Levitt
+references in Section 1 supply Fourier orthogonality and finite
+projection; dividing Lebesgue measure by 2*pi makes the unscaled
+exponentials orthonormal. The residue input is Howell--Mathews,
+*Complex Analysis*, Section 8.1, Theorems 8.1.5 and 8.1.7(1).
+These primary statements were inspected in the prior assessment;
+no fresh retrieval or general theorem reproof is claimed.
+
+For C645y (6)--(8) at K=n, B_u(x)L(z)/B_u(z) has residues r_a W_a
+at a and B_u(x)L(t_j*u)/B'_u(t_j*u) at every grid point, including
+zero. These sets are disjoint since |a|>=5/4>t_j, and each grid
+zero is simple. Repeated roots of P still give the simple residue
+r_a of L. The j=0 factor makes B_u grow linearly at infinity, so
+L/B_u=O(z^(-2)). Subtracting all these partial fractions leaves a
+polynomial tending to zero, hence zero. Exterior poles of B_u are
+zeros of its reciprocal, not extra poles. Multiplication by b_u
+cancels all grid poles and gives the analytic F_u in the stated
+component identity. Thus no grid residue or polynomial part is lost.
+
+For a polynomial s, the actual inner product yields
+
+    <q_u,J s>=mean zeta*q_u*s
+             =R^(-1)sum_a r_a W_a s(a/R).
+
+The simple-pole rule gives this identity with factor 1/R. Unitary
+multiplication by b_u and the orthogonal splitting give L650 (10),
+including its minus sign. All poles avoid the spatial circle and
+the geometric expansions converge absolutely for each fixed family;
+angle dependence is continuous. This checks the inherited formulas
+actually used, without a uniform-separation assumption.
+
+**Gram indexing and complete grid.** For a column v, the vector
+sum_k v_k d_k has squared norm v*Gv because G_(jk)=<d_k,d_j>.
+Its negative partner has column Ev, hence G=I-E*E. For a polynomial
+s the column is conjugate(s), as required by J's anti-linearity.
+Projection coefficients satisfy Gv=y, giving y*G^(-1)y with no
+transpose change or bilinear square. All n factors occur in (6):
+their single-factor maxima, concavity of log((11+16t)/(22+8t)),
+and sum_(j<n)(j/n-1/2)=-1/2 give (19/26)^n. Summing all the low
+coefficient bounds gives (2^M-1)(19/26)^n. The backward shift has
+norm at most one, proving (8), also for M=1 where E=0. Finally
+3*delta=log(8788/6859)>1929/8788, 643/8788>1/16 and
+exp(5/8)>=13/8 verify the exponent and the lower Gram bound 5/13.
+
+**Entire correction and threshold.** The coefficients of e_k give
+<L,e_k>=sum_j h_j conjugate(beta_(k-j))=(E*h)_k, so the correction
+is exactly B_u(x)E*h. The bounds |B_u(x)|<=1 and
+||h||<=sum_a r_a/sqrt(U-|a|^2)<=M/sigma give tau_n pointwise.
+The L2 angular triangle inequality for the whole vector, followed by
+the projection inequalities, proves (3). The anchor contributes
+64/21 to D_single,n; M<=n/3 then gives (4), with exponent
+delta-1/32>0. This is the required square-root-scale comparison.
+In the converse implication half the guaranteed square-root margin
+gives the factor 5*c/52 upon squaring. No uniform lower-response
+premise is produced by these uniform transfer estimates.
+
+**Ancillary replay and scope.** Replayed the unchanged
+`python3 scripts/one-sided-hankel/joint-polynomial-gram-check.py`:
+all 102 checks in six cases pass, actual and required identity error
+both zero. The complete `/cases/0/verification` through
+`/cases/5/verification` certificate objects were inspected with
+`python3 ../scripts/loop/inspect_json.py`, each selected pointer and
+`--full`. They include every Gram/response difference, full-energy
+difference, actual/required loss bound and close-pair check. The
+exact Gaussian-rational helper and full-grid construction were read.
+Finite cases support normalization; the proof establishes uniformity.
+
+In particular d_0=b_u/zeta is a unit vector since beta_0=0, and its
+response is -c_0 without a correction. C651a uses this existing
+identity in the approved fixed-profile application. The whole joint
+range and its cross terms remain intact. The separate-column,
+grid-prefix and exposed-coefficient stops retain their original scope.
+This is reproduction and validation, not certified originality or
+a complete RH candidate.
 
 ## Mathlib
 
@@ -318,4 +406,5 @@ uniform response comparison has not been checked. Supporting
 Fourier/Parseval and finite-dimensional orthogonal-projection facts
 are the cited standard inputs. Unknown Mathlib coverage is not evidence
 of absence. No formal theorem asserting the open response estimate or
-actual-Xi positivity is assumed.
+actual-Xi positivity is assumed. The informal audit does not establish
+formal Mathlib coverage or independently audit the source manuscripts.

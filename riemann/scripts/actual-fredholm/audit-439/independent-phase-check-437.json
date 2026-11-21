@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": [
+    "original unnecessary root-width assertion failure preserved; wider certified brackets used",
+    "all 128 quadrature-cell records complete; no independent exp/quadrature replay",
+    "inner_contour: all 1024 segments, endpoint inclusions, nonzero boxes and exact winding=2",
+    "outer_contour: all 1024 segments, endpoint inclusions, nonzero boxes and exact winding=2",
+    "all root group/error records, all 2048 denominators and 512 coefficient/alias/HS error budgets",
+    "all inherited inputs unchanged; all 2048 phase widths/provenance and 1048576 modular phase products checked with exact integer endpoints; all 512 complete DFT/imaginary/alias transfers checked",
+    "all 509 U rows, both Gram metrics, signed pairing/determinant and two-sided norm checked with exact integers/rationals",
+    "trace-norm product error and triangle enclosures checked; exp perturbation factor relies on documented Decimal contract"
+  ],
+  "failures": [],
+  "signed_determinant": [
+    "0.00915280651930207196282725395775497936476759789197369684364455588247808962161",
+    "0.00915280748409747595461091628060857910485874229531567211469761412043632530595"
+  ],
+  "original_norm": [
+    "1.29740587671843660390743107863532844169433989418464005766731906009482722528",
+    "1.29740587679062901147422419812081562412316366271015511743463889853815022873"
+  ],
+  "required_det_lower": "0",
+  "required_norm_lower": "1",
+  "decision": "SIGNED_SEPARATION",
+  "limitations": "Complete saved finite/DFT arithmetic check; no independent analytic/evaluator/trig audit or formal verification",
+  "input": "scripts/actual-fredholm/independent-phase-certificate-437.json"
+}

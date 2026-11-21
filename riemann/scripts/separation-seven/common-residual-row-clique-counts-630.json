@@ -1,0 +1,175 @@
+{
+  "kind": "exact integer count check supporting symbolic proof, not PSD verification",
+  "parameters": {
+    "J": 1024,
+    "d": 1022,
+    "m": 2044,
+    "N": 512,
+    "K": 65536
+  },
+  "registry_families": [
+    {
+      "family": "Z ratios",
+      "core": 1022,
+      "per_high_row": 0,
+      "total": 1022
+    },
+    {
+      "family": "t0",
+      "core": 1,
+      "per_high_row": 0,
+      "total": 1
+    },
+    {
+      "family": "M primitive",
+      "core": 524800,
+      "per_high_row": 1024,
+      "total": 66585088
+    },
+    {
+      "family": "T primitive union",
+      "core": 1048576,
+      "per_high_row": 2048,
+      "total": 133169152
+    },
+    {
+      "family": "U primitive",
+      "core": 1048576,
+      "per_high_row": 0,
+      "total": 1048576
+    },
+    {
+      "family": "Y primitive",
+      "core": 2088968,
+      "per_high_row": 0,
+      "total": 2088968
+    },
+    {
+      "family": "V fresh",
+      "core": 1046528,
+      "per_high_row": 1022,
+      "total": 66977792
+    },
+    {
+      "family": "Fplus fresh",
+      "core": 1046528,
+      "per_high_row": 1022,
+      "total": 66977792
+    },
+    {
+      "family": "Fminus fresh",
+      "core": 1046528,
+      "per_high_row": 1022,
+      "total": 66977792
+    },
+    {
+      "family": "A fresh before symmetrization",
+      "core": 1044484,
+      "per_high_row": 0,
+      "total": 1044484
+    },
+    {
+      "family": "B fresh",
+      "core": 2088968,
+      "per_high_row": 0,
+      "total": 2088968
+    },
+    {
+      "family": "UZ fresh",
+      "core": 1046528,
+      "per_high_row": 0,
+      "total": 1046528
+    },
+    {
+      "family": "U0 fresh",
+      "core": 1044484,
+      "per_high_row": 0,
+      "total": 1044484
+    },
+    {
+      "family": "G fresh",
+      "core": 2093056,
+      "per_high_row": 0,
+      "total": 2093056
+    },
+    {
+      "family": "JY fresh",
+      "core": 2088968,
+      "per_high_row": 0,
+      "total": 2088968
+    },
+    {
+      "family": "VY fresh",
+      "core": 2093056,
+      "per_high_row": 2044,
+      "total": 133955584
+    },
+    {
+      "family": "rminus Z fresh",
+      "core": 1022,
+      "per_high_row": 0,
+      "total": 1022
+    },
+    {
+      "family": "rplus Z fresh",
+      "core": 1022,
+      "per_high_row": 0,
+      "total": 1022
+    },
+    {
+      "family": "re G fresh",
+      "core": 2044,
+      "per_high_row": 0,
+      "total": 2044
+    },
+    {
+      "family": "ro G fresh",
+      "core": 2044,
+      "per_high_row": 0,
+      "total": 2044
+    },
+    {
+      "family": "Delta head fresh",
+      "core": 1046528,
+      "per_high_row": 0,
+      "total": 1046528
+    }
+  ],
+  "counts": {
+    "p0": 202892807,
+    "p_formula": 548240915,
+    "p_partition": 548240915,
+    "core_symbols": 20403731,
+    "per_high_row_symbols": 8182,
+    "high_rows": 64512
+  },
+  "orders": {
+    "full": 1120604432304,
+    "core": 41705228208,
+    "per_high_row": 16724008,
+    "largest_clique": 41721952216,
+    "each_Lambda": 2044,
+    "number_of_Lambdas": 548240915,
+    "required_largest_at_most": 560302216152,
+    "gate_passes": true
+  },
+  "symbolic_support": {
+    "core": "all Z,Y, low-row and other symbols; also constant fibre 0",
+    "row_n": "M[n,:], T[n,:], T[:,n], fresh V/Fplus/Fminus/VY[n,:]",
+    "rho_n_high": "core union row_n",
+    "other_P_terms_and_all_equalities": "core",
+    "multipliers": "N_i only fibres 0/i; L_a only core/core",
+    "cliques": "core fibres union row_n fibres, J <= n < K",
+    "elimination": "all high-row groups in ascending n, then core"
+  },
+  "exact_reconstruction_obligations": {
+    "core_core": "sum_n D_n = Q_core_core entrywise",
+    "core_row_n": "B_n core,row_n = Q_core,row_n entrywise",
+    "row_n_row_n": "B_n row_n,row_n = Q_row_n,row_n entrywise",
+    "different_rows": "no clique contains both; Q entries identically zero",
+    "fill": "prescribed zero entries in every preceding equality stay zero",
+    "positivity": "every B_n and Lambda_i needs an exact rational PSD witness"
+  },
+  "no_witness_or_floor_established": true,
+  "failures": []
+}

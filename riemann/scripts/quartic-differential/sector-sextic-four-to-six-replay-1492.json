@@ -1,0 +1,213 @@
+{
+  "scope": "One fixed C020o pair, shift 1; no parameter or degree sweep",
+  "coefficient_order": "ascending",
+  "pair": {
+    "q": [
+      "1",
+      "1",
+      "5/18"
+    ],
+    "h": [
+      "558",
+      "2084",
+      "1782",
+      "393"
+    ],
+    "P": [
+      "-162175/3",
+      "0",
+      "657762",
+      "606132",
+      "1156683",
+      "473958",
+      "154449"
+    ],
+    "F": [
+      "311365",
+      "2325744",
+      "6331768",
+      "7865964",
+      "4813548",
+      "1400652",
+      "154449"
+    ],
+    "shift": "1",
+    "leading_normalization": "154449",
+    "f": [
+      "8984777/463347",
+      "3685712/51483",
+      "5490857/51483",
+      "4353808/51483",
+      "1947736/51483",
+      "1188/131",
+      "1"
+    ],
+    "image": [
+      "23203490/154449",
+      "65771318/154449",
+      "75134203/154449",
+      "14738552/51483",
+      "4711181/51483",
+      "1974/131",
+      "1"
+    ]
+  },
+  "sturm": {
+    "P_to_S0_positive_scale": "3",
+    "polynomials_ascending": [
+      [
+        "-162175",
+        "0",
+        "1973286",
+        "1818396",
+        "3470049",
+        "1421874",
+        "463347"
+      ],
+      [
+        "0",
+        "3946572",
+        "5455188",
+        "13880196",
+        "7109370",
+        "2780082"
+      ],
+      [
+        "21244925",
+        "44070054",
+        "-111417378",
+        "35890584",
+        "-72137508"
+      ],
+      [
+        "-8934397682925",
+        "-35555930659525",
+        "21301855128216",
+        "-49337589698506"
+      ],
+      [
+        "-44971094689888174916875",
+        "-118493320081253974313436",
+        "126584707461355888116048"
+      ],
+      [
+        "29362654455251567260891958254975",
+        "126171402727656343640644465559104"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "degrees": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "relations": [
+      {
+        "dividend_index": 0,
+        "quotient_ascending": [
+          "67/786",
+          "1/6"
+        ],
+        "positive_remainder_scale": "131",
+        "relation_check": true
+      },
+      {
+        "dividend_index": 1,
+        "quotient_ascending": [
+          "-495819819/4211600642",
+          "-3537/91778"
+        ],
+        "positive_remainder_scale": "4211600642/1179",
+        "relation_check": true
+      },
+      {
+        "dividend_index": 2,
+        "quotient_ascending": [
+          "-446740768521453324/4645415567286498801485939",
+          "275334/188311411063"
+        ],
+        "positive_remainder_scale": "4645415567286498801485939/2105800321",
+        "relation_check": true
+      },
+      {
+        "dividend_index": 3,
+        "quotient_ascending": [
+          "-43745634838795057528607873720246059/222551224487181236842204050766936113815488032",
+          "-24668794849253/63292353730677944058024"
+        ],
+        "positive_remainder_scale": "222551224487181236842204050766936113815488032/134717051451308465243092231",
+        "relation_check": true
+      },
+      {
+        "dividend_index": 4,
+        "quotient_ascending": [
+          "-1166708214563492604376378035737961642250767631290791259/994951429141527914509471702921087402618466577803374451957330176",
+          "7911544216334743007253/7885712670478521477540279097444"
+        ],
+        "positive_remainder_scale": "994951429141527914509471702921087402618466577803374451957330176/10486404777431879138365093966044552810772956803598378652539651163475806955951105856475",
+        "relation_check": true
+      }
+    ],
+    "terminal_quotient_ascending": [
+      "29362654455251567260891958254975",
+      "126171402727656343640644465559104"
+    ],
+    "signs_minus_infinity": [
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1
+    ],
+    "signs_plus_infinity": [
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1
+    ],
+    "variations_minus_infinity": 4,
+    "variations_plus_infinity": 2,
+    "gcd_degree": 0,
+    "real_count_with_multiplicity": 2,
+    "nonreal_count_with_multiplicity": 4
+  },
+  "bounds": {
+    "required_input_nonreal_count": 4,
+    "actual_input_nonreal_count": 4,
+    "required_output_nonreal_count": 6,
+    "actual_output_nonreal_count": 6,
+    "output_real_axis_lower_bound": "1/154449",
+    "required_output_real_axis_lower_bound": ">0",
+    "minimum_input_coefficient": "1",
+    "required_input_coefficients": ">=0"
+  },
+  "checks": {
+    "direct_image_identity": true,
+    "input_degree_six_monic": true,
+    "image_degree_six_monic": true,
+    "translation_image_identity": true,
+    "input_coefficients_strictly_positive": true,
+    "output_coefficients_strictly_positive": true,
+    "q_sector_factorization": true,
+    "q_roots_sum_product": true,
+    "reference_polynomial": true,
+    "reference_discriminant_positive": true,
+    "sturm_all_relations": true,
+    "terminal_remainder_zero": true,
+    "P_squarefree": true,
+    "exact_input_nonreal_count_four": true,
+    "output_no_real_roots": true
+  },
+  "failures": []
+}

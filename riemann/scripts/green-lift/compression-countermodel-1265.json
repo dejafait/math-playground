@@ -1,0 +1,157 @@
+{
+  "result": "PASS",
+  "scope": "C032d finite abstract inference only; no actual-theta or RH conclusion",
+  "data": {
+    "L": [
+      [
+        "2",
+        "2"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "-2",
+        "0"
+      ]
+    ],
+    "C": [
+      [
+        "1",
+        "1",
+        "1"
+      ]
+    ],
+    "R": [
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "r": [
+      "1/3",
+      "1",
+      "3"
+    ],
+    "K": [
+      [
+        "1/2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1/2"
+      ]
+    ]
+  },
+  "computed": {
+    "G_plus": [
+      [
+        "1",
+        "2"
+      ]
+    ],
+    "G_minus": [
+      [
+        "2",
+        "1"
+      ]
+    ],
+    "Q": [
+      [
+        "-3",
+        "0"
+      ],
+      [
+        "0",
+        "3"
+      ]
+    ],
+    "f_1": [
+      [
+        "1"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "kernel_basis": [
+      [
+        "0"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "kernel_energy": "3",
+    "stationarity": "0",
+    "fiber_minimum": "-3",
+    "E": [
+      [
+        "2"
+      ],
+      [
+        "1"
+      ],
+      [
+        "-2"
+      ]
+    ],
+    "CE": [
+      [
+        "1"
+      ]
+    ],
+    "CKE": [
+      [
+        "2"
+      ]
+    ],
+    "multiplier_norm": "1/2",
+    "compressed_norm": "2",
+    "graph_gram": [
+      [
+        "6",
+        "4"
+      ],
+      [
+        "4",
+        "5"
+      ]
+    ],
+    "graph_determinant": "14"
+  },
+  "required": {
+    "multiplier_norm_upper": 1,
+    "compressed_norm_upper": 1,
+    "fiber_minimum_lower": 0
+  },
+  "universal_verification": "Q=diag(-3,3) gives f_x=(x,0), Q(f_x,(0,t))=0 and fiber difference 3t^2 for all real x,t; all maps are finite dimensional.",
+  "checks": {
+    "positive_integration_weights": true,
+    "nonnegative_multiplier_parameters": true,
+    "multiplier_norm_at_most_one": true,
+    "trace_onto_and_kernel_nonzero": true,
+    "feature_rows": true,
+    "quadratic_form": true,
+    "strict_kernel_energy": true,
+    "fiber_stationarity": true,
+    "unique_fiber_minimum": true,
+    "nonzero_minimizing_plus_profile": true,
+    "right_inverse": true,
+    "minimizing_lift_identity": true,
+    "compressed_feature_identity": true,
+    "negative_minimum": true,
+    "strict_compression_failure": true,
+    "graph_norm_positive_definite": true
+  },
+  "failures": []
+}

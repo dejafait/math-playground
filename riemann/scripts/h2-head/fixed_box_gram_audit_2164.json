@@ -1,0 +1,591 @@
+{
+  "step": 2164,
+  "method": "independent q=1/x^2 exact operand audit",
+  "saved_certificate": "scripts/h2-head/fixed_box_gram_2162.json",
+  "saved_certificate_sha256": "a578b99854609059846f87382cdae63070a38b8a4db6cfa8c65b46f08f070e0c",
+  "q_intervals": [
+    [
+      {
+        "numerator": 4,
+        "denominator": 841
+      },
+      {
+        "numerator": 1,
+        "denominator": 196
+      }
+    ],
+    [
+      {
+        "numerator": 4,
+        "denominator": 1849
+      },
+      {
+        "numerator": 4,
+        "denominator": 1681
+      }
+    ],
+    [
+      {
+        "numerator": 4,
+        "denominator": 2601
+      },
+      {
+        "numerator": 4,
+        "denominator": 2401
+      }
+    ]
+  ],
+  "q_gap_lowers": {
+    "1-2": {
+      "numerator": 3360,
+      "denominator": 1413721
+    },
+    "1-3": {
+      "numerator": 6240,
+      "denominator": 2019241
+    },
+    "2-3": {
+      "numerator": 2208,
+      "denominator": 4439449
+    }
+  },
+  "row_scalings": [
+    {
+      "numerator": 1,
+      "denominator": 1
+    },
+    {
+      "numerator": 200,
+      "denominator": 1
+    },
+    {
+      "numerator": 40000,
+      "denominator": 1
+    }
+  ],
+  "reconstructed_y_rows": [
+    {
+      "node": 1,
+      "other_nodes": [
+        2,
+        3
+      ],
+      "y_lower": {
+        "numerator": 800,
+        "denominator": 841
+      },
+      "gap_lower_factors": [
+        {
+          "numerator": 672000,
+          "denominator": 1413721
+        },
+        {
+          "numerator": 1248000,
+          "denominator": 2019241
+        }
+      ],
+      "denominator_lower": {
+        "numerator": 95846400000000,
+        "denominator": 342965014892143
+      },
+      "absolute_numerator_uppers": [
+        {
+          "numerator": 128000000,
+          "denominator": 4036081
+        },
+        {
+          "numerator": 653120000,
+          "denominator": 4036081
+        },
+        {
+          "numerator": 200,
+          "denominator": 1
+        }
+      ],
+      "inverse_entry_absolute_uppers": [
+        {
+          "numerator": 594823321,
+          "denominator": 5241600
+        },
+        {
+          "numerator": 93387261397,
+          "denominator": 161280000
+        },
+        {
+          "numerator": 342965014892143,
+          "denominator": 479232000000
+        }
+      ],
+      "inverse_entry_signed_enclosures": [
+        [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 594823321,
+            "denominator": 5241600
+          }
+        ],
+        [
+          {
+            "numerator": -93387261397,
+            "denominator": 161280000
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 342965014892143,
+            "denominator": 479232000000
+          }
+        ]
+      ],
+      "row_square_upper": {
+        "numerator": 3227226392249942642329850416667,
+        "denominator": 3751167393792000000000000
+      }
+    },
+    {
+      "node": 2,
+      "other_nodes": [
+        1,
+        3
+      ],
+      "y_lower": {
+        "numerator": 800,
+        "denominator": 1849
+      },
+      "gap_lower_factors": [
+        {
+          "numerator": 672000,
+          "denominator": 1413721
+        },
+        {
+          "numerator": 441600,
+          "denominator": 4439449
+        }
+      ],
+      "denominator_lower": {
+        "numerator": 33914880000000,
+        "denominator": 1657798153602703
+      },
+      "absolute_numerator_uppers": [
+        {
+          "numerator": 8000000,
+          "denominator": 117649
+        },
+        {
+          "numerator": 650000,
+          "denominator": 2401
+        },
+        {
+          "numerator": 200,
+          "denominator": 1
+        }
+      ],
+      "inverse_entry_absolute_uppers": [
+        {
+          "numerator": 4833230768521,
+          "denominator": 1454100480
+        },
+        {
+          "numerator": 62831999990773,
+          "denominator": 4748083200
+        },
+        {
+          "numerator": 1657798153602703,
+          "denominator": 169574400000
+        }
+      ],
+      "inverse_entry_signed_enclosures": [
+        [
+          {
+            "numerator": -4833230768521,
+            "denominator": 1454100480
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 62831999990773,
+            "denominator": 4748083200
+          }
+        ],
+        [
+          {
+            "numerator": -1657798153602703,
+            "denominator": 169574400000
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ]
+      ],
+      "row_square_upper": {
+        "numerator": 317712030479081613005065059830715047,
+        "denominator": 1127684376499322880000000000
+      }
+    },
+    {
+      "node": 3,
+      "other_nodes": [
+        1,
+        2
+      ],
+      "y_lower": {
+        "numerator": 800,
+        "denominator": 2601
+      },
+      "gap_lower_factors": [
+        {
+          "numerator": 1248000,
+          "denominator": 2019241
+        },
+        {
+          "numerator": 441600,
+          "denominator": 4439449
+        }
+      ],
+      "denominator_lower": {
+        "numerator": 48988160000000,
+        "denominator": 2590687739642401
+      },
+      "absolute_numerator_uppers": [
+        {
+          "numerator": 8000000,
+          "denominator": 82369
+        },
+        {
+          "numerator": 24650000,
+          "denominator": 82369
+        },
+        {
+          "numerator": 200,
+          "denominator": 1
+        }
+      ],
+      "inverse_entry_absolute_uppers": [
+        {
+          "numerator": 52871178360049,
+          "denominator": 10293637120
+        },
+        {
+          "numerator": 26065490931504157,
+          "denominator": 1646981939200
+        },
+        {
+          "numerator": 2590687739642401,
+          "denominator": 244940800000
+        }
+      ],
+      "inverse_entry_signed_enclosures": [
+        [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 52871178360049,
+            "denominator": 10293637120
+          }
+        ],
+        [
+          {
+            "numerator": -26065490931504157,
+            "denominator": 1646981939200
+          },
+          {
+            "numerator": 0,
+            "denominator": 1
+          }
+        ],
+        [
+          {
+            "numerator": 0,
+            "denominator": 1
+          },
+          {
+            "numerator": 2590687739642401,
+            "denominator": 244940800000
+          }
+        ]
+      ],
+      "row_square_upper": {
+        "numerator": 65901247445416384478623542187414481061,
+        "denominator": 169534344253187031040000000000
+      }
+    }
+  ],
+  "checked_scalar_values": {
+    "inverse_frobenius_square_upper": {
+      "numerator": 9038116652331572962135737621217329139050385873,
+      "denominator": 13463243595254160685006848000000000000
+    },
+    "eigenvalue_lower": {
+      "numerator": 13463243595254160685006848000000000000,
+      "denominator": 9038116652331572962135737621217329139050385873
+    },
+    "required_eigenvalue_threshold": {
+      "numerator": 1,
+      "denominator": 2000000000
+    },
+    "required_inverse_square_strict_upper": {
+      "numerator": 2000000000,
+      "denominator": 1
+    },
+    "strict_comparison_difference": {
+      "numerator": 17888370538176748407877958378782670860949614127,
+      "denominator": 18076233304663145924271475242434658278100771746000000000
+    },
+    "strict_cross_product_reserve": 17888370538176748407877958378782670860949614127,
+    "display_cap": {
+      "numerator": 700000000,
+      "denominator": 1
+    },
+    "bound_below_display_cap": true,
+    "display_cap_cross_product_reserve": 386153864346339517369055978782670860949614127,
+    "passed": true,
+    "failures": []
+  },
+  "checks": [
+    {
+      "check": "all q intervals positive and internally ordered",
+      "passed": true
+    },
+    {
+      "check": "all three entire-box separations positive",
+      "passed": true
+    },
+    {
+      "check": "x endpoints",
+      "passed": true
+    },
+    {
+      "check": "transformed y endpoints",
+      "passed": true
+    },
+    {
+      "check": "three y separation values",
+      "passed": true
+    },
+    {
+      "check": "row 1: all fields, three magnitudes and signed enclosures",
+      "passed": true
+    },
+    {
+      "check": "row 1: positive denominator",
+      "passed": true
+    },
+    {
+      "check": "row 2: all fields, three magnitudes and signed enclosures",
+      "passed": true
+    },
+    {
+      "check": "row 2: positive denominator",
+      "passed": true
+    },
+    {
+      "check": "row 3: all fields, three magnitudes and signed enclosures",
+      "passed": true
+    },
+    {
+      "check": "row 3: positive denominator",
+      "passed": true
+    },
+    {
+      "check": "complete inverse-row list including node count",
+      "passed": true
+    },
+    {
+      "check": "saved method label",
+      "passed": true
+    },
+    {
+      "check": "inverse_frobenius_square_upper",
+      "passed": true
+    },
+    {
+      "check": "eigenvalue_lower",
+      "passed": true
+    },
+    {
+      "check": "required_eigenvalue_threshold",
+      "passed": true
+    },
+    {
+      "check": "required_inverse_square_strict_upper",
+      "passed": true
+    },
+    {
+      "check": "strict_comparison_difference",
+      "passed": true
+    },
+    {
+      "check": "strict_cross_product_reserve",
+      "passed": true
+    },
+    {
+      "check": "display_cap",
+      "passed": true
+    },
+    {
+      "check": "bound_below_display_cap",
+      "passed": true
+    },
+    {
+      "check": "display_cap_cross_product_reserve",
+      "passed": true
+    },
+    {
+      "check": "passed",
+      "passed": true
+    },
+    {
+      "check": "failures",
+      "passed": true
+    },
+    {
+      "check": "strict reciprocal chain",
+      "passed": true
+    },
+    {
+      "check": "positive exact cross products",
+      "passed": true
+    },
+    {
+      "check": "certificate scope flags",
+      "passed": true
+    },
+    {
+      "check": "saved certificate contains exactly the audited fields",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 1",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 2",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 3",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 4",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 5",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 6",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 7",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 8",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 9",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 10",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 11",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 12",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 13",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 14",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 15",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 16",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 17",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 18",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 19",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 20",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 21",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 22",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 23",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 24",
+      "passed": true
+    },
+    {
+      "check": "canonical displayed fraction 25",
+      "passed": true
+    },
+    {
+      "check": "canonical cap cross product",
+      "passed": true
+    },
+    {
+      "check": "canonical required cross product",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true,
+  "scope": "hypothetical closed box; no actual placement, sampling or new bound"
+}

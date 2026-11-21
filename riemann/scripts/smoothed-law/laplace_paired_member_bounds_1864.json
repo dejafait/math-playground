@@ -1,0 +1,442 @@
+{
+  "arithmetic": "exact fractions and integers",
+  "scope": "finite scalar checks only; analytic proof is C034h, pending audit",
+  "checks": {
+    "exp3": true,
+    "exp169over8": true,
+    "exp49over2": true,
+    "e_upper": true,
+    "sqrt2_upper_squared": true,
+    "low_origin_endpoint_p4": true,
+    "low_midpoint_endpoint_p4": true,
+    "negative_translate_p4": true,
+    "low_origin_endpoint_p6": true,
+    "low_midpoint_endpoint_p6": true,
+    "negative_translate_p6": true,
+    "I4_bound": true,
+    "I6_bound": true,
+    "alpha1_scaled": true,
+    "alphaR_scaled": true,
+    "beta1_scaled": true,
+    "betaR_scaled": true,
+    "nonreal_alpha_scaled": true,
+    "nonreal_beta_scaled": true,
+    "complex_Q1": true,
+    "complex_R": true,
+    "complex_Q1_second": true,
+    "complex_Q2_second": true,
+    "H1_scaled": true,
+    "HR_scaled": true,
+    "W1_scaled": true,
+    "W2_scaled": true,
+    "normalized_core_factor": true,
+    "core_kernel_coefficient": true,
+    "half_core_mass": true,
+    "pair_correction_coefficient": true,
+    "remaining_pair_margin": true
+  },
+  "bounds": {
+    "exp3": {
+      "actual": {
+        "numerator": "89641",
+        "denominator": "4480"
+      },
+      "required": {
+        "numerator": "20",
+        "denominator": "1"
+      },
+      "relation": ">"
+    },
+    "exp169over8": {
+      "actual": {
+        "numerator": "1509206139472531409668790671363254700926659276468236772680812253787037003354022504567695056421779348357460541354164071477580468163741313006810081722306157522100117532273441959866738836889561186567065554929904683485121144711598360222284923991931921551",
+        "denominator": "1009898281178806562592009829473270643942962827114562209701646385389068992342247091867349013358143450689168632266344547781621008888917071991234623204823022614779340179267150965549297199516696135310055064470851277553664000000000000000000000000"
+      },
+      "required": {
+        "numerator": "1490000000",
+        "denominator": "1"
+      },
+      "relation": ">"
+    },
+    "exp49over2": {
+      "actual": {
+        "numerator": "1205201537989201717365232878176022826800614151592659610218135818923170993224547826703011061344956375069192951169286542738124962802653435171027709057515573439111470633141037257185874169",
+        "denominator": "27595919575594877467899083545789060455893643138385426697409911124422081886637230141020062573732477792475096736402091169023814547709942182808299503616000000000000000000000000"
+      },
+      "required": {
+        "numerator": "43000000000",
+        "denominator": "1"
+      },
+      "relation": ">"
+    },
+    "e_upper": {
+      "actual": {
+        "numerator": "1631",
+        "denominator": "600"
+      },
+      "required": {
+        "numerator": "11",
+        "denominator": "4"
+      },
+      "relation": "<"
+    },
+    "sqrt2_upper_squared": {
+      "actual": {
+        "numerator": "2",
+        "denominator": "1"
+      },
+      "required": {
+        "numerator": "100",
+        "denominator": "49"
+      },
+      "relation": "<"
+    },
+    "low_origin_endpoint_p4": {
+      "actual": {
+        "numerator": "84035",
+        "denominator": "805306368"
+      },
+      "required": {
+        "numerator": "3",
+        "denominator": "100"
+      },
+      "relation": "<"
+    },
+    "low_midpoint_endpoint_p4": {
+      "actual": {
+        "numerator": "7",
+        "denominator": "240"
+      },
+      "required": {
+        "numerator": "3",
+        "denominator": "100"
+      },
+      "relation": "<"
+    },
+    "negative_translate_p4": {
+      "actual": {
+        "numerator": "12005",
+        "denominator": "38654705664"
+      },
+      "required": {
+        "numerator": "1",
+        "denominator": "1000"
+      },
+      "relation": "<"
+    },
+    "low_origin_endpoint_p6": {
+      "actual": {
+        "numerator": "4117715",
+        "denominator": "201326592"
+      },
+      "required": {
+        "numerator": "3",
+        "denominator": "25"
+      },
+      "relation": "<"
+    },
+    "low_midpoint_endpoint_p6": {
+      "actual": {
+        "numerator": "7",
+        "denominator": "60"
+      },
+      "required": {
+        "numerator": "3",
+        "denominator": "25"
+      },
+      "relation": "<"
+    },
+    "negative_translate_p6": {
+      "actual": {
+        "numerator": "117649",
+        "denominator": "3221225472"
+      },
+      "required": {
+        "numerator": "1",
+        "denominator": "1000"
+      },
+      "relation": "<"
+    },
+    "I4_bound": {
+      "actual": {
+        "numerator": "10217",
+        "denominator": "7000"
+      },
+      "required": {
+        "numerator": "3",
+        "denominator": "2"
+      },
+      "relation": "<"
+    },
+    "I6_bound": {
+      "actual": {
+        "numerator": "25847",
+        "denominator": "7000"
+      },
+      "required": {
+        "numerator": "15",
+        "denominator": "4"
+      },
+      "relation": "<"
+    },
+    "alpha1_scaled": {
+      "actual": {
+        "numerator": "205928221289",
+        "denominator": "15376800000000"
+      },
+      "required": {
+        "numerator": "1",
+        "denominator": "50"
+      },
+      "relation": "<"
+    },
+    "alphaR_scaled": {
+      "actual": {
+        "numerator": "342465768239",
+        "denominator": "23065200000000"
+      },
+      "required": {
+        "numerator": "1",
+        "denominator": "50"
+      },
+      "relation": "<"
+    },
+    "beta1_scaled": {
+      "actual": {
+        "numerator": "689176200513801",
+        "denominator": "20502400000000"
+      },
+      "required": {
+        "numerator": "40",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "betaR_scaled": {
+      "actual": {
+        "numerator": "680837992347401",
+        "denominator": "18452160000000"
+      },
+      "required": {
+        "numerator": "40",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "nonreal_alpha_scaled": {
+      "actual": {
+        "numerator": "5340576171875",
+        "denominator": "262733146001979837311819117676584403741148754050425566432697094976817942676418237600669624896790255329687056259642968563668593250897471023940912016032847859873344474359985212415842893928833848936561081915573982639028101887027596576078683071381194558482897701656180328044350869564555379956012585029260984414001262096348134809756889590535261755919090440994816"
+      },
+      "required": {
+        "numerator": "1",
+        "denominator": "50"
+      },
+      "relation": "<"
+    },
+    "nonreal_beta_scaled": {
+      "actual": {
+        "numerator": "2205371856689453125",
+        "denominator": "1026301351570233739499293428424157827113862320509474868877723027253195088579758740627615722253086934881590063514230345951830442386318246187269187562628311952630251852968692235999386304409507222408441726232710869683703522996201549125307355747582791244073819147094454406423245584236544452953174160270550720367192430063859901600612849963028366234058947035136"
+      },
+      "required": {
+        "numerator": "40",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "complex_Q1": {
+      "actual": {
+        "numerator": "2032",
+        "denominator": "169"
+      },
+      "required": {
+        "numerator": "13",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "complex_R": {
+      "actual": {
+        "numerator": "1154624",
+        "denominator": "28561"
+      },
+      "required": {
+        "numerator": "45",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "complex_Q1_second": {
+      "actual": {
+        "numerator": "1161877728",
+        "denominator": "4826809"
+      },
+      "required": {
+        "numerator": "260",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "complex_Q2_second": {
+      "actual": {
+        "numerator": "2330707776",
+        "denominator": "4826809"
+      },
+      "required": {
+        "numerator": "520",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "H1_scaled": {
+      "actual": {
+        "numerator": "39",
+        "denominator": "2"
+      },
+      "required": {
+        "numerator": "20",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "HR_scaled": {
+      "actual": {
+        "numerator": "675",
+        "denominator": "4"
+      },
+      "required": {
+        "numerator": "200",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "W1_scaled": {
+      "actual": {
+        "numerator": "975",
+        "denominator": "1"
+      },
+      "required": {
+        "numerator": "1000",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "W2_scaled": {
+      "actual": {
+        "numerator": "1950",
+        "denominator": "1"
+      },
+      "required": {
+        "numerator": "2000",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "normalized_core_factor": {
+      "actual": {
+        "numerator": "23643",
+        "denominator": "29282"
+      },
+      "required": {
+        "numerator": "4",
+        "denominator": "5"
+      },
+      "relation": ">"
+    },
+    "core_kernel_coefficient": {
+      "actual": {
+        "numerator": "15888",
+        "denominator": "5"
+      },
+      "required": {
+        "numerator": "3100",
+        "denominator": "1"
+      },
+      "relation": ">"
+    },
+    "half_core_mass": {
+      "actual": {
+        "numerator": "11",
+        "denominator": "27"
+      },
+      "required": {
+        "numerator": "2",
+        "denominator": "5"
+      },
+      "relation": ">"
+    },
+    "pair_correction_coefficient": {
+      "actual": {
+        "numerator": "115251",
+        "denominator": "245"
+      },
+      "required": {
+        "numerator": "471",
+        "denominator": "1"
+      },
+      "relation": "<"
+    },
+    "remaining_pair_margin": {
+      "actual": {
+        "numerator": "6269",
+        "denominator": "245"
+      },
+      "required": {
+        "numerator": "25",
+        "denominator": "1"
+      },
+      "relation": ">"
+    }
+  },
+  "exponential_lower_bounds": {
+    "exp3": {
+      "argument": {
+        "numerator": "3",
+        "denominator": "1"
+      },
+      "degree": 8,
+      "sum": {
+        "numerator": "89641",
+        "denominator": "4480"
+      },
+      "floor": "20",
+      "required_lower": "20"
+    },
+    "exp169over8": {
+      "argument": {
+        "numerator": "169",
+        "denominator": "8"
+      },
+      "degree": 100,
+      "sum": {
+        "numerator": "1509206139472531409668790671363254700926659276468236772680812253787037003354022504567695056421779348357460541354164071477580468163741313006810081722306157522100117532273441959866738836889561186567065554929904683485121144711598360222284923991931921551",
+        "denominator": "1009898281178806562592009829473270643942962827114562209701646385389068992342247091867349013358143450689168632266344547781621008888917071991234623204823022614779340179267150965549297199516696135310055064470851277553664000000000000000000000000"
+      },
+      "floor": "1494414009",
+      "required_lower": "1490000000"
+    },
+    "exp49over2": {
+      "argument": {
+        "numerator": "49",
+        "denominator": "2"
+      },
+      "degree": 100,
+      "sum": {
+        "numerator": "1205201537989201717365232878176022826800614151592659610218135818923170993224547826703011061344956375069192951169286542738124962802653435171027709057515573439111470633141037257185874169",
+        "denominator": "27595919575594877467899083545789060455893643138385426697409911124422081886637230141020062573732477792475096736402091169023814547709942182808299503616000000000000000000000000"
+      },
+      "floor": "43673179097",
+      "required_lower": "43000000000"
+    }
+  },
+  "summary": {
+    "check_count": 32,
+    "failures": [],
+    "core_coefficient": 496,
+    "correction_upper": 471,
+    "claimed_margin": 25,
+    "required_margin": 0,
+    "unresolved": "independent conceptual audit; no actual-divisor assembly or RH conclusion"
+  }
+}

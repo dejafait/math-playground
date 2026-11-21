@@ -1,0 +1,319 @@
+{
+  "scope": "Exact finite arithmetic only; analytic audit is in C919a step2149.",
+  "input_path": "scripts/heat/one-sided-conjugate-tail-2147.json",
+  "input_sha256": "b240c15d9f773a14bef20c10ba396e96fe93aaff410d7b5655f35b462422afc9",
+  "input_unchanged": true,
+  "band": [
+    "0/1",
+    "1/20"
+  ],
+  "radius": "100/1",
+  "scaling": [
+    1,
+    200,
+    40000
+  ],
+  "tail": {
+    "components": [
+      {
+        "m": 2,
+        "scale": 1,
+        "p": 6,
+        "coefficient": "1/1",
+        "integrated_log_bound": "13/125000000000",
+        "power_bound": "39/78125000000",
+        "weighted_term": "39/78125000000"
+      },
+      {
+        "m": 4,
+        "scale": 200,
+        "p": 10,
+        "coefficient": "160000/1",
+        "integrated_log_bound": "23/40500000000000000000",
+        "power_bound": "23/5062500000000000000",
+        "weighted_term": "23/31640625000000"
+      },
+      {
+        "m": 6,
+        "scale": 40000,
+        "p": 14,
+        "coefficient": "14400000000/1",
+        "integrated_log_bound": "33/8450000000000000000000000000",
+        "power_bound": "231/5281250000000000000000000000",
+        "weighted_term": "2079/3300781250000000000"
+      }
+    ],
+    "actual_rational_budget": "133662268399/267363281250000000000",
+    "rounded_epsilon": "1/2000000000",
+    "required_strict_upper_bound": "5691/100000000000",
+    "rounding_reserve": "9686113/133681640625000000000",
+    "threshold_reserve": "5641/100000000000",
+    "baseline_B": "5691/1000000000",
+    "baseline_ratio": "11382/1"
+  },
+  "checks": [
+    {
+      "name": "independent weights p=6",
+      "left": "1/1",
+      "relation": "=",
+      "right": "1/1",
+      "passed": true
+    },
+    {
+      "name": "independent power_bounds p=6",
+      "left": "39/78125000000",
+      "relation": "=",
+      "right": "39/78125000000",
+      "passed": true
+    },
+    {
+      "name": "independent weighted_terms p=6",
+      "left": "39/78125000000",
+      "relation": "=",
+      "right": "39/78125000000",
+      "passed": true
+    },
+    {
+      "name": "independent weights p=10",
+      "left": "160000/1",
+      "relation": "=",
+      "right": "160000/1",
+      "passed": true
+    },
+    {
+      "name": "independent power_bounds p=10",
+      "left": "23/5062500000000000000",
+      "relation": "=",
+      "right": "23/5062500000000000000",
+      "passed": true
+    },
+    {
+      "name": "independent weighted_terms p=10",
+      "left": "23/31640625000000",
+      "relation": "=",
+      "right": "23/31640625000000",
+      "passed": true
+    },
+    {
+      "name": "independent weights p=14",
+      "left": "14400000000/1",
+      "relation": "=",
+      "right": "14400000000/1",
+      "passed": true
+    },
+    {
+      "name": "independent power_bounds p=14",
+      "left": "231/5281250000000000000000000000",
+      "relation": "=",
+      "right": "231/5281250000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "independent weighted_terms p=14",
+      "left": "2079/3300781250000000000",
+      "relation": "=",
+      "right": "2079/3300781250000000000",
+      "passed": true
+    },
+    {
+      "name": "independent actual_rational_budget",
+      "left": "133662268399/267363281250000000000",
+      "relation": "=",
+      "right": "133662268399/267363281250000000000",
+      "passed": true
+    },
+    {
+      "name": "independent rounded_epsilon",
+      "left": "1/2000000000",
+      "relation": "=",
+      "right": "1/2000000000",
+      "passed": true
+    },
+    {
+      "name": "independent required_strict_upper_bound",
+      "left": "5691/100000000000",
+      "relation": "=",
+      "right": "5691/100000000000",
+      "passed": true
+    },
+    {
+      "name": "independent rounding_reserve",
+      "left": "9686113/133681640625000000000",
+      "relation": "=",
+      "right": "9686113/133681640625000000000",
+      "passed": true
+    },
+    {
+      "name": "independent threshold_reserve",
+      "left": "5641/100000000000",
+      "relation": "=",
+      "right": "5641/100000000000",
+      "passed": true
+    },
+    {
+      "name": "independent baseline_B",
+      "left": "5691/1000000000",
+      "relation": "=",
+      "right": "5691/1000000000",
+      "passed": true
+    },
+    {
+      "name": "strict rounded bound",
+      "left": "133662268399/267363281250000000000",
+      "relation": "<",
+      "right": "1/2000000000",
+      "passed": true
+    },
+    {
+      "name": "strict hundredfold threshold",
+      "left": "1/2000000000",
+      "relation": "<",
+      "right": "5691/100000000000",
+      "passed": true
+    },
+    {
+      "name": "baseline ratio",
+      "left": "11382/1",
+      "relation": "=",
+      "right": "11382/1",
+      "passed": true
+    },
+    {
+      "name": "source time endpoint",
+      "left": "1/5",
+      "relation": "=",
+      "right": "1/5",
+      "passed": true
+    },
+    {
+      "name": "local height squared endpoint",
+      "left": "3/20",
+      "relation": "=",
+      "right": "3/20",
+      "passed": true
+    },
+    {
+      "name": "maximum height below strict tail",
+      "left": "1/2",
+      "relation": "<",
+      "right": "100/1",
+      "passed": true
+    },
+    {
+      "name": "original display was rounded down",
+      "left": "999855087/2000000000000000000",
+      "relation": "<",
+      "right": "133662268399/267363281250000000000",
+      "passed": false
+    },
+    {
+      "name": "corrected upward display",
+      "left": "133662268399/267363281250000000000",
+      "relation": "<",
+      "right": "1249818859/2500000000000000000",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: imaginary-vector coefficient m=2",
+      "left": "1/1",
+      "relation": "=",
+      "right": "1/1",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: imaginary-vector coefficient m=4",
+      "left": "160000/1",
+      "relation": "=",
+      "right": "160000/1",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: imaginary-vector coefficient m=6",
+      "left": "14400000000/1",
+      "relation": "=",
+      "right": "14400000000/1",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: source-time right endpoint",
+      "left": "1/5",
+      "relation": "=",
+      "right": "1/5",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: local strip squared right endpoint",
+      "left": "3/20",
+      "relation": "=",
+      "right": "3/20",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: pure imaginary zero cannot enter strict tail",
+      "left": "1/2",
+      "relation": "<",
+      "right": "100/1",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: integrated weighted power p=6",
+      "left": "39/78125000000",
+      "relation": "=",
+      "right": "39/78125000000",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: integrated weighted power p=10",
+      "left": "23/31640625000000",
+      "relation": "=",
+      "right": "23/31640625000000",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: integrated weighted power p=14",
+      "left": "2079/3300781250000000000",
+      "relation": "=",
+      "right": "2079/3300781250000000000",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: full rational sum",
+      "left": "133662268399/267363281250000000000",
+      "relation": "=",
+      "right": "133662268399/267363281250000000000",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: positive rounding reserve",
+      "left": "9686113/133681640625000000000",
+      "relation": "=",
+      "right": "9686113/133681640625000000000",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: rounding upper bound",
+      "left": "133662268399/267363281250000000000",
+      "relation": "<",
+      "right": "1/2000000000",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: fixed hundredfold threshold",
+      "left": "1/2000000000",
+      "relation": "<",
+      "right": "5691/100000000000",
+      "passed": true
+    },
+    {
+      "name": "stored comparison: old budget divided by rounded cost",
+      "left": "11382/1",
+      "relation": "=",
+      "right": "11382/1",
+      "passed": true
+    }
+  ],
+  "failures": [
+    "original display was rounded down"
+  ],
+  "passed": false
+}

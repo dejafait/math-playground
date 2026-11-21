@@ -1,0 +1,795 @@
+{
+  "target": "Test C999's lower reference on C999y's exact three-dimensional obstruction space using complete inverse actions and the .000999 Euclidean-Gram threshold.",
+  "result": "INCONCLUSIVE",
+  "certified": false,
+  "checks": [
+    {
+      "check": "saved audit642 checks, not a new analytic audit",
+      "passed": true
+    },
+    {
+      "check": "pin joint-galerkin-family-certificate-598.npz",
+      "passed": true
+    },
+    {
+      "check": "pin joint-galerkin-family-certificate-598.json",
+      "passed": true
+    },
+    {
+      "check": "pin joint-galerkin-family-ledger-598.json",
+      "passed": true
+    },
+    {
+      "check": "pin neutral-reference-rank-obstruction-640.json",
+      "passed": true
+    },
+    {
+      "check": "pin neutral-reference-rank-obstruction-640.py",
+      "passed": true
+    },
+    {
+      "check": "pin joint-galerkin-family-certificate-598.py",
+      "passed": true
+    },
+    {
+      "check": "pin joint-galerkin-family-ledger-598.py",
+      "passed": true
+    },
+    {
+      "check": "pin original-galerkin-586.npz",
+      "passed": true
+    },
+    {
+      "check": "pin original-galerkin-586.json",
+      "passed": true
+    },
+    {
+      "check": "pin original-minimum-audit-588.json",
+      "passed": true
+    },
+    {
+      "check": "pin fixed-block-metric-audit-557.json",
+      "passed": true
+    },
+    {
+      "check": "pin certificate-audit-534.json",
+      "passed": true
+    },
+    {
+      "check": "pin complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "check": "pin residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "check": "pin complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "check": "pin joint-galerkin-family-locator-598.npz",
+      "passed": true
+    },
+    {
+      "check": "pin joint-galerkin-family-locator-598.py",
+      "passed": true
+    },
+    {
+      "check": "pin fixed-block-metric-555.json",
+      "passed": true
+    },
+    {
+      "check": "entire saved witness equals audited witness",
+      "passed": true
+    },
+    {
+      "check": "exact frozen support and scale",
+      "passed": true
+    },
+    {
+      "check": "all96 coordinates present",
+      "passed": true
+    },
+    {
+      "check": "pin original-galerkin-586.npz",
+      "passed": true
+    },
+    {
+      "check": "square orientations",
+      "passed": true
+    },
+    {
+      "check": "all original inputs unchanged",
+      "passed": true
+    }
+  ],
+  "input_sha256": {
+    "neutral-reference-rank-audit-642.json": "d48575c1eb3bc902e13178d556763a2a8e6ad5408eaaacebbadd486df0938ee6",
+    "joint-galerkin-family-certificate-598.npz": "f5035b5e28bf85b7b8329a6675f910a8545208ad931bb983938ee14f30970876",
+    "joint-galerkin-family-certificate-598.json": "42a2b96a000ec519cb926a752e32bf364c3e880cfb06436d59a6ecc4cdbfb290",
+    "joint-galerkin-family-ledger-598.json": "d531db86b4b1c98ae9e41a9c973d8d5528336c7e6e6b0649c921b16df587dce2",
+    "neutral-reference-rank-obstruction-640.json": "de151288e46751a1ce2a36df803e8322ad912247d21784ac5b488bc8c87293a6",
+    "neutral-reference-rank-obstruction-640.py": "b501ea34a426a26cd728f8bb9bf34b97eb629e0c9b4b3023777a00967ebcda71",
+    "joint-galerkin-family-certificate-598.py": "ff58c96b3ffe5cdcd457c1868f7ca6d0791095b3d5f336ab83cac1ec2c0b4c1b",
+    "joint-galerkin-family-ledger-598.py": "e15b16d28f2244c1a387805fee575d13a32163f771da4e073bca14a9f2bd8574",
+    "original-galerkin-586.npz": "44f97e4dfd0b51ee97e907abb6f6cd9432d288f65165b255319f7a16a87c407d",
+    "original-galerkin-586.json": "e7b9a340f836ab3f9b2c7d784cba98dd34f57283becd7558c8df9d942e473de2",
+    "original-minimum-audit-588.json": "781186abc5d9d22ad656e3dd16f29c2df12d8c32ab099186072454164a580b27",
+    "fixed-block-metric-audit-557.json": "4c3b0e6e0345d2e19d61abf8be83e64725c0c77be9abf797b974fd78823cfe7f",
+    "certificate-audit-534.json": "99efabcd92296cb5814c7ff7e18f969bfd060665ae5c80ef821c74d04e79c301",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "residual-certificate-532.py": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5",
+    "complete-schur-531.py": "0ca836a6b0a4c9511e1495420b060496718acc083579a7f306e630fd951a83fc",
+    "joint-galerkin-family-locator-598.npz": "f9a34f9a2633a461ee4bd833ff98cba9a65cfce2fb21e8dfd91faf1a31ee58f8",
+    "joint-galerkin-family-locator-598.py": "a76c9fce5b18c31421220a32420169aef8286817cc80351aef45823c0a1bcb3e",
+    "fixed-block-metric-555.json": "144b5d3dffbcf8e5f822b876dd12c32793f4dcdf8b92e95f10a41295a7626b71"
+  },
+  "failures": [
+    "Smooth remainder quadrature and exponential suffix lack certified errors; reference square is a proposal only",
+    "No Gaussian-rational step forcing with paid jump strips, suffix and projected-output error was constructed",
+    "No full projected B0 residual, including singular output beyond mode255, was certified",
+    "All nine inverse-pairing and endpoint/remote/coordinate arithmetic errors remain unpaid",
+    "Neither a nonnegative lower matrix nor a negative upper direction is certified"
+  ],
+  "parameters": {
+    "delta": ".01",
+    "m": 286,
+    "J": 14,
+    "beta": ".219999",
+    "raw_trial_modes": 256,
+    "smooth_quadrature_nodes": 512
+  },
+  "threshold": ".000999 times exact X*X",
+  "qualifications": [
+    "REPRODUCTION proposal; no numerical sign is a theorem",
+    "Retains analytic/IEEE754/Decimal/source-to-Xi/core/c_star contracts",
+    "Neither S3 nor RH decided"
+  ],
+  "witness": {
+    "ambient_dimension": 2044,
+    "support_indices_zero_based": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036,
+      1037
+    ],
+    "omitted_coordinates": "exactly zero",
+    "denominator": 16777216,
+    "integer_columns_by_row": [
+      [
+        8790522,
+        -8729120,
+        -943920
+      ],
+      [
+        1963470,
+        6866966,
+        7987497
+      ],
+      [
+        2070125,
+        -1571986,
+        4707231
+      ],
+      [
+        3111264,
+        1437140,
+        1764548
+      ],
+      [
+        -3774351,
+        -64327,
+        -1907393
+      ],
+      [
+        -2868248,
+        -1040994,
+        1693349
+      ],
+      [
+        1962906,
+        1138924,
+        -2964344
+      ],
+      [
+        1641555,
+        44804,
+        -3913135
+      ],
+      [
+        -3939227,
+        2368771,
+        3211177
+      ],
+      [
+        -817366,
+        -979418,
+        223256
+      ],
+      [
+        -230605,
+        1641499,
+        -1204464
+      ],
+      [
+        -68054,
+        -802942,
+        -2257862
+      ],
+      [
+        -454165,
+        283963,
+        1003376
+      ],
+      [
+        -113250,
+        -438530,
+        -1133188
+      ],
+      [
+        -412169,
+        503128,
+        74468
+      ],
+      [
+        -34524,
+        -185815,
+        -972246
+      ],
+      [
+        8789254,
+        8729102,
+        -943142
+      ],
+      [
+        -1963351,
+        6865448,
+        -7990712
+      ],
+      [
+        2070478,
+        1573415,
+        4705313
+      ],
+      [
+        -3111553,
+        1436782,
+        -1763898
+      ],
+      [
+        -3774254,
+        63817,
+        -1908004
+      ],
+      [
+        2868210,
+        -1040591,
+        -1692863
+      ],
+      [
+        1963207,
+        -1138880,
+        -2964900
+      ],
+      [
+        -1641446,
+        44988,
+        3912576
+      ],
+      [
+        -3939133,
+        -2369004,
+        3211947
+      ],
+      [
+        817340,
+        -979304,
+        -222698
+      ],
+      [
+        -230492,
+        -1641620,
+        -1204177
+      ],
+      [
+        68097,
+        -802731,
+        2258048
+      ],
+      [
+        -454157,
+        -283928,
+        1003444
+      ],
+      [
+        113257,
+        -438417,
+        1133352
+      ],
+      [
+        -412151,
+        -503171,
+        74614
+      ],
+      [
+        34526,
+        -185728,
+        972318
+      ]
+    ]
+  },
+  "diagnostic_only": {
+    "comparison_matrix": [
+      [
+        0.026993900439185793,
+        -7.577411022415351e-07,
+        0.005486016514651779
+      ],
+      [
+        -7.577411022415351e-07,
+        0.051632174824854514,
+        2.8589110340686955e-06
+      ],
+      [
+        0.005486016514651779,
+        2.8589110340686955e-06,
+        0.08155970282421805
+      ]
+    ],
+    "comparison_eigenvalues": [
+      0.026447804577242044,
+      0.05163217461582006,
+      0.08210579889519626
+    ],
+    "euclidean_gram": [
+      [
+        0.999999965191332,
+        -1.8095416720598223e-08,
+        -2.3436239615648446e-08
+      ],
+      [
+        -1.8095416720598223e-08,
+        0.9999999736883289,
+        8.979512244877697e-09
+      ],
+      [
+        -2.3436239615648446e-08,
+        8.979512244877697e-09,
+        0.999999990590787
+      ]
+    ],
+    "restricted_reference_minimum": 0.7706244785202759,
+    "finite_linear_residual_fro": 1.264735050752792e-15,
+    "middle_column_norms": [
+      0.7109179439507436,
+      0.5749450302567148,
+      0.9472653910872153
+    ],
+    "original_first1024_residual_column_norms": [
+      0.024393291843581907,
+      0.03163154580823839,
+      0.026672636105162715
+    ],
+    "correction_norm_fro": 3.02503003276802e-05
+  },
+  "forcing_jump_diagnostic": [
+    {
+      "operator": "T f",
+      "prime_power": 29,
+      "prime": 29,
+      "x_over_ell_expression": "log(29)/ell-6",
+      "location_center": 0.1300895042213254,
+      "jump_center": [
+        -0.10524947120240047,
+        0.6061750975427804,
+        0.03451287572846008
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 29,
+      "prime": 29,
+      "x_over_ell_expression": "7-log(29)/ell",
+      "location_center": 0.8699104957786746,
+      "jump_center": [
+        0.10522407261504607,
+        0.6061743241036293,
+        -0.03468147699129144
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 31,
+      "prime": 31,
+      "x_over_ell_expression": "log(31)/ell-6",
+      "location_center": 0.2514997145140297,
+      "jump_center": [
+        -0.10381389235831433,
+        0.5979070071105653,
+        0.034042127954829256
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 31,
+      "prime": 31,
+      "x_over_ell_expression": "7-log(31)/ell",
+      "location_center": 0.7485002854859703,
+      "jump_center": [
+        0.10378884020191355,
+        0.5979062442209482,
+        -0.03420842953479056
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 32,
+      "prime": 2,
+      "x_over_ell_expression": "log(32)/ell-6",
+      "location_center": 0.30929753571457447,
+      "jump_center": [
+        -0.02062472282707516,
+        0.11878628204651684,
+        0.006763155080332072
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 32,
+      "prime": 2,
+      "x_over_ell_expression": "7-log(32)/ell",
+      "location_center": 0.6907024642854256,
+      "jump_center": [
+        0.02061974571110109,
+        0.11878613048311291,
+        -0.006796194242186904
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 37,
+      "prime": 37,
+      "x_over_ell_expression": "log(37)/ell-6",
+      "location_center": 0.5735982564365458,
+      "jump_center": [
+        -0.09992045491077661,
+        0.5754830956402713,
+        0.03276541158515749
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 37,
+      "prime": 37,
+      "x_over_ell_expression": "7-log(37)/ell",
+      "location_center": 0.4264017435634543,
+      "jump_center": [
+        0.09989634231074596,
+        0.5754823613620754,
+        -0.032925476188695915
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 41,
+      "prime": 41,
+      "x_over_ell_expression": "log(41)/ell-6",
+      "location_center": 0.7604779320399107,
+      "jump_center": [
+        -0.0976197243441526,
+        0.5622322397479791,
+        0.0320109676224143
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 41,
+      "prime": 41,
+      "x_over_ell_expression": "7-log(41)/ell",
+      "location_center": 0.23952206796008932,
+      "jump_center": [
+        0.09759616695172163,
+        0.5622315223769949,
+        -0.03216734663898933
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 43,
+      "prime": 43,
+      "x_over_ell_expression": "log(43)/ell-6",
+      "location_center": 0.8471837689953592,
+      "jump_center": [
+        -0.09654501668915207,
+        0.556042555275863,
+        0.03165855490890879
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 43,
+      "prime": 43,
+      "x_over_ell_expression": "7-log(43)/ell",
+      "location_center": 0.15281623100464078,
+      "jump_center": [
+        0.09652171864297665,
+        0.556041845802505,
+        -0.03181321232949158
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 47,
+      "prime": 47,
+      "x_over_ell_expression": "log(47)/ell-7",
+      "location_center": 0.009110750759472984,
+      "jump_center": [
+        0.4159672809264434,
+        -0.01920254866491491,
+        0.28345112483492707
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 47,
+      "prime": 47,
+      "x_over_ell_expression": "8-log(47)/ell",
+      "location_center": 0.990889249240527,
+      "jump_center": [
+        -0.41595409111957843,
+        -0.019277652540341618,
+        -0.28347015069905757
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 49,
+      "prime": 7,
+      "x_over_ell_expression": "log(49)/ell-7",
+      "location_center": 0.08497499664568904,
+      "jump_center": [
+        0.2058995816573079,
+        -0.009505066667873902,
+        0.14030542953719774
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 49,
+      "prime": 7,
+      "x_over_ell_expression": "8-log(49)/ell",
+      "location_center": 0.915025003354311,
+      "jump_center": [
+        -0.20589305283679687,
+        -0.009542242323845594,
+        -0.14031484714681455
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 53,
+      "prime": 53,
+      "x_over_ell_expression": "log(53)/ell-7",
+      "location_center": 0.22783088174893945,
+      "jump_center": [
+        0.4039384786574793,
+        -0.018647255805255433,
+        0.27525438030742244
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 53,
+      "prime": 53,
+      "x_over_ell_expression": "8-log(53)/ell",
+      "location_center": 0.7721691182510605,
+      "jump_center": [
+        -0.40392567026902393,
+        -0.018720187852010593,
+        -0.27527285598799733
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 59,
+      "prime": 59,
+      "x_over_ell_expression": "log(59)/ell-7",
+      "location_center": 0.4230690589654268,
+      "jump_center": [
+        0.3931901894019287,
+        -0.018151076040744604,
+        0.26793021127001265
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 59,
+      "prime": 59,
+      "x_over_ell_expression": "8-log(59)/ell",
+      "location_center": 0.5769309410345732,
+      "jump_center": [
+        -0.39317772182840255,
+        -0.01822206745847841,
+        -0.2679481953362218
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 61,
+      "prime": 61,
+      "x_over_ell_expression": "log(61)/ell-7",
+      "location_center": 0.4837572937711868,
+      "jump_center": [
+        0.389852169060707,
+        -0.017996980992922514,
+        0.26565559578022263
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 61,
+      "prime": 61,
+      "x_over_ell_expression": "8-log(61)/ell",
+      "location_center": 0.5162427062288132,
+      "jump_center": [
+        -0.3898398073316683,
+        -0.018067369723196575,
+        -0.26567342716922754
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 64,
+      "prime": 2,
+      "x_over_ell_expression": "log(64)/ell-7",
+      "location_center": 0.5711570428574891,
+      "jump_center": [
+        0.06417504695775965,
+        -0.002962551428407886,
+        0.043730577092499515
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 64,
+      "prime": 2,
+      "x_over_ell_expression": "8-log(64)/ell",
+      "location_center": 0.4288429571425108,
+      "jump_center": [
+        -0.06417301204656894,
+        -0.002974138384770136,
+        -0.04373351238520154
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 67,
+      "prime": 67,
+      "x_over_ell_expression": "log(67)/ell-7",
+      "location_center": 0.6545523161560082,
+      "jump_center": [
+        0.3804762673006045,
+        -0.017564155580729417,
+        0.25926660793886214
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 67,
+      "prime": 67,
+      "x_over_ell_expression": "8-log(67)/ell",
+      "location_center": 0.3454476838439918,
+      "jump_center": [
+        -0.38046420286978866,
+        -0.01763285146978713,
+        -0.25928401048492394
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 71,
+      "prime": 71,
+      "x_over_ell_expression": "log(71)/ell-7",
+      "location_center": 0.7601168692717385,
+      "jump_center": [
+        0.37470049386391313,
+        -0.01729752506534712,
+        0.2553308429099983
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 71,
+      "prime": 71,
+      "x_over_ell_expression": "8-log(71)/ell",
+      "location_center": 0.23988313072826153,
+      "jump_center": [
+        -0.37468861257571356,
+        -0.017365178124863736,
+        -0.2553479812788383
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 73,
+      "prime": 73,
+      "x_over_ell_expression": "log(73)/ell-7",
+      "location_center": 0.8106889671694489,
+      "jump_center": [
+        0.3719401756527729,
+        -0.017170098829653733,
+        0.25344988895586174
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 73,
+      "prime": 73,
+      "x_over_ell_expression": "8-log(73)/ell",
+      "location_center": 0.18931103283055103,
+      "jump_center": [
+        -0.37192838189084226,
+        -0.017237253507195193,
+        -0.25346690107092734
+      ]
+    },
+    {
+      "operator": "T f",
+      "prime_power": 79,
+      "prime": 79,
+      "x_over_ell_expression": "log(79)/ell-7",
+      "location_center": 0.9544856680317543,
+      "jump_center": [
+        0.36411933090713616,
+        -0.016809060453043072,
+        0.24812055816000506
+      ]
+    },
+    {
+      "operator": "T* h",
+      "prime_power": 79,
+      "prime": 79,
+      "x_over_ell_expression": "8-log(79)/ell",
+      "location_center": 0.045514331968245766,
+      "jump_center": [
+        -0.36410778513449804,
+        -0.016874803058586466,
+        -0.24813721255864354
+      ]
+    }
+  ],
+  "archive": {
+    "path": "scripts/separation-seven/frozen-reference-proposal-652.npz",
+    "sha256": "2b770a8a689a972ae487b9dd718e2e6d47b6769a5530e7fec244a102c5c317c6"
+  },
+  "script_sha256": "f81d6d2fed172b98e0178b1acbafbe80d2bf4238f46b98fe540e238c4d0d6c30"
+}

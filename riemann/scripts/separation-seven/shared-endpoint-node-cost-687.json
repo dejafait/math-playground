@@ -1,0 +1,128 @@
+{
+  "result": "PASS_PLANNING_CHECKS_FIXED_NODE_SETUP_FAILS",
+  "scope": "One full-recurrence, fixed-length bisection implementation for three interior Gauss rules; not an algorithm-independent lower bound",
+  "checks": [
+    {
+      "name": "N=117: odd degree and symmetry inventory",
+      "pass": true
+    },
+    {
+      "name": "N=117: full recurrence degree inventory",
+      "pass": true
+    },
+    {
+      "name": "N=117: dyadic bracket width",
+      "pass": true
+    },
+    {
+      "name": "N=81: odd degree and symmetry inventory",
+      "pass": true
+    },
+    {
+      "name": "N=81: full recurrence degree inventory",
+      "pass": true
+    },
+    {
+      "name": "N=81: dyadic bracket width",
+      "pass": true
+    },
+    {
+      "name": "N=63: odd degree and symmetry inventory",
+      "pass": true
+    },
+    {
+      "name": "N=63: full recurrence degree inventory",
+      "pass": true
+    },
+    {
+      "name": "N=63: dyadic bracket width",
+      "pass": true
+    },
+    {
+      "name": "positive roots total",
+      "pass": true
+    },
+    {
+      "name": "exact mandatory total",
+      "pass": true
+    },
+    {
+      "name": "prescription exceeds total square cap",
+      "pass": true
+    }
+  ],
+  "prescription": {
+    "endpoint": "shared even power moments on [0,1/8], through power256; not constructed",
+    "interior_panels": [
+      "[1/2,1]",
+      "[1/4,1/2]",
+      "[1/8,1/4]"
+    ],
+    "initial_bracket_width": "2^-16, isolation unpaid",
+    "final_bracket_width": "2^-512",
+    "fixed_updates": "496 per positive root; no early-exit or Newton step",
+    "recurrence": "P_(k+1)=((2k+1)/(k+1))*x*P_k-(k/(k+1))*P_(k-1), precomputed coefficients; all full recurrence evaluations independent"
+  },
+  "rows": [
+    {
+      "nodes": 117,
+      "positive_roots": 58,
+      "free_zero_roots": 1,
+      "negative_roots_by_symmetry": 58,
+      "midpoint_updates_per_positive_root": 496,
+      "charged_recurrence_steps_per_update": 115,
+      "charged_multiplications_per_step": 3,
+      "charged_subtractions_per_step": 1,
+      "mandatory_scalar_work": 13233280
+    },
+    {
+      "nodes": 81,
+      "positive_roots": 40,
+      "free_zero_roots": 1,
+      "negative_roots_by_symmetry": 40,
+      "midpoint_updates_per_positive_root": 496,
+      "charged_recurrence_steps_per_update": 79,
+      "charged_multiplications_per_step": 3,
+      "charged_subtractions_per_step": 1,
+      "mandatory_scalar_work": 6269440
+    },
+    {
+      "nodes": 63,
+      "positive_roots": 31,
+      "free_zero_roots": 1,
+      "negative_roots_by_symmetry": 31,
+      "midpoint_updates_per_positive_root": 496,
+      "charged_recurrence_steps_per_update": 61,
+      "charged_multiplications_per_step": 3,
+      "charged_subtractions_per_step": 1,
+      "mandatory_scalar_work": 3751744
+    }
+  ],
+  "work": {
+    "actual_mandatory_bound": 23254464,
+    "required_total_upper": 20000000,
+    "excess": 3254464,
+    "omitted": [
+      "root isolation",
+      "zero-root and symmetry work",
+      "P0/P1/P2",
+      "rational coefficient construction",
+      "sign tests, bisection arithmetic and assignments",
+      "Gauss weights",
+      "all endpoint-bank construction and contractions",
+      "all function/interval work",
+      "entry assembly, Z and square contraction"
+    ]
+  },
+  "error": {
+    "complete_square_required": "1e-10",
+    "achieved_complete_bound": null,
+    "reason": "Stopped before bank, nodes, quadrature or error realization; no S_ij evaluated"
+  },
+  "service_failures": [
+    "Mandatory interior node setup exceeds complete total-work cap",
+    "All endpoint-bank and finite-error obligations remain unpaid"
+  ],
+  "script_sha256": "0f62da332f25039e22f41bd56779c555edec0128b7e88e762c4029564ab0be03",
+  "failures": []
+}

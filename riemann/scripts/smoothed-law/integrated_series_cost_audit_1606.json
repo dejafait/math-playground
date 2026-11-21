@@ -1,0 +1,154 @@
+{
+  "canonical_proof": "lemmas/C032z-direct-integrated-spectral-explicit-formula.md#independent-cost-audit1606",
+  "original_certificate": "scripts/smoothed-law/integrated_spectral_cost_1586.json",
+  "scope": "C032z(8)-(9), R>=1, integer K>=1, epsilon in {1,1/8}; chosen allowances only",
+  "exact_C_lower": "3290038293613723794190024948623640724060210555066236205237603/106497596271155498924797840283600582127814121556541440000",
+  "exact_C_lower_margin": "95110405479058826446089740115623260225786908369993005237603/106497596271155498924797840283600582127814121556541440000",
+  "cases": [
+    {
+      "epsilon": "1",
+      "R_strict_lower": "45000",
+      "K_strict_lower": "1181250000",
+      "minimum_integer_K": 1181250001
+    },
+    {
+      "epsilon": "1/8",
+      "R_strict_lower": "360000",
+      "K_strict_lower": "75600000000",
+      "minimum_integer_K": 75600000001
+    }
+  ],
+  "work_ceiling": 10000000,
+  "small_R_case": "1<=R<=45000 implies A>45000/R>=1, including equality R=45000",
+  "large_R_case": "R>45000 and K<=10000000 imply (A+B)^2>945/8>100, hence A+B>10",
+  "caching": "K counts one literal partial sum; no multiplier across nodes or parameters",
+  "limitations": [
+    "Analytic implications require the canonical proof, not this arithmetic alone",
+    "No actual-error, coefficient-size or actual-dictionary lower bound",
+    "No quadrature, finite evaluator or nonzero residual certificate",
+    "Sharper remainders and nonliteral digamma evaluation remain outside scope"
+  ],
+  "checks": [
+    {
+      "name": "Taylor_lower_matches_saved_full_rational",
+      "actual": "3290038293613723794190024948623640724060210555066236205237603/106497596271155498924797840283600582127814121556541440000",
+      "required": "3290038293613723794190024948623640724060210555066236205237603/106497596271155498924797840283600582127814121556541440000",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "Taylor_lower_strict_margin",
+      "actual": "95110405479058826446089740115623260225786908369993005237603/106497596271155498924797840283600582127814121556541440000",
+      "required": "0",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "logarithmic_implication_margin_45000_minus_3pow9",
+      "actual": "25317",
+      "required": "0",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "product_coefficient",
+      "actual": "1181250000",
+      "required": "1181250000",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1_R",
+      "actual": "45000",
+      "required": "45000",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1_K",
+      "actual": "1181250000",
+      "required": "1181250000",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1_integer_rounding",
+      "actual": "1181250001",
+      "required": "1181250001",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1_ceiling_margin",
+      "actual": "1171250000",
+      "required": "0",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1/8_R",
+      "actual": "360000",
+      "required": "360000",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1/8_K",
+      "actual": "75600000000",
+      "required": "75600000000",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1/8_integer_rounding",
+      "actual": "75600000001",
+      "required": "75600000001",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "epsilon_1/8_ceiling_margin",
+      "actual": "75590000000",
+      "required": "0",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "original_work_ceiling",
+      "actual": "10000000",
+      "required": "10000000",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "large_R_squared_allowance_bound",
+      "actual": "945/8",
+      "required": "945/8",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "large_R_squared_bound_exceeds_100",
+      "actual": "945/8",
+      "required": "100",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "small_R_endpoint_45000_over_R",
+      "actual": "1",
+      "required": "1",
+      "relation": "==",
+      "passed": true
+    },
+    {
+      "name": "original_arithmetic_failures_empty",
+      "actual": "0",
+      "required": "0",
+      "relation": "==",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "original_certificate_unchanged": true
+}

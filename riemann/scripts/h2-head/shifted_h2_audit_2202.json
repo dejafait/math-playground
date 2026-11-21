@@ -1,0 +1,161 @@
+{
+  "source_certificate": "scripts/h2-head/shifted_h2_2200.json",
+  "source_sha256": "2611f0b07403309122787f352b4b2b23b941c80d40163c5886a764c39f623879",
+  "source_generator_sha256": "74b60c1973accfadf1a3d4dcea4a4ccfe9d0462ede8d951795f95d2e1e12577a",
+  "arithmetic_contract": "Correct CPython int/Fraction; no Decimal or original generator used",
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.15.2"
+  },
+  "reconstructed": {
+    "parameters": {
+      "cutoff": 100,
+      "onset": 4,
+      "D": [
+        1,
+        200,
+        40000
+      ]
+    },
+    "selected_x_upper": {
+      "numerator": "51",
+      "denominator": "2"
+    },
+    "beta_lower": {
+      "numerator": "4",
+      "denominator": "2601"
+    },
+    "head_lower_r4": {
+      "numerator": "256",
+      "denominator": "5727708301326206498092619377734375"
+    },
+    "tail_vector_factor": {
+      "numerator": "6252501",
+      "denominator": "6250000"
+    },
+    "first_shell_after_log": {
+      "numerator": "1",
+      "denominator": "100000000000000000000000000000000000000"
+    },
+    "integral_after_log": {
+      "numerator": "1",
+      "denominator": "18000000000000000000000000000000000000"
+    },
+    "shell_sum_upper": {
+      "numerator": "59",
+      "denominator": "900000000000000000000000000000000000000"
+    },
+    "complete_tail_upper_r4": {
+      "numerator": "368897559",
+      "denominator": "312500000000000000000000000000000000000000000"
+    },
+    "required_head_minus_tail": {
+      "numerator": "0",
+      "denominator": "1"
+    },
+    "actual_head_minus_tail": {
+      "numerator": "204794590879715780418457916658062432486687",
+      "denominator": "4582166641060965198474095502187500000000000000000000000000000000000000000"
+    },
+    "head_over_tail": {
+      "numerator": "204800000000000000000000000000000000000000",
+      "denominator": "5409120284219581542083341937567513313"
+    },
+    "tail_vector_component_bounds": [
+      {
+        "numerator": "1",
+        "denominator": "1"
+      },
+      {
+        "numerator": "1",
+        "denominator": "2500"
+      },
+      {
+        "numerator": "1",
+        "denominator": "6250000"
+      }
+    ],
+    "shell_exponents": {
+      "zero_power": 20,
+      "after_log_bound": 19
+    },
+    "strict_integer_cross_product": "79997887062388976725960123694555637690112109375",
+    "all_r/head_step": {
+      "numerator": "16",
+      "denominator": "6765201"
+    },
+    "all_r/tail_step": {
+      "numerator": "1",
+      "denominator": "100000000"
+    },
+    "all_r/relative_step": {
+      "numerator": "6765201",
+      "denominator": "1600000000"
+    }
+  },
+  "component_tail_budgets": [
+    {
+      "numerator": "59",
+      "denominator": "50000000000000000000000000000000000000"
+    },
+    {
+      "numerator": "59",
+      "denominator": "125000000000000000000000000000000000000000"
+    },
+    {
+      "numerator": "59",
+      "denominator": "312500000000000000000000000000000000000000000"
+    }
+  ],
+  "bounds": {
+    "actual_head": {
+      "numerator": "256",
+      "denominator": "5727708301326206498092619377734375"
+    },
+    "actual_tail": {
+      "numerator": "368897559",
+      "denominator": "312500000000000000000000000000000000000000000"
+    },
+    "actual_difference": {
+      "numerator": "204794590879715780418457916658062432486687",
+      "denominator": "4582166641060965198474095502187500000000000000000000000000000000000000000"
+    },
+    "required_difference": "strictly >0",
+    "all_r_ratio": {
+      "numerator": "6765201",
+      "denominator": "1600000000"
+    },
+    "required_ratio": "0<ratio<1"
+  },
+  "checks": {
+    "saved_parameters": true,
+    "saved_selected_x_upper": true,
+    "saved_beta_lower": true,
+    "saved_head_lower_r4": true,
+    "saved_tail_vector_factor": true,
+    "saved_first_shell_after_log": true,
+    "saved_integral_after_log": true,
+    "saved_shell_sum_upper": true,
+    "saved_complete_tail_upper_r4": true,
+    "saved_required_head_minus_tail": true,
+    "saved_actual_head_minus_tail": true,
+    "saved_head_over_tail": true,
+    "saved_tail_vector_component_bounds": true,
+    "saved_shell_exponents": true,
+    "saved_strict_integer_cross_product": true,
+    "saved_all_r_head_step": true,
+    "saved_all_r_tail_step": true,
+    "saved_all_r_relative_step": true,
+    "positive_denominators": true,
+    "positive_tail": true,
+    "strict_cross_product": true,
+    "strict_head_minus_tail": true,
+    "tail_step_factorization": true,
+    "positive_head_step": true,
+    "uniform_ratio_between_zero_and_one": true,
+    "original_all_eight_checks_true": true,
+    "original_failures_empty": true
+  },
+  "failures": [],
+  "scope": "Exact certificate audit only. Occurrence accounting, analytic convergence and arbitrary integer shifts require the canonical C919h audit proof. Inherited C919f backend contracts retained."
+}

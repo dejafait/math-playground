@@ -1,0 +1,26 @@
+complete stored magnitude m: 316.04542603784193 < 400.0
+complete stored magnitude cov: 0.24153706440347875 < 1.0
+complete stored magnitude z: 22.58350922026359 < 23.0
+complete stored magnitude a: 118.57936120612557 < 500.0
+complete stored magnitude h: 316.027152111792 < 500.0
+complete stored magnitude g: 22.583843757042985 < 100.0
+complete stored magnitude x: 5.027556603180393 < 100.0
+complete stored magnitude y: 5.012983648659085 < 100.0
+complete stored magnitude head_inverse_remainder: 0.05162172904080265 < 20000.0
+complete stored magnitude trial: 21.224533499056417 < 20001.0
+complete stored magnitude factor: 21.893303107005686 < 300.0
+complete stored magnitude residual_H: 2.3763438332912193e-14 < 1e-07
+complete stored magnitude residual_A: 1.6951200884223004e-14 < 1e-07
+complete stored magnitude factor_reconstruction: 2.1670697648715876e-15 < 1e-07
+exact H assembly error: 9.950727464094254e-15 < 1e-08
+exact Gram assembly error: 1.4285615440690167e-15 < 1e-07
+exact H solve residual: 5.090308639109787e-15 < 1e-06
+exact A solve residual: 3.71698767912655e-15 < 1e-06
+exact Zhat transpose X magnitude: 5.02631323587212 < 2301.0
+exact Ghat Y magnitude: 5.015053330510542 < 10001.0
+exact B assembly error: 5.196181085277638e-15 < 1e-07
+exact trial assembly error: 1.581405903889765e-15 < 1e-07
+exact full factor reconstruction: 2.0462842305764027e-15 < 1e-06
+Checks: 105 failures: []
+Finite slack: 0.018159320783336545 > .01815; squared norm: 1981/2000 < 1
+Certificate: scripts/separation-seven/energy-image-inverse-audit-615.json

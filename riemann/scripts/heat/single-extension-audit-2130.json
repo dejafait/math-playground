@@ -1,0 +1,1100 @@
+{
+  "polynomial_residuals": {
+    "P_coefficient_identity": [],
+    "linear_kernel": [],
+    "Q_identity": [],
+    "off_diagonal_denominator_cleared": [],
+    "P_second_derivative_root_reduction": [],
+    "Q_diagonal_root_reduction": []
+  },
+  "cases": [
+    {
+      "name": "lower_degree_positive_obstruction",
+      "principal_minors": [
+        {
+          "indices": [
+            0
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            1
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            2
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            3
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            0,
+            1
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        }
+      ],
+      "null_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "root_residuals": [
+        "0"
+      ],
+      "moment_residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "flux_at_S1_0_and_1": [
+        "16",
+        "16"
+      ],
+      "atomic_flux": "16",
+      "expected_flux": "16",
+      "failures": []
+    },
+    {
+      "name": "full_degree_positive_obstruction",
+      "principal_minors": [
+        {
+          "indices": [
+            0
+          ],
+          "determinant": "3"
+        },
+        {
+          "indices": [
+            1
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            2
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            3
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            0,
+            1
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            0,
+            2
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            0,
+            3
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        }
+      ],
+      "null_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "root_residuals": [
+        "0",
+        "0"
+      ],
+      "moment_residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "flux_at_S1_0_and_1": [
+        "16",
+        "16"
+      ],
+      "atomic_flux": "16",
+      "expected_flux": "16",
+      "failures": []
+    },
+    {
+      "name": "lower_degree_negative_control",
+      "principal_minors": [
+        {
+          "indices": [
+            0
+          ],
+          "determinant": "1/2"
+        },
+        {
+          "indices": [
+            1
+          ],
+          "determinant": "1/2"
+        },
+        {
+          "indices": [
+            2
+          ],
+          "determinant": "1/2"
+        },
+        {
+          "indices": [
+            3
+          ],
+          "determinant": "1/2"
+        },
+        {
+          "indices": [
+            0,
+            1
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        }
+      ],
+      "null_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "root_residuals": [
+        "0"
+      ],
+      "moment_residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "flux_at_S1_0_and_1": [
+        "-2",
+        "-2"
+      ],
+      "atomic_flux": "-2",
+      "expected_flux": "-2",
+      "failures": []
+    },
+    {
+      "name": "negative_root_positive_flux",
+      "principal_minors": [
+        {
+          "indices": [
+            0
+          ],
+          "determinant": "1/2"
+        },
+        {
+          "indices": [
+            1
+          ],
+          "determinant": "1/2"
+        },
+        {
+          "indices": [
+            2
+          ],
+          "determinant": "1/2"
+        },
+        {
+          "indices": [
+            3
+          ],
+          "determinant": "1/2"
+        },
+        {
+          "indices": [
+            0,
+            1
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        }
+      ],
+      "null_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "root_residuals": [
+        "0"
+      ],
+      "moment_residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "flux_at_S1_0_and_1": [
+        "2",
+        "2"
+      ],
+      "atomic_flux": "2",
+      "expected_flux": "2",
+      "failures": []
+    },
+    {
+      "name": "repeated_root_equality",
+      "principal_minors": [
+        {
+          "indices": [
+            0
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            1
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            2
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            3
+          ],
+          "determinant": "2"
+        },
+        {
+          "indices": [
+            0,
+            1
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        }
+      ],
+      "null_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "root_residuals": [
+        "0"
+      ],
+      "moment_residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "flux_at_S1_0_and_1": [
+        "0",
+        "0"
+      ],
+      "atomic_flux": "0",
+      "expected_flux": "0",
+      "failures": []
+    },
+    {
+      "name": "two_nonzero_roots",
+      "principal_minors": [
+        {
+          "indices": [
+            0
+          ],
+          "determinant": "6"
+        },
+        {
+          "indices": [
+            1
+          ],
+          "determinant": "18"
+        },
+        {
+          "indices": [
+            2
+          ],
+          "determinant": "66"
+        },
+        {
+          "indices": [
+            3
+          ],
+          "determinant": "258"
+        },
+        {
+          "indices": [
+            0,
+            1
+          ],
+          "determinant": "8"
+        },
+        {
+          "indices": [
+            0,
+            2
+          ],
+          "determinant": "72"
+        },
+        {
+          "indices": [
+            0,
+            3
+          ],
+          "determinant": "392"
+        },
+        {
+          "indices": [
+            1,
+            2
+          ],
+          "determinant": "32"
+        },
+        {
+          "indices": [
+            1,
+            3
+          ],
+          "determinant": "288"
+        },
+        {
+          "indices": [
+            2,
+            3
+          ],
+          "determinant": "128"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        }
+      ],
+      "null_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "root_residuals": [
+        "0",
+        "0"
+      ],
+      "moment_residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "flux_at_S1_0_and_1": [
+        "16",
+        "16"
+      ],
+      "atomic_flux": "16",
+      "expected_flux": "16",
+      "failures": []
+    },
+    {
+      "name": "zero_mass_constant",
+      "principal_minors": [
+        {
+          "indices": [
+            0
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            3
+          ],
+          "determinant": "7"
+        },
+        {
+          "indices": [
+            0,
+            1
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        }
+      ],
+      "null_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "root_residuals": [],
+      "moment_residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "flux_at_S1_0_and_1": [
+        "0",
+        "0"
+      ],
+      "atomic_flux": "0",
+      "expected_flux": "0",
+      "failures": []
+    },
+    {
+      "name": "zero_mass_full_degree",
+      "principal_minors": [
+        {
+          "indices": [
+            0
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            3
+          ],
+          "determinant": "7"
+        },
+        {
+          "indices": [
+            0,
+            1
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "determinant": "0"
+        }
+      ],
+      "null_residuals": [
+        "0",
+        "0",
+        "0"
+      ],
+      "root_residuals": [],
+      "moment_residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "flux_at_S1_0_and_1": [
+        "0",
+        "0"
+      ],
+      "atomic_flux": "0",
+      "expected_flux": "0",
+      "failures": []
+    }
+  ],
+  "failures": [],
+  "summary": {
+    "polynomial_identities": 6,
+    "cases": 8,
+    "principal_minors_per_case": 15,
+    "failures": 0,
+    "obstruction_flux": "16",
+    "required_upper_bound": "0",
+    "actual_theta_realization": "not tested"
+  }
+}

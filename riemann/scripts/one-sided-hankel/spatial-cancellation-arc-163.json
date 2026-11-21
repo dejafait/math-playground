@@ -1,0 +1,224 @@
+{
+  "purpose": "Exact auxiliary inequalities in L708, step 163",
+  "qualification": "No numerical profile approximation, asymptotic test, or analytic proof verification.",
+  "assumptions_not_certified_by_arithmetic": [
+    "L703's actual construction and Fourier identity",
+    "The elementary inequalities 3 < pi < 4",
+    "Reused primary analytic theorems and their applicability",
+    "Uniform complex convolution, Fourier, endpoint, and spatial continuation arguments",
+    "Existential neighborhood, arc, exponential rate, and onset"
+  ],
+  "checks": {
+    "frequency_separation": {
+      "actual": {
+        "numerator": 4503,
+        "denominator": 658945,
+        "decimal_preview": 0.0068336507599268525
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 1,
+        "denominator": 200,
+        "decimal_preview": 0.005
+      },
+      "pass": true
+    },
+    "bump_width_using_pi_lt_4": {
+      "actual": {
+        "numerator": 3,
+        "denominator": 10240,
+        "decimal_preview": 0.00029296875
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 3000,
+        "decimal_preview": 0.0003333333333333333
+      },
+      "pass": true
+    },
+    "off_bump_margin": {
+      "actual": {
+        "numerator": 186931441,
+        "denominator": 33737984000,
+        "decimal_preview": 0.005540682009926853
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal_preview": 0.0
+      },
+      "pass": true
+    },
+    "frequency_interval_lower": {
+      "actual": {
+        "numerator": 613633,
+        "denominator": 1967000,
+        "decimal_preview": 0.31196390442297917
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal_preview": 0.0
+      },
+      "pass": true
+    },
+    "frequency_interval_upper_using_pi_gt_3": {
+      "actual": {
+        "numerator": 2161,
+        "denominator": 1000,
+        "decimal_preview": 2.161
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 9,
+        "denominator": 4,
+        "decimal_preview": 2.25
+      },
+      "pass": true
+    },
+    "positive_radial_derivative_factor": {
+      "actual": {
+        "numerator": 9,
+        "denominator": 16,
+        "decimal_preview": 0.5625
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal_preview": 0.0
+      },
+      "pass": true
+    },
+    "node_radius_squared": {
+      "actual": {
+        "numerator": 2824,
+        "denominator": 3025,
+        "decimal_preview": 0.9335537190082644
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 1,
+        "decimal_preview": 1.0
+      },
+      "pass": true
+    },
+    "spatial_pole_distance_squared": {
+      "actual": {
+        "numerator": 6481,
+        "denominator": 2824,
+        "decimal_preview": 2.294971671388102
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 22801,
+        "denominator": 10000,
+        "decimal_preview": 2.2801
+      },
+      "pass": true
+    },
+    "spatial_denominator_margin": {
+      "actual": {
+        "numerator": 1,
+        "denominator": 160,
+        "decimal_preview": 0.00625
+      },
+      "relation": "=",
+      "required": {
+        "numerator": 1,
+        "denominator": 160,
+        "decimal_preview": 0.00625
+      },
+      "pass": true
+    },
+    "resolvent_variation": {
+      "actual": {
+        "numerator": 243,
+        "denominator": 67,
+        "decimal_preview": 3.626865671641791
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 6,
+        "denominator": 1,
+        "decimal_preview": 6.0
+      },
+      "pass": true
+    },
+    "second_moment_majorant_n_ge_15": {
+      "actual": {
+        "numerator": 93312,
+        "denominator": 15625,
+        "decimal_preview": 5.971968
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 16,
+        "denominator": 1,
+        "decimal_preview": 16.0
+      },
+      "pass": true
+    },
+    "centered_exponential_moment": {
+      "actual": {
+        "numerator": 25,
+        "denominator": 16,
+        "decimal_preview": 1.5625
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 2,
+        "denominator": 1,
+        "decimal_preview": 2.0
+      },
+      "pass": true
+    },
+    "comb_tilt_log_majorant": {
+      "actual": {
+        "numerator": 27,
+        "denominator": 223,
+        "decimal_preview": 0.1210762331838565
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 1,
+        "denominator": 8,
+        "decimal_preview": 0.125
+      },
+      "pass": true
+    },
+    "two_endpoint_tail_constant": {
+      "actual": {
+        "numerator": 640000,
+        "denominator": 2187,
+        "decimal_preview": 292.6383173296754
+      },
+      "relation": "<",
+      "required": {
+        "numerator": 300,
+        "denominator": 1,
+        "decimal_preview": 300.0
+      },
+      "pass": true
+    },
+    "first_omitted_ordinate_n_ge_15": {
+      "actual": {
+        "numerator": 171,
+        "denominator": 400,
+        "decimal_preview": 0.4275
+      },
+      "relation": ">",
+      "required": {
+        "numerator": 2,
+        "denominator": 5,
+        "decimal_preview": 0.4
+      },
+      "pass": true
+    }
+  },
+  "failures": []
+}

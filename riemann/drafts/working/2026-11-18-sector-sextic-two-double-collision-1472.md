@@ -1,0 +1,21 @@
+# Exact two-double collision attempt1472
+
+The ready EXPLORE assessment1468/review1469 is reused unchanged for the saved fixed sextic (2,4) target. No new literature gate is created. C020n, C020o and C020p were read with working1471; no exact two-double elimination is already recorded there. Existing uncommitted work is preserved.
+
+Main gap: L030--L032/C032a actual-Xi all-degree positivity and the unpaid unshifted Jensen exceptional-root deficit. Intermediate target: exact elimination of Tp(0)=(Tp)prime(0)=0 for p=(x-u)^2(x-v)^2(x^2+b*x+c), u!=v, c>b^2/4 and T=1+D+t*D^2, 1/4<=t<=5/18. A certified collision/witness or exclusion would discriminate one partial-count mechanism; it does not establish actual-Xi transfer or a full-class theorem.
+
+Bounded test: retain singular systems, derive complete rational conditions, and check whether the remaining quartic can have only two real roots at a collision. Continue only on an exact witness, exact family exclusion, or a new discriminating condition. Failed samples are inconclusive. C020p rules out only the fourfold family and is not a composition premise. C020o rules out the inverse-positivity method, not the count target. Both await independent audits.
+
+Walsh degree-six preservation and factorial normalization are reused from assessment1468 and the inspected C020o/p applicability proofs. Every purported witness must still satisfy all rationality, coefficients, sector, universal-preservation and multiplicity-aware count requirements. General four-real-root inputs, products, actual-factor correspondence, paid exceptional-divisor estimates, unbounded degrees, signs, initialization and overlap remain unresolved. No central creative nomination is justified without an independently testable actual-data mechanism and its applicability.
+
+Work in progress: solve the exact collision system with symmetric variables s=u+v and h=uv, treating h=0 and determinant zero separately. Save complete symbolic evidence to scripts/quartic-differential/ and inspect selected load-bearing fields using the JSON inspector. No conclusion is recorded at this checkpoint.
+
+## Completion
+
+Use l=-(u+v)/(uv), k=1/(uv), so R=(1+l*x+k*x^2)^2 and l^2>4k. The exact parametrization and its complete proof are canonical in C020q. A collision at an input root is impossible; all other singular collision systems are inconsistent because their Cramer numerator N_C is strictly below -11/45, whereas consistency would require zero. Regular admissible collisions satisfy Delta<0 and M=4*N_C*Delta-N_B^2>0, with B=N_B/Delta and C=N_C/Delta. The converse is proved too. The residual quartic is given explicitly, including H(0)=0 and repeated-root cases. No quartic root-count assertion has been established.
+
+The initial optional SymPy import failed (package absent); no installation or network access followed. The saved standard-library rational script checks the complete cleared polynomial identity, Cramer identities and square completion: ten exact checks pass. Its complete check flags and the relevant bound formula were inspected. This is a new exact reduction, not a numerical count result. No floating scan was repeated.
+
+Outcome EXPLORATION: the singular ambiguity in the proposed collision method is removed, but the sextic witness/impossibility target is unresolved. This spends one mathematical exploration attempt since the informative family stop1471. C020q remains unaudited; C020o/p and older source/moment/variation stops are unchanged. No new assessment was written or changed.
+
+Concrete continuation within the unchanged saved target: on C020q's exact domain 1/4<=t<=5/18, k!=0, l^2>4k, Delta<0, M>0, decide whether its residual quartic H can have fewer than four real roots. A root-free H gives output count four directly. A residual with exactly two simple real roots and H(0)!=0 needs a separately certified transverse rational perturbation eliminating the double zero before it can give the requested witness; retain all boundary and multiple-root cases. Proving four real residual roots would exclude only this collision family, not every two-double input or the whole saved class. Do not infer a global deformation principle or composition law from collision counts. The exact formulas permit elimination or multiplicity-aware Sturm conditions without skipped determinant cases.

@@ -1,0 +1,2729 @@
+{
+  "task": "Independent exact and logical evidence audit of unchanged L941",
+  "arithmetic": "Python integers/Fraction; no producer code imported",
+  "witness": {
+    "scaled_witness_numerators": [
+      "240144996270454406660522410541398964574437280",
+      "-240865490784023141273305086453025686705012736"
+    ],
+    "required_signs": [
+      ">0",
+      "<0"
+    ],
+    "rho": "5172847/5174895",
+    "sorted_partial_sums_t1_t0": [
+      [
+        "512/4367",
+        "1024/8733"
+      ],
+      [
+        "1024/4367",
+        "2048/8733"
+      ],
+      [
+        "1536/4367",
+        "1024/2911"
+      ],
+      [
+        "2048/4367",
+        "4096/8733"
+      ],
+      [
+        "2560/4367",
+        "5120/8733"
+      ],
+      [
+        "3072/4367",
+        "2048/2911"
+      ],
+      [
+        "3584/4367",
+        "7168/8733"
+      ],
+      [
+        "4096/4367",
+        "8192/8733"
+      ],
+      [
+        "16655/17468",
+        "11103/11644"
+      ],
+      [
+        "8463/8734",
+        "16925/17466"
+      ],
+      [
+        "17197/17468",
+        "34391/34932"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ]
+  },
+  "input_sha256": {
+    "scripts/heat/l938-zero-superlevel-58.json": "c2845c0c6e281a6bb4738953a55e3d7d41b65db00dc6d7597e51c2416cb48270",
+    "scripts/heat/l938-zero-superlevel-replay-58.json": "66aa4815be8d53838d83144cece3673e29dd6d64c502763b2ae1bc6bb55c9a6d",
+    "lemmas/L938-actual-h2-fixed-energy-density-and-cell-test.md": "615d0258bb293af5942e395c35383f0b078b8edf5ac08c5ea18575fcd0b18822",
+    "lemmas/L941-two-block-zero-superlevel-balancing-obstruction.md": "8415b6a6470ae7c53d1116642c0ed9b4b2f007280cef8ed90749c1c904a89e50",
+    "lemmas/L939-actual-h2-balanced-energy-tail-asymptotic.md": "e7c3d1180c1143570d5929c9d1b66103a9daa99cc62262a73a218c955e95f7b3",
+    "lemmas/L940-symmetrized-h2-polynomial-schur-concavity-obstruction.md": "8fbb35063ea1dd0f144b0ee7bde6702f4c50312b5ebeafe392a3c186afb48a8e",
+    "scripts/heat/l938-schur-obstruction-56.json": "e8ddb787ebe3571d00d1a4ca132a268e48105171f770a326423d419e7259ded0",
+    "drafts/literature/2026-11-09-l938-zero-superlevel-balancing-scope-56.md": "ff13b3e68ac0d34639f163b79406521a1f84ee73b7f742793a8cfab5c6cccd84",
+    "scripts/heat/l938-zero-superlevel-58.py": "9becb9a105e9ef620a0ed9c34d443746247fbc9319e41addcd768095455bcf07",
+    "scripts/heat/l938-zero-superlevel-replay-58.py": "71b01c5ba3867fba3c413d5139456ee5089a01bf1d819fda73df36122bcba7dc"
+  },
+  "script_sha256": "ebf61d68c448c8f3c4d47409a414e5d9c0aa2116aa71724d262e962548fae55c",
+  "checks": [
+    {
+      "name": "original producer checks complete and all successful",
+      "ok": true
+    },
+    {
+      "name": "original replay checks complete and all successful",
+      "ok": true
+    },
+    {
+      "name": "producer input hash: lemmas/L938-actual-h2-fixed-energy-density-and-cell-test.md",
+      "ok": true
+    },
+    {
+      "name": "producer input hash: lemmas/L939-actual-h2-balanced-energy-tail-asymptotic.md",
+      "ok": true
+    },
+    {
+      "name": "producer input hash: lemmas/L940-symmetrized-h2-polynomial-schur-concavity-obstruction.md",
+      "ok": true
+    },
+    {
+      "name": "producer input hash: scripts/heat/l938-schur-obstruction-56.json",
+      "ok": true
+    },
+    {
+      "name": "producer input hash: drafts/literature/2026-11-09-l938-zero-superlevel-balancing-scope-56.md",
+      "ok": true
+    },
+    {
+      "name": "producer input hash: scripts/heat/l938-zero-superlevel-58.py",
+      "ok": true
+    },
+    {
+      "name": "replay input and implementation hashes",
+      "ok": true
+    },
+    {
+      "name": "exactly 34 distinct input rows",
+      "ok": true
+    },
+    {
+      "name": "certificate has exactly 34 rows and six blocks",
+      "ok": true
+    },
+    {
+      "name": "row 1: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 1, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 1, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 1, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 1, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 1, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 1, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 2: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 2, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 2, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 2, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 2, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 2, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 2, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 3: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 3, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 3, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 3, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 3, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 3, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 3, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 4: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 4, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 4, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 4, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 4, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 4, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 4, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 5: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 5, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 5, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 5, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 5, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 5, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 5, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 6: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 6, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 6, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 6, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 6, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 6, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 6, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 7: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 7, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 7, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 7, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 7, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 7, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 7, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 8: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 8, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 8, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 8, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 8, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 8, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 8, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 9: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 9, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 9, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 9, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 9, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 9, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 9, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 10: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 10, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 10, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 10, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 10, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 10, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 10, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 11: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 11, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 11, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 11, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 11, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 11, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 11, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 12: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 12, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 12, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 12, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 12, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 12, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 12, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 13: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 13, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 13, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 13, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 13, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 13, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 13, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 14: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 14, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 14, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 14, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 14, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 14, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 14, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 15: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 15, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 15, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 15, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 15, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 15, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 15, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 16: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 16, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 16, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 16, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 16, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 16, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 16, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 17: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 17, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 17, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 17, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 17, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 17, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 17, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 18: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 18, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 18, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 18, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 18, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 18, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 18, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 19: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 19, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 19, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 19, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 19, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 19, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 19, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 20: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 20, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 20, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 20, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 20, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 20, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 20, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 21: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 21, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 21, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 21, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 21, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 21, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 21, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 22: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 22, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 22, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 22, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 22, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 22, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 22, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 23: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 23, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 23, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 23, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 23, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 23, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 23, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 24: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 24, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 24, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 24, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 24, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 24, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 24, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 25: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 25, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 25, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 25, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 25, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 25, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 25, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 26: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 26, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 26, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 26, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 26, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 26, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 26, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 27: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 27, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 27, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 27, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 27, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 27, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 27, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 28: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 28, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 28, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 28, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 28, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 28, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 28, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 29: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 29, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 29, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 29, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 29, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 29, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 29, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 30: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 30, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 30, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 30, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 30, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 30, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 30, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 31: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 31, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 31, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 31, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 31, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 31, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 31, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 32: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 32, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 32, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 32, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 32, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 32, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 32, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 33: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 33, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 33, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 33, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 33, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 33, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 33, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 34: all twelve slots, weight and factorial denominator",
+      "ok": true
+    },
+    {
+      "name": "row 34, m=1: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 34, m=2: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 34, m=3: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 34, m=4: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 34, m=5: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "row 34, m=6: complete original and saved coefficient identities",
+      "ok": true
+    },
+    {
+      "name": "balanced value: rows and independent Newton determinant",
+      "ok": true,
+      "actual": "1/371319795000",
+      "required": "1/371319795000"
+    },
+    {
+      "name": "canonical coefficient table has exactly six entries",
+      "ok": true
+    },
+    {
+      "name": "m=1: full previous polynomial including trailing zeros",
+      "ok": true
+    },
+    {
+      "name": "m=1: full positive integer scaling and canonical coefficients",
+      "ok": true
+    },
+    {
+      "name": "m=1: degree and excluded degeneracies",
+      "ok": true
+    },
+    {
+      "name": "m=1: positive initial polynomial and derivative scales",
+      "ok": true
+    },
+    {
+      "name": "m=1: complete nonzero canonical chain and division count",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 0: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 0: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 1: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 1: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 2: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 2: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 3: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 3: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 4: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 4: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 5: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=1, division 5: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=1: Euclidean terminal constant, gcd and all multiplicities",
+      "ok": true
+    },
+    {
+      "name": "m=1: strict global Cauchy bound",
+      "ok": true,
+      "actual": "160",
+      "required": "> 479/3"
+    },
+    {
+      "name": "m=1: exactly three global endpoints",
+      "ok": true
+    },
+    {
+      "name": "m=1 global 0: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=1 global 1: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=1 global 160: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=1: global completeness and root count",
+      "ok": true
+    },
+    {
+      "name": "m=1 root 1: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=1 root 1 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=1 root 1 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=1 root 1: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=1: correct number of complementary intervals",
+      "ok": true
+    },
+    {
+      "name": "m=1 interval 0: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=1 interval 1: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=1: simple-root alternation and positive value at one",
+      "ok": true
+    },
+    {
+      "name": "m=1 root 1: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=1: every closed-set exit and preservation classification",
+      "ok": true
+    },
+    {
+      "name": "m=1: entire independent old replay table",
+      "ok": true
+    },
+    {
+      "name": "m=2: full previous polynomial including trailing zeros",
+      "ok": true
+    },
+    {
+      "name": "m=2: full positive integer scaling and canonical coefficients",
+      "ok": true
+    },
+    {
+      "name": "m=2: degree and excluded degeneracies",
+      "ok": true
+    },
+    {
+      "name": "m=2: positive initial polynomial and derivative scales",
+      "ok": true
+    },
+    {
+      "name": "m=2: complete nonzero canonical chain and division count",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 0: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 0: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 1: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 1: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 2: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 2: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 3: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 3: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 4: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 4: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 5: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 5: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 6: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 6: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 7: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 7: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 8: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 8: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 9: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=2, division 9: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=2: Euclidean terminal constant, gcd and all multiplicities",
+      "ok": true
+    },
+    {
+      "name": "m=2: strict global Cauchy bound",
+      "ok": true,
+      "actual": "25737",
+      "required": "> 2444963/95"
+    },
+    {
+      "name": "m=2: exactly three global endpoints",
+      "ok": true
+    },
+    {
+      "name": "m=2 global 0: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=2 global 1: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=2 global 25737: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=2: global completeness and root count",
+      "ok": true
+    },
+    {
+      "name": "m=2 root 1: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=2 root 1 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=2 root 1 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=2 root 1: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=2: correct number of complementary intervals",
+      "ok": true
+    },
+    {
+      "name": "m=2 interval 0: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=2 interval 1: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=2: simple-root alternation and positive value at one",
+      "ok": true
+    },
+    {
+      "name": "m=2 root 1: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=2: every closed-set exit and preservation classification",
+      "ok": true
+    },
+    {
+      "name": "m=2: entire independent old replay table",
+      "ok": true
+    },
+    {
+      "name": "m=3: full previous polynomial including trailing zeros",
+      "ok": true
+    },
+    {
+      "name": "m=3: full positive integer scaling and canonical coefficients",
+      "ok": true
+    },
+    {
+      "name": "m=3: degree and excluded degeneracies",
+      "ok": true
+    },
+    {
+      "name": "m=3: positive initial polynomial and derivative scales",
+      "ok": true
+    },
+    {
+      "name": "m=3: complete nonzero canonical chain and division count",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 0: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 0: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 1: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 1: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 2: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 2: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 3: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 3: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 4: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 4: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 5: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 5: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 6: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 6: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 7: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 7: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 8: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 8: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 9: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 9: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 10: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 10: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 11: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=3, division 11: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=3: Euclidean terminal constant, gcd and all multiplicities",
+      "ok": true
+    },
+    {
+      "name": "m=3: strict global Cauchy bound",
+      "ok": true,
+      "actual": "85664",
+      "required": "> 114018227/1331"
+    },
+    {
+      "name": "m=3: exactly three global endpoints",
+      "ok": true
+    },
+    {
+      "name": "m=3 global 0: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=3 global 1: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=3 global 85664: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=3: global completeness and root count",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 1: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 1 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 1 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 1: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 2: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 2 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 2 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 2: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=3: correct number of complementary intervals",
+      "ok": true
+    },
+    {
+      "name": "m=3 interval 0: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=3 interval 1: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=3 interval 2: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=3: simple-root alternation and positive value at one",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 1: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=3 root 2: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=3: every closed-set exit and preservation classification",
+      "ok": true
+    },
+    {
+      "name": "m=3: entire independent old replay table",
+      "ok": true
+    },
+    {
+      "name": "m=4: full previous polynomial including trailing zeros",
+      "ok": true
+    },
+    {
+      "name": "m=4: full positive integer scaling and canonical coefficients",
+      "ok": true
+    },
+    {
+      "name": "m=4: degree and excluded degeneracies",
+      "ok": true
+    },
+    {
+      "name": "m=4: positive initial polynomial and derivative scales",
+      "ok": true
+    },
+    {
+      "name": "m=4: complete nonzero canonical chain and division count",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 0: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 0: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 1: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 1: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 2: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 2: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 3: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 3: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 4: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 4: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 5: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 5: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 6: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 6: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 7: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 7: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 8: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 8: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 9: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 9: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 10: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 10: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 11: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=4, division 11: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=4: Euclidean terminal constant, gcd and all multiplicities",
+      "ok": true
+    },
+    {
+      "name": "m=4: strict global Cauchy bound",
+      "ok": true,
+      "actual": "42412",
+      "required": "> 34607633/816"
+    },
+    {
+      "name": "m=4: exactly three global endpoints",
+      "ok": true
+    },
+    {
+      "name": "m=4 global 0: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 global 1: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 global 42412: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4: global completeness and root count",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 1: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 1 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 1 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 1: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 2: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 2 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 2 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 2: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 3: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 3 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 3 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 3: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 4: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 4 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 4 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 4: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 5: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 5 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 5 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 5: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 6: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 6 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 6 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 6: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=4: correct number of complementary intervals",
+      "ok": true
+    },
+    {
+      "name": "m=4 interval 0: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=4 interval 1: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=4 interval 2: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=4 interval 3: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=4 interval 4: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=4 interval 5: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=4 interval 6: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=4: simple-root alternation and positive value at one",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 1: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 2: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 3: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 4: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 5: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=4 root 6: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=4: every closed-set exit and preservation classification",
+      "ok": true
+    },
+    {
+      "name": "m=4: entire independent old replay table",
+      "ok": true
+    },
+    {
+      "name": "m=5: full previous polynomial including trailing zeros",
+      "ok": true
+    },
+    {
+      "name": "m=5: full positive integer scaling and canonical coefficients",
+      "ok": true
+    },
+    {
+      "name": "m=5: degree and excluded degeneracies",
+      "ok": true
+    },
+    {
+      "name": "m=5: positive initial polynomial and derivative scales",
+      "ok": true
+    },
+    {
+      "name": "m=5: complete nonzero canonical chain and division count",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 0: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 0: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 1: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 1: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 2: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 2: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 3: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 3: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 4: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 4: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 5: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 5: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 6: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 6: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 7: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 7: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 8: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 8: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 9: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 9: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 10: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 10: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 11: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=5, division 11: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=5: Euclidean terminal constant, gcd and all multiplicities",
+      "ok": true
+    },
+    {
+      "name": "m=5: strict global Cauchy bound",
+      "ok": true,
+      "actual": "15635",
+      "required": "> 792052193/50661"
+    },
+    {
+      "name": "m=5: exactly three global endpoints",
+      "ok": true
+    },
+    {
+      "name": "m=5 global 0: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 global 1: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 global 15635: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5: global completeness and root count",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 1: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 1 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 1 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 1: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 2: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 2 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 2 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 2: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 3: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 3 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 3 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 3: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 4: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 4 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 4 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 4: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=5: correct number of complementary intervals",
+      "ok": true
+    },
+    {
+      "name": "m=5 interval 0: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=5 interval 1: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=5 interval 2: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=5 interval 3: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=5 interval 4: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=5: simple-root alternation and positive value at one",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 1: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 2: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 3: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=5 root 4: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=5: every closed-set exit and preservation classification",
+      "ok": true
+    },
+    {
+      "name": "m=5: entire independent old replay table",
+      "ok": true
+    },
+    {
+      "name": "m=6: full previous polynomial including trailing zeros",
+      "ok": true
+    },
+    {
+      "name": "m=6: full positive integer scaling and canonical coefficients",
+      "ok": true
+    },
+    {
+      "name": "m=6: degree and excluded degeneracies",
+      "ok": true
+    },
+    {
+      "name": "m=6: positive initial polynomial and derivative scales",
+      "ok": true
+    },
+    {
+      "name": "m=6: complete nonzero canonical chain and division count",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 0: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 0: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 1: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 1: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 2: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 2: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 3: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 3: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 4: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 4: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 5: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 5: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 6: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 6: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 7: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 7: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 8: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 8: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 9: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 9: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 10: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 10: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 11: linked next, positive scale and degree",
+      "ok": true
+    },
+    {
+      "name": "m=6, division 11: every rational residual coefficient zero",
+      "ok": true
+    },
+    {
+      "name": "m=6: Euclidean terminal constant, gcd and all multiplicities",
+      "ok": true
+    },
+    {
+      "name": "m=6: strict global Cauchy bound",
+      "ok": true,
+      "actual": "8310",
+      "required": "> 77815441/9365"
+    },
+    {
+      "name": "m=6: exactly three global endpoints",
+      "ok": true
+    },
+    {
+      "name": "m=6 global 0: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=6 global 1: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=6 global 8310: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=6: global completeness and root count",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 1: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 1 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 1 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 1: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 2: index, disjoint ordering and side of one",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 2 lower: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 2 upper: coordinate, every value/sign, nonroot and variation",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 2: simple root and closed-set inclusion",
+      "ok": true
+    },
+    {
+      "name": "m=6: correct number of complementary intervals",
+      "ok": true
+    },
+    {
+      "name": "m=6 interval 0: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=6 interval 1: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=6 interval 2: linked interval and full rational sign value",
+      "ok": true
+    },
+    {
+      "name": "m=6: simple-root alternation and positive value at one",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 1: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=6 root 2: correct inward side",
+      "ok": true
+    },
+    {
+      "name": "m=6: every closed-set exit and preservation classification",
+      "ok": true
+    },
+    {
+      "name": "m=6: entire independent old replay table",
+      "ok": true
+    },
+    {
+      "name": "canonical six complete root/sign/exit tables",
+      "ok": true
+    },
+    {
+      "name": "canonical sixteen complete isolators and endpoint variations",
+      "ok": true
+    },
+    {
+      "name": "canonical roots below one and exit identities",
+      "ok": true
+    },
+    {
+      "name": "m=6 self reciprocity",
+      "ok": true
+    },
+    {
+      "name": "witness linked to actual m=4 polynomial and second isolator",
+      "ok": true
+    },
+    {
+      "name": "witness exact scaled integer evaluations and canonical numerators",
+      "ok": true
+    },
+    {
+      "name": "witness endpoint 0: normalized simplex and actual sign",
+      "ok": true
+    },
+    {
+      "name": "witness endpoint 1: normalized simplex and actual sign",
+      "ok": true
+    },
+    {
+      "name": "canonical normalized vectors and mixture coefficient",
+      "ok": true
+    },
+    {
+      "name": "strict inward order and normalized-path mixture identity",
+      "ok": true
+    },
+    {
+      "name": "every doubly stochastic matrix entry, row/column sum and image",
+      "ok": true
+    },
+    {
+      "name": "all eleven majorization inequalities and equal total independently",
+      "ok": true
+    },
+    {
+      "name": "producer entire mathematical summary",
+      "ok": true
+    }
+  ],
+  "checks_count": 590,
+  "failures": [],
+  "tables": [
+    {
+      "m": 1,
+      "degree": 6,
+      "B": "160",
+      "V_0_1_B": [
+        3,
+        3,
+        2
+      ],
+      "root_endpoint_variations": [
+        [
+          3,
+          2
+        ]
+      ],
+      "isolators": [
+        [
+          "955019/524288",
+          "1910197/1048576"
+        ]
+      ],
+      "interval_signs": [
+        1,
+        -1
+      ],
+      "simple_roots": 1,
+      "roots_below_one": 0,
+      "exit_roots": []
+    },
+    {
+      "m": 2,
+      "degree": 10,
+      "B": "25737",
+      "V_0_1_B": [
+        5,
+        5,
+        4
+      ],
+      "root_endpoint_variations": [
+        [
+          5,
+          4
+        ]
+      ],
+      "isolators": [
+        [
+          "20115237/4194304",
+          "80464165/16777216"
+        ]
+      ],
+      "interval_signs": [
+        1,
+        -1
+      ],
+      "simple_roots": 1,
+      "roots_below_one": 0,
+      "exit_roots": []
+    },
+    {
+      "m": 3,
+      "degree": 12,
+      "B": "85664",
+      "V_0_1_B": [
+        6,
+        6,
+        4
+      ],
+      "root_endpoint_variations": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "isolators": [
+        [
+          "1649376293/536870912",
+          "412365489/134217728"
+        ],
+        [
+          "24172234905/536870912",
+          "3021540071/67108864"
+        ]
+      ],
+      "interval_signs": [
+        1,
+        -1,
+        1
+      ],
+      "simple_roots": 2,
+      "roots_below_one": 0,
+      "exit_roots": [
+        2
+      ]
+    },
+    {
+      "m": 4,
+      "degree": 12,
+      "B": "42412",
+      "V_0_1_B": [
+        8,
+        5,
+        2
+      ],
+      "root_endpoint_variations": [
+        [
+          8,
+          7
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "isolators": [
+        [
+          "63/4096",
+          "1/64"
+        ],
+        [
+          "541/4096",
+          "271/2048"
+        ],
+        [
+          "1183/4096",
+          "37/128"
+        ],
+        [
+          "715404985/268435456",
+          "178861849/67108864"
+        ],
+        [
+          "1696201771/268435456",
+          "848122091/134217728"
+        ],
+        [
+          "1863611075/134217728",
+          "3727264561/268435456"
+        ]
+      ],
+      "interval_signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "simple_roots": 6,
+      "roots_below_one": 3,
+      "exit_roots": [
+        2,
+        5
+      ]
+    },
+    {
+      "m": 5,
+      "degree": 12,
+      "B": "15635",
+      "V_0_1_B": [
+        7,
+        6,
+        3
+      ],
+      "root_endpoint_variations": [
+        [
+          7,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "isolators": [
+        [
+          "1533/4096",
+          "767/2048"
+        ],
+        [
+          "83372173/33554432",
+          "41689995/16777216"
+        ],
+        [
+          "102740765/16777216",
+          "205489347/33554432"
+        ],
+        [
+          "388719827/33554432",
+          "97181911/8388608"
+        ]
+      ],
+      "interval_signs": [
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "simple_roots": 4,
+      "roots_below_one": 1,
+      "exit_roots": [
+        3
+      ]
+    },
+    {
+      "m": 6,
+      "degree": 12,
+      "B": "8310",
+      "V_0_1_B": [
+        6,
+        5,
+        4
+      ],
+      "root_endpoint_variations": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "isolators": [
+        [
+          "825/2048",
+          "1651/4096"
+        ],
+        [
+          "166559285/67108864",
+          "83283797/33554432"
+        ]
+      ],
+      "interval_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "simple_roots": 2,
+      "roots_below_one": 1,
+      "exit_roots": []
+    }
+  ]
+}

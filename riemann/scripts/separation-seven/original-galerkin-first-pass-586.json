@@ -1,0 +1,106 @@
+{
+  "target": "Certify the sign of the original three-cell Galerkin minimum for C999n's frozen endpoint pair, with the middle restricted to the exact neutral raw modes0:1023.",
+  "sign": "UNRESOLVED",
+  "certified_under_inherited_contracts": false,
+  "independently_audited": false,
+  "checks": [
+    {
+      "label": "frozen endpoint archive hash",
+      "passed": true
+    },
+    {
+      "label": "original generator hash",
+      "passed": true
+    },
+    {
+      "label": "original input hash residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "label": "original input hash complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "label": "original input hash response-prefix-stop-546.json",
+      "passed": true
+    },
+    {
+      "label": "unique pre-selection assembly boundary",
+      "passed": true
+    },
+    {
+      "label": "unique physical-column expansion",
+      "passed": true
+    },
+    {
+      "label": "all complete entry shapes/magnitudes",
+      "passed": true
+    },
+    {
+      "label": "entire old rectangle replay local_matrix",
+      "passed": true
+    },
+    {
+      "label": "entire old rectangle replay t_entries",
+      "passed": true
+    },
+    {
+      "label": "entire old rectangle replay ts_entries",
+      "passed": true
+    },
+    {
+      "label": "entire old rectangle replay u_entries",
+      "passed": true
+    },
+    {
+      "label": "both full T orientations agree exactly",
+      "passed": true
+    },
+    {
+      "label": "all334 remote powers including zero shift",
+      "passed": true
+    },
+    {
+      "label": "all16 nearest-cell powers",
+      "passed": true
+    },
+    {
+      "label": "complete pi decimal enclosure",
+      "passed": true
+    },
+    {
+      "label": "exact neutral coordinate operator norm<1.008",
+      "passed": true
+    },
+    {
+      "label": "complete neutral coordinate Frobenius error<1e-14",
+      "passed": true
+    },
+    {
+      "label": "every endpoint dyadic is exact",
+      "passed": true
+    }
+  ],
+  "bounds": {},
+  "details": {
+    "assembly_stdout": "Built full T/T* and U/U* entry centers; all334 remote powers, exact zero shift.\n"
+  },
+  "failures": [
+    "TypeError: unsupported operand type(s) for ** or pow(): 'I' and 'int'"
+  ],
+  "required": "a strict finite minimum interval above or below zero",
+  "analytic_ledger": "C999n Section4 changed raw0:1023 range: local<.000097173<.0001, cross<.000001; all16/334 translations, zero shift and continuous tails retained",
+  "qualifications": "C744v/w analytic and IEEE754/Decimal contracts; C744z whole-core and unreplayed c_* qualifications; finite positive minimum gives no infinite-middle/complement/RH sign",
+  "input_hashes": {
+    "endpoint-complement-locator-581.py": "afe6b16aedf3b63e198f151850370478b58c745d321be6abb14aed201fe1e441",
+    "endpoint-complement-locator-581.npz": "de0861f32c59111424bbd2e811f6f472da05ef0be823057f0337a88544c426d4",
+    "endpoint-complement-locator-581.json": "faa561f51031ec37c2177ac2802340ef38db562de40813d11818d94797947e8c",
+    "endpoint-quarter-audit-583.json": "d854aa1eab06cb6ee5195183c4c77210769f9e10d3188b4401efb9c7592adb0c",
+    "residual-certificate-532.py": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5",
+    "complete-schur-531.py": "0ca836a6b0a4c9511e1495420b060496718acc083579a7f306e630fd951a83fc",
+    "response-prefix-stop-546.json": "3b577968bea69a054f5d359c875e7a3def42d3ad87018dc5586c983dc7cb14ff",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402"
+  },
+  "script_sha256": "931f38e1add6deb83a8d7dc1ffb392ffa0d75881ebab2bbad131b375be53d32b",
+  "archive": null
+}

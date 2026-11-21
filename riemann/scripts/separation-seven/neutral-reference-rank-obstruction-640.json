@@ -1,0 +1,458 @@
+{
+  "target": "Test whether the exact two-moment correction to C999k's reference inverse can raise certificate598's complete joint2044 lower matrix to .000999, starting with a certified three-dimensional rank obstruction.",
+  "required_floor": {
+    "numerator": "999",
+    "denominator": "1000000"
+  },
+  "input_sha256": {
+    "joint-galerkin-family-certificate-598.json": "42a2b96a000ec519cb926a752e32bf364c3e880cfb06436d59a6ecc4cdbfb290",
+    "joint-galerkin-family-certificate-598.npz": "f5035b5e28bf85b7b8329a6675f910a8545208ad931bb983938ee14f30970876",
+    "joint-galerkin-family-ledger-598.json": "d531db86b4b1c98ae9e41a9c973d8d5528336c7e6e6b0649c921b16df587dce2"
+  },
+  "checks": [
+    {
+      "check": "pinned input joint-galerkin-family-certificate-598.json",
+      "passed": true
+    },
+    {
+      "check": "pinned input joint-galerkin-family-certificate-598.npz",
+      "passed": true
+    },
+    {
+      "check": "pinned input joint-galerkin-family-ledger-598.json",
+      "passed": true
+    },
+    {
+      "check": "certificate archive pin",
+      "passed": true
+    },
+    {
+      "check": "original failure preserved",
+      "passed": true
+    },
+    {
+      "check": "saved ledger checks all pass",
+      "passed": true
+    },
+    {
+      "check": "ledger certificate pin",
+      "passed": true
+    },
+    {
+      "check": "598 executed source pin",
+      "passed": true
+    },
+    {
+      "check": "598 ledger source pin",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved original-galerkin-586.npz",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved original-galerkin-586.json",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved original-minimum-audit-588.json",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved fixed-block-metric-audit-557.json",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved certificate-audit-534.json",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved joint-galerkin-family-locator-598.npz",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved joint-galerkin-family-locator-598.py",
+      "passed": true
+    },
+    {
+      "check": "598 inherited input preserved fixed-block-metric-555.json",
+      "passed": true
+    },
+    {
+      "check": "complete2044 dimensions",
+      "passed": true
+    },
+    {
+      "check": "finite symmetric exact dyadic matrix",
+      "passed": true
+    },
+    {
+      "check": "exact entire Gram dominates .999 I3: independence",
+      "passed": true
+    },
+    {
+      "check": "exact entire negative shifted compression dominates .08 I3",
+      "passed": true
+    },
+    {
+      "check": "alternate exact Sylvester signs all positive",
+      "passed": true
+    },
+    {
+      "check": "original inputs unchanged after calculation",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "qualification": "Only the pinned lower matrix plus any rank-at-most-two correction is stopped; no upper bound on the actual comparison, S3 counterexample or RH conclusion.",
+  "witness": {
+    "ambient_dimension": 2044,
+    "support_indices_zero_based": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036,
+      1037
+    ],
+    "omitted_coordinates": "exactly zero",
+    "denominator": 16777216,
+    "integer_columns_by_row": [
+      [
+        8790522,
+        -8729120,
+        -943920
+      ],
+      [
+        1963470,
+        6866966,
+        7987497
+      ],
+      [
+        2070125,
+        -1571986,
+        4707231
+      ],
+      [
+        3111264,
+        1437140,
+        1764548
+      ],
+      [
+        -3774351,
+        -64327,
+        -1907393
+      ],
+      [
+        -2868248,
+        -1040994,
+        1693349
+      ],
+      [
+        1962906,
+        1138924,
+        -2964344
+      ],
+      [
+        1641555,
+        44804,
+        -3913135
+      ],
+      [
+        -3939227,
+        2368771,
+        3211177
+      ],
+      [
+        -817366,
+        -979418,
+        223256
+      ],
+      [
+        -230605,
+        1641499,
+        -1204464
+      ],
+      [
+        -68054,
+        -802942,
+        -2257862
+      ],
+      [
+        -454165,
+        283963,
+        1003376
+      ],
+      [
+        -113250,
+        -438530,
+        -1133188
+      ],
+      [
+        -412169,
+        503128,
+        74468
+      ],
+      [
+        -34524,
+        -185815,
+        -972246
+      ],
+      [
+        8789254,
+        8729102,
+        -943142
+      ],
+      [
+        -1963351,
+        6865448,
+        -7990712
+      ],
+      [
+        2070478,
+        1573415,
+        4705313
+      ],
+      [
+        -3111553,
+        1436782,
+        -1763898
+      ],
+      [
+        -3774254,
+        63817,
+        -1908004
+      ],
+      [
+        2868210,
+        -1040591,
+        -1692863
+      ],
+      [
+        1963207,
+        -1138880,
+        -2964900
+      ],
+      [
+        -1641446,
+        44988,
+        3912576
+      ],
+      [
+        -3939133,
+        -2369004,
+        3211947
+      ],
+      [
+        817340,
+        -979304,
+        -222698
+      ],
+      [
+        -230492,
+        -1641620,
+        -1204177
+      ],
+      [
+        68097,
+        -802731,
+        2258048
+      ],
+      [
+        -454157,
+        -283928,
+        1003444
+      ],
+      [
+        113257,
+        -438417,
+        1133352
+      ],
+      [
+        -412151,
+        -503171,
+        74614
+      ],
+      [
+        34526,
+        -185728,
+        972318
+      ]
+    ]
+  },
+  "exact": {
+    "gram": [
+      [
+        {
+          "numerator": "281474966912887",
+          "denominator": "281474976710656"
+        },
+        {
+          "numerator": "-5093407",
+          "denominator": "281474976710656"
+        },
+        {
+          "numerator": "-6596715",
+          "denominator": "281474976710656"
+        }
+      ],
+      [
+        {
+          "numerator": "-5093407",
+          "denominator": "281474976710656"
+        },
+        {
+          "numerator": "281474969304579",
+          "denominator": "281474976710656"
+        },
+        {
+          "numerator": "631877",
+          "denominator": "70368744177664"
+        }
+      ],
+      [
+        {
+          "numerator": "-6596715",
+          "denominator": "281474976710656"
+        },
+        {
+          "numerator": "631877",
+          "denominator": "70368744177664"
+        },
+        {
+          "numerator": "140737487031099",
+          "denominator": "140737488355328"
+        }
+      ]
+    ],
+    "shifted_compression": [
+      [
+        {
+          "numerator": "-1501841246953624365371103424318588509",
+          "denominator": "10141204801825835211973625643008000000"
+        },
+        {
+          "numerator": "51467392224025778764738062173",
+          "denominator": "20282409603651670423947251286016000000"
+        },
+        {
+          "numerator": "5461731832430623002797962851",
+          "denominator": "2028240960365167042394725128601600000"
+        }
+      ],
+      [
+        {
+          "numerator": "51467392224025778764738062173",
+          "denominator": "20282409603651670423947251286016000000"
+        },
+        {
+          "numerator": "-635768877638337484662267838256390639",
+          "denominator": "5070602400912917605986812821504000000"
+        },
+        {
+          "numerator": "-187550631512258552189496387",
+          "denominator": "20282409603651670423947251286016000000"
+        }
+      ],
+      [
+        {
+          "numerator": "5461731832430623002797962851",
+          "denominator": "2028240960365167042394725128601600000"
+        },
+        {
+          "numerator": "-187550631512258552189496387",
+          "denominator": "20282409603651670423947251286016000000"
+        },
+        {
+          "numerator": "-454348591433591872584090665106375543",
+          "denominator": "5070602400912917605986812821504000000"
+        }
+      ]
+    ],
+    "gram_diagonal_dominance_lower": {
+      "numerator": "281474955222765",
+      "denominator": "281474976710656"
+    },
+    "negative_compression_diagonal_dominance_lower": {
+      "numerator": "72695772437179941380714963210255091",
+      "denominator": "811296384146066816957890051440640000"
+    },
+    "leading_principal_determinants": {
+      "gram": [
+        {
+          "numerator": "281474966912887",
+          "denominator": "281474976710656"
+        },
+        {
+          "numerator": "19807039417953058007517085481",
+          "denominator": "19807040628566084398385987584"
+        },
+        {
+          "numerator": "22300743625669067447424018602711418958017989",
+          "denominator": "22300745198530623141535718272648361505980416"
+        }
+      ],
+      "negative_shifted_compression": [
+        {
+          "numerator": "1501841246953624365371103424318588509",
+          "denominator": "10141204801825835211973625643008000000"
+        },
+        {
+          "numerator": "7638591391733333333461493741700636828165489561652744299610712599991056079",
+          "denominator": "411376139330301510538742295639337626245683966408394965837152256000000000000"
+        },
+        {
+          "numerator": "6941166478741596593360482556415798616159825261041457817346363528416027869218961185352380132290463207709916583",
+          "denominator": "4171849679533027504677776769862406473833407270227837441302815640277772901915313574263597826048000000000000000000"
+        }
+      ]
+    }
+  },
+  "diagnostic_only": {
+    "unshifted_principal_first_three_eigenvalues": [
+      -0.14709398585119418,
+      -0.12438430638033911,
+      -0.0886054611241727
+    ]
+  },
+  "result": "FIXED_LOWER_MATRIX_RANK_TWO_REPAIR_IMPOSSIBLE",
+  "script_sha256": "b501ea34a426a26cd728f8bb9bf34b97eb629e0c9b4b3023777a00967ebcda71"
+}

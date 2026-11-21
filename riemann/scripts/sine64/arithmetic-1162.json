@@ -1,0 +1,91 @@
+{
+  "scope": "Exact elementary arithmetic only; analytic inequalities and domain/kernel proof require separate audit.",
+  "prime_powers": {
+    "2": 2,
+    "4": 2,
+    "8": 2,
+    "16": 2,
+    "32": 2,
+    "64": 2,
+    "3": 3,
+    "9": 3,
+    "27": 3,
+    "81": 3,
+    "5": 5,
+    "25": 5,
+    "7": 7,
+    "49": 7,
+    "11": 11,
+    "13": 13,
+    "17": 17,
+    "19": 19,
+    "23": 23,
+    "29": 29,
+    "31": 31,
+    "37": 37,
+    "41": 41,
+    "43": 43,
+    "47": 47,
+    "53": 53,
+    "59": 59,
+    "61": 61,
+    "67": 67,
+    "71": 71,
+    "73": 73,
+    "79": 79,
+    "83": 83,
+    "89": 89,
+    "97": 97
+  },
+  "prime_subset": [
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89,
+    97
+  ],
+  "values": {
+    "e_upper": {
+      "numerator": 87,
+      "denominator": 32
+    },
+    "exp_point7_partial_sum": {
+      "numerator": 482921,
+      "denominator": 240000
+    },
+    "T_lower": {
+      "numerator": 732421875,
+      "denominator": 2048
+    },
+    "error_coefficient": 1462,
+    "witness_lower": {
+      "numerator": 200269,
+      "denominator": 50000
+    },
+    "required_delta_upper_strict": 2
+  },
+  "checks": {
+    "all_35_prime_powers": true,
+    "17_prime_subset": true,
+    "e_upper": true,
+    "L_upper": true,
+    "log23_lower": true,
+    "exp_point7": true,
+    "T_lower": true,
+    "error_coefficient": true,
+    "witness_lower": true
+  },
+  "failures": []
+}

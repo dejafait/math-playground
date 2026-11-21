@@ -1,0 +1,36 @@
+{
+  "step_id": "2026-11-10-one-sided-paid-hardy-point-test-325",
+  "scope": "Rational endpoint arithmetic only; theta bound and analytic hypotheses are proved in C997d, not by this script.",
+  "assumptions": [
+    "0 < theta < 1/96",
+    "kappa > 0"
+  ],
+  "required_amplification_rate": "0 (subexponential for every epsilon > 0)",
+  "actual_bounds": {
+    "upper_conversion_rate_floor": "> 183/32",
+    "full_conversion_rate_floor": "> 471/32",
+    "propagated_noise_exponent_floor": "> 181/3072"
+  },
+  "checks": {
+    "upper_conversion_rate_floor": {
+      "exact_value": "183/32",
+      "expected_value": "183/32",
+      "positive": true,
+      "pass": true
+    },
+    "full_conversion_rate_floor": {
+      "exact_value": "471/32",
+      "expected_value": "471/32",
+      "positive": true,
+      "pass": true
+    },
+    "propagated_noise_exponent_floor": {
+      "exact_value": "181/3072",
+      "expected_value": "181/3072",
+      "positive": true,
+      "pass": true
+    }
+  },
+  "failures": [],
+  "limitations": "No admissible extremizer, actual-range lower bound, asymptotic calculation or independent analytic audit."
+}

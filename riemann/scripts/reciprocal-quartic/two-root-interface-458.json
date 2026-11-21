@@ -1,0 +1,36 @@
+{
+  "arithmetic": "exact Python integers, formal Laurent monomials in a,b,u0,...,u5",
+  "hypotheses_not_checked_by_script": [
+    "a,b nonzero and distinct",
+    "analytic cancellation and convergence: see L785",
+    "E real positive invertible"
+  ],
+  "coefficients": {
+    "P": "[ab,-(a+b),1]",
+    "B5_j": "sum_l [z^l]P^2 u_(j-l), j=0..5"
+  },
+  "form": {
+    "W": "[[1,-b],[1,-a]]",
+    "H": "[[u2,u3],[u3,u4]]",
+    "M11": "u2-2*b*u3+b^2*u4",
+    "M12": "u2-(a+b)*u3+a*b*u4",
+    "M22": "u2-2*a*u3+a^2*u4",
+    "det_W": "b-a",
+    "det_M": "(a-b)^2*(u2*u4-u3^2)"
+  },
+  "residuals": {
+    "diagonal_a": [],
+    "diagonal_b": [],
+    "off_diagonal_times_a_minus_b": [],
+    "determinant": []
+  },
+  "checks": {
+    "diagonal_a": true,
+    "diagonal_b": true,
+    "off_diagonal_times_a_minus_b": true,
+    "determinant": true
+  },
+  "failures": [],
+  "actual_nonzero_residuals": 0,
+  "required_nonzero_residuals": 0
+}

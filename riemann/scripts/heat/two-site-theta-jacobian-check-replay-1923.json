@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "qualification": "Complete finite arithmetic/symbolic checks; L917/L037 analytic input and Decimal correctness remain assumed",
+  "input_sha256": {
+    "scripts/heat/two-site-theta-jacobian-replay-1923.json": "16aa2abe550b67098afd98db4ff4fcaa9f481d70f1fc79f8cc833c0d487474da",
+    "scripts/heat/two-site-theta-jacobian-check-1921.py": "3f4be15c07ae294b7477060f04b71abb08bea06dae0f496aedad9b1b2bc0c824"
+  },
+  "producer_input_hashes": {
+    "scripts/heat/low-time-h2-uniform-195.json": true,
+    "scripts/heat/low-time-h2-audit-197.json": true,
+    "scripts/heat/two-site-theta-jacobian-1921.py": true
+  },
+  "trace_records_checked": 1633,
+  "divisors_checked": 12,
+  "polynomial_checks": [
+    {
+      "name": "gram_det/value",
+      "all_coefficients_equal": true,
+      "terms": 12
+    },
+    {
+      "name": "gram_det/da",
+      "all_coefficients_equal": true,
+      "terms": 4
+    },
+    {
+      "name": "gram_det/db",
+      "all_coefficients_equal": true,
+      "terms": 8
+    },
+    {
+      "name": "numerator_c0/value",
+      "all_coefficients_equal": true,
+      "terms": 9
+    },
+    {
+      "name": "numerator_c0/da",
+      "all_coefficients_equal": true,
+      "terms": 3
+    },
+    {
+      "name": "numerator_c0/db",
+      "all_coefficients_equal": true,
+      "terms": 6
+    },
+    {
+      "name": "numerator_c1/value",
+      "all_coefficients_equal": true,
+      "terms": 9
+    },
+    {
+      "name": "numerator_c1/da",
+      "all_coefficients_equal": true,
+      "terms": 6
+    },
+    {
+      "name": "numerator_c1/db",
+      "all_coefficients_equal": true,
+      "terms": 9
+    },
+    {
+      "name": "numerator_c2/value",
+      "all_coefficients_equal": true,
+      "terms": 13
+    },
+    {
+      "name": "numerator_c2/da",
+      "all_coefficients_equal": true,
+      "terms": 5
+    },
+    {
+      "name": "numerator_c2/db",
+      "all_coefficients_equal": true,
+      "terms": 9
+    },
+    {
+      "name": "numerator_c3/value",
+      "all_coefficients_equal": true,
+      "terms": 10
+    },
+    {
+      "name": "numerator_c3/da",
+      "all_coefficients_equal": true,
+      "terms": 6
+    },
+    {
+      "name": "numerator_c3/db",
+      "all_coefficients_equal": true,
+      "terms": 10
+    }
+  ],
+  "independent_centered_formula": {
+    "variance": {
+      "value": {
+        "lower": "13444349678314356274851334344859698939135623864501/50000000000000000000000000000000000000000000000000",
+        "upper": "26908771896182695219316975870593066382820475878963/100000000000000000000000000000000000000000000000000"
+      },
+      "da": {
+        "lower": "-10116987772321259835745402254771665323716995796547/100000000000000000000000000000000000000000000000000",
+        "upper": "-10074876331036128441871775208560847329199246646003/100000000000000000000000000000000000000000000000000"
+      },
+      "db": {
+        "lower": "38368365362230115616347779169003900225195236937913/100000000000000000000000000000000000000000000000000",
+        "upper": "9658856537553834485257262204965831336943597119783/25000000000000000000000000000000000000000000000000"
+      }
+    },
+    "third_centered": {
+      "value": {
+        "lower": "6640083515519318883754360395808710239689706987333/100000000000000000000000000000000000000000000000000",
+        "upper": "6660747799152462728243965603964908414986591039239/100000000000000000000000000000000000000000000000000"
+      },
+      "da": {
+        "lower": "1285721241556404799628383370960166992404085206401/100000000000000000000000000000000000000000000000000",
+        "upper": "1335899098232014643607743179388138030996381998133/100000000000000000000000000000000000000000000000000"
+      },
+      "db": {
+        "lower": "2433974795209061346069304754824949085992270586779/10000000000000000000000000000000000000000000000000",
+        "upper": "12314724017545826355029565902147642315502618037737/50000000000000000000000000000000000000000000000000"
+      }
+    },
+    "fourth_centered": {
+      "value": {
+        "lower": "6934536705523638602076569946985016141032993795623/50000000000000000000000000000000000000000000000000",
+        "upper": "13895984086258304230635202251304981193070309544653/100000000000000000000000000000000000000000000000000"
+      },
+      "da": {
+        "lower": "-2356544707725051176793903131953318180508382146451/50000000000000000000000000000000000000000000000000",
+        "upper": "-2317180432609384394138406818217209694401265090171/50000000000000000000000000000000000000000000000000"
+      },
+      "db": {
+        "lower": "41649507056076759678187191960512139797850370938829/100000000000000000000000000000000000000000000000000",
+        "upper": "10511605257978222718260504369436940841381657204761/25000000000000000000000000000000000000000000000000"
+      }
+    }
+  },
+  "independent_rank_numerator": {
+    "lower": "-1885179567220263993628557963356830842348775861/5000000000000000000000000000000000000000000000000",
+    "upper": "-31773876868073477574462821049403633832565807253/100000000000000000000000000000000000000000000000000"
+  },
+  "primary_determinant": {
+    "trace_id": 1628,
+    "lower": "-60260542634616891377496411143313853498905414870639/100000000000000000000000000000000000000000000000000",
+    "upper": "-6989618220286959911416477650126957777667399682899/20000000000000000000000000000000000000000000000000"
+  },
+  "required": "all arithmetic and symbolic checks pass; determinant upper<0",
+  "failures": []
+}

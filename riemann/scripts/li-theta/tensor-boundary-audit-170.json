@@ -1,0 +1,1064 @@
+{
+  "summary": {
+    "cases": [
+      2,
+      3
+    ],
+    "faces_checked": 24,
+    "exact_checks": 77,
+    "actual_max_absolute_residual": "0",
+    "required_max_absolute_residual": "0",
+    "actual_ray_limit_coefficients_without_kappa_power": [
+      "-995328/20735",
+      "-8463359955483/34828144129"
+    ],
+    "required_for_pointwise_payment": "nonnegative kernel everywhere",
+    "actual": "negative ray limit at n=2,3 for every kappa>0",
+    "failures": [],
+    "scope": "Finite algebra audit; analytic endpoint, mass and limit justification is in L967. No integrated sign."
+  },
+  "cases": [
+    {
+      "n": 2,
+      "h": "5184",
+      "delta": "20735/4",
+      "q": "72",
+      "reconstructed_b_numerator": [
+        {
+          "exponents": [
+            "0",
+            "2",
+            "0"
+          ],
+          "coefficient": "-20736/20735"
+        },
+        {
+          "exponents": [
+            "1",
+            "0",
+            "1"
+          ],
+          "coefficient": "20736/20735"
+        },
+        {
+          "exponents": [
+            "1",
+            "1",
+            "0"
+          ],
+          "coefficient": "1719926784/429940225"
+        }
+      ],
+      "checks": [
+        {
+          "check": "d_1",
+          "residual": []
+        },
+        {
+          "check": "d_2",
+          "residual": []
+        },
+        {
+          "check": "complete_original_tensor",
+          "residual": []
+        },
+        {
+          "check": "face_()",
+          "residual": []
+        },
+        {
+          "check": "face_(1,)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 2)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 2, 3)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 3)",
+          "residual": []
+        },
+        {
+          "check": "face_(2,)",
+          "residual": []
+        },
+        {
+          "check": "face_(2, 3)",
+          "residual": []
+        },
+        {
+          "check": "face_(3,)",
+          "residual": []
+        },
+        {
+          "check": "stratum_0",
+          "residual": []
+        },
+        {
+          "check": "stratum_1",
+          "residual": []
+        },
+        {
+          "check": "stratum_2",
+          "residual": []
+        },
+        {
+          "check": "stratum_3",
+          "residual": []
+        },
+        {
+          "check": "entire_symmetrized_ray",
+          "residual": []
+        },
+        {
+          "check": "leading_ray_term",
+          "residual": []
+        },
+        {
+          "check": "operator_q1/2_r0",
+          "residual": []
+        },
+        {
+          "check": "origin_q1/2_r0",
+          "residual": []
+        },
+        {
+          "check": "normal_q1/2_r0",
+          "residual": []
+        },
+        {
+          "check": "operator_q1/2_r1",
+          "residual": []
+        },
+        {
+          "check": "origin_q1/2_r1",
+          "residual": []
+        },
+        {
+          "check": "normal_q1/2_r1",
+          "residual": []
+        },
+        {
+          "check": "operator_q1/2_r2",
+          "residual": []
+        },
+        {
+          "check": "origin_q1/2_r2",
+          "residual": []
+        },
+        {
+          "check": "normal_q1/2_r2",
+          "residual": []
+        },
+        {
+          "check": "operator_q72_r0",
+          "residual": []
+        },
+        {
+          "check": "origin_q72_r0",
+          "residual": []
+        },
+        {
+          "check": "normal_q72_r0",
+          "residual": []
+        },
+        {
+          "check": "operator_q72_r1",
+          "residual": []
+        },
+        {
+          "check": "origin_q72_r1",
+          "residual": []
+        },
+        {
+          "check": "normal_q72_r1",
+          "residual": []
+        }
+      ],
+      "faces_checked": 8,
+      "reconstructed_strata": {
+        "0": [],
+        "1": [
+          {
+            "exponents": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "coefficient": "-214990848/20735"
+          },
+          {
+            "exponents": [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "-859963392/429940225"
+          },
+          {
+            "exponents": [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            "coefficient": "20736/20735"
+          },
+          {
+            "exponents": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coefficient": "859963392/429940225"
+          }
+        ],
+        "2": [
+          {
+            "exponents": [
+              "0",
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "20736"
+          },
+          {
+            "exponents": [
+              "1",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "859963392/20735"
+          },
+          {
+            "exponents": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coefficient": "-41472/20735"
+          }
+        ],
+        "3": [
+          {
+            "exponents": [
+              "2",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "-41472"
+          }
+        ]
+      },
+      "full_ray": [
+        {
+          "exponents": [
+            "-72",
+            "0",
+            "0"
+          ],
+          "coefficient": "-6912"
+        },
+        {
+          "exponents": [
+            "-72",
+            "0",
+            "1"
+          ],
+          "coefficient": "286654464/20735"
+        },
+        {
+          "exponents": [
+            "-72",
+            "0",
+            "2"
+          ],
+          "coefficient": "-573308928/429940225"
+        },
+        {
+          "exponents": [
+            "-72",
+            "1",
+            "2"
+          ],
+          "coefficient": "995328/20735"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "0",
+            "0"
+          ],
+          "coefficient": "-13824"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "0",
+            "1"
+          ],
+          "coefficient": "573267456/20735"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "0",
+            "2"
+          ],
+          "coefficient": "573308928/429940225"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "1",
+            "1"
+          ],
+          "coefficient": "-6912"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "1",
+            "2"
+          ],
+          "coefficient": "-13824/20735"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "0",
+            "0"
+          ],
+          "coefficient": "-13824"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "0",
+            "1"
+          ],
+          "coefficient": "573267456/20735"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "0",
+            "2"
+          ],
+          "coefficient": "573308928/429940225"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "1",
+            "1"
+          ],
+          "coefficient": "6912"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "1",
+            "2"
+          ],
+          "coefficient": "13824/20735"
+        },
+        {
+          "exponents": [
+            "72",
+            "0",
+            "0"
+          ],
+          "coefficient": "-6912"
+        },
+        {
+          "exponents": [
+            "72",
+            "0",
+            "1"
+          ],
+          "coefficient": "286654464/20735"
+        },
+        {
+          "exponents": [
+            "72",
+            "0",
+            "2"
+          ],
+          "coefficient": "-573308928/429940225"
+        },
+        {
+          "exponents": [
+            "72",
+            "1",
+            "2"
+          ],
+          "coefficient": "-995328/20735"
+        }
+      ],
+      "leading_term": [
+        {
+          "exponents": [
+            "72",
+            "1",
+            "2"
+          ],
+          "coefficient": "-995328/20735"
+        }
+      ],
+      "failures": []
+    },
+    {
+      "n": 3,
+      "h": "46656",
+      "delta": "186623/4",
+      "q": "216",
+      "reconstructed_b_numerator": [
+        {
+          "exponents": [
+            "0",
+            "3",
+            "0",
+            "0"
+          ],
+          "coefficient": "186624/186623"
+        },
+        {
+          "exponents": [
+            "1",
+            "1",
+            "1",
+            "0"
+          ],
+          "coefficient": "-279936/186623"
+        },
+        {
+          "exponents": [
+            "1",
+            "2",
+            "0",
+            "0"
+          ],
+          "coefficient": "-208970731008/34828144129"
+        },
+        {
+          "exponents": [
+            "2",
+            "0",
+            "0",
+            "1"
+          ],
+          "coefficient": "93312/186623"
+        },
+        {
+          "exponents": [
+            "2",
+            "0",
+            "1",
+            "0"
+          ],
+          "coefficient": "208970731008/34828144129"
+        },
+        {
+          "exponents": [
+            "2",
+            "1",
+            "0",
+            "0"
+          ],
+          "coefficient": "58498744012298496/6499732741786367"
+        }
+      ],
+      "checks": [
+        {
+          "check": "d_1",
+          "residual": []
+        },
+        {
+          "check": "d_2",
+          "residual": []
+        },
+        {
+          "check": "d_3",
+          "residual": []
+        },
+        {
+          "check": "complete_original_tensor",
+          "residual": []
+        },
+        {
+          "check": "face_()",
+          "residual": []
+        },
+        {
+          "check": "face_(1,)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 2)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 2, 3)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 2, 3, 4)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 2, 4)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 3)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 3, 4)",
+          "residual": []
+        },
+        {
+          "check": "face_(1, 4)",
+          "residual": []
+        },
+        {
+          "check": "face_(2,)",
+          "residual": []
+        },
+        {
+          "check": "face_(2, 3)",
+          "residual": []
+        },
+        {
+          "check": "face_(2, 3, 4)",
+          "residual": []
+        },
+        {
+          "check": "face_(2, 4)",
+          "residual": []
+        },
+        {
+          "check": "face_(3,)",
+          "residual": []
+        },
+        {
+          "check": "face_(3, 4)",
+          "residual": []
+        },
+        {
+          "check": "face_(4,)",
+          "residual": []
+        },
+        {
+          "check": "stratum_0",
+          "residual": []
+        },
+        {
+          "check": "stratum_1",
+          "residual": []
+        },
+        {
+          "check": "stratum_2",
+          "residual": []
+        },
+        {
+          "check": "stratum_3",
+          "residual": []
+        },
+        {
+          "check": "stratum_4",
+          "residual": []
+        },
+        {
+          "check": "entire_symmetrized_ray",
+          "residual": []
+        },
+        {
+          "check": "leading_ray_term",
+          "residual": []
+        },
+        {
+          "check": "operator_q1/2_r0",
+          "residual": []
+        },
+        {
+          "check": "origin_q1/2_r0",
+          "residual": []
+        },
+        {
+          "check": "normal_q1/2_r0",
+          "residual": []
+        },
+        {
+          "check": "operator_q1/2_r1",
+          "residual": []
+        },
+        {
+          "check": "origin_q1/2_r1",
+          "residual": []
+        },
+        {
+          "check": "normal_q1/2_r1",
+          "residual": []
+        },
+        {
+          "check": "operator_q1/2_r2",
+          "residual": []
+        },
+        {
+          "check": "origin_q1/2_r2",
+          "residual": []
+        },
+        {
+          "check": "normal_q1/2_r2",
+          "residual": []
+        },
+        {
+          "check": "operator_q1/2_r3",
+          "residual": []
+        },
+        {
+          "check": "origin_q1/2_r3",
+          "residual": []
+        },
+        {
+          "check": "normal_q1/2_r3",
+          "residual": []
+        },
+        {
+          "check": "operator_q216_r0",
+          "residual": []
+        },
+        {
+          "check": "origin_q216_r0",
+          "residual": []
+        },
+        {
+          "check": "normal_q216_r0",
+          "residual": []
+        },
+        {
+          "check": "operator_q216_r1",
+          "residual": []
+        },
+        {
+          "check": "origin_q216_r1",
+          "residual": []
+        },
+        {
+          "check": "normal_q216_r1",
+          "residual": []
+        }
+      ],
+      "faces_checked": 16,
+      "reconstructed_strata": {
+        "0": [],
+        "1": [
+          {
+            "exponents": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "coefficient": "-3656171500768656/34828144129"
+          },
+          {
+            "exponents": [
+              "0",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "-14624686003074624/6499732741786367"
+          },
+          {
+            "exponents": [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            "coefficient": "69984/186623"
+          },
+          {
+            "exponents": [
+              "0",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            "coefficient": "104485365504/34828144129"
+          },
+          {
+            "exponents": [
+              "1",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coefficient": "14624686003074624/6499732741786367"
+          }
+        ],
+        "2": [
+          {
+            "exponents": [
+              "0",
+              "0",
+              "1",
+              "1",
+              "0"
+            ],
+            "coefficient": "69984"
+          },
+          {
+            "exponents": [
+              "0",
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "104485365504/186623"
+          },
+          {
+            "exponents": [
+              "1",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "14624686003074624/34828144129"
+          },
+          {
+            "exponents": [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            "coefficient": "-559872/186623"
+          },
+          {
+            "exponents": [
+              "2",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coefficient": "-208970731008/34828144129"
+          }
+        ],
+        "3": [
+          {
+            "exponents": [
+              "1",
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "-559872"
+          },
+          {
+            "exponents": [
+              "2",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "-208970731008/186623"
+          },
+          {
+            "exponents": [
+              "3",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coefficient": "746496/186623"
+          }
+        ],
+        "4": [
+          {
+            "exponents": [
+              "3",
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            "coefficient": "746496"
+          }
+        ]
+      },
+      "full_ray": [
+        {
+          "exponents": [
+            "-216",
+            "0",
+            "0"
+          ],
+          "coefficient": "93312"
+        },
+        {
+          "exponents": [
+            "-216",
+            "0",
+            "1"
+          ],
+          "coefficient": "-52242682752/186623"
+        },
+        {
+          "exponents": [
+            "-216",
+            "0",
+            "2"
+          ],
+          "coefficient": "7312343001537312/34828144129"
+        },
+        {
+          "exponents": [
+            "-216",
+            "0",
+            "3"
+          ],
+          "coefficient": "-14624686003074624/6499732741786367"
+        },
+        {
+          "exponents": [
+            "-216",
+            "1",
+            "3"
+          ],
+          "coefficient": "8463359955483/34828144129"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "0",
+            "0"
+          ],
+          "coefficient": "279936"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "0",
+            "1"
+          ],
+          "coefficient": "-156727301760/186623"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "0",
+            "2"
+          ],
+          "coefficient": "21936611063149920/34828144129"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "0",
+            "3"
+          ],
+          "coefficient": "14624686003074624/6499732741786367"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "1",
+            "1"
+          ],
+          "coefficient": "139968"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "1",
+            "2"
+          ],
+          "coefficient": "-39181778784/186623"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "1",
+            "3"
+          ],
+          "coefficient": "-78364117440/34828144129"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "2",
+            "2"
+          ],
+          "coefficient": "34992"
+        },
+        {
+          "exponents": [
+            "-1/2",
+            "2",
+            "3"
+          ],
+          "coefficient": "69984/186623"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "0",
+            "0"
+          ],
+          "coefficient": "279936"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "0",
+            "1"
+          ],
+          "coefficient": "-156727301760/186623"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "0",
+            "2"
+          ],
+          "coefficient": "21936611063149920/34828144129"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "0",
+            "3"
+          ],
+          "coefficient": "14624686003074624/6499732741786367"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "1",
+            "1"
+          ],
+          "coefficient": "-139968"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "1",
+            "2"
+          ],
+          "coefficient": "39181778784/186623"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "1",
+            "3"
+          ],
+          "coefficient": "78364117440/34828144129"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "2",
+            "2"
+          ],
+          "coefficient": "34992"
+        },
+        {
+          "exponents": [
+            "1/2",
+            "2",
+            "3"
+          ],
+          "coefficient": "69984/186623"
+        },
+        {
+          "exponents": [
+            "216",
+            "0",
+            "0"
+          ],
+          "coefficient": "93312"
+        },
+        {
+          "exponents": [
+            "216",
+            "0",
+            "1"
+          ],
+          "coefficient": "-52242682752/186623"
+        },
+        {
+          "exponents": [
+            "216",
+            "0",
+            "2"
+          ],
+          "coefficient": "7312343001537312/34828144129"
+        },
+        {
+          "exponents": [
+            "216",
+            "0",
+            "3"
+          ],
+          "coefficient": "-14624686003074624/6499732741786367"
+        },
+        {
+          "exponents": [
+            "216",
+            "1",
+            "3"
+          ],
+          "coefficient": "-8463359955483/34828144129"
+        }
+      ],
+      "leading_term": [
+        {
+          "exponents": [
+            "216",
+            "1",
+            "3"
+          ],
+          "coefficient": "-8463359955483/34828144129"
+        }
+      ],
+      "failures": []
+    }
+  ]
+}

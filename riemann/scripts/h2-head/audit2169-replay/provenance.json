@@ -1,0 +1,9 @@
+{
+  "source_sha256": "844358ce4d8807da6fea6b44c9bed3f590d36fbc8036f38ed380103ac537fe57",
+  "executed_source_sha256": "a2e572cd500a9c30df75f5f3cf7e38203407a1a1127a9dffc43423fc181dc613",
+  "replacements": {
+    "OUT = ROOT / 'six_endpoint_2167.json'": "OUT = ROOT / 'audit2169-replay' / 'six_endpoint_2167.json'",
+    "PREFLIGHT = ROOT / 'six_endpoint_preflight_2167.json'": "PREFLIGHT = ROOT / 'audit2169-replay' / 'six_endpoint_preflight_2167.json'"
+  },
+  "purpose": "Resolve source-to-saved-quadrature/rotation identity; no mathematical or parameter change."
+}

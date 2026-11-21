@@ -1,0 +1,3681 @@
+{
+  "certificate_sha256": "30acd194aae22c99aa7efe91ca74d49d8fbc42c33c62421afae41d7bfe9e3411",
+  "reproduction": "python3 scripts/pollaczek/tilted_bezoutian_entrywise_check_2017.py",
+  "checks": {
+    "pin_tilted-bezoutian-n6-2014.json": true,
+    "pin_tilted-boundary-metric-2010.json": true,
+    "pin_tilted_bezoutian_n6_2014.py": true,
+    "pin_tilted_boundary_metric_2010.py": true,
+    "all_36_polynomial_entries_unchanged": true,
+    "unchanged_pi": true,
+    "unchanged_sqrt2": true,
+    "construction_checks_all_true": true,
+    "matrix_dimensions": true,
+    "complete_entry_0_0": true,
+    "complete_entry_0_1": true,
+    "complete_entry_0_2": true,
+    "complete_entry_0_3": true,
+    "complete_entry_0_4": true,
+    "complete_entry_0_5": true,
+    "complete_entry_1_0": true,
+    "complete_entry_1_1": true,
+    "complete_entry_1_2": true,
+    "complete_entry_1_3": true,
+    "complete_entry_1_4": true,
+    "complete_entry_1_5": true,
+    "complete_entry_2_0": true,
+    "complete_entry_2_1": true,
+    "complete_entry_2_2": true,
+    "complete_entry_2_3": true,
+    "complete_entry_2_4": true,
+    "complete_entry_2_5": true,
+    "complete_entry_3_0": true,
+    "complete_entry_3_1": true,
+    "complete_entry_3_2": true,
+    "complete_entry_3_3": true,
+    "complete_entry_3_4": true,
+    "complete_entry_3_5": true,
+    "complete_entry_4_0": true,
+    "complete_entry_4_1": true,
+    "complete_entry_4_2": true,
+    "complete_entry_4_3": true,
+    "complete_entry_4_4": true,
+    "complete_entry_4_5": true,
+    "complete_entry_5_0": true,
+    "complete_entry_5_1": true,
+    "complete_entry_5_2": true,
+    "complete_entry_5_3": true,
+    "complete_entry_5_4": true,
+    "complete_entry_5_5": true,
+    "complete_unique_permutations_1": true,
+    "every_term_recomputed_1": true,
+    "complete_raw_endpoints_match_1": true,
+    "exact_outer_bound_comparison_1": true,
+    "raw_and_outer_sign_1": true,
+    "complete_unique_permutations_2": true,
+    "every_term_recomputed_2": true,
+    "complete_raw_endpoints_match_2": true,
+    "exact_outer_bound_comparison_2": true,
+    "raw_and_outer_sign_2": true,
+    "complete_unique_permutations_3": true,
+    "every_term_recomputed_3": true,
+    "complete_raw_endpoints_match_3": true,
+    "exact_outer_bound_comparison_3": true,
+    "raw_and_outer_sign_3": true,
+    "complete_unique_permutations_4": true,
+    "every_term_recomputed_4": true,
+    "complete_raw_endpoints_match_4": true,
+    "exact_outer_bound_comparison_4": true,
+    "raw_and_outer_sign_4": true,
+    "complete_unique_permutations_5": true,
+    "every_term_recomputed_5": true,
+    "complete_raw_endpoints_match_5": true,
+    "exact_outer_bound_comparison_5": true,
+    "raw_and_outer_sign_5": true,
+    "complete_unique_permutations_6": true,
+    "every_term_recomputed_6": true,
+    "complete_raw_endpoints_match_6": true,
+    "exact_outer_bound_comparison_6": true,
+    "raw_and_outer_sign_6": true,
+    "six_minors": true,
+    "all_signs_match": true,
+    "Jacobi_inertia": true,
+    "threshold_and_unresolved": true
+  },
+  "all_permutation_term_checks": [
+    {
+      "minor": 1,
+      "all_term_checks": [
+        {
+          "term": 0,
+          "parity_product_and_signed_endpoints_match": true
+        }
+      ]
+    },
+    {
+      "minor": 2,
+      "all_term_checks": [
+        {
+          "term": 0,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 1,
+          "parity_product_and_signed_endpoints_match": true
+        }
+      ]
+    },
+    {
+      "minor": 3,
+      "all_term_checks": [
+        {
+          "term": 0,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 1,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 2,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 3,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 4,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 5,
+          "parity_product_and_signed_endpoints_match": true
+        }
+      ]
+    },
+    {
+      "minor": 4,
+      "all_term_checks": [
+        {
+          "term": 0,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 1,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 2,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 3,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 4,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 5,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 6,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 7,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 8,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 9,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 10,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 11,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 12,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 13,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 14,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 15,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 16,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 17,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 18,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 19,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 20,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 21,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 22,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 23,
+          "parity_product_and_signed_endpoints_match": true
+        }
+      ]
+    },
+    {
+      "minor": 5,
+      "all_term_checks": [
+        {
+          "term": 0,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 1,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 2,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 3,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 4,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 5,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 6,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 7,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 8,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 9,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 10,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 11,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 12,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 13,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 14,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 15,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 16,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 17,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 18,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 19,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 20,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 21,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 22,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 23,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 24,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 25,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 26,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 27,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 28,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 29,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 30,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 31,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 32,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 33,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 34,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 35,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 36,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 37,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 38,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 39,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 40,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 41,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 42,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 43,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 44,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 45,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 46,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 47,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 48,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 49,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 50,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 51,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 52,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 53,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 54,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 55,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 56,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 57,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 58,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 59,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 60,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 61,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 62,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 63,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 64,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 65,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 66,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 67,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 68,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 69,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 70,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 71,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 72,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 73,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 74,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 75,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 76,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 77,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 78,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 79,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 80,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 81,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 82,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 83,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 84,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 85,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 86,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 87,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 88,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 89,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 90,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 91,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 92,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 93,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 94,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 95,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 96,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 97,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 98,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 99,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 100,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 101,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 102,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 103,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 104,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 105,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 106,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 107,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 108,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 109,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 110,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 111,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 112,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 113,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 114,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 115,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 116,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 117,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 118,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 119,
+          "parity_product_and_signed_endpoints_match": true
+        }
+      ]
+    },
+    {
+      "minor": 6,
+      "all_term_checks": [
+        {
+          "term": 0,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 1,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 2,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 3,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 4,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 5,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 6,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 7,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 8,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 9,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 10,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 11,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 12,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 13,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 14,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 15,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 16,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 17,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 18,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 19,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 20,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 21,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 22,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 23,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 24,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 25,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 26,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 27,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 28,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 29,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 30,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 31,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 32,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 33,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 34,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 35,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 36,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 37,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 38,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 39,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 40,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 41,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 42,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 43,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 44,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 45,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 46,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 47,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 48,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 49,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 50,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 51,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 52,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 53,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 54,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 55,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 56,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 57,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 58,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 59,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 60,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 61,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 62,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 63,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 64,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 65,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 66,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 67,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 68,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 69,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 70,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 71,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 72,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 73,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 74,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 75,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 76,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 77,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 78,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 79,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 80,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 81,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 82,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 83,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 84,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 85,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 86,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 87,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 88,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 89,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 90,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 91,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 92,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 93,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 94,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 95,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 96,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 97,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 98,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 99,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 100,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 101,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 102,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 103,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 104,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 105,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 106,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 107,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 108,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 109,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 110,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 111,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 112,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 113,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 114,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 115,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 116,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 117,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 118,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 119,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 120,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 121,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 122,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 123,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 124,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 125,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 126,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 127,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 128,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 129,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 130,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 131,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 132,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 133,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 134,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 135,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 136,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 137,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 138,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 139,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 140,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 141,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 142,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 143,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 144,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 145,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 146,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 147,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 148,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 149,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 150,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 151,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 152,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 153,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 154,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 155,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 156,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 157,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 158,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 159,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 160,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 161,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 162,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 163,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 164,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 165,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 166,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 167,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 168,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 169,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 170,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 171,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 172,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 173,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 174,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 175,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 176,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 177,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 178,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 179,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 180,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 181,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 182,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 183,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 184,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 185,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 186,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 187,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 188,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 189,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 190,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 191,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 192,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 193,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 194,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 195,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 196,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 197,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 198,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 199,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 200,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 201,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 202,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 203,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 204,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 205,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 206,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 207,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 208,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 209,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 210,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 211,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 212,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 213,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 214,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 215,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 216,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 217,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 218,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 219,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 220,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 221,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 222,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 223,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 224,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 225,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 226,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 227,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 228,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 229,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 230,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 231,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 232,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 233,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 234,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 235,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 236,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 237,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 238,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 239,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 240,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 241,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 242,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 243,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 244,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 245,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 246,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 247,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 248,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 249,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 250,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 251,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 252,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 253,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 254,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 255,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 256,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 257,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 258,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 259,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 260,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 261,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 262,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 263,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 264,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 265,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 266,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 267,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 268,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 269,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 270,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 271,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 272,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 273,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 274,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 275,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 276,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 277,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 278,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 279,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 280,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 281,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 282,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 283,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 284,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 285,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 286,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 287,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 288,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 289,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 290,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 291,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 292,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 293,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 294,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 295,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 296,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 297,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 298,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 299,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 300,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 301,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 302,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 303,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 304,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 305,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 306,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 307,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 308,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 309,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 310,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 311,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 312,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 313,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 314,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 315,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 316,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 317,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 318,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 319,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 320,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 321,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 322,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 323,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 324,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 325,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 326,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 327,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 328,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 329,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 330,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 331,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 332,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 333,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 334,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 335,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 336,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 337,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 338,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 339,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 340,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 341,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 342,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 343,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 344,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 345,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 346,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 347,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 348,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 349,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 350,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 351,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 352,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 353,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 354,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 355,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 356,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 357,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 358,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 359,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 360,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 361,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 362,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 363,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 364,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 365,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 366,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 367,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 368,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 369,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 370,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 371,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 372,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 373,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 374,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 375,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 376,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 377,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 378,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 379,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 380,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 381,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 382,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 383,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 384,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 385,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 386,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 387,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 388,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 389,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 390,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 391,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 392,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 393,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 394,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 395,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 396,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 397,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 398,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 399,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 400,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 401,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 402,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 403,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 404,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 405,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 406,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 407,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 408,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 409,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 410,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 411,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 412,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 413,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 414,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 415,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 416,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 417,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 418,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 419,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 420,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 421,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 422,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 423,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 424,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 425,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 426,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 427,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 428,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 429,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 430,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 431,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 432,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 433,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 434,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 435,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 436,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 437,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 438,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 439,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 440,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 441,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 442,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 443,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 444,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 445,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 446,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 447,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 448,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 449,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 450,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 451,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 452,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 453,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 454,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 455,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 456,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 457,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 458,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 459,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 460,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 461,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 462,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 463,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 464,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 465,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 466,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 467,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 468,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 469,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 470,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 471,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 472,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 473,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 474,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 475,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 476,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 477,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 478,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 479,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 480,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 481,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 482,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 483,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 484,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 485,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 486,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 487,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 488,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 489,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 490,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 491,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 492,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 493,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 494,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 495,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 496,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 497,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 498,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 499,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 500,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 501,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 502,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 503,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 504,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 505,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 506,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 507,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 508,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 509,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 510,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 511,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 512,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 513,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 514,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 515,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 516,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 517,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 518,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 519,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 520,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 521,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 522,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 523,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 524,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 525,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 526,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 527,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 528,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 529,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 530,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 531,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 532,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 533,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 534,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 535,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 536,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 537,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 538,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 539,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 540,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 541,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 542,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 543,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 544,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 545,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 546,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 547,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 548,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 549,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 550,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 551,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 552,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 553,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 554,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 555,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 556,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 557,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 558,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 559,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 560,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 561,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 562,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 563,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 564,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 565,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 566,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 567,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 568,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 569,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 570,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 571,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 572,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 573,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 574,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 575,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 576,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 577,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 578,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 579,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 580,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 581,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 582,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 583,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 584,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 585,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 586,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 587,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 588,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 589,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 590,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 591,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 592,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 593,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 594,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 595,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 596,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 597,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 598,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 599,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 600,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 601,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 602,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 603,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 604,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 605,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 606,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 607,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 608,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 609,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 610,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 611,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 612,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 613,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 614,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 615,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 616,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 617,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 618,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 619,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 620,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 621,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 622,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 623,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 624,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 625,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 626,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 627,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 628,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 629,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 630,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 631,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 632,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 633,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 634,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 635,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 636,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 637,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 638,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 639,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 640,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 641,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 642,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 643,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 644,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 645,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 646,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 647,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 648,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 649,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 650,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 651,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 652,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 653,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 654,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 655,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 656,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 657,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 658,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 659,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 660,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 661,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 662,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 663,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 664,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 665,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 666,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 667,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 668,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 669,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 670,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 671,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 672,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 673,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 674,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 675,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 676,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 677,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 678,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 679,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 680,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 681,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 682,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 683,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 684,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 685,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 686,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 687,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 688,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 689,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 690,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 691,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 692,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 693,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 694,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 695,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 696,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 697,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 698,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 699,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 700,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 701,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 702,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 703,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 704,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 705,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 706,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 707,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 708,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 709,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 710,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 711,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 712,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 713,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 714,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 715,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 716,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 717,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 718,
+          "parity_product_and_signed_endpoints_match": true
+        },
+        {
+          "term": 719,
+          "parity_product_and_signed_endpoints_match": true
+        }
+      ]
+    }
+  ],
+  "complete_exact_outer_bounds": [
+    {
+      "minor": 1,
+      "power_of_ten": -7,
+      "scaled_interval": {
+        "lower": "333163/250000",
+        "upper": "1332653/1000000"
+      },
+      "raw_endpoints_checked_in_full": true
+    },
+    {
+      "minor": 2,
+      "power_of_ten": -12,
+      "scaled_interval": {
+        "lower": "1024767/1000000",
+        "upper": "16012/15625"
+      },
+      "raw_endpoints_checked_in_full": true
+    },
+    {
+      "minor": 3,
+      "power_of_ten": -16,
+      "scaled_interval": {
+        "lower": "542067/250000",
+        "upper": "2168269/1000000"
+      },
+      "raw_endpoints_checked_in_full": true
+    },
+    {
+      "minor": 4,
+      "power_of_ten": -19,
+      "scaled_interval": {
+        "lower": "170497/100000",
+        "upper": "1704971/1000000"
+      },
+      "raw_endpoints_checked_in_full": true
+    },
+    {
+      "minor": 5,
+      "power_of_ten": -22,
+      "scaled_interval": {
+        "lower": "2250491/1000000",
+        "upper": "562623/250000"
+      },
+      "raw_endpoints_checked_in_full": true
+    },
+    {
+      "minor": 6,
+      "power_of_ten": -24,
+      "scaled_interval": {
+        "lower": "-3178327/1000000",
+        "upper": "-1589163/500000"
+      },
+      "raw_endpoints_checked_in_full": true
+    }
+  ],
+  "signs": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1
+  ],
+  "actual_inertia": {
+    "positive": 5,
+    "negative": 1,
+    "zero": 0
+  },
+  "permutation_terms_checked": 873,
+  "failures": [],
+  "scope": "Full finite arithmetic consistency check; no independent source/construction audit"
+}

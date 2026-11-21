@@ -1,0 +1,257 @@
+{
+  "scope": "specific731 Gram and repeated-inverse loops; conditional on successful full-block extension preserving these loops; not a universal complexity lower bound",
+  "audit_script_sha256": "e581d5e69bf40d982edab5d9c37a1bc2d8c01d822f78ae33708cd0bd4de17fd4",
+  "source_sha256": "f3381446bc44ef807fb54b167bf0b690f2a35fef3f764b2adbb5ba062973de09",
+  "source_excerpts": {
+    "solve": "def solve(g, h, active):\n    \"\"\"Partial-pivot candidate solve; small pivots stop this prescription.\"\"\"\n    global solve_steps\n    n = len(active)\n    a = [[g[i][j] for j in active]+[h[i]] for i in active]\n    for k in range(n):\n        pivot = max(range(k, n), key=lambda i: abs(a[i][k]))\n        if abs(a[pivot][k]) < D('1e-60'):\n            raise ArithmeticError('fixed candidate normal-equation pivot below1e-60')\n        a[k], a[pivot] = a[pivot], a[k]\n        for i in range(k+1, n):\n            factor = a[i][k]/a[k][k]\n            for j in range(k+1, n+1):\n                a[i][j] -= factor*a[k][j]\n                solve_steps += 1\n            a[i][k] = D(0)\n    z = [D(0)]*n\n    for i in reversed(range(n)):\n        z[i] = (a[i][n]-sum((a[i][j]*z[j] for j in range(i+1, n)), D(0)))/a[i][i]\n    return z",
+    "inverse_columns": "inverse_columns = [solve(hd, [D(int(i == j)) for i in range(dim)], list(range(dim)))\n                       for j in range(dim)]",
+    "candidate_gram_loop": "for i in range(NC):\n        for j in range(i+1):\n            value = sum((a[i][k]*a[j][k] for k in range(DEG+1)), D(0))\n            gram[i][j] = gram[j][i] = value",
+    "parameter_assignment": "J, DEG, NC, PREC = 2**K, 34, 129, 80",
+    "dimension_assignment": "dim = DEG+1"
+  },
+  "parameters": {
+    "degree": 34,
+    "dimension": 35,
+    "candidates": 129,
+    "all_blocks_k": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "remaining_blocks_k": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "required_complete_work_cap": 100000000
+  },
+  "source_work": {
+    "convention": "C998v Section5: one scalar arithmetic/comparison, explicit binding/store, or successful loop advance is at least one unit",
+    "updates_per_dimension35_solve": 14280,
+    "separate_full_solves_per_inverse": 35,
+    "updates_per_block_inverse": 499800,
+    "distinct_counted_units_per_inner_update": {
+      "scalar_multiplication": 1,
+      "scalar_subtraction": 1,
+      "successful_inner_loop_advance": 1,
+      "inner_loop_variable_binding": 1
+    },
+    "remaining61_lower_bound": 121951200,
+    "all64_lower_bound": 127948800,
+    "required_cap": 100000000,
+    "passes_cap": false,
+    "excluded": [
+      "matrix entry update stores",
+      "solve_steps counter instrumentation",
+      "pivot search and guards",
+      "division for factors",
+      "back substitution",
+      "all other loops and stores",
+      "moment preparation",
+      "NNLS candidate solves",
+      "inverse residual validation",
+      "prefix generation",
+      "storage reporting replay and scalar work"
+    ]
+  },
+  "independent_arithmetic_only": {
+    "triangular_gram_entries": 8385,
+    "products_per_gram_entry": 35,
+    "conservative_additions_per_gram_entry": 34,
+    "gram_arithmetic_per_block": 578565,
+    "inverse_inner_arithmetic_per_block": 999600,
+    "all64_lower_bound": 101002560,
+    "required_cap": 100000000,
+    "passes_cap": false
+  },
+  "mathematical_status": {
+    "large_block_moments_or_weights_generated": false,
+    "existing_three_rules_revalidated": false,
+    "all_block_residual_or_actual_error_claimed": false,
+    "byte_storage_upper_bound_certified": false,
+    "three_existing_rules_are_invalidated": false,
+    "all_residual_constructions_are_excluded": false
+  },
+  "checks": [
+    {
+      "name": "fixed degree34 candidate129 precision80",
+      "passed": true
+    },
+    {
+      "name": "validation dimension is degree plus one",
+      "passed": true
+    },
+    {
+      "name": "solve dimension is active list length",
+      "passed": true
+    },
+    {
+      "name": "elimination outer range",
+      "passed": true
+    },
+    {
+      "name": "elimination row range",
+      "passed": true
+    },
+    {
+      "name": "elimination column range includes rhs",
+      "passed": true
+    },
+    {
+      "name": "one multiply subtract store per inner update",
+      "passed": true
+    },
+    {
+      "name": "no conditional or early loop exit in successful elimination",
+      "passed": true
+    },
+    {
+      "name": "inverse repeats full dimension solve for every column",
+      "passed": true
+    },
+    {
+      "name": "candidate gram entry sums35 scalar products",
+      "passed": true
+    },
+    {
+      "name": "candidate gram has129 triangular rows",
+      "passed": true
+    },
+    {
+      "name": "enumerated elimination updates match closed form",
+      "passed": true
+    },
+    {
+      "name": "three completed plus61 remaining blocks cover all64",
+      "passed": true
+    },
+    {
+      "name": "remaining61 inverse subtask alone above cap",
+      "passed": true
+    },
+    {
+      "name": "all64 selected arithmetic alone above cap",
+      "passed": true
+    }
+  ],
+  "failed_checks": []
+}

@@ -1,0 +1,1604 @@
+{
+  "scope": "L969 independent finite audit at n=2,3 only",
+  "analytic_premises": [
+    "A is strictly positive and has L019 decay",
+    "gamma=1/[2(c0+c1)] is fixed, finite and positive",
+    "integral A Z=1/2; each restored origin multiplier equals 1",
+    "the exact hyperbolic formulas imply the stated leading data",
+    "normalized symmetrization equals the product on the diagonal"
+  ],
+  "moment_variables": [
+    "a0",
+    "a1",
+    "a2",
+    "c0",
+    "c1"
+  ],
+  "orders": {
+    "2": {
+      "h": 5184,
+      "q": 72,
+      "delta": "20735/4",
+      "D": [
+        "1",
+        "4"
+      ],
+      "d": {
+        "1": "1719926784/429940225",
+        "2": "20736/20735"
+      },
+      "faces": [
+        {
+          "live_coordinates": [],
+          "moment": [],
+          "restored_origin_count": 3,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^3",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-71663616/20735"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-286654464/429940225"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "6912/20735"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "286654464/429940225"
+            }
+          ],
+          "restored_origin_count": 2,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^2",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            1
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-71663616/20735"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-286654464/429940225"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "6912/20735"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "286654464/429940225"
+            }
+          ],
+          "restored_origin_count": 2,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^2",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            2
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-71663616/20735"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-286654464/429940225"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "6912/20735"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "286654464/429940225"
+            }
+          ],
+          "restored_origin_count": 2,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^2",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            1
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "6912"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "286654464/20735"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-13824/20735"
+            }
+          ],
+          "restored_origin_count": 1,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^1",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            2
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "6912"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "286654464/20735"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-13824/20735"
+            }
+          ],
+          "restored_origin_count": 1,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^1",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            1,
+            2
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "6912"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "286654464/20735"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-13824/20735"
+            }
+          ],
+          "restored_origin_count": 1,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^1",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            1,
+            2
+          ],
+          "moment": [
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-41472"
+            }
+          ],
+          "restored_origin_count": 0,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^0",
+          "residual": []
+        }
+      ],
+      "diagonal_term_leading_data": [
+        {
+          "factors": [
+            "b0",
+            "b1",
+            "h0"
+          ],
+          "rate": "289/2",
+          "degree": 2,
+          "coefficient_without_gamma": "20736/429940225",
+          "gamma_power": 2
+        },
+        {
+          "factors": [
+            "b0",
+            "b2",
+            "h0"
+          ],
+          "rate": "289/2",
+          "degree": 3,
+          "coefficient_without_gamma": "1/41470",
+          "gamma_power": 2
+        },
+        {
+          "factors": [
+            "b1",
+            "b1",
+            "h0"
+          ],
+          "rate": "73",
+          "degree": 1,
+          "coefficient_without_gamma": "-72/20735",
+          "gamma_power": 1
+        },
+        {
+          "factors": [
+            "b0",
+            "b0",
+            "h1"
+          ],
+          "rate": "216",
+          "degree": 3,
+          "coefficient_without_gamma": "-36/20735",
+          "gamma_power": 2
+        }
+      ],
+      "limit_without_gamma_power_n": "-36/20735",
+      "compensation_rate_bound": "289/2",
+      "dominant_rate": "216"
+    },
+    "3": {
+      "h": 46656,
+      "q": 216,
+      "delta": "186623/4",
+      "D": [
+        "1",
+        "6",
+        "9"
+      ],
+      "d": {
+        "1": "58498744012298496/6499732741786367",
+        "2": "208970731008/34828144129",
+        "3": "186624/186623"
+      },
+      "faces": [
+        {
+          "live_coordinates": [],
+          "moment": [],
+          "restored_origin_count": 4,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^4",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-914042875192164/34828144129"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-3656171500768656/6499732741786367"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "17496/186623"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "26121341376/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "3656171500768656/6499732741786367"
+            }
+          ],
+          "restored_origin_count": 3,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^3",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            1
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-914042875192164/34828144129"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-3656171500768656/6499732741786367"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "17496/186623"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "26121341376/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "3656171500768656/6499732741786367"
+            }
+          ],
+          "restored_origin_count": 3,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^3",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            2
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-914042875192164/34828144129"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-3656171500768656/6499732741786367"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "17496/186623"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "26121341376/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "3656171500768656/6499732741786367"
+            }
+          ],
+          "restored_origin_count": 3,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^3",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            3
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "coefficient": "-914042875192164/34828144129"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-3656171500768656/6499732741786367"
+            },
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "coefficient": "17496/186623"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "26121341376/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "3656171500768656/6499732741786367"
+            }
+          ],
+          "restored_origin_count": 3,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^3",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            1
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ],
+          "restored_origin_count": 2,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^2",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            2
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ],
+          "restored_origin_count": 2,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^2",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            3
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ],
+          "restored_origin_count": 2,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^2",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            1,
+            2
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ],
+          "restored_origin_count": 2,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^2",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            1,
+            3
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ],
+          "restored_origin_count": 2,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^2",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            2,
+            3
+          ],
+          "moment": [
+            {
+              "powers": [
+                0,
+                0,
+                1,
+                1,
+                0
+              ],
+              "coefficient": "11664"
+            },
+            {
+              "powers": [
+                0,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "17414227584/186623"
+            },
+            {
+              "powers": [
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "2437447667179104/34828144129"
+            },
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-93312/186623"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "-34828455168/34828144129"
+            }
+          ],
+          "restored_origin_count": 2,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^2",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            1,
+            2
+          ],
+          "moment": [
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-139968"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-52242682752/186623"
+            },
+            {
+              "powers": [
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "186624/186623"
+            }
+          ],
+          "restored_origin_count": 1,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^1",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            1,
+            3
+          ],
+          "moment": [
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-139968"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-52242682752/186623"
+            },
+            {
+              "powers": [
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "186624/186623"
+            }
+          ],
+          "restored_origin_count": 1,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^1",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            2,
+            3
+          ],
+          "moment": [
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-139968"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-52242682752/186623"
+            },
+            {
+              "powers": [
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "186624/186623"
+            }
+          ],
+          "restored_origin_count": 1,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^1",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            1,
+            2,
+            3
+          ],
+          "moment": [
+            {
+              "powers": [
+                1,
+                1,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-139968"
+            },
+            {
+              "powers": [
+                2,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "-52242682752/186623"
+            },
+            {
+              "powers": [
+                3,
+                0,
+                0,
+                0,
+                0
+              ],
+              "coefficient": "186624/186623"
+            }
+          ],
+          "restored_origin_count": 1,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^1",
+          "residual": []
+        },
+        {
+          "live_coordinates": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "moment": [
+            {
+              "powers": [
+                3,
+                0,
+                0,
+                1,
+                0
+              ],
+              "coefficient": "746496"
+            }
+          ],
+          "restored_origin_count": 0,
+          "restoration_multiplier": "[2*gamma*(c0+c1)]^0",
+          "residual": []
+        }
+      ],
+      "diagonal_term_leading_data": [
+        {
+          "factors": [
+            "b0",
+            "b0",
+            "b1",
+            "h0"
+          ],
+          "rate": "1297/2",
+          "degree": 3,
+          "coefficient_without_gamma": "313457776129/22463076355613684352",
+          "gamma_power": 3
+        },
+        {
+          "factors": [
+            "b0",
+            "b0",
+            "b2",
+            "h0"
+          ],
+          "rate": "1297/2",
+          "degree": 4,
+          "coefficient_without_gamma": "559871/30091516527456",
+          "gamma_power": 3
+        },
+        {
+          "factors": [
+            "b0",
+            "b1",
+            "b1",
+            "h0"
+          ],
+          "rate": "433",
+          "degree": 2,
+          "coefficient_without_gamma": "-559871/69656288258",
+          "gamma_power": 2
+        },
+        {
+          "factors": [
+            "b0",
+            "b0",
+            "b3",
+            "h0"
+          ],
+          "rate": "1297/2",
+          "degree": 5,
+          "coefficient_without_gamma": "1/429979392",
+          "gamma_power": 3
+        },
+        {
+          "factors": [
+            "b0",
+            "b1",
+            "b2",
+            "h0"
+          ],
+          "rate": "433",
+          "degree": 3,
+          "coefficient_without_gamma": "-3/746492",
+          "gamma_power": 2
+        },
+        {
+          "factors": [
+            "b1",
+            "b1",
+            "b1",
+            "h0"
+          ],
+          "rate": "435/2",
+          "degree": 1,
+          "coefficient_without_gamma": "216/186623",
+          "gamma_power": 1
+        },
+        {
+          "factors": [
+            "b0",
+            "b0",
+            "b0",
+            "h1"
+          ],
+          "rate": "864",
+          "degree": 4,
+          "coefficient_without_gamma": "-313457776129/207992562237775872",
+          "gamma_power": 3
+        }
+      ],
+      "limit_without_gamma_power_n": "-313457776129/207992562237775872",
+      "compensation_rate_bound": "1297/2",
+      "dominant_rate": "864"
+    }
+  },
+  "checks": [
+    {
+      "label": "n=2 coefficients",
+      "passed": true,
+      "actual": {
+        "1": "1719926784/429940225",
+        "2": "20736/20735"
+      },
+      "required": {
+        "1": "1719926784/429940225",
+        "2": "20736/20735"
+      }
+    },
+    {
+      "label": "n=2 complete tensors",
+      "passed": true,
+      "actual": {
+        "('b0', 'b1', 'h0')": "1719926784/429940225",
+        "('b0', 'b2', 'h0')": "20736/20735",
+        "('b1', 'b1', 'h0')": "-20736/20735",
+        "('b0', 'b0', 'h1')": "-1719926784/429940225"
+      },
+      "required": {
+        "('b0', 'b1', 'h0')": "1719926784/429940225",
+        "('b0', 'b2', 'h0')": "20736/20735",
+        "('b1', 'b1', 'h0')": "-20736/20735",
+        "('b0', 'b0', 'h1')": "-1719926784/429940225"
+      }
+    },
+    {
+      "label": "n=2 face ()",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=2 face (0,)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=2 face (1,)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=2 face (2,)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=2 face (0, 1)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=2 face (0, 2)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=2 face (1, 2)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=2 face (0, 1, 2)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=2 retained coefficient",
+      "passed": true,
+      "actual": "-36/20735",
+      "required": "-36/20735"
+    },
+    {
+      "label": "n=2 stated rational coefficient",
+      "passed": true,
+      "actual": "-36/20735",
+      "required": "-36/20735"
+    },
+    {
+      "label": "n=2 retained degree",
+      "passed": true,
+      "actual": 3,
+      "required": 3
+    },
+    {
+      "label": "n=2 retained gamma power",
+      "passed": true,
+      "actual": 2,
+      "required": 2
+    },
+    {
+      "label": "n=2 retained rate",
+      "passed": true,
+      "actual": "216",
+      "required": "216"
+    },
+    {
+      "label": "n=2 compensation rate",
+      "passed": true,
+      "actual": "289/2",
+      "required": "289/2"
+    },
+    {
+      "label": "n=2 strict rate gap",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "n=2 strict negative scalar",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "n=3 coefficients",
+      "passed": true,
+      "actual": {
+        "1": "58498744012298496/6499732741786367",
+        "2": "208970731008/34828144129",
+        "3": "186624/186623"
+      },
+      "required": {
+        "1": "58498744012298496/6499732741786367",
+        "2": "208970731008/34828144129",
+        "3": "186624/186623"
+      }
+    },
+    {
+      "label": "n=3 complete tensors",
+      "passed": true,
+      "actual": {
+        "('b0', 'b0', 'b1', 'h0')": "58498744012298496/6499732741786367",
+        "('b0', 'b0', 'b2', 'h0')": "208970731008/34828144129",
+        "('b0', 'b1', 'b1', 'h0')": "-208970731008/34828144129",
+        "('b0', 'b0', 'b3', 'h0')": "93312/186623",
+        "('b0', 'b1', 'b2', 'h0')": "-279936/186623",
+        "('b1', 'b1', 'b1', 'h0')": "186624/186623",
+        "('b0', 'b0', 'b0', 'h1')": "-58498744012298496/6499732741786367"
+      },
+      "required": {
+        "('b0', 'b0', 'b1', 'h0')": "58498744012298496/6499732741786367",
+        "('b0', 'b0', 'b2', 'h0')": "208970731008/34828144129",
+        "('b0', 'b1', 'b1', 'h0')": "-208970731008/34828144129",
+        "('b0', 'b0', 'b0', 'h1')": "-58498744012298496/6499732741786367",
+        "('b0', 'b0', 'b3', 'h0')": "93312/186623",
+        "('b0', 'b1', 'b2', 'h0')": "-279936/186623",
+        "('b1', 'b1', 'b1', 'h0')": "186624/186623"
+      }
+    },
+    {
+      "label": "n=3 face ()",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (0,)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (1,)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (2,)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (3,)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (0, 1)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (0, 2)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (0, 3)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (1, 2)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (1, 3)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (2, 3)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (0, 1, 2)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (0, 1, 3)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (0, 2, 3)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (1, 2, 3)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 face (0, 1, 2, 3)",
+      "passed": true,
+      "actual": [],
+      "required": []
+    },
+    {
+      "label": "n=3 retained coefficient",
+      "passed": true,
+      "actual": "-313457776129/207992562237775872",
+      "required": "-313457776129/207992562237775872"
+    },
+    {
+      "label": "n=3 stated rational coefficient",
+      "passed": true,
+      "actual": "-313457776129/207992562237775872",
+      "required": "-313457776129/207992562237775872"
+    },
+    {
+      "label": "n=3 retained degree",
+      "passed": true,
+      "actual": 4,
+      "required": 4
+    },
+    {
+      "label": "n=3 retained gamma power",
+      "passed": true,
+      "actual": 3,
+      "required": 3
+    },
+    {
+      "label": "n=3 retained rate",
+      "passed": true,
+      "actual": "864",
+      "required": "864"
+    },
+    {
+      "label": "n=3 compensation rate",
+      "passed": true,
+      "actual": "1297/2",
+      "required": "1297/2"
+    },
+    {
+      "label": "n=3 strict rate gap",
+      "passed": true,
+      "actual": true,
+      "required": true
+    },
+    {
+      "label": "n=3 strict negative scalar",
+      "passed": true,
+      "actual": true,
+      "required": true
+    }
+  ],
+  "failures": [],
+  "passed": true,
+  "limitations": "No numerical normalization or integrated sign. Analytic convergence is proved in L969."
+}

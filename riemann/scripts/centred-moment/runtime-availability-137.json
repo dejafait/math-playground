@@ -1,0 +1,21 @@
+{
+  "step_id": "2026-11-10-centred-moment-runtime-stop-137",
+  "status": "BLOCKED_BEFORE_NUMERICAL_EXECUTION",
+  "prior_mathematical_certificate": "scripts/centred-moment/independent-audit-136.json",
+  "fresh_import_probes": [
+    {"executable": "/opt/homebrew/opt/python@3.15/bin/python3.15", "result": "ModuleNotFoundError: No module named 'flint'", "exit_code": 1},
+    {"executable": "/Users/vermeer/.virtualenvs/math-playground-python3.12/bin/python3", "result": "ModuleNotFoundError: No module named 'flint'", "exit_code": 1},
+    {"executable": "/Users/vermeer/.virtualenvs/bashrc-python3.12/bin/python3", "result": "ModuleNotFoundError: No module named 'flint'", "exit_code": 1},
+    {"executable": "/Users/vermeer/.local/bin/python3.11", "result": "ModuleNotFoundError: No module named 'flint'", "exit_code": 1}
+  ],
+  "narrow_library_probe": {
+    "/opt/homebrew/lib/libflint*": "no matching path",
+    "/opt/homebrew/lib/libarb*": "no matching path"
+  },
+  "repeated_installation_attempted": false,
+  "new_mathematical_gates_executed": 0,
+  "carried_forward_gate_counts": {"passed": 5, "failed": 0, "unexecuted": 909, "required": 914},
+  "actual_uniform_bound": null,
+  "required_uniform_bound": "strictly less than 81/4",
+  "qualification": "Runtime probes are not mathematical evidence. No Arb replay, numerical maximum, inequality failure, source-byte verification or moment certification occurred. Earlier unfinished work is preserved."
+}

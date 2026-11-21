@@ -1,0 +1,96 @@
+{
+  "scope": "C998u one uncompressed geometric-prefix prescription; no actual scalar/error lower bound",
+  "witness": {
+    "path": "defect-window-fixed-pair-707-witness.json",
+    "expected_sha256": "99ebc79ed3d82771ad0b5567356ba953e0d123d86aecdfe07d8e57f6fb9c634a",
+    "actual_sha256": "99ebc79ed3d82771ad0b5567356ba953e0d123d86aecdfe07d8e57f6fb9c634a"
+  },
+  "bounds": {
+    "A": 8796093022208,
+    "B": 8388608,
+    "tail_formula": "2*A/(4*N-3)",
+    "total_error_goal": "1/1000000",
+    "reserved_tail_budget": "1/10000000",
+    "remaining_error_allowance": "9/10000000"
+  },
+  "cutoff": {
+    "N": 43980465111040000001,
+    "tail_majorant": "17592186044416/175921860444160000001",
+    "previous_tail_majorant": "17592186044416/175921860444159999997",
+    "whole_budget_N": 4398046511104000001,
+    "whole_budget_tail_majorant": "17592186044416/17592186044416000001",
+    "whole_budget_previous_tail_majorant": "17592186044416/17592186044415999997"
+  },
+  "work": {
+    "required_total_cap": 100000000,
+    "selected_loop_accumulations_only": 43980465111040000001,
+    "whole_budget_loop_accumulations_only": 4398046511104000001,
+    "selected_cap_ratio": "43980465111040000001/100000000",
+    "all_other_costs_assigned_favorable_zero": true,
+    "cap_met": false
+  },
+  "unpaid": [
+    "density quadrature and every mixed term",
+    "512-mode and 334-shift preparation",
+    "full K14 evaluation and exact projection coefficient enclosures",
+    "location uncertainties and coincident-node handling",
+    "local scalar or linear-kernel term",
+    "sweeps and elementary evaluations",
+    "rounding and cancellation",
+    "precision",
+    "byte storage"
+  ],
+  "checks": [
+    {
+      "name": "unchanged witness SHA256",
+      "passed": true
+    },
+    {
+      "name": "translation tail bound improves uniform-TV kernel bound",
+      "passed": true
+    },
+    {
+      "name": "selected cutoff is positive",
+      "passed": true
+    },
+    {
+      "name": "selected tail majorant meets reserved budget",
+      "passed": true
+    },
+    {
+      "name": "previous cutoff misses reserved majorant budget",
+      "passed": true
+    },
+    {
+      "name": "closed cutoff integer",
+      "passed": true
+    },
+    {
+      "name": "one-accumulation-per-exponential work exceeds cap",
+      "passed": true
+    },
+    {
+      "name": "whole-budget majorant meets 1e-6",
+      "passed": true
+    },
+    {
+      "name": "previous whole-budget cutoff misses majorant budget",
+      "passed": true
+    },
+    {
+      "name": "whole-budget cutoff integer",
+      "passed": true
+    },
+    {
+      "name": "whole-budget work still exceeds cap",
+      "passed": true
+    }
+  ],
+  "failed_checks": [],
+  "target_failures": [
+    "selected sufficient outer loop exceeds 1e8 before any density preparation",
+    "complete error, precision and storage ledger not obtained"
+  ],
+  "analytic_proof_verified_by_script": false,
+  "scalar_sweep_or_gram_evaluated": false
+}

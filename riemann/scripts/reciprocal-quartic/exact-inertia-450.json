@@ -1,0 +1,144 @@
+{
+  "model": "(z+4/5)(z+9/10)(1+4*z^2/5); r=3; R=1",
+  "arithmetic": "Python standard-library fractions.Fraction, exact rational",
+  "alpha": [
+    "-4/5",
+    "-9/10"
+  ],
+  "exterior_roots": "+/- i*sqrt(5)/2",
+  "G_coefficients_ascending": [
+    "18/25",
+    "17/10",
+    "197/125",
+    "34/25",
+    "4/5"
+  ],
+  "G_at_one": "1539/250",
+  "sigma": "21/20",
+  "F_disk_lower_bound": "59/500",
+  "d": [
+    "6048/625",
+    "-8343/625"
+  ],
+  "b_decomposition_A_B_D_L_t": [
+    "18/25",
+    "17/10",
+    "53/125",
+    "-34/25",
+    "4/5"
+  ],
+  "beta_all_positive": {
+    "even_2m_m_ge_1": "(53/125)*(-4/5)^m",
+    "odd_2m_plus_1_m_ge_0": "(-34/25)*(-4/5)^m"
+  },
+  "c_analytic_coefficients_ascending": [
+    "342/125",
+    "-34/25",
+    "4/5"
+  ],
+  "c_remainder_coefficients_ascending": [
+    "-6156/3125",
+    "-459/125"
+  ],
+  "c_negative_all_n_ge_1": "sum_i d_i*alpha_i^(n-1)",
+  "h_numerator_coefficients_ascending": [
+    0,
+    "848/3125",
+    "-544/625"
+  ],
+  "h_denominator_coefficients_ascending": [
+    "1",
+    "0",
+    "4/5"
+  ],
+  "h_at_nodes": [
+    "-64/125",
+    "-72/125"
+  ],
+  "K": [
+    [
+      "3152/4725",
+      "16/25"
+    ],
+    [
+      "16/25",
+      "1576/2575"
+    ]
+  ],
+  "S": [
+    [
+      "-201728/590625",
+      "-1024/3125"
+    ],
+    [
+      "-1458/3125",
+      "-143613/321875"
+    ]
+  ],
+  "E_squared_diagonal": [
+    "387072/78125",
+    "6082047/625000"
+  ],
+  "J_diagonal": [
+    "1",
+    "-1"
+  ],
+  "congruent_T": [
+    [
+      "44489/51200",
+      "16/25"
+    ],
+    [
+      "16/25",
+      "751808/1476225"
+    ]
+  ],
+  "T_determinant": "311063/9447840",
+  "T_LDL_pivots": [
+    "44489/51200",
+    "99540160/2627030961"
+  ],
+  "IminusCS": [
+    [
+      "8408421/1953125",
+      "6193152/1953125"
+    ],
+    [
+      "-12164094/1953125",
+      "-9679528/1953125"
+    ]
+  ],
+  "det_IminusCS": "-48443707368/30517578125",
+  "actual_inertia_JminusQ": {
+    "positive": 2,
+    "zero": 0,
+    "negative": 0
+  },
+  "required_index_and_nullity": {
+    "zero": 0,
+    "negative": 1
+  },
+  "adverse_index": true,
+  "checks": {
+    "distinct_simple_nonzero_negative_interior_nodes": true,
+    "G_zero_and_one_positive": true,
+    "all_polynomial_coefficients_positive": true,
+    "exterior_root_radius_exceeds_sigma": true,
+    "sigma_exceeds_one": true,
+    "F_positive_reciprocal_margin": true,
+    "P_has_exact_nodes": true,
+    "ordered_residue_signs": true,
+    "complete_b_partial_fraction_identity": true,
+    "complete_c_partial_fraction_identity": true,
+    "all_similarity_weights_positive": true,
+    "complete_series_bidisk_ratio_below_one": true,
+    "symmetric_K": true,
+    "exact_signed_row_weight": true,
+    "positive_LDL_pivots": true,
+    "determinant_orientation": true,
+    "nullity_requirement_holds": true,
+    "adverse_index_certified": true
+  },
+  "failures": [],
+  "qualification": "Finite local-premise countermodel only; no actual-Xi conclusion; proof in L783."
+}

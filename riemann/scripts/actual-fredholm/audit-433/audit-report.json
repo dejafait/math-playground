@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "checks": [
+    "Exact equality of ALL recomputed fields: evaluation",
+    "Exact equality of ALL recomputed fields: inner_contour",
+    "Exact equality of ALL recomputed fields: outer_contour",
+    "Exact equality of ALL recomputed fields: zero",
+    "Exact equality of ALL recomputed fields: norm",
+    "Unchanged exact-rational checker passed every record at fresh output path",
+    "All contour boxes, Taylor ratios, root derivative disks and DFT boxes satisfy exact rational evaluator-domain bounds",
+    "All 192 alias bounds dominate the exact rational requirement and exclude the negative mode",
+    "No exceptional Decimal flags other than expected Inexact/Rounded",
+    "Original certificate unchanged"
+  ],
+  "source_sha256": "41a07661dd67f597226e96b18ef0f2ab71c81642d8580196b90fa49896734c5b",
+  "checker_sha256": "e9305777e25c841f53c413ca08428e99ccdcd3289d46cfd6c806a8b615878734",
+  "original_sha256": "2c0aae858cc1e15b17e46dff0e1b81fa41582b4c84f5d74e3477fb72399335de",
+  "required_upper": "1",
+  "scope": "Complete same-code replay plus exact-rational saved-data checks; analytic review is in L778; backend contracts trusted, not formally verified.",
+  "context_flags": {
+    "DN": [
+      "Inexact",
+      "Rounded"
+    ],
+    "UP": [
+      "Inexact",
+      "Rounded"
+    ],
+    "RN": [
+      "Inexact",
+      "Rounded"
+    ]
+  },
+  "actual_norm": [
+    "0.842289983712912250413294695808658473846271790481566549699239546179433336335",
+    "0.842289983712969454107260030740997964832615889870340887145351394354599413654"
+  ],
+  "full_product_error": [
+    "2.86018469826674661697454931720496943871687230559240875830385674303180557650E-14",
+    "2.86018469826674661697454931720496943871687230559240875830385674303180557672E-14"
+  ],
+  "actual_counts": [
+    1,
+    1
+  ],
+  "required_counts": [
+    1,
+    1
+  ]
+}

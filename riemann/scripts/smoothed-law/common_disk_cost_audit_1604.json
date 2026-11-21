@@ -1,0 +1,292 @@
+{
+  "scope": "Exact arithmetic accompanying canonical C032x audit1604; no true-error or actual-cone bound",
+  "original_certificate": "scripts/smoothed-law/bounded_variation_effective_cost_1576.json",
+  "complete_analytic_record": "lemmas/C032x-common-disk-effective-evaluator-cost-stop.md",
+  "exact_P2_lower": "24488282430895510389434557453479034263155780276021102881008076359928349953/116284135067123023662001067101566642994810705886103536147468648448000000",
+  "cost_bounds": [
+    {
+      "epsilon": "1",
+      "strict_T_lower": "2240",
+      "strict_K_lower": "12588154880000",
+      "strict_J_lower": "10^3345066",
+      "exponent_remainder": "2"
+    },
+    {
+      "epsilon": "1/8",
+      "strict_T_lower": "17920",
+      "strict_K_lower": "51561082388480000",
+      "strict_J_lower": "10^214084266",
+      "exponent_remainder": "2"
+    }
+  ],
+  "box_floor": "3/5",
+  "required_residual_strict_upper": "1/2",
+  "checks": [
+    {
+      "name": "P2_degree32_lower",
+      "actual": "24488282430895510389434557453479034263155780276021102881008076359928349953/116284135067123023662001067101566642994810705886103536147468648448000000",
+      "required": "210",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "P2_degree32_lower_upper_bracket",
+      "actual": "24488282430895510389434557453479034263155780276021102881008076359928349953/116284135067123023662001067101566642994810705886103536147468648448000000",
+      "required": "211",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "saved_P2_lower",
+      "actual": "24488282430895510389434557453479034263155780276021102881008076359928349953/116284135067123023662001067101566642994810705886103536147468648448000000",
+      "required": "24488282430895510389434557453479034263155780276021102881008076359928349953/116284135067123023662001067101566642994810705886103536147468648448000000",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "e_cubed_lower",
+      "actual": "512/27",
+      "required": "10",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "tail_allowance_constant",
+      "actual": "2240",
+      "required": "2240",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "saved_cost_rows",
+      "actual": "2",
+      "required": "2",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:T_threshold",
+      "actual": "2240",
+      "required": "2240",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:K_threshold",
+      "actual": "12588154880000",
+      "required": "12588154880000",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:J_decimal_exponent",
+      "actual": "3345066",
+      "required": "3345066",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:J_prefactor",
+      "actual": "1404928000",
+      "required": "1",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:exponent_remainder_lower",
+      "actual": "3",
+      "required": "0",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:exponent_remainder_upper",
+      "actual": "2",
+      "required": "3",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:saved_tolerance",
+      "actual": "1",
+      "required": "1",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:saved_T",
+      "actual": "2240",
+      "required": "2240",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:saved_K",
+      "actual": "12588154880000",
+      "required": "12588154880000",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:saved_J",
+      "actual": "10^3345066",
+      "required": "10^3345066",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:saved_exponent",
+      "actual": "3345066",
+      "required": "3345066",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1:conditional_integer_T",
+      "actual": "2241",
+      "required": "2241",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:T_threshold",
+      "actual": "17920",
+      "required": "17920",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:K_threshold",
+      "actual": "51561082388480000",
+      "required": "51561082388480000",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:J_decimal_exponent",
+      "actual": "214084266",
+      "required": "214084266",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:J_prefactor",
+      "actual": "5754585088000",
+      "required": "1",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:exponent_remainder_lower",
+      "actual": "3",
+      "required": "0",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:exponent_remainder_upper",
+      "actual": "2",
+      "required": "3",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:saved_tolerance",
+      "actual": "1/8",
+      "required": "1/8",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:saved_T",
+      "actual": "17920",
+      "required": "17920",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:saved_K",
+      "actual": "51561082388480000",
+      "required": "51561082388480000",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:saved_J",
+      "actual": "10^214084266",
+      "required": "10^214084266",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:saved_exponent",
+      "actual": "214084266",
+      "required": "214084266",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "epsilon=1/8:conditional_integer_T",
+      "actual": "17921",
+      "required": "17921",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "box_identity_u_coefficient",
+      "actual": "3",
+      "required": "3",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "box_identity_x_coefficient",
+      "actual": "0",
+      "required": "0",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "box_triangle_weight",
+      "actual": "5",
+      "required": "5",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "box_sharp_A_at_u1_x_minus4over5",
+      "actual": "3/5",
+      "required": "3/5",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "box_sharp_B_at_u1_x_minus4over5",
+      "actual": "-3/5",
+      "required": "-3/5",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "box_floor_exceeds_required_residual",
+      "actual": "3/5",
+      "required": "1/2",
+      "relation": ">",
+      "passed": true
+    },
+    {
+      "name": "saved_box_floor",
+      "actual": "3/5",
+      "required": "3/5",
+      "relation": "=",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "Analytic inequalities and box admissibility require canonical proof",
+    "No actual kernel residual certified; q=0 still has residual 1",
+    "External inputs inherited, not independently verified",
+    "No large powers of ten allocated"
+  ]
+}

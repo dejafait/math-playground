@@ -1,0 +1,230 @@
+{
+  "target": "d(f)+d(g)+2 Re H(f,tau_(7ell)g)>=0 for independent complex neutral smooth f,g",
+  "parameters": {
+    "N_per_profile": 512,
+    "K": 65536,
+    "penalty": 256,
+    "tau": "1.43",
+    "fixed_finite_floor": ".2"
+  },
+  "input_checks": [
+    {
+      "path": "complete-covariance-532.npz",
+      "sha256": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "expected": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "passed": true
+    },
+    {
+      "path": "complete-residual-certificate-532.json",
+      "sha256": "551869d972416d67966319e9d99a171123096e238a08a9340f44c08e74df4c70",
+      "expected": "551869d972416d67966319e9d99a171123096e238a08a9340f44c08e74df4c70",
+      "passed": true
+    }
+  ],
+  "audit_sha256": "99efabcd92296cb5814c7ff7e18f969bfd060665ae5c80ef821c74d04e79c301",
+  "input_replay_records": [
+    {
+      "key": "m0",
+      "shape": [
+        512,
+        512
+      ],
+      "finite": true,
+      "exact_match": true,
+      "maximum_entry_difference": 0.0,
+      "frobenius_difference": 0.0
+    },
+    {
+      "key": "mc",
+      "shape": [
+        512,
+        512
+      ],
+      "finite": true,
+      "exact_match": true,
+      "maximum_entry_difference": 0.0,
+      "frobenius_difference": 0.0
+    },
+    {
+      "key": "mg",
+      "shape": [
+        512,
+        512
+      ],
+      "finite": true,
+      "exact_match": true,
+      "maximum_entry_difference": 0.0,
+      "frobenius_difference": 0.0
+    },
+    {
+      "key": "cov00",
+      "shape": [
+        512,
+        512
+      ],
+      "finite": true,
+      "exact_match": true,
+      "maximum_entry_difference": 0.0,
+      "frobenius_difference": 0.0
+    },
+    {
+      "key": "covcc",
+      "shape": [
+        512,
+        512
+      ],
+      "finite": true,
+      "exact_match": true,
+      "maximum_entry_difference": 0.0,
+      "frobenius_difference": 0.0
+    },
+    {
+      "key": "covgg",
+      "shape": [
+        512,
+        512
+      ],
+      "finite": true,
+      "exact_match": true,
+      "maximum_entry_difference": 0.0,
+      "frobenius_difference": 0.0
+    },
+    {
+      "key": "cov0c",
+      "shape": [
+        512,
+        512
+      ],
+      "finite": true,
+      "exact_match": true,
+      "maximum_entry_difference": 0.0,
+      "frobenius_difference": 0.0
+    },
+    {
+      "key": "cov0g",
+      "shape": [
+        512,
+        512
+      ],
+      "finite": true,
+      "exact_match": true,
+      "maximum_entry_difference": 0.0,
+      "frobenius_difference": 0.0
+    },
+    {
+      "key": "covcg",
+      "shape": [
+        512,
+        512
+      ],
+      "finite": true,
+      "exact_match": true,
+      "maximum_entry_difference": 0.0,
+      "frobenius_difference": 0.0
+    }
+  ],
+  "inherited_error_ledger": {
+    "analytic_head_error": 0.00018329784031033544,
+    "analytic_response_q_error": 1.8019258293352245e-07,
+    "elementary_error_per_entry": 1e-07,
+    "complete_head_error": 0.00033689784031033543,
+    "finite_covariance_factor_error": 0.001731164282631135,
+    "covariance_rounding": 1e-06,
+    "sampled_schur_error": 0.007990630255518988,
+    "factor_frobenius_norms": [
+      0.5854014139437349,
+      1.4842866856436696,
+      1.0902778648635032
+    ]
+  },
+  "mixed_error_ledger": {
+    "factor_norm_upper": 3.1599659644509077,
+    "factor_error": 0.001731164282631135,
+    "head_error": 0.00033689784031033543,
+    "covariance_arithmetic_allowance": 1e-06,
+    "actual_finite_debt": 0.007990630255518988,
+    "required_finite_debt": 0.012
+  },
+  "scalar_tail_certificate": {
+    "response_tail": {
+      "lo": "0.0625009316026630213302270305570795727417675325676969942257937",
+      "hi": "0.0625009316026630213302270305570795727417675325676969942257950"
+    },
+    "prime_tail": {
+      "lo": "0.432593542300600745984224577386454324087351990413953626026722",
+      "hi": "0.432593542300600745984224577386454324087351990413953626026745"
+    },
+    "continuous_tail": {
+      "lo": "0.000105741807543887502657353256502190010191868452613576350919156",
+      "hi": "0.000105741807543887502657353256502190010191868452613576350919159"
+    },
+    "moment_penalty_tail": {
+      "lo": "9.05354968607072387853084811474333402682115378418965395372524E-7",
+      "hi": "9.05354968607072387853084811474333402682115378418965395372654E-7"
+    },
+    "full_factor_tail": {
+      "lo": "0.495201121065776261889496814284847561172714073549642615568829",
+      "hi": "0.495201121065776261889496814284847561172714073549642615568856"
+    },
+    "required_tail_norm": ".5",
+    "prime_weight_sum": {
+      "lo": "7.65387816739906013387336236939885727011387438595618565149879",
+      "hi": "7.65387816739906013387336236939885727011387438595618565149905"
+    },
+    "response_coefficient": {
+      "lo": "0.476846833767334853031322171032925332418829786674146477249259",
+      "hi": "0.476846833767334853031322171032925332418829786674146477249283"
+    },
+    "machin_pi_interval": {
+      "lo": "3.14159265358979323846264338327950288419716939937510582097429",
+      "hi": "3.14159265358979323846264338327950288419716939937510582097557"
+    },
+    "float_pi_error": {
+      "lo": "1.2246467991473531772260659322750010582097429E-16",
+      "hi": "1.2246467991473531772260659322750010582097557E-16"
+    }
+  },
+  "full_tail_norm_upper": ".5",
+  "full_tail_debt_upper": ".175",
+  "raw_matrix_symmetry_error": 0.0,
+  "reconstruction": null,
+  "failure_direction": {
+    "locator_eigenvalue": 0.08979758300357431,
+    "exact_dyadic_check": {
+      "matrix_binary_scale": 79,
+      "vector_binary_scale": 73,
+      "exact_quadratic_integer": "4841876097231734651279693297959536386878274989373878362438796291072",
+      "exact_vector_norm_squared_integer": "89202980794122462483471521293499004513951401",
+      "exact_rayleigh_numerator": "4728394626202865870390325486288609752810815419310428088319137003",
+      "exact_rayleigh_denominator": "52656145834278575591284150478150164677533244196929977092000448512",
+      "entries_accumulated": 1048576,
+      "rational_upper": "9/100",
+      "strict_upper_check": true
+    },
+    "finite_true_rayleigh_upper": "51/500",
+    "frozen_tail_charge": "7/40",
+    "frozen_lower_comparison_rayleigh_upper": "-73/1000",
+    "frozen_lower_comparison_not_positive": true,
+    "qualification": "The exact finite Schur form differs by <.012; .09+.012-.175=-.073. This refutes only the uniform-tail lower comparison, not the true Schur residual or the original mixed form.",
+    "vector_path": "scripts/separation-seven/mixed-block-failed-direction-537.npz"
+  },
+  "full_residual_lower": null,
+  "required_full_residual_lower": "0",
+  "full_inequality_certified_under_contract": false,
+  "independent_audit_complete": false,
+  "rh_candidate": false,
+  "arithmetic_contract": "IEEE binary64 nearest basic operations and sqrt; standard dot-product gamma bounds; C744v/w analytic and arithmetic inputs",
+  "runtime": {
+    "python": "3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "numpy": "2.5.4",
+    "machine": "arm64",
+    "fegetround": 0
+  },
+  "failures": [
+    "fixed finite floor .2 did not admit a proposed Cholesky factor"
+  ],
+  "qualification": "A failed sufficient Schur certificate would not refute the form. No parameter retuning or negative smooth witness.",
+  "files": [
+    "scripts/separation-seven/mixed-block-matrices-537.npz"
+  ]
+}

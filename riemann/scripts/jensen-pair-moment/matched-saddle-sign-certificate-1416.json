@@ -1,0 +1,86 @@
+{
+  "purpose": "C020b fixed a=1,2,3,4 matched saddle families only; full quotient unpaid",
+  "method": "Exact Fraction intervals; Machin arctangent and atanh log series; square-root bracket",
+  "atan_terms": 20,
+  "log_terms": 32,
+  "outward_grid": "1/1000000000000",
+  "input_qualification": "C019z I < -19/10000 used only in partial_upper; not verified by this script",
+  "values": {
+    "sqrt2": {
+      "lo": "1414213562373/1000000000000",
+      "hi": "707106781187/500000000000"
+    },
+    "pi": {
+      "lo": "3141592653589/1000000000000",
+      "hi": "314159265359/100000000000"
+    },
+    "log2": {
+      "lo": "693147180559/1000000000000",
+      "hi": "8664339757/12500000000"
+    },
+    "z": {
+      "lo": "251327412287/250000000000",
+      "hi": "1005309649149/1000000000000"
+    },
+    "ratio3": {
+      "lo": "319887571547/200000000000",
+      "hi": "799718928869/500000000000"
+    },
+    "ratio4": {
+      "lo": "281348848799/200000000000",
+      "hi": "1406744243997/1000000000000"
+    },
+    "log_z": {
+      "lo": "264780133/50000000000",
+      "hi": "2647801331/500000000000"
+    },
+    "log_ratio3": {
+      "lo": "117413057149/250000000000",
+      "hi": "234826114299/500000000000"
+    },
+    "log_ratio4": {
+      "lo": "170638993809/500000000000",
+      "hi": "17063899381/50000000000"
+    },
+    "C2": {
+      "lo": "-449367/200000000000",
+      "hi": "-1123417/500000000000"
+    },
+    "C3": {
+      "lo": "-33041229007/1000000000000",
+      "hi": "-16520614503/500000000000"
+    },
+    "C4": {
+      "lo": "3335676701/250000000000",
+      "hi": "2668541361/200000000000"
+    },
+    "Csum": {
+      "lo": "-19700769037/1000000000000",
+      "hi": "-3940153807/200000000000"
+    },
+    "partial_upper": {
+      "lo": "-20650769037/500000000000",
+      "hi": "-41301538071/1000000000000"
+    }
+  },
+  "required": {
+    "Csum_strict_upper": "-19/1000",
+    "partial_strict_upper": "-39/1000"
+  },
+  "checks": {
+    "sqrt2_bracket_by_squares": true,
+    "a1_no_positive_count": true,
+    "a2_entry_inside_source_interval": true,
+    "a2_switch_above_source_interval": true,
+    "a3_entry_inside_source_interval": true,
+    "a3_switch_inside_source_interval": true,
+    "a4_entry_below_source_interval": true,
+    "a4_switch_inside_source_interval": true,
+    "C2_negative": true,
+    "C3_negative": true,
+    "C4_above_13_over_1000": true,
+    "Csum_below_minus_19_over_1000": true,
+    "partial_upper_below_minus_39_over_1000": true
+  },
+  "failures": []
+}

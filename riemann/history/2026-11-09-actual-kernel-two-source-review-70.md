@@ -1,0 +1,3 @@
+# Actual-kernel constant2: source comparison
+
+9 November2026, step70, literature only. The [completed assessment](../drafts/literature/2026-11-09-actual-kernel-two-bound-scope-69.md) finds adequate SPECIALIZE coverage: Csordas v2 Theorem4.1(v), L605's exact coordinates and L826(8)'s independently audited endpoint input. This changes the route from an uncovered maximum estimate to reuse of existing results. No new mathematical bound was derived or claimed as a discovery. L944's coarse-enclosure failure remains intact; density-error propagation and crossing signs remain open. Next: the same exact target, with separate approval of the completed assessment before applicability work. All existing unfinished changes were preserved.

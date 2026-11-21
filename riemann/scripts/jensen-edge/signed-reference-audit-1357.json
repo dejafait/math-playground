@@ -1,0 +1,5266 @@
+{
+  "summary": {
+    "audit_checks": 1304,
+    "retained_terms_checked": 606,
+    "all_checks_passed": true,
+    "actual_widths_strictly_below": "1/1000000000000",
+    "required_width": "1/1000000",
+    "gamma_and_Airy_tail_threshold": "1/10^60",
+    "enclosure_failures": [],
+    "rejected_target": "Opposite signs at x=1 and x=4; both are negative.",
+    "source_sha256": "a44707eebebd2194531f68993719e76a728cc09a4e0bbc8da5b2f84a44dc2c86"
+  },
+  "reference_checks": {
+    "1": {
+      "independent_reference": [
+        "-32000998453189723925148122329192524170298082808834881522711/125000000000000000000000000000000000000000000000000000000000",
+        "-64001996906379447846808766328510133617486376604231929037493/250000000000000000000000000000000000000000000000000000000000"
+      ],
+      "original_width": "3487478329874914723109789013437834007967/250000000000000000000000000000000000000000000000000000000000",
+      "coarse": [
+        "-257/1000",
+        "-32/125"
+      ]
+    },
+    "2": {
+      "independent_reference": [
+        "225960892712068554067304849204710154188222323121307273322851/500000000000000000000000000000000000000000000000000000000000",
+        "90384357084827421629204531525494303702683397736182572724297/200000000000000000000000000000000000000000000000000000000000"
+      ],
+      "original_width": "11412959218051210136972342438298317212183/1000000000000000000000000000000000000000000000000000000000000",
+      "coarse": [
+        "451/1000",
+        "113/250"
+      ]
+    },
+    "4": {
+      "independent_reference": [
+        "-90369521683542980288364175551588553478355547303708251935699/250000000000000000000000000000000000000000000000000000000000",
+        "-18073904336708596057029486085384677608313688920657503402109/50000000000000000000000000000000000000000000000000000000000"
+      ],
+      "original_width": "12866980498660661747148410806788112079789/1000000000000000000000000000000000000000000000000000000000000",
+      "coarse": [
+        "-181/500",
+        "-361/1000"
+      ]
+    }
+  },
+  "checks": [
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "Machin rational tangent identity",
+      "passed": true
+    },
+    {
+      "claim": "Machin positive angle below 4/5",
+      "passed": true
+    },
+    {
+      "claim": "pi enclosure contains exact arctangent bounds",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "cube root 3 endpoints",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "cube root 4 endpoints",
+      "passed": true
+    },
+    {
+      "claim": "gamma 0 parameters",
+      "passed": true
+    },
+    {
+      "claim": "gamma 0 full Taylor sum and error",
+      "passed": true
+    },
+    {
+      "claim": "gamma 0 positive tail",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "gamma 0 enclosure and error threshold",
+      "passed": true
+    },
+    {
+      "claim": "gamma 1 parameters",
+      "passed": true
+    },
+    {
+      "claim": "gamma 1 full Taylor sum and error",
+      "passed": true
+    },
+    {
+      "claim": "gamma 1 positive tail",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "gamma 1 enclosure and error threshold",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "reciprocal avoids zero",
+      "passed": true
+    },
+    {
+      "claim": "Ai(0) exact formula",
+      "passed": true
+    },
+    {
+      "claim": "reciprocal avoids zero",
+      "passed": true
+    },
+    {
+      "claim": "Ai prime(0) exact formula",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "reciprocal avoids zero",
+      "passed": true
+    },
+    {
+      "claim": "beta exact formula",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1 argument and range",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0 parameters",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=0 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=1 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=2 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=3 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=4 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=5 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=6 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=7 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=8 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=9 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=10 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=11 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=12 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=13 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=14 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=15 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=16 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=17 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=18 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=19 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=20 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=21 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=22 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=23 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=24 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=25 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=26 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=27 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=28 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=29 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=30 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=31 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=32 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=33 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=34 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=35 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=36 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=37 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=38 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=39 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=40 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=41 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=42 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=43 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=44 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=45 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=46 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=47 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=48 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=49 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=50 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=51 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=52 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=53 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=54 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=55 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=56 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=57 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=58 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=59 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=60 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=61 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=62 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=63 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=64 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=65 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=66 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=67 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=68 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=69 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=70 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=71 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=72 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=73 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=74 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=75 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=76 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=77 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=78 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=79 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=80 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=81 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=82 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=83 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=84 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=85 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=86 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=87 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=88 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=89 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=90 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=91 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=92 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=93 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=94 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=95 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=96 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=97 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=98 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=99 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0,k=100 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0 partial sum",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0 complete geometric tail",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=0 full basis",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1 parameters",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=0 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=1 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=2 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=3 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=4 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=5 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=6 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=7 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=8 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=9 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=10 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=11 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=12 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=13 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=14 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=15 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=16 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=17 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=18 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=19 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=20 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=21 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=22 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=23 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=24 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=25 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=26 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=27 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=28 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=29 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=30 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=31 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=32 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=33 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=34 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=35 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=36 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=37 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=38 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=39 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=40 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=41 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=42 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=43 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=44 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=45 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=46 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=47 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=48 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=49 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=50 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=51 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=52 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=53 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=54 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=55 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=56 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=57 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=58 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=59 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=60 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=61 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=62 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=63 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=64 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=65 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=66 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=67 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=68 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=69 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=70 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=71 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=72 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=73 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=74 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=75 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=76 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=77 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=78 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=79 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=80 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=81 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=82 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=83 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=84 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=85 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=86 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=87 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=88 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=89 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=90 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=91 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=92 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=93 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=94 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=95 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=96 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=97 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=98 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=99 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1,k=100 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1 partial sum",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1 complete geometric tail",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1,j=1 full basis",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1 Ai and reference inclusions",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=1 coarse inclusion",
+      "passed": true
+    },
+    {
+      "claim": "x=1 width thresholds",
+      "passed": true
+    },
+    {
+      "claim": "x=1 sign",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2 argument and range",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0 parameters",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=0 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=1 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=2 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=3 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=4 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=5 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=6 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=7 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=8 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=9 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=10 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=11 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=12 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=13 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=14 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=15 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=16 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=17 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=18 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=19 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=20 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=21 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=22 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=23 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=24 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=25 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=26 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=27 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=28 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=29 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=30 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=31 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=32 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=33 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=34 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=35 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=36 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=37 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=38 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=39 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=40 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=41 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=42 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=43 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=44 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=45 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=46 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=47 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=48 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=49 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=50 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=51 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=52 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=53 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=54 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=55 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=56 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=57 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=58 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=59 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=60 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=61 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=62 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=63 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=64 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=65 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=66 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=67 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=68 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=69 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=70 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=71 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=72 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=73 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=74 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=75 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=76 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=77 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=78 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=79 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=80 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=81 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=82 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=83 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=84 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=85 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=86 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=87 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=88 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=89 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=90 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=91 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=92 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=93 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=94 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=95 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=96 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=97 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=98 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=99 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0,k=100 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0 partial sum",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0 complete geometric tail",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=0 full basis",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1 parameters",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=0 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=1 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=2 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=3 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=4 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=5 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=6 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=7 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=8 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=9 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=10 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=11 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=12 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=13 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=14 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=15 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=16 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=17 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=18 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=19 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=20 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=21 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=22 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=23 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=24 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=25 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=26 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=27 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=28 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=29 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=30 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=31 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=32 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=33 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=34 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=35 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=36 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=37 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=38 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=39 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=40 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=41 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=42 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=43 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=44 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=45 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=46 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=47 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=48 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=49 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=50 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=51 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=52 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=53 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=54 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=55 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=56 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=57 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=58 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=59 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=60 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=61 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=62 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=63 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=64 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=65 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=66 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=67 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=68 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=69 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=70 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=71 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=72 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=73 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=74 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=75 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=76 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=77 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=78 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=79 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=80 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=81 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=82 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=83 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=84 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=85 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=86 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=87 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=88 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=89 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=90 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=91 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=92 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=93 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=94 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=95 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=96 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=97 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=98 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=99 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1,k=100 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1 partial sum",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1 complete geometric tail",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2,j=1 full basis",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2 Ai and reference inclusions",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=2 coarse inclusion",
+      "passed": true
+    },
+    {
+      "claim": "x=2 width thresholds",
+      "passed": true
+    },
+    {
+      "claim": "x=2 sign",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4 argument and range",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0 parameters",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=0 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=1 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=2 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=3 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=4 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=5 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=6 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=7 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=8 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=9 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=10 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=11 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=12 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=13 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=14 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=15 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=16 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=17 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=18 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=19 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=20 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=21 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=22 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=23 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=24 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=25 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=26 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=27 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=28 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=29 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=30 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=31 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=32 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=33 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=34 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=35 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=36 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=37 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=38 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=39 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=40 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=41 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=42 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=43 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=44 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=45 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=46 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=47 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=48 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=49 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=50 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=51 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=52 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=53 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=54 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=55 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=56 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=57 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=58 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=59 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=60 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=61 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=62 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=63 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=64 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=65 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=66 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=67 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=68 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=69 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=70 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=71 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=72 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=73 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=74 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=75 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=76 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=77 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=78 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=79 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=80 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=81 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=82 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=83 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=84 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=85 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=86 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=87 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=88 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=89 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=90 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=91 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=92 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=93 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=94 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=95 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=96 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=97 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=98 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=99 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0,k=100 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0 partial sum",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0 complete geometric tail",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=0 full basis",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1 parameters",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=0 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=1 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=2 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=3 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=4 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=5 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=6 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=7 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=8 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=9 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=10 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=11 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=12 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=13 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=14 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=15 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=16 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=17 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=18 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=19 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=20 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=21 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=22 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=23 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=24 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=25 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=26 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=27 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=28 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=29 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=30 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=31 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=32 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=33 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=34 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=35 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=36 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=37 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=38 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=39 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=40 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=41 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=42 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=43 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=44 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=45 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=46 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=47 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=48 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=49 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=50 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=51 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=52 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=53 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=54 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=55 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=56 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=57 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=58 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=59 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=60 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=61 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=62 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=63 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=64 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=65 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=66 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=67 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=68 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=69 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=70 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=71 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=72 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=73 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=74 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=75 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=76 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=77 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=78 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=79 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=80 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=81 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=82 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=83 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=84 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=85 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=86 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=87 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=88 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=89 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=90 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=91 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=92 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=93 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=94 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=95 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=96 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=97 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=98 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=99 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1,k=100 closed-form term",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1 partial sum",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1 complete geometric tail",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4,j=1 full basis",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4 Ai and reference inclusions",
+      "passed": true
+    },
+    {
+      "claim": "ordered interval",
+      "passed": true
+    },
+    {
+      "claim": "x=4 coarse inclusion",
+      "passed": true
+    },
+    {
+      "claim": "x=4 width thresholds",
+      "passed": true
+    },
+    {
+      "claim": "x=4 sign",
+      "passed": true
+    },
+    {
+      "claim": "all 606 retained terms checked",
+      "passed": true
+    },
+    {
+      "claim": "replay byte identity",
+      "passed": true
+    }
+  ]
+}

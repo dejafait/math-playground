@@ -1,0 +1,118 @@
+{
+  "step": 138,
+  "scope": "Exact constants only; analytic limits and profile selection are proved in L702.",
+  "log_bounds": {
+    "log_5": {
+      "argument": "5/1",
+      "z": "2/3",
+      "terms": 12,
+      "lower": "5633730525313887572/3500445325906443915",
+      "upper": "140843762183149595956/87511133147661097875",
+      "tail_upper": "67108864/11767897353375",
+      "strict": true
+    },
+    "log_121_over_41": {
+      "argument": "121/41",
+      "z": "40/81",
+      "terms": 12,
+      "lower": "632171356763015842631638860145687960409278174549520/584143932498038453048032251602168760149193832910589",
+      "upper": "285109282509041942724453674994505270144584456721833520/263448913556615342324662545472578110827286418642675639",
+      "tail_upper": "900719925474099200000000000000000000000/389694845351548272103625006061156399005510656401",
+      "strict": true
+    }
+  },
+  "omega_bounds": {
+    "lower": "3094381085560033439836673138485211839663750466552558/540874011572257826896326158890897000138142437880175",
+    "upper": "3171749153088868509716866991010274956019894387403946734/554395861861564272568734312863169425141595998827179375",
+    "required_lower": "11/2",
+    "required_upper": "6/1"
+  },
+  "checks": [
+    {
+      "name": "frequency_lower",
+      "actual": "3094381085560033439836673138485211839663750466552558/540874011572257826896326158890897000138142437880175",
+      "relation": ">",
+      "required": "11/2",
+      "passed": true
+    },
+    {
+      "name": "frequency_upper",
+      "actual": "3171749153088868509716866991010274956019894387403946734/554395861861564272568734312863169425141595998827179375",
+      "relation": "<",
+      "required": "6/1",
+      "passed": true
+    },
+    {
+      "name": "seven_pi_over_four_upper_uses_pi_lt_22_over_7",
+      "actual": "11/2",
+      "relation": "==",
+      "required": "11/2",
+      "passed": true
+    },
+    {
+      "name": "two_pi_lower_uses_pi_gt_3",
+      "actual": "6/1",
+      "relation": "==",
+      "required": "6/1",
+      "passed": true
+    },
+    {
+      "name": "positive_factor_numerator",
+      "actual": "25/64",
+      "relation": "==",
+      "required": "25/64",
+      "passed": true
+    },
+    {
+      "name": "beta_minus_alpha_lower",
+      "actual": "20/121",
+      "relation": "==",
+      "required": "20/121",
+      "passed": true
+    },
+    {
+      "name": "beta_square_minus_alpha_square_lower",
+      "actual": "16/121",
+      "relation": "==",
+      "required": "16/121",
+      "passed": true
+    },
+    {
+      "name": "factor_square_denominator_upper",
+      "actual": "106/25",
+      "relation": "==",
+      "required": "106/25",
+      "passed": true
+    },
+    {
+      "name": "factor_square_loss",
+      "actual": "32/6413",
+      "relation": "==",
+      "required": "32/6413",
+      "passed": true
+    },
+    {
+      "name": "product_decay_rate",
+      "actual": "16/6413",
+      "relation": "==",
+      "required": "16/6413",
+      "passed": true
+    },
+    {
+      "name": "uniform_real_kernel_derivative_upper",
+      "actual": "3078/205",
+      "relation": "<",
+      "required": "16/1",
+      "passed": true
+    },
+    {
+      "name": "actual_outer_endpoint_at_n_63",
+      "actual": "45/112",
+      "relation": ">",
+      "required": "2/5",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

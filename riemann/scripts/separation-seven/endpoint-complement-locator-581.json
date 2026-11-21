@@ -1,0 +1,51 @@
+{
+  "certified": false,
+  "outcome": "EXPLORATION",
+  "target": "Test whether F(0,y)>=||y||_tail^2/4 fails on exactly neutral endpoint free modes512:1023, retaining signed U and the complete unchanged reference-inverse correction.",
+  "free_support": [
+    512,
+    1023
+  ],
+  "physical_support": [
+    0,
+    1,
+    "512:1023"
+  ],
+  "trial_support": [
+    0,
+    1023
+  ],
+  "denominator": 1099511627776,
+  "remote_powers": 334,
+  "imaginary_free_and_trial_coordinates": "exactly zero; independent real endpoints, no reflection constraint",
+  "diagnostic": {
+    "weighted_minimum": -0.12214522719187425,
+    "weighted_maximum": 1.3532550505747671,
+    "tail_norm_squared": 1.000000000002181,
+    "endpoint_energy": 0.7195864717761422,
+    "finite_trial_reference_energy": 0.5917316989682403,
+    "finite_trial_pairing": 0.5917316989679889,
+    "inverse_pairing_lower_quotient_center": 0.5917316989677376,
+    "difference_upper_expression_center": -0.1221452271921406,
+    "difference_required_certified_upper_strictly_below": 0,
+    "entry_adjoint_discrepancy": 0.0,
+    "free_nonzero_count": 1024,
+    "trial_nonzero_count": 1024
+  },
+  "failures": [
+    "All changed-range entry and arithmetic enclosures unpaid",
+    "Exact moment ratios are defined algebraically; saved centers are not exact neutral coefficients",
+    "Finite variational directions give no upper bound for the inverse; positive samples cannot prove F>=tail/4",
+    "Library eigenvalue/solve results are locators, not certified spectral or sign evidence"
+  ],
+  "input_hashes": {
+    "residual-certificate-532.py": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5",
+    "complete-covariance-532.npz": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+    "response-prefix-stop-546.json": "3b577968bea69a054f5d359c875e7a3def42d3ad87018dc5586c983dc7cb14ff"
+  },
+  "archive": {
+    "path": "scripts/separation-seven/endpoint-complement-locator-581.npz",
+    "sha256": "de0861f32c59111424bbd2e811f6f472da05ef0be823057f0337a88544c426d4"
+  },
+  "script_sha256": "afe6b16aedf3b63e198f151850370478b58c745d321be6abb14aed201fe1e441"
+}

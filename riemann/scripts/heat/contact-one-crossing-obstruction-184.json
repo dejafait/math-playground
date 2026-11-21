@@ -1,0 +1,182 @@
+{
+  "scope": "Exact derivative and rational bounds for L915; no actual contact or flux sign is certified.",
+  "variables": "Coefficient arrays are in increasing powers of v=pi*n^2 at u=0.",
+  "source_input_not_checked_by_script": "Csordas arXiv:1309.0055v2, (4.2), Theorems4.1 and4.2(b), pp10-11.",
+  "analytic_inputs_not_checked_by_script": [
+    "3<pi<4; exp(1)<3; local uniform termwise differentiation.",
+    "Evenness at zero; log-concavity in the square variable.",
+    "Whole theta-series geometric majorization; L874 endpoint and integrability bounds.",
+    "Zero mean and zero dilation expectation; the conditional strict-crossing contradiction."
+  ],
+  "kernel_polynomial": [
+    "0",
+    "-12",
+    "8"
+  ],
+  "first_derivative_polynomial": [
+    "0",
+    "-30",
+    "60",
+    "-16"
+  ],
+  "second_derivative_polynomial": [
+    "0",
+    "-75",
+    "330",
+    "-224",
+    "32"
+  ],
+  "origin_polynomial": [
+    "0",
+    "-99",
+    "346",
+    "-224",
+    "32"
+  ],
+  "checks": [
+    {
+      "name": "second_derivative_coefficients",
+      "passed": true,
+      "actual": [
+        "0",
+        "-75",
+        "330",
+        "-224",
+        "32"
+      ],
+      "required": [
+        "0",
+        "-75",
+        "330",
+        "-224",
+        "32"
+      ]
+    },
+    {
+      "name": "K_second_plus_two_K_coefficients",
+      "passed": true,
+      "actual": [
+        "0",
+        "-99",
+        "346",
+        "-224",
+        "32"
+      ],
+      "required": [
+        "0",
+        "-99",
+        "346",
+        "-224",
+        "32"
+      ]
+    },
+    {
+      "name": "cubic_second_derivative",
+      "passed": true,
+      "actual": [
+        "-448",
+        "192"
+      ],
+      "required": [
+        "-448",
+        "192"
+      ]
+    },
+    {
+      "name": "cubic_at_three",
+      "passed": true,
+      "actual": "-213",
+      "required": "-213"
+    },
+    {
+      "name": "cubic_at_four",
+      "passed": true,
+      "actual": "-251",
+      "required": "-251"
+    },
+    {
+      "name": "cubic_convexity_lower_bound",
+      "passed": true,
+      "actual": "128",
+      "relation": ">",
+      "required": "0"
+    },
+    {
+      "name": "exp_three_positive_series_through_degree_eight",
+      "passed": true,
+      "actual": "89641/4480",
+      "relation": ">",
+      "required": "20"
+    },
+    {
+      "name": "tail_n_two_coefficient",
+      "passed": true,
+      "actual": "713376",
+      "required": "713376"
+    },
+    {
+      "name": "geometric_ratio",
+      "passed": true,
+      "actual": "6561/819200000",
+      "relation": "<",
+      "required": "1/10"
+    },
+    {
+      "name": "entire_theta_tail",
+      "passed": true,
+      "actual": "2477/500",
+      "relation": "<",
+      "required": "5"
+    },
+    {
+      "name": "coarse_total_upper",
+      "passed": true,
+      "actual": "-26/9",
+      "required": "-26/9"
+    },
+    {
+      "name": "origin_curvature_sign",
+      "passed": true,
+      "actual": "-26/9",
+      "relation": "<",
+      "required": "0"
+    },
+    {
+      "name": "tilted_log_slope_upper",
+      "passed": true,
+      "actual": "-19/20",
+      "required": "-19/20"
+    },
+    {
+      "name": "dilation_score_derivative_upper",
+      "passed": true,
+      "actual": "-19/10",
+      "required": "-19/10"
+    },
+    {
+      "name": "support_leading_sign_full_degree",
+      "passed": true,
+      "actual": "-1/79833600",
+      "required": "-1/79833600"
+    }
+  ],
+  "bounds": {
+    "first_term_upper": "-71/9",
+    "tail_upper": "2477/500",
+    "tail_required": "5",
+    "origin_total_upper": "-26/9",
+    "origin_required": "0",
+    "tilted_log_slope_upper": "-19/20",
+    "score_derivative_upper": "-19/10",
+    "conditional_minimum_strict_crossings": 2,
+    "proposed_crossings": 1
+  },
+  "summary": {
+    "checks": 15,
+    "passed": 15,
+    "failures": [],
+    "actual_contact_established": false,
+    "contact_flux_sign_established": false,
+    "source_and_analytic_proof_audited_by_script": false
+  }
+}

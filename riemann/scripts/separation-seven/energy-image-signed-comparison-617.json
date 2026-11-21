@@ -1,0 +1,217 @@
+{
+  "certified_under_inherited_contracts": true,
+  "independently_audited": false,
+  "task": "fixed witness transfer for B-B M_ref B",
+  "checks": [
+    {
+      "name": "certificate frozen archive pin",
+      "actual": "de0861f32c59111424bbd2e811f6f472da05ef0be823057f0337a88544c426d4",
+      "relation": "==",
+      "required": "de0861f32c59111424bbd2e811f6f472da05ef0be823057f0337a88544c426d4",
+      "passed": true
+    },
+    {
+      "name": "locator frozen archive pin",
+      "actual": "de0861f32c59111424bbd2e811f6f472da05ef0be823057f0337a88544c426d4",
+      "relation": "==",
+      "required": "de0861f32c59111424bbd2e811f6f472da05ef0be823057f0337a88544c426d4",
+      "passed": true
+    },
+    {
+      "name": "certificate generator pin",
+      "actual": "dee3e3df49ade5393de9c6839bface732be10e23cceafb779bb333dca6cc5906",
+      "relation": "==",
+      "required": "dee3e3df49ade5393de9c6839bface732be10e23cceafb779bb333dca6cc5906",
+      "passed": true
+    },
+    {
+      "name": "locator generator pin",
+      "actual": "afe6b16aedf3b63e198f151850370478b58c745d321be6abb14aed201fe1e441",
+      "relation": "==",
+      "required": "afe6b16aedf3b63e198f151850370478b58c745d321be6abb14aed201fe1e441",
+      "passed": true
+    },
+    {
+      "name": "unchanged original input residual-certificate-532.py",
+      "actual": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5",
+      "relation": "==",
+      "required": "493f9bbb86f29e73ef430ca8f2b004e1293887442d40b4284b611d72edc051a5",
+      "passed": true
+    },
+    {
+      "name": "unchanged original input complete-covariance-532.npz",
+      "actual": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "relation": "==",
+      "required": "33dbfa73fec9980e5d51d5142d2c167421bbbcebb6ed2a2b4edd3a864bfda402",
+      "passed": true
+    },
+    {
+      "name": "unchanged original input response-prefix-stop-546.json",
+      "actual": "3b577968bea69a054f5d359c875e7a3def42d3ad87018dc5586c983dc7cb14ff",
+      "relation": "==",
+      "required": "3b577968bea69a054f5d359c875e7a3def42d3ad87018dc5586c983dc7cb14ff",
+      "passed": true
+    },
+    {
+      "name": "imported certificate failures",
+      "actual": "[]",
+      "relation": "==",
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "all imported certificate checks",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "imported audit passed",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "imported audit failures",
+      "actual": "[]",
+      "relation": "==",
+      "required": "[]",
+      "passed": true
+    },
+    {
+      "name": "all imported audit checks",
+      "actual": "True",
+      "relation": "==",
+      "required": "True",
+      "passed": true
+    },
+    {
+      "name": "frozen free shape",
+      "actual": "(1024,)",
+      "relation": "==",
+      "required": "(1024,)",
+      "passed": true
+    },
+    {
+      "name": "diagonal shape",
+      "actual": "(1024,)",
+      "relation": "==",
+      "required": "(1024,)",
+      "passed": true
+    },
+    {
+      "name": "full frozen free L1 f",
+      "actual": "396235682685/274877906944",
+      "relation": "<",
+      "required": "721/500",
+      "passed": true
+    },
+    {
+      "name": "full frozen free L1 h",
+      "actual": "792472648039/549755813888",
+      "relation": "<",
+      "required": "721/500",
+      "passed": true
+    },
+    {
+      "name": "full frozen free L2 squared",
+      "actual": "92476315127417267050871/604462909807314587353088",
+      "relation": "<",
+      "required": "1/5",
+      "passed": true
+    },
+    {
+      "name": "complete high diagonal upper",
+      "actual": "4810792217923895789/703687441776640000",
+      "relation": "<",
+      "required": "8",
+      "passed": true
+    },
+    {
+      "name": "both low diagonal absolute bounds",
+      "actual": "3780394170756537039/703687441776640000",
+      "relation": "<",
+      "required": "401",
+      "passed": true
+    },
+    {
+      "name": "entire frozen tail diagonal energy upper",
+      "actual": "425359472399986197731236719895278762869719/425352958651173079329218259289710264320000",
+      "relation": "<",
+      "required": "1001/1000",
+      "passed": true
+    },
+    {
+      "name": "imported weighted norm lower",
+      "actual": "100000000000218073839179168611364927567633821949831962699079/100000000000000000000000000000000000000000000000000000000000",
+      "relation": ">",
+      "required": "1",
+      "passed": true
+    },
+    {
+      "name": "imported endpoint energy upper",
+      "actual": "22617079583384110635162324766768711188605869033667548768009/31250000000000000000000000000000000000000000000000000000000",
+      "relation": "<",
+      "required": "723746547/1000000000",
+      "passed": true
+    },
+    {
+      "name": "imported full inverse pairing lower",
+      "actual": "295858450034934847057223980584148520440751333166895531522087/500000000000000000000000000000000000000000000000000000000000",
+      "relation": ">",
+      "required": "5917169/10000000",
+      "passed": true
+    },
+    {
+      "name": "physical pair norm squared <1/4",
+      "actual": "1444942426152179694048673839/9444732965739290427392000000",
+      "relation": "<",
+      "required": "1/4",
+      "passed": true
+    },
+    {
+      "name": "full transferred pair error squared",
+      "actual": "229249881/2147483648000000",
+      "relation": "<",
+      "required": "1/6250000",
+      "passed": true
+    },
+    {
+      "name": "full M_ref norm upper",
+      "actual": "251841/1000",
+      "relation": "<",
+      "required": "252",
+      "passed": true
+    },
+    {
+      "name": "strict negative signed comparison",
+      "actual": "-71572923236209923/268435456000000000",
+      "relation": "<",
+      "required": "-133/500",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "input_pins": {
+    "endpoint-complement-locator-581.npz": "de0861f32c59111424bbd2e811f6f472da05ef0be823057f0337a88544c426d4",
+    "endpoint-complement-certificate-581.json": "3597d74f2dc8cf36a320e94635bed496e0422df09c2ef85f0766a2d049259d0e",
+    "endpoint-complement-locator-581.json": "faa561f51031ec37c2177ac2802340ef38db562de40813d11818d94797947e8c",
+    "endpoint-quarter-audit-583.json": "d854aa1eab06cb6ee5195183c4c77210769f9e10d3188b4401efb9c7592adb0c"
+  },
+  "exact_values": {
+    "low_physical_norm_upper": "721/65536000",
+    "low_preimage_norm_upper": "721/16384000",
+    "transferred_pair_error_upper": "1/2500",
+    "reference_form_upper": "13435195092641/26843545600000",
+    "original_signed_debt_lower": "232993991445005843/268435456000000000",
+    "full_output_debt_perturbation": "157563/1562500",
+    "signed_comparison_upper": "-71572923236209923/268435456000000000",
+    "tail_diagonal_energy_upper": "425359472399986197731236719895278762869719/425352958651173079329218259289710264320000"
+  },
+  "actual_upper": "-71572923236209923/268435456000000000",
+  "required_upper_strictly_below": "0",
+  "limitation": "Stops only the sufficient signed reference comparison; no actual S3 negative direction or RH conclusion. Inherits C999n/t analytic, IEEE754/Decimal, core and c_* contracts.",
+  "script_sha256": "6b913cc5569f384cff276c8f7c149508abd021b1a5ba71dcf6ef1cc81423ceac"
+}

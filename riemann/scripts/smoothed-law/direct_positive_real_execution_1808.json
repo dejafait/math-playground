@@ -1,0 +1,1033 @@
+{
+  "status": "INPUT_MOMENT_PREFIX_COMPLETE_SCALARS_NOT_EXECUTED",
+  "target": "C033y/C033z eight scalar execution",
+  "assessment": "drafts/literature/2026-11-19-direct-positive-real-scalar-execution-review-1806.md",
+  "arithmetic": "Python fractions.Fraction, exact rational operations only",
+  "time_limit_seconds": 180,
+  "prescribed_complete_operation_upper": 989767,
+  "required_operation_cap": 1000000,
+  "actual_complete_operation_count_verified": false,
+  "required_scalar_radius": "1/256",
+  "analytic_allowance": "25/16384",
+  "reserved_exponent_arithmetic_allowance": "1/1024",
+  "reserved_final_exponential_allowance": "1/1024",
+  "scalars_evaluated": 0,
+  "profiles_evaluated": 0,
+  "gaussian_inputs_completed": 48,
+  "moments_completed": 29,
+  "artifacts": [
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/reference_rules.json",
+      "bytes": 41708,
+      "sha256": "66e51c3c79eba5b78c856a85a6d03eb68dc4bc9bb303cf141f687800eac14870"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/inner_nodes.json",
+      "bytes": 56504,
+      "sha256": "86120ba586f663f736e4170f3acc836a7ca102b129fd1b1756a05b16e9d994b5"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_00.json",
+      "bytes": 118904,
+      "sha256": "a29a42e8be69427fba2cba33e0ee773a6d7ab60eae8f44de1c278ca577c8edbb"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_01.json",
+      "bytes": 118861,
+      "sha256": "69893d06fc8263f68c9387b2935177651210d72d8a49b4252d04e4b98b34db7a"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_02.json",
+      "bytes": 119148,
+      "sha256": "03360f24242eeb4327f3d7e3fdc9184e3bde59730dd6253fba1016f7a464db0c"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_03.json",
+      "bytes": 119135,
+      "sha256": "a8651bf04aa2fc050cdddee25be679b4ecee4e49723cd0c480cc651ab3e860b1"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_04.json",
+      "bytes": 118981,
+      "sha256": "c9ef4f015e3f0e089a1a8297d51ee988896ada1b5600c29a970d1899ebc980af"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_05.json",
+      "bytes": 118764,
+      "sha256": "791ed7396c699bfacca8b886f9616c472f9b248fb7def998b448d8785e5fa04c"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_06.json",
+      "bytes": 119178,
+      "sha256": "42d1ed4377826c15f0bb1f86beb83d142047676631baf09c065918a09ea26272"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_07.json",
+      "bytes": 119159,
+      "sha256": "4d9fa867364ebfb6b7576472985c405973e90bb3988d8fa0c4d2651b49554963"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_08.json",
+      "bytes": 118863,
+      "sha256": "ff96b0021e2fdcf6f06a103ab9b281b62bc755e54f69680ec0367edce5180eac"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_09.json",
+      "bytes": 118857,
+      "sha256": "cb7f767c8392140bd817275b92a7832afc4b72ca8c59bf6f1d5d69827b6791dc"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_10.json",
+      "bytes": 119047,
+      "sha256": "b2a56707478299f26209f4d81be094cedd4b1dcd1afeca167d89739df126c166"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_11.json",
+      "bytes": 118984,
+      "sha256": "e4e7c29b17a8f076b13b8de7b42c378dacd1e30dcaafe12db12b6b30d2150418"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_12.json",
+      "bytes": 119173,
+      "sha256": "52f4c106ed93102a31a01a42852b1c8efccabe29c012a9b23a7afaa7a5c5395c"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_13.json",
+      "bytes": 119168,
+      "sha256": "2206217691e7644a700d2311a62abd6b248af9f3386ffebfc9bec308dd9f10de"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_14.json",
+      "bytes": 119034,
+      "sha256": "2b76b5c811aa466a6dba7ccf47deaa494974b3a9b4d7f3f19b8959e53dcc0986"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_15.json",
+      "bytes": 119150,
+      "sha256": "74b940c1d8fb03228a02bb0774b42c081abbaa8f836414b0f302920b4076b1e7"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_16.json",
+      "bytes": 119181,
+      "sha256": "d7147a92b66d85d2af5b77dcef4de72fb377d72e8d2359589a3a05de6c891077"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_17.json",
+      "bytes": 119199,
+      "sha256": "eaa9cb22809fdce3285e629260d3e0c2a4493328dd680fdc124d5bda6d1d9a00"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_18.json",
+      "bytes": 119124,
+      "sha256": "added76321012ef03b87b3ed1195576578e7c5f2aded7ae030e5cc1b8782ec2e"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_19.json",
+      "bytes": 119157,
+      "sha256": "7d8d569a2e1778faf2d238ab66141715e9b57abbe92d0ecb91d4e54774d452d2"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_20.json",
+      "bytes": 119006,
+      "sha256": "ffe3fd1dd4a3e46534bf651517d08819b65b04927e9f4f2350ccd8ba0a2abdf8"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_21.json",
+      "bytes": 119155,
+      "sha256": "82fbcac6823041409894db3204cc6053d5cea71122899ce92443d0dd4cb8b13c"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_22.json",
+      "bytes": 119207,
+      "sha256": "e7c069cc0cef2c6e24035ce4be16ac08131966061ddf63c155d0dae39b8916ec"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_23.json",
+      "bytes": 119212,
+      "sha256": "33c1a5dcc8e63188671f05d4db0cc8c890489ed74d88dcf435b8d22c9aef3478"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_24.json",
+      "bytes": 118833,
+      "sha256": "6ef1c086dec2097f1d00ea2b3b7e2d2692695e3b5de3e558cfbbf720604e6360"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_25.json",
+      "bytes": 118857,
+      "sha256": "d6ae62d1b3f9a7e54664e4e3ea6670f51bc0aa1933894c00ee64cda676b03b5d"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_26.json",
+      "bytes": 118981,
+      "sha256": "9996845ae412809cdf32dc0cb6fa97a94ec911b1d09bfcab2bb4633f637e9ca3"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_27.json",
+      "bytes": 118981,
+      "sha256": "2922a00a2e455844de132ee4eebc7cf07bd646a241b0499d293caa6d9621876a"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_28.json",
+      "bytes": 119005,
+      "sha256": "7b31287fdb6c522197c36f45d4f85f9e969a9104fc12bae651881805e0d74dd3"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_29.json",
+      "bytes": 119049,
+      "sha256": "28d3a5ced7a3c8bb298e5d171b9de561f9913d636c146415eba70d9ff141aa51"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_30.json",
+      "bytes": 118952,
+      "sha256": "1c0564012f5760992c7d1102e395ffea85809f24230b11770391cc7d241fed48"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_31.json",
+      "bytes": 118503,
+      "sha256": "1833398b6a72da2abce441521ab281a14c95dc2192b4b95cf301ed71afad6a80"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_32.json",
+      "bytes": 118974,
+      "sha256": "b2a3d4a968a7b1eb44a024dd5ccfa7f8d92751431a2cfe3b76ced5e8c0303022"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_33.json",
+      "bytes": 119076,
+      "sha256": "e611a922a5406cf68ea4e01d943d0df2d8f863a3e61855c6bf1b0417039fe9f8"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_34.json",
+      "bytes": 118731,
+      "sha256": "ab77360261b131888dfd0e2448800c8fe392c11364fe4dfedd5dc9151b727ed8"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_35.json",
+      "bytes": 119112,
+      "sha256": "6f03695f747dc06e15f6c35d055e556f427db32ad005dede50a23e65dd1fbca6"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_36.json",
+      "bytes": 119091,
+      "sha256": "727b81cefc6ebfab31caf811a696ab33efc1b8dd7e440f26a2bc5f47751e7836"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_37.json",
+      "bytes": 118882,
+      "sha256": "4f8b43a54c19c58944cc8794bab49252ba90d2f66c361840067c07c6da2c55bd"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_38.json",
+      "bytes": 119177,
+      "sha256": "789f7efa0829c375ae7c9e3f3e7cc97e054c53cd9678704dd260bfd63d50c7e4"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_39.json",
+      "bytes": 119030,
+      "sha256": "9ea0277b3e50dd14ae83e23e7272175a35832969c4a81f30f81de9511e27073b"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_40.json",
+      "bytes": 118917,
+      "sha256": "ae0aeb4585493dd01263f7a1cf4ec826411d4ec2f0930156f5a336ae8b21cd23"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_41.json",
+      "bytes": 118884,
+      "sha256": "a196b47d104a2a0e8061780c819f27f831c639109f913789e2fd0f7ab8a09b7c"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_42.json",
+      "bytes": 119142,
+      "sha256": "1ee0832440cc4f5740b72f30b572e93368df3546758302ec735e64fa76df3159"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_43.json",
+      "bytes": 119210,
+      "sha256": "480afe61872c767fd57306e24c7959298664ecc3d8d561a377b43788a77f7dbd"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_44.json",
+      "bytes": 118978,
+      "sha256": "d96ab2388d806590aa17b44204a6a1c1f16c81b973b82a0c87eb3241ffcd8e8b"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_45.json",
+      "bytes": 118800,
+      "sha256": "21219397680ee37fc2f1a8cf8db92eeb85bc3efe00d2efee70dab64d6c49f54c"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_46.json",
+      "bytes": 119204,
+      "sha256": "786611a3915026e6d981505366287cf74c32b399864ee3dd4e5abe2164e28eb2"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/gaussian_47.json",
+      "bytes": 118830,
+      "sha256": "03c1129e3d5b62856f098f56459004247003441995e7d8cdee26ba4792267ef4"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_inputs.json",
+      "bytes": 5356227,
+      "sha256": "edcff219dc4ea7efe428b258460246afb1b594ffd2bad74af776240438d9bde4"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_00.json",
+      "bytes": 110794,
+      "sha256": "688789411da9658e88479f10a19bcc691f37c1eda66804806d307582efaa4ef7"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_01.json",
+      "bytes": 110796,
+      "sha256": "3bc7a7cc49270b3a37f72373c36638354e8e0780e5f5fee8675a12fc5cf5f05e"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_02.json",
+      "bytes": 110959,
+      "sha256": "4c76bc8679a1a79524dce3bd2ff356d46329e7b080ea6978819f6dd3f1c136b5"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_03.json",
+      "bytes": 110962,
+      "sha256": "6f21b3e3969899de470887f5cb40aebfb58fa18e984e7e03a1daa390eca29d9d"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_04.json",
+      "bytes": 111134,
+      "sha256": "da9426fa5604c8831fd10afb0a57155f33b631e175867d4ed277ed1fc497d64c"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_05.json",
+      "bytes": 111132,
+      "sha256": "b948f2a7632310070eac0c17039bf0e5641d059352af76758fcfb5f684513a4e"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_06.json",
+      "bytes": 111301,
+      "sha256": "507ba6508f4d080ebad5a406ccf4b58cd43c64f13564387d8e4474cd4826575a"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_07.json",
+      "bytes": 111303,
+      "sha256": "1bc8e5b2a7c6b999146f81644c004d6900b8da7a94795a0cd7587a2e30f3c1bb"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_08.json",
+      "bytes": 111471,
+      "sha256": "1ebb93670b50e869a323d3c70c0f1565bf596cb632b1a06b9876497791eaad0e"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_09.json",
+      "bytes": 111471,
+      "sha256": "89ba6de706b2ad6e77fcfcb071035bbb6ee88d1ef59b83034e31ea5560ba4d18"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_10.json",
+      "bytes": 111641,
+      "sha256": "4699e39a3aae355c7222eee99f14956f5f097f07574b627d5b0d404d77117a4d"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_11.json",
+      "bytes": 111643,
+      "sha256": "6557d2dfac289648f51d9d875adccf9b9fc6ec6a79d7e8f172fa20ad894962a9"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_12.json",
+      "bytes": 111815,
+      "sha256": "c15f3d8aa0fb0c14645388ab858db4ac5c20da44814213cb00e673c2ee4ee856"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_13.json",
+      "bytes": 111819,
+      "sha256": "1b29039a906d9b85b369799666dd4d815485a2ee3ce7aebb4cba2be0c12eac97"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_14.json",
+      "bytes": 111988,
+      "sha256": "af3d63d76fa1b64bf525dad416a7f6630a83f4788528d5581507d023b5c30b5a"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_15.json",
+      "bytes": 111988,
+      "sha256": "e9311bbe9d45bffcf6c287ea55b80e80ff4c361f4c98ecc447d997f74f5bf924"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_16.json",
+      "bytes": 112160,
+      "sha256": "5d5c6c3a82a9316934b3a05e1ed586e923b005787fa11dae599ce97ad05862d9"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_17.json",
+      "bytes": 112158,
+      "sha256": "c7246a62ca1fdae67c90d6d2dd675aaae80c165ada8d574989643a5420a189b1"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_18.json",
+      "bytes": 112328,
+      "sha256": "a3bc3be6851bd110e41a37a8c9805ac7b0034facf26168e32c07d0cebd8a4d78"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_19.json",
+      "bytes": 112326,
+      "sha256": "3b593667631dde7068dd2c66fa195d1abe00b09000eaee36405bbfd6c754fdd0"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_20.json",
+      "bytes": 112502,
+      "sha256": "5c547b360df3f09a2db260c49cfb54f19556cc402ea44f1155542269dd26b42b"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_21.json",
+      "bytes": 112500,
+      "sha256": "c2918f890806d9dcbfa73d1d1fc468d773aed79f7819bfc66deb1594a0e148bd"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_22.json",
+      "bytes": 112671,
+      "sha256": "327fb872fd6f90557d5a0af80985cbfa620ba4c618b07c6f7988b32c6a6fd0e9"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_23.json",
+      "bytes": 112667,
+      "sha256": "53e0358323f334ba54239b3c57ad5825857916c23d327912037dd7900291981f"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_24.json",
+      "bytes": 112843,
+      "sha256": "c9c6fe3f0ad5e5ed6a2fbe06e7adde412ee59b7b5a1db5a0e4364ca60e13ca8b"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_25.json",
+      "bytes": 112843,
+      "sha256": "6132eba6877ce2d14112415f9a59cdd7e0bbed95bdd4d7a95e05644ec2af322e"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_26.json",
+      "bytes": 113010,
+      "sha256": "5306c64b37f1bcd9f476527b421f41eda70b66a7c5638c9da33dcc25a06bd87d"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_27.json",
+      "bytes": 113013,
+      "sha256": "400f8b79c5d6fa30988f13e9095858640b3ae61692e0ca24cbbc40a983c29374"
+    },
+    {
+      "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_28.json",
+      "bytes": 113181,
+      "sha256": "5a664063f3b8416b2adcec47914a843b9efa06bb07cbbac956da27c5e89cd630"
+    }
+  ],
+  "gaussian_records": [
+    {
+      "index": 0,
+      "value_bits": {
+        "numerator": 220830,
+        "denominator": 220830
+      },
+      "seconds": 0.020275
+    },
+    {
+      "index": 1,
+      "value_bits": {
+        "numerator": 220756,
+        "denominator": 220756
+      },
+      "seconds": 0.020339
+    },
+    {
+      "index": 2,
+      "value_bits": {
+        "numerator": 221291,
+        "denominator": 221291
+      },
+      "seconds": 0.021207
+    },
+    {
+      "index": 3,
+      "value_bits": {
+        "numerator": 221263,
+        "denominator": 221263
+      },
+      "seconds": 0.022013
+    },
+    {
+      "index": 4,
+      "value_bits": {
+        "numerator": 220970,
+        "denominator": 220971
+      },
+      "seconds": 0.049137
+    },
+    {
+      "index": 5,
+      "value_bits": {
+        "numerator": 220558,
+        "denominator": 220558
+      },
+      "seconds": 0.023838
+    },
+    {
+      "index": 6,
+      "value_bits": {
+        "numerator": 221336,
+        "denominator": 221336
+      },
+      "seconds": 0.021349
+    },
+    {
+      "index": 7,
+      "value_bits": {
+        "numerator": 221303,
+        "denominator": 221304
+      },
+      "seconds": 0.020284
+    },
+    {
+      "index": 8,
+      "value_bits": {
+        "numerator": 220745,
+        "denominator": 220746
+      },
+      "seconds": 0.020003
+    },
+    {
+      "index": 9,
+      "value_bits": {
+        "numerator": 220736,
+        "denominator": 220738
+      },
+      "seconds": 0.02022
+    },
+    {
+      "index": 10,
+      "value_bits": {
+        "numerator": 221097,
+        "denominator": 221099
+      },
+      "seconds": 0.020097
+    },
+    {
+      "index": 11,
+      "value_bits": {
+        "numerator": 220969,
+        "denominator": 220971
+      },
+      "seconds": 0.019994
+    },
+    {
+      "index": 12,
+      "value_bits": {
+        "numerator": 221324,
+        "denominator": 221326
+      },
+      "seconds": 0.01992
+    },
+    {
+      "index": 13,
+      "value_bits": {
+        "numerator": 221324,
+        "denominator": 221326
+      },
+      "seconds": 0.020036
+    },
+    {
+      "index": 14,
+      "value_bits": {
+        "numerator": 221066,
+        "denominator": 221067
+      },
+      "seconds": 0.020234
+    },
+    {
+      "index": 15,
+      "value_bits": {
+        "numerator": 221285,
+        "denominator": 221287
+      },
+      "seconds": 0.020362
+    },
+    {
+      "index": 16,
+      "value_bits": {
+        "numerator": 221340,
+        "denominator": 221342
+      },
+      "seconds": 0.020149
+    },
+    {
+      "index": 17,
+      "value_bits": {
+        "numerator": 221373,
+        "denominator": 221376
+      },
+      "seconds": 0.020028
+    },
+    {
+      "index": 18,
+      "value_bits": {
+        "numerator": 221232,
+        "denominator": 221236
+      },
+      "seconds": 0.020056
+    },
+    {
+      "index": 19,
+      "value_bits": {
+        "numerator": 221295,
+        "denominator": 221299
+      },
+      "seconds": 0.020007
+    },
+    {
+      "index": 20,
+      "value_bits": {
+        "numerator": 221012,
+        "denominator": 221017
+      },
+      "seconds": 0.020414
+    },
+    {
+      "index": 21,
+      "value_bits": {
+        "numerator": 221293,
+        "denominator": 221299
+      },
+      "seconds": 0.020002
+    },
+    {
+      "index": 22,
+      "value_bits": {
+        "numerator": 221396,
+        "denominator": 221402
+      },
+      "seconds": 0.020235
+    },
+    {
+      "index": 23,
+      "value_bits": {
+        "numerator": 221396,
+        "denominator": 221402
+      },
+      "seconds": 0.020119
+    },
+    {
+      "index": 24,
+      "value_bits": {
+        "numerator": 220680,
+        "denominator": 220686
+      },
+      "seconds": 0.020112
+    },
+    {
+      "index": 25,
+      "value_bits": {
+        "numerator": 220735,
+        "denominator": 220741
+      },
+      "seconds": 0.020237
+    },
+    {
+      "index": 26,
+      "value_bits": {
+        "numerator": 220964,
+        "denominator": 220971
+      },
+      "seconds": 0.019974
+    },
+    {
+      "index": 27,
+      "value_bits": {
+        "numerator": 220964,
+        "denominator": 220971
+      },
+      "seconds": 0.019902
+    },
+    {
+      "index": 28,
+      "value_bits": {
+        "numerator": 221004,
+        "denominator": 221012
+      },
+      "seconds": 0.019942
+    },
+    {
+      "index": 29,
+      "value_bits": {
+        "numerator": 221084,
+        "denominator": 221093
+      },
+      "seconds": 0.01996
+    },
+    {
+      "index": 30,
+      "value_bits": {
+        "numerator": 220902,
+        "denominator": 220911
+      },
+      "seconds": 0.019983
+    },
+    {
+      "index": 31,
+      "value_bits": {
+        "numerator": 220058,
+        "denominator": 220068
+      },
+      "seconds": 0.020002
+    },
+    {
+      "index": 32,
+      "value_bits": {
+        "numerator": 220947,
+        "denominator": 220958
+      },
+      "seconds": 0.020049
+    },
+    {
+      "index": 33,
+      "value_bits": {
+        "numerator": 221140,
+        "denominator": 221152
+      },
+      "seconds": 0.020163
+    },
+    {
+      "index": 34,
+      "value_bits": {
+        "numerator": 220493,
+        "denominator": 220505
+      },
+      "seconds": 0.020156
+    },
+    {
+      "index": 35,
+      "value_bits": {
+        "numerator": 221202,
+        "denominator": 221215
+      },
+      "seconds": 0.019772
+    },
+    {
+      "index": 36,
+      "value_bits": {
+        "numerator": 221164,
+        "denominator": 221177
+      },
+      "seconds": 0.020084
+    },
+    {
+      "index": 37,
+      "value_bits": {
+        "numerator": 220780,
+        "denominator": 220793
+      },
+      "seconds": 0.020364
+    },
+    {
+      "index": 38,
+      "value_bits": {
+        "numerator": 221328,
+        "denominator": 221342
+      },
+      "seconds": 0.020532
+    },
+    {
+      "index": 39,
+      "value_bits": {
+        "numerator": 221052,
+        "denominator": 221067
+      },
+      "seconds": 0.020579
+    },
+    {
+      "index": 40,
+      "value_bits": {
+        "numerator": 220834,
+        "denominator": 220850
+      },
+      "seconds": 0.020023
+    },
+    {
+      "index": 41,
+      "value_bits": {
+        "numerator": 220770,
+        "denominator": 220787
+      },
+      "seconds": 0.02017
+    },
+    {
+      "index": 42,
+      "value_bits": {
+        "numerator": 221253,
+        "denominator": 221271
+      },
+      "seconds": 0.020329
+    },
+    {
+      "index": 43,
+      "value_bits": {
+        "numerator": 221382,
+        "denominator": 221402
+      },
+      "seconds": 0.020082
+    },
+    {
+      "index": 44,
+      "value_bits": {
+        "numerator": 220950,
+        "denominator": 220971
+      },
+      "seconds": 0.019888
+    },
+    {
+      "index": 45,
+      "value_bits": {
+        "numerator": 220614,
+        "denominator": 220636
+      },
+      "seconds": 0.019988
+    },
+    {
+      "index": 46,
+      "value_bits": {
+        "numerator": 221379,
+        "denominator": 221402
+      },
+      "seconds": 0.020439
+    },
+    {
+      "index": 47,
+      "value_bits": {
+        "numerator": 220668,
+        "denominator": 220691
+      },
+      "seconds": 0.020123
+    }
+  ],
+  "moment_records": [
+    {
+      "k": 0,
+      "value_bits": {
+        "numerator": 221415,
+        "denominator": 221415
+      }
+    },
+    {
+      "k": 1,
+      "value_bits": {
+        "numerator": 221417,
+        "denominator": 221420
+      }
+    },
+    {
+      "k": 2,
+      "value_bits": {
+        "numerator": 221741,
+        "denominator": 221746
+      }
+    },
+    {
+      "k": 3,
+      "value_bits": {
+        "numerator": 221746,
+        "denominator": 221753
+      }
+    },
+    {
+      "k": 4,
+      "value_bits": {
+        "numerator": 222090,
+        "denominator": 222098
+      }
+    },
+    {
+      "k": 5,
+      "value_bits": {
+        "numerator": 222085,
+        "denominator": 222095
+      }
+    },
+    {
+      "k": 6,
+      "value_bits": {
+        "numerator": 222422,
+        "denominator": 222434
+      }
+    },
+    {
+      "k": 7,
+      "value_bits": {
+        "numerator": 222426,
+        "denominator": 222438
+      }
+    },
+    {
+      "k": 8,
+      "value_bits": {
+        "numerator": 222761,
+        "denominator": 222775
+      }
+    },
+    {
+      "k": 9,
+      "value_bits": {
+        "numerator": 222762,
+        "denominator": 222776
+      }
+    },
+    {
+      "k": 10,
+      "value_bits": {
+        "numerator": 223100,
+        "denominator": 223115
+      }
+    },
+    {
+      "k": 11,
+      "value_bits": {
+        "numerator": 223103,
+        "denominator": 223119
+      }
+    },
+    {
+      "k": 12,
+      "value_bits": {
+        "numerator": 223446,
+        "denominator": 223463
+      }
+    },
+    {
+      "k": 13,
+      "value_bits": {
+        "numerator": 223455,
+        "denominator": 223472
+      }
+    },
+    {
+      "k": 14,
+      "value_bits": {
+        "numerator": 223792,
+        "denominator": 223810
+      }
+    },
+    {
+      "k": 15,
+      "value_bits": {
+        "numerator": 223792,
+        "denominator": 223811
+      }
+    },
+    {
+      "k": 16,
+      "value_bits": {
+        "numerator": 224136,
+        "denominator": 224155
+      }
+    },
+    {
+      "k": 17,
+      "value_bits": {
+        "numerator": 224129,
+        "denominator": 224149
+      }
+    },
+    {
+      "k": 18,
+      "value_bits": {
+        "numerator": 224472,
+        "denominator": 224492
+      }
+    },
+    {
+      "k": 19,
+      "value_bits": {
+        "numerator": 224466,
+        "denominator": 224487
+      }
+    },
+    {
+      "k": 20,
+      "value_bits": {
+        "numerator": 224817,
+        "denominator": 224838
+      }
+    },
+    {
+      "k": 21,
+      "value_bits": {
+        "numerator": 224814,
+        "denominator": 224836
+      }
+    },
+    {
+      "k": 22,
+      "value_bits": {
+        "numerator": 225155,
+        "denominator": 225177
+      }
+    },
+    {
+      "k": 23,
+      "value_bits": {
+        "numerator": 225148,
+        "denominator": 225170
+      }
+    },
+    {
+      "k": 24,
+      "value_bits": {
+        "numerator": 225500,
+        "denominator": 225522
+      }
+    },
+    {
+      "k": 25,
+      "value_bits": {
+        "numerator": 225499,
+        "denominator": 225521
+      }
+    },
+    {
+      "k": 26,
+      "value_bits": {
+        "numerator": 225834,
+        "denominator": 225856
+      }
+    },
+    {
+      "k": 27,
+      "value_bits": {
+        "numerator": 225838,
+        "denominator": 225861
+      }
+    },
+    {
+      "k": 28,
+      "value_bits": {
+        "numerator": 226175,
+        "denominator": 226198
+      }
+    }
+  ],
+  "failures": [],
+  "pending": "Remaining audited outer/profile/scalar constructors are not implemented in this prefix driver",
+  "limitations": [
+    "No scalar or exponent follows from this prefix",
+    "989767 is the prescribed full-construction ledger, not a completed-run count",
+    "Time and bit sizes are operational evidence, not a mathematical lower bound",
+    "All C033y/z analytic and source qualifications remain in force"
+  ],
+  "elapsed_seconds": 50.039,
+  "latest_moment_prefix": {
+    "k": 28,
+    "summands_completed": 48,
+    "value_bits": {
+      "numerator": 226175,
+      "denominator": 226198
+    }
+  },
+  "latest_partial_artifact": {
+    "path": "scripts/smoothed-law/direct_positive_real_execution_1808/moment_partial.json",
+    "bytes": 113209,
+    "sha256": "d7233fd92ebccc2beeae0574603dc5a7334c30c901ed055b0905618b68c05997"
+  }
+}

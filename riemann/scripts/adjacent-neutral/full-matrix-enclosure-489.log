@@ -1,0 +1,307 @@
+/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/adjacent-neutral/exact-gram-489.c:20:18: error: call to undeclared function '__gmpz_inp_str'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   20 |             if (!mpz_inp_str(a[i*k+j], stdin, 10)) return 4;
+      |                  ^
+/opt/homebrew/include/gmp.h:884:21: note: expanded from macro 'mpz_inp_str'
+  884 | #define mpz_inp_str __gmpz_inp_str
+      |                     ^
+/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/adjacent-neutral/exact-gram-489.c:30:13: error: call to undeclared function '__gmpz_out_str'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   30 |             mpz_out_str(stdout, 10, value); putchar('\n');
+      |             ^
+/opt/homebrew/include/gmp.h:962:21: note: expanded from macro 'mpz_out_str'
+  962 | #define mpz_out_str __gmpz_out_str
+      |                     ^
+2 errors generated.
+Traceback (most recent call last):
+  File "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/adjacent-neutral/full-matrix-enclosure-489.py", line 320, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/adjacent-neutral/full-matrix-enclosure-489.py", line 285, in main
+    subprocess.run(['/usr/bin/clang','-O3','-I/opt/homebrew/include',str(HERE/'exact-gram-489.c'),
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    '-L/opt/homebrew/lib','-lgmp','-o',str(EXE)],check=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.15/3.15.2/Frameworks/Python.framework/Versions/3.15/lib/python3.15/subprocess.py", line 692, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command ['/usr/bin/clang', '-O3', '-I/opt/homebrew/include', '/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/adjacent-neutral/exact-gram-489.c', '-L/opt/homebrew/lib', '-lgmp', '-o', '/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/adjacent-neutral/full-matrix-489/exact-gram-489'] returned non-zero exit status 1.
+Column2 computed; elapsed28.0s
+Column3 computed; elapsed28.0s
+Column4 computed; elapsed28.2s
+Column5 computed; elapsed28.2s
+Column6 computed; elapsed28.2s
+Column7 computed; elapsed28.2s
+Column8 computed; elapsed28.3s
+Column9 computed; elapsed28.3s
+Column10 computed; elapsed40.4s
+Column11 computed; elapsed40.6s
+Column12 computed; elapsed40.6s
+Column13 computed; elapsed40.6s
+Column14 computed; elapsed40.9s
+Column15 computed; elapsed40.9s
+Column16 computed; elapsed40.9s
+Column17 computed; elapsed40.9s
+Column18 computed; elapsed56.2s
+Column19 computed; elapsed56.2s
+Column20 computed; elapsed56.4s
+Column21 computed; elapsed56.4s
+Column22 computed; elapsed56.4s
+Column23 computed; elapsed56.7s
+Column24 computed; elapsed57.0s
+Column25 computed; elapsed57.0s
+Column26 computed; elapsed72.6s
+Column27 computed; elapsed72.6s
+Column28 computed; elapsed73.1s
+Column29 computed; elapsed73.1s
+Column30 computed; elapsed73.1s
+Column31 computed; elapsed73.2s
+Column32 computed; elapsed73.2s
+Column33 computed; elapsed73.7s
+Column34 computed; elapsed89.7s
+Column35 computed; elapsed89.8s
+Column36 computed; elapsed89.9s
+Column37 computed; elapsed90.2s
+Column38 computed; elapsed90.3s
+Column39 computed; elapsed90.3s
+Column40 computed; elapsed90.7s
+Column41 computed; elapsed91.0s
+Column42 computed; elapsed107.1s
+Column43 computed; elapsed107.1s
+Column44 computed; elapsed107.5s
+Column45 computed; elapsed107.9s
+Column46 computed; elapsed107.9s
+Column47 computed; elapsed108.0s
+Column48 computed; elapsed108.2s
+Column49 computed; elapsed108.8s
+Column50 computed; elapsed124.7s
+Column51 computed; elapsed124.7s
+Column52 computed; elapsed125.4s
+Column53 computed; elapsed125.4s
+Column54 computed; elapsed125.6s
+Column55 computed; elapsed125.6s
+Column56 computed; elapsed126.0s
+Column57 computed; elapsed126.7s
+Column58 computed; elapsed142.1s
+Column59 computed; elapsed142.2s
+Column60 computed; elapsed143.2s
+Column61 computed; elapsed143.3s
+Column62 computed; elapsed143.3s
+Column63 computed; elapsed143.4s
+Column64 computed; elapsed143.8s
+Column65 computed; elapsed144.7s
+Column66 computed; elapsed160.3s
+Column67 computed; elapsed160.3s
+Column68 computed; elapsed161.3s
+Column69 computed; elapsed161.5s
+Column70 computed; elapsed161.5s
+Column71 computed; elapsed161.8s
+Column72 computed; elapsed162.5s
+Column73 computed; elapsed163.3s
+Column74 computed; elapsed179.3s
+Column75 computed; elapsed179.3s
+Column76 computed; elapsed180.6s
+Column77 computed; elapsed180.6s
+Column78 computed; elapsed181.0s
+Column79 computed; elapsed181.2s
+Column80 computed; elapsed182.0s
+Column81 computed; elapsed182.9s
+Column82 computed; elapsed198.5s
+Column83 computed; elapsed198.6s
+Column84 computed; elapsed199.6s
+Column85 computed; elapsed200.0s
+Column86 computed; elapsed200.2s
+Column87 computed; elapsed200.7s
+Column88 computed; elapsed201.8s
+Column89 computed; elapsed202.8s
+Column90 computed; elapsed219.0s
+Column91 computed; elapsed219.3s
+Column92 computed; elapsed220.3s
+Column93 computed; elapsed221.1s
+Column94 computed; elapsed221.2s
+Column95 computed; elapsed221.6s
+Column96 computed; elapsed223.2s
+Column97 computed; elapsed224.1s
+Column98 computed; elapsed240.6s
+Column99 computed; elapsed241.1s
+Column100 computed; elapsed242.2s
+Column101 computed; elapsed243.3s
+Column102 computed; elapsed243.3s
+Column103 computed; elapsed244.0s
+Column104 computed; elapsed245.9s
+Column105 computed; elapsed246.6s
+Column106 computed; elapsed263.4s
+Column107 computed; elapsed264.2s
+Column108 computed; elapsed265.5s
+Column109 computed; elapsed266.3s
+Column110 computed; elapsed266.7s
+Column111 computed; elapsed267.6s
+Column112 computed; elapsed269.4s
+Column113 computed; elapsed270.7s
+Column114 computed; elapsed287.7s
+Column115 computed; elapsed288.2s
+Column116 computed; elapsed290.0s
+Column117 computed; elapsed290.8s
+Column118 computed; elapsed291.7s
+Column119 computed; elapsed292.2s
+Column120 computed; elapsed294.4s
+Column121 computed; elapsed296.0s
+Column122 computed; elapsed313.3s
+Column123 computed; elapsed314.1s
+Column124 computed; elapsed316.0s
+Column125 computed; elapsed316.8s
+Column126 computed; elapsed318.0s
+Column127 computed; elapsed318.9s
+Column128 computed; elapsed321.4s
+Column129 computed; elapsed323.0s
+Column130 computed; elapsed340.1s
+Column131 computed; elapsed340.7s
+Column132 computed; elapsed343.2s
+Column133 computed; elapsed344.1s
+Column134 computed; elapsed345.6s
+Column135 computed; elapsed346.4s
+Column136 computed; elapsed349.4s
+Column137 computed; elapsed350.8s
+Column138 computed; elapsed368.0s
+Column139 computed; elapsed369.0s
+Column140 computed; elapsed371.5s
+Column141 computed; elapsed372.9s
+Column142 computed; elapsed374.6s
+Column143 computed; elapsed375.4s
+Column144 computed; elapsed378.6s
+Column145 computed; elapsed380.3s
+Column146 computed; elapsed397.5s
+Column147 computed; elapsed398.4s
+Column148 computed; elapsed401.5s
+Column149 computed; elapsed402.8s
+Column150 computed; elapsed404.9s
+Column151 computed; elapsed405.7s
+Column152 computed; elapsed409.0s
+Column153 computed; elapsed411.0s
+Column154 computed; elapsed428.4s
+Column155 computed; elapsed429.5s
+Column156 computed; elapsed432.6s
+Column157 computed; elapsed434.3s
+Column158 computed; elapsed436.9s
+Column159 computed; elapsed437.7s
+Column160 computed; elapsed441.3s
+Column161 computed; elapsed443.4s
+Column162 computed; elapsed461.6s
+Column163 computed; elapsed462.4s
+Column164 computed; elapsed466.1s
+Column165 computed; elapsed467.8s
+Column166 computed; elapsed470.8s
+Column167 computed; elapsed471.8s
+Column168 computed; elapsed475.8s
+Column169 computed; elapsed478.5s
+Column170 computed; elapsed496.3s
+Column171 computed; elapsed497.1s
+Column172 computed; elapsed500.8s
+Column173 computed; elapsed502.6s
+Column174 computed; elapsed505.6s
+Column175 computed; elapsed507.3s
+Column176 computed; elapsed511.2s
+Column177 computed; elapsed514.3s
+Column178 computed; elapsed532.8s
+Column179 computed; elapsed533.6s
+Column180 computed; elapsed537.6s
+Column181 computed; elapsed539.8s
+Column182 computed; elapsed543.3s
+Column183 computed; elapsed544.6s
+Column184 computed; elapsed549.5s
+Column185 computed; elapsed552.7s
+Column186 computed; elapsed570.9s
+Column187 computed; elapsed572.1s
+Column188 computed; elapsed576.2s
+Column189 computed; elapsed578.3s
+Column190 computed; elapsed582.2s
+Column191 computed; elapsed583.2s
+Column192 computed; elapsed588.3s
+Column193 computed; elapsed591.5s
+Column194 computed; elapsed609.3s
+Column195 computed; elapsed611.3s
+Column196 computed; elapsed616.3s
+Column197 computed; elapsed618.5s
+Column198 computed; elapsed623.3s
+Column199 computed; elapsed624.1s
+Column200 computed; elapsed630.1s
+Column201 computed; elapsed633.4s
+Column202 computed; elapsed652.7s
+Column203 computed; elapsed654.4s
+Column204 computed; elapsed659.0s
+Column205 computed; elapsed661.7s
+Column206 computed; elapsed667.3s
+Column207 computed; elapsed668.1s
+Column208 computed; elapsed674.9s
+Column209 computed; elapsed678.5s
+Column210 computed; elapsed697.5s
+Column211 computed; elapsed700.0s
+Column212 computed; elapsed705.2s
+Column213 computed; elapsed708.5s
+Column214 computed; elapsed714.5s
+Column215 computed; elapsed716.1s
+Column216 computed; elapsed722.8s
+Column217 computed; elapsed725.6s
+Column218 computed; elapsed744.3s
+Column219 computed; elapsed746.4s
+Column220 computed; elapsed750.9s
+Column221 computed; elapsed755.0s
+Column222 computed; elapsed761.6s
+Column223 computed; elapsed763.3s
+Column224 computed; elapsed771.0s
+Column225 computed; elapsed773.5s
+Column226 computed; elapsed793.6s
+Column227 computed; elapsed795.3s
+Column228 computed; elapsed800.7s
+Column229 computed; elapsed805.7s
+Column230 computed; elapsed813.2s
+Column231 computed; elapsed815.1s
+Column232 computed; elapsed823.6s
+Column233 computed; elapsed826.5s
+Column234 computed; elapsed847.5s
+Column235 computed; elapsed848.9s
+Column236 computed; elapsed854.5s
+Column237 computed; elapsed860.5s
+Column238 computed; elapsed867.7s
+Column239 computed; elapsed869.8s
+Column240 computed; elapsed878.6s
+Column241 computed; elapsed882.2s
+Column242 computed; elapsed903.4s
+Column243 computed; elapsed904.9s
+Column244 computed; elapsed910.7s
+Column245 computed; elapsed917.4s
+Column246 computed; elapsed925.5s
+Column247 computed; elapsed928.2s
+Column248 computed; elapsed937.2s
+Column249 computed; elapsed941.1s
+Column250 computed; elapsed960.5s
+Column251 computed; elapsed961.3s
+Column252 computed; elapsed966.0s
+Column253 computed; elapsed970.6s
+Column254 computed; elapsed975.7s
+Column255 computed; elapsed977.6s
+Column256 computed; elapsed977.6s
+All255 coefficient maps and all257 projection rows complete.
+Gram piece-1/0 computed; elapsed1092.6s
+Gram piece-1/1 computed; elapsed1092.9s
+Gram piece-1/2 computed; elapsed1099.2s
+Gram piece+1/0 computed; elapsed1099.2s
+Gram piece+1/1 computed; elapsed1099.2s
+Gram piece+1/2 computed; elapsed1099.2s
+LDL column 2
+LDL column 34
+LDL column 66
+LDL column 98
+LDL column 130
+LDL column 162
+LDL column 194
+LDL column 226
+sign-1: full LDL=True; minimum pivot>0.294795632547; width<=4.325837624097E-153; required matrix threshold1/25, width<1e-30
+LDL column 2
+LDL column 34
+LDL column 66
+LDL column 98
+LDL column 130
+LDL column 162
+LDL column 194
+LDL column 226
+sign+1: full LDL=True; minimum pivot>0.649228220248; width<=4.400421031409E-153; required matrix threshold1/25, width<1e-30
+Checks12/12; failures[]; certificate/Users/vermeer/SyncthingA/code/github/math-playground/math-playground/riemann/scripts/adjacent-neutral/full-matrix-enclosure-489.json

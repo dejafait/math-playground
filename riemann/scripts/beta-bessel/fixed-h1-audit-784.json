@@ -1,0 +1,153 @@
+{
+  "target": "C040c fixed H_1 arithmetic audit; no additional model or minor",
+  "arithmetic": "exact rational finite products and explicit degree-four log formulas",
+  "input_certificate": "scripts/beta-bessel/fixed-h1-782.json",
+  "input_sha256": "2954a5955a66f1e12b709ee544c2397d2e3141fec0e0206a285df255b407a0d9",
+  "independent_gamma_0_to_4": [
+    {
+      "numerator": 1,
+      "denominator": 1
+    },
+    {
+      "numerator": 3,
+      "denominator": 800
+    },
+    {
+      "numerator": 3,
+      "denominator": 258560
+    },
+    {
+      "numerator": 7,
+      "denominator": 210984960
+    },
+    {
+      "numerator": 21,
+      "denominator": 231802142720
+    }
+  ],
+  "independent_e_0_to_4": [
+    {
+      "numerator": 1,
+      "denominator": 1
+    },
+    {
+      "numerator": 3,
+      "denominator": 800
+    },
+    {
+      "numerator": 3,
+      "denominator": 517120
+    },
+    {
+      "numerator": 7,
+      "denominator": 1265909760
+    },
+    {
+      "numerator": 7,
+      "denominator": 1854417141760
+    }
+  ],
+  "independent_S_1_to_4": [
+    {
+      "numerator": 3,
+      "denominator": 800
+    },
+    {
+      "numerator": 159,
+      "denominator": 64640000
+    },
+    {
+      "numerator": 5351,
+      "denominator": 1318656000000
+    },
+    {
+      "numerator": 144513593,
+      "denominator": 21948765388800000000
+    }
+  ],
+  "independent_log_coefficients_1_to_4": [
+    {
+      "numerator": -3,
+      "denominator": 800
+    },
+    {
+      "numerator": -159,
+      "denominator": 129280000
+    },
+    {
+      "numerator": -5351,
+      "denominator": 3955968000000
+    },
+    {
+      "numerator": -144513593,
+      "denominator": 87795061555200000000
+    }
+  ],
+  "independent_H_1": [
+    [
+      {
+        "numerator": 159,
+        "denominator": 64640000
+      },
+      {
+        "numerator": 5351,
+        "denominator": 1318656000000
+      }
+    ],
+    [
+      {
+        "numerator": 5351,
+        "denominator": 1318656000000
+      },
+      {
+        "numerator": 144513593,
+        "denominator": 21948765388800000000
+      }
+    ]
+  ],
+  "determinant": {
+    "numerator": -6279691,
+    "denominator": 23154296938026762240000000
+  },
+  "required_strict_upper_threshold": {
+    "numerator": 0,
+    "denominator": 1
+  },
+  "witness": [
+    {
+      "numerator": 5351,
+      "denominator": 1318656000000
+    },
+    {
+      "numerator": -159,
+      "denominator": 64640000
+    }
+  ],
+  "quadratic_form": {
+    "numerator": -332823623,
+    "denominator": 498897918024683303731200000000000
+  },
+  "checks": {
+    "normalization": true,
+    "complete_gamma_match": true,
+    "complete_e_match": true,
+    "complete_S_match": true,
+    "complete_log_match": true,
+    "complete_H_match": true,
+    "determinant_match": true,
+    "threshold_zero": true,
+    "witness_match": true,
+    "form_match": true,
+    "recorded_recurrence_residuals_zero": true,
+    "recorded_formal_log_residuals_zero": true,
+    "recorded_checks_pass": true,
+    "recorded_failures_empty": true,
+    "S2_positive": true,
+    "determinant_negative": true,
+    "witness_nonzero": true,
+    "quadratic_form_identity": true,
+    "quadratic_form_negative": true
+  },
+  "failures": [],
+  "scope_limit": "Arithmetic only; the analytical joint-premise audit is in C040c."
+}

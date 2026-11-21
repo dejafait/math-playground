@@ -1,0 +1,20 @@
+{
+  "status": "DISCOVERY_ONLY_NOT_A_PROOF",
+  "seed": 1470,
+  "q_ascending": [
+    "1",
+    "1",
+    "5/18"
+  ],
+  "iterations": 40000,
+  "cap": 40000,
+  "approximate_real_count_histogram": {
+    "4": 19676,
+    "6": 20324
+  },
+  "candidates": [],
+  "required": "exact rational witness; sector; universal preservation; multiplicity-aware counts (2,4)",
+  "limits": "One quadratic endpoint and a finite input sample only; floating roots are not certification.",
+  "failures": [],
+  "execution_note": "Initial run failed JSON serialization on a numpy.int64 histogram key; corrected to int and rerun with identical seed."
+}

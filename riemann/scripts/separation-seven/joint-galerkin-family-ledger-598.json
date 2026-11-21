@@ -1,0 +1,318 @@
+{
+  "result": "LOWER_ENCLOSURE_INCONCLUSIVE",
+  "failures": [],
+  "checks": [
+    {
+      "check": "executed source hash",
+      "passed": true
+    },
+    {
+      "check": "full archive hash",
+      "passed": true
+    },
+    {
+      "check": "exactly the final legacy-named factor failed",
+      "passed": true
+    },
+    {
+      "check": "all other original checks pass",
+      "passed": true
+    },
+    {
+      "check": "input preserved original-galerkin-586.npz",
+      "passed": true
+    },
+    {
+      "check": "input preserved original-galerkin-586.json",
+      "passed": true
+    },
+    {
+      "check": "input preserved original-minimum-audit-588.json",
+      "passed": true
+    },
+    {
+      "check": "input preserved fixed-block-metric-audit-557.json",
+      "passed": true
+    },
+    {
+      "check": "input preserved certificate-audit-534.json",
+      "passed": true
+    },
+    {
+      "check": "input preserved complete-covariance-532.npz",
+      "passed": true
+    },
+    {
+      "check": "input preserved residual-certificate-532.py",
+      "passed": true
+    },
+    {
+      "check": "input preserved complete-schur-531.py",
+      "passed": true
+    },
+    {
+      "check": "input preserved joint-galerkin-family-locator-598.npz",
+      "passed": true
+    },
+    {
+      "check": "input preserved joint-galerkin-family-locator-598.py",
+      "passed": true
+    },
+    {
+      "check": "input preserved fixed-block-metric-555.json",
+      "passed": true
+    },
+    {
+      "check": "full family dimensions",
+      "passed": true
+    },
+    {
+      "check": "one entire endpoint Z at both orientations",
+      "passed": true
+    },
+    {
+      "check": "full rebuild A",
+      "passed": true
+    },
+    {
+      "check": "full rebuild B",
+      "passed": true
+    },
+    {
+      "check": "full rebuild G",
+      "passed": true
+    },
+    {
+      "check": "full rebuild trial",
+      "passed": true
+    },
+    {
+      "check": "magnitude Z",
+      "passed": true
+    },
+    {
+      "check": "magnitude Y",
+      "passed": true
+    },
+    {
+      "check": "magnitude G",
+      "passed": true
+    },
+    {
+      "check": "magnitude A",
+      "passed": true
+    },
+    {
+      "check": "magnitude B",
+      "passed": true
+    },
+    {
+      "check": "magnitude M",
+      "passed": true
+    },
+    {
+      "check": "magnitude T",
+      "passed": true
+    },
+    {
+      "check": "magnitude Ts",
+      "passed": true
+    },
+    {
+      "check": "magnitude U",
+      "passed": true
+    },
+    {
+      "check": "magnitude boundary",
+      "passed": true
+    },
+    {
+      "check": "magnitude head_rhs",
+      "passed": true
+    },
+    {
+      "check": "magnitude head_solution",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic A",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic B",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic U",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic energy",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic row_maps",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic boundary",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic head_product_nuclear",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic finite_gram_trace",
+      "passed": true
+    },
+    {
+      "check": "paid arithmetic H_assembly",
+      "passed": true
+    },
+    {
+      "check": "full radius arithmetic inflation",
+      "passed": true
+    },
+    {
+      "check": "joint norm arithmetic inflation",
+      "passed": true
+    },
+    {
+      "check": "factor cap galerkin_floor",
+      "passed": true
+    },
+    {
+      "check": "full factor reconstruction galerkin_floor",
+      "passed": true
+    },
+    {
+      "check": "factor cap predictor_norm",
+      "passed": true
+    },
+    {
+      "check": "full factor reconstruction predictor_norm",
+      "passed": true
+    },
+    {
+      "check": "factor cap local_operator_norm",
+      "passed": true
+    },
+    {
+      "check": "full factor reconstruction local_operator_norm",
+      "passed": true
+    },
+    {
+      "check": "predictor inflation pays Gram",
+      "passed": true
+    },
+    {
+      "check": "LZ inflation pays Gram",
+      "passed": true
+    },
+    {
+      "check": "every finite higher row partition",
+      "passed": true
+    },
+    {
+      "check": "lower certificate itself has a negative direction; no target violation inferred",
+      "passed": true
+    }
+  ],
+  "arithmetic": {
+    "A": {
+      "actual_upper": {
+        "lo": "4.66661287307951016049313671381264300030753140299580424262010E-7",
+        "hi": "4.66661287307951016049313671381264300030753140299580424262016E-7"
+      },
+      "required": "1e-6"
+    },
+    "B": {
+      "actual_upper": {
+        "lo": "9.41322574615902032098627342762528600061506280599160848524021E-8",
+        "hi": "9.41322574615902032098627342762528600061506280599160848524032E-8"
+      },
+      "required": "2e-6"
+    },
+    "U": {
+      "actual_upper": {
+        "lo": "4.75661287307951016049313671381264300030753140299580424262010E-8",
+        "hi": "4.75661287307951016049313671381264300030753140299580424262016E-8"
+      },
+      "required": "1e-6"
+    },
+    "energy": {
+      "actual_upper": {
+        "lo": "0.00000989343894869534480628712815123721481002177698192555079776041",
+        "hi": "0.00000989343894869534480628712815123721481002177698192555079776053"
+      },
+      "required": "4e-5"
+    },
+    "row_maps": {
+      "actual_upper": {
+        "lo": "2.07283995021159008500722202145084502763471638105048321367145E-8",
+        "hi": "2.07283995021159008500722202145084502763471638105048321367147E-8"
+      },
+      "required": "1e-6"
+    },
+    "boundary": {
+      "actual_upper": {
+        "lo": "1.04547473508866709141106578822082659179987823635738090080683E-7",
+        "hi": "1.04547473508866709141106578822082659179987823635738090080684E-7"
+      },
+      "required": "1e-5"
+    },
+    "head_product_nuclear": {
+      "actual_upper": {
+        "lo": "1.00051398522170796241816666202803960068676502917701690459136E-8",
+        "hi": "1.00051398522170796241816666202803960068676502917701690459137E-8"
+      },
+      "required": "1e-6"
+    },
+    "finite_gram_trace": {
+      "actual_upper": {
+        "lo": "0.0000110047497822106920887659069760750876934483491641629268608969",
+        "hi": "0.0000110047497822106920887659069760750876934483491641629268608970"
+      },
+      "required": "1e-4"
+    },
+    "H_assembly": {
+      "actual_upper": {
+        "lo": "1.00712319092599501701668694052752253875649395724163560660350E-10",
+        "hi": "1.00712319092599501701668694052752253875649395724163560660351E-10"
+      },
+      "required": "1e-8"
+    }
+  },
+  "factor_checks": {
+    "galerkin_floor": {
+      "reconstruction_error": {
+        "lo": "2.45474762462205907149307264730368971033818562532055730346615E-7",
+        "hi": "2.45474762462205907149307264730368971033818562532055730346616E-7"
+      },
+      "required": "1e-6"
+    },
+    "predictor_norm": {
+      "reconstruction_error": {
+        "lo": "2.45474742897571883090716163593974027249262737831096817593707E-7",
+        "hi": "2.45474742897571883090716163593974027249262737831096817593709E-7"
+      },
+      "required": "1e-6"
+    },
+    "local_operator_norm": {
+      "reconstruction_error": {
+        "lo": "2.45475053729127582926166248549757095886781266837219083917067E-7",
+        "hi": "2.45475053729127582926166248549757095886781266837219083917069E-7"
+      },
+      "required": "1e-6"
+    }
+  },
+  "saved_lower_certificate_rayleigh": {
+    "lo": "-0.15566033369370286897532943716275456423305511474609375",
+    "hi": "-0.155660313458043585664135463375105083100410666660767737020282"
+  },
+  "direction_archive_sha256": "1f957ffe71fabb12cd07dd6567dee43b265473773e5e5881be1e34d4529ec3e7",
+  "certificate_sha256": "42a2b96a000ec519cb926a752e32bf364c3e880cfb06436d59a6ecc4cdbfb290",
+  "script_sha256": "e15b16d28f2244c1a387805fee575d13a32163f771da4e073bca14a9f2bd8574",
+  "qualification": "No exact target sign certified; final factor failure retained; this is not a separate conceptual audit of analytic assumptions."
+}

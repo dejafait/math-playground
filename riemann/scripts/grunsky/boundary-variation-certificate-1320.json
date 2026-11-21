@@ -1,0 +1,691 @@
+{
+  "status": "passed",
+  "checks": {
+    "tangent_numerators_match_1316": true,
+    "tangent_numerators_match_1318": true,
+    "pole_i_simple_base_root": true,
+    "pole_i_radial_vector": true,
+    "pole_i_implicit_velocity_residual": true,
+    "pole_i_reduced_radial_formula": true,
+    "pole_i_noncancellation_base": true,
+    "pole_minus_i_simple_base_root": true,
+    "pole_minus_i_radial_vector": true,
+    "pole_minus_i_implicit_velocity_residual": true,
+    "pole_minus_i_reduced_radial_formula": true,
+    "pole_minus_i_noncancellation_base": true,
+    "critical_plus1_simple_base_root": true,
+    "critical_plus1_radial_vector": true,
+    "critical_plus1_implicit_velocity_residual": true,
+    "critical_plus1_reduced_radial_formula": true,
+    "critical_plus1_noncancellation_base": true,
+    "critical_minus1_simple_base_root": true,
+    "critical_minus1_radial_vector": true,
+    "critical_minus1_implicit_velocity_residual": true,
+    "critical_minus1_reduced_radial_formula": true,
+    "critical_minus1_noncancellation_base": true,
+    "fixed_boxes_match_1314": true,
+    "all_boxes_positive": true,
+    "v0_positive": true,
+    "pole_i_strict_outward_bound": true,
+    "pole_minus_i_strict_outward_bound": true,
+    "critical_plus1_strict_outward_bound": true,
+    "critical_minus1_strict_outward_bound": true
+  },
+  "failures": [],
+  "scope": "u=400, C031c first tangent only, four simple base boundary roots; no global sufficiency",
+  "input_hashes": {
+    "scripts/grunsky/quadratic-defect-1314.py": "0a9e000d173bb46d843b98e7396e5c4316382211f554fd32e0a4d899d193c692",
+    "scripts/grunsky/quadratic-tangent-certificate-1316.json": "8763d198982268f592aa5931fc1ed6b927b508e0482696c59119fbe5a33314fa",
+    "scripts/grunsky/divided-residual-certificate-1318.json": "76e40a4ad7cdadaa27e4726070e15f4ae7c8c76d79ad7c15c516a20a4044eda0",
+    "scripts/grunsky/quadratic-defect-certificate-1314.json": "c7187283ff7ce6770508d0da97902e98b26177bfbc8ac9d8112f77e14c0bff63",
+    "scripts/grunsky/boundary-variation-1320.py": "764aa8187bdcf7f074cfc7c31ca2f91ac45aa1a41e887bd7f001037e5471df49"
+  },
+  "base_denominator": "1+z^2",
+  "base_derivative_numerator": "1-z^2",
+  "quotient_derivative_identity": "f'=(P-zP')/P^2; N=1-sum(j*b_j*z^(j+1))",
+  "input_boxes": {
+    "2": {
+      "lower": "7434519857/200000000000000",
+      "upper": "18586299643/500000000000000"
+    },
+    "3": {
+      "lower": "14417393139/100000000000000000",
+      "upper": "14417393141/100000000000000000"
+    },
+    "4": {
+      "lower": "3315158401/5000000000000000000",
+      "upper": "66303168031/100000000000000000000"
+    },
+    "5": {
+      "lower": "6427328297/2000000000000000000000",
+      "upper": "32136641527/10000000000000000000000"
+    },
+    "6": {
+      "lower": "3175386887/200000000000000000000000",
+      "upper": "3175386919/200000000000000000000000"
+    }
+  },
+  "v0_interval": {
+    "lower": "344562347730000/3315158401",
+    "upper": "6891246956460000/66303168031"
+  },
+  "radial_interval_components": {
+    "vC": {
+      "lower": "34456234773/500000000000000",
+      "upper": "344562347823/5000000000000000"
+    },
+    "v_squared_E": {
+      "lower": "3769921288945571953645823870223/21980550447441753602000000000000000",
+      "upper": "376992132897206054082437735337351/2198055045473510208480500000000000000"
+    },
+    "critical_common": {
+      "lower": "62759208209045245061408959975243/219805504474417536020000000000000000",
+      "upper": "1255184184075743443380113801371279/4396110090947020416961000000000000000"
+    },
+    "critical_odd": {
+      "lower": "4341639769316808601/20719740006250000000000",
+      "upper": "17366559112057961994897/82878960038750000000000000"
+    }
+  },
+  "roots": {
+    "pole_i": {
+      "base_root_re_im": [
+        "0",
+        "1"
+      ],
+      "root_equation_base_value_re_im": [
+        "0",
+        "0"
+      ],
+      "root_equation_z_derivative_re_im": [
+        "0",
+        "2"
+      ],
+      "real_dependent_Jacobian": [
+        [
+          "0",
+          "-2"
+        ],
+        [
+          "2",
+          "0"
+        ]
+      ],
+      "Jacobian_determinant": "4",
+      "tau_derivative_a_coefficients_re_im": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "root_velocity_a_coefficients_re_im": [
+        [
+          "0",
+          "-1/2"
+        ],
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "-1/2"
+        ]
+      ],
+      "squared_modulus_derivative_a_coefficients": [
+        "-1",
+        "0",
+        "1",
+        "0",
+        "-1"
+      ],
+      "radial_common_denominator": [
+        {
+          "powers": {
+            "C": 2
+          },
+          "coefficient": "2"
+        }
+      ],
+      "radial_numerator": [
+        {
+          "powers": {
+            "C": 2,
+            "E": 1
+          },
+          "coefficient": "25600000000"
+        },
+        {
+          "powers": {
+            "C": 3
+          },
+          "coefficient": "-320000"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 1,
+            "E": 1
+          },
+          "coefficient": "-320000"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 2
+          },
+          "coefficient": "2"
+        },
+        {
+          "powers": {
+            "A": 2,
+            "E": 1
+          },
+          "coefficient": "1"
+        }
+      ],
+      "reduction_residual": [],
+      "denominator_base_value_re_im": [
+        "0",
+        "0"
+      ],
+      "numerator_base_value_re_im": [
+        "0",
+        "1"
+      ],
+      "exact_radial_interval": {
+        "lower": "3702266307503012197938345134223/219805504474417536020000000000000000",
+        "upper": "14809066026791243859834520193529/879222018189404083392200000000000000"
+      },
+      "strict_simple_enclosure": {
+        "lower": "1/62500",
+        "upper": "9/500000"
+      }
+    },
+    "pole_minus_i": {
+      "base_root_re_im": [
+        "0",
+        "-1"
+      ],
+      "root_equation_base_value_re_im": [
+        "0",
+        "0"
+      ],
+      "root_equation_z_derivative_re_im": [
+        "0",
+        "-2"
+      ],
+      "real_dependent_Jacobian": [
+        [
+          "0",
+          "2"
+        ],
+        [
+          "-2",
+          "0"
+        ]
+      ],
+      "Jacobian_determinant": "4",
+      "tau_derivative_a_coefficients_re_im": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "root_velocity_a_coefficients_re_im": [
+        [
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "-1/2"
+        ],
+        [
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "squared_modulus_derivative_a_coefficients": [
+        "-1",
+        "0",
+        "1",
+        "0",
+        "-1"
+      ],
+      "radial_common_denominator": [
+        {
+          "powers": {
+            "C": 2
+          },
+          "coefficient": "2"
+        }
+      ],
+      "radial_numerator": [
+        {
+          "powers": {
+            "C": 2,
+            "E": 1
+          },
+          "coefficient": "25600000000"
+        },
+        {
+          "powers": {
+            "C": 3
+          },
+          "coefficient": "-320000"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 1,
+            "E": 1
+          },
+          "coefficient": "-320000"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 2
+          },
+          "coefficient": "2"
+        },
+        {
+          "powers": {
+            "A": 2,
+            "E": 1
+          },
+          "coefficient": "1"
+        }
+      ],
+      "reduction_residual": [],
+      "denominator_base_value_re_im": [
+        "0",
+        "0"
+      ],
+      "numerator_base_value_re_im": [
+        "0",
+        "-1"
+      ],
+      "exact_radial_interval": {
+        "lower": "3702266307503012197938345134223/219805504474417536020000000000000000",
+        "upper": "14809066026791243859834520193529/879222018189404083392200000000000000"
+      },
+      "strict_simple_enclosure": {
+        "lower": "1/62500",
+        "upper": "9/500000"
+      }
+    },
+    "critical_plus1": {
+      "base_root_re_im": [
+        "1",
+        "0"
+      ],
+      "root_equation_base_value_re_im": [
+        "0",
+        "0"
+      ],
+      "root_equation_z_derivative_re_im": [
+        "-2",
+        "0"
+      ],
+      "real_dependent_Jacobian": [
+        [
+          "-2",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      "Jacobian_determinant": "4",
+      "tau_derivative_a_coefficients_re_im": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-2",
+          "0"
+        ],
+        [
+          "-3",
+          "0"
+        ],
+        [
+          "-4",
+          "0"
+        ],
+        [
+          "-5",
+          "0"
+        ]
+      ],
+      "root_velocity_a_coefficients_re_im": [
+        [
+          "-1/2",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-3/2",
+          "0"
+        ],
+        [
+          "-2",
+          "0"
+        ],
+        [
+          "-5/2",
+          "0"
+        ]
+      ],
+      "squared_modulus_derivative_a_coefficients": [
+        "-1",
+        "-2",
+        "-3",
+        "-4",
+        "-5"
+      ],
+      "radial_common_denominator": [
+        {
+          "powers": {
+            "C": 2
+          },
+          "coefficient": "2"
+        }
+      ],
+      "radial_numerator": [
+        {
+          "powers": {
+            "C": 2,
+            "E": 1
+          },
+          "coefficient": "128000000000"
+        },
+        {
+          "powers": {
+            "C": 2,
+            "D": 1
+          },
+          "coefficient": "256000000"
+        },
+        {
+          "powers": {
+            "C": 3
+          },
+          "coefficient": "-320000"
+        },
+        {
+          "powers": {
+            "B": 1,
+            "C": 2
+          },
+          "coefficient": "-800"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 1,
+            "E": 1
+          },
+          "coefficient": "-1600000"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 1,
+            "D": 1
+          },
+          "coefficient": "-1600"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 2
+          },
+          "coefficient": "-2"
+        },
+        {
+          "powers": {
+            "A": 2,
+            "E": 1
+          },
+          "coefficient": "5"
+        }
+      ],
+      "reduction_residual": [],
+      "denominator_base_value_re_im": [
+        "2",
+        "0"
+      ],
+      "numerator_base_value_re_im": [
+        "1",
+        "0"
+      ],
+      "exact_radial_interval": {
+        "lower": "108817523586217469266574422378443/219805504474417536020000000000000000",
+        "upper": "10881752468087010066336840029007623/21980550454735102084805000000000000000"
+      },
+      "strict_simple_enclosure": {
+        "lower": "49/100000",
+        "upper": "51/100000"
+      }
+    },
+    "critical_minus1": {
+      "base_root_re_im": [
+        "-1",
+        "0"
+      ],
+      "root_equation_base_value_re_im": [
+        "0",
+        "0"
+      ],
+      "root_equation_z_derivative_re_im": [
+        "2",
+        "0"
+      ],
+      "real_dependent_Jacobian": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "Jacobian_determinant": "4",
+      "tau_derivative_a_coefficients_re_im": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "2",
+          "0"
+        ],
+        [
+          "-3",
+          "0"
+        ],
+        [
+          "4",
+          "0"
+        ],
+        [
+          "-5",
+          "0"
+        ]
+      ],
+      "root_velocity_a_coefficients_re_im": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "3/2",
+          "0"
+        ],
+        [
+          "-2",
+          "0"
+        ],
+        [
+          "5/2",
+          "0"
+        ]
+      ],
+      "squared_modulus_derivative_a_coefficients": [
+        "-1",
+        "2",
+        "-3",
+        "4",
+        "-5"
+      ],
+      "radial_common_denominator": [
+        {
+          "powers": {
+            "C": 2
+          },
+          "coefficient": "2"
+        }
+      ],
+      "radial_numerator": [
+        {
+          "powers": {
+            "C": 2,
+            "E": 1
+          },
+          "coefficient": "128000000000"
+        },
+        {
+          "powers": {
+            "C": 2,
+            "D": 1
+          },
+          "coefficient": "-256000000"
+        },
+        {
+          "powers": {
+            "C": 3
+          },
+          "coefficient": "-320000"
+        },
+        {
+          "powers": {
+            "B": 1,
+            "C": 2
+          },
+          "coefficient": "800"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 1,
+            "E": 1
+          },
+          "coefficient": "-1600000"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 1,
+            "D": 1
+          },
+          "coefficient": "1600"
+        },
+        {
+          "powers": {
+            "A": 1,
+            "C": 2
+          },
+          "coefficient": "-2"
+        },
+        {
+          "powers": {
+            "A": 2,
+            "E": 1
+          },
+          "coefficient": "5"
+        }
+      ],
+      "reduction_residual": [],
+      "denominator_base_value_re_im": [
+        "2",
+        "0"
+      ],
+      "numerator_base_value_re_im": [
+        "-1",
+        "0"
+      ],
+      "exact_radial_interval": {
+        "lower": "1107322098088287060116652855543619386104581/14573801297306028231587054976620000000000000000",
+        "upper": "1107322168456948704308212420884064723915119/14573801299723888781206782039361000000000000000"
+      },
+      "strict_simple_enclosure": {
+        "lower": "7/100000",
+        "upper": "9/100000"
+      }
+    }
+  },
+  "inward_threshold": "strictly less than 0",
+  "conclusion": "No inward first variation: all four derivatives strictly positive. Whole-disk univalence undecided.",
+  "inherited_contracts": "fixed1307 actual inclusion and L019,L021,L025,L027,L036,L037,L917; Decimal qualifications retained"
+}
