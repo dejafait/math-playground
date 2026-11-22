@@ -1,5 +1,11 @@
 ARCHIVE_TAG ?= research-snapshot-2026-11-22
 .PHONY: math-stop math-plan-progress math-save-progress math-archive math-archive-check math-save-archive math-archive-upload math-archive-remote-check
+.PHONY: math-save-storage-policy
+math-save-storage-policy:
+	git -C "$(ROOT)" diff --cached --quiet
+	git -C "$(ROOT)" add -- .gitignore riemann/scripts/.gitignore README.md scripts/maintenance/research-archive.md mk/archive.mk
+	git -C "$(ROOT)" diff --cached --check
+	git -C "$(ROOT)" commit -m "Keep bulky generated research results local and cancel GitHub archive publication"
 math-stop:
 	$(PYTHON) -B "$(ROOT)/scripts/maintenance/archive_project.py" stop
 math-plan-progress:

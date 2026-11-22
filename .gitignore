@@ -1,5 +1,5 @@
-# Repository hygiene: version proof evidence; ignore disposable workspace.
-# Preserve certificates regardless of size, format or reproducibility.
+# Repository hygiene: retain code, mathematical text and compact evidence.
+# Bulky generated results may remain local under the November 22 storage policy.
 # External pre-rewrite recovery bundle and maps stay local.
 /.history-backups/
 
@@ -46,7 +46,8 @@ node_modules/
 .run-logs/
 .cache/
 
-# Proof evidence is tracked regardless of extension, size or reproducibility.
+# Compact proof evidence is tracked; there is no blanket JSON exclusion.
+# Exact bulky generated paths are listed in riemann/scripts/.gitignore.
 # Recommended tracked folders: certificates/, inputs/, fixtures/ and reports/.
 # No blanket *.json, *.txt, output-*, step-* or certificate-name exclusions.
 # Existing legacy certificate paths stay tracked without being moved first.
